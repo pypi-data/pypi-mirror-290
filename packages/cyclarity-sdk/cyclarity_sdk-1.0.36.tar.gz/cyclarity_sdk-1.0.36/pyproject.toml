@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cyclarity-sdk"
+version = "1.0.36"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonschema = "*"
+cwe2 = "*"
+awscrt = "*"
+awsiotsdk = "*"
+pydantic="2.4.*"
+twine = "*"
+docutils = "*"
+awscli = "*"
+clarity-common = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
