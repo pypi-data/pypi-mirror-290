@@ -1,0 +1,95 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@2.1.1
+  codecov: codecov/codecov@3.2.3
+
+jobs:
+  build:
+    docker:
+      - image: cimg/python:3.10.2
+
+    resource_class: small
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: build_requirements.txt
+      - run:
+          name: Build library
+          command: python3 -m build
+      - store_artifacts:
+          path: dist/
+
+  unittest:
+    docker:
+      - image: cimg/python:3.10.2
+
+    resource_class: small
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: test_requirements.txt
+
+      - run:
+          name: run unittests
+          command: pytest --cov-report html --cov=PyStageLinQ --cov-branch -v --junitxml=tests/results/unit/results.xml
+
+      - codecov/upload
+
+      - store_artifacts:
+          path: htmlcov/
+
+      - store_test_results:
+          path: tests/results
+
+
+  build-and-publish:
+    docker:
+      - image: cimg/python:3.10.2
+
+    resource_class: small
+
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: build_requirements.txt
+      - run:
+          name: build and publish release
+          command: bash make_release.sh ${PyPiToken}
+      - store_artifacts:
+          path: dist/
+
+workflows:
+  commit:
+    jobs:
+      - unittest:
+          filters:
+            tags:
+              ignore:
+                /^[0-9]+(\.[0-9]+)*$/
+              
+      - build:
+          requires:
+            - unittest
+          filters:
+            tags:
+              ignore:
+                /^[0-9]+(\.[0-9]+)*$/
+            branches:
+              only:
+                - main
+
+  release:
+    jobs:
+      - build-and-publish:
+          filters:
+            tags:
+              only:
+                /^[0-9]+(\.[0-9]+)*$/
+            branches:
+              ignore: /.*/
+          context:
+            PyPi
