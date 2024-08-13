@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: regexable
+Version: 0.1.0
+Summary: A more readable alternative to regular expressions.
+Home-page: https://github.com/yourusername/regexable
+Author: Orion Forowycz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Regexable
+
+Regexable is a Python package designed to simplify the creation and management of regular expressions by providing an intuitive, readable, and chainable interface. It aims to make working with regex easier for both beginners and experienced developers.
+
+## Features
+
+- Chainable methods for constructing regex patterns
+- Modifiers for case-insensitive, global search, and multiline modes
+- Assertions and repetitions
+- Grouping and range matching
+- Utilities for matching, searching, finding all matches, and substituting text
+
+## Installation
+
+Install Regexable via pip:
+
+```sh
+pip install regexable
