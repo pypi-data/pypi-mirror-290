@@ -1,0 +1,257 @@
+# botoplier 🚀
+
+[![PyPI - Version](https://img.shields.io/pypi/v/botoplier)](https://pypi.org/project/botoplier/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/botoplier)](https://pypi.org/project/botoplier/) [![PyPI - License](https://img.shields.io/pypi/l/botoplier)](https://github.com/ManoManoTech/botoplier/blob/main/LICENSE) [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev) [![types - Mypy](https://img.shields.io/badge/types-Mypy-blue.svg)](https://github.com/python/mypy) [![Hatch project](https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg)](https://github.com/pypa/hatch) [![linting - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v0.json)](https://github.com/astral-sh/ruff)
+
+Enhance your AWS API interactions using `botoplier`, a Python library built on top
+of [boto3](https://github.com/boto/boto3) and [botocore](https://github.com/boto/botocore), facilitating simplified API
+operations through automated fetch, session management, and data handling features.
+
+## Features
+
+- **Response un-nesting:** Specify the nested attribute you're interested in, and let botoplier pull it from the results
+  for you.
+- **Seamless pagination:** Pagination is handled transparently - all results will be fetched when pagination is
+  required.
+- **Multi-session management:** Convenient management of multiple AWS sessions.
+- **Asyncio support:** Can be used synchronously or asynchronously with `asyncio` [1].
+- **Simple** It's not complex!
+-
+    - Way under 1K LOC. You can read it all in an hour.
+
+[1] : botocore still does not support asynchronous I/O per-se, so the concurrency support relies on asyncio thread pools
+at this time.
+
+## Installation
+
+Botoplier is distributed on [PyPI](https://pypi.org/project/botoplier/), and can be installed
+with `pip`, `poetry`, `pdm`, or any other Python package manager:
+
+```bash
+pip install botoplier
+```
+
+## `smart_query`
+
+### Basic examples
+
+```python
+from botoplier.sync.smart_query import smart_query
+
+# Describe all EC2 instances across multiple sessions and regions
+result = smart_query("ec2", "describe_instances")
+```
+
+NB: The API names are `kebab-cased` while the operation names are `snake_cased`, which is in line with boto3.
+
+### Result shape and un-nesting
+
+The `smart_query` function automatically processes and simplifies the response structure from AWS services. It neatly
+organizes deeply nested data into a more readable and usable format.
+
+### Pagination detection
+
+`smart_query` automatically detects and handles API pagination, ensuring that all data across pages is fetched and
+returned as a single cohesive response.
+
+## Multi-session / Parallelism
+
+`botoplier` was initially developed not just to reduce boilerplate around boto3 calls, but also to simplify querying
+several accounts at once.
+
+### Creating / Configuring multi-session
+
+You can create and configure multi-sessions to simultaneously work across different AWS accounts and regions:
+
+```python
+from botoplier.sync.sessions import make_sessions
+
+sessions = make_sessions({"account1": "123456789012"}, ["us-west-2", "us-east-1"], {"account1": "roleName"})
+```
+
+The above assumes that the "ambient" AWS account is able to assume the provided roles in the matching accounts.
+
+`make_sessions` produces a dictionary keyed by "session key" strings, for each of which a `DecoratedSession` is
+attached.
+
+The sessions are cached on-disk for as long as the credentials are valid.
+
+### Bring your own sessions
+
+#### `DecoratedSession`
+
+A `DecoratedSession` is essentially a regular `botocore` session, with a smidge of extra information that allows the
+recompute "session keys" from it. A "session key" is a unique string identifier for the session, which is somewhat human
+readable, and machine parsable, like "eu-west-3-prd".
+
+#### Using your own sessions
+
+It's quite possible your AWS authentication setup is more complicated than ours, and that our default `make_sessions()`
+helper is inappropriate as a result. You can bring your own sessions by passing
+any `dict[SessionKey, DecoratedSession]`.
+
+~~~python
+from botoplier.types import DecoratedSession
+
+# the botocore_session argument is key here
+# NB: DecoratedSession inherits from boto3.Session, so you may use any of its init parameters
+ds = DecoratedSession(botocore_session=..., region_name="eu-west-3")
+ds.set_arn_from_sts()  # You can also do this manually using .set_arn()
+~~~
+
+### Parallel calls with `gather_dict`
+
+Use `gather_dict` to await a dictionary of future results. It works nicely with session
+dictionaries such as the ones provided by `make_sessions` like so:
+
+```python
+from botoplier.asyncio import smart_query, make_sessions, gather_dict
+
+
+async def in_async():
+    sessions = await make_sessions({"account1": "123456789012"}, ["us-west-2", "us-east-1"], {"account1": "roleName"})
+    results = await gather_dict({
+        sk: smart_query("s3", "list_buckets", session=session)
+        for sk, session in sessions.items()
+    })
+```
+
+`smart_query`, `make_sessions` and `gather_dict` is the `botoplier` trifecta. There is not much more to it - it's just
+boto3, but nicer.
+
+## Environment variables
+
+### Changing the environment variable prefix
+
+If you're writing a tool that uses botoplier, it is sometimes more expedient to
+change the recognized prefix for environment variables, which defaults to `BOTOPLIER`.
+
+In your `src/__init__.py`, or before any botoplier import:
+
+```python
+import botoplier.config
+
+botoplier.config.PREFIX = "MYTOOL"
+```
+
+### CLI Usage
+
+Botoplier ships with a simple CLI to easily inspect the output shape of AWS APIs.
+
+#### Discovering default output shape
+
+```shell
+$ AWS_DEFAULT_REGION=eu-west-3 botoplier output-shape ec2 describe_host_reservations
+
+DescribeHostReservationsResult (structure)
+└── HostReservationSet: HostReservationSet (list)
+    └── HostReservation (structure)
+        ├── Count: Integer (integer)
+        ├── CurrencyCode: CurrencyCodeValues (string)
+        ├── Duration: Integer (integer)
+        ├── End: DateTime (timestamp)
+        ├── HostIdSet: ResponseHostIdSet (list)
+        │   └── String (string)
+        ├── HostReservationId: HostReservationId (string)
+        ├── HourlyPrice: String (string)
+        ├── InstanceFamily: String (string)
+        ├── OfferingId: OfferingId (string)
+        ├── PaymentOption: PaymentOption (string)
+        ├── Start: DateTime (timestamp)
+        ├── State: ReservationState (string)
+        ├── Tags: TagList (list)
+        │   └── Tag (structure)
+        │       ├── Key: String (string)
+        │       └── Value: String (string)
+        └── UpfrontPrice: String (string)
+
+Tree size: 21
+First branching node:  .HostReservationSet[]
+```
+
+The output here indicates the default un-nesting `smart_query` will adopt when calling this API. This expression means a
+list of `HostReservation` dicts will be returned, avoiding the need to manually read through the `HostReservationSet`
+field present at the top level of the response.
+
+#### Discovering the shape with a hint
+
+Doing a similar invocation with an extra argument explores the shape when giving a different `unnest=` parameter.
+
+~~~bash
+$ AWS_DEFAULT_REGION=eu-west-3 botoplier output-shape ec2 describe_host_reservations Tags
+
+DescribeHostReservationsResult (structure)
+└── HostReservationSet: HostReservationSet (list)
+    └── HostReservation (structure)
+        ├── Count: Integer (integer)
+        ├── CurrencyCode: CurrencyCodeValues (string)
+        ├── Duration: Integer (integer)
+        ├── End: DateTime (timestamp)
+        ├── HostIdSet: ResponseHostIdSet (list)
+        │   └── String (string)
+        ├── HostReservationId: HostReservationId (string)
+        ├── HourlyPrice: String (string)
+        ├── InstanceFamily: String (string)
+        ├── OfferingId: OfferingId (string)
+        ├── PaymentOption: PaymentOption (string)
+        ├── Start: DateTime (timestamp)
+        ├── State: ReservationState (string)
+        ├── Tags: TagList (list)
+        │   └── Tag (structure)
+        │       ├── Key: String (string)
+        │       └── Value: String (string)
+        └── UpfrontPrice: String (string)
+
+Tree size: 21
+First branching node:  .HostReservationSet[]
+Key Tags lookup path:  .HostReservationSet[].Tags 
+~~~
+
+Note the `Key Tags lookup path` at the end. One can understand that by passing `unnest="Tags"` to `smart_query`, one
+will receive a list of list of tag dicts as a result.
+
+## Contributing
+
+We value contributions from the community! Please read our [Contributing Guidelines](./CONTRIBUTING.md) and
+our [Code of Conduct](./.github/CODE_OF_CONDUCT.md) for information on how to get involved.
+
+### Quick setup guide
+
+We use [mise](https://mise.jdx.dev/) and [PDM](https://pdm-project.org/) for local development.
+
+With these installed:
+
+```bash
+mise install
+pdm install
+pdm run botoplier --help # Test the installation of the CLI
+pdm build # Build the package wheel and sdist
+pdm run pytest # Run the tests
+# etc...
+```
+
+We use [pre-commit](https://pre-commit.com/#install) hooks to ensure code quality.
+
+## Supported versions
+
+We currently support Python 3.9, 3.10, 3.11 and 3.12.
+
+We may drop the support for a Python version before its end of life, to keep the codebase up to date with the latest
+Python features: i.e.: we will endeavor to support either the last 3 or 4 stable Python releases.
+
+We don't plan to support earlier versions or different runtimes, but contributions are welcome.
+
+### Roadmap
+
+Syntax and advance type-hinting tricks are areas we'd like to improve.
+
+The multi-region / multi-account support takes some of the tedium away. We're open
+to improving this aspect further should an interested party come up with something.
+
+Outside of this, we're happy with the limited scope of this library and are unlikely to
+accept contributions widening its scope.
+
+### TODO
+
+- [ ] Replace `jq` by `jmespath` for un-nesting
+- [ ] Rename `smart_query` module to query module, to avoid confusion with `smart_query` function
+- [ ] Proper online documentation, with published object inventory
