@@ -1,0 +1,8 @@
+pikepdf>=9.1.1
+tqdm
+PyYAML
+
+[dev]
+pytest
+pre-commit
+black
