@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name ="KRidge_GIN"    
+version = "1.0.0"
+authors = [
+  { name="Iman Ahmadianfar", email="im.ahmadian@gmail.com" },
+]
+description = "Kernel Ridge Regression Optimized by GBO, INFO, and RUN Algorithms (GIN)"
+readme = "README.md"
+license = {file="LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://www.mathworks.com/matlabcentral/profile/authors/13490648"
+"Bug Tracker" = "https://github.com/ImanAhm"
