@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+dcp_vga/__init__.py
+dcp_vga.egg-info/PKG-INFO
+dcp_vga.egg-info/SOURCES.txt
+dcp_vga.egg-info/dependency_links.txt
+dcp_vga.egg-info/top_level.txt
+dcp_vga/src/__init__.py
+dcp_vga/src/vga.py
+dcp_vga/src/models/__init__.py
+dcp_vga/src/operations/__init__.py
+dcp_vga/src/operations/crossover.py
+dcp_vga/src/operations/mutations.py
+dcp_vga/src/operations/selection.py
