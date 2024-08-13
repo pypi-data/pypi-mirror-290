@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rtfuc
+Version: 1.0
+Summary: Improves RTF files for catdoc and unrtf
+Home-page: UNKNOWN
+Author: Silas S. Brown
+Author-email: ssb22@cam.ac.uk
+License: Apache 2
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Removes unnecessary uc1 codes from RTF files (to work around catdoc issue described by Ubuntu bug 2076244) and provides better ASCII fallback characters when possible (e.g. for unrtf --text)
+
