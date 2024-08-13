@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "quick-api-tests"
+version = "0.2.1"
+description = ""
+authors = ["Menshikov Valeriy Sergeevich <valeriy.menshikov.1989@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "quick_api_tests" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+py-linq = "^1.4.0"
+jinja2 = "^3.1.3"
+structlog = "^24.1.0"
+sqlalchemy = "^2.0.29"
+sqlmodel = "^0.0.18"
+grpcio-tools = "^1.63.0"
+grpcio = "^1.63.0"
+grpcio-status = "^1.63.0"
+inflection = "^0.5.1"
+datamodel-code-generator = {extras = ["http"], version = "^0.25.6"}
+toml = "^0.10.2"
+grpcio-reflection = "^1.63.0"
+pydantic = "^2.7.1"
+black = "^24.4.2"
+ruff = "^0.4.8"
+httpx = "^0.27.0"
+curlify2 = "^2.0.0"
+colorama = "^0.4.6"
+loguru = "^0.7.2"
+orjson = "^3.10.5"
+pydantic-settings = "^2.3.4"
+
+
+[tool.poetry.scripts]
+quick = "quick_api_tests.cli.main:cli"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
