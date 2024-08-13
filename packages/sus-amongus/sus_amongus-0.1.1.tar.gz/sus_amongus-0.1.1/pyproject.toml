@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "sus_amongus"
+version = "0.1.1"
+authors = [
+  { name="unnamed7353", email="unnamed7353@gmail.com" },
+]
+description = "useful for identifying sussy bakas ඞ"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
