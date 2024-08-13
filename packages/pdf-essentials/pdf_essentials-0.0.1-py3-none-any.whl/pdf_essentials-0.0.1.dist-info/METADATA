@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: pdf-essentials
+Version: 0.0.1
+Summary: A lightweight Python library for easy access to essential pdf functions
+Project-URL: Homepage, https://github.com/Halvani/pdf-essentials
+Project-URL: Bug Tracker, https://github.com/Halvani/pdf-essentials/issues
+Author: Oren Halvani
+License-File: LICENSE
+Keywords: anonymizing,chunking,highlighting,metadata,page-numbers,pdf-manipulation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Requires-Dist: fitz==0.0.1.dev2
+Requires-Dist: pikepdf==9.1.1
+Requires-Dist: pypdf2==3.0.1
+Requires-Dist: reportlab==4.2.2
+Requires-Dist: webcolors==1.13
+Description-Content-Type: text/markdown
+
+# pdf-essentials
+A lightweight Python library for easy access to essential pdf functions
