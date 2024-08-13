@@ -1,0 +1,24 @@
+# pylint: disable=import-error
+from setuptools import setup, find_packages
+
+setup(
+    name='ipulse_shared_data_eng_ftredge',
+    version='2.1.1',
+    package_dir={'': 'src'},  # Specify the source directory
+    packages=find_packages(where='src'),  # Look for packages in 'src'
+    install_requires=[
+        # List your dependencies here
+        'python-dateutil~=2.8',
+        'pytest~=7.1',
+        'ipulse_shared_core_ftredge>=1.1.1',
+        'ipulse_shared_enums>=1.1.1',
+        'google-cloud-bigquery~=3.24.0',
+        'google-cloud-storage~=1.41.1',
+        'google-cloud-pubsub~=2.7.0',
+        'google-cloud-secret-manager~=2.7.0'
+        
+    ],
+    author='Russlan Ramdowar',
+    description='Shared Data Engineering functions for the Pulse platform project. Using AI for financial advisory and investment management.',
+    url='https://github.com/TheFutureEdge/ipulse_shared_data_eng'
+)
