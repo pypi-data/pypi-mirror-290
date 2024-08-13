@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#SBATCH --nodes=1
+#SBATCH -p gracehopper
+#SBATCH --gres=gpu:1
+#SBATCH --account=ccv-gh200-gcondo
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=40G
+#SBATCH -t 01:00:00
+#SBATCH -e %j.err
+#SBATCH -o %j.out
+
+unset LD_LIBRARY_PATH
+export APPTAINER_BINDPATH="/oscar/home/michaeltu, /oscar/scratch/michaeltu, /oscar/data"
+export APPTAINER_CACHEDIR=/tmp
+
+echo $SLURM_JOBID
+
+srun apptainer exec --nv /oscar/data/shared/eval_gracehopper/container_images/MLPerf/arm64/mlperf-bert-99-pytorch-arm64 sh << 'EOF'
+export CM_REPOS=/tmp/CM
+cp -r /CM /tmp/.
+
+cm run script "get generic-sys-util _wget" --env.CM_SUDO=""
+cmr "run mlperf inference generate-run-cmds _submission" --quiet --submitter="MLCommons" --hw_name=default --model=bert-99 --implementation=reference --backend=pytorch --device=cuda --scenario=Offline --adr.compiler.tags=gcc --target_qps=1 --category=edge --division=open --results_dir=/home/michaeltu/dev/CCV/gracehopper_eval/python-scripts/src/results
+EOF
+
+mv *.out /home/michaeltu/dev/CCV/gracehopper_eval/python-scripts/src/slurm_out
+mv *.err /home/michaeltu/dev/CCV/gracehopper_eval/python-scripts/src/slurm_err

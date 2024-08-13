@@ -1,0 +1,3 @@
+RUN_ID,BENCHMARK,MODEL,BACKEND,ARCH,NODE
+1,MLPerf-Inference,bert-99,pytorch,arm64-gracehopper,gpu****
+2,MLPerf-Inference,resnet50,tf,arm64-gracehopper,gpu****
