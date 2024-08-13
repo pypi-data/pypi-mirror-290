@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: pro-website-maker
+Version: 0.5.0
+Summary: A command-line interface tool to make a professional HTML website from YAML files.
+Project-URL: Homepage, https://github.com/d3987ef8/pwm
+Project-URL: Issues, https://github.com/d3987ef8/pwm/issues
+Author-email: Jack Murray <info@jackmurray.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: jinja2
+Requires-Dist: markdown
+Requires-Dist: pyyaml
+Description-Content-Type: text/markdown
+
+# pro-website-maker (pwm)
+
+This is a Python package that provides the CLI script `pwm` ("Professional Website Maker").
+
+## Documentation
+
+### Installation
+
+    pip install pro-website-maker
+
+### Usage
+
+    pwm
+
+### Examples/Bootstrapping
+
+See the `examples` directory in this repository.
+
+## Memorial
+
+This project is made with my father in mind, Paul White Murray, who passed away around 2015.
+
+## Dependencies
+
+This project depends on:
+
+- The Jinja2 Python package.
+- The pyyaml Python package.
+- The markdown Python package.
+- FormSubmit, a service provided by Devro LABS.
