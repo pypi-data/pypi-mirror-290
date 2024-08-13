@@ -1,0 +1,86 @@
+stages:
+  - test
+  - publish-test
+  - publish-real
+
+.test-template: &test-template
+  stage: test
+  script:
+    - '[ -f src/logstruct/py.typed ]'  # Typing marker must exist.
+    - pip install .
+    # Ensure no dependencies required to import the project
+    - python -c 'import logstruct'
+    - pip install .[dev]
+    - ruff format --check --diff
+    - ruff check .
+    - mypy .
+    # Build and ensure the dist directory was created.
+    - '[ ! -d dist ]'
+    - python -m build
+    - '[ -d dist ]'
+    # Install the packaged project and make sure we're not importing code from the directory.
+    - rm src -r
+    - 'pip install dist/logstruct-*.tar.gz'
+    - py.test -vv -s --durations=0 tests/
+    - ./demo.py
+    - ./demo_config.py
+    - ./demo_custom.py
+    - ./demo_context.py
+    - ./demo_dev_mode.py
+    - DEBUG=1 ./demo_dev_mode.py
+
+test-3.9:
+  image: python:3.9-slim-bookworm
+  <<: *test-template
+
+test-3.10:
+  image: python:3.10-slim-bookworm
+  <<: *test-template
+
+test-3.11:
+  image: python:3.11-slim-bookworm
+  <<: *test-template
+
+test-3.12:
+  image: python:3.12-slim-bookworm
+  <<: *test-template
+
+
+.publish-template: &publish-template
+  image: python:3.12-slim-bookworm
+  script:
+    - apt update && apt install git --no-install-recommends -y
+    - pip install twine build
+    - python3 -m build --sdist --wheel
+    - ls dist
+    - 'twine check dist/*'
+    - |
+      PYTHONPATH="$PWD/src" python3 -c '
+      from os import environ
+      from logstruct import __version__
+
+      ci_tag = environ.get("CI_COMMIT_TAG")
+      if ci_tag is not None:
+          assert __version__ == ci_tag, f"{__version__=} must match the {ci_tag=}"'
+    - 'twine upload --verbose --skip-existing dist/*'
+
+
+publish-test-pypi:
+  stage: publish-test
+  <<: *publish-template
+  variables:
+    TWINE_REPOSITORY: testpypi
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $TESTPYPI_TWINE_PASSWORD
+
+publish-real-pypi:
+  stage: publish-real
+  when: manual
+  only:
+    - tags
+    - web
+  <<: *publish-template
+  variables:
+    TWINE_REPOSITORY: pypi
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $REALPYPI_TWINE_PASSWORD

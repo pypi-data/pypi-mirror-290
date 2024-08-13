@@ -1,0 +1,87 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logstruct"
+authors = [
+    {name = "Karoline Pauls", email = "code@karolinepauls.com"},
+]
+description = "Structured stdlib logging"
+readme = "README.rst"
+requires-python = ">=3.9"
+keywords = ["logging", "structured", "stdlib"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 1 - Planning",
+]
+dependencies = []
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+version_file = "src/logstruct/_version.py"
+fallback_version = "0.0.0"  # do not depend on git in testing
+# For non-tag builds, will create versions like <last_tag>.post<commits_since>, e.g. 0.2.post10
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+
+[project.optional-dependencies]
+dev = [
+    "mypy~=1.11.1",
+    "pytest~=8.3.2",
+    "pytest-asyncio~=0.23.8",
+    "ruff~=0.5.6",
+    "freezegun~=1.5.1",
+    "types-setuptools~=71.1.0.20240726",
+    "build~=1.2.1",
+]
+
+
+[tool.mypy]
+python_version=3.9
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+exclude = [
+    '^build/*.',
+    '^dist/*.',
+    '^venv/*.',
+]
+
+[tool.ruff]
+src = ["src"]
+line-length = 110
+indent-width = 4
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # pydocstyle
+    "D",
+]
+ignore = [
+    "D203",  # blank-line-before-class
+    "D213",  # multi-line-summary-second-line
+]
+[tool.ruff.lint.per-file-ignores]
+"test_*" = [
+    "D100",
+    "D103",
+]
+
+[tool.ruff.format]
+docstring-code-format = true
+preview = true

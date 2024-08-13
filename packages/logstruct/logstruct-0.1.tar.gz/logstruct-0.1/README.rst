@@ -1,0 +1,58 @@
+logstruct
+=========
+
+Everything you need to turn Python stdlib logging into a proper structured logging library. Rather
+than fighting ``logging``, let's live with it.
+
+.. code:: python
+
+    import logging
+    import logstruct
+
+    logging.basicConfig(level=logging.INFO)
+    logging.root.handlers[0].formatter = logstruct.StructuredFormatter()
+
+    log = logstruct.getLogger(__name__)
+    log.info("An info message with data as kwargs", key1="val1", unrepresentable_data=object())
+
+    with logstruct.context_scope(worker_number=1):
+        log.info("Running job", job_name="something")
+
+Features
+--------
+
+- Designed to be easy to introduce to existing projects and teams that use stdlib logging. Adding and
+  configuring this library takes a fraction of the time needed to understand structlog.
+- It will work well with any 3rd party libraries that integrate with ``logging``, e.g. Sentry.
+- ``StructuredLogger`` - a minimal logger shim to merge log call kwargs into the ``extra`` dict. You can still
+  use stdlib loggers - the only difference is having to manually pass arbitrary key-value arguments into the
+  ``extra`` dict.
+- ``StructuredFormatter`` - a formatter writing log records as JSON or any other format, depending on the
+  config.
+- Console stdout output mode - see ``demo_dev_mode.py``.
+- ``context_scope``, ``add_context``, ``remove_context`` - task-safe context vars stack.
+
+Design principles
+-----------------
+
+#. Play well with ``logging``.
+#. Be small.
+
+Considerations
+--------------
+
+If the standard logging library adds a new kwarg to log methods, e.g. ``logging.Logger.info``, this kwarg,
+when passed to ``StructuredLogger``, will be merged into the ``extra`` dict until it is added to
+``StructuredLogger`` methods. Using ``StructuredLogger`` is optional.
+
+Logging integrations that rely on monkey-patching ``logging.Formatter.format`` won't see it called because
+``StructuredFormatter`` doesn't call this method. Such reliance is extremely unlikely.
+
+Development
+-----------
+
+.. code:: sh
+
+    pip install --editable .[dev]
+
+British English is used in the project, out of fear of losing my settled status.
