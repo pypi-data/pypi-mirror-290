@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: syndat
+Version: 0.9.1
+Summary: A library for evaluation & visualization of synthetic data.
+Home-page: https://github.com/SCAI-BIO/syndat
+Author: Tim Adams
+Author-email: tim.adams@scai.fraunhofer.de
+License: CC BY-NC-ND 4.0.
+Project-URL: Documentation, https://github.com/SCAI-BIO/syndat#readme
+Project-URL: Source, https://github.com/SCAI-BIO/syndat
+Project-URL: Tracker, https://github.com/SCAI-BIO/syndat/issues
+Keywords: synthetic-data,data-quality,data-visualization
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas~=2.1.4
+Requires-Dist: numpy~=1.26.2
+Requires-Dist: scipy~=1.11.4
+Requires-Dist: scikit-learn~=1.5.1
+Requires-Dist: matplotlib~=3.8.2
+Requires-Dist: seaborn~=0.13.0
+Requires-Dist: setuptools==70.0.0
+
+A library for evaluation & visualization of synthetic data.
