@@ -1,0 +1,5 @@
+[console_scripts]
+dduk-app = dduk.application.command:Main
+dduk-application = dduk.application.command:Main
+ddukapp = dduk.application.command:Main
+ddukapplication = dduk.application.command:Main
