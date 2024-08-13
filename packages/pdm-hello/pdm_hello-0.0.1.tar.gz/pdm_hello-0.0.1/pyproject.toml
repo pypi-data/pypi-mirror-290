@@ -1,0 +1,22 @@
+[project]
+name = "pdm-hello"
+version = "0.0.1"
+description = "buat hello library"
+authors = [
+    { name = "Ircham Aji Nugroho", email = "irchamajin@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
