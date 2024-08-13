@@ -1,0 +1,28 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+  tags:
+    # Not version tag, to avoid re-bumping
+    - '!v*'
+
+      
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    concurrency: bump
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: {% raw %}${{ secrets.RELEASE }}{% endraw %}
+
+      - name: Python Semantic Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@v9.1.0
+        with:
+          github_token: {% raw %}${{ secrets.RELEASE }}{% endraw %}

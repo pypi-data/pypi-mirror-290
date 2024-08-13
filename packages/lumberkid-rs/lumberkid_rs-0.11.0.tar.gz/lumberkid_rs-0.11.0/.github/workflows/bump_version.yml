@@ -1,0 +1,27 @@
+name: Bump
+on:
+  push:
+    branches:
+      - main
+    tags:
+      # Not version tag, to avoid re-bumping
+      - "!v*"
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    concurrency: bump
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.RELEASE }}
+
+      - name: Python Semantic Release
+        id: release
+        uses: python-semantic-release/python-semantic-release@v9.1.0
+        with:
+          github_token: ${{ secrets.RELEASE }}
