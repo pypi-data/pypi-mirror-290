@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VerityPy"
+version = "2024.1.21"
+authors = [{name = "Geoffrey Malafsky", email = "gmalafsky@technikinterlytics.com"}]
+description = "VerityPy is a library by Technik Interlytics for Better Data = Better Decisions. It is a Data Inspector, Remediator, Normalizer on large structured data sets. It combines curated human expert knowledge gained from in-depth forensic analysis and remediating data in many fields, with Machine Learning pattern extraction results to know where to look, what to look for, and what to do about problems found lurking deep within huge data sets."
+readme = "README.rst"
+license = {file = "LICENSE"}
+keywords = ["data quality","data profiling","data enrichment","data normalization",
+    "data remediation","human data expert","data intelligence","embedded delimiter",
+    "data cleaning","data veracity","data prep", "data wrangling",
+    "data forensics","data remediation","data science","data blending",
+    "structured data","metadata","broken records","parsing error"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Free for non-commercial use",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://technikinterlytics.com"
+Documentation = "https://technikinterlytics.com/VerityPy/"
+
+[tool.setuptools.packages]
+find = {namespaces = false}
