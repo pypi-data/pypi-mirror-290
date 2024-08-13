@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: azure_teams_bot
+Version: 0.0.1
+Summary: Azure Teams Bot is a Facility for deploying MS Teams Bots. Using Azure Bot Framework.
+Home-page: https://github.com/phenobarbital/azure_teambots
+Author: Jesus Lara
+Author-email: "Jesus Lara G." <jesuslarag@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/phenobarbital/azure_teambots
+Project-URL: Tracker, https://github.com/phenobarbital/azure_teambots/issues
+Project-URL: Documentation, https://github.com/phenobarbital/azure_teambots/
+Project-URL: Funding, https://paypal.me/phenobarbital
+Project-URL: Say Thanks!, https://saythanks.io/to/phenobarbital
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9.16
+Description-Content-Type: text/markdown
+Requires-Dist: transitions==0.9.0
+Requires-Dist: botbuilder-core==4.16.1
+Requires-Dist: botbuilder-integration-aiohttp==4.16.1
+Requires-Dist: botbuilder-schema==4.16.1
+Requires-Dist: botbuilder-dialogs==4.16.1
+Requires-Dist: helpers==0.2.0
+Requires-Dist: python-datamodel>=0.6.28
+Requires-Dist: navconfig>=1.7.0
+Requires-Dist: navigator-api>=2.10.0
+
+# Azure Teams Bot
+Facility for deploying Azure MS Teams bot using Azure Bot Framework.
