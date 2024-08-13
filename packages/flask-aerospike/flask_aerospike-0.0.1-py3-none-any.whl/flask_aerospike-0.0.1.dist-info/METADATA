@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: flask-aerospike
+Version: 0.0.1
+Summary: Flask extension that provides integration with Aerospike.
+Author-email: Ido Shraga <idoshraga@gmail.com>
+Maintainer-email: Ido Shraga <idoshraga@gmail.com>
+License: BSD 3-Clause License
+Project-URL: Homepage, https://github.com/idoshr/flask-aerospike
+Project-URL: Documentation, https://flask-aerospike.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/idoshr/flask-aerospike
+Project-URL: Changelog, https://github.com/idoshr/flask-aerospike/releases
+Keywords: flask,forms,aerospike,extension
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Flask
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: AUTHORS.md
+Requires-Dist: Flask>=2.2
+Requires-Dist: aerospike
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: black==24.4.2; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-mock; extra == "dev"
+Requires-Dist: nox; extra == "dev"
+
+# Flask-Aerospike
+
+[![PyPI version](https://badge.fury.io/py/flask-aerospike.svg)](https://badge.fury.io/py/flask-aerospike)
+[![CI Tests](https://github.com/idoshr/flask-aerospike/actions/workflows/test.yml/badge.svg)](https://github.com/flask/flask-aerospike/actions/workflows/test.yml)
+[![Documentation Status](https://readthedocs.org/projects/flask-aerospike/badge/?version=latest)](https://flask-aerospike.readthedocs.io/en/latest/?badge=latest)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6fb8ae00b1008f5f1b20/maintainability)](https://codeclimate.com/github/idoshr/flask-aerospike/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6fb8ae00b1008f5f1b20/test_coverage)](https://codeclimate.com/github/idoshr/flask-aerospike/test_coverage)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/flask-aerospike)
+
+## Overview
+
+Flask-Aerospike is a Flask extension that provides integration with the Aerospike database.
+It simplifies the process of connecting to and interacting with Aerospike from your
+Flask applications.
+
+## Installation
+
+You can install Flask-Aerospike using pip:
+
+```sh
+pip install flask-aerospike
+```
+
+## Usage
+
+Here is a simple example of how to use Flask-Aerospike in your Flask application:
+
+```python
+import aerospike
+from flask import Flask
+from flask_aerospike import FlaskAerospike
+
+app = Flask(__name__)
+app.config['FLASK_AEROSPIKE_CLIENT'] =  aerospike.client({'hosts': [('127.0.0.1', 3000)]}).connect()
+
+
+ap = FlaskAerospike(app)
+
+@app.route('/')
+def index():
+    client = ap.connection
+    # Your Aerospike operations here
+    return 'Hello, Aerospike!'
+
+if __name__ == '__main__':
+    app.run()
+```
+
+## Configuration
+
+You can configure Flask-Aerospike using the following configuration variables:
+
+- `FLASK_AEROSPIKE_CLIENT`: A list of tuples containing the host and port
+of your Aerospike nodes.
+- `SESSION_AEROSPIKE_NAMESPACE`: The namespace to use in Aerospike.
+- `SESSION_AEROSPIKE_BIND_KEY`: The set to use in Aerospike.
+
+## Documentation
+
+The full documentation is available at [Read the Docs](https://flask-aerospike.readthedocs.io/en/latest/).
+
+## Contributing
+
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md)
+for more information.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Credits
+
+This project is maintained by:
+
+- Ido Shraga
+
+See the [AUTHORS.md](AUTHORS.md) file for a full list of contributors.
