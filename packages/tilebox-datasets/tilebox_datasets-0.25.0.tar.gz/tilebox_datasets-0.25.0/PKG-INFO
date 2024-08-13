@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tilebox-datasets
+Version: 0.25.0
+Summary: Access Tilebox datasets from Python
+License: MIT
+Author: Tilebox, Inc.
+Author-email: support@tilebox.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: cftime (>=1.6.4)
+Requires-Dist: loguru (>=0.7)
+Requires-Dist: numpy (>=1.24)
+Requires-Dist: pandas (>=2.1)
+Requires-Dist: shapely (>=2)
+Requires-Dist: tilebox-grpc
+Requires-Dist: tqdm (>=4.65)
+Requires-Dist: xarray (>=2023.11)
+Description-Content-Type: text/markdown
+
+# Tilebox Datasets
+
+The Tilebox Datasets python client powered by gRPC and Protobuf.
