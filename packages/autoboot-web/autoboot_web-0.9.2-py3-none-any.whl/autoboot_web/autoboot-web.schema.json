@@ -1,0 +1,299 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "autoboot",
+  "description": "A configuration validation for the autoboot.yml file.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "autoboot": {
+      "description": "autoboot application configuration root node.",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "web": {
+          "description": "web application configuration.",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "scan_controller_packages": {
+              "description": "scan web controller packages.",
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "http": {
+              "description": "http server configuration.",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "gzip": {
+                  "description": "gzip compression configuration.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "enable": {
+                      "description": "enable gzip compression.",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "minimum_size": {
+                      "description": "minimum size of response body to compress.",
+                      "type": "string",
+                      "pattern": "^\\d+\\s?(K|M|G)B$",
+                      "default": "1KB"
+                    }
+                  }
+                },
+                "session": {
+                  "description": "session configuration.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "enable": {
+                      "description": "enable session.",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "cookie_name": {
+                      "description": "session cookie name.",
+                      "type": "string",
+                      "default": "session"
+                    },
+                    "secret": {
+                      "description": "session secret key.",
+                      "type": "string"
+                    },
+                    "max_age": {
+                      "description": "session cookie max_age.",
+                      "type": "string",
+                      "pattern": "^\\d+\\s?(h|m|s)$",
+                      "default": "120m"
+                    },
+                    "same_site": {
+                      "description": "session cookie same_site.",
+                      "type": "string",
+                      "enum": ["strict", "lax", "none"],
+                      "default": "lax"
+                    },
+                    "https_only": {
+                      "description": "session cookie https_only.",
+                      "type": "boolean",
+                      "default": false
+                    }
+                  }
+                }
+              }
+            },
+            "security": {
+              "description": "web security configuration.",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "cors": {
+                  "description": "security cors configuration.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "cross_origin": {
+                      "description": "enable cross origin.",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "allow_origins": {
+                      "description": "allowed cors origins.",
+                      "type": "array",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "allow_methods": {
+                      "description": "allowed cors methods.",
+                      "type": "array",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "allow_headers": {
+                      "description": "allowed cors headers.",
+                      "type": "array",
+                      "minItems": 1,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "allow_credentials": {
+                      "description": "allowed credentials.",
+                      "type": "boolean",
+                      "default": true
+                    },
+                    "max_age": {
+                      "description": "cors max age.",
+                      "type": "number",
+                      "minimum": 0,
+                      "default": 3600
+                    }
+                  }
+                },
+                "csrf": {
+                  "description": "security csrf config.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "enable": {
+                      "description": "enable csrf.",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "secret": {
+                      "description": "csrf secret.",
+                      "type": "string"
+                    },
+                    "cookie_name": {
+                      "description": "csrf cookie name.",
+                      "type": "string",
+                      "default": "CSRF_Token"
+                    },
+                    "csrf_cookie_domain": {
+                      "description": "csrf cookie domain.",
+                      "type": "string"
+                    },
+                    "header_name": {
+                      "description": "csrf header name.",
+                      "type": "string",
+                      "default": "X-CSRF-Token"
+                    }
+                  }
+                }
+              }
+            },
+            "uniform": {
+              "description": "uniform data handler.",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "exception": {
+                  "description": "uniform exception handler.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "global": {
+                      "description": "uniform global exception handler.",
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "code": {
+                          "description": "code response for global exception",
+                          "type": "integer",
+                          "default": "500"
+                        },
+                        "message": {
+                          "description": "message response for global exception",
+                          "type": "string",
+                          "default": "Server error: {}"
+                        }
+                      }
+                    },
+                    "request_validation": {
+                      "description": "uniform request validation exception handler.",
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "code": {
+                          "description": "code response for request validation exception",
+                          "type": "integer",
+                          "default": "400"
+                        },
+                        "message": {
+                          "description": "message response for request validation exception",
+                          "type": "string",
+                          "default": "Request valid error: {}"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "discovery": {
+              "description": "service discovery.",
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "nacos": {
+                  "description": "nacos configuration.",
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "enable": {
+                      "description": "enable nacos.",
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "server_address": {
+                      "description": "nacos server address.",
+                      "type": "string",
+                      "default": "127.0.0.1:8848"
+                    },
+                    "namespace": {
+                      "description": "nacos server namespace.",
+                      "type": "string"
+                    },
+                    "username": {
+                      "description": "nacos server login username.",
+                      "type": "string"
+                    },
+                    "password": {
+                      "description": "nacos server login password.",
+                      "type": "string"
+                    },
+                    "ak": {
+                      "description": "nacos server auth access token.",
+                      "type": "string"
+                    },
+                    "sk": {
+                      "description": "nacos server auth secret token.",
+                      "type": "string"
+                    },
+                    "service_name": {
+                      "description": "service name for register.",
+                      "type": "string",
+                      "default": "test-service"
+                    },
+                    "service_ip": {
+                      "description": "service ip for register.",
+                      "type": "string",
+                      "default": "127.0.0.1"
+                    },
+                    "service_port": {
+                      "description": "service port for register.",
+                      "type": "integer",
+                      "default": "8080"
+                    },
+                    "group_name": {
+                      "description": "service group name.",
+                      "type": "string",
+                      "default": "DEFAULT_GROUP"
+                    },
+                    "heartbeat_interval": {
+                      "description": "service heartbeat interval in seconds.",
+                      "type": "integer",
+                      "default": "2"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
