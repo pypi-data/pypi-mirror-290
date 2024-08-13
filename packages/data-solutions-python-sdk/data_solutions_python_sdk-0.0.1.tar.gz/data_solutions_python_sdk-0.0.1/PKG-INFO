@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: data_solutions_python_sdk
+Version: 0.0.1
+Summary: Web3 Data Made Simple. Powerful APIs for accessing human-readable blockchain data at scale: from blocks and transactions to NFTs and tokens.
+Home-page: https://github.com/TransposeData/chainalysis-data-solutions-python-sdk
+Author: Rah Tarar (musa-tarar)
+Author-email: musa.nishat@chainalysis.com
+License: MIT
+Keywords: web3,data,ethereum,web3 data,ethereum data
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Database
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+
+![Transpose Banner](https://files.readme.io/c019281-Main_Docs_Banners_v1.png)
+
+# Welcome to the Transpose Python SDK
+A modern python wrapper for the Transpose API Suite.
