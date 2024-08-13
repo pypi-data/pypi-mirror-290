@@ -1,0 +1,64 @@
+variables:
+  CI_DEBUG_TRACE: "false"
+  GIT_DEPTH: "full"
+
+.test-package-keystone:
+  tags:
+    - docker
+  image: python:3.12
+  script:
+    - cd "$PROJECT_PATH"
+    - python -m pip install -r requirements-test.txt
+    - ./test.sh > "test_report_${PROJECT_PATH}.txt"
+    - |
+        if grep -q "FAILURES" "test_report_${PROJECT_PATH}.txt"; then
+            echo "Test suite FAILURE. Review job artifact for details."
+            exit 1
+        fi
+  artifacts:
+    paths:
+      - "${PROJECT_PATH}/test_report_${PROJECT_PATH}.txt"
+    expire_in: 1 week
+    when: always
+
+
+
+.package-keystone:
+  tags:
+    - docker
+  image: cr.purplejay.net/keystone/base-images/python-build:3.7.1
+  script:
+    - apt update -y
+    - apt install git -y
+    - export version=$(git describe --tag)
+    - export HATCH_INDEX_AUTH=${CI_JOB_TOKEN}
+    - export HATCH_INDEX_USER=gitlab-ci-token
+    - python -m pip install hatch
+    - export PUBLISH_URL="${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
+    - ./package.sh
+
+test-packages:
+  stage: test
+  extends:
+    - .test-package-keystone
+  parallel:
+    matrix:
+      - PROJECT_PATH: keystone-database
+      - PROJECT_PATH: pjdev-postgres
+
+package:
+  stage: deploy
+  extends:
+    - .package-keystone
+  parallel:
+    matrix:
+      - PROJECT_PATH: keystone-database
+      - PROJECT_PATH: keystone-message-broker
+      - PROJECT_PATH: keystone-security
+      - PROJECT_PATH: keystone-msgraph
+      - PROJECT_PATH: keystone-gitlab
+
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never
+    - when: on_success

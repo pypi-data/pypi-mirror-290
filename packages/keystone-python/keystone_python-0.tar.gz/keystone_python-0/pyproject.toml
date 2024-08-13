@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+requires-python = ">=3.12"
+name = "keystone-python"
+version = "0"
+dependencies = [
+    "pydantic-settings>=2.3.1",
+    "pydantic",
+    "fastapi",
+    "fastapi-azure-auth",
+    "loguru",
+    "nats-py",
+    "python-jose",
+    "itsdangerous",
+    "python-multipart",
+    "beanie",
+    "pkce",
+    "jinja2",
+    "PyJWT",
+    "httpx",
+    "jsondiff",
+    "sqlmodel>=0.0.19",
+    "psycopg[binary,pool]>=3.1.19",
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+    "python-calamine>=0.2.3",
+    "openpyxl"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "hatch"
+]
+
+test = [
+    "pytest",
+    "coverage",
+    "mongomock-motor",
+    "setuptools",
+    "pytest-asyncio"
+]
