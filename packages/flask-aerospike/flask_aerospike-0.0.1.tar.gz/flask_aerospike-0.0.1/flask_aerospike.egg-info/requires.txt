@@ -1,0 +1,13 @@
+Flask>=2.2
+aerospike
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+black==24.4.2
+pre-commit
+pytest
+pytest-cov
+pytest-mock
+nox
