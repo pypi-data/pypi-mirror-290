@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wechatautomation
+Version: 0.0.5
+Summary: 微信自动化程序
+Author: Anthony Lee
+Author-email: 1020343877@qq.com
+Keywords: python,uiautomation,toml,wechat,wxauto
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+
+# 安装相关依赖
+
+
+
+## 打包
+
+python setup.py sdist
+
+## 本地测试
+
+python setup.py develop
+
+## 上传包
+
+twine upload <dist\包名>  --verbose --username __token__ --password <tokenAPI>
