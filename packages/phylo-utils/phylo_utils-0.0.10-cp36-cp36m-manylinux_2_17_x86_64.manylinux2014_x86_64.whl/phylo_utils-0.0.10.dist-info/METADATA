@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: phylo-utils
+Version: 0.0.10
+Summary: Phylogenetics calculations in python
+Home-page: UNKNOWN
+Author: Kevin Gori
+Author-email: kgori@ebi.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: cython
+Requires-Dist: numpy
+Requires-Dist: dendropy
+
+phylo_utils
+==
+
+Some utilities for calculating likelihoods on trees.
+
+
