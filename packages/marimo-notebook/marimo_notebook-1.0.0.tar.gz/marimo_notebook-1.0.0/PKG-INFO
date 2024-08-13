@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: marimo-notebook
+Version: 1.0.0
+Summary: Marimo Notebook for Sandbox Environment
+Author: aiSSEMBLE Baseline Community
+Author-email: aissemble@bah.com
+Requires-Python: >=3.11.4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: marimo (>=0.6.19)
+Requires-Dist: mlflow (>=2.3.1)
+Requires-Dist: pandas (>=1.5.0)
