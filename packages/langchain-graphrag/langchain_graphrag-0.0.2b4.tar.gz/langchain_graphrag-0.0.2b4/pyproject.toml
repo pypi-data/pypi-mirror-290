@@ -1,0 +1,45 @@
+[project]
+name = "langchain-graphrag"
+version = "0.0.2-beta.4"
+description = "Implementation of GraphRAG (https://arxiv.org/pdf/2404.16130)"
+authors = [{ name = "Kapil Sachdeva", email = "notan@email.com" }]
+dependencies = [
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+    "fastparquet>=2024.5.0",
+    "networkx>=3.3",
+    "langchain-core>=0.2.27",
+    "langchain-text-splitters>=0.2.2",
+    "graspologic>=3.4.1",
+    "tableprint>=0.9.1",
+]
+readme = "README.md"
+requires-python = ">= 3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.3.2",
+    "ipykernel>=6.29.5",
+    "types-networkx>=3.2.1.20240811",
+    "types-tqdm>=4.66.0.20240417",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/langchain_graphrag"]
+
+[tool.rye.workspace]
+members = ["langchain_graphrag", "examples/simple-app"]
+
+[tool.rye.scripts]
+simple-app-indexer = "python examples/simple-app/app/main.py indexer index --input-dir examples/input-data --output-dir tmp --cache-dir tmp/cache"
+simple-app-report = "python examples/simple-app/app/main.py indexer report --artifacts-dir tmp/artifacts"
+simple-app-local-search = "python examples/simple-app/app/main.py query local-search --output-dir tmp --cache-dir tmp/cache"
+simple-app-global-search = "python examples/simple-app/app/main.py query global-search --output-dir tmp --cache-dir tmp/cache"
