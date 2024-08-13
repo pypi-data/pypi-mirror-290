@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: swift_portal_downloader
+Version: 0.1.0
+Summary: Project to search and download swift comet images from the dead portal at https://www.swift.ac.uk/dead_portal
+License: LICENSE
+Author: Jacob Duffy
+Requires-Python: >=3.11,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: lxml (>=5.1.0,<6.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: questionary (>=2.0.1,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Description-Content-Type: text/markdown
+
+# Swift Portal Downloader
+- A program to search and download data from the SWIFT dead portal ([www.swift.ac.uk/dead_portal/index.php](www.swift.ac.uk/dead_portal/index.php)).  
+
+## Installation
+
+Create a new conda environment:
+```
+    conda create --name swift_portal_downloader python=3.11
+    conda activate swift_portal_downloader
+```
+
+### Pip Installation
+```pip install swift_portal_downloader```
+
+### Development Installation
+#### Install Poetry  
+Documentation about the poetry package can be found [here](https://www.python-poetry.org).  
+
+#### Clone Repository
+```
+    git clone https://github.com/sjoset/swift_portal_downloader.git
+```
+
+#### Install Package Locally  
+In the repository's directory:
+```
+    poetry install
+```
+
+## Usage
+```
+    conda activate swift_portal_downloader
+    spd_tui
+```
+On first run, you will be prompted for some configuration options.
+For information on usage, there is help available from the main menu.
+
