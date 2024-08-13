@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyMSHRF
+Version: 0.0.1
+Summary: This program calculates the high-resolution filter score while doing GC/MS annotation.
+Home-page: 
+Author: Zinuo Huang
+Keywords: cheminformatics,GC/MS annotation,metabolomics
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.16.0)
+
