@@ -1,0 +1,144 @@
+
+# **CSVAnalyzer Extended API**
+
+## **Übersicht**
+Die `CSVAnalyzer Extended API` ist eine umfassende Python-Bibliothek, die speziell für die Analyse, Bereinigung, Filterung und Visualisierung von CSV-Daten entwickelt wurde. Sie bietet eine Vielzahl von Funktionen, die Entwicklern und Datenanalysten ermöglichen, CSV-Daten effizient zu verarbeiten, ohne auf externe Bibliotheken zurückgreifen zu müssen.
+
+## **Inhaltsverzeichnis**
+1. [Installation](#installation)
+2. [Klassen und Methoden](#klassen-und-methoden)
+    - [CSVAnalyzer](#csvanalyzer)
+    - [CSVSummarizer](#csvsummarizer)
+    - [CSVSorter](#csvsorter)
+    - [CSVFilter](#csvfilter)
+    - [CSVExporter](#csvexporter)
+3. [Beispielanwendungen](#beispielanwendungen)
+4. [Testen der API](#testen-der-api)
+5. [Best Practices](#best-practices)
+6. [Fehlerbehandlung](#fehlerbehandlung)
+7. [Erweiterungsmöglichkeiten](#erweiterungsmöglichkeiten)
+8. [Lizenz](#lizenz)
+
+## **Installation**
+Um die `CSVAnalyzer Extended API` zu installieren, können Sie die Bibliothek direkt über `pip` installieren, nachdem Sie das Paket heruntergeladen haben:
+
+```bash
+pip install csv_analyzer_extended-1.1.zip
+```
+
+## **Klassen und Methoden**
+
+### **CSVAnalyzer**
+Diese Klasse bietet eine Vielzahl von Funktionen zur Analyse und Bereinigung von CSV-Daten.
+
+- **`__init__(file_path)`**: Initialisiert den Analyzer mit dem Pfad zur CSV-Datei.
+- **`incremental_mean(column_name)`**: Berechnet den Mittelwert einer Spalte.
+- **`incremental_median(column_name)`**: Berechnet den Median einer Spalte.
+- **`calculate_std_dev(column_name)`**: Berechnet die Standardabweichung einer Spalte.
+- **`calculate_variance(column_name)`**: Berechnet die Varianz einer Spalte.
+- **`detect_anomalies_simple(column_name, threshold=1.5)`**: Ermittelt einfache Anomalien in einer Spalte basierend auf einem Schwellenwert.
+- **`calculate_correlation(col1, col2, method='pearson')`**: Berechnet die Korrelation zwischen zwei Spalten (`pearson` oder `spearman`).
+- **`linear_regression(target_col, *feature_cols)`**: Führt eine lineare Regression durch.
+- **`moving_average(column_name, window_size)`**: Berechnet den gleitenden Durchschnitt einer Spalte.
+- **`remove_duplicates()`**: Entfernt doppelte Einträge.
+- **`fill_missing_values(column_name, strategy="mean")`**: Füllt fehlende Werte in einer Spalte auf.
+- **`normalize_column(column_name)`**: Normalisiert die Werte einer Spalte.
+- **`standardize_column(column_name)`**: Standardisiert die Werte einer Spalte.
+- **`plot_bar_chart(column_name)`**: Erstellt ein Balkendiagramm einer Spalte.
+- **`plot_scatter_plot(column_name_x, column_name_y)`**: Erstellt ein Streudiagramm zwischen zwei Spalten.
+- **`plot_histogram(column_name, bins=10)`**: Erstellt ein Histogramm einer Spalte.
+
+### **CSVSummarizer**
+Bietet Methoden zur Zusammenfassung von CSV-Daten.
+
+- **`most_frequent_values(column_name)`**: Gibt die häufigsten Werte einer Spalte zurück.
+- **`find_outliers(column_name, threshold=1.5)`**: Findet Ausreißer in einer Spalte.
+- **`create_histogram(column_name)`**: Erstellt ein Histogramm für eine Spalte.
+- **`calculate_sum(column_name)`**: Berechnet die Summe der Werte in einer Spalte.
+- **`calculate_max(column_name)`**: Findet den maximalen Wert in einer Spalte.
+- **`calculate_min(column_name)`**: Findet den minimalen Wert in einer Spalte.
+
+### **CSVSorter**
+Bietet Methoden zum Sortieren von CSV-Daten.
+
+- **`sort_by_column(column_name, reverse=False)`**: Sortiert die Daten nach einer Spalte.
+- **`multi_column_sort(column_names, reverse=False)`**: Sortiert die Daten nach mehreren Spalten.
+- **`parallel_sort(column_name, num_threads=4, reverse=False)`**: Führt eine parallele Sortierung der Daten nach einer Spalte durch.
+
+### **CSVFilter**
+Bietet eine Vielzahl von Filtermethoden, um CSV-Daten basierend auf verschiedenen Kriterien zu filtern.
+
+- **`filter_by_numeric_range(column_name, min_value=None, max_value=None)`**: Filtert die Daten nach einem numerischen Bereich.
+- **`filter_by_text_pattern(column_name, pattern)`**: Filtert die Daten nach einem Textmuster basierend auf einem regulären Ausdruck (Regex).
+- **`filter_by_date_range(column_name, start_date, end_date, date_format='%Y-%m-%d')`**: Filtert die Daten nach einem Datumsbereich.
+- **`filter_by_custom_function(column_name, custom_func)`**: Filtert die Daten basierend auf einer benutzerdefinierten Funktion.
+- **`normalize_column(column_name)`**: Normalisiert die Werte einer Spalte auf den Bereich [0, 1].
+- **`rank_column(column_name)`**: Ordnet die Werte einer Spalte nach Rang.
+- **`filter_by_condition_chain(conditions)`**: Filtert die Daten basierend auf einer Kette von Bedingungen (z.B. `>=`, `<=`, `==`).
+- **`multidimensional_filter(filters)`**: Bietet eine flexible Filterung basierend auf mehreren Kriterien und Filtern.
+
+### **CSVExporter**
+Bietet Methoden zum Exportieren von CSV-Daten.
+
+- **`export_to_csv(file_path)`**: Exportiert die Daten in eine CSV-Datei.
+- **`export_to_json(file_path)`**: Exportiert die Daten in eine JSON-Datei.
+- **`export_to_sql(table_name, cursor)`**: Exportiert die Daten in eine SQL-Datenbank.
+
+## **Beispielanwendungen**
+```python
+from csv_analyzer_extended import CSVAnalyzer, CSVSummarizer, CSVSorter, CSVFilter, CSVExporter
+
+# Analyse und Bereinigung
+analyzer = CSVAnalyzer('data.csv')
+mean = analyzer.incremental_mean('score')  # Erwarteter Mittelwert: 87.5
+std_dev = analyzer.calculate_std_dev('score')  # Erwartete Standardabweichung: 5.5
+analyzer.remove_duplicates()
+
+# Zusammenfassung
+summarizer = CSVSummarizer(analyzer.data, analyzer.header)
+frequent_values = summarizer.most_frequent_values('score')
+
+# Sortierung
+sorter = CSVSorter(analyzer.data, analyzer.header)
+sorted_data = sorter.sort_by_column('score')
+
+# Filterung
+filterer = CSVFilter(analyzer.data, analyzer.header)
+filtered_data = filterer.filter_by_numeric_range('score', 80, 90)
+filtered_data_by_date = filterer.filter_by_date_range('date', '2023-01-01', '2023-01-05')
+
+# Export
+exporter = CSVExporter(filtered_data, analyzer.header)
+exporter.export_to_csv('filtered_data.csv')
+```
+
+## **Testen der API**
+Um sicherzustellen, dass alle Funktionen der API wie erwartet arbeiten, wurden umfassende Unittests entwickelt. Diese Tests können ausgeführt werden, um die verschiedenen Funktionen der API zu prüfen:
+
+```bash
+python test_csv_analyzer.py
+python test_csv_summarizer.py
+python test_csv_sorter.py
+python test_csv_filter.py
+python test_csv_exporter.py
+```
+
+Diese Tests decken alle wesentlichen Funktionen der API ab und gewährleisten, dass die API robust und fehlerfrei arbeitet.
+
+## **Best Practices**
+- **Konsistente Benennung:** Methoden und Klassen sind konsistent benannt, um ihre Funktionalität klar darzustellen.
+- **Modularität:** Die API ist modular aufgebaut, was es einfach macht, einzelne Komponenten wiederzuverwenden oder zu erweitern.
+- **Fehlerbehandlung:** Alle Methoden enthalten grundlegende Fehlerbehandlung, um sicherzustellen, dass die API robust ist.
+
+## **Fehlerbehandlung**
+- **Typprüfung:** Die Methoden der API führen Typprüfungen durch, um sicherzustellen, dass die Eingabedaten korrekt sind.
+- **Ausnahmebehandlung:** Bei fehlerhaften Eingaben oder unvorhergesehenen Problemen werfen die Methoden klare und aussagekräftige Fehlermeldungen.
+
+## **Erweiterungsmöglichkeiten**
+- **Integration mit Datenbanken:** Erweiterung der Exportfunktionen zur direkten Integration mit weiteren Datenbanksystemen.
+- **Erweiterte Visualisierungen:** Integration zusätzlicher Visualisierungstypen wie Boxplots oder Heatmaps.
+- **Künstliche Intelligenz:** Hinzufügen von Machine-Learning-Algorithmen zur Analyse und Vorhersage basierend auf den Daten.
+
+## **Lizenz**
+Die `CSVAnalyzer Extended API` wird unter der MIT-Lizenz veröffentlicht. Sie können die API frei verwenden, verändern und weiterverbreiten, solange die ursprünglichen Autoren genannt werden.
+
