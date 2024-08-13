@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: babylon_sts
+Version: 0.1.40
+Summary: A powerful library for audio processing with advanced features for speech recognition, text translation, and speech synthesis.
+Home-page: https://github.com/Artuar/babylon_sts
+Author: Artur Rieznik
+Author-email: artuar1990@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: whisper-timestamped
+Requires-Dist: torch
+Requires-Dist: pydub
+Requires-Dist: soundfile
+Requires-Dist: sentencepiece
+Requires-Dist: omegaconf
+Requires-Dist: sacremoses
+Requires-Dist: transformers
+
