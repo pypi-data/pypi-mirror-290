@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: byteCaptcha3
+Version: 0.3.0
+Summary: A powerful captcha generation library for Python
+Home-page: https://github.com/sjskUw/ByteCaptcha3
+Author: h3xcolor
+Author-email: oktk0728@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+
+# byteCaptcha
+
+`byteCaptcha` - это мощная библиотека для генерации CAPTCHA изображений на Python. Она поддерживает различные уровни сложности, настраиваемые параметры, такие как шрифты, шумы, фон и многое другое.
+
+## Установка
+
+```bash
+pip install byteCaptcha
