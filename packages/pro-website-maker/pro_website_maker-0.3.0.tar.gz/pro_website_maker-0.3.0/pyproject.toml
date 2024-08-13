@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pro-website-maker"
+version = "0.3.0"
+authors = [
+    { name="Jack Murray", email="info@jackmurray.com" },
+]
+description = "A command-line interface tool to make a professional HTML website from YAML files."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Jinja2",
+    "pyyaml",
+    "markdown",
+]
+
+[project.urls]
+Homepage = "https://github.com/d3987ef8/pwm"
+Issues = "https://github.com/d3987ef8/pwm/issues"
+
+[project.scripts]
+pwm = "pro_website_maker.pwm:pwm"
