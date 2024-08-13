@@ -1,0 +1,11 @@
+sphinx>=3.0.0
+myst-parser
+pytz>=2022.1
+python-dateutil>=2.8.2
+
+[dev]
+sphinx
+sphinx_rtd_theme
+myst-parser
+twine
+wheel
