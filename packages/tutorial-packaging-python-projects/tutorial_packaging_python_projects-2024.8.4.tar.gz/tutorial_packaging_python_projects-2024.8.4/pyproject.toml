@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tutorial-packaging-python-projects"
+description = "Tutorial: Packaging Python Projects"
+authors = [  { name="Christian Hänig", email="christian.haenig@hs-anhalt.de" },]
+
+dynamic = ["version", "readme", "dependencies"]
+
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+version = {file = ["VERSION"]}
+readme = {file = ["README.md"]}
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Gitlab = "https://gitlab.hs-anhalt.de/ki/tutorial-packaging-python-projects"
+PyPI = "https://pypi.org/project/tutorial-packaging-python-projects/"
+
