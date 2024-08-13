@@ -1,0 +1,126 @@
+[project]
+name = "fabric-fast-start"
+description = "Fabric Fast Start is a set of tools to help you get started with Fabric."
+version = "0.1.4"
+authors = [{ name = "Serge Artishev", email = "serge.artishev@fusion5.co.nz" }]
+maintainers = [{ name = "Serge Artishev", email = "serge.artishev@fusion5.co.nz" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+requires-python = ">=3.10"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    ]
+
+[project.urls]
+Homepage = "https://github.com/f5serge/fabric-fast-start"
+Issues = "https://github.com/f5serge/fabric-fast-start/issues"
+Contributing = "https://github.com/f5serge/fabric-fast-start/pulls"
+Releases = "https://github.com/f5serge/fabric-fast-start/releases"
+
+[tool.setuptools.package-data]
+"*" = ["*.html", "*.txt", "*.xml", "*.md"]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "azure-core",
+    "azure-data-tables",
+    "dummy-notebookutils",
+    "ruff",
+    "black",
+    "mocker",
+    "mypy",
+    "types-PyYAML",
+    "types-requests",
+    "pandas-stubs",
+    "types-tqdm",
+    "pyspark==3.5.1",
+    "delta-spark==3.2.0",
+    "semantic-link==0.7.7",
+    "jwt==1.3.1"
+]
+test = [
+    "azure-core",
+    "azure-data-tables",
+    "azure-storage-blob",
+    "dummy-notebookutils",
+    "pyyaml",
+    "pytest",
+    "pytest-cov",
+    "mocker",
+    "pytest-mock",
+    "types-PyYAML",
+    "types-requests",
+    "pandas-stubs",
+    "types-tqdm",
+    "pyspark==3.5.1",
+    "delta-spark==3.2.0",
+    "semantic-link==0.7.7",
+    "jwt==1.3.1"
+]
+
+[tool.ruff]
+line-length = 180
+target-version = "py312"
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+isort.known-first-party = ["fabric_fast_start"]
+
+[tool.black]
+line-length = 180
+target-version = ["py312"]
+
+[tool.mypy]
+check_untyped_defs = true
+python_version = 3.12
+exclude = [".venv/*", "tests/"]
+
+[[tool.mypy.overrides]]
+module = "notebookutils.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "azure.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pytest"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pyspark.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "delta.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "sempy.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pyarrow.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ['src']
+
+[tool.coverage.report]
+show_missing = true
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
