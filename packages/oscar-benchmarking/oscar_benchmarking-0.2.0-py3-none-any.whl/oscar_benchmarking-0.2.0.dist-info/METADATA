@@ -1,0 +1,233 @@
+Metadata-Version: 2.3
+Name: oscar_benchmarking
+Version: 0.2.0
+Summary: A package for submitting benchmarking scripts on OSCAR.
+Author-email: Michael Tu <michael_s_tu@brown.edu>, Prithvi Takur <prithvi_thakur@brown.edu>, Ashok Ragavendran <ashok_ragavendran@brown.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: matplotlib>=3.9.1
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: pytest>=8.2.2
+Requires-Dist: pyyaml>=6.0.1
+Description-Content-Type: text/markdown
+
+# SlurmJobSubmitter Python Package
+
+This Python package submits jobs to a Slurm scheduler.
+
+## How to Use This Package and Its Modules
+
+This package sources its parameters from a YAML configuration file. Please follow the structure outlined under [YAML: General Job Configuration](#yaml-general-job-configuration). This package also uses a CSV configuration file that stores run-to-run configuration. Please follow the structure outlined under [CSV: Run-Specific Parameters](#csv-run-specific-parameters).
+
+This package has two modules that users will often interact with: `SlurmJobSubmitter` and `SlurmScriptWriter`. `SlurmScriptWriter` automatically forms the script body needed to run the specified benchmark. `SlurmJobSubmitter` writes script content formed by a `SlurmScriptWriter` to file and submits the script to the Slurm scheduler.
+
+### `SlurmJobSubmitter`
+
+This module writes script content formed by a `SlurmScriptWriter` to file and submits the script to the Slurm scheduler.
+
+**Classes**:
+
+#### `SlurmJobSubmitter()`
+
+This class is an abstract base class for submitting jobs to the Slurm scheduler.
+
+#### `MLPerfJobSubmitter()`
+
+This class, derived from `SlurmJobSubmitter`, submits MLPerf jobs to the Slurm scheduler.
+
+NOTE: This class only submits jobs from ONE script. If you need to write another script, declare another submitter object.
+
+**Arguments**:
+
+- `script_writer` (SlurmScriptWriter): The script writer to use.
+- `script_path` (str): File path to write to.
+- `nodes` (int): The number of nodes to use.
+- `gres` (str): Generic resources required for the job.
+- `ntasks_per_node` (int): Number of tasks to run per node.
+- `memory` (str): Amount of memory required.
+- `time` (str): Maximum time the job can run.
+- `partition` (str): The partition to submit the job to.
+- `error_file_name` (str, optional): Name of the file to which standard error will be written. Defaults to "%j.err".
+- `output_file_name` (str, optional): Name of the file to which standard output will be written. Defaults to "%j.out".
+- `account` (str, optional): Account to be charged for the job. Defaults to None.
+- `num_runs` (int, optional): Number of times to run the MLPerf script. Defaults to 1.
+
+**Functions**:
+
+#### `write()`
+
+Writes to a batch script to file, given a file path and script content.
+
+Raises OSError, if opening the file fails.
+
+#### `submit()`
+
+Submits the SBATCH script file to gpu node(s).
+
+### `SlurmScriptWriter`
+
+**Classes**:
+
+#### `SlurmScriptWriter()`
+
+This abstract base class is a template for script-writing classes that writes the body of Slurm scripts.
+
+#### `MLPerfScriptWriter()`
+
+This class, derived from `SlurmScriptWriter`, writes the script body for MLPerf scripts.
+
+**Arguments**:
+
+- `run_id` (int): Unique ID of this benchmark run
+- `benchmark` (str): Type of benchmark
+- `model` (str): Name of model (e.g. resnet50, bert99, etc.)
+- `backend` (str): Backend of the model (e.g. tf, torch)
+- `arch` (str): GPU architecture (e.g. gh200, h100, etc.)
+- `container_image` (str): Path to pre-configured Apptainer image
+- `data_path` (str): Path to dataset
+- `model_config` (dict): Configuration for the model. Keys are model args, values are their values. Model args may be different for different models.
+
+**Functions**:
+
+#### `config_logger()`
+
+This function configures the logger and creates its log file.
+
+Returns:
+The Logger object.
+
+#### `generate_script_body()`
+
+This function will create the body of the sbatch file.
+
+Raises LookupError, if the CM commands for the model are not found.
+
+#### `slurm_input()`
+
+Read input from slurm commands like sfeature and
+get the actual list of gpus to submit to.
+
+Returns:
+The list of GPU IDs.
+
+## Config Files
+
+### YAML: General Job Configuration
+
+Configure the job parameters you need for the specific MLPerf job in `config.yaml`. You can set configurations for several model, benchmark, backend, and architecture combinations. You need to specify:
+
+- SBATCH parameters
+- Path to the Apptainer image container
+- CM-command parameters
+- Path to the dataset
+
+The following diagram is the structure of the `config.yaml` file.
+
+```yaml
+# General script parameters
+
+# Architecture-specific parameters
+arch: 
+    arch-1:
+        # SBATCH parameters
+        param-1:
+        param-2:
+        ...
+
+        # Apptainer image path
+        container_image:
+    arch-2:
+
+# Model-specific parameters
+model:
+    resnet50:
+        # CM parameters
+        cm-param-1:
+        cm-param-2:
+        ...
+
+        # Path to dataset
+        data_path: 
+```
+
+#### Example
+
+Here is an example of a valid YAML configuration.
+
+```yaml
+# General script parameters
+destination: "./"
+num_runs: 1
+
+# Architecture-specific parameters
+arch:
+  arm64-gracehopper: &arch_config
+    # SBATCH parameters
+    nodes: 1
+    partition: "gracehopper"
+    gres: "gpu:1"
+    account: "ccv-gh200-gcondo"
+    ntasks_per_node: 1
+    memory: "40G"
+    time: "01:00:00"
+    error_file_name: "%j.err"
+    output_file_name: "%j.out"
+
+    # Apptainer image path
+    container_image: "/oscar/data/shared/eval_gracehopper/container_images/MLPerf/arm64/mlperf-resnet-50-tf-arm64"
+
+# Model-specific CM parameters
+model:
+  resnet50: &model_config
+    # CM parameters
+    hw_name: "default"
+    implementation: "reference"
+    device: "cuda"
+    scenario: "Offline"
+    adr.compiler.tags: "gcc"
+    target_qps: 1
+    category: "edge"
+    division: "open"
+
+    # Path to dataset
+    data_path: "/oscar/data/ccvinter/mstu/gracehopper_eval/data/imagenet/ILSVRC2012/val"
+  bert-99: 
+    <<: *model_config
+    # CM parameters inherited from model_config template
+    # Overrides the dataset path
+    data_path: "/oscar/data/ccvinter/mstu/gracehopper_eval/data/imagenet/ILSVRC2012/val"
+```
+
+The `&model_config` declares a template called `model_config`. You can reference this template for additional models (e.g. bert-99) by replacing the ampersand `&` with an asterisk (`*`). To override any values in the template, you need to use `<<:` before `*model_config`.
+
+### CSV: Run-Specific Parameters
+
+You can set run-specific parameters (run ID, model, benchmark, backend, architecture, gpu node) for each MLPerf benchmark configuration you want to run.
+
+```csv
+RUN_ID,BENCHMARK,MODEL,BACKEND,ARCH,NODE
+1,MLPerf-Inference,resnet50,tf,arm64-gracehopper,gpu2701
+```
+
+## Running MLPerf Job as an Array Job
+
+Set a variable `num_runs` in `config.yaml` to run several of the same benchmark on the same GPU node. This variable will submit an array job to Slurm and aggregate your results across all runs.
+
+## Developers
+
+### New Classes
+
+If you are developing to add features for a new kind of Slurm job, you should write a derived class from the ABC for both script generation and job submitting.
+
+### Writing a Python Submit Script Using This Package
+
+See `submit_resnet-50.py` and `submit_bert-99.py` for examples.
+
+You may use one of the functions in `util.py` to get the parameters from the config files. `from_yaml_config()` will typically be used when running exactly 1 run configuration. `from_yaml_csv_config()` will be used if you need to specify several run configs in a CSV file.
+
+### Utilizing the Logger
+
+You can grab the Logger object associated with this job by accessing the MLPerfJobSubmitter object's Logger attribute. Then, you can log to your heart's content!
