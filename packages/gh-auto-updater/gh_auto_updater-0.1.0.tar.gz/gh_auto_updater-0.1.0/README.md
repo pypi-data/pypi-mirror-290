@@ -1,0 +1,1 @@
+Find, download and apply latest release from a GitHub repo.
