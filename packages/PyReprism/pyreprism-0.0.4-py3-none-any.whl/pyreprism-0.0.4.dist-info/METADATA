@@ -1,0 +1,98 @@
+Metadata-Version: 2.3
+Name: PyReprism
+Version: 0.0.4
+Summary: Framework for Source Code Preprocessing
+Project-URL: Homepage, https://github.com/unlv-evol/PyReprism
+Project-URL: Documentation, https://pyreprism.readthedocs.io
+Project-URL: Issues, https://github.com/unlv-evol/PyReprism/issues
+Author-email: UNLV EVOL LAB <ogenrwot@unlv.nevada.edu>
+License: MIT License
+        
+        Copyright (c) 2024 UNLV EVOL
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Description-Content-Type: text/x-rst
+
+.. _intro_toplevel:
+
+==================
+Overview / Install
+==================
+
+PyReprism is a Python framework that helps researchers and developers the task of source code preprocessing. With PyReprism, you can easily match, extract, count, and remove comments, whitespaces, operators, numbers and other language specific constructs from over 150 programming languages and file extensions.
+
+
+Requirements
+============
+
+* `Python`_ 3.6 or newer
+* `Git`_
+
+.. _Python: https://www.python.org
+.. _Git: https://git-scm.com/
+
+Installing PyReprism
+====================
+
+Installing PyReprism is easily done using `pip`_. Assuming it is installed, just run the following from the command-line:
+
+.. _pip: https://pip.pypa.io/en/latest/installing.html
+
+.. sourcecode:: none
+
+    $ pip install PyReprism
+
+Source Code
+===========
+
+PyReprism's git repo is available on GitHub, which can be browsed at:
+
+ * https://github.com/unlv-evol/PyReprism.git
+
+and cloned using::
+
+    $ git clone https://github.com/unlv-evol/PyReprism.git
+    $ cd PyReprism
+
+Optionally (but suggested), make use of virtual environment. Therefore, before installing the requirements run::
+    
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+
+Install the requirements::
+    
+    $ pip install -r requirements.txt
+
+and run the tests using pytest::
+
+    $ pytest
