@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: IM_RUN_optimizer
+Version: 2.0.0
+Summary: A Mathematical Optimization Method Based on Runge-Kutta Method
+Author-email: Iman Ahmadianfar <im.ahmadian@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Iman Ahmadianfar
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://www.mathworks.com/matlabcentral/profile/authors/13490648
+Project-URL: Bug Tracker, https://github.com/ImanAhmadianfar
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RUN-Optimization-Algorithm
+A Mathematical Optimization Method Based on Runge-Kutta Method
+
+
+# RUN: Runge Kutta Optimization Algorithm  
+
+The RUN algorithm is a metaheuristic optimization algorithm inspired by the Runge-Kutta method, primarily used for solving unconstrained or constrained optimization problems. This repository contains an implementation of the RUN algorithm with flexibility in constraint handling methods and initialization processes.  
+
+## Features  
+
+- **Multi-dimensional Optimization:** Capable of optimizing functions in multiple dimensions.  
+- **Constraint Handling:** Includes options for traditional clipping constraints and random reinitialization.  
+- **Flexible Initialization:** Supports initialization with scalar or vector bounds.  
+- **Verbose Output:** Optional verbose mode to print the convergence progress.  
+
+## Installation
+
+- **pip install IM_RUN_optimizer**
+
+## Parameters
+Parameters
+- **nP:** Number of particles in the swarm.
+- **MaxIt:** Maximum number of iterations for the optimization loop.
+- **lb, ub:** Lower and upper bounds for the solution space, which can be scalars (applied uniformly across all dimensions) or vectors (specific to each dimension).
+- **dim:** Dimensionality of the optimization problem.
+- **fobj:** Objective function to be minimized.
+- **constraint_handling:** Method for constraint handling ("clip" for clipping, "RI" for random reinitialization).
+- **verbose:** Boolean flag to enable or disable verbose output.
+
+
+## Constraint Handling Methods
+- **Clipping (Default):** Keeps all values within the specified bounds using np.clip.
+
+- **Random Reinitialization (RI):** If a particle exceeds the bounds, its position is reinitialized randomly within the permissible range.
+
+## Run RUN Algorithm
+
+To use the RUN algorithm, import the RUN function from the module and define your objective function. Set the parameters such as population size, maximum iterations, and bounds.
+
+import numpy as np  
+from IM_RUN_optimizer import RUN 
+
+# Define objective function  
+def sphere_function(x):  
+    return np.sum(x**2)  
+
+# Set parameters  
+nP = 30           # Number of particles  
+
+MaxIt = 100       # Maximum number of iterations  
+
+dim = 30          # Problem dimension  
+
+lb = -100         # Lower bound (scalar or vector)  
+
+ub = 100          # Upper bound (scalar or vector) 
+ 
+verbose = True    # Print progress  
+
+
+# Execute RUN algorithm  
+Best_Cost, Best_X, Convergence_curve = RUN(nP, MaxIt, lb, ub, dim, sphere_function, constraint_handling="RI", verbose=verbose)  
+
+
+print(f'Best Cost: {Best_Cost}') 
+ 
+print(f'Best Position: {Best_X}') 
+
