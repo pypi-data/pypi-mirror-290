@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: hidroconta
+Version: 1.0.0
+Summary: API to easily access Demeter REST API provided by Hidroconta S.A.U.
+Home-page: UNKNOWN
+Author: JavierL
+Author-email: javier.lopez@hidroconta.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Integrations-PythonAPI
+API Python para facilitar el acceso a los endpoints de la interfaz REST de Demeter
+
+La API permite la gestiÃ³n de grandes cantidades de datos mediante la librerÃ­a Pandas, siempre y cuando se utilice la siguiente directiva en las llamadas a los mÃ©todos:
+```
+# Pandas = True returns a pandas dataframe instead a json
+```
+
+La forma de usar la API es la siguiente:
+
+- Importar los modulos deseados:
+```
+import demeterpy as demeter
+import demeterapitypes as tp
+import pandas as pd
+import datetime
+import endpoints
+```
+- Seleccionar el servidor con el cual se quiere comunicar (se puede modificar en todo momento):
+```
+# Set server
+demeter.set_server(endpoints.Server.MAIN)
+```
+
+- Realizar el login en dicho servidor
+```
+# Login
+demeter.login('USERNAME', 'PASSWORD')
+```
+
+Una vez seguidos los anteriores pasos, se puede realizar cualquier consulta sobre el sistema.
+Algunas de ellas son:
+
+- BÃºsqueda
+```
+# Search
+df = demeter.search(text='SAT', element_types=[tp.Element.COUNTER, tp.Element.ANALOG_INPUT, tp.Element.RTU], status=tp.Status.ENABLED, pandas=True)
+print(df)
+```
+
+- ObtenciÃ³n de historicos
+```
+# Get historics
+df = demeter.get_historics(start_date=datetime.datetime.now(), end_date=datetime.datetime.now(), element_ids=[1000], subtype=tp.AnalogInputHist.subtype, subcode=[tp.AnalogInputHist.subcode], pandas=True)
+print(df)
+```
+
+- ObtenciÃ³n de elementos
+```
+# Get
+df = demeter.get_rtus(element_id=17512, pandas=True)
+print(df)
+```
+La API define tambiÃ©n una excepciÃ³n especial cuando la llamada al endpoint de Demeter no devuelve el resultado esperado.
+La excepciÃ³n de denomina "DemeterStatusCodeException" y contiene el cÃ³digo de error HTTP.
+```
+# Exception treatment
+try:
+    df = demeter.get_rtus(element_id=17512, pandas=True)
+except demeter.DemeterStatusCodeException as status_code:
+    print('Error {}'.format(status_code))
+```
+- Por Ãºltimo, se deberÃ­a hacer un logout en el servidor
+```
+demeter.logout()
+```
+
+
