@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block head %}
+<meta name="description" content="{{ content.Name }}'s Resume">
+<title>{{ content.Name }}</title>
+{% endblock %}
+
+{% block navbar %}
+    <h1>{{ content.Name }}</h1>
+    <p>
+                                     {{ content.City }}
+        {% if pdf and content.Phone %}
+                                 | {{ content.Phone }}
+        {% endif %}
+        {% if pdf %}
+                                 | <a href="mailto:{{ content.Email }}">{{ content.Email }}</a>
+        {% else %}
+                                 | <a href="Contact/Form.html">Contact Information</a>
+        {% endif %}
+        {% if content.LinkedIn %}
+                                 | <a href="https://www.linkedin.com/in/{{ content.LinkedIn }}/">LinkedIn</a>
+        {% endif %}
+        {% if pdf %} | <a href="{{ content.Portfolio }}">Portfolio</a>
+        {% else %}
+                                 | <a href="{{ content.PDF }}">PDF Version</a>
+        {% endif %}
+    </p>
+{% endblock %}
+
+{% block content %}
+    <div class="position">{{ content.Profession }}</div>
+    <p>
+        {{ content.Summary }}
+    </p>
+
+    <div class="little-header">Core Competencies</div>
+    <p class="center">
+        {% for competency in content.Competencies %}
+            {% if not loop.first %} | {% endif %}
+            <span class="competency">{{ competency }}</span>
+        {% endfor %}
+    </p>
+
+    <div class="little-header">Technical Skills</div>
+    {% for row in content.Skills %}
+        <p class="center">
+            {% for column in row %}
+                <strong>{{ column.Subcategory }}</strong>:
+                    {% for skill in column.Skills %}
+                        {{ skill }}{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% if not loop.last %} | {% endif %}
+            {% endfor %}
+        </p>
+    {% endfor %}
+
+    <div class="section-header">PROFESSIONAL EXPERIENCE</div>
+
+    {% for experience in content.Experience %}
+        {% if experience.Company %}
+            <div class="grey-background">
+                {{ experience.Company }}
+            </div>
+            <div class="role-details">
+                <span class="role">
+                    {{ experience.Role }}
+                </span>
+                | {{ experience.Dates }} | {{ experience.City }}
+            </div>
+            <ul>
+                {% for point in experience.Description %}
+                    <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <div>
+                <span class="role">
+                    {{ experience.Event }}
+                </span>
+                ({{ experience.Dates }}): {{ experience.Description }}
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    <div class="section-header">EDUCATION</div>
+
+    {% for education in content.Education %}
+        <p class="center">
+            <span class="role">{{ education.Qualification }}</span>
+            - {{ education.Institution }} | {{ education.Dates }}
+        </p>
+    {% endfor %}
+
+    <div class="section-header">AWARDS</div>
+
+    {% for award in content.Awards %}
+        <p class="center">
+            {{ award }}
+        </p>
+    {% endfor %}
+{% endblock %}

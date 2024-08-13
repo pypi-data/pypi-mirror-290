@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="pico.css"/>
+    <style>
+        input, button, textarea { display: block; padding: 1em; width: 100%; }
+        textarea { height: 10em; }
+    </style>
+    <meta name="description" content="{{ content.Title }}"/>
+    <title>{{ content.Title }}</title>
+{% endblock %}
+
+{% block navbar %}
+    <h1>{{ content.Title }}</h1>
+    <p>
+                                 <a href="/">About Jack</a>
+                             | <a href="/Resume.html">Resume</a>
+                             | <a href="/Holy_Guidance.html">Holy Guidance</a>
+    </p>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <p>To reach me, you can email <a href="info@{{ globals.Domain }}">info@{{ globals.Domain }}</a> or use the form below.</p>
+        <form action="https://formsubmit.co/info@{{ globals.Domain }}" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+            <textarea name="message" placeholder="Message"></textarea>
+            <input type="file" name="attachment">
+            <input type="hidden" name="_next" value="https://www.{{ globals.Domain }}/email/Sent.html">
+            <input type="hidden" name="_template" value="box">
+            <button type="submit">Send</button>
+        </form>
+        <p>This contact form relies on service provided by Devro LABS.</p>
+        <p>To learn more about how Devro LABS handles your data, please read their <a href="https://formsubmit.co/privacy.pdf">Privacy Policy</a>.</p>
+    </div>
+{% endblock %}
