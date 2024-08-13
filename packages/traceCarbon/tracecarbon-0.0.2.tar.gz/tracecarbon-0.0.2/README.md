@@ -1,0 +1,25 @@
+# summer24-green-code
+## A tool for measuring the carbon emissions of a Python program, using live carbon intensity from Electricity Maps, and power measurements from pyJoules
+
+The aim of this project was to create a tool to measure carbon emissions of a user's code. It is not fully fit for users at the moment, and needs further development.
+To measure emissions we need measurements for energy usage and carbon intensity
+
+Emissions = Carbon Intensity x Power x Time
+
+Carbon Intensity
+* Carbon intensity is a measure of how clean our electricity is
+* Units are in grams of CO2 released per kilowatt hour of electricity generated
+* Lower is better (renewables < fossil fuels)
+* Varies with - time of day, time of year, region
+
+Currently it does:
+* Allow the user to enter a filepath to a python file
+* Run that file and measure the energy usage using <a href="https://github.com/powerapi-ng/pyJoules/tree/master" target="_blank">PyJoules</a>
+* Allow the user to specify multiple regions for comparison
+* Pull the live carbon intensity for specified regions from <a href="https://www.electricitymaps.com/" target="_blank">Electricity Maps</a>
+* Pull 24 hours historical carbon intensity to show effect of running at different times
+
+## Requirements
+* python > 3.10
+
+

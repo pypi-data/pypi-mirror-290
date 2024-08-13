@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traceCarbon"
+version = "0.0.2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"requests",
+	"pyJoules",
+	"click",
+	"pynvml",
+	"geocoder",
+]
+
+[project.scripts]
+traceCarbon = "traceCarbon.run_carbon:traceCarbon"
+
+[tool.setuptools.packages.find]
+exclude = ["Results"]
