@@ -1,0 +1,13 @@
+INPUT_HASH = "inputHash"
+RUN_ID = "runId"
+INPUT_NAME = "inputName"
+INPUT_PATH = "inputPath"
+MEMORY = "memory"
+NAME = "name"
+STATUS = "status"
+INFO_LOGS = "infoLogs"
+OUTPUT_PATH = "outputPath"
+INITIAL_FILE_URL = "initialFileUrl"
+
+ID_TOKEN = "idToken"
+REFRESH_TOKEN = "refreshToken"

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cleora-saas-api
+Version: 0.1.7
+Summary: 
+Author: tomek tarabasz
+Author-email: tomasz.tarabasz@synerise.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fire (>=0.5.0,<0.6.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: pyrebase4 (>=4.7.1,<5.0.0)
+Requires-Dist: urllib3 (>=1.21,<2.0)
+Description-Content-Type: text/markdown
+
+# Cleora SaaS API
+
+To build lib please run script in root dir:
+
+```
+poetry build
+```
+
