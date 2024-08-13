@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tilebox-workflows
+Version: 0.25.0
+Summary: Workflow client and task runner for Tilebox
+License: MIT
+Author: Tilebox, Inc.
+Author-email: support@tilebox.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: betterproto (==2.0.0b6)
+Requires-Dist: boto3 (>=1.33)
+Requires-Dist: google-cloud-storage (>=2.10.0)
+Requires-Dist: opentelemetry-api (>=1.25)
+Requires-Dist: opentelemetry-exporter-otlp-proto-http (>=1.25)
+Requires-Dist: opentelemetry-sdk (>=1.25)
+Requires-Dist: tenacity (>=8)
+Requires-Dist: tilebox-datasets
+Requires-Dist: tilebox-grpc
+Description-Content-Type: text/markdown
+
+# Processing Client and Task Runner for Tilebox
