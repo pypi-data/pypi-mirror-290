@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mergetbapi
+Version: 0.0.2
+Summary: Python bindings for the GRPC client interface to the MergeTB API
+Author-email: Brian Kocoloski <bkocolos@isi.edu>
+Project-URL: Homepage, https://gitlab.com/mergetb/api
+Project-URL: Issues, https://gitlab.com/mergetb/api/-/issues
+Project-URL: Documentation, https://mergetb.gitlab.io/api/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: betterproto==2.0.0b6
+Requires-Dist: grpclib==0.4.7
+
+# mergetbapi
+
+This package contains Python bindings for the GRPC client interface to MergeTB API
+
