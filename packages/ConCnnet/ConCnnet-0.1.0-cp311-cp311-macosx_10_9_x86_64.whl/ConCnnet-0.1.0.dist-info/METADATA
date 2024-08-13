@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ConCnnet
+Version: 0.1.0
+Summary: A package to generate network files
+Home-page: http://yourpackagehomepage.com
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Network Generator
+
+A tool for generating network files from sequence data.
+
+## Installation
+
+You can install this package via pip:
+
+```bash
+pip install ConCnnet
