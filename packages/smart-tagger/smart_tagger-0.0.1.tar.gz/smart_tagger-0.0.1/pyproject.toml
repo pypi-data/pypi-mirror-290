@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatchling.build.targets.wheel]
+packages = ["src/smart_tagger"]
+
+[project]
+name = "smart-tagger"
+version = "0.0.1"
+dependencies = []
+authors = [{ name = "Pavel Sushko", email = "github@psushko.com" }]
+description = "Python utility for editing tags in media files"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+homepage = "https://github.com/Pavel-Sushko/smart-tagger"
+issues = "https://github.com/Pavel-Sushko/smart-tagger/issues"
