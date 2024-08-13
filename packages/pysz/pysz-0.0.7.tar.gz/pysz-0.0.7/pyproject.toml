@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel",
+"cython>=3.0.10", "requests"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysz"
+version = "0.0.7"
+authors = [
+    { name = "Zhuoxun Yang", email = "jason.neptune.yang@gmail.com"},
+]
+description = "A python wrapper for the SZ3 compression library"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JasonYang60/pysz"
