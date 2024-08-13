@@ -1,0 +1,52 @@
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  tests:
+    name: "deploy-docs"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Install GDAL
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir Cython
+          pip install --find-links=https://girder.github.io/large_image_wheels --no-cache GDAL
+      - name: Test GDAL installation
+        run: |
+          python -c "from osgeo import gdal"
+          gdalinfo --version
+      - name: Install dependencies
+        run: |
+          pip install pytest
+          pip install --user -r requirements.txt
+          pip install -r requirements_dev.txt
+          python -m pip install quartodoc
+          pip install .
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: build docs
+        run: |
+          quarto render docs/
+      - name: save docs
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-html
+          path: docs/_site
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/_site
+          publish_branch: gh-pages
+          
+
+
