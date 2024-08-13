@@ -1,0 +1,59 @@
+
+# ----------------------------------- #
+# Configurations for Stock Prophet AI #
+# ----------------------------------- #
+#       By Mac Anderson / 2024        #
+# ----------------------------------- #
+
+# API Access
+polygon_api_key: tGPiatX5GNv0W_ht97zZYx30N1cbkU_t
+unusual_whales_api_key: 2bfb30b2-4ca1-4719-883c-ce4a01b3c47f
+
+# Data Settings
+trading_symbols: [NVDA,SPY,QQQ,NDX,SPX,/ES,/ND,TSLA,MSFT,TSM,AAPL]
+equity_watchlist: [NVDA,SPY,TSLA,MSFT,AMD,SMC,TSM,AAPL,C,BA,GS,F,GLD,SLV,USO,QQQ,IWM,VXX,UVXY,TVIX,XLF,XLE,XLU,XLI,XLK,XLY,XLV,XLC,XLB,XLP,XRT,XBI,XHB,XME,XOP,XES,XRT,XSD,XSW]
+index_watchlist: [SPX,NDX,RUT,DJI,VIX]
+currencies: [USD,EURO,POUND,YEN,YUAN]
+commodities: [GOLD,SILVER,GRAIN,OIL,COPPER,NATURALGAS,SOYBEAN]
+whale_size_threshold: 1000000
+whale_premium_threshold: 0.1
+min_trade_size: 1001
+min_option_order_size: 11
+
+mongo_uri: mongodb://localhost:27017
+mongo_db_name: tradestream_db
+
+# Trade Settings
+trading_style: swing # day,swing,position
+
+# Order Settings
+fill_or_kill: true
+immediate_or_cancel: false
+lob_mask_quantity: true
+lob_mask_quantity_percent: 0.04
+
+# Options Settings
+options_pricing_model: black_scholes # binomial_tree,monte_carlo,black_scholes
+options_pricing_model_params:
+  binomial_tree:
+    steps: 100
+  monte_carlo:
+    simulations: 10000
+  black_scholes:
+    steps: 100
+    simulations: 10000
+  option_strategies: [long_call,long_put,short_call,short_put,debit_spread,credit_spread,covered_call,covered_put]
+
+# Days to Expire (DTX) Settings
+min_option_dtx: 2
+max_option_dtx: 14
+
+# Position Management
+hold_over_night: false
+stop_loss_calc: dynamic # fixed,dynamic
+max_loss_percent: 0.1
+position_size_calc: dynamic # fixed,dynamic
+take_profit_calc: dynamic # fixed,dynamic
+min_profit_percent: 0.1
+max_position_duration_minutes: 30
+max_positions: 10
