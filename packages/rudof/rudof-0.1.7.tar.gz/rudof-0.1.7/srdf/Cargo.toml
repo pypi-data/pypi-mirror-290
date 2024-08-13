@@ -1,0 +1,47 @@
+[package]
+name = "srdf"
+version = "0.1.11"
+authors.workspace = true
+description.workspace = true
+documentation = "https://docs.rs/srdf"
+edition.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+[features]
+rdf-star = [
+    "oxrdf/rdf-star",
+    "oxrdfio/rdf-star",
+    "oxttl/rdf-star",
+    "sparesults/rdf-star",
+]
+
+[dependencies]
+iri_s = { workspace = true }
+prefixmap = { workspace = true }
+async-trait = "0.1.68"
+hashbag = "0.1.11"
+serde = "1.0"
+serde_derive = "1.0"
+thiserror = "1"
+rust_decimal = "1.32"
+rust_decimal_macros = "1.32"
+const_format = "0.2"
+lazy_static = "1"
+
+oxttl = { version = "0.1.0-alpha.6"  }
+oxrdfio = { version = "0.1.0-alpha.5"}
+oxrdf = { workspace = true, features = [ "oxsdatatypes"] }
+oxiri = "0.2.3-alpha.1"
+oxsdatatypes = "0.2.0-alpha.2"
+sparesults = { version = "0.2.0-alpha.5" }
+tokio = { version = "1.38", features = ["full"] }
+colored = "2"
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+url = "2.2.2"
+regex = "1.10"
+tracing = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

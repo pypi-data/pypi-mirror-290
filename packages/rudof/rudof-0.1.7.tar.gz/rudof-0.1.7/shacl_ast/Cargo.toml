@@ -1,0 +1,34 @@
+[package]
+name = "shacl_ast"
+version = "0.1.7"
+authors.workspace = true
+description.workspace = true
+documentation = "https://docs.rs/shacl_ast"
+edition.workspace = true
+license.workspace = true
+homepage.workspace = true
+repository.workspace = true
+
+[features]
+rdf-star = ["oxrdf/rdf-star"]
+
+[dependencies]
+srdf = { workspace = true }
+iri_s = { workspace = true }
+rbe = { workspace = true }
+prefixmap = { workspace = true }
+serde = "1"
+serde_derive = "1"
+void = "1"
+thiserror = "1.0"
+lazy_static = "1"
+rust_decimal = "1.32"
+rust_decimal_macros = "1.32"
+regex = "1.10"
+serde_json = { workspace = true }
+const_format = "0.2"
+itertools = "0.13"
+
+oxrdf = { workspace = true, features = ["oxsdatatypes"] }
+
+[dev-dependencies]
