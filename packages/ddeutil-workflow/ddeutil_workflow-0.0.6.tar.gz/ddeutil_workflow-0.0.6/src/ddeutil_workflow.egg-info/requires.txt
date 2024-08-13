@@ -1,0 +1,7 @@
+fmtutil
+ddeutil-io
+python-dotenv==1.0.1
+
+[app]
+fastapi==0.112.0
+apscheduler[sqlalchemy]==3.10.4
