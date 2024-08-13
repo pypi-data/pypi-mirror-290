@@ -1,0 +1,27 @@
+antlr4-python3-runtime==4.13.2
+first==2.0.2
+jsonpath-ng==1.6.1
+ply==3.11
+pyperclip==1.9.0
+wcwidth==0.2.13
+
+[:python_version >= "3.5"]
+loguru==0.7.2
+
+[:python_version >= "3.6"]
+dacite==1.8.1
+overrides==7.7.0
+
+[:python_version >= "3.7"]
+click==8.1.7
+
+[:python_version >= "3.8"]
+asciimatics==1.15.0
+pillow==10.4.0
+pyyaml==6.0.2
+typing-extensions==4.12.2
+urwid==2.6.15
+yamale==5.2.1
+
+[:python_version >= "3.9"]
+pyfiglet==1.0.2
