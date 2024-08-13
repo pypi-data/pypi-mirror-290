@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: api_status_checker
+Version: 0.3
+Summary: Un paquete para verificar el estado de una API.
+Home-page: https://github.com/statick88/api_status_checker
+Author: Diego Saavedra
+Author-email: dsaavedra88@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# API Status Checker
+
+![Example](/img/paste-5.png)
+
+Un paquete para verificar el estado de una API.
+
+## Instalación
+
+```bash
+pip install api_status_checker
+```
+
+# Uso
+
+
+```bash
+api-status-checker
+```
+
+# Ejemplo
+
+```bash
+api-status-checker --url https://api.github.com
+```
+
