@@ -1,0 +1,126 @@
+# phenome-outlier-analysis
+
+# OutlierDetector Class Documentation
+
+## Overview
+
+The `OutlierDetector` class is designed for detecting outliers in datasets using various normalization methods. It supports both context-specific and global outlier detection strategies, making it versatile for different types of data analysis.
+
+## Class Initialization
+
+```python
+OutlierDetector(df, analyte_columns, segment_columns=['sex'])
+```
+
+### Parameters:
+- `df` (pandas.DataFrame): The input DataFrame containing the data to be analyzed.
+- `analyte_columns` (list): A list of column names to be analyzed for outliers.
+- `segment_columns` (list, optional): A list of column names used for segmentation in context-specific outlier detection. Defaults to ['sex'].
+
+## Main Methods
+
+### 1. perform_outlier_detection
+
+```python
+perform_outlier_detection(lower_percentile=0.01, upper_percentile=0.99, method='double_mad', take_log=False)
+```
+
+This is the primary method to perform outlier detection on the given DataFrame.
+
+#### Parameters:
+- `lower_percentile` (float): Lower percentile for cutoff calculation. Default is 0.01.
+- `upper_percentile` (float): Upper percentile for cutoff calculation. Default is 0.99.
+- `method` (str): Normalization method. Can be 'double_mad' or 'zscore'. Default is 'double_mad'.
+- `take_log` (bool): Whether to apply log transformation before normalization. Default is False.
+
+#### Returns:
+A tuple containing two dictionaries:
+1. Context-specific results
+2. Super-global results
+
+### 2. context_specific_outlier_detection
+
+```python
+context_specific_outlier_detection(method='double_mad', take_log=False)
+```
+
+Performs context-specific outlier detection by segmenting the DataFrame based on the `segment_columns`.
+
+### 3. super_global_outlier_detection
+
+```python
+super_global_outlier_detection(method='double_mad', take_log=False)
+```
+
+Evaluates outliers on a global scale, considering all data points together.
+
+## Helper Methods
+
+### calculate_double_mad
+
+Calculates left and right Median Absolute Deviations (MADs) from the median.
+
+### normalize_series
+
+Normalizes a series using the specified method (double_mad or zscore).
+
+### calculate_percentile_cutoffs
+
+Calculates global percentile cutoffs based on the specified columns of a DataFrame.
+
+### create_binary_matrix
+
+Creates a binary matrix indicating outliers based on specified cutoffs.
+
+### normalize_dataframe
+
+Normalizes specified columns in a DataFrame.
+
+### detect_outliers
+
+Detects outliers in the specified columns of a DataFrame.
+
+### get_global_cutoffs
+
+Gets global cutoffs for outlier detection.
+
+## Usage Example
+
+```python
+import pandas as pd
+from outlier_detection import OutlierDetector
+
+# Load your data
+df = pd.read_csv('your_data.csv')
+
+# Define columns
+analyte_columns = ['column1', 'column2', 'column3']
+segment_columns = ['sex', 'age_group']
+
+# Create OutlierDetector instance
+detector = OutlierDetector(df, analyte_columns, segment_columns)
+
+# Perform outlier detection
+context_results, global_results = detector.perform_outlier_detection(
+    lower_percentile=0.01,
+    upper_percentile=0.99,
+    method='double_mad',
+    take_log=True
+)
+
+# Analyze results
+for (segment, value), result in context_results.items():
+    print(f"Outliers for {segment}={value}:")
+    print(result['binary_matrix'].sum())
+
+print("Global outliers:")
+print(global_results[('global', 'global')]['binary_matrix'].sum())
+```
+
+## Notes
+
+- The class uses logging to provide information and warnings during the outlier detection process.
+- The `tqdm` library is used to show progress bars for long-running operations.
+- The class can handle both context-specific (segmented) and global outlier detection.
+- Two normalization methods are supported: 'double_mad' (double Median Absolute Deviation) and 'zscore'.
+- Log transformation can be applied before normalization if needed.
