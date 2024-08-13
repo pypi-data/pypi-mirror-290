@@ -1,0 +1,375 @@
+Metadata-Version: 2.1
+Name: ngs-pipeline-lib
+Version: 5.1.3
+Summary: Common code used by every processes in Bio Pipelines
+Author: Vincent ROHOU
+Author-email: vincent.rohou@ext.biomerieux.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: boto3 (>=1.28.52,<2.0.0)
+Requires-Dist: clidantic (>=0.1.0,<0.2.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: coverage (>=7.2.7,<8.0.0)
+Requires-Dist: docker (>=7.0.0,<8.0.0)
+Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+Requires-Dist: flatdict (>=4.0.1,<5.0.0)
+Requires-Dist: pgzip (>=0.3.5,<0.4.0)
+Requires-Dist: pydantic[dotenv] (>=1.10.7,<2.0.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: pytest-mock (>=3.10.0,<4.0.0)
+Requires-Dist: structlog (>=24.1.0,<25.0.0)
+Description-Content-Type: text/markdown
+
+# Introduction
+
+Provide : 
+
+- A base set of tools and classes to implement BioInfo algorithms
+- Execution context, using the `ngs-run` script
+
+# Installation
+
+Add the CodeArtifact repository to your pyproject.toml
+```
+[[tool.poetry.source]]
+name = "codeartifact"
+url = "https://pdx-platform-224016688692.d.codeartifact.eu-west-1.amazonaws.com/pypi/pdx-python-libs/simple/"
+secondary = true
+```
+
+Then authenticate your local environment to CodeArtifact 
+
+```bash
+export CODEARTIFACT_AUTH_TOKEN=$(aws codeartifact get-authorization-token --domain pdx-platform --query authorizationToken --output text --profile ADX_DEV)
+poetry config http-basic.codeartifact aws $CODEARTIFACT_AUTH_TOKEN
+```
+
+**Note** : The token acquired with AWS is a temporary one. Each time you want to download new packages from the CodeArtifact repository, you may have to re-do the authentication process.
+
+Then, simply add the library to your poetry dependencies.
+
+```bash
+poetry add ngs-pipeline-lib --source codeartifact
+```
+
+# Update
+
+To update to a newer version of the library : 
+```bash
+poetry update ngs-pipeline-lib
+```
+
+> You may need to update your version constraint in the pyproject.toml file 
+
+# Getting started
+
+Once the library has been installed in your project, you can implement your algorithms by extending the `Algorithm` class.
+
+If you want to add specific inputs to your Algorithm, extend `BaseInputs` (which is a Pydantic Model) and use it as the inputs Type.  
+In order to adds outputs, extend BaseOutputs and set the `outputs_class` class attribute of your algorithm as this class.  
+If you have specific inputs or outputs classes, you should also provide them to `Algorithm` when subclassing it. You place them between brackets as shown below, this will help your IDE undestand what kind of object it is dealing with, thus improving the autocompletion and the tooltips. 
+
+
+```python
+from pydantic import Field
+
+from ngs_pipeline_lib.base.algorithm import Algorithm
+from ngs_pipeline_lib.base.inputs import BaseInputs
+from ngs_pipeline_lib.base.file import JsonFile
+from ngs_pipeline_lib.base.outputs import BaseOutputs
+
+class YourInputs(BaseInputs):
+  your_input: str = Field(description="Description")
+
+
+class YourOutputs(BaseOutputs):
+  
+  def __init__(self):
+        super().__init__()
+        self.my_own_output = JsonFile(name="my_json_file")
+
+class YourAlgorithm(Algorithm[YourInputs, YourOutputs]):
+
+    outputs_class = YourOutputs
+
+    def execute_stub(self):
+        ...
+
+    def execute_implementation(self):
+        print(self.inputs.your_input)
+        ...
+
+```
+
+## Enable CLI Mode
+
+To allow your Algorithm to be executed through a CLI, you must write a file `cli.py` in your `src` folder.
+
+**Example**
+```python
+from ngs_pipeline_lib.cli import cli
+
+from .DemoAlgorithm import DemoAlgorithm, DemoInputs
+
+
+@cli.command(name="Demo")
+def run_cli(args: DemoInputs):
+    """Demo Algorithm to demonstrate a basic implementation"""
+    algorithm = DemoAlgorithm(args)
+    algorithm.execute()
+```
+
+> Note : the method name is not important, you can use whatever you want.
+
+Then, you can call your Algorithm with the following command
+
+`poetry run ngs-run --sample-id 1 --text-file.path data/some_text_file.txt`
+
+If you want to only create the stub output file, add the `--stub` parameter.
+
+## Enable API Mode
+
+To allow your Algorithm to be executed through an API, you must write a file `api.py` in your `src` folder.
+
+**Example**
+```python
+from ngs_pipeline_lib.api import app
+
+from .DemoAlgorithm import DemoAlgorithm, DemoInputs
+
+
+@app.post("/")
+async def run_api(args: DemoInputs):
+    algorithm = DemoAlgorithm(args)
+    algorithm.execute()
+    return algorithm.outputs._outputs.content
+
+```
+
+> Note : the method name is not important, you can use whatever you want.
+
+Then, you can start your Process as an API Service with the following command : 
+
+`poetry run ngs-api`
+
+And then, you can request your API through HTTP requests, like : 
+
+**Curl example**
+```
+curl -X 'POST' \
+  'http://127.0.0.1:8000/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "sample_id": "1",
+  "text-file.path": "data/some_text_file.txt",
+  "value": 5,
+  "stub": false
+}'
+```
+
+The following settings can be used to customize the API behaviour : 
+
+| Settings                   | Environment Variable       | Description                                    | Mandatory ?   | Default value |
+| -------------------------- | -------------------------- | ---------------------------------------------- | ------------- | ------------- |
+| secure                     | API_SECURE                 | Enable the oAuth2 validation on private router | No            | False         |
+| root_path                  | API_ROOT_PATH              | Set a root path to be used when behind a proxy | No            | None          |
+| prefix_path                | API_PREFIX_PATH            | Set a prefix path to be used on every route    | No            | ""            |
+| keycloak_authorization_url | KEYCLOAK_AUTHORIZATION_URL | Set the keycloak oAuth2 auth url               | Yes if secure | None          |
+| keycloak_token_url         | KEYCLOAK_TOKEN_URL         | Set the keycloak oAuth2 token url              | Yes if secure | None          |
+| keycloak_refresh_url       | KEYCLOAK_REFRESH_URL       | Set the keycloak oAuth2 refresh url            | Yes if secure | None          |
+| keycloak_certs_url         | KEYCLOAK_CERTS_URL         | Set the keycloak oAuth2 certs url              | Yes if secure | None          |
+
+### Swagger Documentation
+
+When running your Process as an API Service, an auto-generated [Swagger documentation ](http://localhost:8000/docs#/) is available.
+
+For private routes that needs OAuth2 authentication, you can authenticate using the "Authorize" button at the top of the Swagger page.
+In the form, you have to set a correct client_id / client_secret from a running keycloak instance. 
+
+> **Important** : In the keycloak client settings, ensure the `Valid redirect URIs` contains `http://localhost:8000/*`
+
+## Input files/directories
+Input files and directories can be declared as local paths, in which case it is validated that they are present.
+When running locally, in CLI mode, input files can be created/staged manually or by mapping docker volumes.
+When running as a nextflow process, nextflow will take care of staging the inputs.
+
+Input files and directories can also be declared as "downloadable" paths. Then, the input needs to either specify the `.path` argument, if the path is staged locally,
+or the `.url` argument, if the path must be downloaded from S3. The PROFILE environment variable is used to initialize the AWS S3 session.
+Downloaded files are staged in a temporary folder, and unstaged (deleted) when the process is finished.
+
+## Output files
+Output files are by default written in the app's working directory. There, they can be picked up by an external process, like nextflow, to be published.
+The `--publish-dir` input argument is only used to log the external publish location in the `outputs.json`, unless the `--publish` flag is set.
+
+When the `--publish` flag is set, the `--publish-dir` input is validated to be either an S3 url, or a creatable local directory. At the end of the process,
+the output files are published to the publishing location, and deleted from the working directory.
+
+## Implementation Example
+In `example/` you'll find the implementation of a dummy algorithm `DemoAlgorithm`.  
+This algorithm takes 3 parameters:
+- `value`: an integer 
+- `kb`: a path to a knowledge base (a local or S3 folder that contains `info.json` which references other local inputs and/or contains values), here it holds
+  - `value`: an optional float (you can safely remove it from `info.json`)
+  - `json_file`: a path to a json file (local or on S3)
+- `text_file`: a path to a text file  
+
+The `example/data` folder contains some dummy data to run the algorithm.  
+You can call it (from within `example/`) using : 
+```sh
+poetry run ngs-run --sample-id some_id --text-file.path data/some_text_file.txt --kb.path data/demo_kb
+```
+
+Using S3 to stage and publish files:
+```shell
+export PROFILE="<my_aws_profile>"
+poetry run ngs-run --sample-id some_id --text-file.url s3://my_bucket/data/some_text_file.txt --kb.url s3://my_bucket/data/demo_kb --publish --publish-dir s3://my_bucket/publish/some_id/
+```
+
+Add the `--stub` flag to run the stub instead of the implementation.
+
+# Docker build & push
+
+This library also includes two utilitary scripts to build & push Docker image : 
+
+- ngs-build
+- ngs-push
+
+### Build
+
+This script accepts the following arguments : 
+
+| Short Arg | Long Arg   | Description             | Mandatory ? | Default value |
+| --------- | ---------- | ----------------------- | ----------- | ------------- |
+| -e        | --env-file | Path to env file to use | No          | `.env`        |
+
+This script accepts the following environment variables as parameters 
+
+| ENV VAR               | Description                                                  | Mandatory ? | Default value           |
+| --------------------- | ------------------------------------------------------------ | ----------- | ----------------------- |
+| PROCESS_NAME          | Name of the process                                          | Yes         | --                      |
+| IMAGE_PREFIX          | Prefix used with the process name to create Docker repo name | No          | `ngs-pipeline-process-` |
+| TAG                   | Tag of the image to create                                   | No          | `latest`                |
+| DOCKERFILE            | Relative path to Dockerfile                                  | No          | `Dockerfile`            |
+| PIP_REGISTRY_USERNAME | If needed, username to use for pip auth                      | No          | --                      |
+| PIP_REGISTRY_PASSWORD | If needed, password to use for pip auth                      | No          | --                      |
+
+> Note : the docker context used to build is `.`
+
+### Push
+
+This script accepts the following arguments : 
+
+| Short Arg | Long Arg   | Description             | Mandatory ? | Default value |
+| --------- | ---------- | ----------------------- | ----------- | ------------- |
+| -e        | --env-file | Path to env file to use | No          | `.env`        |
+
+This script accepts the following environment variables as parameters 
+
+| ENV VAR               | Description                                 | Mandatory ? | Defaut value            |
+| --------------------- | ------------------------------------------- | ----------- | ----------------------- |
+| EXTERNAL_REGISTRY_URL | URL of Destination Registry                 | Yes         | --                      |
+| PROCESS_NAME          | Name of the process to push                 | Yes         | --                      |
+| IMAGE_PREFIX          | Prefix used in the process Docker repo name | No          | `ngs-pipeline-process-` |
+| TAG                   | Tag of the image to create                  | No          | `latest`                |
+| DOCKER_USERNAME       | If needed, username to use for docker auth  | No          | --                      |
+| DOCKER_PASSWORD       | If needed, password to use for docker auth  | No          | --                      |
+
+# Test tools
+
+This library comes with two tools :
+ - Integration test, to verify the behaviour of one process
+ - E2E test, to verify the workflow of a complete pipeline with one/multiple samples
+
+To run the integration test : 
+
+"""bash
+poetry run ngs-test integration 
+"""
+
+To run the E2E test : 
+
+"""bash
+poetry run ngs-test e2e --output-path <<YOUR_PIPELINE_OUTPUT_DIR>>  --scenario-file <<SCENARIO_PATH>>
+"""
+
+## End-To-End Test
+
+This tool will do the following : 
+- Load specified test scenario
+  - Can be local or S3 path
+- Load specified pipeline run :
+  - Import the trace file
+  - Import the hashed_id mapping file
+  - Import the execution.json file
+  - Explore all published files per sample & process
+- Compare scenario and run
+  - Check samples consistency (missing or extra)
+  - Check task consistency for each sample (missing or extra, but also status)
+  - Check published files for each task on each samples (missing or extra)
+
+> Note : no validation is done on the file's content, only its presence. Please use integration tests for this purpose.
+
+### Execution params
+| Arg             | Description                                                     | Mandatory ? | Default value |
+| --------------- | --------------------------------------------------------------- | ----------- | ------------- |
+| --output-path   | The pipeline run to verify                                      | Yes         |               |
+| --scenario-file | The scenario to use, containing expected samples, tasks & files | Yes         |               |
+
+
+### Settings
+
+All these settings are primarily loaded from the `.env` file. Ensure to have that file before running E2E tests.
+They can be overridden by manually defining environment variables before launching `ngs-test integration`.
+
+| Environment Variable    | Description                                                       | Mandatory ? | Default value          |
+| ----------------------- | ----------------------------------------------------------------- | ----------- | ---------------------- |
+| PROFILE                 | AWS Profile to use when connecting to S3 through boto3            | Yes         | ADX_DEV                |
+| TEST_OUTPUT_FOLDER      | Local path where to store results and expected output of pipeline | No          | tests/e2e/outputs      |
+| NEXTFLOW_TRACE_FILE     | Trace file path to look for in the output_folder                  | Yes         | trace.txt              |
+| NEXTFLOW_HASHED_ID_FILE | sample_to_hashed_id file path to look for in the output_folder    | No          | sample_to_hash_map.tsv |
+| NEXTFLOW_EXECUTION_FILE | Execution file path to look for in the output_folder              | No          | execution.json         |
+
+## Integration Test
+
+This tool must be used within a process project, containing a `.env` file with standard envvar (image_prefix, process_name etc...)
+When used, this tool will do the following : 
+- Load all scenarios
+  - Search for scenario in a dedicated folder (by default : tests/integration/scenarios)
+  - Can be filtered with the param `name_filter`
+- For each scenario
+  - Run the process image with the specified inputs
+  - Extract output from container
+  - Download expected output
+  - Compare outputs
+
+### Execution params
+| Arg                            | Description                                                                                              | Mandatory ? | Default value |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------- | ----------- | ------------- |
+| --name-filter                  | Specify some filter on scenario name. Can be used multiple times (logical `AND` applied between filters) | No          |               |
+| --post-clean / --no-post-clean | Flag to enable/disable cleaning of input and output files after test completion.                         | No          | True          |
+
+
+### Settings
+
+All these settings are primarly loaded from `.env` file. Ensure to have that file before running integration tests.
+They can be overriden by defining manually environment variables before launching `ngs-test integration`.
+
+| Environment Variable        | Description                                                                                | Mandatory ? | Default value               |
+| --------------------------- | ------------------------------------------------------------------------------------------ | ----------- | --------------------------- |
+| REMOTE_DOCKER_REPO          | Docker repository to use when launching process container                                  | Yes         |                             |
+| IMAGE_PREFIX                | Combined with PROCESS_NAME to set the docker image to use when launching process container | Yes         |                             |
+| PROCESS_NAME                | Combined with IMAGE_PREFIX to set the docker image to use when launching process container | Yes         |                             |
+| TAG                         | Docker tag to use when launching process container                                         | Yes         |                             |
+| PROFILE                     | AWS Profile to use when connecting to S3/ECR through boto3                                 | Yes         |                             |
+| TEST_SCENARIOS_FOLDER       | Local path where to look for scenarios                                                     | No          | tests/integration/scenarios |
+| TEST_OUTPUT_FOLDER          | Local path where to store results and expected output of process                           | No          | tests/integration/outputs   |
+| TEST_LOCAL_INPUT_FOLDER     | Local path where to put input files (downloaded from S3)                                   | No          | tests/integration/inputs    |
+| TEST_CONFIGURATION_FILENAME | Filename to look for when loading a scenario                                               | No          | test.json                   |
+| VERBOSE                     | Enable debug logs                                                                          | No          | False                       |
+| JSON_LOGGER                 | Enable JSON formatting of logs                                                             | No          | False                       |
+| LOG_FILE                    | Path to current log file                                                                   | No          | None                        |
+
+# Best Practices
+
+When implementing your process, please refer to the [guidelines](./docs/GUIDELINES.md) documentation.
