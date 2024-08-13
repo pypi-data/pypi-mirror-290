@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+triopg = sqlalchemy_triopg.triopg:TrioPGDialect
+
