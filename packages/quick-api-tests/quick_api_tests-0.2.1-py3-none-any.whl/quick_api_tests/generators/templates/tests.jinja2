@@ -1,0 +1,10 @@
+import pytest
+from tests.base_setup import BaseSetup
+
+
+class Tests{{ method|capitalize }}{{ path|to_camel_case }}(BaseSetup):
+
+    {% if async_mode %}@pytest.mark.asyncio{% endif %}
+    {% if async_mode %}async {% endif %}def test_{{ method }}_{{ path|to_snake_case }}(self, {{ client_type }}_{{service_name|to_snake_case}}) -> None:
+        {% if async_mode %}await {% endif %}{{ client_type }}_{{service_name|to_snake_case}}.{{ api_name|to_snake_case }}_api.{{ method }}_{{ path|to_snake_case }}_for_test()
+

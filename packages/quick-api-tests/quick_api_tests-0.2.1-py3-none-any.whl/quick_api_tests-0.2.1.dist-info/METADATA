@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: quick-api-tests
+Version: 0.2.1
+Summary: 
+Author: Menshikov Valeriy Sergeevich
+Author-email: valeriy.menshikov.1989@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: black (>=24.4.2,<25.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: curlify2 (>=2.0.0,<3.0.0)
+Requires-Dist: datamodel-code-generator[http] (>=0.25.6,<0.26.0)
+Requires-Dist: grpcio (>=1.63.0,<2.0.0)
+Requires-Dist: grpcio-reflection (>=1.63.0,<2.0.0)
+Requires-Dist: grpcio-status (>=1.63.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.63.0,<2.0.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: jinja2 (>=3.1.3,<4.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: orjson (>=3.10.5,<4.0.0)
+Requires-Dist: py-linq (>=1.4.0,<2.0.0)
+Requires-Dist: pydantic (>=2.7.1,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.3.4,<3.0.0)
+Requires-Dist: ruff (>=0.4.8,<0.5.0)
+Requires-Dist: sqlalchemy (>=2.0.29,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.18,<0.0.19)
+Requires-Dist: structlog (>=24.1.0,<25.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# quick

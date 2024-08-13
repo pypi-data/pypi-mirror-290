@@ -1,0 +1,49 @@
+    {%- set async_mode = async_mode %}
+    {%- set success_response = responses.get('200', None) or responses.get('201', None) %}
+    {% if async_mode %}async {% endif %}def {{ method }}_{{ path|to_snake_case }}_for_test(self) -> {{ success_response if success_response else 'Response' }}:
+        """
+        Можешь переименовать, добавить описание, параметризовать этот метод
+        его содержимое не потеряется после перегенерации клиента.
+
+        !!! В тестах и классах помощниках рекомендуется использовать именно этот метод !!!
+        """
+        {%- if request_body %}
+        {{ request_body|to_snake_case }}: {{ request_body }} = {{ request_body }}()  # noqa: E501
+        {%- endif %}
+        {%- if path_parameters %}
+        {%- for path_param in path_parameters %}
+        {{ path_param.get('name')|to_snake_case }}: {{ path_param.get('type') }} = None
+        {%- endfor %}
+        {%- endif %}
+        {%- if query_parameters %}
+        {%- for query_param in query_parameters %}
+        {{ query_param.get('name')|to_snake_case }}: {{ query_param.get('type') }} = None
+        {%- endfor %}
+        {%- endif %}
+        {%- if headers %}
+        {%- for header in headers %}
+        {{ header.get('name')|to_snake_case }}: {{ header.get('type') }} {% if header.get('required') %}{% elif header.get('type') == 'str' %}= "" {% else %}= {{ header.get('default') }}{% endif %}
+        {%- endfor %}
+        {%- endif %}
+
+        response = {% if async_mode %}await{% endif %} self.{{ method }}_{{ path|to_snake_case }}(
+            {%- if path_parameters %}
+            {%- for path_param in path_parameters %}
+            {{ path_param.get('name')|to_snake_case }}={{ path_param.get('name')|to_snake_case }},
+            {%- endfor %}
+            {%- endif %}
+            {%- if request_body %}
+            {{ request_body|to_snake_case }}={{ request_body|to_snake_case }},  # noqa: E501
+            {%- endif %}
+            {%- if query_parameters %}
+            {%- for query_param in query_parameters %}
+            {{ query_param.get('name')|to_snake_case }}={{ query_param.get('name')|to_snake_case }},
+            {%- endfor %}
+            {%- endif %}
+            {%- if headers %}
+            {%- for header in headers %}
+            {{ header.get('name')|to_snake_case }}={{ header.get('name')|to_snake_case }},
+            {%- endfor %}
+            {%- endif %}
+        )
+        return response

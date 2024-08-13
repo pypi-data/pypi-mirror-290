@@ -1,0 +1,69 @@
+# ruff: noqa: F405,F403
+from abc import (
+    ABC,
+)
+from typing import (
+    cast,
+    Optional,
+    List,
+    Tuple,
+    Iterable,
+)
+import grpc
+import google.protobuf.empty_pb2 as empty_pb2
+{% if imports %}
+{%  for import in imports %}
+{{ import }}
+{%  endfor %}
+{% endif %}
+
+from quick_api_tests.grpc_client.client import BaseClient
+
+Empty = empty_pb2.Empty
+
+{%- set async_mode = async_mode %}
+
+class {{ stub_name }}(BaseClient, ABC):
+    stub_factory = {{ stub_name }}Stub
+    {% if async_mode %}async_mode = True{% endif %}
+
+    {% for handler in handlers %}
+    {% if async_mode %}async {% endif %}def {{ handler.stub_method | to_snake_case }}(
+        self,
+        {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'UnaryStream'%}
+        request: {{ handler.request }},
+        {% elif handler.method_type == 'StreamStream'  or handler.method_type == 'StreamUnary' %}
+        request_iterator: Iterable[{{ handler.request }}],
+        {% endif %}
+        metadata: {% if async_mode %}Optional[grpc.aio.Metadata]{% else %}Optional[List[Tuple[str, str]]]{% endif %} = None,
+        timeout: Optional[float] = None
+        {% if async_mode %}
+    ) -> grpc.aio.{{ handler.method_type }}Call[{{ handler.request }}, {{ handler.response }}]:
+        {% else %}
+        {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'StreamUnary'%}
+    ) -> {{ handler.response }}:
+        {% elif handler.method_type == 'UnaryStream'  or handler.method_type == 'StreamStream'%}
+    ) -> Iterable[{{ handler.response }}]:
+        {% endif %}
+        {% endif %}
+        call = self._do_call(
+            "{{ handler.stub_method }}",
+            {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'UnaryStream'%}
+            request=request,
+            {% elif handler.method_type == 'StreamStream'  or handler.method_type == 'StreamUnary' %}
+            request_iterator=request_iterator,
+            {% endif %}
+            metadata=metadata,
+            timeout=timeout,
+        )
+        {% if async_mode %}
+        {% if handler.method_type == "UnaryUnary" or  handler.method_type == "StreamUnary" %}
+        return await cast(grpc.aio.{{ handler.method_type }}Call[{{ handler.request }}, {{ handler.response }}], call)
+         {% elif handler.method_type == "UnaryStream" or  handler.method_type == "StreamStream" %}
+        return cast(grpc.aio.{{ handler.method_type }}Call[{{ handler.request }}, {{ handler.response }}], call)
+        {% endif %}
+        {% else %}
+        return call
+        {% endif %}
+
+    {% endfor %}

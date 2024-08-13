@@ -1,0 +1,30 @@
+    {%- set async_mode = async_mode %}
+    {% if async_mode %}async {% endif %}def {{ handler.stub_method | to_snake_case }}_for_test(
+            self
+            {% if async_mode %}
+        ) -> grpc.aio.{{ handler.method_type }}Call[{{ handler.request }}, {{ handler.response }}]:
+            {% else %}
+            {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'StreamUnary'%}
+        ) -> {{ handler.response }}:
+            {% elif handler.method_type == 'UnaryStream'  or handler.method_type == 'StreamStream'%}
+        ) -> Iterable[{{ handler.response }}]:
+            {% endif %}
+            {% endif %}
+            {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'UnaryStream'%}
+            request: {{ handler.request }} = {{ handler.request }}()
+            {% elif handler.method_type == 'StreamStream'  or handler.method_type == 'StreamUnary' %}
+            request_iterator: Iterable[{{ handler.request }}] = iter([{{ handler.request }}()])
+            {% endif %}
+
+            call = await self.{{ handler.stub_method | to_snake_case }}(
+                {% if handler.method_type == 'UnaryUnary' or handler.method_type == 'UnaryStream'%}
+                request=request,
+                {% elif handler.method_type == 'StreamStream'  or handler.method_type == 'StreamUnary' %}
+                request_iterator=request_iterator,
+                {% endif %}
+            )
+            {% if async_mode %}
+            return cast(grpc.aio.{{ handler.method_type }}Call[{{ handler.request }}, {{ handler.response }}], call)
+            {% else %}
+            return call
+            {% endif %}
