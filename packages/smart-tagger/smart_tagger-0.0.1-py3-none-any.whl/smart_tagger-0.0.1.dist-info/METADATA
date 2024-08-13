@@ -1,0 +1,51 @@
+Metadata-Version: 2.3
+Name: smart-tagger
+Version: 0.0.1
+Summary: Python utility for editing tags in media files
+Project-URL: homepage, https://github.com/Pavel-Sushko/smart-tagger
+Project-URL: issues, https://github.com/Pavel-Sushko/smart-tagger/issues
+Author-email: Pavel Sushko <github@psushko.com>
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# music-tagger
+
+A music tagger that allows for easy tagging of music files with AI-based suggestions, and a simple UI.
+
+## Installation
+
+```bash
+pip install music-tagger
+```
+
+## Usage
+
+```bash
+music-tagger
+```
+
+## Contributing
+
+If you would like to contribute, please open an issue or a pull request.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make the appropriate changes and commit them (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature`)
+5. Create a Pull Request
+
+## License
+
+music-tagger is licensed under the [MIT license](https://github.com/Pavel-Sushko/music-tagger/blob/main/LICENSE). Feel free to use it for personal or commercial use.
