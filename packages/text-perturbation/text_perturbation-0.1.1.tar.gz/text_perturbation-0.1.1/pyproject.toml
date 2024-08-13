@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "text_perturbation"
+version = "0.1.1"
+description = "This project is about the NLP task for text perturbation using different methods."
+authors = ["dhirajpoddar <dhirajpodar@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+# Specify packages here
+packages = [
+    { include = "src/dhirajpodar/text_perturbation" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+nlpaug = "^1.1.11"
+nltk = "^3.8.2"
+transformers = "^4.44.0"
+flake8 = "^7.1.1"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
