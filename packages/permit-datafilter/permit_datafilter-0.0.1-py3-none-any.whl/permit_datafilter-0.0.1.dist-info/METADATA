@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: permit-datafilter
+Version: 0.0.1
+Summary: Permit.io python sdk
+Author: Asaf Cohen
+Author-email: asaf@permit.io
+License: Apache 2.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp<4,>=3.9.4
+Requires-Dist: ddtrace
+Requires-Dist: fastapi<1,>=0.109.1
+Requires-Dist: loguru
+Requires-Dist: pydantic[email]<2,>=1.9.1
+Requires-Dist: pytest
+Requires-Dist: SQLAlchemy==1.4.46
+
+# Permit.io Data Filtering SDK (EAP)
+
+Initial SDK to enable data filtering scenarios based on compiling OPA policies from Rego AST into SQL-like expressions.
+
+## Installation
+
+```py
+pip install permit-datafilter
+```
