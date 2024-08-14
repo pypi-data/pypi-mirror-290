@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: wechatautomation
+Version: 0.1.2
+Summary: 微信自动化程序
+Author: Anthony Lee
+Author-email: 1020343877@qq.com
+Keywords: python,uiautomation,toml,wechat,wxauto
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: annotated-types>=0.7.0
+Requires-Dist: anytree>=2.12.1
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: comtypes>=1.4.6
+Requires-Dist: pillow>=10.4.0
+Requires-Dist: psutil>=6.0.0
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pydantic_core>=2.20.1
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: pywin32>=306
+Requires-Dist: six>=1.16.0
+Requires-Dist: typing_extensions>=4.12.2
+Requires-Dist: uiautomation>=2.0.20
+
+
+## 打包
+
+python setup.py sdist
+
+## 本地测试
+
+python setup.py develop
+
+## 上传包
+
+twine upload <dist\包名>  --verbose --username __token__ --password <tokenAPI>
