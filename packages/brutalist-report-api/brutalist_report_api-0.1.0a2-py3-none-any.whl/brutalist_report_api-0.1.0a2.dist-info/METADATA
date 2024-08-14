@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: brutalist_report_api
+Version: 0.1.0a2
+Summary: An scraper api for the brutalist.report website.
+Home-page: https://github.com/BeastImran/brutalist.report-api
+Author: BeastImran
+Author-email: imsalmanran789@gmail.com
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: lxml
+
+# brutalist.report-api
+This repo is a python package api for [brutalist.report](https://brutalist.report/) website.
+
+## Documentation
+
+Documentation is hosted [here](https://beastimran.github.io/brutalist.report-api)
