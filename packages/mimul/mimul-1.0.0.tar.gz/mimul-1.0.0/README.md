@@ -1,0 +1,91 @@
+# Markdown Inspired Mark Up Language (MIMUL)
+
+This is a Python package that provides the CLI script `mimul`.
+
+It converts .mimul files to .html files.
+
+## Installation
+
+    pip install mimul
+
+## Usage
+
+    mimul
+
+## Documentation
+
+`mimul` is designed to produce output for any number of domain names.
+
+This is useful for A/B testing domain names for your product or website.
+
+The domains are listed one per line in the DOMAINS file.
+
+---
+
+Running `mimul` will look for all .mimul files in the current directory, and convert them to .html files.
+
+So, for example, `Resume.mimul` will be converted to `./example.com/Resume.html`.
+
+If a corresponding CSS file is present (e.g. Resume.css), it's contents will be automatically loaded into the resulting HTML.
+
+---
+
+To wrap some text in `<strong>` tags:
+
+    Look at some *strong text here*; voila!
+
+---
+
+To link to a URL:
+
+    {Text Here}.
+    {Text Here|https://example.com}.
+    {Text Here|some_file.html}.
+
+The first one will automatically link to `Text_Here.html`.
+
+---
+
+To include an image:
+
+    At any location in a paragraph, just do this: [FileNameGoesHere.png].
+
+Only PNG format is supported and the `.png` extension must be provided.
+
+---
+
+To wrap some text in a `<div>` use the following format:
+
+    [Any text here]
+    [center: Any text here]
+
+In the first case, the class of the div will be "Any", and you can style it in the related CSS file.
+
+In the second case, the class of the div will be "center" and the text "center" will not be rendered.
+
+---
+
+To include another MIML file:
+
+    <filename.pwml>
+
+---
+
+To wrap some text in a paragraph tag:
+
+    Here is some text.
+
+    Make sure this text is surrounded by two newlines, before and after, and it
+    will get surrounded by P tags.
+
+    Here is some more text.
+
+---
+
+HTML is parsed normally and as expected:
+
+    Some left-aligned text.
+
+    <center>
+        Some centered aligned text.
+    </center>
