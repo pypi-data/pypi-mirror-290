@@ -1,0 +1,178 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+.path-display-container {
+    display: table-column;
+    position: absolute;
+    width: 100%; /* Or any specific width you need */
+    text-align: center;
+    bottom: 5px;
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* Ensures long words wrap to the next line */
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  height: 100px;
+  text-align: left;
+  border: 1px solid #ccc;
+  overflow: auto;
+  padding-top: 1px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+  white-space: nowrap;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  margin-right: 3px;
+}
+
+.path-display-title {
+    margin-top: 5px;
+    position: relative;
+    font-size: 14px;
+    /*margin: 10px;*/
+    width: 210px;
+    bottom: calc(100% + 50px); /* Position it just above the path-container */
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #598acd;
+    padding: 5px; /* Optional: to add some spacing around the text */
+    /*border-radius: 5px;*/
+    color: white;
+}
+
+.path-display-path {
+    position: relative;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 220px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    /*border-radius: 5px;*/
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-wrap: break-word; /* Ensures long words wrap to the next line */
+    overflow: hidden;
+    margin: 0;
+}
+
+.ndp-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 20px;
+}
+
+.ndp-button {
+    align-self: center;
+    background-color: #598acd;
+    border: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 13px;
+    height: 28px;
+    margin-top: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.headers {
+    align-self: center;
+    /*background-color: #598acd;*/
+    /*border: 0;*/
+    /*border-radius: 3px;*/
+    box-sizing: border-box;
+    color: black;
+    font-size: 13px;
+    /*height: 28px;*/
+    margin-top: 5px;
+    width: 200px;
+    cursor: pointer;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ndp-button:hover {
+    background-color: #1573d7;
+}
+
+.ndp-logo, .ndp-logo-map {
+    display: block;
+    margin: 0 auto;
+    width: 170px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    padding-top: 10px;
+}
+
+.ndp-logo-map {
+    height: 100px; /* Adjust the size as needed */
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+    margin-top: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+select.ndp-dropdown {
+    /*padding: 10px;*/
+    /*font-size: 14px;*/
+    border: 1px solid #ccc;
+    /*border-radius: 5px;*/
+    /*width: 100%;*/
+    /*box-sizing: border-box;*/
+    /*margin: 4px 0;*/
+
+    align-self: center;
+
+    /*background-color: #598acd;*/
+    /*border: 0;*/
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 13px;
+    height: 28px;
+    margin-top: 5px;
+    width: 200px;
+    /*cursor: pointer;*/
+}
