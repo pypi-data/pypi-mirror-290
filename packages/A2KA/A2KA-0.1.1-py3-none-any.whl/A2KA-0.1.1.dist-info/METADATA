@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: A2KA
+Version: 0.1.1
+Summary: Attention to Key Area, a plug and play interpretable network.
+Home-page: https://github.com/Dsadd4/NLSExplorer_1.0/
+Author: Yifan Li
+Author-email: 2543179079@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# A2KA
+A2KA is a novel web architecture designed to
+identify crucial areas by extracting biological information from the embedding space of large language models.
+
+
+Make sure pytorch is installed firstly.
+
+## Installation
+
+You can install A2KA via pip:
+
+```bash
+pip install A2KA
+
