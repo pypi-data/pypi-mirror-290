@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aws-toolbelt
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: Claudio Mariano Carrazana <marianocarrazana@gmail.com>
+License: MIT
+Requires-Python: >=3.12
+Requires-Dist: textual>=0.76.0
+Requires-Dist: boto3>=1.34.160
+Description-Content-Type: text/markdown
+
+# aws-toolbelt
