@@ -1,0 +1,13 @@
+[package]
+name = "tenjin_sdn"
+version = "0.0.3"
+edition = "2021"
+
+[lib]
+name = "tenjin_sdn"
+crate-type = ["cdylib"]
+
+[dependencies]
+clap = { version = "4.5.15", features = ["derive"] }
+pyo3 = "0.22.0"
+tenjin_sdn = "0.3.2"
