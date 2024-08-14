@@ -1,0 +1,85 @@
+[project]
+requires-python = ">=3.10, <3.13"
+
+[tool.poetry]
+name = "modelbench"
+version = "0.6.0"
+description = "Run benchmarks and generate reports measuring the behavior of many AI Systems."
+license = "Apache-2.0"
+authors = ["MLCommons AI Safety <ai-safety-engineering@mlcommons.org>"]
+readme = "README.md"
+repository = "https://github.com/mlcommons/modelbench"
+keywords = [
+    "AI",
+    "GenAI",
+    "LLM",
+    "NLP",
+    "evaluate",
+    "measure",
+    "quality",
+    "testing",
+    "prompt",
+    "safety",
+    "compare",
+    "artificial",
+    "intelligence",
+    "Large",
+    "Language",
+    "Models",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Benchmark",
+    "Typing :: Typed",
+]
+packages = [
+    { include = "modelbench", from = "src"  }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+modelgauge = ">=0.6.0"
+jq = "^1.6.0"
+click = "^8.1.7"
+casefy = "^0.1.7"
+termcolor = "^2.4.0"
+pip = "^24.0"
+jinja2 = "^3.1.3"
+scipy = "^1.12.0"
+retry = "^0.9.2"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-datafiles = "^3.0.0"
+pytest = "^8.0.1"
+mypy = "^1.7.1"
+black = "^24.3.0"
+beautifulsoup4 = "^4.12.3"
+types-beautifulsoup4 = "^4.12.0.20240229"
+
+[tool.poetry.scripts]
+modelbench = "modelbench.run:cli"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = [
+    "src", "tests"
+]
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
