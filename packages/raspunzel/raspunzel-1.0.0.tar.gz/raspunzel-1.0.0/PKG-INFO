@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: raspunzel
+Version: 1.0.0
+Summary: Deploy and run Bazel targets on a Raspberry Pi.
+Keywords: raspberry pi,bazel,cross-compilation,deploy
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
+Maintainer-email: Stéphane Caron <stephane.caron@normalesup.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: sphinx ; extra == "doc"
+Project-URL: Changelog, https://github.com/upkie/raspunzel/blob/master/CHANGELOG.md
+Project-URL: Source, https://github.com/upkie/raspunzel
+Project-URL: Tracker, https://github.com/upkie/raspunzel/issues
+Provides-Extra: doc
+
+# raspunzel
+
+Command-line tool to run Bazel targets on systems where Bazel is not installed. For instance, we can run cross-compiled Bazel targets on a Raspberry Pi:
+
+```console
+pi@raspi:~/my_bazel_dir$ raspunzel run //my/target -- --foo --bar
+```
+
+Raspunzel's syntax is the same as Bazel, but it only supports the ``run`` command.
+
+## Installation
+
+### From PyPI
+
+[![PyPI version](https://img.shields.io/pypi/v/raspunzel)](https://pypi.org/project/raspunzel/)
+
+```console
+$ pip install raspunzel
+```
+
+### Standalone script
+
+Raspunzel is easy to ship in your own project as a [standalone script](https://github.com/tasts-robots/raspunzel/tree/main/standalone). Check out how it is done for instance in the [software of Upkie wheeled-biped robots](https://github.com/upkie/upkie).
+
