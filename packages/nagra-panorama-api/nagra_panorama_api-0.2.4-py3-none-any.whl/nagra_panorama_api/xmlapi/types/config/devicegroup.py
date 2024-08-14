@@ -1,0 +1,41 @@
+from typing import Optional
+
+from pydantic import AliasPath, ConfigDict, Field
+
+from nagra_panorama_api.xmlapi.types.utils import List, String, XMLBaseModel
+
+from .address import Address
+from .rules import RuleBase
+
+
+class DeviceGroup(XMLBaseModel):
+    """
+    This is used to parse the output of the running configuration.
+    """
+
+    model_config = ConfigDict(extra="allow")
+
+    name: String = Field(validation_alias="@name")
+    description: String = ""
+
+    devices: List[String] = Field(
+        validation_alias=AliasPath("devices", "entry", "@name"), default_factory=list
+    )
+    # devices: List[Device] = Field(
+    #     validation_alias=AliasPath("devices", "entry"), default_factory=list
+    # )
+    addresses: List[Address] = Field(
+        validation_alias=AliasPath("address", "entry"), default_factory=list
+    )
+    post_rulebase: Optional[RuleBase] = Field(
+        validation_alias="post-rulebase", default=None
+    )
+    pre_rulebase: Optional[RuleBase] = Field(
+        validation_alias="pre-rulebase", default=None
+    )
+    # applications: List[Application] = Field(
+    #     validation_alias=AliasPath("application", "entry"), default_factory=list
+    # )
+    tags: List[String] = Field(
+        validation_alias=AliasPath("tag", "member"), default_factory=list
+    )
