@@ -1,0 +1,9 @@
+setuptools==71.1.0
+bump2version==1.0.1
+bumpversion==0.6.0
+pandas==2.2.2
+twine==5.1.1
+
+[test]
+unittest
+coverage
