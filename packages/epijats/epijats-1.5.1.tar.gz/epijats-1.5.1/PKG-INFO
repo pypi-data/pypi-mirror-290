@@ -1,0 +1,112 @@
+Metadata-Version: 2.3
+Name: epijats
+Version: 1.5.1
+Summary: E-Printing Identified JATS
+Project-URL: Homepage, https://gitlab.com/perm.pub/epijats
+Author: Castedo Ellerman
+License: MIT License
+        
+        Copyright (c) 2022 Castedo Ellerman
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.10
+Provides-Extra: html
+Requires-Dist: jinja2; extra == 'html'
+Provides-Extra: jats
+Requires-Dist: elifetools>=0.26; extra == 'jats'
+Requires-Dist: gitpython; extra == 'jats'
+Requires-Dist: jsoml; extra == 'jats'
+Provides-Extra: jsoml
+Requires-Dist: jsoml; extra == 'jsoml'
+Provides-Extra: pdf
+Requires-Dist: jinja2; extra == 'pdf'
+Requires-Dist: weasyprint>=60.2; extra == 'pdf'
+Provides-Extra: successions
+Requires-Dist: hidos; extra == 'successions'
+Provides-Extra: yaml
+Requires-Dist: ruamel-yaml; extra == 'yaml'
+Description-Content-Type: text/markdown
+
+epijats
+=======
+
+`epijats` converts [baseprint](https://baseprints.singlesource.pub)
+JATS XML to PDF in three independent stages:
+
+```
+          JATS
+Stage 1:   ▼
+          "webstract" interchange format (json, yaml, or jsoml)
+Stage 2:   ▼
+          HTML
+Stage 3:   ▼
+          PDF
+```
+
+Using the `epijats` command line tool, you can start and stop at any stage with the
+`--from` and `--to` command line options. The output of `epijats --help` is:
+
+```
+usage: __main__.py [-h] [--from {jats,json,yaml,jsoml,html}]
+                   [--to {json,yaml,jsoml,html,html+pdf,pdf}] [--no-web-fonts]
+                   inpath outpath
+
+Eprint JATS
+
+positional arguments:
+  inpath                input directory/path
+  outpath               output directory/path
+
+options:
+  -h, --help            show this help message and exit
+  --from {jats,json,yaml,jsoml,html}
+                        format of source
+  --to {json,yaml,jsoml,html,html+pdf,pdf}
+                        format of target
+  --no-web-fonts        Do not use online web fonts
+```
+
+
+Installation
+------------
+
+```
+python3 -m pip install epijats[format1,format2,...]
+```
+where each `formatN` etc.. is one of `jats`, `html`, `pdf`, `yaml`, or `jsoml`.
+Json support is automatic.
+
+
+### Non-Python requirements
+
+If you are converting from JATS, the following dependencies must be installed:
+
+<ul>
+  <li> <a href="https://pandoc.org">pandoc</a>
+  <li> pandoc-katex-filter Node.js NPM package
+  <li> git
+</ul>
+
+All other dependencies will be automatically installed by `pip`.
