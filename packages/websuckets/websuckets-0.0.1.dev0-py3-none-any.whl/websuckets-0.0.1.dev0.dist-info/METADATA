@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: websuckets
+Version: 0.0.1.dev0
+Summary: Надстройка над websockets для упрощения разработки приложений реального времени
+Home-page: https://github.com/athropyne/websuckets
+Author: Athropyne
+Author-email: anarchia.rulit@gmail.com
+Requires-Dist: websockets
+Requires-Dist: pydantic
+
