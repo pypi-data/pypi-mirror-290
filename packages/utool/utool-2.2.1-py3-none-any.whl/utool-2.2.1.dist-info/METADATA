@@ -1,0 +1,544 @@
+Metadata-Version: 2.1
+Name: utool
+Version: 2.2.1
+Summary: Useful utilities and the kitchen sink
+Home-page: https://github.com/Erotemic/utool
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: parse >=1.6.6
+Requires-Dist: requests >=2.27.1
+Requires-Dist: pyparsing >=3.0.7
+Requires-Dist: timerit >=1.0.1
+Requires-Dist: lockfile >=0.10.2 ; python_version < "3.0"
+Requires-Dist: futures >=1.0.0 ; python_version < "3.0"
+Requires-Dist: numpy >=1.19.3 ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: pandas >=1.4.0 ; python_version < "3.10" and python_version >= "3.9"
+Requires-Dist: numpy >=1.21.6 ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: pandas >=1.3.5 ; python_version < "3.11" and python_version >= "3.10"
+Requires-Dist: networkx >=2.7 ; python_version < "3.11" and python_version >= "3.8"
+Requires-Dist: six >=1.10.0 ; python_version < "3.12"
+Requires-Dist: numpy >=1.23.2 ; python_version < "3.12" and python_version >= "3.11"
+Requires-Dist: pandas >=1.5.0 ; python_version < "3.12" and python_version >= "3.11"
+Requires-Dist: ubelt >=0.8.1 ; python_version < "3.6" and python_version >= "2.7"
+Requires-Dist: pandas >=0.20.3 ; python_version < "3.6.1" and python_version >= "3.6"
+Requires-Dist: numpy >=1.12.0 ; python_version < "3.7" and python_version >= "3.6"
+Requires-Dist: gitpython >=3.1.18 ; python_version < "3.7" and python_version >= "3.6"
+Requires-Dist: networkx >=2.5 ; python_version < "3.7" and python_version >= "3.6"
+Requires-Dist: pandas >=1.0.0 ; python_version < "3.7" and python_version >= "3.6.1"
+Requires-Dist: pandas >=1.1.3 ; python_version < "3.7.1" and python_version >= "3.7"
+Requires-Dist: numpy >=1.14.5 ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: networkx >=2.6.2 ; python_version < "3.8" and python_version >= "3.7"
+Requires-Dist: pandas >=1.2.0 ; python_version < "3.8" and python_version >= "3.7.1"
+Requires-Dist: pandas >=1.4.0 ; python_version < "3.9" and python_version >= "3.8"
+Requires-Dist: numpy >=1.19.2 ; python_version < "3.9" and python_version >= "3.8" and platform_system != "Darwin"
+Requires-Dist: numpy >=1.21.0 ; python_version < "3.9" and python_version >= "3.8" and platform_system == "Darwin"
+Requires-Dist: networkx >=2.8 ; python_version < "4.0" and python_version >= "3.11"
+Requires-Dist: six >=1.16.0 ; python_version < "4.0" and python_version >= "3.12"
+Requires-Dist: numpy >=1.26.0 ; python_version < "4.0" and python_version >= "3.12"
+Requires-Dist: python-dateutil >=2.9.0 ; python_version < "4.0" and python_version >= "3.12"
+Requires-Dist: pandas >=2.2.0 ; python_version < "4.0" and python_version >= "3.12"
+Requires-Dist: ubelt >=1.3.4 ; python_version >= "3.6"
+Requires-Dist: gitpython >=3.1.24 ; python_version >= "3.7"
+Provides-Extra: all
+Requires-Dist: parse >=1.6.6 ; extra == 'all'
+Requires-Dist: requests >=2.27.1 ; extra == 'all'
+Requires-Dist: pyparsing >=3.0.7 ; extra == 'all'
+Requires-Dist: timerit >=1.0.1 ; extra == 'all'
+Requires-Dist: xdoctest >=1.1.3 ; extra == 'all'
+Requires-Dist: Pygments >=2.2.0 ; extra == 'all'
+Requires-Dist: autopep8 >=1.6.0 ; extra == 'all'
+Requires-Dist: astor >=0.8.1 ; extra == 'all'
+Requires-Dist: pyperclip >=1.5.7 ; extra == 'all'
+Requires-Dist: pyfiglet >=0.7.2 ; extra == 'all'
+Requires-Dist: boto >=2.49.0 ; extra == 'all'
+Requires-Dist: sphinx >=5.0.1 ; extra == 'all'
+Requires-Dist: setproctitle >=1.2.3 ; extra == 'all'
+Requires-Dist: objgraph >=3.5.0 ; extra == 'all'
+Requires-Dist: pint >=0.18 ; extra == 'all'
+Provides-Extra: all-strict
+Requires-Dist: parse ==1.6.6 ; extra == 'all-strict'
+Requires-Dist: requests ==2.27.1 ; extra == 'all-strict'
+Requires-Dist: pyparsing ==3.0.7 ; extra == 'all-strict'
+Requires-Dist: timerit ==1.0.1 ; extra == 'all-strict'
+Requires-Dist: xdoctest ==1.1.3 ; extra == 'all-strict'
+Requires-Dist: Pygments ==2.2.0 ; extra == 'all-strict'
+Requires-Dist: autopep8 ==1.6.0 ; extra == 'all-strict'
+Requires-Dist: astor ==0.8.1 ; extra == 'all-strict'
+Requires-Dist: pyperclip ==1.5.7 ; extra == 'all-strict'
+Requires-Dist: pyfiglet ==0.7.2 ; extra == 'all-strict'
+Requires-Dist: boto ==2.49.0 ; extra == 'all-strict'
+Requires-Dist: sphinx ==5.0.1 ; extra == 'all-strict'
+Requires-Dist: setproctitle ==1.2.3 ; extra == 'all-strict'
+Requires-Dist: objgraph ==3.5.0 ; extra == 'all-strict'
+Requires-Dist: pint ==0.18 ; extra == 'all-strict'
+Requires-Dist: coverage ==4.5 ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all-strict'
+Requires-Dist: pytest <=4.6.11,==4.6.0 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov ==2.8.1 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all-strict'
+Requires-Dist: lockfile ==0.10.2 ; (python_version < "3.0") and extra == 'all-strict'
+Requires-Dist: futures ==1.0.0 ; (python_version < "3.0") and extra == 'all-strict'
+Requires-Dist: numpy ==1.19.3 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pandas ==1.4.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: xxhash ==2.0.2 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all-strict'
+Requires-Dist: numpy ==1.21.6 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pandas ==1.3.5 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: xxhash ==3.0.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all-strict'
+Requires-Dist: networkx ==2.7 ; (python_version < "3.11" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: six ==1.10.0 ; (python_version < "3.12") and extra == 'all-strict'
+Requires-Dist: pytest-timeout ==1.4.2 ; (python_version < "3.12") and extra == 'all-strict'
+Requires-Dist: numpy ==1.23.2 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: pandas ==1.5.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: coverage ==7.0.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: xxhash ==3.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: h5py ==3.8.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.13" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage ==4.3.4 ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all-strict'
+Requires-Dist: pytest <=4.6.11,==4.6.0 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov ==2.8.1 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all-strict'
+Requires-Dist: ubelt ==0.8.1 ; (python_version < "3.6" and python_version >= "2.7") and extra == 'all-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all-strict'
+Requires-Dist: pytest <=6.1.2,==4.6.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pytest-cov ==2.9.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all-strict'
+Requires-Dist: pandas ==0.20.3 ; (python_version < "3.6.1" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: numpy ==1.12.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: gitpython ==3.1.18 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: networkx ==2.5 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: xxhash ==1.3.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pandas ==1.0.0 ; (python_version < "3.7" and python_version >= "3.6.1") and extra == 'all-strict'
+Requires-Dist: pandas ==1.1.3 ; (python_version < "3.7.1" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: numpy ==1.14.5 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: networkx ==2.6.2 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: pytest ==4.6.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: xxhash ==1.3.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: pandas ==1.2.0 ; (python_version < "3.8" and python_version >= "3.7.1") and extra == 'all-strict'
+Requires-Dist: pandas ==1.4.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: xxhash ==1.4.3 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all-strict'
+Requires-Dist: numpy ==1.19.2 ; (python_version < "3.9" and python_version >= "3.8" and platform_system != "Darwin") and extra == 'all-strict'
+Requires-Dist: numpy ==1.21.0 ; (python_version < "3.9" and python_version >= "3.8" and platform_system == "Darwin") and extra == 'all-strict'
+Requires-Dist: networkx ==2.8 ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all-strict'
+Requires-Dist: six ==1.16.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: numpy ==1.26.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: python-dateutil ==2.9.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: pandas ==2.2.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: pytest-timeout ==2.3.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: coverage ==7.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: xxhash ==3.4.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: lru-dict ==1.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: h5py ==3.10.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "4.0" and python_version >= "3.13") and extra == 'all-strict'
+Requires-Dist: ubelt ==1.3.4 ; (python_version >= "3.6") and extra == 'all-strict'
+Requires-Dist: pytest-cov ==3.0.0 ; (python_version >= "3.6.0") and extra == 'all-strict'
+Requires-Dist: gitpython ==3.1.24 ; (python_version >= "3.7") and extra == 'all-strict'
+Requires-Dist: coverage >=4.5 ; (python_version < "2.7" and python_version >= "2.6") and extra == 'all'
+Requires-Dist: pytest <=4.6.11,>=4.6.0 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: pytest-cov >=2.8.1 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'all'
+Requires-Dist: lockfile >=0.10.2 ; (python_version < "3.0") and extra == 'all'
+Requires-Dist: futures >=1.0.0 ; (python_version < "3.0") and extra == 'all'
+Requires-Dist: numpy >=1.19.3 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pandas >=1.4.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: xxhash >=2.0.2 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'all'
+Requires-Dist: numpy >=1.21.6 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: pandas >=1.3.5 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: xxhash >=3.0.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'all'
+Requires-Dist: networkx >=2.7 ; (python_version < "3.11" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: six >=1.10.0 ; (python_version < "3.12") and extra == 'all'
+Requires-Dist: pytest-timeout >=1.4.2 ; (python_version < "3.12") and extra == 'all'
+Requires-Dist: numpy >=1.23.2 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: pandas >=1.5.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: coverage >=7.0.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: xxhash >=3.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: lru-dict >=1.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: h5py >=3.8.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.13" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.4" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage >=4.3.4 ; (python_version < "3.5" and python_version >= "3.4") and extra == 'all'
+Requires-Dist: pytest <=4.6.11,>=4.6.0 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: pytest-cov >=2.8.1 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'all'
+Requires-Dist: ubelt >=0.8.1 ; (python_version < "3.6" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: pytest <=6.1.2,>=4.6.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pytest-cov >=2.9.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'all'
+Requires-Dist: pandas >=0.20.3 ; (python_version < "3.6.1" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: numpy >=1.12.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: gitpython >=3.1.18 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: networkx >=2.5 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: xxhash >=1.3.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: pandas >=1.0.0 ; (python_version < "3.7" and python_version >= "3.6.1") and extra == 'all'
+Requires-Dist: pandas >=1.1.3 ; (python_version < "3.7.1" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: numpy >=1.14.5 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: networkx >=2.6.2 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: pytest >=4.6.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: xxhash >=1.3.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'all'
+Requires-Dist: pandas >=1.2.0 ; (python_version < "3.8" and python_version >= "3.7.1") and extra == 'all'
+Requires-Dist: pandas >=1.4.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: xxhash >=1.4.3 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'all'
+Requires-Dist: numpy >=1.19.2 ; (python_version < "3.9" and python_version >= "3.8" and platform_system != "Darwin") and extra == 'all'
+Requires-Dist: numpy >=1.21.0 ; (python_version < "3.9" and python_version >= "3.8" and platform_system == "Darwin") and extra == 'all'
+Requires-Dist: networkx >=2.8 ; (python_version < "4.0" and python_version >= "3.11") and extra == 'all'
+Requires-Dist: six >=1.16.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: numpy >=1.26.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: python-dateutil >=2.9.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: pandas >=2.2.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: pytest-timeout >=2.3.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: coverage >=7.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: xxhash >=3.4.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: lru-dict >=1.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: h5py >=3.10.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'all'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "4.0" and python_version >= "3.13") and extra == 'all'
+Requires-Dist: ubelt >=1.3.4 ; (python_version >= "3.6") and extra == 'all'
+Requires-Dist: pytest-cov >=3.0.0 ; (python_version >= "3.6.0") and extra == 'all'
+Requires-Dist: gitpython >=3.1.24 ; (python_version >= "3.7") and extra == 'all'
+Provides-Extra: docs
+Requires-Dist: sphinx >=5.0.1 ; extra == 'docs'
+Requires-Dist: sphinx-autobuild >=2021.3.14 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=1.0.0 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon >=0.7 ; extra == 'docs'
+Requires-Dist: sphinx-autoapi >=1.8.4 ; extra == 'docs'
+Requires-Dist: Pygments >=2.9.0 ; extra == 'docs'
+Requires-Dist: myst-parser >=0.16.1 ; extra == 'docs'
+Requires-Dist: sphinx-reredirects >=0.0.1 ; extra == 'docs'
+Provides-Extra: docs-strict
+Requires-Dist: sphinx ==5.0.1 ; extra == 'docs-strict'
+Requires-Dist: sphinx-autobuild ==2021.3.14 ; extra == 'docs-strict'
+Requires-Dist: sphinx-rtd-theme ==1.0.0 ; extra == 'docs-strict'
+Requires-Dist: sphinxcontrib-napoleon ==0.7 ; extra == 'docs-strict'
+Requires-Dist: sphinx-autoapi ==1.8.4 ; extra == 'docs-strict'
+Requires-Dist: Pygments ==2.9.0 ; extra == 'docs-strict'
+Requires-Dist: myst-parser ==0.16.1 ; extra == 'docs-strict'
+Requires-Dist: sphinx-reredirects ==0.0.1 ; extra == 'docs-strict'
+Provides-Extra: optional
+Requires-Dist: Pygments >=2.2.0 ; extra == 'optional'
+Requires-Dist: autopep8 >=1.6.0 ; extra == 'optional'
+Requires-Dist: astor >=0.8.1 ; extra == 'optional'
+Requires-Dist: pyperclip >=1.5.7 ; extra == 'optional'
+Requires-Dist: pyfiglet >=0.7.2 ; extra == 'optional'
+Requires-Dist: boto >=2.49.0 ; extra == 'optional'
+Requires-Dist: sphinx >=5.0.1 ; extra == 'optional'
+Requires-Dist: setproctitle >=1.2.3 ; extra == 'optional'
+Requires-Dist: objgraph >=3.5.0 ; extra == 'optional'
+Requires-Dist: pint >=0.18 ; extra == 'optional'
+Provides-Extra: optional-strict
+Requires-Dist: Pygments ==2.2.0 ; extra == 'optional-strict'
+Requires-Dist: autopep8 ==1.6.0 ; extra == 'optional-strict'
+Requires-Dist: astor ==0.8.1 ; extra == 'optional-strict'
+Requires-Dist: pyperclip ==1.5.7 ; extra == 'optional-strict'
+Requires-Dist: pyfiglet ==0.7.2 ; extra == 'optional-strict'
+Requires-Dist: boto ==2.49.0 ; extra == 'optional-strict'
+Requires-Dist: sphinx ==5.0.1 ; extra == 'optional-strict'
+Requires-Dist: setproctitle ==1.2.3 ; extra == 'optional-strict'
+Requires-Dist: objgraph ==3.5.0 ; extra == 'optional-strict'
+Requires-Dist: pint ==0.18 ; extra == 'optional-strict'
+Requires-Dist: xxhash ==2.0.2 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional-strict'
+Requires-Dist: xxhash ==3.0.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional-strict'
+Requires-Dist: xxhash ==3.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.8.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'optional-strict'
+Requires-Dist: xxhash ==1.3.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional-strict'
+Requires-Dist: xxhash ==1.3.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional-strict'
+Requires-Dist: xxhash ==1.4.3 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.1.8 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.7.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional-strict'
+Requires-Dist: xxhash ==3.4.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional-strict'
+Requires-Dist: lru-dict ==1.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional-strict'
+Requires-Dist: h5py ==3.10.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional-strict'
+Requires-Dist: xxhash >=2.0.2 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'optional'
+Requires-Dist: xxhash >=3.0.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'optional'
+Requires-Dist: xxhash >=3.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional'
+Requires-Dist: lru-dict >=1.2.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional'
+Requires-Dist: h5py >=3.8.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'optional'
+Requires-Dist: xxhash >=1.3.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'optional'
+Requires-Dist: xxhash >=1.3.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'optional'
+Requires-Dist: xxhash >=1.4.3 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional'
+Requires-Dist: lru-dict >=1.1.8 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional'
+Requires-Dist: h5py >=3.7.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'optional'
+Requires-Dist: xxhash >=3.4.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional'
+Requires-Dist: lru-dict >=1.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional'
+Requires-Dist: h5py >=3.10.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'optional'
+Provides-Extra: runtime
+Requires-Dist: parse >=1.6.6 ; extra == 'runtime'
+Requires-Dist: requests >=2.27.1 ; extra == 'runtime'
+Requires-Dist: pyparsing >=3.0.7 ; extra == 'runtime'
+Requires-Dist: timerit >=1.0.1 ; extra == 'runtime'
+Provides-Extra: runtime-strict
+Requires-Dist: parse ==1.6.6 ; extra == 'runtime-strict'
+Requires-Dist: requests ==2.27.1 ; extra == 'runtime-strict'
+Requires-Dist: pyparsing ==3.0.7 ; extra == 'runtime-strict'
+Requires-Dist: timerit ==1.0.1 ; extra == 'runtime-strict'
+Requires-Dist: lockfile ==0.10.2 ; (python_version < "3.0") and extra == 'runtime-strict'
+Requires-Dist: futures ==1.0.0 ; (python_version < "3.0") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.19.3 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.4.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.21.6 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.3.5 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime-strict'
+Requires-Dist: networkx ==2.7 ; (python_version < "3.11" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: six ==1.10.0 ; (python_version < "3.12") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.23.2 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.5.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: ubelt ==0.8.1 ; (python_version < "3.6" and python_version >= "2.7") and extra == 'runtime-strict'
+Requires-Dist: pandas ==0.20.3 ; (python_version < "3.6.1" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.12.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: gitpython ==3.1.18 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: networkx ==2.5 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.0.0 ; (python_version < "3.7" and python_version >= "3.6.1") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.1.3 ; (python_version < "3.7.1" and python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.14.5 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: networkx ==2.6.2 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.2.0 ; (python_version < "3.8" and python_version >= "3.7.1") and extra == 'runtime-strict'
+Requires-Dist: pandas ==1.4.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.19.2 ; (python_version < "3.9" and python_version >= "3.8" and platform_system != "Darwin") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.21.0 ; (python_version < "3.9" and python_version >= "3.8" and platform_system == "Darwin") and extra == 'runtime-strict'
+Requires-Dist: networkx ==2.8 ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime-strict'
+Requires-Dist: six ==1.16.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime-strict'
+Requires-Dist: numpy ==1.26.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime-strict'
+Requires-Dist: python-dateutil ==2.9.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime-strict'
+Requires-Dist: pandas ==2.2.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime-strict'
+Requires-Dist: ubelt ==1.3.4 ; (python_version >= "3.6") and extra == 'runtime-strict'
+Requires-Dist: gitpython ==3.1.24 ; (python_version >= "3.7") and extra == 'runtime-strict'
+Requires-Dist: lockfile >=0.10.2 ; (python_version < "3.0") and extra == 'runtime'
+Requires-Dist: futures >=1.0.0 ; (python_version < "3.0") and extra == 'runtime'
+Requires-Dist: numpy >=1.19.3 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime'
+Requires-Dist: pandas >=1.4.0 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'runtime'
+Requires-Dist: numpy >=1.21.6 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime'
+Requires-Dist: pandas >=1.3.5 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'runtime'
+Requires-Dist: networkx >=2.7 ; (python_version < "3.11" and python_version >= "3.8") and extra == 'runtime'
+Requires-Dist: six >=1.10.0 ; (python_version < "3.12") and extra == 'runtime'
+Requires-Dist: numpy >=1.23.2 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'runtime'
+Requires-Dist: pandas >=1.5.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'runtime'
+Requires-Dist: ubelt >=0.8.1 ; (python_version < "3.6" and python_version >= "2.7") and extra == 'runtime'
+Requires-Dist: pandas >=0.20.3 ; (python_version < "3.6.1" and python_version >= "3.6") and extra == 'runtime'
+Requires-Dist: numpy >=1.12.0 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime'
+Requires-Dist: gitpython >=3.1.18 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime'
+Requires-Dist: networkx >=2.5 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'runtime'
+Requires-Dist: pandas >=1.0.0 ; (python_version < "3.7" and python_version >= "3.6.1") and extra == 'runtime'
+Requires-Dist: pandas >=1.1.3 ; (python_version < "3.7.1" and python_version >= "3.7") and extra == 'runtime'
+Requires-Dist: numpy >=1.14.5 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime'
+Requires-Dist: networkx >=2.6.2 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'runtime'
+Requires-Dist: pandas >=1.2.0 ; (python_version < "3.8" and python_version >= "3.7.1") and extra == 'runtime'
+Requires-Dist: pandas >=1.4.0 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'runtime'
+Requires-Dist: numpy >=1.19.2 ; (python_version < "3.9" and python_version >= "3.8" and platform_system != "Darwin") and extra == 'runtime'
+Requires-Dist: numpy >=1.21.0 ; (python_version < "3.9" and python_version >= "3.8" and platform_system == "Darwin") and extra == 'runtime'
+Requires-Dist: networkx >=2.8 ; (python_version < "4.0" and python_version >= "3.11") and extra == 'runtime'
+Requires-Dist: six >=1.16.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime'
+Requires-Dist: numpy >=1.26.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime'
+Requires-Dist: python-dateutil >=2.9.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime'
+Requires-Dist: pandas >=2.2.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'runtime'
+Requires-Dist: ubelt >=1.3.4 ; (python_version >= "3.6") and extra == 'runtime'
+Requires-Dist: gitpython >=3.1.24 ; (python_version >= "3.7") and extra == 'runtime'
+Provides-Extra: tests
+Requires-Dist: xdoctest >=1.1.3 ; extra == 'tests'
+Provides-Extra: tests-strict
+Requires-Dist: xdoctest ==1.1.3 ; extra == 'tests-strict'
+Requires-Dist: coverage ==4.5 ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests-strict'
+Requires-Dist: pytest <=4.6.11,==4.6.0 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov ==2.8.1 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'tests-strict'
+Requires-Dist: pytest-timeout ==1.4.2 ; (python_version < "3.12") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'tests-strict'
+Requires-Dist: coverage ==7.0.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.13" and python_version >= "3.12") and extra == 'tests-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests-strict'
+Requires-Dist: coverage ==4.3.4 ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests-strict'
+Requires-Dist: pytest <=4.6.11,==4.6.0 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov ==2.8.1 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests-strict'
+Requires-Dist: coverage ==5.3.1 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests-strict'
+Requires-Dist: pytest <=6.1.2,==4.6.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: pytest-cov ==2.9.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests-strict'
+Requires-Dist: pytest ==4.6.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: coverage ==6.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests-strict'
+Requires-Dist: pytest-timeout ==2.3.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'tests-strict'
+Requires-Dist: coverage ==7.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'tests-strict'
+Requires-Dist: pytest ==8.1.1 ; (python_version < "4.0" and python_version >= "3.13") and extra == 'tests-strict'
+Requires-Dist: pytest-cov ==3.0.0 ; (python_version >= "3.6.0") and extra == 'tests-strict'
+Requires-Dist: coverage >=4.5 ; (python_version < "2.7" and python_version >= "2.6") and extra == 'tests'
+Requires-Dist: pytest <=4.6.11,>=4.6.0 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest-cov >=2.8.1 ; (python_version < "2.8.0" and python_version >= "2.7.0") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.10" and python_version >= "3.9") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'tests'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.11" and python_version >= "3.10") and extra == 'tests'
+Requires-Dist: pytest-timeout >=1.4.2 ; (python_version < "3.12") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'tests'
+Requires-Dist: coverage >=7.0.0 ; (python_version < "3.12" and python_version >= "3.11") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.13" and python_version >= "3.12") and extra == 'tests'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.4" and python_version >= "2.7") and extra == 'tests'
+Requires-Dist: coverage >=4.3.4 ; (python_version < "3.5" and python_version >= "3.4") and extra == 'tests'
+Requires-Dist: pytest <=4.6.11,>=4.6.0 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: pytest-cov >=2.8.1 ; (python_version < "3.5.0" and python_version >= "3.4.0") and extra == 'tests'
+Requires-Dist: coverage >=5.3.1 ; (python_version < "3.6" and python_version >= "3.5") and extra == 'tests'
+Requires-Dist: pytest <=6.1.2,>=4.6.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: pytest-cov >=2.9.0 ; (python_version < "3.6.0" and python_version >= "3.5.0") and extra == 'tests'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.7" and python_version >= "3.6") and extra == 'tests'
+Requires-Dist: pytest >=4.6.0 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.8" and python_version >= "3.7") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: coverage >=6.1.1 ; (python_version < "3.9" and python_version >= "3.8") and extra == 'tests'
+Requires-Dist: pytest-timeout >=2.3.1 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'tests'
+Requires-Dist: coverage >=7.3.0 ; (python_version < "4.0" and python_version >= "3.12") and extra == 'tests'
+Requires-Dist: pytest >=8.1.1 ; (python_version < "4.0" and python_version >= "3.13") and extra == 'tests'
+Requires-Dist: pytest-cov >=3.0.0 ; (python_version >= "3.6.0") and extra == 'tests'
+
+|Pypi| |Downloads| |Codecov| |GithubActions|
+
+utool
+-----
+
+Notice: This is a "kitchen sink" library. While it is still somewhat maintained, I am trying to "end-of-life" it as soon as possible. I have refactored it into several other projects. Please see https://github.com/Erotemic/ubelt for a well-maintained curated collection of utilities. Also see https://github.com/Erotemic/xdev for ports of the more developer-y functions in this libray.
+
+This project is only maintained for the benefit of
+https://github.com/Erotemic/ibeis and is being phased whenever possible.
+
+----
+
+Useful Utility Tools For You!
+
+The `utool` library is a collection of tools that I've found useful. I've
+written most of them from scratch, but there are a few I've taken or partially
+taken from StackOverflow. References are given in most locations.  
+
+In my experience the most useful functions in this library are:
+
+* `ut.flatten`
+* `ut.take`
+* `ut.take_column`
+* `ut.compress`
+* `ut.ichunks`
+* `ut.itertwo`
+* `ut.isiterable`
+* `ut.group_items`
+* `ut.dict_subset`
+* `ut.dict_hist`
+* `ut.map_dict_vals`
+* `ut.map_dict_keys`
+* `ut.memoize`
+* `ut.get_argflag`
+* `ut.get_argval`
+* `ut.ProgIter`
+* `ut.Timer`
+* `ut.Timerit`
+* `ut.MemoryTracker`
+* `ut.InteractiveIter`
+* `ut.color_print`
+* `ut.ensuredir`
+* `ut.glob`
+* `ut.grep`
+* `ut.sed`
+* `ut.ls`
+* `ut.repr2`
+
+Warning: This module does contain personalized functions that help glue
+together my projects.  Over time these will be removed.  While many of the
+functions in this repo are mature, the repo itself is a work in progress.  Some
+functions may be broken, deprecated, unfinished, or undocumented. Thus, some
+APIs may refactored or removed in the future.
+
+
+Documenation
+------------
+http://erotemic.github.io/utool
+
+
+Installation
+--------------
+Installation can now be done via pypi
+
+.. code:: bash
+
+    pip install utool
+
+
+
+.. |CircleCI| image:: https://circleci.com/gh/Erotemic/utool.svg?style=svg
+    :target: https://circleci.com/gh/Erotemic/utool
+.. |Travis| image:: https://img.shields.io/travis/Erotemic/utool/main.svg?label=Travis%20CI
+   :target: https://travis-ci.org/Erotemic/utool?branch=main
+.. |Appveyor| image:: https://ci.appveyor.com/api/projects/status/github/Erotemic/utool?branch=main&svg=True
+   :target: https://ci.appveyor.com/project/Erotemic/utool/branch/main
+.. |Codecov| image:: https://codecov.io/github/Erotemic/utool/badge.svg?branch=main&service=github
+   :target: https://codecov.io/github/Erotemic/utool?branch=main
+.. |Pypi| image:: https://img.shields.io/pypi/v/utool.svg
+   :target: https://pypi.python.org/pypi/utool
+.. |Downloads| image:: https://img.shields.io/pypi/dm/utool.svg
+   :target: https://pypistats.org/packages/utool
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/utool/badge/?version=latest
+    :target: http://utool.readthedocs.io/en/latest/
+.. |GithubActions| image:: https://github.com/Erotemic/utool/actions/workflows/tests.yml/badge.svg?branch=main
+    :target: https://github.com/Erotemic/utool/actions?query=branch%3Amain
