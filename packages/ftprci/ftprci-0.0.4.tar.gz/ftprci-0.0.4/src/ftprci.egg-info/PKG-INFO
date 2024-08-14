@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ftprci
+Version: 0.0.4
+Summary: Cross platform fast time python robot interface controller
+Author-email: Ekter <ektermoi1@proton.me>
+Project-URL: Homepage, https://github.com/Ekter/ftprci
+Project-URL: Issues, https://github.com/Ekter/ftprci/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ftprci
+Fast time python robot controller interface
+
+Works on cpython and micropython
