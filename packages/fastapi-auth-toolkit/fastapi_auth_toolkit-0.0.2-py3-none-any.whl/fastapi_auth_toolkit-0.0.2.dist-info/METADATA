@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: fastapi-auth-toolkit
+Version: 0.0.2
+Summary: A comprehensive FastAPI authentication library that provides a robust and integrated set of features for user authentication, registration, and account management. This library also supports third-party social account authentication, making it easy to integrate with popular social platforms.
+Author-email: Ankaj Gupta <ankajgupta@coderwebsite.com>, Coder Website <contact@coderwebsite.com>
+License: MIT
+Keywords: fastapi-auth,fastapi,python,fastapi jwt,fastapi beanie,pymongo
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: uvicorn
+Requires-Dist: passlib
+Requires-Dist: pyjwt
+Requires-Dist: bson
+Requires-Dist: pydantic-settings
+Requires-Dist: bcrypt
+
+# FastAPI Auth Toolkit [Beanie]
+
+The FastAPI Auth Toolkit [Beanie] provides a comprehensive authentication solution for FastAPI applications. It offers robust features for user
+authentication, registration, and account management, and supports integration with popular third-party social authentication platforms.
+
+## Features
+
+- **User Authentication and Registration**: Securely manage user accounts with built-in authentication and registration capabilities.
+- **Account Management**: Easily handle user profiles and account details.
+- **Third-Party Social Authentication**: Integrate with major social platforms for seamless social login functionality.
+- **Simple Configuration**: Effortlessly configure and set up with straightforward integration steps.
+
+## Installation
+
+You can install the `fastapi-auth-toolkit[beanie]` package using either `pip` or `pipenv`.
+
+### Using pip
+
+To install the package with `pip`, execute:
+
+```bash
+pip install fastapi-auth-toolkit[beanie]
+```
+
+## Project Configuration 
+- In your FastAPI application, typically located in main.py or another startup file, integrate the authentication routes and load the configuration as
+  follows:
+
+### 1. Setup database connection and collection - `db.py`
+- The first thing to do is to create a MongoDB connection using mongodb/motor (automatically installed with Beanie).
+```python
+from motor.motor_asyncio import AsyncIOMotorClient
+
+# Database configuration
+DATABASE_URL = "mongodb://localhost:27017"
+database_name = "database_name"
+
+# Create a MongoDB client and get the database instance
+database_client = AsyncIOMotorClient(
+    DATABASE_URL, uuidRepresentation="standard"
+)
+database = database_client.get_database(database_name)
+```
+### 2. Initialize Beanie - `db.py`
+- When initializing your FastAPI app, it's important that you initialize Beanie so it can discover your models. We can achieve this using Lifespan Events on the FastAPI app
+
+```python
+from typing import List, Type
+from beanie import init_beanie, Document
+
+# Document model registry
+document_models_registry: List[Type[Document]] = []
+
+async def init_database():
+    try:
+        # Initialize Beanie with the provided document models and database
+        await init_beanie(
+            database=database,
+            document_models=document_models_registry
+        )
+        print("Beanie initialized successfully.")
+    except Exception as e:
+        print(f"Error initializing Beanie: {e}")
+        raise
+```
+
+### 3. Configuration - `main.py`
+```python
+from fastapi import FastAPI
+from contextlib import asynccontextmanager
+
+from fastapi_auth_toolkit import FastapiAuthToolkitConfig
+from db import document_models_registry, init_database
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    Asynchronous context manager to handle application lifespan events.
+
+    :param app: The FastAPI application instance.
+    """
+
+    # Initialize FastAPI Auth Toolkit
+    FastapiAuthToolkitConfig(
+        app=app,
+        document_models=document_models_registry,
+    )
+
+    # Initialize beanie document
+    await init_database()
+
+    # Yield control back to the FastAPI app
+    yield
+
+# Create your FastAPI app
+app = FastAPI(lifespan=lifespan)
+``` 
+## Authentication Method - `jwt`, `session`, or `cookies`
+
+###  1. `session` based auth.
+```python
+from fastapi_auth_toolkit import FastapiAuthToolkitConfig
+
+FastapiAuthToolkitConfig(
+    auth_method="session",
+)
+```
+
+###  2. `cookies` based auth.
+```python
+from fastapi_auth_toolkit import FastapiAuthToolkitConfig
+
+FastapiAuthToolkitConfig(
+    auth_method="cookies",
+)
+```
+###  3. `jwt` based auth - fully customized. 
+- Initialize FastAPI Auth Toolkit with optional custom JWT settings
+
+```python
+from datetime import timedelta
+from fastapi_auth_toolkit import FastapiAuthToolkitConfig
+
+FastapiAuthToolkitConfig(
+    auth_method="jwt",
+    jwt_settings={
+        "access_token_lifetime": timedelta(minutes=5),  # Example JWT settings
+        "refresh_token_lifetime": timedelta(days=1),
+        "update_last_login": False,
+        "algorithm": "HS256",
+        "auth_header_types": "Bearer",
+        "auth_header_name": "HTTP_AUTHORIZATION",
+        "user_id_field": "user_id"
+    },
+)
+```
+
