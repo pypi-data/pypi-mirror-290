@@ -1,0 +1,31 @@
+[project.urls]
+Homepage = "https://github.com/broadinstitute/monorepo/tree/main/libs/jump_babel"
+
+[tool.poetry]
+name = "jump_deps"
+version = "0.0.1"
+description = "Convenience package to add dependencies for JUMP exploratory analysis"
+authors = ["Alan Munoz"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+boto3 = ">=1.33.1"
+matplotlib = "^3.8.2"
+polars = ">=0.19.19"
+pyarrow = ">=15.0.0"
+s3fs = "^2023.12.1"
+seaborn = "^0.13.2"
+biopython = "^1.84"
+broad-babel = "^0.1.23"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+jupytext = "^1.15.0"
+pytest = "^7.4.1"
+ruff-lsp = "^0.0.48" # These two are causing nix2poetry to fail
+ruff = "<0.2.0"
+
+[tool.jupytext.formats]
+"howto/" = ".qmd"
+"scripts/" = "py:percent"

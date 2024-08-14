@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jump_deps
+Version: 0.0.1
+Summary: Convenience package to add dependencies for JUMP exploratory analysis
+Author: Alan Munoz
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: biopython (>=1.84,<2.0)
+Requires-Dist: boto3 (>=1.33.1)
+Requires-Dist: broad-babel (>=0.1.23,<0.2.0)
+Requires-Dist: matplotlib (>=3.8.2,<4.0.0)
+Requires-Dist: polars (>=0.19.19)
+Requires-Dist: pyarrow (>=15.0.0)
+Requires-Dist: s3fs (>=2023.12.1,<2024.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Description-Content-Type: text/markdown
+
+- [Additional uses](#orgea584c6)
+
+Focal point for JUMP information and data analysis pipelines.
+
+
+<a id="orgea584c6"></a>
+
+# Additional uses
+
+This repository can be used as a way to install essential dependencies for an exploratory analysis of JUMP morphological data.
+
