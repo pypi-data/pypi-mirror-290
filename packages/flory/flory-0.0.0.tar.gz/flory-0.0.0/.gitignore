@@ -1,0 +1,16 @@
+.vscode
+**/__pycache__
+**/*.pytest_cache
+
+.coverage*
+
+docs/build
+docs/source/_autosummary
+
+.DS_Store
+
+*.egg*
+build
+dist
+
+flory/_version.py
