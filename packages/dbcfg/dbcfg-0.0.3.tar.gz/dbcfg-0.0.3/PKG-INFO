@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dbcfg
+Version: 0.0.3
+Summary: 数据库连接信息管理
+Author: Chen chuan
+Author-email: kcchen@139.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dbcfg本身
+
+dbcfg的python包。包含python的库以及dbcfg本身。
+
+有关dbcfg的文档请参考
+
+https://gitee.com/chenc224/dbcfg/blob/master/README.md
+
+# 安装
+
+使用
+
+```
+pip install dbcfg
+```
+即可下载安装
+
+# 使用方法
+
+```
+import dbcfg
+dbc=dbcfg.use("xxx")
+print(dbc.dbtype)       #输出数据库类型，如mysql
+db=dbc.connect()        #返回数据库连接
+```
+
