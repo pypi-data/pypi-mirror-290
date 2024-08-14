@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-auth-toolkit"
+version = "0.0.2"
+description = "A comprehensive FastAPI authentication library that provides a robust and integrated set of features for user authentication, registration, and account management. This library also supports third-party social account authentication, making it easy to integrate with popular social platforms."
+readme = "README.md"
+authors = [
+    { name = "Ankaj Gupta", email = "ankajgupta@coderwebsite.com" },
+    { name = "Coder Website", email = "contact@coderwebsite.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "fastapi-auth", "fastapi", "python", "fastapi jwt", "fastapi beanie", "pymongo"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "passlib",
+    "pyjwt",
+    "bson",
+    "pydantic-settings",
+    "passlib",
+    "bcrypt"
+]
+
+[optional-dependencies]
+beanie = ["beanie"]
+
+[tool.setuptools.packages.find]
+where = ["."]
