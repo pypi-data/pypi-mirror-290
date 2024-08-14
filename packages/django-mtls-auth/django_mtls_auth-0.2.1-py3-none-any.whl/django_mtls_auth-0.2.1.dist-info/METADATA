@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: django-mtls-auth
+Version: 0.2.1
+Summary: Enable mMTLS authentication to your Django projects
+Home-page: https://github.com/fretscha/django-mtls-auth
+License: MIT
+Keywords: django,tls,ssl,client-certificate,authentication,nginx,apache2,reverse-proxy
+Author: Frederic Tschannen
+Author-email: fretscha@umx.net
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.1
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: django (>=4.2,<5.2)
+Project-URL: Documentation, https://django-mtls-auth.readthedocs.io
+Project-URL: Repository, https://github.com/fretscha/django-mtls-auth
+Description-Content-Type: text/markdown
+
+
+# django-mtls-auth
+
+![Beta](https://img.shields.io/badge/beta-red)
+![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffretscha%2Fdjango-mtls-auth%2Fmain%2Fpyproject.toml&query=%24.tool.poetry.version&label=latest%20release)
+
+
+
+This Django middleware package enables authentication via request headers sent by an ingress reverse proxy. It provides a seamless way to integrate with existing reverse proxy setups, allowing developers to authenticate users based on headers such as `X-SSL-User-DN`. This approach is particularly useful in microservices architectures, where the reverse proxy handles authentication upstream. This package is designed to be easily configurable, supporting various header names and formats, ensuring flexibility and adaptability to different environments. With this middleware, developers can enhance security and streamline user management across distributed systems, making it an ideal choice for projects leveraging reverse proxies for authentication.
+
+
+Documentation
+-------------
+
+~~The full documentation is at https://django-mtls-auth.readthedocs.io.~~
+
+Quickstart
+----------
+
+Install django-mtls-auth
+```shell script
+pip install django-mtls-auth
+```
+
+Add it to your `MIDDLEWARE`
+
+```python
+MIDDLEWARE = [
+    ...
+    "mtls_auth.middleware.MTLSAuthenticationMiddleware",
+]
+```
+
+# Features
+
+- [x] Authentication 
+- [ ] Documentation 
+- [ ] Authorization 
+- [ ] Audit 
+
+
+# Running Tests
+
+Does the code actually work?
+```shell script
+cd django-mtls-auth
+poetry install
+
+poetry run pytest
+# or 
+poetry run nox
+````
+
+
+# Credits
+
+Tools used in rendering this package:
+
+* [cookiecutter](https://github.com/audreyr/cookiecutter)
+* [django-reusable-app](https://github.com/AndreGuerra123/django-reusable-app)
+
