@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scelda"
+version = "0.0.4"
+dependencies = [
+    "numpy",
+    "tqdm",
+    "torch",
+    "matplotlib",
+    "muon",
+    "pyro-ppl",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.urls]
+Homepage = "https://github.com/Computational-Morphogenomics-Group/sceLDA"
