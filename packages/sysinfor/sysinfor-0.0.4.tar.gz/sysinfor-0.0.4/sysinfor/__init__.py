@@ -1,0 +1,1 @@
+from .sysinfor import getsysinfo
