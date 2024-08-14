@@ -1,0 +1,4 @@
+[console_scripts]
+comparator = smart_tools.comparator.main:main
+dissector = smart_tools.dissector.main:main
+morpher = smart_tools.morpher.main:main
