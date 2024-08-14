@@ -1,0 +1,4 @@
+[console_scripts]
+geoccoord-convert=geocraft._scripts.coord_convert:main
+parse-baidumap=geocraft._scripts.parse_baidumap:main
+
