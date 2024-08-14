@@ -1,0 +1,131 @@
+[
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "vorkommastellen",
+    "fieldDef": {
+      "title": "Vorkommastellen",
+            "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "nachkommastellen",
+    "fieldDef": {
+      "title": "Nachkommastellen",
+            "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "schwachlastfaehig",
+    "fieldDef": {
+      "title": "Schwachlastfaehig",
+            "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "konzessionsabgabenTyp",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/AbgabeArt.json#"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "activeFrom",
+    "fieldDef": {
+      "title": "Activefrom",
+            "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "activeUntil",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Activeuntil"
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "description",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    }
+  },
+  {
+    "pattern": "com\\.Zaehlwerk",
+    "fieldName": "verbrauchsart",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Verbrauchsart"
+    }
+  }
+]

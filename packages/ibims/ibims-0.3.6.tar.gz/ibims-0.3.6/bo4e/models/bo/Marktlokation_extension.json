@@ -1,0 +1,106 @@
+[
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "messtechnischeEinordnung",
+        "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/MesstechnischeEinordnung.json#"
+        },
+        {
+          "type": "null"
+        }
+      ],
+          "default": null
+        }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "uebertragungsnetzgebiet",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/Regelzone.json#"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "marktgebiet",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/Marktgebiet.json#"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "variant",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/Variant.json#"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "communityId",
+    "fieldDef": {
+      "title": "Communityid",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "prognoseGrundlage",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/Prognosegrundlage.json#"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  {
+    "pattern": "bo\\.Marktlokation",
+    "fieldName": "prognoseGrundlageDetail",
+    "fieldDef": {
+      "anyOf": [
+        {
+          "$ref": "../enum/Profiltyp.json#"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  }
+]
