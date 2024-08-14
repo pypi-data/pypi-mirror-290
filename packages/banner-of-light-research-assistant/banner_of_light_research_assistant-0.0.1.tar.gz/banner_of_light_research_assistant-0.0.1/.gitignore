@@ -1,0 +1,21 @@
+# test inspection images
+*.png
+
+# The local data directory
+data
+
+
+# hatchling build directory
+dist
+
+# python cache and other python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pywz
+*.pyz
+*.pywz
+*.pyw
+*.pyi
