@@ -1,0 +1,1 @@
+YALIDINE_URL = "https://api.yalidine.app/v1/"
