@@ -1,0 +1,25 @@
+[project]
+name = "qwen-tokenizer"
+version = "0.1.0"
+description = "Lightweight tokenizer for qwen."
+authors = [
+    { name = "Anderson", email = "andersonby@163.com" },
+]
+dependencies = [
+    "tokenizers>=0.20.0",
+    "regex>=2024.7.24",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
