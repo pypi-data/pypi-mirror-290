@@ -1,0 +1,15 @@
+bcrypt
+certifi
+docker
+lovely-pytest-docker
+pyopenssl
+pytest
+
+[dev]
+black
+coveralls
+pylint
+pytest
+pytest-cov
+twine
+wheel
