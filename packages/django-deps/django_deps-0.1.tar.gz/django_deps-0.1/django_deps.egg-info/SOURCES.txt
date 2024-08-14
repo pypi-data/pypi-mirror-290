@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_deps/__init__.py
+django_deps/dependencies_map.py
+django_deps.egg-info/PKG-INFO
+django_deps.egg-info/SOURCES.txt
+django_deps.egg-info/dependency_links.txt
+django_deps.egg-info/requires.txt
+django_deps.egg-info/top_level.txt
+django_deps/management/__init__.py
+django_deps/management/commands/__init__.py
+django_deps/management/commands/dependencies.py

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-deps"
+version = "0.1"
+requires-python = ">= 3.8"
+authors = [
+    { name = "Piotr Wasilewski", email = "info@piotrek.io" },
+]
+license = { text = "MIT" }
+description = "Analyze dependencies between apps in your Django project"
+keywords = ["django", "setup", "static", "analysis"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "django>=4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==24.8.0",
+    "isort==5.13.2",
+]
+
+[project.urls]
+Repository = "https://github.com/piotrekio/django-deps"
+
+[tool.black]
+line-length = 90
+quiet = true
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+atomic = true
+include_trailing_comma = true
+line_length = 90
+lines_after_imports = 2
+multi_line_output = 3
+use_parentheses = true
