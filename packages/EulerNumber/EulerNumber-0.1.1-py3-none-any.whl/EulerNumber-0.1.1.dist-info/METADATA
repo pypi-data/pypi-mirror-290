@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: EulerNumber
+Version: 0.1.1
+Summary: This library shows the euler number
+Home-page: https://github.com/kaMod4/euler
+Author: Ivan Miskin
+Author-email: navi.niksim@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# eulerNumber
+
+EulerNumber is a library, that shows the euler number. The higher the number that you put as argument into the fuction is, the corectlier is the euler number.
+
+
+## Installation
+
+You can install EulerNumber using pip:
+
+pip install EulereNumber
+
+## Usage
+
+```python
+
+from EulerNumber import*
+
+euler(10)
