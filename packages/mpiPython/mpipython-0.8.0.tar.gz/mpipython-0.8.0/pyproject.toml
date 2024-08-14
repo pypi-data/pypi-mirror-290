@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mpiPython"
+version = "0.8.0"
+dependencies = [
+    'setuptools'
+]
