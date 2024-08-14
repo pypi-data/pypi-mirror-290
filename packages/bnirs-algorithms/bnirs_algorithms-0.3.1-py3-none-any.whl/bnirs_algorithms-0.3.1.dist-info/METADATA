@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bnirs_algorithms
+Version: 0.3.1
+Summary: A collection of algorithms for bNIRS
+Home-page: https://github.com/barraca07/bnirs_algorithms
+Author: Archie Barraclough
+Author-email: a.barraclough@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+
