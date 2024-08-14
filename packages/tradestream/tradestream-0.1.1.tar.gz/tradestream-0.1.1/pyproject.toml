@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "tradestream"
+version = "0.1.1"
+description = "A Python application with a Dash frontend, services to fetch market data, and an API server."
+authors = ["Mac Anderson <mac@macanderson.com>"]
+license = "proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.3"
+dash = "^2.11.0"
+pymongo = "^4.5.0"
+redis = "^4.5.0"
+rq = "^1.14.1"
+aiohttp = "^3.8.5"
+# databento = "^0.1.0"
+polygon-api-client = "^1.1.0"
+attrs = "^24.1.0"
+pandas = "^2.0.3"
+numpy = "^1.24.4"
+pyarrow = "^15.0.1"
+ujson = "^5.9.0"
+pyyaml = "^6.0.1"
+python-dotenv = "^1.0.0"
+
+# Add other dependencies as needed
+databento = "^0.39.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+black = "^23.3b0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start_dev_server = "tradestream.dashboard.main:start_app_server --reload"
+start_app_server = "tradestream.dashboard.main:start_app_server"
+stop_app_server = "tradestream.dashboard.main:stop_app_server"
+start_services_daemon = "tradestream.services.main:main"
+stop_services_daemon = "tradestream.services.main:stop"
+start_api_server = "tradestream.api.main:start_server"
+stop_api_server = "tradestream.api.main:stop_server"
