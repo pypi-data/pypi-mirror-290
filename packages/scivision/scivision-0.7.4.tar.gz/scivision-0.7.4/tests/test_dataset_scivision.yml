@@ -1,0 +1,7 @@
+sources:
+  test_images:
+      description: Load example images
+      origin: 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["tests/img/*.jpeg"]

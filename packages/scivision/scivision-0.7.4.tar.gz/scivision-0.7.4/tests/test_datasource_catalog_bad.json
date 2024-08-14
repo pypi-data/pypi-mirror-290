@@ -1,0 +1,27 @@
+{
+   "catalog_type":"scivision datasource catalog",
+   "name":"default",
+   "description":"This catalog is not a valid datasource catalog. Included for testing purposes. It is missing 'url' and has an extra key.",
+   "entries":[
+      {
+         "name":"data-000",
+         "tasks":[
+            "object-detection",
+            "segmentation"
+         ],
+         "domains":[
+            "optical-microscopy"
+         ],
+         "INVALID":"",
+         "institution":"epfl",
+         "tags":[
+            "help-needed",
+            "3D",
+            "cell",
+            "cell-counting",
+            "biology",
+            "biomedical-science"
+         ]
+      }
+   ]
+}

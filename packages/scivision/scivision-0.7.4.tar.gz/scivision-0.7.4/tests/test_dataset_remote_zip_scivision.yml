@@ -1,0 +1,7 @@
+sources:
+  plankton:
+      description: Load example images
+      origin: 
+      driver: intake_xarray.image.ImageSource
+      args:
+        urlpath: ["zip://*.tif::https://zenodo.org/record/6143685/files/images.zip"]
