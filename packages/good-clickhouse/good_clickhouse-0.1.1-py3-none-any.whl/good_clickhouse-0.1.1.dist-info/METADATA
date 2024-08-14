@@ -1,0 +1,20 @@
+Metadata-Version: 2.3
+Name: good-clickhouse
+Version: 0.1.1
+Summary: Add your description here
+Author-email: Chris Goddard <chris@goodkiwi.llc>
+Requires-Python: >=3.12
+Requires-Dist: aioch>=0.0.2
+Requires-Dist: clickhouse-driver[lz4,zstd]
+Requires-Dist: good-common>=0.1.0
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: pydantic-settings>=2.4.0
+Description-Content-Type: text/markdown
+
+# good-clickhouse
+
+A Clickhouse client with fast_depends based dependency injection.
+
+Supports sync and async modes.
+
+@query decorator utility for composing queries.
