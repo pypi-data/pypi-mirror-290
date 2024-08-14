@@ -1,0 +1,13 @@
+[console_scripts]
+jgtapp = jgtml.jgtapp:main
+jgtml_obsds_240515_TIDE_SIGNALS = jgtml.jgtml_obsds_240515_TIDE_SIGNALS:main
+jgtmlcli = jgtml.jgtmlcli:main
+jgtmlfcli = jgtml.mlfcli:main
+jgtmlpncli = jgtml.pncli:main
+jgtmlttfcli = jgtml.ttfcli:main
+mlfcli = jgtml.mlfcli:main
+mxcli = jgtml.jgtmlcli:main
+pncli = jgtml.pncli:main
+ptojgtmlbigalligator = jgtml.ptojgtmlbigalligator:main
+ptojgtmltidealligator = jgtml.ptojgtmltidealligator:main
+ttfcli = jgtml.ttfcli:main
