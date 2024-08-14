@@ -1,0 +1,1 @@
+# Este pacote cria obstáculo e cenários e também os manipula. 
