@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: wechatautomation
+Version: 0.1.4
+Summary: 微信自动化程序
+Author: Anthony Lee
+Author-email: 1020343877@qq.com
+Keywords: python,uiautomation,toml,wechat,wxauto
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: annotated-types>=0.7.0
+Requires-Dist: anytree>=2.12.1
+Requires-Dist: backports.tarfile>=1.2.0
+Requires-Dist: beautifulsoup4>=4.12.3
+Requires-Dist: bs4>=0.0.2
+Requires-Dist: build>=1.2.1
+Requires-Dist: certifi>=2024.7.4
+Requires-Dist: cffi>=1.16.0
+Requires-Dist: charset-normalizer>=3.3.2
+Requires-Dist: clicknium>=0.2.4
+Requires-Dist: clr-loader>=0.2.6
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: comtypes>=1.4.6
+Requires-Dist: docutils>=0.21.2
+Requires-Dist: idna>=3.7
+Requires-Dist: importlib_metadata>=8.2.0
+Requires-Dist: jaraco.classes>=3.4.0
+Requires-Dist: jaraco.context>=5.3.0
+Requires-Dist: jaraco.functools>=4.0.2
+Requires-Dist: keyring>=25.3.0
+Requires-Dist: markdown-it-py>=3.0.0
+Requires-Dist: mdurl>=0.1.2
+Requires-Dist: more-itertools>=10.4.0
+Requires-Dist: nh3>=0.2.18
+Requires-Dist: packaging>=24.1
+Requires-Dist: pillow>=10.4.0
+Requires-Dist: pkginfo>=1.10.0
+Requires-Dist: psutil>=6.0.0
+Requires-Dist: pycparser>=2.22
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pydantic_core>=2.20.1
+Requires-Dist: Pygments>=2.18.0
+Requires-Dist: pyotp>=2.9.0
+Requires-Dist: pyperclip>=1.9.0
+Requires-Dist: pyproject_hooks>=1.1.0
+Requires-Dist: pythonnet>=3.0.3
+Requires-Dist: pywin32>=306
+Requires-Dist: pywin32-ctypes>=0.2.2
+Requires-Dist: readme_renderer>=44.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: requests-toolbelt>=1.0.0
+Requires-Dist: rfc3986>=2.0.0
+Requires-Dist: rich>=13.7.1
+Requires-Dist: six>=1.16.0
+Requires-Dist: soupsieve>=2.5
+Requires-Dist: toml>=0.10.2
+Requires-Dist: twine>=5.1.1
+Requires-Dist: typing_extensions>=4.12.2
+Requires-Dist: uiautomation>=2.0.20
+Requires-Dist: urllib3>=2.2.2
+Requires-Dist: wechatautomation>=0.0.8
+Requires-Dist: wxauto>=3.9.11.17.4
+Requires-Dist: zipp>=3.20.0
+
+
+## 更新依赖文件
+
+pip freeze | out-file -encoding utf8 requirements.txt
+
+## 打包
+
+python setup.py sdist
+
+## 本地测试
+
+python setup.py develop
+
+## 上传包
+
+twine upload <dist\包名>  --verbose --username __token__ --password <tokenAPI>
+
+## 记录
+
+fix: pycharm终端切换至Command Prompt再执行pip freeze > requirements.txt否则会出现乱码，setup打包失败
