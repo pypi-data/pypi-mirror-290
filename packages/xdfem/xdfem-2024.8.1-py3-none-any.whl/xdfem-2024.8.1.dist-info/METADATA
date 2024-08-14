@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xdfem
+Version: 2024.8.1
+Summary: Finite element mesh generator and analysis tool
+Author-email: Paulo Cachim <pcachim@ua.pt>
+Keywords: FEM,finite elements,mesh generator
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: eurocodepy
+Requires-Dist: matplotlib
+Requires-Dist: pyarrow
+Requires-Dist: h5py
+Requires-Dist: gmsh
+Requires-Dist: meshio
+Requires-Dist: openpyxl
+
