@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lambda-terraform-module-registry
+Version: 0.2.4
+Summary: A Terraform module registry implemented as an AWS Lambda Function
+Author: Mathew Moon
+Author-email: me@mathewmoon.net
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.109.2,<0.110.0)
+Requires-Dist: mangum (>=0.17.0,<0.18.0)
+Requires-Dist: pydantic (>=2.6.4,<3.0.0)
+Requires-Dist: requests-auth-aws-sigv4 (>=0.7.0,<0.8.0)
