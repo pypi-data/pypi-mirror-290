@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prompty
+Version: 0.1.12
+Summary: Prompty is a new asset class and format for LLM prompts that aims to provide observability, understandability, and portability for developers. It includes spec, tooling, and a runtime. This Prompty runtime supports Python
+Author-Email: Seth Juarez <seth.juarez@microsoft.com>
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: azure-identity>=1.17.1; extra == "azure"
+Requires-Dist: openai>=1.35.10; extra == "azure"
+Requires-Dist: openai>=1.35.10; extra == "openai"
+Requires-Dist: azure-ai-inference>=1.0.0b3; extra == "serverless"
+Provides-Extra: azure
+Provides-Extra: openai
+Provides-Extra: serverless
