@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: plu
+Version: 0.1.18
+Summary: audio-conditional language models are multi-task recognizers
+Home-page: https://github.com/proger/plu
+Author: Vol Kyrylov
+Author-email: vol@wilab.org.ua
+License: Apache License, Version 2.0
+Project-URL: Issues, https://github.com/proger/plu/issues
+Project-URL: CI, https://github.com/proger/plu/actions
+Project-URL: Changelog, https://github.com/proger/plu/releases
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tiktoken
+Requires-Dist: openai-whisper
+Requires-Dist: soundfile
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: peft
+Requires-Dist: accelerate
+Requires-Dist: faster-whisper
+Requires-Dist: click
+
+# plu: audio-conditional language models are multi-task recognizers
+
+.. and they need some tooling
+
+[![PyPI](https://img.shields.io/pypi/v/plu.svg)](https://pypi.org/project/plu/)
+[![Changelog](https://img.shields.io/github/v/release/proger/plu?include_prereleases&label=changelog)](https://github.com/proger/plu/releases)
+[![Tests](https://github.com/proger/plu/workflows/Test/badge.svg)](https://github.com/proger/plu/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/proger/plu/blob/master/LICENSE)
+
+## Installation
+
+Install this tool using `pip`:
+```bash
+pip install plu
+```
+
+## Development
+
+To contribute to this tool, first checkout the code. Then create a new virtual environment:
+
+```bash
+cd wtok
+python -m venv venv
+source venv/bin/activate
+```
+
+Now install for editing:
+
+```bash
+pip install -e .
+```
