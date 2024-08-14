@@ -1,0 +1,50 @@
+Metadata-Version: 2.3
+Name: fastapi-auth-jwt
+Version: 0.1.1
+Summary: FastAPI-Auth-JWT is a ready-to-use and easy-to-customize authentication middleware for FastAPI.
+Project-URL: Documentation, https://github.com/deepmancer/fastapi-auth-jwt#readme
+Project-URL: Issues, https://github.com/deepmancer/fastapi-auth-jwt/issues
+Project-URL: Source, https://github.com/deepmancer/fastapi-auth-jwt
+Author-email: deepmancer <alirezaheidari.cs@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: fastapi,fastapi-auth-jwt,fastapi-auth-middleware,fastapi-jwt,fastapi-jwt-auth,fastapi-middleware,fastapi-user-auth,fastapi-users,redis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Requires-Python: >=3.8
+Requires-Dist: fastapi>=0.65.2
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pyjwt>=2.8.0
+Requires-Dist: python-decouple
+Requires-Dist: starlette>=0.17.1
+Provides-Extra: redis
+Requires-Dist: redis<6.0.0,>=4.3.3; extra == 'redis'
+Description-Content-Type: text/markdown
+
+# FastAPI Auth JWT
+![fastapi_auth_jwt_logo]()
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9a04cd6-6502-40f1-b69d-950295e70e63?sanitize=true" alt="FastAPI Auth JWT">
+</p>
+
+<p align="center">
+    <em>Highly-customizable and ready-to-use session authentication for FastAPI applications </em>
+</p>
+
+[![build](https://github.com/deepmancer/fastapi-auth-jwt/workflows/Build/badge.svg)](https://github.com/deepmancer/fastapi-auth-jwt/actions)
+[![codecov](https://codecov.io/gh/deepmancer/fastapi-auth-jwt/branch/master/graph/badge.svg)](https://codecov.io/gh/deepmancer/fastapi-auth-jwt)
+[![PyPI version](https://badge.fury.io/py/fastapi-auth-jwt.svg)](https://badge.fury.io/py/fastapi-auth-jwt)
+[![Downloads](https://pepy.tech/badge/fastapi-auth-jwt)](https://pepy.tech/project/fastapi-auth-jwt)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-80-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
