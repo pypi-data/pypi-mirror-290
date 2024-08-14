@@ -1,0 +1,44 @@
+#
+# This is an auto-generated file.  DO NOT EDIT!
+#
+
+from ansys.fluent.core.solver.flobject import *
+
+from ansys.fluent.core.solver.flobject import (
+    _ChildNamedObjectAccessorMixin,
+    CreatableNamedObjectMixin,
+    _NonCreatableNamedObjectMixin,
+    AllowedValuesMixin,
+    _InputFile,
+    _OutputFile,
+    _InOutFile,
+)
+
+from .life_model_enabled import life_model_enabled as life_model_enabled_cls
+from .li_plating_enabled import li_plating_enabled as li_plating_enabled_cls
+from .cathode_film_growth_enabled import cathode_film_growth_enabled as cathode_film_growth_enabled_cls
+from .sei_growth import sei_growth as sei_growth_cls
+from .li_plating import li_plating as li_plating_cls
+from .cathode_film_growth import cathode_film_growth as cathode_film_growth_cls
+
+class life_model(Group):
+    """
+    Set up physics-based life model.
+    """
+
+    fluent_name = "life-model"
+
+    child_names = \
+        ['life_model_enabled', 'li_plating_enabled',
+         'cathode_film_growth_enabled', 'sei_growth', 'li_plating',
+         'cathode_film_growth']
+
+    _child_classes = dict(
+        life_model_enabled=life_model_enabled_cls,
+        li_plating_enabled=li_plating_enabled_cls,
+        cathode_film_growth_enabled=cathode_film_growth_enabled_cls,
+        sei_growth=sei_growth_cls,
+        li_plating=li_plating_cls,
+        cathode_film_growth=cathode_film_growth_cls,
+    )
+
