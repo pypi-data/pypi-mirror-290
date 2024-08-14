@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mrn-behave
+Version: 1.0.3
+Summary: behavioral modeling for MRN paper
+Home-page: https://github.com/jeremyschroeter/mrn-behave
+Author: Jeremy Schroeter
+Author-email: jeremyschroeter@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pytorch
