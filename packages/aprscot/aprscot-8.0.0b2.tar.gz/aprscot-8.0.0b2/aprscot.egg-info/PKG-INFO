@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: aprscot
+Version: 8.0.0b2
+Summary: Monitor and analyze APRS with TAK.
+Home-page: https://github.com/snstac/aprscot
+Maintainer: Greg Albrecht <oss@undef.net>
+Maintainer-email: oss@undef.net
+License: Apache 2.0
+Project-URL: CI: GitHub Actions, https://github.com/snstac/aprscot/actions
+Project-URL: GitHub: issues, https://github.com/snstac/aprscot/issues
+Project-URL: GitHub: repo, https://github.com/snstac/aprscot
+Keywords: Cursor on Target,CoT,ATAK,TAK,WinTAK,TAK,TAK Server,iTAK,APRS,Ham Radio,Amateur Radio
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytak>=7.0.1
+Requires-Dist: aprslib
+Provides-Extra: test
+Requires-Dist: pytest-asyncio; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pylint; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: black; extra == "test"
+
+![ATAK screenshot](https://raw.githubusercontent.com/ampledata/aprscot/main/docs/media/screenshot_1637083240_16797.png)
+
+# Display APRS in TAK
+
+APRSCOT is software for monitoring and analyzing APRS via the [Team Awareness Kit (TAK)](https://www.tak.gov) ecosystem of products.
+
+APRSCOT captures & reports real-time APRS data received from over-the-air RF or Internet gateways, including APRS-IS.
+
+[Documentation is available here.](https://aprscot.rtfd.io)
+
+# License & Copyright
+
+Copyright Sensors & Signals LLC https://www.snstac.com/
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+[Automatic Packet Reporting System (APRS)](http://www.aprs.org/) is Copyright Bob Bruninga WB4APR (SK) wb4apr@amsat.org
