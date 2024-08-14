@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "confidence-interval-tools"
+version = "0.1.6"
+description = "A small package for calculating drawing confidence intervals."
+license = "MIT"
+authors = ["Yohann OPOLKA <yohann.opolka@gmail.com>"]
+readme = "README.md"
+repository = "https://gitlab.com/aufildelanuit/confidence-interval-tools"
+keywords = ["data science", "confidence intervals", "graphing", "extreme values"]
+packages = [{include = "confidence_interval_tools"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2"
+matplotlib = "^3.9"
+seaborn = "^0.13"
+scipy = "^1.14"
+numpy = "^1.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
