@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "nose>=1.3.7"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "nose_title_print_example"
+version = "0.0.1"
+authors = [
+  { name="yujianming", email="y2469464342@outlook.com" },
+]
+description = "A small example package for nose test frame to print test title."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/HEtinto/nose_title_print"
+Issues = "https://github.com/HEtinto/nose_title_print"
+
+[project.entry-points."nose.plugins.0.10"]
+nose_title_print = "nose_title_print_example.nose_title_print:NoseTitlePrint"
