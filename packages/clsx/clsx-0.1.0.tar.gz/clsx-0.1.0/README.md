@@ -1,0 +1,130 @@
+# clsx
+
+Easily define conditional class attributes for HTML elements.
+
+## Motivation
+
+When working with HTML elements, it is common to define conditional class
+attributes based on the state of the application. This can be done with string
+concatenation, but it can be cumbersome and error-prone. A more efficient way
+is to use a utility function that handles the conditional logic and return the
+correct class names. This is a common practice in the JavaScript ecosystem,
+allowing class attributes to be defined more declaratively.
+
+The aim of this project is to bring this popular functionality from the
+JavaScript ecosystem to the Python ecosystem as efficiently as possible.
+
+## Installation
+
+`clsx` is available on PyPI and can be installed with `pip` or another
+Python package manager.
+
+```bash
+pip install clsx
+```
+
+## Usage
+
+`clsx` provides a high-level API for defining conditional class attributes for
+HTML elements. The `clsx` function which takes any number of arguments and
+returns a string that can be used as the value of the `class` attribute of an
+HTML element.
+
+```python
+from clsx import clsx
+
+clsx()                                        # ""
+clsx("")                                      # ""
+clsx("foo")                                   # "foo"
+clsx("foo foo")                               # "foo"
+clsx("foo \n\t foo")                          # "foo"
+
+clsx("foo", None)                             # "foo"
+clsx("foo", None, "bar")                      # "foo bar"
+
+clsx("foo", None, "bar", None)                # "foo bar"
+clsx("foo", None, "bar", None, "baz")         # "foo bar baz"
+
+clsx("foo", False)                            # ""
+clsx("foo", True)                             # "foo"
+
+clsx("foo", "bar")                            # "foo bar"
+clsx("foo", "bar", "baz")                     # "foo bar baz"
+clsx("foo", "bar", "baz", "qux")              # "foo bar baz qux"
+
+clsx(["foo", "bar"])                          # "foo bar"
+clsx(["foo", "bar"], ["baz", "qux"])          # "foo bar baz qux"
+clsx([("foo", True), ("foo", "bar", "baz")])  # "foo bar baz"
+
+clsx(["foo foo"], "foo", "bar")               # "foo bar"
+clsx("foo", ["foo", "bar", "baz"])            # "foo bar baz"
+
+clsx({"foo": True, "bar": False})             # "foo"
+clsx({"foo": True, "bar": True})              # "foo bar"
+clsx({(lambda: "foo"): True})                 # "foo"
+
+clsx(lambda: [lambda: ("foo", True)])         # "foo"
+```
+
+### Low-level API
+
+The core of the low-level API is the methods of `ExpressionEvaluator` class,
+which can accept various types of arguments and return an iterable of class
+names.
+
+For optimal performance and memory consumption, the low-level API evaluates all
+given expressions in a single pass. The methods are `generator` functions,
+meaning they return an iterator and do not consume memory for the whole output
+to be generated. Thus, the output is a lazy iterable evaluated only when
+consumed. Each output consumption triggers the evaluation of the given
+expressions in the order provided.
+
+The methods of the `ExpressionEvaluator` class work recursively if needed.
+This means that the methods can accept nested expressions, which can be used to
+define more complex class attributes.
+
+Despite the additional features it provides, `clsx` has no extra overhead.
+The low-level API is designed to be as efficient as possible. And the
+high-level API is just a thin wrapper around the low-level API, which joins the
+output of the low-level API with a space character.
+
+```python
+from clsx.evaluation import ExpressionEvaluator
+
+output_stream = ExpressionEvaluator.evaluate(input_stream)
+```
+
+### Deduplication
+
+The implementation supports deduplication of class names on the fly.
+To prevent causing hotspots in the evaluation process, the deduplication is
+done by using an iterator that keeps track of the class names that have been
+seen before. This iterator is provided by the `dedup` function, which can be
+used to wrap the output of the `ExpressionEvaluator` class.
+
+```python
+from clsx.contrib.itertools import dedup
+from clsx.evaluation import ExpressionEvaluator
+
+output_stream = ExpressionEvaluator.evaluate(input_stream)
+deduplicated_output_stream = dedup(output_stream)
+```
+
+**Note:** The high-level API always deduplicates the output.
+
+## Inspiration
+
+This project is inspired by the popular idea implemented and widely used in the
+JavaScript ecosystem. The name `clsx` is a positive nod to the project
+[clsx](https://github.com/lukeed/clsx) by [@lukeed](https://github.com/lukeed),
+which provides a similar functionality for JavaScript.
+
+The name `clsx` in this project is used as a shorthand for "class expression"
+and is meant to be pronounced as "classics".
+
+## License
+
+This project is licensed under the
+[MIT License](https://spdx.org/licenses/MIT.html).
+
+See the [LICENSE](LICENSE) file for more information.
