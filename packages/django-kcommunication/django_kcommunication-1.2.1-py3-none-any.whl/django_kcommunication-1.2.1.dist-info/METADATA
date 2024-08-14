@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: django-kcommunication
+Version: 1.2.1
+Summary: Communication helpers and background task management for Huey queue.
+Home-page: https://github.com/kajalagroup/communication
+Author: Tuan Bach Van
+Author-email: tuan@kajala.com
+License: MIT licence, see LICENCE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Django >=3.2.7
+Requires-Dist: django-jutil >=3.8.14
+Requires-Dist: redis >=3.5.3
+Requires-Dist: huey >=2.3.2
+Requires-Dist: django-redis >=5.0.0
+Requires-Dist: python-dotenv >=0.18.0
+
+# background-task
+
+Background tasks management for HUEY queue.
+
+## Install
+
+```
+pip install django-kcommunication
+```
+
+## Usage:
+
+Add "kcommunication" and "kbackgroundtask" to app list:
+
+
+```
+INSTALLED_APPS = [
+    "kcommunication",
+    "kbackgroundtask"
+]
+```
+
+For kcommnunication
+username: __token__
+
+passwrd: pypi-AgEIcHlwaS5vcmcCJDdjMmEwZWRiLTNiNjMtNDRmNC1hNzliLWMyNzRmYmQ1MDZjZgACHVsxLFsiZGphbmdvLWtjb21tdW5pY2F0aW9uIl1dAAIsWzIsWyJjMTA5YzI5NC0yMjEyLTRhMWYtYTNhOS05YWRiMTNjZDFhY2IiXV0AAAYgGMHSUzVEduncv-Iq6cPKaYpk5gELXJujfS9m2begIbE
