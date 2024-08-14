@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rdmysql3
+Version: 0.3.6
+Summary: A mysql db layer for python3, based on nakagami/CyMySQL
+Home-page: https://github.com/azhai/rdmysql3
+License: MIT
+Keywords: mysql,database,model
+Author: Ryan Liu
+Author-email: azhai@126.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database :: Front-Ends
+Requires-Dist: cymysql (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/azhai/rdmysql3
