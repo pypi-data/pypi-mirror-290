@@ -1,0 +1,1 @@
+TranscriptData = dict[str, str]
