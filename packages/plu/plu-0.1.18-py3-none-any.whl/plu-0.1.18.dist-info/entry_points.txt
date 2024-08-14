@@ -1,0 +1,7 @@
+[console_scripts]
++balance = plu.balance:main
++dataloader = plu.dataloader:main
++soundcheck = plu.soundcheck:main
++test = plu.test:main
++tok = plu.tok:main
++train = plu.train:main
