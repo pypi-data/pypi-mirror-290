@@ -1,0 +1,7 @@
+[console_scripts]
+dkfxcli = jgtfxcon.dkfxcli:main
+fxaddorder = jgtfxcon.jgtfxentryorder:main
+fxreport = jgtfxcon.jgtfxreport:main
+fxrmorder = jgtfxcon.jgtfxremoveorder:main
+fxtr = jgtfxcon.jgtfxtransact:main
+jgtfxcli = jgtfxcon.jgtfxcli:main
