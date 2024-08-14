@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: to_do_cli_app
+Version: 0.1.0
+Summary: A little task manager inside the terminal
+Home-page: https://github.com/luxiopppp/to-do-cli-app
+Author: luxiopppp
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12.3
+Description-Content-Type: text/markdown
+Requires-Dist: prompt-toolkit ==3.0.36
+Requires-Dist: questionary ==2.0.1
+Requires-Dist: wcwidth ==0.2.13
+
