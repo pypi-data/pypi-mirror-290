@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django_shopify_app_billing
+Version: 0.0.2
+Summary: A django app to help you manage the django-shopify-app package billing
+Home-page: http://pypi.python.org/pypi/django_shopify_app_billing/
+Author: Santiago Fernandez
+Author-email: 
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=4.0.0
+Requires-Dist: pytest
+Requires-Dist: django-shopify-app
+
+# django-shopify-app-billing
