@@ -1,0 +1,1 @@
+pysounds is a package for playing various sounds in python without installing anything else
