@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-abu
+Version: 1.1.4
+Summary: abu API
+Home-page: https://github.com/ChrisYP/abu
+Author: Chris
+Author-email: 10512@qq.com
+License: MIT
+Keywords: abu
+Platform: all
+Requires-Dist: loguru
+Requires-Dist: pyperclip
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+Private API for abu
