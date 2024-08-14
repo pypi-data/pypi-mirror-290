@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "banner-of-light-research-assistant"
+dynamic = ["version"]
+description = 'This application prepares data from the 19th century newspaper Banner of Light to be analyzed by a AI research assistant powered by OpenAI'
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Theodore Cowan", email = "t@theodore.me" },
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "opencv-python",
+  "pdfplumber",
+  "PyPDF2",
+]
+
+[project.scripts]
+banner-of-light-research-assistant = "banner_of_light_research_assistant.cli:main"
+
+[project.urls]
+Documentation = "https://github.com/unknown/banner-of-light-research-assistant#readme"
+Issues = "https://github.com/unknown/banner-of-light-research-assistant/issues"
+Source = "https://github.com/unknown/banner-of-light-research-assistant"
+
+[tool.hatch.version]
+path = "src/banner_of_light_research_assistant/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+]
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
