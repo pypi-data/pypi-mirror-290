@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <meta name="description" content="{{ content.Title }}">
+    <title>{{ content.Title }}</title>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        {{ content.Markdown }}
+    </div>
+{% endblock %}
