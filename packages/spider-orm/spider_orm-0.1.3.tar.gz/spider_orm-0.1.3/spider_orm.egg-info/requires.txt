@@ -1,0 +1,8 @@
+mysqlclient
+sqlite3
+
+[dev]
+pytest>=3.7
+sphinx
+pytest-mock
+coverage
