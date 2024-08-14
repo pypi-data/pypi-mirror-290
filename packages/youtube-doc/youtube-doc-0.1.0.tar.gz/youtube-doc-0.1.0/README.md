@@ -1,0 +1,106 @@
+# youtube-doc
+
+`youtube-doc` is a Python package designed to assist in creating titles and descriptions for your YouTube videos based on transcriptions. This tool extracts audio from video files, transcribes the audio, corrects transcription errors, and generates engaging YouTube titles and descriptions.
+
+## Features
+
+- **Audio Extraction**: Extracts audio from video files.
+- **Transcription**: Transcribes the extracted audio using OpenAI's Whisper model.
+- **Transcription Correction**: Corrects errors in the transcription to ensure accuracy.
+- **Script Rewriting**: Enhances storytelling by rewriting scripts to make them more exciting.
+- **YouTube Title & Description Generation**: Generates compelling YouTube titles and descriptions based on the corrected transcription.
+
+## Installation
+
+You can install `youtube-doc` via PyPI:
+
+```bash
+pip install youtube-doc
+```
+
+Alternatively, you can clone the repository from GitHub:
+
+```bash
+git clone https://github.com/gomleksiz/ytdoc.git
+cd ytdoc
+pip install .
+```
+
+## Usage
+
+The main functionality of `youtube-doc` is accessible through a command-line interface (CLI). Below are some examples of how to use it:
+
+### Basic Command
+
+To extract audio from a video file, transcribe it, correct the transcription, rewrite the script (optional), and generate a YouTube title and description:
+
+```bash
+ytdoc <video_path> <output_path> <additional_prompt>
+```
+
+### Options
+
+- `--no-extract`: Skip audio extraction if you already have an audio file.
+- `--no-transcribe`: Skip transcription if you already have a transcript.
+- `--no-fix`: Skip transcription correction if you don't need it or have already corrected it.
+- `--rewrite`: Rewrite the script to make it more engaging.
+
+### Example
+
+```bash
+ytdoc my_video.mp4 output_audio.mp3 "Include tips on video editing"
+```
+
+This command will:
+1. Extract audio from `my_video.mp4`.
+2. Save the extracted audio as `output_audio.mp3`.
+3. Transcribe the extracted audio.
+4. Correct any errors in the transcription.
+5. Generate a compelling YouTube title and description with additional context provided by `"Include tips on video editing"`.
+
+## Environment Variables
+
+Ensure that you have set up your OpenAI API key as an environment variable:
+
+```bash
+export OPENAI_API_KEY='your_openai_api_key'
+```
+
+## Development Setup
+
+If you want to contribute or modify this project, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/gomleksiz/ytdoc.git
+    cd ytdoc
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run tests (if available):
+    ```bash
+    pytest tests/
+    ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+
+## Author
+
+Huseyin Gomleksizoglu  
+Email: huseyim@gmail.com  
+
+For more information, visit [GitHub Repository](https://github.com/gomleksiz/ytdoc).
+
+---
+
+Feel free to reach out if you encounter any issues or have suggestions for improvements!
