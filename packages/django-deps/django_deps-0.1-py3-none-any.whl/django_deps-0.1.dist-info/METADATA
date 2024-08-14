@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-deps
+Version: 0.1
+Summary: Analyze dependencies between apps in your Django project
+Author-email: Piotr Wasilewski <info@piotrek.io>
+License: MIT
+Project-URL: Repository, https://github.com/piotrekio/django-deps
+Keywords: django,setup,static,analysis
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: django >=4.0
+Provides-Extra: dev
+Requires-Dist: black ==24.8.0 ; extra == 'dev'
+Requires-Dist: isort ==5.13.2 ; extra == 'dev'
+
