@@ -1,0 +1,195 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "pycqs"
+description = "Python Command Query Segregation (CQS) utilities"
+authors = [
+    { name = "Raphael Castro", email = "rafaphcastro@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Framework :: Hypothesis",
+    "Framework :: Pydantic",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = []
+version = "1.0.0"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/rafaph/pycqs"
+Documentation = "https://github.com/rafaph/pycqs"
+Source = "https://github.com/rafaph/pycqs"
+Changelog = "https://github.com/rafaph/pycqs/blob/main/HISTORY.md"
+
+[tool.pdm.version]
+source = "file"
+path = "pycqs/__init__.py"
+
+[tool.pdm.build]
+includes = [
+    "pycqs/",
+]
+
+[tool.pdm.dev-dependencies]
+linting = [
+    "mypy~=1.11",
+    "ruff~=0.5.7",
+    "codespell~=2.3",
+]
+testing = [
+    "pytest~=8.3",
+    "pytest-cov~=5.0",
+    "pytest-pretty~=1.2",
+    "pytest-mock~=3.14",
+    "pytest-testdox~=3.1",
+    "anyio~=4.4",
+]
+
+[tool.pdm.scripts]
+lint-check = "ruff check pycqs tests"
+lint-format = "ruff format --check pycqs tests"
+format-check = "pdm run ruff check --fix pycqs tests"
+format-format = "pdm run ruff format pycqs tests"
+typecheck = "mypy pycqs tests"
+test = "pytest --testdox"
+test-cov = "pytest --cov=pycqs --cov-branch --cov-report term --cov-report html --cov-report xml --cov-report lcov"
+post_install = "pre-commit install -f --install-hooks"
+
+[tool.pdm.scripts.lint]
+composite = [
+    "lint-check",
+    "lint-format",
+]
+
+[tool.pdm.scripts.format]
+composite = [
+    "format-check",
+    "format-format",
+]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+xfail_strict = true
+
+[tool.ruff]
+line-length = 79
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "I",
+    "D",
+    "UP",
+    "YTT",
+    "B",
+    "T10",
+    "T20",
+    "C4",
+    "PYI006",
+]
+ignore = [
+    "D105",
+    "D107",
+    "D205",
+    "D415",
+    "E501",
+    "B011",
+    "B028",
+    "B904",
+]
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "double"
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "pycqs",
+    "tests",
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 14
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "D",
+]
+
+[tool.ruff.lint.extend-per-file-ignores]
+"tests/**/*.py" = [
+    "T",
+    "E721",
+    "F811",
+]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.mypy]
+python_version = "3.10"
+pretty = true
+strict = true
+warn_unreachable = true
+disallow_any_explicit = true
+disallow_any_decorated = true
+disallow_any_unimported = true
+disallow_untyped_defs = true
+
+[tool.codespell]
+skip = ".git,coverage"
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "if typing.TYPE_CHECKING:",
+    "@overload",
+    "@typing.overload",
+    "\\(Protocol\\):$",
+    "typing.assert_never",
+    "assert_never",
+]
+
+[tool.coverage.html]
+directory = "coverage"
+
+[tool.coverage.xml]
+output = "coverage/coverage.xml"
+
+[tool.coverage.lcov]
+output = "coverage/lcov.info"
