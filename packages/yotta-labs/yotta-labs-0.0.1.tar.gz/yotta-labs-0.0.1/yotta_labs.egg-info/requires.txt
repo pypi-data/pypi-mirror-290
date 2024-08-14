@@ -1,0 +1,6 @@
+transformers>=4.42.0
+datasets
+accelerate<1.0.0,>=0.33
+
+[:python_version < "3.5"]
+typing<4.0.0,>=3.6.4
