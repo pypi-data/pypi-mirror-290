@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tailgen"
+version = "1.1.0"
+description = "TailGen is a command-line interface (CLI) tool designed to simplify the process of generating Flask or FastAPI projects with Tailwind CSS integration. With TailGen, you can quickly set up a new web application project with the necessary files and directory structures, saving you time and effort in the initial setup phase."
+authors = ["Nicholas Ikiroma <nicholasikiroma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.12.3"
+rich = "^13.7.1"
+pytest = "^8.2.0"
+
+[tool.poetry.scripts]
+tailgen = 'tailgen.__main__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
