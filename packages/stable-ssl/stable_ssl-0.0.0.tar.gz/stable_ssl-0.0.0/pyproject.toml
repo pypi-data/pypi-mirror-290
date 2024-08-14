@@ -1,0 +1,37 @@
+[project]
+name = "stable-ssl"
+description = "Self-Supervised Learning Library"
+authors = [
+    {name = "Hugues Van Assel", email = "vanasselhugues@gmail.com"},
+    {name = "Randall Balestriero", email = "randallbalestriero@gmail.com"},
+]
+license = {text = "BSD (3-Clause)"}
+readme = {file = "README.md", content-type = "text/markdown"}
+dependencies = ["numpy", "torch", "tqdm"]
+dynamic = ["version"]
+
+# [tool.setuptools]
+# packages = ["stable-ssl"]
+
+# [tool.setuptools.dynamic]
+# version = {attr = "stable-ssl.__about__.__version__"}
+
+# [project.optional-dependencies]
+# test = [
+#     "pytest",
+#     "flake8",
+#     "coverage",
+#     "numpydoc",
+#     "pytest-cov",
+#     "codecov"
+# ]
+
+# doc = [
+#     "sphinx",
+#     "sphinx_gallery",
+#     "sphinx_rtd_theme",
+#     "matplotlib",
+#     "numpydoc",
+#     "memory_profiler",
+#     "myst-parser",
+# ]
