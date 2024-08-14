@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: gxusthjw
+Version: 202408132305
+Summary: the python libraries of gxusthjw.
+Home-page: https://codeup.aliyun.com/65445442ae64093fdcff3e06/gxusthjw-packages
+Author: gxusthjw
+Author-email: jiweihuang@vip.163.com
+License: MIT
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chardet
+Requires-Dist: typing-extensions
+Requires-Dist: openpyxl
+Requires-Dist: pytest
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: lmfit
+Requires-Dist: findiff
+Requires-Dist: numdifftools
+Requires-Dist: nmrglue
+Requires-Dist: ampdLib
+Requires-Dist: pybaselines
+
+## gxusthjw: the python libraries of gxusthjw.
+
+作为一名大学教师，在日常的教学与科研工作中，我经常需要使用Python处理常规事务和科研数据。
+随着时间的推移，我积累了一个包含众多Python模块的包。然而，这些包之间的相互依赖关系变得越来越复杂，
+导致整个系统难以管理和理解。
+
+起初，这些个人使用的Python模块并不需要他人介入。但随着我年龄的增长，有些数据处理任务开始交由我的研究生们来完成。
+因此，有必要整理并优化这些Python模块，以便于学生们的使用和维护。为此，我创建了这个库，并着手对其进行重构和文档化，
+确保它能够有效地服务于我的科研团队。
+
+## 警告
+
+1. 请不要下载使用本库的功能，因为太乱了，好多功能也没有很好的测试，大量的bug隐匿于未知的角落，
+对此，本人不承担任何由此带来的损失。
+
+2. 如果作为学习者使用或参考，也请谨慎，本人水平有限，以本库代码为学习范本极可能是误人子弟。
+
+3. 如果你清楚明白上述情况，不担心错误或任何影响，请尽情享用吧。
+
+4. 不要给我提交bug报告，请你自己修改自己用。
+
+## 计划
+
+1. 尽量确保所有功能都经得起考验。
+
+2. 尽量使库的结构更加清晰。
+
+3. 尽量使文档更具有帮助性。
+
+## 联系
+
+> Jiwei Huang.
+
+> huangjiwei@gxust.edu.cn
+
+> jiweihuang@yeah.net
+
+> jiweihuang@vip.163.com
+
+## 本文档最后一次更新的日期
+
+> 2024-08-13
