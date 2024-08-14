@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: choice_evylah
+Version: 0.0.1
+Summary: A small package for asking users to input an item from a list
+Author-email: Evylah <evylah2@gmail.com>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# choice library
+make the user type in one option from a list
+
+uses `input()`, deal with it.
