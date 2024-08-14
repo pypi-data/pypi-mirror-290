@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: fixeditcli_installer
+Version: 0.0.1.dev11
+Summary: Installer for FixedIT CLI tool
+Home-page: https://fixedit.ai
+Author: FixedIT Consulting AB
+Author-email: info@fixedit.ai
+License: proprietary
+Description: # FixedIT CLI installer
+        This package handles the installation of the FixedIT CLI tool. Please note that installation of the package will only be succesfull if a valid `FIXEDIT_TOKEN` is used, which you can acquire by contacting FixedIT Consulting to get access to the tool. Else, the `FixedIT CLI installer` package installation will just install the installation wrapper package and not the CLI tool itself.
+        
+        ## Installation configurations
+        
+        Before installation you need to provide the `FIXEDIT_TOKEN`, which you can acquire by contacting FixedIT Consulting to get access to the tool. Before running the `pip install` command, you should export it as an env variable as:
+        ```
+        export FIXEDIT_TOKEN=<YOUR_TOKEN>
+        ```
+        
+        Additionally, in case the `~/.fixedit` already exists and you want to overwrite it you should export the `FIXEDIT_TOKEN_OVERWRITE` environment variable. 
+        Set it to 1 if you wish for the existing token to be overwritten by the environment variable `FIXEDIT_TOKEN`. This configuration is optional.
+        ```
+        export FIXEDIT_TOKEN_OVERWRITE=1
+        ```
+        
+        In order to install FixedIT CLI using this installer package simply run the `pip` command below.
+        Optionally, for detailed logging you can add the verbose flag `-v` to the `pip` command.
+        ```
+        pip install fixeditcli-installer --no-cache
+        ```
+        
+        To verify that the FixedIT CLI tool is installed you can run the following command to get the version
+        (after you open up a new terminal):
+        ```
+        fixeditcli-config version
+        ```
+        
+        More information on what commands are available and what can you do with FixedIT CLI can be found in the official documentation page [here](https://github.com/fixedit-ai/fappcli-readme).
+        
+        ## Something went wrong
+        In the case where the FixedIT CLI installer package installation is successfull, but you cannot access the FixedIT CLI commands you might have forgotten to export the `FIXEDIT_TOKEN` as an environment variable. To verify this is the case you can repeat the installation with the verbose flag `pip install -v fixeditcli-installer` to get more details on what went wrong during installation or export the variable and run the `pip` command again.
+        
+Keywords: acap axis camera
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
