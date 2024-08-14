@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PercipioScrapPack
+Version: 0.0.7
+Summary: Percipio Scraper
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: html2text
+Requires-Dist: markdown2
+Requires-Dist: pdfkit
+
