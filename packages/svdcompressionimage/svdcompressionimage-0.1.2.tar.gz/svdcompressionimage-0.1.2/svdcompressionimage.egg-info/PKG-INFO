@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: svdcompressionimage
+Version: 0.1.2
+Summary: A Python package for image compression using Singular Value Decomposition (SVD), applying an efficient block-based method to reduce storage while retaining visual quality.
+Author: Katie Wen-Ling Kuo
+Author-email: katie20030705@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+# Image Compression
+It is an image compression Python package based on Singular Value Decomposition (SVD) technology. This tool offers an efficient block-based image compression method, reducing the storage requirements of images by dividing them into blocks and applying SVD, while retaining as much visual information as possible.
+
+## Update Description
+
+### 1. Extended Input Support
+**Improvement**: In the new version, the `compress_image_with_svd` function now directly accepts PIL Image objects as input, rather than being limited to file paths. This enhancement simplifies the image processing workflow, avoiding additional image loading steps and making it more suitable for scenarios where images need to be processed multiple times.
+
+### 2. Region Merging and Color Quantization
+**New Features**: Added the `region_growing` and `quantize_image` functions. The `region_growing` function reduces the complexity of the image by identifying and merging regions with similar colors, thereby achieving more efficient compression. The `quantize_image` function uses color quantization techniques to reduce the number of colors in the image to a specified number, further optimizing the compression ratio.
+
+**Optimization Effect**: By combining region merging and color quantization, the efficiency of image compression can be significantly improved while maintaining high visual quality. This is particularly suitable for images with large areas of the same or similar colors.
+
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+```Python
+#%% package
+from svdcompressionimage import compress_image_with_svd, quantize_image, region_growing
+import os
+from PIL import Image, ImageFilter
+
+#%% path
+image_path = 'YOUR_IMAGE_PATH.jpg'
+image = Image.open(image_path)
+
+#%% mkdir --> exist?
+output_dir = 'THE_FOLDER_YOU_WANT_TO_PLACE'
+os.makedirs(output_dir, exist_ok = True)
+
+#%% region --> color
+merged_image = region_growing(image, tolerance = 10)
+quantized_image = quantize_image(merged_image, n_colors)
+
+#%% block & rank
+block_size = # YOU CAN USE 16, 32, 64, 128...
+rank = # YOU CAN SET `RANK = NONE` TO AUTOMATICALLY SELECT THE NUMBER OF SINGULAR VALUES. YOU CAN ALSO SET IT MANUALLY; THE SMALLER THE VALUE OF `RANK`, THE STRONGER THE COMPRESSION BUT LESS INFORMATION IS RETAINED. THE LARGER THE VALUE, THE WEAKER THE COMPRESSION BUT MORE INFORMATION IS PRESERVED.
+
+#%% compression & sharp
+compressed_image = compress_image_with_svd(quantized_image, 
+                                           block_size = block_size, 
+                                           rank = rank)
+compressed_image = compressed_image.filter(ImageFilter.SHARPEN)
+
+#%% save
+compressed_image.save(os.path.join(output_dir, 'THE_IMAGE_NAME_YOU_WANT_TO_ACCESS.jpg')) # SUPPORTS INPUT AND OUTPUT IN MULTIPLE IMAGE FORMATS, SUCH AS JPEG, PNG, BMP, SUITABLE FOR DIFFERENT APPLICATION SCENARIOS.
+
+```
