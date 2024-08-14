@@ -1,0 +1,3 @@
+[console_scripts]
+chat = chat.cli:entry_point
+powerchat = chat.cli:entry_point
