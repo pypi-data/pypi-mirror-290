@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: achatbot
+Version: 0.0.0
+Summary: An open source chat bot for voice (and multimodal) assistants
+Author-email: weedge <weege007@gmail.com>
+Maintainer-email: weedge <weege007@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, weedge
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/ai-bot-pro/chat-bot
+Project-URL: Documentation, https://github.com/ai-bot-pro/chat-bot/blob/main/docs
+Project-URL: Repository, https://github.com/ai-bot-pro/chat-bot.git
+Project-URL: Issues, https://github.com/ai-bot-pro/chat-bot/issues
+Project-URL: Changelog, https://github.com/ai-bot-pro/chat-bot/blob/main/CHANGELOG.md
+Keywords: ai,chat bot,audio,speech
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ==2.32.3
+Requires-Dist: apipeline ==0.1.7
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: pillow ==10.4.0
+Requires-Dist: websockets ==12.0
+Requires-Dist: aiohttp ==3.10.3
+Requires-Dist: scipy ==1.14.0
+Requires-Dist: pyloudnorm ==0.1.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: torch ==2.2.2
+Requires-Dist: torchaudio ==2.2.2
+Provides-Extra: fastapi_daily_bot_server
+Requires-Dist: fastapi ==0.112.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: daily-python ==0.10.1 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain ==0.2.13 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: openai ==1.40.6 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain-openai ==0.1.21 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain-community ==0.2.12 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: deepgram-sdk ==3.4.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: mangum ==0.17.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: uvicorn ==0.30.6 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: tidb-vector ==0.0.10 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: pymysql ==1.1.1 ; extra == 'fastapi_daily_bot_server'
+
+# chat-bot
+
+## audio (voice)
+- stream-stt (realtime-recorder)
+![audio-text](https://github.com/user-attachments/assets/44bcec7d-f0a1-47db-bd95-21feee43a361)
+
+- audio-llm (multimode-chat)
+![pipe](https://github.com/user-attachments/assets/9970cf18-9bbc-4109-a3c5-e3e3c88086af)
+![queue](https://github.com/user-attachments/assets/30f2e880-f16d-4b62-8668-61bb97c57b2b)
+
+
+- stream-tts (realtime-(clone)-speaker)
+![text-audio](https://github.com/user-attachments/assets/676230a0-0a99-475b-9ef5-6afc95f044d8)
+![audio-text text-audio](https://github.com/user-attachments/assets/cbcabf98-731e-4887-9f37-649ec81e37a0)
+
+
+## vision (CV)
+- stream-ocr (realtime-object-dectection)
+
+# more
+- Embodied Intelligence: Robots that touch the world and move
