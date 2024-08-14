@@ -1,0 +1,1 @@
+import{U as a,a as r,g as i}from"./index-DugHs1zq.js";const p=t=>{const{mutate:e}=a();async function s({password:n,username:o}){return(await r.post(`${i("LOGIN")}`,new URLSearchParams({username:o,password:n}).toString(),{headers:{"Content-Type":"application/x-www-form-urlencoded"}})).data}return e(["useLoginUser"],s,t)};export{p as u};
