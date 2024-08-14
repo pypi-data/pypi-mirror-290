@@ -1,0 +1,59 @@
+[project]
+name = "fastapi-tailwind"
+description = "✨ TailwindCSS support for 🔥 FastAPI."
+authors = [
+    {name = "Goldy", email = "goldy@devgoldy.xyz"}
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = [
+    "tailwindcss",
+    "tailwind",
+    "fastapi",
+    "fastapi middleware"
+]
+classifiers = [
+	'Operating System :: Microsoft :: Windows :: Windows 11',
+    'Operating System :: Microsoft :: Windows :: Windows 10',
+    'Operating System :: POSIX :: Linux',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+	'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+]
+dependencies = [
+    "fastapi",
+    "typer"
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "build",
+    "requests"
+]
+
+[project.urls]
+GitHub = "https://github.com/THEGOLDENPRO/fastapi-tailwind"
+BugTracker = "https://github.com/THEGOLDENPRO/fastapi-tailwind/issues"
+
+[tool.setuptools.dynamic]
+version = { attr = "fastapi_tailwind.__version__" }
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["fastapi_tailwind*"]
+
+[project.scripts]
+fastapi-tailwind-init = "fastapi_tailwind.__main__:app"
+
+#[tool.setuptools.package-data]
+#"fastapi_tailwind" = ["binaries/*"]
