@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mf6rtm
+Version: 0.1.0
+Summary: Reactive transport model through MODFLOW 6 and PHREEQCRM
+Author: Pablo Ortega
+Author-email: portega@intera.com
+License: BSD 3-Clause
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: phreeqcrm
+Requires-Dist: modflowapi
+Requires-Dist: flopy
+Provides-Extra: testing
+Requires-Dist: pytest >=7.0 ; extra == 'testing'
+Requires-Dist: pytest-cov >=2.0 ; extra == 'testing'
+Requires-Dist: mypy >=1.10 ; extra == 'testing'
+Requires-Dist: flake8 >=3.9 ; extra == 'testing'
+Requires-Dist: tox >=3.24 ; extra == 'testing'
+Requires-Dist: flaky >=3.8 ; extra == 'testing'
+Requires-Dist: jupytext >=1.16.0 ; extra == 'testing'
+Requires-Dist: nbconvert >=7.16 ; extra == 'testing'
+Requires-Dist: ipykernel >=6.29 ; extra == 'testing'
+
