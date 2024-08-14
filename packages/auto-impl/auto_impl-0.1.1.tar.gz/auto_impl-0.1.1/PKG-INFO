@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: auto_impl
+Version: 0.1.1
+Summary: Automatically implements functions using ChatGPT.
+Author-email: "Harry T. Ma" <harrymaofshs@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Harry T. Ma
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/HarryTMa/auto_impl
+Project-URL: repository, https://github.com/HarryTMa/auto_impl
+Project-URL: Bug Tracker, https://github.com/HarryTMa/auto_impl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai
+
+# auto_impl
+
+Automatically implements functions using ChatGPT.
+
+## Install
+
+    pip install auto_impl --upgrade
+
+## Usage
+
+Get ChatGPT API key and set it to your environment variable `OPENAI_API_KEY` before run.
+
+### @auto
+
+Syntax:
+
+```python
+@auto($prompt)
+$function
+```
+
+where `$prompt` is a prompt string literal, and `$function` is the target function.
+
+Example:
+
+```python
+from auto_impl import auto
+
+
+@auto("Return fizz if the number is divisible by 3, buzz if the number is divisible by 5, and fizzbuzz if the number is divisible by both 3 and 5.")
+def fizzbuzz(n: int) -> str:
+    pass
+
+
+def test_fizzbuzz():
+    assert fizzbuzz(3) == "fizz"
+    assert fizzbuzz(5) == "buzz"
+    assert fizzbuzz(15) == "fizzbuzz"
+    assert fizzbuzz(1) == "1"
+
+
+test_fizzbuzz() # Doesn't raise exceptions
+```
+
+## Acknowledgement
+
+- Idea originated from [retrage/gpt-macro](https://github.com/retrage/gpt-macro), which is under the MIT license.
+
+## License
+
+auto_impl is released under the MIT license.
