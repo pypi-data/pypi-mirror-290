@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pagekey-semver
+Version: 0.3.17
+Summary: Simple, opinionated semantic versioning package.
+Author: steve
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
