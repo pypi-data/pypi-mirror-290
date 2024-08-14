@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: this_platform
+Version: 0.5.0
+Summary: 🖥️ Get this platform
+Author-email: alexdelorenzo <3579286+alexdelorenzo@users.noreply.github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# this
+
+`this` exposes a `Platform` enum that makes pattern matching on your runtime's platform easy.
+
