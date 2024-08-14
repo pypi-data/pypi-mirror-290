@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=71.0",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interlocutor"
+authors = [
+  { name="Zac Miller", email="zac@informatical.info" },
+]
+maintainers = [
+  { name="Zac Miller", email="zac@informatical.info" },
+]
+description = "Interlocutor is a set of utilities for describing the structure and contents of a repository."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT License"}
+keywords = ["python",]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+]
+dynamic = ["version"]
+dependencies = [
+    "pathspec==0.12.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "uv>=0.2.33,<0.3.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jzmiller1/interlocutor"
+"Bug Tracker" = "https://github.com/jzmiller1/interlocutor/issues"
+"Repository" = "https://github.com/jzmiller1/interlocutor.git"
+"History" = "https://github.com/jzmiller1/interlocutor/blob/master/HISTORY.md"
+
+[project.scripts]
+interlocutor = "interlocutor.interlocutor:main"
+
+[tool.setuptools.dynamic]
+version = {file = "interlocutor/VERSION"}
