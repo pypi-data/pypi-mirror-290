@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=43.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navigate-mmcore-plugin"
+description = "A plugin for access to Micro-Manager devices from within navigate."
+authors = [{name = "The Dean Lab, UT Southwestern Medical Center"}]
+readme = "README.md"
+license = {file = "LICENSE.md"}
+dynamic = ["version"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+requires-python = ">=3.9.7"
+dependencies = [
+    'pymmcore',
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-xvfb",
+    "pytest-cov",
+    "pre-commit"
+    ]
+
+docs = [
+    "numpydoc",
+    "nbconvert",
+    "sphinx<6.0.0",
+    "sphinx_rtd_theme",
+    "sphinx-copybutton",
+    "sphinx-issues",
+    "sphinx-design",
+    "pyyaml",
+    "pydata_sphinx_theme==0.10.0rc2",
+    "sphinx-toolbox"
+]
+
+[project.urls]
+Source = "https://github.com/TheDeanLab/navigate-mmcore-plugin"
+
+[tool.setuptools.dynamic]
+version = {file = "navigate_mmcore_plugin/VERSION"}
+
+[project.entry-points."navigate.plugins"]
+navigate_mmcore_plugin = "navigate_mmcore_plugin"
+
+[tool.setuptools.package-data]
+navigate_mmcore_plugin_data = ["plugin_config.yml",]
