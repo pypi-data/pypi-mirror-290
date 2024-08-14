@@ -1,0 +1,25 @@
+"""
+Please cite the app if you use it:
+Asfa, S. S., & Arshinchi Bonab, R. (2024). DrugTargetTool1.0.0: Genetic Algorithm Based Combination Therapy Finder (1.0.0). Zenodo. (https://doi.org/10.5281/zenodo.13274567)
+
+DrugTargetCom is a tool for optimizing drug combinations using a genetic algorithm. Targeting the same proteins is crucial for improving treatment efficacy and reducing the likelihood of drug resistance. By simultaneously modulating the same targets, this approach can achieve a more potent therapeutic effect, especially in complex diseases like cancer.
+
+## Methods
+
+DrugTargetCom employs a genetic algorithm to discover optimal drug combinations. By simulating evolutionary processes, the tool efficiently explores potential combinations, evaluating them based on their ability to target key proteins.
+
+## Usage
+
+To use DrugTargetCom, you should have an excel or csv file containing two columns Drug and Target. Import and run:  combination_therapy(file_path = "example.xlsx", num_top_drugs = 5)
+
+Jupyter Notebook:
+
+!pip install DrugTargetCom
+from drugtargetcom import combination_therapy
+combination_therapy(file_path= "drugtargets.xlsx", num_top_drugs= 2)
+
+Google Colab Notebook:
+
+pip install DrugTargetCom
+from drugtargetcom import combination_therapy
+combination_therapy(file_path= "drugtargets.xlsx", num_top_drugs= 2)
