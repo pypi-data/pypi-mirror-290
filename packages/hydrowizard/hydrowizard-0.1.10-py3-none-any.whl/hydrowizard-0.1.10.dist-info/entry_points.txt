@@ -1,0 +1,4 @@
+[console_scripts]
+hw-optimization=hydrowizard.scripts.run_optimization:main_entry
+hw-simulation=hydrowizard.scripts.run_simulation:main_entry
+
