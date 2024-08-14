@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bode_testing
+Version: 0.0.11
+Summary: Testing for for BODE framework
+Requires-Dist: pytest
+Provides-Extra: requester
+Requires-Dist: bode-logger ; extra == 'requester'
+Requires-Dist: requests ; extra == 'requester'
+
