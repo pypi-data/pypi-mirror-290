@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "virtualitics-cli"
+version = "0.4.0.b1"
+description = """
+An easy-to-use command line interface for initializing, packaging, and deploying Custom Apps to a deployed instance of VAIP from within a local development environment."""
+authors = ["Virtualitics Engineering <engineering@virtualitics.com>"]
+license = "MIT LICENSE"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX",
+    "License :: OSI Approved :: MIT License"
+]
+readme = "README.md"
+
+[tool.poetry.scripts]
+vaip = "virtualitics_cli.virtualitics_cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.12.0"}
+art = "^6.1"
+requests = "^2.31.0"
+build = "^1.2.1"
+
+[tool.poetry.group.optional]
+optional=true
+
+[tool.poetry.group.optional.dependencies]
+virtualitics-sdk = "^0.1.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
