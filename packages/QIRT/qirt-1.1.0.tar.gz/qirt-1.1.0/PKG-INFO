@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: QIRT
+Version: 1.1.0
+Summary: A quantum information research toolkit
+Author-email: "HSIEH, LI-YU" <lyhsieh.lou@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 HSIEH, LI-YU
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Documentation, https://slope86.github.io/QIRT
+Project-URL: API Reference, https://slope86.github.io/QIRT/reference/
+Project-URL: Repository, https://github.com/Slope86/QIRT
+Project-URL: Issues, https://github.com/Slope86/QIRT/issues
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Other Environment
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Framework :: Jupyter
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: qiskit[visualization]>=1.1.0
+Requires-Dist: IPython>=8.24.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocstrings[python]; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+
+# QIRT - Quantum Information Research Toolkit (WIP)
+
+A quantum information research toolkit based on Qiskit. **This project is currently a Work in Progress (WIP) and is not yet complete. Features and documentation may be incomplete.**
+
+## Introduction
+
+The Quantum Information Research Toolkit (QIRT) is designed to facilitate research and development in quantum information science using the Qiskit framework. This toolkit provides essential classes and functions to create and manipulate quantum states and operations effectively.
+
+## Quick start
+
+QIRT can be installed using pip:
+
+```bash
+pip install QIRT
+```
+
+## Usage
+
+### Importing the Toolkit
+
+To start using the Quantum Information Research Toolkit, import the necessary modules as shown below:
+
+```python
+from QIRT import QuantumState, QuantumCircuit
+```
+
+- **QuantumState**: This class allows you to create and manage quantum states. It provides various methods to initialize, transform, and measure quantum states.
+- **QuantumCircuit**: This class provides a set of operations that can be applied to quantum states. It includes methods for unitary operations, measurements, and other quantum operations.
+
+### Creating a Quantum State
+
+To create a quantum state, you can use the `from_label` method provided by the `QuantumState` class. Below is an example of how to create a quantum state labeled '00':
+
+```python
+# Create a quantum state labeled '00'
+init_state = QuantumState.from_label('00')
+```
+
+### Visualizing the Quantum State
+
+Once you have created a quantum state, you can visualize it using the `draw` method. Here is how you can visualize the quantum state `init_state`:
+
+```python
+# Draw the quantum state
+init_state.draw()
+```
+
+## Creating a Quantum Operation
+
+## Configuration
+
+The configuration file for QIRT is located in the user's home directory under `~/.QIRT/config.ini`. This file allows you to customize various settings for the toolkit.
+
+The default configuration file is as follows:
+
+```ini
+; This section sets up the notation for the StateVector (affects the visualization result and the constructor function from_label()).
+; The default notation uses |j> to represent |-i>. 
+; You can change the notation to another character if necessary. (only accepts single characters.)
+[ket]
+z0 = 0
+z1 = 1
+x0 = +
+x1 = -
+y0 = i
+y1 = j
+```
+
+## Requirement
+
+Python >= 3.10  
+qiskit[visualization] >= 1.1.0
+IPython >= 8.24.0
+
+## License
+
+This QIRT project is open source under the MIT license.
+However, the extensions that are installed separately are not part of the QIRT project.
+They all have their own licenses!
