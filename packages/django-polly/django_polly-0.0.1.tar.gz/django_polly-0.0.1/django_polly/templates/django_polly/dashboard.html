@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-4">Dashboard</h1>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Total Parrots</h2>
+      <p class="text-3xl">{{ total_parrots }}</p>
+      <p class="text-sm text-gray-500">Previous: {{ previous_total_parrots }}</p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Total Tricks</h2>
+      <p class="text-3xl">{{ total_tricks }}</p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-2">Average Tricks per Parrot</h2>
+      <p class="text-3xl">{{ avg_tricks_per_parrot|floatformat:1 }}</p>
+    </div>
+  </div>
+
+  <div class="bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-semibold mb-4">Recent Parrots</h2>
+    {% if recent_parrots %}
+      <ul class="space-y-2">
+        {% for parrot in recent_parrots %}
+          <li>{{ parrot.name }} - {{ parrot.color }}</li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No parrots found.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
