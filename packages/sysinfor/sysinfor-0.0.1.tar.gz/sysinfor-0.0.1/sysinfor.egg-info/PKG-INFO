@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sysinfor
+Version: 0.0.1
+Summary: A package of ***sysinfor*** is use to display system information.
+Author: Tharanga Jayasinghe
+Author-email: nteeje@gmail.com
+License-File: LICENSE
+Requires-Dist: psutil
+Requires-Dist: click
+Requires-Dist: datetime
+
+
+A package of ***sysinfor*** is use to display system information.Generally it available bellow information on initial release.
+    - OS Kernel
+    - Node Name(user)
+    - OS Release
+    - OS Version
+    - Machine Architecture
+    - Processor
+    - CPU Count
+    - Username
+    - Physical Menory
+    - Python version
