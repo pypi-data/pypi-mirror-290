@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pass-manager-ch"
+version = "0.1.0"
+description = ""
+authors = ["oscar.bahamonde.ext <oscar.bahamonde.ext@holcim.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+rocksdict = "^0.3.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pswd = 'pass_manager.main:cli'
