@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pokepoke_miss
+Version: 0.1.12
+Summary: wmc的戳一戳回复插件，消息内容、概率都可以定制喔~
+Home-page: https://github.com/shengwang52005/pokepoke_miss
+License: MIT
+Author: Miaowing
+Author-email: shengwang52005@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0)
+Requires-Dist: nonebot-adapter-onebot (>=2.3.1)
+Requires-Dist: nonebot2 (>=2.3.2)
+Requires-Dist: pil_utils (==0.1.10)
+Project-URL: Repository, https://github.com/shengwang52005/pokepoke_miss
+Description-Content-Type: text/markdown
+
+# pokepoke_miss
+
+## 介绍
+
+wmc的戳一戳回复插件，消息内容、概率都可以定制喔~
+
+## 功能
+
+- 对机器人执行戳一戳操作时，根据概率选择一个消息进行回复
+- 预设：
+
+  - `MISS` - 概率 10%
+  - `GOOD` - 概率 10%
+  - `GREAT` - 概率 30%
+  - `PERFECT` - 概率 40%
+  - `CRITICAL PERFECT` - 概率 10%
+
+## 安装
+
+### 使用 NB-CLI 安装
+
+在 Nonebot 根目录执行
+
+```bash
+nb plugin install pokepoke_miss
+```
+
+### 手动安装
+
+1. 将 `pokepoke_miss.py` 文件放入你的 Nonebot 插件目录中
+
+2. 在 `bot.py`中写入以下代码：
+
+   ```python
+   nonebot.load_plugin("FOLDER-TO-PLUGIN.pokepoke_miss")
+
+## 自定义
+
+根据需求修改 `message_list` 中的消息内容和对应的概率，例如：
+
+```python
+message_list = [
+    ("喵", 0.2),
+    ("喵喵", 0.3),
+    ("喵喵喵", 0.5)
+]
+```
+
+## 许可
+
+MIT License
+
