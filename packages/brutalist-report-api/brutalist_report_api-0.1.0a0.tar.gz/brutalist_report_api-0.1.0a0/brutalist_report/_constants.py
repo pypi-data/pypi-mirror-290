@@ -1,0 +1,1 @@
+brutalist_home_url = "https://brutalist.report"
