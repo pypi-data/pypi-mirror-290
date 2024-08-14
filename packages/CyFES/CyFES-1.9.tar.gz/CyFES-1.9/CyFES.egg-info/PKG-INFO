@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: CyFES
+Version: 1.9
+Summary: Cython Based Fast FES Calculation Toolkit.
+Home-page: https://gitee.com/dechin/cy-fes
+Author: Dechin CHEN
+Author-email: dechin.phy@gmail.com
+License: MIT
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CyFES
+
+## 介绍
+这是一个使用Cython+CUDA+Python编写的高性能FES计算软件。
+
+## 安装
+### pip安装
+本项目可以直接使用pip进行安装：
+```bash
+$ python3 -m pip install cyfes --upgrade -i https://pypi.org/simple
+```
+
+### 源码安装
+首先将本仓库clone到本地：
+```bash
+$ git clone https://gitee.com/dechin/cy-fes.git && cd cy-fes/
+```
+然后直接运行`setup.py`进行安装：
+```bash
+$ python3 -m pip install .
+```
+
+## 测试
+在本仓库的test路径下存放了一个测试用例，需要在本地先安装`pytest`：
+```bash
+$ python3 -m pip install pytest
+```
+然后直接在仓库的根目录下运行：
+```bash
+$ py.test
+=========================== test session starts ===========================
+platform linux -- Python 3.7.5, pytest-7.4.4, pluggy-1.2.0
+rootdir: /home/cy-fes
+collected 1 item                                                          
+
+tests/test_path_fes.py .                                            [100%]
+
+============================ 1 passed in 2.69s ============================
+```
+没有报错，则表示安装成功。或者也可以直接运行相关的测试文件：
+```bash
+$ python3 tests/test_path_fes.py 
+[0.00892185 0.         0.09578881 0.01997518]
+```
+若输出为一个数组，则表示安装成功。
+
+## 使用方法
+在安装成功后，可以直接在Python脚本中调用：
+```python
+import numpy as np
+from cyfes import PathFES
+np.random.seed(0)
+
+def test_path_fes():
+    atoms = 4
+    cvs = 10000
+    crd = np.random.random((atoms, 3))
+    cv = np.random.random((cvs, 3))
+    bw = np.random.random(3)
+    bias = np.random.random(cvs)-1
+
+    fes = np.asarray(PathFES(crd, cv, bw, bias))
+    print (fes)
+
+if __name__ == '__main__':
+    test_path_fes()
+```
+
+还可以使用命令行模式：
+```bash
+$ python3 -m cyfes --help
+2024-08-13 09:19:55,182 [CyFES] Start to initialize parameters
+usage: __main__.py [-h] [-i I] [-ic IC] [-ib IB] [-s S] [-g G] [-o O]
+                   [-f32 F32] [-sigma SIGMA]
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -i I          Set the input record file path.
+  -ic IC        Set the cv index of input record file. Default: 0,1,2
+  -ib IB        Set the bias index of input record file. Default: 3
+  -s S          CV length. Default: None
+  -g G          Grid size. Default: 1.0
+  -o O          Set the output FES file path.
+  -f32 F32      Use float32. Default: false
+  -sigma SIGMA  Sigma value when calculating FES. Default: 0.3
+```
+假如我们有一个三维的CV，那么最简单的运行方式为：
+```bash
+$ python3 -m cyfes -i /home/Data/xyz_bias.txt -o ./work_dir/z.csv
+```
+那么最后产生的文件内容为：
+```bash
+$ head -n 5 work_dir/z.csv 
+4.070653662525058891e+00
+3.919774456963598386e+00
+3.603068291133182388e+00
+3.204146140575028223e+00
+2.844935837466335826e+00
+```
+文件的维度跟格点数量是一致的：
+```bash
+$ cat work_dir/z.csv | wc -l
+10000
+```
+
+
