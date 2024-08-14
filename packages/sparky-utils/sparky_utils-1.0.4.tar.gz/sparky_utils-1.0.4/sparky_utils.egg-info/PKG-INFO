@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: sparky_utils
+Version: 1.0.4
+Summary: Python and Django Project Utils Package
+Home-page: https://github.com/Ayobami6/sparky_utils
+Author: Ayobami Alaran
+Author-email: ayobamidele006@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asgiref==3.8.1
+Requires-Dist: Django>=4.2.13
+Requires-Dist: djangorestframework>=3.15.1
+
+## Sparky Utils
+
+### Utility Package for Python and Django Projects
+
+Reduce your code repetition using fine grained utility package for python and Django projects
+
+
+#### Installation
+```bash
+pip install sparky-utils
+```
+
+#### View all available utility modules
+
+```python3
+import sparky_utils
+print(sparky_utils.list_modules())
+```
+
+```python
+['decorators', 'exceptions', 'list_modules', 'response']
+```
+
+#### User decorator
+
+```python
+from sparky_utils import str_meta
+
+
+"""
+ will add __str__ method the returns name property if has and id if not and Meta class
+ def __str__(self):
+    return self.name or self.id
+
+class Meta:
+    verbose_name = model_name
+    verbose_name_plural = model_name + 's'
+"""
+@str_meta 
+class FoodCategory(models.Model):
+    name = models.CharField(max_length=100)
+```
+
+
+
+
