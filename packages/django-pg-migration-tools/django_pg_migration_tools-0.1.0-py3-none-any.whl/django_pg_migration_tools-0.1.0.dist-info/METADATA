@@ -1,0 +1,272 @@
+Metadata-Version: 2.1
+Name: django_pg_migration_tools
+Version: 0.1.0
+Summary: Tools for making Django migrations safer and more scalable.
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Kraken Technologies Limited
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: repository, https://github.com/kraken-tech/django-pg-migration-tools
+Project-URL: changelog, https://github.com/kraken-tech/django-pg-migration-tools/blob/main/CHANGELOG.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: django-pg-migration-tools[pytest-in-nox] ; extra == 'dev'
+Requires-Dist: django-pg-migration-tools[docs] ; extra == 'dev'
+Requires-Dist: django >=4.2.0 ; extra == 'dev'
+Requires-Dist: ruff >=0.5.2 ; extra == 'dev'
+Requires-Dist: mypy >=1.10.1 ; extra == 'dev'
+Requires-Dist: pre-commit >=3.7.1 ; extra == 'dev'
+Requires-Dist: build >=1.2.1 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx >=7.4.7 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=2.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-lint >=0.9.1 ; extra == 'docs'
+Provides-Extra: pytest-in-nox
+Requires-Dist: dj-database-url >=2.1.0 ; extra == 'pytest-in-nox'
+Requires-Dist: django-stubs >=5.0.0 ; extra == 'pytest-in-nox'
+Requires-Dist: environs >=11.0.0 ; extra == 'pytest-in-nox'
+Requires-Dist: nox >=2024.4.15 ; extra == 'pytest-in-nox'
+Requires-Dist: psycopg2-binary >=2.9.9 ; extra == 'pytest-in-nox'
+Requires-Dist: psycopg[binary] >=3.1.18 ; extra == 'pytest-in-nox'
+Requires-Dist: pytest-django >=4.8.0 ; extra == 'pytest-in-nox'
+Requires-Dist: pytest >=8.2.0 ; extra == 'pytest-in-nox'
+
+# Django Postgres Migration Tools
+
+Django Postgres Migration Tools provides extra functionalities to make Django
+migrations safer and more scalable.
+
+## Prerequisites
+
+This package supports:
+
+- Python 3.10
+- Python 3.11
+- Python 3.12
+
+During development you will also need:
+
+- pre-commit 3 _(Optional, but strongly recommended)_
+
+## Local development
+
+When making changes please remember to update the `CHANGELOG.md`, which follows
+the guidelines at [keepachangelog]. Add your changes to the `[Unreleased]`
+section when you create your PR.
+
+[keepachangelog]: https://keepachangelog.com/
+
+### Installation
+
+Ensure one of the above Pythons is installed and used by the `python`
+executable:
+
+```sh
+python --version
+Python 3.11.9   # or any of the supported versions
+```
+
+Ensure `uv` is installed as a system package. This can be done with `pipx` or
+Homebrew.
+
+Then create and activate a virtual environment. If you don't have any other way
+of managing virtual environments this can be done by running:
+
+```sh
+uv venv
+source .venv/bin/activate
+```
+
+You could also use [virtualenvwrapper], [direnv] or any similar tool to help
+manage your virtual environments.
+
+Once you are in an active virtual environment run:
+
+```sh
+make dev
+```
+
+This will set up your local development environment, installing all development
+dependencies.
+
+[virtualenvwrapper]: https://virtualenvwrapper.readthedocs.io/
+[direnv]: https://direnv.net
+
+### Testing (single Python version)
+
+To run the test suite using the Python version of your virtual environment,
+run:
+
+```sh
+make test
+```
+
+### Testing (all supported Python versions)
+
+To test against multiple Python (and package) versions, we need to:
+
+- Have [`nox`][nox] installed outside of the virtualenv. This is best done
+  using `pipx`:
+
+  ```sh
+  pipx install nox
+  ```
+
+- Ensure that all supported Python versions are installed and available on your
+  system (as e.g. `python3.10`, `python3.11` etc). This can be done with
+  `pyenv`.
+
+Then run `nox` with:
+
+```sh
+nox
+```
+
+Nox will create a separate virtual environment for each combination of Python
+and package versions defined in `noxfile.py`.
+
+To list the available sessions, run:
+
+```sh
+nox --list-sessions
+```
+
+To run the test suite in a specific Nox session, use:
+
+```sh
+nox -s $SESSION_NAME
+```
+
+[nox]: https://nox.thea.codes/en/stable/
+
+### Static analysis
+
+Run all static analysis tools with:
+
+```sh
+make lint
+```
+
+### Auto formatting
+
+Reformat code to conform with our conventions using:
+
+```sh
+make format
+```
+
+### Dependencies
+
+Package dependencies are declared in `pyproject.toml`.
+
+- _package_ dependencies in the `dependencies` array in the `[project]`
+  section.
+- _development_ dependencies in the `dev` array in the
+  `[project.optional-dependencies]` section.
+
+For local development, the dependencies declared in `pyproject.toml` are pinned
+to specific versions using the `requirements/development.txt` lock file.
+
+#### Adding a new dependency
+
+To install a new Python dependency add it to the appropriate section in
+`pyproject.toml` and then run:
+
+```sh
+make dev
+```
+
+This will:
+
+1. Build a new version of the `requirements/development.txt` lock file
+   containing the newly added package.
+2. Sync your installed packages with those pinned in
+   `requirements/development.txt`.
+
+This will not change the pinned versions of any packages already in any
+requirements file unless needed by the new packages, even if there are updated
+versions of those packages available.
+
+Remember to commit your changed `requirements/development.txt` files alongside
+the changed `pyproject.toml`.
+
+#### Removing a dependency
+
+Removing Python dependencies works exactly the same way: edit `pyproject.toml`
+and then run `make dev`.
+
+#### Updating all Python packages
+
+To update the pinned versions of all packages simply run:
+
+```sh
+make update
+```
+
+This will update the pinned versions of every package in the
+`requirements/development.txt` and `requirements/pytest-in-nox` (required for
+CI) lock files to the latest version which is compatible with the constraints
+in `pyproject.toml`.
+
+You can then run:
+
+```sh
+make dev
+```
+
+to sync your installed packages with the updated versions pinned in
+`requirements/development.txt`.
+
+#### Updating individual Python packages
+
+Upgrade a single production dependency with:
+
+```sh
+pip-compile -P $PACKAGE==$VERSION pyproject.toml --resolver=backtracking --extra=dev --output-file=requirements/development.txt
+```
+
+You can then run:
+
+```sh
+make dev
+```
+
+to sync your installed packages with the updated versions pinned in
+`requirements/development.txt`.
