@@ -1,0 +1,12 @@
+flask>=2.0.0
+dataclasses_json>=0.6.6
+
+[doc]
+sphinx>=8.0.2
+furo>=2024.8.6
+
+[test]
+pytest>=1.0.0
+pre-commit>=3.7.1
+isort>=5.13.2
+pytest-asyncio>=0.23.5
