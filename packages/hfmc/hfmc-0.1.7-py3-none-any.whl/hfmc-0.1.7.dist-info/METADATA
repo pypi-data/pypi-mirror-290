@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: hfmc
+Version: 0.1.7
+Summary: A tiny cache widget for accessing hugging face models easier and faster!
+Project-URL: GitHub, https://github.com/madstorage-dev/hffs
+Project-URL: Documentation, https://sg-c.github.io/hfmc-doc/
+Author-email: 9# AISoft <aisoft9@163.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: 9# AISoft,cache,huggingface,models,p2p
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: huggingface-hub==0.23.0
+Requires-Dist: prettytable
+Requires-Dist: psutil
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: urllib3
+Description-Content-Type: text/markdown
+
+# HuggingFace Model Cache
+
+HuggingFace Model Cache (referred to as "HFMC") is a compact and efficient tool designed to help users use models on HuggingFace faster and more easily.
+
+[English document](https://sg-c.github.io/hfmc-doc/).
+[中文文档](https://sg-c.github.io/hfmc-doc/README.zh)。
