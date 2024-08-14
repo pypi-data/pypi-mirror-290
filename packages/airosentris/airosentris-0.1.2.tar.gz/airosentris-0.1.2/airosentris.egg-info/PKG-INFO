@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: airosentris
+Version: 0.1.2
+Summary: A sentiment analysis platform with AI runner and trainer components
+Home-page: https://gitlab.com/sindika/project/airosentris/airosentris-python-lib
+Author: Willy Achmat Fauzi
+Author-email: willy.achmat@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Airosentris
+
+Airosentris is a sentiment analysis platform that includes powerful components for training and running AI models. Designed for ease of use, it enables developers to integrate sentiment analysis capabilities into their applications quickly.
+
+## Features
+
+- **AiroRunner:** Execute trained sentiment analysis models efficiently.
+- **AiroTrainer:** Train sentiment analysis models using customizable algorithms.
+- **Easy Integration:** Seamlessly integrate with your existing applications.
+- **Highly Customizable:** Tailor the AI models to fit specific requirements.
+
+## Installation
+
+You can install Airosentris via pip:
+
+```bash
+pip install airosentris
+```
+
+
