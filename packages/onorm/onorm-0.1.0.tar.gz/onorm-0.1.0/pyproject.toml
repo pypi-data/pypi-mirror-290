@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "onorm"
+version = "0.1.0"
+description = ""
+authors = ["Drew Dimmery <drew.dimmery@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = ">=1.22"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+black = "^24.8.0"
+mkdocs = "^1.6.0"
+mkdocstrings = "^0.25.2"
+mkdocs-material = "^9.5.31"
+mkdocstrings-python = "^1.10.7"
+mkdocs-autorefs = "^1.0.1"
+mkdocs-section-index = "^0.3.9"
+mkdocs-gen-files = "^0.5.0"
+mkdocs-literate-nav = "^0.6.1"
+pytest-order = "^1.2.1"
+coverage = "^7.6.1"
+mkdocs-coverage = "^1.1.0"
+scipy = "^1.14.0"
+plotnine = "^0.13.6"
+jupyter = "^1.0.0"
+ruff = "^0.5.7"
+pyright = "^1.1.375"
+bwd = "^0.1.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "C90", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
