@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: tradestream
+Version: 0.1.1
+Summary: A Python application with a Dash frontend, services to fetch market data, and an API server.
+License: Proprietary
+Author: Mac Anderson
+Author-email: mac@macanderson.com
+Requires-Python: >=3.12.3,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: attrs (>=24.1.0,<25.0.0)
+Requires-Dist: dash (>=2.11.0,<3.0.0)
+Requires-Dist: databento (>=0.39.2,<0.40.0)
+Requires-Dist: numpy (>=1.24.4,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: polygon-api-client (>=1.1.0,<2.0.0)
+Requires-Dist: pyarrow (>=15.0.1,<16.0.0)
+Requires-Dist: pymongo (>=4.5.0,<5.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: redis (>=4.5.0,<5.0.0)
+Requires-Dist: rq (>=1.14.1,<2.0.0)
+Requires-Dist: ujson (>=5.9.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+### Machine Learning Models
+
+Tradestream uses a variety of machine learning models to predict the future price of a stock. The models are trained on historical data and use a variety of features to make predictions. The models are trained on a daily basis and the predictions are made on a minute-by-minute basis.
+
+#### Machine Learning Libraries
+
+Tradestream researched the following machine learning libraries:
+
+    - [TensorFlow](https://www.tensorflow.org/)
+    - [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
+    - [GRU](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU)
+    - [Transformer](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Transformer)
+    - [PyTorch](https://pytorch.org/)
+    - [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
+    - [GRU](https://pytorch.org/docs/stable/generated/torch.nn.GRU.html)
+    - [Transformer](https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html)
+    - [Scikit-learn](https://scikit-learn.org/)
+    - [Ridge](https://scikit-learn.org/stable/modules/linear_model.html#ridge-regression)
+    - [Lasso](https://scikit-learn.org/stable/modules/linear_model.html#lasso)
+    - [ElasticNet](https://scikit-learn.org/stable/modules/linear_model.html#elastic-net)
+    - [RandomForest](https://scikit-learn.org/stable/modules/ensemble.html#random-forests)
+    - [GradientBoosting](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
+    - [AdaBoost](https://scikit-learn.org/stable/modules/ensemble.html#adaboost)
+    - [Stacking](https://scikit-learn.org/stable/modules/ensemble.html#stacking)
+    - [Voting](https://scikit-learn.org/stable/modules/ensemble.html#voting)
+    - [Bagging](https://scikit-learn.org/stable/modules/ensemble.html#bagging)
+    - [ExtraTrees](https://scikit-learn.org/stable/modules/ensemble.html#extra-trees)
+    - [IsolationForest](https://scikit-learn.org/stable/modules/ensemble.html#isolation-forest)
+    - [LocalOutlierFactor](https://scikit-learn.org/stable/modules/neighbors.html#local-outlier-factor)
+    - [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+    - [XGBRegressor](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBRegressor)
+    - [XGBClassifier](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBClassifier)
+    - [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
+    - [LGBMRegressor](https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMRegressor.html)
+    - [LGBMClassifier](https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html)
+    - [CatBoost](https://catboost.ai/)
+    - [CatBoostRegressor](https://catboost.ai/docs/concepts/python-reference_catboostregressor.html)
+    - [CatBoostClassifier](https://catboost.ai/docs/concepts/python-reference_catboostclassifier.html)
+    - [Prophet](https://facebook.github.io/prophet/)
+    - [ProphetRegressor](https://facebook.github.io/prophet/docs/python/python_api.html#prophet.ProphetRegressor)
+    - [ProphetClassifier](https://facebook.github.io/prophet/docs/python/python_api.html#prophet.ProphetClassifier)
+
+
+### Contributing to Tradestream
+
+We welcome contributions to Tradestream! Please open an issue or submit a pull request with your changes. You can find the pull request template in the `.github/pull_request_template.md` file. If you have any questions, please open an issue and we will be happy to help. You can also find us on the [Tradestream Discord](https://discord.gg/tradestream) if you have any questions. It is very important that you follow the [Contributing Guidelines](CONTRIBUTING.md) when contributing to Tradestream. We look forward to seeing your contributions!
+
+### Project Structure
+
+Tradestream is a Python application that uses the Dash framework for the frontend and the Flask framework for the backend. The application is deployed to Heroku. The project is organized as follows:
+
+``` python
+tradestream/                 # Main directory for the application
+│
+├── dash_app/                # Directory for the Dash app (frontend)
+│   ├── __init__.py          # Initialize the Dash app, include authentication
+│   ├── layout.py            # Define the layout of the Dash app
+│   ├── callbacks.py         # Define callbacks for interactivity
+│   └── authentication.py    # Handle user authentication
+│
+├── services/                # Directory for services that fetch real-time market data
+│   ├── __init__.py          # Initialization for services
+│   ├── market_fetcher.py    # Code to fetch real-time data from the markets
+│   └── scheduler.py         # Schedule tasks to fetch data at intervals
+│
+├── api/                     # Directory for the API server
+│   ├── __init__.py          # Initialization for API server
+│   ├── routes.py            # Define API routes
+│   ├── models.py            # Define MongoDB models using ODM (like PyMongo or Motor)
+│   └── views.py             # API views (logic to handle requests)
+│
+├── config.py                # Configuration file (environment variables, DB settings, etc.)
+├── Procfile                 # Define process types for Heroku (e.g., web, worker)
+├── requirements.txt         # Python dependencies
+└── wsgi.py                  # Entry point for the application (for Heroku to run the app)
+```
