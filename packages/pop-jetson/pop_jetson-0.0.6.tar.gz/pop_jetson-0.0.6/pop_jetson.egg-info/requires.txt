@@ -1,0 +1,9 @@
+gdown
+pycuda
+numpy<=1.23.5,>=1.19.5
+
+[:python_version == "3.6"]
+onnx==1.9.0
+
+[:python_version == "3.8"]
+onnx>=1.12.0

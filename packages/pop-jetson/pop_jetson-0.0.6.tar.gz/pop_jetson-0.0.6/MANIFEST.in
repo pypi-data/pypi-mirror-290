@@ -1,0 +1,15 @@
+include jetson/lists/*
+include jetson/models/Collision_Avoid/*
+include jetson/models/FaceNet/models/3.6/FaceNet.json
+include jetson/models/FaceNet/weights/*
+include jetson/models/SSD_MobileNet_COCO_trt/*
+include jetson/models/Track_Follow/*
+include jetson/models/trtpose/human_pose.json
+include jetson/models/yolov4-tiny/plugins/*
+include jetson/torch2trt/lib/*
+include jetson/torch2trt/lib/trt_pose/*
+include jetson/torch2trt/lib/trt_pose/parse/*
+include jetson/torch2trt/lib/trt_pose/parse/utils/*
+include jetson/torch2trt/lib/trt_pose/train/*
+include jetson/torch2trt/models/*
+include jetson/torch2trt/converters/*
