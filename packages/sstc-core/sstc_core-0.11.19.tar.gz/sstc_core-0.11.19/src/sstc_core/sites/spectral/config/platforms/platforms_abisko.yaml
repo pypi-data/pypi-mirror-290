@@ -1,0 +1,53 @@
+PhenoCams:
+  P_BTH_1:
+    aoi: Forest in Alpine Montain - Abiskojaure at Abisko National Park
+    backups:
+      aurora02_dirpath: /home/aurora02/data/SITES/Spectral/data/catalog/abisko/locations/BTH_FOR/platforms/PhenoCam/P_BTH_1/
+    description: Building H Top at ANS. Lars Eklundh custom optical camera.
+    ecosystem_of_interest: FOR
+    geolocation:
+      point:
+          epsg: "epsg:4326"
+          latitude_dd: 68.353729
+          longitude_dd: 18.816522
+    height_in_meters_above_ground: 4
+    legacy_acronym: ANS-FOR-P01
+    location_id: BTH_FOR
+    mantainance_and_calibrations:
+      logs:
+      - event_date_YYYY-MM-DD: null
+        event_type: null
+      status: Active
+    phenocam_rois:
+      ROI_01: {'points': [[100, 1800], [2700, 1550], [2500, 2700], [100, 2700]],
+        'color': [0, 255, 0],
+        'thickness': 7}
+      ROI_02: {'points': [[100, 930], [3700, 1050], [3700, 1200], [100, 1400]],
+        'color': [0, 0, 255],
+        'thickness': 7}
+      ROI_03: {'points': [[750, 600], [3700, 650], [3500, 950], [100, 830]],
+        'color': [255, 0, 0],
+        'thickness': 7}
+    platform_id: P_BTH_1
+    platform_type: PhenoCam
+    records_count: 0
+    sftp_dirpath: abisko/data/PhenoCam/ANS-FOR-P01/
+    station_acronym: ANS
+    station_name: Abisko
+    viewing_direction': West
+    processing_level_products:
+      L0:
+        - L0_raw: L0_raw_image   # 'catalog_filepath'
+      L1: 
+        - L1_QFI: L1_product_quality_filtered_image   # 'is_ready_for_products_use'
+      L2: 
+        - L2_RGB_mean: L2_product_RGB_mean_daily_composite
+        - L2_GCC_mean: L2_product_GCC_mean_daily_composite
+        - L2_RCC_mean: L2_product_RCC_mean_daily_composite
+        - L2_RGB_stdev: L2_product_RGB_stdev_daily_composite
+        - L2_GCC_stdev: L2_product_GCC_stdev_daily_composite
+        - L2_RCC_stdev: L2_product_RCC_stdev_daily_composite
+      L3:
+        - L3_ROIs_DV: L3_product_daily_values_{ROI} 
+        
+
