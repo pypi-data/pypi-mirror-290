@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fastapi-auth-jwt
+Version: 0.1.0
+Summary: FastAPI-Auth-JWT is a ready-to-use and easy-to-customize authentication middleware for FastAPI.
+Home-page: https://github.com/deepmancer/fastapi-auth-jwt
+License: Apache-2.0
+Keywords: fastapi,fastapi-user-auth,fastapi-auth-jwt,fastapi-auth-middleware,fastapi-users,fastapi-jwt-auth,fastapi-jwt,fastapi-middleware,redis
+Author: Alireza Heidari
+Author-email: alirezaheidari.cs@gmail.com
+Maintainer: Alireza Heidari
+Maintainer-email: alirezaheidari.cs@gmail.com
+Requires-Python: >=3.8
+Classifier: Environment :: Web Environment
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Systems Administration
+Provides-Extra: redis
+Requires-Dist: fastapi (>=0.73.0)
+Requires-Dist: pydantic (>=2)
+Requires-Dist: pyjwt (>=2.9.0,<3.0.0)
+Requires-Dist: python-decouple (>=3.8,<4.0)
+Requires-Dist: redis[redis] (>=4.0.0) ; extra == "redis"
+Project-URL: Documentation, https://github.com/deepmancer/fastapi-auth-jwt#readme
+Project-URL: Repository, https://github.com/deepmancer/fastapi-auth-jwt
+Description-Content-Type: text/markdown
+
+# fastapi-auth-jwt
+Simple to use FastAPI JWT auth middleware
+

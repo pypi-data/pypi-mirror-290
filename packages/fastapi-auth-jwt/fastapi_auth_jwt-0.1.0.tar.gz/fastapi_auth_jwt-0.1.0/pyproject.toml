@@ -1,0 +1,54 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.poetry]
+name = "fastapi-auth-jwt"
+version = "0.1.0"
+description = "FastAPI-Auth-JWT is a ready-to-use and easy-to-customize authentication middleware for FastAPI."
+authors = ["Alireza Heidari <alirezaheidari.cs@gmail.com>"]
+maintainers = ["Alireza Heidari <alirezaheidari.cs@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/deepmancer/fastapi-auth-jwt"
+documentation = "https://github.com/deepmancer/fastapi-auth-jwt#readme"
+keywords = [
+    "fastapi",
+    "fastapi-user-auth",
+    "fastapi-auth-jwt",
+    "fastapi-auth-middleware",
+    "fastapi-users",
+    "fastapi-jwt-auth",
+    "fastapi-jwt",
+    "fastapi-middleware",
+    "redis",
+]
+classifiers = [
+    "Framework :: FastAPI",
+    "Environment :: Web Environment",
+    "Topic :: System :: Systems Administration",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+fastapi = ">=0.73.0"
+pydantic = ">=2"
+python-decouple = "^3.8"
+pyjwt = "^2.9.0"
+redis = {version=">=4.0.0", extras=["redis"]}
+
+[tool.poetry.group.test.dependencies]
+pre-commit = "*"
+freezegun = ">=1.5.1"
+pytest = "*"
+pytest-asyncio = "*"
+
+[tool.poetry.extras]
+redis = ["redis"]
