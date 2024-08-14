@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyenvoy
+Version: 0.1
+Summary: An API client for TRISA Envoy nodes that enables travel rule compliance.
+Home-page: https://trisa.dev
+Download-URL: https://github.com/trisacrypto/pyenvoy/tarball/v0.1
+Author: Rotational Labs
+Author-email: support@rotational.io
+Maintainer: Rotational Labs
+Maintainer-email: support@rotational.io
+License: MIT
+Project-URL: Documentation, https://trisa.dev
+Project-URL: Download, https://github.com/trisacrypto/pyenvoy/tarball/v0.1
+Project-URL: Source, https://github.com/trisacrypto/pyenvoy
+Project-URL: Tracker, https://github.com/trisacrypto/pyenvoy/issues
+Keywords: travel rule,trisa,envoy,api client
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyenvoy
+Python API client for the TRISA Envoy node
