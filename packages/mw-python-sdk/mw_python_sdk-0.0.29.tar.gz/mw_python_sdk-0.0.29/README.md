@@ -1,0 +1,36 @@
+# mw-sdk-python
+
+## 简介
+`mw-sdk-python` 是一个用于与 Heywhale 平台交互的 Python SDK，旨在简化数据集的获取和管理。
+
+## 安装
+
+```bash
+pip install mw-sdk-python
+```
+
+## 示例代码
+
+以下是一个示例代码，展示了如何使用 `mw-sdk-python` 获取数据集的详细信息。
+
+```python
+from mw_python_sdk import download_dir
+download_dir("66b08ec9898e74a8232bb2d1")
+```
+
+## 环境变量
+
+- `MW_TOKEN`: 用于身份验证的令牌。如果未提供 token 参数，SDK 将使用此环境变量。
+- `HEYWHALE_HOST`: Heywhale 平台的主机地址（可选）。默认值为 `https://www.heywhale.com`。
+
+## 开发者
+
+构建方式，如果是 0.1.0版本。
+
+```python
+python -m build
+python -m twine upload dist/mw_python_sdk-0.1.0*
+```
+
+## 许可证
+MIT
