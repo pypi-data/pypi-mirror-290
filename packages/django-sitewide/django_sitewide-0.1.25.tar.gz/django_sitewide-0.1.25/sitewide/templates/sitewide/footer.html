@@ -1,0 +1,12 @@
+{% load static %}
+{% if sitewide.footer.show %}<footer>{% for section in sitewide.footer.sections %}
+    {% if section.show %}<div class="section {{ section.css }} {% if sitewide.sidebar.show %}sidebar_show{% else %}sidebar_hide{% endif %}">{% if section.division %}
+        {% if section.division.show %}<div class="{{ section.division.css }}">{% for column in section.division.parts %}
+            <div class="{{ column.css }} fl-1">{% for subpart in column.parts %}
+               {% if subpart.tag == "text" %}<p class="{{ subpart.css }}">{% if subpart.url %}<a href="{{ subpart.url }}">{{ subpart.value }}</a>{% else %}{{ subpart.value }}{% endif %}</p>{% endif %}
+               {% if subpart.tag == "image" %}{% if subpart.url %}<a href="{{ subpart.url }}">{% endif %}<img class="{{ subpart.css }}" src="{% static subpart.path %}"/>{% if subpart.url %}</a>{% endif %}{% endif %}
+            {% endfor %}</div>
+        {% endfor %}</div>{% endif %}
+    {% endif %}</div>{% endif %}
+{% endfor %}</footer>{% endif %}
+
