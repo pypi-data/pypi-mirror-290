@@ -1,0 +1,10 @@
+jiwer>=3.0.3
+python-iso639>=2023.6.15
+regex>=2023.8.8
+sacremoses==0.0.53
+
+[dev]
+pre-commit==3.7.1
+
+[test]
+pytest>=7.3.1
