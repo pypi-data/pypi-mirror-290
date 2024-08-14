@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: apache-skywalking-py312
+Version: 1.2.2
+Summary: The Python Agent for Apache SkyWalking, which provides the native tracing/metrics/logging/profiling abilities for Python projects. this is support python3.12.
+Home-page: https://github.com/airbot-zn/skywalking-python-3.12
+Author: AirBot
+Author-email: confidea@live.cn
+Maintainer: Apache SkyWalking Community
+Maintainer-email: dev@skywalking.apache.org
+Requires-Python: >=3.12,<4.0
+License-File: LICENSE
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Requires-Dist: packaging
+Requires-Dist: psutil<=5.9.5
+Requires-Dist: wrapt
+Provides-Extra: all
+Requires-Dist: requests>=2.26.0; extra == "all"
+Requires-Dist: kafka-python; extra == "all"
+Requires-Dist: uvloop<0.20.0,>=0.17.0; extra == "all"
+Requires-Dist: aiokafka<0.9.0,>=0.8.0; extra == "all"
+Requires-Dist: aiohttp<4.0.0,>=3.7.4; extra == "all"
+Provides-Extra: async
+Requires-Dist: uvloop<0.20.0,>=0.17.0; extra == "async"
+Requires-Dist: aiokafka<0.9.0,>=0.8.0; extra == "async"
+Requires-Dist: aiohttp<4.0.0,>=3.7.4; extra == "async"
+Provides-Extra: asynchttp
+Requires-Dist: uvloop<0.20.0,>=0.17.0; extra == "asynchttp"
+Requires-Dist: aiohttp<4.0.0,>=3.7.4; extra == "asynchttp"
+Provides-Extra: asynckafka
+Requires-Dist: uvloop<0.20.0,>=0.17.0; extra == "asynckafka"
+Requires-Dist: aiokafka<0.9.0,>=0.8.0; extra == "asynckafka"
+Provides-Extra: http
+Requires-Dist: requests>=2.26.0; extra == "http"
+Provides-Extra: kafka
+Requires-Dist: kafka-python; extra == "kafka"
+Provides-Extra: sync
+Requires-Dist: requests>=2.26.0; extra == "sync"
+Requires-Dist: kafka-python; extra == "sync"
+
+SkyWalking Python Agent requires Apache SkyWalking 8.0+ and Python 3.7+.
+This is support py3.12 .
