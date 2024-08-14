@@ -1,0 +1,1 @@
+from get_movie_data import fetch_douban_top_movies
