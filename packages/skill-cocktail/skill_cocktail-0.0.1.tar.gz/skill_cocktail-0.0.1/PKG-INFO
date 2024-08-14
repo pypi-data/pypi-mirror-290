@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: skill-cocktail
+Version: 0.0.1
+Home-page: https://github.com/forslund/skill-cocktail
+Author: Åke Forslund
+Author-email: ake.forslund@gmail.com
+License: GPL
+Keywords: ovos skill voice assistant neon
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ovos-utils
+Requires-Dist: ovos-bus-client
+Requires-Dist: ovos-workshop
+Requires-Dist: ovos-plugin-manager
+
+# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/cocktail.svg' card_color='#0080b0' width='50' height='50' style='vertical-align:bottom'/> Cocktails
+Get help mixing drinks.
+
+## About 
+Let OVOS help you mix better and more fun drinks and cocktails. When asked the assistant provides ingredients and mixing instructions for various drinks. The skill uses the fabulous [theCocktailDB](https://thecocktaildb.com/). 
+
+## Examples 
+* "how do I mix a Moscow Mule"
+* "how do I make a daiquiri"
+
+## Credits 
+@forslund
+
+## Category
+**Information**
+
+## Tags
+#drinks
+#recipies
+#cocktails
+
