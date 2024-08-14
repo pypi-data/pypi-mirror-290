@@ -1,0 +1,12 @@
+# __init__.py
+
+import importlib
+
+from moobius.core.sdk import Moobius
+from moobius.core.wand import MoobiusWand
+from moobius.database.storage import MoobiusStorage
+
+import sys
+if sys.argv[0] == '-m': # Quickstart option.
+    from . import quickstart
+    quickstart.save_starter_ccs()
