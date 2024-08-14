@@ -1,0 +1,64 @@
+ETIKET updates : v0.1.1
+=======================
+
+** added notes field
+--------------------
+
+Capabilities?
+-> searchable : yes
+-> selectable : yes
+
+What if multiple writers?
+-> how to combine notes? -- prevent dataloss?
+@client side : pull before pushing and merge messages if needed.
+
+HTML formatting? --> currently not supported
+History of notes? --> currently not supported
+
+Implementation : text field in database to make notes searchable.
+
+API CHANGES ::
+
+Changes in models ::
+
+DatasetCreate --> added notes field Optional[str]
+DatasetRead --> added notes field [str]
+DatasetUpdate --> added notes field Optional[str]
+
+DatasetSearch --> added has_notes field Optional[bool]=False
+
+
+** fixes in search
+------------------
+
+Search does not search anymore in parts of the uuid.
+Searching on a full UUID/uid still works.
+
+API CHANGES ::
+
+distinct_dates endpoint now uses DatasetSearch model instead of DatasetSelection
+
+(The search helper needs to be adapted into a ts_vector field,
+but that is something when you/I have some spare time)
+
+** added schema validation
+--------------------------
+
+Provided by providing schema models, which get converted into a JSON when stored in the database.
+
+API CHANGES ::
+
+Introduction of the following models:
+
+SchemaData
+SchemaAttributes
+
+Notes : is searchable is not implemented as it would require a change in database design. In the current implementation all schemas are searchable by default.
+
+Current validation on the server side :: check if schema has the correct formatting and if the regex is valid.
+
+** added a version endpoint to the API
+--------------------------------------
+
+Such that users can easily see which version this API runs.
+

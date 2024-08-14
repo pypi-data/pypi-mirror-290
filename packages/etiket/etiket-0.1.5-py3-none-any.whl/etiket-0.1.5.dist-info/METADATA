@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: etiket
+Version: 0.1.5
+Author: QDrive team
+Requires-Python: >=3.9
+Requires-Dist: fastapi >=0.103.2
+Requires-Dist: SQLAlchemy >=2.0.21
+Requires-Dist: pydantic >=2.4.2
+Requires-Dist: email-validator >=2.0.0
+Requires-Dist: pydantic-settings >=2.0.3
+Requires-Dist: boto3 >=1.33.8
+Requires-Dist: PyJWT >=2.8.0
+Requires-Dist: passlib >=1.7.4
+Requires-Dist: uvicorn >=0.23.2
+Requires-Dist: gunicorn >=22.0.0
+Requires-Dist: bcrypt >=4.0.1
+Requires-Dist: python-multipart >=0.0.6
+Requires-Dist: pyinstrument >=4.5.3
+Requires-Dist: alembic >=1.12.0
+Requires-Dist: psycopg2-binary >=2.9.9
+Requires-Dist: sqltap >=0.3.11
+Requires-Dist: packaging >=0.24
+Requires-Dist: python-json-logger >=2.0.7
+Requires-Dist: cloudwatch >=1.2.1
+
