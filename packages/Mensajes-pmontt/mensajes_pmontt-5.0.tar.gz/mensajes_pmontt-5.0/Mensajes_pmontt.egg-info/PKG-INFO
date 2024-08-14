@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Mensajes-pmontt
+Version: 5.0
+Summary: Un paquete para saludar y despedir
+Home-page: https://www.hektor.dev
+Author: Pedro Montt Pacheco
+Author-email: p-montt@hotmail.com
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Environment :: Console :: Framebuffer
+Classifier: Environment :: Console :: Newt
+Classifier: Environment :: Console :: svgalib
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.23.0
+
+# Mensajes
+
+El paquete de mensajerÃ­a para pruebas de Pedro Montt
