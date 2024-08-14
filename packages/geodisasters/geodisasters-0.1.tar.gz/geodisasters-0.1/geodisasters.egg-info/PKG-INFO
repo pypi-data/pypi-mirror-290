@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: geodisasters
+Version: 0.1
+Summary: Query broadcasted news related to natural disasters and visualize them using spatial aggregations.
+Project-URL: Homepage, https://geospatial-ai.de
+Project-URL: GitHub, https://github.com/Geospatial-AI-DE/geodisasters-py
+Project-URL: Documentation, https://geodisasters.readthedocs.io/en/latest
+Keywords: geospatial,intelligence,urban,digital twin,natural disasters,knowledge
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: georapid
+
+# geodisasters-py
+Query broadcasted news related to natural disasters and visualize them using spatial aggregations.

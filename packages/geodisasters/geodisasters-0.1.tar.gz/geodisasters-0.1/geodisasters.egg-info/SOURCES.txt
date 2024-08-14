@@ -1,0 +1,24 @@
+.gitignore
+.readthedocs.yaml
+LICENSE
+README.md
+pyproject.toml
+.vscode/settings.json
+docs/Makefile
+docs/make.bat
+docs/requirements.txt
+docs/source/api.rst
+docs/source/conf.py
+docs/source/index.rst
+docs/source/services.rst
+docs/source/usage.rst
+geodisasters/__init__.py
+geodisasters/services.py
+geodisasters.egg-info/PKG-INFO
+geodisasters.egg-info/SOURCES.txt
+geodisasters.egg-info/dependency_links.txt
+geodisasters.egg-info/requires.txt
+geodisasters.egg-info/top_level.txt
+notebooks/Querying News.ipynb
+tests/__int__.py
+tests/test_services.py
