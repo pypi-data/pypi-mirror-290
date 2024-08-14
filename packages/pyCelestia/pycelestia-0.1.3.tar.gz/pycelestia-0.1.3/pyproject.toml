@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "setuptools-rust"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyCelestia"
+description = "Python client for working with the Celestia DA network."
+readme = "README.md"
+license = { text = "MIT License" }
+requires-python = ">= 3.10"
+dynamic = ["version", "dependencies", "optional-dependencies"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+]
+
+[project.urls]
+Homepage = "https://github.com/Alesh/pyCelestia"
+Issues = "https://github.com/Alesh/pyCelestia/issues"
+
+
+[tool.setuptools.packages.find]
+include = ["celestia*"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+optional-dependencies.dev = { file = ["tests/requirements.txt"] }
+
+[[tool.setuptools-rust.ext-modules]]
+target = "celestia._types"
+path = "Cargo.toml"
+binding = "PyO3"
+debug = false
+
+
+[tool.setuptools_scm]
+write_to = "celestia/__version__.py"
+
+[project.scripts]
+start-node = "celestia.utils.scripts:command"
+stop-node = "celestia.utils.scripts:command"
+show-token = "celestia.utils.scripts:command"

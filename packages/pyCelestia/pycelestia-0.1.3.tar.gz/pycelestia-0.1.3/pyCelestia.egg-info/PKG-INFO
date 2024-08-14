@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyCelestia
+Version: 0.1.3
+Summary: Python client for working with the Celestia DA network.
+License: MIT License
+Project-URL: Homepage, https://github.com/Alesh/pyCelestia
+Project-URL: Issues, https://github.com/Alesh/pyCelestia/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ajsonrpc
+Requires-Dist: httpx
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+
+## pyCelestia
+
+Python client for working with the Celestia DA network.
