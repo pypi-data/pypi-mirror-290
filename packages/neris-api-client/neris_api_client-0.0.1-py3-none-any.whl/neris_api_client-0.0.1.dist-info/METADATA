@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: neris_api_client
+Version: 0.0.1
+Summary: NERIS API Client
+Author-email: Ben Coleman <ben.coleman@ul.org>
+Project-URL: Homepage, https://github.com/ulfsri/neris
+Project-URL: Issues, https://github.com/ulfsri/neris/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: PyJWT
+Requires-Dist: requests
+Requires-Dist: pydantic >=2
+Requires-Dist: typing-extensions
+
+# NERIS API Client
+
+A Python class to interact with the NERIS API programmatically.
+
+## Usage
+The client requires a username and password for authentication and authorization of requests unless the `env` argument is set to `local`
+at instantiation. The `local` environment is intended for development use on local machines and bypasses auth.
+
+```python
+from neris_api_client import NerisApiClient
+
+client = NerisApiClient(username="neris.user", password="*******", env="dev")
+
+# Get an organization
+org = client.get_org("FD24027240")
+```
