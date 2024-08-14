@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pop-jetson
+Version: 0.0.5
+Summary: AIoT AI library for pop
+Author: c.h.min
+Author-email: lab2@hanback.co.kr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: gdown
+Requires-Dist: numpy <=1.23.5,>=1.19.5
+Requires-Dist: onnx ==1.9.0 ; python_version == "3.6"
+Requires-Dist: onnx >=1.12.0 ; python_version == "3.8"
+
+# How to use
+
+Install dependencies
+```
+    sudo apt install libjpeg-dev zlib1g-dev libopenblas-dev libavcodec-dev libavformat-dev libswscale-dev
+```
+
+<br>Install onnx-graphsurgeon from NVidia pre-build source files.
+
+```
+    pip install https://developer.download.nvidia.com/compute/redist/onnx-graphsurgeon/onnx_graphsurgeon-0.3.27-py2.py3-none-any.whl
+```
+
+<br>Install PyTorch from NVidia pre-built source files.
+
+``` 
+    #For python 3.8 
+    pip install https://developer.download.nvidia.cn/compute/redist/jp/v511/pytorch/torch-2.0.0+nv23.05-cp38-cp38-linux_aarch64.whl
+
+    #For python 3.6 
+    pip install https://developer.download.nvidia.cn/compute/redist/jp/v461/pytorch/torch-1.11.0a0+17540c5+nv22.01-cp36-cp36m-linux_aarch64.whl
+```
+
+<br>Once you have done installing PyTorch, install TorchVision with following commands
+
+```
+    #For python 3.8 
+    export BUILD_VERSION=0.15.2
+    git clone --branch v0.15.2 https://github.com/pytorch/vision torchvision   
+
+    #For python 3.6
+    export BUILD_VERSION=0.12.0
+    git clone --branch v0.12.0 https://github.com/pytorch/vision torchvision 
+```
+
+When the clonning is over, type:
+
+```
+    cd torchvision
+    python3 setup.py install --user
+    cd ..
+```
