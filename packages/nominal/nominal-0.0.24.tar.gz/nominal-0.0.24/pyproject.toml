@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "nominal"
+version = "0.0.24"
+description = "Automate Nominal workflows in Python"
+authors = ["JP <jack@nominal.io>", "Michael Bauer <michael@nominal.io>"]
+readme = "README.md"
+packages = [
+    {include = "nominal/**/*.py"},
+]
+include = ["README.md", "LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+python-dateutil = "^2.9.0.post0"
+jsondiff = "^2.2.0"
+polars = "^1.4.1"
+keyring = "^25.0.0"
+rich = "^13.7.1"
+
+[tool.poetry.dev-dependencies]
+ruff = "^ 0.4.2"
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
