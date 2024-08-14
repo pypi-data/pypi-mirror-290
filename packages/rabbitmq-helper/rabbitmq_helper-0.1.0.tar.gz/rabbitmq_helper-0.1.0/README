@@ -1,0 +1,42 @@
+RabbitMQ Helper
+RabbitMQ Helper é uma biblioteca Python simples e poderosa para facilitar a configuração e o uso do RabbitMQ em seus projetos. Ela abstrai a complexidade de lidar diretamente com a API do RabbitMQ, fornecendo uma interface clara para gerenciar conexões, filas e publicações de mensagens.
+
+Recursos
+Gerenciamento de Conexões: Crie e gerencie conexões com o RabbitMQ de maneira fácil e configurável.
+Manipulação de Filas: Crie, vincule e consuma mensagens de filas com métodos simples.
+Publicação de Mensagens: Publique mensagens de forma persistente em filas e exchanges do RabbitMQ.
+Instalação
+Instale a biblioteca usando pip:
+
+pip install rabbitmq-helper
+
+Como Usar
+Conectando ao RabbitMQ
+    from rabbitmq_helper.connection import RabbitMQConnection
+
+    # Conectar ao RabbitMQ com parâmetros personalizados
+    conn = RabbitMQConnection(host='localhost', port=5672, username='guest', password='guest')
+    conn.connect()
+
+    # Fechar a conexão
+    conn.close()
+
+Trabalhando com Filas
+    from rabbitmq_helper.queue import RabbitMQQueue
+
+    # Configurar a fila
+    queue = RabbitMQQueue(conn.channel)
+    queue.declare_queue('minha_fila')
+
+# Consumir mensagens
+    def callback(ch, method, properties, body):
+        print("Mensagem recebida: %r" % body)
+
+    queue.consume('minha_fila', callback)
+
+Publicando Mensagens Persistentes
+    from rabbitmq_helper.publisher import RabbitMQPublisher
+
+    # Publicar uma mensagem persistente
+    publisher = RabbitMQPublisher(conn.channel)
+    publisher.publish('', 'minha_fila', 'Mensagem persistente no RabbitMQ!')

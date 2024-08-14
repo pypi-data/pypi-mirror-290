@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: rabbitmq-helper
+Version: 0.1.0
+Summary: Uma biblioteca para facilitar as configurações de RabbitMQ
+Home-page: https://github.com/frexco-digital/rabbitmq_helper
+Author: Barretão
+Author-email: pedroautomacao@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pika
+
+RabbitMQ Helper
+RabbitMQ Helper Ã© uma biblioteca Python simples e poderosa para facilitar a configuraÃ§Ã£o e o uso do RabbitMQ em seus projetos. Ela abstrai a complexidade de lidar diretamente com a API do RabbitMQ, fornecendo uma interface clara para gerenciar conexÃµes, filas e publicaÃ§Ãµes de mensagens.
+
+Recursos
+Gerenciamento de ConexÃµes: Crie e gerencie conexÃµes com o RabbitMQ de maneira fÃ¡cil e configurÃ¡vel.
+ManipulaÃ§Ã£o de Filas: Crie, vincule e consuma mensagens de filas com mÃ©todos simples.
+PublicaÃ§Ã£o de Mensagens: Publique mensagens de forma persistente em filas e exchanges do RabbitMQ.
+InstalaÃ§Ã£o
+Instale a biblioteca usando pip:
+
+pip install rabbitmq-helper
+
+Como Usar
+Conectando ao RabbitMQ
+    from rabbitmq_helper.connection import RabbitMQConnection
+
+    # Conectar ao RabbitMQ com parÃ¢metros personalizados
+    conn = RabbitMQConnection(host='localhost', port=5672, username='guest', password='guest')
+    conn.connect()
+
+    # Fechar a conexÃ£o
+    conn.close()
+
+Trabalhando com Filas
+    from rabbitmq_helper.queue import RabbitMQQueue
+
+    # Configurar a fila
+    queue = RabbitMQQueue(conn.channel)
+    queue.declare_queue('minha_fila')
+
+# Consumir mensagens
+    def callback(ch, method, properties, body):
+        print("Mensagem recebida: %r" % body)
+
+    queue.consume('minha_fila', callback)
+
+Publicando Mensagens Persistentes
+    from rabbitmq_helper.publisher import RabbitMQPublisher
+
+    # Publicar uma mensagem persistente
+    publisher = RabbitMQPublisher(conn.channel)
+    publisher.publish('', 'minha_fila', 'Mensagem persistente no RabbitMQ!')
