@@ -1,0 +1,4 @@
+ 
+# latpy module
+
+::: latpy.latpy
