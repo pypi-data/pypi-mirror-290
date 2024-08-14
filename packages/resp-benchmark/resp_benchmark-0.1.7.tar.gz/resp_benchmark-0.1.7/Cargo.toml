@@ -1,0 +1,28 @@
+[package]
+name = "resp-benchmark"
+version = "0.1.7"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "_resp_benchmark_rust_lib"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+tokio = { version = "1", features = ["full"] }
+redis = { version = "0.26.1", features = [
+    "tokio-comp",
+    "cluster",
+    "cluster-async",
+    #    "tls-native-tls",
+    #    "tokio-native-tls-comp",
+] }
+rand = { version = "0.8.5", features = [] }
+zipf = "7.0.1"
+nom = "7.1.3"
+core_affinity = "0.8.1"
+awaitgroup = "0.7.0"
+colored = "2.1.0"
+enum_delegate = "0.2.0"
+ctrlc = "3.4.4"
