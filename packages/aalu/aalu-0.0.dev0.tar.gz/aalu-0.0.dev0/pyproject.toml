@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "aalu"
+version = "0.0.dev0"
+description = ""
+authors = ["Madhup Sukoon <29144316+vagrantism@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-core = "^0.2.28"
+pydantic = "^2.8.2"
+langchain = "^0.2.12"
+langchain-google-vertexai = "^1.0.8"
+langchain-google-genai = "^1.0.8"
+fastapi = "^0.112.0"
+black = "^24.8.0"
+mypy = "^1.11.1"
+smart-open = {extras = ["all"], version = "^7.0.4"}
+loguru = "^0.7.2"
+langchain-openai = "^0.1.21"
+jsonalias = "^0.1.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.mypy.overrides]]
+module = [
+    "smart-open", 
+    "smart_open", 
+    "smart-open.*",
+    "smart_open.*"
+]
+ignore_missing_imports = true
