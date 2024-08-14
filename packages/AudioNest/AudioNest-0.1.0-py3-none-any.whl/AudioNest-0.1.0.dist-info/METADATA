@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AudioNest
+Version: 0.1.0
+Summary: A package to convert audio files to text.
+Home-page: https://github.com/AnudeepSatyaSai/audionest
+Author: Anudeep Saty Sai
+Author-email: eadaradeepu74@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pydub
+Requires-Dist: SpeechRecognition
+
