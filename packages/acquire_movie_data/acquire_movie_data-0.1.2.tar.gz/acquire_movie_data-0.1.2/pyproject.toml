@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "acquire_movie_data"
+version = "0.1.2"
+description = ""
+authors = ["zhanghuihui111 <2019110851@stu.sufe.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
