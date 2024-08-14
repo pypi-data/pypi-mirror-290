@@ -1,0 +1,40 @@
+[project]
+name = "highly-random-test"
+description = "An random test project for publishing."
+authors = [
+    { name = "Quirky-AI-Labs", email = "quirkyailabs@gmail.com" }
+]
+version = "0.1.0"
+repository = "https://github.com/Quirky-AI-Labs/random-test"
+homepage = "https://github.com/Quirky-AI-Labs/random-test"
+license = {text = "MIT License"}
+keywords = ["random", "test", "random-test"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+# universal = true
+managed = true
+dev-dependencies = [
+    "pre-commit==2.20.0",
+    "black==22.10.0",
+    "build>=1.2.1",
+]
+
+[tool.hatch.version]
+source = "code"
+path = "src/random_test/__init__.py"
+search-paths = ["src"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/random_test"]
+
+[tool.rye.scripts]
+format = "black ."
