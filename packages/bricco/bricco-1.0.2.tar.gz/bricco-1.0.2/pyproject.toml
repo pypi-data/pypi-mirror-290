@@ -1,0 +1,30 @@
+[build-system]
+requires = [ "hatchling" ]
+build-backend = "hatchling.build"
+
+[project]
+name = "bricco"
+version = "1.0.2"
+authors = [ { name = "Ellie Viesná", email="snowboard_refinery@proton.me" } ]
+description = "A simple Tor bridges testing tool"
+keywords = ["tor", "bridge", "censorship", "obfs4"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">= 3.11"
+dependencies = []
+classifiers = [
+	"Programming Language :: Python :: 3.11",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+	"Operating System :: OS Independent",
+	"Natural Language :: English",
+	"Development Status :: 4 - Beta",
+	"Environment :: Console"
+]
+
+[project.scripts]
+bricco = "bricco.main:main"
+
+[project.urls]
+"Repository" = "https://codeberg.org/screwery/bricco"
+"Issues" = "https://codeberg.org/screwery/bricco/issues"
+"Changelog" = "https://codeberg.org/screwery/bricco/src/branch/main/CHANGELOG.md"
