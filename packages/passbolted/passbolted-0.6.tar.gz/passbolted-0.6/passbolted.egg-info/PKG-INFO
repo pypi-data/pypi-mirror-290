@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: passbolted
+Version: 0.6
+Summary: Password Reader by name using py-passbolt
+Author: Shamail Tayyab
+Author-email: tayyab.shamail@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: toml
+Requires-Dist: py-passbolt
+
+# Password Extractor by name using py-passbolt.
+
+
+
+# Build and Upload
+
+```
+make build
+make upload
+```
+
+# Usage
+
+```
+passbolted.get_credentials_multi(file_like_passbolted_asc_object, passphrase, [list, of, keys])
+```
+
+or
+
+```
+passbolted.get_credentials(file_like_passbolted_asc_object, passphrase, key)
+```
+
+This method will also cache the keys.
+
+
