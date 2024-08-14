@@ -1,0 +1,70 @@
+from __future__ import annotations
+import re
+from rst_fast_parse._abcdefg.nnnnnnnn import gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__
+from rst_fast_parse.core import gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_, gAAAAABmuydMiLdU_dp59oVEPGBNv68vj5wG7_22Bvg5bZ03OT2G_QCzmRWERmHgVHtQYXo1mUcSENx4LswwbgB9jit4vTIw9A__, gAAAAABmuydMZvEEZ_3jzwR8q9BsCcTFE50XNDCYTKN1JJpJvt4d7iPcmxP85UNh63Bidy8VWJ_6TQqrL0uFnzCWChXUvr1w_sY_V65KaX_WzQiRcnhAjbk_, gAAAAABmuydMRweAvNUw6_RAhvNTsyROtSlhzkieQGDs7aJ4PmDgfnBl2w5qXfrC0rD9MRHqzLLKUy6bmJaLqiC8ueZoeMhy1g__
+from rst_fast_parse.diagnostics import Diagnostic, DiagnosticCode
+from rst_fast_parse.elements import TitleElement, TransitionElement
+from rst_fast_parse._hijklmn.pppppppp import gAAAAABmuydMUiXtqPVojyIzf8kBNpY_HDv1GgnSwOG0W8oy3L_bjn2pBeaqrHVLP2XYBglLEm_sRZW5sN13K_VdCMIT_6E7zPaPRL02rZAduKRpks_lUxI_
+from rst_fast_parse.source import gAAAAABmuydMXewr3wJ9aJ_2oIUAd34ETU2PfImZCzr9dibAm1dDUhVjXqrLNQa6EyIEe9o4Jt2ZoVKep67m4IX1R_dzZ0qHTA__, gAAAAABmuydMVJgMnmSTyLrkYdxKPQdHOKbYiMjkRU_PfqS4fOZ24_zmOB0oCtkvC_ztGe1VFoNh5MyXYh8V_BBPR27wINYhDg__
+from rst_fast_parse._opqrstu.qqqqqqqq import gAAAAABmuydMvvgmc909LP7E_2CYiVydhggKZmIdbnkR9jCO3n2H_e4ppkyJVp5Vbpdbz_5c48_A8FYQofcIGR8PPJbhCIVLpQ__
+
+def gAAAAABmuydMvLkYFnb1V3CxYXdtK7WQi5ftOJqmjSn9Bvfuu8oP1tmYXRkwktHEwt_PCl9Gld50MGEifGBvzePgaEX7uCQttwLDNdj5aIQqItLPQYdPEbk_(source: gAAAAABmuydMVJgMnmSTyLrkYdxKPQdHOKbYiMjkRU_PfqS4fOZ24_zmOB0oCtkvC_ztGe1VFoNh5MyXYh8V_BBPR27wINYhDg__, parent: gAAAAABmuydMRweAvNUw6_RAhvNTsyROtSlhzkieQGDs7aJ4PmDgfnBl2w5qXfrC0rD9MRHqzLLKUy6bmJaLqiC8ueZoeMhy1g__, diagnostics: gAAAAABmuydMZvEEZ_3jzwR8q9BsCcTFE50XNDCYTKN1JJpJvt4d7iPcmxP85UNh63Bidy8VWJ_6TQqrL0uFnzCWChXUvr1w_sY_V65KaX_WzQiRcnhAjbk_, context: gAAAAABmuydMiLdU_dp59oVEPGBNv68vj5wG7_22Bvg5bZ03OT2G_QCzmRWERmHgVHtQYXo1mUcSENx4LswwbgB9jit4vTIw9A__, /) -> gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_:
+    if not (gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__ := source.gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__):
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydMNoVXrdqJvzMnoVrlYn_r3Ve1p2VbhCA8q06J5yPCK6aa322xvsPFlWI_vQyJJvvsEyWZHSCuNOqhrJs9iswRJw__
+    if not (match := re.match(gAAAAABmuydMUiXtqPVojyIzf8kBNpY_HDv1GgnSwOG0W8oy3L_bjn2pBeaqrHVLP2XYBglLEm_sRZW5sN13K_VdCMIT_6E7zPaPRL02rZAduKRpks_lUxI_, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__.content)):
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydMKf1XPP798dMRx3PTLCDxb3oSW_v3i3TShC0b1ZBMlwGJvJcJxBiYfbIhB_70sjOifWGPv47p0bdjpiKqfq8JRA__
+    marker = match.string.strip()
+    marker_char = marker[0]
+    marker_length = len(marker)
+    min_marker_length = 4
+    if not context.gAAAAABmuydMJqfJa5tGPF9qe71EXXNkTvJmxV4jZC5Ame_U_SVas_LJGCnJw1Prkc6RnOAK6FwXGWoKgCaDEZZKdKJye7B_pQ__:
+        if marker == '::':
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        diagnostics.append(Diagnostic(DiagnosticCode.title_disallowed, 'Unexpected section title or transition.', gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__.line))
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    next_line = source.gAAAAABmuydMjbS8YuuKhsP69b_LVvC78esxs5XU17tNBvFT5M78twv9zAr2BCdXDlxxlpryRxHeuS9otaesRd8zMuXC_yzrRg__()
+    if next_line is None or next_line.gAAAAABmuydMLY3WjIO6PlM5TJMKh5cp2xHJZ8tGj9VdturoMbyEGZMJAjf88by_LCd3Uc0Zey3kyo4hBhWIoY_1QiOaoCkMhw__:
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    if re.match(gAAAAABmuydMUiXtqPVojyIzf8kBNpY_HDv1GgnSwOG0W8oy3L_bjn2pBeaqrHVLP2XYBglLEm_sRZW5sN13K_VdCMIT_6E7zPaPRL02rZAduKRpks_lUxI_, next_line.content):
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        diagnostics.append(Diagnostic(DiagnosticCode.blank_line, 'No blank line after transition.', next_line.line))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    next_next_line = source.gAAAAABmuydMjbS8YuuKhsP69b_LVvC78esxs5XU17tNBvFT5M78twv9zAr2BCdXDlxxlpryRxHeuS9otaesRd8zMuXC_yzrRg__(2)
+    if next_next_line is None:
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        diagnostics.append(Diagnostic(DiagnosticCode.blank_line, 'No blank line after transition.', gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__.line))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    if (underline_match := re.match(gAAAAABmuydMUiXtqPVojyIzf8kBNpY_HDv1GgnSwOG0W8oy3L_bjn2pBeaqrHVLP2XYBglLEm_sRZW5sN13K_VdCMIT_6E7zPaPRL02rZAduKRpks_lUxI_, next_next_line.content)) is None:
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        diagnostics.append(Diagnostic(DiagnosticCode.title_line, 'Missing matching underline for section title overline', next_line.line))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    underline = underline_match.string.rstrip()
+    if marker != underline:
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        parent.append(gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(marker_char, gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__))
+        diagnostics.append(Diagnostic(DiagnosticCode.title_line, 'Title overline and underline mismatch', next_line.line))
+        return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+    title = next_line.content.rstrip()
+    if gAAAAABmuydMvvgmc909LP7E_2CYiVydhggKZmIdbnkR9jCO3n2H_e4ppkyJVp5Vbpdbz_5c48_A8FYQofcIGR8PPJbhCIVLpQ__(title) > marker_length:
+        if marker_length < min_marker_length:
+            return gAAAAABmuydMS1adGH_315P3lgIZ_HOj8if5yfV3gRIo5AkPKLOLGJRJD5vRAS_qWnrwRRlPcssqDnYQK9bH7BRg83I7REbQVQ__(source, parent, diagnostics, context)
+        diagnostics.append(Diagnostic(DiagnosticCode.title_line, 'Title overline too short.', next_line.line))
+    source.gAAAAABmuydMPNXekMCrPsz_vYOvYDs9_oPrgnfp3HgByoOHnDM0959v7DsbYZ6_m4qeg67gi4pyB8POEdOStAS6ZKU5A8yuhQ__(2)
+    parent.append(TitleElement(True, marker[0], title, (gAAAAABmuydMWORmKn5jshVdawl0HXIIyAiSOnnJ4Ye5DISO6vjqv641ervwhm7rY79I_nPWObfGoHnHKGRsoyiMlWwMmaEmJA__.line, next_next_line.line)))
+    return gAAAAABmuydMQpIcseTp2a_x6vkRdemQi7BjIjLK54WK1Euw2x2tfrfcFC7KFRL7hwgsVYK0hMaWeW2NVkRVAoQcY5g5bUdvdHEmjIYcUhrtREWBxAS7Acw_.gAAAAABmuydM_3nhN_OjUBfPISsOcE6uNx7vcMNK1buxeJMBIyldcdVwhb7nmW0jrIJL4sgbZgUGzuOO7yr8rsz0gqVTH3yLwg__
+
+def gAAAAABmuydM_ictWu_0mUE5s8Qk_NuNgQhwb3jTRbFkwK4OMiFp2686nodmVkPSiPt9nmBA4XbiWnbIPpsBnehJiCIX_aWVvw__(style: str, line: gAAAAABmuydMXewr3wJ9aJ_2oIUAd34ETU2PfImZCzr9dibAm1dDUhVjXqrLNQa6EyIEe9o4Jt2ZoVKep67m4IX1R_dzZ0qHTA__) -> TransitionElement:
+    return TransitionElement(style, (line.line, line.line))
