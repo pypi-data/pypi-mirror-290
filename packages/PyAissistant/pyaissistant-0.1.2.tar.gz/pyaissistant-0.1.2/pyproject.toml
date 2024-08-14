@@ -1,0 +1,17 @@
+[project]
+name = "PyAissistant"
+version = "0.1.2"
+authors = [
+  { name="Hinx Vietti (Lai)", email="hinxvietti@gmail.com" },
+]
+description = "A Python package designed to provide a user-friendly interface for AI developers working with Python. This package aims to streamline the integration of AI functionalities into your projects, making it easier to leverage advanced AI capabilities"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/HinxCorporation/PyAissistant"
+Issues = "https://github.com/HinxCorporation/PyAissistant/issues"
