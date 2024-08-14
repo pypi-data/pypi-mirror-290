@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+mlquantify/base.py
+mlquantify/model_selection.py
+mlquantify.egg-info/PKG-INFO
+mlquantify.egg-info/SOURCES.txt
+mlquantify.egg-info/dependency_links.txt
+mlquantify.egg-info/requires.txt
+mlquantify.egg-info/top_level.txt
+mlquantify/classification/__init__.py
+mlquantify/evaluation/__init__.py
+mlquantify/methods/__init__.py
+mlquantify/plots/__init__.py
+mlquantify/utils/__init__.py
