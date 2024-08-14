@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: QuantTraderLib
+Version: 1.0.15
+Summary: QuantTraderLib là một thư viện Python hỗ trợ những vấn đề về quant trading.
+Home-page: https://github.com/Gnosis-Tech/PyQuantTrader_Dev
+Author: Hephaestus Tech
+Author-email: heptech2023@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <3.11
+License-File: LICENSE
+Requires-Dist: numpy<2.0
+Requires-Dist: yfinance
+Requires-Dist: vnstock
+Requires-Dist: pandas-datareader
+Requires-Dist: bokeh
+Requires-Dist: backtesting
+
