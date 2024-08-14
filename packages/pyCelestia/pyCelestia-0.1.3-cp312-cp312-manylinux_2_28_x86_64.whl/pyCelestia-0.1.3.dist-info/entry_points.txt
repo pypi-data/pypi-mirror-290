@@ -1,0 +1,4 @@
+[console_scripts]
+show-token = celestia.utils.scripts:command
+start-node = celestia.utils.scripts:command
+stop-node = celestia.utils.scripts:command
