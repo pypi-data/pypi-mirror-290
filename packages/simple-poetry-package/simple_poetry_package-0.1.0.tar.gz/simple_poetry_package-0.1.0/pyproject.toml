@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "simple-poetry-package"
+version = "0.1.0"
+description = "'Creating an example poetry package'"
+authors = ["rahul1990bhatia <rahul1990bhatia@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+hello_world = 'simple_poetry_package.cli:cli'
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+black = "^24.8.0"
+isort = "^5.13.2"
+
+
+[tool.poetry.group.install.dependencies]
+twine = "^5.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
