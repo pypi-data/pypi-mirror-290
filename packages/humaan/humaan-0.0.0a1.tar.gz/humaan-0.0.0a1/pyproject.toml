@@ -1,0 +1,17 @@
+[project]
+name = 'humaan'
+version = '0.0.0-alpha.1'
+description = 'Humaan Python API library'
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Humaan", email = "support@humaan.ai" },
+]
+
+[project.urls]
+Homepage = "https://github.com/humaan-ai/humaan-python"
+Repository = "https://github.com/humaan-ai/humaan-python"
+
+[build-system]
+requires      = ["setuptools>=67.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
