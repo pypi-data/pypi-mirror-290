@@ -1,0 +1,16 @@
+"Looking for a Python library that will help you download multiple images simultaneously with a limit on the number of requests you can send at one time? This is for you."
+
+
+
+## Example 1:
+download with url direct.
+```python
+from flexitape import ImagePool
+
+imgs:list  = ["https://.../x.png","https://.../y.png"]
+# POOL_SIZE is the number of images at the same time.
+ipool = ImagePool(POOL_SIZE=10) # or ImagePool(10)
+
+for i in range(2):
+    ipool.add(imgs[i], f".cache/{i}.png") # add(url:str|ReadyRequest, path:str)
+```
