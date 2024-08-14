@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: askcode
+Version: 0.0.21
+Summary: eUR Ask Code
+Author: eUR
+Author-email: aiml@embedur.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ollama
+Requires-Dist: numpy
+Requires-Dist: gitpython
+Requires-Dist: requests
+Requires-Dist: pytest-shutil
+Requires-Dist: tqdm
