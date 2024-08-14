@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: streamlit-luckysheet
+Version: 0.0.2
+Home-page: 
+Author: TAN YI HAO
+Author-email: 
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=0.63
+Provides-Extra: devel
+Requires-Dist: wheel; extra == "devel"
+Requires-Dist: pytest==7.4.0; extra == "devel"
+Requires-Dist: playwright==1.39.0; extra == "devel"
+Requires-Dist: requests==2.31.0; extra == "devel"
+Requires-Dist: pytest-playwright-snapshot==1.0; extra == "devel"
+Requires-Dist: pytest-rerunfailures==12.0; extra == "devel"
+
+# streamlit-luckysheet
+
+2024 Aug 18 First Ever Streamlit luckysheet.
+Credit To TAN YIHAO
+
+## Installation instructions
+
+```sh
+pip install streamlit-luckysheet
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+from streamlit_luckysheet import streamlit_luckysheet
+
+st.set_page_config(layout="wide")
+st.subheader("Component with constant args")
+
+result = streamlit_luckysheet(None)
+
+
+```
