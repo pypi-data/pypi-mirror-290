@@ -1,0 +1,10 @@
+requests
+ua_parser
+ip3country
+grpcio==1.62.3
+protobuf==4.24.4
+
+[test]
+requests
+user_agents
+semver
