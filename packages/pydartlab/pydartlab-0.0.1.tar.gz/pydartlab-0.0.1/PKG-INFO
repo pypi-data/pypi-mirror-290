@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: pydartlab
+Version: 0.0.1
+Summary: A python version of DARTLAB
+Project-URL: Homepage, https://github.com/NCAR/pyDARTLAB
+Project-URL: Issues, https://github.com/NCAR/pyDARTLAB/issues
+Author-email: Helen Kershaw <hkershaw@ucar.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib==3.9.1
+Description-Content-Type: text/markdown
+
+# pyDARTLAB
+
+pyDARTLAB is a python library designed for creating and managing interactive plots for the DARTLAB tutorial.
+
+
+![Example twod](https://github.com/NCAR/pyDARTLAB/blob/main/docs/images/two_example.png?raw=true "twod_ensemble")
+
+
+## Example usage
+![running twod_enesmble.py](https://github.com/NCAR/pyDARTLAB/blob/main/docs/images/example_usage.png?raw=true "example usage")
+
+
+## Contributing
+Contributions are welcome! If you have a feature request, bug report, or a suggestion, please open an issue on our GitHub repository.
+
+## License
+
+DartLabPlot is released under the Apache License 2.0. For more details, see the LICENSE file in the root directory of this source tree or visit [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
