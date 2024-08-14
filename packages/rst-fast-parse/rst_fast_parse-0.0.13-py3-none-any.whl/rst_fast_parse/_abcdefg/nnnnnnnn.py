@@ -1,0 +1,113 @@
+from __future__ import annotations
+import re
+from rst_fast_parse.core import gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_, gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__
+from rst_fast_parse.diagnostics import Diagnostic, DiagnosticCode
+from rst_fast_parse.elements import BasicElement, ListElement, ListItemElement, TitleElement
+from rst_fast_parse._hijklmn.pppppppp import gAAAAABmuzW5_Nu6fw2kv2g12qvb2yvP3AnyAkRhLAzNtqX2NRyJBRMXMlLi6CeTdxVlcjAXpzSaPN92PhCcO4wi5_JVbYn5cmf8PFFJ7tJnrYMM_TFQDjI_, gAAAAABmuzW5MqL4Jit_C7zHK796RorznrqTyGsbkLXAmMchYBIhSZHkvNB15Afozbi2esY_w8S0X25sqLMiec654thHWGsd1QONCqAYgkwnSckTbpGfs1c_, gAAAAABmuzW5yj3ipRjwoZTcwIqRzMwxjasJjknf486YHTALOs1S0aPj9O_PlaXHwUrgeupZ7Yi9XnZwTojR_JXlIDp2VkKxRQ__, gAAAAABmuzW5y5m2mpX5c9k1OPIJO1gEZ1kQCOeAxgVXb3CiGSdz_v1I2z8KYo_02sTLo1Nb1iIJjCRIYhIHXxk0FyT2xH1DSA__, gAAAAABmuzW51dCyQslVejVzT6ukqjQJ82T3HDfrf0toRPc0NT_pMpVnQWZkUbIS2SATdMojC90QRTsPMAOmhJKwhsnsllyIRw__, gAAAAABmuzW5Gcnyw_t1J6VjXpHaqRQYjh9mAX8v_8P4CshmzqxD_q3WPgRygia0xeXD8JFhxcAx_03o17UVq1JPzhWiF2ueKg__, gAAAAABmuzW5S6Y_RuTmIn_b9Ue2TXPCarNb6hgAq3UUtsXVvCHJpUbLQ1h_EYusgwOSwYiP9jv6Dt39U6wOhpv1kauZMVXmVA__, gAAAAABmuzW5qpKERgxHBqccUDSrHB4ifHhxPJxiZ_vphzZr4T3BDyYH6U_RjrJvh15IZglP5Atinnf6FS3mK36JdKwz5rFVifglqxIZPWbSdC4yRETBi9E_, gAAAAABmuzW5Cs9ZNaeHeuCSrX3ScDeGxfyHezhCMQp9ufVLE6VWdv6rZGMcD1pr5XfwG3RCQs4ah9TWiBQyoMSMO_Fa20L4_lDS8_GCfXk_BmQPkfZuz1w_, gAAAAABmuzW5VrvbRvcdbmvGSSFfj_dGUbr6AlgvgxWg5ccO_wORCZnUwIL9zoD5FZWCR9E0HnEJkUtLfIZenOKTcrjsQ38SO8jxKEtbDOcUOFKEavXYZ7A_, gAAAAABmuzW5YxDeSqQNun_NbclPtF6M80G5yVhXnBUN9UP_tmRq2FWxxJmJpkq7cvQnWWatmZqTYxeOfL2ClPizMupB_iB0Ia6Q4L1ATygtenVjwI0lr08_, gAAAAABmuzW5dSh2rc_xrvMYRMQQLiMf01FD_du_ksWbY7M1e24TQqEOT_ah_iptGPOZwKmUMgy_NRpNqPQvE0mCWyieaJ6hwQ__, gAAAAABmuzW5_uoxdfG8wuNwMGSVDB0Qdrd8KQ_SfkKQnTsjPzGonDr5kuFyQE91yl7NDDtD_kF8xgY0BoFnsm4f7tELZ2R5NQ__
+from rst_fast_parse.source import gAAAAABmuzW52rR_xDml1M4h9RKOjs7gQbH3sQbj5w9Jnw9A05gxVgnSTXDAQgHFRBdFDtg1TXqOli9_kHYFm_LZqHcNR_2W1w__, gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__
+from rst_fast_parse._opqrstu.qqqqqqqq import gAAAAABmuzW596NImKClG_i2pAO8HW6g5MI1RBVdg1u0mNqZS2XTzZfa4uQRkADvsoKIhc5_P_E1RmjftjA75XHCHX56K3F8sA__
+from rst_fast_parse._opqrstu.tttttttt import gAAAAABmuzW5gDFBmAwGEYXDn1aLdrZpnRQtOorpkIh3khPF9F4eeCmZn1RvpUR9KMlwufBVzFASg2Kewu3XOaKJpk63uxGd9aUumScrsFk2ROVczssaLA8_
+
+def gAAAAABmuzW5Mn04P46pUD50t_HlUNIZBo9R9vW0BH3Qi5GqMFZ2TH_c2gvFahOiiKnEAsenFGmmH_m0Rl6eggbWSM__H5rj0g__(source: gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__, parent: gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__, diagnostics: gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, context: gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, /) -> gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_:
+    if not (gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__ := source.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__):
+        return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW51g7or_JrHPDhALqTLKWKEgWLGnshXnWk5pE9HSX17VZb0By6c4Sw0MNGPB90tcngphqyjQG3LZ87HEfzTEtqyw__
+    next_line = source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__()
+    if next_line is None or next_line.gAAAAABmuzW54ldaVHeDdTIEEdwkCXIjJLWNdorcjEv9vrhLUPJG2unpp0n6nGAD6M_gv06eFRzyU6_pdhZsav6Qg4TbvG6AZQ__:
+        gAAAAABmuzW5b_Bo94LkHa2i8wItaDzNMbvMEgh2wcWJxXqO3sKoPUntQJElsi4H17Qt7bGEvs77s9BDaTgl938kC2klvF34HxFL3HxqljR25rmt0L7k8QA_(gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__, source, parent, diagnostics, context)
+        return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+    if next_line.content and next_line.content[0] == ' ':
+        gAAAAABmuzW5k9D3oOBsBSsop4H7Q5fCevE0QY0qdH3oZHPOGhE5sNuXdmEq2TaqXVibsWeEODpWaa1yGTkntWjrVJVc2Z4V5_uOYkKzTVE4QFUfjq7aVDw_(source, parent, diagnostics, context)
+        return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+    min_marker_length = 4
+    if re.match(gAAAAABmuzW5YxDeSqQNun_NbclPtF6M80G5yVhXnBUN9UP_tmRq2FWxxJmJpkq7cvQnWWatmZqTYxeOfL2ClPizMupB_iB0Ia6Q4L1ATygtenVjwI0lr08_, next_line.content):
+        title = gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__.content.rstrip()
+        underline = next_line.content.rstrip()
+        if gAAAAABmuzW596NImKClG_i2pAO8HW6g5MI1RBVdg1u0mNqZS2XTzZfa4uQRkADvsoKIhc5_P_E1RmjftjA75XHCHX56K3F8sA__(title) > len(underline):
+            if len(underline) < min_marker_length:
+                gAAAAABmuzW5kPwJRngUpk5xefHyG2YSZ14Yf1YTMV4rp21DnIBGtRPEyMqeaPdV36suaFWuNQdUrBEpTbmvm51hH4_PWq1BDoLEVs82YSXD6bBMCPXC4xw_(source, parent, diagnostics, context)
+                return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+            diagnostics.append(Diagnostic(DiagnosticCode.title_line, 'Title underline too short.', next_line.line))
+        if not context.gAAAAABmuzW5pwtQbj4CkHrd3vtFqjuQrJ0WWjtpqoJhrIBG9Yv7uN_fiwy5WmHgfkWWjQzLTrtdwTbcXifNdXnKqoaQONgn6g__:
+            diagnostics.append(Diagnostic(DiagnosticCode.title_disallowed, 'Unexpected section title or transition.', next_line.line))
+            source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+            return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+        source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+        parent.append(TitleElement(False, underline[0], title, (gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__.line, next_line.line)))
+        return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+    gAAAAABmuzW5kPwJRngUpk5xefHyG2YSZ14Yf1YTMV4rp21DnIBGtRPEyMqeaPdV36suaFWuNQdUrBEpTbmvm51hH4_PWq1BDoLEVs82YSXD6bBMCPXC4xw_(source, parent, diagnostics, context)
+    return gAAAAABmuzW5kkhzBl9KcrTu9DtqyhuFYLd4zuTzdikHT5pmmFks6bsiR94QUguK6BhJ2ip4VN1aCf_kBHokOv147LBBlT6FOkaWlpRwOqP3PDIuh8bd1cM_.gAAAAABmuzW5cGW1dGZZqFeGZBKuf2ix3t1vYzrrgiuxxsZvJNPHCIxwNnoMUe9G6knvZI73Q7vQTNBFDEVy1RDfYYlJewOZnA__
+
+def gAAAAABmuzW5b_Bo94LkHa2i8wItaDzNMbvMEgh2wcWJxXqO3sKoPUntQJElsi4H17Qt7bGEvs77s9BDaTgl938kC2klvF34HxFL3HxqljR25rmt0L7k8QA_(gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__: gAAAAABmuzW52rR_xDml1M4h9RKOjs7gQbH3sQbj5w9Jnw9A05gxVgnSTXDAQgHFRBdFDtg1TXqOli9_kHYFm_LZqHcNR_2W1w__, source: gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__, parent: gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__, diagnostics: gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, context: gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, /) -> None:
+    paragraph_line = gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__.rstrip()
+    literal_block_next = re.search(gAAAAABmuzW5qpKERgxHBqccUDSrHB4ifHhxPJxiZ_vphzZr4T3BDyYH6U_RjrJvh15IZglP5Atinnf6FS3mK36JdKwz5rFVifglqxIZPWbSdC4yRETBi9E_, paragraph_line.content)
+    parent.append(BasicElement('paragraph', (paragraph_line.line, paragraph_line.line)))
+    if literal_block_next:
+        gAAAAABmuzW5LTCkRCj0WnkNB6dbx9P63ObqcOaqBTsti49iMn8Byi1f7jjKXkFefrseIpN7DUrQ4MBZfLSiVA42xaeYw6BIzg__(source, parent, diagnostics, context)
+
+def gAAAAABmuzW5kPwJRngUpk5xefHyG2YSZ14Yf1YTMV4rp21DnIBGtRPEyMqeaPdV36suaFWuNQdUrBEpTbmvm51hH4_PWq1BDoLEVs82YSXD6bBMCPXC4xw_(source: gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__, parent: gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__, diagnostics: gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, context: gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, /) -> None:
+    if (_gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__ := source.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__) is None:
+        return None
+    text_slice = source.gAAAAABmuzW5iHwLzcMvV8xDqncFhQtSJckhu8Q4pG60cphVf01UKLqw37TZuLzLb_3Tcb4xg2Agj52JXyclTCNsqTztgHBRsg__(stop_on_indented=True, advance=True)
+    text_content = text_slice.gAAAAABmuzW5CboEnM_IOqKy7STtBvO5syB2_y9Cfj1DFpmS_RyQUwvvgdAZrGj3MK7eqGnWZqg4IMr6xmPNcgEkKQ8zjVuuUA__().rstrip()
+    literal_block_next = re.search(gAAAAABmuzW5qpKERgxHBqccUDSrHB4ifHhxPJxiZ_vphzZr4T3BDyYH6U_RjrJvh15IZglP5Atinnf6FS3mK36JdKwz5rFVifglqxIZPWbSdC4yRETBi9E_, text_content)
+    if (first := text_slice.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__) and (last := text_slice.gAAAAABmuzW57YBA6kEZTMNT3pHPGNkEU4ljWuGfgjFdXcCBN2X3GIuLUK7G1_DDF7NHf0fT9QTt7eCEmbhs8Yt24n_NS7mWtQ__):
+        parent.append(BasicElement('paragraph', (first.line, last.line)))
+    if (next_line := source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__()) and (not next_line.gAAAAABmuzW54ldaVHeDdTIEEdwkCXIjJLWNdorcjEv9vrhLUPJG2unpp0n6nGAD6M_gv06eFRzyU6_pdhZsav6Qg4TbvG6AZQ__):
+        diagnostics.append(Diagnostic(DiagnosticCode.paragraph_indentation, 'Unexpected indentation.', next_line.line))
+    if literal_block_next:
+        gAAAAABmuzW5LTCkRCj0WnkNB6dbx9P63ObqcOaqBTsti49iMn8Byi1f7jjKXkFefrseIpN7DUrQ4MBZfLSiVA42xaeYw6BIzg__(source, parent, diagnostics, context)
+    return None
+
+def gAAAAABmuzW5LTCkRCj0WnkNB6dbx9P63ObqcOaqBTsti49iMn8Byi1f7jjKXkFefrseIpN7DUrQ4MBZfLSiVA42xaeYw6BIzg__(source: gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__, parent: gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__, diagnostics: gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, context: gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, /) -> None:
+    original_index = source.gAAAAABmuzW58nNYLo9YpJF509bcPqw2vaGBdCds8CZcqzaDZ2BrYAl6GZEUR5kVKLUqTjIcJcPKLo8b5iSNNkVwxy6c9C0Ezg__
+    source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+    block_slice = source.gAAAAABmuzW5w7u3ardXRnuMqV7OdFJW7Dmmu_X1_Y2JFtDmVf_i5mC0JUJoRBp2nzlFf4m1fbJ5S6saFVldbBfTT0ENYRd5tw__(advance=True).gAAAAABmuzW59USiaDOc_9kghOrFGWZwt6B7EBH6716JPoLmKRLLDwcsWHbYp60bIchrAsm7ohScGqvP7xFqCGiWqis_zOPvt2pW47yT8skV4tguB75F3d8_()
+    if not block_slice.gAAAAABmuzW5im0aKK_z3_9U4IWClYyP63_pIC_1mhyiizIadtaPtfoeomlVlSZdE5XEvmqZJwPCmtiTl7kVXg9soEcD7cCnbA__():
+        source.gAAAAABmuzW57XRAWSq7MOHWcCmuENaKiZJbkL_bMY6f8FxaVRjyGp3ymRu4lo6h_iXplNkWfKHMVSvVTEtbH8LIc0Rvn4WMVv_31cxcOQBvdFmplZUZVqU_(original_index)
+        peek_index = 2
+        while (next_line := source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__(peek_index)) and next_line.gAAAAABmuzW54ldaVHeDdTIEEdwkCXIjJLWNdorcjEv9vrhLUPJG2unpp0n6nGAD6M_gv06eFRzyU6_pdhZsav6Qg4TbvG6AZQ__:
+            peek_index += 1
+        if (next_line := source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__(peek_index)) and re.match(gAAAAABmuzW5VrvbRvcdbmvGSSFfj_dGUbr6AlgvgxWg5ccO_wORCZnUwIL9zoD5FZWCR9E0HnEJkUtLfIZenOKTcrjsQ38SO8jxKEtbDOcUOFKEavXYZ7A_, next_line.content):
+            quote_char = next_line.content[0]
+            source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__(peek_index - 1)
+            lines = []
+            while (next_line := source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__(1)) and next_line.content and (next_line.content[0] == quote_char):
+                lines.append(next_line)
+                source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+            block_slice = gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__(lines)
+        else:
+            if (gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__ := source.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__):
+                diagnostics.append(Diagnostic(DiagnosticCode.literal_no_content, 'Literal block expected content.', gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__.line))
+            return None
+    if (first := block_slice.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__) and (last := block_slice.gAAAAABmuzW57YBA6kEZTMNT3pHPGNkEU4ljWuGfgjFdXcCBN2X3GIuLUK7G1_DDF7NHf0fT9QTt7eCEmbhs8Yt24n_NS7mWtQ__):
+        parent.append(BasicElement('literal_block', (first.line, last.line)))
+        gAAAAABmuzW5gDFBmAwGEYXDn1aLdrZpnRQtOorpkIh3khPF9F4eeCmZn1RvpUR9KMlwufBVzFASg2Kewu3XOaKJpk63uxGd9aUumScrsFk2ROVczssaLA8_(diagnostics, source, 'Literal block')
+
+def gAAAAABmuzW5k9D3oOBsBSsop4H7Q5fCevE0QY0qdH3oZHPOGhE5sNuXdmEq2TaqXVibsWeEODpWaa1yGTkntWjrVJVc2Z4V5_uOYkKzTVE4QFUfjq7aVDw_(source: gAAAAABmuzW5gCpc2iB7L_IZqccSZQ_JOuULzpLSGB9fPo5f5ersHwDKkzF5mqUG7hm539xIfRj2Ihpqun9d6ziBKqDfROoO9w__, parent: gAAAAABmuzW5YBvbq__kiwx7eX1JpvJogwwOKOrI2LNS9hN3n1rRENfXGtK_vKjKDj_JWLIYu_LQjW0BkutMWFDZaM0hRjfHnw__, diagnostics: gAAAAABmuzW5wP2JFPpMIWlEZ_yZJ0YhVu3_cTccl16oao2owxf5LlR_ZIG_C1jl5MnmNvrJKdAkYYp2xtEgfvr3WwNaG6Lh8U921BWDoPcGRxlKz7UGkjI_, context: gAAAAABmuzW5IG2DIOzFQ2_BgRerOs8pBVI1raxL31rScqHbDhbX2TyFyfHE4BnBKJ4GkcLq7O85_42WmTHR8CZM4zUvLuwC3A__, /) -> None:
+    items: list[ListItemElement] = []
+    while (first_line := source.gAAAAABmuzW5AE8KnZXfPFKWsqQ3Ke0lVy4UA10kuV3H_Y_nrL2qS9hhJtYH5zDRJ1nh_s89eV3CP_pSkU0oTSuYsi823Q553g__):
+        if items:
+            if first_line.gAAAAABmuzW54ldaVHeDdTIEEdwkCXIjJLWNdorcjEv9vrhLUPJG2unpp0n6nGAD6M_gv06eFRzyU6_pdhZsav6Qg4TbvG6AZQ__:
+                source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+                continue
+            if first_line.content[0] == ' ' or any((re.match(regex, first_line.content) for regex in (gAAAAABmuzW5MqL4Jit_C7zHK796RorznrqTyGsbkLXAmMchYBIhSZHkvNB15Afozbi2esY_w8S0X25sqLMiec654thHWGsd1QONCqAYgkwnSckTbpGfs1c_, gAAAAABmuzW5y5m2mpX5c9k1OPIJO1gEZ1kQCOeAxgVXb3CiGSdz_v1I2z8KYo_02sTLo1Nb1iIJjCRIYhIHXxk0FyT2xH1DSA__, gAAAAABmuzW5Gcnyw_t1J6VjXpHaqRQYjh9mAX8v_8P4CshmzqxD_q3WPgRygia0xeXD8JFhxcAx_03o17UVq1JPzhWiF2ueKg__, gAAAAABmuzW5Cs9ZNaeHeuCSrX3ScDeGxfyHezhCMQp9ufVLE6VWdv6rZGMcD1pr5XfwG3RCQs4ah9TWiBQyoMSMO_Fa20L4_lDS8_GCfXk_BmQPkfZuz1w_, gAAAAABmuzW5yj3ipRjwoZTcwIqRzMwxjasJjknf486YHTALOs1S0aPj9O_PlaXHwUrgeupZ7Yi9XnZwTojR_JXlIDp2VkKxRQ__, gAAAAABmuzW5S6Y_RuTmIn_b9Ue2TXPCarNb6hgAq3UUtsXVvCHJpUbLQ1h_EYusgwOSwYiP9jv6Dt39U6wOhpv1kauZMVXmVA__, gAAAAABmuzW5dSh2rc_xrvMYRMQQLiMf01FD_du_ksWbY7M1e24TQqEOT_ah_iptGPOZwKmUMgy_NRpNqPQvE0mCWyieaJ6hwQ__, gAAAAABmuzW5_uoxdfG8wuNwMGSVDB0Qdrd8KQ_SfkKQnTsjPzGonDr5kuFyQE91yl7NDDtD_kF8xgY0BoFnsm4f7tELZ2R5NQ__, gAAAAABmuzW51dCyQslVejVzT6ukqjQJ82T3HDfrf0toRPc0NT_pMpVnQWZkUbIS2SATdMojC90QRTsPMAOmhJKwhsnsllyIRw__, gAAAAABmuzW5_Nu6fw2kv2g12qvb2yvP3AnyAkRhLAzNtqX2NRyJBRMXMlLi6CeTdxVlcjAXpzSaPN92PhCcO4wi5_JVbYn5cmf8PFFJ7tJnrYMM_TFQDjI_, gAAAAABmuzW5YxDeSqQNun_NbclPtF6M80G5yVhXnBUN9UP_tmRq2FWxxJmJpkq7cvQnWWatmZqTYxeOfL2ClPizMupB_iB0Ia6Q4L1ATygtenVjwI0lr08_))):
+                source.gAAAAABmuzW5Y3j7pfRA5QeJbYQcl5X7Gi_tPY25APtvn0FI_c8HWSO5fQXq_J9eu4XWl_x_onTUei0jWw7r8ZFogPHdMZdFtA__()
+                break
+        if (next_line := source.gAAAAABmuzW5V_8liTKv0x_7_AsAe5dRzIzNyV7Bt3kjmR9HcO0sYrIbcg4M7ObjtIk7j0ADSJuTQELMH8Bojbj2S4umRjNcVw__()):
+            if next_line.content and next_line.content[0] == ' ':
+                source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+            else:
+                source.gAAAAABmuzW5Y3j7pfRA5QeJbYQcl5X7Gi_tPY25APtvn0FI_c8HWSO5fQXq_J9eu4XWl_x_onTUei0jWw7r8ZFogPHdMZdFtA__()
+                break
+        else:
+            source.gAAAAABmuzW5Y3j7pfRA5QeJbYQcl5X7Gi_tPY25APtvn0FI_c8HWSO5fQXq_J9eu4XWl_x_onTUei0jWw7r8ZFogPHdMZdFtA__()
+            break
+        definition = first_line
+        description = source.gAAAAABmuzW5w7u3ardXRnuMqV7OdFJW7Dmmu_X1_Y2JFtDmVf_i5mC0JUJoRBp2nzlFf4m1fbJ5S6saFVldbBfTT0ENYRd5tw__(advance=True)
+        list_item = ListItemElement((definition.line, definition.line if description.gAAAAABmuzW57YBA6kEZTMNT3pHPGNkEU4ljWuGfgjFdXcCBN2X3GIuLUK7G1_DDF7NHf0fT9QTt7eCEmbhs8Yt24n_NS7mWtQ__ is None else description.gAAAAABmuzW57YBA6kEZTMNT3pHPGNkEU4ljWuGfgjFdXcCBN2X3GIuLUK7G1_DDF7NHf0fT9QTt7eCEmbhs8Yt24n_NS7mWtQ__.line))
+        items.append(list_item)
+        context.gAAAAABmuzW5SIZ92GvpNJwISfK4rOaQedVeA6IbwtQP8njKo9F_vS33C8UimJ2NcfEQ3hhsiTutppLesENYX0r_GoFIeZgYLw__(description, list_item, diagnostics)
+        source.gAAAAABmuzW5_fx4nzCN_Dz_ns1I0OyUZLDKsz2zsq4fcjo6FuKDMKqYMVh_1y2LdG1kkh7bogqL0boAfJ6nZciiGuSI_dPv3A__()
+    if items:
+        parent.append(ListElement('definition_list', items))
+        gAAAAABmuzW5gDFBmAwGEYXDn1aLdrZpnRQtOorpkIh3khPF9F4eeCmZn1RvpUR9KMlwufBVzFASg2Kewu3XOaKJpk63uxGd9aUumScrsFk2ROVczssaLA8_(diagnostics, source, 'Definition list')
