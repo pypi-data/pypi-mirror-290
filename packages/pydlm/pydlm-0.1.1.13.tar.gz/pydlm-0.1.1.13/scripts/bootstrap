@@ -1,0 +1,24 @@
+#!/bin/bash
+
+VENV="$(basename $PWD).venv"
+
+if [ "$VENV" != "pydlm.venv" ]; then
+  echo "Error creating the virtual env..."
+  echo "Please run bootstrap script in the root directory."
+  return 1
+fi
+
+echo "==> Preparing dependencies..."
+
+PY_VERSION=$PYENV_VERSION
+pyenv install --skip--existing "$PY_VERSION"
+
+test -d $VENV || python -m venv $VENV || {
+	echo "==>Failed to find/create a virtualenv"
+	exit 1
+    }
+
+source $VENV/bin/activate
+
+eval "$(pyenv init --path)"
+pip install -r requirements.txt
