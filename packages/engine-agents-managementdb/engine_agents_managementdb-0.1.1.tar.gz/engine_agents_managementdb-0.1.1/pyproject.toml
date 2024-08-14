@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engine_agents_managementdb"
+version = "0.1.1"
+description = "Management CRUD in MongoDB"
+authors = [
+    { name = "Grenne", email = "grenne@populisrh.com" }
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pymongo"]
+
+[tool.setuptools.packages.find]
+where = ["engine_agents_managementdb"]
