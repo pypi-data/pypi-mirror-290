@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graph_flat_norm"
+version = "0.0.2"
+license={file="LICENSE"}
+dynamic=["dependencies"]
+authors = [
+    {name="Curtis Michels", email="iscicodes@proton.me"},
+    {name="Blake Cecil"}
+]
+description = "package for computing the flat norm on euclidean graphs"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bcecil2/flat_norm_on_graphs"
+Issues = "https://github.com/bcecil2/flat_norm_on_graphs/issues"
