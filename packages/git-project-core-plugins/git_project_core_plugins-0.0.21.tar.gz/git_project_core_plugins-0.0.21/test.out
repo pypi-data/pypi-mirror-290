@@ -1,0 +1,1804 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.9, pytest-8.2.2, pluggy-1.5.0
+rootdir: /home/dag/src/git-project-core-plugins/dev
+configfile: pyproject.toml
+plugins: anyio-4.3.0, console-scripts-1.4.1
+collected 56 items
+
+tests/test_artifact.py ..FFFFF                                           [ 12%]
+tests/test_branch.py .FFF                                                [ 19%]
+tests/test_clone.py ....                                                 [ 26%]
+tests/test_config.py ..FF                                                [ 33%]
+tests/test_help.py FFF                                                   [ 39%]
+tests/test_init.py .                                                     [ 41%]
+tests/test_run.py F....FFFFFFFFFFF                                       [ 69%]
+tests/test_worktree.py ......FFFFFFFFFFF                                 [100%]
+
+=================================== FAILURES ===================================
+_________________________ test_artifact_add[inprocess] _________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e637250>
+git = <git_project.git.Git object at 0x7fdd1e637f90>
+
+    def test_artifact_add(git_project_runner,
+                          git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'artifact',
+                               'add',
+                               'worktree',
+                               '{builddir}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_artifact.py:109: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e637250>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('artifact', 'add', 'worktree', '{builddir}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ebdf990>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project artifact add worktree {builddir}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'artifact' (choose from )
+
+_______________________ test_artifact_rm_item[inprocess] _______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e699c50>
+git = <git_project.git.Git object at 0x7fdd1e69a650>
+
+    def test_artifact_rm_item(git_project_runner,
+                              git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'artifact',
+                               'add',
+                               'worktree',
+                               '{builddir}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_artifact.py:126: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e699c50>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('artifact', 'add', 'worktree', '{builddir}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e6354d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project artifact add worktree {builddir}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'artifact' (choose from )
+
+______________________ test_artifact_rm_items[inprocess] _______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e695ad0>
+git = <git_project.git.Git object at 0x7fdd1e694290>
+
+    def test_artifact_rm_items(git_project_runner,
+                               git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'artifact',
+                               'add',
+                               'worktree',
+                               '{builddir}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_artifact.py:161: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e695ad0>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('artifact', 'add', 'worktree', '{builddir}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ec064d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project artifact add worktree {builddir}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'artifact' (choose from )
+
+______________________ test_artifact_rm_config[inprocess] ______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70ad90>
+git = <git_project.git.Git object at 0x7fdd1e70be50>, project = {}
+
+    def test_artifact_rm_config(git_project_runner,
+                                git,
+                                project):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        tempdir = Path(workdir) / 'temp'
+    
+        tempdir.mkdir()
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'artifact',
+                               'add',
+                               'myconfigobject',
+                               f'{tempdir}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_artifact.py:202: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70ad90>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('artifact', 'add', 'myconfigobject', '/tmp/pytest-of-dag/pytest-2/local_remote_clone_test_artifact_rm_config[inprocess].git0/temp')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1eb6d990>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project artifact add myconfigobject /tmp/pytest-of-dag/pytest-2/local_remote_clone_test_artifact_rm_config[inprocess].git0/temp
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'artifact' (choose from )
+
+___________________ test_artifact_rm_substitution[inprocess] ___________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1ec06490>
+git = <git_project.git.Git object at 0x7fdd1e636790>, project = {}
+
+    def test_artifact_rm_substitution(git_project_runner,
+                                      git,
+                                      project):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        tempdir = Path(workdir) / 'temp'
+    
+        tempdir.mkdir()
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'artifact',
+                               'add',
+                               'myconfigobject',
+                               '{path}/temp')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_artifact.py:227: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1ec06490>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('artifact', 'add', 'myconfigobject', '{path}/temp'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1eb651d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project artifact add myconfigobject {path}/temp
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'artifact' (choose from )
+
+________________________ test_branch_status[inprocess] _________________________
+
+reset_directory = None, git = <git_project.git.Git object at 0x7fdd1e700dd0>
+gitproject = {}, project = {}
+parser_manager = <git_project.parsermanager.ParserManager object at 0x7fdd1e6afdd0>
+plugin_manager = <git_project.pluginmanager.PluginManager object at 0x7fdd1e6af550>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e6ae210>
+script_runner = <ScriptRunner inprocess>
+
+    def test_branch_status(reset_directory,
+                           git,
+                           gitproject,
+                           project,
+                           parser_manager,
+                           plugin_manager,
+                           capsys,
+                           script_runner):
+        plugin = BranchPlugin()
+    
+        plugin.add_arguments(git,
+                             gitproject,
+                             project,
+                             parser_manager,
+                             plugin_manager)
+    
+        branch_status_parser = parser_manager.find_parser('branch-status')
+    
+        command_branch_status = branch_status_parser.get_default('func')
+    
+        clargs = {
+            'name_or_ref': None,
+            'all_user': False,
+            'all': True,
+            'target': None,
+        }
+    
+        command_branch_status(git,
+                              gitproject,
+                              project,
+                              common.AttrDict(clargs))
+    
+        captured = capsys.readouterr()
+    
+        expected = """-----------------------------------------------------------
+    branch                                       merged  pushed
+    -----------------------------------------------------------
+    refs/heads/master                            yes     no
+    refs/heads/merged_local                      yes     no
+    refs/heads/merged_remote                     yes     yes
+    refs/heads/notpushed                         no      no
+    refs/heads/pushed                            no      yes
+    refs/heads/unmerged                          no      no
+    -----------------------------------------------------------
+    """
+>       assert captured.out == expected
+E       AssertionError: assert '------------...-----------\n' == '------------...-----------\n'
+E         
+E         Skipping 369 identical leading characters in diff, use -v to show
+E         + efs/heads/merged_remote_only                yes     yes     
+E         - efs/heads/notpushed                         no      no      
+E         + refs/heads/notpushed                         no      no      
+E         ? +
+E           refs/heads/pushed                            no      yes     ...
+E         
+E         ...Full output truncated (3 lines hidden), use '-vv' to show
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_branch.py:111: AssertionError
+______________________________ test_branch_prune _______________________________
+
+reset_directory = None, git = <git_project.git.Git object at 0x7fdd1e6362d0>
+gitproject = {}, project = {}
+parser_manager = <git_project.parsermanager.ParserManager object at 0x7fdd1e64ad90>
+plugin_manager = <git_project.pluginmanager.PluginManager object at 0x7fdd1e649490>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e649190>
+
+    def test_branch_prune(reset_directory,
+                          git,
+                          gitproject,
+                          project,
+                          parser_manager,
+                          plugin_manager,
+                          capsys):
+        plugin = BranchPlugin()
+    
+        plugin.add_arguments(git,
+                             gitproject,
+                             project,
+                             parser_manager,
+                             plugin_manager)
+    
+        branch_prune_parser = parser_manager.find_parser('branch-prune')
+    
+        command_branch_prune = branch_prune_parser.get_default('func')
+    
+        clargs = {
+            'name_or_ref': 'merged_remote',
+            'all': True,
+            'no_ask': True,
+            'force': False,
+        }
+    
+        command_branch_prune(git,
+                             gitproject,
+                             project,
+                             common.AttrDict(clargs))
+    
+        captured = capsys.readouterr()
+    
+        expected = """---------------------------------------------------------------------------
+    branch                                       local status   remote status
+    ---------------------------------------------------------------------------
+    refs/heads/merged_remote                     merged
+    """
+>       assert captured.out == expected
+E       AssertionError: assert '------------...ed         \n' == '------------...ed         \n'
+E         
+E         Skipping 278 identical leading characters in diff, use -v to show
+E           d         
+E         + refs/heads/merged_remote_only                merged
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_branch.py:158: AssertionError
+_____________________ test_branch_prune_script[inprocess] ______________________
+
+reset_directory = None, git = <git_project.git.Git object at 0x7fdd1e635c50>
+script_runner = <ScriptRunner inprocess>
+
+    def test_branch_prune_script(reset_directory,
+                                 git,
+                                 script_runner):
+        expected = """---------------------------------------------------------------------------
+    branch                                       local status   remote status
+    ---------------------------------------------------------------------------
+    refs/heads/merged_remote                     merged
+    """
+    
+        ret = script_runner.run('git-project',
+                                'branch',
+                                'prune',
+                                'merged_remote',
+                                '--all',
+                                '--no-ask')
+    
+>       assert ret.success
+E       assert False
+E        +  where False = <pytest_console_scripts.RunResult object at 0x7fdd1e694790>.success
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_branch.py:181: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project branch prune merged_remote --all --no-ask
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'branch' (choose from )
+
+__________________________ test_shell_add[inprocess] ___________________________
+
+reset_directory = None
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e678810>
+git = <git_project.git.Git object at 0x7fdd1e671750>
+
+    def test_shell_add(reset_directory, git_project_runner, git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'config',
+                               'builddir',
+                               '{path}/{branch}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_config.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e678810>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('config', 'builddir', '{path}/{branch}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e636750>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project config builddir {path}/{branch}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'config' (choose from )
+
+_________________________ test_shell_no_dup[inprocess] _________________________
+
+reset_directory = None
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6e4350>
+git = <git_project.git.Git object at 0x7fdd1e6e5d90>
+
+    def test_shell_no_dup(reset_directory, git_project_runner, git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'config',
+                               'builddir',
+                               '{path}/{branch}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_config.py:142: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6e4350>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('config', 'builddir', '{path}/{branch}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e697250>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project config builddir {path}/{branch}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'config' (choose from )
+
+______________________ test_help_print_manpage[inprocess] ______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e636750>
+git = <git_project.git.Git object at 0x7fdd1e6ea0d0>
+
+    def test_help_print_manpage(git_project_runner,
+                                git):
+    
+        expected = """This is a manpage for foo.
+    
+    It has multiple lines.
+    """
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'config',
+                               'help.foo.manpage',
+                               shlex.quote(expected))
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_help.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e636750>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('config', 'help.foo.manpage', "'This is a manpage for foo.\n\nIt has multiple lines.\n'")
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ebc4690>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project config help.foo.manpage 'This is a manpage for foo.
+
+It has multiple lines.
+'
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'config' (choose from )
+
+________________________ test_help_and_help[inprocess] _________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70b390>
+git = <git_project.git.Git object at 0x7fdd1e70bd10>
+
+    def test_help_and_help(git_project_runner,
+                           git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'help',
+                               'foo',
+                               'Test help')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_help.py:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70b390>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'help', 'foo', 'Test help'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ec164d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add help foo Test help
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+_________________________ test_help_rm_help[inprocess] _________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6eae10>
+git = <git_project.git.Git object at 0x7fdd1e6ea550>
+
+    def test_help_rm_help(git_project_runner,
+                           git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'help',
+                               'foo',
+                               'Test help')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_help.py:83: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6eae10>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'help', 'foo', 'Test help'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e6ac190>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add help foo Test help
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+______________________ test_run_add_arguments[inprocess] _______________________
+
+reset_directory = None, project = {}
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70f110>
+
+    def test_run_add_arguments(reset_directory,
+                               project,
+                               git_project_runner):
+        project.add_item('run', 'release')
+        project.add_item('run', 'debug')
+    
+>       git_project_runner.run(r'(\s*debug\s*release|\s*release\s*debug)',
+                               '',
+                               'run',
+                               '--help')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:37: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70f110>
+expected_stdout_regexp = '(\\s*debug\\s*release|\\s*release\\s*debug)'
+expected_stderr_regexp = '', args = ('run', '--help'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1eb9cfd0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project run --help
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'run' (choose from )
+
+_______________________ test_run_add_and_run[inprocess] ________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e690850>
+git = <git_project.git.Git object at 0x7fdd1e691590>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e691e10>
+
+    def test_run_add_and_run(git_project_runner,
+                             git,
+                             capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/doit {branch}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:81: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e690850>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/doit {branch}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e634bd0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/doit {branch}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+______________________ test_run_recursive_sub[inprocess] _______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e544d10>
+git = <git_project.git.Git object at 0x7fdd1e544b90>
+
+    def test_run_recursive_sub(git_project_runner,
+                               git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'config',
+                               'rundir',
+                               '{path}/{branch}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:99: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e544d10>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('config', 'rundir', '{path}/{branch}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e70a650>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project config rundir {path}/{branch}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'config' (choose from )
+
+__________________________ test_run_no_dup[inprocess] __________________________
+
+reset_directory = None
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e67b590>
+git = <git_project.git.Git object at 0x7fdd1e547b90>
+
+    def test_run_no_dup(reset_directory, git_project_runner, git):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'config',
+                               'rundir',
+                               '{path}/{branch}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:122: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e67b590>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('config', 'rundir', '{path}/{branch}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd200f3450>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project config rundir {path}/{branch}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'config' (choose from )
+
+________________________ test_run_add_alias[inprocess] _________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51fbd0>
+git = <git_project.git.Git object at 0x7fdd1e51c410>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e51f5d0>
+
+    def test_run_add_alias(git_project_runner,
+                           git,
+                           capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add aliases.
+>       git_project_runner.run('.*',
+                               '',
+                               'run',
+                               '--make-alias',
+                               'build')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:174: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51fbd0>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('run', '--make-alias', 'build'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e709c90>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project run --make-alias build
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'run' (choose from )
+
+_____________________ test_run_substitute_alias[inprocess] _____________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51c910>
+git = <git_project.git.Git object at 0x7fdd1e6ea890>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e6eb350>
+
+    def test_run_substitute_alias(git_project_runner,
+                                  git,
+                                  capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add aliases.
+>       git_project_runner.run('.*',
+                               '',
+                               'run',
+                               '--make-alias',
+                               'build')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:212: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51c910>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('run', '--make-alias', 'build'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e51d350>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project run --make-alias build
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'run' (choose from )
+
+____________________ test_run_substitute_options[inprocess] ____________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e56ff90>
+git = <git_project.git.Git object at 0x7fdd1e56c1d0>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e56ca50>
+
+    def test_run_substitute_options(git_project_runner,
+                                    git,
+                                    capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit {options} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:264: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e56ff90>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit {options} {run}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e547a10>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit {options} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+_________________ test_run_substitute_empty_options[inprocess] _________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e547810>
+git = <git_project.git.Git object at 0x7fdd1e540d50>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e543ed0>
+
+    def test_run_substitute_empty_options(git_project_runner,
+                                    git,
+                                    capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit {options} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:286: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e547810>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit {options} {run}'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e6e2c90>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit {options} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+_________________ test_run_substitute_option_names[inprocess] __________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51f5d0>
+git = <git_project.git.Git object at 0x7fdd1e51d010>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd2019f310>
+
+    def test_run_substitute_option_names(git_project_runner,
+                                         git,
+                                         capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit {option_names} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:307: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51f5d0>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit {option_names} {run}')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e54a310>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit {option_names} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+______________ test_run_substitute_empty_option_names[inprocess] _______________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e708350>
+git = <git_project.git.Git object at 0x7fdd1e70b1d0>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e70bf10>
+
+    def test_run_substitute_empty_option_names(git_project_runner,
+                                               git,
+                                               capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit {option_names} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:330: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e708350>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit {option_names} {run}')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1f6725d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit {option_names} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+________________ test_run_substitute_option_name_key[inprocess] ________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e542010>
+git = <git_project.git.Git object at 0x7fdd1e70c290>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e70d890>
+
+    def test_run_substitute_option_name_key(git_project_runner,
+                                            git,
+                                            capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit{option_keysep}{option_key} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:351: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e542010>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit{option_keysep}{option_key} {run}')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd200f4b90>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit{option_keysep}{option_key} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+_____________ test_run_substitute_empty_option_name_key[inprocess] _____________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51ab50>
+git = <git_project.git.Git object at 0x7fdd1e518810>
+capsys = <_pytest.capture.CaptureFixture object at 0x7fdd1e51bb90>
+
+    def test_run_substitute_empty_option_name_key(git_project_runner,
+                                                  git,
+                                                  capsys):
+        workdir = git.get_working_copy_root()
+    
+        git_project_runner.chdir(workdir)
+    
+        # Add a run.
+>       git_project_runner.run('.*',
+                               '',
+                               'add',
+                               'run',
+                               'test',
+                               '{path}/buildit{option_keysep}{option_key} {run}')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_run.py:374: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e51ab50>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('add', 'run', 'test', '{path}/buildit{option_keysep}{option_key} {run}')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e5185d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project add run test {path}/buildit{option_keysep}{option_key} {run}
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'add' (choose from )
+
+________________________ test_worktree_clone[inprocess] ________________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6597d0>
+remote_repository = pygit2.Repository('/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone[inprocess].git0/')
+
+    def test_worktree_clone(git_project_runner,
+                            remote_repository):
+        repo_path = Path('.git')
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'clone',
+                               '--worktree',
+                               remote_repository.path)
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:182: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6597d0>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('clone', '--worktree', '/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone[inprocess].git0/')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd2019e590>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project clone --worktree /tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone[inprocess].git0/
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'clone' (choose from )
+
+_____________________ test_worktree_clone_bare[inprocess] ______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e570550>
+remote_repository = pygit2.Repository('/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_bare[inprocess].git0/')
+
+    def test_worktree_clone_bare(git_project_runner,
+                                 remote_repository):
+>       git_project_runner.run('.*',
+                               '',
+                               'clone',
+                               '--bare',
+                               '--worktree',
+                               remote_repository.path)
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:193: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e570550>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('clone', '--bare', '--worktree', '/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_bare[inprocess].git0/')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e549790>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project clone --bare --worktree /tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_bare[inprocess].git0/
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'clone' (choose from )
+
+_____________________ test_worktree_clone_path[inprocess] ______________________
+
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70f910>
+remote_repository = pygit2.Repository('/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_path[inprocess].git0/')
+
+    def test_worktree_clone_path(git_project_runner,
+                                 remote_repository):
+        repo_path = Path.cwd() / 'foo' / 'bar'
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'clone',
+                               '--worktree',
+                               remote_repository.path,
+                               str(repo_path))
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:209: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e70f910>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('clone', '--worktree', '/tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_path[inprocess].git0/', '/tmp/pytest-of-dag/pytest-2/reset_dir_test_worktree_clone_path[inprocess].git0/foo/bar')
+kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e5485d0>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project clone --worktree /tmp/pytest-of-dag/pytest-2/local_remote_test_worktree_clone_path[inprocess].git0/ /tmp/pytest-of-dag/pytest-2/reset_dir_test_worktree_clone_path[inprocess].git0/foo/bar
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'clone' (choose from )
+
+________________________ test_worktree_init[inprocess] _________________________
+
+git = <git_project.git.Git object at 0x7fdd1e700d90>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e703450>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_init(git,
+                           git_project_runner,
+                           tmp_path_factory):
+        path = tmp_path_factory.mktemp('clone-workdir')
+    
+        os.chdir(path)
+    
+>       clone_path = git.clone('file://' + git.get_gitdir())
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/dag/src/git-project/dev/src/git_project/git.py:744: in clone
+    self._repo = pygit2.clone_repository(url, target_path, bare, callbacks=callbacks)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/__init__.py:217: in clone_repository
+    payload.check_error(err)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:93: in check_error
+    raise self._stored_exception
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:424: in wrapper
+    return f(*args)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:552: in _transfer_progress_cb
+    transfer_progress(TransferProgress(stats_ptr))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.git.Git.RemoteCallbacks object at 0x7fdd1e6aebd0>
+stats = <pygit2.remotes.TransferProgress object at 0x7fdd1e6ae6d0>
+
+    def transfer_progress(self, stats):
+        if not self.started_transfer:
+            self.started_transfer = True
+            print(f'Receiving objects ({stats.total_objects})...')
+>           self.progress.start(stats.total_objects)
+E           TypeError: ProgressBar.start() takes 1 positional argument but 2 were given
+
+/home/dag/src/git-project/dev/src/git_project/git.py:77: TypeError
+----------------------------- Captured stdout call -----------------------------
+Remote: Counting objects 1
+Remote: Counting objects 23
+Remote: Counting objects 23
+
+Remote: Compressing objects: 0% (0/23)
+Remote: Compressing objects: 4% (1/23)
+Remote: Compressing objects: 100% (23/23), done
+
+Receiving objects (23)...
+____________________ test_worktree_init_nonclean[inprocess] ____________________
+
+git = <git_project.git.Git object at 0x7fdd1e5eda10>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e5ee290>
+
+    def test_worktree_init_nonclean(git,
+                                    git_project_runner):
+        workarea = git.get_working_copy_root()
+    
+        assert os.path.exists(workarea / '.git')
+        assert os.path.exists(workarea / 'MergedRemote.txt')
+    
+        # Remove a file from the index to make it unclean.
+        index = git._repo.index
+        index.read()
+    
+        for entry in index:
+            index.remove(entry.path)
+            index.write()
+            break
+    
+        git_project_runner.chdir(workarea)
+    
+        git_project_runner.expect_fail = True
+    
+>       git_project_runner.run('git-project: Cannot initialize worktree layout, working copy not clean',
+                               '',
+                               'init',
+                               '--worktree')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:269: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e5ee290>
+expected_stdout_regexp = 'git-project: Cannot initialize worktree layout, working copy not clean'
+expected_stderr_regexp = '', args = ('init', '--worktree'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ec16310>
+stdout_re = re.compile('git-project: Cannot initialize worktree layout, working copy not clean', re.MULTILINE)
+stderr_re = re.compile('', re.MULTILINE)
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+            assert result.success
+    
+        stdout_re = re.compile(expected_stdout_regexp, re.M)
+        stderr_re = re.compile(expected_stderr_regexp, re.M)
+    
+>       assert stdout_re.search(result.stdout)
+E       AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:463: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project init --worktree
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'init' (choose from )
+
+______________________ test_worktree_init_main[inprocess] ______________________
+
+git = <git_project.git.Git object at 0x7fdd1d9382d0>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1d938b50>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_init_main(git,
+                                git_project_runner,
+                                tmp_path_factory):
+        path = tmp_path_factory.mktemp('clone-workdir')
+    
+        os.chdir(path)
+    
+>       clone_path = git.clone('file://' + git.get_gitdir())
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:281: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/dag/src/git-project/dev/src/git_project/git.py:744: in clone
+    self._repo = pygit2.clone_repository(url, target_path, bare, callbacks=callbacks)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/__init__.py:217: in clone_repository
+    payload.check_error(err)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:93: in check_error
+    raise self._stored_exception
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:424: in wrapper
+    return f(*args)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:552: in _transfer_progress_cb
+    transfer_progress(TransferProgress(stats_ptr))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.git.Git.RemoteCallbacks object at 0x7fdd1d939890>
+stats = <pygit2.remotes.TransferProgress object at 0x7fdd1d939450>
+
+    def transfer_progress(self, stats):
+        if not self.started_transfer:
+            self.started_transfer = True
+            print(f'Receiving objects ({stats.total_objects})...')
+>           self.progress.start(stats.total_objects)
+E           TypeError: ProgressBar.start() takes 1 positional argument but 2 were given
+
+/home/dag/src/git-project/dev/src/git_project/git.py:77: TypeError
+----------------------------- Captured stdout call -----------------------------
+Remote: Counting objects 1
+Remote: Counting objects 23
+Remote: Counting objects 23
+
+Remote: Compressing objects: 0% (0/23)
+Remote: Compressing objects: 100% (23/23), done
+
+Receiving objects (23)...
+__________________ test_worktree_init_main_master[inprocess] ___________________
+
+git = <git_project.git.Git object at 0x7fdd1e431cd0>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e432590>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_init_main_master(git,
+                                       git_project_runner,
+                                       tmp_path_factory):
+        path = tmp_path_factory.mktemp('clone-workdir')
+    
+        os.chdir(path)
+    
+>       clone_path = git.clone('file://' + git.get_gitdir())
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:315: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/dag/src/git-project/dev/src/git_project/git.py:744: in clone
+    self._repo = pygit2.clone_repository(url, target_path, bare, callbacks=callbacks)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/__init__.py:217: in clone_repository
+    payload.check_error(err)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:93: in check_error
+    raise self._stored_exception
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:424: in wrapper
+    return f(*args)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:552: in _transfer_progress_cb
+    transfer_progress(TransferProgress(stats_ptr))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.git.Git.RemoteCallbacks object at 0x7fdd1e4327d0>
+stats = <pygit2.remotes.TransferProgress object at 0x7fdd1e433390>
+
+    def transfer_progress(self, stats):
+        if not self.started_transfer:
+            self.started_transfer = True
+            print(f'Receiving objects ({stats.total_objects})...')
+>           self.progress.start(stats.total_objects)
+E           TypeError: ProgressBar.start() takes 1 positional argument but 2 were given
+
+/home/dag/src/git-project/dev/src/git_project/git.py:77: TypeError
+----------------------------- Captured stdout call -----------------------------
+Remote: Counting objects 1
+Remote: Counting objects 14
+Remote: Counting objects 23
+Remote: Counting objects 23
+
+Remote: Compressing objects: 0% (0/23)
+Remote: Compressing objects: 100% (23/23), done
+
+Receiving objects (23)...
+_____________________ test_worktree_init_nomain[inprocess] _____________________
+
+git = <git_project.git.Git object at 0x7fdd1e6ad410>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6ac850>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_init_nomain(git,
+                                  git_project_runner,
+                                  tmp_path_factory):
+        path = tmp_path_factory.mktemp('clone-workdir')
+    
+        os.chdir(path)
+    
+>       clone_path = git.clone('file://' + git.get_gitdir())
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/dag/src/git-project/dev/src/git_project/git.py:744: in clone
+    self._repo = pygit2.clone_repository(url, target_path, bare, callbacks=callbacks)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/__init__.py:217: in clone_repository
+    payload.check_error(err)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:93: in check_error
+    raise self._stored_exception
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:424: in wrapper
+    return f(*args)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:552: in _transfer_progress_cb
+    transfer_progress(TransferProgress(stats_ptr))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.git.Git.RemoteCallbacks object at 0x7fdd1e6aee50>
+stats = <pygit2.remotes.TransferProgress object at 0x7fdd1e67bd50>
+
+    def transfer_progress(self, stats):
+        if not self.started_transfer:
+            self.started_transfer = True
+            print(f'Receiving objects ({stats.total_objects})...')
+>           self.progress.start(stats.total_objects)
+E           TypeError: ProgressBar.start() takes 1 positional argument but 2 were given
+
+/home/dag/src/git-project/dev/src/git_project/git.py:77: TypeError
+----------------------------- Captured stdout call -----------------------------
+Remote: Counting objects 1
+Remote: Counting objects 23
+Remote: Counting objects 23
+
+Remote: Compressing objects: 0% (0/23)
+Remote: Compressing objects: 13% (3/23)
+Remote: Compressing objects: 100% (23/23), done
+
+Receiving objects (23)...
+__________________ test_worktree_init_nomain_multi[inprocess] __________________
+
+git = <git_project.git.Git object at 0x7fdd1e5fe850>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e5fe690>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_init_nomain_multi(git,
+                                        git_project_runner,
+                                        tmp_path_factory):
+        path = tmp_path_factory.mktemp('clone-workdir')
+    
+        os.chdir(path)
+    
+>       clone_path = git.clone('file://' + git.get_gitdir())
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:384: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/dag/src/git-project/dev/src/git_project/git.py:744: in clone
+    self._repo = pygit2.clone_repository(url, target_path, bare, callbacks=callbacks)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/__init__.py:217: in clone_repository
+    payload.check_error(err)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:93: in check_error
+    raise self._stored_exception
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:424: in wrapper
+    return f(*args)
+/home/dag/.virtualenvs/dev/lib/python3.11/site-packages/pygit2/callbacks.py:552: in _transfer_progress_cb
+    transfer_progress(TransferProgress(stats_ptr))
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.git.Git.RemoteCallbacks object at 0x7fdd1e5fd450>
+stats = <pygit2.remotes.TransferProgress object at 0x7fdd1e5fc5d0>
+
+    def transfer_progress(self, stats):
+        if not self.started_transfer:
+            self.started_transfer = True
+            print(f'Receiving objects ({stats.total_objects})...')
+>           self.progress.start(stats.total_objects)
+E           TypeError: ProgressBar.start() takes 1 positional argument but 2 were given
+
+/home/dag/src/git-project/dev/src/git_project/git.py:77: TypeError
+----------------------------- Captured stdout call -----------------------------
+Remote: Counting objects 1
+Remote: Counting objects 23
+Remote: Counting objects 23
+
+Remote: Compressing objects: 0% (0/23)
+Remote: Compressing objects: 57% (13/23)
+Remote: Compressing objects: 100% (23/23), done
+
+Receiving objects (23)...
+_________________________ test_worktree_add[inprocess] _________________________
+
+git = <git_project.git.Git object at 0x7fdd1e657450>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e655710>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_add(git,
+                          git_project_runner,
+                          tmp_path_factory):
+        workarea = git.get_working_copy_root()
+    
+        os.chdir(workarea)
+    
+        assert os.path.exists(workarea / '.git')
+        assert os.path.exists(workarea / 'MergedRemote.txt')
+    
+        git_project_runner.chdir(workarea)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'worktree',
+                               'add',
+                               '../test',
+                               'master')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:431: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e655710>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('worktree', 'add', '../test', 'master'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1ebdce90>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project worktree add ../test master
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'worktree' (choose from )
+
+_____________________ test_worktree_add_subdir[inprocess] ______________________
+
+git = <git_project.git.Git object at 0x7fdd1e6e2fd0>
+git_project_runner = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6e10d0>
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x7fdd1eb6ec10>, _basetemp=PosixPath('/tmp/pytest-of-dag/pytest-2'), _retention_count=3, _retention_policy='all')
+
+    def test_worktree_add_subdir(git,
+                                 git_project_runner,
+                                 tmp_path_factory):
+        workarea = git.get_working_copy_root()
+    
+        os.chdir(workarea)
+    
+        assert os.path.exists(workarea / '.git')
+        assert os.path.exists(workarea / 'MergedRemote.txt')
+    
+        git_project_runner.chdir(workarea)
+    
+>       git_project_runner.run('.*',
+                               '',
+                               'worktree',
+                               'add',
+                               '../user/test',
+                               'master')
+
+/home/dag/src/git-project-core-plugins/dev/tests/test_worktree.py:453: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <git_project.test_support.common.GitProjectRunner object at 0x7fdd1e6e10d0>
+expected_stdout_regexp = '.*', expected_stderr_regexp = ''
+args = ('worktree', 'add', '../user/test', 'master'), kwargs = {}
+result = <pytest_console_scripts.RunResult object at 0x7fdd1e6e0590>
+
+    def run(self, expected_stdout_regexp, expected_stderr_regexp, *args, **kwargs):
+        result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+    
+        if self.expect_fail:
+            assert not result.success
+        else:
+>           assert result.success
+E           AssertionError
+
+/home/dag/src/git-project/dev/src/git_project/test_support/common.py:458: AssertionError
+----------------------------- Captured stdout call -----------------------------
+# Running console script: git-project worktree add ../user/test master
+# Script return code: 2
+# Script stdout:
+
+# Script stderr:
+usage: git-project [-h] [--menu [MENU]] [--version] {} ...
+git-project: error: argument command: invalid choice: 'worktree' (choose from )
+
+=============================== warnings summary ===============================
+tests/test_artifact.py: 5 warnings
+tests/test_config.py: 2 warnings
+tests/test_help.py: 3 warnings
+tests/test_run.py: 12 warnings
+tests/test_worktree.py: 6 warnings
+  /home/dag/src/git-project/dev/src/git_project/test_support/common.py:453: DeprecationWarning: script_runner commands should be passed as a single sequence, not as multiple arguments.
+  Replace `script_runner.run(a, b, c)` calls with `script_runner.run([a, b, c])`
+    result = self.runner.run(self.command, *args, cwd=self.directory, **kwargs)
+
+tests/test_branch.py::test_branch_prune_script[inprocess]
+  /home/dag/src/git-project-core-plugins/dev/tests/test_branch.py:174: DeprecationWarning: script_runner commands should be passed as a single sequence, not as multiple arguments.
+  Replace `script_runner.run(a, b, c)` calls with `script_runner.run([a, b, c])`
+    ret = script_runner.run('git-project',
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_artifact.py::test_artifact_add[inprocess] - AssertionError
+FAILED tests/test_artifact.py::test_artifact_rm_item[inprocess] - AssertionError
+FAILED tests/test_artifact.py::test_artifact_rm_items[inprocess] - AssertionE...
+FAILED tests/test_artifact.py::test_artifact_rm_config[inprocess] - Assertion...
+FAILED tests/test_artifact.py::test_artifact_rm_substitution[inprocess] - Ass...
+FAILED tests/test_branch.py::test_branch_status[inprocess] - AssertionError: ...
+FAILED tests/test_branch.py::test_branch_prune - AssertionError: assert '----...
+FAILED tests/test_branch.py::test_branch_prune_script[inprocess] - assert False
+FAILED tests/test_config.py::test_shell_add[inprocess] - AssertionError
+FAILED tests/test_config.py::test_shell_no_dup[inprocess] - AssertionError
+FAILED tests/test_help.py::test_help_print_manpage[inprocess] - AssertionError
+FAILED tests/test_help.py::test_help_and_help[inprocess] - AssertionError
+FAILED tests/test_help.py::test_help_rm_help[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_add_arguments[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_add_and_run[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_recursive_sub[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_no_dup[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_add_alias[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_substitute_alias[inprocess] - AssertionError
+FAILED tests/test_run.py::test_run_substitute_options[inprocess] - AssertionE...
+FAILED tests/test_run.py::test_run_substitute_empty_options[inprocess] - Asse...
+FAILED tests/test_run.py::test_run_substitute_option_names[inprocess] - Asser...
+FAILED tests/test_run.py::test_run_substitute_empty_option_names[inprocess]
+FAILED tests/test_run.py::test_run_substitute_option_name_key[inprocess] - As...
+FAILED tests/test_run.py::test_run_substitute_empty_option_name_key[inprocess]
+FAILED tests/test_worktree.py::test_worktree_clone[inprocess] - AssertionError
+FAILED tests/test_worktree.py::test_worktree_clone_bare[inprocess] - Assertio...
+FAILED tests/test_worktree.py::test_worktree_clone_path[inprocess] - Assertio...
+FAILED tests/test_worktree.py::test_worktree_init[inprocess] - TypeError: Pro...
+FAILED tests/test_worktree.py::test_worktree_init_nonclean[inprocess] - Asser...
+FAILED tests/test_worktree.py::test_worktree_init_main[inprocess] - TypeError...
+FAILED tests/test_worktree.py::test_worktree_init_main_master[inprocess] - Ty...
+FAILED tests/test_worktree.py::test_worktree_init_nomain[inprocess] - TypeErr...
+FAILED tests/test_worktree.py::test_worktree_init_nomain_multi[inprocess] - T...
+FAILED tests/test_worktree.py::test_worktree_add[inprocess] - AssertionError
+FAILED tests/test_worktree.py::test_worktree_add_subdir[inprocess] - Assertio...
+================== 36 failed, 20 passed, 29 warnings in 2.14s ==================
