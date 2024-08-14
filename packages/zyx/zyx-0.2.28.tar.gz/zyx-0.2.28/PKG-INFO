@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zyx
+Version: 0.2.28
+Summary: A happy little collection of AI functions built on other people's brilliant libraries and tools. Based on MarvinAI, with universal model support.
+Author: Hammad Saeed
+Author-email: hammad@supportvectors.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: ollama (>=0.3.1,<0.4.0)
+Requires-Dist: openai (>=1.40.1,<2.0.0)
+Requires-Dist: phidata (>=2.4.29,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: rich (>=13.7.1,<14.0.0)
+Requires-Dist: tenacity (>=9.0.0,<10.0.0)
