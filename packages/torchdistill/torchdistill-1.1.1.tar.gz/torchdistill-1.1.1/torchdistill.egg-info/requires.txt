@@ -1,0 +1,14 @@
+torch>=2.4.0
+torchvision>=0.19.0
+numpy
+pyyaml>=6.0
+scipy
+cython
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx_sitemap
+
+[test]
+pytest
