@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yalidine"
+version = "0.0.2"
+authors = [{ name = "Berkane Tarek", email = "tarekg320@gmail.com" }]
+description = "This package is to integrate Yalidine api easily."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["yalidine", "livraison", "delivery"]
+license = { text = "MIT" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["requests==2.31"]
+
+[tool.setuptools.packages.find]
+where = ["src"]  # ["."] by default
+exclude = ["yalidine.egg-info", "__pycache__", "tests"]
