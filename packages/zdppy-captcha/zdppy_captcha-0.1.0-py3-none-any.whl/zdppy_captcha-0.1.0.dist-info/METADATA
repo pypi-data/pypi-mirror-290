@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zdppy-captcha
+Version: 0.1.0
+Summary: 
+Author: zhangdapeng520
+Author-email: 1156956636@qq.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# zdppy_captcha
+
+python用于生成图片，声音等验证码的底层框架
+
+## 版本历史
+
+### v0.1.0
+
+- 基本用法
