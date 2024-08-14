@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pycqs
+Version: 0.0.1a1
+Summary: Python Command Query Segregation (CQS) utilities
+Author-Email: Raphael Castro <rafaphcastro@gmail.com>
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Hypothesis
+Classifier: Framework :: Pydantic
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Project-URL: Homepage, https://github.com/rafaph/pycqs
+Project-URL: Documentation, https://github.com/rafaph/pycqs
+Project-URL: Source, https://github.com/rafaph/pycqs
+Project-URL: Changelog, https://github.com/rafaph/pycqs/blob/main/HISTORY.md
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# pycqs
+
+Command Query Segregation (CQS) utilities for Python
