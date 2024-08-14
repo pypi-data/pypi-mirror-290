@@ -1,0 +1,65 @@
+# pyreda
+
+`pyreda` is a Python library for implementing and running Genetic Algorithms (GAs). It provides an easy-to-use interface to configure and execute GAs with customizable parameters for selection, crossover, and mutation.
+
+## Features
+
+- Customizable fitness functions
+- Support for tournament selection
+- One-point crossover
+- Bit-flip mutation
+- Configurable mutation rates and number of generations
+
+## Installation
+You can install `pyreda` via pip:
+
+	pip install pyreda
+
+## Usage
+
+Here’s a basic example of how to use pyreda to run a genetic algorithm:
+
+import SimpleGA from `pyreda`
+
+	from pyreda import SimpleGA
+	import numpy as np
+
+
+Define a custom fitness function
+
+	# Example: Sum of all genes
+	def custom_fitness(individual):
+		return np.sum(individual)
+
+Create an instance of the SimpleGA class
+
+	ga = SimpleGA.SimpleGA(
+		population_size=10,       # Size of the population
+		gene_length=5,             # Length of each individual
+		fitness_function=custom_fitness,  # Fitness function to evaluate individuals
+		mutation_rate=0.01,        # Mutation rate
+		generations=20            # Number of generations to evolve
+	)
+
+Parameters:
+
+	population_size: Number of individuals in the population.
+	gene_length: Length of the individual’s gene sequence.
+	fitness_function: Function to evaluate the fitness of an individual.
+	mutation_rate: Probability of mutation for each gene.
+	generations: Number of generations for the algorithm to run.
+
+## Run the genetic algorithm
+
+	ga.run()
+
+
+## Contributing
+If you’d like to contribute to the development of pyreda, please fork the repository and submit a pull request. We welcome improvements and bug fixes.
+
+
+## License
+pyreda is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For questions or support, please contact Reda Ghanem at reda.ghanem66@gmail.com.
