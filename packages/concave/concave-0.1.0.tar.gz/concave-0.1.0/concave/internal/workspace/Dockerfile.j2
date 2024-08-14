@@ -1,0 +1,26 @@
+FROM {{ IMAGE_NAME }}:{{ IMAGE_TAG }}
+
+RUN apk add --no-cache ca-certificates bind-tools tini git jansson nodejs npm ripgrep
+
+RUN npm install -g @sourcegraph/scip-python
+COPY --from=ghcr.io/concave-ai/zoket_base \
+    /usr/local/bin/universal-* \
+    /usr/local/bin/zoekt-* \
+    /usr/local/bin/
+
+WORKDIR /workspace
+RUN git clone https://{{ GIT_REPO }} app
+{% if GIT_COMMIT %}
+WORKDIR /workspace/app
+RUN git checkout {{ GIT_COMMIT }}
+{% endif %}
+
+{% if PROJECT_SETUP %}
+{{ PROJECT_SETUP }}
+{% endif %}
+
+RUN zoekt-index -index /workspace/index/zoekt . && \
+    scip-python index . --project-name=pytest && \
+    mkdir /workspace/index/scip && mv index.scip /workspace/index/scip/
+
+CMD ["sleep", "{{ TIMEOUT_SECONDS | default(900) }}"]
