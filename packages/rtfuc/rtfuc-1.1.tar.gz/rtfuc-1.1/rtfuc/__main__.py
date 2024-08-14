@@ -1,0 +1,1 @@
+import rtfuc;rtfuc.main()
