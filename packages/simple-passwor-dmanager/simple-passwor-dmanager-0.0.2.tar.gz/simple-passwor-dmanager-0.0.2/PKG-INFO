@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: simple-passwor-dmanager
+Version: 0.0.2
+Summary: A simple password manager
+Home-page: https://github.com/7alle9/Simple-Password-Manager
+Author: Amir Mallek
+Author-email: mallekamir123@gmail.com
+Keywords: python,password,manager,simple,cli,security
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: requests
+Requires-Dist: platformdirs
+Requires-Dist: pyperclip
+
+
+# Simple Password Manager
+
+## Overview
+Simple Password Manager is a lightweight and secure Python package for managing passwords. It allows users to store, retrieve, and manage their passwords securely using encryption. It supports two types of storage: local storage and cloud storage. The package provides a command-line interface (CLI) for easy management of passwords.
+
+## Features
+- **Encryption:** All passwords are encrypted using a master password.
+- **Secure Storage:** Passwords are stored in a secure format locally or in the cloud.
+- **Command-Line Interface:** Easy to use CLI for managing passwords.
+- **Custom Password Generation:** Generate secure passwords on the fly.
+- **Log and Backup System:** Keeps track of changes and allows for easy backup.
+
+## Installation
+Install the package using pip:
+```bash
+pip install simple-password-manager
