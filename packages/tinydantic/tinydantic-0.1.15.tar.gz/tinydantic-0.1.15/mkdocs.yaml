@@ -1,0 +1,126 @@
+# SPDX-FileCopyrightText: Chris Wilson <christopher.david.wilson@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+---
+site_name: tinydantic
+site_url: https://tinydantic.dev
+repo_url: https://github.com/tinydantic/tinydantic
+repo_name: tinydantic/tinydantic
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; Chris Wilson
+extra_css:
+  - css/code_select.css
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  features:
+    - content.action.view
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    # Palette toggle for automatic mode
+    - media: (prefers-color-scheme)
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+validation: # https://www.mkdocs.org/user-guide/configuration/#validation
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+plugins:
+  - search # https://squidfunk.github.io/mkdocs-material/plugins/search/
+  - autorefs # https://github.com/mkdocstrings/autorefs
+  - gen-files: # https://github.com/oprypin/mkdocs-gen-files
+      scripts:
+        - scripts/gen_api_docs.py
+  - awesome-pages # https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin
+  - mkdocstrings: # https://mkdocstrings.github.io/
+      default_handler: python
+      enable_inventory: true
+      handlers:
+        python:
+          paths:
+            - src
+          options:
+            docstring_options:
+              ignore_init_summary: true
+            heading_level: 1
+            inherited_members: true
+            merge_init_into_class: true
+            group_by_category: true
+            separate_signature: true
+            show_category_heading: true
+            show_root_heading: true
+            show_root_full_path: true
+            show_signature_annotations: true
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            signature_crossrefs: true
+          import:
+            - https://docs.python.org/3/objects.inv
+            - https://tinydb.readthedocs.io/en/latest/objects.inv
+  - mike: # https://github.com/jimporter/mike
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ""
+      canonical_version: latest
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: ¤
+extra:
+  version:
+    provider: mike
+    default: latest
+watch:
+  - src/tinydantic/
+  - scripts/gen_api_docs.py
