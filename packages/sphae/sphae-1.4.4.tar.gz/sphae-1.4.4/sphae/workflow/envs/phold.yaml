@@ -1,0 +1,8 @@
+name: phold
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - phold >=0.1.4
+    - genbank_to
