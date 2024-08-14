@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quantifyML
+Version: 0.0.11
+Summary: Quantification Library
+Home-page: https://github.com/luizfernandolj/QuantifyML/tree/master
+Maintainer: Luiz Fernando Luth Junior
+Keywords: python,machine learning,quantification,quantify
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: joblib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: xlrd
+Requires-Dist: matplotlib
+
