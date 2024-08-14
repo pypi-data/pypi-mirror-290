@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: cvtease
+Version: 0.1.17
+Summary: A CLI tool for computer vision that is under development. Includes a space shooter game using ASCII art.
+Home-page: https://github.com/w3cdpass/cvtease
+Author: w3cdpass
+Author-email: w3cdpass <kupasva663@gmail.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/w3cdpass/cvtease
+Project-URL: Bug Tracker, https://github.com/w3cdpass/cvtease/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: opencv-python
+
+# cvtease
+## ⭐ Support This Project
+
+If you like this project and want to support it, please consider giving it a star! 💖
+
+[![Star on GitHub](https://img.shields.io/github/stars/w3cdpass/cvtease)](https://github.com/w3cdpass/cvtease)  ![Downloads](https://img.shields.io/pypi/dm/cvtease)
+
+
+
+### Follow the link to read the .md file.
+<a href="https://github.com/w3cdpass/cvtease/blob/main/MD/decent_facial_landmark_detection.md">
+    The link
+</a>
+
+****
+######  ➡️INSTALL DEPENDENCIES ON YOUR LOCAL MACHINE⬅️
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-blue?logo=mediapipe)](https://mediapipe.dev/)
+[![PySide6](https://img.shields.io/badge/PySide6-darkgreen?logo=qt)](https://pyside.org/)
+
+****
+[![PyPI version](https://img.shields.io/badge/pip%20install-cvtease-blue)](https://pypi.org/project/cvtease/)
+![Python Version](https://img.shields.io/pypi/pyversions/cvtease)
+![PyPI Version](https://img.shields.io/pypi/v/cvtease)
+<!-- ![Build Status](https://img.shields.io/github/workflow/status/w3cdpass/cvtease/CI) -->
+<!-- ![License](https://img.shields.io/pypi/l/cvtease) -->
+
+CVTease is a CLI tool for computer vision that is currently under development. It includes functionalities such as face detection, facial keypoints detection, and a space shooter game using ASCII art.
+
+## Features
+
+- **Face Detection**: Open the camera and detect faces with visual feedback.
+- **Facial Keypoints**: Detect and display key points on the face.
+- **Space Shooter Game**: Play a lightweight ASCII-based space shooter game.
+- **GUI Interface**: A simple GUI for managing face detection and keypoints.
+
+## Installation
+### Linux
+```bash
+
+
+# If Python and pip are not installed, install them using your package manager:
+sudo apt update
+sudo apt install python3 python3-pip -y
+pip3 install cvtease
+```
+
+***
+```bash
+# Install CVTease directly from PyPI using pip:
+pip install cvtease
+```
+***
+# Or clone the repository and use pip to install from source:
+```bash
+git clone https://github.com/w3cdpass/cvtease.git
+cd cvtease
+python -m venv venv
+# linux/macos source venv/bin/activate
+venv\scripts\activate
+pip install -r requirement.txt
+pip install -e .
