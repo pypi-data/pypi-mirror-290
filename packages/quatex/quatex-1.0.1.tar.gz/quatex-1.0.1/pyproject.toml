@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quatex"
+version = "1.0.1"
+description = ""
+authors = ["Karlo <karloyz@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+pandas-market-calendars = "^4.4.1"
+matplotlib = "^3.9.1.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
