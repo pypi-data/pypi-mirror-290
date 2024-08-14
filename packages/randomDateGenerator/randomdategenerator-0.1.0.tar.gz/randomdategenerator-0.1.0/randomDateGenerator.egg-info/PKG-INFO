@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: randomDateGenerator
+Version: 0.1.0
+Summary: A simple generator of random dates
+Home-page: https://github.com/kaMod4/randomDateGenerator
+Author: Ivan Miskinn
+Author-email: niksim.ytube@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# randomDateGenerator
+
+randomDateGenerator is simple generator of random dates
+
+## Installation
+
+You can install random date generator using pip:
+
+pip install randomDateGenerator
+
+## Usage
+
+```python
+from randomDateGenerator import *
+
+print(randomChoice(month))
