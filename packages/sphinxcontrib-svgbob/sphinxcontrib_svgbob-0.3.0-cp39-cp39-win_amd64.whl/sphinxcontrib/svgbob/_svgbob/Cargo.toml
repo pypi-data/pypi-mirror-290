@@ -1,0 +1,41 @@
+[package]
+name = "sphinxcontrib-svgbob"
+version = "0.3.0"
+authors = ["Martin Larralde <martin.larralde@embl.de>"]
+edition = "2018"
+license = "MIT"
+description = "Sphinx extension to convert ASCII diagrams to SVG in with Svgbob."
+repository = "https://github.com/althonos/sphinxcontrib-svgbob"
+homepage = "https://pypi.org/projects/sphinxcontrib-svgbob"
+readme = "README.md"
+keywords = ["Python"]
+categories = []
+publish = false
+build = "build.rs"
+
+[lib]
+path = "lib.rs"
+crate_type = ["cdylib", "rlib"]
+
+[build-dependencies.built]
+version = "0.5.1"
+features = ["chrono"]
+
+[badges.travis-ci]
+repository = "althonos/sphinxcontrib-svgbob"
+[badges.is-it-maintained-issue-resolution]
+repository = "althonos/sphinxcontrib-svgbob"
+[badges.maintenance]
+status     = "passively-maintained"
+
+[dependencies.pyo3]
+version = "0.17.1"
+[dependencies.pyo3-built]
+version = "0.4.7"
+[dependencies.svgbob]
+version = "0.7.2"
+
+[features]
+default = []
+extension-module = ["pyo3/extension-module"]
+nightly = ["pyo3/nightly"]
