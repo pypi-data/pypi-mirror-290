@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: latex2py
+Version: 0.1.0
+Summary: A lightweight LaTeX-to-Python parser
+License: MIT
+Author: Milo Knowles
+Author-email: miloknowles97@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: antlr4-python3-runtime (==4.11)
+Description-Content-Type: text/markdown
+
+# LaTeX-to-Python Parser (`latex2py`)
+
+This is a lightweight **LaTeX-to-Python** parser.
+
+We needed a parser that could convert LaTeX math expressions into Python-like expressions. However, [SymPy](https://github.com/sympy/sympy) is an extremely large library (`~50 MB`) and leads to bundle size issues when deploying code as an AWS lambda function (max. size `250MB`). This codebase strips out the minimal code that we need, and is around `~200kb` in size.
+
+The parser is inspired by the `sympy` LaTeX parser, but instead of returning symbolic SymPy expressions, we return lines of Python-like code which could can then be evaluated in the interpreter.
+
+## Setup
+
+Run `pipenv install` to create a virtual environment and install dependencies.
+
+## Usage
+
+```python
+from latex2py.parser import parse_latex
+
+latex = r'\frac{1}{2} + \frac{3}{4}'
+python = parse_latex(latex)
+print(python)
+
+# Output:
+# (1 / 2) + (3 / 4)
+```
+
+## Tests
+
+Run `pytest tests` to run the test suite. You can find examples of parseable LaTeX syntex there too.
