@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mizuku"
+version = "1.1.2"
+authors = [
+    { name="Jack Murray", email="info@jackmurray.com" },
+]
+description = "A command-line interface tool to make a professional HTML website from MIML files."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/d3987ef8/mizuku"
+Issues = "https://github.com/d3987ef8/mizuku/issues"
+
+[project.scripts]
+mizu = "mizuku.main:main"
