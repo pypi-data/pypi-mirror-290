@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools>66", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geost"
+version = "0.2.0"
+authors = [
+    {name = "Erik van Onselen", email = "erik.vanonselen@deltares.nl"},
+    {name = "Bas Knaake", email = "bas.knaake@deltares.nl"},
+    {name = "Tommer Vermaas", email = "tommer.vermaas@deltares.nl"},
+]
+description = "The Python interface for geological point data in The Netherlands"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+    "geost",
+    "bro",
+    "borehole",
+    "well log",
+    "cpt",
+    "geology",
+    "subsurface toolbox",
+    "deltares", 
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas>=2.0.1",
+    "pyarrow",
+    "lxml",
+    "pyproj",
+    "geopandas",
+    "xlrd",
+    "openpyxl",
+	"rioxarray>=0.15.3",
+    "shapely>=2.0.1",
+    "pyvista>=0.36.1", 
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyvista",
+    "black",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "sphinx",
+    "sphinx-rtd-theme",
+]
+
+[project.urls]
+Homepage = "https://github.com/Deltares-research/geost"
+Repository = "https://github.com/Deltares-research/geost"
+Issues = "https://github.com/Deltares-research/geost/issues"
+
+[tool.setuptools.packages.find]
+include = ["geost", "geost.*"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+markers = [
+	"unittest: test of single component",
+	"integrationtest: test of multiple components",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "N", "I001"]
+ignore = ["F401", "E501", "F811"]
+unfixable = ["F401"]
+pydocstyle.convention = "numpy"
