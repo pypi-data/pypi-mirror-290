@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "earthspeed"
+description = "Finding the Earth velocity relative to the dark matter halo"
+authors = [
+    {name = "Ben G. Lillard", email = "blillard@uoregon.edu"},
+]
+# licence = "MIT"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "astropy",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/blillard/earthspeed"
+Source = "https://github.com/blillard/earthspeed/"
+Documentation = "https://github.com/blillard/earthspeed/blob/main/README.md"
+
+[tool.setuptools]
+packages = ["earthspeed"]
+
+[tool.setuptools.dynamic]
+version = {attr = "earthspeed.__version__"}
+
+#
