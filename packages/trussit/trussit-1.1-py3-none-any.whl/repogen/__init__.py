@@ -1,0 +1,1 @@
+from repogen.repomaker import generateReport
