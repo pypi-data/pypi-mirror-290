@@ -1,0 +1,20 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaan_trial1"
+version = "0.0.1"
+requires-python = ">=3.9"
+readme = "README.md"
+
+dependencies = [
+    'google-cloud-aiplatform',
+    'openai'
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock"
+]
