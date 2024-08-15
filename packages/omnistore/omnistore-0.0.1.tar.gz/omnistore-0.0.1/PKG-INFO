@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: omnistore
+Version: 0.0.1
+Summary: An unified python client to communicate with various kinds of object-store providers.
+License: MIT
+Author: InftyAI Community
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: oss2 (>=2.18.6,<3.0.0)
+Description-Content-Type: text/markdown
+
+# OmniStore
+An unified python client to communicate with various kinds of object-store providers.
+
