@@ -1,0 +1,9 @@
+include *.h
+include *.c
+include Makefile
+include README.md
+include sse2neon/emmintrin.h
+include python/cmappy.h
+include python/cmappy.pxd
+include python/mappy.pyx
+include python/README.rst
