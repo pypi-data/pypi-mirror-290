@@ -1,0 +1,6 @@
+[console_scripts]
+una = una.cli:app
+
+[hatch]
+una-build = una.hatch_build
+una-meta = una.hatch_meta
