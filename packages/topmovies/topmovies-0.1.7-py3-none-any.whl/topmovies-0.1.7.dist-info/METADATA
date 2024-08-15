@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: topmovies
+Version: 0.1.7
+Summary: 
+Author: zhanghuihui111
+Author-email: 2019110851@stu.sufe.edu.cn
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: pytest (>=8.3.2,<9.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: requests-mock (>=1.12.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+topmovies
+
+Note: topmovies is a Python script that uses the TMDb API to retrieve information about the top 250 movies of all time.
+
+Requirements:
+python >= 3.6
+
+Installation:
+pip install topmovies
+
+Usage:
+import topmovies as tm
+
+top_movies = tm.fetch_douban_top_movies(0, 9)
+
+for movie in top_movies[:5]:
+    print(movie)
+
