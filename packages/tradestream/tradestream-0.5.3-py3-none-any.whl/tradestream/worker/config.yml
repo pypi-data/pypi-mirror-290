@@ -1,0 +1,137 @@
+
+#    Future State Not Yet Reached     #
+# ----------------------------------- #
+#   Configurations for Trade Stream   #
+# ----------------------------------- #
+#       By Mac Anderson / 2024        #
+# ----------------------------------- #
+
+# Symbols to trade
+stock_trading_symbols:
+  - NVDA
+  - SPY
+  - QQQ
+  - NDX
+  - SPX
+  - /ES
+  - /ND
+  - TSLA
+  - MSFT
+  - TSM
+  - AAPL
+
+option_trading_symbols:
+  - NVDA
+  - SPX
+  - NDX
+  - TSLA
+  - TSM
+  - JPM
+  - TQQQ
+  - BA
+  - USO
+  - VIX
+  - QQQ
+  - IWM
+
+# Watchlist
+equity_watchlist:
+  - NVDA
+  - SPY
+  - TSLA
+  - MSFT
+  - AMD
+  - SMC
+  - TSM
+  - AAPL
+  - C
+  - BA
+  - GS
+  - F
+  - GLD
+  - SLV
+  - USO
+  - TQQQ
+  - SQQQ
+  - QQQ
+  - IWM
+  - VXX
+  - UVXY
+  - TVIX
+  - XLF
+  - XLE
+  - XLU
+  - XLI
+  - XLK
+  - XLY
+  - XLV
+  - XLC
+  - XLB
+  - XLP
+  - XRT
+  - XBI
+  - XHB
+  - XME
+  - XOP
+  - XES
+  - XRT
+  - XSD
+  - XSW
+
+# Index Watchlist
+index_watchlist:
+  - SPX
+  - NDX
+  - RUT
+  - DJI
+  - VIX
+
+# Currency Watchlist
+currency_watchlist:
+  - USD
+  - EURO
+  - POUND
+  - YEN
+  - YUAN
+
+# Futures Watchlist
+futures_watchlist:
+  - /ES
+  - /NQ
+  - /YM
+  - /GC
+  - /SI
+  - /CL
+  - /NG
+  - /ZC
+  - /ZS
+  - /ZM
+  - /ZL
+  - /ZC
+  - /ZF
+  - /ZT
+  - /ZB
+  - /ZS
+  - /ZM
+  - /ZL
+  - /ZC
+  - /ZF
+  - /ZT
+  - /ZB
+
+# News API
+news_api: fmp
+
+# Stock Trade Sizes
+x_large_stk_trade: 1000000
+large_stk_trade: 100000
+medium_stk_trade: 10000
+small_stk_trade: 1000
+micro_stk_trade: 100
+
+# Option Option Trade Sizes
+x_large_opt_trade: 1000000
+large_opt_trade: 100000
+medium_opt_trade: 10000
+small_opt_trade: 1000
+micro_opt_trade: 100
