@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytest-record-video
+Version: 2024.8.15
+Summary: 用例执行过程中录制视频
+Author-email: DarkLii <liguangming@uniontech.com>
+License: GPL2.0
+License-File: LICENSE
+Requires-Python: >=3.7
+Requires-Dist: allure-pytest
+Requires-Dist: funnylog2
+Description-Content-Type: text/markdown
+
+# pytest-record-video
+Pytest用例录屏插件
