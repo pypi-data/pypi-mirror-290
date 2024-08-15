@@ -1,0 +1,2 @@
+[console_scripts]
+torch-mlir-import-onnx = torch_mlir.tools.import_onnx:_cli_main
