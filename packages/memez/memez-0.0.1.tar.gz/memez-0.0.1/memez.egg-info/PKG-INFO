@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: memez
+Version: 0.0.1
+Summary: An API wrapper for the Meme API from D3vd
+Author: lndrdev, D3vd
+License: MIT
+Project-URL: GitHub, https://github.com/lndrdev/meme-api
+Project-URL: CookieBot, https://lndrdev.xyz
+Keywords: memes,meme,api,memeapi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# meme-api
+Python Wrapper for https://meme-api.com/gimme
+
+## Installation
+```python
+pip install meme-api
+OR
+pip3 install meme-api
+```
