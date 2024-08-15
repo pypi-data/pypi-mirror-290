@@ -1,0 +1,2 @@
+[console_scripts]
+conda_export_history_versions = conda_export_history_versions.parse_conda_env:main
