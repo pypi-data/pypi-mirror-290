@@ -1,0 +1,19 @@
+[
+	{
+		"designator": "U?",
+		"part": "TAD1586",
+		"manufacturer": "test_manufacturer",
+		"pins": {
+			"la": {"no": 1, "func":  "In", "desc": "ddl"},
+			"ba": {"no": 2, "func":  "InAnalog", "desc": "ddl"},
+			"da": {"no": 3, "func":  "InDigital", "desc": "ddl"},
+			"cc": {"no": 4, "func":  "Out", "desc": "ddl"}},
+		"symbol_generator": {
+			"rectangle": {
+				"left_side": ["la", "ba", "da"],
+				"right_side": ["cc"]
+			},
+			"default": {}
+		}
+	}
+]
