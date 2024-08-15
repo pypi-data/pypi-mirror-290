@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scikit-mdn
+Version: 0.0.2
+Summary: Mixture Density Networks in scikit-learn
+Author: Vincent D. Warmerdam
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: mkdocstrings; extra == "dev"
+
+### scikit-mdn
+
+A mixture density network, by PyTorch, for scikit-learn
