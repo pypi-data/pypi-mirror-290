@@ -1,0 +1,33 @@
+[project]
+name = "memez"
+description = "An API wrapper for the Meme API from D3vd"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["memes", "meme", "api", "memeapi"]
+authors = [
+    { name = "lndrdev" }, { name="D3vd" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "memez.__version__"}
+dependencies = {file = "requirements.txt"}
+
+[project.urls]
+GitHub = "https://github.com/lndrdev/meme-api"
+CookieBot = "https://lndrdev.xyz"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
