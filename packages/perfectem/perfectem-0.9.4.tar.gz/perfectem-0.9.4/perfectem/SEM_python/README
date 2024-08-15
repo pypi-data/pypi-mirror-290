@@ -1,0 +1,4 @@
+Files for building python serialem module
+Source files updated 13/08/2024 from https://bio3d.colorado.edu/SerialEM/PythonModule/
+Trim ^M with sed -i 's/\r$//'
+Build with: python setup.py build
