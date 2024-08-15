@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: disbonfire
+Version: 0.0.0
+Summary: High level Discord library built on top of Nextcore.
+Author-Email: Emma Terzioglu <emreterzioglu49@gmail.com>
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: aiohttp
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# disbonfire
+
+Work-in-progress high level Discord library built on top of [Nextcore](https://github.com/nextsnake/nextcore).
