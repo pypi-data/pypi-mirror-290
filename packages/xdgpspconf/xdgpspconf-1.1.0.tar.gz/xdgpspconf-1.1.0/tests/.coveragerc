@@ -1,0 +1,18 @@
+# -*- coding: utf-8; mode: conf; -*-
+
+[report]
+exclude_lines =
+    pragma: no cover
+ignore_errors = True
+
+[run]
+omit =
+    */xdgpspconf/__main__.py
+    */xdgpspconf/__about__.py
+    */xdgpspconf/command_line.py
+    */xdgpspconf/errors.py
+    */xdgpspconf/native_parallel.py
+source = xdgpspconf
+
+[html]
+show_contexts = True
