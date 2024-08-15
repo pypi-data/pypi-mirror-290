@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "time-series-split"
+version = "0.1.6"
+description = ""
+license = "MIT"
+authors = ["Danttis <juniordante01@gmail.com>"]
+readme = "README.md"
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+    "Topic :: Scientific/Engineering",
+    "Programming Language :: Python :: 3.11",
+
+]
+
+[tool.poetry.dependencies]
+python = "^3.1"
+pandas = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
