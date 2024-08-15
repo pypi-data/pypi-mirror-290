@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kiwi-mlutils"
+version = "0.1.0"
+description = "Misc machine learning utilities"
+authors = ["aaron-sandoval <32021231+aaron-sandoval@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0"
+numpy = "^1.22"
+matplotlib = "^3.7.0"
+torchvision = "^0.15.1"
+jaxtyping = "^0.2.19"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
