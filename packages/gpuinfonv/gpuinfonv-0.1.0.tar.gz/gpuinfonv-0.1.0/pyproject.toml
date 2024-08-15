@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "gpuinfonv"
+version = "0.1.0"
+description = "A Python library for gathering and managing information about NVIDIA GPUs"
+authors = ["Soumendra Dhanee <soumendra@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/soumendra/gpuinfo"
+repository = "https://github.com/soumendra/gpuinfo"
+documentation = "https://soumendra.github.io/gpuinfo/"
+keywords = ["gpu", "nvidia", "cuda", "pytorch"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.8.2"
+pynvml = "^11.5.3"
+psutil = "^6.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+ruff = "^0.5.7"
+pytest = "^8.3.2"
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.31"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
