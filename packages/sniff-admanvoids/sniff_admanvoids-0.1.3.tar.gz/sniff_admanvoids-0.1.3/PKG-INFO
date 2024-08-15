@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sniff_admanvoids
+Version: 0.1.3
+Summary: A package for sniffing website information
+Home-page: https://github.com/daveymason/sniff
+Author: Davey Mason
+Author-email: Davey Mason <daveymason@outlook.com>
+Project-URL: Homepage, https://github.com/daveymason/sniff
+Project-URL: Issues, https://github.com/daveymason/sniff/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: python-whois
+Requires-Dist: cryptography
+
+
+# Sniff - The Website Sniffer
+
+Sniff is a command-line tool for sniffing website information including SSL details, WHOIS information, security headers, and more.
+
+## Installation
+
+Install the package using pip:
+
+```sh
+pip install sniff_admanvoids
+```
+
+## Usage
+
+Run the script with the website URL as an argument:
+
+```sh
+sniff example.com
+```
+
+## Options
+
+The script supports the following options:
+
+- `--output`: Specify the output format (json, csv, html)
+
+```sh
+sniff example.com --output json
+```
+
+
+## Notes
+
+- Ensure you have a stable internet connection while running the script.
+- The script currently performs basic technology analysis using HTTP headers. For more detailed analysis, consider using specialized tools or libraries.
+
+## License
+
+This project is licensed under the MIT License.
