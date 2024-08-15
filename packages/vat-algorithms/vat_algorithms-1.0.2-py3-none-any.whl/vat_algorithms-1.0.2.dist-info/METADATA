@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: vat_algorithms
+Version: 1.0.2
+Summary: Visual Assessment of Cluster Tendency (VAT) family of Algorithms
+Project-URL: Homepage, https://github.com/paritosh-101/Optimized_VAT
+Project-URL: Issues, https://github.com/paritosh-101/Optimized_VAT/issues
+Author: Paritosh Tiwari, Krishna Murthy
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+VAT algorithms implemented.
