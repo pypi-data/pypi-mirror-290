@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: HMautogroup
+Version: 0.1.0
+Summary: auto-cleaning-grouping-process
+Home-page: https://github.com/kdpark0284/HM_titledescription_filtering
+Author: KDPark
+Author-email: k602511@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: numpy==1.26.4
+Requires-Dist: pandas==2.1.4
+Requires-Dist: regex==2024.5.15
+Requires-Dist: google-colab==1.0.0
+Requires-Dist: konlpy==0.6.0
+Requires-Dist: setuptools==71.0.4
+Requires-Dist: mecab-python==1.0.0
+Requires-Dist: mecab-python3==1.0.9
+Requires-Dist: rapidfuzz==3.9.6
+Requires-Dist: jamo==0.4.1
+
+# Clean & Group Titles for HM
+
+Coded for Colab
+
+# Installation
+
+1. Open Colab and load Startup_Dependency.ipynb Jupyter Notebook
+   This is the set up to use this library
+2. Install dependencies using requirements.txt
+3. use HMautogroup_pre as the name of package
+4. use main.py module
+5. good luck
+
+
+
+This project is licensed under the terms of the MIT license.
