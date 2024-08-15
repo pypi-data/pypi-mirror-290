@@ -1,0 +1,63 @@
+[project]
+authors = [
+    { name = "Lucas Hild", email = "contact@lucas-hild.de" },
+    { name = "Kristoffer Andersson", email = "kristoffer.andersson@gu.se" },
+]
+maintainers = [
+    { name = "Kristoffer Andersson", email = "kristoffer.andersson@gu.se" },
+]
+license = { text = "MIT" }
+requires-python = ">=3.8.1"
+dependencies = ["flask>=2.3", "werkzeug>=2.3.2", "httpx>=0.24"]
+name = "flask-matomo2"
+version = "0.5.0"
+description = "Track requests to your Flask server with Matomo"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/spraakbanken/flask-matomo2/issues"
+homepage = "https://spraakbanken.gu.se"
+repository = "https://github.com/spraakbanken/flask-matomo2"
+documentation = "http://flask-matomo2.readthedocs.io/"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pyright]
+reportGeneralTypeIssues = "none"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.0.2",
+    "pytest-cov>=4.1.0",
+    "mypy>=1.8.0",
+    "ruff>=0.5.7",
+    "syrupy>=4.6.1",
+    "bump-my-version>=0.25.4",
+]
+
+[tool.pdm.build]
+includes = ["src/flask_matomo2"]
