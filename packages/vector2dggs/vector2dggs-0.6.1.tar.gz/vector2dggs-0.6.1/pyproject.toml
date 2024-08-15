@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "vector2dggs"
+version = "0.6.1"
+description = "CLI DGGS indexer for vector geospatial data"
+authors = ["James Ardo <ardoj@landcareresearch.co.nz>"]
+maintainers = ["Richard Law <lawr@landcareresearch.co.nz>"]
+readme = "README.md"
+license = "LGPL-3.0-or-later"
+repository = "https://github.com/manaakiwhenua/vector2dggs"
+keywords = ["dggs", "vector", "h3", "cli"]
+classifiers = [
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gdal = "3.8.4"
+geopandas = "^1.0.1"
+h3pandas = "^0.2.6"
+dask-geopandas = "^0.4.1"
+dask = "^2024.8.0"
+click = "^8.1.7"
+tqdm = "^4.66.5"
+click-log = "^0.4.0"
+pyarrow = "^17.0.0"
+pyproj = "^3.6.1"
+sqlalchemy = "^2.0.32"
+psycopg2 = "^2.9.9"
+shapely = "^2.0.5"
+numpy = "<2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "*"
+
+[tool.poetry.scripts]
+vector2dggs = "vector2dggs.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
