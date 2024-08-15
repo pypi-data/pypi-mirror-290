@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+src/golfdb/__init__.py
+src/golfdb/model.py
+src/golfdb.egg-info/PKG-INFO
+src/golfdb.egg-info/SOURCES.txt
+src/golfdb.egg-info/dependency_links.txt
+src/golfdb.egg-info/entry_points.txt
+src/golfdb.egg-info/requires.txt
+src/golfdb.egg-info/top_level.txt
+src/golfdb/cli/__init__.py
+src/golfdb/cli/dev.py
+src/golfdb/migration/__init__.py
+src/golfdb/migration/migration_2024_08_13_13_32_45_b7404a13955b_0_1_0.py
+test/test_init.py

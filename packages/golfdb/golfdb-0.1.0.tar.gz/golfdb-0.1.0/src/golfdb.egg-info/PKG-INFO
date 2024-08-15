@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: golfdb
+Version: 0.1.0
+Summary: Application for maintaining a personal database of courses and rounds.
+Author-email: Joe Joyce <joe@decafjoe.com>
+License: This software is proprietary and no license is granted for use of any kind.
+        
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: alembic==1.13.2
+Requires-Dist: click==8.1.7
+Requires-Dist: sqlalchemy==2.0.32
+Provides-Extra: dev
+Requires-Dist: ruff==0.5.7; extra == "dev"
+Requires-Dist: sphinx==7.4.7; extra == "dev"
+Requires-Dist: sphinx-rtd-theme==2.0.0; extra == "dev"
+Requires-Dist: tox==4.17.1; extra == "dev"
+Requires-Dist: twine==5.1.1; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage[toml]==7.6.1; extra == "test"
+Requires-Dist: ipython==8.26.0; extra == "test"
+Requires-Dist: mypy==1.11.1; extra == "test"
+Requires-Dist: pytest==8.3.2; extra == "test"
+Requires-Dist: pytest-cov==5.0.0; extra == "test"
+Requires-Dist: sqlalchemy[mypy]==2.0.32; extra == "test"
+
+
+========
+ GolfDB
+========
+
+Application for maintaining a personal database of courses and rounds.

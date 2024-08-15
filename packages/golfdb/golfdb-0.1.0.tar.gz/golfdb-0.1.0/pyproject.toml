@@ -1,0 +1,104 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "golfdb"
+version = "0.1.0"
+description = "Application for maintaining a personal database of courses and rounds."
+readme = "README.rst"
+license = {file = "LICENSE"}
+authors = [{name = "Joe Joyce", email = "joe@decafjoe.com"}]
+classifiers = []
+dependencies = [
+  "alembic==1.13.2",
+  "click==8.1.7",
+  # When the sqlalchemy version is updated here, it also needs to be updated
+  # in project.optional-dependencies.test below.
+  "sqlalchemy==2.0.32",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff==0.5.7",
+  "sphinx==7.4.7",
+  "sphinx-rtd-theme==2.0.0",
+  "tox==4.17.1",
+  "twine==5.1.1",
+]
+test = [
+  # When the coverage version is updated, it also needs updated in
+  # tool.tox.legacy_tox_ini below. Specifically, the testenv:coverage-erase
+  # and testenv:coverage-html sections.
+  "coverage[toml]==7.6.1",
+  "ipython==8.26.0",
+  "mypy==1.11.1",
+  "pytest==8.3.2",
+  "pytest-cov==5.0.0",
+  "sqlalchemy[mypy]==2.0.32",
+]
+
+[project.scripts]
+golf = "golfdb.cli:main"
+
+[tool.coverage.html]
+directory = "coverage"
+
+[tool.coverage.paths]
+source = ["src/", ".tox/py3*/lib/python3.*/site-packages/"]
+
+[tool.coverage.run]
+branch = true
+
+[tool.pytest.ini_options]
+addopts = "--cov=golfdb"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "ANN101",  # missing-type-self (this is apparently deprecated [for good reason])
+  "D107",    # undocumented-public-init (initializers are documented at the class level)
+  "DTZ",     # flake8-datetimez (naive local system times are fine for this project)
+  "C90",     # mccabe (not useful in author's opinion)
+  "COM812",  # missing-trailing-comma (not compatible with formatter)
+  "D203",    # one-blank-line-before-class (conflicts with D211)
+  "D212",    # multi-line-summary-first-line (conflicts with D213)
+  "FIX",     # flake8-fixme (overlaps with TD, other notation not used)
+  "ISC001",  # single-line-implicit-string-concatenation (not compatible with formatter)
+  "TD003",   # missing-todo-link (not applicable for this project)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test/**.py" = ["S101"]  # Asserts are used extensively in testing
+"src/golfdb/cli/**.py" = ["T201"]  # CLI is expected to print to stdout/stderr
+"src/golfdb/model.py" = ["TCH003"]  # SQLAlchemy needs imports at runtime
+
+[tool.tox]
+legacy_tox_ini = """
+  [tox]
+  env_list =
+      coverage-erase
+      py310
+      py311
+      # py312
+      coverage-html
+
+  [testenv]
+  extras = test
+  commands =
+    pytest --cov-append
+    mypy src test
+
+  [testenv:coverage-erase]
+  deps = coverage[toml]==7.6.1
+  skip_install = true
+  commands = coverage erase
+
+  [testenv:coverage-html]
+  deps = coverage[toml]==7.6.1
+  skip_install = true
+  commands = coverage html
+"""
