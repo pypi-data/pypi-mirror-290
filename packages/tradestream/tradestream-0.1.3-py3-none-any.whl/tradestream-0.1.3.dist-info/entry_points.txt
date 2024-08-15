@@ -1,0 +1,10 @@
+[console_scripts]
+start-worker=tradestream.services.main:start_worker
+start_api_server=tradestream.api.main:stop_worker
+start_app_server=tradestream.dashboard.main:start_app_server
+start_dev_server=tradestream.dashboard.main:start_app_server--reload
+start_worker_daemon=tradestream.services.main:main
+stop_api_server=tradestream.api.main:stop_server
+stop_app_server=tradestream.dashboard.main:stop_app_server
+stop_worker_daemon=tradestream.services.main:start_worker
+
