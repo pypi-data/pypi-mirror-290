@@ -1,0 +1,4 @@
+[console_scripts]
+sbn = sbn.__main__:wrapped
+sbnc = sbn.term:wrapped
+sbnd = sbn.daemon:wrapped
