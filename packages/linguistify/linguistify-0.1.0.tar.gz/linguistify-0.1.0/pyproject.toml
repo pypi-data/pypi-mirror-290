@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "linguistify"
+version = "0.1.0"
+description = "A unified toolkit for advanced text processing and linguistic analysis. This package offers a comprehensive set of functions to clean, preprocess, and analyze text data, applying sophisticated linguistic techniques to enhance your text analytics workflow. Whether you're looking to clean raw text or extract detailed linguistic features, Linguistify provides the tools to transform and enrich your text data efficiently."
+authors = ["Jal-ghamdi <ijawaher.a.al.ghamdi@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/Jal-ghamdi/linguistify"
+repository = "https://github.com/Jal-ghamdi/linguistify"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
