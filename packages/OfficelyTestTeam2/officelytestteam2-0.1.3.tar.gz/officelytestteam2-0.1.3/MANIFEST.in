@@ -1,0 +1,6 @@
+exclude team.json
+exclude .env
+exclude venv/*
+prune venv
+recursive-include OfficelyTestTeam2 *.py
+recursive-include OfficelyTestTeam2/team_builder *
