@@ -1,0 +1,40 @@
+## 5. Building Block View
+
+### 5.1 Level 1: High-Level Overview
+
+At a high level, PromptArchitect consists of several key components that work together to manage, execute, and test engineered prompts. These components ensure that prompts are not only executed effectively but also rigorously tested to maintain their reliability and performance across different AI models.
+
+### 5.2 Level 2: Main Building Blocks
+
+#### 5.2.1 Prompt Execution Engine
+
+- **Description**: The core component responsible for executing engineered prompts across different AI models, whether cloud-based or locally hosted.
+- **Interfaces**:
+  - **CLI Interface**: Allows users to execute prompts, manage completions, and generate reports directly from the command line.
+  - **Dashboard Interface**: Provides a customizable UI for managing prompts and viewing reports.
+
+#### 5.2.2 Dashboard
+
+- **Description**: The user interface for managing prompts, viewing reports, and configuring settings.
+- **Customization**: Supports custom themes like the `github-pajamas-theme`, allowing users to modify the appearance and branding of the dashboard.
+
+#### 5.2.3 Prompt Testing
+
+- **Description**: This building block is dedicated to the validation and refinement of engineered prompts. It is an essential part of PromptArchitect, ensuring that prompts meet high standards of correctness and efficiency through a comprehensive testing framework.
+- **Types of Tests**:
+  - **Semantic Tests**: These tests verify that the prompt generates outputs that are semantically accurate, ensuring that the AI's responses align with the intended meaning and context of the input.
+  - **Format Tests**: These tests ensure that the output follows the required format, which is critical for tasks where the structure and organization of the response are as important as the content.
+  - **Calculated Tests**: These tests involve verifying that the outputs meet specific calculated criteria, such as numerical accuracy or logical consistency.
+- **Purpose**:
+  - **Correctness**: Ensures that prompts produce accurate and reliable results.
+  - **Regression Testing**: Verifies that updates to prompts or underlying AI models do not introduce new errors or degrade performance.
+  - **Performance Testing**: Evaluates the speed and resource utilization of prompts, ensuring they are efficient even under varying loads.
+  - **Prompt Refinement**: Provides insights into how prompts can be improved to better meet testing criteria, leading to more effective and robust AI interactions.
+
+### 5.3 Level 3: Component Interactions
+
+The interactions between these building blocks are essential for the overall functionality of PromptArchitect:
+
+- **Prompt Execution Engine** works closely with the **Prompt Testing** block to ensure that any prompt executed has been thoroughly validated for correctness, efficiency, and reliability.
+- The **Dashboard** interfaces with both the **Prompt Execution Engine** and **Prompt Testing** to provide users with an intuitive way to manage prompts, view test results, and refine prompts as needed.
+- **CLI Interface** allows advanced users to automate prompt execution and testing workflows, integrating with the broader ecosystem through custom scripts and pipelines.
