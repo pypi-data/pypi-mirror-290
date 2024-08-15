@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: fenics-beat
+Version: 0.1.0
+Summary: Library to run cardiac EP simulations
+Author-email: Henrik Finsberg <henriknf@simula.no>
+License: MIT
+Project-URL: Homepage, https://finsberg.github.io/fenics-beat
+Project-URL: Documentation, https://finsberg.github.io/fenics-beat
+Project-URL: Source, https://github.com/finsberg/fenics-beat
+Project-URL: Tracker, https://github.com/finsberg/fenics-beat/issues
+Keywords: cardiac,electrophysiology
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: licenses/LICENSE_dolfin_pyvista_adapter
+Requires-Dist: numpy<=1.21.5
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: gotranx; extra == "test"
+Requires-Dist: numba; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pdbpp; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: pypi
+Requires-Dist: twine; extra == "pypi"
+Requires-Dist: build; extra == "pypi"
+Provides-Extra: demos
+Requires-Dist: cardiac-geometries; extra == "demos"
+Requires-Dist: ldrb; extra == "demos"
+Requires-Dist: pint; extra == "demos"
+Requires-Dist: gotranx; extra == "demos"
+Requires-Dist: ap_features; extra == "demos"
+Requires-Dist: numba; extra == "demos"
+Requires-Dist: jupyter; extra == "demos"
+Requires-Dist: pyvista[all]>=0.43.0; extra == "demos"
+Requires-Dist: trame-vuetify; extra == "demos"
+Requires-Dist: ipywidgets; extra == "demos"
+Requires-Dist: fractal-tree; extra == "demos"
+Provides-Extra: docs
+Requires-Dist: jupyter-book; extra == "docs"
+Requires-Dist: jupytext; extra == "docs"
+Requires-Dist: jupyterlab_myst; extra == "docs"
+Requires-Dist: sphinxcontrib-bibtex; extra == "docs"
+Requires-Dist: fenics-beat[demos]; extra == "docs"
+Provides-Extra: all
+Requires-Dist: fenics-beat[test]; extra == "all"
+Requires-Dist: fenics-beat[docs]; extra == "all"
+Requires-Dist: fenics-beat[pypi]; extra == "all"
+Requires-Dist: fenics-beat[dev]; extra == "all"
+Requires-Dist: fenics-beat[demos]; extra == "all"
+
+<p align="center">
+  <img width="300" height="300" src="./docs/_static/fenics-beat-logo.png">
+</p>
+
+[![pre-commit](https://github.com/finsberg/fenics-beat/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/finsberg/fenics-beat/actions/workflows/pre-commit.yml)
+[![Create and publish a Docker image](https://github.com/finsberg/fenics-beat/actions/workflows/docker-image.yml/badge.svg)](https://github.com/finsberg/fenics-beat/pkgs/container/fenics-beat)
+[![Build docs](https://github.com/finsberg/fenics-beat/actions/workflows/build_docs.yml/badge.svg)](https://github.com/finsberg/fenics-beat/actions/workflows/build_docs.yml)
+[![Test package](https://github.com/finsberg/fenics-beat/actions/workflows/main.yml/badge.svg)](https://github.com/finsberg/fenics-beat/actions/workflows/main.yml)
+[![PyPI version](https://badge.fury.io/py/fenics-beat.svg)](https://badge.fury.io/py/fenics-beat)
+
+---
+
+# fenics-beat
+
+Library for running cardiac electrophysiology simulations.
+
+- Source code: https://github.com/finsberg/fenics-beat
+- Documentation: https://finsberg.github.io/fenics-beat
+
+
+## Getting started
+
+Check out the examples at https://finsberg.github.io/fenics-beat/
+
+## Install
+
+### Using docker (recommended)
+The simplest way to use `fenics-beat` is to use the provided docker image. You can get this image by pulling it from the github registry
+```
+docker pull ghcr.io/finsberg/fenics-beat:latest
+```
+It is also possible to pull a specific version by changing the tag, e.g.
+```
+docker pull ghcr.io/finsberg/fenics-beat:v0.0.8
+```
+will use version 0.0.8.
+
+In order to start a container you can use the [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) command. For example the command
+```
+docker run --rm -v $(pwd):/home/shared -w /home/shared -ti ghcr.io/finsberg/fenics-beat:latest
+```
+will run the latest version and share your current working directory with the container.
+The source code of `fenics-beat` is located at `/repo` in the docker container.
+
+### Using pip
+`fenics-beat` is also available on [pypi](https://pypi.org/project/fenics-beat/) and can be installed with
+```
+python3 -m pip install fenics-beat
+```
+However this requires FEniCS to already be installed. Currently, FEniCS can be installed by building [from source](https://bitbucket.org/fenics-project/dolfin/src/master/), using [conda](https://anaconda.org/conda-forge/fenics) or use some of the [pre-built docker images](https://github.com/orgs/scientificcomputing/packages?repo_name=packages)
+
+
+## Automated tests
+Upon pushing new code to the repository, a number of tests run:
+* pre-commit tests.
+    - Install `pre-commit`:
+    ```
+    python3 -m pip install pre-commit
+    ```
+    - Run pre-commit hooks:
+    ```
+    pre-commit run --all
+    ```
+* unit and integration tests can be found in `tests` folder
+    - Install tests dependencies:
+    ```
+    python3 -m pip install -e .[test]
+    ```
+    - Run tests
+    ```
+    python3 -m pytest
+    ```
+* Examples: All examples are run as part of building the documentation
+
+## Contributing guidelines
+
+Detailed contributing guidelines are given [here](https://finsberg.github.io/fenics-beat/CONTRIBUTING.html).
+
+## License
+MIT
+
+## Need help or having issues
+Please submit an [issue](https://github.com/finsberg/fenics-beat/issues)
