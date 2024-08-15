@@ -1,0 +1,29 @@
+[project]
+name = "dashai_plugin_juanjo"
+version = "0.0.1"
+
+dependencies = [
+  # add plugin dependencies here
+]
+
+authors = [
+  { name="Juan José Alegría"},
+  { email="juan.jose.alegria@imfd.cl"},
+]
+
+keywords = [
+    "DashAI",
+    "Model",
+]
+
+description = "DashAI Plugin description - Test Juanjo"
+readme = "README.md"
+requires-python = ">=3.8" # DashAI software needs python 3.8 or higher
+
+[project.entry-points.'dashai.plugins']
+mlp_image_classifier = 'dashai_plugin_juanjo.mlp_image_classifier:MLPImageClassifier'
+# Add all the necessary entrypoint (one per DashAI component)
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
