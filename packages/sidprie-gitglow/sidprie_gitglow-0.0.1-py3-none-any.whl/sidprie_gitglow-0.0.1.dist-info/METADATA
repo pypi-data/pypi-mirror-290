@@ -1,0 +1,25 @@
+Metadata-Version: 2.3
+Name: sidprie-gitglow
+Version: 0.0.1
+Summary: sidprie-gitglow
+Author-email: Siddheshwar Kamble <siddhukamble45@gmail.com>
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: aiosqlite==0.20.0
+Requires-Dist: fastapi==0.111.0
+Requires-Dist: greenlet==3.0.3
+Requires-Dist: pytest==8.2.2
+Requires-Dist: sqlalchemy==2.0.30
+Requires-Dist: uvicorn==0.30.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-asyncio; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: pytest-mock; extra == 'dev'
+Requires-Dist: uvicorn[standard]; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Demo
+Demo Fast API User Management Application
