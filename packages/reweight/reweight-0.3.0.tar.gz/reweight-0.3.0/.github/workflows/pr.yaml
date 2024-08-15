@@ -1,0 +1,39 @@
+name: Pull request
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check formatting
+        uses: "lgeiger/black-action@master"
+        with:
+          args: ". -l 79 --check"
+  Test:
+    runs-on: ${{ matrix.os }}
+    continue-on-error: true
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - name: Install package
+        run: make install
+      - name: Run tests
+        run: make test
+        env:
+          POVERTYTRACKER_RAW_URL: ${{ secrets.POVERTYTRACKER_RAW_URL }}
+          POLICYENGINE_GITHUB_MICRODATA_AUTH_TOKEN: ${{ secrets.POLICYENGINE_GITHUB_MICRODATA_AUTH_TOKEN}}
+      - uses: codecov/codecov-action@v3
+      - name: Build package
+        run: make
+      - name: Test documentation builds
+        if: matrix.os == 'ubuntu-latest'
+        run: make documentation

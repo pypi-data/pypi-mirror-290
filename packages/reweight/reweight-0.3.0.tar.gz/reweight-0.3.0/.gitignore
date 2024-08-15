@@ -1,0 +1,28 @@
+# TensorBoard runs directory #
+##############################
+runs/
+
+# Compilation information #
+###########################
+reweight.egg-info/
+
+# Python bytecode files #
+#########################
+reweight/tests/__pycache__
+
+# Documentation build files #
+#############################
+docs/_build
+
+# Pycache folders #
+###################
+**/__pycache__/
+
+# Testing notebooks #
+#####################
+/*.ipynb
+/test_*
+
+# Temporary CSV files #
+#######################
+/*.csv
