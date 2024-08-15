@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: odc-playwright-utils
+Version: 0.1.0
+Summary: A set of utility functions for Playwright-based UI automation
+Author: Your Name
+Author-email: qym00725@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: playwright==1.45.1
+
+# My ODC Playwright Utils
+
+This package provides a set of utility functions for UI automation based on Playwright. It encapsulates common methods such as element interaction, waiting for conditions, and page navigation to simplify automated testing tasks.
+
+## Features
+
+- Wait for elements to be visible or clickable
+- Interact with input fields, dropdowns, and other web elements
+- Manage page navigation and URLs
+- Take screenshots, upload files, and more
+
+## Installation
+
+```bash
+pip install odc_playwright_utils
+```
+
+## Dependencies
+
+- `playwright==1.45.1`
+
+## Usage
+
+Here's an example of how to use the package:
+```python
+from module.playwright_utils import PlaywrightUtils
+from module.WebDriverManager import WebDriverManager
+
+# Initialize the browser and page
+page = WebDriverManager.get_page()
+
+# Use PlaywrightUtils to interact with elements
+utils = PlaywrightUtils(page)
+utils.click("#submit-button")
