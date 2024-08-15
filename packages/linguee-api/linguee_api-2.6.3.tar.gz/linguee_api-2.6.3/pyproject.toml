@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "linguee-api"
+version = "2.6.3"
+description = "Linguee API"
+readme = "README.md"
+homepage = "https://github.com/imankulov/linguee-api"
+repository = "https://github.com/imankulov/linguee-api"
+authors = ["Roman Imankulov <roman.imankulov@gmail.com>"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+include = [
+    "CHANGELOG.md",
+    "docs/linguee-api.png",
+]
+
+packages = [
+    { include = "linguee_api" },
+    { include = "tests", format = "sdist" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.109.2"
+pydantic = "^1"
+xextract = "^0.1.8"
+httpx = "^0.24.1"
+uvicorn = "^0.22.0"
+sentry-sdk = "^1.24.0"
+python-dotenv = "^1.0.0"
+loguru = "^0.7.0"
+aiosqlite = "^0.19.0"
+async-lru = "^2.0.2"
+lxml = "^4.9.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.1.2"
+pytest-xdist = "^2.2.1"
+black = "^24.4.1"
+flake8 = "^3.8.4"
+coverage = "^5.4"
+import-linter = "^1.2.1"
+pytest-asyncio = "^0.14.0"
+ipython = "^8.10.0"
+click = "^8.1.7"
+asgiref = "^3.3.4"
+tox-poetry-installer = {extras = ["poetry"], version = "^0.10.2"}
+bump2version = "^1.0.1"
+
+[tool.coverage.run]
+source = ["tests", "linguee_api"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
