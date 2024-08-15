@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "est_notes"
+version = "2.0"
+authors = [{ name = "VisualXYW" }]
+description = "EST (Encrypted, synchronised todos) is a python libary making it easy to create an encrypted, git-synced todo/notes application."
+readme = "README.rst"
+requires-python = ">=3.12"
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.12',
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+]
+dependencies = ["cryptography", "gitpython", "platformdirs"]
+license = { file = "LICENSE" }
+keywords = ["todo", "notes", "git"]
+
+[project.urls]
+Homepage = "https://codeberg.org/VisualXYW/est-notes"
+Issues = "https://codeberg.org/VisualXYW/est-notes/issues"
+Documentation = "https://codeberg.org/VisualXYW/est-notes/wiki"
