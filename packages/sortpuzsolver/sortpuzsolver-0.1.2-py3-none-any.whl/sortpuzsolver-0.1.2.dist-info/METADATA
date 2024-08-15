@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sortpuzsolver
+Version: 0.1.2
+Summary: Solves sorting puzzles.
+License: MIT
+Author: Kameren Clark
+Author-email: clarkkameren@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: opencv-python (>=4.10.0.84,<5.0.0.0)
+Requires-Dist: scikit-image (>=0.24.0,<0.25.0)
+Requires-Dist: scipy (>=1.14.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# SortPuzSolver
+Python package made to solve sorting puzzles such as Water Sort.
+Has three components: 
+- An image segmentation component which segments an image using color
+- A puzzle recognition component which identifies puzzle state based on a color segmented image
+- A puzzle solving component using a variation of A* search
+![SortExample](https://github.com/user-attachments/assets/f173d448-a373-470e-bf94-21b93b945dd0)
+
