@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: protium
+Version: 0.1.4
+Summary: A simple example package
+Home-page: https://github.com/Mile-Away/PROTIUM
+Author: Haohui
+Author-email: harveyquery@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2024.7.4
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: colorama==0.4.6
+Requires-Dist: docutils==0.21.2
+Requires-Dist: idna==3.7
+Requires-Dist: importlib_metadata==8.2.0
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==5.3.0
+Requires-Dist: jaraco.functools==4.0.2
+Requires-Dist: keyring==25.3.0
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.3.0
+Requires-Dist: nh3==0.2.18
+Requires-Dist: numpy==2.0.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: pkginfo==1.10.0
+Requires-Dist: protium==0.0.6
+Requires-Dist: Pygments==2.18.0
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pytz==2024.1
+Requires-Dist: readme_renderer==44.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==13.7.1
+Requires-Dist: setuptools==72.1.0
+Requires-Dist: six==1.16.0
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: twine==5.1.1
+Requires-Dist: tzdata==2024.1
+Requires-Dist: tzlocal==5.2
+Requires-Dist: urllib3==2.2.2
+Requires-Dist: wheel==0.43.0
+Requires-Dist: zipp==3.19.2
+
+# MyPackage
+
+This is a simple example package.
