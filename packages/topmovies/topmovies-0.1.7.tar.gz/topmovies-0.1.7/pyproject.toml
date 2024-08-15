@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "topmovies"
+version = "0.1.7"
+description = ""
+authors = ["zhanghuihui111 <2019110851@stu.sufe.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pytest = "^8.3.2"
+requests-mock = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
