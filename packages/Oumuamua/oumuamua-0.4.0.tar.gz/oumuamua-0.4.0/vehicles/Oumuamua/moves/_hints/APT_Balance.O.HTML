@@ -1,0 +1,51 @@
+
+
+
+
+
+
+<pre>
+
+	<header>APT balance</header>
+	
+	<figure>
+		<header>APT balance</header>
+		<code>
+			use std::error;
+			use std::signer;
+			use std::string;
+			
+			use aptos_framework::event;
+			use aptos_framework::coin;
+			use aptos_framework::block;
+			use aptos_framework::aptos_account;
+
+			#[view]
+			public fun get_balance <Coin> (account_address: address): u64 {
+				let balance: u64 = coin::balance<Coin>(account_address);
+				balance
+			}
+		</code>
+		<code>
+			args = build_args ([
+				f'address:{ address }'
+			])
+			type_args = build_type_args ([
+				'0x1::aptos_coin::AptosCoin'
+			])
+		</code>
+	</figure>
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+</pre>
