@@ -1,0 +1,4 @@
+exclude team.json
+exclude .env
+exclude venv/*
+prune venv
