@@ -1,0 +1,10 @@
+[spacy_factories]
+entity_cluster = bagpipes_spacy.knowledge:EntityCluster
+entity_similarity = bagpipes_spacy.knowledge:EntitySimilarity
+keyword_extractor = bagpipes_spacy.knowledge:KeywordExtractor
+normalizer = bagpipes_spacy.normalizers:Normalizer
+phrases_extractor = bagpipes_spacy.phrases:PhrasesExtractor
+quote_detector = bagpipes_spacy.phrases:QuoteDetector
+sentence_cluster = bagpipes_spacy.knowledge:SentenceCluster
+token_cluster = bagpipes_spacy.knowledge:TokenCluster
+triple_detector = bagpipes_spacy.knowledge:TripleDetector
