@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: sequoia_diff
+Version: 0.0.3
+Author-email: Jonah Sussman <sussmanjonah@gmail.com>
+Project-URL: Homepage, https://github.com/JonahSussman/sequoia-diff
+Project-URL: Issues, https://github.com/JonahSussman/sequoia-diff/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tree-sitter ==0.22.3
+Requires-Dist: pydantic ==2.8.2
+Requires-Dist: PyYAML ==6.0.1
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy[mypyc] ; extra == 'dev'
+Requires-Dist: types-PyYAML ; extra == 'dev'
+Requires-Dist: tree-sitter-java ==0.21.0 ; extra == 'dev'
+
+# sequoia-diff
+
+Named after the giant sequoias, this name implies strength, resilience, and the ability to handle large, complex structures, much like managing complex code structures in a diff tool.
+
+## Development
+
+Package built with setuptools using a [flat layout](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#flat-layout).
+
+Install with:
+
+```sh
+python -m venv .venv
+pip install -e .[dev]
+```
+
+## References
+
+Diffing trees using the [Chawathe algorithm](https://doi.org/10.1145/235968.233366) and inspiration from the paper [Fine-grained and accurate source code differencing](https://doi.org/10.1145/2642937.2642982).
