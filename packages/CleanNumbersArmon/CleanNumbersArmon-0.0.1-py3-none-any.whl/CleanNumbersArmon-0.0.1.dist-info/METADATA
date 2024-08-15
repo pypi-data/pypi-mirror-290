@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: CleanNumbersArmon
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/yourusername/mypackage
+Author: Your Name
+Author-email: Armon Barakchi <armon.barakchi@boeing.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+__CLEAN NUMBER PACKAGE__
+
+# CleanNumber Package
+
+## Overview
+
+The `clean_number` package provides a single function designed to normalize and clean numeric inputs. This function takes various formats of numbers, converts them into a standardized floating-point representation, and returns them as a string with 14-point precision.
+
+## Function: `clean_number`
+
+The `clean_number` function processes a range of inputs, from scientific notation to unconventional formats, and produces a cleaned, standardized output. Below is a table of inputs and their corresponding outputs before being converted to 14-point precision.
+As you can see, numeric inputs can be processed and non-numeric inputs are converted into N/A for easy data processing.
+
+### Input and Output Table
+_____________________________________________________________
+| Input                  | Output                           |
+|------------------------|----------------------------------|
+| `7E01`                 | `70`                             |
+| `6.05E02`              | `605.0`                          |
+| `3.05E-02`             | `0.0305`                         |
+| `3E-02`                | `0.03`                           |
+| `7E12`                 | `7000000000000`                  |
+| `3.05E-5`              | `3.05e-05`                       |
+| `3.05X10^-5`           | `3.05e-05`                       |
+| `3E-12`                | `3e-12`                          |
+| `0.01`                 | `0.01`                           |
+| `0.01020`              | `0.0102`                         |
+| `10`                   | `10`                             |
+| `05`                   | `5`                              |
+| `2**(-31)`             | `4.656612873077393e-10`          |
+| `231.10`               | `231.1`                          |
+| `Note 3.`              | `N/A`                            |
+| `MCC`                  | `N/A`                            |
+| `see below`            | `N/A`                            |
+| `*`                    | `N/A`                            |
+| `N/A`                  | `N/A`                            |
+| `0.1yd/0.01nm`         | `N/A`                            |
+| `(20/360)/16384`       | `10.0`                           |
+| `2**(-07)`             | `3.3908420138888887e-06`         |
+| `NOTE5`                | `N/A`                            |
+| `1 foot`               | `1`                              |
+-------------------------------------------------------------
+
+### Precision and Output
+
+After processing the input, the output values are converted to a floating-point representation with 14-point precision and returned as a string. This ensures consistency and accuracy in numerical representation, making it suitable for precise calculations and data presentation.
+
+## Installation
+
+To install the `clean_number` package, use the following command:
+
+```bash
+pip install clean_number
