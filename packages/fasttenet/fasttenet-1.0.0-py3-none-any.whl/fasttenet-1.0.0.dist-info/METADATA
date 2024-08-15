@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fasttenet
+Version: 1.0.0
+Summary: FastTENET
+Home-page: http://github.com/cxinsys/fasttenet
+Author: Complex Intelligent Systems Laboratory (CISLAB)
+Author-email: daewon4you@gmail.com
+License: BSD-3-Clause
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: statsmodels
+Requires-Dist: networkx
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: omegaconf
+Requires-Dist: mate-cxinsys
+
