@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: arXivFans
+Version: 0.3.1
+Summary: This project provides an effective way to fetch the latest papers from arXiv and view them through email notifications or a web interface.
+Home-page: https://github.com/daihangpku/arXivFans.git
+Author: Daihang
+Author-email: daihang2300012956@163.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: arxiv
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: schedule
