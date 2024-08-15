@@ -1,0 +1,33 @@
+Metadata-Version: 2.3
+Name: labotools_nysg
+Version: 0.0.1
+Summary: Una colección de funciones útiles para los laboratorios de Física de la UBA FCEN
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Santiago Noya <noyasantiagomail@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Labo-Tools 
+
+Una colección de funciones utiles para los laboratorios de Física de la UBA.
+
+## Install
+
+```sh
+python -m pip install labotools-nysg
+```
+
+## Usage
+
+```py
+import labotools-nysg as ny
+```
+
+## Licensing
+The code in this project is licensed under MIT license.
+
