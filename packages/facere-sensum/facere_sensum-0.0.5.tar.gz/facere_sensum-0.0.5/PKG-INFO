@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: facere-sensum
+Version: 0.0.5
+Summary: facere-sensum: make sense of the turmoil
+Project-URL: Homepage, https://github.com/lunarserge/facere-sensum
+Project-URL: Bug Tracker, https://github.com/lunarserge/facere-sensum/issues
+Author: Serge Lunev
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: google-api-python-client>=2.93.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: pandas>=2.0.1
+Requires-Dist: prettytable>=3.9.0
+Requires-Dist: pygithub>=1.59.1
+Description-Content-Type: text/markdown
+
+# facere-sensum: make sense of the turmoil
+
+`facere-sensum` is a general-purpose metrics framework designed to quantify anything in a meaningful numerical format. It permits the aggregation of individual metrics to create higher-level metrics that reflect collective behavior with a single indicator.
+
+In practical terms, `facere-sensum` offers a structured approach for product management to establish development priorities and objectives. For development teams, it serves as a tool to pinpoint the specific areas where their efforts should be concentrated to achieve the desired goal.
+
+Comprehensive documentation is available [here](https://lunarserge.github.io/facere-sensum).
+
+# Installation
+
+    pip install facere-sensum
+
+# Usage
+
+    facere_sensum [-h] [--version] [--auth [AUTH]] [--config [CONFIG]] {create,update,chart}
+
+{**create**,**update**,**chart**}: high-level action to perform
+
+Options:
+*  **-h**, **--help**:    show help message and exit
+*  **--version**:         show the version number and exit
+*  **--auth [AUTH]**:     authentication config
+*  **--config [CONFIG]**: layer config (default: `config.json`)

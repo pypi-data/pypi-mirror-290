@@ -1,0 +1,18 @@
+{
+    "log": "log.csv",
+    "id": "family",
+    "metrics": [
+        {
+            "id": "father",
+            "source": "uplevel",
+            "priority": 0.5,
+            "log": "test/output/ref_updated.csv"
+        },
+        {
+            "id": "son",
+            "source": "const",
+            "priority": 0.5,
+            "value": 0.8
+        }
+    ]
+}
