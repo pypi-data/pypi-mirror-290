@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ncuphy
+Version: 0.1.14
+Summary: A Raspberry Pi Python project for educational use.
+Home-page: https://github.com/yourusername/ncuphy
+Author: Kah Seng Phay
+Author-email: phay_ks@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: RPi.GPIO
+Requires-Dist: numpy
+Requires-Dist: smbus2
+
+# NCUPhy
+
+This project provides modules for controlling 
+
+    Motor(s)
+    -Stepper Motor
+    
+    ADC(s)
+    -ADS1115
+    
+    Sensor(s)
+    -MPU9250
+    -MPU6050
+
+
+## Installation
+
+```sh
+pip install ncuphy
