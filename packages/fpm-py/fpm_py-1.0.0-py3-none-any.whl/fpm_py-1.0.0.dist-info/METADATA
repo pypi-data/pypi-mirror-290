@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: fpm-py
+Version: 1.0.0
+Summary: A Python library for implementing Fourier ptychography algorithms to enhance captured images
+Home-page: https://www.parasight.ca
+License: MIT
+Author: Robin Cunningham
+Author-email: rspcunningham@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.1.post1,<4.0.0)
+Requires-Dist: numpy (>=2.0.1,<3.0.0)
+Requires-Dist: torch (>=2.4.0,<3.0.0)
+Project-URL: Repository, https://github.com/rspcunningham/fpm-py
+Description-Content-Type: text/markdown
+
+# fpm-py
+
+Fourier ptychography is a computational image reconstruction technique that allows one high-resolution microscopic image to be acquired by combining multiple lower-resolution images captured at differing optical illumination angles.
+
+More information about Fourier ptychography can be found [here](https://en.wikipedia.org/wiki/Fourier_ptychography).
+
+## Installation
+
+To use in your project: `pip install fpm-py`
+
+## Usage
+
+See example usage in `example.py`, and below:
+
+```python3
+import fpm_py as fpm
+import matplotlib.pyplot as plt
+
+# load example dataset
+dataset = fpm.ImageSeries.from_dict("datasets/example.pt")
+
+# reconstruct the object
+output = fpm.reconstruct(dataset)
+
+# plot the output
+plt.imshow(output.abs().cpu().numpy(), cmap="gray")
+plt.show()
+```
+
+## Upcoming
+
+1. Performance metric(s), to assess how well the resulting reconstruction worked.
+2. Full testing
+3. Complete documentation
+4. Public 10k+ image dataset
+
