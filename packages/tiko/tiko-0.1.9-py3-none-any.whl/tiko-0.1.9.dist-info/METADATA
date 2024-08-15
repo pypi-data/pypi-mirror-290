@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: tiko
+Version: 0.1.9
+Project-URL: Documentation, https://github.com/golmschenk/tiko#readme
+Project-URL: Issues, https://github.com/golmschenk/tiko/issues
+Project-URL: Source, https://github.com/golmschenk/tiko
+Author-email: Greg Olmschenk <greg@olmschenk.com>
+License-File: LICENSE.txt
+Requires-Python: >=3.11
+Requires-Dist: pexpect
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Description-Content-Type: text/markdown
+
+# tiko
