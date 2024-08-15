@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gauth_extractor"
+version = "v0.0.7"
+authors = [
+  { name="Thiago Weidman", email="tw@weidman.com.br" },
+]
+description = "Cli to extract 2FA secrets from google authenticator mobile app"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["click","rich","loguru","pyzbar","Pillow","protobuf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+gauthe = "cli:get_google_auth_keys"
+
+[project.urls]
+"Homepage" = "https://github.com/thig0w/454calendar"
+"Bug Tracker" = "https://github.com/thig0w/454calendar/issues"
