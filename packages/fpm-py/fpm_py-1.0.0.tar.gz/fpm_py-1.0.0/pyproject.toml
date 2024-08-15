@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fpm-py"
+version = "1.0.0"
+description = "A Python library for implementing Fourier ptychography algorithms to enhance captured images"
+authors = [
+    "Robin Cunningham <rspcunningham@gmail.com>", 
+    "Sammy Farnum <sfarnum1132@gmail.com>"
+]
+readme = "MODULE_README.md"
+license = "MIT"
+repository = "https://github.com/rspcunningham/fpm-py"
+homepage = "https://www.parasight.ca"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+torch = "^2.4.0"
+matplotlib = "^3.9.1.post1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+sphinx = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
