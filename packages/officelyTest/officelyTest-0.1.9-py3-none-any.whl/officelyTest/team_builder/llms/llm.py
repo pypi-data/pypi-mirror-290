@@ -1,0 +1,47 @@
+from abc import ABC, abstractmethod
+from typing import List, Optional
+from pydantic import BaseModel, Field
+
+from officelyTest.generator import ThreadedGenerator
+from ..nodes.interface import ISchema
+from .enums import LLMType
+from .tokenizer import Tokenizer
+
+
+class LLM(BaseModel, ABC):
+    """
+    This is the LLM class.
+    It is a subclass of BaseModel and ABC.
+    """
+    model:LLMType
+    temperature:float = 0
+    g: Optional[ThreadedGenerator] = Field(default=None)
+    tokenizer: Optional[Tokenizer] = Field(default=None) 
+
+    # class Config:
+    #     arbitrary_types_allowed = True
+
+
+
+
+    @property
+    @abstractmethod
+    def base(self):
+        """
+        This is the base method.
+        It serves as a placeholder and does not perform any specific functionality.
+        """
+    
+
+
+    @abstractmethod
+    def with_schema(self, prompt:str, schema:List[ISchema], name:str):
+        """
+        This is the with_structured_output method.
+        It takes in a schema and returns a response.
+        """
+
+
+
+
+
