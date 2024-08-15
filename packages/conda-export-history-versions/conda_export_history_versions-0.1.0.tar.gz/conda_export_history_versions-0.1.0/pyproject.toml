@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conda-export-history-versions"
+version = "0.1.0"
+description = "A script for exporting conda environments, combining historical package information with version specifications."
+authors = [{ name = "David Sestu", email = "david.sestu@gmail.com" }]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "PyYAML",
+]
+
+[project.scripts]
+conda_export_history_versions = "conda_export_history_versions.parse_conda_env:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
