@@ -1,0 +1,4 @@
+[console_scripts]
+consume=markopolis.scripts.consume:consume
+markopolis=markopolis.fastapp:main
+
