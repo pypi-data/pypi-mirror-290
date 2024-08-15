@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: aemo-nmi-info
+Version: 0.0.2
+Summary: A package to look up AEMO NMI information
+Home-page: https://github.com/powston/aemo_nmi_info
+Author: Ian Connor
+Author-email: ian@powston.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AEMO NMI Lookup
+
+## Introduction
+
+The Australian Energy Market Operator (AEMO) is responsible for operating the National Electricity Market (NEM) and the Wholesale Electricity Market (WEM) in Western Australia. AEMO assigns a unique identifier to each electricity metering installation in the NEM and WEM, known as the National Meter Identifier (NMI). The NMI is a 10-character alphanumeric code that is used to identify the location of the metering installation.
+
+## Installation
+
+```bash
+pip install aemo-nmi-lookup
+```
+
+## Usage
+
+```python
+from aemo_nmi_info import nmi_lookup
+
+nmi = '8001234567'
+state, participant_id = nmi_lookup(nmi)
+
+print(f'State: {state}')
+print(f'Participant ID: {participant_id}')
+```
+
+# License
+MIT (c) 2024 Ian Connor
+
+# Author
+[Ian Connor](https://github.com/iconnor)
+
+
