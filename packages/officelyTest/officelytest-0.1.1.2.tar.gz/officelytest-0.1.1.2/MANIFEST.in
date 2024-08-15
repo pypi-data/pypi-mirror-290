@@ -1,0 +1,5 @@
+exclude team.json
+exclude .env
+exclude venv/*
+prune venv
+recursive-include officely *.py

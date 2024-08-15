@@ -1,0 +1,36 @@
+from enum import Enum
+
+class LLMType(str, Enum):
+    AZURE = "AZURE"
+    TOGETHER = "TOGETHER",
+    GPT3_5_TURBO = "gpt-3.5-turbo"
+    GPT4 = "gpt-4"
+    GPT_4_TURBO = "gpt-4-turbo"
+    GPT4_O = "gpt-4o"
+    GPT4_O_MINI = "gpt-4o-mini"
+    CLAUDE3_SONNET = "anthropic.claude-3-sonnet-20240229-v1:0"
+    CLAUDE3_HAIKU = "anthropic.claude-3-haiku-20240307-v1:0"
+    CLAUDE3_5 = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+    CLAUDE2_1 = "anthropic.claude-v2:1"
+    CLAUDE_INSTANT = "anthropic.claude-instant-v1"
+    MISTRAL_7B = "mistral.mistral-7b-instruct-v0:2"
+    MISTRAL_8X7B = "mistral.mixtral-8x7b-instruct-v0:1"
+    MISTRAL_LARGE = "mistral.mistral-large-2402-v1:0"
+    MISTRAL_SMALL = "mistral.mistral-small-2402-v1:0"
+    LLAMA3_8B = "meta.llama3-8b-instruct-v1:0"
+    LLAMA3_70B = "meta.llama3-70b-instruct-v1:0"
+    LLAMA2_13B = "meta.llama2-13b-chat-v1"
+    LLAMA2_70B = "meta.llama2-70b-chat-v1"
+    # COMMAND_R_PLUS = "cohere.command-r-plus-v1:0"
+    # COMMAND_R = "cohere.command-r-v1:0"
+    # COMMAND = "cohere.command-text-v14"
+    # COMMAND_LIGHT = "cohere.command-text-v14"
+    COMMAND_R_PLUS = "command-r-plus"
+    COMMAND_R = "command-r"
+    COMMAND = "command"
+    COMMAND_LIGHT = "command-light"
+    # JURASSIC2_ULTRA = "ai21.j2-ultra-v1"
+    # JURASSIC2_MID = "ai21.j2-mid-v1"
+    GEMINI_1_5_PRO = "gemini-1.5-pro"
+    
+    
