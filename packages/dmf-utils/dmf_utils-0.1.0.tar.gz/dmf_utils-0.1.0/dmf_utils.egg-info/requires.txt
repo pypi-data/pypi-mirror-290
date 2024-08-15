@@ -1,0 +1,18 @@
+lazy_loader
+
+[:python_version == "3.7"]
+typing-extensions
+
+[alerts]
+slack_sdk
+requests
+
+[all]
+sphinx
+pydata-sphinx-theme
+slack_sdk
+requests
+
+[docs]
+sphinx
+pydata-sphinx-theme
