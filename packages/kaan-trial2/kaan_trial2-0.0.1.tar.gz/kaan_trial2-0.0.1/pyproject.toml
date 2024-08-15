@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaan_trial2"
+version = "0.0.1"
+requires-python = ">=3.9"
+readme = "README.md"
+
+dependencies = [
+    'google-cloud-storage',
+    'cloudevents',
+    'google-cloud-logging',
+    'google-auth',
+    'google-auth-oauthlib',
+    'google-cloud-pubsub',
+    'google-cloud-secret-manager'
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock"
+]
