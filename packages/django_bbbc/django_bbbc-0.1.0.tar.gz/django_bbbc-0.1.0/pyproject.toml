@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "django_bbbc"
+version = "0.1.0"
+description = ""
+authors = ["niraj shrestha <ns77851706@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+django = "^5.0"
+celery = "^5.3"
+redis = "^5.0.6"
+django-celery-results = "^2.5.1"
+kombu = "^5.2.3"  # Kombu is required by Celery to interact with RabbitMQ
+pytest-watch = "^4.2.0"
+django-prometheus = "^2.3.1"
+pydantic = "^1.10.5"
+django-statsd-mozilla = "^0.4.0"
+prometheus-client = "^0.20.0"
+python-json-logger = "^2.0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.2"
+pytest-django = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "django_bbbc.settings"
+python_files = ["tests/test_*.py", "tests/*_test.py", "testing/python/*.py"]
+log_cli = 1
+addopts = "--ignore=Python-3.12.0/Lib/test/"
+
+[[tool.poetry.source]]
+name = "devpi"
+url = "http://localhost:3141/myuser/myindex/+simple/"
+priority = "supplemental"
