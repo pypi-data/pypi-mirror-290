@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "average-color"
+version = "0.1.1"
+dependencies = [
+    "pillow",
+]
+requires-python = ">=3.8"
+authors = [
+    {name = "Samuel Gunter", email = "samathingamajig@gmail.com"},
+]
+description = "Prints the average hex color of an image."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["image", "color", "average"]
+classifiers = [
+    "Programming Language :: Python"
+]
+
+[project.urls]
+Homepage = "https://github.com/Samathingamajig/average-color"
+Documentation = "https://github.com/Samathingamajig/average-color/blob/master/README.md"
+Repository = "https://github.com/Samathingamajig/average-color"
+"Bug Tracker" = "https://github.com/Samathingamajig/average-color/issues"
+
+[project.scripts]
+average-color = "average_color:main"
