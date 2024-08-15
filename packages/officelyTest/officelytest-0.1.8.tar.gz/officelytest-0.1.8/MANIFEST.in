@@ -1,0 +1,6 @@
+global-exclude __pycache__/*
+exclude main.py
+exclude team.json
+exclude .env
+exclude venv/*
+prune venv
