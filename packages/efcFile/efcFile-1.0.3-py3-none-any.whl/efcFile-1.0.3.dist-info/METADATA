@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: efcFile
+Version: 1.0.3
+Summary: A file storage management package supporting various providers like S3, OSS, and Qiniu.
+Home-page: https://github.com/duolabmeng6/efcFile
+Author: duolabmeng6
+Author-email: 1715109585@qq.com
+Keywords: efcFile
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# efcFIle
+
+通用的文件储存类
+
+```python
+from efcFile import FileStorageManager, LocalFileStorage
+
+manager = FileStorageManager(default_storage="local")
+manager.set_storage("local", LocalFileStorage(storage_path="./storage/"))
+manager.put("example.txt", b"This is a test file")
+print(manager.get("example.txt"))
+print(manager.exists("example.txt"))
+print(manager.size("example.txt"))
+print(manager.mime_type("example.txt"))
+print(manager.list(""))
+manager.move("example.txt", "example_moved.txt")
+print(manager.exists("example_moved.txt"))
+manager.delete("example_moved.txt")
+
+```
