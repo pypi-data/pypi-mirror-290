@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gauth_extractor
+Version: 0.0.6
+Summary: Cli to extract 2FA secrets from google authenticator mobile app
+Author-email: Thiago Weidman <tw@weidman.com.br>
+Project-URL: Homepage, https://github.com/thig0w/454calendar
+Project-URL: Bug Tracker, https://github.com/thig0w/454calendar/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: loguru
+Requires-Dist: pyzbar
+Requires-Dist: Pillow
+Requires-Dist: protobuf
