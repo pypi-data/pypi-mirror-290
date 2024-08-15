@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: distancia
+Version: 0.0.1
+Summary: distance metrics
+Home-page: https://github.com/ym001/distancia
+Author: Yves Mercadier
+Author-email: Yves Mercadier <info@realpython.com>
+Project-URL: Homepage, https://github.com/ym001/distance-metrics
+Keywords: distance,metrics,space
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+distance metrics read me
