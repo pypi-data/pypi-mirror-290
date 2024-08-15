@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: spice2agm
+Version: 1.2.1
+Summary: Generator of AGM XML files from SPICE frames and directions
+Home-page: https://juigitlab.esac.esa.int/core-system/uplink/spice2agm
+Author: JUICE SOC team
+Author-email: juice_soc@cosmos.esa.int
+Keywords: esa,Juice
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: build
+Requires-Dist: lxml
+Requires-Dist: numpy
+Requires-Dist: sphinx
+Requires-Dist: sphinx-argparse
+Requires-Dist: spiceypy
+Requires-Dist: python-dotenv
+
+# spice2agm
+
+## 1. Getting Started
+
+spice2agm is a software application that allows to generate an AGM fixed definitions file
+from the SPICE Kernels specified by a given Meta-Kernel and for a number of pre-defined
+directions.
+
+### 1.1 Installation
+
+#### 1.1.1 Prerequisites
+ 
+* Python 3.9 or higher.
+
+#### 1.1.2 Setup
+
+##### 1.1.2.1 Package installation 
+
+From command line install the following packages using pip:
+
+    pip install spice2agm
+
