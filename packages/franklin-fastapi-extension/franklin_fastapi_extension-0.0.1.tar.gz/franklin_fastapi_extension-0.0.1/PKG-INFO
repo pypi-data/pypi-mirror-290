@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: franklin_fastapi_extension
+Version: 0.0.1
+Summary: This is a FastAPI Extension to simplify the creation process of APIS
+Home-page: https://github.com/franklinnevesfilho/SimpleAPI
+Author: Franklin Neves Filho
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: sqlalchemy
+Requires-Dist: mysql-connector-python
