@@ -1,0 +1,12 @@
+typing_extensions<=3.10
+
+[dev]
+setuptools>=64.0.0
+pip-tools
+validate-pyproject[all]
+build
+twine
+coverage
+pdoc3
+pyright
+pylint
