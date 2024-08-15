@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "akson"
+version = "0.1.0"
+description = ""
+authors = ["Akson AI <hi@akson.ai>"]
+packages = [{include = "cli.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt-toolkit = "^3.0.47"
+click = "^8.1.7"
+
+[tool.poetry.group.local.dependencies]
+agentlib = { path = '../agentlib', develop = true }
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+flake8 = "^7.1.0"
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+akson = 'cli:main'
