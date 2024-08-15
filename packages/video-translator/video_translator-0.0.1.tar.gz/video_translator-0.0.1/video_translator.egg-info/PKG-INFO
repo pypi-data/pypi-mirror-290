@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: video-translator
+Version: 0.0.1
+Summary: The collection of utils to translate the videos
+Author-email: Andrey Pudov <mail@andreypudov.com>
+Project-URL: Homepage, https://github.com/andreypudov/video-translator
+Project-URL: Issues, https://github.com/andreypudov/video-translator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: openai==1.40.6
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: paddleocr==2.8.1
+Requires-Dist: paddlepaddle==2.6.1
+Requires-Dist: srt==3.5.3
+Requires-Dist: tiktoken==0.7.0
