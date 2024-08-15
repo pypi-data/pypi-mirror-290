@@ -1,0 +1,1416 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../theme/">
+      
+      
+        <link rel="next" href="../init/">
+      
+      
+      <link rel="icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Configuration - RevealPack Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#configurations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="RevealPack Documentation" class="md-header__button md-logo" aria-label="RevealPack Documentation" data-md-component="logo">
+      
+  <img src="../img/revealpack.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RevealPack Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Configuration
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="RevealPack Documentation" class="md-nav__button md-logo" aria-label="RevealPack Documentation" data-md-component="logo">
+      
+  <img src="../img/revealpack.png" alt="logo">
+
+    </a>
+    RevealPack Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../example/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using RevealPack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Presentation Options
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../slide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slide Options
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../styles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaged Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Theming
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Configuration
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Configuration
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-1-configurations-for-configjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table 1. Configurations for config.json
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications-on-select-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Specifications On Select Configurations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Specifications On Select Configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#packagesreveal_pluginsexternal" class="md-nav__link">
+    <span class="md-ellipsis">
+      packages.reveal_plugins.external
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom_scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      custom_scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="custom_scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example config.json
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example config.json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rendered-reveal-jinja2-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendered Reveal (Jinja2) Template
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Commands
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Commands
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../init/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Init
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Build
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../serve/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serve
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../package/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Package
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Developer Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-1-configurations-for-configjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table 1. Configurations for config.json
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifications-on-select-configurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Specifications On Select Configurations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Specifications On Select Configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#packagesreveal_pluginsexternal" class="md-nav__link">
+    <span class="md-ellipsis">
+      packages.reveal_plugins.external
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom_scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      custom_scripts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="custom_scripts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How It Works
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example config.json
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example config.json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rendered-reveal-jinja2-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendered Reveal (Jinja2) Template
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="configurations">Configurations</h1>
+<p>Reference the table below for configuration options parsed by the <a href="../setup/"><code>revealpack setup</code></a> command.</p>
+<h3 id="table-1-configurations-for-configjson">Table 1. Configurations for <code>config.json</code></h3>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Sub-Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>info</code></td>
+<td></td>
+<td>Information about the project</td>
+</tr>
+<tr>
+<td></td>
+<td><code>project_title</code></td>
+<td>The full title of your project</td>
+</tr>
+<tr>
+<td></td>
+<td><code>short_title</code></td>
+<td>A short, concise title for your project</td>
+</tr>
+<tr>
+<td></td>
+<td><code>version</code></td>
+<td>The current version of your project</td>
+</tr>
+<tr>
+<td></td>
+<td><code>authors</code></td>
+<td>An array containing the names of the authors</td>
+</tr>
+<tr>
+<td><code>directories</code></td>
+<td></td>
+<td>Configuration for directory structure used in the project</td>
+</tr>
+<tr>
+<td></td>
+<td><code>build</code></td>
+<td>Directory where the built presentation will be output (e.g., <code>dist</code>)</td>
+</tr>
+<tr>
+<td><code>directories.source</code></td>
+<td></td>
+<td>Root configuration for source directories</td>
+</tr>
+<tr>
+<td></td>
+<td><code>root</code></td>
+<td>Root directory for all source files (e.g., <code>source</code>)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>presentation_root</code></td>
+<td>Directory for storing individual presentation decks (e.g., <code>decks</code>)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>libraries</code></td>
+<td>Directory for storing shared libraries and assets (e.g., <code>lib</code>)</td>
+</tr>
+<tr>
+<td><code>packages</code></td>
+<td></td>
+<td>Configuration for Reveal.js and associated plugins</td>
+</tr>
+<tr>
+<td></td>
+<td><code>reveal.js</code></td>
+<td>The version of Reveal.js to be used (e.g., <code>5.1.0</code>)</td>
+</tr>
+<tr>
+<td><code>packages.reveal_plugins</code></td>
+<td></td>
+<td>Plugins configuration for Reveal.js</td>
+</tr>
+<tr>
+<td></td>
+<td><code>built_in</code></td>
+<td>List of built-in plugins to include (e.g., <code>notes</code>, <code>highlight</code>, <code>math</code>)</td>
+</tr>
+<tr>
+<td></td>
+<td><code>external</code></td>
+<td>External plugins with their versions and download URLs</td>
+</tr>
+<tr>
+<td></td>
+<td><code>plugin_configurations</code></td>
+<td>Specific configurations for each plugin</td>
+</tr>
+<tr>
+<td><code>theme</code></td>
+<td></td>
+<td>Path to the custom theme CSS file (e.g., <code>custom_theme/theme.css</code>)</td>
+</tr>
+<tr>
+<td><code>reveal_template</code></td>
+<td></td>
+<td>Name of the Jinja2 template file for generating the presentation HTML</td>
+</tr>
+<tr>
+<td><code>toc_template</code></td>
+<td></td>
+<td>Path to the Jinja2 template file for generating the table of contents HTML</td>
+</tr>
+<tr>
+<td><code>logging</code></td>
+<td></td>
+<td>Logging level for setup and build processes (e.g., <code>error</code>, see <a href="https://docs.python.org/3/library/logging.html#levels">logging docs</a>.)</td>
+</tr>
+<tr>
+<td><code>highlight_theme</code></td>
+<td></td>
+<td>Path to the highlight.js theme CSS file (e.g., <code>custom_theme/hybrid.css</code>)</td>
+</tr>
+<tr>
+<td><code>custom_scripts</code></td>
+<td></td>
+<td>Array of custom JavaScript files to include in the presentation</td>
+</tr>
+<tr>
+<td><code>force_plugin_download</code></td>
+<td></td>
+<td>Boolean to force re-download of plugins, even if they are already present</td>
+</tr>
+<tr>
+<td><code>reveal_configurations</code></td>
+<td></td>
+<td>Configuration options for Reveal.js (see <a href="https://revealjs.com/config/">Reveal configuration</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="specifications-on-select-configurations">Specifications On Select Configurations</h2>
+<h3 id="packagesreveal_pluginsexternal"><code>packages.reveal_plugins.external</code></h3>
+<p>External plugins are optional, so the <code>external</code> field may be omitted. However, inclusion of external packages should be in the form of:</p>
+<pre><code class="language-json">{
+  &quot;packages&quot;: {
+    &quot;reveal.js&quot;: &quot;5.1.0&quot;,
+    &quot;reveal_plugins&quot;: {
+      &quot;external&quot;: {
+        &quot;plugin1-name&quot;: {
+          &quot;version&quot;: &quot;0.0.0&quot;,
+          &quot;url&quot;: &quot;https://path/to/url.tar.gz&quot;
+        },
+        &quot;plugin2-name&quot;: {
+          &quot;version&quot;: &quot;1.0.4&quot;
+        }
+      }
+    }
+  }, // other config options
+}
+</code></pre>
+<p>Where <code>url</code> may be omitted if the package is locatable on npm with the template:</p>
+<pre><code class="language-python">plugin_url = f&quot;https://registry.npmjs.org/{plugin}/-/{plugin}-{version}.tgz&quot;
+</code></pre>
+<p>Additionally, the <code>alias</code> and <code>main</code> fields can be used to specify a different name for npm and the main JavaScript file, respectively:</p>
+<pre><code class="language-json">{
+  &quot;packages&quot;: {
+    &quot;reveal.js&quot;: &quot;5.1.0&quot;,
+    &quot;reveal_plugins&quot;: {
+      &quot;external&quot;: {
+        &quot;plugin1-name&quot;: {
+          &quot;version&quot;: &quot;0.0.0&quot;,
+          &quot;url&quot;: &quot;https://path/to/url.tar.gz&quot;
+        },
+        &quot;plugin2-name&quot;: {
+          &quot;version&quot;: &quot;1.0.4&quot;,
+          &quot;alias&quot;: &quot;npm-plugin-name&quot;,
+          &quot;main&quot;: &quot;main-file&quot;,
+          &quot;export&quot;: &quot;plugTwo&quot;
+        }
+      }
+    }
+  }, // other config options
+}
+</code></pre>
+<ul>
+<li><code>alias</code>: Specifies the npm package name if it differs from the plugin name.</li>
+<li><code>main</code>: Specifies the main JavaScript file name if it differs from the plugin name. The <code>.js</code> extension is optional.</li>
+<li><code>export</code>: Specifies the name of the object created when importing the plugin if different from the plugin name.</li>
+</ul>
+<p>RevealPack will automatically cache downloaded plugins in the <code>directories.source.root</code> directory in a sub-folder <code>cached</code>. These plugins will be copied, unmodified, upon <a href="../build/"><code>build</code></a> and a reference will be generated with the expected relative reference:</p>
+<pre><code class="language-html">&lt;script src=&quot;./src/plugin/{alias}/{main}.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  Reveal.initialize({
+    ... // other configurations
+    plugins: [&quot;{export || name}&quot;]
+  });
+&lt;/script&gt;
+
+</code></pre>
+<p>Where <code>{alias}</code> and <code>{main}</code> are placeholders for the alias and main file name, respectively. If <code>alias</code> is not provided, <code>{plugin}</code> will be used as the placeholder for the plugin name. Thus, the plugin shall have, e.g., <code>plugin2-name.js</code> or <code>main-file.js</code> in the unpacked directory. This is a common convention at the time of writing for Reveal.js plugins. Note that the directory unpacked from the url, or npm repo, download will be automatically named <code>f"{plugin}-{version}"</code> during the download and setup process. The optional <code>export</code> parameter specifies to construct the plugin name for Reveal as the value of <code>export</code>, otherwise it will use the plugin name. In our example above, we would get: <code>plugins: ['plugTwo']</code> in our reveal template file. If not provided, the assumed exported name is the capitalized version of the plugin name, e.g., <code>"Plugin2-name"</code> as above.</p>
+<p>If needed, the possible extensions for the <code>url</code> may be one of: <code>.zip</code>, <code>.tar.gz</code>, or <code>.js</code>. In the <code>.js</code> case, the JavaScript file will be downloaded to the cached directory under <code>f"{plugin}-{version}/{plugin}.js"</code>.</p>
+<p>Here is an example of how to use the <code>alias</code> and <code>main</code> fields:</p>
+<pre><code class="language-json">{
+  &quot;packages&quot;: {
+    &quot;reveal.js&quot;: &quot;5.1.0&quot;,
+    &quot;reveal_plugins&quot;: {
+      &quot;external&quot;: {
+        &quot;vizzy&quot;: {
+          &quot;version&quot;: &quot;1.0.3&quot;,
+          &quot;alias&quot;: &quot;vizzy-custom&quot;,
+          &quot;main&quot;: &quot;vizzy-main&quot;
+        }
+      }
+    }
+  }
+}
+</code></pre>
+<p>In this example, the plugin will be referenced in the HTML as:</p>
+<pre><code class="language-html">&lt;script src=&quot;./src/plugin/vizzy-custom/vizzy-main.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<h3 id="custom_scripts"><code>custom_scripts</code></h3>
+<p>The <code>custom_scripts</code> configuration option allows you to include custom JavaScript files in your Reveal.js presentations. These scripts are specified in the <code>config.json</code> file and will be copied to the build directory during the build process. Each script will be inserted into the head of the generated HTML template, ensuring they are included in your presentation.</p>
+<h4 id="configuration">Configuration</h4>
+<p>In your <code>config.json</code> file, add an array under the <code>custom_scripts</code> key with the names of your JavaScript files. These scripts should be located in a subdirectory of the project root called <code>custom_scripts</code>.</p>
+<p>Example <code>config.json</code>:</p>
+<pre><code>{
+  &quot;custom_scripts&quot;: [
+    &quot;custom1.js&quot;,
+    &quot;custom2.js&quot;
+  ]
+}
+</code></pre>
+<h4 id="how-it-works">How It Works</h4>
+<ol>
+<li><strong>Specify Scripts</strong>: List your custom JavaScript files in the <code>custom_scripts</code> array in <code>config.json</code>.</li>
+<li><strong>File Location</strong>: Ensure that the specified scripts are placed in the <code>custom_scripts</code> directory in the project root.</li>
+<li><strong>Build Process</strong>: During the build process, these scripts will be copied to the <code>&lt;build&gt;/&lt;libraries&gt;/custom_scripts/</code> directory.</li>
+<li><strong>Template Insertion</strong>: The build process will insert the appropriate <code>&lt;script&gt;</code> tags into the head of the generated HTML template for each custom script.</li>
+</ol>
+<p>Example script tags inserted into the HTML template:</p>
+<pre><code>&lt;script src=&quot;./lib/custom_scripts/custom1.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;./lib/custom_scripts/custom2.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>By configuring <code>custom_scripts</code>, you can easily include custom functionality and extend your Reveal.js presentations with additional JavaScript code.</p>
+<h2 id="example-configjson">Example <code>config.json</code></h2>
+<p>Here is an example of what your <code>config.json</code> might look like:</p>
+<pre><code class="language-json">{
+  &quot;info&quot;: {
+    &quot;project_title&quot;: &quot;My Reveal.js Lectures&quot;,
+    &quot;short_title&quot;: &quot;revealLectures&quot;,
+    &quot;version&quot;: &quot;1.0.0&quot;,
+    &quot;authors&quot;: [&quot;Your Name&quot;]
+  },
+  &quot;directories&quot;: {
+    &quot;build&quot;: &quot;dist&quot;,
+    &quot;source&quot;: {
+      &quot;root&quot;: &quot;source&quot;,
+      &quot;presentation_root&quot;: &quot;decks&quot;,
+      &quot;libraries&quot;: &quot;lib&quot;
+    }
+  },
+  &quot;packages&quot;: {
+    &quot;reveal.js&quot;: &quot;5.1.0&quot;,
+    &quot;reveal_plugins&quot;: {
+      &quot;built_in&quot;: [
+        &quot;notes&quot;,
+        &quot;highlight&quot;,
+        &quot;math&quot;
+      ],
+      &quot;external&quot;: {
+        &quot;vizzy&quot;: {
+          &quot;version&quot;: &quot;1.0.4&quot;,
+          &quot;alias&quot;: &quot;vizzy-reveal&quot;,
+          &quot;main&quot;: &quot;vizzy&quot;
+        },
+      },
+      &quot;plugin_configurations&quot;: {
+        &quot;mathjax3&quot;: {
+          &quot;mathjax&quot;: &quot;https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.6/tex-mml-chtml.js&quot;,
+          &quot;loader&quot;: {
+            &quot;load&quot;: [
+              &quot;[tex]/html&quot;
+            ]
+          },
+          &quot;tex&quot;: {
+            &quot;packages&quot;: {
+              &quot;'[+]'&quot;: [
+                &quot;html&quot;
+              ]
+            },
+            &quot;inlineMath&quot;: [
+              [&quot;$&quot;,&quot;$&quot;],
+              [&quot;\\(&quot;,&quot;\\)&quot;]
+            ]
+          },
+          &quot;options&quot;: {
+            &quot;skipHtmlTags&quot;: [
+              &quot;script&quot;,
+              &quot;noscript&quot;,
+              &quot;style&quot;,
+              &quot;textarea&quot;,
+              &quot;pre&quot;
+            ]
+          }
+        },
+        &quot;notes&quot;: {},
+        &quot;highlight&quot;: {},
+        &quot;vizzy&quot;: {
+          &quot;autoRunTransitions&quot;: true,
+          &quot;autoTransitionDelay&quot;: 100,
+          &quot;devMode&quot;: false,
+          &quot;onSlideChangedDelay&quot;: 0
+        }
+      }
+    }
+  },
+  &quot;theme&quot;: &quot;custom_theme/theme.css&quot;,
+  &quot;reveal_template&quot;: &quot;reveal_template.html&quot;,
+  &quot;toc_template&quot;: &quot;toc_template.html&quot;,
+  &quot;logging&quot;: &quot;detailed&quot;,
+  &quot;highlight_theme&quot;: &quot;custom_theme/hybrid.css&quot;,
+  &quot;custom_scripts&quot;: [],
+  &quot;force_plugin_download&quot;: true,
+  &quot;reveal_configurations&quot;: {
+    &quot;controls&quot;: true,
+    &quot;progress&quot;: true,
+    &quot;slideNumber&quot;: true,
+    &quot;history&quot;: true,
+    &quot;center&quot;: true,
+    &quot;transition&quot;: &quot;slide&quot;
+  }  
+}
+</code></pre>
+<h4 id="rendered-reveal-jinja2-template">Rendered Reveal (Jinja2) Template</h4>
+<pre><code class="language-html">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot;&gt;
+        &lt;title&gt;{{deck.title}}&lt;/title&gt;
+        &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;lib\favicon.png&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;./src/css/reset.css&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;./src/css/reveal.css&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;./src/theme/drG.css&quot;&gt;
+        &lt;!-- highlight.js theme --&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;./src/theme/hybrid.css&quot;&gt;
+        &lt;!-- Custom Scripts --&gt;
+
+        &lt;!-- Print PDF script --&gt;
+        &lt;script&gt;
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? './src/css/print/pdf.css' : './src/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        &lt;/script&gt;
+
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;reveal&quot;&gt;
+            &lt;div class=&quot;slides&quot;&gt;
+                {% if deck.titlepage %}
+                &lt;section id=&quot;deck-title-slide&quot; {%- if deck.titlepage.background -%}{%- for i,v in deck.titlepage.background.items() -%} data-background-{{ i }}=&quot;{{ v }}&quot;{%- endfor -%}{%- endif -%}&gt;
+                    &lt;div class=&quot;title-slide&quot;&gt;
+                    {% if deck.titlepage.image %}
+                        &lt;div class=&quot;image&quot; style=&quot;background-image: url({{ deck.titlepage.image }});&quot;&gt;
+                        &lt;/div&gt;
+                    {% endif %}
+                    &lt;div class=&quot;headline&quot;&gt;
+                        {% if deck.titlepage.headline %}
+                        {% for line in deck.titlepage.headline %}
+                        {% if loop.first %}
+                        &lt;h2 class=&quot;r-fit-text&quot;&gt;{{ line|title }}&lt;/h2&gt;
+                        {% else %}
+                        &lt;h3&gt;{{ line|title }}&lt;/h3&gt;
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    &lt;/div&gt;
+                    &lt;div class=&quot;sub-header&quot;&gt;
+                        {% if deck.titlepage.by %}
+                        {% for by in deck.titlepage.by %}
+                        &lt;p class=&quot;by&quot;&gt;{{ by }}&lt;/p&gt;
+                        {% endfor %}
+                        {% endif %}
+                    &lt;/div&gt;
+                    &lt;div class=&quot;byline&quot;&gt;
+                        {% if deck.titlepage.byinfo %}
+                        {% for byinfo in deck.titlepage.byinfo %}
+                        &lt;p class=&quot;byinfo&quot;&gt;{{ byinfo }}&lt;/p&gt;
+                        {% endfor %}
+                        {% endif %}
+                    &lt;/div&gt;
+                    &lt;div class=&quot;background&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    {% if deck.titlepage.notes %}
+                    &lt;aside class=&quot;notes&quot;&gt;
+                    {% for note in deck.titlepage.notes %}&lt;p&gt;{{ note }}&lt;/p&gt;
+                    {% endfor %}
+                    &lt;/aside&gt;
+                    {% endif %}
+                &lt;/section&gt;
+                {% endif %}
+                {% set section_count = namespace(n = 0) -%}
+                {% for slide in deck.slides %}
+                {% if slide.sectiontitle %}
+                {% set section_count.n = section_count.n + 1 %}
+                &lt;section id=&quot;section-title-{{ section_count.n }}&quot;{% if slide.sectiontitle.image -%}
+                 data-background-image=&quot;{{ slide.sectiontitle.image.url }}&quot;{% for key, value in slide.sectiontitle.image.items() if key != 'url' -%} data-background-{{ key }}=&quot;{{ value }}&quot;{% endfor -%}
+                 {%- elif slide.sectiontitle.color -%}
+                 data-background-color=&quot;{{ slide.sectiontitle.color }}&quot;
+                 {%- elif slide.sectiontitle.gradient -%}
+                 data-background-gradient=&quot;{{ slide.sectiontitle.gradient }}&quot;
+                 {%- endif -%}&gt;
+                    &lt;div class=&quot;grid-wrapper&quot;&gt;
+                        &lt;div class=&quot;section-title-content&quot;  id=&quot;section-content-{{ section_count.n }}&quot;&gt;
+                        &lt;div class=&quot;section-number&quot;&gt;
+                            &lt;span class=&quot;large-number&quot;&gt;{{ section_count.n }}&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;headlines&quot;&gt;
+                            {% for line in slide.sectiontitle.headline %}
+                            {% if loop.first %}
+                            &lt;h2 class=&quot;r-fit-text&quot;&gt;{{ line|title }}&lt;/h2&gt;
+                            {% else %}
+                            &lt;h3&gt;{{ line|title }}&lt;/h3&gt;
+                            {% endif %}
+                            {% endfor %}
+                        &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    {{ slide.content }}
+                {% else %}
+                &lt;section {{ slide.attributes|to_html_attrs|safe }}&gt;
+                    {{ slide.content }}
+                {% endif %}
+                &lt;/section&gt;
+                {% endfor %}
+            &lt;/div&gt;
+            {% if deck.footer %}
+            &lt;footer class=&quot;main-footer&quot;&gt;
+                &lt;span&gt;{{ deck.footer.left if deck.footer.left is defined else '' }}&lt;/span&gt;
+                &lt;span style=&quot;text-align:center;&quot;&gt;{{ deck.footer.middle if deck.footer.middle is defined else '' }}&lt;/span&gt;
+                &lt;span style=&quot;text-align:right;&quot;&gt;{{ deck.footer.right if deck.footer.right is defined else '' }}&lt;/span&gt;
+            &lt;/footer&gt;
+            {% endif %}
+        &lt;/div&gt;
+        &lt;script src=&quot;./src/reveal.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;./src/plugin/notes/notes.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;./src/plugin/highlight/highlight.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;./src/plugin/math/math.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;./src/plugin/vizzy/vizzy.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;./src/plugin/reveal.js-menu/reveal.js-menu.js&quot;&gt;&lt;/script&gt;
+        &lt;script&gt;
+            Reveal.initialize({
+              center: false,
+              controls: true,
+              controlsBackArrows: &quot;faded&quot;,
+              controlsLayout: &quot;bottom-right&quot;,
+              display: &quot;block&quot;,
+              fragments: true,
+              hideAddressBar: true,
+              hideCursorTime: 5000,
+              keyboard: true,
+              mobileViewDistance: 3,
+              mouseWheel: false,
+              navigationMode: &quot;default&quot;,
+              overview: true,
+              pdfMaxPagesPerSlide: 1,
+              pdfSeparateFragments: false,
+              preloadIframes: true,
+              progress: false,
+              showSlideNumber: &quot;print&quot;,
+              sortFragmentsOnSync: true,
+              touch: true,
+              transition: &quot;fade&quot;,
+              transitionSpeed: &quot;default&quot;,
+              viewDistance: 3,
+              width: 1920,
+              height: 1080,
+              margin: 0.125,
+              minScale: 0.1,
+              maxScale: 1.25,
+              plugins: [ RevealNotes, RevealHighlight, RevealMath, Vizzy ],
+              mathjax3: {
+                mathjax: &quot;https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.6/tex-mml-chtml.js&quot;,
+                loader: {
+                  load: [
+                    &quot;[tex]/html&quot;,
+                  ],
+                },
+                tex: {
+                  packages: {
+                    '[+]': [
+                      &quot;html&quot;,
+                    ],
+                  },
+                  inlineMath: [
+                    [&quot;$&quot;, &quot;$&quot;],
+                    [&quot;\\(&quot;, &quot;\\)&quot;],
+                  ],
+                },
+                options: {
+                  skipHtmlTags: [
+                    &quot;script&quot;,
+                    &quot;noscript&quot;,
+                    &quot;style&quot;,
+                    &quot;textarea&quot;,
+                    &quot;pre&quot;,
+                  ],
+                },
+              },
+              notes: {
+
+              },
+              highlight: {
+
+              },
+              vizzy: {
+                autoRunTransitions: true,
+                autoTransitionDelay: 100,
+                devMode: true,
+                onSlideChangedDelay: 0,
+              },
+            });
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Khlick/RevealPack" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/khrisgriffis/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.footnote.tooltips", "header.autohide"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>

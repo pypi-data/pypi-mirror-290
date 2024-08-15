@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RevealPack"
+version = "1.0.8"
+authors = [
+  { name="Khris Griffis, Ph.D.", email="khris.griffis.phd@gmail.com" }
+]
+description = "A CLI tool for managing Reveal.js presentation packages"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "click",
+    "beautifulsoup4",
+    "jinja2",
+    "pyyaml",
+    "requests",
+    "watchdog",
+    "flask",
+    "libsass",
+    "pathlib"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Khlick/RevealPack"
+Issues = "https://github.com/Khlick/RevealPack/issues"
+
+[project.scripts]
+revealpack = "revealpack.cli:cli"
+
+[tool.setuptools.package-data]
+"revealpack" = ["assets/**/*", "site/**/*"]
