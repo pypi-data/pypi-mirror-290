@@ -1,0 +1,109 @@
+# MIPaquetito
+
+MIPaquetito es un pequeño paquete que permite ver mi Python en 4k full hd 1 link mega no fake, 
+no me lo bajo porque yo mismo lo hice.
+
+## Tabla de Contenidos
+
+- [Características](#características)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
+
+## Características
+
+- [Es Pequeña]
+- [Tierna]
+- [Maquina de Guerraa!!!!]
+- [Gay el que lee!]
+
+## Instalación
+
+Para instalar MIPaquetito, sigue estos pasos:
+
+1. **Clona el repositorio:**
+
+    ```bash
+    git clone https://github.com/tu-usuario/MIPaquetito.git
+    ```
+
+2. **Accede al directorio del proyecto:**
+
+    ```bash
+    cd MIPaquetito
+    ```
+
+3. **Instala las dependencias:**
+
+    Si estás usando [Node.js](https://nodejs.org/), ejecuta:
+
+    ```bash
+    npm install
+    ```
+
+    O si estás usando [Python](https://www.python.org/), asegúrate de tener un entorno virtual activado y ejecuta:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **[Otros pasos específicos de instalación, si es necesario]**
+
+## Uso
+
+Para usar MIPaquetito, sigue estas instrucciones:
+
+1. **Ejecuta el proyecto:**
+
+    - Para Node.js:
+
+      ```bash
+      npm start
+      ```
+
+    - Para Python:
+
+      ```bash
+      python main.py
+      ```
+
+2. **[Instrucciones adicionales sobre cómo utilizar el proyecto]**
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas contribuir a MIPaquetito, por favor sigue estos pasos:
+
+1. **Haz un fork del repositorio.**
+2. **Crea una nueva rama:**
+
+    ```bash
+    git checkout -b mi-nueva-funcionalidad
+    ```
+
+3. **Realiza tus cambios y haz un commit:**
+
+    ```bash
+    git commit -am 'Añade una nueva funcionalidad'
+    ```
+
+4. **Envía un pull request.**
+
+Por favor, asegúrate de seguir las [normas de contribución](CONTRIBUTING.md) y de que tus cambios pasen las pruebas. 
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE). Consulta el archivo `LICENSE` para más detalles.
+
+## Contacto
+
+Para cualquier pregunta o comentario, por favor contacta a:
+
+- **Nombre:** [Tu Nombre]
+- **Correo Electrónico:** [tu.email@ejemplo.com]
+- **GitHub:** [https://github.com/tu-usuario](https://github.com/tu-usuario)
+
+Gracias por usar MIPaquetito. ¡Esperamos que te sea útil!
+
+
