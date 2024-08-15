@@ -1,0 +1,25 @@
+[tools.setuptools]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "skymap_model"
+version = "0.0.1"
+authors = [
+ { name="Anna", email="amineva.aa19@physics.msu.ru" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.10.0"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://ru.wikipedia.org"
+Issues = "https://ru.wikipedia.org"
