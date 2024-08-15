@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: laminci
+Version: 0.14.0
+Summary: Internal CI tools.
+Author-email: Lamin Labs <laminlabs@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: uv
+Requires-Dist: nox
+Requires-Dist: lamin_utils
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Requires-Dist: boto3
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: lamindb_setup ; extra == "dev"
+Requires-Dist: PyGithub ; extra == "doc-changes"
+Requires-Dist: pydantic>=2.0.0 ; extra == "doc-changes"
+Requires-Dist: pydantic-settings ; extra == "doc-changes"
+Requires-Dist: httpx>=0.15.5,<0.26.0 ; extra == "doc-changes"
+Requires-Dist: email-validator ; extra == "doc-changes"
+Requires-Dist: Jinja2 ; extra == "doc-changes"
+Project-URL: Home, https://github.com/laminlabs/laminci
+Provides-Extra: dev
+Provides-Extra: doc-changes
+
+# laminci: Internal CI tools
+
+From PyPI (sometimes outdated):
+
+```
+pip install laminci
+```
+
+From GitHub:
+
+```
+pip install git+https://github.com/laminlabs/laminci
+```
+
