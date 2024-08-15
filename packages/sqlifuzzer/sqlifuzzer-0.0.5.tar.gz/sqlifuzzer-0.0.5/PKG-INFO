@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: sqlifuzzer
+Version: 0.0.5
+Summary: Python script to fuzz for SQL injection vulnerabilities in URL and input parameters.
+Home-page: https://github.com/sapphicart/sqli-fuzzer
+Author: Shruti Priya
+Author-email: sapphicart <shrutipriya44@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Shruti Priya
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/sapphicart/sqli-fuzzer
+Project-URL: Issues, https://github.com/sapphicart/sqli-fuzzer/issues
+Keywords: python,sqli-vulnerability-scanner,sqlinjection
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: urllib3
+Requires-Dist: colorama
+
+<h1 align="center">SQLi Fuzzer</h1>
+
+<p align="center">
+  <a href="#summary">Summary</a> •
+  <a href="#requirements">Requirements</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#to-do">To Do</a> •
+  <a href="#license">License</a>
+</p>
+
+<img align="center">![alt text](example.png)</img>
+
+## Summary
+
+SQLi Fuzzer is a tool made for personal use. This tool fuzzes for URL or input parameters vulnerable to SQL Injections. The file `url_fuzz.txt` currently contains basic `ORDER BY` SQL queries passed in URL parameter. The default wordlist includes SQL queries in plaintext, url encoding and hex encoding.
+
+**Warning: The tool is currently under development. I cannot gurantee successful utilisation.**
+
+## Requirements
+- Python 3.xx
+
+## Installation
+A few Python libraries are required for successfully usage. These libraries can be downloaded with the `requirements.txt` file.
+```bash
+# Clone this repository
+$ git clone https://github.com/sapphicart/sqli-fuzzer.git
+
+# Change directories
+$ cd sqli-fuzzer
+
+# Install required dependencies
+pip install -r requirements.txt
+```
+
+## Usage 
+Use the `--help` switch to read the `OPTIONS` available.
+```bash
+$ python sqlifuzzer.py --help
+Usage: sqlifuzzer.py [OPTIONS]
+
+Options:
+  -u, --url TEXT        The URL to fuzz
+  -v, --verify BOOLEAN  SSL certificate verification. Default True
+  -w, --wordlist TEXT   /path/to/wordlist.txt
+  --help                Show this message and exit.
+```
+Example:
+```bash
+$ python sqlifuzzer.py -u https://redtiger.labs.overthewire.org/level1.php -v False -w url_fuzz.txt
+```
+
+## To Do
+Upcoming features:
+- Input parameters fuzzing
+- HTTP Verbs (GET, POST, PUT) fuzzing
+- Diverse wordlist
+
+## License
+Distributed under [MIT](LICENSE) License.
