@@ -1,0 +1,5 @@
+[console_scripts]
+docr=docr.cmdline:main
+docs=docr.docs_commands:serve
+docs-build=docr.docs_commands:build
+
