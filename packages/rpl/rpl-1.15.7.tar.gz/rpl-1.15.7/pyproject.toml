@@ -1,0 +1,69 @@
+[project]
+name = "rpl"
+version = "1.15.7"
+description = "Replace strings in files"
+license = {text = "GPL v3 or later"}
+authors = [
+    {name = "Reuben Thomas", email = "rrt@sc3d.org"}
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+dependencies = [
+    "regex >= 2022.3.2",
+    "chardet",
+    "chainstream",
+]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/rrthomas/rpl"
+Source = "https://github.com/rrthomas/rpl"
+
+[project.scripts]
+rpl = "rpl:main"
+
+[build-system]
+requires = [
+    "argparse-manpage[setuptools] >= 4.2",
+    "pytest-datafiles",
+    "regex >= 2022.3.2",
+    "chardet",
+    "chainstream",
+]
+
+[tool.build_manpages]
+manpages = [
+    "rpl.1:module=rpl:function=get_parser:manual_title=User Commands:include=man-include.1",
+]
+
+[tool.mypy]
+exclude = [
+    '^dist',
+    '^build',
+    '^tests-output',
+]
+strict = true
+
+[tool.pylint.main]
+# Use multiple processes to speed up Pylint: 0 = auto-detect.
+jobs = 0
+
+[tool.pylint.format]
+good-names = "e,f,i,o,r,s,fn"
+disable = [
+    "fixme",
+    "consider-using-f-string",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "too-many-arguments",
+    "too-many-locals",
+    "too-many-branches",
+    "too-many-statements",
+    "global-statement",
+]
+enable = [
+    "useless-suppression",
+]
