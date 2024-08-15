@@ -1,0 +1,59 @@
+from dataclasses import dataclass
+
+from launchflow.aws.resource import AWSResource
+from launchflow.models.enums import ResourceProduct
+from launchflow.models.flow_state import EnvironmentState
+from launchflow.node import Outputs
+from launchflow.resource import ResourceInputs
+
+
+@dataclass
+class ACMCertificateInputs(ResourceInputs):
+    domain_name: str
+
+
+@dataclass
+class ACMCertificateOutputs(Outputs):
+    domain_name: str
+
+
+class ACMCertificate(AWSResource[ACMCertificateOutputs]):
+    """An ACM Certificate resource.
+
+    ****Example usage:****
+    ```python
+    import launchflow as lf
+
+    certificate = lf.aws.ACMCertificate("my-certificate")
+    ```
+    """
+
+    product = ResourceProduct.AWS_ACM_CERTIFICATE
+
+    def __init__(
+        self,
+        name: str,
+        domain_name: str,
+    ) -> None:
+        """Creates a new Application Load Balancer.
+
+        **Args:**
+        - `name (str)`: The name of the Application Load Balancer.
+        - `domain_name (str)`: The domain name to use for the certificate.
+        """
+        super().__init__(name=name)
+        self.domain_name = domain_name
+
+    def inputs(self, environment_state: EnvironmentState) -> ACMCertificateInputs:
+        """Get the inputs for the ACM Certificate.
+
+        **Args:**
+        - `environment_state (EnvironmentState)`: The environment to get inputs for.
+
+        **Returns:**
+        - An `ACMCertificateInputs` object containing the inputs for the ACM Certificate.
+        """
+        return ACMCertificateInputs(
+            resource_id=self.resource_id,
+            domain_name=self.domain_name,
+        )
