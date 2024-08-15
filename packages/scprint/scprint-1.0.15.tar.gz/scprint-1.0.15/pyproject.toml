@@ -1,0 +1,101 @@
+[tool.poetry]
+name = "scprint"
+version = "1.0.15"
+license = "MIT"
+description = "scPRINT is a Large Cell Model for Gene Network Inference, Denoising and more from scRNAseq data"
+authors = ["jeremie kalfon"]
+readme = ["README.md", "LICENSE"]
+repository = "https://github.com/jkobject/scPRINT"
+keywords = ["scRNAseq","transformer","GRN","gene regulatory network","scPRINT","large cell model","foundation model"]
+
+[tool.poetry.dependencies]
+lamindb = "0.75.1"
+bionty = "0.48.0"
+python = ">=3.10,<3.11"
+cellxgene-census = "*"
+anndata = "*"
+matplotlib = "*"
+seaborn = "*"
+gseapy = "*"
+ipykernel = "*"
+owlready2 = "*"
+huggingface_hub = "*"
+biomart = "*"
+scib = "*"
+scikit-learn = "*"
+scipy = "*"
+pandas = ">=2.0.0"
+numpy = "*"
+leidenalg = "*"
+decoupler = "*"
+Bio = "*"
+attridict = "*"
+gget = "*"
+fair-esm = "*"
+hydra-core = "*"
+lightning = "*"
+pynndescent = ">=0.5.11"
+scDataLoader = "*"
+GRnnData = "*"
+BenGRN = "*"
+einops = "*"
+rich = "*"
+typeshed-client = "*"
+tensorboardX = "*"
+jsonargparse = "*"
+docstring-parser = "*"
+wandb = "*"
+wandb-core = "*"
+pykeops = "*"
+louvain = "*"
+hdbscan = "*"
+scib-metrics = "*"
+scikit-misc = "*"
+zarr = "*"
+tensorly = "*"
+torch = "2.2.0"
+triton = {version = "2.2.0", optional = true}
+torchvision = "*"
+torchaudio = "*"
+torchtext = "*"
+torchdata = "*"
+pytorch-fast-transformers = { version = "*", optional = true }
+pytest = { version = "^7.4.3", optional = true }
+coverage = { version = "^7.3.2", optional = true }
+flake8 = { version = "^6.1.0", optional = true }
+black = { version = "^23.10.1", optional = true }
+isort = { version = "^5.12.0", optional = true }
+pytest-cov = { version = "^4.1.0", optional = true }
+mypy = { version = "^1.6.1", optional = true }
+gitchangelog = { version = "^3.0.4", optional = true }
+mkdocs = { version = "^1.5.3", optional = true }
+
+[tool.poetry.extras]
+dev = [
+    "pytest",
+    "coverage",
+    "flake8",
+    "black",
+    "isort",
+    "pytest-cov",
+    "mypy",
+    "gitchangelog",
+    "mkdocs",
+    "mkdocs-git-revision-date-localized-plugin",
+    "mkdocstrings",
+    "mkdocs-git-authors-plugin",
+    "mkdocs-jupyter",
+    "mkdocstrings-python"
+]
+
+flash = [
+    "triton",
+    "pytorch-fast-transformers"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+scprint = 'scprint.__main__:main'
