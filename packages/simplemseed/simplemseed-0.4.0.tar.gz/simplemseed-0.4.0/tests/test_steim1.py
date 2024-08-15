@@ -1,0 +1,40 @@
+import pytest
+import simplemseed
+import math
+
+import numpy as np
+# 1.2 to 2.0 errors
+np._set_promotion_state("weak_and_warn")
+
+class TestSteim1:
+
+    def test_simple_encode_data(self):
+        data = [1, 2, -10, 45, -999, 4008] + [129] * 1000
+        numSamples = len(data)
+        encoded = simplemseed.encodeSteim1(data)
+        decoded = simplemseed.decodeSteim1(encoded, numSamples, 0)
+        assert len(decoded) == len(data)
+        for i in range(len(data)):
+            assert decoded[i] == data[i]
+
+    def test_sized_encode_data(self):
+        data = [1, 2, -10, 45, -999, 4008] + [
+            (int)(499 * math.sin(i)) for i in range(100000)
+        ]
+        totalNumSamples = len(data)
+        idx = 0
+        while len(data) > 0:
+            frameBlock = simplemseed.encodeSteim1FrameBlock(data, 63)
+            assert len(frameBlock.steimFrameList) <= 63
+            encoded = frameBlock.pack()
+            assert len(encoded) == len(frameBlock.steimFrameList) * 64
+            decoded = simplemseed.decodeSteim1(
+                encoded, frameBlock.numSamples, 0
+            )
+            assert len(decoded) == frameBlock.numSamples
+            for i in range(frameBlock.numSamples):
+                assert decoded[i] == data[i]
+            idx += frameBlock.numSamples
+            print(f"packed {frameBlock.numSamples}, idx: {idx} of {totalNumSamples}")
+            data = data[frameBlock.numSamples :]
+        assert idx == totalNumSamples
