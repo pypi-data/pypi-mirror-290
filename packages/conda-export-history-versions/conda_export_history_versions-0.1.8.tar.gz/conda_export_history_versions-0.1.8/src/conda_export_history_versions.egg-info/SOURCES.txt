@@ -1,0 +1,12 @@
+LICENSE
+pyproject.toml
+readme.md
+src/conda_export_history_versions/__init__.py
+src/conda_export_history_versions/parse_conda_env.py
+src/conda_export_history_versions.egg-info/PKG-INFO
+src/conda_export_history_versions.egg-info/SOURCES.txt
+src/conda_export_history_versions.egg-info/dependency_links.txt
+src/conda_export_history_versions.egg-info/entry_points.txt
+src/conda_export_history_versions.egg-info/requires.txt
+src/conda_export_history_versions.egg-info/top_level.txt
+tests/test_parse_conda_env.py
