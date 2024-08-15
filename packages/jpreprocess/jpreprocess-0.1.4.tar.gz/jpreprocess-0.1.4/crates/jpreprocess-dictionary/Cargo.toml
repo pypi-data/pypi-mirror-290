@@ -1,0 +1,27 @@
+[package]
+name = "jpreprocess-dictionary"
+edition = "2021"
+
+version.workspace = true
+description.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+rust-version.workspace = true
+
+documentation = "https://docs.rs/jpreprocess-dictionary"
+
+[dependencies]
+bincode.workspace = true
+byteorder.workspace = true
+anyhow.workspace = true
+once_cell.workspace = true
+
+lindera-core.workspace = true
+lindera-ipadic-builder.workspace = true
+lindera-tokenizer.workspace = true
+
+serde.workspace = true
+
+jpreprocess-core.workspace = true
