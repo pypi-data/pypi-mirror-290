@@ -1,0 +1,47 @@
+Metadata-Version: 2.3
+Name: frankford
+Version: 0.1
+Summary: Use the CUDA system to fit multiple datasets simultaneously using the Levenberg–Marquardt algorithm
+Project-URL: Homepage, https://github.com/ed-o-saurus/frankford
+Project-URL: Issues, https://github.com/ed-o-saurus/frankford/issues
+Project-URL: Documentation, https://frankford.readthedocs.io/
+Author-email: Ed Behn <ed@behn.us>
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 12
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: cffi>=1.16.0
+Requires-Dist: numba>=0.58.1
+Requires-Dist: numpy>=1.25.2
+Requires-Dist: pynvjitlink-cu12>=0.3.0
+Description-Content-Type: text/markdown
+
+## Copyright
+
+Python code copyright (C) 2024 Edward F. Behn, Jr.
+
+Translated from MINPACK-1 in FORTRAN, Apr-Jul 1998, CM
+Copyright (C) 1997-2002, Craig Markwardt
+This software is provided as is without any warranty whatsoever.
+Permission to use, copy, modify, and distribute modified or
+unmodified copies is granted, provided this copyright and disclaimer
+are included unchanged.
+
+## License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
