@@ -1,0 +1,17 @@
+README.md
+setup.py
+efcFile/__init__.py
+efcFile.egg-info/PKG-INFO
+efcFile.egg-info/SOURCES.txt
+efcFile.egg-info/dependency_links.txt
+efcFile.egg-info/requires.txt
+efcFile.egg-info/top_level.txt
+efcFile/interfaces/FileStorageInterface.py
+efcFile/interfaces/__init__.py
+efcFile/managers/FileStorageManager.py
+efcFile/managers/__init__.py
+efcFile/providers/LocalFileStorage.py
+efcFile/providers/OSSFileStorage.py
+efcFile/providers/QiniuFileStorage.py
+efcFile/providers/S3FileStorage.py
+efcFile/providers/__init__.py
