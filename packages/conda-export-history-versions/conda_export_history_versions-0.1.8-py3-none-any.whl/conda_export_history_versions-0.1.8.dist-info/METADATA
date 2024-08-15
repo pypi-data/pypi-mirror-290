@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: conda-export-history-versions
+Version: 0.1.8
+Summary: A script for exporting conda environments, combining historical package information with version specifications.
+Author-email: David Sestu <david.sestu@gmail.com>
+License: MIT License
+        
+        Copyright (c) [year] [fullname]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/DSestu/conda-export-history-versions
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML
+
+# conda_export_history_versions
+
+Tools designed for the exportation of conda environments from historical records, incorporating pinned version specifications.
+
+## Table of Contents
+
+- [conda\_export\_history\_versions](#conda_export_history_versions)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+
+## Description
+
+The utility `conda_export_history_versions` enables the exportation of version history for Conda environments. This functionality facilitates the tracking of temporal changes, environment reproduction, and debugging of package version-related issues.
+
+## Installation
+
+```bash
+pip install conda_export_history_versions
+```
+
+## Usage
+
+Help:
+
+```bash
+conda_export_history_versions -h
+```
+
+```
+Export conda environment with version information.
+
+options:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  Export the modified yml into a file
+  -n NAME, --name NAME  Name of the conda environment
+```
+
+Example:
+
+```bash
+conda_export_history_versions -n environment_name
+```
+
+```bash
+name: environment_name
+channels:
+  - conda-forge
+dependencies:
+  - ca-certificates==2024.2.2
+  - ipykernel==6.29.3
+  - openssl==3.3.0
+  - python=3.10
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
