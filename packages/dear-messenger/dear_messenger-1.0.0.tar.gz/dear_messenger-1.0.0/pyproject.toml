@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "dear-messenger"
+version = "1.0.0"
+description = "Example implementation of grpc-messenger using dearpygui"
+authors = ["Ignacio de la Torre <ignaciodlta@gmail.com>"]
+maintainers = ["Ignacio de la Torre <ignaciodlta@gmail.com>"]
+classifiers = [
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Topic :: Communications",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: User Interfaces",
+    "Typing :: Typed"
+]
+repository = "https://github.com/IgnaciodelaTorreArias/grpc-messenger"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.scripts]
+# Manually change to gui
+dear-messenger = { reference = 'dear_messenger.__main__:main', type = 'console' }
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psutil = "^6.0.0"
+dearpygui = "^1.11.1"
+grpc-messenger = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

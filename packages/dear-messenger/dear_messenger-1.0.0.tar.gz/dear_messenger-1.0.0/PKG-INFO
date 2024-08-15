@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dear-messenger
+Version: 1.0.0
+Summary: Example implementation of grpc-messenger using dearpygui
+Home-page: https://github.com/IgnaciodelaTorreArias/grpc-messenger
+License: MIT
+Author: Ignacio de la Torre
+Author-email: ignaciodlta@gmail.com
+Maintainer: Ignacio de la Torre
+Maintainer-email: ignaciodlta@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Typing :: Typed
+Requires-Dist: dearpygui (>=1.11.1,<2.0.0)
+Requires-Dist: grpc-messenger (>=1.0.0,<2.0.0)
+Requires-Dist: psutil (>=6.0.0,<7.0.0)
+Project-URL: Repository, https://github.com/IgnaciodelaTorreArias/grpc-messenger
+Description-Content-Type: text/markdown
+
+
+---
+
+Example implementation of [grpc-messenger](https://github.com/IgnaciodelaTorreArias/grpc-messenger) using dearpygui
+
+---
+
+# Installation
+
+> python -m pip install dear-messenger
+
+# Usage
+
+> python -m dear_messenger
+
+or
+
+> dear-messenger
