@@ -1,0 +1,24 @@
+[project]
+name = "raritan"
+version = "3.6.3.47759"
+authors = [
+  { name="Raritan OSS Team", email="oss@raritan.com" },
+]
+description = "Raritan/Servertech PDU JSON-RPC bindings"
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://www.raritan.com/support"
+Documentation = "https://help.raritan.com/json-rpc/pdu/v3.6.3/"
+Changelog = "https://cdn.raritan.com/download/px3/version-3.6.3/PDU_JSON_RPC_Changelog_3.6.3_47759.txt"
