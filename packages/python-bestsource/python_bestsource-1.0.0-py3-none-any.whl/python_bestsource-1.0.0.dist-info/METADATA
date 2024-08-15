@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: python-bestsource
+Version: 1.0.0
+Summary: Python helpers to manipulate video from vapoursynth
+Home-page: http://github.com/sosie-js/python-bestsource
+Author: sosie-js
+Author-email: sosie@sos-productions.com
+License: GPL
+Keywords: vapoursynth python bestsource helper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+
+# <img src="https://github.com/sosie-js/python-bssource/blob/1.0.0/icons/python-bssource.png?raw=true" alt="logo" width="32"> python-bestsource
+
+[![Python](https://img.shields.io/badge/Python%20->=3.10-blue)](https://www.python.org/) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)  
+
+A library helper for producing and manipulating videos with audio support in vapoursynth using [bestsource](https://github.com/vapoursynth/bestsource)
+
+## Current state
+
+Sound is working with vspreview as soon as Track1 is selected in the Playback sub panel hidden by default and play is triggered
+for a video that has sound and has not been trimmed. I provide a test video in test/ and two examples scripts
+
+### trim.vpy: 
+
+Shows how trim is handled with video that has sound - the player I used is a forked vspreview 0.7.1 
+to fix bug in main/window.py that has been handled in new version of vspreview. Easy answer from authors 
+is you upgrade your python version due to requirement in one dependency vstools to have the fix done 
+with new versions of vspreview. 
+
+### frame.vpy
+
+Show frame props of a clip different ways. Under scite you can trigger vspreview with [F5]
+or compile - In test I let you the scite config file. Both works fine for a non trimed video. 
+
+### aegisub audio tests support in vapoursynth
+
+This requires vapoursynth fork from Arch1t3cht and the use of [peagisub](https://github.com/sosie-js/peagisub-vs) 
+for vapoursynth plugin dir configuration. Two subtitles files are provided:
+
+Open tests/VTS_01_1-trim100.ass
+then tests/VTS_01_1-trim100.vpy delivers video as channel 0 and audio as channel 1
+this is not supported by current release that disable Open AUdio from Video feature. 
+>As I did not find a way to know which type of channel audio or video is requested.
+>I opened thus a [Request for feature](https://github.com/arch1t3cht/Aegisub/issues/148)
+
+Open tests/VTS_01_1-trim100-video-audio.ass 
+then tests/VTS_01_1-trim100-video.vpy delivers video  as channel 0 
+then tests/VTS_01_1-trim100-audio.vpy delivers audio  as channel 0 (separately in time)
+>this works if you ensure plays does not goes outside boundary ie frame 101
+>else you will be flooded by popups. Play and seeking work fine and did not stall in middle
+>there is just a minor problem with the horizonthal zoom for audio
+
+## Installation
+
+as local user
+
+```shell
+pip3 install -U python-bssource
+```
+
+for all
+
+```shell
+sudo pip3 install python-bssource
+```
+
+
+For those who want to bridge to [arch1tech's aegisub fork](https://github.com/arch1t3cht/Aegisub/tree/vapoursynth), use my lua helper [peagisub](https://github.com/sosie-js/peagisub-vs) to get the path of the vapoursynth plugin needed by aegisub_vs.py. 
+
+
+## Limitations / Considerations
+
+The choice for authors of vspreview not wanting to fix broken old versions for reason of time
+and efficiency, claiming fixes has been done with recent versions is understable. 
+>However, this means forcing everybody to upgrade python to the latest release to make it work 
+>this requirement exludes normal ubuntu end users stalled with python 3.10. 
+>Python support does not follow such a rule and let two precedent version open. 
+
+In addition refusing contributions and considering everyone is working in a developper 
+destop env is another thing 
+>Normally, this does not allow arrogance as a group of developpers a place to insult 
+>others and trigger ban first to show their superiority and then dicussion.
+
+For now what we can expect is from this: player stalling and sound goes outside boundaries when you insists
+on resuming play. It may have bee fixed in latest release of vspreview.
+>It is not quite clear that it comes from vspreview as the trim part is still experimental and
+>when I trimed to the length of video making normally the video untouched, the audio problems arise.
+
+## History
+
+
+**1.0.0** - First release
+
+
+## Contributing
+
+Feel free to add other object and fixes.
+
+## Development
+
+### Compile .egg
+
+```shell
+$ ./package.sh
+```
+
+### Upload to PyPI
+
+1. Create an API Token from the Web UI. (Edit your `~/.pypirc` with the generated token.)
+2. Install Twine
+```shell
+$ python3 -m pip install --user --upgrade twine
+```
+3. Upload the bundle
+```shell
+$ python3 -m twine upload dist/*
+```
+
+Note: The upload to PyPI is currently assured by GitHub Actions.
+
+
+### Release
+
+1. Increase the version number in `setup.py`.
+2. Commit and push.
+3. Create a new tag in GitHub to trigger the CI pipeline.
+
+
+
