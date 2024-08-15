@@ -1,0 +1,81 @@
+[project]
+name = "PathTraverser"
+version = "2.0.0"
+description = "Traversing file system in Python easily"
+authors = [
+    { name = "Hubert Tarnacki", email = "hubert.tarnacki@gmail.com" },
+]
+maintainers = [
+    { name = "Hubert Tarnacki", email = "hubert.tarnacki@gmail.com" },
+]
+readme = "README.md"
+keywords = [
+    "traverse",
+    "walk",
+    "list",
+    "files",
+    "directories",
+    "dirs",
+    "filesystem",
+    "path",
+    "paths",
+]
+classifiers = [
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Filesystems",
+    "Programming Language :: Python",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+homepage = "https://github.com/htarnacki/PathTraverser"
+repository = "https://github.com/htarnacki/PathTraverser"
+"bug tracker" = "https://github.com/htarnacki/PathTraverser/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff",
+]
+test = [
+    "tox",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+excludes = [
+    "tests/",
+]
+
+[tool.black]
+line-length = 120
+
+[tool.autopep8]
+max_line_length = 120
+
+[tool.yapf]
+max-line-length = 120
+column_limit = 120
+
+[tool.flake8]
+max-line-length = 120
+
+[tool.ruff]
+line-length = 120
+extend-select = [
+    "E501",
+]
+ignore = [
+    "E402",
+]
