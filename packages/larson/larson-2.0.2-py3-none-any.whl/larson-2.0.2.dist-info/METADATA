@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: larson
+Version: 2.0.2
+Summary: Library for managing secrets
+Home-page: https://github.com/pbs/larson
+Author: PBS
+Author-email: 
+Requires-Python: >=3.3
+License-File: LICENSE
+Requires-Dist: boto3 <2.0.0,>=1.5.0
+Requires-Dist: click >=6.0.0
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
