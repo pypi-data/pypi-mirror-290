@@ -1,0 +1,35 @@
+[project]
+name = "disbonfire"
+version = "0.0.0"
+description = "High level Discord library built on top of Nextcore."
+authors = [
+    { name = "Emma Terzioglu", email = "emreterzioglu49@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: AsyncIO",
+    "Framework :: aiohttp",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Typing :: Typed",
+]
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
