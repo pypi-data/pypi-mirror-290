@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools >= 61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghoauth"
+version = "0.8.0"
+description = "OAuth Provider Library for Python 3"
+
+authors = [
+  {name = "Kohei YOSHIDA", email = "kohei.yoshida@gehirn.co.jp"},
+]
+
+dependencies = [
+    "WebOb ~= 1.8",
+    "jwt ~= 1.2",
+    "python-jose[cryptography] ~= 3.0",
+    "rfc3986 ~= 1.4",
+]
+
+requires-python = ">= 3.8"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Security",
+]
+
+[project.urls]
+Repository = "https://github.com/GehirnInc/ghoauth.git"
+
+[project.optional-dependencies]
+dev = [
+  "black ~= 24.8.0",
+  "isort ~= 5.12",
+  "mypy ~= 1.11",
+]
+
+test = [
+  "pytest ~= 8.0",
+  "pytest-cov ~= 5.0",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov --cov-report term"
+
+[tool.coverage.run]
+source = ["ghoauth"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.black]
+line-length = 79
+target-version = ["py38", "py39", "py310", "py311", "py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 79
+multi_line_output = 3
+force_grid_wrap = 2
+
+# https://github.com/PyCQA/isort/issues/2156
+# lines_before_imports = 1
+ensure_newline_before_comments = true
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_incomplete_stub = true
+warn_unused_ignores = true
