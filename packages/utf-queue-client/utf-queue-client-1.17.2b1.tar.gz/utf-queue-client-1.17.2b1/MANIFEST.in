@@ -1,0 +1,20 @@
+# Include all Python files
+include *.py
+
+# Include all JSON files in a specific folder
+graft utf_queue_client/models/schemas/utf_queue_models/schema
+
+# Exclude all compiled Python files
+# global-exclude *.pyc
+# global-exclude *.pyo
+
+# Exclude specific directories
+prune __pycache__
+prune tests/
+prune test/
+
+# Include specific text files
+# include *.txt
+
+# Exclude all files in a particular directory
+# recursive-exclude unwanted_directory *
