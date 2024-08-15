@@ -1,0 +1,81 @@
+
+# 2024-08-14 21:49:11.135239
++migrate from setuptools to hatchling
+
+# 2024-08-14 21:50:47.337648
++do i need init and about? cant i use these in pyproject? 
+
+# 2024-08-14 22:05:49.372294
++this is ready for release at this point imo, any improvements?
+
+# 2024-08-14 22:07:08.001821
++[{
++	"resource": "/Users/avi/itau-uy-api/src/itau_uy_api.py",
++	"owner": "_generated_diagnostic_collection_name_#11",
++	"code": {
++		"value": "no-any-return",
++		"target": {
++			"$mid": 1,
++			"path": "/en/latest/_refs.html",
++			"scheme": "https",
++			"authority": "mypy.readthedocs.io",
++			"fragment": "code-no-any-return"
++		}
++	},
++	"severity": 8,
++	"message": "Returning Any from function declared to return \"str\"",
++	"source": "Mypy",
++	"startLineNumber": 261,
++	"startColumn": 25,
++	"endLineNumber": 261,
++	"endColumn": 41
++},{
++	"resource": "/Users/avi/itau-uy-api/src/itau_uy_api.py",
++	"owner": "_generated_diagnostic_collection_name_#11",
++	"code": {
++		"value": "no-any-return",
++		"target": {
++			"$mid": 1,
++			"path": "/en/latest/_refs.html",
++			"scheme": "https",
++			"authority": "mypy.readthedocs.io",
++			"fragment": "code-no-any-return"
++		}
++	},
++	"severity": 8,
++	"message": "Returning Any from function declared to return \"list[dict[str, Any]]\"",
++	"source": "Mypy",
++	"startLineNumber": 322,
++	"startColumn": 13,
++	"endLineNumber": 322,
++	"endColumn": 63
++},{
++	"resource": "/Users/avi/itau-uy-api/src/itau_uy_api.py",
++	"owner": "_generated_diagnostic_collection_name_#11",
++	"code": {
++		"value": "no-any-return",
++		"target": {
++			"$mid": 1,
++			"path": "/en/latest/_refs.html",
++			"scheme": "https",
++			"authority": "mypy.readthedocs.io",
++			"fragment": "code-no-any-return"
++		}
++	},
++	"severity": 8,
++	"message": "Returning Any from function declared to return \"list[dict[str, Any]]\"",
++	"source": "Mypy",
++	"startLineNumber": 330,
++	"startColumn": 13,
++	"endLineNumber": 330,
++	"endColumn": 82
++}]
+
+# 2024-08-14 22:28:51.203024
++git command to clean commit history, create a new commit with staged files and squash all previous ones, i want to remove my alternate email from commit history on github
+
+# 2024-08-14 22:33:29.299933
++I messed up, i have master as default branch on remote, main with an unverified commit, i want to replace main with a new initial release commit and remove master
+
+# 2024-08-14 22:33:40.989251
++yes, give me the comamdns
