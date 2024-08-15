@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mdi2img
+Version: 1.0.1
+Summary: A module that allows you to convert mdi files to tiff and other formats
+Home-page: https://github.com/Hanra-s-work/MDI2IMG
+Author: Henry Letellier
+Author-email: henrysoftwarehouse@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: window-asset-tkinter==1.0.3
+
+# MDI2TIFF
+This is a python library/program the piggybacks of the MDI2TIFF binary created by Microsoft in order to help you convert, view, ect mdi file using python
