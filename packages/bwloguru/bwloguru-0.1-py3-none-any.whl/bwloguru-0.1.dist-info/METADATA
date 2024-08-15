@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: bwloguru
+Version: 0.1
+Summary: 一个基于loguru封装的日志记录器
+Author-email: bw <1329696875@qq.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: loguru >=0.7.2
+
+## 便捷日志工具包
+> 当前版本0.1
+
+## 说明
+#### 提供统一创建日志记录器的能力。日志记录分两种：
+1. 控制台记录器，用于调试时在控制台输出日志；
+2. 文件记录，用文件记录打印出的日志，可按日期滚动。
+- 控制台打印的日志，日志默认等级为DEBUG；
+- 文件日志记录中，支持异步写入文件
+
+
+## 使用
+``` bash
+pip install bwloguru
+```
+
+
+## 示例
+- 日志输出到控制台
+``` python
+from bwloguru import BwLogings
+logger = BwLogings(file_handler=False).logger
+logger.debug('bw nb')
+```
+
+
+- 日志添加到文件记录器
+``` python
+from os.path import dirname, abspath, join
+from bwloguru import BwLogings
+
+LOG_DIR = join(dirname(dirname(abspath(__file__))), 'log')
+logger = BwLogings( log_dir=LOG_DIR).logger
+logger.info('test')
+
+``` 
