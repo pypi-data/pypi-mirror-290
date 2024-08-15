@@ -1,0 +1,44 @@
+Metadata-Version: 2.3
+Name: mod-manager
+Version: 0.2.0
+Project-URL: Documentation, https://github.com/Joshua Luckie/mod-manager#readme
+Project-URL: Issues, https://github.com/Joshua Luckie/mod-manager/issues
+Project-URL: Source, https://github.com/Joshua Luckie/mod-manager
+Author-email: Joshua Luckie <luckie.joshua.c@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: click
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# mod-manager
+
+[![PyPI - Version](https://img.shields.io/pypi/v/mod-manager.svg)](https://pypi.org/project/mod-manager)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mod-manager.svg)](https://pypi.org/project/mod-manager)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install mod-manager
+```
+
+## License
+
+`mod-manager` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
