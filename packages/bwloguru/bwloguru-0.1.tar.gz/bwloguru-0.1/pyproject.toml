@@ -1,0 +1,23 @@
+# 具体编辑参考https://blog.csdn.net/qq_40738764/article/details/134263322#:~:text=2.1%20%E5%AE%89%E8%A3%85%20build%20%E5%BA%93%20pip%20install
+# 打包方式 进入make_logger_project 执行python -m build
+[project] #这里配置了打包的基本信息，包括包名、版本、作者等信息。
+name = "bwloguru"
+version = "0.1"
+authors = [
+    {name = "bw", email = "1329696875@qq.com"}
+]
+description = "一个基于loguru封装的日志记录器"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "loguru>=0.7.2"
+]
+
+[build-system]  #指定了构建系统的要求，包括使用的后端和所需的最小依赖
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
