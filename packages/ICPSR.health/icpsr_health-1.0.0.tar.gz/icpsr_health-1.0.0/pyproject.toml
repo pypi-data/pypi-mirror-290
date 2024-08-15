@@ -1,0 +1,88 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ICPSR.health"
+dynamic = ["version"]
+description = 'Library for monitoring the readiness of a service and its dependencies.'
+readme = "README.md"
+requires-python = ">=3.7"
+license = "Apache-2.0"
+keywords = []
+authors = [
+  { name = "Faelin Landy", email = "faelin@umich.edu" },
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: System :: Monitoring",
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://gitlab.icpsr.umich.edu/icpsr/dev/data-engineering/libraries/health-monitor#readme"
+Issues = "https://gitlab.icpsr.umich.edu/icpsr/dev/data-engineering/libraries/health-monitor/issues"
+Source = "https://gitlab.icpsr.umich.edu/icpsr/dev/data-engineering/libraries/health-monitor"
+
+[publish.index.repos.gitlab]
+url = "https://gitlab.icpsr.umich.edu/api/v4/projects/icpsr-python-package/packages/pypi"
+
+[tool.hatch.version]
+path = "src/ICPSR/health/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ICPSR/health"]
+
+[tool.coverage.run]
+source_pkgs = ["ICPSR/health", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/ICPSR/health/__about__.py",
+]
+
+[tool.coverage.paths]
+icpsr_health = ["src/ICPSR/health", "*/health-monitor/src/ICPSR/health"]
+tests = ["tests", "*/health-monitor/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "src"
+]
+
+[build.targets.wheel]
+packages = ["src/ICPSR/health"]
+
+[version]
+source = "vcs"
+
+[envs.test]
+paths = ["src"]
+
+[[envs.test.matrix]]
+python = ["3.12", "3.11", "3.10", "3.9", "3.8", "3.7"]
+
+[envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/icpsr_health tests}"
