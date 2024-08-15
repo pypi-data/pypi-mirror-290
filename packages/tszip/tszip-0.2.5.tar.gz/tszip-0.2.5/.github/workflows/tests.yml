@@ -1,0 +1,65 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main, test]
+
+jobs:
+  pre-commit:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{ github.token }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - uses: pre-commit/action@v3.0.0
+
+  test:
+    name: Python
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        python: [ 3.9, 3.12 ]
+        os:  [ macos-latest, ubuntu-latest, windows-latest ]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.12.1
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Install Conda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: anaconda-client-env
+          python-version: ${{ matrix.python }}
+          channels: conda-forge
+          channel-priority: strict
+          auto-update-conda: true
+
+      - name: Fix windows .profile
+        if: steps.cache.outputs.cache-hit != 'true' && matrix.os == 'windows-latest'
+        run: |
+          cp ~/.bash_profile ~/.profile
+
+      - name: Install conda deps
+        shell: bash -l {0} #We need a login shell to get conda
+        run: |
+          conda install --yes --file=requirements/CI-tests-conda.txt
+
+      - name: Run tests
+        run: |
+          source ~/.profile
+          conda activate anaconda-client-env
+          python -m pytest -xv -n2
