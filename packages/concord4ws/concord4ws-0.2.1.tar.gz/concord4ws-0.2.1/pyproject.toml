@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "concord4ws"
+version = "0.2.1"
+authors = ["Joey Eamigh <55670930+JoeyEamigh@users.noreply.github.com>"]
+description = "A package for interacting with the concord4ws server."
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+urls = { "Homepage" = "https://github.com/JoeyEamigh/concord4ws-py", "Bug Tracker" = "https://github.com/JoeyEamigh/concord4ws-py/issues" }
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websockets = "^12.0"
+pydantic = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
