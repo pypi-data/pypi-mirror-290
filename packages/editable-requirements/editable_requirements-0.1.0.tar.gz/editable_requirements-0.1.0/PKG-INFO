@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: editable-requirements
+Version: 0.1.0
+Summary: 
+Author: Luca Penasa
+Author-email: luca.penasa@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: attrs (>=24.2.0,<25.0.0)
+Requires-Dist: cattrs (>=23.2.3,<24.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: gitpython (>=3.1.43,<4.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: tomlkit (>=0.13.2,<0.14.0)
+Description-Content-Type: text/markdown
+
+
