@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Framework Test Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-900">
+    <div class="flex m-4 rounded-lg p-4">
+        <b class="text-3xl font-bold text-blue-900"></b>
+        <h1 class="text-3xl">UNBOUND REPORT</h1>
+    </div>
+    <div class="bg-gray-100 p-8 rounded-lg shadow-md max-w-full mx-5 mt-8 mb-8">
+
+        <div id="tab-section-1" class="tab-section">
+            <div class="text-center mb-4">
+                <h1 class="text-3xl ">Overview</h1>
+            </div>
+            <div class="flex flex-wrap justify-center gap-10 mt-8 mb-8 p-4 ">
+                <div class="flex-1 bg-white p-4 rounded-lg text-center">
+                    <div class="text-xl">Suites</div>
+                    <div class="chart-container">
+                        <canvas id="suiteChart" style="height: 40vh; width: 40vh"></canvas>
+                    </div>
+                    <div class="flex flex-wrap mt-4 text-left gap-5 justify-center">
+                        <div class="flex gap-5">
+                            <div class="font-medium">{{ suite_stats['total'] }} Total</div>
+                            <div class="text-green-600 font-medium">{{ suite_stats['passed'] }} Passed</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="text-red-600 font-medium">{{ suite_stats['failed'] }} Failed</div>
+                            <div class="text-yellow-600 font-medium">{{ suite_stats['skipped'] }} Skipped</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-1 bg-white p-4 rounded-lg text-center">
+                    <div class="text-xl">Tests</div>
+                    <div class="chart-container">
+                        <canvas id="testChart" style="height: 40vh; width: 40vh"></canvas>
+                    </div>
+                    <div class="flex flex-wrap mt-4 text-left gap-5 justify-center">
+                        <div class="flex gap-5">
+                            <div class="font-medium">{{ test_stats['total'] }} Total</div>
+                            <div class="text-green-600 font-medium">{{ test_stats['passed'] }} Passed</div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div class="text-red-600 font-medium">{{ test_stats['failed'] }} Failed</div>
+                            <div class="text-yellow-600 font-medium">{{ test_stats['skipped'] }} Skipped</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-8 mb-8 bg-white p-4 rounded-lg text-center">
+                <div class="text-xl">Test Outcomes Summary</div>
+                <div class="chart-container">
+                    <canvas id="chartSection2" height="500px"></canvas>
+                </div>
+            </div>
+            <div class="mt-8 mb-8 bg-white p-4 rounded-lg text-center">
+                <div class="text-xl">Trend of Test Results</div>
+                <div class="chart-container">
+                    <canvas id="chartSection3" height="500px"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab-section-2" class="tab-section">
+            <div class="text-center mb-4">
+                <h1 class="text-3xl ">Suites</h1>
+            </div>
+            <div id="accordion" class="space-y-4">
+                <!-- Suite 1 -->
+                {% for suite in suite_data %}
+                
+                <div class="bg-white shadow-md rounded-lg">
+                    <div class="p-4 flex justify-between items-center cursor-pointer accordion-header">
+                        <span class="flex items-center gap-2">
+                            <span class="text-lg font-semibold">{{ suite['name']}}</span>
+                            <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{suite['duration']}} s</span>
+                        </span>
+                        <span class="flex items-center gap-5">
+                            {% if suite['status'] == 'PASS' %}
+                                <span class="bg-green-500 text-white font-medium rounded py-2 px-4"> Pass </span>
+                            {% elif suite['status'] == 'FAIL' %}
+                                <span class="bg-red-500 text-white font-medium rounded py-2 px-4"> FAIL </span>
+                            {% elif suite['status'] == 'SKIP' %}
+                                <span class="bg-yellow-500 text-white font-medium rounded py-2 px-4"> SKIP </span>
+                            {% endif %}
+                            <svg class="w-6 h-6 text-gray-500 accordion-icon" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="accordion-content px-4 bg-gray-50"  style="overflow: auto">
+                        <!-- Timeline for Suite 1 -->
+                        <div class="relative" class="flex flex-row">
+                            {% if suite['setup'] != {} %}
+                            <!-- Setup -->
+                            <div class="flex items-center my-4">
+                                <div class="w-10">
+                                    {% if suite['setup']['status'] == 'PASS' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% elif suite['setup']['status'] == 'FAIL' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% elif suite['setup']['status'] == 'SKIP' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% endif %}
+
+
+                                </div>
+                                <div class="ml-4 flex flex-col items-start">
+                                    <p>
+                                        <span>{{suite['setup']['name']}} </span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{suite['setup']['duration']}} s</span>
+                                    </p>
+                                    <p class="text-gray-500 text-sm">{{suite['setup']['starttime']}}</p>
+                                </div>
+                            </div>
+                            <!-- Vertical line -->
+                            <div class="absolute left-4 top-0 h-full border-l-2 border-gray-200"
+                                style="margin-left: 1.25rem;"></div>
+                            {% endif %}
+
+                            {% for test in suite['tests'] %}
+                            <!-- Test 1 -->
+                            <div class="flex items-start my-4">
+                                <div class="w-10">
+                                    {% if test['status'] == 'PASS' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+
+                                    {% elif test['status'] == 'FAIL' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-white">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+
+                                    {% elif test['status'] == 'SKIP' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                                        <i class="fa-solid fa-forward"></i>
+                                    </div>
+
+                                    {% else %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+
+                                    {% endif %}
+                                </div>
+                                <div class="ml-4 flex flex-col items-start">
+                                    <div class="flex flex-col items-start cursor-pointer accordion-header">
+                                    <div class="flex gap-1">
+                                        <span>{{test['name']}} </span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{test['duration']}} s</span>
+                                        <div class="cursor-pointer">
+                                            <svg class="w-6 h-6 text-gray-500 accordion-icon" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M19 9l-7 7-7-7"></path>
+                                            </svg>
+                                        </div> 
+                                    </div>
+                                    <p class="text-gray-500 text-sm">{{test['starttime']}}</p>
+                                    
+                                    </div>
+                                    <div class="accordion-content">
+                                        <div class="flex mb-2 items-center">
+                                            <a href="{{log_file}}#{{test['id']}}" target="_blank">view detailed log <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </div>
+                                        
+                                        {% for keyword in test['keywords'] %}
+                                            {{ render_keywords(keyword) }}
+                                        {% endfor %}
+                                        
+                                    </div>
+                                </div>
+                                    
+                            </div>
+                            <!-- Vertical line -->
+                            <div class="absolute left-4 top-0 h-full border-l-2 border-gray-200"
+                                style="margin-left: 1.25rem;"></div>
+                            {% endfor %}
+
+                            {% if suite['teardown'] != {} %}
+                            <!-- Setup -->
+                            <div class="flex items-center my-4">
+                                <div class="w-10">
+                                    {% if suite['teardown']['status'] == 'PASS' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% elif suite['teardown']['status'] == 'FAIL' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% elif suite['teardown']['status'] == 'SKIP' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                                        <i class="fa-sharp-duotone fa-solid fa-gear"></i>
+                                    </div>
+                                    {% endif %}
+
+
+                                </div>
+                                <div class="ml-4 flex flex-col items-start">
+                                    <p>
+                                        <span>{{suite['teardown']['name']}} </span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{suite['teardown']['duration']}} s</span>
+                                    </p>
+                                    <p class="text-gray-500 text-sm">{{suite['teardown']['starttime']}}</p>
+                                </div>
+                            </div>
+                            <!-- Vertical line -->
+                            <div class="absolute left-4 top-0 h-full border-l-2 border-gray-200"
+                                style="margin-left: 1.25rem;"></div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+                {% if suite_data|length == 0 %}
+                    <div class="flex justify-center items-center gap-2">
+                        <h1 class="text-lg"> No Defects found</h1>
+                    </div>
+                {% endif %}
+            </div>
+            
+        </div>
+
+        <div id="tab-section-3" class="tab-section">
+            <div class="text-center mb-4">
+                <h1 class="text-3xl ">Defects</h1>
+            </div>
+            <div id="accordion" class="space-y-4">
+                
+                {% for error, tests in error_stats.items() %}
+                
+                <div class="bg-white shadow-md rounded-lg">
+                    <div class="p-4 flex justify-between items-center cursor-pointer accordion-header">
+                        <span class="flex items-center gap-2">
+                            <span class="text-lg font-semibold">{{ error }}</span>
+                        </span>
+                        <span class="flex items-center gap-5">
+                            
+                            <span class="bg-red-500 text-white font-medium rounded py-2 px-4"> FAIL </span>
+                            
+                            <svg class="w-6 h-6 text-gray-500 accordion-icon" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </span>
+                    </div>
+                    <div class="accordion-content px-4 bg-gray-50">
+                       
+                        <div class="relative" class="flex flex-row">
+                        
+                            {% for test in tests %}
+                            
+                            <div class="flex items-start my-4">
+                                <div class="w-10">
+                                    {% if test['status'] == 'PASS' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+
+                                    {% elif test['status'] == 'FAIL' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center text-white">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </div>
+
+                                    {% elif test['status'] == 'SKIP' %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center text-white">
+                                        <i class="fa-solid fa-forward"></i>
+                                    </div>
+
+                                    {% else %}
+                                    <div
+                                        class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+
+                                    {% endif %}
+                                </div>
+                                <div class="ml-4 flex flex-col items-start">
+                                    <div class="flex flex-col items-start cursor-pointer accordion-header">
+                                    <div class="flex gap-1">
+                                        <span>{{test['name']}} </span>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">{{test['duration']}} s</span>
+                                        <div class="cursor-pointer">
+                                            <svg class="w-6 h-6 text-gray-500 accordion-icon" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M19 9l-7 7-7-7"></path>
+                                            </svg>
+                                        </div> 
+                                    </div>
+                                    <p class="text-gray-500 text-sm">{{test['starttime']}}</p>
+                                    
+                                    </div>
+                                    <div class="accordion-content">
+                                        <div class="flex mb-2 items-center">
+                                            <a href="{{log_file}}#{{test['id']}}" target="_blank">view detailed log <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                        </div>
+                                        
+                                        {% for keyword in test['keywords'] %}
+                                            {{ render_keywords(keyword) }}
+                                        {% endfor %}
+                                        
+                                    </div>
+                                </div>
+                                   
+                            </div>
+                            <!-- Vertical line -->
+                            <div class="absolute left-4 top-0 h-full border-l-2 border-gray-200"
+                                style="margin-left: 1.25rem;"></div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% if error_stats|length == 0 %}
+                    <div class="flex justify-center items-center gap-2">
+                        <div class="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center text-white">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h1 class="text-lg"> No Defects found</h1>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="tab" class="fixed bottom-0 left-1/2 transform -translate-x-1/2  bg-white shadow-md flex rounded p-2 mb-2">
+        <div class="flex mr-2  rounded">
+            <a id="tab-btn-1"
+                class="tab-btn text-center block border border-white rounded hover:border-gray-200 hover:bg-gray-200 py-2 px-6"
+                href="#" data-tab="1">Overview</a>
+        </div>
+        <div class="flex mr-2 rounded">
+            <a id="tab-btn-2"
+                class="tab-btn text-center block border border-white rounded hover:border-gray-200 hover:bg-gray-200 py-2 px-4"
+                href="#" data-tab="2">Suites</a>
+        </div>
+        <div class="text-center flex rounded">
+            <a id="tab-btn-3"
+                class="tab-btn text-center block border border-white rounded hover:border-gray-200 hover:bg-gray-200 py-2 px-4"
+                href="#" data-tab="3">Defects</a>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            var tab_index = 1;
+            $('.tab-btn').on('click', function() {
+                var index = $(this).data('tab');
+                showTab(index);
+            })
+
+            function showTab(index){
+                $('.tab-section').hide();
+                $('#tab-section-'+index).show();
+                $('.tab-btn').removeClass('bg-blue-500 text-white').addClass('hover:bg-gray-200');
+                $('#tab-btn-'+index).addClass('bg-blue-500 text-white').removeClass('hover:bg-gray-200');
+            }
+
+            showTab(1);
+
+            
+            $('.accordion-header').click(function () {
+                const content = $(this).next('.accordion-content');
+                const icon = $(this).find('.accordion-icon');
+
+                // Close other open accordions
+                // $('.accordion-content').not(content).css('max-height', '0').prev().find('.accordion-icon').removeClass('transform rotate-180');
+
+                // Toggle current accordion
+                if (content.css('max-height') !== '0px') {
+                    content.css('max-height', '0');
+                    icon.removeClass('transform rotate-180');
+                } else {
+                    content.css('max-height', $(document).height()*1.5 + 'px');
+                    icon.addClass('transform rotate-180');
+                }
+            });
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Data for the charts (This should come from your Jinja context)
+            const suite_stats = {
+                totalTests: {{ suite_stats['total'] }},
+                passedTests: {{ suite_stats['passed'] }},
+                failedTests: {{ suite_stats['failed'] }},
+                skippedTests: {{ suite_stats['skipped'] }},
+            };
+
+            // Suite Pass/Fail Chart
+            const suiteChart = document.getElementById('suiteChart').getContext('2d');
+            new Chart(suiteChart, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Passed', 'Failed', 'Skipped'],
+                    datasets: [{
+                        data: [suite_stats.passedTests, suite_stats.failedTests, suite_stats.skippedTests],
+                        backgroundColor: ['#10B981', '#EF4444', '#FBBF24'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%'
+                }
+            });
+
+            // Test Pass/Fail Chart
+            const test_stats = {
+                totalTests: {{ test_stats['total'] }},
+                passedTests: {{ test_stats['passed'] }},
+                failedTests: {{ test_stats['failed'] }},
+                skippedTests: {{ test_stats['skipped'] }},
+            };
+
+            const testChart = document.getElementById('testChart').getContext('2d');
+            new Chart(testChart, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Passed', 'Failed', 'Skipped'],
+                    datasets: [{
+                        data: [test_stats.passedTests, test_stats.failedTests, test_stats.skippedTests],
+                        backgroundColor: ['#10B981', '#EF4444', '#FBBF24'],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '70%'
+                }
+            });
+
+            // Placeholder for other charts
+            const ctx2 = document.getElementById('chartSection2').getContext('2d');
+            new Chart(ctx2, {
+                type: 'bar', // Change as needed
+                data: {
+                    // Sample data
+                    labels: ['Passed', 'Failed', 'Skipped'],
+                    datasets: [
+                    {% for suite in suite_data %}
+                    {
+                        label: '{{ suite['name'] }}',
+                        data: [{{ suite['passed'] }}, {{ suite['failed'] }}, {{ suite['skipped'] }}],
+                        backgroundColor: ['#10B981', '#EF4444', '#FBBF24']
+                    },
+                    {% endfor %}
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+
+            const ctx3 = document.getElementById('chartSection3').getContext('2d');
+            new Chart(ctx3, {
+                type: 'line', // Change as needed
+                data: {
+                    // Sample data
+                    labels: [{% for test in suite_data[0]['tests'] %} 'Test {{loop.index}}',  {% endfor %}],
+                    datasets: [
+                    {% for suite in suite_data %}
+                    {
+                        label: '{{ suite['name'] }}',
+                        data: [{% for test in suite['tests'] %} {
+                            x: 'Test {{ loop.index }}',
+                            y: {{ test['duration'] }},
+                            test_name: '{{ test['name'] }}',
+                            status: '{{ test['status'] }}'
+                        }{% if not loop.last %}, {% endif %} {% endfor %}],
+                        backgroundColor: ['rgba(59, 130, 246, 0.5)'],
+                        borderColor: ['#3B82F6'],
+                        fill: false
+                    },
+                    {% endfor %}
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            type: 'category',
+                            labels: [{% for test in suite_data[0]['tests'] %} 'Test {{loop.index}}',  {% endfor %}]
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    var pointData = tooltipItem.raw;
+                                    return pointData.test_name + ': ' + pointData.y + ' ms (' + pointData.status + ')';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
