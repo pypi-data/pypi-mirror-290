@@ -1,0 +1,3 @@
+[console_scripts]
+cosmo-torrent-download = cosmo_torrent.cli:download
+cosmo-torrent-upload = cosmo_torrent.cli:upload
