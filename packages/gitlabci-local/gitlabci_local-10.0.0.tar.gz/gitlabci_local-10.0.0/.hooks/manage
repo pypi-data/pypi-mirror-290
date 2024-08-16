@@ -1,0 +1,173 @@
+#!/bin/bash
+
+# Variables
+help='false'
+install='false'
+run='false'
+result=0
+uninstall='false'
+
+# Missing arguments
+if [ -z "${*:-}" ]; then
+  help='true'
+  result=61 # ENODATA
+fi
+
+# Parse arguments
+while [ ! -z "${1:-}" ]; do
+  case "${1}" in
+    -h | --help)
+      help='true'
+      ;;
+    -i | --install)
+      install='true'
+      ;;
+    -r | --run)
+      run='true'
+      ;;
+    -u | --uninstall)
+      uninstall='true'
+      ;;
+    *)
+      help='true'
+      result=22 # EINVAL
+      ;;
+  esac
+  shift
+done
+
+# Helper
+if [ "${help}" = 'true' ] || [ "${params_unknown}" = 'true' ]; then
+  echo ''
+  echo -e " \033[1;33m[INFO] \033[0m\033[1mHelper usage:    \033[0m${0} [-h | --help]"
+  echo -e " \033[1;33m[INFO] \033[0m\033[1mInstall usage:   \033[0m${0} [-i | --install]"
+  echo -e " \033[1;33m[INFO] \033[0m\033[1mUninstall usage: \033[0m${0} [-u | --uninstall]"
+  echo -e " \033[1;33m[INFO] \033[0m\033[1mHooks usage:     \033[0m${0} [-r | --run]"
+  echo ''
+  exit "${result}"
+fi
+
+# Header
+echo ''
+
+# Install dependencies
+if [ "${install}" = 'true' ] || [ "${run}" = 'true' ]; then
+
+  # Install pre-commit dependency
+  if [ "${result}" -eq 0 ]; then
+    if ! type pre-commit >/dev/null 2>&1 || [ "${install}" = 'true' ]; then
+      if type pipx >/dev/null 2>&1; then
+        pipx uninstall pre-commit || true
+        pipx install pre-commit
+        result="${?}"
+      else
+        sudo pip uninstall pre-commit || true
+        sudo pip install pre-commit
+        result="${?}"
+      fi
+      echo ''
+    fi
+  fi
+
+  # Install commitizen dependency
+  if [ "${result}" -eq 0 ]; then
+    if ! type git-cz >/dev/null 2>&1 || [ "${install}" = 'true' ] || ! cz version | grep -q '^3.29.0.AdrianDC.20240813$'; then
+      if type pipx >/dev/null 2>&1; then
+        pipx uninstall commitizen || true
+        pipx install git+https://github.com/AdrianDC/commitizen.git@prerelease
+        result="${?}"
+      else
+        sudo pip uninstall commitizen || true
+        sudo pip install git+https://github.com/AdrianDC/commitizen.git@prerelease
+        result="${?}"
+      fi
+      echo ''
+    fi
+  fi
+
+  # Install argcomplete completion
+  if [ "${result}" -eq 0 ]; then
+    if ! grep -q 'argcomplete' ~/.bash_completion 2>/dev/null || ! grep -q 'argcomplete' ~/.zshenv 2>/dev/null; then
+      activate-global-python-argcomplete --user
+      result="${?}"
+      echo ''
+    fi
+  fi
+
+  # Install commitizen completion
+  if [ "${result}" -eq 0 ]; then
+    user_bashrc=''
+    if [ -e ~/.bash_user.rc ]; then
+      user_bashrc="${HOME}/.bash_user.rc"
+    else
+      user_bashrc="${HOME}/.bashrc"
+    fi
+    if ! grep -q 'register-python-argcomplete cz' "${user_bashrc}"; then
+      {
+        echo ''
+        echo '# register-python-argcomplete cz'
+        echo 'eval "$(register-python-argcomplete cz)"'
+      } >>"${user_bashrc}"
+    fi
+  fi
+
+fi
+
+# Install hooks
+if [ "${install}" = 'true' ]; then
+
+  # Configure local project
+  if [ "${result}" -eq 0 ]; then
+    git remote | xargs -i -n1 git remote set-head '{}' -a || true
+    echo ''
+  fi
+
+  # Install pre-commit hooks
+  if [ "${result}" -eq 0 ]; then
+    pre-commit install
+    result="${?}"
+    echo ''
+  fi
+
+  # Update pre-commit repositories
+  if [ "${result}" -eq 0 ]; then
+    pre-commit autoupdate
+    result="${?}"
+    echo ''
+  fi
+
+fi
+
+# Uninstall hooks
+if [ "${uninstall}" = 'true' ]; then
+
+  # Uninstall pre-commit hooks
+  if [ "${result}" -eq 0 ]; then
+    pre-commit uninstall
+    result="${?}"
+    echo ''
+  fi
+
+fi
+
+# Run hooks
+if [ "${install}" = 'true' ] || [ "${run}" = 'true' ]; then
+
+  # Run pre-commit hooks
+  if [ "${result}" -eq 0 ]; then
+    pre-commit run -a
+    result="${?}"
+    echo ''
+  fi
+
+  # Run commitizen checks
+  if [ "${result}" -eq 0 ]; then
+    cz check --rev-range HEAD^..HEAD
+    result="${?}"
+    echo ''
+  fi
+
+fi
+
+# Result
+exit "${result}"
