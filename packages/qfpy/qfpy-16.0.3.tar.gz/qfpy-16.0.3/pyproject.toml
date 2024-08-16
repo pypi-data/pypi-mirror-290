@@ -1,0 +1,23 @@
+[project]
+description = "qf 的 py 函数库。版本号规则：py文件数量.新函数.优化和修复"
+
+version = "16.0.3"
+
+dependencies = [
+    "zhconv",
+    "psutil",
+    "chepy",
+    "pycryptodome",
+    "loguru",
+    "pymupdf",
+    "pyautogui",
+    "pillow",
+    "pywin32",
+    "paddleocr"
+]
+
+
+name = "qfpy"
+authors = [{ name = "gqf", email = "gqfol@outlook.com" }]
+
+classifiers = ["Programming Language :: Python :: 3"]
