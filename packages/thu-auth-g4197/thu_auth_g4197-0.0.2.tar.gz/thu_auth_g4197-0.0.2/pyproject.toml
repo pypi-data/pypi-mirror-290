@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thu_auth_g4197"
+version = "0.0.2"
+authors = [
+    { name="g4197", email="cfhmgh@163.com" }
+]
+description = "A simple auth function for Tsinghua"
+dependencies = [
+    "requests",
+    "gmssl",
+    "binascii"
+]
