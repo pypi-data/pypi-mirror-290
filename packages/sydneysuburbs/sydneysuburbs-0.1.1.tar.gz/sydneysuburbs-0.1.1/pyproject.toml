@@ -1,0 +1,92 @@
+[project]
+name = "sydneysuburbs"
+version = "0.1.1"
+description = "A travle-like game for the suburbs of Sydney."
+license = "MIT"
+authors = [
+    { name = "robbievanleeuwen", email = "robbie.vanleeuwen@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+dependencies = [
+    "geopandas==1.0.1",
+    "libpysal==4.12.0",
+    "networkx==3.3",
+    "plotly==5.23.0",
+    "topojson==1.9",
+]
+homepage = "https://github.com/robbievanleeuwen/sydney-suburbs"
+repository = "https://github.com/robbievanleeuwen/sydney-suburbs"
+documentation = "https://sydney-suburbs.readthedocs.io"
+keywords = [
+    "travle",
+    "sydney",
+    "suburbs",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.12",
+]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "notebook~=7.2.1",
+    "pytest~=8.3.2",
+    "pre-commit~=3.8.0",
+    "ruff~=0.5.7",
+    "matplotlib~=3.9.0",
+    "coverage~=7.6.1",
+]
+
+[tool.rye.scripts]
+fmt = "rye fmt"
+lint = "rye lint --fix"
+test = "rye test"
+all = { chain = ["fmt", "lint", "test"] }
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+  "A",      # warn about shadowing built-ins
+  "B",      # flake8-bugbear
+  "C4",     # flake8-comprehensions
+  "D",      # pydocstyle
+  "E",      # pycodestyle errors
+  "F",      # pyflakes
+  "I",      # isort
+  "N",      # pep8-naming
+  "RUF",    # Ruff-specific
+  "S",      # flake8-bandit
+  "SIM",    # flake8-simplify
+  "UP",     # pyupgrade
+  "W",      # pycodestyle warnings
+]
+ignore = [
+  "B009",   # get-attr-with-constant
+  "S311",   # suspicious-non-cryptographic-random-usage
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore `S101` (assert) in all tests
+"tests/*" = ["S101"]
+
+[tool.ruff.lint.isort]
+# so it knows to group first-party stuff last
+known-first-party = ["sydneysuburbs"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true

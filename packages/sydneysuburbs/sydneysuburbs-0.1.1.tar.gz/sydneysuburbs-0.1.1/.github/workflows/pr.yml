@@ -1,0 +1,24 @@
+name: pr
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: eifinger/setup-rye@v4
+      - run: rye pin 3.12.4       # pin your Python version
+      - name: Sync                # abort if the lockfile changes
+        run: |
+          rye sync
+          if [[ $(git diff --stat requirements.lock) != '' ]]; then
+            echo 'Rye lockfile not up-to-date'
+            git diff requirements.lock
+            exit 1
+          fi
+      - run: rye fmt --check      # check formatting is correct
+      - run: rye lint             # and linting
+      - run: rye run test         # then run your tests!
