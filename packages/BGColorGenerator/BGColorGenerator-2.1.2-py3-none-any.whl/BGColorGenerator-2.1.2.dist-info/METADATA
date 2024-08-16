@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: BGColorGenerator
+Version: 2.1.2
+Summary: A package for predicting the background color based on text color using a trained neural network.
+Home-page: https://github.com/joaquinsc999/BGColorGenerator
+Author: Joaquín Francisco Solórzano Corea
+Author-email: joaquinscorea@gmail.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow>=2.0.0
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+# BGColorGenerator
+
+BGColorGenerator es una biblioteca de Python que predice el color de fondo ideal basado en un color de texto dado, utilizando un modelo de red neuronal preentrenado. Es una herramienta perfecta para diseÃ±adores, desarrolladores web y cualquiera que necesite generar combinaciones de colores visualmente atractivas y accesibles de manera automÃ¡tica.
+
+## InstalaciÃ³n
+
+Puedes instalar esta biblioteca directamente desde PyPI:
+
+```bash
+pip install bg_color_generator
+```
+
+## Uso
+
+### PredicciÃ³n del Color de Fondo
+
+El paquete incluye una funciÃ³n clave `get_bg_color` que te permite predecir el color de fondo ideal dado un color de texto en formato RGBA. TambiÃ©n puedes visualizar el contraste entre el color de texto y el color de fondo predicho. La funciÃ³n tiene activado por defecto
+la visualizaciÃ³n del contraste, si no la necesitas debes de seguiente ejemplo:
+
+```python
+from BGColorGenerator.utils.colorgenerator import get_bg_color
+
+# Definir el color del texto en formato RGBA
+text_color = [255, 255, 255, 1]  # Blanco opaco
+
+# Obtener el color de fondo recomendado y visualizar el contraste
+bg_color = get_bg_color(text_color, turn_off_visualization=True)
+print(f'Predicted background color: {bg_color}')
+```
+
+### Funciones Clave
+
+- **`get_bg_color(rgba_array, turn_off_visualization=False)`**: Predice el color de fondo ideal basado en un color de texto dado en formato RGBA. Opcionalmente, permite desactivar la visualizaciÃ³n del contraste entre el color de texto y el color de fondo predicho. Devuelve un array de forma `[R, G, B, A]` representando el color de fondo recomendado.
+
+- **`plot_contrast(color1, color2)`**: Visualiza el contraste entre dos colores en formato RGBA. Ãštil para evaluar visualmente cÃ³mo se verÃ¡ el texto sobre el fondo.
+
+## Requisitos
+
+Este paquete requiere las siguientes bibliotecas de Python:
+
+- `tensorflow>=2.0.0`
+- `matplotlib`
+- `pandas`
+
+Estas dependencias se instalarÃ¡n automÃ¡ticamente cuando uses `pip` para instalar `bg_color_generator`.
+
+## Ejemplos
+
+### PredicciÃ³n y VisualizaciÃ³n
+
+AquÃ­ hay un ejemplo completo de cÃ³mo predecir un color de fondo y visualizarlo junto al color de texto:
+
+```python
+from BGColorGenerator.utils.colorgenerator import get_bg_color
+from BGColorGenerator.utils.visualization import plot_contrast
+
+# Color del texto en RGBA (Rojo, Verde, Azul, Alpha)
+text_color = [255, 255, 255, 1]  # Blanco opaco
+
+# PredicciÃ³n del color de fondo y visualizaciÃ³n del contraste
+bg_color = get_bg_color(text_color)
+
+# Mostrar los colores
+print(f'Text color: {text_color}')
+print(f'Predicted background color: {bg_color}')
+```
+
+### Contribuyendo
+
+Si te gustarÃ­a contribuir a este proyecto, siÃ©ntete libre de hacer un fork del repositorio, crear una rama (`git checkout -b feature/nueva-feature`), hacer tus cambios y enviar un pull request. Apreciamos cualquier contribuciÃ³n que pueda mejorar el proyecto.
+
+### Licencia
+
+Este proyecto estÃ¡ licenciado bajo la Licencia MIT. Para mÃ¡s detalles, revisa el archivo [LICENSE](LICENSE).
+
+---
+
+**BGColorGenerator** - Facilita la elecciÃ³n de colores de fondo, mejorando la estÃ©tica y accesibilidad de tus proyectos.
