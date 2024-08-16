@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: vjmail
+Version: 1.1
+Summary: A simple library to centralize VJBots e-mails sendings.
+Home-page: https://github.com/Fioruci/vjmail
+Author: Fioruci
+Author-email: fiorucit@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# VJMail
+
+A simple library to centralize VJBots e-mails sendings to the controller.
+
+## Installation
+
+```bash
+pip install vjmail
+```
+
+## Usage
+Here is an example of how to use the `EmailSender` class:
+
+```python
+from vjmail import EmailSender
+
+# Configure the email sender with your SMTP server details
+email_sender = EmailSender(
+    smtp_server='smtp.example.com',
+    username='your_email@example.com',
+    password='your_password',
+    smtp_port=587  # Optional, can be omitted if not required
+)
+
+# Send an email
+email_sender.send_email(
+    from_addr='your_email@example.com',
+    subject='Test Email',
+    body='This is a test email sent using EmailSender library.',
+    to_add='another@gmail.com' # Optional. If it is an Alert to the Controller (VJBots2023), can be ommited
+)
+```
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
