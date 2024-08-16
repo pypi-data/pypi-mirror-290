@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rapidata
+Version: 0.1.0
+Summary: Rapidata package containing the Rapidata Python Client to interact with the Rapidata Web API in an easy way.
+License: Apache-2.0
+Author: Marian Kannwischer
+Author-email: marian.kannwischer@t-online.de
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyJWT (>=2.9.0,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# rapidata-python
+Python client to interface with the Rapidata API
+
