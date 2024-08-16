@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cppyythonizations"
+authors = [
+  {name = "Julian Rüth", email = "julian.rueth@fsfe.org"},
+]
+description = "A collection of Pythonizations for cppyy"
+readme = "README.md"
+classifiers = [
+  "License :: OSI Approved :: MIT License"
+]
+version = "1.2.4"
+dependencies = ["cppyy"]
+
+[project.urls]
+Homepage = "https://github.com/flatsurf/cppyythonizations"
+Repository = "https://github.com/flatsurf/cppyythonizations.git"
+Issues = "https://github.com/flatsurf/cppyythonizations/issues"
+Changelog = "https://github.com/flatsurf/cppyythonizations/blob/master/ChangeLog"
+
+[tool.setuptools.packages.find]
+where = ["src"]
