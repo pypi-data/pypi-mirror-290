@@ -1,0 +1,20 @@
+typing_extensions>=4.12
+
+[:python_version < "3.11"]
+tomli
+
+[charts]
+matplotlib
+pandas
+
+[dev]
+jupyter
+pylint
+mypy
+pytest
+build
+pandas-stubs
+matplotlib-stubs
+
+[exts]
+py_ballisticcalc.exts==2.0.4rc2
