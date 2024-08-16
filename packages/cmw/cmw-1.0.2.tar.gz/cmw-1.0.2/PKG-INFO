@@ -1,0 +1,41 @@
+Metadata-Version: 2.3
+Name: cmw
+Version: 1.0.2
+Summary: CommonMark Website (cmw): A command-line interface tool to recursively convert CommonMark .md files into HTML files.
+Project-URL: Homepage, https://github.com/d3987ef8/cmw
+Project-URL: Issues, https://github.com/d3987ef8/cmw/issues
+Author-email: Mizu Hikaru <mizu@hikaru.org>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# CommonMark Website
+
+This is a Python package that provides the command line utility `cmw`, where
+`cwm` is short for "CommonMark Website".
+
+It converts `.md` CommonMark files from the `input` directory into `.html` HTML
+files in the `output` directory.
+
+## Motivation
+
+I wanted to create a script for generating nice looking simple static websites.
+
+## Installation
+
+    pip install cmw
+
+## Usage
+
+1. Put your `.md` CommonMark files in the `input` directory.
+2. Run `cmw`
+3. Serve the resulting `.html` HTML files as static content.
+
+## Dependencies
+
+- [mistletoe](https://github.com/miyuchina/mistletoe), one of the Python
+  CommonMark implementations listed on the CommonMark spec
+  [wiki](https://github.com/commonmark/commonmark-spec/wiki/List-of-CommonMark-Implementations)
