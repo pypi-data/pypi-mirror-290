@@ -1,0 +1,102 @@
+[project]
+name = "medmodels"
+version = "0.1.2"
+description = "Limebit Medmodels Package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Healthcare Industry',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Rust',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Software Development',
+    'Typing :: Typed',
+]
+dependencies = [
+    "numpy>=2.0.0",
+    "pandas>=2.2.2",
+    "polars[pandas]>=0.20.31",
+    "scikit-learn>=1.5.0",
+]
+
+[project.optional-dependencies]
+tests = ["pytest>=8.2.2", "coverage>=7.6.1"]
+docs = [
+    "sphinx>=7",
+    "sphinx-design==0.6.0",
+    "sphinx-copybutton",
+    "sphinxext-opengraph~=0.9.0",
+    "sphinx-pyscript==0.1.0",
+    "sphinx-tippy>=0.4.3",
+    "sphinx-togglebutton==0.3.2",
+    "linkify-it-py>=2.0.0",
+    "autodocsumm==0.2.12",
+    "pydata-sphinx-theme==0.15.4",
+    "sphinx-autosummary-accessors==2023.4.0",
+    "sphinx-autodoc-typehints==2.2.3",
+    "sphinx-copybutton==0.5.2",
+    "sphinx-design==0.6.0",
+    "sphinx-favicon==1.0.1",
+    "sphinx-reredirects==0.1.4",
+    "sphinx-toolbox==3.6.0",
+    "myst-parser==3.0.1",
+    "livereload==2.7.0",
+    "sphinx-multiversion==0.2.4",
+]
+dev = [
+    "medmodels[docs, tests]",
+    "maturin>=1.6.0",
+    "ruff>=0.4.9",
+    "py-spy",
+    "pyright>=1.1.370,<1.1.374",
+    "pandas-stubs>=2.2.2.240603",
+]
+
+[build-system]
+requires = ["maturin>=1.6.0", "setuptools"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+exclude = ["tests", "examples"]
+manifest-path = "rustmodels/Cargo.toml"
+module-name = "medmodels._medmodels"
+
+[tool.ruff]
+exclude = [
+    "__pycache__",
+    ".git",
+    ".github",
+    ".pytest_cache",
+    ".ruff_cache",
+    ".venv",
+]
+line-length = 88
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportPrivateUsage = false
+reportIncompatibleMethodOverride = false
+reportUnknownArgumentType = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+reportMissingModuleSource = false
+reportMissingTypeStubs = false
+enableTypeIgnoreComments = false
+
+[tool.pytest]
+python_files = "test_*.py"
