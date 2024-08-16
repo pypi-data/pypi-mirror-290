@@ -1,0 +1,32 @@
+instr 3 ;; 'brassy' instrument using sawtooth from vco
+    ;;;;;;;;;;;;;;;;;;;
+    ; variables setup ;
+    ;;;;;;;;;;;;;;;;;;;
+    iamp            =               p4
+    icps            =               p5
+    ipan            =               p6
+    imix            =               p7
+    ibrmin          =               p8
+    ibrmax          =               p9
+    iatt            =               p10
+    irel            =               p11
+    ipchmul         =               p12
+    ;;;;;;;;;;;;;;;;;;;;;;
+    ; intermediate calcs ;
+    ;;;;;;;;;;;;;;;;;;;;;;
+    ibrightmin      =               icps * ibrmin * iamp
+    ibrightmax      =               icps * ibrmax * iamp
+    iampscl         =               2.9
+    ;;;;;;;;;
+    ; audio ;
+    ;;;;;;;;;
+    kndxenv         expsegr         (ibrightmin), iatt, (ibrightmax), irel*5, (ibrightmin), irel, (ibrightmin)
+    aenv            expsegr         (0.01), iatt, (iamp * iampscl), irel, 0.01
+    aenv            =               aenv - 0.01
+    asig            vco             1, icps*ipchmul, 0
+    asig            tonex           asig*aenv, kndxenv, 3
+    asig            dcblock2        asig
+    asigL, asigR    pan2            asig, ipan
+    gabusL          +=              asigL * imix
+    gabusR          +=              asigR * imix
+endin
