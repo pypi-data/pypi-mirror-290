@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+config.json.example
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/publish.yml
+.github/workflows/pylint.yml
+src/bhashan2pathtak/__init__.py
+src/bhashan2pathtak/speech_to_text.py
+src/bhashan2pathtak.egg-info/PKG-INFO
+src/bhashan2pathtak.egg-info/SOURCES.txt
+src/bhashan2pathtak.egg-info/dependency_links.txt
+src/bhashan2pathtak.egg-info/entry_points.txt
+src/bhashan2pathtak.egg-info/requires.txt
+src/bhashan2pathtak.egg-info/top_level.txt
