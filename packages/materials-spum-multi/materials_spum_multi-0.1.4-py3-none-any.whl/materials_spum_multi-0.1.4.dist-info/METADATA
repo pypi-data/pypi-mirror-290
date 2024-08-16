@@ -1,0 +1,28 @@
+Metadata-Version: 2.3
+Name: materials-spum-multi
+Version: 0.1.4
+Summary: Materials SPUM project.
+Author-email: Zhangda Xu <xuzhangda@patsnap.com>
+Requires-Python: >=3.8
+Requires-Dist: ahocorasick-rs>=0.22.0
+Requires-Dist: fire>=0.6.0
+Requires-Dist: loguru>=0.7.2
+Requires-Dist: tqdm>=4.66.4
+Provides-Extra: data
+Requires-Dist: dadude>=0.2.6; extra == 'data'
+Provides-Extra: inference
+Requires-Dist: onnxruntime-gpu>=1.19.0; extra == 'inference'
+Provides-Extra: train
+Requires-Dist: datasets>=2.20.0; extra == 'train'
+Requires-Dist: evaluate>=0.4.2; extra == 'train'
+Requires-Dist: flax>=0.8.5; extra == 'train'
+Requires-Dist: jax[cuda12]>=0.4.31; extra == 'train'
+Requires-Dist: optimum[exporters]>=1.21.3; extra == 'train'
+Requires-Dist: tensorboard>=2.17.0; extra == 'train'
+Requires-Dist: transformers>=4.42.4; extra == 'train'
+Description-Content-Type: text/markdown
+
+# materials-spum-multi
+
+Train the model and build a service to infer the SPUM quadlets in a given text.
+ 
