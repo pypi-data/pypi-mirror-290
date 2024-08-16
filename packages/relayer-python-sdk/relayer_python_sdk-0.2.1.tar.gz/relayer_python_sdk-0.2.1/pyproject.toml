@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "relayer-python-sdk"
+version = "0.2.1"
+description = "Python SDK for interacting with the Relayer WS API"
+authors = ["Suryansh Chauhan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+websockets = "^12.0"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
