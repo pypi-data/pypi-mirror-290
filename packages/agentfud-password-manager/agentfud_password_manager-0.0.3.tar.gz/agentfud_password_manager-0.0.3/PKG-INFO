@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: agentfud-password-manager
+Version: 0.0.3
+Summary: AgentFUD Password Manager
+Home-page: https://github.com/AgentFUD/agentfud-password-manager
+Author: AgentFUD
+Author-email: agentfud@gmail.com
+Keywords: python,python3,Password manager,command line
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click==8.1.7
+Requires-Dist: pycryptodome==3.20.0
+Requires-Dist: pyperclip==1.9.0
+Requires-Dist: rich==13.7.1
+Requires-Dist: SQLAlchemy==2.0.32
+
+# AgentFUD Password Manager #
