@@ -1,0 +1,49 @@
+# AUTO GENERATED FILE - DO NOT EDIT
+
+from dash.development.base_component import Component, _explicitize_args
+
+
+class CookieBanner(Component):
+    """A CookieBanner component.
+Lazy loaded CookieBanner
+
+This CookieBanner component creates a banner to allow users to accept or reject cookies which
+are not essential to making the service work. The banner displays until a user has saved their
+cookie preference. Once a user has accepted or rejected cookies, the cookies banner shows a
+confirmation message.
+
+@param {
+id: string,                            // Unique identifier for the cookie component
+tag: string                            // Google Analytics tag string
+appTitle: string                       // Name of the app
+} [props={}]
+@return {*}
+
+Keyword arguments:
+
+- id (string; optional):
+    The ID of this component, used to identify dash components in
+    callbacks. The ID needs to be unique across all of the components
+    in an app.
+
+- appTitle (string; optional):
+    The name of the app to be referenced in CookieBanner.
+
+- tag (string; optional):
+    The Google Analytics tag."""
+    _children_props = []
+    _base_nodes = ['children']
+    _namespace = 'uk_gov_dash_components'
+    _type = 'CookieBanner'
+    @_explicitize_args
+    def __init__(self, id=Component.UNDEFINED, tag=Component.UNDEFINED, appTitle=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['id', 'appTitle', 'tag']
+        self._valid_wildcard_attributes =            []
+        self.available_properties = ['id', 'appTitle', 'tag']
+        self.available_wildcard_properties =            []
+        _explicit_args = kwargs.pop('_explicit_args')
+        _locals = locals()
+        _locals.update(kwargs)  # For wildcard attrs and excess named props
+        args = {k: _locals[k] for k in _explicit_args}
+
+        super(CookieBanner, self).__init__(**args)
