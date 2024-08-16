@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+py.typed
+pyproject.toml
+setup.py
+py_ballisticcalc.exts.egg-info/PKG-INFO
+py_ballisticcalc.exts.egg-info/SOURCES.txt
+py_ballisticcalc.exts.egg-info/dependency_links.txt
+py_ballisticcalc.exts.egg-info/requires.txt
+py_ballisticcalc.exts.egg-info/top_level.txt
+py_ballisticcalc_exts/__init__.py
+py_ballisticcalc_exts/trajectory_calc.c
+py_ballisticcalc_exts/trajectory_calc.pyi
+py_ballisticcalc_exts/trajectory_calc.pyx
