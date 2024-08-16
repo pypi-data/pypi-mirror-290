@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hands-to-text
+Version: 0.1.0
+Summary: 
+Author: Popis
+Author-email: piotrpopis98@icloud.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mediapipe (>=0.10.14)
+Requires-Dist: numpy (>=2.0.0,<3.0.0)
+Requires-Dist: opencv-python (>=4.10.0.84)
+Requires-Dist: scikit-learn (>=1.5.0)
+Description-Content-Type: text/markdown
+
+# hands-to-text - package
+
