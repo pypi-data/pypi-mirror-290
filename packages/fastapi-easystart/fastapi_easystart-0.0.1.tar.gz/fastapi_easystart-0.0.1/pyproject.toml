@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-easystart"
+version = "0.0.1"
+description = "FastAPI EasyStart simplifies FastAPI project setup with ready-to-use templates and configurations for environment management, CORS, and authentication. It lets you focus on coding by handling the boilerplate, making it easy to launch projects quickly."
+readme = "README.md"
+authors = [
+    { name = "Ankaj Gupta", email = "ankajgupta@coderwebsite.com" },
+    { name = "Coder Website", email = "contact@coderwebsite.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "fastapi", "fastapi easy start", "fastapi project setup", "fastapi jwt",
+    "fastapi custom response", "FastAPI projects", "CORS setup", "fastapi modular components"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi",
+    "pydantic",
+    "uvicorn",
+    "passlib",
+    "pyjwt",
+    "bson",
+    "pydantic-settings",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
