@@ -1,0 +1,19 @@
+{
+  "min_circular_ratio": 0.9,
+  "max_circular_ratio": 1.9,
+  "ksize_height": 13,
+  "ksize_width": 13,
+  "min_binary_threshold": 60,
+  "max_binary_threshold": 255,
+  "reflection_fill_dilation_index" : 25,
+  "reflection_fill_square_dimension" : 200,
+  "min_pupil_size" : 10,
+  "max_pupil_size" : 120,
+  "use_region_of_interest": true,
+  "auto_roi_adjustment": true,
+  "auto_roi_square_dimension":80,
+  "roi_start_point_x":30,
+  "roi_start_point_y":0,
+  "roi_width":132,
+  "roi_height":192
+}
