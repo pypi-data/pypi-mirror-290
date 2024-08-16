@@ -1,0 +1,162 @@
+# Recipy
+
+Recipy extracts recipes from web pages using JSON-LD and converts them into Python objects. It also supports generating Markdown, LaTeX, and PDFs.
+
+```python
+from recipy.microdata import recipe_from_url
+
+url = "https://www.allrecipes.com/recipe/14231/guacamole/"
+recipe = recipe_from_url(url)
+if recipe:
+    print(recipe.model_dump())
+```
+
+## Installation
+
+### Install via pip
+
+```bash
+pip install python-recipy
+```
+
+### Install `texlive` for PDF Generation
+
+* **Ubuntu 24.04**
+
+```bash
+sudo apt update
+sudo apt install texlive
+```
+
+* **Fedora 40**
+
+```bash
+sudo dnf install texlive
+```
+
+* **Arch Linux**
+
+```bash
+sudo pacman -S texlive-most
+```
+
+## Examples
+
+### Load Recipe from JSON
+
+```python
+from recipy.microdata import recipe_from_json
+
+json_data = '''
+{
+    "name": "Chocolate Cake",
+    "recipeIngredient": ["2 cups flour", "1 cup sugar", "1/2 cup cocoa powder"],
+    "recipeInstructions": [
+        {"@type": "HowToStep", "text": "Preheat the oven to 350°F (175°C)."},
+        {"@type": "HowToStep", "text": "Mix dry ingredients."},
+        {"@type": "HowToStep", "text": "Add wet ingredients and mix until smooth."},
+        {"@type": "HowToStep", "text": "Pour batter into a greased pan and bake for 30 minutes."}
+    ]
+}
+'''
+
+recipe = recipe_from_json(json_data)
+if recipe:
+    print(recipe.model_dump())
+```
+
+### Parse Recipe from Markdown
+
+```python
+from recipy.markdown import recipe_from_markdown
+
+markdown_content = """
+# Chocolate Cake
+
+A simple and delicious chocolate cake recipe.
+
+## Ingredients
+
+### For the Cake
+
+* 2 cups flour
+* 1 cup sugar
+* 1/2 cup cocoa powder
+
+### For the Frosting
+
+* 1/2 cup butter
+* 1/4 cup cocoa powder
+* 2 cups powdered sugar
+
+## Instructions
+
+### Making the Cake
+
+1. Preheat the oven to 350°F (175°C).
+2. Mix dry ingredients.
+3. Add wet ingredients and mix until smooth.
+4. Pour batter into a greased pan and bake for 30 minutes.
+
+### Making the Frosting
+
+1. Melt the butter.
+2. Stir in cocoa powder.
+3. Gradually add powdered sugar until smooth.
+
+## Notes
+
+Let the cake cool completely before frosting.
+"""
+
+recipe = recipe_from_markdown(markdown_content)
+if recipe:
+    print(recipe.model_dump())
+```
+
+#### Markdown Structure
+
+* The recipe title must be an H1 (`# Title`).
+* Ingredients must be under an H2 heading `## Ingredients`, with optional H3 subheadings for ingredient groups.
+* Instructions must be under an H2 heading `## Instructions`, with optional H3 subheadings for instruction groups.
+* Notes can be included under an H2 heading `## Notes`.
+
+### Convert Recipe to PDF
+
+```python
+from recipy.pdf import recipe_to_pdf
+from recipy.models import Recipe, IngredientGroup, InstructionGroup
+
+recipe = Recipe(
+    title="Chocolate Cake",
+    ingredient_groups=[
+        IngredientGroup(name=None, ingredients=["2 cups flour", "1 cup sugar"])
+    ],
+    instruction_groups=[
+        InstructionGroup(name=None, instructions=["Mix ingredients", "Bake for 30 minutes"])
+    ]
+)
+pdf_content = recipe_to_pdf(recipe)
+with open("recipe.pdf", "wb") as f:
+    f.write(pdf_content)
+```
+
+### Convert Recipe to LaTeX
+
+```python
+from recipy.latex import recipe_to_latex
+from recipy.models import Recipe, IngredientGroup, InstructionGroup
+
+recipe = Recipe(
+    title="Chocolate Cake",
+    ingredient_groups=[
+        IngredientGroup(name=None, ingredients=["2 cups flour", "1 cup sugar"])
+    ],
+    instruction_groups=[
+        InstructionGroup(name=None, instructions=["Mix ingredients", "Bake for 30 minutes"])
+    ]
+)
+
+latex_content = recipe_to_latex(recipe)
+print(latex_content)
+```
