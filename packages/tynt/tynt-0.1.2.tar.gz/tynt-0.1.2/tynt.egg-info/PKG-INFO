@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tynt
+Version: 0.1.2
+Summary: Astronomical filter bandpasses in Python
+Home-page: https://github.com/bmorris3/tynt
+Author: Brett M. Morris
+Author-email: morrisbrettm@gmail.com
+License: BSD 3-Clause
+Requires-Python: >=3.10
+License-File: licenses/LICENSE.rst
+Requires-Dist: numpy
+Requires-Dist: astropy
+Provides-Extra: all
+Requires-Dist: lxml; extra == "all"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-doctestplus; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-astropy; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-automodapi; extra == "docs"
+Requires-Dist: sphinx-astropy; extra == "docs"
+Requires-Dist: matplotlib; extra == "docs"
+Requires-Dist: pydata-sphinx-theme==0.8.1; extra == "docs"
+Requires-Dist: sphinx-book-theme==0.3.3; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+
+tynt
+====
+
+.. image:: https://github.com/bmorris3/tynt/blob/main/docs/assets/logo.svg
+    :alt: tynt logo
+    :width: 200
+    :align: right
+
+.. image:: https://readthedocs.org/projects/tynt/badge/?version=stable
+    :target: https://tynt.readthedocs.io/en/stable/?badge=stable
+    :alt: Documentation Status
+
+.. image:: https://github.com/bmorris3/tynt/workflows/CI%20Tests/badge.svg
+   :target: https://github.com/bmorris3/tynt/actions
+
+.. image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
+   :target: http://www.astropy.org
+   :alt: Powered by Astropy Badge
+
+
+Astronomical color filters (almost). See `docs for details <https://tynt.readthedocs.io>`_.
+
+
+*License*: This project is Copyright (c) Brett M. Morris and licensed under
+the terms of the BSD 3-Clause license. This package is based upon
+the `Openastronomy packaging guide <https://github.com/OpenAstronomy/packaging-guide>`_
+which is licensed under the BSD 3-clause licence. See the licenses folder for
+more information.
