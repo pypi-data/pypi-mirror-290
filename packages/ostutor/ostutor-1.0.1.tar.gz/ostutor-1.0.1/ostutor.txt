@@ -1,0 +1,60 @@
+NAME
+    ostutor - Search for commands based on the description.
+
+SYNOPSIS
+    ostutor
+
+    ostutor [OPTIONS]
+
+    osturor [OPTIONS] --help
+
+DESCRIPTION
+    OSTutor:
+
+    The goal of the App is to develop a new tool that, after receiving a few keywords given by the user, returns possibly relevant commands and other further relevant help information.
+
+    You can use this tool to search for commands using the command line, UI, or even calling AI.
+
+    It not only provides community support, but also automatically searches for local data to build its own specialized knowledge base.
+
+    It also provides many functions such as code prompts and completion, backup rpm list, etc.
+
+OPTIONS
+    -apikey    Setting apikey.
+
+    -ask       Ask AI.
+
+    -cli       Command line retrieval.
+
+    -data      Data export and import.
+
+    -install   Do not differentially download the rpm package
+               from the rpmsexport.txt file in the current directory.
+
+    -login     Login and get oututor authority
+
+    -lrefresh  Refresh the knowledge base locally.
+
+    -nodata    Search for local instructions without data.
+
+    -pull      Data import.
+
+    -push      Data export.
+
+    -query     Query detailed information about a specified instruction.
+
+    -rpmsexp   Export the local RPM list to the current directory.
+
+    -terminal  Open the terminal interface.
+
+    -tui       Start the user terminal ui.
+
+    --help     Output Help Information.
+
+EXAMPLE
+    ostutor ui: Use ostutor by ui.
+
+RPM
+    ostutor
+
+                                    2024        build 0.1

@@ -1,0 +1,132 @@
+This document should be named as "command.txt". For example: "ostutor.txt". This file should be encoded using UTF-8.
+
+The text before "NAME" will be ignored, so it is advisable to avoid situations where the first character is "NAME" in this area. Note that the description in this section can only be viewed when someone opens the document and will not read this data into the database.
+
+
+# The method of packaging documents.
+# Please add a document declaration in the install and files lines.
+#The command documentation compatible with Ostutor should be placed in "%{d_docdir}/command_doc/%{name}/", and other documents should be stored in the specification directory "%{d_docdir}/%{name}".
+# Here are some examples:
+# -----start-----
+%install
+mkdir -p %{buildroot}%{_docdir}/%{name}
+mkdir -p %{buildroot}%{_docdir}/command_doc/%{name}
+install -m 0644 ostutor.txt %{buildroot}%{_docdir}/command_doc/%{name}/
+install -m 0644 rpm-build-README.md %{buildroot}%{_docdir}/%{name}/
+
+%files
+%{_bindir}/ostutor
+%{_datadir}/
+%doc %{_docdir}/command_doc/%{name}/command.txt
+%doc %{_docdir}/%{name}/rpm-README.md
+# -----end-----
+
+
+-----!!!!!Warming!!!!!-----
+Compatible with the man document format, if you want to use line breaks, you must leave a blank line. For example:
+####################Start demonstration
+a
+b
+----->"a b"
+
+a
+
+b
+----->"a\n\nb"
+####################End demonstration
+
+TOPIC
+    TOPIC must start with a capital letter, it is recommended to use all capital letters.
+
+    The content description can use spaces or indentation as the first letter, but please do not use uppercase letters as the first character, otherwise it will be judged as a title.
+
+NAME
+    This option is necessary. And the 'NAME' field cannot be on the first line, even if you leave the first line blank.
+
+    Please fill in command and a brief description of the command, for example:
+    ostutor - Search for commands based on the description.
+
+SYNOPSIS
+    This option is necessary.
+
+    Please fill in the syntax for using the command,for example:
+
+    ostutor
+
+    ostutor [OPTIONS]
+
+    osturor [OPTIONS] --help
+
+DESCRIPTION
+    This option is necessary.
+
+    This item will be used for training the search model.
+
+    Please fill in the long description of the command, for example:
+
+    The goal of the App is to develop a new tool that, after receiving a few keywords given by the user, returns possibly relevant commands and other further relevant help information.
+
+    You can use this tool to search for commands using the command line, UI, or even calling AI.
+
+    It not only provides community support, but also automatically searches for local data to build its own specialized knowledge base.
+
+    It also provides many functions such as code prompts and completion, backup rpm list, etc.
+
+OPTIONS
+    This option is necessary.
+
+    Please fill in the command options here. 
+    Start with "-" and add one or more spaces between the parameter and description. 
+    For example:
+
+    -apikey    Setting apikey.
+
+    -ask       Ask AI.
+
+    -cli       Command line retrieval.
+
+    -data      Data export and import.
+
+    -install   Do not differentially download the rpm package
+               from the rpmsexport.txt file in the current directory.
+
+    -login     Login and get oututor authority
+
+    -lrefresh  Refresh the knowledge base locally.
+
+    -nodata    Search for local instructions without data.
+
+    -pull      Data import.
+
+    -push      Data export.
+
+    -query     Query detailed information about a specified instruction.
+
+    -rpmsexp   Export the local RPM list to the current directory.
+
+    -terminal  Open the terminal interface.
+
+    -tui       Start the user terminal ui.
+
+    --help     Output Help Information.
+
+EXAMPLE
+    This option is recommended.
+
+    Please provide examples of commonly used commands, for example:
+
+    ostutor ui
+
+RPM
+    This option is recommended.
+
+    Please fill in the rpm package where the command is located, for example:
+    ostutor
+
+OTHER1
+    Other content.
+
+OTHER2
+    Other content.
+
+The last line will also be ignored, you can fill in some remarks here, but it will not be read by OSTutor.
