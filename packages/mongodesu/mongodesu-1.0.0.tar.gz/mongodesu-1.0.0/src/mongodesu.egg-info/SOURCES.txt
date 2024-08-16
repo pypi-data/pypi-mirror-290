@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mongodesu/__init__.py
+src/mongodesu/mongolib.py
+src/mongodesu.egg-info/PKG-INFO
+src/mongodesu.egg-info/SOURCES.txt
+src/mongodesu.egg-info/dependency_links.txt
+src/mongodesu.egg-info/requires.txt
+src/mongodesu.egg-info/top_level.txt
+tests/test_crud.py
+tests/test_default.py
+tests/test_multiple_connection.py
