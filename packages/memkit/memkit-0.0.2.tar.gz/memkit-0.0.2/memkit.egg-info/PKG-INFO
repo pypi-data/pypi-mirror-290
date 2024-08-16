@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: memkit
+Version: 0.0.2
+Summary: Memkit is game hacking library for Direct Memory Access (DMA)
+Home-page: https://github.com/0x01code/memkit
+Author: 0x01code
+Author-email: 0x01code <admin@0x01code.com>
+License: MIT
+Project-URL: Homepage, https://github.com/0x01code/MemKit
+Project-URL: Issues, https://github.com/0x01code/MemKit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: memprocfs
+
+# Memkit
+Memkit is game hacking library for Direct Memory Access (DMA) 
+
+# Example
+```python
+from memkit import Memory
+
+mem = Memory('ac_client.exe')
+module = mem.get_module('ac_client.exe')
+
+health_address = mem.find_chain(module.base + 0x0018AC00, [0xEC])
+
+mem.write(health_address, 1337)
+
+health = mem.read(health_address, 'i32')
+```
