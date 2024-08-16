@@ -1,0 +1,14 @@
+[project]
+name = "cartesia-edge"
+authors = [
+    {name = "Cartesia AI, Inc.", email = "support@cartesia.ai"},
+]
+version = "0.0.0"
+description = "Coming soon"
+
+[project.urls]
+Homepage = "https://cartesia.ai/"
+Source = "https://github.com/cartesia-ai/edge"
+
+[tool.setuptools.packages.find]
+where = ["edge"]
