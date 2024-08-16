@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: FinRAG
+Version: 0.0.1
+Summary: FinRAG: Financial Retrieval Augmented Generation
+Home-page: https://github.com/AI4Finance-Foundation/FinRAG
+Author: AI4Finance Foundation
+Author-email: contact@ai4finance.org
+License: MIT
+Keywords: Financial Large Language Models,AI Agents,Retrieval Augmented Generation
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10, <3.12
+License-File: LICENSE
+Requires-Dist: fastapi ==0.111.0
+Requires-Dist: loguru ==0.7.2
+Requires-Dist: openai ==1.30.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: BCEmbedding ==0.1.5
+Requires-Dist: pymilvus ==2.3.7
+Requires-Dist: langchain ==0.2.0
+Requires-Dist: langchain-community ==0.2.0
+Requires-Dist: unstructured ==0.14.0
+Requires-Dist: pdfminer.six ==20231228
+Requires-Dist: pillow-heif ==0.16.0
+Requires-Dist: opencv-python ==4.9.0.80
+Requires-Dist: pdf2image ==1.17.0
+Requires-Dist: unstructured-inference ==0.7.31
+Requires-Dist: pytesseract ==0.3.10
+Requires-Dist: pikepdf ==8.15.1
+Requires-Dist: python-docx ==1.1.2
+Requires-Dist: dashscope ==1.19.1
+Requires-Dist: oss2 ==2.18.5
+
+FinRAG
