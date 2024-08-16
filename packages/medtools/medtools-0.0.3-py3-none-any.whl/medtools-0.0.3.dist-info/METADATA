@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: medtools
+Version: 0.0.3
+Author: MedinfoX Group
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langchain
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Medical Informatics Tools for AI Agent
+
+## Geting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository
+   `git clone https://github.com/medinfox/medtools.git`
+
+2. Navigate into the cloned repository
+   `cd medtools`
+
+3. Install the required packages
+
+   - `make install`
+   - or `pip install -r requirements.txt`
+
+## Tool List
+
+<details>
+<summary>Expand tool list</summary>
+
+### Status of the tools
+
+</details>
+
+## How to add a tool
+
+## Contributing
+
+## License
+
