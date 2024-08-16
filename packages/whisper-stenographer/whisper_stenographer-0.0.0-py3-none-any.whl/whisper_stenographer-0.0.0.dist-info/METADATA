@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: whisper-stenographer
+Version: 0.0.0
+Summary: Stenographer.py - a transcription tool for your content.
+Home-page: UNKNOWN
+Author: Alejandro Alzate Sánchez
+Author-email: alejandro-alzate@github.com
+License: UNKNOWN
+Keywords: automation,ai,captioning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: ollama
+Requires-Dist: whisper
+
+Stenographer.py is a somewhat automatized tool for videos and audio transcriptions using the power of ollama and whisper
+
