@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cellvit_light"
+version = "0.0.4"
+readme = "README.md"
+authors = []
+dependencies = [
+    "pydantic == 1.10.4",
+    "geojson",
+    "rasterio",
+    "ujson",
+    "pandarallel"
+]
+
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+# All the following settings are optional:
+where = ["src"]
