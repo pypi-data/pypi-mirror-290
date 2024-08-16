@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "superrequests"
+version = "0.1.2"
+description = ""
+authors = ["Dani Hodovic <dani.hodovic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = "^2.31.0"
+requests-toolbelt = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+pylint = "^2.13.4"
+isort = "^5.10.1"
+mypy = "^0.942"
+types-requests = "^2.27.16"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
