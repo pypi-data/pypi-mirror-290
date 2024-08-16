@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptum"
+version = "0.0.3"
+description = "A simple Python encryption library"
+readme = "README.md"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["encryption", "RSA", "cryptography"]
+dependencies = [
+    "cryptography",
+    "click",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/AUCR/cryptum"
+"Bug Tracker" = "https://github.com/AUCR/cryptum/issues"
+
+[project.scripts]
+cryptcli = "cryptum.cryptcli:cli"
