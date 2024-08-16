@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "crudclient"
+version = "0.3.1"
+description = ""
+authors = ["leikaab <nordavindltd@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["crudclient/**/tests/*"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "*"
+isort = "*"
+requests-mock = "^1.12.1"
+autopep8 = "*"
+black = "*"
+yapf = "*"
+bandit = "*"
+flake8 = "*"
+mypy = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+pylint = "*"
+pre-commit = "*"
+types-requests = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
