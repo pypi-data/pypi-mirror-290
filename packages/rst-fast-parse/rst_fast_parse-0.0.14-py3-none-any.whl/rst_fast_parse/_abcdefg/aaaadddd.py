@@ -1,0 +1,51 @@
+from __future__ import annotations
+import re
+from rst_fast_parse.core import gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_, gAAAAABmvnuPraSvzPr_j2lP7deGTfZusFG7XOVfOBNt_WXSsl_7CxjK1L5ZQh7lRtszllDG4Rb8iUhMCWjDhTgtHlDbOeqrWw__, gAAAAABmvnuPFiNsglZcNLAYt_CC2O1ysbl1SSMD2FRbUir08R6GhJ4_pHfdyZfFLoDODeMiuyT4FlxtDHsHs7Ap_zeSPfIJEoFJExTwUxoIYnI_IhBKuSQ_, gAAAAABmvnuPPyMQkQupnqgLmhaaFYgOZLGB_6PmYhq6Z7EFG7fvQIeBKPWZau_qy3_gK97GQaP9Y21Bt9xfJC2if5OtnVuBGw__
+from rst_fast_parse.diagnostics import Diagnostic, DiagnosticCode
+from rst_fast_parse.elements import BasicElement
+from rst_fast_parse._hijklmn.bbbbbbbb import gAAAAABmvnuPJ2v5LULZIjscqYRhOVOwEU5cbAJu1EzHyRlJ7Y9vaH6tvHZLMujpbd4o5Y6dRUIj3CAO5fbcWm6D7tbZ_ouN8A__
+from rst_fast_parse._vwxyz import gAAAAABmvnuP03gQQNO3ScydGRX_tclU8TA52qXEci0mmhhlXoCHle6xKY78ntnl4i3h5X0EgdalEzSeoh6nB7puR68YmzU_Og__, gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__
+from rst_fast_parse._opqrstu.ccccaaaa import gAAAAABmvnuPL6GQgOHR4HLqYuQ49VPJkBRXkKuwtWf0CXtbEd5HJKRkYe5BBSfcnSoMjmlzbw0FrSPL6D_hesh5TJ6zUfyboA__
+from rst_fast_parse._opqrstu.ccccffff import gAAAAABmvnuPrsG27_5WLGDs9MOj7eehnuuaCG1u10_HXmxyjCyP2Fq1AGxdyvgksHBIfjAqt8Jp9ic5_m6H_jEOy0xVwD7SEHduR2LtPYqsmPXtv7n1RKE_
+
+def gAAAAABmvnuPvUeAff8hrwUqb5jL4G9CAs6FYqmmFvwSsz_2EkNkhXobH1yvWSVEqQVv89EaLDabuBX8HgCDRMJUrgUvtyHibDHhCHPQe90DdbHBbnSUggk_(gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__: gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__, gAAAAABmvnuPYt9DzGdqMfWNOuwtjka8ZGGeiS1LNy4wgzgDfvlIIqW4pT1dYg5y16iqq00IY__pqD108UHZ2GboK_DTuHleHg__: gAAAAABmvnuPPyMQkQupnqgLmhaaFYgOZLGB_6PmYhq6Z7EFG7fvQIeBKPWZau_qy3_gK97GQaP9Y21Bt9xfJC2if5OtnVuBGw__, diagnostics: gAAAAABmvnuPFiNsglZcNLAYt_CC2O1ysbl1SSMD2FRbUir08R6GhJ4_pHfdyZfFLoDODeMiuyT4FlxtDHsHs7Ap_zeSPfIJEoFJExTwUxoIYnI_IhBKuSQ_, _: gAAAAABmvnuPraSvzPr_j2lP7deGTfZusFG7XOVfOBNt_WXSsl_7CxjK1L5ZQh7lRtszllDG4Rb8iUhMCWjDhTgtHlDbOeqrWw__, /) -> gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_:
+    if not (_gAAAAABmvnuPYx_1AJ_ZlGlgvDrehH2B_nIHaCPrE9fnl6NCy1IGzbJUFbt_A6ls0oN30yko4kcNJOnUTmBis7jsENh0h5ePEw__ := gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__.gAAAAABmvnuPYx_1AJ_ZlGlgvDrehH2B_nIHaCPrE9fnl6NCy1IGzbJUFbt_A6ls0oN30yko4kcNJOnUTmBis7jsENh0h5ePEw__):
+        return gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_.gAAAAABmvnuPRbdlsfvazMgv6xfcLvNC0QmLZyLevZAFSsO0gN3crEdWh85I5fK4AkyiRNRbEPJDXyQKddWPenhSD_uYCxVoJg__
+    if not re.match(gAAAAABmvnuPJ2v5LULZIjscqYRhOVOwEU5cbAJu1EzHyRlJ7Y9vaH6tvHZLMujpbd4o5Y6dRUIj3CAO5fbcWm6D7tbZ_ouN8A__, _gAAAAABmvnuPYx_1AJ_ZlGlgvDrehH2B_nIHaCPrE9fnl6NCy1IGzbJUFbt_A6ls0oN30yko4kcNJOnUTmBis7jsENh0h5ePEw__.content):
+        return gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_.gAAAAABmvnuPMhZZtYqBwgmlntAnk2pNEzm4IuBVbAOgcNUNPk5cwtS0ORGVXbj_bY3x708WqH8FacqCobgWvhXy_PI3HCP44A__
+    if not (table_slice := gAAAAABmvnuPk2jNVsMh5tC3_TdMbKiu4T3LRA4_nsYBJZs49XIcoICZAcz7nGk3buT8DgFRwigbglWccr6SKo8r17p5YXT4I95XFQbFcGfwMHzXGo_Dmv0_(gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__, diagnostics)):
+        return gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_.gAAAAABmvnuP_ClUFKNcZK3izoScss_N4ceBj9LXWkx42Msjc8XGvV8pQ0jcSFPd7BXVi3Qh2svvdS7_7MW5pdxsyUOXMvFZBw__
+    if (first := table_slice.gAAAAABmvnuPYx_1AJ_ZlGlgvDrehH2B_nIHaCPrE9fnl6NCy1IGzbJUFbt_A6ls0oN30yko4kcNJOnUTmBis7jsENh0h5ePEw__) and (last := table_slice.gAAAAABmvnuPtSk5A9h7uoFTW9kQc_J179me2SXQYV0xfUAjl9qCaFt0mzEf2Um6Ld_aFscHpO2rxlifxEZAlIVBvvMQKO5aMg__):
+        gAAAAABmvnuPYt9DzGdqMfWNOuwtjka8ZGGeiS1LNy4wgzgDfvlIIqW4pT1dYg5y16iqq00IY__pqD108UHZ2GboK_DTuHleHg__.append(BasicElement('table_grid', (first.line, last.line)))
+        gAAAAABmvnuPrsG27_5WLGDs9MOj7eehnuuaCG1u10_HXmxyjCyP2Fq1AGxdyvgksHBIfjAqt8Jp9ic5_m6H_jEOy0xVwD7SEHduR2LtPYqsmPXtv7n1RKE_(diagnostics, gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__, 'Grid table')
+    return gAAAAABmvnuPNj42qdtIY8ySbUt8SHVpmQrQOLSobwLPYoj3RvNC1jY9pcO0EYhdFzdD_cMsPYESBwfRJcjrzDXWF59zSMUltg2pgUJdIA6tNFRc2rxItPQ_.gAAAAABmvnuP_ClUFKNcZK3izoScss_N4ceBj9LXWkx42Msjc8XGvV8pQ0jcSFPd7BXVi3Qh2svvdS7_7MW5pdxsyUOXMvFZBw__
+
+def gAAAAABmvnuPk2jNVsMh5tC3_TdMbKiu4T3LRA4_nsYBJZs49XIcoICZAcz7nGk3buT8DgFRwigbglWccr6SKo8r17p5YXT4I95XFQbFcGfwMHzXGo_Dmv0_(gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__: gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__, diagnostics: gAAAAABmvnuPFiNsglZcNLAYt_CC2O1ysbl1SSMD2FRbUir08R6GhJ4_pHfdyZfFLoDODeMiuyT4FlxtDHsHs7Ap_zeSPfIJEoFJExTwUxoIYnI_IhBKuSQ_) -> None | gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__:
+    original_index = gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__.gAAAAABmvnuP0zPXkwfEyPHZFnTDqXEbjurJgTKvkm_L5nKA1zVOregBsi3gY2qz7MAKfQmrvAep7aStFbZBurFOQQYT_7dtvQ__
+    block = gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__.gAAAAABmvnuPf9ZlVJNO5okYogzW6u5Fj78rk6EKMlpWmi9wn5_8gsr1Jat0GPZQumQbhFuBub6MdhjzsVKnYaE1XCEfYPzCKA__(stop_on_indented=True, advance=True)
+    if not (first_line := block.gAAAAABmvnuPYx_1AJ_ZlGlgvDrehH2B_nIHaCPrE9fnl6NCy1IGzbJUFbt_A6ls0oN30yko4kcNJOnUTmBis7jsENh0h5ePEw__):
+        return None
+    lines: list[gAAAAABmvnuP03gQQNO3ScydGRX_tclU8TA52qXEci0mmhhlXoCHle6xKY78ntnl4i3h5X0EgdalEzSeoh6nB7puR68YmzU_Og__] = []
+    for line in block.gAAAAABmvnuPc00Vq9J9c7__WyrXD66wbKtSeJyWZJP6V4KvFhRbjCxavOI3Yqf55kcufJFvpuAJIm7xBDSr4LxD_ZT76UhCUQ__():
+        if not (line.content.startswith('+') or line.content.startswith('|')):
+            gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__.gAAAAABmvnuPajkyAEG4mSKsSUknMll1xcK9L0EodfiP9sfw1NfME107Rg5HolE_OD63ZAtwXJiFubWdBYvYhf0Oek6R45PKdtbBy247Lvg7VGID0YS8xCU_(original_index + len(lines) - 1)
+            break
+        lines.append(line.rstrip())
+    if not re.match(gAAAAABmvnuPJ2v5LULZIjscqYRhOVOwEU5cbAJu1EzHyRlJ7Y9vaH6tvHZLMujpbd4o5Y6dRUIj3CAO5fbcWm6D7tbZ_ouN8A__, lines[-1].content):
+        for i in range(len(lines) - 2, 1, -1):
+            if re.match(gAAAAABmvnuPJ2v5LULZIjscqYRhOVOwEU5cbAJu1EzHyRlJ7Y9vaH6tvHZLMujpbd4o5Y6dRUIj3CAO5fbcWm6D7tbZ_ouN8A__, lines[i].content):
+                del lines[i + 1:]
+                gAAAAABmvnuPgOUfWLYnhgj_rZE4eyrpzmgA4RGoTLKXgRLXDrHsLiZCW02GShxQcPj1_ZEQnz4C9__S7bV35h8f_PETntG5SQ__.gAAAAABmvnuPajkyAEG4mSKsSUknMll1xcK9L0EodfiP9sfw1NfME107Rg5HolE_OD63ZAtwXJiFubWdBYvYhf0Oek6R45PKdtbBy247Lvg7VGID0YS8xCU_(original_index + len(lines) - 2)
+                break
+        else:
+            diagnostics.append(Diagnostic(DiagnosticCode.table_malformed, 'No bottom table border found.', first_line.line))
+            return None
+    width = gAAAAABmvnuPL6GQgOHR4HLqYuQ49VPJkBRXkKuwtWf0CXtbEd5HJKRkYe5BBSfcnSoMjmlzbw0FrSPL6D_hesh5TJ6zUfyboA__(first_line.content.rstrip())
+    for line in lines:
+        if gAAAAABmvnuPL6GQgOHR4HLqYuQ49VPJkBRXkKuwtWf0CXtbEd5HJKRkYe5BBSfcnSoMjmlzbw0FrSPL6D_hesh5TJ6zUfyboA__(line.content) != width:
+            diagnostics.append(Diagnostic(DiagnosticCode.table_malformed, 'Line does not match width of first line.', line.line))
+            return None
+        if not (line.content.endswith('+') or line.content.endswith('|')):
+            diagnostics.append(Diagnostic(DiagnosticCode.table_malformed, 'Line does not finish with `+` or `|`.', line.line))
+            return None
+    return gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__(lines)

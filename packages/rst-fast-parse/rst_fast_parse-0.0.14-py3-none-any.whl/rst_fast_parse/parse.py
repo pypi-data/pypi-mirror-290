@@ -1,0 +1,63 @@
+from __future__ import annotations
+from rst_fast_parse._abcdefg.aaaaffff import gAAAAABmvnuPaM0o8UKDC2c9LZ06Um8apnXIznVIdq5fezHChCJsOViA__aPSYQbnxYA0JBrIpgGA9pZJwww9w1bdHhWq731UI24rknLVN6t0If9vm8Bq10_
+from rst_fast_parse._abcdefg.aaaammmm import gAAAAABmvnuP57HyvIKW56owKw6vIC5Zl5ksIXsZ5lVotXODiBVhR4evwEWTrRALxpF88IZEIzsqa4qUhPdHirRhKCNPuMQ1wFPiKpDAx7AjNAL8PBbOLjc_
+from rst_fast_parse._abcdefg.aaaajjjj import gAAAAABmvnuPV73vYq_XaeIXPf2pUTckvMrfC7ltcv46kPxzNsuS9AuzKHnDzimBtvWNIkPffVbQNhCuS2ExoBspxMlhzBEXe35nRohBwiLAJrA6Zw_8sKY_
+from rst_fast_parse._abcdefg.aaaabbbb import gAAAAABmvnuP2WRN07erykImO_Q3a9EE1Ay4LQWtvXI8O4L2Dk1ZJ_K0LurZfSdstu5ctYFlyzzzosJFbYxXgIgccCIwZ0_W2GM_nTxvR_MPTe_b73BzQos_
+from rst_fast_parse._abcdefg.aaaacccc import gAAAAABmvnuP9dkt6BXALq1RQCZSJVw2ajIbZWEkO5PcZN26dD3yciUiP8RBJbGTD3GsasxuLOZqUU16gkjlhIxUUtDUq2wJrT3LHSg_naugw3hd73kA6eA_
+from rst_fast_parse._abcdefg.aaaahhhh import gAAAAABmvnuPF6bVAZxCI6HP8YyAiaHM5_2XVdTCXTV_iqxaOPY4BBRMAiMhE0q2s0aTHznSeHWDUuRaj3fDA_h_wEheJoFqgHApYUgwZSwwQh6HR16zS1k_
+from rst_fast_parse._abcdefg.aaaallll import gAAAAABmvnuPOPoZc194Dtsm17BitFk_xTtiURifBlKPFHTclmbfF8kuLKSZX05zOGCT6ghyK8O5AXShssXrtTajIVcc836KNnwhntjleBSDIJTxLlSO_C0_
+from rst_fast_parse._abcdefg.aaaannnn import gAAAAABmvnuPO79ocmhIZANlKYZ9gmYib2pmvkOCRbMIQdf47m7plPAZjHGJulNetDk5XICjShdf4dDHbwDfgjJOptqRIHPM5Q__
+from rst_fast_parse._abcdefg.aaaagggg import gAAAAABmvnuPTrC5FBfVZYuWAbxgfhUAe9t2yZCnhCasqqN1hj6gnhXGPCpFX76J9bNjU0EALMQcESKs6dxVSDQt1hkwTOCuRniRNtL_dNMYEd6USWLlaAw_
+from rst_fast_parse._abcdefg.aaaaaaaa import gAAAAABmvnuPBU3fmnfuztd2G9FHiQTYsk7sBlARO4_qWACd_ftoslzPSvoTDjqzZmnWZsCradpfLbAxbm5WpV_euky1AV3YgiJGmilqhH0fnfQG2Ubg_Xk_
+from rst_fast_parse._abcdefg.aaaaeeee import gAAAAABmvnuPfDQhrsdmjYa7DJmEcnbdOcSXJcZK87bjKqCHxvZzQyz_mnYHFXQwRv_niKCVZV50iInBPGcgQymEYW2TN1Ql2NeUiXm41bC5UK9_PGarH5w_
+from rst_fast_parse._abcdefg.aaaaiiii import gAAAAABmvnuPD9_a3uWevX3cGsY3nfb6nl4OeOSmITJI0_HjNyM5nwiL7_p3KB191X_bNaKW69V6u_xQQ0TzbxlmVN_Vzz3g2abHzPX89_2GLiURlG0yOyE_
+from rst_fast_parse._abcdefg.aaaadddd import gAAAAABmvnuPvUeAff8hrwUqb5jL4G9CAs6FYqmmFvwSsz_2EkNkhXobH1yvWSVEqQVv89EaLDabuBX8HgCDRMJUrgUvtyHibDHhCHPQe90DdbHBbnSUggk_
+from rst_fast_parse._abcdefg.aaaakkkk import gAAAAABmvnuPFudukSczISc_Ifv8EpfllAyCg9uVD809Ghzx0E0sBeseY60o_BgOvr0CRM4_7UZqaDlF3d6vXzypXoSucrK_2VeHXYnpO3xJ_QUw13_9R18_
+from rst_fast_parse.core import gAAAAABmvnuPsGM2N7BzhSpAJ4ShmB9527600aR_Sm4bnf_46D_7K2xO2V293V23tbqlN3JGzdrf4jR4QM4B1I3pcvIfERU2UQ__, gAAAAABmvnuPraSvzPr_j2lP7deGTfZusFG7XOVfOBNt_WXSsl_7CxjK1L5ZQh7lRtszllDG4Rb8iUhMCWjDhTgtHlDbOeqrWw__
+from rst_fast_parse.diagnostics import Diagnostic, DiagnosticCode, DiagnosticList
+from rst_fast_parse.elements import BasicElementList, ElementListProtocol, SectionTitleElement
+from rst_fast_parse._vwxyz import gAAAAABmvnuP03gQQNO3ScydGRX_tclU8TA52qXEci0mmhhlXoCHle6xKY78ntnl4i3h5X0EgdalEzSeoh6nB7puR68YmzU_Og__, gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__, gAAAAABmvnuPxlKNyUpj8qlUoPHYlC2HuhJTfhie93SHnAaXOM_7jzWpUMbnPx6CW2E_rVLPS_U8_rBQFzjwkkYKlulOx33S6AhBPXLsz7ZgXQpgHoWaTu4_
+from rst_fast_parse._opqrstu.ccccdddd import gAAAAABmvnuPbjpW_VFQpuzy4crrlDEvclcaR7VSXXFZ1oRnCDnx0D_r6VwUzRo99lFbXinf9Sn_F5c6l8uAiUFbeMuFUg_k7sPFjTS_EEyv1HhVyAYFYsE_
+_DEFAULT_BLOCK_PARSERS: tuple[gAAAAABmvnuPsGM2N7BzhSpAJ4ShmB9527600aR_Sm4bnf_46D_7K2xO2V293V23tbqlN3JGzdrf4jR4QM4B1I3pcvIfERU2UQ__, ...] = (gAAAAABmvnuP57HyvIKW56owKw6vIC5Zl5ksIXsZ5lVotXODiBVhR4evwEWTrRALxpF88IZEIzsqa4qUhPdHirRhKCNPuMQ1wFPiKpDAx7AjNAL8PBbOLjc_, gAAAAABmvnuPV73vYq_XaeIXPf2pUTckvMrfC7ltcv46kPxzNsuS9AuzKHnDzimBtvWNIkPffVbQNhCuS2ExoBspxMlhzBEXe35nRohBwiLAJrA6Zw_8sKY_, gAAAAABmvnuP2WRN07erykImO_Q3a9EE1Ay4LQWtvXI8O4L2Dk1ZJ_K0LurZfSdstu5ctYFlyzzzosJFbYxXgIgccCIwZ0_W2GM_nTxvR_MPTe_b73BzQos_, gAAAAABmvnuPF6bVAZxCI6HP8YyAiaHM5_2XVdTCXTV_iqxaOPY4BBRMAiMhE0q2s0aTHznSeHWDUuRaj3fDA_h_wEheJoFqgHApYUgwZSwwQh6HR16zS1k_, gAAAAABmvnuPTrC5FBfVZYuWAbxgfhUAe9t2yZCnhCasqqN1hj6gnhXGPCpFX76J9bNjU0EALMQcESKs6dxVSDQt1hkwTOCuRniRNtL_dNMYEd6USWLlaAw_, gAAAAABmvnuPD9_a3uWevX3cGsY3nfb6nl4OeOSmITJI0_HjNyM5nwiL7_p3KB191X_bNaKW69V6u_xQQ0TzbxlmVN_Vzz3g2abHzPX89_2GLiURlG0yOyE_, gAAAAABmvnuP9dkt6BXALq1RQCZSJVw2ajIbZWEkO5PcZN26dD3yciUiP8RBJbGTD3GsasxuLOZqUU16gkjlhIxUUtDUq2wJrT3LHSg_naugw3hd73kA6eA_, gAAAAABmvnuPBU3fmnfuztd2G9FHiQTYsk7sBlARO4_qWACd_ftoslzPSvoTDjqzZmnWZsCradpfLbAxbm5WpV_euky1AV3YgiJGmilqhH0fnfQG2Ubg_Xk_, gAAAAABmvnuPvUeAff8hrwUqb5jL4G9CAs6FYqmmFvwSsz_2EkNkhXobH1yvWSVEqQVv89EaLDabuBX8HgCDRMJUrgUvtyHibDHhCHPQe90DdbHBbnSUggk_, gAAAAABmvnuPFudukSczISc_Ifv8EpfllAyCg9uVD809Ghzx0E0sBeseY60o_BgOvr0CRM4_7UZqaDlF3d6vXzypXoSucrK_2VeHXYnpO3xJ_QUw13_9R18_, gAAAAABmvnuPOPoZc194Dtsm17BitFk_xTtiURifBlKPFHTclmbfF8kuLKSZX05zOGCT6ghyK8O5AXShssXrtTajIVcc836KNnwhntjleBSDIJTxLlSO_C0_, gAAAAABmvnuPaM0o8UKDC2c9LZ06Um8apnXIznVIdq5fezHChCJsOViA__aPSYQbnxYA0JBrIpgGA9pZJwww9w1bdHhWq731UI24rknLVN6t0If9vm8Bq10_, gAAAAABmvnuPfDQhrsdmjYa7DJmEcnbdOcSXJcZK87bjKqCHxvZzQyz_mnYHFXQwRv_niKCVZV50iInBPGcgQymEYW2TN1Ql2NeUiXm41bC5UK9_PGarH5w_, gAAAAABmvnuPO79ocmhIZANlKYZ9gmYib2pmvkOCRbMIQdf47m7plPAZjHGJulNetDk5XICjShdf4dDHbwDfgjJOptqRIHPM5Q__)
+
+def parse_string(text: str, *, source_key: str | None=None, tab_width: int=8, offset_char: int=0) -> tuple[ElementListProtocol, DiagnosticList]:
+    """Parse a multi-line string and return a list of elements.
+
+    :param text: a multi-line string.
+    :param tab_width: the number of spaces to replace tabs with.
+    """
+    context = gAAAAABmvnuPraSvzPr_j2lP7deGTfZusFG7XOVfOBNt_WXSsl_7CxjK1L5ZQh7lRtszllDG4Rb8iUhMCWjDhTgtHlDbOeqrWw__(_DEFAULT_BLOCK_PARSERS)
+    lines = gAAAAABmvnuPxlKNyUpj8qlUoPHYlC2HuhJTfhie93SHnAaXOM_7jzWpUMbnPx6CW2E_rVLPS_U8_rBQFzjwkkYKlulOx33S6AhBPXLsz7ZgXQpgHoWaTu4_(text, tab_width=tab_width)
+    slice = gAAAAABmvnuP_quFKpuYPWz7QdJ1kBaRmIwCQe9rCmHuVZv5Jk1eR82v8o4s8FimCtSYne_H63sWt2aoyl93LrLoAS2foR6HAA__([gAAAAABmvnuP03gQQNO3ScydGRX_tclU8TA52qXEci0mmhhlXoCHle6xKY78ntnl4i3h5X0EgdalEzSeoh6nB7puR68YmzU_Og__(line, offset_line=i, offset_char=offset_char, source=source_key) for i, line in enumerate(lines)])
+    elements, diagnostics = context.gAAAAABmvnuP1xGGXxJqT1pfMi4mIQNM9cFfIkkaZzBImIH71vNciJqvJLG7qLWSoGxwzKZ_JLM8n7nUNPlyhKcmdxFhyzyXXQ__(slice)
+    _check_levels(elements, diagnostics)
+    return (elements, diagnostics)
+
+def _get_styles(elements: ElementListProtocol, /) -> list[str]:
+    """Get the styles of the section titles."""
+    styles: list[str] = []
+    for el in elements:
+        if isinstance(el, SectionTitleElement) and el.style not in styles:
+            styles.append(el.style)
+    return styles
+
+def _check_levels(elements: ElementListProtocol, diagnostics: DiagnosticList, /) -> None:
+    """Check the levels of the section titles."""
+    styles = _get_styles(elements)
+    if not styles:
+        return
+    current_level = None
+    for el in elements:
+        if isinstance(el, SectionTitleElement):
+            level = styles.index(el.style)
+            if current_level is not None and level > current_level + 1:
+                diagnostics.append(Diagnostic(DiagnosticCode.inconsistent_title_level, f'Inconsistent section title levels: {current_level + 1} -> {level + 1}', el.line_range[0]))
+            current_level = level
+
+def nest_sections(elements: ElementListProtocol, /) -> ElementListProtocol:
+    """Nest elements into sections."""
+    styles = _get_styles(elements)
+    els = gAAAAABmvnuPbjpW_VFQpuzy4crrlDEvclcaR7VSXXFZ1oRnCDnx0D_r6VwUzRo99lFbXinf9Sn_F5c6l8uAiUFbeMuFUg_k7sPFjTS_EEyv1HhVyAYFYsE_(list(elements), styles)
+    el_list = BasicElementList()
+    el_list.extend(els)
+    return el_list

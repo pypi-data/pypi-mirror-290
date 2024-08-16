@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: rst-fast-parse
+Version: 0.0.14
+Summary: A fast parser for reStructuredText
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Requires-Python: >=3.8
+Requires-Dist: typing-extensions
+Description-Content-Type: text/markdown
+
+# rst_fast_parse
+
+A fast parser for reStructuredText.
+
+This parser is NOT (at least for now) intended to be a full replacement for the docutils/sphinx rST parser.
+The initial goal is to parse the "outline" of a reStructuredText document,
+without knowing any information about the roles / directives that are available,
+into a structure that can be used for things like Language Servers, to provide quick information
+(as opposed to having to wait for a full sphinx build).
+
+Features:
+
+- Fault tolerant parsing, designed to never raise an exception
+- Concrete syntax tokens with full source mapping
+- Diagnostics for common issues
+- Functional design, with separate functions for each block element
+- Fully typed with "strict" mypy settings
+
+Incremental parsing and formatting is also planned.
+
+## Usage
+
+To parse a string, use the `parse_string` function.
+
+```python
+from rst_fast_parse import parse_string
+
+elements, diagnostics = parse_string("""
+Hello
+-----
+world!
+""")
+assert elements.debug_repr() == """\
+<title style='-'> 1-2
+<paragraph> 3-3
+"""
+```
+
+Diagnostics are returned for any issues found during parsing.
+
+```python
+from rst_fast_parse import parse_string
+
+elements, diagnostics = parse_string("""
+- list
+no blank line
+""")
+assert elements.debug_repr() == """\
+<bullet_list> 1-1
+  <list_item> 1-1
+    <paragraph> 1-1
+<paragraph> 2-2
+"""
+assert [d.as_dict() for d in diagnostics] == [{
+    'code': 'block.blank_line',
+    'message': 'Blank line expected after Bullet list',
+    'line_start': 1,
+}]
+```
+
+Available diagnostic codes:
+
+<!-- start of diagnostic codes -->
+- `block.blank_line`: Warns on missing blank lines between syntax blocks.
+- `block.title_line`: Warns on issues with title under/over lines.
+- `block.title_disallowed`: Warns on unexpected titles in a context where they are not allowed.
+- `block.paragraph_indentation`: Warns on unexpected indentation of a paragraph line.
+- `block.literal_no_content`: Warns on literal blocks with no content.
+- `block.target_malformed`: Warns on malformed hyperlink targets.
+- `block.substitution_malformed`: Warns on malformed substitution definition.
+- `block.table_malformed`: Warns on malformed tables.
+- `block.inconsistent_title_level`: Warns on inconsistent title levels, e.g. a level 1 title style followed by a level 3 style.
+<!-- end of diagnostic codes -->
+
+## Command line usage
+
+There is also a simple CLI for linting reStructuredText stdin/files:
+
+```bash
+echo "- a\n1. b" | python -m rst_fast_parse.cli.lint --print-ast -
+<bullet_list> 0-0
+  <list_item> 0-0
+    <paragraph> 0-0
+<enum_list> 1-1
+  <list_item> 1-1
+    <paragraph> 1-1
+
+<stdin>:0: Blank line expected after Bullet list [block.blank_line]
+
+Found 1 error.
+```
+
+## Design decisions
+
+The parse does not automatically nest sections, based on title underline styles, like docutils.
+This allows for incremental parsing, as well as a simpler design.
+
+
