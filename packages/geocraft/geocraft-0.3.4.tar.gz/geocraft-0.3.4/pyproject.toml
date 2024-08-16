@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "geocraft"
+version = "0.3.4"
+description = "Python library for Geo & WebGIS."
+authors = ["Shangjin Tang <shangjin.tang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+format-jinja = "{% if distance == 0 %}{{ base }}{% else %}{{ base }}+{{ distance }}.{{ commit }}{% endif %}"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+# requires = ["poetry-core"]
+# build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry.scripts]
+geocraft-coord-convert = "geocraft._scripts.coord_convert:main"
+geocraft-baidumap-parse = "geocraft._scripts.parse_baidumap:main"
