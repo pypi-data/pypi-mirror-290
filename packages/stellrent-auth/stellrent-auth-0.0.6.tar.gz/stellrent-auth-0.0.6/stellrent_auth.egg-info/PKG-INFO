@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: stellrent-auth
+Version: 0.0.6
+Summary: Authentications Methods: Basic Auth, OAUTH2 and OpenID standards
+Author: Marcus R. Magalhães
+Author-email: Marcus Rodrigues Magalhães <marcusrodrigues.magalhaes@stellantis.com>
+Project-URL: Homepage, https://github.com/stellrent/stellrent-auth
+Project-URL: Issues, https://github.com/stellrent/stellrent-auth/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stellrent-auth
+Oatuh2 standards
+Flask Basic Authentication
