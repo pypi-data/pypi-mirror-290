@@ -1,0 +1,2 @@
+from wsiloader.wsi_dataloader import WSIDataloader
+from wsiloader.wsi_index_dataset import WSIIndexDataset
