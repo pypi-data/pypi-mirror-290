@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ghopenid
+Version: 0.6.0
+Summary: OpenID Provider Library for Python 3
+Author-email: Kohei YOSHIDA <kohei.yoshida@gehirn.co.jp>
+Project-URL: Repository, https://github.com/GehirnInc/ghopenid.git
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: ghoauth~=0.8.0
+Provides-Extra: dev
+Requires-Dist: black~=24.8.0; extra == "dev"
+Requires-Dist: isort~=5.12; extra == "dev"
+Requires-Dist: mypy~=1.11; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest~=8.0; extra == "test"
+Requires-Dist: pytest-cov~=5.0; extra == "test"
+
