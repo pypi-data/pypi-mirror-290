@@ -1,0 +1,60 @@
+Metadata-Version: 2.3
+Name: MLinvitroTox
+Version: 0.2.1
+Summary: MLinvitroTox performs high-throughput toxicity-based priorizitation of features from nontarget analysis (NTS) of environmental high-resolution mass spectrometry (HRMS) data.
+Author-email: Katarzyna Arturi <kasia.arturi@eawag.ch>, Lilian Gasser <lilian.gasser@sdsc.ethz.ch>, Matthias Meyer <matthias.meyer@sdsc.ethz.ch>, Eliza Harris <eliza.harris@sdsc.ethz.ch>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: cdk-pywrapper>=0.1.0
+Requires-Dist: click>=8.1.7
+Requires-Dist: filetype>=1.2.0
+Requires-Dist: imbalanced-learn>=0.12.3
+Requires-Dist: matplotlib>=3.9.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: openbabel-wheel>=3.1.1.19
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: plotly>=5.22.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: rdkit>=2023.9.6
+Requires-Dist: scikit-learn>=1.5.0
+Requires-Dist: scipy>=1.13.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: streamlit>=1.35.0
+Requires-Dist: tqdm>=4.66.4
+Requires-Dist: xgboost>=2.0.3
+Description-Content-Type: text/markdown
+
+# MLinvitroTox
+
+MLinvitroTox performs high-throughput toxicity-based priorizitation of features from nontarget analysis (NTS) of environmental high-resolution mass spectrometry (HRMS) data. 
+
+It is described in a publication that is currently being prepared. 
+
+
+## A. Project description
+
+The package contains 
+- scripts that were used to build the models
+- input data to build the models (in `data/input`) and processed data (in `data/processed`)
+- modeling results and the models
+- a streamlit app to view the results
+- scripts for users to run the models on their data
+
+
+## B. Getting started
+
+Currently, the package is only available on PyPI and can be installed as follows. 
+
+```
+pip install mlinvitrotox
+```
+
+
+## C. Example / Usage
+
+Have a look at the [tutorial](https://renkulab.io/projects/expectmine/mlinvitrotox-tutorial). 
+
+
+## D. Development
+
+If you are interested in the project and the package, please reach out to <lilian.gasser@sdsc.ethz.ch>.
