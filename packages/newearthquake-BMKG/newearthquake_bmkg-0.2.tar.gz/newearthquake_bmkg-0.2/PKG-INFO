@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: newearthquake-BMKG
+Version: 0.2
+Summary: This package get the last update earthquake from BMKG Indonesia
+Home-page: https://github.com/paten26/BMKG_latest_earthquake
+Author: Lukas Yulianto
+Author-email: paten26@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BMKG_latest_earthquake
+This package get the last update earthquake from BMKG Indonesia
+
+## How it works?
+This package scrape from [BMKG](https://www.bmkg.go.id)
+to get latest quake in Indonesia
+
+This package uses BeautifulSoup4 and Requests to produce output in JSON format.
+
+## Author
+Lukas Yulianto
+
