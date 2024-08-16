@@ -1,0 +1,20 @@
+name: tranquilizer-dev
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - flask
+  - werkzeug>=0.15
+  - python-dateutil
+  - flask-restx
+  - pytest
+  - pytest-cov
+  - numpy
+  - pandas
+  - pillow
+  - nbconvert
+  - ipykernel
+  - requests
+  - flask-jwt-extended>=4
+  - werkzeug
+  - flask-cors
