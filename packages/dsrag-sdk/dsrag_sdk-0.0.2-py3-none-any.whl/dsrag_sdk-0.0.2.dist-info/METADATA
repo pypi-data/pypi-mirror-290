@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dsrag_sdk
+Version: 0.0.2
+Summary: State-of-the-art RAG pipeline from D-Star AI
+Author-email: Zach McCormick <zach@d-star.ai>, Nick McCormick <nick@d-star.ai>
+Project-URL: Homepage, https://github.com/D-Star-AI/dsRAG
+Project-URL: Documentation, https://github.com/D-Star-AI/dsRAG
+Project-URL: Contact, https://github.com/D-Star-AI/dsRAG
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
