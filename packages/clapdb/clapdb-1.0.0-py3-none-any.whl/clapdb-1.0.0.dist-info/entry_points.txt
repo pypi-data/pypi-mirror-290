@@ -1,0 +1,7 @@
+[sqlalchemy.dialects]
+clapdb.http=clapdb.sqlalchemy:HTTPDialect
+clapdb.https=clapdb.sqlalchemy:HTTPSDialect
+
+[superset.db_engine_specs]
+clapdb=clapdb.superset:ClapDBEngineSpec
+
