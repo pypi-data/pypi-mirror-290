@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: integrationos_sdk
+Version: 0.1.1
+Summary: Python SDK for IntegrationOS API
+Author-email: Moe Katib <moe@integrationos.com>
+Project-URL: Homepage, https://github.com/integration-os/unified-python-sdk
+Keywords: integrationos,api,sdk
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.25.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# IntegrationOS Python SDK
+
+This Python SDK provides a simple and intuitive way to interact with the IntegrationOS API. It allows you to easily integrate IntegrationOS functionality into your Python applications.
+
+## Features
+
+- Simple and intuitive interface for IntegrationOS API operations
+- Support for all CRUD operations (Create, Read, Update, Delete, Count)
+- Built-in error handling and request management
+- Type hints for improved code completion and error checking in IDEs
+
+## Installation
+
+You can install the IntegrationOS SDK using pip:
+
+```
+pip install integrationos-sdk
+```
+
+## Usage
+
+Here's a quick example of how to use the IntegrationOS SDK:
+
+```python
+from integrationos_sdk import IntegrationOS
+
+# Initialize the SDK with your secret key
+integrate = IntegrationOS("your_secret_key")
+
+# Create a model instance (e.g., for customers)
+customers = integrate("customers", "your_connection_key")
+
+# List customers
+customer_list = customers.list({"limit": 10})
+print(f"First customer: {customer_list['unified'][0]['firstName']}")
+
+# Create a new customer
+new_customer = customers.create({"firstName": "John", "email": "john@example.com"})
+print(f"Created customer: {new_customer['unified']['firstName']}")
+
+# Get a specific customer
+customer = customers.get(new_customer['unified']['id'])
+print(f"Retrieved customer: {customer['firstName']}")
+
+# Update a customer
+updated_response = customers.update(customer['id'], {"firstName": "Jane"})
+print(f"Updated customer: {updated_response}")
+
+# Delete a customer
+delete_response = customers.delete(customer['id'])
+print(f"Delete response: {delete_response}")
+
+# Count customers
+customer_count = customers.count()
+print(f"Total customers: {customer_count}")
+```
+
+## Available Methods
+
+For each model, the following methods are available:
+
+- `list(params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]`
+- `create(data: Dict[str, Any]) -> Dict[str, Any]`
+- `get(id: Union[str, int]) -> Dict[str, Any]`
+- `update(id: Union[str, int], data: Dict[str, Any]) -> Dict[str, Any]`
+- `delete(id: Union[str, int]) -> Dict[str, Any]`
+- `count() -> int`
+
+## Error Handling
+
+The SDK uses the `requests` library's built-in error handling. If an HTTP error occurs, a `requests.exceptions.HTTPError` will be raised. You can catch and handle these exceptions in your code:
+
+```python
+from requests.exceptions import HTTPError
+
+try:
+    customers.get("non_existent_id")
+except HTTPError as e:
+    print(f"An error occurred: {e}")
+```
+
+## Contributing
+
+Contributions to the IntegrationOS Python SDK are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter any problems or have any questions about the SDK, please open an issue on the GitHub repository or contact IntegrationOS support.
+
+---
+
+Remember to replace `"your_secret_key"` and `"your_connection_key"` with your actual IntegrationOS API key and connection key in your code.
