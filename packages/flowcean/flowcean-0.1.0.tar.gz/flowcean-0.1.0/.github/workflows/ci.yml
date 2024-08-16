@@ -1,0 +1,81 @@
+name: CI
+on: 
+  pull_request:
+  merge_group:
+    types: [checks_requested]
+env:
+  HATCH_DATA_DIR: $GITHUB_WORKSPACE/../hatch_data
+
+jobs:
+  formatting:
+    name: Check Formatting
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Check Formatting
+        run: |
+          hatch fmt --check
+
+  types:
+    name: Check Types
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Check Types
+        run: |
+          hatch --verbose run types:check
+
+  tests:
+    name: Run Tests
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Run Tests
+        run: |
+          hatch --verbose test
+
+  examples:
+    name: Run Examples
+    strategy:
+      matrix:
+        example: ["boiler", "failure_time_prediction", "linear_data", "one_tank"]
+    runs-on: self-hosted
+    env:
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Install and Setup DVC
+        run: |
+          pip install dvc dvc-webdav
+          dvc --version
+          dvc remote modify --local tuhh-cloud password ${{ secrets.TUHH_CLOUD_DVC_SHARE_PASSWORD }}
+          dvc config cache.dir $GITHUB_WORKSPACE/../dvc_cache
+      - name: DVC pull
+        run: |
+          dvc pull --verbose --recursive examples/${{ matrix.example }}
+      - name: Run Example [${{ matrix.example }}]
+        run: |
+          hatch --verbose run examples:${{ matrix.example }}
+
+  documentation:
+    name: Build Documentation
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hatch
+        uses: pypa/hatch@install
+      - name: Build Documentation
+        run: |
+          hatch --verbose run docs:build --strict
