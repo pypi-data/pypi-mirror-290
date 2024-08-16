@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "geewiz"
+authors = ["Mike Nicholaides <mike.nicholaides@gmail.com>"]
+version = "0.1.5"
+description = ""
+license = "MIT"
+readme = "README.md"
+package-mode = true
+include = ["src/geewiz/**/*.py", "LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+pytest-only = "^2.1.2"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
