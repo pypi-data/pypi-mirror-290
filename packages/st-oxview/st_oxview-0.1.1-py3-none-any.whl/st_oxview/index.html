@@ -1,0 +1,105 @@
+<html>
+  <body>
+    <!-- Set up your HTML here -->
+    <div id="oxview_frame"> </div>
+
+    <script>
+      // ----------------------------------------------------
+      // Just copy/paste these functions as-is:
+
+      function sendMessageToStreamlitClient(type, data) {
+        var outData = Object.assign(
+          {
+            isStreamlitMessage: true,
+            type: type,
+          },
+          data
+        );
+        window.parent.postMessage(outData, "*");
+      }
+
+      function init() {
+        sendMessageToStreamlitClient("streamlit:componentReady", {
+          apiVersion: 1,
+        });
+      }
+
+      function setFrameHeight(height) {
+        sendMessageToStreamlitClient("streamlit:setFrameHeight", {
+          height: height,
+        });
+      }
+
+      // The `data` argument can be any JSON-serializable value.
+      function sendDataToPython(data) {
+        sendMessageToStreamlitClient("streamlit:setComponentValue", data);
+      }
+
+      // ----------------------------------------------------
+      // OxView setup
+
+      function handle(t_files, file_types) {
+        console.log(t_files);
+        console.log(file_types);
+        const inbox_settings = ["Monomer", "Origin"];
+        const frame_id = "1";
+        const t_blobs = [];
+
+        for (let i = 0; i < t_files.length; i++) {
+          let f = new XMLHttpRequest();
+          f.open("GET", t_files[i], false);
+          f.onreadystatechange = function () {
+            t_blobs.push(
+              new Blob([f.responseText], { type: "text/plain" })
+            );
+          };
+          f.send(null);
+        }
+
+        const frame = document.getElementById("oxview-frame-1");
+        console.log(frame);
+        frame.contentWindow.postMessage({
+          message: "iframe_drop",
+          files: t_blobs,
+          ext: file_types,
+          inbox_settings: inbox_settings,
+        });
+      }
+
+      // data is any JSON-serializable value you sent from Python,
+      // and it's already deserialized for you.
+      function onDataFromPython(event) {
+        if (event.data.type !== "streamlit:render") return;
+        let t_files = event.data.args.files_text;
+        let file_types = event.data.args.file_types;
+        let width = event.data.args.width;
+        if (width === undefined) width = "99%";
+        let height = event.data.args.height;
+        if (height === undefined) height = "500";
+
+        oxview_frame.innerHTML =
+          '<iframe width="' +
+          width +
+          '" height="' +
+          height +
+          '" src="./oxview_src/index.html" id="oxview-frame-1"></iframe>';
+
+        // Call handle function after the iframe is loaded
+        document.getElementById("oxview-frame-1").onload = function () {
+          handle(t_files, file_types);
+        };
+      }
+
+      // Hook things up!
+      window.addEventListener("message", onDataFromPython);
+      init();
+
+      // Hack to autoset the iframe height.
+      window.addEventListener("load", function () {
+        window.setTimeout(function () {
+          setFrameHeight(document.documentElement.clientHeight);
+        }, 0);
+      });
+    </script>
+  </body>
+</html>
