@@ -1,0 +1,2 @@
+
+from .tiktokmaskao import tiktokMaska
