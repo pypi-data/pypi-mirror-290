@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/physical_basis/__init__.py
+src/physical_basis/eigenvalues.npy
+src/physical_basis/eigenvectors.npy
+src/physical_basis/physical_basis.py
+src/physical_basis.egg-info/PKG-INFO
+src/physical_basis.egg-info/SOURCES.txt
+src/physical_basis.egg-info/dependency_links.txt
+src/physical_basis.egg-info/requires.txt
+src/physical_basis.egg-info/top_level.txt
+src/physical_basis/torch/__init__.py
+src/physical_basis/torch/physical_basis.py
+tests/test_physical_basis.py
+tests/test_physical_basis_torch.py
