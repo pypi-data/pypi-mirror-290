@@ -1,0 +1,76 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "STree"
+dependencies = ["scikit-learn>1.0", "mufs"]
+license = { file = "LICENSE" }
+description = "Oblique decision tree with svm nodes."
+readme = "README.md"
+authors = [
+  { name = "Ricardo Montañana", email = "ricardo.montanana@alu.uclm.es" },
+]
+dynamic = ['version']
+requires-python = ">=3.11"
+keywords = [
+  "scikit-learn",
+  "oblique-classifier",
+  "oblique-decision-tree",
+  "decision-tree",
+  "svm",
+  "svc",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+dev = ["black", "flake8", "coverage", "hatch", "pip-audit"]
+doc = ["sphinx", "myst-parser", "sphinx_rtd_theme", "sphinx-autodoc-typehints"]
+
+[project.urls]
+Code = "https://github.com/Doctorado-ML/STree"
+Documentation = "https://stree.readthedocs.io/en/latest/index.html"
+
+[tool.hatch.version]
+path = "stree/_version.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["/stree"]
+
+[tool.coverage.run]
+branch = true
+source = ["stree"]
+command_line = "-m unittest discover -s stree.tests"
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[tool.black]
+line-length = 79
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
