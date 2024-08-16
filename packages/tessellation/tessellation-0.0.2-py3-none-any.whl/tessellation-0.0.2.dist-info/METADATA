@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tessellation
+Version: 0.0.2
+Summary: A service for procedurally generating tessellations.
+Author: Anthony D'Achille
+Author-email: adachille15@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.9.0,<4.0.0)
+Requires-Dist: numpy (>=2.0.1,<3.0.0)
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# tessellation
+This repository holds code to procedurally generate tessellations.
+
