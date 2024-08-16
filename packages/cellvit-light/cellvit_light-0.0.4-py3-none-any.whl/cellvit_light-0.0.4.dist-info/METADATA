@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cellvit_light
+Version: 0.0.4
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic ==1.10.4
+Requires-Dist: geojson
+Requires-Dist: rasterio
+Requires-Dist: ujson
+Requires-Dist: pandarallel
+
+This packages contains the code for CellViT inference, an open-source model for nuclear detection and classification. Please refer to the original GitHub implementation for license. See: https://github.com/TIO-IKIM/CellViT
+
+
+Feature added compared to normal CellViT:
+- Multi-gpu inference (specify --gpu_ids)
+- Reimplementation of the stitching algorithm to be compatible with >= Shapely 2.0 (for compatibility with Spatial Data in HEST)
+- Resizing of patches at the correct um/px
+
+```
+@article{CellViT,
+    title = {CellViT: Vision Transformers for precise cell segmentation and classification},
+    journal = {Medical Image Analysis},
+    volume = {94},
+    pages = {103143},
+    year = {2024},
+    issn = {1361-8415},
+    doi = {https://doi.org/10.1016/j.media.2024.103143},
+    url = {https://www.sciencedirect.com/science/article/pii/S1361841524000689},
+    author = {Fabian Hörst and Moritz Rempe and Lukas Heine and Constantin Seibold and Julius Keyl and Giulia Baldini and Selma Ugurel and Jens Siveke and Barbara Grünwald and Jan Egger and Jens Kleesiek},
+}
+```
