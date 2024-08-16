@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: krakentren
+Version: 0.11.18
+Summary: A python package to interact with Kraken.com REST API
+Home-page: https://github.com/Ionsper/krakentren
+Author: Ionsper
+Author-email: ionsper@outlook.com
+License: MIT
+Requires-Python: >=3.9.2
+License-File: LICENSE.txt
+Requires-Dist: numpy==2.0.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: requests==2.32.3
