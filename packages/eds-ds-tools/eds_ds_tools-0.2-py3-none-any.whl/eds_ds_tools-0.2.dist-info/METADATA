@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: eds_ds_tools
+Version: 0.2
+Summary: tools for data science
+Author-email: wenleicao@gmail.com
+Requires-Dist: python >=3.6
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: fastparquet
+Requires-Dist: psycopg2
+Requires-Dist: pymssql
+Requires-Dist: sqlalchemy
+Requires-Dist: teradata
+
