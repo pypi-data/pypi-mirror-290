@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: pylangdb
+Version: 0.1.1
+Summary: 
+Author: Vivek
+Author-email: vivek@langdb.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pylangdb
+`pylangdb` is a Python package for interacting with `LangDb` APIs. Please find out more at https://langdb.ai/.
+
+## Installation
+To install `pylangdb`, use pip:
+
+```bash
+pip install pylangdb
+```
+
+## Usage
+
+Initialize `LangDb`
+
+```python
+from pylangdb import LangDb, MessageRequest
+
+langdb = LangDb(CLIENT_ID, CLIENT_SECRET)
+```
+
+Query
+```python
+query = "select * from langdb.models"
+self.langdb.query_df(query)
+```
+
+Execute View
+```python
+langdb.execute_view({
+    "view_name": "view_name", 
+    "params": {
+        "param_a": ".."
+    }
+})
+```
+
+Invoke Model
+```python
+msg = MessageRequest(
+            model_name='review',
+            message='You are a terrible product',
+            parameters={},
+            include_history=False
+        )
+response = langdb.invoke_model(msg)
+```
+
