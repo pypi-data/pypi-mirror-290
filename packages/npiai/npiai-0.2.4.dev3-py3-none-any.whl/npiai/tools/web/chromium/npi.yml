@@ -1,0 +1,12 @@
+class: Chromium
+main: app.py
+env:
+  - name: "NPIAI_SERVICE_MODE"
+    value: True
+  - name: "OPENAI_API_KEY"
+    secret: true
+dependencies:
+  - name: python
+    version: "^3.10"
+  - name: npiai
+    version: "^0.2.4.dev3"
