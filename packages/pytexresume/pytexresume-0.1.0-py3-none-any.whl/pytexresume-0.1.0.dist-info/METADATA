@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pytexresume
+Version: 0.1.0
+Summary: A Python-based resume generator with LaTeX support.
+License: MIT
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: gitpython
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pylatex
+Requires-Dist: yaml
+Description-Content-Type: text/markdown
+
+# PyTexResume
+
+PyTexResume is a Python-based resume generator that utilizes LaTeX for high-quality, customizable PDF output. It supports the installation and management of templates from GitHub repositories and provides a simple CLI for generating resumes based on YAML configuration files.
+
+## Features
+
+- Generate professional resumes using LaTeX templates.
+- Supports multiple templates and easy switching.
+- Install and manage resume templates from remote repositories.
+- YAML-based configuration for defining resume content.
+
+
+## Installation
+
+```bash
+apt install texlive-full # texlive-full is needed
+python -m pip install pytexresume
+```
+
+## Usage
+
+```bash
+pytexresume list  # list all templates
+pytexresume install # install template from git link
+pytexresume remove # remove template installed
+pytexresume gen /path/to/your/resume.yaml # as assets/example.yaml
+```
+
+## Resume
+
+see [assets/example.yaml](assets/example.yaml)
+
+## Template
+
+create your own Template as [pytexresume/templates/en_simple](pytexresume/templates/en_simple)
