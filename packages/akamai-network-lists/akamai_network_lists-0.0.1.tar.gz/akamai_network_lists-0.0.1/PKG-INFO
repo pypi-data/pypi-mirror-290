@@ -1,0 +1,34 @@
+Metadata-Version: 2.3
+Name: akamai-network-lists
+Version: 0.0.1
+Summary: An Akamai CLI package for interacting with the Network Lists API
+Project-URL: Homepage, https://github.com/tbd
+Project-URL: Issues, https://github.com/tbd/issues
+Author: Ryan
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: click==8.1.7
+Requires-Dist: edgegrid-python==1.3.1
+Requires-Dist: requests<3.0,>=2.25.1
+Description-Content-Type: text/markdown
+
+# Akamai Network Lists
+
+
+```bash
+source venv/bin/activate
+```
+
+
+## Build
+
+```bash
+python3 -m pip install --upgrade build
+python3 -m pip install --upgrade twine
+
+python3 -m build
+python3 -m twine upload dist/*
+```
