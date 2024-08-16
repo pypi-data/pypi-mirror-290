@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pifpaf
+Version: 3.2.1
+Summary: Suite of tools and fixtures to manage daemons for testing
+Home-page: https://github.com/jd/pifpaf
+Author: Julien Danjou
+Author-email: julien@danjou.info
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+Requires-Dist: daiquiri
+Requires-Dist: click
+Requires-Dist: jinja2
+Requires-Dist: fixtures
+Requires-Dist: packaging
+Requires-Dist: psutil
+Requires-Dist: xattr; sys_platform != "win32"
+Provides-Extra: test
+Requires-Dist: requests; extra == "test"
+Requires-Dist: stestr; extra == "test"
+Requires-Dist: testtools; extra == "test"
+Requires-Dist: mock; extra == "test"
+Provides-Extra: gnocchi
+Requires-Dist: uwsgi; extra == "gnocchi"
