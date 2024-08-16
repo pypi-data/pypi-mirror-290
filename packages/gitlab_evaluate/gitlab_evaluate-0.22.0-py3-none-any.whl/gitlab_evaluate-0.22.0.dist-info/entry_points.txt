@@ -1,0 +1,5 @@
+[console_scripts]
+evaluate-bitbucket=gitlab_evaluate.main:evaluate_bitbucket
+evaluate-gitlab=gitlab_evaluate.main:evaluate_gitlab
+evaluate-jenkins=gitlab_evaluate.main:evaluate_jenkins
+
