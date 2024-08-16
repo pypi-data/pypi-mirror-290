@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gp-flask-ext
+Version: 0.0.1
+Summary: flask extension for gp
+Author: hil
+Author-email: hil@carota.ai
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: loguru
+Requires-Dist: requests
+
+flask extension for gp
