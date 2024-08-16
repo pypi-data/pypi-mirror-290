@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tempmail-python3
+Version: 0.1.3
+Summary: Handle tempmail with 1secmail API.
+Home-page: https://github.com/shadMod/tempmail/
+Download-URL: https://github.com/shadMod/tempmail/archive/refs/tags/0.1.3.tar.gz
+Author: shadMod
+Author-email: support@shadmod.it
+Project-URL: Documentation, https://docs.shadmod.it/tempmail/index
+Project-URL: GitHub, https://github.com/shadMod/tempmail/
+Project-URL: Bug Tracker, https://github.com/shadMod/tempmail/issues/
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi==2024.7.4
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: idna==3.7
+Requires-Dist: requests==2.32.3
+Requires-Dist: urllib3==2.2.2
+
+# Tempmail
+
+Handle tempmail with 1secmail API.
