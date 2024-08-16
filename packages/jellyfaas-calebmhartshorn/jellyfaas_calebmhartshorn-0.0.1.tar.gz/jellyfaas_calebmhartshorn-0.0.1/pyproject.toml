@@ -1,0 +1,28 @@
+[project]
+name = "jellyfaas_calebmhartshorn"
+version = "0.0.1"
+description = "A client for interacting with the JellyFAAS API"
+authors = [
+    { name = "Caleb Hartshorn", email = "caleb@platform48.com" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+files = ["jellyfaas_client"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-v --maxfail=1 --disable-warnings"
