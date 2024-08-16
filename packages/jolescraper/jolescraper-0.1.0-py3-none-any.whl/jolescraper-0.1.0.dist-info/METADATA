@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jolescraper
+Version: 0.1.0
+Summary: A simple web scraper made using BeautifulSoup and requests libraries.
+Author: Joel Crasta
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
