@@ -1,0 +1,15 @@
+[package]
+name = "ulibrs"
+version = "0.1.0"
+edition = "2021"
+description = "A simple but universal library written in Rust."
+authors = ["raugfer"]
+license = "MIT"
+repository = "https://github.com/raugfer/ulibrs"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+ulibrs = "*"
