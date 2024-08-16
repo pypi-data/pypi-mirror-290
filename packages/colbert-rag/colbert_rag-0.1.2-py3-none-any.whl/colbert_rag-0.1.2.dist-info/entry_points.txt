@@ -1,0 +1,6 @@
+[console_scripts]
+create-index=scripts.index:create
+generate-protos=scripts.generate:protos
+server=scripts.server:run
+type-check=scripts.type_check:run_mypy
+
