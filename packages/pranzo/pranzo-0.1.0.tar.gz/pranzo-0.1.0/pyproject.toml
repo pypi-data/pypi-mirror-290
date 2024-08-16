@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pranzo"
+version = "0.1.0"
+description = "couple experimental calo and rheo data"
+readme = { file = "README.md", content-type="text/markdown" }
+dependencies = ["numpy",
+"pandas",
+"scipy",
+"bamboost",
+"matplotlib",
+"tomli",
+"h5py",
+]
+
+[project.entry-points.console_scripts]
+save_exp = "scripts.save_exp_data:main"
+
+[tool.setuptools.packages.find]
+include = ["pranzo", "pranzo.*", "scripts"]
