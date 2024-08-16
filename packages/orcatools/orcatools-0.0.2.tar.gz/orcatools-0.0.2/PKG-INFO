@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: orcatools
+Version: 0.0.2
+Summary: Python tools for ORCA
+Home-page: https://github.com/Tonner-Zech-Group/ORCA-tools
+Author: Patrick Melix
+Author-email: Patrick Melix <patrick.melix@uni-leipzig.de>
+Project-URL: Homepage, https://github.com/Tonner-Zech-Group/ORCA-tools
+Project-URL: Issues, https://github.com/Tonner-Zech-Group/ORCA-tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ORCA-tools
+
+Our collection of python tools for [ORCA](https://www.kofo.mpg.de/de/forschung/services/orca).
+
+## Installation
+
+Clone this repository and run `pip install .` inside the main directory. If you want to always use the latest content of the repo you can use the 'developement' install of pip by running `pip install -e .`. Just doing `git pull` to get the latest content of the repo will then automatically result in the usage of the latest code without need to reinstall.
+
+## Usage
+
+You can either run `python3 -m orcatools` to use the command line interface, or import the needed features in your own scripts.
+
+E.g. in a Jupyter notebook you can do
+
+```python
+from orcatools.go import plot_orca_go
+path = "path to your ORCA calculation"
+plot_orca_go(filename="myjobname", presentation=True, path=path, show=True)
+```
+
+to also see your plots inside the notebook.
