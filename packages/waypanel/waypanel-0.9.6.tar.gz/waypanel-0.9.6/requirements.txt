@@ -1,0 +1,19 @@
+# This file lists all Python packages required by the script
+
+# Standard library imports
+importlib-metadata
+netifaces
+psutil
+pulsectl
+soundcard
+toml
+numpy
+random2
+wayfire
+requests
+bs4
+setuptools
+meson
+# Third-party library imports
+pygobject
+
