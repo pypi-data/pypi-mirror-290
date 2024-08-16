@@ -1,0 +1,14 @@
+# compiled code and build products
+__pycache__/
+*.pyc
+*.so
+build/
+dist/
+*.egg-info/
+
+# editor-specific
+.vscode/
+.idea/
+
+# output files of SNOSHEWS_example.py
+out/

@@ -1,0 +1,91 @@
+name: Build SNOSHEWS
+
+# Workflow that builds and tests the SNOSHEWS package on every pull request
+# and on every push to the main branch. If a new version tag is pushed, the
+# workflow will also publish the package to PyPI.
+
+on:
+  push:
+    branches: [ main ]
+    tags: # Sequence of patterns matched against refs/tags
+      - 'v*' # Any tag matching v*, e.g. v1.0, v1.2b1
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest] # [macos-latest, ubuntu-latest, windows-latest]
+        python-version: ['3.10', '3.11', '3.12']
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies (all OSes)
+        run: |
+          python -m pip install --upgrade pip
+          pip install build
+      - name: Install dependencies (macOS)
+        if: ${{ startsWith(matrix.os, 'macos') }}
+        run: |
+          brew install libomp
+          echo "LIBOMP_INCLUDE=`brew --prefix`/opt/libomp/include" >> $GITHUB_ENV
+      - name: Install dependencies (Ubuntu)
+        if: ${{ startsWith(matrix.os, 'ubuntu') }}
+        run: |
+          exit 1 # TODO: Add Ubuntu dependencies here
+      - name: Install dependencies (Windows)
+        if: ${{ startsWith(matrix.os, 'windows') }}
+        run: |
+          exit 1 # TODO: Add Windows dependencies here
+
+      - name: Install SNOSHEWS
+        run: |
+          python -m build
+          ls -al dist/
+          pip install dist/*.whl
+      - name: Run basic example
+        run: |
+          # Cannot use the example script because it takes very long to run and requires additional setup steps
+          #cd scripts/
+          #python SNOSHEWS_example.py
+          # Instead, just a quick check that SNOSHEWS can be imported:
+          python -c "import SNOSHEWS; print(SNOSHEWS.InputDataSNOSHEWS())"
+
+      - name: Upload distributions
+        uses: actions/upload-artifact@v4
+        with:
+          path: dist/
+          name: release-dists-${{ matrix.os }}-${{ matrix.python-version }}
+          if-no-files-found: error
+
+  publish_to_pypi:
+    # Only run if a new tag was created …
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    # … and if all builds above were successful
+    needs: build
+
+    runs-on: ubuntu-latest
+    permissions:
+      # See https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect#adding-permissions-settings
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Retrieve release distributions
+        uses: actions/download-artifact@v4
+        with:
+          path: dist/
+          pattern: release-dists-*
+          merge-multiple: true
+
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
