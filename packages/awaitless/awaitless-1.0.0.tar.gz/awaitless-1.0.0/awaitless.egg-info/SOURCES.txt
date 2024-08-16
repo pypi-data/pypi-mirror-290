@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.rst
+conftest.py
+pyproject.toml
+test.py
+.github/workflows/python-package.yml
+.github/workflows/python-publish.yml
+awaitless/__init__.py
+awaitless.egg-info/PKG-INFO
+awaitless.egg-info/SOURCES.txt
+awaitless.egg-info/dependency_links.txt
+awaitless.egg-info/requires.txt
+awaitless.egg-info/top_level.txt
