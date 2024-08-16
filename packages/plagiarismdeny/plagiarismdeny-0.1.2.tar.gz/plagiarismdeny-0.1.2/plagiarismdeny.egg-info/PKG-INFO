@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: plagiarismdeny
+Version: 0.1.2
+Summary: Disallow plagiarism for a particular project
+Home-page: https://github.com/interceptic/skyblockaio
+Author: interceptic
+Author-email: SamMaybe@fluxqol.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: py-cord
+Requires-Dist: discord.py
+Requires-Dist: discord
