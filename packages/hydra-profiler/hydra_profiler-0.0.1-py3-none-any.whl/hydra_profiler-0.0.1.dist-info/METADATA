@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: hydra_profiler
+Version: 0.0.1
+Summary: A simple hydra profiler to track and record memory usage and runtime information of jobs.
+Author-email: Matthew McDermott <mattmcdermott8@gmail.com>
+Project-URL: Homepage, https://github.com/mmcdermott/hydra_profiler
+Project-URL: Issues, https://github.com/mmcdermott/hydra_profiler/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: memray
+Requires-Dist: hydra-core==1.3.2
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mkdocs==1.6.0; extra == "docs"
+Requires-Dist: mkdocs-material==9.5.31; extra == "docs"
+Requires-Dist: mkdocstrings[python,shell]==0.25.2; extra == "docs"
+Requires-Dist: mkdocs-gen-files==0.5.0; extra == "docs"
+Requires-Dist: mkdocs-literate-nav==0.6.1; extra == "docs"
+Requires-Dist: mkdocs-section-index==0.3.9; extra == "docs"
+Requires-Dist: mkdocs-git-authors-plugin==0.9.0; extra == "docs"
+Requires-Dist: mkdocs-git-revision-date-localized-plugin==1.2.6; extra == "docs"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pytest-cov; extra == "tests"
+Requires-Dist: rootutils; extra == "tests"
+
+# Hydra Profiler
+
+This package provides an extremely simple utility that can be used via the [Hydra](https://hydra.cc/)
+configuration system's experimental [callbacks](https://hydra.cc/docs/experimental/callbacks/) system to
+automatically profile the memory usage and runtime of your Hydra-launched python jobs.
+
+## Installation
+
+```bash
+pip install hydra-profiler
+```
+
+## Usage
+
+When running any hydra job, just add the following to your command line:
+
+```bash
+$COMMAND... ++hydra.callbacks.profiler._target_=hydra_profiler.profiler.ProfilerCallback
+```
+
+Once your job is complete, a [memray](https://bloomberg.github.io/memray/) memory profile will be saved to the
+hydra's run directory under the filepath `${hydra.run.dir}/${job_name}.memray`. Additionally, a `timing.json`
+file will be written that contains the overall job's runtime. No extensive time profiling (e.g., with
+`cProfile`) is included at this time.
+
+You can also add this to your hydra configuration file directly:
+
+```yaml
+hydra:
+  callbacks:
+    profiler:
+      _target_: hydra_profiler.profiler.ProfilerCallback
+```
+
+You can then use the output files via any [memray](https://bloomberg.github.io/memray/) tool (on the memory
+side) and just by inspecting the `timing.json` file for the runtime.
+
+## Future Work
+
+1. Add more detailed timing information.
+2. More carefully assess the overhead of the profiler.
+3. Ensure there are no memory leaks or issues should the job terminate unexpectedly.
+4. Ensure this works on sweeper and multi-run jobs.
