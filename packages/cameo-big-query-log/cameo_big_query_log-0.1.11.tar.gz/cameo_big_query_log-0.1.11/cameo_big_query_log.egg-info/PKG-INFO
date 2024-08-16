@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: cameo-big-query-log
+Version: 0.1.11
+Summary: A package for logging data to Google BigQuery
+Home-page: UNKNOWN
+Author: bear
+Author-email: panda1993127@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Cameo BigQuery Logger
+
+這個套件提供了一個用於將使用者操作記錄插入到Google BigQuery的工具。它包括兩個主要的類：`UserData`和`BigQueryLogger`。
+
+## 安裝
+
+你可以使用以下命令來安裝套件：
+
+```sh
+pip install -e .
+```
+
+## 環境變數
+
+在使用這個套件之前，你需要設置一些環境變數。你可以在項目根目錄下創建一個`.env`文件，並添加以下內容：
+
+```
+BIG_QUREY_GOOGLE_APPLICATION_CREDENTIALS=path/to/your/service/account/key.json
+BIG_QUREY_KEY=your_fernet_key
+BIG_QUREY_DATASET_ID=your_dataset_id
+BIG_QUREY_TABLE_NAME=your_table_name
+```
+
+- `BIG_QUREY_GOOGLE_APPLICATION_CREDENTIALS`：Google Cloud服務帳戶的憑證文件路徑，此份文件會將專案名稱包在裡面。
+- `BIG_QUREY_KEY`：用於加密的Fernet密鑰，可每半年修改一次。
+- `BIG_QUREY_DATASET_ID`：BigQuery數據集ID。
+- `BIG_QUREY_TABLE_NAME`：BigQuery表名。
+
+## 產生key的方法
+```python
+from cameo_big_query_log.cameo_big_query_log import BigQueryLogger
+
+logger.generate_key()
+```
+
+## 使用方法
+
+### 1. 初始化BigQueryLogger
+
+```python
+from cameo_big_query_log.cameo_big_query_log import BigQueryLogger
+
+logger = BigQueryLogger()
+```
+
+### 2. 插入數據到BigQuery表
+
+首先，創建一個包含使用者數據的字典（**必填欄位已標註**）：
+
+```python
+user_data = {
+    "user_name": "John Doe",  # 必填
+    "user_department": "Engineering",  # 必填
+    "domain_name": "example.com",  # 選填,default='unknown'
+    "session_id": "123456",  # 選填, 對話的session_id, default='unknown'
+    "action_type": "login",  # 必填, 選項有login、logout、conversation、picture、video
+    "action_details": '{"detail": "value"}',  # 必填, log的詳細資訊, 字串形式, 如果是用completion, 可以直接json.dumps(messages)
+    "resource_id": 'unknown',  # 選填, 可為波通鑒資料庫id、詢問的音檔或圖檔名稱 
+    "developer": "cameo"  # 選填, 開發者姓名, 預設cameo
+}
+```
+
+然後，使用`insert_data_to_table`方法將數據插入到BigQuery表中：
+
+```python
+logger.insert_data_to_table(user_data)
+```
+
+## 類和方法
+
+### UserData
+
+`UserData`類用於驗證和存儲使用者數據。它使用Pydantic進行數據驗證。
+
+### BigQueryLogger
+
+`BigQueryLogger`類用於與Google BigQuery進行交互。它包括以下方法：
+
+- `__init__`：初始化BigQuery客戶端和加密套件。
+- `generate_key`：生成一個新的Fernet密鑰。
+- `get_local_ip`：獲取本地IP地址。
+- `insert_data_to_table`：將使用者數據插入到BigQuery表中。
+- `create_table`：創建一個新的BigQuery表。
+
+## 測試
+
+你可以使用`pytest`來運行測試。確保你已經安裝了`pytest`：
+
+```sh
+pip install pytest
+```
+
+然後運行測試：
+
+```sh
+pytest test
+```
+
+這將運行位於`tests/test_cameo_big_query_log.py`中的測試腳本。
+
+## 貢獻
+
+歡迎提交問題和請求功能。如果你想貢獻代碼，請先fork這個倉庫，創建一個新的分支，提交你的更改，然後創建一個pull request。
+
+## 授權
+
+這個項目使用MIT許可證。詳情請參閱LICENSE文件。
+
+
