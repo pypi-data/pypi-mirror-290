@@ -1,0 +1,112 @@
+[1m============================= test session starts ==============================[0m
+platform darwin -- Python 3.12.4, pytest-7.4.3, pluggy-1.5.0
+rootdir: /Users/stevenbird/git/nltk/nltk/test
+configfile: pytest.ini
+plugins: mock-3.14.0
+collected 1 item
+
+wordnet.doctest [32m.[0m[32m                                                        [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+wordnet.doctest::wordnet.doctest
+  /opt/local/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dateutil/tz/tz.py:37: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+    EPOCH = datetime.datetime.utcfromtimestamp(0)
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:604: UserWarning: Discarded redundant search for Synset('animal.n.01') at depth 7
+    for synset in acyclic_breadth_first(self, rel, depth):
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 01498548-a in '01498548-a	hrv:lemma	amoralan
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 01498548-a in '01498548-a	hrv:lemma	nemoralan
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 01505508-a in '01505508-a	hrv:lemma	mnogo više
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 01505508-a in '01505508-a	hrv:lemma	puno više
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 02002046-a in '02002046-a	hrv:lemma	izuzev
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 02002046-a in '02002046-a	hrv:lemma	izuzevši
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 02002046-a in '02002046-a	hrv:lemma	izuzimajući
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 02002046-a in '02002046-a	hrv:lemma	osim
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 02917945-a in '02917945-a	hrv:lemma	mahunast
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:2236: UserWarning: hrv: invalid offset 03202339-n in '03202339-n	hrv:lemma	modne potrepštine
+  '
+    warnings.warn(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:659: UserWarning: Discarded redundant search for Synset('bound.a.01') at depth -3
+    return acyclic_branches_depth_first(self, rel, depth, cut_mark)
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:521: UserWarning: Discarded redundant search for Synset('confined.a.02') at depth -5
+    acyclic_branches_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:521: UserWarning: Discarded redundant search for Synset('unfree.a.02') at depth -5
+    acyclic_branches_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:521: UserWarning: Discarded redundant search for Synset('unfree.a.02') at depth -4
+    acyclic_branches_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:521: UserWarning: Discarded redundant search for Synset('restricted.a.01') at depth -5
+    acyclic_branches_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/corpus/reader/wordnet.py:659: UserWarning: Discarded redundant search for Synset('concrete.a.01') at depth 0
+    return acyclic_branches_depth_first(self, rel, depth, cut_mark)
+
+wordnet.doctest::wordnet.doctest
+  <doctest wordnet.doctest[186]>:1: UserWarning: Discarded redundant search for Synset('bound.a.01') at depth -3
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:452: UserWarning: Discarded redundant search for Synset('confined.a.02') at depth -5
+    acyclic_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:452: UserWarning: Discarded redundant search for Synset('unfree.a.02') at depth -5
+    acyclic_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  /Users/stevenbird/git/nltk/nltk/util.py:452: UserWarning: Discarded redundant search for Synset('unfree.a.02') at depth -4
+    acyclic_depth_first(
+
+wordnet.doctest::wordnet.doctest
+  <doctest wordnet.doctest[186]>:1: UserWarning: Discarded redundant search for Synset('restricted.a.01') at depth -3
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[33m======================= [32m1 passed[0m, [33m[1m23 warnings[0m[33m in 10.92s[0m[33m ========================[0m
