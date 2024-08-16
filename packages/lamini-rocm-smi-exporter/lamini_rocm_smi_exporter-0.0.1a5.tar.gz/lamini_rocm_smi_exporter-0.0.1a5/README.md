@@ -1,0 +1,36 @@
+# rocm-smi-exporter
+
+Export rocm-smi metrics as prometheus metrics
+
+## Docker
+
+```
+docker build . -t powerml/rocm-smi-exporter
+
+# Login with powerml repo in 1password and push to it
+docker login
+docker push powerml/rocm-smi-exporter
+
+# -v /opt:/opt is needed to make rocm runtime library available to container
+docker run -d --rm --name=smi-exporter -p 9001:9001 \
+--device=/dev/kfd --device=/dev/dri --group-add video \
+-v /opt:/opt powerml/rocm-smi-exporter
+
+# You should see the ROCM_* prefixed metrics
+curl localhost:9001/metrics
+```
+
+## Pants build
+
+[Pants](https://www.pantsbuild.org/2.21/docs/introduction/welcome-to-pants)
+uses explicit `BUILD` files to track source files' dependencies and builds.
+
+Pants is hermetic, means that the entire build environment is specified in
+[pants.toml](pants.toml), which is copied from
+[example-python](https://github.com/pantsbuild/example-python).
+
+## Extra
+
+* [Add args to systemd service](https://superuser.com/a/728962)
+  * The python code accepts `--port` and other arguments
+  * If needed, set its value when launching systemd service
