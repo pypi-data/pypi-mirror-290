@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: repype
+Version: 1.0.0a1
+Summary: Reproducible batch processing using pipelines for scientific computing.
+Home-page: https://github.com/kostrykin/pypers
+Author: Leonid Kostrykin
+Author-email: leonid.kostrykin@bioquant.uni-heidelberg.de
+License: MIT
+Requires-Python: >3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+**Installation:**
+
+.. code::
+
+    git clone git@github.com:kostrykin/pypers.git
+    cd pypers && python setup.py install
+
+**Documentation:** https://pypers-batch.readthedocs.io
+
+**Development instructions:**
+
+- Use ``python -m unittest`` in the root directory of the repository to run the test suite.
+- Or use coverage.py instead to also produce a test coverage report::
+
+      coverage run -m unittest && python -m coverage html
+
+  This requires `coverage.py <https://coverage.readthedocs.io/en/7.4.0/#quick-start>`_ to be installed, like ``pip install coverage``.
