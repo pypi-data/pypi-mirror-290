@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "plain.code"
+packages = [
+    { include = "plain" },
+]
+
+version = "0.3.0"
+description = "Code formatting and linting for Plain."
+authors = ["Dave Gaeddert <dave.gaeddert@dropseed.dev>"]
+
+# Make the CLI available without adding to INSTALLED_APPS
+[tool.poetry.plugins."plain.cli"]
+"code" = "plain.code:cli"
+"fix" = "plain.code.cli:fix"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+plain = "<1.0.0"
+
+ruff = "^0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+plain = { path = "../plain", develop = true }
+
+pytest = "^7.1.2"
+ipdb = "^0.13.9"
+isort = "^5.10.1"
+black = "^23.1.0"
+pytest-django = "^4.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
