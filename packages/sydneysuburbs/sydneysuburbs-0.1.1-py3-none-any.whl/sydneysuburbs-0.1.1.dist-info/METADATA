@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: sydneysuburbs
+Version: 0.1.1
+Summary: A travle-like game for the suburbs of Sydney.
+Author-email: robbievanleeuwen <robbie.vanleeuwen@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: suburbs,sydney,travle
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Requires-Python: >=3.12
+Requires-Dist: geopandas==1.0.1
+Requires-Dist: libpysal==4.12.0
+Requires-Dist: networkx==3.3
+Requires-Dist: plotly==5.23.0
+Requires-Dist: topojson==1.9
+Description-Content-Type: text/markdown
+
+# sydney-suburbs
