@@ -1,0 +1,136 @@
+
+#    Future State Not Yet Reached     #
+# ----------------------------------- #
+#   Configurations for Trade Stream   #
+# ----------------------------------- #
+#       By Mac Anderson / 2024        #
+# ----------------------------------- #
+
+# Symbols to trade
+stock_trading_symbols:
+  - NVDA
+  - SPY
+  - QQQ
+  - NDX
+  - SPX
+  - /ES
+  - /ND
+  - TSLA
+  - MSFT
+  - TSM
+  - AAPL
+
+option_trading_symbols:
+  - NVDA
+  - SPX
+  - NDX
+  - TSLA
+  - TSM
+  - JPM
+  - TQQQ
+  - BA
+  - USO
+  - VIX
+  - QQQ
+  - IWM
+
+# Watchlist
+equity_watchlist:
+  - NVDA
+  - SPY
+  - TSLA
+  - MSFT
+  - AMD
+  - SMC
+  - TSM
+  - AAPL
+  - C
+  - BA
+  - GS
+  - F
+  - GLD
+  - SLV
+  - USO
+  - TQQQ
+  - SQQQ
+  - QQQ
+  - IWM
+  - VXX
+  - UVXY
+  - TVIX
+  - XLF
+  - XLE
+  - XLU
+  - XLI
+  - XLK
+  - XLY
+  - XLV
+  - XLC
+  - XLB
+  - XLP
+  - XRT
+  - XBI
+  - XHB
+  - XME
+  - XOP
+  - XES
+  - XRT
+  - XSD
+  - XSW
+
+# Index Watchlist
+index_watchlist:
+  - SPX
+  - NDX
+  - RUT
+  - DJI
+  - VIX
+
+# Currency Watchlist
+currency_watchlist:
+  - USD
+  - EURO
+  - POUND
+  - YEN
+  - YUAN
+
+# Futures Watchlist
+futures_watchlist:
+  - /ES
+  - /NQ
+  - /YM
+  - /GC
+  - /SI
+  - /CL
+  - /NG
+  - /ZC
+  - /ZS
+  - /ZM
+  - /ZL
+  - /ZC
+  - /ZF
+  - /ZT
+  - /ZB
+  - /ZS
+  - /ZM
+  - /ZL
+  - /ZC
+  - /ZF
+  - /ZT
+  - /ZB
+
+# Trade Size by Volume
+whale_trades: 10000
+xl_trades: 5000
+l_trades: 2000
+m_trades: 1000
+s_trades: 500
+xs_trades: 250
+
+# Trade Size by Position Cost
+whale_orders: 500000
+xl_orders: 250000
+l_orders: 100000
+m_orders: 50000
+s_orders: 25000
+xs_orders: 10000
