@@ -1,0 +1,24 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="cfpack",
+    version="0.2.8",
+    author="Christoph Federrath",
+    author_email="christoph.federrath@anu.edu.au",
+    description="Christoph Federrath (CF) python package (cfpack)",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    url="https://www.mso.anu.edu.au/~chfeder/codes/cfpack/cfpack.html",
+    license="MIT",
+    license_file="LICENSE",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    packages=find_packages(),
+    python_requires='>=3.7',
+    install_requires=[
+        'ipdb',
+    ],
+)
