@@ -1,0 +1,24 @@
+[
+	{
+		"designator": "U?",
+		"part": "TAD1586",
+		"manufacturer": "test_manufacturer",
+		"pins": {
+			"I": {"no": 1, "func":  "In", "desc": "ddl"},
+			"IA": {"no": 2, "func":  "InAnalog", "desc": "ddl"},
+			"ID": {"no": 3, "func":  "InDigital", "desc": "ddl"},
+			"IO": {"no": 4, "func":  "InOut", "desc": "ddl"},
+			"O": {"no": 5, "func":  "Out", "desc": "ddl"},
+			"OA": {"no": 6, "func":  "OutAnalog", "desc": "ddl"},
+			"OD": {"no": 7, "func":  "OutDigital", "desc": "ddl"},
+			"OD-OD": {"no": 8, "func":  "OutDigital;OpenDrain", "desc": "ddl"}
+		},
+		"symbol_generator": {
+			"rectangle": {
+				"left_side": ["I", "IA", "ID", "IO"],
+				"right_side": ["O", "OA", "OD"]
+			},
+			"default": {}
+		}
+	}
+]
