@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: unibench
+Version: 0.2.0
+Summary: This repository is designed to simplify the evaluation process of vision-language models. It provides a comprehensive set of tools and scripts for evaluating VLM models and benchmarks.
+Home-page: https://github.com/fairinternal/unibench
+Author: Haider Al-Tahan
+Author-email: haideraltahan@meta.com
+Project-URL: Bug Tracker, https://github.com/fairinternal/unibench/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: contourpy
+Requires-Dist: cycler
+Requires-Dist: debtcollector
+Requires-Dist: open-clip-torch
+Requires-Dist: zipp
+Requires-Dist: timm
+Requires-Dist: fire
+Requires-Dist: opencv-python
+Requires-Dist: datasets
+Requires-Dist: ftfy
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: fairscale
+Requires-Dist: tabulate
+Requires-Dist: GitPython
+Requires-Dist: torchvision
+Requires-Dist: rich
+Requires-Dist: oslo.concurrency
+Requires-Dist: transformers
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: facenet-pytorch
+Requires-Dist: latextable
+Requires-Dist: gdown
+Requires-Dist: openai-clip
+
