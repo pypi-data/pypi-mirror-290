@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dronarnya
+Version: 0.1.0
+Summary: An id generator that generated various types and lengths ids
+Home-page: https://github.com/NeoUKR/Dronarnya.git
+Author: Коваленко Костянтин
+Author-email: neokkv@gmail.com
+License: apache
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: uk-std-libraries >=0.0.13
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+...
