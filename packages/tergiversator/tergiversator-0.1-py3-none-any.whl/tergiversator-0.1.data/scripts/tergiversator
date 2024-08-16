@@ -1,0 +1,247 @@
+#!python
+""" Run multiple duplicity backups from a central host """
+
+# Copyright (C) 2024 Gwyn Ciesla
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+import os
+import sys
+import shutil
+import subprocess
+import tempfile
+import getpass
+import argparse
+import sqlite3
+import datetime
+
+import yaml
+import tergiversate
+
+VERSION = "0.1"
+
+tergiversate.check_for("sshfs")
+
+tergiversate.check_for("duplicity")
+
+MY_ENV = os.environ.copy()
+
+PARSER = argparse.ArgumentParser(description="Run multiple duplicity backups from a central host")
+PARSER.add_argument('command', metavar='COMMAND', type=str, nargs="?", \
+    help="prune | index | search | restore")
+PARSER.add_argument('-c', '--config', type=str, \
+    action="store", dest="config", help="Path to configuration file")
+PARSER.add_argument("-v", "--version", action="version", version=VERSION)
+ARGS = PARSER.parse_args()
+
+
+CONFIGFILE = 'config.yml'
+CONFFILES = ['config.yml', os.path.join(os.path.expanduser('~' + \
+    getpass.getuser()), '.tergiversator/config.yml'), '/etc/tergiversator/config.yml']
+
+if ARGS.config:
+    CONFIGFILE = ARGS.config
+else:
+    for file in CONFFILES:
+        if os.path.isfile(file):
+            CONFIGFILE = file
+            break
+
+with open(CONFIGFILE, "r", encoding='utf-8') as conffile:
+    try:
+        config = yaml.safe_load(conffile)
+    except yaml.YAMLError as error:
+        print(error)
+        sys.exit(1)
+
+RETENTION = config.get('config').get('retention')
+FULL_EVERY = config.get('config').get('full_every')
+USER = config.get('config').get('user')
+PATH = config.get('config').get('path')
+PASSPHRASE = config.get('config').get('passphrase')
+HOSTLIST = config.get('config').get('hostlist')
+STRICTHOSTKEY = config.get('config').get('strict_hostkey_checking')
+AUTOINDEX = config.get('config').get('autoindex')
+PORT = config.get('config').get('ssh_port')
+
+if "keyid" in config.get('config'):
+    KEYID = config.get('config').get('keyid')
+    KEYSTRING = f" --encrypt-key {KEYID} "
+else:
+    KEYSTRING = " "
+
+MY_ENV["PASSPHRASE"] = PASSPHRASE
+
+with open(HOSTLIST, "r", encoding='utf-8') as hostfile:
+    try:
+        hosts = yaml.safe_load(hostfile)
+    except yaml.YAMLError as error:
+        print(error)
+        sys.exit(1)
+
+if ARGS.command:
+    match ARGS.command:
+        case "prune":
+            for orphan in tergiversate.find_orphans(PATH, hosts):
+                remove = input(f"{orphan} present but not in hostlist, remove? [N/y]")
+                if remove in ['y', 'Y']:
+                    try:
+                        shutil.rmtree(orphan)
+                        print(f"{orphan} removed.")
+                    except shutil.Error as error:
+                        print(error)
+            sys.exit(0)
+
+        case "index":
+            filedata = tergiversate.create_index(hosts, KEYSTRING, PATH, MY_ENV)
+            tergiversate.write_index(filedata, PATH)
+            sys.exit(0)
+
+        case "search":
+            if not os.path.isfile(f"{PATH}/index.db"):
+                create = input("No index found, create? [N/y]")
+                if create in ['y', 'Y']:
+                    filedata = tergiversate.create_index(hosts, KEYSTRING, PATH, MY_ENV)
+                    tergiversate.write_index(filedata, PATH)
+                else:
+                    print("Aborting")
+                    sys.exit(0)
+            search_string = input("Enter search string: ")
+            connection = sqlite3.connect(f"{PATH}/index.db")
+            cursor = connection.cursor()
+            query = f"SELECT host, datetime, path FROM files WHERE path LIKE '%{search_string}%'"
+            results = \
+                cursor.execute(query)
+            for result in results.fetchall():
+                print(f"{result[0]}: {result[1]} {result[2]}")
+            sys.exit(0)
+
+        case "restore":
+            for host in hosts:
+                print(f"{host}")
+            host_choice = input("Please enter host to restore: ")
+            if host_choice not in hosts:
+                print(f"Invalid host entered: {host_choice}")
+                sys.exit(1)
+
+            for path in hosts[host_choice]:
+                print(f"{path}")
+            path_choice = input(f"Please enter path to restore from host {host_choice}: ")
+            if path_choice not in hosts[host_choice]:
+                print(f"Invalid path entered for host {host_choice}: {path_choice}")
+                sys.exit(1)
+
+            restorepath = f"{datetime.datetime.now().strftime('%Y-%m-%d')}" + \
+                f"-{host_choice}{path_choice.replace('/', '_')}"
+            if os.path.exists(restorepath):
+                restorepath = restorepath + f"-{datetime.datetime.now().strftime('%H:%M')}"
+            restore = input(f"Restore {host_choice}:{path_choice} to {restorepath}? [N/y]: ")
+            if restore in ['y', 'Y']:
+                command = f'duplicity{KEYSTRING}--allow-source-mismatch restore file://' \
+                + PATH + '/' + host_choice + path_choice + f' {restorepath}'
+                try:
+                    subprocess.run(command.split(' '), \
+                        env=MY_ENV, stderr=subprocess.STDOUT, check=True)
+                except subprocess.CalledProcessError as error:
+                    print(error)
+                    sys.exit(1)
+            sys.exit(0)
+
+
+        case _:
+            print("Invalid command")
+            sys.exit(1)
+
+# backup
+
+if not os.path.isdir(PATH):
+    os.mkdir(PATH)
+
+MOUNTDIR = tempfile.mkdtemp()
+
+OUTPUT = ""
+SUMMARY = ""
+
+for host in hosts:
+    for path in hosts[host]:
+        if isinstance(path, dict):
+            if "settings" in path:
+                if "user" in path.get('settings'):
+                    USER = path.get('settings').get('user')
+                if "port" in path.get('settings'):
+                    PORT = path.get('settings').get('port')
+    for path in hosts[host]:
+        if not isinstance(path, str):
+            continue
+
+        OUTPUT += f"--------------------\n{host}:{path}\n--------------------\n"
+
+        # check if mounted
+        if os.path.ismount(MOUNTDIR):
+            OUTPUT += subprocess.run(["umount", MOUNTDIR], env=MY_ENV, \
+                stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True).stdout.decode()
+
+        # mount
+        try:
+            OUTPUT += subprocess.run(["sshfs", USER + "@" + host + ":" + path, \
+                MOUNTDIR, "-o", f"StrictHostKeyChecking={STRICTHOSTKEY}", \
+                    "-p", f"{PORT}"], stdout=subprocess.PIPE, \
+                    stderr=subprocess.STDOUT, check=True).stdout.decode()
+        except subprocess.CalledProcessError as error:
+            OUTPUT += f"{error}\n"
+            SUMMARY += f"{host}:{path} - Unavailable\n"
+            break
+
+        # backup
+        cleanup = f'duplicity{KEYSTRING}--allow-source-mismatch cleanup --force file://' \
+            + PATH + '/' + host + path
+        backup = f'duplicity{KEYSTRING}--allow-source-mismatch incremental ' + \
+            '--full-if-older-than ' + FULL_EVERY + ' ' + MOUNTDIR + ' file://' + \
+            PATH + '/' + host + path
+        prune = f'duplicity{KEYSTRING}--allow-source-mismatch remove-older-than ' \
+            + RETENTION + ' file://' + PATH + '/' + host + path + ' --force'
+
+        for command in [cleanup, backup, prune]:
+            try:
+                OUTPUT += subprocess.run(command.split(' '), \
+                    env=MY_ENV, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, \
+                    check=True).stdout.decode()
+            except subprocess.CalledProcessError as error:
+                OUTPUT += f"Unable to execute: {command}\n{error}\n"
+                SUMMARY += f"{host}:{path} - Duplicity error\n"
+
+        SUMMARY += f"{host}:{path} - OK\n"
+
+        # unmount
+        os.sync()
+        umount_out = subprocess.run(["umount", MOUNTDIR], \
+            env=MY_ENV, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True)
+        while umount_out.returncode != 0:
+            umount_out = subprocess.run(["umount", MOUNTDIR], \
+                env=MY_ENV, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, check=True)
+
+# Cleanup
+os.rmdir(MOUNTDIR)
+
+# Print output
+print("-----------Summary-----------")
+print(SUMMARY)
+print("-----------------------------")
+print(OUTPUT)
+
+# Create index if configured to do so
+if AUTOINDEX == "yes":
+    filedata = tergiversate.create_index(hosts, KEYSTRING, PATH, MY_ENV)
+    tergiversate.write_index(filedata, PATH)
