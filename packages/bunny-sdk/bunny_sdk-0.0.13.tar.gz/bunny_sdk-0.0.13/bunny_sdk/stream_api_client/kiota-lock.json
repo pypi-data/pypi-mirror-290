@@ -1,0 +1,33 @@
+{
+  "descriptionHash": "24AA1DB5ABB0D09D28CF2EA4E24B2873931EF2644D3CA193FBF8A63E2C26A9254077BC5B0A9699CAB7482A5D1C483C6D3123C3F97F6946E1DD00C453EFA9D81C",
+  "descriptionLocation": "../../../../tsp-output/@typespec/openapi3/openapi.StreamApi.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.17.0",
+  "clientClassName": "StreamApiClient",
+  "clientNamespaceName": "StreamApiClient",
+  "language": "Python",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": true,
+  "includeAdditionalData": true,
+  "disableSSLValidation": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

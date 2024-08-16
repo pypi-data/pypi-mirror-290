@@ -1,0 +1,33 @@
+{
+  "descriptionHash": "72995193DDF083873678041847A96F26BE2D9E2F3E7E42E04B3ADE76D96C032C306B446C9361E637B56248F469C5D49810810D3D994D635E373339D69CAC34D4",
+  "descriptionLocation": "../../../../tsp-output/@typespec/openapi3/openapi.BunnyApi.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.17.0",
+  "clientClassName": "BunnyApiClient",
+  "clientNamespaceName": "BunnyApiClient",
+  "language": "Python",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": true,
+  "includeAdditionalData": true,
+  "disableSSLValidation": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
