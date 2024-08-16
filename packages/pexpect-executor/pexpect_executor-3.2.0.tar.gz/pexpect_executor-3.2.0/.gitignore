@@ -1,0 +1,22 @@
+# Build files
+build/
+
+# Compiled files
+*.pyc
+__pycache__/
+
+# Coverage files
+coverage-reports/
+
+# Distribution files
+.eggs/
+*.egg-info/
+dist/
+
+# SonarQube files
+.scannerwork/
+.sonar/
+
+# Temporary files
+.tmp/
+.tmp.*
