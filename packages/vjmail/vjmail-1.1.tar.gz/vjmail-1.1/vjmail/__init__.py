@@ -1,0 +1,1 @@
+from .vjmail import EmailSender
