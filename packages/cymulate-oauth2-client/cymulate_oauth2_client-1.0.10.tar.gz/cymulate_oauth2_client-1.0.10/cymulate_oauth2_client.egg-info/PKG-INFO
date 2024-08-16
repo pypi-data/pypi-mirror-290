@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cymulate_oauth2_client
+Version: 1.0.10
+Summary: A Python cymulate_oauth2_client for OAuth2 authentication with Cymulate API
+Home-page: https://github.com/royscymulate/Cymulate-Oauth2-Client
+Author: Cymulate
+Author-email: roys@cymulate.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: requests>=2.20.0
+
+A Python client for OAuth2 authentication with Cymulate API. This library helps you to authenticate and interact with the Cymulate API using OAuth2, handling token management and secure requests.
