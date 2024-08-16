@@ -1,0 +1,35 @@
+# Weighted_Align
+
+## What Is Weighted_Align?
+
+Weighted_Align is a tool for aligning DNA or marker seq.
+
+### Linux, macOS, FreeBSD
+  * GCC ≥ 11
+  * Python 3
+  * Cython
+  * numpy
+
+### Build system
+  * use pip to install  
+  `pip install weighted_align`
+  * use sorce code to build  
+  `git clone https://github.com/CycloneSEQ-Bioinformatics/Weighted_Align.git`  
+  `python3 setup.py build_ext --inplace`
+
+### Example
+  * use to align DNA or marker seq
+  ```
+  import Aligner
+
+  s1 = list("ATCGACTGAG")
+  s2 = list("ACATC")
+  weights1 = [1]*len(s1)
+  weights2 = [1]*len(s2)
+  aligner = Aligner.AlignerWrapper()
+  score, aln1_idx, aln2_idx = aligner.align_C(s1, s2, weights1, weights2, True) # traceback = True
+
+  s1 = [0, 2, 12, 245, 3, 1]
+  s2 = [3, 4, 0, 2, 12]
+  score, aln1_idx, aln2_idx = aligner.align_I(s1, s2, [1]*len(s1), [1]*len(s2), True)
+  ```
