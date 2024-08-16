@@ -1,0 +1,36 @@
+Metadata-Version: 2.3
+Name: hdmf_zarr_bjh
+Version: 0.8.1.post1
+Summary: A package defining a Zarr I/O backend for HDMF - forked to fix a bug
+Project-URL: Homepage, https://github.com/hdmf-dev/hdmf-zarr
+Project-URL: Bug Tracker, https://github.com/hdmf-dev/hdmf-zarr/issues
+Author-email: Oliver Ruebel <oruebel@lbl.gov>, Matthew Avaylon <mavaylon@lbl.gov>
+License: BSD
+License-File: LICENSE.txt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.8
+Requires-Dist: hdmf>=3.9.0
+Requires-Dist: numcodecs>=0.9.1
+Requires-Dist: numpy<2.0,>=1.24
+Requires-Dist: pynwb>=2.5.0
+Requires-Dist: threadpoolctl>=3.1.0
+Requires-Dist: zarr==2.17.2
+Provides-Extra: fsspec
+Requires-Dist: fsspec; extra == 'fsspec'
+Provides-Extra: s3fs
+Requires-Dist: s3fs; extra == 's3fs'
+Provides-Extra: tqdm
+Requires-Dist: tqdm>=4.41.0; extra == 'tqdm'
