@@ -1,0 +1,52 @@
+{% set setup_py = load_setup_py_data() %}
+
+package:
+  name: 'tranquilizer'
+  version: {{ setup_py.get('version') }}
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed -vv .
+  entry_points:
+    {% for entry in setup_py['entry_points']['console_scripts'] %}
+      - {{ entry.split('=')[0].strip() }} = {{ entry.split('=')[1].strip() }}
+    {% endfor %}
+
+requirements:
+  run:
+   - python >=3.6, <3.12
+   - flask
+   - werkzeug >=0.15,<2.1
+   - python-dateutil
+   - flask-restx
+   - flask-cors
+   - flask-jwt-extended>=4
+  build:
+   - python >=3.6, <3.12
+   - setuptools
+
+test:
+  source_files:
+    - tests
+  imports:
+    - tranquilizer
+  commands:
+    - tranquilizer --help
+    - py.test -xv tests
+  requires:
+   - pytest
+   - pytest-cov
+   - numpy
+   - pandas
+   - pillow
+   - nbconvert
+   - ipython
+
+about:
+  license: {{ setup_py.get('license') }}
+  license_file: LICENSE
+  summary: {{ setup_py.get('description') }}
+
