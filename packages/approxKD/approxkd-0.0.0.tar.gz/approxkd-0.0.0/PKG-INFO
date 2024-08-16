@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: approxKD
+Version: 0.0.0
+Summary: A python package that implements Approximate Nearest Neighbor algorithm using KD-Trees in python
+Home-page: https://github.com/prxdyu/approxKD
+Author: prxdyu
+Author-email: pradyu1742@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/prxdyu/approxKD/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Provides-Extra: testing
+Requires-Dist: pytest>=7.1.3; extra == "testing"
+Requires-Dist: mypy>=0.971; extra == "testing"
+Requires-Dist: flake8>=5.0.4; extra == "testing"
+Requires-Dist: tox>=3.25.1; extra == "testing"
+Requires-Dist: black>=22.8.0; extra == "testing"
+
+approxKD is a Python package for efficient Approximate Nearest Neighbor (ANN) searches using KD-trees. It provides tools to build KD-trees from multidimensional vectors and perform fast, approximate nearest neighbor searches. Key features include automatic hyperplane calculation, vector-side classification, and tree construction for quick spatial queries. Install via PyPI with pip install approxKD, and get started with simple examples provided in the documentation. For more details, visit project documentation
