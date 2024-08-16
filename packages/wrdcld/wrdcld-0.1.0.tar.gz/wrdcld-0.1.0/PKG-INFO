@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wrdcld
+Version: 0.1.0
+Summary: A predictable, interpretable wordcloud library
+License: GPLv3
+Author: Jim Barrett
+Author-email: jimbarrett27@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pillow (>=10.4.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# wrdcld
+A predictable, interpretable wordcloud library
+
+## Setup
+Run `poetry install`
+
+## Development
+Run `poetry run isort wrdcld tests`, `poetry run black wrdcld tests` and `poetry run pylint wrdcld tests` for styling and linting.
+
+## Testing
+Run `python -m unittest discover tests/`
+
