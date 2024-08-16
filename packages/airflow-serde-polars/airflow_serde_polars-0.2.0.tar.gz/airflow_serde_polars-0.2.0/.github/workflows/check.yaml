@@ -1,0 +1,62 @@
+name: test
+
+on:
+  push:
+    branches: [dev]
+    paths:
+      - "**.py"
+      - ".github/workflows/check.yaml"
+      - "pyproject.toml"
+  pull_request:
+    branches: [dev, main]
+    paths:
+      - "**.py"
+      - ".github/workflows/check.yaml"
+      - "pyproject.toml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install rye
+        uses: phi-friday/install-rye@v2
+        id: install-rye
+        with:
+          python_version: ${{ matrix.python-version }}
+      
+      - name: prepare dependencies
+        id: prepare-dependencies
+        run: |
+          rye install uv
+          rye lock # init venv
+          rye build
+
+      - name: Load cached venv
+        id: cached-venv-dependencies
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-test-${{ runner.os }}-${{ steps.install-rye.outputs.python-version }}-${{ hashFiles('**/pyproject.toml') }}
+
+      - name: Install dependencies
+        if: steps.cached-venv-dependencies.outputs.cache-hit != 'true'
+        run: |
+          export UV_PYTHON=$(rye run python -c "import sys; print(sys.executable)")
+          uv pip compile pyproject.toml -o requirements.txt --extra test
+          uv pip install -r requirements.txt
+
+      - name: Install self
+        run: |
+          export UV_PYTHON=$(rye run python -c "import sys; print(sys.executable)")
+          uv pip install dist/airflow_serde_polars-0.0.0-py3-none-any.whl --reinstall-package airflow-serde-polars
+
+      - name: Test with pytest
+        run: |
+          source .venv/bin/activate
+          pytest -m "airflow or not airflow"
