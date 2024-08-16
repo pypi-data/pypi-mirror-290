@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pycatch
+Version: 0.0.1
+Summary: Java-like exception declarations for python methods
+Author-email: Michał Satława <mi.satlawa@gmail.com>
+Project-URL: Homepage, https://github.com/misatlawa/pycatch
+Project-URL: Issues, https://github.com/misatlawa/pycatch/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## PyCatch ##
+
+PyCatch allows Java-like exception declarations for python methods.
+Introduces `throws` decorator and `Catch` context manager and raises
+`UncheckedExceptionError` if declared exception is not handled.
+
+## Usage ##
+
+```python
+from pycatch import throws
+
+@throws(ZeroDivisionError)
+def divide(x, y):
+    return x / y
+
+divide(3, 2) # raises UncheckedExceptionError: ZeroDivisionError 
+```
+
+```python
+from pycatch import Catch, throws
+
+@throws(ZeroDivisionError)
+def divide(x, y):
+    return x / y
+
+with Catch(ZeroDivisionError):
+    divide(3, 2) # no exceptions
+```
+
+```python
+from pycatch import Catch, handlers, throws
+
+@throws(ZeroDivisionError)
+def divide(x, y):
+    return x / y
+
+with Catch(ZeroDivisionError, handler=handlers.pass_):
+    divide(3, 0) # still no exceptions
+```
