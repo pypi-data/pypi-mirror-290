@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fanatics_api_tool
+Version: 0.1
+Summary: Fanatics API Data Fetcher Tool
+Author: Ruibin Zhang
+Author-email: ruibin.zhang021@icloud.com
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Fantics data extraction
+
+## Description
+
+This repository contains the code to extract data from the Fantics API. The data is extracted in the form of a CSV file.
