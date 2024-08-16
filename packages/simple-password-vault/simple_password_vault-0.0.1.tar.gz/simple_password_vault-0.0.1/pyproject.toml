@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simple_password_vault"
+version = "0.0.1"
+authors = [
+  { name="Yun Huang", email="huangyunict@gmail.com" },
+]
+description = "A simple Python password manager library"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/huangyunict/simple_password_vault"
+Issues = "https://github.com/huangyunict/simple_password_vault/issues"
+
