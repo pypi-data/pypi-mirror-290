@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sat_mouse_mover
+Version: 0.0.1
+Summary: This script will move the mouse for you
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/plain
+Requires-Dist: mouse==0.7.1
+Provides-Extra: build
+Requires-Dist: mouse==0.7.1; extra == "build"
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: test
+Requires-Dist: mouse==0.7.1; extra == "test"
+Provides-Extra: dev
+Requires-Dist: mouse==0.7.1; extra == "dev"
+
+
+        MS Teams changes your online status after certain minutes, which is kinda annoying. 
+        This script will move the mouse for you, when you are not at the desk, 
+        this script will move the mouse for you, to keep you online in Teams or some other Messengers. ;-)
+    
