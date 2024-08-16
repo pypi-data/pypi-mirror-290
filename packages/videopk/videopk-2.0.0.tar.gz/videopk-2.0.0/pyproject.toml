@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/videopk"]
+
+[project]
+name = "videopk"
+requires-python = ">= 3.8"
+version = "2.0.0"
+authors = [
+	{name = "Sébastien Gemme", email = "sgemme7@gmail.com"},
+]
+maintainers = [
+	{name = "Sébastien Gemme", email = "sgemme7@gmail.com"},
+]
+
+license = { file = "LICENSE" }
+readme = "README.md"
+
+classifiers = [
+	"License :: OSI Approved :: MIT License",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Topic :: Multimedia :: Video",
+	"Topic :: Multimedia :: Video :: Conversion",
+	"Development Status :: 4 - Beta",
+	"Environment :: Console",
+	"Environment :: GPU :: NVIDIA CUDA"
+]
+
+keywords = ["video", "transcoding"]
+
+dependencies = [
+	"python-ffmpeg",
+]
+
+[project.urls]
+homepage = "https://github.com/sebastiengemme/videopk"
+
+[project.optional-dependencies]
+dev = ["pytest", "bumpversion"]
+
+[project.scripts]
+video-transcode = "videopk.video_transcode:main"
