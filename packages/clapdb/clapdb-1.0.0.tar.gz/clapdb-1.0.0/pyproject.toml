@@ -1,0 +1,38 @@
+[project]
+name = "clapdb"
+dynamic = ["version"]
+authors = [
+  { name="pkgs@stdb.io", email="pkgs@stdb.io" },
+]
+description = "python client for clapdb"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests",
+]
+
+[project.entry-points."sqlalchemy.dialects"]
+"clapdb.http" = "clapdb.sqlalchemy:HTTPDialect"
+"clapdb.https" = "clapdb.sqlalchemy:HTTPSDialect"
+
+[project.entry-points."superset.db_engine_specs"]
+"clapdb" = "clapdb.superset:ClapDBEngineSpec"
+
+[project.urls]
+"Homepage" = "https://github.com/stdbio/clapdb-python-client"
+"Bug Tracker" = "https://github.com/stdbio/clapdb-python-client/issues"
+
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flake8]
+max-line-length = 120
