@@ -1,0 +1,232 @@
+Metadata-Version: 2.1
+Name: achatbot
+Version: 0.0.5.1
+Summary: An open source chat bot for voice (and multimodal) assistants
+Author-email: weedge <weege007@gmail.com>
+Maintainer-email: weedge <weege007@gmail.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, weedge
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/ai-bot-pro/chat-bot
+Project-URL: Documentation, https://github.com/ai-bot-pro/chat-bot/blob/main/docs
+Project-URL: Repository, https://github.com/ai-bot-pro/chat-bot.git
+Project-URL: Issues, https://github.com/ai-bot-pro/chat-bot/issues
+Project-URL: Changelog, https://github.com/ai-bot-pro/chat-bot/blob/main/CHANGELOG.md
+Keywords: ai,chat bot,audio,speech
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ==2.32.3
+Requires-Dist: apipeline ==0.1.7
+Requires-Dist: python-dotenv ==1.0.1
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: pillow ==10.4.0
+Requires-Dist: websockets ==12.0
+Requires-Dist: aiohttp ==3.10.3
+Requires-Dist: scipy ==1.14.0
+Requires-Dist: pyloudnorm ==0.1.1
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: torch ==2.2.2
+Requires-Dist: torchaudio ==2.2.2
+Provides-Extra: ai_frameworks_processor
+Requires-Dist: langchain ==0.2.13 ; extra == 'ai_frameworks_processor'
+Provides-Extra: asr_processor
+Requires-Dist: achatbot[speech_asr] ; extra == 'asr_processor'
+Requires-Dist: deepgram-sdk ==3.4.0 ; extra == 'asr_processor'
+Provides-Extra: conf
+Requires-Dist: omegaconf ==2.3.0 ; extra == 'conf'
+Provides-Extra: core_llm
+Requires-Dist: llama-cpp-python ==0.2.82 ; extra == 'core_llm'
+Requires-Dist: geocoder ==1.38.1 ; extra == 'core_llm'
+Provides-Extra: daily_room_audio_stream
+Requires-Dist: daily-python ==0.10.1 ; extra == 'daily_room_audio_stream'
+Provides-Extra: daily_webrtc_terminal_chat_bot
+Requires-Dist: achatbot[core_llm,daily_room_audio_stream,speech_asr,speech_tts,speech_vad,speech_waker,stream_player] ; extra == 'daily_webrtc_terminal_chat_bot'
+Provides-Extra: daily_webrtc_vad_analyzer
+Requires-Dist: daily-python ==0.10.1 ; extra == 'daily_webrtc_vad_analyzer'
+Provides-Extra: fastapi_daily_bot_server
+Requires-Dist: fastapi ==0.112.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: daily-python ==0.10.1 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain ==0.2.13 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: openai ==1.40.6 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain-openai ==0.1.21 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: langchain-community ==0.2.12 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: deepgram-sdk ==3.4.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: mangum ==0.17.0 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: uvicorn ==0.30.6 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: tidb-vector ==0.0.10 ; extra == 'fastapi_daily_bot_server'
+Requires-Dist: pymysql ==1.1.1 ; extra == 'fastapi_daily_bot_server'
+Provides-Extra: grpc
+Requires-Dist: grpcio ==1.65.0 ; extra == 'grpc'
+Provides-Extra: grpc_tools
+Requires-Dist: grpcio-tools ==1.65.0 ; extra == 'grpc_tools'
+Provides-Extra: img_processor
+Requires-Dist: openai ==1.40.6 ; extra == 'img_processor'
+Provides-Extra: llm_personalai_proxy
+Requires-Dist: geocoder ==1.38.1 ; extra == 'llm_personalai_proxy'
+Provides-Extra: llm_processor
+Requires-Dist: openai ==1.40.6 ; extra == 'llm_processor'
+Provides-Extra: local_terminal_chat_bot
+Requires-Dist: achatbot[core_llm,pyaudio_stream,speech_asr,speech_tts,speech_vad,speech_waker,stream_player] ; extra == 'local_terminal_chat_bot'
+Provides-Extra: openai
+Requires-Dist: openai ==1.40.6 ; extra == 'openai'
+Provides-Extra: porcupine_wakeword
+Requires-Dist: pvporcupine ==3.0.2 ; extra == 'porcupine_wakeword'
+Provides-Extra: pyannote_vad
+Requires-Dist: pyannote.audio ==3.2.0 ; extra == 'pyannote_vad'
+Provides-Extra: pyaudio_stream
+Requires-Dist: PyAudio ==0.2.14 ; extra == 'pyaudio_stream'
+Provides-Extra: queue
+Requires-Dist: redis ==5.0.0 ; extra == 'queue'
+Provides-Extra: redis
+Requires-Dist: redis ==5.0.0 ; extra == 'redis'
+Provides-Extra: remote_grpc_tts_client
+Requires-Dist: achatbot[grpc,stream_player] ; extra == 'remote_grpc_tts_client'
+Provides-Extra: remote_grpc_tts_server
+Requires-Dist: achatbot[grpc,speech_tts] ; extra == 'remote_grpc_tts_server'
+Provides-Extra: remote_queue_chat_bot_be_worker
+Requires-Dist: achatbot[core_llm,queue,speech_asr,speech_tts,speech_vad,speech_waker] ; extra == 'remote_queue_chat_bot_be_worker'
+Provides-Extra: remote_queue_chat_bot_fe
+Requires-Dist: achatbot[queue,speech_audio_stream,stream_player] ; extra == 'remote_queue_chat_bot_fe'
+Provides-Extra: remote_rpc_chat_bot_be_worker
+Requires-Dist: achatbot[core_llm,rpc,speech_asr,speech_tts,speech_vad,speech_waker] ; extra == 'remote_rpc_chat_bot_be_worker'
+Provides-Extra: remote_rpc_chat_bot_fe
+Requires-Dist: achatbot[rpc,speech_audio_stream,stream_player] ; extra == 'remote_rpc_chat_bot_fe'
+Provides-Extra: rms_recorder
+Provides-Extra: rpc
+Requires-Dist: grpcio ==1.65.0 ; extra == 'rpc'
+Provides-Extra: sense_voice_asr
+Requires-Dist: funasr ==1.1.5 ; extra == 'sense_voice_asr'
+Provides-Extra: silero_vad
+Requires-Dist: torch ==2.2.2 ; extra == 'silero_vad'
+Provides-Extra: silero_vad_analyzer
+Requires-Dist: torch ==2.2.2 ; extra == 'silero_vad_analyzer'
+Provides-Extra: speech_asr
+Requires-Dist: openai-whisper ==20231117 ; extra == 'speech_asr'
+Requires-Dist: whisper-timestamped ==1.14.2 ; extra == 'speech_asr'
+Requires-Dist: faster-whisper ==1.0.2 ; extra == 'speech_asr'
+Requires-Dist: transformers >=4.40.2 ; extra == 'speech_asr'
+Requires-Dist: groq ==0.9.0 ; extra == 'speech_asr'
+Provides-Extra: speech_audio_stream
+Requires-Dist: PyAudio ==0.2.14 ; extra == 'speech_audio_stream'
+Requires-Dist: daily-python ==0.10.1 ; extra == 'speech_audio_stream'
+Provides-Extra: speech_tts
+Requires-Dist: TTS ==0.22.0 ; extra == 'speech_tts'
+Requires-Dist: edge-tts ==6.1.12 ; extra == 'speech_tts'
+Requires-Dist: gTTS ==2.5.1 ; extra == 'speech_tts'
+Requires-Dist: pyttsx3 ==2.90 ; extra == 'speech_tts'
+Requires-Dist: achatbot[tts_cosy_voice] ; extra == 'speech_tts'
+Requires-Dist: achatbot[tts_chat] ; extra == 'speech_tts'
+Provides-Extra: speech_vad
+Requires-Dist: pyannote.audio ==3.2.0 ; extra == 'speech_vad'
+Requires-Dist: webrtcvad ==2.0.10 ; extra == 'speech_vad'
+Requires-Dist: torch ==2.2.2 ; extra == 'speech_vad'
+Provides-Extra: speech_waker
+Requires-Dist: pvporcupine ==3.0.2 ; extra == 'speech_waker'
+Provides-Extra: stream_player
+Provides-Extra: tts_chat
+Requires-Dist: vocos ==0.1.0 ; extra == 'tts_chat'
+Requires-Dist: pybase16384 ==0.3.7 ; extra == 'tts_chat'
+Requires-Dist: vector-quantize-pytorch ==1.16.1 ; extra == 'tts_chat'
+Requires-Dist: WeTextProcessing ==1.0.4.1 ; extra == 'tts_chat'
+Requires-Dist: transformers >=4.40.2 ; extra == 'tts_chat'
+Requires-Dist: numpy <2.0.0 ; extra == 'tts_chat'
+Provides-Extra: tts_coqui
+Requires-Dist: TTS ==0.22.0 ; extra == 'tts_coqui'
+Provides-Extra: tts_cosy_voice
+Requires-Dist: hyperpyyaml ==1.2.2 ; extra == 'tts_cosy_voice'
+Requires-Dist: openai-whisper ==20231117 ; extra == 'tts_cosy_voice'
+Requires-Dist: WeTextProcessing ==1.0.4.1 ; extra == 'tts_cosy_voice'
+Requires-Dist: conformer ==0.3.2 ; extra == 'tts_cosy_voice'
+Requires-Dist: diffusers[torch] ==0.30.0 ; extra == 'tts_cosy_voice'
+Requires-Dist: lightning ==2.4.0 ; extra == 'tts_cosy_voice'
+Requires-Dist: wget ==3.2 ; extra == 'tts_cosy_voice'
+Requires-Dist: onnxruntime ==1.18.1 ; (sys_platform == "darwin" or sys_platform == "windows") and extra == 'tts_cosy_voice'
+Requires-Dist: onnxruntime-gpu ==1.18.1 ; (sys_platform == "linux") and extra == 'tts_cosy_voice'
+Provides-Extra: tts_edge
+Requires-Dist: edge-tts ==6.1.12 ; extra == 'tts_edge'
+Provides-Extra: tts_g
+Requires-Dist: gTTS ==2.5.1 ; extra == 'tts_g'
+Provides-Extra: tts_processor
+Requires-Dist: openai ==1.40.6 ; extra == 'tts_processor'
+Provides-Extra: tts_pyttsx3
+Requires-Dist: pyttsx3 ==2.90 ; extra == 'tts_pyttsx3'
+Provides-Extra: vad_recorder
+Requires-Dist: achatbot[speech_vad] ; extra == 'vad_recorder'
+Provides-Extra: webrtc_silero_vad
+Requires-Dist: webrtcvad ==2.0.10 ; extra == 'webrtc_silero_vad'
+Requires-Dist: torch ==2.2.2 ; extra == 'webrtc_silero_vad'
+Provides-Extra: webrtcvad
+Requires-Dist: webrtcvad ==2.0.10 ; extra == 'webrtcvad'
+Provides-Extra: whisper_asr
+Requires-Dist: openai-whisper ==20231117 ; extra == 'whisper_asr'
+Provides-Extra: whisper_faster_asr
+Requires-Dist: faster-whisper ==1.0.2 ; extra == 'whisper_faster_asr'
+Provides-Extra: whisper_groq_asr
+Requires-Dist: groq ==0.9.0 ; extra == 'whisper_groq_asr'
+Provides-Extra: whisper_mlx_asr
+Requires-Dist: mlx-whisper ==0.2.0 ; (sys_platform == "darwin" and platform_machine == "arm64") and extra == 'whisper_mlx_asr'
+Provides-Extra: whisper_timestamped_asr
+Requires-Dist: whisper-timestamped ==1.14.2 ; extra == 'whisper_timestamped_asr'
+Provides-Extra: whisper_transformers_asr
+Requires-Dist: transformers >=4.40.2 ; extra == 'whisper_transformers_asr'
+
+# chat-bot
+[![PyPI](https://img.shields.io/pypi/v/achatbot)](https://pypi.org/project/achatbot/)
+
+## audio (voice)
+- stream-stt (realtime-recorder)
+![audio-text](https://github.com/user-attachments/assets/44bcec7d-f0a1-47db-bd95-21feee43a361)
+
+- audio-llm (multimode-chat)
+![pipe](https://github.com/user-attachments/assets/9970cf18-9bbc-4109-a3c5-e3e3c88086af)
+![queue](https://github.com/user-attachments/assets/30f2e880-f16d-4b62-8668-61bb97c57b2b)
+
+
+- stream-tts (realtime-(clone)-speaker)
+![text-audio](https://github.com/user-attachments/assets/676230a0-0a99-475b-9ef5-6afc95f044d8)
+![audio-text text-audio](https://github.com/user-attachments/assets/cbcabf98-731e-4887-9f37-649ec81e37a0)
+
+
+## vision (CV)
+- stream-ocr (realtime-object-dectection)
+
+# more
+- Embodied Intelligence: Robots that touch the world and move
