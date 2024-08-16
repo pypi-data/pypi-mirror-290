@@ -1,0 +1,13 @@
+from dataclasses import dataclass, asdict, fields
+from typing import Optional
+
+
+@dataclass
+class InternalBaseInterface:
+    def __init__(self, **kwargs):
+        valid_fields = {f.name: kwargs.get(f.name) for f in fields(self)}
+        for name, value in valid_fields.items():
+            setattr(self, name, value)
+
+    def to_dict(self):
+        return {k: v for k, v in asdict(self).items() if v is not None}
