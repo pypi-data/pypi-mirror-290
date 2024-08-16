@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xingong_pypack
+Version: 0.0.1
+Summary: Xingong's first python package using cookiecutter-pypackage
+Author-email: Xingong Li <lixi@ku.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/xingongli/xingong_pypack
+Keywords: xingong_pypack
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: xingong-pypack[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# xingong_pypack
+
+
+[![image](https://img.shields.io/pypi/v/xingong_pypack.svg)](https://pypi.python.org/pypi/xingong_pypack)
+[![image](https://img.shields.io/conda/vn/conda-forge/xingong_pypack.svg)](https://anaconda.org/conda-forge/xingong_pypack)
+
+
+**Xingong's first python package using cookiecutter-pypackage**
+
+
+-   Free software: MIT License
+-   Documentation: https://xingongli.github.io/xingong_pypack
+    
+
+## Features
+
+-   TODO
