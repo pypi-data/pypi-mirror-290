@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bouncing
+Version: 1.0.2
+Summary: Verification code image recognition!
+Home-page: https://github.com/jaygarage/bouncing
+Author: Jay
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python>=4.10.0.84
+Requires-Dist: xxhash>=3.4.1
+Requires-Dist: cachetools>5.3.3
+Requires-Dist: numpy>=1.25.2
+Requires-Dist: scikit-image>=0.19.3
+Requires-Dist: requests>=2.32.3
+Requires-Dist: fake_useragent>=1.5.1
