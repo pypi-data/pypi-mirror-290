@@ -1,0 +1,14 @@
+.gitignore
+.pre-commit-config.yaml
+README.md
+pyproject.toml
+.github/workflows/code-quality-main.yaml
+.github/workflows/code-quality-pr.yaml
+.github/workflows/python-build.yaml
+src/hydra_profiler/__init__.py
+src/hydra_profiler/profiler.py
+src/hydra_profiler.egg-info/PKG-INFO
+src/hydra_profiler.egg-info/SOURCES.txt
+src/hydra_profiler.egg-info/dependency_links.txt
+src/hydra_profiler.egg-info/requires.txt
+src/hydra_profiler.egg-info/top_level.txt
