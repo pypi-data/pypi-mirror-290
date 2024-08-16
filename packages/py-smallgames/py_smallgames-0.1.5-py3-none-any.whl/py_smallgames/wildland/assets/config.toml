@@ -1,0 +1,17 @@
+[window]
+caption = "蛮荒大陆v1.0"
+size = [640, 480]
+
+[font]
+size = 20
+
+[ui.button]
+width = 120
+height = 30
+
+[debug]
+open = true
+lines = true
+grid_count = 20
+grid_size = 40
+grid_color = 0x00ff00
