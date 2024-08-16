@@ -1,0 +1,2 @@
+
+from .tiktokmethodWeb import tiktokmethodMaska
