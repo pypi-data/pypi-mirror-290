@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scriputils"
+version = "0.2.1"
+description = "An essential utility library for Python scripts, offering robust functions for reading YAML configurations, initializing loggers, and parsing command-line arguments."
+authors = [
+    "donaId <simonovyup@gmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+logging = "^0.4.9.6"
+setuptools = "^72.2.0"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
