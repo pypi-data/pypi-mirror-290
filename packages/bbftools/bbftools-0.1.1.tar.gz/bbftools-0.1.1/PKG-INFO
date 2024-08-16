@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: bbftools
+Version: 0.1.1
+Summary: BBF Tools
+Author-email: Broadband Forum <tools@broadband-forum.org>
+Project-URL: Homepage, https://github.com/BroadbandForum/bbftools
+Project-URL: Bug Tracker, https://github.com/BroadbandForum/bbftools/issues
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: build
+Requires-Dist: furo
+Requires-Dist: myst-parser
+Requires-Dist: sphinx
+Requires-Dist: sphinx-argparse
+Requires-Dist: tomli
+Requires-Dist: twine
+
+[Broadband Forum] (BBF) Tools core support. This package exists primarily
+to define (and reserve) the PyPI `bbftools` namespace. It also includes
+some general-purpose tools that are used by all `bbftools.xxx` packages.
+
+[Broadband Forum]: https://www.broadband-forum.org

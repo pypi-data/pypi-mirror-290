@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbftools"
+dynamic = ["version"]
+authors = [
+  {name = "Broadband Forum", email = "tools@broadband-forum.org"}
+]
+description = "BBF Tools"
+requires-python = ">=3.9"
+classifiers = [
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "build",
+  "furo",
+  "myst-parser",
+  "sphinx",
+  "sphinx-argparse",
+  "tomli",
+  "twine"
+]
+
+[project.readme]
+content-type = 'text/markdown'
+text = """
+[Broadband Forum] (BBF) Tools core support. This package exists primarily
+to define (and reserve) the PyPI `bbftools` namespace. It also includes
+some general-purpose tools that are used by all `bbftools.xxx` packages.
+
+[Broadband Forum]: https://www.broadband-forum.org
+"""
+
+[project.urls]
+"Homepage" = "https://github.com/BroadbandForum/bbftools"
+"Bug Tracker" = "https://github.com/BroadbandForum/bbftools/issues"
+
+[project.scripts]
+"bbf-pyproject-parser.py" = "bbftools.core.pyproject:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "bbftools.core.version"}
+
+# BBF-specific settings
+[tool.bbftools]
