@@ -1,0 +1,6 @@
+[poetry.application.plugin]
+poetry-ycf-plugin=poetry_ycf_plugin.plugins:PoetryYcfApplicationPlugin
+
+[poetry.plugin]
+poetry-ycf-plugin=poetry_ycf_plugin.plugins:PoetryYcfPlugin
+
