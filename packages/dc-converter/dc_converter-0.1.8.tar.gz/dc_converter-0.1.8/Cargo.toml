@@ -1,0 +1,18 @@
+[package]
+name = "dc_converter"
+version = "0.1.8"
+
+edition = "2021"
+rust-version = "1.80"
+
+exclude = ["/.git", ".idea/", "data/"]
+
+[lib]
+name = "dc_converter"
+crate-type = ["cdylib"]
+
+[dependencies]
+dc_converter_tof = "0.1.17"
+
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+
