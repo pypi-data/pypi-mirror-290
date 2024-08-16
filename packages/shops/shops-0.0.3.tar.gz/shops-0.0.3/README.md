@@ -1,0 +1,61 @@
+# Shops Package
+
+Provides data about shoplike objecs in a given location, based on OpenStreetMap data.
+
+Remember about license, see [https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)
+
+```
+import shops
+import os
+
+# data from https://download.geofabrik.de/europe/andorra.html
+# you can try north-america/us code standing for
+# https://download.geofabrik.de/north-america/us.html
+# but in such case you should expect much longer processing
+location_code = "europe/andorra"
+# pernament location is better, this is used in example as it likely to exist on almost any Linux
+path_processing_directory = "/tmp/ATP"
+if os.path.isdir(path_processing_directory) == False:
+    os.mkdir(path_processing_directory)
+for entry in shops.osm.list_shops(location_code, path_processing_directory):
+    print(entry)
+```
+
+It will provide filtered OSM data, in a form of yielded dicts, each with `tags`, `center` and `osm_link` fields, `center` being a dict with `lat` and `lon` fields:
+
+```
+...
+{'tags': {'amenity': 'restaurant', 'building': 'yes', 'name': "Vermutería Arrosseria del Poble D'Auvinya"}, 'center': {'lat': 42.45450165, 'lon': 1.4926907}, 'osm_link': 'https://www.openstreetmap.org/way/1236442460'}
+{'tags': {'access': 'yes', 'amenity': 'charging_station', 'capacity': '8', 'fee': 'yes', 'name': '313 Aparcament telecabina del Tarter', 'operator': "Forces Elèctriques d'Andorra", 'payment:app': 'yes', 'payment:electromaps': 'yes'}, 'center': {'lat': 42.57838705, 'lon': 1.6470569}, 'osm_link': 'https://www.openstreetmap.org/way/1270600406'}
+{'tags': {'building': 'commercial', 'shop': 'car_repair'}, 'center': {'lat': 42.5531873, 'lon': 1.50726665}, 'osm_link': 'https://www.openstreetmap.org/way/1276422261'}
+{'tags': {'addr:city': 'Incles', 'addr:postcode': 'AD100', 'addr:street': "Camí Pont D'Incles", 'amenity': 'restaurant', 'building': 'yes', 'name': 'Lamont'}, 'center': {'lat': 42.5831009, 'lon': 1.6640846}, 'osm_link': 'https://www.openstreetmap.org/way/1286995487'}
+{'tags': {'addr:city': 'El Tarter', 'addr:postcode': 'AD100', 'addr:street': 'CG-2', 'amenity': 'restaurant', 'building': 'yes', 'cuisine': 'bar&grill', 'name': 'The Boss', 'name:ca': 'The Boss'}, 'center': {'lat': 42.57929245, 'lon': 1.64093665}, 'osm_link': 'https://www.openstreetmap.org/way/1288987664'}
+{'tags': {'building': 'yes', 'office': 'government', 'type': 'multipolygon'}, 'center': {'lat': 42.50669325, 'lon': 1.5222641000000001}, 'osm_link': 'https://www.openstreetmap.org/relation/14084224'}
+{'tags': {'amenity': 'bank', 'building': 'yes', 'name': 'Andbank', 'name:ca': 'Andbank', 'type': 'multipolygon'}, 'center': {'lat': 42.51118895, 'lon': 1.5346714750000001}, 'osm_link': 'https://www.openstreetmap.org/relation/14119424'}
+```
+
+# Installation
+
+`pip install shops`
+
+It is uploaded to [pypi.org](https://pypi.org/project/shops/)
+
+# Behind scenes
+
+Data is downloaded, preprocessed and output cached within specified folder.
+
+First run will take long time especially for longer datasets.
+
+# Run tests
+
+```
+python3 -m unittest
+```
+
+# Contributions
+
+Bug reports, benchmarks, ideas, pull requests, suggestions and maybe thanks are welcome on the issue tracker!
+
+I am especially looking for ways to make this code faster.
+
+Note that for larger code changes opening issue first, before sending patch, may be a good idea.
