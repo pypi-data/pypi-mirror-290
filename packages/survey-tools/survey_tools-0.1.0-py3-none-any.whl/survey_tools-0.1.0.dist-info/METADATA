@@ -1,0 +1,83 @@
+Metadata-Version: 2.3
+Name: survey_tools
+Version: 0.1.0
+Summary: Simple python tools for survey research analysis for users of Pandas
+Project-URL: Homepage, https://github.com/acbass49/survey_tools
+Project-URL: Issues, https://github.com/acbass49/survey_tools/issues
+Project-URL: Vignette, https://alexbass.me/projects/survey_tools/
+Author-email: Alex Bass <acbass49@gmail.com>
+Maintainer-email: Alex Bass <acbass49@gmail.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE.txt
+Keywords: Crosstabs,Recode,Survey Research,Weighting
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: pytest
+Description-Content-Type: text/markdown
+
+# survey_tools
+
+This is a simple python package for survey research analysis containing convenient functions for weighted crosstabs, recoding, and weighting.
+
+# Install
+
+You can install survey_tools with `pip`:
+
+```
+python -m pip install survey_tools
+```
+
+# Assorted Python Functions for Survey Research
+
+`tabs` - 1, 2, and 3 way tabs. Make them weighted or unweighted. Have them include NAs or not. Have them be counts or normalized by row, column, or cell.
+
+```python
+tabs(data, 'var_name', display='column', wts='weight_var', dropna=False)
+```
+
+`rake_weight` - weight a survey to specified targets using the raking method.
+
+```python
+rake_weight(data, df_of_proportions_to_weight_to)
+```
+
+`recode` (Similar to car::recode in R) - Select a variable and create a simple recoding string to easily recode variables.
+
+```python
+recode(data, 'var_name', 'lo:5=1;6:10=2;11:hi=3;NaN=NaN')
+```
+
+`get_names` function - Use regex to easily select names in a given pandas.DataFrame
+
+```python
+get_names(data, r'^[Yy]ear.+')
+```
+
+# Future Add-ons
+1. Add CI function
+2. Stacking survey
+3. Add other weighting functions like matching, propensity weighting, or multiple combinations of these and raking.
+
+link I was working on: https://packaging.python.org/en/latest/tutorials/packaging-projects/  
+link to publish releases: https://medium.com/@blackary/publishing-a-python-package-from-github-to-pypi-in-2024-a6fb8635d45d
