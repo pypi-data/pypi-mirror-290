@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/chain_guardrail/main.py
+src/chain_guardrail.egg-info/PKG-INFO
+src/chain_guardrail.egg-info/SOURCES.txt
+src/chain_guardrail.egg-info/dependency_links.txt
+src/chain_guardrail.egg-info/requires.txt
+src/chain_guardrail.egg-info/top_level.txt
+src/chain_guardrail/bias/gender.py
+src/chain_guardrail/pii/presidio_pii.py
+src/chain_guardrail/profanity/bad_words_list.py
+src/chain_guardrail/profanity/fixed_pattern.py
+src/chain_guardrail/toxicity/large.py
+tests/test.py
