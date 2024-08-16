@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rtsvg
+Version: 0.1.13
+Summary: Visualization Package Leveraging SVG in Jupyter Notebooks
+Home-page: https://github.com/datrcode/racetrack_svg_framework
+Author: D. Trimm
+Author-email: dave.trimm@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+License-File: LICENSE
+Provides-Extra: stable
+Requires-Dist: geopandas; extra == "stable"
+Requires-Dist: hdbscan; extra == "stable"
+Requires-Dist: jupyter_bokeh; extra == "stable"
+Requires-Dist: networkx; extra == "stable"
+Requires-Dist: numpy; extra == "stable"
+Requires-Dist: pandas; extra == "stable"
+Requires-Dist: panel; extra == "stable"
+Requires-Dist: pyarrow; extra == "stable"
+Requires-Dist: polars; extra == "stable"
+Requires-Dist: shapely; extra == "stable"
+Requires-Dist: squarify; extra == "stable"
+Requires-Dist: svglib; extra == "stable"
+Requires-Dist: umap-learn; extra == "stable"
+Requires-Dist: wordcloud; extra == "stable"
