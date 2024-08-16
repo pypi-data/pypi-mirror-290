@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "tradestream"
+version = "0.5.9"
+description = "A Python application with a Dash frontend, services to fetch market data, and an API server."
+authors = ["Mac Anderson <mac@macanderson.com>"]
+license = "proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.5"
+pymongo = "^4.5.0"
+redis = "^5.0.8"
+rq = "^1.16.2"
+aiohttp = "^3.8.5"
+polygon-api-client = "^1.1.0"
+attrs = "^24.1.0"
+pandas = "^2.0.3"
+numpy = "^1.24.4"
+ujson = "^5.9.0"
+pyyaml = "^6.0.1"
+python-dotenv-vault = "^0.6.4"
+motor = "^3.5.1"
+dash = "^2.17.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+black = "^23.3b0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+worker = "tradestream.worker.main:start"
+dashboard = "tradestream.dashboard.app:start"
