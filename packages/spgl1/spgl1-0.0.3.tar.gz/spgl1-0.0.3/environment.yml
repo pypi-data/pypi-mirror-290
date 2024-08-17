@@ -1,0 +1,8 @@
+name: spgl1
+channels:
+  - defaults
+dependencies:
+  - python>=3.6.4
+  - pip
+  - numpy>=1.15.0
+  - scipy
