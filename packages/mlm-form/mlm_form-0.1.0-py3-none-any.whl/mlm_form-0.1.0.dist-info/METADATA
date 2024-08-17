@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: mlm-form
+Version: 0.1.0
+Summary: Runs a single page web app based on FastHTML to create Machine Learning Model metadata.
+Author-email: Ryan Avery <ryanbarryavery@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: pydantic>=2.8.2
+Requires-Dist: pystac>=1.10.1
+Requires-Dist: python-fasthtml>=0.3.4
+Requires-Dist: stac-model>=0.2.0
+Description-Content-Type: text/markdown
+
+# Starting mlm-form
+
+
+1. Clone the repo
+2. `pip install -e .`
+3. `mlm-form`
