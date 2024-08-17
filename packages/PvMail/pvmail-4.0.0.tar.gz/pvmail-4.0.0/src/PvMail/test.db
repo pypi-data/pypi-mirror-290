@@ -1,0 +1,23 @@
+
+# EPICS database to use while testing and developing pvMail.py code
+
+#  softIoc -d test.db
+#
+#  IOC:     softIoc -d test.db
+#  client:  camonitor pvMail:{trigger,message}
+#  pvMail:  pvMail.py  pvMail:trigger pvMail:message prjemian@gmail.com,jemian@anl.gov
+
+record(bo, "pvMail:trigger")
+{
+	field(DESC, "trigger PV")
+	field(ZNAM, "off")
+	field(ONAM, "on")
+}
+record(stringout, "pvMail:message")
+{
+	field(DESC, "message to be sent by email")
+	field(VAL,  "pvMail default message")
+}
+
+
+# Copyright (c) 2009-2024, UChicago Argonne, LLC.  See LICENSE file.
