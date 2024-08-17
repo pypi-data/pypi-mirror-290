@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pyteria
+Version: 0.1.0
+Summary: A Python API library for Soteria, world's safest Twitter.
+Author-email: Emma Terzioglu <emreterzioglu49@gmail.com>
+License: MIT
+Project-URL: Homepage, https://codeberg.org/soteria/pyteria
+Project-URL: Repository, https://codeberg.org/soteria/pyteria
+Project-URL: Bug Tracker, https://codeberg.org/soteria/pyteria/issues
+Requires-Python: >3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.9.5
+Requires-Dist: attrs>=24.2.0
+Requires-Dist: typing-extensions>=4.12.2
+
+<div align="center">
+    <img width="96" src="./assets/pyteria.png"><br>
+    <h1>Pyteria</h1>
+</div>
+
+# Example
+
+```python
+import asyncio
+import soteria
+
+async def main():
+    cache = soteria.MemoryCache()
+    client = soteria.Client(auth="<TOKEN HERE>", cache=cache)
+
+    # fetch a user from the api
+    user = await soteria.User.fetch(client, 12345)
+    print(user)
+
+    # fetch the list of followers
+    followers = await user.fetch_followers()
+    print(followers)
+
+    # you can always access the cached list of followers if async is not allowed
+    print(user.followers)
+
+    # remember to close the client after execution
+    await client.close()
+
+asyncio.run(main())
+```
+
+# Features
+
+- Mostly complete coverage of the Soteria API.
+- Caching support with customiziable cache implementations.
+- Complete type safety with your favorite type checker. 🚀

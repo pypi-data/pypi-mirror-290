@@ -1,0 +1,56 @@
+[project]
+name = "pyteria"
+version = "0.1.0"
+description = "A Python API library for Soteria, world's safest Twitter."
+authors = [
+    {name = "Emma Terzioglu", email = "emreterzioglu49@gmail.com"},
+]
+dependencies = [
+    "aiohttp>=3.9.5",
+    "attrs>=24.2.0",
+    "typing-extensions>=4.12.2",
+]
+requires-python = ">3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://codeberg.org/soteria/pyteria"
+Repository = "https://codeberg.org/soteria/pyteria"
+"Bug Tracker" = "https://codeberg.org/soteria/pyteria/issues"
+
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pre-commit>=3.8.0",
+]
+
+[tool.black]
+line-length = 100
+include = "src/soteria"
+
+[tool.ruff]
+line-length = 100
+exclude = [
+    ".git",
+    ".pdm-build",
+    ".venv",
+    "dist",
+]
+lint.select = ["F", "E", "PL"]
+lint.ignore = [
+    # star imports are checked w/ pyright
+    "F403",
+    "F405",
+
+    # black handles long lines
+    "E501",
+
+    # unnecessary rules
+    "PLR0911",
+    "PLR0912",
+    "PLR0913",
+    "PLR0915",
+    "PLR2004",
+]
+target-version = "py39"
