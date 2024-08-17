@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/foo"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "./*.py",
+  "/models",
+  "utils",
+  "sheduler",
+]
+
+[project]
+name = "fixedvit"
+version = "0.0.1"
+authors = [
+ { name="Artur Punch", email="punchartur@gmail.com" },
+]
+description = "fixed version of fastervit implementation https://github.com/NVlabs/FasterViT"
+readme = "README.md"
+requires-python = ">=3.10.0"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: MIT License",
+   "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/NVlabs/FasterViT"
