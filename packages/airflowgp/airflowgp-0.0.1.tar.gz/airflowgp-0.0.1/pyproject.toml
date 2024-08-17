@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "airflowgp"
+version = "0.0.1"
+description = "Airflow Hook for Greenplum DB"
+authors = ["Dustin Wells <dustin.wells@capstonec.com>"]
+license = "Apache License Version 2.0"
+readme = "README.md"
+packages = [
+    { include = "airflowgp" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apache-airflow = "^2.7.0"
+apache-airflow-providers-common-sql = "^1.15.0"
+psycopg2-binary = "^2.9.9"
+pendulum = "^3.0.0"
+pg8000 = "^1.31.2"
+
+[tool.poetry.plugins."apache_airflow_provider"]
+"provider_info" = "airflowgp.provider_info:get_provider_info"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^5.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
