@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pirate_ledger
+Version: 0.1.0
+Summary: A pirate-themed ledger for crew members and sea notes.
+Home-page: https://gitlab.com/master-of-science-neoversity/introduction-to-computer-programming-part-1/grimbergen-team-11-project
+Author: Grimbergen Team
+Author-email: yuriy@hubmee.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prompt-toolkit==3.0.36
+Requires-Dist: questionary==2.0.1
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: rapidfuzz===3.9.6
+Requires-Dist: colorama==0.4.6
+
