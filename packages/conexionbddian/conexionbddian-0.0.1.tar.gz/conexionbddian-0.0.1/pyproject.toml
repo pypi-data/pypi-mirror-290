@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conexionbddian"
+version = "0.0.1"
+dependencies = [
+"sqlalchemy","cx_Oracle","pandas","python-decouple",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Sebastian Leon", email = "joan2613@gmail.com"},
+]
+description = "Paquete conexión SOLEM para subdirección Riesgo - DIAN"
+readme = "README.md"
+keywords = ["Base datos","solem","dian"]
+classifiers = [
+            "Development Status :: 3 - Alpha",
+            "Intended Audience :: Education",
+            "Programming Language :: Python :: 3",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: Microsoft :: Windows",
+]
+[tool.hatch.build.targets.wheel]
+bypass-selection = true
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
