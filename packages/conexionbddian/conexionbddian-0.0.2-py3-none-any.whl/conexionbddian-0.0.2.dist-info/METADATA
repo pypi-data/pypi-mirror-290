@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: conexionbddian
+Version: 0.0.2
+Summary: Paquete conexión SOLEM para subdirección Riesgo - DIAN
+Author-email: Sebastian Leon <joan2613@gmail.com>
+Keywords: Base datos,solem,dian
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Requires-Dist: cx-Oracle
+Requires-Dist: pandas
+Requires-Dist: python-decouple
+
+# Utilidad para la Base de Datos SOLEM
+
+Este módulo de Python proporciona un conjunto de utilidades para interactuar con la base de datos Oracle SOLEM utilizando `cx_Oracle` y `SQLAlchemy`. Las utilidades incluyen funciones para conectarse a la base de datos, ejecutar consultas SQL y devolver resultados como DataFrames de Pandas.
+
+## Características
+
+- **Conexión a la Base de Datos:** Establece una conexión con la base de datos Oracle SOLEM utilizando credenciales almacenadas en un archivo de entorno.
+- **Ejecución de Consultas:** Ejecuta consultas SQL utilizando `cx_Oracle` o `SQLAlchemy`.
+- **Recuperación de Datos:** Recupera los resultados de las consultas como DataFrames de Pandas para una fácil manipulación y análisis.
+- **Creación de Engine:** Crea un motor de SQLAlchemy para operaciones avanzadas con la base de datos.
+
+## Requisitos Previos
+
+Antes de usar este módulo, asegúrate de que los siguientes paquetes estén instalados:
+
+- `pandas`
+- `python-decouple`
+- `cx_Oracle`
+- `SQLAlchemy`
+
+Puedes instalarlos usando `pip`:
+
+```bash
+pip install pandas python-decouple cx_Oracle SQLAlchemy
+```
+
+## Configuración
+
+Debes crear un archivo .env y colocarlo en $HOMEPATH. El archivo debe tener la siguiente información:
+
+-USER=tu_usuario 
+-PASSWORD=tu_contraseña
+-SERVER=tu_servidor
+-PORT=tu_puerto
+-SERVICE_NAME=tu_nombre_de_servicio
+
+De igual forma asegúrate de tener instalado el oracle instant client.
