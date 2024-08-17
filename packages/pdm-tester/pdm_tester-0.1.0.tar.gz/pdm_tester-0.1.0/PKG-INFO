@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pdm-tester
+Version: 0.1.0
+Summary: nothing yet to say
+Author-Email: Joris GUERRY <joris.guerry@edf.fr>
+License: MIT
+Requires-Python: !=3.9.7,<3.10,>=3.9
+Requires-Dist: streamlit>=1.12.0
+Requires-Dist: fmpy>=0.3.21
+Requires-Dist: jupyterlab>=4.2.4
+Requires-Dist: plotly>=5.23.0
+Description-Content-Type: text/markdown
+
+# pdm-tester

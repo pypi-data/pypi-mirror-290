@@ -1,0 +1,27 @@
+[project]
+name = "pdm-tester"
+version = "0.1.0"
+description = "nothing yet to say"
+authors = [
+    { name = "Joris GUERRY", email = "joris.guerry@edf.fr" },
+]
+dependencies = [
+    "streamlit>=1.12.0",
+    "fmpy>=0.3.21",
+    "jupyterlab>=4.2.4",
+    "plotly>=5.23.0",
+]
+requires-python = "!=3.9.7,>=3.9,<3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
