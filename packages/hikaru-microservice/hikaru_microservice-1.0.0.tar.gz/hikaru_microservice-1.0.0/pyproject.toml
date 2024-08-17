@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hikaru-microservice"
+version = "1.0.0"
+authors = [
+    { name="Mizu Hikaru", email="mizu@hikaru.org" },
+]
+description = "Python package that provides the base for Hikaru FastAPI microservices."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi[standard]",
+]
+
+[project.urls]
+Homepage = "https://github.com/mizu-hikaru/hikaru-microservice"
+Issues = "https://github.com/mizu-hikaru/hikaru-microservice/issues"
