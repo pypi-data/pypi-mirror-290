@@ -1,0 +1,21 @@
+include setup.py
+include setup.cfg
+include LICENCE
+include README.md
+
+graft src
+graft exemples
+
+global-exclude *.py[cod]
+exclude *.egg-info
+exclude .git
+exclude .gitignore
+exclude .pre-commit-config.yaml
+exclude requirements.txt
+exclude tox.ini
+exclude .vscode
+exclude .pytest_cache
+
+prune tests
+prune build
+prune dist
