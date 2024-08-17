@@ -1,0 +1,41 @@
+#Providing pip with what is necessary for installation and usage of Python package.
+
+[build-system]
+requires = ["setuptools >= 61.0", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jade"
+version = "0.1.0"
+authors = [
+  { name = ""},
+  { name = "O. Attia and V. Bourrier", email = "vincent.bourrier@unige.ch" },
+]
+description = "Exoplanet evolution code"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy>=1.16",
+  "scipy",
+  "matplotlib",
+  "lmfit",
+  "astropy",
+  "emcee",
+  "pandas",
+  "jupyterlab",
+  ]
+
+[project.urls]
+Homepage = "https://gitlab.unige.ch/spice_dune/JADE"
+Issues = "https://gitlab.unige.ch/spice_dune/JADE/-/issues"
+
+[project.scripts]
+jade = "jade.JADE_launch.JADE_launcher:JADE_launcher" 
+
+[tool.setuptools.packages.find]
+where = ["src"]
