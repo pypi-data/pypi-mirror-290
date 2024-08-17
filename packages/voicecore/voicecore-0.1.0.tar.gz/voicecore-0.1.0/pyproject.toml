@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voicecore"
+version = "0.1.0"
+description = "The VoiceCore client library"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Dom", email = "dom@voicecore.ai" }
+]
+dependencies = []
+requires-python = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/voicecore/voicecore"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+]
