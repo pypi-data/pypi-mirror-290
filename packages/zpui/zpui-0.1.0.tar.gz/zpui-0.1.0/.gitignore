@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#PyTest
+.pytest_cache
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# ZPUI
+# Apps are not supposed to ship config.json
+# Instead, they're supposed to create them on first launch
+config.json
+# ZPUI logfiles
+/logs/*
+# We ship do_not_load files in some directories, but do not track user-created files
+# (only user-removed ones)
+do_not_load
+# An automatically-generated log configuration file (with log level overrides)
+/log_conf.ini
+# Logging path and rotation parameters
+/log_config.json
+# Emulator flag file
+/emulator
+# Firstboot list file
+/zpui_firstboot.list
+# Ignoring the default screenshot folder
+/screenshots/
+# Nano files
+*.swp
