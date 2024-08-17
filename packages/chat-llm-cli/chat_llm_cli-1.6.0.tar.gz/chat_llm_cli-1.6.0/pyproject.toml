@@ -1,0 +1,89 @@
+[project]
+name = "chat_llm_cli"
+version = "1.6.0"
+description = "Simple yet effective command line client for chatting with big LLMs using the llm_lite wrapper or ollama models"
+authors = [
+    { name = "tadeasf", email = "business@tadeasfort.com" },
+]
+dependencies = [
+    "click",
+    "prompt-toolkit",
+    "requests",
+    "rich",
+    "xdg-base-dirs",
+    "pyperclip",
+    "openai",
+    "loguru",
+    "litellm",
+    "pysocks",
+    "urllib3",
+    "wcwidth",
+    "pygments",
+    "pyyaml",
+    "platformdirs",
+    "idna",
+    "markdown-it-py",
+    "mdurl",
+    "pathspec",
+    "aiohappyeyeballs",
+    "aiosignal",
+    "annotated-types",
+    "anyio",
+    "attrs",
+    "certifi",
+    "charset-normalizer",
+    "distro",
+    "filelock",
+    "frozenlist",
+    "fsspec",
+    "h11",
+    "httpcore",
+    "httpx",
+    "huggingface-hub",
+    "importlib-metadata",
+    "jinja2",
+    "jiter",
+    "jsonschema",
+    "jsonschema-specifications",
+    "markupsafe",
+    "multidict",
+    "packaging",
+    "pydantic",
+    "pydantic-core",
+    "python-dotenv",
+    "referencing",
+    "regex",
+    "rpds-py",
+    "sniffio",
+    "tiktoken",
+    "tokenizers",
+    "tqdm",
+    "typing-extensions",
+    "yarl",
+    "zipp",
+    "typer",
+    "catppuccin[pygments]",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+chat_llm_cli = "chat_llm_cli.chat_llm_cli:app"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+source = [
+    { url = "https://pypi.org/simple", verify_ssl = true, name = "pypi" },
+]
+
+[tool.pdm.dev-dependencies]
+dev = []
