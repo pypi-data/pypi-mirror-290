@@ -1,0 +1,13 @@
+python-docx
+PyMuPDF
+langchain>=2.0
+instructor
+spacy
+transformers
+tqdm
+sentence-transformers
+openai
+
+[dev]
+pytest>=6.0
+black
