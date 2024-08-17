@@ -1,0 +1,24 @@
+[project]
+name = "gps-timemachine"
+version = "1.1.5"
+description = "Adjust GPS datetimes to UTC."
+readme = "README.md"
+authors = [
+  {name = "NSIDC Development Team", email = "programmers@nsidc.org"},
+]
+license.file = "LICENSE"
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/nsidc/gps-timemachine"
+Repository = "https://github.com/nsidc/gps-timemachine"
+
+[build-system]
+requires = ["setuptools>=66"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["tasks"]
+
+[tool.setuptools.package-data]
+gps_timemachine = ["static/*.dat"]
