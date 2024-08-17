@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pionex_python
+Version: 1.0.6
+Summary: Connector library for Pionex REST and WS api.
+License: MIT
+Author: Leo Thern
+Author-email: 47295238+LeoThern@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: websocket-client (>=1.7.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Pionex to Python
+## Description
+Connector library for Pionex Restful and Websocket api.
+Closely resembles [PionexAPI Docs](https://pionex-doc.gitbook.io/apidocs) for intuitive implementation.
+All function names are identical to the names in documentation.
+## Examples
+```sh
+pip install pionex_python
+```
+### Restful
+#### public
+```py
+from pionex_python.restful.Common import Common
+
+commonClient = Common()
+market_data = commonClient.market_data()
+
+print(market_data)
+```
+#### private
+```py
+from pionex_python.restful.Orders import Orders
+
+key, secret = "X...X", "X...X"
+
+ordersClient = Orders(key, secret)
+
+order = {
+    "symbol"":"BTC_USDT",
+    "side":"BUY",
+    "type":"MARKET",
+    "amount":"16"
+}
+
+response = ordersClient.new_order(order=order)
+print(response)
+```
+### Websocket
+```py
+from pionex_python.websocket.PublicStream import PublicStream
+from time import sleep
+
+stream = PublicStream()
+
+def onMessage(msg):
+    print(msg)
+
+stream.subscribe(callback=onMessage, topic="TRADE",symbol="BTC_USDT")
+sleep(5)
+stream.unsubscribe(topic="TRADE",symbol="BTC_USDT")
+```
+## TODO:
+- [ ] implement testing
+## Motivation
+- learn about the python packaging and publishing systems
+- implement a python websocket client
+- increase experience with marketplace apis
+
