@@ -1,0 +1,8 @@
+click==8.1.*
+codetiming==1.4.*
+fpdf2==2.7.*
+
+[dev]
+bumpver
+pip-tools
+pytest
