@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: quart-imp
+Version: 1.0.0
+Summary: A Quart auto importer that allows your Quart apps to grow big.
+Author-email: David Carmichael <david@uilix.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Requires-Dist: Quart
+Project-URL: Documentation, https://cheesecake87.github.io/flask-imp/
+Project-URL: Source, https://github.com/CheeseCake87/flask-imp
+
+![](https://raw.githubusercontent.com/CheeseCake87/Quart-Imp/master/_assets/quart-Imp-Small.png)
+
+# Quart-Imp
+
+[![PyPI version](https://img.shields.io/pypi/v/quart-imp)](https://pypi.org/project/quart-imp/)
+[![License](https://img.shields.io/badge/license-LGPL_v2-red.svg)](https://raw.githubusercontent.com/CheeseCake87/quart-imp/master/LICENSE)
+![black](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+`pip install quart-imp`
+
+## What is Quart-Imp?
+
+Quart-Imp's main purpose is to help simplify the importing of blueprints, and resources.
+It has a few extra features built in to help with securing pages and password authentication.
+
+## Generate a Quart app
+
+```bash
+quart-imp init
+```
+
+## Example
+
+```text
+project/
+└── app/
+    ├── blueprints/
+    │   └── www/...
+    ├── extensions/
+    │   └── __init__.py
+    ├── resources/
+    │   ├── static/...
+    │   ├── templates/...
+    │   └── routes.py
+    └── __init__.py
+```
+
+`# app/extensions/__init__.py`
+
+```python
+from quart_imp import Imp
+
+imp = Imp()
+```
+
+`# app/__init__.py`
+
+```python
+from quart import Quart
+
+from app.extensions import imp
+
+
+def create_app():
+    app = Quart(__name__, static_url_path="/")
+
+    imp.init_app(app)
+    imp.import_app_resources()
+    imp.import_blueprints("blueprints")
+
+    return app
+```
+
