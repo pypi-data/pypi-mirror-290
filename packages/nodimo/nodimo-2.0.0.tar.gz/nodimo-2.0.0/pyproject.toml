@@ -1,0 +1,131 @@
+[build-system]
+requires = ['setuptools>=61.0.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'nodimo'
+version = '2.0.0'
+authors = [
+  {name = 'Rodrigo Castro', email = 'rodrigopcastro018@gmail.com'}
+]
+maintainers = [
+  {name = 'Rodrigo Castro', email = 'rodrigopcastro018@gmail.com'}
+]
+description = "Nodimo is a tool that creates dimensionless models"
+readme = 'README.md'
+requires-python = '>=3.9'
+license = {file = 'LICENSE'}
+keywords = ['dimensional analysis']
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'License :: OSI Approved :: MIT License',
+  'Intended Audience :: Education',
+  'Intended Audience :: Science/Research',
+  'Topic :: Scientific/Engineering',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
+  'Programming Language :: Python :: 3 :: Only',
+  'Typing :: Typed',
+  'Operating System :: OS Independent',
+]
+dependencies = ['sympy>=1.7']
+
+[project.optional-dependencies]
+test = [
+    'mypy>=1.0',
+    'pytest>=6.2',
+    'nbval>=0.11',
+    'coverage>=7.0',
+    'pytest-cov>=2.10',
+]
+tox = ['tox>=4.0', 'tox-pyenv-redux>=1.0']
+docs = [
+    'sphinx>=7.2.6',
+    'furo>=2024.1.29',
+    'nbsphinx>=0.9.3',
+    'numpydoc>=1.6.0',
+    'IPython>=8.8.0',
+    'sphinx-copybutton',
+]
+format = ['black>=22.1.0']
+
+[project.urls]
+'Source' = 'https://github.com/rodrigopcastro018/nodimo'
+'Documentation' = 'https://nodimo.readthedocs.io/'
+
+[tool.mypy]
+python_version = '3.12'
+files = 'nodimo'
+exclude = ['tests']
+ignore_missing_imports = 'True'
+
+[tool.pytest.ini_options]
+minversion = '6.2'
+testpaths = ['tests', 'docs/tutorials']
+addopts = [
+    '--nbval',
+    '--cov=nodimo',
+    '--cov-config=pyproject.toml',
+    '--cov-report=term-missing',
+    '--import-mode=importlib',
+]
+
+[tool.coverage.run]
+source = ['nodimo']
+data_file = '.coverage/.coverage'
+context = '${CONTEXT}'
+relative_files = 'true'
+
+[tool.coverage.paths]
+source = ['nodimo']
+
+[tool.coverage.html]
+directory = '.coverage/htmlcov'
+
+[tool.black]
+target-version = ['py39', 'py310', 'py311', 'py312', 'py313']
+skip-string-normalization = 'True'
+include = 'nodimo\/.*\.pyi?$'
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    min_version = 4.0
+    env_list = 
+        pytest-coverage
+        type
+
+    [testenv:pytest-coverage]
+    skip_install = true
+    ignore_errors = true
+    parallel_show_output = true
+    deps = 
+        pytest>=6.2
+        nbval>=0.11
+        coverage>=7.0
+        pytest-cov>=2.10
+        {env:SYMPY}
+    commands = 
+        python -m pytest -q --junit-xml=tests_results/results-{env:CONTEXT}/pytest_result.xml
+        coverage json -o tests_results/results-{env:CONTEXT}/coverage_result.json
+    pass_env = 
+        CONTEXT
+        SYMPY_VERSION
+    set_env = 
+        SYMPY = sympy=={env:SYMPY_VERSION}
+        COVERAGE_FILE = .coverage/.coverage.{env:CONTEXT}
+
+    [testenv:type]
+    skip_install = true
+    parallel_show_output = true
+    deps = 
+        mypy>=1.0
+    commands = 
+        mypy --junit-xml tests_results/results-{env:CONTEXT}/mypy_result.xml
+    pass_env = 
+        CONTEXT
+"""
