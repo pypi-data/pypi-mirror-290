@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyworldatlas
+Version: 0.0.3
+Summary: Brief description.
+Home-page: https://www.example.com
+Author: jcari-dev
+License: The Unlicense
+Project-URL: Documentation, https://www.example.com/docs
+Project-URL: Source, https://www.example.com/source
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >= 3.10, < 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+# PyWorldAtlas
+
+Some random description.
