@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: airflowgp
+Version: 0.0.1
+Summary: Airflow Hook for Greenplum DB
+License: Apache License Version 2.0
+Author: Dustin Wells
+Author-email: dustin.wells@capstonec.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: apache-airflow (>=2.7.0,<3.0.0)
+Requires-Dist: apache-airflow-providers-common-sql (>=1.15.0,<2.0.0)
+Requires-Dist: pendulum (>=3.0.0,<4.0.0)
+Requires-Dist: pg8000 (>=1.31.2,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Airflow Hook for Greenplum
+
+Install this package in the python environment with Airflow to use the Greenplum Hook.
+
+Installation: `pip install airflowgp`
+
+More about creating your own provider packages - https://airflow.apache.org/docs/apache-airflow-providers/index.html#how-to-create-your-own-provider
+
