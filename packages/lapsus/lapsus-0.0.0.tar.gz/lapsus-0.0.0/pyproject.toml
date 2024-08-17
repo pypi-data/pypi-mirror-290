@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lapsus"
+dynamic = ["version"]
+requires-python = ">=3.12"
+authors = [
+  {name = "Andrea Blengino", email = "ing.andrea.blengino@protonmail.com"},
+]
+maintainers = [
+  {name = "Andrea Blengino", email = "ing.andrea.blengino@protonmail.com"},
+]
+description = "Shell history cleaner"
+readme = "README.rst"
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Shells"
+]
+
+[tool.setuptools.packages.find]
+include = ["lapsus"]
+
+[project.urls]
+Homepage = "https://github.com/AndreaBlengino/lapsus"
+Issues = "https://github.com/AndreaBlengino/lapsus/issues"
+Repository = "https://github.com/AndreaBlengino/lapsus"
