@@ -1,0 +1,73 @@
+[project]
+name = "quart-imp"
+version = "1.0.0"
+description = 'A Quart auto importer that allows your Quart apps to grow big.'
+authors = [{ name = "David Carmichael", email = "david@uilix.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Web Environment', 'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent', 'Programming Language :: Python',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Natural Language :: English',
+]
+requires-python = ">=3.9"
+dependencies = [
+    'Quart',
+]
+
+[project.urls]
+Documentation = "https://cheesecake87.github.io/flask-imp/"
+Source = "https://github.com/CheeseCake87/flask-imp"
+
+[project.scripts]
+quart-imp = "quart_imp._cli:cli"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.pyqwe]
+install = "*:flit install --symlink"
+build = "*:flit build"
+publish = "*shell:export=FLIT_USERNAME=__token__ && flit publish"
+docs = "*:flask --app docs compile"
+docs-watch = "*:flask --app docs compile --watch"
+
+[tool.flit.sdist]
+exclude = [
+    ".github",
+    "_assets",
+    "app",
+    "instance",
+    "dist",
+    "docs",
+    "tests_docker",
+    ".gitignore",
+    ".env",
+]
+
+[tool.mypy]
+python_version = "3.9"
+files = ["src/quart_imp"]
+show_error_codes = true
+pretty = true
+strict = true
+
+[tool.pyright]
+pythonVersion = "3.9"
+include = ["src/quart_imp"]
+typeCheckingMode = "basic"
+
+[tool.ruff]
+src = ["src"]
+fix = true
+show-fixes = true
+output-format = "full"
