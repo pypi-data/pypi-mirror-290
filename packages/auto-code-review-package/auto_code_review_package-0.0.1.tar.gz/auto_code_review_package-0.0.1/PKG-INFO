@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: auto-code-review-package
+Version: 0.0.1
+Summary: A tool that integrates with Gitlab CICD pipelines to perform automated code reviews on commits and MRs
+Requires-Dist: python-gitlab
+Requires-Dist: sagemaker
+Requires-Dist: langchain
+Requires-Dist: langchain_core
+Requires-Dist: langchain_community
+Requires-Dist: langchain_openai
+Requires-Dist: boto3
+Requires-Dist: utils
+Requires-Dist: atlassian-python-api
+Requires-Dist: markdownify
+Requires-Dist: httpx
+Requires-Dist: requests
