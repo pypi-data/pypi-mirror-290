@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iaversion
+Version: 0.0.0
+Author-email: Innovations Anonymous <InnovAnon-Inc@gmx.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: iasimplesetup>=0.0.3
+Requires-Dist: setuptools-scm
+Requires-Dist: setuptools-scm-git-semver
+
+Utility: Simplify Versioning in Setup Script (setup.py)
