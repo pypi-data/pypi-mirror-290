@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: photoshoot
+Version: 0.1.0
+Summary: A pytest plugin for snapshot testing polars dataframes.
+Project-URL: Repository, https://github.com/ngriffiths13/photoshoot
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: polars>=1.5.0
+Requires-Dist: pytest>=8.3.2
+Provides-Extra: gcs
+Requires-Dist: gcsfs>=2024.6.1; extra == 'gcs'
+Description-Content-Type: text/markdown
+
+# photoshoot-2
+
+Describe your project here.
