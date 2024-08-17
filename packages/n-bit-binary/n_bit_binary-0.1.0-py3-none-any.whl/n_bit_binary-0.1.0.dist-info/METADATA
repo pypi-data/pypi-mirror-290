@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: n_bit_binary
+Version: 0.1.0
+Summary: A package for working with integers as binary arrays
+Project-URL: Homepage, https://github.com/griffinskudder/n_bit_binary
+Project-URL: Issues, https://github.com/griffinskudder/n_bit_binary/issues
+Author-email: Griffin Skudder <griffin@skudder.co.nz>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# n_bit_binary
+
+A small module which defines a class for working with n-bit signed or unsigned integers.  
+Useful for changing specific bits in an integer as it supports slicing.
