@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: qcml-logging
+Version: 0.1.0
+Summary: A Python library for advanced logging with support for multiple outputs and optional Slack integration.
+Home-page: https://github.com/albertnieto/qcml-logging
+Author: Albert Nieto
+Author-email: Albert Nieto <nietom.albert@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/albertnieto/qcml-logging
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: slack
+Requires-Dist: slack_sdk>=3.0.0; extra == "slack"
+
+# QCML Logging Library
+
+QCML Logging is a Python library that provides advanced logging setup with support for multiple outputs (terminal, file) and Slack integration. It includes features like color-coded logs, JSON formatting, and contextual information.
+
+## Installation
+
+You can install the library using pip:
+
+```bash
+pip install qcml-logging
+```
+
+## Usage
+
+Here’s an example of how to set up logging:
+
+```python
+import qcml_logging
+
+context_info = {
+    'user_id': '12345',
+    'session_id': 'abcde'
+}
+
+slack_credentials = ["your-slack-token", "#your-channel"]
+
+qcml_logging.log_setup(
+    level="DEBUG",
+    output="both",
+    logs_path="my_logs",
+    use_json=False,
+    keyword_filters=["error", "critical"],
+    use_color=True,
+    asynchronous=True,
+    add_context=True,
+    context_info=context_info,
+    slack_notify=True,
+    slack_credentials=slack_credentials
+)
+
+logging.debug("This is a debug message.")
+```
