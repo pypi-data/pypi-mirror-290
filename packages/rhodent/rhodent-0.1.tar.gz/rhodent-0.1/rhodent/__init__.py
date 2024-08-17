@@ -1,0 +1,8 @@
+__project__ = 'rhodent'
+__description__ = 'Analyzing hot-carrier distributions from TD-DFT simulations'
+__copyright__ = '2024'
+__license__ = 'Mozilla Public License 2.0 (MPL 2.0)'
+__version__ = '0.1'
+__maintainer__ = 'The rhodent developers team'
+__status__ = 'Alpha'
+__url__ = 'https://rhodent.materialsmodeling.org/'
