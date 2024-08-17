@@ -1,0 +1,1 @@
+python "./spartaqube_launcher.py"
