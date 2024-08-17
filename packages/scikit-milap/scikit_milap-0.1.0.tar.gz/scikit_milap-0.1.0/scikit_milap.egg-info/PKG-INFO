@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: scikit-milap
+Version: 0.1.0
+Summary: A wrapper around scikit learn ML models that enable you to create and use models easily.
+Home-page: https://github.com/BhaumikTalwar/SCIKIT-MILAP
+Author: Bhaumik Talwar
+Author-email: bhaumik303@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==2.0.1
+Requires-Dist: pandas==2.2.2
+Requires-Dist: matplotlib==3.9.2
+Requires-Dist: scikit-learn==1.5.1
+
+# SCIKIT-MILAP
+A Wrapper around Scikit learn's ML models that makes the use of them Super easy 
+
+
+# To-Do List
+
+- [x] Inital Setup
+- [ ] Tests
+- [ ] DOCS
+- [ ] Examples
+- [ ] More Models
