@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    environment: release
+    permissions:
+      # IMPORTANT: this permission is mandatory for trusted publishing
+      id-token: write
+
+    steps:
+      - name: Install packages
+        run: sudo apt-get install xclip xvfb python3-tk
+      - uses: actions/checkout@v4
+      - name: Install Hatch
+        uses: pypa/hatch@a3c83ab3d481fbc2dc91dd0088628817488dd1d5
+      - name: Run tests
+        run: xvfb-run hatch test --all
+      - name: Build
+        run: hatch build
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
