@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+.github/workflows/publish.yml
+dlsys/__init__.py
+dlsys.egg-info/PKG-INFO
+dlsys.egg-info/SOURCES.txt
+dlsys.egg-info/dependency_links.txt
+dlsys.egg-info/entry_points.txt
+dlsys.egg-info/requires.txt
+dlsys.egg-info/top_level.txt
