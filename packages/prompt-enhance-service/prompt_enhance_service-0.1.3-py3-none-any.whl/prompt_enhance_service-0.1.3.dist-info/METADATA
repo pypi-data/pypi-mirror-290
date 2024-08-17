@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: prompt_enhance_service
+Version: 0.1.3
+Summary: A brief description of your package
+Author: Jinka Sai Jagadeesh
+Author-email: saijagadeesh.jinka@gavstech.com
+License: GAVS Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: google-cloud-firestore
+
+
+# Prompt Enhancer
+
+`Prompt Enhancer` is a Python library designed to enhance prompt messages for use with Google's Vertex AI. The current version supports static prompt enhancements, with a dynamic version that includes customization through interactive questions coming in future updates.
+
+## Installation
+
+To use the `Prompt Enhancer`, ensure that you have Google Vertex AI credentials properly configured before using the library.
+
+## Usage
+
+### Importing the Library
+
+To get started, 
+
+First import the `genai_framework` library and make sure it resides in `src` folder.
+
+## Test with the below import:
+```python
+from src.genai_framework import ChatLLMBuilder
+```
+
+Then import the `enhance` function from the `prompt_enhance_service` package:
+
+```python
+from prompt_enhance_service.prompt_enhancer import enhance
+```
+
+### Enhancing a Prompt
+
+Use the `enhance` function to enhance your prompt message:
+
+```python
+enhanced_prompt = enhance(message="Your prompt message here")
+```
+
+- `message`: The original prompt message you want to enhance.
+- `other_details`: A dictionary of other relevant details that may influence the enhancement process.
+
+### Environment Variables
+
+The current version only supports integration with Google Vertex AI. Make sure to set the following environment variables:
+
+```bash
+export VERTEXAI_CHAT_MODEL='your-vertex-ai-model-id'
+export VERTEXAI_CREDENTIALS_PATH='/path/to/your/vertex-ai/credentials.json'
+export GOOGLE_APPLICATION_CREDENTIALS='/path/to/your/google-application-credentials.json'
+```
+
+- **`VERTEXAI_CHAT_MODEL`**: Your Google Vertex AI model ID.
+- **`VERTEXAI_CREDENTIALS_PATH`**: The file path to your Vertex AI credentials.
+- **`GOOGLE_APPLICATION_CREDENTIALS`**: The file path to your Google Cloud application credentials.
+
+## Future Updates
+
+- **Dynamic Version**: The upcoming version will allow users to customize prompts through a series of interactive questions, making the enhancement process more tailored and flexible.
+
+## License
+
+This project is licensed under the GAVS Proprietary License. See the `LICENSE` file for more details.
+
+## Contact
+
+For more information, please contact GAVS Organization.
+
+This README file provides clear instructions on how to use your library and what to expect in future versions.
