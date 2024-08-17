@@ -1,0 +1,34 @@
+[package]
+name = "nb2pb"
+version = "0.1.14"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dragazo/nb2pb"
+documentation = "https://docs.rs/nb2pb"
+description = """
+Compiles NetsBlox projects into PyBlox projects
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "nb2pb"
+path = "src/lib.rs"
+crate-type = ["lib", "cdylib"]
+
+[[bin]]
+name = "nb2pb"
+path = "src/main.rs"
+
+[dependencies]
+netsblox-ast = "=0.5.11"
+# netsblox-ast = { path = "../netsblox-ast" }
+serde_json = "1.0"
+regex = "1.10"
+base64 = "0.22.1"
+image = "0.25.2"
+pyo3 = { version = "0.22.2", features = ["extension-module", "gil-refs"], optional = true }
+compact_str = { version = "0.8.0", features = ["serde"] }
+
+[build-dependencies]
+pyo3-build-config = "0.22.2"
