@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: grscheller.untyped
+Version: 0.2.0
+Summary: ## Untyped Modules
+Keywords: bottom,nothing
+Author-email: "Geoffrey R. Scheller" <geoffrey@scheller.com>
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: pytest >=7.4 ; extra == "test"
+Requires-Dist: grscheller.circular-array >=3.4.0, <3.5 ; extra == "test"
+Project-URL: Changelog, https://github.com/grscheller/untyped/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://grscheller.github.io/untyped/
+Project-URL: Source, https://github.com/grscheller/untyped
+Provides-Extra: test
+
+# Python modules geared to code that is not strictly typed
+
+Useful modules I found difficult to implement in a strictly
+typed manner.
+
+* **Repositories**
+  * [grscheller.untyped][1] project on *PyPI*
+  * [Source code][2] on *GitHub*
+* **Detailed documentation**
+  * [Detailed API documentation][3] on *GH-Pages*
+
+### Modules
+
+#### grscheller.untyped.nothing
+
+* singleton representing the absence of a value
+* geared to less strictly typed situations
+
+---
+
+[1]: https://pypi.org/project/grscheller.untyped/
+[2]: https://github.com/grscheller/untyped/
+[3]: https://grscheller.github.io/untyped/
+
