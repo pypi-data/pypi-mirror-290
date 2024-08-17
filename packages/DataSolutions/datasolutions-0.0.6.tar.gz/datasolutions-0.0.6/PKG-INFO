@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: DataSolutions
+Version: 0.0.6
+Summary: SDK functions for users to query Data Solutions databases.
+Project-URL: Homepage, https://github.com/TransposeData/chainalysis-data-solutions-python-sdk
+Author-email: "Rah Tarar (musa-tarar)" <musa.nishat@chainalysis.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+![Transpose Banner](https://files.readme.io/c019281-Main_Docs_Banners_v1.png)
+
+# Welcome to the Transpose Python SDK
+A modern python wrapper for the Transpose API Suite.
+
+## Installation
+
+```bash
+pip install DataSolutions
+```
