@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <span class="h1">
+            <a href="{{url}}">{{title}}</a>
+            /
+            {{dataset.name}}
+        </span>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>Description</h2>
+            <ul class="list-unstyled">
+                <li>Samples: {{dataset.samples|count}}</li>
+                <li>Categories: {{dataset.categories|count}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>Images</h2>
+            <div class="d-flex flex-wrap">
+            {% for sample in dataset.samples %}
+                <a href="{{sample.url}}">
+                <div class="card mb-1 me-1" style="width: 6rem">
+                    <img src="{{sample.imageurl}}" class="card-img-top" loading="lazy">
+                    <div class="card-body">
+                        <div class="card-title" style="font-size: 0.7rem">{{sample.name}}</div>
+                        <div class="card-subtitle" style="font-size: 0.6rem" title="Class {{sample.category.index}}">{{sample.category.name}}</div>
+                    </div>
+                </div>
+                </a>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

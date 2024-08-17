@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: samlab
+Version: 0.4.0
+Summary: The Sandia Machine Learning Laboratory: tools for analyzing computer vision models.
+Author-email: "Timothy M. Shead" <tshead@sandia.gov>
+Maintainer-email: "Timothy M. Shead" <tshead@sandia.gov>
+Requires-Python: >=3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: enlighten
+Requires-Dist: Jinja2
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: behave ; extra == "all"
+Requires-Dist: coverage ; extra == "all"
+Requires-Dist: sphinx >= 3.5 ; extra == "all"
+Requires-Dist: sphinx_rtd_theme ; extra == "all"
+Requires-Dist: sphinx >= 3.5 ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Project-URL: Chat, https://github.com/sandialabs/samlab/discussions
+Project-URL: Coverage, https://coveralls.io/r/sandialabs/samlab
+Project-URL: Documentation, http://samlab.readthedocs.io/
+Project-URL: Issue Tracker, http://github.com/sandialabs/samlab/issues
+Project-URL: Regression Tests, http://github.com/sandialabs/samlab/actions
+Project-URL: Source, http://github.com/sandialabs/samlab
+Provides-Extra: all
+Provides-Extra: doc
