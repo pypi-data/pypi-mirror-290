@@ -1,0 +1,7 @@
+graft daiquiri
+include requirements.txt
+prune testing
+prune docs
+
+global-exclude __pycache__
+global-exclude *.py[co]
