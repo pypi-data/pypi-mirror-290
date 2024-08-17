@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: antonio-pkg
+Version: 0.1.1.dev4
+Summary: Example for releases.
+Author-email: Antonio Loison <antonio.loison@illuin.tech>
+Project-URL: homepage, https://github.com/antonioloison/antonio-pkg
+Project-URL: repository, https://github.com/antonioloison/antonio-pkg
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: ruff ==0.5.4 ; extra == 'dev'
+Requires-Dist: deptry ==0.17.0 ; extra == 'dev'
+Requires-Dist: mypy ==1.11.0 ; extra == 'dev'
+Requires-Dist: pytest ==8.3.1 ; extra == 'dev'
+Requires-Dist: black ==24.4.2 ; extra == 'dev'
+Requires-Dist: coverage ==7.6.0 ; extra == 'dev'
+Requires-Dist: types-tqdm ==4.66.0 ; extra == 'dev'
+Requires-Dist: mock ==5.1.0 ; extra == 'dev'
+
+# Antonio-pkg
