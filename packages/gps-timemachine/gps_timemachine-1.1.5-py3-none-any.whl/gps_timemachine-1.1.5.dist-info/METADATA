@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: gps-timemachine
+Version: 1.1.5
+Summary: Adjust GPS datetimes to UTC.
+Author-email: NSIDC Development Team <programmers@nsidc.org>
+License: This software was developed by the National Snow and Ice Data Center (NSIDC) at
+        CIRES at the University of Colorado with funding from NASA under Contract
+        Number 80GSFC23CA035.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of
+        this software and associated documentation files (the "Software"), to deal in
+        the Software without restriction, including without limitation the rights to
+        use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+        of the Software, and to permit persons to whom the Software is furnished to do
+        so, subject to the following conditions:
+        
+        This permission notice shall be included in all copies or substantial portions
+        of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/nsidc/gps-timemachine
+Project-URL: Repository, https://github.com/nsidc/gps-timemachine
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <img alt="NSIDC logo" src="https://nsidc.org/themes/custom/nsidc/logo.svg" width="150" />
+</p>
+
+# gps-timemachine
+
+GPS Time Machine provides the ability to convert a date and GPS time
+(hours, minutes, seconds, fractions of second) to a datetime object.
+GPS Time Machine adjusts for the offset between UTC and GPS time based
+on the number of leap seconds for the specified date. Because the gap
+between UTC and GPS times shift unpredictably based on when leap
+seconds are added by the [International Earth Rotation and Reference
+Systems Service
+(IERS)](https://www.iers.org/IERS/EN/Home/home_node.html), GPS Time
+Machine uses data from the U.S. Naval Observatory for this
+adjustment. See [NOTES](NOTES.md) for more information.
+
+[![CircleCI](https://circleci.com/bb/nsidc/gps-timemachine.svg?style=svg)](https://circleci.com/bb/nsidc/gps-timemachine)
+
+[![Anaconda-Server Badge](https://anaconda.org/nsidc/gps-timemachine/badges/version.svg)](https://anaconda.org/nsidc/gps-timemachine)
+[![Anaconda-Server Badge](https://anaconda.org/nsidc/gps-timemachine/badges/license.svg)](https://anaconda.org/nsidc/gps-timemachine)
+[![Anaconda-Server Badge](https://anaconda.org/nsidc/gps-timemachine/badges/downloads.svg)](https://anaconda.org/nsidc/gps-timemachine)
+[![Anaconda-Server Badge](https://anaconda.org/nsidc/gps-timemachine/badges/installer/conda.svg)](https://conda.anaconda.org/nsidc)
+
+
+## Level of Support
+
+This repository is not actively supported by NSIDC but we welcome issue
+submissions and pull requests in order to foster community contribution.
+
+See the [LICENSE](LICENSE) for details on permissions and warranties. Please
+contact nsidc@nsidc.org for more information.
+
+## Requirements
+
+* [Miniconda3](https://conda.io/miniconda.html)
+
+Install dependencies:
+
+    $ conda env create -f ./environment.yml
+    $ source activate gps-timemachine
+
+## Installation
+
+To install and use it in another project:
+
+    $ conda install gps-timemachine
+
+## Usage
+
+TODO
+
+
+## Credit
+
+This content was developed by the National Snow and Ice Data Center with funding from
+multiple sources.
