@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "mw_pyhelper"
+version = "1.0.1"
+description = "A set of python helper classes / utilities from MicWan"
+readme = "README.md"
+authors = [{ name = "Michael Wan", email = "hkmicmic@gmail.com" }]
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+    "jproperties",
+    "pyyaml"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+# here are for webbot package
+# also, selenium-wire required additional dependency
+# setuptools and blinker 1.7.0
+webbot = [
+    "selenium",
+    "selenium-wire",
+    "blinker == 1.7.0",
+    "setuptools"
+]
+
+[project.urls]
+Homepage = "https://github.com/micwan88/mw_pyhelper"
