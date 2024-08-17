@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "inspinet_asymetric_encryption"
+version = "0.0.1"
+authors = [
+  { name="Sebastian Butowski", email="contact@inspinet.co.uk" },
+]
+description = "Asymetric encryption using public/private key pairs"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Buy_Me_A_Coffee = "https://www.buymeacoffee.com/inspinet"
+Homepage = "https://github.com/inspinet/inspinet_asymetric_encryption"
+Issues = "https://github.com/inspinet/inspinet_asymetric_encryption/issues"
