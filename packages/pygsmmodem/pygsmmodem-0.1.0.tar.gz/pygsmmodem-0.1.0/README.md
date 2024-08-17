@@ -1,0 +1,122 @@
+# GSM Modem
+
+![GSM Modem Logo](https://via.placeholder.com/150x150.png?text=GSM+Modem)
+
+GSM Modem is a powerful and user-friendly Python package designed for seamless interaction with GSM modems. Whether you're building an IoT project, developing a SMS gateway, or simply need to integrate GSM functionality into your Python application, GSM Modem has got you covered!
+
+[![PyPI version](https://badge.fury.io/py/gsm-modem.svg)](https://badge.fury.io/py/gsm-modem)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 🚀 Features
+
+- 📤 Send SMS messages with ease
+- 📥 Receive and process incoming SMS
+- 📊 Monitor modem status and signal strength
+- 🔄 Real-time SMS notifications
+- 🛡️ Robust error handling and diagnostics
+
+## 📦 Installation
+
+Install GSM Modem with pip:
+
+```bash
+pip install pygsmmodem
+```
+
+## 🏁 Quick Start
+
+Here's a simple example to get you started:
+
+```python
+from pygsmmodem import GSMModem, SMSListener
+
+def sms_received_callback(notification):
+    print(f"New SMS received: {notification}")
+
+# Initialize the modem
+modem = GSMModem('COM5')  # Replace 'COM5' with your serial port
+
+# Set up SMS listener
+listener = SMSListener(modem)
+listener.set_callback(sms_received_callback)
+listener.start()
+
+# Send an SMS
+modem.send_sms("+1234567890", "Hello from GSM Modem!")
+
+# Your main program logic here
+
+# Clean up
+listener.stop()
+modem.close()
+```
+
+## 📚 API Reference
+
+### GSMModem Class
+
+The main class for interacting with the GSM modem.
+
+#### Methods:
+
+- `send_sms(number: str, message: str) -> bool`: Send an SMS message.
+- `read_sms(index: int) -> Optional[SMS]`: Read an SMS by index.
+- `list_sms(status: SMSStatus = SMSStatus.ALL) -> List[SMS]`: List SMS messages.
+- `check_sim_status() -> SIMStatus`: Check the status of the SIM card.
+- `check_signal_strength() -> SignalStrength`: Get the current signal strength.
+- `get_modem_info() -> ModemInfo`: Retrieve modem information.
+- `run_diagnostics()`: Run a diagnostic check on the modem.
+
+### SMSListener Class
+
+A class for listening to incoming SMS notifications.
+
+#### Methods:
+
+- `set_callback(callback: Callable[[SMSNotification], None])`: Set the callback for SMS notifications.
+- `start()`: Start listening for SMS notifications.
+- `stop()`: Stop listening for SMS notifications.
+
+### Other Classes
+
+- `SMS`: Represents an SMS message.
+- `SMSStatus`: Enum for SMS statuses.
+- `SIMStatus`: Represents SIM card status.
+- `SignalStrength`: Represents signal strength.
+- `ModemInfo`: Contains modem information.
+
+## 🛠️ Advanced Usage
+
+### Handling Different SMS Statuses
+
+```python
+from gsm_modem import GSMModem, SMSStatus
+
+modem = GSMModem('COM5')
+unread_sms = modem.list_sms(SMSStatus.REC_UNREAD)
+for sms in unread_sms:
+    print(f"Unread SMS: {sms}")
+```
+
+### Running Diagnostics
+
+```python
+modem = GSMModem('COM5')
+modem.run_diagnostics()
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, or request features.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📬 Contact
+
+For support or queries, please open an issue on our [GitHub repository](https://github.com/yourusername/gsm-modem) or contact us at support@gsmmodem.com.
+
+---
+
+Happy coding with GSM Modem! 🎉📱💻
