@@ -1,0 +1,38 @@
+[project]
+name = "cowsay-python"
+version = "1.0.1"
+description = "Very basic cowsay implementation"
+authors = [{ name = "Chris Arderne", email = "chris@rdrn.me" }]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.9"
+license = {text = "MIT License"}
+keywords = ["cowsay"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Unix",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+homepage = "https://github.com/carderne/cowsay-python"
+repository = "https://github.com/carderne/cowsay-python"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "twine~=5.1.1",
+]
+
+[tool.hatch.build]
+include = ["cowsay.py"]
