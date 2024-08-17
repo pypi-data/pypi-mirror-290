@@ -1,0 +1,198 @@
+##########
+ka_uts_com
+##########
+
+Overview
+========
+
+.. start short_desc
+
+**Communication Utilities**
+
+.. end short_desc
+
+Installation
+============
+.. start installation
+
+``ka_uts_com`` can be installed from PyPI or Anaconda.
+
+To install with ``pip``:
+
+.. code-block:: shell
+
+	$ python -m pip install ka_uts_com
+
+To install with ``conda``:
+
+.. code-block:: shell
+
+	$ conda install -c conda-forge ka_uts_com
+
+.. end installation
+
+This requires that the ``readme`` extra is installed:
+
+.. code-block:: bash
+
+	$ python -m pip install ka_uts_com[readme]
+
+Configuration
+=============
+
+The Configuration of general or tenant specific Package logging is defined in Yaml Configuration Files in the data directory <Package Name>/data of the Package.
+
+.. _configuration-file-label:
+.. list-table:: *Configuration Files*
+   :widths: auto
+   :header-rows: 1
+
+   * - Logging Type
+     - Configuration File
+     - Description
+   * - general
+     - log.yml
+     - the Python Logger compatible general Configuration file is used to
+       define tenant independend logging
+   * - tenant
+     - log.main.tenant.yml
+     - the Python Logger compatible tenant Configuration file is used to
+       define tenant dependend logging
+
+Modules
+=======
+``ka_uts_com`` contains the following modules.
+
+------------
+Base Modules
+------------
+
+  .. base-modules-label:
+  .. table:: *Base Modules*
+
+   +------+---------------------------------------------------+
+   |Module|Description                                        |
+   +======+===================================================+
+   |com   |The com module contains the the Base Communication |
+   |      |class Com and the Utility Classes:                 |
+   |      +---------------------------------------------------+
+   |      |**Base Communication Class**                       |
+   |      +----------+----------------------------------------+
+   |      |**Class** |**Description**                         |
+   |      +----------+----------------------------------------+
+   |      |*Com*     | Base Communication Setup               |
+   |      +----------+----------------------------------------+
+   |      |**Utility Classes**                                |
+   |      +----------+----------------------------------------+
+   |      |**Class** |**Description**                         |
+   |      +----------+----------------------------------------+
+   |      |*Standard*|Standard Log Configuration              |
+   |      +----------+----------------------------------------+
+   |      |*Person*  |Person based Log Configuration          |
+   |      +----------+----------------------------------------+
+   |      |*Cfg*     |Configuration Management                |
+   |      +----------+----------------------------------------+
+   |      |*Mgo*     |Mongo Db Configuration Management       |
+   |      +----------+----------------------------------------+
+   |      |*App*     |Setup Application Management            |
+   |      +----------+----------------------------------------+
+   |      |*Exit*    |Setup Exit Handling                     |
+   +------+----------+----------------------------------------+
+
+---------------
+Utility Modules
+---------------
+
+  .. _utility-modules-label:
+
+  .. table:: *Utility Modules*
+
+   +------+-----------------------------------------------------+
+   |Module|Description                                          |
+   +======+=====================================================+
+   |pacmod|The pacmod module contains the Pacmod Class with     |
+   |      |the following Components (Functions and sub classes) |
+   |      +-------------+---------------------------------------+
+   |      |**Function** |**Description**                        |
+   |      +-------------+---------------------------------------+
+   |      |sh           |show pacmod dictionary entries         |
+   |      +-------------+---------------------------------------+
+   |      |**Sub-class**|**Description**                        |
+   |      +-------------+---------------------------------------+
+   |      |Yaml         |I/O for yaml files                     |
+   |      +-------------+---------------------------------------+
+   |      |Json         |I/O for Json files                     |
+   +------+-------------+---------------------------------------+
+   |ioc   |The ioc module contains I/O Classes for the following|
+   |      |file types: yaml, json                               |
+   +------+-----------------------------------------------------+
+
+  .. _utility-modules-function-label:
+
+  .. table:: *Utility Module Functions*
+
+   +-------+---------------------------------+
+   |Fnction|Description                      |
+   +=======+=================================+
+   |sh     |pacmod dictionary                |
+   +-------+---------------------------------+
+
+  .. _utility-modules-classes-label:
+
+  .. table:: *Utility Module Classes*
+
+   +-----+-----------------------------------------------+
+   |Class|Description                                    |
+   +-----+-----------------------------------------------+
+   |Yaml |I/O for yaml files                             |
+   +-----+-----------------------------------------------+
+   |Json |I/O for json files                             |
+   +-----+-----------------------------------------------+
+
+---------------
+Special Modules
+---------------
+
+  .. special-modules-label:
+
+  .. table:: *Special Modules*
+
+   +-----------+---------------------------------------------+
+   |Module     |Description                                  |
+   +===========+=============================================+
+   |__init__   |dummy Module: contains no Statements         |
+   +-----------+---------------------------------------------+
+   |__version__|contains Assignment Statements for Version   |
+   |           |System Variables                             |
+   +-----------+-------------------+-------------------------+
+
+  .. System-Variables-of-Module-__version__:
+
+  .. table:: *System Variables of Module __version__*
+
+   +---------------+-----------------------------------------+
+   |System Variable|Example                                  |
+   +===============+=========================================+
+   |__title__      |'ka_uts_com'                             |
+   +---------------+-----------------------------------------+
+   |__description__|'Communication Area Utilities.'          |
+   +---------------+-----------------------------------------+
+   |__url__        |'https://ka-com.readthedocs.io/en/latest'|
+   +---------------+-----------------------------------------+
+   |__version___   |'2023.2.2'                               |
+   +---------------+-----------------------------------------+
+   |__build__      |0x022200                                 |
+   +---------------+-----------------------------------------+
+   |__author_email_|'Bernd Stroehle'                         |
+   +---------------+-----------------------------------------+
+   |__license__    |'Apache-2.0'                             |
+   +---------------+-----------------------------------------+
+   |__copyright__  |'Copyright 2023 bs29'                    |
+   +---------------+-----------------------------------------+
+   |__cake__       |u'\u2728 \U0001f370 \u2728'              |
+   +---------------+-----------------------------------------+
+
+Appendix
+========
+
+.. contents:: **Table of Content**
