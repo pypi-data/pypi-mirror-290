@@ -1,0 +1,164 @@
+Metadata-Version: 2.1
+Name: sievemgr
+Version: 0.7.4.7
+Summary: Fully-featured ManageSieve command-line client and library
+Author: Odin Kroeger
+Project-URL: homepage, https://odkr.codeberg.page/sievemgr
+Project-URL: repository, https://codeberg.org/odkr/sievemgr
+Project-URL: issues, https://github.com/odkr/sievemgr/issues
+Keywords: managesieve,sieve,mail,filter
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Communications :: Email :: Filters
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: dnspython>=2
+Requires-Dist: cryptography>=2.4
+
+.. image:: https://www.bestpractices.dev/badge_static/97
+   :target: https://www.bestpractices.dev/en/projects/8336
+   :alt: OpenSSF best practices badge
+
+############
+SieveManager
+############
+
+Sieve is a programming language for filtering email. Sieve scripts are
+typically run by the mail server when mail is delivered to an inbox,
+so they need to be managed remotely.
+
+SieveManager is a command-line client for uploading, downloading,
+and managing remote Sieve scripts using the ManageSieve protocol.
+It can also be used as a Python module.
+
+**WARNING**: The command-line interface, the configuration semantics,
+and the Python API may still change.
+
+.. _Sieve: http://sieve.info
+.. _`home page`: https://odkr.codeberg.page/sievemgr
+
+
+Example
+=======
+
+Upload and activate a Sieve script:
+
+.. code:: none
+
+    $ sievemgr user@imap.foo.example
+    user@imap.foo.example's password: <password>
+    sieve://user@imap.foo.example> put script.sieve
+    sieve://user@imap.foo.example> activate script.sieve
+
+In Python:
+
+.. code:: python
+
+    from sievemgr import SieveManager
+    with SieveManager('imap.foo.example') as mgr:
+        mgr.authenticate('user', 'password')
+        with open('sieve.script', 'br') as script:
+            mgr.putscript(script, 'sieve.script')
+        mgr.setactive('sieve.script')
+
+
+Features
+========
+
+* Complies fully with RFC 5804 (ManageSieve protocol)
+
+* Login can be automated with:
+  
+  * Password managers
+  * GnuPG-encrypted password files
+  * ``sieve.cf``
+  * ``.netrc``
+
+* Password-based authentication with:
+
+  * CRAM-MD5
+  * LOGIN
+  * PLAIN
+  * SCRAM-\* and SCRAM-\*-PLUS [#untested]_ with
+
+    * SHA-1
+    * SHA-2-234
+    * SHA-2-256
+    * SHA-2-384
+    * SHA-2-512
+    * SHA-3-512
+
+* TLS client authentication
+
+* Proxy authentication
+
+* Tab-completion
+
+* Scriptable
+
+* Emacs-like backup of scripts
+
+* Checks whether TLS certificates have been revoked
+  (using lightweight OCSP)
+
+* Supports TLS Server Name Indication
+
+* Supports giving IPv6 addresses on the command-line
+
+
+.. [#untested] SCRAM-\*-PLUS authentication is untested.
+
+
+Documentation
+=============
+
+Use **sievemgr -h**, type "help" in the SieveManager shell,
+or see the `home page`_.
+
+
+Contact
+=======
+
+Home page:
+    https://odkr.codeberg.page/sievemgr
+
+Issue tracker:
+    https://github.com/odkr/sievemgr/issues
+
+Source code (primary):
+    https://codeberg.org/odkr/sievemgr
+
+Source code (secondary):
+    https://notabug.org/odkr/sievemgr
+
+
+License
+=======
+
+Copyright 2023 and 2024  Odin Kroeger
+
+SieveManager is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the FreeSoftware Foundation, either version 3 of the License, or (at
+your option) any later version.
+
+SieveManager is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SieveManager. If not, see <https://www.gnu.org/licenses/>.
+
