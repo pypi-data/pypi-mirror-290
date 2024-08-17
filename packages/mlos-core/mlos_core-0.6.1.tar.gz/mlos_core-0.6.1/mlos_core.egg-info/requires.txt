@@ -1,0 +1,32 @@
+scikit-learn>=1.3
+scipy>=1.3.2
+numpy>=1.24
+ConfigSpace>=1.0
+
+[:python_version < "3.9"]
+pandas>=1.0.3
+
+[:python_version >= "3.9"]
+pandas>=2.2.0
+
+[flaml]
+flaml<2.2.0
+flaml[blendsearch]
+
+[full]
+flaml<2.2.0
+flaml[blendsearch]
+smac>=2.2.0
+
+[full-tests]
+flaml<2.2.0
+flaml[blendsearch]
+smac>=2.2.0
+pytest
+pytest-forked
+pytest-xdist
+pytest-cov
+pytest-local-badge
+
+[smac]
+smac>=2.2.0
