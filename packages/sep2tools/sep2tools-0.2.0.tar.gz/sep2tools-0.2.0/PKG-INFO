@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sep2tools
+Version: 0.2.0
+Summary: Useful functions for working with IEEE 2030.5 (SEP2)
+Author-email: Alex Guinman <alex@guinman.id.au>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Dist: asn1
+Requires-Dist: cryptography
+Requires-Dist: pydantic
+Requires-Dist: python-dateutil
+Requires-Dist: typer
+Requires-Dist: ruff ; extra == "test"
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Project-URL: Source, https://github.com/aguinane/SEP2-Tools
+Provides-Extra: test
+
+# SEP2-Tools
+
+This library provides some useful functions for working with IEEE 2030.5 (SEP2).
+
+## Install
+
+```sh
+pip install sep2tools
+```
+
+## Certificate Usage
+
+Create a SERCA, and MICA .
+
+```sh
+python -m sep2tools create-serca
+python -m sep2tools create-mica certs/serca.pem certs/serca.key
+```
+
+To create a device certificate, first create a key and CSR.
+And then sign using the MICA.
+
+```sh
+python -m sep2tools create-key --key-file certs/dev-ABC.key
+python -m sep2tools create-cert certs/dev-ABC.csr certs/mica.pem certs/mica.key --pen 12345 --serno ABC
+python -m sep2tools cert-lfdi certs/dev-ABC-cert.pem
+```
+
