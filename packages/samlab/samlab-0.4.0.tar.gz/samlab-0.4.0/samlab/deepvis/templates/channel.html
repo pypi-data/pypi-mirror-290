@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}{{title}} / {{layer.name}} / Channel {{channel.index}}{% endblock %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <span class="h1">
+            <a href="{{url}}">{{title}}</a>
+            /
+            <a href="{{layer.url}}">{{layer.name}}</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{layer.prevurl}}/channels/{{channel.index}}">&lt;</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{layer.nexturl}}/channels/{{channel.index}}">&gt;</a>
+            /
+            <span title="Channel {{channel.index}}">{{channel.name}}</span>
+            <a class="btn btn-outline-secondary btn-sm" href="{{channel.prevurl}}">&lt;</a>
+            <a class="btn btn-outline-secondary btn-sm" href="{{channel.nexturl}}">&gt;</a>
+        </span>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>Description</h2>
+            <p>
+            Displays the top <i>n</i> images from each dataset, ordered by how strongly they
+            activate this channel.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2>Activations</h2>
+            {% for activations in channel.activations %}
+            <h3><a href="{{activations.dataset.url}}">{{activations.dataset.name}}</a></h3>
+            <div class="container-fluid overflow-x-scroll">
+                <div class="d-flex flex-row flex-nowrap">
+                {% for sample in activations.samples %}
+                    <div class="card mb-1 me-1" style="min-width: 6rem">
+                        <a href="{{sample.url}}">
+                        <img src="{{sample.imageurl}}" class="card-img-top" loading="lazy">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-title" style="font-size: 0.7em">{{sample.name}}</div>
+                            <div class="card-subtitle" style="font-size: 0.7em" title="Class {{sample.category.index}}">{{sample.category.name}}</div>
+                            <ul class="list-unstyled" style="font-size: 0.6em">
+                                <li>Act: {{"%.3f" | format(activations.values[loop.index0])}}</li>
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
