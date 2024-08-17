@@ -1,0 +1,5 @@
+[console_scripts]
+sal = sal.cli:main
+
+[nbdev]
+sal = sal._modidx:d
