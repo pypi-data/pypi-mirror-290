@@ -1,0 +1,51 @@
+[project]
+name = "antonio-pkg"
+description = "Example for releases."
+dynamic = ["version"]
+requires-python = ">=3.10,<3.13"
+authors = [
+    { name = "Antonio Loison", email = "antonio.loison@illuin.tech" },
+]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.5.4",
+    "deptry==0.17.0",
+    "mypy==1.11.0",
+    "pytest==8.3.1",
+    "black==24.4.2",
+    "coverage==7.6.0",
+    "types-tqdm==4.66.0",
+    "mock==5.1.0",
+]
+
+[project.urls]
+homepage = "https://github.com/antonioloison/antonio-pkg"
+repository = "https://github.com/antonioloison/antonio-pkg"
+
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["antonio_pkg", "antonio_pkg.*"]
+
+[tool.black]
+line-length = 88
+extend-exclude = "^.venv"
+
+[tool.ruff]
+lint.select = ["E", "F", "W", "I", "N"]
+line-length = 88
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
