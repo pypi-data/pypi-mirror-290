@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "perfetto"
+version = "0.8.0"
+description = ""
+authors = ["Lalit Maganti <lalitm@google.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twine = "^5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
