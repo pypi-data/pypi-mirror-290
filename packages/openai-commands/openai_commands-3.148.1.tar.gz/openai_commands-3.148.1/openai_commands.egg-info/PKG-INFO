@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: openai_commands
+Version: 3.148.1
+Summary: 🛠️ a command interface to the OpenAI API.
+Home-page: https://github.com/kamangir/openai-commands
+Author: Arash Abadpour (Kamangir)
+Author-email: arash@kamangir.net
+License: Public Domain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Unix Shell
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: blueness
+Requires-Dist: abcli
+Requires-Dist: articraft
+Requires-Dist: IPython
+Requires-Dist: beautifulsoup4
+Requires-Dist: boto3
+Requires-Dist: bs4
+Requires-Dist: Flask
+Requires-Dist: folium
+Requires-Dist: geojson
+Requires-Dist: geopandas
+Requires-Dist: matplotlib
+Requires-Dist: notebooks_and_scripts
+Requires-Dist: openai
+Requires-Dist: opencv-python
+Requires-Dist: pymysql==0.10.1
+Requires-Dist: pyyaml
+Requires-Dist: pylint
+Requires-Dist: pytest
+Requires-Dist: python-dotenv[cli]
+Requires-Dist: requests
+Requires-Dist: scikit-image
+Requires-Dist: tqdm
+
+# 🛠️ openai-commands (`@openai`)
+
+`@openai` is a command interface to the [OpenAI API](https://beta.openai.com/docs/introduction).
+
+```bash
+pip install openai-commands
+```
+
+|   |   |   |
+| --- | --- | --- |
+| 🛠️[`literature review`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/literature_review) [![image](https://github.com/kamangir/assets/blob/main/openai_commands/literature-review/marquee.png?raw=true)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/literature_review) literature review using OpenAI API. | 🛠️[`OpenAI Vision API`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/vision) [![image](https://raw.githubusercontent.com/kamangir/assets/main/vanwatch/2023-11-25-openai-vision/ButeNorthDavie.jpg)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/vision) a command interface to the [OpenAI vision API](https://platform.openai.com/docs/guides/vision). | 🛠️[`code generation`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/completion#%EF%B8%8F-code-generation) [![image](https://github.com/kamangir/openai-commands/blob/main/assets/completion_i2i_function.png?raw=true)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/completion#%EF%B8%8F-code-generation) example notebooks to [generate python functions](https://raw.githubusercontent.com/kamangir/openai-commands/main/notebooks/completion_ai_function_py.ipynb), special case for [image to image python functions](https://raw.githubusercontent.com/kamangir/openai-commands/main/notebooks/completion_i2i_function.ipynb), and to [write a bash script](https://raw.githubusercontent.com/kamangir/openai-commands/main/notebooks/completion_ai_function_bash.ipynb) to use a script, for example, [vancouver-watching](https://github.com/kamangir/vancouver-watching). |
+| 🛠️[`gpt`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/gpt) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/gpt) co-authored with ChapGPT. | 🛠️[`VisuaLyze`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/VisuaLyze) [![image](https://github.com/kamangir/openai-commands/assets/1007567/7c0ed5f7-6941-451c-a17e-504c6adab23f)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/VisuaLyze) How about calling it "VisuaLyze"? This name combines "visualize" and "analyze," reflecting the tool's capability to generate custom data visualizations and analyze user input through AI - OpenAI | 🛠️[`prompt completion`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/completion#%EF%B8%8F-prompt-completion) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/completion#%EF%B8%8F-prompt-completion) basic prompt completion. |
+| 🛠️[`image generation`](https://github.com/kamangir/openai-commands/tree/main/openai_commands/images) [![image](https://github.com/kamangir/openai-commands/blob/main/assets/DALL-E.png?raw=true)](https://github.com/kamangir/openai-commands/tree/main/openai_commands/images) sentence -> image, text -> mural, images |  |  |
+
+---
+
+
+[![PyPI version](https://img.shields.io/pypi/v/openai-commands.svg)](https://pypi.org/project/openai-commands/)
+
+🎁 [wish list and bugs](https://github.com/kamangir/openai-commands/issues/13)
+
+---
+
+To use on [AWS SageMaker](https://aws.amazon.com/sagemaker/) replace `<plugin-name>` with the name of the plugin and follow [these instructions](https://github.com/kamangir/notebooks-and-scripts/blob/main/SageMaker.md).
+
+---
+built by 🪄 [`abcli-9.228.1-current`](https://github.com/kamangir/awesome-bash-cli), based on [`openai_commands-3.148.1`](https://github.com/kamangir/openai-commands).
