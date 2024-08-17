@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: metaevolv
+Version: 0.1.1
+Summary: A Python library for various optimization algorithms
+Author-email: José Carlos <eng.jcfneto@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.0.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: matplotlib>=3.9.2
+Requires-Dist: pydantic>=2.8.2
+
+# EvolutionaryMetaheuristicComputing
+
+My implementations for evolutionary and metaheuristic algorithms.
+
+Algorithms were implemented for minimization problems. In the future I will implement for maximization problems as well.
+
+- algorithms:
+  - clonalg: Clonal Selection Algorithm
+  - de: Differential Evolution
+  - ga: Genetic Algorithm
+  - ga2: Advanced Genetic Algorithm
+  - pso: Particle Swarm Optimization
+  - abc: Artificial Bee Colony
