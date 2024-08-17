@@ -1,0 +1,16 @@
+geopandas>=1.0.0
+networkx>=3.2.0
+numpy<2.0.0,>=1.26.4
+osmnx>=1.9.1
+pandas>=2.2.0
+scipy>=1.12.0
+Shapely>=2.0.3
+geocube>=0.6.0
+
+[docs]
+myst-nb
+sphinx-book-theme
+sphinx==7.2.6
+
+[tests]
+pytest>=8.0.1
