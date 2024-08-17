@@ -1,0 +1,37 @@
+[build-system]
+build-backend = "maturin"
+requires = ["maturin>=1.0,<2.0"]
+
+[project]
+classifiers = [
+  "Programming Language :: Rust",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+description = "An fast asynchronous Python Http Client with TLS/JA3/JA4/HTTP2 fingerprint impersonate"
+license = { text = "Apache-2.0" }
+name = "leony"
+readme = "README.md"
+requires-python = ">=3.11, < 3.13"
+
+[project.optional-dependencies]
+benchmark = [
+  "gevent",
+  "greenify",
+  "greenlet",
+  "boto3",
+  "pydantic",
+  "boto3-stubs[essential]",
+]
+docs = ["pdoc"]
+lint = ["ruff"]
+test = ["pytest", "python-dotenv", "pytest-asyncio"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "leony.leony"
+python-source = "python"
+strip = true
+
+[tool.ruff.lint]
+ignore = ["F403", "F405"]
