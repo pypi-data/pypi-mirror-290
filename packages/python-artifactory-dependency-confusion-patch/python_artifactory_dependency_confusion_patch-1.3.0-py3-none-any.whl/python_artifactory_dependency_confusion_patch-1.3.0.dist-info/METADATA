@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: python-artifactory-dependency-confusion-patch
+Version: 1.3.0
+Summary: This application is intended to be used together with Artifactory webhook to reserve name in the python public repository when new python libraries are deployed to the internal artifactory repository
+Author-email: Nilton Duarte <pypi@niltonduarte.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests ==2.32.3
+Requires-Dist: build ==1.2.1
+Requires-Dist: twine ==5.1.1
+Provides-Extra: tests
+Requires-Dist: pytest ==8.3.2 ; extra == 'tests'
+Requires-Dist: python-dotenv ==1.0.1 ; extra == 'tests'
+
+# Python Artifactory Dependency Confusion Patch
+
+This application is intended to be used together with Artifactory webhook to reserve name in the python public repository when new python libraries are deployed to the internal artifactory repository
