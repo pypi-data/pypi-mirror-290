@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: nicegui_extentions
+Version: 0.0.2
+Summary: nicegui extensions
+Author-email: T2XX <antongong@foxmail.com>
+Project-URL: Homepage, https://github.com/T2XX/nicegui_extentions
+Project-URL: Issues, https://github.com/T2XX/nicegui_extentions/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nicegui_extentions
+
+provide extension features for Nicegui
+
+<a title="MIT" target="_blank" href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square"></a>
+
+<p align="center">
+<a href="https://github.com/T2XX/nicegui_extentions/blob/main/README.md">English</a> &nbsp;|&nbsp; <a href="https://github.com/T2XX/nicegui_extentions/blob/main/README_zh_CN">简体中文</a>
+</p>
+
+# extentions
+### [markdown](https://github.com/T2XX/nicegui_extentions/blob/main/src/nicegui_extentions/markdown.py)
+
+- powered by [vditor](https://github.com/Vanessa219/vditor/blob/master/README_en_US.md)<img alt="Vditor" src="https://b3log.org/images/brand/vditor-128.png" /> , you can see the feature from [here](https://github.com/Vanessa219/vditor/blob/master/README_en_US.md#--features)
+
+#### how to use it
+  
+1. step 1, load Dependence before page require
+```python
+from nicegui_extentions.markdown import MarkdownPreViewer, initMarkdownPreViewerDependence
+initMarkdownPreViewerDependence()
+```
+2. step 2, create widget and render markdown
+```python
+md = MarkdownPreViewer().render(markdown)
+```
+3. (optional)step 3, update markdown
+```python
+md.render(new_markdown)
+```
+
+### [reconnect_box](https://github.com/T2XX/nicegui_extentions/blob/main/src/nicegui_extentions/reconnect_box.py)
+
+- before
+
+  ![before](https://github.com/T2XX/nicegui_extentions/blob/main/image/1723880105580.png?raw=true)
+
+- after
+
+  ![after](https://github.com/T2XX/nicegui_extentions/blob/main/image/1723879996849.png?raw=true)
+
+#### how to use it
+  
+1. step 1
+```python
+from nicegui_extentions.reconnect_box import set_reconnect_box
+```
+1. step 2
+```python
+# just can use after page load
+set_reconnect_box()
+# after page load to use it
+app.on_connect(lambda: set_reconnect_box())
+```
