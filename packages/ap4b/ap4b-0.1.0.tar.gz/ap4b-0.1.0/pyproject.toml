@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ap4b"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Ng <ng@deeplearning.ai>"]
+readme = "README.md"
+packages = [{include = "ap4b", from = "src"}]
+package-mode=true
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
