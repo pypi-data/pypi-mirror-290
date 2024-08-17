@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: iasimplesetup
+Version: 0.0.3
+Author-email: Innovations Anonymous <InnovAnon-Inc@gmx.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: Cython
+Requires-Dist: setuptools>=64
+Requires-Dist: structlog
+Requires-Dist: toml
+Requires-Dist: wheel
+
+Utility: Simple Setup Script (setup.py)
