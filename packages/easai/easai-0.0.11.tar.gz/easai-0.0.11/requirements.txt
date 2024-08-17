@@ -1,0 +1,9 @@
+# for lib (easai folder):
+openai >= 1.40.6
+
+# for tests (easai_tests folder):
+python-dotenv
+
+# for build:
+build
+twine
