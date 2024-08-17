@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: shortlinks
+Version: 0.1.0
+Summary: Self hostable url shortener
+Author: rishikanthc
+Author-email: r3chandr@ucsd.edu
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi[standard] (>=0.112.1,<0.113.0)
+Requires-Dist: fire (>=0.6.0,<0.7.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Shortlinks
+
+Shortlinks is a self-hostable URL shortener built using Python.
+It's a self-contained package that can be installed locally or
+deployed on a server
+
