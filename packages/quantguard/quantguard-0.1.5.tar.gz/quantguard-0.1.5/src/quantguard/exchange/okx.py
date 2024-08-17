@@ -1,0 +1,216 @@
+from .exchange import Exchange
+from quantguard.model.balance import Balance
+from quantguard.model.position import Position
+from quantguard.model.order import Order, DimensionEnum
+from quantguard.model.ledger import Ledger, LedgerType
+from ccxt import okx
+import time
+
+
+class OKX(Exchange):
+    def __init__(self, account_name: str, config: dict):
+        super().__init__("okx", account_name, config)
+        self.exchange: okx = self.exchange
+
+    def fetch_balance(self) -> Balance:
+        ccxt_balance = super().fetch_balance()
+        # print(f"account {self.account_name} balance: {ccxt_balance}")
+        balance = Balance(
+            name=self.account_name,
+            exchange=self.exchange_id,
+            asset="USDT",
+            total=ccxt_balance["USDT"]["total"],
+            available=ccxt_balance["USDT"]["free"],
+            frozen=ccxt_balance["USDT"]["used"],
+            borrowed=ccxt_balance["info"]["data"][0]["borrowFroz"],
+            ts=ccxt_balance["timestamp"],
+            unrealized_pnl=ccxt_balance["info"]["data"][0]["details"][0]["upl"],
+            created_at=int(time.time() * 1000),
+        )
+        return balance
+
+    def fetch_positions(self) -> list[Position]:
+        ccxt_position = super().fetch_positions()
+        positions = []
+        for pos in ccxt_position:
+            # 'symbol': 'DOGE/USDT:USDT'
+            base_asset = pos["symbol"].split("/")[0]
+            quote_asset = pos["symbol"].split("/")[1].split(":")[0]
+            if pos["info"]["instType"] == "SWAP":
+                market_type = "UFUTURES"
+            else:
+                market_type = "SPOT"
+            position = Position(
+                name=self.account_name,
+                exchange=self.exchange_id,
+                market_type=market_type,
+                base_asset=base_asset,
+                quote_asset=quote_asset,
+                ts=pos["info"]["cTime"],
+                # dimension=pos["side"],
+                dimension=DimensionEnum.QUANTITY.value,
+                quantity=float(pos["info"]["pos"]) * pos["contractSize"],
+                average_price=pos["info"]["avgPx"],
+                unrealized_pnl=pos["unrealizedPnl"],
+                liquidation_price=(
+                    pos["liquidationPrice"] if pos["liquidationPrice"] else ""
+                ),
+                contract_size=pos["contractSize"],
+                created_at=int(time.time() * 1000),
+            )
+            positions.append(position)
+        return positions
+
+    def fetch_orders_T(self, fetch_orders_T=1):
+        since = super().get_yesterday_timestamps(fetch_orders_T)
+        open_orders = self.loop_fetch_open_orders(orignal_since=since, since=since)
+        closed_orders = self.loop_fetch_closed_orders(orignal_since=since, since=since)
+        all_orders = open_orders + closed_orders
+        orders = []
+        # 一个订单可能对应多个trade, 订单1715876098503593985
+        for order in all_orders:
+            base_asset = order["symbol"].split("/")[0]
+            quote_asset = order["symbol"].split("/")[1].split(":")[0]
+            if order["info"]["instType"] == "SWAP":
+                market_type = "UFUTURES"
+            else:
+                market_type = "SPOT"
+
+            contract_size = self.fetch_symbol_contract_size(order["symbol"])
+            item = Order(
+                name=self.account_name,
+                exchange=self.exchange_id,
+                market_type=market_type,
+                base_asset=base_asset,
+                quote_asset=quote_asset,
+                market_order_id=order["id"],
+                custom_order_id=(
+                    order["clientOrderId"] if order["clientOrderId"] is not None else ""
+                ),
+                ts=order["timestamp"],
+                # update_ts=order["lastUpdateTimestamp"],
+                origin_price=order["price"],
+                origin_quantity=float(order["amount"])
+                * contract_size,  # 委托数量, 合约为张数
+                total_average_price=order["average"],
+                total_filled_quantity=float(order["filled"])
+                * contract_size,  # 成交数量，合约为张数
+                last_average_price=order["info"]["fillPx"],  # 最新成交价格
+                last_filled_quantity=float(order["info"]["fillSz"])
+                * contract_size,  # 最新成交数量，合约为张数
+                order_side=order["side"],
+                order_time_in_force=(
+                    order["timeInForce"] if order["timeInForce"] else ""
+                ),
+                reduce_only=True if order["reduceOnly"] else False,
+                order_type=order["info"]["ordType"],
+                # leverage=order["info"]["lever"],
+                order_state=order["status"],
+                dimension=DimensionEnum.QUANTITY.value,
+                trade_list=order["trades"],
+                commission=order["fee"]["cost"],
+                contract_size=contract_size,
+                created_at=int(time.time() * 1000),
+            )
+            orders.append(item)
+        return orders
+
+    def loop_fetch_open_orders(self, orignal_since=None, since=None):
+        all_open_orders = []
+        while True:
+            open_orders = self.exchange.fetch_open_orders(
+                since=since, params={"instType": "SWAP"}
+            )
+
+            if not open_orders:
+                break
+
+            last_time = open_orders[-1]["timestamp"]
+            all_open_orders += open_orders
+
+            # 如果最后一个订单的时间小于或等于原始的 `orignal_since`，则终止循环
+            if last_time < orignal_since:
+                break
+
+            # 更新 `since` 为最后一个订单的时间戳，以继续获取后续订单
+            since = last_time
+
+        return all_open_orders
+
+    def loop_fetch_closed_orders(self, orignal_since=None, since=None):
+        all_closed_orders = []
+        while True:
+            closed_orders = self.exchange.fetch_closed_orders(
+                since=since, params={"instType": "SWAP"}
+            )
+
+            if not closed_orders:
+                break
+
+            last_time = closed_orders[-1]["timestamp"]
+            all_closed_orders += closed_orders
+
+            # 如果最后一个订单的时间小于或等于原始的 `orignal_since`，则终止循环
+            if last_time < orignal_since:
+                break
+
+            # 更新 `since` 为最后一个订单的时间戳，以继续获取后续订单
+            since = last_time
+
+        return all_closed_orders
+
+    def fetch_ledgers_T(self, fetch_orders_T=1):
+        since = super().get_yesterday_timestamps(fetch_orders_T)
+        orignal_since = since
+        last_id = None
+        ledgers = []
+
+        while True:
+            params = {"instType": "SWAP"}
+            # 如果有 `id`，则使用 `before` 参数；否则使用 `end` 参数
+            if last_id:
+                params["before"] = last_id
+            else:
+                params["end"] = since
+
+            ccxt_ledgers = self.exchange.fetch_ledger(params=params)
+
+            if not ccxt_ledgers:
+                break
+
+            for ledger in ccxt_ledgers:
+                ledger_type = ledger["info"]["type"]
+                if ledger_type == "8":
+                    ledger_type = LedgerType.FUNDING_FEE.value
+                else:
+                    continue
+
+                symbol = ledger["symbol"] if ledger["symbol"] else ""
+                if symbol:
+                    symbol = symbol.replace("/", "-").split(":")[0]
+
+                item = Ledger(
+                    name=self.account_name,
+                    exchange=self.exchange_id,
+                    asset=ledger["currency"],
+                    symbol=symbol,
+                    ts=ledger["timestamp"],
+                    market_type="UFUTURES",
+                    market_id=ledger["id"],
+                    ledger_type=ledger_type,
+                    amount=ledger["amount"],
+                    created_at=int(time.time() * 1000),
+                )
+                ledgers.append(item)
+
+            last_time = ccxt_ledgers[-1]["timestamp"]
+
+            # 如果最后一个账单的时间戳小于 `orignal_since`，或者已经拿到了最后的账单，就退出循环
+            if last_time < orignal_since:
+                break
+
+            # 更新 `since` 和 `id`，以便下一轮循环继续获取更早的账单
+            last_id = ccxt_ledgers[-1]["id"]
+            time.sleep(0.4)  # 当前接口限制：5次/2秒
+
+        return ledgers
