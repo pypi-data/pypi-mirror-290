@@ -1,0 +1,102 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-dust3r"
+version = "0.1.2"
+description = "Miniature version of dust3r, focused on inference"
+requires-python = ">=3.10.0"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+readme = "README.md"
+
+
+dependencies = [
+    "torch>=2.3.1",
+    "torchvision>=0.18.1",
+    "opencv-python>=4.10.0",
+    "rerun-sdk>=0.17.0",
+    "tqdm>=4.66.5",
+    "trimesh>=4.4.4",
+    "jaxtyping>=0.2.33",
+    "beartype>=0.18.5",
+    "einops>=0.8.0",
+    "gradio>=4.41.0",
+    "scipy>=1.14.0",
+    # # not in conda dependencies
+    "roma>=1.5",
+    "safetensors>=0.4.3",
+    "hf-transfer>=0.1.6",
+    "gradio-rerun>=0.0.4,<0.0.5",
+]
+
+[tool.setuptools.packages.find]
+include = ["mini_dust3r*"]
+
+[tool.pixi.project]
+name = "mini-dust3r"
+authors = ["pablovela5620 <pablovela5620@gmail.com>"]
+channels = ["nvidia", "nvidia/label/cuda-12.1.0", "conda-forge", "pytorch"]
+platforms = ["linux-64", "osx-arm64", "win-64"]
+conda-pypi-map = { "pytorch" = "torch_mapping.json" }
+
+[tool.pixi.system-requirements]
+libc = { family = "glibc", version = "2.31" }
+cuda = "12.1"
+
+[tool.pixi.tasks]
+_build-croco = { cmd = "python setup.py build_ext --inplace", cwd = "mini_dust3r/croco/curope/", outputs = [
+    "lib.linux-x86_64-cpython-311/curope.cpython-311-x86_64-linux-gnu.so",
+] }
+_download-checkpoint = { cmd = "ls checkpoints/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth || wget -P checkpoints/ https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth", outputs = [
+    "checkpoints/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth",
+] }
+_post-install = { cmd = "pwd", depends_on = [
+    "download-checkpoint",
+    "build-croco",
+] }
+_dev-install = "python -m pip install build twine"
+
+[tool.pixi.tasks.build-wheel]
+cmd = "python -m build"
+depends_on = ["_dev-install"]
+description = "Build python wheels"
+
+[tool.pixi.tasks.rerun-demo]
+cmd = "PYTORCH_ENABLE_MPS_FALLBACK=1 python tools/rerun_demo.py"
+description = "runs demo using rerun visualizer"
+
+[tool.pixi.tasks.app]
+cmd = "python tools/app.py"
+description = "run gradio frontend for mini-dust3r"
+
+[tool.pixi.dependencies]
+python = "3.11.*"
+pytorch = { version = "2.3.1", channel = "pytorch" }
+torchvision = { version = "0.18.1", channel = "pytorch" }
+py-opencv = ">=4.10.0,<5"
+rerun-sdk = ">=0.17.0,<0.18"
+tqdm = ">=4.66.5,<5"
+trimesh = ">=4.4.4,<5"
+jaxtyping = ">=0.2.33,<0.3"
+beartype = ">=0.18.5,<0.19"
+einops = ">=0.8.0,<0.9"
+gradio = ">=4.41.0,<5"
+scipy = ">=1.14.0,<2"
+pip = ">=24.2,<25"
+
+[tool.pixi.pypi-dependencies]
+mini-dust3r = { path = ".", editable = true }
+
+[tool.pixi.target.linux-64.dependencies]
+cuda = { version = "12.1", channel = "nvidia/label/cuda-12.1.0" }
+pytorch-cuda = { version = "12.1.*", channel = "pytorch" }
+
+[tool.ruff]
+ignore = [
+    "F722", # Forward annotation false positive from jaxtyping. Should be caught by pyright.
+]
