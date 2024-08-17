@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xbern_confidence_intervals
+Version: 0.1.0
+Summary: Compute adaptive confidence intervals for XBern distributions
+Home-page: https://github.com/krishnap25/xbern_confidence_intervals
+Author: Krishna Pillutla
+Author-email: krishnap@dsai.iitm.ac.in
+Project-URL: Bug Tracker, https://github.com/krishnap25/xbern_confidence_intervals/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy>=1.22.4
+Requires-Dist: pandas>=1.4.4
+Requires-Dist: scipy>=1.7.3
