@@ -1,0 +1,580 @@
+Metadata-Version: 2.1
+Name: stata_codebook
+Version: 0.2.0
+Summary: A Python package for generating comprehensive data summaries and statistics, similar to Stata's codebook command.
+Home-page: https://github.com/MohsenAskar
+Author: Mohsen Askar
+Author-email: ceaser198511@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# `stata_codebook` Package
+
+The `Codebook Package` package provides tools for generating detailed descriptive statistics and summaries of data frames, similar to Stata's `codebook` command. `codebook` command is a very useful command to examine dataset varaibles. 
+In Stata documentation "`codebook` examines the data in producing its results. For variables that codebook thinks are
+continuous, it presents the mean; the standard deviation; and the 10th, 25th, 50th, 75th, and 90th
+percentiles. For variables that it thinks are categorical, it presents a tabulation.".
+
+The package supports various features, including:
+- Summary statistics for numeric and categorical variables
+- Handling of columns with missing values
+- Detection of mixed data types
+- Normality testing with Shapiro-Wilk or Kolmogorov-Smirnov tests, depending on dataset size
+- Output formatting for academic or professional reports
+- Check for embedded, leading, and trailing balnks in the variables.
+
+## Why use stata_codebook over built-in summary statistics?
+
+While pandas offers built-in functions like `describe()` and `value_counts()` for summarizing data, the **`codebook package`** provides several advantages:
+
+1. **Comprehensive Overview**
+   - **Numeric and Categorical Data**: Unlike `describe()`, which primarily focuses on numeric data, `codebook` provides a detailed summary of both numeric and categorical variables. It not only gives you the common statistics like mean, median, and standard deviation but also includes the top categories and their proportions for categorical variables.
+   
+   - **Handling of Missing Values**: The `codebook` function provides a clear count of missing values for each variable, which is not directly offered by the `describe()` function.
+
+2. **Data Quality Checks**
+   - **Detection of Blanks**: One of the unique features of the `codebook` function is its ability to detect embedded, leading, and trailing blanks in string data. This can be crucial for identifying and resolving data entry issues that might otherwise go unnoticed with standard summary statistics.
+   
+   - **Mixed Data Types**: If a column contains mixed data types, the function will automatically detect and handle it, issuing warnings to alert you to potential data quality problems.
+
+3. **Advanced Statistical Insights**
+   - **Normality Testing**: The `codebook` function includes normality testing (Shapiro-Wilk for small datasets (<5000 observations) and Kolmogorov-Smirnov for large datasets), providing you with p-values that can help you assess the distribution of your numeric data. This goes beyond what the standard `describe()` function offers.
+   
+   - **Confidence Intervals**: In advanced mode, the function calculates 95% confidence intervals for both numeric variables and the proportions of the top categories in categorical variables, offering deeper insights into your data's variability.
+
+4. **Customizable and Readable Output**
+   - **Formatted Output**: The `codebook` function rounds numerical results to a specified number of decimal places, ensuring that the output is easy to read and interpret. This is especially valuable for creating reports or presentations where clarity and professionalism are paramount.
+   
+   - **Consistent Display**: By returning a DataFrame with all relevant statistics neatly organized, `codebook` makes it easier to compare variables side by side, which can be inefficient when using multiple pandas functions.
+
+5. **Easy to Use**
+   - **Single Command**: With just one command, you can generate a detailed and well-rounded summary of one column or the entire DataFrame, saving time and reducing the risk of overlooking important details.
+
+## 1. Installation
+
+The package can be installed directly from PyPI using pip:
+
+`pip install stata_codebook`
+
+### 2. Quick Start
+Here's a quick example to get you started:
+
+
+```python
+import pandas as pd
+from stata_codebook import codebook
+```
+
+
+```python
+# Sample DataFrame
+data = {
+    'age': [25, 30, 35, 40, None],
+    'income': [50000, 60000, 70000, 80000, 90000],
+    'gender': ['Male', 'Female', 'Female', 'Male', None],
+    'is_employed': [True, True, False, True, None]
+}
+df = pd.DataFrame(data)
+```
+
+
+```python
+# codebook for all dataset varaibles
+codebook(df)
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Unique values</th>
+      <th>Missing values</th>
+      <th>Blank issues</th>
+      <th>Range</th>
+      <th>25th percentile</th>
+      <th>50th percentile (Median)</th>
+      <th>75th percentile</th>
+      <th>Mean</th>
+      <th>Examples</th>
+      <th>Top categories</th>
+      <th>SD</th>
+      <th>95% CI</th>
+      <th>Normality test</th>
+      <th>p-value (normality)</th>
+      <th>Top category proportion</th>
+      <th>95% CI (top category)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>age</td>
+      <td>float64</td>
+      <td>4</td>
+      <td>1</td>
+      <td>Not applicable</td>
+      <td>(25.0, 40.0)</td>
+      <td>28.75</td>
+      <td>32.5</td>
+      <td>36.25</td>
+      <td>32.5</td>
+      <td>[35.0, 25.0, 30.0]</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>income</td>
+      <td>int64</td>
+      <td>5</td>
+      <td>0</td>
+      <td>Not applicable</td>
+      <td>(50000, 90000)</td>
+      <td>60000.0</td>
+      <td>70000.0</td>
+      <td>80000.0</td>
+      <td>70000.0</td>
+      <td>[70000, 50000, 60000]</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>gender</td>
+      <td>object</td>
+      <td>2</td>
+      <td>1</td>
+      <td>No blanks detected</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[Female, Male, Female]</td>
+      <td>{'Male': 2, 'Female': 2}</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>is_employed</td>
+      <td>object</td>
+      <td>2</td>
+      <td>1</td>
+      <td>No blanks detected</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[False, True, True]</td>
+      <td>{True: 3, False: 1}</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# codebook for specific column in the dataset
+codebook(df, column='income') # numerical column
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Unique values</th>
+      <th>Missing values</th>
+      <th>Blank issues</th>
+      <th>Range</th>
+      <th>25th percentile</th>
+      <th>50th percentile (Median)</th>
+      <th>75th percentile</th>
+      <th>Mean</th>
+      <th>Examples</th>
+      <th>Top categories</th>
+      <th>SD</th>
+      <th>95% CI</th>
+      <th>Normality test</th>
+      <th>p-value (normality)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>income</td>
+      <td>int64</td>
+      <td>5</td>
+      <td>0</td>
+      <td>Not applicable</td>
+      <td>(50000, 90000)</td>
+      <td>60000.0</td>
+      <td>70000.0</td>
+      <td>80000.0</td>
+      <td>70000.0</td>
+      <td>[70000, 50000, 60000]</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# codebook for specific column in the dataset
+codebook(df, column='gender') # categorical column
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Unique values</th>
+      <th>Missing values</th>
+      <th>Blank issues</th>
+      <th>Examples</th>
+      <th>Top categories</th>
+      <th>Range</th>
+      <th>25th percentile</th>
+      <th>50th percentile (Median)</th>
+      <th>75th percentile</th>
+      <th>Mean</th>
+      <th>SD</th>
+      <th>Normality test</th>
+      <th>p-value (normality)</th>
+      <th>Top category proportion</th>
+      <th>95% CI (top category)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>gender</td>
+      <td>object</td>
+      <td>2</td>
+      <td>1</td>
+      <td>No blanks detected</td>
+      <td>[Female, Male, Female]</td>
+      <td>{'Male': 2, 'Female': 2}</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# codebook for specific column in the dataset additional statistics 
+codebook(df, advanced=True)
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Unique values</th>
+      <th>Missing values</th>
+      <th>Blank issues</th>
+      <th>Range</th>
+      <th>25th percentile</th>
+      <th>50th percentile (Median)</th>
+      <th>75th percentile</th>
+      <th>Mean</th>
+      <th>Examples</th>
+      <th>Top categories</th>
+      <th>SD</th>
+      <th>95% CI</th>
+      <th>Normality test</th>
+      <th>p-value (normality)</th>
+      <th>Top category proportion</th>
+      <th>95% CI (top category)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>age</td>
+      <td>float64</td>
+      <td>4</td>
+      <td>1</td>
+      <td>Not applicable</td>
+      <td>(25.0, 40.0)</td>
+      <td>28.75</td>
+      <td>32.5</td>
+      <td>36.25</td>
+      <td>32.5</td>
+      <td>[35.0, 25.0, 30.0]</td>
+      <td>-</td>
+      <td>6.455</td>
+      <td>(26.174, 38.826)</td>
+      <td>Shapiro-Wilk</td>
+      <td>0.972</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>income</td>
+      <td>int64</td>
+      <td>5</td>
+      <td>0</td>
+      <td>Not applicable</td>
+      <td>(50000, 90000)</td>
+      <td>60000.0</td>
+      <td>70000.0</td>
+      <td>80000.0</td>
+      <td>70000.0</td>
+      <td>[70000, 50000, 60000]</td>
+      <td>-</td>
+      <td>15811.388</td>
+      <td>(56140.707, 83859.293)</td>
+      <td>Shapiro-Wilk</td>
+      <td>0.967</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>gender</td>
+      <td>object</td>
+      <td>2</td>
+      <td>1</td>
+      <td>No blanks detected</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[Female, Male, Female]</td>
+      <td>{'Male': 2, 'Female': 2}</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0.50</td>
+      <td>(0.01, 0.99)</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>is_employed</td>
+      <td>object</td>
+      <td>2</td>
+      <td>1</td>
+      <td>No blanks detected</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>[False, True, True]</td>
+      <td>{True: 3, False: 1}</td>
+      <td>-</td>
+      <td>NaN</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0.75</td>
+      <td>(0.326, 1.174)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+### 3. Detailed Function Documentation
+
+##### Function: `codebook`
+
+Generates a detailed codebook for a given DataFrame/variable in the dataframe, providing descriptive statistics and data quality checks.
+
+**Parameters:**
+- `df` (pandas.DataFrame): The DataFrame to analyze.
+- `column` (str, optional): If specified, only this column will be analyzed. Defaults to `None`.
+- `advanced` (bool, optional): If `True`, includes additional statistics like standard deviation, confidence intervals, and normality tests. Defaults to `False`.
+- `decimal_places` (int, optional): The number of decimal places to round numerical results. Defaults to 3.
+
+**Returns:**
+- pandas.DataFrame: A DataFrame containing the codebook with descriptive statistics and data quality checks.
+
+**Example Usage:**
+
+
+```python
+# Generate an advanced codebook for a specific column
+codebook(df, column='age', advanced=True, decimal_places=2)
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Variable</th>
+      <th>Type</th>
+      <th>Unique values</th>
+      <th>Missing values</th>
+      <th>Blank issues</th>
+      <th>Range</th>
+      <th>25th percentile</th>
+      <th>50th percentile (Median)</th>
+      <th>75th percentile</th>
+      <th>Mean</th>
+      <th>Examples</th>
+      <th>Top categories</th>
+      <th>SD</th>
+      <th>95% CI</th>
+      <th>Normality test</th>
+      <th>p-value (normality)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>age</td>
+      <td>float64</td>
+      <td>4</td>
+      <td>1</td>
+      <td>Not applicable</td>
+      <td>(25.0, 40.0)</td>
+      <td>28.75</td>
+      <td>32.5</td>
+      <td>36.25</td>
+      <td>32.5</td>
+      <td>[35.0, 25.0, 30.0]</td>
+      <td>-</td>
+      <td>6.45</td>
+      <td>(26.18, 38.82)</td>
+      <td>Shapiro-Wilk</td>
+      <td>0.97</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### 4. Notes
+If a column contains all missing values, the function will skip detailed analysis for that column and indicate that it is entirely missing.
+The function automatically handles mixed data types by converting the column to an object type and issuing a warning.
+
+### 5. Output Explanation:
+
+- **Variable**: The name of the variable.
+- **Type**: The data type of the variable.
+- **Unique values**: The number of unique non-null values.
+- **Missing values**: The number of missing (null) values.
+- **Blank issues**: Any detected issues with leading, trailing, or embedded blanks in string variables.
+- **Range**: The minimum and maximum values for numeric variables.
+- **25th, 50th, 75th percentile**: The respective percentiles for numeric variables.
+- **Mean**: The mean of numeric variables.
+- **SD**: The standard deviation for numeric variables (advanced mode).
+- **95% CI**: The 95% confidence interval for numeric variables (advanced mode).
+- **Normality test**: The type of normality test applied (Shapiro-Wilk (for datasets with 5000 or fewer observations) or Kolmogorov-Smirnov (for larger datasets)).
+- **p-value (normality)**: The p-value from the normality test.
+- **Top categories**: The most frequent categories for categorical variables.
+- **Top category proportion**: The proportion of the top category for categorical variables (advanced mode).
+- **95% CI (top category)**: The 95% confidence interval for the top category proportion (advanced mode).
+
+
+### 6. FAQ/Troubleshooting
+
+**Q1: The codebook function isn't working for my DataFrame with mixed data types. What should I do?**
+
+A: The `codebook` function automatically detects and converts columns with mixed data types to object (string) type. If you see a warning about mixed types, ensure your data is clean and consistently typed, or allow the function to handle it automatically.
+
+**Q2: Why does the function skip some columns?**
+
+A: The function may skip columns if they contain all missing values (`NaN`). The output will indicate if a column is entirely missing.
+
+**Q3: How can I adjust the number of decimal places for numerical results?**
+
+A: You can adjust the decimal precision by setting the `decimal_places` parameter when calling the `codebook` function:
+
+
+```codebook(df, advanced=True, decimal_places=2)```
+
+
+## License
+
+Released under the MIT License: For more details, see the `LICENSE` file in the repository.
+Copyright (C) 2024 **`stata_codebook`**
+
+Developed by: Mohsen Askar <ceaser198511@gmail.com>
+
+## Citation
+
+If you use `stata_codebook`, please refer to this repository.
