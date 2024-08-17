@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hashstash"
+dynamic = ["version"]
+authors = [
+  { name="Your Name", email="ryan.heuser@gmail.com" },
+]
+description = "A simple file-based caching system using hash-based file names"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "hashstash.__version__"}
+
+[project.urls]
+"Homepage" = "https://github.com/quadrismegistus/hashstash"
+"Bug Tracker" = "https://github.com/quadrismegistus/hashstash/issues"
+
+[project.optional-dependencies]
+sqlite = ["sqlitedict"]
+redis = ["redis", "redis_dict"]
+diskcache = ["diskcache"]
+lmdb = ["lmdb"]
+pickledb = ["pickledb"]
+engines = ["sqlitedict", "redis", "redis_dict", "diskcache", "lmdb", "pickledb"]
+dev = ["pandas", "numpy", "setuptools-scm", "ipython", "sqlitedict", "redis", "redis_dict", "diskcache", "lmdb", "pickledb"]
+test = ["pytest", "pandas", "numpy", "setuptools-scm", "ipython", "sqlitedict", "redis", "redis_dict", "diskcache", "lmdb", "pickledb"]
+all = ["sqlitedict", "redis", "redis_dict", "diskcache", "lmdb", "pickledb", "pandas", "numpy", "setuptools-scm", "ipython", "pytest"]
+
+
+[tool.setuptools]
+py-modules = ["hashstash"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["."]
+
+[project.scripts]
+test = "pytest:main"
