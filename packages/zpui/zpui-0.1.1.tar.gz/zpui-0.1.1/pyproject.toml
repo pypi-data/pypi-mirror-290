@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "zpui"
+version = "0.1.1"
+authors = [
+  { name="Arya (CRImier)", email="arya.voronova@gmail.com" },
+]
+description = "ZPUI core"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/ZeroPhone/ZPUI"
+Issues = "https://github.com/ZeroPhone/ZPUI/issues"
