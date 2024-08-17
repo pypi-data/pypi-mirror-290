@@ -1,0 +1,49 @@
+name: Push
+on:
+  push:
+    branches: [main]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    if: |
+      (github.repository == 'PolicyEngine/reweight')
+      && (github.event.head_commit.message == 'Update reweight')
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check formatting
+        uses: "lgeiger/black-action@master"
+        with:
+          args: ". -l 79 --check"
+  Test:
+    runs-on: ${{ matrix.os }}
+    if: |
+      (github.repository == 'PolicyEngine/reweight')
+      && (github.event.head_commit.message == 'Update reweight')
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - name: Install package
+        run: make install
+      - name: Run tests
+        run: make test
+        env:
+          POVERTYTRACKER_RAW_URL: ${{ secrets.POVERTYTRACKER_RAW_URL }}
+          POLICYENGINE_GITHUB_MICRODATA_AUTH_TOKEN: ${{ secrets.POLICYENGINE_GITHUB_MICRODATA_AUTH_TOKEN}}
+      - uses: codecov/codecov-action@v3
+      - name: Test documentation builds
+        if: matrix.os == 'ubuntu-latest'
+        run: make documentation
+      - name: Deploy documentation
+        if: matrix.os == 'ubuntu-latest'
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/_build/html
