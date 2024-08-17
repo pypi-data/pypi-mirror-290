@@ -1,0 +1,116 @@
+Metadata-Version: 2.3
+Name: inspinet_asymetric_encryption
+Version: 0.0.1
+Summary: Asymetric encryption using public/private key pairs
+Project-URL: Buy_Me_A_Coffee, https://www.buymeacoffee.com/inspinet
+Project-URL: Homepage, https://github.com/inspinet/inspinet_asymetric_encryption
+Project-URL: Issues, https://github.com/inspinet/inspinet_asymetric_encryption/issues
+Author-email: Sebastian Butowski <contact@inspinet.co.uk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+<div align="center">
+<h1 align="center">Asymetric file encrypt/decrypt</h1>
+<!-- <img alt="Asymetric file encrypt/decrypt" src="https://github.com/inspinet/python/blob/master/img/test.png" /> -->
+HTML and CSS template for your outstanding job applications
+</div>
+
+# Asymetric file encrypt/decrypt
+<!-- >> Outline a brief description of your project.
+> Live demo [_here_](https://inspinet.co.uk). <!-- If you have the project hosted somewhere, include the link here. -->
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
+
+## General info
+Simple test project to encrypt and decrypt files.
+<!-- - Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+	
+## Technologies
+Project is created with:
+* Python 3.12.0
+<!-- - something else -->
+
+## Features
+List the ready features here:
+<!-- - Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3 -->
+
+
+## Screenshots
+<!-- ![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+## Setup
+To run this project, install it locally using 
+
+<!-- ```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
+What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+
+Proceed to describe how to install / setup one's local environment / get started with the project. -->
+
+## Usage
+<!-- How does one go about using it?
+Provide various use cases and code examples here. -->
+
+Follow the syntax:
+* `python encrypt.py -i <input file> -o <output file> -k <public key>`
+* `python decrypt.py -i <input file> -o <output file> -k <private key>`
+
+
+## Project Status
+Project is: _in progress_ <!-- / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why. -->
+
+
+## Room for Improvement
+<!-- Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
+Room for improvement:
+- Improvement to be done 1
+- Improvement to be done 2
+
+To do:
+- Feature to be added 1
+- Feature to be added 2 -->
+
+
+## Acknowledgements
+<!--Give credit here.
+- This project was inspired by...
+- This project was based on [this tutorial](https://www.example.com).
+- Many thanks to... -->
+
+
+## Contact
+<a href="https://www.buymeacoffee.com/inspinet" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a><br>
+Created by [@inspinet](https://inspinet.co.uk)
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
