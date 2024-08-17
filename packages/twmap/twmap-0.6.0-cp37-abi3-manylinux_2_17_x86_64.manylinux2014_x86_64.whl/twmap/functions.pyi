@@ -1,0 +1,6 @@
+from typing import Tuple
+
+def camera_dimensions(aspect_ratio: float) -> Tuple[float, float]:
+    ...
+def max_camera_dimensions() -> Tuple[float, float]:
+    ...

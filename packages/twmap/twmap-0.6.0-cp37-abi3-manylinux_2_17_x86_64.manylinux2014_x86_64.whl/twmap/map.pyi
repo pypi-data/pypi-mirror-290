@@ -1,0 +1,49 @@
+from typing import Literal, Optional
+from .groups import Groups
+from .images import Images
+from .envelopes import Envelopes
+from .layers import Layers
+
+class Info:
+    author: str
+    version: str
+    credits: str
+    license: str
+    settings: str
+
+class Map:
+    info: Info
+    groups: Groups
+    images: Images
+    envelopes: Envelopes
+    def __init__(self, path):
+        ...
+    @staticmethod
+    def empty(version: str) -> Map:
+        ...
+    def save(self, path: str):
+        ...
+    def save_dir(self, path: str):
+        ...
+    def embed_images(self, mapres_directory: str):
+        ...
+    def rotate(self):
+        ...
+    def mirror(self):
+        ...
+    def version(self) -> Literal['DDNet06', 'Teeworlds07']:
+        ...
+    def physics_group(self) -> Optional[Groups]:
+        ...
+    def game_layer(self) -> Optional[Layers]:
+        ...
+    def front_layer(self) -> Optional[Layers]:
+        ...
+    def tele_layer(self) -> Optional[Layers]:
+        ...
+    def speedup_layer(self) -> Optional[Layers]:
+        ...
+    def switch_layer(self) -> Optional[Layers]:
+        ...
+    def tune_layer(self) -> Optional[Layers]:
+        ...
