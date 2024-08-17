@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chattyterminal"
+authors = [
+    {name = "Shuffled Bits", email = "shuffled.bits.j5oj9@slmail.me"},
+]
+maintainers = [
+    {name = "Shuffled Bits", email = "shuffled.bits.j5oj9@slmail.me"}
+]
+description = "A cli application for invoking generative AI"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["ai"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+#use defaults
+
+#[project.urls]
+#https://github.com/ShuffledBits/chattyterminal
