@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: varsync
+Version: 1.0a0
+Summary: A package for managing user variables with a web UI
+Author: Sriharan
+Author-email: sriharan2544@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: mysql-connector-python
