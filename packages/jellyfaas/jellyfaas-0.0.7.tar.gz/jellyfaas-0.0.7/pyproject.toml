@@ -1,0 +1,38 @@
+[project]
+name = "jellyfaas"
+version = "0.0.7"
+description = "A client for interacting with the JellyFAAS API"
+readme = "README.md"
+homepage = "https://github.com/platform48/python-sdk"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Platform48", email = "hello@platform48.com" },
+    { name = "Caleb Hartshorn", email = "caleb@platform48.com" }
+]
+maintainers = [
+    { name = "Platform48", email = "hello@platform48.com" },
+    { name = "Caleb Hartshorn", email = "caleb@platform48.com" }
+]
+keywords = ["API", "client", "JellyFAAS", "cloud functions", "SDK", "FAAS"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+"Source" = "https://github.com/platform48/python-sdk"
+"Documentation" = "https://github.com/platform48/python-sdk/"
+"Tracker" = "https://github.com/platform48/python-sdk/issues"
+"Changelog" = "https://github.com/platform48/python-sdk/releases"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+dynamic = ["version"]
