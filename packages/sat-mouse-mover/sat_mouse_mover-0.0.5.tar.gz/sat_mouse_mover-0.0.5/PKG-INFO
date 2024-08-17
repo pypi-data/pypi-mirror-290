@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: sat_mouse_mover
+Version: 0.0.5
+Summary: # Python move my mouse 
+Author-email: Markus <markus2110@gmail.com>
+Project-URL: Homepage, https://gitlab.com/markus2110-public/python/move_my_mouse
+Project-URL: Documentation, https://gitlab.com/markus2110-public/python/move_my_mouse/-/blob/develop/README.md
+Project-URL: Repository, https://gitlab.com/markus2110-public/python/move_my_mouse.git
+Project-URL: Issues, https://gitlab.com/markus2110-public/python/move_my_mouse/-/issues
+Keywords: mouse,MS TEAMS,Messangers,status,online status,auto move,mouse move
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: mouse
+Provides-Extra: build
+Requires-Dist: build; extra == "build"
+Requires-Dist: twine; extra == "build"
+Provides-Extra: dev
+Requires-Dist: sat_mouse_mover[build]; extra == "dev"
+
+# Python move my mouse 
+
+
+## Description
+This script will move the mouse for you, when you are not at the desk:
+> MS Teams changes your online status after certain minutes, which is kinda annoying,   
+> when you watch a Video or if you read a long text ;-)   
+
+## Installation
+> I recommend to use the [pipx](https://pypi.org/project/pipx/) installer,   
+> to install the package isolated from your global python installation.  
+
+
+
+```commandline
+pipx install sat_mouse_mover
+```
+
+## Usage
+After you installed the package, there is a CLI command available
+```commandline
+sat_mouse_watch
+```

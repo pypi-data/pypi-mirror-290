@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name            = "sat_mouse_mover"
+authors         = [
+    {name = "Markus", email = "markus2110@gmail.com"}
+]
+dynamic         = ["version", "description"]
+dependencies    = ["mouse"]
+keywords        = ["mouse", "MS TEAMS", "Messangers", "status", "online status", "auto move", "mouse move"]
+readme          = "README.md"
+classifiers     = [
+    "Programming Language :: Python :: 3",
+    "License :: Free for non-commercial use",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/markus2110-public/python/move_my_mouse"
+Documentation = "https://gitlab.com/markus2110-public/python/move_my_mouse/-/blob/develop/README.md"
+Repository = "https://gitlab.com/markus2110-public/python/move_my_mouse.git"
+Issues = "https://gitlab.com/markus2110-public/python/move_my_mouse/-/issues"
+#Changelog = "https://gitlab.com/markus2110-public/python/move_my_mouse.git"
+
+
+[project.optional-dependencies]
+build = ["build", "twine"]
+#test = ["pytest"]
+dev = [
+#    "sat_mouse_mover[test]",
+    "sat_mouse_mover[build]"
+]
+
+
+[project.scripts]
+sat_mouse_watch = "sat_mouse_mover.watch:start"
+
+
+[tool.setuptools.dynamic]
+version = { attr = "sat_mouse_mover.get_version" }
+description = { file = "README.md" }
+
+
