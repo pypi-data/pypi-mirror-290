@@ -1,0 +1,1 @@
+from .aws_flask_lambda_swagger_ui import get_swaggerui_blueprint
