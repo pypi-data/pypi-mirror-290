@@ -1,0 +1,13 @@
+Django
+
+[dev]
+black
+check-manifest
+ruff
+mkdocs
+mkdocs-material
+
+[test]
+coverage
+pytest
+pytest-cov
