@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: superfast-cli
+Version: 0.1.0
+Summary: A CLI tool for generating project files
+Author: Viktor
+Author-email: limphanith.dev@example.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: click >=8.0
+
+# My CLI Tool
+
+## Installation
+
+You can install the CLI tool via pip:
+
+```sh
+pip install my_cli_tool
