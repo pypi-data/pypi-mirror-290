@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fm-transfer
+Version: 0.1.2
+Summary: Send and receive data via radio transceivers
+Author-email: Matteo Tenca <matteo.tenca@gmail.com>
+Project-URL: Homepage, https://github.com/matteotenca/fm-transfer
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Communications
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt6
+Requires-Dist: pyserial
+Requires-Dist: gg-transfer
+Requires-Dist: quiet-transfer
+
+# fm-transfer
+### A graphical front-end for gg-transfer and quiet-transfer
+
+---
+
+Under development!
+
+https://github.com/matteotenca/fm-transfer
