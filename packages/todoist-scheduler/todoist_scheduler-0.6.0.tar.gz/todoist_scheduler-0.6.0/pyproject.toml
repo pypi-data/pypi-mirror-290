@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "todoist-scheduler"
+version = "0.6.0"
+description = "Automatically reschedule tasks in Todoist to reduce the size of the todo lists you see each day."
+authors = ["Michael Bianco <mike@mikebian.co>"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/iloveitaly/todoist-scheduler"
+keywords = ["todoist", "scheduler", "task", "management"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+pyjson5 = "^1.6.6"
+todoist-api-python = "^2.1.7"
+backoff = "^2.2.1"
+apscheduler = "^3.10.4"
+structlog = "^24.4.0"
+python-decouple-typed = "^3.11.0"
+regex = "^2024.7.24"
+
+[tool.poetry.dev-dependencies]
+black = "^24.8.0"
+pylint = "^3.2.6"
+isort = "^5.13.2"
+rich = "^13.7.1"
+
+[tool.poetry.scripts]
+todoist-scheduler = "todoist_scheduler:cli"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.8.0"
+pyright = "^1.1.376"
+pylint = "^3.2.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+# helpful when copy/pasting GPT code
+float_to_top = true
+multi_line_output = 3
