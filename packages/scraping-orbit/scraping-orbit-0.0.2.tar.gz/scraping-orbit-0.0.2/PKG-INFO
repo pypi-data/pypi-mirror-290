@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: scraping-orbit
+Version: 0.0.2
+Summary: Tools for web-scraping and automation projects.
+Home-page: https://github.com/thiagosilva977/scraping-orbit-toolbox
+Author: Thiago Silva
+Author-email: 
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: lxml
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: requests
+Requires-Dist: streamlit==1.37.0
+Requires-Dist: xlrd
+Requires-Dist: opencv-contrib-python==4.10.0.82
+Requires-Dist: opencv-python==4.10.0.82
+Requires-Dist: fastapi
+Requires-Dist: pypdl
+Requires-Dist: matplotlib
+Requires-Dist: nltk
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: scikit-learn
+Requires-Dist: plotly
+Requires-Dist: spacy
+Requires-Dist: pyjwt
+Requires-Dist: httpx
+Requires-Dist: openpyxl
+Requires-Dist: Unidecode
+Requires-Dist: python-dateutil
+Requires-Dist: streamlit-audiorec
+Requires-Dist: faster-whisper
+Requires-Dist: pydub
+Requires-Dist: numba
+Requires-Dist: accelerate
+Requires-Dist: pdfplumber
+Provides-Extra: full
+Requires-Dist: torchvision; extra == "full"
+Requires-Dist: langchain; extra == "full"
+Requires-Dist: awswrangler; extra == "full"
+Requires-Dist: beautifulsoup4; extra == "full"
+Requires-Dist: boto3; extra == "full"
+Requires-Dist: botocore; extra == "full"
+Requires-Dist: pymongo; extra == "full"
+Requires-Dist: Brotli; extra == "full"
+Requires-Dist: bs4; extra == "full"
+Requires-Dist: certifi; extra == "full"
+Requires-Dist: charset-normalizer; extra == "full"
+Requires-Dist: click; extra == "full"
+Requires-Dist: cobble; extra == "full"
+Requires-Dist: colorama; extra == "full"
+Requires-Dist: deskew; extra == "full"
+Requires-Dist: distro; extra == "full"
+Requires-Dist: dm-tree; extra == "full"
+Requires-Dist: dnspython; extra == "full"
+Requires-Dist: emoji; extra == "full"
+Requires-Dist: et-xmlfile; extra == "full"
+Requires-Dist: fastparquet; extra == "full"
+Requires-Dist: html2image; extra == "full"
+Requires-Dist: huggingface-hub; extra == "full"
+Requires-Dist: hyperframe; extra == "full"
+Requires-Dist: imageio; extra == "full"
+Requires-Dist: img2table; extra == "full"
+Requires-Dist: JPype1; extra == "full"
+Requires-Dist: lxml; extra == "full"
+Requires-Dist: matplotlib; extra == "full"
+Requires-Dist: nltk; extra == "full"
+Requires-Dist: numpy; extra == "full"
+Requires-Dist: openai; extra == "full"
+Requires-Dist: opencv-contrib-python==4.10.0.82; extra == "full"
+Requires-Dist: opencv-python==4.10.0.82; extra == "full"
+Requires-Dist: openpyxl; extra == "full"
+Requires-Dist: pandas; extra == "full"
+Requires-Dist: pdf2docx; extra == "full"
+Requires-Dist: pdf2image; extra == "full"
+Requires-Dist: pdfkit; extra == "full"
+Requires-Dist: pdfminer.six; extra == "full"
+Requires-Dist: Pillow; extra == "full"
+Requires-Dist: plotly; extra == "full"
+Requires-Dist: pyarrow; extra == "full"
+Requires-Dist: pyhtml2pdf; extra == "full"
+Requires-Dist: PyMuPDF; extra == "full"
+Requires-Dist: PyPDF2; extra == "full"
+Requires-Dist: PySocks; extra == "full"
+Requires-Dist: pytesseract; extra == "full"
+Requires-Dist: python-docx; extra == "full"
+Requires-Dist: python-dotenv; extra == "full"
+Requires-Dist: pytz; extra == "full"
+Requires-Dist: pyxlsb; extra == "full"
+Requires-Dist: PyYAML; extra == "full"
+Requires-Dist: regex; extra == "full"
+Requires-Dist: reportlab; extra == "full"
+Requires-Dist: requests; extra == "full"
+Requires-Dist: requests-oauthlib; extra == "full"
+Requires-Dist: safetensors; extra == "full"
+Requires-Dist: scikit-image; extra == "full"
+Requires-Dist: scikit-learn; extra == "full"
+Requires-Dist: shapely; extra == "full"
+Requires-Dist: six; extra == "full"
+Requires-Dist: streamlit==1.37.0; extra == "full"
+Requires-Dist: tabula-py; extra == "full"
+Requires-Dist: tensorboard; extra == "full"
+Requires-Dist: tensorboard-data-server; extra == "full"
+Requires-Dist: tensorflow; extra == "full"
+Requires-Dist: tiktoken; extra == "full"
+Requires-Dist: tokenizers; extra == "full"
+Requires-Dist: toml; extra == "full"
+Requires-Dist: tornado; extra == "full"
+Requires-Dist: transformers; extra == "full"
+Requires-Dist: unicode; extra == "full"
+Requires-Dist: Unidecode; extra == "full"
+Requires-Dist: watchdog; extra == "full"
+Requires-Dist: xlrd; extra == "full"
+Requires-Dist: xlsx2html; extra == "full"
+Requires-Dist: XlsxWriter; extra == "full"
+Requires-Dist: zipp; extra == "full"
+Requires-Dist: zstandardspacy; extra == "full"
+Requires-Dist: einops; extra == "full"
+Requires-Dist: sentencepiece; extra == "full"
+Requires-Dist: accelerate; extra == "full"
+Requires-Dist: GPUtil; extra == "full"
+Requires-Dist: streamlit-authenticator; extra == "full"
+Requires-Dist: streamlit-card; extra == "full"
+Requires-Dist: streamlit-feedback; extra == "full"
+Requires-Dist: mammoth; extra == "full"
+Requires-Dist: streamlit-agraph; extra == "full"
+Requires-Dist: undetected-chromedriver; extra == "full"
+Requires-Dist: playwright; extra == "full"
+Requires-Dist: pdfplumber; extra == "full"
+
+# automation_toolbox
+Tools to use in automation projects. Test.
+![_1de1a18a-ef38-485e-a832-ea0a5470ee63](https://github.com/user-attachments/assets/ca4c5d8b-b3e5-4df9-a6eb-12ebf4032929)
