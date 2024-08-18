@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: annoimg
+Version: 0.0.0
+Summary: Semi-auto annotation images using SAM2
+Author-email: aleksandr.bakhshiev@compvisionsys.com
+Requires-Dist: opencv-python
+Requires-Dist: PyQt5
+Requires-Dist: ultralytics
