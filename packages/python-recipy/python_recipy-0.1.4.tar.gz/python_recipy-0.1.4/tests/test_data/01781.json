@@ -1,0 +1,118 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Deviled Eggs",
+    "url": "https://www.foodnetwork.com/recipes/deviled-eggs-recipe2-3381313",
+    "headline": "Deviled Eggs",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:35:50.871-05:00",
+    "dateModified": "2014-01-31T16:42:52.188-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Deviled Egg,Egg Recipes,Appetizer,Gluten Free,Low-Carb",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "prepTime": "P0Y0M0DT0H35M0.000S",
+    "totalTime": "P0Y0M0DT1H25M0.000S",
+    "recipeIngredient": [
+        "1 dozen large eggs",
+        "1/2 cup mayonnaise, such as Hellman's",
+        "1 tablespoon Dijon mustard",
+        "2 teaspoons horseradish",
+        "1 teaspoon hot sauce, such as Frank's Hot Sauce",
+        "1/2 teaspoon salt",
+        "Paprika, to top"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 24 servings",
+        "calories": "70",
+        "fatContent": "6g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "0g",
+        "fiberContent": "0g",
+        "sugarContent": "0g",
+        "proteinContent": "3g",
+        "cholesterolContent": "95mg",
+        "sodiumContent": "77mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, cover the eggs with an inch of water. Bring the eggs to a boil, then turn off the water and cover for 15 to 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the eggs and cover with very cold water. Carefully peel the eggs. Slice lengthwise and separate the yolks, putting them in a bowl, and set the whites aside. Mash the yolks and mix with the mayonnaise, mustard, horseradish, hot sauce and salt. Spoon or pipe the yolk mixture into the whites. Dust with paprika and chill for 30 minutes before serving."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "24 halves",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sage 1"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "A unique &amp; delicious way to prepare deviled eggs but I would lower the salt content next time. Thank you immensely for not adding pickles &amp; pickle juice. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LuisGarcia_7797"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Very good recipe. Loved it"
+        }
+    ],
+    "recipeCategory": []
+}

@@ -1,0 +1,206 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/chicken-fried-chops/",
+    "name": "Chicken-Fried Chops",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-02-19",
+    "prepTime": "PT15M",
+    "cookTime": "PT06H00M",
+    "totalTime": "PT06H15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Fried-Chops_EXPS_SCSBZ21_7966_B01_13_1b-2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "It takes only a few minutes to brown the meat before assembling these chicken-fried pork chops. They simmer all day in a flavorful sauce until they're tender. —Connie Slocum, Brunswick, Georgia",
+    "recipeIngredient": [
+        "1/2 cup all-purpose flour",
+        "2 teaspoons salt",
+        "1-1/2 teaspoons ground mustard",
+        "1/2 teaspoon garlic powder",
+        "6 pork loin chops (3/4 inch thick), trimmed",
+        "2 tablespoons canola oil",
+        "1 can (10-3/4 ounces) condensed cream of chicken soup, undiluted",
+        "1/3 cup water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a shallow bowl, combine flour, salt, mustard and garlic powder; add pork chops and turn to coat. In a large skillet, heat oil over medium-high heat; brown meat on both sides in batches. Place in a 5-qt. slow cooker. Combine soup and water; pour over chops. Cover and cook on low until meat is tender, 6-8 hours. If desired, thicken pan juices and serve with the pork chops."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 453 calories",
+        "fatContent": "27g fat (9g saturated fat)",
+        "cholesterolContent": "115mg cholesterol",
+        "sodiumContent": "1232mg sodium",
+        "carbohydrateContent": "13g carbohydrate (0 sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "38g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.375,
+        "reviewCount": 8,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-12-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gunslinger"
+            },
+            "reviewBody": "These were tender and tasty, the gravy was so good over mashed potatoes!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-05-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "BobbysChicagoBAbe"
+            },
+            "reviewBody": "I have been MAking this recipe for decades! It was formerly called Finger Lickin' Chops. My family loves it, and I like the ease of it! Mashed potatoes and veggies, and dinner is complete!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-03-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Jane Bucey",
+                "givenName": "Jane",
+                "familyName": "Bucey"
+            },
+            "reviewBody": "Found this recipe years ago, lent the magazine out and haven't seen it since.This recipe is wonderful and like to serve it with mashed potatoes, am so excited that I found it again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-11-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "slrobb70"
+            },
+            "reviewBody": "I have been making this recipe since I got my first Quick Cooking magazine, my family loves it, I always double it and make mashed potatoes and chicken gravy with it, so yummy!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "bameiboo"
+            },
+            "reviewBody": "Tasty but too salty, I'll leave the salt out of the recipe next time. Also in the time alloted for cooking the sauce was dried up and the pork chops were falling apart. Next time I'll add more liquid and cook for a shorter time",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Holmescsh"
+            },
+            "reviewBody": "I used heart healthy soup and 1 inch chops with 1 1/2 tsp. salt and 1/4 tsp. pepper with boneless loin.  It was fork tender very moist and tasty.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-12-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "posty"
+            },
+            "reviewBody": "Re; Chicken Fried ChopsMade these for friends visiting from England, they just raved about them.Served them with a rice & broccoli dish & saladZeus",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-09-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "auntruth43"
+            },
+            "reviewBody": "This recipe is a 10 star recipe!!!!  It is one of my favorite recipes.   Modifications:  I reduced the salt to 1 teaspoon and added 1/2 teaspoon of pepper and 1/4 teaspoon of cayenne pepper and it was delish!!!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "One Pot BBQ Cheeseburger Pasta",
+    "keywords": "one pot bbq cheeseburger pasta",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/LJqK2SjvlECWQX750Re0dw_webp_base.webp?v=2090ac23&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Try this delicious meat-lovers meal with a barbeque twist! Not only will it serve a large family, but it will be a favorite with everyone.",
+    "recipeIngredient": [
+        "1  lb ground turkey",
+        "2  cups hot water",
+        "4  cups milk",
+        "1  box (11.6 oz) Hamburger Helper™ cheeseburger macaroni Twin Pack",
+        "1  cup shredded Cheddar cheese",
+        "1/2  cup bacon bits",
+        "1/4  cup barbecue sauce"
+    ],
+    "totalTime": "PT0H20M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "10",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 12-inch skillet, cook turkey over medium-high heat 5 to 7 minutes, stirring occasionally, until thoroughly cooked; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in hot water, milk, uncooked pasta and sauce mix (from Hamburger Helper box). Heat to boiling, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat; cover and simmer 5 minutes, stirring occasionally. Stir in cheese and 1/4 cup bacon bits. Cover; simmer 5 minutes. Remove from heat; uncover (sauce will thicken as it stands). Sprinkle remaining bacon bits and drizzle barbecue sauce over top of skillet. Stir before serving."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "310 ",
+        "carbohydrateContent": "32 g",
+        "cholesterolContent": "60 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "0 g",
+        "proteinContent": "19 g",
+        "saturatedFatContent": "5 g",
+        "servingSize": "1 serving",
+        "sodiumContent": "1100 mg",
+        "sugarContent": "7 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "10/27/2014",
+    "dateModified": "12/08/2014"
+}

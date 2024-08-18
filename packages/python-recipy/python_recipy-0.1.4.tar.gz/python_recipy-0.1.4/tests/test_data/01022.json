@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Chocolate Trifle Recipe",
+    "datePublished": "2017-08-31T11:56:00.000-04:00",
+    "dateModified": "2017-09-18T16:54:04.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kimberly Holland",
+            "url": "https://www.southernliving.com/author/kimberly-holland"
+        }
+    ],
+    "description": "Your holiday guests will think you spent all afternoon stirring the pudding and making brownies from scratch. Shhh…it&#39;s ok, we won&#39;t tell them that this recipe is easy enough for the novice baker.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/Fdmm3U1rZ97R22uHaJ1-xgKuuXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2547201_south17369_0_2_0_0-2000-88438831479144d79da9686deb7dd629.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/X0PwxlAd-KtCa7qb3.mp4",
+        "description": "This dessert is so rich and looks so elegant, your holiday guests will think you spent all afternoon stirring the pudding and making brownies from scratch.",
+        "duration": "PT41S",
+        "name": "Chocolate Trifle",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/X0PwxlAd/poster.jpg?width=720",
+        "uploadDate": "2021-05-25T22:00:18.013-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Chocolate Trifle Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "keywords": "Chocolate Trifle",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 (19.8-ounce) package fudge brownie mix",
+        "1/2 cup Kahlua or other coffee-flavored liqueur (can be substituted with coffee and sugar; see recipe)",
+        "3 (3.9-ounce) packages chocolate instant pudding mix",
+        "1 (12-ounce) container frozen whipped topping, thawed",
+        "6 (1.4-ounce) English toffee-flavored candy bars, crushed"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare brownie mix, and bake according to package directions in a 13- x 9- x 2-inch pan. Prick top of warm brownies at 1-inch intervals using a fork; drizzle with Kahlua. If preferred, 4 tablespoons strong brewed coffee and 1 teaspoon sugar may be substituted for Kahlua. Let cool, and crumble."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare pudding mix according to package directions, omitting chilling. Place one-third of crumbled brownies in bottom of a 3-quart trifle dish. Top with one-third each of pudding, whipped topping, and crushed candy bars. Repeat layers twice with remaining ingredients, ending with crushed candy bars. Chill 8 hours."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/chocolate-trifle-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/chocolate-trifle-recipe",
+                        "name": "Chocolate Trifle Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Jalapeño Lime Chicken Soup",
+    "description": "This simple and healthy Jalapeño Lime Chicken Soup has white beans, salsa verde, and a hit of fresh jalapeño and lime juice.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "jalapeno lime chicken soup, chicken soup, jalapeno soup",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/jalapeno-chicken-soup-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/jalapeno-chicken-soup-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/jalapeno-chicken-soup-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/jalapeno-chicken-soup-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup",
+    "recipeIngredient": [
+        "2 tablespoons olive oil",
+        "2 jalapeños, ribs and seeds removed, minced",
+        "half of a red onion, minced",
+        "4 cups water",
+        "1 teaspoon salt (more as needed)",
+        "1 pound boneless skinless chicken breasts or thighs",
+        "2 14-ounce cans white beans, drained (canellini or great northern)",
+        "1 16-ounce jar salsa verde",
+        "juice of 2 limes",
+        "fresh cilantro, sour cream, and shredded cheese for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a soup pot over medium heat, saute the onion and jalapeno with the olive oil until soft and fragrant.",
+            "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the water and salt. Bring to a boil. Add the raw chicken breasts. Cover and cook for 5-10 minutes. Remove from heat, but leave the lid on so that the chicken continues cooking for another 20 minutes. Remove the chicken breasts, set aside to cool.",
+            "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the white beans and salsa to the pot. Simmer for 30 minutes over medium heat.",
+            "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Shred the chicken and add it back to the pot.",
+            "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Just before serving, squeeze the juice of one lime into the pot. Cut the remaining lime into wedges for serving. Add the salt; taste and adjust as needed. Serve with fresh cilantro, sour cream, and shredded cheese.",
+            "url": "https://pinchofyum.com/jalapeno-lime-chicken-soup#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT30M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H30M",
+    "recipeYield": "6",
+    "recipeCategory": [],
+    "cookingMethod": "Simmer",
+    "recipeCuisine": "Tex Mex",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "70",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "286 calories",
+        "sugarContent": "4.8 g",
+        "sodiumContent": "955.4 mg",
+        "fatContent": "8.6 g",
+        "saturatedFatContent": "1.1 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "27.3 g",
+        "fiberContent": "7.7 g",
+        "proteinContent": "25.1 g",
+        "cholesterolContent": "55.2 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Jalapeno Lime Chicken Soup",
+        "description": "Jalapeño Lime Chicken Soup! Simple and healthy with white beans, salsa verde, and a hit of fresh jalapeño and lime juice. YUM.",
+        "contentUrl": "https://content.jwplatform.com/videos/eLIONjVm.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/eLIONjVm-720.jpg"
+        ],
+        "uploadDate": "2023-02-01T17:10:45+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Chelsea @chelseasmessyapron"
+            },
+            "datePublished": "2014-01-03",
+            "reviewBody": "Oh gosh, this sounds and looks incredible Lindsay! I tried your wild rice soup and loved it - 5 stars for sure!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth Adams"
+            },
+            "datePublished": "2014-01-03",
+            "reviewBody": "If there's a jalapeno involved, I am all-in! Thanks for this great recipe. I can always find a reason to pick up a jar of salsa verde."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Alexis Avila"
+            },
+            "datePublished": "2014-01-03",
+            "reviewBody": "Looks delicious. We make a chicken tortilla soup w Jalapeños (sometimes Habaneros but those can be really spicy!) This is definitely a keeper. Love your food pictures btw, gorgeous stuff!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Alexis Avila"
+            },
+            "datePublished": "2014-01-04",
+            "reviewBody": "@erin\r\n\r\nI have relatives who can't take too much spicy food \r\n\r\nI find that the lime cools down the heat quite a bit -the more lime the merrier in my opinion\r\n\r\nAnother suggestion is garnish w a dallop of sour cream- that will cool the palette as well\r\n\r\n@lindsay - just joined FBP Lindsay excited to take your course!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Erin Helgerson"
+            },
+            "datePublished": "2014-01-04",
+            "reviewBody": "This has my name written all over it! I'm obsessed with lime anything right now, so this totally fits the bill.\n\nI've registered for a food processor on our wedding registry...having to wait until next September is killing me! \n\n"
+        }
+    ],
+    "datePublished": "2018-10-15",
+    "@id": "https://pinchofyum.com/jalapeno-lime-chicken-soup#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/jalapeno-lime-chicken-soup#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/jalapeno-lime-chicken-soup"
+}

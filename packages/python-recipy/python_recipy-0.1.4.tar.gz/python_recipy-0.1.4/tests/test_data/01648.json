@@ -1,0 +1,94 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Caipirinha Manchada",
+    "datePublished": "2013-12-06T18:14:49.000-05:00",
+    "dateModified": "2015-03-28T10:20:49.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Greg Hoitsma",
+            "url": "https://www.foodandwine.com/greg-hoitsma-8412817"
+        }
+    ],
+    "description": "Andina * Portland, OR Fruity aguas frescas, or &#34;fresh waters,&#34; are popular all over Mexico. When head bartender Greg Hoitsma poured the purple-red Hibiscus Agua Fresca into this drink, he instantly came up with its name, which means &#34;stained Caipirinha.&#34;Plus: Ultimate Cocktail Guide",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Caipirinha Manchada",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Mexican Inspired"
+    ],
+    "recipeIngredient": [
+        "1/2 lime, cut into 6 pieces",
+        "3/4 ounce Simple Syrup",
+        "1 cup ice",
+        "1 1/2 ounces cachaça (potent Brazilian sugarcane spirit)",
+        "1/2 ounce Hibiscus Agua Fresca"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a cocktail shaker, muddle the lime pieces with the Simple Syrup. Add the ice and cachaça and shake well. Pour into a rocks glass and pour the Hibiscus Agua Fresca over a bar spoon on top."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/caipirinha-manchada-cocktails-2007",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails-spirits/cachaca",
+                        "name": "Cachaça Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/caipirinha-manchada-cocktails-2007",
+                        "name": "Caipirinha Manchada"
+                    }
+                }
+            ]
+        }
+    }
+}

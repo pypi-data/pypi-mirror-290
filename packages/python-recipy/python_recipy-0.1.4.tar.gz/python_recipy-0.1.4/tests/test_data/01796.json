@@ -1,0 +1,83 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "The Pit Room Brisket Taco",
+    "url": "https://www.foodnetwork.com/recipes/the-pit-room-brisket-taco-11841897",
+    "headline": "The Pit Room Brisket Taco",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/10/14/DV3413_brisket-tacos_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1634235906143.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/10/14/DV3413_brisket-tacos_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1634235906143.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/10/14/DV3413_brisket-tacos_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1634235906143.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2021-10-14T14:30:22.205-04:00",
+    "dateModified": "2021-10-14T14:30:21.498-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Taco,Main Dish",
+    "cookTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT0H10M0.000S",
+    "recipeIngredient": [
+        "1 flour tortilla",
+        "3 ounces smoked prime brisket",
+        "1 ounce barbecue sauce",
+        "2 ounces Cheddar cheese, shredded",
+        "1 ounce red salsa",
+        "1 ounce sour cream",
+        "1 tablespoon fresh cilantro, chopped"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 1 servings",
+        "calories": "722",
+        "fatContent": "48g",
+        "saturatedFatContent": "22g",
+        "carbohydrateContent": "39g",
+        "fiberContent": "2g",
+        "sugarContent": "13g",
+        "proteinContent": "34g",
+        "cholesterolContent": "153mg",
+        "sodiumContent": "1283mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large skillet over medium-high heat. Toast the flour tortilla on each side for approximately 30 seconds. On a cutting board, chop fresh smoked brisket into about 1/2-inch cubes and combine with the barbecue sauce in a small mixing bowl. Transfer the brisket to the warm tortilla and top with the Cheddar cheese, red salsa, sour cream and fresh cilantro."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 4
+    },
+    "recipeYield": "1 taco",
+    "recipeCategory": []
+}

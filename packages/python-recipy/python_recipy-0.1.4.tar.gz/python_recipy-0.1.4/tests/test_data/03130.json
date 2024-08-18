@@ -1,0 +1,95 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Think of this Dutch baby recipe as one gigantic, stress-free pancake.",
+    "alternativeHeadline": "Think of this Dutch baby recipe as one gigantic, stress-free pancake.",
+    "keywords": [
+        "pancake",
+        "peach",
+        "raspberry",
+        "lemon",
+        "easy",
+        "nut-free",
+        "baking",
+        "breakfast",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Susan Spungen",
+            "sameAs": "https://www.bonappetit.com/contributor/susan-spungen"
+        },
+        {
+            "@type": "Person",
+            "name": "Christopher Baker",
+            "sameAs": "https://www.bonappetit.com/contributor/christopher-baker"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.2,
+        "ratingCount": 19
+    },
+    "description": "Think of this Dutch baby recipe as one gigantic, stress-free pancake.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ae4c97f1c801a1038bd25e/master/w_646,h_459,c_limit/peach-dutch-baby-pancake-with-cherry-compote-646.jpg"
+    ],
+    "headline": "Peach Dutch Baby Pancake with Cherry Compote",
+    "name": "Peach Dutch Baby Pancake with Cherry Compote",
+    "recipeIngredient": [
+        "1/4 cup honey",
+        "2 3' strips lemon peel",
+        "1 tablespoon fresh lemon juice",
+        "2 cups cups fresh (or frozen, thawed) cherries (about 1 lb.), stemmed, pitted, halved",
+        "4 tablespoons (1/2 stick) unsalted butter, divided",
+        "4 large eggs",
+        "3/4 cup all-purpose flour",
+        "3/4 cup whole milk",
+        "3 tablespoons sugar, divided",
+        "1 teaspoon vanilla extract",
+        "1/4 teaspoon kosher salt",
+        "2 peaches, halved, pitted, cut into 1/4'-thick wedges",
+        "Powdered sugar (for dusting)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring honey, lemon peel, lemon juice, and 1/2 cup water to a boil in a small heavy saucepan. Add cherries and simmer briskly, stirring occasionally, until sauce is syrupy, about 15 minutes. Transfer cherry compote to a medium bowl and chill. DO AHEAD: Compote can be made 1 day ahead. Cover and chill. Remove lemon peel just before serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425°. Melt 2 Tbsp. butter in a small saucepan; scrape into a blender. Add eggs, flour, milk, 1 Tbsp. sugar, vanilla extract, and salt. Blend batter until smooth; set aside in blender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a 12\" cast-iron skillet over medium heat. Add remaining 2 Tbsp. butter and remaining 2 Tbsp. sugar and cook, stirring constantly, until sugar starts to caramelize, about 2 minutes. Add peaches to skillet; increase heat to medium-high and cook, stirring frequently, until softened, about 2 minutes. Briefly reblend reserved pancake batter. Pour evenly over peaches and transfer to oven."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake pancake until puffed and golden brown all over, 17–20 minutes (it will deflate as soon as it's removed from the oven). Dust pancake with powdered sugar and serve immediately, passing cherry compote alongside."
+        }
+    ],
+    "recipeYield": "6 to 8 Servings",
+    "url": "https://www.bonappetit.com/recipe/peach-dutch-baby-pancake-with-cherry-compote",
+    "dateModified": "2012-07-16T20:00:00.000-04:00",
+    "datePublished": "2012-07-16T20:00:00.000-04:00",
+    "recipeCategory": []
+}

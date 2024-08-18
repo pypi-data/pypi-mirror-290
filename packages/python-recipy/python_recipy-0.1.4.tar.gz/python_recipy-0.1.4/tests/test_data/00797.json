@@ -1,0 +1,401 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022238-dry-brined-chicken-breasts#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022238-dry-brined-chicken-breasts",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/06/02/dining/04Chickenrex1/merlin_188172984_99fa449e-3c26-49d5-bf55-3a6f148960a2-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022238-dry-brined-chicken-breasts",
+    "name": "Dry-Brined Chicken Breasts",
+    "description": "A short, simple dry brine can take a pallid chicken breast from bland to glam. Dark brown sugar is especially welcome since its molasses provides additional moisture. Dried bay leaves, ground to a powder, lend an aromatic woodsiness that will make you think, “Oh, that’s what bay leaves taste like.” But it’s the salt here that’s most crucial, as it draws out the meat’s water. That water then dissolves the salt and, through diffusion, the two reenter the meat, seasoning the chicken thoroughly and encouraging water retention during cooking. You can enjoy it right out of the skillet with a spritz of lime juice or save it to serve in salads, sandwiches, fried rice and the like.",
+    "author": {
+        "@type": "Person",
+        "name": "Eric Kim"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/06/02/dining/04Chickenrex1/merlin_188172984_99fa449e-3c26-49d5-bf55-3a6f148960a2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/02/dining/04Chickenrex1/merlin_188172984_99fa449e-3c26-49d5-bf55-3a6f148960a2-superJumbo.jpg",
+            "height": 1536,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/02/dining/04Chickenrex1/merlin_188172984_99fa449e-3c26-49d5-bf55-3a6f148960a2-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/02/dining/04Chickenrex1/merlin_188172984_99fa449e-3c26-49d5-bf55-3a6f148960a2-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "chicken, chicken breast",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 853
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 249,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "6 grams",
+        "cholesterolContent": null,
+        "fatContent": "7 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "39 grams",
+        "saturatedFatContent": "1 gram",
+        "sodiumContent": "421 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "5 dried bay leaves, crushed into small pieces",
+        "1 teaspoon whole black peppercorns",
+        "2 1/2 teaspoons kosher salt (Diamond Crystal)",
+        "1 packed tablespoon dark brown sugar",
+        "2 teaspoons garlic powder",
+        "2 large boneless, skinless chicken breasts (about 1 1/2 pounds total)",
+        "Vegetable oil",
+        "Lime wedges, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a spice grinder, blitz the bay leaf pieces and peppercorns until finely ground. Transfer to a small bowl and add the salt, brown sugar and garlic powder, and rub it all together with your fingers."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cut each chicken breast in half crosswise into two pieces of equal weight, creating one shorter, thicker piece and one longer, thinner piece. Place the four chicken pieces on a large plate or sheet pan and sprinkle generously on all sides with the spice mixture, moving the chicken around to catch any fallen spices. Refrigerate, uncovered, to dry-brine for at least 30 minutes and up to 1 hour (any shorter and the osmotic brining process won’t complete; any longer and you’ll end up with deli meat)."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When ready to cook, take the chicken out of the fridge and heat a large skillet with a lid over high heat. Add enough oil to lightly coat the bottom of the skillet. Carefully add the chicken pieces, smooth sides down, and immediately reduce the heat to medium-low. Cook until the bottoms are browned but not burnt, 5 to 7 minutes. Flip the chicken, cover the pan and cook until the other sides are browned and the internal temperature at the thickest part of the meat reaches 155 degrees, another 5 to 7 minutes. You may want to pull the longer, thinner pieces off the heat a minute or two sooner, as they may cook faster."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the chicken to a cutting board to rest for at least 10 minutes so the juices can redistribute. The meat will continue to cook as it sits and should reach an internal temperature of 165 degrees. You can also check for doneness by cutting into the chicken; it should look white and juicy and no longer pink. Slice the chicken against the grain (that is, perpendicular to the parallel fibers that run within the breast) and serve with lime wedges if you’d like. You can also keep the meat whole and refrigerate it, covered, for up to 4 days."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kim"
+            },
+            "reviewBody": "Good, but as far as the spices and salt go:  too much!  Will cut in half next time.",
+            "datePublished": "2024-04-14T22:47:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Squirrel Butler"
+            },
+            "reviewBody": "As to number 4:  the author never suggested anyone would die if you let it brine for two hours.  Please re-read the recipe.\n\nWhat the author does say, and which is echoed by multiple other credible sites and chefs, is that going past one hour of dry brining for skinless breasts results in chicken that simply doesn't taste as good as what you get after 30-60 minutes.\n\nI trust all those professional chefs.  Maybe you should, as well...",
+            "datePublished": "2024-05-11T12:33:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pete"
+            },
+            "reviewBody": "1. Excellent recipe; I use it regularly.\n2. Just blitz all the dry ingredients together: it's simpler.\n3. The NYT should *always* provide salt weights, as someone else has commented. Everything else is needlessly complicated. (Food editors: Are you listening?)\n4. I've let the chicken brine for two hours; no one has died yet.\n5. Sometimes the chicken has to cook a little longer.\n6. The resting period matters.",
+            "datePublished": "2024-03-19T23:17:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mickela"
+            },
+            "reviewBody": "I grilled the chicken.  Really tasty, not dry.",
+            "datePublished": "2024-03-03T16:49:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judy786"
+            },
+            "reviewBody": "My daughter made this in the air fryer turned out tasty, delicious, and tender leftovers used in a creamy Caesar salad. I will make it again.",
+            "datePublished": "2023-11-08T01:11:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet"
+            },
+            "reviewBody": "I've been salt-brining chicken breasts for years. Dry the chicken, salt it lightly all over. Let it sit for up to an hour. Dry it again if necessary before sautéing. I'm going to try this with pepper, garlic powder and herbes de provence rather than bay. I'll skip the sugar and add some butter to the pan at the end. Once the chicken is resting, I might add some more butter and shallots to the pan.",
+            "datePublished": "2023-10-01T17:24:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jimbo"
+            },
+            "reviewBody": "This delicious! Quick and easy for a weeknight dinner. Be sure to use a non-stick pan or a sheet pan with foil whenever sautéing or roasting with brown sugar. That stuff burns!",
+            "datePublished": "2023-08-30T22:38:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "B. Strauss"
+            },
+            "reviewBody": "This is delicious and so easy! A great way to use bay leaves!",
+            "datePublished": "2023-08-30T21:53:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Adam"
+            },
+            "reviewBody": "This is my go-to for chicken that I am going to add to salads. I’ve found I have more success when I slice the breasts into cutlets. I also mix up the spices when I want to try something different. My favorite combo is 1 Tbsn Ethiopian berbere; 1 Tbsn brown sugar; 2.5 tsp Diamond Christal salt.",
+            "datePublished": "2023-08-07T05:12:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "James"
+            },
+            "reviewBody": "Incredibly recipe producing excellent results with little effort. My breasts were fabulously juicy and tender and were still so the morning after once cold even! \n\nI’m not convinced the author intended for the entire dry brine to be used on just two breasts. Use your intuition and add the dry brine to taste.",
+            "datePublished": "2023-07-03T18:40:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Doug"
+            },
+            "reviewBody": "This recipe is a huge hack! My kid makes it (12yo) and it cuts the marinade time down by a day. The chicken comes out great every time and I don't have to do a thing but eat it. Thank you for the tasty cheat!",
+            "datePublished": "2023-07-02T23:38:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevin"
+            },
+            "reviewBody": "After cutting it in half crosswise, if the “thick” part if the chicken breast is much thicker than the “thin” part, consider cutting the thick part in half",
+            "datePublished": "2023-06-05T22:11:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lady Di"
+            },
+            "reviewBody": "Made this as written, chicken was tender but otherwise nothing special. Spouse thought it was too spicy with 5 ground peppercorns.",
+            "datePublished": "2023-04-17T23:20:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bluerroses"
+            },
+            "reviewBody": "Incredibly flavorful. I've cooked hundreds of NYT recipes, and this is one of the best. I thought I was purchasing a small jar of bay leaves, but what arrived was a large bag. I went looking for recipes using lots of bay leaves. This is the first I've tried and it's fantastic. This will be a basic go-to for me.",
+            "datePublished": "2023-04-04T04:48:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachel"
+            },
+            "reviewBody": "This is the best, most reliable, juiciest, easiest chicken breast recipe I’ve encountered. Highly recommend. We change nothing!",
+            "datePublished": "2023-03-21T03:41:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ryan"
+            },
+            "reviewBody": "So good!!! I used coconut oil which added a subtle but really nice flavor. Definitely super salty so the limes (which I didn’t have) would have been perfect",
+            "datePublished": "2023-03-10T23:42:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vin"
+            },
+            "reviewBody": "Lay the breast down on the cutting board, place your hand flat on top. With your cutting hand, cut the breast down the length of the breast, very carefully. You're cutting it parallel to the board, so that now you have 2 cutlets. The top one is usually a little shorter, and thicker. It's a little easier to do this, if the breast is slightly frozen, and the knife is sharp. Be very careful, and pay attention to keeping the knife parallel between the board and your hand.",
+            "datePublished": "2021-06-06T14:09:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Toni"
+            },
+            "reviewBody": "I learned that not all kosher salts are created equal and therefore when it calls for Diamond to use that brand, and if not, cut the salt in half. Other kosher brands are saltier than Diamond.",
+            "datePublished": "2021-06-06T16:10:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Klkruger"
+            },
+            "reviewBody": "Um, no. That's the way to make cutlets. One can, but that's not what he's calling for here. He states to cut crosswise, which simply means cutting in half across the roughly the middle, skewing slightly toward the thicker side, so that one ends up with two halves, one being slightly thicker and shorter than the other.",
+            "datePublished": "2021-06-06T15:15:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vin"
+            },
+            "reviewBody": "I misread the recipe and I apologize for suggesting the chicken breast be cut lengthwise. Cutting it across the breast is what the recipe calls for. I never said I was perfect.",
+            "datePublished": "2021-06-09T16:29:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charlie"
+            },
+            "reviewBody": "This dry brine is a terrific technique. Sliced these up to add to a salad platter and they were moist, tender and tasty. Would not have thought to use bay leaves in a rub, but they work very well here.",
+            "datePublished": "2021-06-05T12:14:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Walter's Daughter"
+            },
+            "reviewBody": "Size and shape of the crystals. A handy \"rule\": 1 tsp table salt = 1.5 tsp Morton's Kosher = 2 tsp Diamond Crystal.",
+            "datePublished": "2021-06-06T23:05:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Monica"
+            },
+            "reviewBody": "Made this according to directions (cut crosswise, not horizontally; pulled thinner pieces sooner than thicker pieces). Didn't brown up quite as beautifully as depicted in the photo (perhaps my medium low was a bit too low), but tender and delicious. A bit sweet -- I might reduce the sugar by a little bit next time, but I love a bit of salt and this was perfect, requiring no more salt at the table.",
+            "datePublished": "2021-06-06T16:39:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Don"
+            },
+            "reviewBody": "Giving the weight of the salt would eliminate any confusion of what brand to use.",
+            "datePublished": "2021-06-06T18:37:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bradT"
+            },
+            "reviewBody": "My housekeeper had come in the morning so I decided to gas grill the breasts to minimize mess.  I grilled all the pieces 4 minutes each side over direct medium and the thicker halves 2 more minutes over indirect medium.  They turned out tender and juicy.  The leftovers were still very moist.  I will definitely male this again.",
+            "datePublished": "2021-06-12T20:31:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jim R"
+            },
+            "reviewBody": "The salt problem:  table salt  \"saltier\" than Morton's Kosher saltier than Diamond Crystal. If recipe calls for Diamond and all you have is table salt, cut the amount in half.  Morton's cut to 3/4. Go to Serious Eats and search for \"Do I need to use Kosher Salt.\"  Yeah Kenji.  But Diamond and Morton's not interchangeable.",
+            "datePublished": "2021-06-13T19:06:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeanne"
+            },
+            "reviewBody": "The instructions clearly say cut crosswise, not lengthwise as Vin suggests.",
+            "datePublished": "2021-06-06T15:40:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Roberta"
+            },
+            "reviewBody": "Not all kosher salts are created equal and therefore when it calls for Diamond to use that brand, and if not, cut the salt in half. Other kosher brands are saltier than Diamond.\n\nPerhaps a suggestion would be to reduce the salt (for me, I would say by half) if this is a concern. \n\nCut the breast horizontally down the length of the breast, very carefully, so that now you have 2 cutlets. The top one is usually a little shorter, and thicker. It's easier to do this, if the breast is slightly frozen.",
+            "datePublished": "2021-06-06T17:57:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dominic"
+            },
+            "reviewBody": "Next time I will skip halving the breasts and lightly pound the thick end so I have one even thickness.",
+            "datePublished": "2021-06-20T21:42:13.000Z"
+        }
+    ]
+}

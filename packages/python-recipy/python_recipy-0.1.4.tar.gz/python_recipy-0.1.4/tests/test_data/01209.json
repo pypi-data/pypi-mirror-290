@@ -1,0 +1,179 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "5 Minute Honey Mustard Sauce",
+    "description": "5 Minute Honey Mustard Sauce - just 5 ingredients to this smooth and creamy dipping sauce that can double as a dressing! So simple and delicious!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "honey mustard, honey mustard sauce, dressing recipe, homemade honey mustard",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Honey-Mustard-Sauce-in-bowl-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Mustard-Sauce-in-bowl-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Mustard-Sauce-in-bowl-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Mustard-Sauce-in-bowl-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/5-minute-honey-mustard-sauce",
+    "recipeIngredient": [
+        "1/4 cup honey",
+        "1/4 cup mayonnaise",
+        "1/4 cup Dijon mustard",
+        "1 tablespoon white distilled vinegar",
+        "1/4 teaspoon cayenne pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk all ingredients in a small dish until smooth.",
+            "name": "Combine",
+            "url": "https://pinchofyum.com/5-minute-honey-mustard-sauce#instruction-step-1",
+            "video": {
+                "@context": "http://schema.org",
+                "@type": "VideoObject",
+                "name": "5 Minute Honey Mustard Step 1",
+                "description": "Whisk all ingredients in a small dish until smooth.",
+                "duration": "PT17S",
+                "embedUrl": "https://player.vimeo.com/video/415269779?dnt=1&amp;app_id=122963",
+                "contentUrl": "https://vimeo.com/415269779",
+                "thumbnailUrl": [
+                    "https://i.vimeocdn.com/video/888675887-7725943b6a6b65960c561135379734980a556c3659b58e79e9b0e65c4e789409-d_295x166"
+                ],
+                "uploadDate": "2020-05-05T15:44:36+00:00"
+            }
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Enjoy on chicken nuggets, as a marinade, tossed with tofu, and more! ",
+            "name": "Eat",
+            "url": "https://pinchofyum.com/5-minute-honey-mustard-sauce#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT4M",
+    "cookTime": "PT1M",
+    "totalTime": "PT5M",
+    "recipeYield": [
+        "3",
+        "3/4 cup sauce"
+    ],
+    "recipeCategory": [],
+    "cookingMethod": "Mix",
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "78",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "139 calories",
+        "sugarContent": "14 g",
+        "sodiumContent": "382.6 mg",
+        "fatContent": "8.2 g",
+        "saturatedFatContent": "1.3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "14.1 g",
+        "fiberContent": "0.1 g",
+        "proteinContent": "0.2 g",
+        "cholesterolContent": "4.6 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "5 Minute Honey Mustard Sauce ",
+        "description": "5 Minute Honey Mustard Sauce – just 5 ingredients to this smooth and creamy dipping sauce that can double as a dressing! So simple and delicious!",
+        "contentUrl": "https://content.jwplatform.com/videos/U21VLzGJ.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/U21VLzGJ-720.jpg"
+        ],
+        "uploadDate": "2021-05-18T01:20:03+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Amber N Boles"
+            },
+            "datePublished": "2020-10-07",
+            "reviewBody": "Mine didn't turn out very sweet? I've got it in the fridge bc I ran out of honey which technically I guess what used was called syrup? Idk but it taste like mustard and vinegar. Think I could add extra honey later  before serving?"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dezz"
+            },
+            "datePublished": "2019-08-06",
+            "reviewBody": "Love this recipe! Simple and yummy!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bradon"
+            },
+            "datePublished": "2020-02-28",
+            "reviewBody": "I feel like it has a bit too much vinegar, I used a bit less and it turned out wonderful"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sarah D"
+            },
+            "datePublished": "2020-06-27",
+            "reviewBody": "Wow! This recipe is the one! Turned out delish and same as the one we get at our favorite restaurants. Thank you!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rachel"
+            },
+            "datePublished": "2015-07-24",
+            "reviewBody": "Just made this - SOOOOO good! I wish I would rate this recipe 10 stars! Will definitely be a new staple with my chicken! Thanks Lindsey!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Steve"
+            },
+            "datePublished": "2020-09-09",
+            "reviewBody": "If you're interested in vegan nuggets, these are pretty good:\r\n\r\nhttps://eatnuggs.com/"
+        }
+    ],
+    "datePublished": "2022-08-25",
+    "@id": "https://pinchofyum.com/5-minute-honey-mustard-sauce#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/5-minute-honey-mustard-sauce#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/5-minute-honey-mustard-sauce"
+}

@@ -1,0 +1,338 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/5936-cream-of-spinach-soup#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/5936-cream-of-spinach-soup",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2017/01/30/dining/30COOKING-CREAMSPINACHSOUP2/30COOKING-CREAMSPINACHSOUP2-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/5936-cream-of-spinach-soup",
+    "name": "Cream of Spinach Soup",
+    "description": "Puréed vegetable soups can be lean and spare or rich and creamy, spicy or subtle, hot or cold. They can be vegetarian or quite meaty. And much of the cooking time is just for simmering. This spinach soup, with a touch of nutmeg and some cream, is a classic combination, and its flavor justifies that distinction.",
+    "author": {
+        "@type": "Person",
+        "name": "Mark Bittman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2017/01/30/dining/30COOKING-CREAMSPINACHSOUP2/30COOKING-CREAMSPINACHSOUP2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/30/dining/30COOKING-CREAMSPINACHSOUP2/30COOKING-CREAMSPINACHSOUP2-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/30/dining/30COOKING-CREAMSPINACHSOUP2/30COOKING-CREAMSPINACHSOUP2-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/30/dining/30COOKING-CREAMSPINACHSOUP2/30COOKING-CREAMSPINACHSOUP2-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "gluten-free, soup, spinach",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 856
+    },
+    "recipeIngredient": [
+        "1 pound spinach, well washed, thick stems trimmed",
+        "3 spring onions or 3 bunches scallions, trimmed and roughly chopped",
+        "3 cups chicken or vegetable stock",
+        "Small grating of nutmeg",
+        "Salt and pepper",
+        "1 cup heavy or light cream, half-and-half or milk"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Combine spinach, onions and stock in a saucepan, and turn heat to medium high. Bring to a boil, and lower heat so mixture barely bubbles. Cook, stirring occasionally, until spinach is very tender, about 10 minutes. Turn off heat, add nutmeg and a sprinkling of salt and pepper, and let cool at least a few minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pour soup into a blender, in batches if necessary, and carefully purée. Return to pan, add cream, and, over medium-low heat, reheat gently, stirring occasionally. When soup is hot, adjust seasoning, and serve."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marion"
+            },
+            "reviewBody": "How would leeks work in this recipe instead of the onions?",
+            "datePublished": "2024-03-27T16:02:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "robin"
+            },
+            "reviewBody": "So simple and delicious!  I used shallot instead of scallion because that’s what I had.",
+            "datePublished": "2023-12-10T20:33:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy S."
+            },
+            "reviewBody": "I cooked some hard boiled eggs to add protein, something common in Russian soup recipes.  I quartered the eggs and put pieces on the top of the bowl of soup.  Yum!",
+            "datePublished": "2023-11-17T21:02:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cindy"
+            },
+            "reviewBody": "Used shallot sauteed in olive oil and butter, and Oatly instead of cream. Nicely flavored and light.",
+            "datePublished": "2023-11-09T02:50:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "homeslice"
+            },
+            "reviewBody": "I was skeptical but really enjoyed this. I’m not sure how a pound of spinach only made 2 meals for me.   I used sautéed onion instead of spring onions for simplicity and topped with some cheddar. Delish. I should make this regularly.",
+            "datePublished": "2023-10-01T01:19:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ruben"
+            },
+            "reviewBody": "In an unexpected turn of event, the children loved it and wanted more. Absolute hit.",
+            "datePublished": "2023-09-04T01:17:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ivan K"
+            },
+            "reviewBody": "Used 1lb frozen spinach bag from Whole Foods and ground nutmeg. Chopped a whole white onion instead of using spring onions. Just sauteed it until it was soft and brown. Result was absolutely delicious!",
+            "datePublished": "2023-09-02T02:47:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie Hovlik"
+            },
+            "reviewBody": "I subbed coconut milk for the cream and I sautéed the onion with the spinach before adding the broth.",
+            "datePublished": "2023-07-17T21:36:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tani"
+            },
+            "reviewBody": "Suggest adding fresh baby spinach at the end and mix with an immersion blender to maintain an appetizing bright green color",
+            "datePublished": "2023-04-22T19:30:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MB in NY"
+            },
+            "reviewBody": "This is too easy! and yet unbelievably delicious.  I used broccoli, including stems, and a sweet onion.",
+            "datePublished": "2023-02-02T16:06:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandy"
+            },
+            "reviewBody": "Tasty, I used 1 can Coconut milk, instead of milk, I don't drink dairy, it was excellent.",
+            "datePublished": "2023-01-31T23:32:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ryan"
+            },
+            "reviewBody": "This was great served with a drizzle of toasted sesame oil",
+            "datePublished": "2023-01-17T00:42:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessie Paul"
+            },
+            "reviewBody": "I followed the recipe using half and half.  It was easy, but kind of boring.  I think the texture would have been improved with a potato or two.",
+            "datePublished": "2022-12-18T19:31:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AGM"
+            },
+            "reviewBody": "I made this exactly but used light cream instead. I must say, my soup didn’t look emerald green but rather, more gray green which was a turnoff for my husband. I will make again but use less spinach. Taste was excellent and simple.",
+            "datePublished": "2022-12-06T17:39:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Penelope36"
+            },
+            "reviewBody": "How long will it last in the fridge?  Can you freeze it?",
+            "datePublished": "2022-11-07T18:58:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Peckitt"
+            },
+            "reviewBody": "This recipe begs for the use of an immersion blender! It's so much safer and more convenient to blend the vegetables in their pot than to transfer the hot stuff into a blender, where it can splash and splatter.",
+            "datePublished": "2018-02-18T11:49:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dj"
+            },
+            "reviewBody": "I always laugh when people criticize those who change the recipe. Personally, I enjoy all the comments and suggestions, and if it’s a different recipe in the end, so what?",
+            "datePublished": "2019-04-18T01:02:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NLC"
+            },
+            "reviewBody": "okay. not enough spinach so use a combo of kale and spinach. combo of beef broth and chicken because that's what was there. no spring onions or green onions - so whatever onions were available. <br/><br/>this was so good. a reminder of how so much can be made from so little.",
+            "datePublished": "2017-10-24T15:07:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maggie"
+            },
+            "reviewBody": "I always laugh when I see a recipe like this that is simple and straightforward. Then the people who comment completely change the recipe by adding all sorts of things. Recipes exist that include bacon or flour or potatoes or a myriad of other ingredients. This one did not and I loved the simplicity of it.",
+            "datePublished": "2019-03-21T15:39:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Abby"
+            },
+            "reviewBody": "I used baby spinach, sautéed with onions and olive oil for a few minutes and then added stock and boiled - resulted in beautiful bright green soup. Also subbed regular yellow onions and 2% milk because it’s what I had on hand. So lovely and delicious. I’m sure would be more decadent with heavy cream but was great as is.",
+            "datePublished": "2019-03-27T14:12:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ginny B"
+            },
+            "reviewBody": "Love this soup, so easy and adaptable to what's in the refrigerator.  I replace spring onions with half a sweet onion and a little bit of poblano pepper that needed to be used.  This is a soup that tastes fresh and delicious.",
+            "datePublished": "2017-10-21T02:21:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liti"
+            },
+            "reviewBody": "Made with half spinach half kale. Did not add cream. Added cubed potatoes. Delicious.",
+            "datePublished": "2019-01-28T01:58:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tina H."
+            },
+            "reviewBody": "I made it as stated the first time, except I didn't use dairy cream, I used Nut Pods original unsweetened half and half. Was already super good. Then I started experimenting. Next round I started with some bits of bacon (about half a pound of scraps), and then took the bacon out of the pot, and drained some of the fat. Then I threw in the scallions and some cumin seeds, and let them warm up a bit. Then I added the stock and the spinach. Pureed as usual, then added the bacon bits back in. OMGood!",
+            "datePublished": "2019-01-08T21:16:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Loofah"
+            },
+            "reviewBody": "Photocorrect the photo of your soup and it can be as bright green as you like",
+            "datePublished": "2019-05-20T17:26:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pat"
+            },
+            "reviewBody": "I love this so-simple recipe.  I added lots of garlic and sauteed it with the onions before adding the spinach and stock. I also added feta at the end, in the bowls of hot soup, in place of the cream. Adds a nice, salty tang. Tried the cream the second time around and it gives it another lovely, but very different, finish. A keeper!",
+            "datePublished": "2018-11-20T21:29:15.000Z"
+        }
+    ]
+}

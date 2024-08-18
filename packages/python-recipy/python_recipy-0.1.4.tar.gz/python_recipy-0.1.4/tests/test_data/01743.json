@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Galway Bay Coleslaw",
+    "url": "https://www.foodnetwork.com/recipes/galway-bay-coleslaw-recipe-2107576",
+    "headline": "Galway Bay Coleslaw",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:42:38.397-05:00",
+    "dateModified": "2014-01-09T01:51:52.446-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Easy Side Dish Recipes,Easy,Side Dish,Cabbage Recipes,Vegetable,Gluten Free,Low Sodium,Vegan",
+    "prepTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT0H15M0.000S",
+    "recipeIngredient": [
+        "1/2 cup vegetable oil",
+        "1/2 cup white vinegar",
+        "1 pinch salt",
+        "1 pinch ground black pepper",
+        "3 Anaheim green peppers, roasted, seeded and peeled",
+        "1 head green cabbage, sliced or shredded as thin as possible"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "220",
+        "fatContent": "19g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "12g",
+        "fiberContent": "5g",
+        "sugarContent": "6g",
+        "proteinContent": "3g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "55mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Puree the oil, vinegar, salt, pepper and roasted peppers. Pour over the shredded cabbage. Mix well and serve. "
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mimi S"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Used white balsamic vinegar because I was out of white vinegar. And added red and yellow bell peppers, again because that’s what I had. We really liked this Cole slaw. "
+        }
+    ],
+    "recipeCategory": []
+}

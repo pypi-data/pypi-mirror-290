@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate-Peppermint Cheesecake",
+    "datePublished": "2017-11-27T11:28:33.000-05:00",
+    "dateModified": "2023-02-27T09:20:56.931-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Patricia S York",
+            "url": "https://www.southernliving.com/author/patricia-s-york"
+        }
+    ],
+    "description": "Don&#39;t worry if your cheesecake cracks; the light and fluffy layer of whipped cream will cover it.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/Rw0cU9TqWU_V_OsDy5geDiocjLo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chocolate-peppermint-cheesecake-sl-1cdf36d93f9a4d05a58a490229545497-9ffd463bb4cf49a480536127899f1dd4.jpg",
+        "height": 667,
+        "width": 1000
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/BImDoM3Z-KtCa7qb3.mp4",
+        "description": "A slice of this cake is like Christmas on a plate. It’s so full of Southern holiday cheer and seasonal flavor that we want to break out in Christmas carols, and we cannot get enough of the chocolate and peppermint duo in its creamy cheesecake form. ",
+        "duration": "PT1M31S",
+        "name": "Chocolate-Peppermint Cheesecake",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/BImDoM3Z/poster.jpg?width=720",
+        "uploadDate": "2019-07-24T11:44:09.780-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Chocolate-Peppermint Cheesecake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "2"
+    },
+    "recipeIngredient": [
+        "CRUST",
+        "2 cups chocolate wafer crumbs (about 35 wafers)",
+        "5 tablespoons butter, melted",
+        "3 tablespoons sugar",
+        "Vegetable cooking spray",
+        "FILLING",
+        "1 cup semisweet chocolate morsels",
+        "1/4 cup heavy cream",
+        "4 (8-oz.) packages cream cheese, softened at room temperature",
+        "1 cup sugar",
+        "1 teaspoon vanilla extract",
+        "1 teaspoon peppermint extract",
+        "4 large eggs",
+        "ADDITIONAL INGREDIENTS",
+        "Whipped Peppermint Cream",
+        "Garnish: crushed peppermint candies"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare Crust: Preheat oven to 350°. Stir together first 3 ingredients in a medium bowl. Press mixture on bottom and 1 inch up sides of a lightly greased (with cooking spray) 9-inch springform pan. Bake 10 minutes. Let stand at room temperature until ready to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare Filling: Reduce oven temperature to 325°. Microwave chocolate morsels and cream in a small microwave-safe bowl at MEDIUM (50% power) 1 to 1 1/2 minutes or until melted and smooth, stirring every 30 seconds. Cool 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat cream cheese and 1 cup sugar at medium-low speed with a heavy-duty electric stand mixer just until smooth. Add chocolate mixture and extracts, and beat at low speed just until blended. Add eggs, 1 at a time, beating at low speed just until yellow disappears after each addition; pour into prepared crust."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 325° for 50 minutes to 1 hour or until center of cheesecake jiggles and is almost set. Remove cheesecake from oven, and gently run a knife around outer edge of cheesecake to loosen from sides of pan. (Do not remove sides.) Cool cheesecake completely on a wire rack (about 2 hours). Cover and chill 8 hours to 2 days."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove sides of pan, and spread Whipped Peppermint Cream over cheesecake."
+        }
+    ],
+    "totalTime": "PT710M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/chocolate-peppermint-cheesecake",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes/cheesecake",
+                        "name": "Cheesecake"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/chocolate-peppermint-cheesecake",
+                        "name": "Chocolate-Peppermint Cheesecake"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

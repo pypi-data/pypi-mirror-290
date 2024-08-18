@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Homemade Hummus",
+    "datePublished": "2010-12-17T03:49:33.000-05:00",
+    "dateModified": "2023-02-24T12:34:14.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Learn how to make hummus with our easy recipe. Simply combine six ingredients in the food processor and you’re ready for snacking. Homemade hummus tastes better than store-bought options and is more economical too.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/X_Qqn1ImsfNulhwx76oX9MdFoO0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/med102963_0607_mezze_vert-43b8f5d369b448dbace654110793ea1d.jpgitokoVXCCJXO",
+        "height": 375,
+        "width": 300
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/YExhPyeL-zqASzng0.mp4",
+        "description": "Who doesn’t love hummus? And it’s super simple to make at home. All you need is a few pantry ingredients and a food processor to whip up a batch of homemade hummus today!",
+        "duration": "PT2M30S",
+        "name": "Easy Hummus Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/YExhPyeL/poster.jpg?width=720",
+        "uploadDate": "2021-07-14T02:34:43.696-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Homemade Hummus",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.4",
+        "ratingCount": "210"
+    },
+    "keywords": "Appetizers, Chickpeas, Hummus, Middle Eastern, PurÃ©e",
+    "recipeIngredient": [
+        "2 cans (15.5 ounces each) chickpeas",
+        "0.333 cup fresh lemon juice",
+        "0.25 cup tahini",
+        "2 cloves garlic, chopped",
+        "0.125 teaspoon cayenne pepper",
+        "1.25 teaspoons coarse salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/X_Qqn1ImsfNulhwx76oX9MdFoO0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/med102963_0607_mezze_vert-43b8f5d369b448dbace654110793ea1d.jpgitokoVXCCJXO"
+                }
+            ],
+            "text": "Reserving 1/4 cup liquid, rinse and drain 2 cans chickpeas. Place chickpeas and reserved liquid in a food processor. Add 1/3 cup fresh lemon juice, 1/4 cup tahini, well stirred, 2 garlic cloves, chopped, 1/8 teaspoon cayenne pepper, and 1 1/4 teaspoons coarse salt. Process until smooth."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/313953/homemade-hummus",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502258/appetizers-snacks",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/313953/homemade-hummus",
+                        "name": "Homemade Hummus"
+                    }
+                }
+            ]
+        }
+    }
+}

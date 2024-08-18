@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Thai Herb-Infused Alcohol",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongshitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/12/Alcohol-225x225.png",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/12/Alcohol-260x195.png",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/12/Alcohol-320x180.png",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/12/Alcohol.png"
+    ],
+    "url": "https://hot-thai-kitchen.com/thai-herb-infused-alcohol/",
+    "recipeIngredient": [
+        "Vodka (as much as you wish)",
+        "Herbs of your choice: Kaffir lime leaves, Thai chilies, Thai basil, lemongrass, ginger, etc."
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Wash and dry herbs well and let infuse in the vodka for 5 days, out of direct sunlight. Swirling the container once a day. For kaffir lime vodka, use 3 kaffir lime leaves for every cup of vodka; for spicy vodka, use 2 Thai chilies for every cup of vodka.",
+            "url": "https://hot-thai-kitchen.com/thai-herb-infused-alcohol/#instruction-step-1"
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "How to Infuse Alcohol with Herbs - Hot Thai Kitchen!.mp4",
+        "description": "Add a Thai flare to your cocktails with these simple infused alcohols!",
+        "duration": "PT3M46S",
+        "embedUrl": "https://video.mediavine.com/videos/ipdTizc4l.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681224900/ipdTizc4l.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--sm_zSD-s--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681224904/f1wyynomgd0sig4lmcdt.jpg"
+        ],
+        "uploadDate": "2020-12-11T05:11:43+00:00"
+    },
+    "datePublished": "2013-12-20",
+    "@id": "https://hot-thai-kitchen.com/thai-herb-infused-alcohol/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/thai-herb-infused-alcohol/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/thai-herb-infused-alcohol/",
+    "recipeCategory": []
+}

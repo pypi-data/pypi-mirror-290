@@ -1,0 +1,107 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Cap'n Crunch Chicken Fingers and Red Chile Bacon Caramel Dipping Sauce",
+    "url": "https://www.foodnetwork.com/recipes/capn-crunch-chicken-fingers-and-red-chile-bacon-caramel-dipping-sauce-2314462",
+    "headline": "Cap'n Crunch Chicken Fingers and Red Chile Bacon Caramel Dipping Sauce",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T16:07:19.722-05:00",
+    "dateModified": "2014-02-04T21:04:13.326-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Cereal,Chicken Recipes,Poultry,Main Dish,Deep-Frying",
+    "cookTime": "P0Y0M0DT0H35M0.000S",
+    "totalTime": "P0Y0M0DT1H0M0.000S",
+    "recipeIngredient": [
+        "2 boneless, skinless chicken breasts, cut into 8 strips",
+        "2 cups corn starch",
+        "1/2 cup flour",
+        "1/4 cup baking powder",
+        "2 cups ground sweetened corn breakfast cereal, such as Cap'n Crunch",
+        "2/3 cups ground panko",
+        "1 cup sugar",
+        "1 cup heavy cream",
+        "2 tablespoons diced cooked bacon",
+        "2 tablespoons Sriracha, plus more if needed",
+        "1 tablespoon red chile flakes",
+        "Canola or vegetable oil, for frying"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the batter, mix the corn starch, flour and baking powder, and then add 2 cups cold water."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the breading, combine the breakfast cereal and panko, and mix together in a mixing bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dissolve the sugar in 3 cups water on the stovetop, in pot set over low heat. Once dissolved, increase the heat to medium and cook until the mixture turns amber brown, 10 minutes. Remove from the heat and add the heavy cream, bacon, Sriracha and chile flakes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oil to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip the chicken slices into the batter, then into the breading. Deep-fry the chicken fingers 4 at a time until golden brown and cooked through. Serve with the red chile bacon caramel sauce."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "2 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jaclynstebar"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Amazing! The caramel recipe did not work so I used a caramel dipping sauce recipe from the Pioneer woman instead and added in the Sriracha sauce, chili flakes, and bacon. I could drink this spicy caramel sauce it is so good!"
+        }
+    ],
+    "recipeCategory": []
+}

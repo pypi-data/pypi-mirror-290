@@ -1,0 +1,99 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Lettuce wraps are always a crowd pleaser, but you should really try to switch up the fillings a bit. Chicken sausage is a perfect way to do it.",
+    "keywords": [
+        "wrap",
+        "ground chicken",
+        "thai chile",
+        "serrano chile",
+        "lettuce",
+        "weeknight meals",
+        "easy",
+        "main",
+        "dairy-free",
+        "nut-free",
+        "sauté",
+        "dinner",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Dale Talde",
+            "sameAs": "https://www.bonappetit.com/contributor/dale-talde"
+        },
+        {
+            "@type": "Person",
+            "name": "Romulo Yanes",
+            "sameAs": "https://www.bonappetit.com/contributor/romulo-yanes"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.2,
+        "ratingCount": 27
+    },
+    "description": "Lettuce wraps are always a crowd pleaser, but you should really try to switch up the fillings a bit. Chicken sausage is a perfect way to do it.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ae49861b33404414975cd2/master/w_940,h_500,c_limit/chicken-sausage-lettuce-wraps-940.jpg"
+    ],
+    "headline": "Chicken Sausage Lettuce Wraps",
+    "name": "Chicken Sausage Lettuce Wraps",
+    "recipeIngredient": [
+        "4 tablespoons fish sauce (such as nam pla or nuoc nam), divided",
+        "2 tablespoons fresh lime juice",
+        "2 tablespoons sugar",
+        "1 Thai chile or ½ serrano chile, with seeds, minced, divided",
+        "1 pound ground chicken, preferably dark meat",
+        "1/2 cup minced shallots (about 2 large)",
+        "1/4 cup oyster sauce",
+        "1 tablespoon all-purpose flour",
+        "1 garlic clove, minced",
+        "3 tablespoons vegetable oil, divided",
+        "1 head Bibb or romaine lettuce, leaves separated",
+        "Thinly sliced scallion (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine 2 Tbsp. fish sauce, lime juice, sugar, half of chile and seeds, and 2 Tbsp. water in a small bowl. Whisk to blend; set dipping sauce aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine remaining 2 Tbsp. fish sauce, remaining chile and seeds, chicken, shallots, oyster sauce, flour, and garlic in a medium bowl; mix until all ingredients are evenly incorporated. Using damp hands (to prevent the chicken mixture from sticking to your hands while forming the patties), shape chicken sausage mixture into eight 3\"-diameter patties (scant 2 1/2 oz. each). Place patties on a plate. Cover and chill for 30 minutes to allow flavors to meld."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat 1 1/2 Tbsp. oil in a medium heavy skillet over medium-high heat. Add 4 chicken sausage patties and cook until browned and cooked through, 3–4 minutes per side. Repeat with remaining 1 1/2 Tbsp. oil and 4 patties."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Wrap each patty in a lettuce leaf. Garnish with sliced scallion, if using. Serve wraps with dipping sauce."
+        }
+    ],
+    "prepTime": "30 minutes",
+    "totalTime": "1 minutes",
+    "recipeYield": "4 to 6 Servings",
+    "url": "https://www.bonappetit.com/recipe/chicken-sausage-lettuce-wraps",
+    "dateModified": "2012-08-13T20:00:00.000-04:00",
+    "datePublished": "2012-08-13T20:00:00.000-04:00",
+    "recipeCategory": []
+}

@@ -1,0 +1,60 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Sticky Baked Ham",
+    "keywords": "sticky baked ham",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/OmMvxdTl_0G_6-hYONQHzw_webp_base.webp?v=1371b2e0&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Balsamic vinegar adds the perfect complement to the traditional flavors of mustard and brown sugar for this glaze, creating a dark and caramelized coating for baked ham.",
+    "recipeIngredient": [
+        "1  5-8 lb. fully cooked ham half (shank or butt end)",
+        "1/2  cup packed brown sugar",
+        "1/4  cup balsamic vinegar",
+        "1/4  cup grainy Dijon mustard"
+    ],
+    "totalTime": "PT2H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "20",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "24",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Julie Van Rosendaal"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°F. Line a roasting pan with foil.   "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the ham in the roasting pan cut side down. Roast the ham uncovered for 1 (for a 5 lb. ham) to 2 hours hours (for an 8 lb. ham).  "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, combine the brown sugar, balsamic vinegar and mustard in a small bowl. Brush the ham with the glaze; continue roasting for an additional 30 minutes, basting with glaze every 10 minutes. Ham should be baked to an internal temperature of 140° F.  Remove from oven; let the ham rest for 15 minutes before carving.  Serve."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "220 ",
+        "carbohydrateContent": "6 g",
+        "cholesterolContent": "65 mg",
+        "fatContent": "0 ",
+        "fiberContent": "0 g",
+        "proteinContent": "25 g",
+        "saturatedFatContent": "3 1/2 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1780 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "09/08/2009",
+    "dateModified": "01/26/2011"
+}

@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/premium/mustard-brown-sugar-glazed-pork-ribs#Recipe",
+    "@type": "Recipe",
+    "description": "Fire up the barbecue for these meltingly tender, irresistible ribs coated in a punchy, sticky glaze. If rain stops play, you can also make them in the oven",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/04/Mustard-and-brown-sugar-glazed-pork-ribs-b6d8183.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/premium/mustard-brown-sugar-glazed-pork-ribs"
+    },
+    "name": "Mustard & brown-sugar-glazed pork ribs",
+    "url": "https://www.bbcgoodfood.com/premium/mustard-brown-sugar-glazed-pork-ribs",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ailsa Burt",
+            "url": "https://www.bbcgoodfood.com/author/ailsaburt"
+        }
+    ],
+    "dateModified": "2024-04-25T10:43:36+01:00",
+    "datePublished": "2024-04-25T10:43:36+01:00",
+    "headline": "Mustard & brown-sugar-glazed pork ribs",
+    "keywords": "barbecued ribs, Glazed ribs, Pork ribs, Ribs",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT3H35M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "738 calories",
+        "fatContent": "40 grams fat",
+        "saturatedFatContent": "17 grams saturated fat",
+        "carbohydrateContent": "31 grams carbohydrates",
+        "sugarContent": "29 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "59 grams protein",
+        "sodiumContent": "5.3 milligram of sodium"
+    },
+    "prepTime": "PT25M",
+    "recipeIngredient": [
+        "2 whole racks of pork baby back ribs (about 2kg)",
+        "150ml pale ale",
+        "50g butter or ghee",
+        "1 tbsp white wine vinegar",
+        "3 tbsp light brown soft muscovado sugar",
+        "50g wholegrain mustard",
+        "2-3 tbsp English mustard , or to taste",
+        "2 tsp smoked paprika",
+        "2 tsp garlic granules",
+        "2 tsp onion granules",
+        "2 tsp English mustard powder",
+        "1 tbsp fine sea salt",
+        "1 tsp ground black pepper",
+        "2 tbsp dark brown soft muscovado sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 160C/140C fan/gas 3. Mix all the rub ingredients together and set aside. To remove the membrane from the ribs, first pat them dry using kitchen paper. Ensuring they are rib-side up and starting from one end, carefully cut away a little of the membrane using a small, sharp knife until you can pinch it using a piece of kitchen paper. You should then be able to pull the membrane away completely. Repeat with the other rack of ribs. Rub the spice mix all over the ribs, then put in a large roasting tin (you can cut them in half to fit in the tin, if you need to). Pour the pale ale around the ribs, cover the tin tightly with foil and roast for 2 hrs 30 mins-3 hrs, or until tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt the butter or ghee, vinegar, sugar and both kinds of mustard together in a saucepan over a medium heat until the sugar has dissolved. Pour in any roasting juices from the tin and stir."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Light the barbecue and wait until the coals are ashen, or turn a gas barbecue to low heat. Cook for 4-5 mins on each side, basting continuously with the butter and sugar mixture until golden brown and sticky. Or, heat the oven to 220C/200C fan/gas 7 and brush half the butter mixture over the ribs. Roast for 15-20 mins, then flip over, baste with the remaining glaze and roast for a further 10-15 mins."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT4H",
+    "recipeCategory": []
+}

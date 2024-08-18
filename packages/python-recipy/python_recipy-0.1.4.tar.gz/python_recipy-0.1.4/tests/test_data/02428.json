@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Apple Jalousie Tart",
+    "datePublished": "2018-09-04T18:14:33.000-04:00",
+    "dateModified": "2022-03-21T16:26:49.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This apple tart tops the fruit with store-bought puff pastry rather than leaving it open-faced. It&#39;s visually-stunning and absolutely delicious.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/KT-xGQaoFbz7cHCsAk3zXhayd18=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/apple-jalousie-tart-martha-bakes-se10-puff-pastry-4059-v2-d113213_horiz-edc9cc94a481499dab0797c3d84997d9.jpgitok0FNVtTj7",
+        "height": 421,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Apple Jalousie Tart",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeIngredient": [
+        "5 apples, such as Empire, McIntosh or Cortland, peeled, halved, cored, and cut into 8 wedges",
+        "0.75 cup sugar",
+        "1 vanilla bean, seeds scraped",
+        "3 tablespoons cognac",
+        "1 teaspoon finely grated lemon zest, plus 2 tablespoons fresh juice",
+        "0.25 teaspoon kosher salt",
+        "2 teaspoons unbleached all-purpose flour",
+        "2 tablespoons unsalted butter, cut into small cubes",
+        "1 sheet puff pastry, preferably all-butter, thawed if frozen",
+        "1 large egg, lightly beaten",
+        "Sugar, for sprinkling",
+        "Vanilla ice cream, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Filling: Preheat oven to 350 degrees. In a large bowl, toss together apples, sugar, vanilla seeds, cognac, lemon zest and juice, salt, and flour. Transfer to a 13-by-9-inch baking dish and dot with butter. Bake until apples are tender, about 40 minutes. Let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pastry: Increase oven temperature to 400 degrees. Roll out pastry to a 16 1/2-by-12 1/2-inch rectangle on a piece of parchment. Using the tip of a paring knife, lightly score pastry into thirds, being careful not to cut all the way through. Cut 3/4-inch-wide strips along the two outer thirds, reserving center third for the filling. Be careful not to cut into the scored lines. Transfer to a baking sheet (if pastry becomes too soft, freeze until firm)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange filling evenly in center third of pastry. Freeze 20 minutes. Combine egg with 1 teaspoon water; lightly brush strips with egg wash. Alternating from one side to the other, fold strips evenly over filling in an overlapping pattern."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a parchment-lined room-temperature baking sheet. Lightly brush top with egg wash and generously sprinkle with sugar. Bake 20 minutes, then reduce oven temperature to 350 degrees and bake 20 minutes more. Switch oven to broiler setting; broil until sugar is caramelized, 2 to 3 minutes (watch carefully to prevent burning). Let cool to room temperature. Slice and serve with vanilla ice cream, if desired."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1531402/apple-jalousie-tart",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1531402/apple-jalousie-tart",
+                        "name": "Apple Jalousie Tart"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Retro Rum Punch",
+    "datePublished": "2018-10-17T21:15:48.000-04:00",
+    "dateModified": "2023-11-11T16:03:26.210-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Get every holiday party going with this retro punch recipe. Two kinds of rum, cranberry juice, and pineapple juice make for a seriously sippable punch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/3_56Tfa80oqrANlfwUcSwKqQXLQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/retro-rum-punch-sl-41f6f67dfdd74cc59f7fb218e564f161.jpg",
+        "height": 1000,
+        "width": 1000
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Retro Rum Punch",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "2"
+    },
+    "keywords": "retro rum punch",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 cup dark spiced rum",
+        "1 cup white rum",
+        "2 cups pineapple juice",
+        "2 cups cranberry juice",
+        "2 (12-oz.) bottles ginger beer or ale",
+        "Ice",
+        "Garnishes: frozen cranberries and sliced pineapple"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together spiced rum, white rum, pineapple juice, cranberry juice, and beer in a punch bowl. Add ice, and garnish, if desired. Serve liberally."
+        }
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/retro-rum-punch",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks",
+                        "name": "Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/retro-rum-punch",
+                        "name": "Retro Rum Punch"
+                    }
+                }
+            ]
+        }
+    }
+}

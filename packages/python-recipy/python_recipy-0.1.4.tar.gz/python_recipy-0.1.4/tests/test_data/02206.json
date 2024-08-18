@@ -1,0 +1,170 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate Hazelnut (Better than Nutella) Gelato Recipe",
+    "datePublished": "2013-04-05T06:15:00.000-04:00",
+    "dateModified": "2020-04-15T14:31:18.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Max Falkowitz",
+            "url": "https://www.seriouseats.com/max-falkowitz-5118901"
+        }
+    ],
+    "description": "Incredibly rich and creamy gelato that tastes so fully of chocolate and hazelnuts that you won&#39;t need to touch Nutella again.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/34sic_rXnBJuix3NQGHEDE_ZFMw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__20130402-chocolate-hazelnut-gelato-31c0305d8db641fba69a86d1ec1d499b.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Chocolate Hazelnut (Better than Nutella) Gelato Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "1"
+    },
+    "keywords": "chocolate, gelato, gianduja, ice cream, nutella, Scooped",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "583 kcal",
+        "carbohydrateContent": "40 g",
+        "cholesterolContent": "21 mg",
+        "fiberContent": "6 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "155 mg",
+        "sugarContent": "30 g",
+        "fatContent": "46 g",
+        "servingSize": "makes 1 quart",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 pound (about 3 cups) roasted hazelnuts",
+        "2 tablespoons neutral flavored oil",
+        "2 1/4 ounces (about 3/4 cup) Dutch process cocoa",
+        "1 cup sugar",
+        "3/4 teaspoon kosher salt",
+        "2 cups half-and-half"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a food processor, grind hazelnuts until they form a paste, about 5 minutes. Hazelnuts will first grind into tiny crumbs, then clump into an oily ball, then break down into an oily paste. When they do, oil with processor running and keep running until a smooth paste is formed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cocoa, sugar, and salt to food processor and pulse until ingredients just begin to combine, about 5 short pulses. Turn on processor and let run until very well combined, about 30 seconds. Add half and half to food processor and blend until half and half is well incorporated into hazelnut paste. Taste for seasoning and add salt if necessary."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour mixture through a fine mesh strainer into an airtight container and chill in refrigerator until cold, about 3 hours. Churn in ice cream maker according to manufacturer&#39;s instructions. Serve immediately as soft serve or let harden in freezer for at least 4 hours to serve as gelato. For longer chilling times, let ice cream soften on counter for 10 minutes or so before serving."
+        }
+    ],
+    "recipeYield": [
+        "8",
+        "1 quart"
+    ],
+    "totalTime": "PT240M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lizzardsm"
+            },
+            "reviewBody": "After making this gelato, I found the flavors to be extremely unbalanced. The hazelnut overwhelmed the batter. In an attempt to get the recipe to taste more like actual nutella (and not hazelnut gelato), I added 1/2 unsweetened cocoa and an 1/4 of sugar. The mix of dutch processed cocoa with unsweetened cocoa gives a rich chocolatey flavor that mixes nicely with the hazelnut."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Geoff Stuart"
+            },
+            "reviewBody": "@lizzardsm I wish you had specified your measurements more clearly. Do you mean 1/2 \"as much\" unsweetened cocoa, or \"an extra 1/2\", or \"1/2 cup\", or what? Same goes for your \"an 1/4 of sugar\". What does that mean?\n\nThanks!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Max Falkowitz"
+            },
+            "reviewBody": "@stylefriendly Not really&#8212;different flavor profile.\n\n@withaph Yes, removing the skins by rubbing them with a cloth towel works great. No need to remove every last ounce of skin though."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "withaph"
+            },
+            "reviewBody": "Hi, should I be toasting and removing the skins before processing, or can I just use roasted hazelnuts straight out of the bag? \n\nThanks!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "stylefriendly"
+            },
+            "reviewBody": "Is it possible to use hazelnut flour instead of whole hazelnuts?"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/chocolate-hazelnut-nutella-gelato-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dessert-recipes-5117878",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/ice-cream-recipes-5117867",
+                        "name": "Ice Cream"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/chocolate-hazelnut-nutella-gelato-recipe",
+                        "name": "Chocolate Hazelnut (Better than Nutella) Gelato Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

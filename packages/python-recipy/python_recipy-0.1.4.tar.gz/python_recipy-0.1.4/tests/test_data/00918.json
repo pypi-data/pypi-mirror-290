@@ -1,0 +1,154 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/sicilian-mac-cheese/",
+    "name": "Sicilian Mac & Cheese",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-09-13",
+    "prepTime": "PT45M",
+    "cookTime": "PT20M",
+    "totalTime": "PT01H05M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Sicilian-Mac-Cheese_EXPS_CIMZ18_67896_C09_07_7b-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "To give our mac and cheese a Sicilian touch, we mix sausage, basil and fennel with three cheeses for an incredibly comforting casserole. &mdash;Michael Cohen, Los Angeles, California ",
+    "recipeIngredient": [
+        "1 package (16 ounces) elbow macaroni",
+        "4 Italian sausage links (4 ounces each)",
+        "1/2 cup water",
+        "1/2 cup butter",
+        "1/4 cup all-purpose flour",
+        "2 cups half-and-half cream",
+        "2 cups shredded part-skim mozzarella cheese",
+        "2 cups grated Parmesan cheese",
+        "2 large eggs",
+        "2 cups 2% milk",
+        "2 cups loosely packed basil leaves, chopped",
+        "1 tablespoon fennel seed, toasted",
+        "2 garlic cloves, minced",
+        "1 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1 cup shredded Romano cheese",
+        "Additional chopped fresh basil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350&deg;. Cook pasta according to package directions for al dente."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a Dutch oven, brown sausages on all sides, about 5 minutes. Reduce heat to medium-low; add water. Cook, covered, until a thermometer reads 160&deg;, about 10-15 minutes. Remove from pan; slice sausages."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the same pan, melt butter over medium heat. Stir in flour until smooth; gradually whisk in cream. Bring to a boil, stirring constantly; cook and stir until thickened, 1-2 minutes. Stir in mozzarella and Parmesan cheese until melted; remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a large bowl, whisk eggs and milk until blended. Stir in basil, fennel seed, garlic, salt, pepper and cooked sausage. Add to Dutch oven. Drain pasta and add to cheese mixture immediately; toss to coat. Sprinkle with Romano cheese. Bake, uncovered, until a thermometer reads 160&deg;, 20-25 minutes. Sprinkle with additional basil."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 814 calories",
+        "fatContent": "49g fat (25g saturated fat)",
+        "cholesterolContent": "189mg cholesterol",
+        "sodiumContent": "1610mg sodium",
+        "carbohydrateContent": "56g carbohydrate (8g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "37g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-10-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MarieProvetto"
+            },
+            "reviewBody": "This was very tasty, but I will say I had to adjust this recipe. First adding raw garlic to cook for 20 minutes does not work. I sautés the garlic and onion prior to adding. Next time I will not add either, I will use garlic granulated and onion granulated, I will also, increase the sausages This was also very very rich",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-03-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "EricKiersky"
+            },
+            "reviewBody": "Came out great! Added a chopped up onion to the sausages right before removing them from the dutch oven. About doubled the sausage amount.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-11-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "AdeleFarough"
+            },
+            "reviewBody": "Nice idea, but I would do this way differently. I would use mascarpone cheese to make this creamy.  Also, I would sauté the garlic for one minute before adding it to the casserole. Nevertheless, it's a good inspiration.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-03-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "CyanController"
+            },
+            "reviewBody": "Delish! We swapped spinach for basil since that's what we had. Will definitely make again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, Italian"
+}

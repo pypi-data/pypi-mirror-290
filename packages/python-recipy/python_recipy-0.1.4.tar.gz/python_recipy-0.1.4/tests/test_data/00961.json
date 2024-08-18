@@ -1,0 +1,114 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/air-fryer-jamaican-beef-patties/",
+    "name": "Air-Fryer Jamaican Beef Patties",
+    "datePublished": "2021-05-25",
+    "dateModified": "2023-08-04",
+    "prepTime": "PT35M",
+    "cookTime": "PT25M",
+    "totalTime": "PT60M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2021/04/EXPS_RC20_252533_E08_26_4b_BasedOn.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "My mom was born in Jamaica and lived there until she moved to the United States during her university years. Cooking this Jamaican beef patty recipe in the air fryer makes it even simpler to enjoy the savory, spicy flavor and flaky pastry. —Natasha Watson, Douglasville, Georgia",
+    "recipeIngredient": [
+        "1 pound ground beef",
+        "1 medium onion, chopped",
+        "1 teaspoon curry powder",
+        "1 teaspoon dried thyme",
+        "1 teaspoon pepper",
+        "3/4 teaspoon salt",
+        "CRUST:",
+        "2 cups all-purpose flour",
+        "1-1/2 teaspoons curry powder",
+        "Dash salt",
+        "1/2 cup cold butter",
+        "1/3 cup ice water",
+        "1 large egg, lightly beaten"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, cook beef and onion over medium heat until beef is no longer pink and onion is tender, 6-8 minutes, breaking up beef into crumbles; drain. Stir in curry powder, thyme, pepper and salt; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For crust, in a large bowl, whisk together flour, curry powder and salt. Cut in butter until mixture resembles coarse crumbs. Add water; stir just until moistened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat air fryer to 350°. Divide dough into 8 portions. On a lightly floured surface, roll each portion into a 6-in. circle. Place about 1/4 cup filling on 1 half of each circle. Fold crust over filling. Press edges with a fork to seal."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In batches if necessary, place in a single layer on greased tray in air-fryer basket; brush with beaten egg. Cook until golden brown, 22-25 minutes. Remove to wire racks. Serve warm."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 336 calories",
+        "fatContent": "19g fat (10g saturated fat)",
+        "cholesterolContent": "89mg cholesterol",
+        "sodiumContent": "373mg sodium",
+        "carbohydrateContent": "26g carbohydrate (1g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "14g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-08-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Maria0960"
+            },
+            "reviewBody": "<p>I have been making pies for over 40 years, and this is the worst dough I've ever worked with. It is simultaneously so wet that it sticks to the rolling pin, while also being so dry that it breaks every time you touch it.  It's a miracle of chemicals solids, on par with Newtonian fluids. Crimp the edge with a fork? Right. It falls right off. Never again. </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-11-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Lady"
+            },
+            "reviewBody": "Happy thanksgiving \nI made my Haitian Patties using your concept of using an airfryer- it took my cooking down by a whole extra 20 minutes.\nThanks a lot",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Caribbean, Jamaican"
+}

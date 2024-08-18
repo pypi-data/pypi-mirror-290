@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Mike's Fried Chicken",
+    "url": "https://www.foodnetwork.com/recipes/mikes-fried-chicken-recipe-2105012",
+    "headline": "Mike's Fried Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-19T00:01:29.332-05:00",
+    "dateModified": "2014-01-10T17:30:58.923-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Fried Chicken,Chicken Recipes,Poultry,High Fiber,Low-Fat",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "prepTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT0H40M0.000S",
+    "recipeIngredient": [
+        "Breasts, wings, legs and thighs from 2 chickens",
+        "2 1/2 pounds all-purpose flour ",
+        "1 cup seasoned salt (recommended: Season-All)",
+        "1/2 cup poultry seasoning",
+        "1/2 cup dill weed (for that unexpected flavor)",
+        "1/4 cup rubbed sage",
+        "1/4 cup garlic powder",
+        "1/4 cup ground black pepper"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "826",
+        "fatContent": "8g",
+        "saturatedFatContent": "2g",
+        "carbohydrateContent": "159g",
+        "fiberContent": "10g",
+        "sugarContent": "1g",
+        "proteinContent": "28g",
+        "cholesterolContent": "25mg",
+        "sodiumContent": "569mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat enough canola oil to come about 4 inches up the sides of a deep-fryer to 275 degrees F. Combine all of the dry ingredients in a large bowl. Wash and pat dry the chicken parts. Dip the chicken in the dry mixture and shake off the excess. Carefully add the chicken, in batches, to the hot oil and fry until golden brown, about 25 to 35 minutes. Chicken will float when done. Drain on paper towels, then arrange the chicken pieces on a serving platter and serve."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 2.8,
+        "reviewCount": 5
+    },
+    "recipeYield": "6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I was wondering the same thing about temp. So how about asking Mike?  Mr. Tate?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mizjmassie"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I have always heard that the idea oil temp for chicken should be between 360 and 375 degrees. I wouldn't fry my chicken at anything less because it would get to greasy from absorbing too much oil. I usually don't write in without making something because I don't want to effect the rating. I think the Foodnetwork should make it where you can review something or ask questions without rating it. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "berngirl"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I agree with the previous review. The 275F sounds very low, considering that when you put the chicken in,it will lower the temperature even more. That will cause the chicken to absorb lots of the oil?"
+        }
+    ],
+    "recipeCategory": []
+}

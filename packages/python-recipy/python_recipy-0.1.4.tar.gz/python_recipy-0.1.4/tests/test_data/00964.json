@@ -1,0 +1,52 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/honey-bourbon-hot-chocolate/",
+    "name": "Honey-Bourbon Hot Chocolate",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Honey-Bourbon-Hot-Chocolate_EXPS_THCA18_163296_C09_22_7b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "My husband and I like to enjoy this grown-up version of hot chocolate on a cold winter evening. It's even better made with honey-flavored bourbon if you can find that in your local store. —Andrea Harvath, Duncannon, Pennsylvania",
+    "recipeIngredient": [
+        "4 cups whole milk",
+        "4 ounces bittersweet chocolate, chopped",
+        "2 tablespoons honey",
+        "1/4 cup bourbon",
+        "2 teaspoons vanilla extract",
+        "Whipped cream and baking cocoa, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, heat milk over medium heat until bubbles form around sides of pan. Remove from heat; whisk in chocolate and honey until chocolate is completely melted. Return to heat; cook and stir until heated through."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from heat; stir in bourbon and vanilla. If desired, top with whipped cream; sprinkle with cocoa."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 376 calories",
+        "fatContent": "18g fat (11g saturated fat)",
+        "cholesterolContent": "24mg cholesterol",
+        "sodiumContent": "106mg sodium",
+        "carbohydrateContent": "25g carbohydrate (23g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "10g protein. "
+    }
+}

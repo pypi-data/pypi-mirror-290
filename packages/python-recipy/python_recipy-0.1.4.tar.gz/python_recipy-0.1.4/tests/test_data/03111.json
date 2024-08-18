@@ -1,0 +1,135 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/chocolate-granola-apple-wedges",
+    "name": "Chocolate-Granola Apple Wedges",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2011%2F08%2F10%2Fchocolate-granola-apple-wedges-ck-x.jpg",
+        "width": 420,
+        "height": 420
+    },
+    "datePublished": "2011-08-10T20:38:01.000Z",
+    "description": "If you can't find Braeburn apples, Gala or Fuji varieties also stand up to dipping and add a touch more sweetness.",
+    "prepTime": null,
+    "cookTime": null,
+    "totalTime": null,
+    "recipeYield": "Serves 4 (serving size: 4 apple wedges)",
+    "recipeIngredient": [
+        "2 ounces semisweet chocolate, finely chopped",
+        "⅓ cup low-fat granola without raisins",
+        "1 large Braeburn apple, cut into 16 wedges"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place chocolate in a medium microwave-safe bowl. Microwave at HIGH 1 minute, stirring every 15 seconds, or until chocolate melts.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place granola in a shallow dish. Dip apple wedges, skin side up, in chocolate; allow excess chocolate to drip back into bowl. Dredge wedges in granola. Place wedges, chocolate side up, on a large plate. Refrigerate 5 minutes or until set.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ivy Manning"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.71,
+        "reviewCount": 4,
+        "ratingCount": 7,
+        "itemReviewed": "Chocolate-Granola Apple Wedges",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "132 calories",
+        "carbohydrateContent": "23.9 g",
+        "cholesterolContent": null,
+        "fatContent": "4.8 g",
+        "fiberContent": "2.6 g",
+        "proteinContent": "1.5 g",
+        "saturatedFatContent": "2.6 g",
+        "servingSize": null,
+        "sodiumContent": "22 mg",
+        "sugarContent": null,
+        "transFatContent": null,
+        "unsaturatedFatContent": null
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "datePublished": "2015-06-13T21:35:50.000Z",
+            "reviewBody": "While this is tasty, wanted to point out a few things for those who are calorie conscious. Note that this calls for cutting the apple into 16 wedges. Make sure you get a really big apple, otherwise it's a pain to divide a smaller apple into that many wedges since you'll probably be cutting by hand as a typical apple wedge-core device only cuts 10 sections of apple. Note that a serving is 1/4 of the apple, 4 fairly thin wedges. I'm not a huge dark chocolate fan, but the sweetness of the apple and the granola really help temper the bittersweetness of the dark chocolate, so this one made the cut. All in all, a good snack for satisfying a chocolate craving or late night hunger.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 4
+            },
+            "author": {
+                "@type": "Person",
+                "name": "laceyinkeller",
+                "image": null,
+                "sameAs": null
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2013-11-07T17:02:40.000Z",
+            "reviewBody": "Brilliant! I used toasted coconut since I didn't have granola. It was great with coconut. You could use crystallized ginger bites, sprinkles, or anything with a crumb texture. Tasty!",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "ajvinande",
+                "image": null,
+                "sameAs": null
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2012-09-16T05:45:21.000Z",
+            "reviewBody": "Super Simple!  I was craving a Godiva chocolate and opted for this home treat instead.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "gumdropgirl",
+                "image": null,
+                "sameAs": null
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2012-04-02T05:40:30.000Z",
+            "reviewBody": "Simple to make and delicious!  We prefer dark chocolate and Archer Farms French Vanilla Almond Crunch granola.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "crusnock",
+                "image": null,
+                "sameAs": null
+            }
+        }
+    ]
+}

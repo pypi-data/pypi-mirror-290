@@ -1,0 +1,395 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023345-harissa-and-miso-spaghetti#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023345-harissa-and-miso-spaghetti",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/07/19/dining/nb-harissa-and-miso-spaghetti/merlin_207641916_48213b78-6e51-42f6-bb5c-8299bef1d334-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023345-harissa-and-miso-spaghetti",
+    "name": "Harissa and Miso Spaghetti",
+    "description": "In this recipe, harissa and miso turn spaghetti into a comforting meal reminiscent of carbonara. Together, these two condiments bring sweetness, a touch of heat and just enough umami to call for a second serving. The bread crumbs are optional but they are totally recommended; they can be prepared in advance and kept for two days in a sealed container.",
+    "author": {
+        "@type": "Person",
+        "name": "Nargisse Benkabbou"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/07/19/dining/nb-harissa-and-miso-spaghetti/nb-harissa-and-miso-spaghetti-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/19/dining/nb-harissa-and-miso-spaghetti/merlin_207641916_48213b78-6e51-42f6-bb5c-8299bef1d334-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/19/dining/nb-harissa-and-miso-spaghetti/merlin_207641916_48213b78-6e51-42f6-bb5c-8299bef1d334-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/19/dining/nb-harissa-and-miso-spaghetti/nb-harissa-and-miso-spaghetti-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "harissa, miso paste, parmesan, healthy, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1048
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 603,
+        "unsaturatedFatContent": "16 grams",
+        "carbohydrateContent": "72 grams",
+        "cholesterolContent": null,
+        "fatContent": "24 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "24 grams",
+        "saturatedFatContent": "6 grams",
+        "sodiumContent": "598 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 tablespoon fine sea salt",
+        "12 ounces dry spaghetti ",
+        "2 tablespoons white miso paste",
+        "2 tablespoons harissa ",
+        "2 tablespoons olive oil",
+        "3 large eggs ",
+        "2 1/2 ounces (about 1 1/2 cups) finely grated Parmesan (Parmigiano-Reggiano) ",
+        "2 tablespoons olive oil ",
+        "1/2 cup bread crumbs, preferably panko  ",
+        "1/2 teaspoon dried parsley (or 1 1/2 teaspoons finely chopped fresh parsley)",
+        "Generous pinch of fine sea salt "
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the pasta: Place a large pot of water over high heat, add the salt and bring to a boil. Cook the pasta according to the package instructions until it’s almost al dente. Reserve 1 cup of cooking water and drain the pasta. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the pasta cooks, make the bread crumbs, if desired: Heat the olive oil in a medium frying pan over medium high, add the bread crumbs, parsley and salt, and stir to coat. Stir constantly until golden brown, 2 to 3 minutes. Transfer the bread crumbs to a small container and keep until ready to use. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the miso paste, harissa and olive oil to a medium bowl. Add 3 tablespoons of the reserved pasta cooking water and whisk together until well combined and smooth. Add the eggs and whisk again until well combined. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the drained pasta back to the pot over low heat. Add the harissa mixture and the grated Parmesan, and stir vigorously. (This is important to prevent the eggs from scrambling.) Add a couple tablespoons of the cooking water (or more if necessary) and continue stirring to obtain a creamy sauce that coats all the pasta, about 1 to 2 minutes. Immediately remove from the heat. Taste and season with salt if necessary. Serve right away, with bread crumbs, if using."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie"
+            },
+            "reviewBody": "Pretty sure it's user error but does anyone have any advice on 1. Serving a carbonara or equivalent hot to the table? Even just by putting the rest of the dishes in the sink and sitting down, the meal's pretty cold. 2. Unmushing the bread crumbs? I think maybe I've undertoasted but would like some advice.",
+            "datePublished": "2024-05-11T11:19:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "I don’t understand how the photo for this dish looks so light. The harissa I got is bright orange and my pasta turned out the same. Why does mine look so different from the photo???",
+            "datePublished": "2024-05-07T03:14:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lance"
+            },
+            "reviewBody": "This was my first time using harissa, which I picked up from Trader Joe's, and 2T is way too much.  I have a very high spice tolerance so I was barely able to eat the dish while everyone else in the house ended up with buttered noodles instead.  Maybe other brands are not as spicy but I would suggest cutting the harissa in half, at most.  Otherwise I thought it was great and would eat again.",
+            "datePublished": "2024-03-25T21:29:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "I couldn’t get my hands on harissa paste so I substituted a tablespoon of harissa powder reconstituted with some garlic and olive oil in a pan. This worked out great; I definitely recommend a spicier harissa as the heat adds some nuance.",
+            "datePublished": "2024-03-17T22:53:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jbt6"
+            },
+            "reviewBody": "I didn't have any cheese so I used nutritional yeast as cheese substitute.  Tasted great.",
+            "datePublished": "2024-03-11T01:18:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chase"
+            },
+            "reviewBody": "I used one tablespoon of harissa paste (Casablanca was the brand) - and it was the perfect amount of heat for the family. Kids loved it. I was careful to temper the eggs. Helps to start with room temp ingredients. And I did temper over the steam for the pasta. Delicious!!!",
+            "datePublished": "2024-02-26T16:01:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pasta Optional"
+            },
+            "reviewBody": "I followed this recipe exactly. It could use a clove of mashed garlic and a touch of acidity, maybe lemon? When it comes to the note that the breadcrumbs are optional I assure you they are not. They are the star. In my opinion the pasta is optional.",
+            "datePublished": "2024-02-25T01:49:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lm"
+            },
+            "reviewBody": "This recipe is SO good. The flavor combination was unexpected for me and I was skeptical of how it would come together, but it really works. We added chicken meatballs for a little extra protein, and some okra. A new favorite weeknight dinner recipe for us!",
+            "datePublished": "2024-02-13T03:32:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dre T."
+            },
+            "reviewBody": "I think more/better breadcrumbs would've elevated this dish for me, perhaps. What I ended up with was a rather bland and flavorless (featuring Harissa, to boot) creamy spaghetti concoction that was oversauced with slightly clumped eggy bits at the bottom of the pan.",
+            "datePublished": "2023-11-27T16:35:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jani"
+            },
+            "reviewBody": "Easy and delicious pantry meal.",
+            "datePublished": "2023-11-08T01:14:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dave"
+            },
+            "reviewBody": "Made this exactly as written and it was delicious.  It will be made again.  Easily see this as a quick weeknight dinner but would also happily serve it as part of a dinner party. Versatile, quick and tasty.",
+            "datePublished": "2023-10-17T21:39:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Not Insane"
+            },
+            "reviewBody": "The flavours are interesting but not really good. For spicy pasta simple garlic and chili pasta si simpler and better.",
+            "datePublished": "2023-09-16T14:28:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carolyn g"
+            },
+            "reviewBody": "I’d already begun cooking when I realized I was out of miso. I substituted Tahini and soy sauce and it was delicious. Roasted kale on the side made it a perfect meal.",
+            "datePublished": "2023-09-08T01:57:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deborah G."
+            },
+            "reviewBody": "Added some cooked diced ham and peas to bump up the nutritional content.  Great dinner for a weeknight!",
+            "datePublished": "2023-09-07T23:29:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jani"
+            },
+            "reviewBody": "So good. Use the best pasta you have. This recipe is going into regular menu planning.",
+            "datePublished": "2023-07-28T23:53:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "maxcan"
+            },
+            "reviewBody": "This is a take on carbonara. But, the sequencing is wrong. Start with the bread crumbs. Then place the sauce ingredients in a SS bowl large enough to fit over the pasta pot. Boil the salted water and add the pasta. Place the SS bowl over the pasta pot (place a wooden spoon in the pasta pot to let steam escape) and whisk vigorously until a nappe is formed on the back of a wooden spoon. Drain the pasta directly in the sauce with a pasta spoon and stir, add as much pasta water as needed.",
+            "datePublished": "2022-07-31T17:04:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "Easy to hide a 5 oz bag of greens in this, the flavors hold up.",
+            "datePublished": "2022-07-31T17:39:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tiffany G"
+            },
+            "reviewBody": "I'm allergic to eggs, so I used liquid JUST egg and it turned out great!",
+            "datePublished": "2022-08-01T12:01:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "You'll want harissa in a jar not powdered harissa as I see some mention.  Look for brands like Mina, Villa Jerada, Casablanca that are easy to find even in standard grocery stores these days or can be ordered online too.  NY Shuk also makes a good one that can be ordered.  Trader Joe's has a one with their label on it that I've not tried but widely available.  And \"know thy harissa\" for heat level.  Some can be really hot.",
+            "datePublished": "2022-08-02T14:26:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Randi"
+            },
+            "reviewBody": "I was planning to make Melissa Clark’s pasta with tuna when I saw this recipe so decided to combine the two recipes. I added the tuna in at the end, omitted the cheese and it was delicious! The breadcrumbs are a must!",
+            "datePublished": "2022-08-01T11:40:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "G. Smith"
+            },
+            "reviewBody": "Made a vegan version by tossing the hot pasta with 3 T. vegan butter along with the miso & harissa, and then using more pasta cooking water (about 1/2 cup) to create a loose sauce. Didn't have any vegan cheese or egg substitute on hand, but didn't feel it was missing anything without them. Doubled the breadcrumbs and was glad I did - they add a lot. Result was quite tasty - a very quick and easy pantry meal that's good to have in the rotation - would be nice with added greens or chickpeas.",
+            "datePublished": "2022-12-13T05:44:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cathleen"
+            },
+            "reviewBody": "I used paste and it turned out well",
+            "datePublished": "2022-07-28T01:00:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael L"
+            },
+            "reviewBody": "I have a decent heat tolerance but this skews a little hot if you use 2tbsp of harissa powder.  Turn that powder into paste with 1tbsp harissa and 1tbsp oil.\n\nProbably not my go-to pasta dish but it was a fun fusion of Italian, Middle Eastern, and Japanese.  Make it with Melissa Clark's fresh egg pasta!",
+            "datePublished": "2022-08-02T02:36:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Guy R."
+            },
+            "reviewBody": "It’s harissa paste everyone",
+            "datePublished": "2022-07-31T20:46:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "This was a huge hit in our house! Subbed out harissa paste for sambal oelek because that's what I had on hand. Added a bag of spinach in at the end based on one of the comments and enjoyed having the bonus greens. Do not skip the breadcrumbs!",
+            "datePublished": "2022-08-07T14:17:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "melissa"
+            },
+            "reviewBody": "I made this as a “pantry/clean out the fridge” meal and adapted to use what I had on hand: 2 eggs instead of 3, red miso (stronger flavor, still delicious), and half the Parmesan recipe called for. Came out great. Don’t skip breadcrumbs. Delicious.",
+            "datePublished": "2022-08-10T23:44:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "Incredible! I substituted vegan cheese (ground cashews, nutritional yeast, sea salt,onion powder, garlic powder) for Parmesan. Had pecorino Romano to sprinkle on the finished dish for a guest who likes cheese. I made the bread crumbs. For the final quick heating of harissa, miso, olive oil, cheese and eggs with pasta added shrimp and spinach - stirring constantly for 3 minutes. It was great! Sprinkled mirin  on the final dish. Used Tunisian harissa  by Moulins Manjous - sweeter and less hot.",
+            "datePublished": "2022-08-14T03:54:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "arlyn"
+            },
+            "reviewBody": "Tasty, but WAY too salty; the miso was salty; the harissa was salty; the cheese was salty; the panko didn’t need it. Next time I won’t use any salt at all!",
+            "datePublished": "2022-08-15T01:11:00.000Z"
+        }
+    ]
+}

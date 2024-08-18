@@ -1,0 +1,97 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Durian and Sticky Rice ข้าวเหนียวทุเรียน",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/07/Durian-sticky-rice-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/07/Durian-sticky-rice-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/07/Durian-sticky-rice-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/07/Durian-sticky-rice-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/",
+    "recipeIngredient": [
+        "1 cup Thai white glutinous rice (also called Thai sweet rice)",
+        "⅔ cup coconut milk",
+        "½ tsp salt",
+        "⅓  cup of sugar",
+        "1 ½ cup coconut milk",
+        "50g - 75g palm sugar (see note)",
+        "¼ tsp salt",
+        "4-6 pc durian",
+        "Note:  Start with 50g and taste and adjust from there. If your durian is quite sweet, the broth doesn't need to be that sweet. "
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "For the sticky rice: ",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Wash the rice by vigorously swishing the rice in a bowl of cold water about 5 times or until the water runs clear. Let soak in water for at least 4 hours or overnight. Drain the rice very well and steam the rice for 20-25 minutes.",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "While the rice is cooking, make the coconut syrup to macerate the rice by combining the coconut milk, sugar, and salt in a small pot and cook over medium heat, stirring occasionally, just until the sugar is dissolved. If the coconut milk is done before the rice is done, keep covered so it stays warm.",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "When the rice is done, transfer it into a bowl and immediately pour the syrup over the rice. Stir and break up any lumps, then cover the bowl. Let it sit and absorb the liquid for at least 40 minutes (longer is better), but after 20 minutes fold the rice to bring the bottom up to the top so the syrup is better distributed. Keep covered at room temp until ready to serve.",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-3"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "For the Durian Broth:",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine the coconut milk, sugar and salt in a small pot. Cook the syrup over medium heat until the sugar is completely dissolved, and the coconut milk comes to a boil. Turn off the heat then add chunks of durian meat into the hot syrup and let it sit and infuse, covered, for another 20 minutes or so before serving.",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Note: Some people like to simmer the durian in the coconut broth, and it is an option for you, but I prefer the \"steeping\" method because I like my durian chunks to remain fresh and intact. However, If you want to be able keep the durian broth for a while, bring the broth to a brief simmer after adding the durian. This will kill off all the bugs and you will be able to keep it longer. This is not necessary if you're going to eat it within a few days. ",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Join us on Patreon for bonus content &amp; rewards!",
+                    "url": "https://hot-thai-kitchen.com/durian-sticky-rice/#instruction-step-6"
+                }
+            ]
+        }
+    ],
+    "recipeYield": [
+        "4",
+        "Serves 4-6"
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Durian and Sticky Rice Recipe ข้าวเหนียวทุเรียน - Hot Thai Kitchen!.mp4",
+        "description": "A classic Thai dessert recipe, especially for durian lovers! A sweet coconut-durian broth is poured over chewy sticky rice...this is such a comforting, heart-warming dessert that is super easy. And if you already know how to make mango sticky rice, this recipe will be a breeze!",
+        "duration": "PT8M43S",
+        "embedUrl": "https://video.mediavine.com/videos/iSong1c6i.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681226594/iSong1c6i.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--fP1YRWfw--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681226599/ocdwxbuoprgk3af9fd0w.jpg"
+        ],
+        "uploadDate": "2020-12-02T01:54:17+00:00"
+    },
+    "datePublished": "2017-07-07",
+    "@id": "https://hot-thai-kitchen.com/durian-sticky-rice/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/durian-sticky-rice/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/durian-sticky-rice/",
+    "recipeCategory": []
+}

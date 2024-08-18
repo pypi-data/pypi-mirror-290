@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Tomato-Lentil Soup",
+    "keywords": "tomato-lentil soup",
+    "recipeCategory": "Lunch",
+    "image": "https://mojo.generalmills.com/api/public/content/A9hosOG3VEOR5eXmpx8L0A_webp_base.webp?v=cf4e378c&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Take off winter's chill with a bowl of steaming, nourishing, veggie-packed soup.",
+    "recipeIngredient": [
+        "1  tablespoon olive or vegetable oil",
+        "1  large onion, finely chopped (1 cup)",
+        "1  medium stalk celery, cut into 1/2-inch pieces",
+        "2  cloves garlic, finely chopped",
+        "2  medium carrots, cut into 1/2-inch pieces (1 cup)",
+        "1  cup dried lentils (8 oz), sorted, rinsed",
+        "4  cups water",
+        "4  teaspoons vegetable bouillon granules",
+        "1  teaspoon dried thyme leaves",
+        "1/4  teaspoon pepper",
+        "1  dried bay leaf",
+        "1  can (28 oz) Muir Glen™ organic diced tomatoes, undrained"
+    ],
+    "totalTime": "PT0H50M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "25",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 3-quart saucepan, heat oil over medium-high heat. Add onion, celery and garlic; cook about 5 minutes, stirring occasionally, until softened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in remaining ingredients except tomatoes. Heat to boiling. Reduce heat; cover and simmer 15 to 20 minutes or until lentils and vegetables are tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in tomatoes. Reduce heat; simmer uncovered about 15 minutes or until thoroughly heated. Remove bay leaf."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "180 ",
+        "carbohydrateContent": "29 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "0 ",
+        "fiberContent": "8 g",
+        "proteinContent": "10 g",
+        "saturatedFatContent": "0 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "780 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "02/04/2002",
+    "dateModified": "05/09/2010"
+}

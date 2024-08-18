@@ -1,0 +1,64 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "keywords": [
+        "cocktail",
+        "brandy",
+        "lillet",
+        "rum",
+        "lemon",
+        "beverages",
+        "quick",
+        "easy",
+        "5 ingredients or fewer",
+        "house & garden",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Epicurious",
+            "sameAs": ""
+        }
+    ],
+    "image": [
+        "/verso/static/epicurious/assets/logo-seo.png"
+    ],
+    "headline": "Culross",
+    "name": "Culross",
+    "recipeIngredient": [
+        "3/4 ounce apricot brandy",
+        "1 ounce Lillet",
+        "3/4 ounce light rum",
+        "1 tablespoon lemon juice",
+        "3 or 4 ice cubes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients in a cocktail shaker and stir well. Strain into a cocktail glass."
+        }
+    ],
+    "recipeYield": "<p>Serves 1.</p>",
+    "url": "https://www.epicurious.com/recipes/food/views/culross-200342",
+    "dateModified": "2004-08-20T16:58:12.000-04:00",
+    "datePublished": "2004-08-20T16:58:12.000-04:00",
+    "recipeCategory": []
+}

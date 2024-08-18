@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Douhua",
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/douhua-12501458",
+    "headline": "Douhua",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Food Network Kitchen",
+            "url": "https://www.foodnetwork.com/profiles/talent/food-network-kitchen"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/05/03/FNK_Douhua_H2.jpg.rend.hgtvcom.1280.1280.suffix/1651602321170.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Douhua"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/05/03/FNK_Douhua_H2.jpg.rend.hgtvcom.1280.960.suffix/1651602321170.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Douhua"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/05/03/FNK_Douhua_H2.jpg.rend.hgtvcom.1280.720.suffix/1651602321170.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Douhua"
+        }
+    ],
+    "datePublished": "2022-04-01T15:04:03.329-04:00",
+    "dateModified": "2022-04-01T15:04:02.564-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Asian,Chinese Recipes,Dessert,Snack,Gluten Free,Low-Fat",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT1H0M0.000S",
+    "description": "Tofu pudding (also known as dou fu hua), has a light, fresh taste and incredibly soft texture--softer than silken tofu. It can be a great canvas for any flavor, from savory bright pickles to spicy chili oil with soy sauce, but the dish is typically found in dim sum restaurants as a dessert option, usually in a large metal pot within a large wooden basket on its own cart. The server will always ask “with syrup?” which means a sweet ginger syrup that pairs well with the pudding. Dim sum restaurants often use gallons of soy milk and a specific coagulant that requires precise measurement to the 0.1 grams, so we developed this recipe using gypsum as a small-batch, user-friendly way of making tofu pudding at home. The only drawback to gypsum is the dry-mouth feeling it can produce when eaten by itself, but the gingery syrup pairing mellows the effect--and its consistent results make it preferable to the other options we tried. We also found that switching to a metal cake pan instead of a glass bowl helps with setting the pudding, even though it's not traditional. ",
+    "recipeIngredient": [
+        "4 pieces slab brown sugar or 1 cup lightly packed light brown sugar",
+        "One 1-inch piece ginger, thinly sliced",
+        "1 1/2 teaspoons food-grade gypsum (calcium sulfate dihydrate; see Cook’s Note)",
+        "1 teaspoon granulated sugar",
+        "Kosher salt",
+        "2 1/3 cups store-bought unsweetened soy milk (see Cook's Note)"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "93",
+        "fatContent": "1g",
+        "saturatedFatContent": "0g",
+        "carbohydrateContent": "18g",
+        "fiberContent": "1g",
+        "sugarContent": "10g",
+        "proteinContent": "3g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "384mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring the slab brown sugar, ginger and 3/4 cup cold water to a boil in a small pot over medium heat. Lower to a simmer and reduce until slightly thickened, about 5 minutes. Turn off the heat, cover and let steep until needed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Set up steamer using a wok or large Dutch oven and a steamer rack or basket. Make sure an 8-inch round cake pan with a heatproof plate on top will fit into the covered steamer setup. Fill with water almost to but not touching the rack. Cover with the lid and bring to a boil over high heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir the gypsum, granulated sugar, 1/8 teaspoon salt and 2 tablespoons of the soy milk in a small bowl until the sugar and salt are dissolved. Let sit to hydrate the gypsum until the mixture starts to bubble or foam, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the gypsum mixture into an 8-inch round metal cake pan (regular or nonstick). Pour the remaining soy milk into the cake pan and stir until the gypsum mixture is well combined with the milk. Cover with a heatproof plate, add to the steamer, cover with the lid and steam over medium heat until set but still jiggly, about 20 minutes. Turn off the heat and let sit to cool slightly, about 5 minutes. Carefully remove the plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, strain the ginger syrup into a small bowl and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Check the tofu pudding by scooping out a shallow portion. If there's a yellowish, clear liquid underneath, it has set properly. If the pudding doesn't separate cleanly and the liquid underneath is still cloudy from the milk, cook for another 5 to 10 minutes and check again. Let cool slightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scoop the tofu pudding into bowls and enjoy warm with a drizzle or more of the ginger syrup."
+        }
+    ],
+    "recipeYield": "4 servings ",
+    "recipeCuisine": "asian",
+    "recipeCategory": []
+}

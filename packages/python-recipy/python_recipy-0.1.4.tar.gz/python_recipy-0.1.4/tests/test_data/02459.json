@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mediterranean Chickpea Salad",
+    "datePublished": "2010-11-17T15:15:49.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Chopped fresh veggies add crunch to the creamy texture of chickpeas, which are a good source of protein, folate, fiber, and iron.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/hVFR-WxbF1hmP9CxYkkd8sOiD5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mld104424_0709_chickpea1_hd-e49063585da3464c9daa4b4463145911.jpgitokI2p6ZzuQ",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Mediterranean Chickpea Salad",
+    "keywords": "Bean salads, Chickpeas, Dinner, Mediterranean, Salad course, Side dishes, Simmer",
+    "recipeIngredient": [
+        "8 ounces (about 1 ½ cups) dried chickpeas, soaked, liquid reserved",
+        "1.25 teaspoons coarse salt",
+        "1 garlic clove, minced",
+        "16 whole black peppercorns, crushed",
+        "3 tablespoons sherry vinegar",
+        "2 tablespoons extra-virgin olive oil",
+        "0.75 teaspoon dried oregano",
+        "2 cups (8 ounces) yellow or red cherry tomatoes, halved",
+        "0.5 English cucumber (8 ounces), peeled and cut into ½-inch dice",
+        "0.5 green bell pepper, ribs and seeds removed, cut into ½-inch dice (1 cup)",
+        "2 carrots (4 ounces), cut into ½-inch dice",
+        "3 scallions, sliced into ½-inch pieces",
+        "3 tablespoons coarsely chopped fresh flat-leaf parsley",
+        "2 tablespoons shredded fresh basil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place chickpeas, soaking liquid, and 3/4 teaspoon salt in a large pot. Liquid should cover by 2 inches; adjust as necessary. Bring to a boil. Reduce heat, and simmer gently. Cook, stirring occasionally, until chickpeas are tender, about 40 minutes. Drain, and transfer to a bowl. (Makes 3 cups chickpeas.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, using a chef&#39;s knife, press flat side of blade back and forth across garlic and remaining 1/2 teaspoon salt to make a paste. Transfer to a bowl, and whisk in peppercorns, vinegar, oil, and oregano. Pour dressing over chickpeas. Let stand, stirring once or twice, for 30 minutes. Toss in tomatoes, cucumber, bell pepper, carrots, scallions, parsley, and basil."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1049931/mediterranean-chickpea-salad",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504583/salad-recipes",
+                        "name": "Salad Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1049931/mediterranean-chickpea-salad",
+                        "name": "Mediterranean Chickpea Salad"
+                    }
+                }
+            ]
+        }
+    }
+}

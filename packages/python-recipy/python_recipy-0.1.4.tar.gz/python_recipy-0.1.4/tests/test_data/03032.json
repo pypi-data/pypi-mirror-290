@@ -1,0 +1,308 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Marinated Tuna Steak",
+    "datePublished": "2019-07-10T02:53:14.000-04:00",
+    "dateModified": "2024-03-05T15:22:52.065-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "LINKYJ"
+        }
+    ],
+    "description": "This tuna steak recipe includes a marinade that&#39;s easy to make with orange juice, soy sauce, and garlic for a sweet and tangy grilled tuna dinner.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/H48_o3-e6HLmSOcLUiRX_VxL-30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/39455-marinated-tuna-steak-ddmfs-hero-3x4-0846-41bfb7a5dfb2405c9424be1ec79774ae.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/NmIFWMPi-K3AjnAEN.mp4",
+        "description": "In this video, Nicole shows you how to make marinated tuna steaks with fresh herbs. After mixing together the marinade using ingredients like freshly chopped parsley, oregano, soy sauce, orange juice, and garlic, let the meat marinate in it for around 40 minutes. Finally, sear the steaks over the grill and drizzle lemon juice over the top when they’ve finished. It’s quick, easy, and pops with so much fresh flavor that this will quickly become a go-to fish recipe.",
+        "duration": "PT2M11S",
+        "name": "How to Make Marinated Tuna Steaks",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/NmIFWMPi/poster.jpg?width=720",
+        "uploadDate": "2023-08-18T14:05:59.440-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Marinated Tuna Steak",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1227"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "200 kcal",
+        "carbohydrateContent": "4 g",
+        "cholesterolContent": "51 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "27 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "945 mg",
+        "sugarContent": "2 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "0.25 cup orange juice",
+        "0.25 cup soy sauce",
+        "2 tablespoons olive oil",
+        "2 tablespoons chopped fresh parsley",
+        "1 tablespoon lemon juice",
+        "1 clove garlic, minced",
+        "0.5 teaspoon chopped fresh oregano",
+        "0.5 teaspoon ground black pepper",
+        "4 (4 ounce) tuna steaks"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/mxtbK-fJMgqv5r-C8nggYWU7iD4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/39455-marinated-tuna-steak-ddmfs-ingredients-3x4-0818-3584eaba1a5c47918533e2ff57a6aec6.jpg"
+                }
+            ],
+            "text": "Gather all ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/4SCm3oUmNwPxCTFUlPlMdkF50Oc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/39455-marinated-tuna-steak-ddmfs-step-02-3x4-0819-df736a15c82048f49a0c5fc73cd07a7c.jpg"
+                }
+            ],
+            "text": "Mix orange juice, soy sauce, olive oil, parsley, lemon juice, garlic, oregano, and pepper together in a large non-reactive dish until well combined. Place tuna steaks in marinade and turn to coat. Cover the dish with plastic wrap and marinate in the refrigerator for at least 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat an outdoor grill for high heat and lightly oil the grate. Remove tuna steaks from the marinade and shake off excess; reserve marinade for basting."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/4Jszo3qYYAE3u0-3-ZdAuKwcfPI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/39455-marinated-tuna-steak-ddmfs-step-04-3x4-0833-0b5030113b4d4d0295e759412ffa79a2.jpg"
+                }
+            ],
+            "text": "Cook tuna steaks on the preheated grill for 5 to 6 minutes; flip steaks and baste with reserved marinade. Cook for an additional 5 minutes, or to desired doneness. Discard any remaining marinade."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/H48_o3-e6HLmSOcLUiRX_VxL-30=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/39455-marinated-tuna-steak-ddmfs-hero-3x4-0846-41bfb7a5dfb2405c9424be1ec79774ae.jpg"
+                }
+            ],
+            "text": "Serve and enjoy!"
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT50M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "BOGINIA2"
+            },
+            "reviewBody": "WOW!!! This tuna steak was insanely good. I followed the recipe exactly, except I pan seared the tuna for 3 minutes on each side instead of grilling it. I let the steaks marinade for 2 hours and then rest at room temperature for 10 minutes before cooking it. The fish came out awesome, so juicy and wonderfully tasty - I loved it (and I don't even like fish). I will make this again and again and again. Thanks Carin!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ellie"
+            },
+            "reviewBody": "Has me hooked on tuna. Great recipe",
+            "datePublished": "2024-06-13T16:15:15.844Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "After cooking the fish in a pan, we poured the marinade into the pan and added 2 teaspoons of pomegranate concentrate. We reduced the entire mixture and served it with the fish as a sauce. Yummy!",
+            "datePublished": "2024-05-30T02:26:27.271Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Heather Cook Blair"
+            },
+            "reviewBody": "Marinated for about 2 hours. Followed recipe, except extra garlic-ALWAYS. Definitely will make again. Grilled on grill mat.",
+            "datePublished": "2024-05-23T21:32:21.435Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lianne Goutreaux"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-05-15T20:44:28.767Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "I made this exactly like the recipe stated except I baked it. Hubby didn't feel like grilling in a nor'easter. Marinated it for 2 hours. 350 oven for 35-40 minutes and I baked it in a dish with the marinade. Delicious!",
+            "datePublished": "2024-04-05T11:00:31.302Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "KAS"
+            },
+            "reviewBody": "My wife and I loved this!!!",
+            "datePublished": "2024-02-27T00:44:08.627Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Arlene Furst"
+            },
+            "reviewBody": "Delicious!",
+            "datePublished": "2024-02-09T01:38:34.206Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "The only thing I added was a little ginger. It was absolutely delicious! I'm very picky about my flavors and this recipe had complex layers of flavor. One to keep!",
+            "datePublished": "2024-02-02T05:39:23.367Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "I cook for my wife and her preference is for the Tuna to be what many would consider overcooked. However it is simply cooked through and not well done. Paired with noodles &amp; mushrooms it is a lovely dish! Thanks!",
+            "datePublished": "2024-01-28T21:13:50.821Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/39455/marinated-tuna-steak/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/126/bbq-grilling/seafood/",
+                        "name": "Seafood"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/2835/bbq-grilling/seafood/tuna/",
+                        "name": "Tuna"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/39455/marinated-tuna-steak/",
+                        "name": "Marinated Tuna Steak"
+                    }
+                }
+            ]
+        }
+    }
+}

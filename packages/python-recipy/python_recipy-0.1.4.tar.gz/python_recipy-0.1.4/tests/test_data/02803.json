@@ -1,0 +1,105 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Crispy Laab Meatballs ลาบทอด (Laab Tod)",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/03/Laab-tod-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/03/Laab-tod-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/03/Laab-tod-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/03/Laab-tod-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/laab-tod/",
+    "recipeIngredient": [
+        "3 Tbsp Thai sticky rice or jasmine rice, uncooked",
+        "2 kaffir lime leaves, torn into chunks, stem removed",
+        "1 lb ground pork (preferably not lean)",
+        "3 Tbsp all-purpose flour ",
+        "1 Tbsp minced galangal",
+        "3 Tbsp minced lemongrass",
+        "¼ cup chopped cilantro (with stems)",
+        "¼ cup chopped sawtooth coriander (or use more cilantro)",
+        "¼ cup small diced shallots",
+        "½ tsp Chili flakes, to taste",
+        "2 Tbsp fish sauce",
+        "3 Tbsp lime juice",
+        "Canola oil for frying",
+        "Mint and butter lettuce for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a dry pan, toast sticky rice and kaffir lime leaves over medium high heat, stirring constantly, until the rice is a deep golden brown and the lime leaves are crisp. Let cool slightly and grind both the rice and the lime leaves in a mortar and pestle until fine.",
+            "url": "https://hot-thai-kitchen.com/laab-tod/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine pork, flour, toasted rice powder, shallots, lemongrass, galangal, cilantro, sawtooth coriander, lime juice, fish sauce and chili flakes; mix well. If you want to taste the mix for seasoning, you can cook up a small amount in the microwave or on a frying pan.",
+            "url": "https://hot-thai-kitchen.com/laab-tod/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Form loosely into 1.5-inch balls and fry in 350°F oil until browned.",
+            "url": "https://hot-thai-kitchen.com/laab-tod/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve on its own or make a wrap with a piece of lettuce and mint. Enjoy!",
+            "url": "https://hot-thai-kitchen.com/laab-tod/#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content and rewards!",
+            "url": "https://hot-thai-kitchen.com/laab-tod/#instruction-step-5"
+        }
+    ],
+    "recipeYield": [
+        "20",
+        "Makes about 20 meatballs"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "1",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Laab Meatballs Recipe ลาบทอด - Hot Thai Kitchen.mp4",
+        "description": "Laab is a spicy Thai mince meat salad, but this recipe turns a salad into crispy meatballs! Super addictive and goes great with a beer.",
+        "duration": "PT5M35S",
+        "embedUrl": "https://video.mediavine.com/videos/imyCqPlSU.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681224111/imyCqPlSU.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--yIC_UqkF--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681224113/q66hqz4snyyxjxnzzm7e.jpg"
+        ],
+        "uploadDate": "2020-12-08T05:37:24+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dean"
+            },
+            "datePublished": "2020-12-22",
+            "reviewBody": "Recipe so good. One of my favourite things to eat. Yum"
+        }
+    ],
+    "datePublished": "2015-03-20",
+    "@id": "https://hot-thai-kitchen.com/laab-tod/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/laab-tod/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/laab-tod/",
+    "recipeCategory": []
+}

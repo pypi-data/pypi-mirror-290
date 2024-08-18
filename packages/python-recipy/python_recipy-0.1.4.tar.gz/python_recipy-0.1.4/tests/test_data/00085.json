@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Beef Soup with Root Vegetables",
+    "datePublished": "2018-06-13T23:41:43.000-04:00",
+    "dateModified": "2023-09-19T17:03:28.944-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Potatoes, turnips, and sweet potatoes add a touch of sweetness to traditional beef soup in this low-calorie recipe.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/RFmgGfmrGTUNjw6g5Kt3Cmg9SBI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5492817-786a2cd9d9904530aa25b8c973f1c718.jpg",
+        "height": 961,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Beef Soup with Root Vegetables",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "225 kcal",
+        "carbohydrateContent": "25 g",
+        "cholesterolContent": "30 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "19 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "551 mg",
+        "sugarContent": "3 g",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT25M",
+    "recipeIngredient": [
+        "1 pound boneless beef round steak",
+        "2 tablespoons olive oil",
+        "2 stalks celery, sliced",
+        "1 large onion, coarsely chopped",
+        "1 medium carrot, sliced",
+        "2 cloves garlic, minced",
+        "2 (14 ounce) cans beef broth",
+        "1 cup water",
+        "2 sprigs fresh thyme",
+        "1 bay leaf",
+        "2 medium potatoes, peeled and cut into 3/4-inch cubes",
+        "2 medium turnips, peeled and cut into 3/4-inch cubes",
+        "1 large sweet potato, peeled and cut into 3/4-inch cubes",
+        "6 Flat crackers or crusty Italian bread"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Trim fat from meat. Cut meat into 3/4-inch cubes. In a 4-quart Dutch oven cook meat, half at a time, in 1 tablespoon of hot oil over medium heat until brown. Remove meat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the same Dutch oven, heat the remaining 1 tablespoon oil over medium heat. Add celery, onion, carrot, and garlic; cook for 3 minutes, stirring frequently. Drain off any fat. Return meat to Dutch oven."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in broth, water, thyme, and bay leaf. Bring to boiling; reduce heat. Simmer, covered, about 1 1/4 hours or until meat is nearly tender. Discard thyme and bay leaf. Stir in potatoes, turnips, and sweet potato. Bring to boiling; reduce heat. Simmer, covered, for 15 minutes more or until meat and vegetables are tender. If desired, serve the soup with crackers."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT115M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/265663/beef-soup-with-root-vegetables/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19956/health-condition/diabetic/dinner/meats/",
+                        "name": "Diabetic Meats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22999/health-condition/diabetic/dinner/meats/beef/",
+                        "name": "Diabetic Beef Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/265663/beef-soup-with-root-vegetables/",
+                        "name": "Beef Soup with Root Vegetables"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T17:03:28.944-04:00"
+    },
+    "recipeCategory": []
+}

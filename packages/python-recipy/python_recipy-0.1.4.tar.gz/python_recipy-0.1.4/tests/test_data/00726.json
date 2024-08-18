@@ -1,0 +1,434 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019972-vegetarian-red-borscht#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019972-vegetarian-red-borscht",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/02/27/dining/27kitchrex-b/27kitchrex-b-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019972-vegetarian-red-borscht",
+    "name": "Vegetarian Red Borscht",
+    "description": "A traditional vegetable soup made for centuries throughout Eastern Europe, borscht is well loved by many. There are white versions, made with potatoes and cabbage, and green versions, made with sorrel and spinach. Most familiar, though, is the red version, made with beets. Many recipes add simmered beef, lamb or pork, but here, the meat is skipped for a quick-cooking vegetarian red borscht.",
+    "author": {
+        "@type": "Person",
+        "name": "David Tanis"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/02/27/dining/27kitchrex-b/27kitchrex-b-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/02/27/dining/27kitchrex-b/merlin_150550515_896eb302-eb09-4851-810a-9cef14ba5138-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/02/27/dining/27kitchrex-b/27kitchrex-b-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/02/27/dining/27kitchrex-b/27kitchrex-b-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "6 to 8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "beet, celery, horseradish, leek, potato, soup, fall, winter, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1499
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 282,
+        "unsaturatedFatContent": "5 grams",
+        "carbohydrateContent": "46 grams",
+        "cholesterolContent": null,
+        "fatContent": "10 grams",
+        "fiberContent": "8 grams",
+        "proteinContent": "7 grams",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "862 milligrams",
+        "sugarContent": "11 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 tablespoons extra-virgin olive oil or unsalted butter",
+        "1 large onion, diced (about 1 1/2 cups)",
+        "1 cup diced celery",
+        "1 large leek, diced (about 1 cup)",
+        "Salt and pepper",
+        "4 garlic cloves, minced",
+        "1 tablespoon tomato paste",
+        "1 teaspoon paprika",
+        "1/2 teaspoon caraway seeds",
+        "1 bay leaf",
+        "1 thyme sprig",
+        "1 pound Yukon Gold or other starchy potatoes (about 6 potatoes), peeled and cut in 1-inch chunks",
+        "1 pound medium beets (about 6 beets), peeled and cut in 1-inch chunks",
+        "1/2 pound medium carrots (about 4 carrots), peeled and cut in 1-inch chunks",
+        "3 cups chopped kale",
+        "1 tablespoon apple-cider vinegar, or to taste",
+        "2 tablespoons grated fresh horseradish",
+        "1 tablespoon lemon juice",
+        "1/2 teaspoon salt",
+        "Pinch of granulated sugar",
+        "1 cup crème fraîche or thick sour cream",
+        "Dill, parsley, tarragon and chives, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Put olive oil in a heavy-bottomed soup pot or Dutch oven over medium-high heat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When oil is hot, add onion, celery and leek, stir to coat, and season with salt and pepper. Cook for 5 to 7 minutes, stirring, until onion has softened and just begun to brown. Add garlic, tomato paste, paprika, caraway, bay leaf and thyme, and cook for 1 minute, stirring."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add potatoes, beets and carrots, 6 cups water and 1 1/2 teaspoons salt, or to taste. Bring to a boil, then reduce to a brisk simmer. Simmer with lid ajar for 20 minutes, or until potatoes, beets and carrots are fork tender."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add kale and vinegar, and stir to distribute. Taste broth and adjust seasoning. Simmer until kale is done, about 8 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, make the horseradish cream: Put horseradish, lemon juice, salt and sugar in a small bowl. Let macerate 5 minutes, then stir in crème fraîche."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, ladle into soup bowls, and garnish with chopped dill, parsley, tarragon and chives. Pass the horseradish cream at the table."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Enigma"
+            },
+            "reviewBody": "Advise peel and chop all the veggies first; took me nearly an hour just to do that!",
+            "datePublished": "2024-02-08T20:40:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "zoe"
+            },
+            "reviewBody": "Couldn’t find caraway so I used some cardamom pods  per the internets suggestion and it was a great swap! Also got lazy about the cream topping and just used sour cream and fermented cabbage slaw so that works too! Very easy recipe and fun to make. Beautiful color .. even used rainbow carrots and a few golden beets and it came out beautiful. So hearty but not too rich and I got 3 quarts of leftovers for the week! Love that you truly don’t need stock either",
+            "datePublished": "2024-01-30T04:08:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lafayette Ann"
+            },
+            "reviewBody": "Added red cabbage, canneli beans, fresh dill instead of thyme and more vinegar. Grated the beets so they cooked as quickly as the potatoes and carrots. Delicious, versatile, healthy!!",
+            "datePublished": "2024-01-18T23:37:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah Y"
+            },
+            "reviewBody": "Cooked this with my farmer's market surfeit of beets. Delicious! I used chicken stock, because I had some, and Greek yogurt with minced herbs instead of the horseradish, because I do not believe in special trips to the grocery store. Was wonderful and improved the next day and the next, when we ate the last drops.",
+            "datePublished": "2024-01-15T23:45:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lucy"
+            },
+            "reviewBody": "I’m going to make this with kale because I have plenty of it. Has *anyone* made the recipe with kale!?!  Would love to know how it worked out.",
+            "datePublished": "2023-12-29T17:42:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amanda Beresford"
+            },
+            "reviewBody": "Good flavour, not bland if you use plenty of herbs, garlic, etc. I roasted the beets for 1 hour, cooled and peeled before starting the soup. They then cooked well. I think grated or juiienned from raw might be ok too, not big chunks. Vegs would be better cut small, chunky texture seems awkward. I will puree half this mixture and see. No horseradish--I loathe it--creme fraiche only. Otherwise, a workable and tasty recipe.",
+            "datePublished": "2023-12-23T18:16:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hildegard"
+            },
+            "reviewBody": "Chop beets smaller or grate.\nCabbage instead of kale",
+            "datePublished": "2023-12-23T01:10:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dorie"
+            },
+            "reviewBody": "I like to roast my beets in kosher salt first, then peel  and shred them into the soup.",
+            "datePublished": "2023-12-12T11:51:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ella Gant"
+            },
+            "reviewBody": "Please no kale. Is outrage!",
+            "datePublished": "2023-12-02T18:49:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "My grandmother's borscht used fermented beets (known as russell-only available in NYC).  Cook fresh beets until soft enough to remove the outer rind.  Strain the beet water, slice the beets and return them to beet water & russell (also strained).  Cook until beet slices are soft.  Mix sugar and salt to taste (can be adjusted later).  Separate & beat eggs (6-8 yolks & 2 whole)-alternate beets & eggs carefully - not to curdle (don't want eggdrop soup).  Eat hot with boiled potato or cold.",
+            "datePublished": "2023-11-05T18:26:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AET"
+            },
+            "reviewBody": "Liked this a lot. We doubled the recipe because of beets galore but made no significant changes except replacing kale with cabbage (I'd bought a giant head of it at the farmer's market). Every bit of it will disappear I'm sure.  Even an 11 y/o boy thought it was great.",
+            "datePublished": "2023-10-25T23:58:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Reena"
+            },
+            "reviewBody": "I just diced the beets and red cabbage in a food processor. Yes, and used beet greens, not kale...\nI love borscht!",
+            "datePublished": "2023-10-24T01:18:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Annie"
+            },
+            "reviewBody": "Beet greens / kale/cabbage",
+            "datePublished": "2023-10-22T13:27:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandy"
+            },
+            "reviewBody": "I used cabbage . Delicious and reminiscent of borscht I had growing up !",
+            "datePublished": "2023-10-22T01:05:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John K"
+            },
+            "reviewBody": "Vegetarian beetroot borsch is wonderful and this is similar to mine. Don’t sweat the details. Greens are wonderful, and kale works but if you grow your beets, use the beet greens (the Romans grew them for the greens not the roots!) but if I have also used spinach and cabbage. I like a kick so I use Tabasco and lemon juice and marjoram. Also, don’t discard the carrot scrapings and onion skins! boil with bay leaf, garlic, etc to make a veg stock for the liquid.",
+            "datePublished": "2023-10-19T22:22:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet Esser"
+            },
+            "reviewBody": "Why kale when, if you shop carefully, you should have those beautiful beet greens? Fresh beet greens, so often discarded, are delicious (and good for you!) More delicate than kale they are versatile and cook quickly.",
+            "datePublished": "2019-02-24T08:21:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jaana"
+            },
+            "reviewBody": "In my Finnish version, the differences are: \n- julienne or shred the vegetables instead of cutting into chunks; more pleasant to eat\n- using cabbage, not kale\n- no potatoes\n- no tomato paste\n- using a vegetable broth as base\n- balsamic vinegar \n- 3-4 cloves\nIf you want a meat version, cut up some sausages into the soup.",
+            "datePublished": "2019-02-25T13:48:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amita"
+            },
+            "reviewBody": "Add the beet greens in place of or in addition to kale! This recipe looks delicious and healthy.",
+            "datePublished": "2019-02-25T00:27:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brigitte"
+            },
+            "reviewBody": "This soup for me had a wrong sequence of cooking.  After 20 minutes the beets were still hard.  It took an hour for the beets to be cooked and therefor the rest of the vegetables were overcooked.  If I were to make it again, I would add the beets, after 40 minutes add potatoes and carrots and after 50 minutes add the cabbage, which I used instead of the kale, to cook another 10 minutes.  I checked on the internet, where it does say that beets have to be cooked 50 minutes to an hour.",
+            "datePublished": "2019-02-26T22:13:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melanie"
+            },
+            "reviewBody": "Shredded cabbage",
+            "datePublished": "2019-02-25T01:53:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophia Lashchyk"
+            },
+            "reviewBody": "You should add the chopped beet greens at the end - in addition to the great taste, it adds lots of nutrients. Also I cook my beets on the side until I can put a fork in, then add the beet broth and grate the beets into the borscht!",
+            "datePublished": "2019-02-27T14:29:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "joe a."
+            },
+            "reviewBody": "Pretty bland. Agree with other comments about the use of kale vs cabbage- and I love kale! If you want a vegetarian borscht that tastes great go to the original Moosewood cookbook.",
+            "datePublished": "2019-02-27T22:50:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stu"
+            },
+            "reviewBody": "Try lemon juice. That's what I've always used. This recipe is very different from the borscht my Russian grandmother made. I never saw her use kale or any other green stuff except maybe a little chopped parsley or dill on top.",
+            "datePublished": "2019-02-24T20:13:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda"
+            },
+            "reviewBody": "Hi All!  Usually I cringe when I read \"Borscht\" recipes, but this time I smiled. This is not the exact same recipe used by my grandmother (my baba), by my mom and now me.   But its close enough, and I recognize some of the variations in the recipe as used by friends and neighbors. \nOne tip and one secret:\nTip: I love beets but I find some are too sweet and can change the flavour of the soup.  \nSecret: at the end, pour in some home made fermented dill pickle juice!!! YUM.",
+            "datePublished": "2019-02-26T09:12:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alex"
+            },
+            "reviewBody": "I will definitely try this recipe. I would use the dill (borscht without it feels wrong) and skip the caraway seeds and thyme. Also cabbage is essential.\nThe kale is a nice modern touch. I'm loving the umbrage taken at using it.\nA lot of borscht recipes (and other dishes) evolved during the decades after our ancestors left Russia and Ukraine. Adaptation means survival and I'm for that.\nDifferent areas of the old empire had different recipes for borscht, depending on what was available.",
+            "datePublished": "2019-02-25T15:27:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "orbisdeo"
+            },
+            "reviewBody": "Good recipe, but skip the kale. Use beet greens julienned and added to the bowl before ladling on the borscht. Also, check this out. I actually turned my Ukrainian grandma on to my own “white” borscht. Instead of red or bull’s blood beets and beef I use ciogis, chicken stock, and either chicken or veal and only green cabbage. Rather than allspice I use saffron. It’s my grandma’s favorite now.",
+            "datePublished": "2019-02-26T01:56:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Frank"
+            },
+            "reviewBody": "A small handful of dried porcini, crushed, deepens the broth.",
+            "datePublished": "2019-02-25T13:22:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gini"
+            },
+            "reviewBody": "My borscht is very similar, though I often include some red cabbage as well as some of the lovely beet greens. On a whim I used pomegranate molasses rather than vinegar and Aleppo pepper. It's difficult to wreck borscht.",
+            "datePublished": "2019-02-24T01:19:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie"
+            },
+            "reviewBody": "I followed the recipe as written, except I used my trusty vegetable stock instead of the water. I was very happy with the result. I have made a few vegetarian versions of borscht over the years and this might be my favorite, due in large part to the fantastic horseradish cream. I used prepared horseradish from a jar as I couldn't find the fresh stuff, and used 3 tablespoons instead of 2 for an excellently zippy result that was a great complement to the soup.",
+            "datePublished": "2019-02-26T15:07:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CBB"
+            },
+            "reviewBody": "Second time making soup. This time with 8 ounces of beets & about a pound of shredded red cabbage. Used chopped beet greens including stems p/o kale, red unpeeled potatoes and Greek yogurt for horseradish cream. potatoes, beets and carrots in 1/2 inch dice. Again used pressure cooker(PC) after sautéing onion, celery and leek for about 8 to 10 minutes at pressure, released and added beet greens and vinegar and left in PC with cover on & heat off about 2 minutes. Fabulous , well worth prep time!",
+            "datePublished": "2019-03-15T10:58:44.000Z"
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Penne with Pancetta and Mushrooms",
+    "datePublished": "2016-06-04T09:46:00.000-04:00",
+    "dateModified": "2016-06-04T09:46:00.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "jojobeanzsis"
+        }
+    ],
+    "description": "I threw this dish of penne pasta, pancetta bacon, and mushrooms together one afternoon for lunch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/C41LJ7AYqw2_35iA7VqWdRqG3mQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3275519-b808e94b589945c68931837c78332992.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Penne with Pancetta and Mushrooms",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "115"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "537 kcal",
+        "carbohydrateContent": "66 g",
+        "cholesterolContent": "68 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "19 g",
+        "saturatedFatContent": "13 g",
+        "sodiumContent": "299 mg",
+        "sugarContent": "4 g",
+        "fatContent": "23 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Italian Inspired"
+    ],
+    "recipeIngredient": [
+        "1 (12 ounce) package penne pasta",
+        "1 (3 ounce) package pancetta bacon, diced",
+        "2 tablespoons butter",
+        "1 (10 ounce) package sliced mushrooms",
+        "1 tablespoon minced garlic",
+        "0.5 cup heavy cream",
+        "0.25 teaspoon Italian seasoning",
+        "0.25 cup grated Parmesan cheese, or to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook for 8 to 10 minutes or until al dente; drain and set aside. Meanwhile, cook pancetta in a large skillet over medium heat until browned but not crispy, about 5 minutes. Drain on a paper towel-lined plate and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour pancetta grease out of the skillet, and add butter. Increase heat to medium-high and stir in sliced mushrooms. Cook and stir until the mushrooms have softened and released their liquid. Add the minced garlic, and cook 2 more minutes. Reduce heat to medium-low, then stir in cream and Italian seasoning. Simmer until the sauce has thickened slightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve, toss the cooked penne with the sauce, and sprinkle with Parmesan cheese."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT35M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "TAYLORBUNCH"
+            },
+            "reviewBody": "My family loved it! It was definitely a restaurant quality dish. I substituted evaporated milk for the cream and added some Parmesan cheese to the sauce during cooking. Fresh tomatoes, fresh basil, and shredded Parmesan garnished the top. We will be making this again."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "raisinofwrath"
+            },
+            "reviewBody": "It was tasty. I added 1/2 can of chicken broth because my husband hates things that don't have enough moisture. He suggested adding more chicken broth to make a soup. Also using pork sausage instead of bacon. His ideas aren't always the best but I will try those suggestions next time."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "jcschiavo"
+            },
+            "reviewBody": "It was easy to make, and tastes excellent. The entire family loved it."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Heather"
+            },
+            "reviewBody": "added 1/2 cup white wine, fresh thyme and rosemary and it was a hit with the whole family, even the littles"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Monique Baha"
+            },
+            "reviewBody": "It was delicious! I added onions and kale and used oyster mushrooms."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "momurphy"
+            },
+            "reviewBody": "Amazingly easy and good! Will make this again."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Edwin G"
+            },
+            "reviewBody": "It was delicious!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lainie"
+            },
+            "reviewBody": "WOW- this is easy to make and wonderful to eat. I sautéed diced red onion w/ the mushrooms and kept most of the pancetta grease (so not very healthy...but sure rich!) and added a tad of butter. Doubled the sauce (whipping cream and half and half) and extra garlic &amp; seasonings. Excellent! Use a little of the pasta water to thin out the sauce and it will help the sauce stick to the pasta as well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "cook from sf"
+            },
+            "reviewBody": "Loved the sauce. I double the sauce except keep the Italian seasoning at 1/4 tsp when doubling."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jbartos88"
+            },
+            "reviewBody": "It was good. I’d make it again. Good idea for a quick meal . I cut the recipe in half and still have plenty to pick at throughout the week."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/139784/penne-with-pancetta-and-mushrooms/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/231/world-cuisine/european/",
+                        "name": "European"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/723/world-cuisine/european/italian/",
+                        "name": "Italian"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/139784/penne-with-pancetta-and-mushrooms/",
+                        "name": "Penne with Pancetta and Mushrooms"
+                    }
+                }
+            ]
+        }
+    }
+}

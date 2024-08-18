@@ -1,0 +1,430 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023416-kimchi#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023416-kimchi",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023416-kimchi",
+    "name": "Kimchi",
+    "description": "Sometimes called mak kimchi, this kimchi formula starts with chopped napa cabbage and is as easy as dressing a salad. You just toss everything together in a large bowl. Fish sauce anchors the kimchi sauce with incredible savoriness, while gochugaru, the Korean red-pepper powder, lends a deep crimson sheen and mild, fruity heat. Whatever chopped vegetables you add to the onion-garlic-ginger purée will lend their own natural sweetness as they ferment with the cabbage; scallions and daikon are the most traditional, but carrot works in a pinch and lends great color. We all need a good burp every now and then, so be sure to open the lid of your jar every couple of days to allow the gas from the fermentation process to escape. For the spice-averse, start with 1/4 cup of gochugaru, or turn to baek kimchi, which is a fragrant, chile-free version.",
+    "author": {
+        "@type": "Person",
+        "name": "Eric Kim"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "P2DT2H30M",
+    "recipeYield": "1/2 gallon",
+    "recipeCuisine": "korean",
+    "recipeCategory": [],
+    "keywords": "fish sauce, food processor, gochugaru, napa cabbage, plan-ahead, healthy",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 491
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 84,
+        "unsaturatedFatContent": "1 gram",
+        "carbohydrateContent": "16 grams",
+        "cholesterolContent": null,
+        "fatContent": "1 gram",
+        "fiberContent": "4 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "0 grams",
+        "sodiumContent": "1377 milligrams",
+        "sugarContent": "9 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 medium head napa cabbage (2 to 2 1/2 pounds), any dirty outer leaves removed",
+        "3 tablespoons coarse kosher salt or 5 tablespoons kosher salt (such as Diamond Crystal)",
+        "1 medium green apple or Asian pear, peeled, quartered and cored",
+        "1 small yellow onion, peeled and quartered",
+        "10 garlic cloves, peeled",
+        "1 (2-inch) piece fresh ginger, peeled",
+        "1 tablespoon granulated sugar",
+        "1/3 cup gochugaru (Korean red pepper)",
+        "1/3 cup fish sauce",
+        "3 scallions, trimmed",
+        "1 medium carrot or 1/2 medium daikon, peeled",
+        "1 tablespoon pine nuts (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Dry-brine the cabbage: Rinse the head of cabbage under cold running water, making sure to get in between the leaves. Trim the root end off the cabbage and cut crosswise into 1-inch-thick slices, carving out any core if it’s especially big and tough. Transfer the cabbage strips to your largest bowl. Sprinkle over the salt and toss with your hands until evenly distributed. Set aside to brine at room temperature until the hard leaves shrink and become wet and limp (but are still crunchy), 1 1/2 to 2 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Rinse the cabbage: Fill the bowl with cold running water and swish the leaves around to rinse them of their salt (and to clean off any dirt). Lift them up out of the water and transfer to a colander. Repeat once or twice until the cabbage leaves still taste discernibly salted, but not too salty that you can’t eat it like a salad. Rinse out the bowl."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the sauce: To a food processor, add the apple, onion, garlic, ginger, sugar and process until very finely chopped into a fluffy purée. Transfer the sauce to the empty bowl and stir in the gochugaru and fish sauce. Cut the scallions into 1-inch-long pieces and add to the bowl. Cut the carrot into matchsticks: slice crosswise into 1-inch lengths, then thinly slice lengthwise, stack the slices and cut lengthwise again into thin strips. Add to the bowl, along with the pine nuts, if using. Stir to combine. Add the drained cabbage to the sauce and toss with clean hands until well combined."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the sauced cabbage to a clean 1/2-gallon jar, using your hands to gently pack it down. (A few air gaps are fine; they’ll fill with liquid over time.) This amount of cabbage should leave about an inch of room at the top of the jar. Top the jar with any remaining sauce left behind in the bowl. Loosely close with a lid (see Tip). Wash your hands and rinse off the outside of the jar at this stage."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Let the jar of kimchi begin fermenting on the kitchen counter at room temperature for 2 to 3 days, “burping” it every 12 hours or so, which just means opening the lid to let out any excess build-up of gas. After this, the cabbage should have released even more of its liquid; it’s OK if the liquid doesn’t completely cover the cabbage at this point, though it may. Refrigerate the kimchi to finish fermenting until it’s sour, 2 to 3 weeks and up to 6 months, at which point it will be very, very sour and should be eaten or turned into jjigae. Check (and taste!) the kimchi every 2 to 3 days both to familiarize yourself with the fermentation process but also to allow gas to escape. "
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Kimchi",
+        "description": "Sometimes called mak kimchi, this kimchi formula starts with chopped napa cabbage and is as easy as dressing a salad. You just toss everything together in a large bowl. Fish sauce anchors the kimchi sauce with incredible savoriness, while gochugaru, the Korean red-pepper powder, lends a deep crimson sheen and mild, fruity heat. Whatever chopped vegetables you add to the onion-garlic-ginger purée will lend their own natural sweetness as they ferment with the cabbage; scallions and daikon are the most traditional, but carrot works in a pinch and lends great color. We all need a good burp every now and then, so be sure to open the lid of your jar every couple of days to allow the gas from the fermentation process to escape. For the spice-averse, start with ¼ cup of gochugaru, or turn to baek kimchi, which is a fragrant, chile-free version.",
+        "thumbnailUrl": "https://static01.nyt.com/images/2022/08/24/dining/22KIMJANGREX1-kimchi-copy/22KIMJANGREX1-kimchi-mediumThreeByTwo440.jpg",
+        "uploadDate": "2023-07-07T17:11:22.396Z",
+        "duration": "PT18M26S",
+        "transcript": "Thumbnail. Thumbnail shot. You know in YouTube videos where they like, leave that in? Where they’re like -- sorry. O.K. [MUSIC PLAYING] Hi. I’m Eric Kim. I’m a cooking columnist for The New York Times. And today I’m going to show you how to make kimchi. I think the main thing I want to say -- it’s not as hard as people make it out to be. As long as you know the basic steps, which involve brining the cabbage, saucing the cabbage, and tossing the cabbage like a salad. That’s it. It’s three steps. So I’m going to show you those three steps across three different recipes. We’re going to make a very basic kimchi. And then the second one is a white version, and it’s called baek kimchi. And one of the main differences is just that we’re not going to use the gochugaru, that red pepper powder. And then the last one is the very special grand finale kimchi, which is a tongbaechu kimchi, which is a whole napa cabbage kimchi. And that just means that instead of chopping up the cabbage into pieces when we brine it, we are going to cut them in half and brine them as like, whole heads. So Kimjang is the communal act of kimchi making and sharing. I really like the story of Kimjang, because it tells the tale of resilience and survival. One thing that I really found while reporting this story, people who grew up with it grew up with it in Korea. Like in Korea is where people would have Kimjang with their neighborhood or more often than not, with families. Korea had a really dramatic history, and I think this food item is something that helped people survive. And that’s something that needs to be said. I really can’t talk about kimchi without talking about my mother, because she’s the one I learned it from. I grew up helping her taste as she made kimchi. And back then, she was using iodized like Morton table salt, from the little container, with the umbrella girl who’s spilling all that salt. So wasteful. That salt is what she would use to brine the cabbage. She would also have this huge bag of granulated sugar. And I just remember I would go to the pantry to grab that bag and it’d be like, stained with gochugaru, powder because it’s like, the bag she used for kimchi. I just thought that was like funny. I guess we can get started, we can start chopping some cabbage. So these have all been rinsed, by the way. What I like to do is cut across. And what you end up with are these little ribbons of kimchi. I’m just chopping into one inch thick slices. This is going to make one jar of kimchi. Let’s do the second one. This is going to be our baek kimchi, which is the white kimchi. It’s basically the same recipe, you just don’t have the gochugaru And the brining time for this one is actually a little shorter. Some people like to core the cabbage. I kind of don’t care because I like, slice it like that. This piece, by the time it brines, is going to look like this. It’s going to look much smaller, because these are little frilly parts. They really shrink up. And now I’m going to show you what to do for the tongbaechu kimchi. What my mom does is she chops like, just the bottom, and then she kind of like splits it open so that it tears organically. And so you have this adorable ruffled look. I’m going to rinse these. This is our regular kimchi. It’s going to get five tablespoons of diamond crystal kosher salt or three tablespoons of coarse kosher salt -- AKA Morton. This gets the same amount, so. Gently toss. But sometimes when I’m at home and my bowl is really small and it’s like, overflowing a little bit, I’ll just like leave it like that, because it’s going to shrink. And when it shrinks, it’s much easier to toss. I’ll show you. And you do want to toss it occasionally so that the salt really distributes. But these, I start with the outside and then I really, really get in there. The cabbages are going to let out their own water, and that water will mix in with the salt and become -- essentially become the brine. How many minutes has it been, maybe like 10 minutes? Do you see how it’s -- can you see that it’s already shrunk a little bit? Now we’re going to make the sauce. The things that these kimchi sauces have in common are onion, garlic, ginger, fish sauce. And some kind of fruit. My mom does this and I’ve inherited her method. And I really appreciate the flavor of her kimchi sauce. It is pretty fish saucey. It’s very joetgal heavy, and jeotgal is salted seafood. The question I get asked the most is how do I replace the fish sauce. The fish sauce is the one thing that makes this not vegan, right? And what I say to that is I have to success used a mixture of soy sauce and tanjung, or miso. I’m going to make the sauce for the basic kimchi. This sauce is very balanced. It has sugar. It has salty umami fish sauce. It has the pungency of all the alliums. I’m actually so bad at peeling apples. Don’t look. These go in. Yum. All of the garlic. These are fibrous, so I might go chop it a little bit. You can do this by grating it. It’ll just take you longer, obviously. Yummy. And I’m not going to wash this, because I’m going to make two more. But first, I’m going to finish this. Gochugaru is a Korean red pepper powder. I think people sometimes call it Korean chili flakes, but it confuses people because it makes it seem like these are much hotter than they are. They’re kind of closer to an Aleppo pepper. And the reason the gochugaru is going in now is because I want the flakes to still be coarse. There’s the puree, and then there are the more whole vegetables. They’re sort of like the flavorings, cause scallions lend an incredible gamchil mat, savoriness, and the carrot adds a little sweetness. These whole vegetables get added. So satisfying. Just chop it into one inch pieces. You just stir this all together. And this is your kimchi sauce. Let me know in the comments if your family adds pine nuts to their kimchi. I asked my mom why she does it and she said she didn’t know why. It’s just because her mother did it. So what happens is, you get one pine nut kind of pop in your mouth occasionally, and it’s always a surprise. And they also ferment themselves. They get like a sprite-like, bubbly kind of effervescence. Kimchi sauce number one. Now we’re going to make the white sauce for the baek kimchi. Basically the same thing as that, but we just use an Asian pear instead. And the only difference with this one is there’s no gochugaru. [MUSIC PLAYING] Notice how this one’s a little more liquidy, and it’s because -- oh, nice. Because of the Asian pear, it’s a little more watery. Remember how in the red one we did scallion and carrot, right? I’m going to add thinly sliced half moons of this daikon. Lauren Chun said if you can make a salad, you can make kimchi. I think that is very true. Look at that. This is what I figured out. I didn’t look this up or anything, so there’s probably a way better way. But I’m going to cut little pieces out of it, maybe like five, so that it looks like a little flower. Cut out little like, divots. You want it to be pretty even across. I’m sure yours will be much prettier than this. Not bad. Slice them very thinly. And these are really just garnish. The more jars of kimchi you make, the more you’ll learn. Now I’m going to make the tongbaechu kimchi sauce. This one relies heavily on Apple. Same formula -- fruit, garlic, onion, ginger, fish sauce. Yummy. The sugar helps with the fermentation, actually. The puree goes in here. Just thinly slice them. The last thing is some gochugaru. Stir all this together. This smell is really just so familiar to me. We have our three sauces. I’m going to check on our brine cabbages and rinse them and combine them. Can you -- look at that. It’s amazing. It was like, up to here. Remember that? This, though, these need to go for an hour or two more, because they’re whole, and they’re going to take a little longer to properly brine through. So I’m going to flip them. People do this in a bowl, but I really think when it comes to the whole cabbage, it’s really nice, especially with a small kitchen to just use a sheet pan. I’m going to go rinse these both and drain them and return them to their bowls. And now we just have to toss everything together. Before I do any saucing, your hands are going to be kind of messy, so you want the jars to be already open and ready to go. There’s really nothing to this. You just toss it like a salad. Some of the vegetables, the whole vegetables and the sauce you’ll notice will have maybe some liquid, and that’s good. I’m taking one of the jars. Add it to the jar as neatly as you can. And I pack it down lightly. That’s the way all this is going to fit. You don’t want to pack it too tight, but tight enough. I have a little extra here. That will happen sometimes. This is kimchi, actually, that I think I’ll set aside so that I can eat it with my friends, like fresh before it ferments. You do want to leave about an inch from the top because as this ferments, it’s going to expand a little. The question I also often get is, what kind of jar do you use? And I’m going to show you a bunch of jars in a second, but my favorite is a glass jar with a lid that’s not too tight. Just like a top. So it’s like pretty loose. Nothing’s going to get in, but it’s not airtight. This is important, because as the kimchi ferments, it’s going to expand. And you want to leave room for that air. I like this one a lot, because you can really taste the cabbage. You can taste the sweetness of the vegetables themselves. With the baek kimchi, it’s a little more watery than that red kimchi that we just made. So because of that, I want to make sure that I don’t stuff these too much. I find that it’s the baek kimchi that really like, effervesces. Jar number two. This has been brining for about three to four hours. Visually, what you’re looking for is that it’s pretty limp, but you do want it to still have a nice crunch. Rinse and drain cabbage. Clean bowl. You want to get the outside like that. There’s not really like a science to this, you’re just like smearing it on. Oh, see, I forgot to leave the jar open, and now I have to open the jar with dirty hands, so. O.K. It’s not the end of the world. So you see how I’m really just pulling back each individual leaf and making sure there’s like a little sauce in each one. Some of them will have little apple pieces, tucked in some of them will have scallion, some of them won’t. O.K., these are done. This is the fun part. You take it and there’s like the leafy end, you tuck it over itself, turn it into a compact little thing, a little like, Cabbage Patch baby, and then you’re just inserting it into the jar. And what you do is each time you want to eat it, you just take one individual head out and then you chop it up. Just wanted to show you another example of the kind of container you can use. We made three kimchis. The reason there are these three jars behind them is that these are the versions that I made months ago. So this is like, a very old jar of tongbaechu kimchi. This is a baek kimchi, but instead of the carrot I did a little julienne beetroot. And this is the regular kimchi, and it’s just been a few -- it’s been a few weeks. You see the color difference. These kimchis that we just jarred, these are fresh kimchis, we’re going to let them begin the fermentation process at room temperature on the counter. And I usually do that for about two days. Every 12 hours, what you want to do is this. You just want to check it and just make sure it’s doing O.K., and you want to release some gas. We just turned this many vegetables into three adorable little jars. These kimchis will last in your refrigerator for up to six months. I think one of the historical meanings of Kimjang is the communal aspect of it. You are making kimchi with your friends, your family, your neighbors. UNESCO designated Kimjang, as an intangible cultural heritage. And I love that, because what it means is that it’s not just to make food and to have the kimchi, it’s to share and spread the knowledge of the kimchi making. A living heritage like that, it’s not a monument, it’s not a building, it’s not something that you can preserve through physical means. It’s knowledge. The reason to have a Kimjang is to make sure that knowledge -- getting emotional. It’s important for living knowledge like that to not die. And I think that’s a really lovely thing. It represents the passing of heritage, what you’re doing with this cabbage, you’re salting it so that it doesn’t go bad so that you can eat it forever, or like, up to six months. This is like a virtual Kimjang that we’re having. I’d like to propose that everyone make kimchi this weekend. The secret thing that I’ve been bubbling away over here is the baek kimchii Jjigae, and we’re going to set up the table so that we can have a meal. [MUSIC PLAYING] O.K., Thank you for coming. This is a baek kimchi jjigae. We’re at the end of a long Kimjang day. I brought some friends. I wanted them to taste the kimchi’s. I wanted them to celebrate with me. I also just wanted to treat them to some food. O.K., so who do you have here? Susan Kim. Susan was incredibly helpful in the writing of this story. This is our first time meeting but we’re both long time fans of each other, I think. Our very own Kay Chun, longtime contributor to NYT cooking. You joined me for the bulgogi video. But I don’t know, Kay’s sort of my colleague whose work I really respect as well. Darun, thank you Darun for coming. Darun is our product manager. She moonlights as a Korean recipe developer for us sometimes. But let’s eat. I’m going to get us some rice first. O.K. Everyone eats meat, right? Yeah. My mouth is literally watering. What are your kimchi making traditions or memories? My parents kind of reached a point at which when their parents passed away, they realized they never held on to the kimchi making traditions. And so my parents actually call their kimchi Google kimchi, because whatever pops up first is the kimchi they made. But they do the whole thing where they like bury it in their backyard. They do? They use the Napa cabbage that they grow in their garden. Sorry, I should have asked if this is how you eat kimchi jjigae. We’re doing it. That’s how your family eats -- Yeah, yeah, yeah. I’m gonna taste this broth. You know what I’m going to say about the broth. It’s really kkekkeutan. Oh. It’s like, just like so clean. This isn’t my best work. All right, come on. All right. That word, [INAUDIBLE] or kkekkeutan, clean taste, those words are huge compliments. It’s so good. How often do you make kimchi? Pretty often. I make it for myself or my mom. And just, yeah. When I was back home I made a jar of kimchi. We had guests coming over, I was like, should we give them some of the kimchi because it’s like a nice gift? And she was like, no, not this jar. This is like, my son -- like my son’s gifting me kimchi. That was very special to her. And then she ate it and she was like, this tastes weird. O.K. I want you to try some of this -- you have to eat all of it. O.K. Did all your mothers do that? Yeah. Everyone did that. Yeah. That’s such a mom thing. Yeah, full service. Thank you. That’s also a move, putting banchan on your bowl. Oh yeah and someone else’s. There’s a lot of force feeding In our culture. Force feeding. It’s a lot of control. Devin’s here. Oh, Devin’s going to have his spot. Yeah. You want to give it to him, Mary? You want to do -- Yeah. O.K. He’s a little independent and he likes to eat on his own. O.K., go ahead. Kimchi. Try it. Aw. More. Say more. He loves it. He loves it. Thank you guys for coming. This is really fun. And it’s nice to not do this alone, you know? [MUSIC PLAYING]",
+        "contentUrl": "https://vp.nyt.com/video/2023/07/05/109845_1_EK-kimchi-CV_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ana"
+            },
+            "reviewBody": "I followed the recipe, and three of my kimchi jars developed a white fuzzy mold. What have I done wrong?",
+            "datePublished": "2024-05-05T19:38:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sara"
+            },
+            "reviewBody": "I love this kimchi recipe and due to the quantity I have been going through, will try to grow my own Napa cabbage, daikon and gochugaru (should be doable on the California Central Coast).  I recall stories of Koreans using large crocks and keeping kimchi without refrigeration but am unable to confirm that it is safe to store this way.  Does anyone have experience with growing ingredients or storing larger volumes?",
+            "datePublished": "2024-03-12T20:47:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christina"
+            },
+            "reviewBody": "I’ve used this recipe to make a constant flow of kim chi for the past year. Not only is it better than store bought but a fraction of the cost. If you love Kim Chi - do yourself a huge favor and make it yourself!",
+            "datePublished": "2024-02-24T05:30:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ariel"
+            },
+            "reviewBody": "This Kimchi is Excellent! It's so addictive. I used a pink lady apple and omitted the sugar (since this is what I had on hand), I also subbed 1/2 red onion for a bit more heat. And I used a whole large daikon (no carrot) and brined it with the cabbage. Seriously good. May add some fresh ginger matchsticks next time too.",
+            "datePublished": "2024-01-31T05:40:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Running Bunny"
+            },
+            "reviewBody": "I usually make kimchi by quartering a head  of cabbage and salting between the leaves like Eric showed in his video. This time I sliced the cabbage as directed. I think I ended up using more salt than I normally do, because after five or six good rinses, it was still pretty salty. I have never used fruit in my kimchi, and I usually use shrimp in brine, but this was quite tasty. The relatively small amount of pepper flakes gave noticeable but not overpowering heat.",
+            "datePublished": "2024-01-24T15:42:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Erik Larsen"
+            },
+            "reviewBody": "I just made this today in frozen Kansas City. Should I anticipate the fermentation will take longer due to the cold temperatures?  Room temperature is lower than usual in my house- wondering if it might need an extra day or two on the countertop.",
+            "datePublished": "2024-01-20T05:13:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alice"
+            },
+            "reviewBody": "I've been making radish kimchi for years but always bought mak kimchi at H-Mart because it was better than what I could make at home. This recipe changed that! I use a bit less fish sauce and blend a tablespoon of salted shrimp (saeujeot) with the apple mix. If I have any leftover liquid from a previous kimchi, I add that too, to kickstart the fermentation.",
+            "datePublished": "2023-12-06T18:19:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie"
+            },
+            "reviewBody": "Hey, alchemy in the kitchen, I've been making a vegan/vegetarian version of kimchi for one of my kids for years, and I've never added sugar to it.  In my experience, the apple or pear adds enough.  I use various versions of miso as a sub for the fish sauce; I think I read that trick from J. Kenji Lopez-Alt some years back, and it works well.  My son loves the kimchi!",
+            "datePublished": "2023-10-28T16:02:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jams"
+            },
+            "reviewBody": "I love Eric and the story of the meaning of kimchi.   Made it 2 days ago, it's bubbling on my counter and I'll let it go another day or two before putting it in the fridge.\n\nNext batch, I want to add thin slices of celery. \nThanks for this delicious and easy recipe.   It feels both easy and special.",
+            "datePublished": "2023-09-30T16:02:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Siobhán"
+            },
+            "reviewBody": "I have discovered Julienne peelers! They are super evil looking but will give thin strips of carrot that then can be chopped into smaller pieces. A massive time saver for making march sticks. Love this recipe.",
+            "datePublished": "2023-09-20T18:42:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Curtis"
+            },
+            "reviewBody": "I made a batch following recipe exactly (left out the pine nuts), and am absolutely addicted to it now. Highly recommended!",
+            "datePublished": "2023-09-03T02:00:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mags"
+            },
+            "reviewBody": "I'm about to start making my fourth batch of this within a year. Kimchi fried rice with an egg or two is a great quick meal and I recently pressure-cooked cubed blade roast with two cups of the mature kimchi to make beef kimchi jjigae (recipe Urvashi Pitre). It was stunningly tasty and tangy and umami off the charts.",
+            "datePublished": "2023-08-23T14:48:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "E."
+            },
+            "reviewBody": "Ball jars makes a great fermentation lid for mason jars, it’s cheap online. Also if you use wide mouth mason jars there are glass weight which fit perfectly to submerge your veggies in brine.",
+            "datePublished": "2023-08-13T18:53:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "E."
+            },
+            "reviewBody": "I found adding a tablespoon rice wine vinegar, and gochugang helps with authentic taste. Korean fish sauce is better than Chinese for flavor. Sugar does helps.\n\nYou can make a paste for the base easily with instant potatoes and water to make a slurry. Many Koreans do this shortcut.\n\nBaby food just pear works for the pear.\n\n\nI make enough base and freeze some for later.",
+            "datePublished": "2023-08-13T18:51:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rosie"
+            },
+            "reviewBody": "I wasn't sure if we'd get through it all when I first made a batch, but we got through it really quick so knew I needed to make more. I followed the recipe as written and it was much easier than I thought it would be. I did use the miso/soy sauce combo in lieu of fish sauce, which was very delicious but the first time I used dark soy sauce, the second I went for light and the light seems better to me; much less dark in colour!",
+            "datePublished": "2023-08-07T10:10:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet Rosen"
+            },
+            "reviewBody": "I have been making kimchi on and off  for years. I don't use fish sauce but find that a little smoked paprika given a nice sense of umami. I also like to dice in a small tangerine or half an orange for little bursts of citrusy sweetness.",
+            "datePublished": "2022-08-23T06:09:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brian"
+            },
+            "reviewBody": "I've made a lot of Kimchi and mine always has fish sauce, lots of garlic, lots of ginger, NO ADDED SUGAR, and 1.5 cups Gochugaru.  I like mine very spicey.",
+            "datePublished": "2022-08-24T15:27:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "I make kimchi frequently and successfully, but mine always takes a 5-7 days to ferment.  I have substituted bok choy when I have too many from my CSA, but napa is best",
+            "datePublished": "2022-08-23T20:17:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "H. J."
+            },
+            "reviewBody": "If you don’t like the flavor of fish sauce/ are vegan/vegetarian, substitute low sodium soy sauce for the fish sauce. This is what Maangchi suggests and it works great. I like fish sauce but will usually reduce to 1/8th of a cup and use soy sauce as the remainder so there’s a more subtle flavor.",
+            "datePublished": "2022-08-24T17:08:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Curtis"
+            },
+            "reviewBody": "Best lid for making kimchi is a ziploc bag filled with enough of the brining liquid, so that when you lay it on top of the goodies, it spreads and covers with enough force to keep things submerged, but its not so airtight that the gas can't escape. if it leaks, so what? it's the brine that's already surrounding the kimchi!",
+            "datePublished": "2022-08-30T00:59:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alchemy in the kitchen"
+            },
+            "reviewBody": "Anyone know, is the sugar essential? I'm pretty much sugar free. One tbsp. doesn't sound like much, but I don't even have the stuff in the house. No offense to others, I regard sugar as a sort of poison. My joke is I'll live to be 120 and be miserable the whole time.",
+            "datePublished": "2022-08-24T23:58:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Buzzy"
+            },
+            "reviewBody": "I remember eating a benign but tasty kimchi in Seoul called mul, mool kimchi, I guess, water kimchi. Tasty and nowhere near as hot and spicy as goktoogi. I approximate the way I heard it way back in 1978. I was in Korea for 9 months and I loved the people, the food, the beer (makju), the early version of karaoke the Koreans loved to do and loved to force me to standup in front of people and sing. I would love to do that 9 mos. all over again. Koreans are good people and smart as heck.",
+            "datePublished": "2022-08-27T15:24:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J Rosen"
+            },
+            "reviewBody": "Use a potato peeler to shave the carrot.",
+            "datePublished": "2022-09-08T15:00:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katie B"
+            },
+            "reviewBody": "Instead of fish sauce, (I have a vegan), i use some kombu and sea asparagus (when i have it), along with a bit of tamari. I will try with some miso next time.",
+            "datePublished": "2022-08-24T16:07:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sand"
+            },
+            "reviewBody": "So many variations possible, so little time...grate the carrots instead of julienning; grate in a beetroot  or celeriac. The sugar helps the bacteria get a head start; if you don't want to use sugar, that's fine -- the fermentation process may take a little longer. No matter what, enjoy!",
+            "datePublished": "2022-08-26T15:01:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ben"
+            },
+            "reviewBody": "The particular sugar source doesn't much matter; substitute whatever natural product you've decided \"doesn't count as sugar\", like honey, fruit juice, or agave syrup. Just don't use unfermentable sweeteners (saccharine, ace-K, stevia, monkfruit, etc.), or if you must, cut them *way way* down. The sugar is there mostly to jump-start and guide fermentation, not to produce a sweet result.",
+            "datePublished": "2023-02-08T10:52:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tobaleh"
+            },
+            "reviewBody": "Instructions about cutting the carrots are incomprehensible.  can one just “ Cut carrots into thinnest possible matchsticks then cut into one inch lengths.”?",
+            "datePublished": "2022-08-24T15:11:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Beeee"
+            },
+            "reviewBody": "This was fantastic. Easy and flavorful. I doubled the recipe because my son is kimchi obsessed and it will be gone in no time.",
+            "datePublished": "2022-10-18T17:39:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael Read"
+            },
+            "reviewBody": "Add pineapple chunks, you won't regret it.",
+            "datePublished": "2023-02-17T13:56:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "clydemere"
+            },
+            "reviewBody": "No sugar needed.",
+            "datePublished": "2023-01-05T22:15:59.000Z"
+        }
+    ]
+}

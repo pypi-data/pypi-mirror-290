@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Asparagus with Cheese Sauce and Herb Breadcrumbs",
+    "datePublished": "2020-03-20T18:02:37.000-04:00",
+    "dateModified": "2020-03-20T18:02:37.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "In this easy, 25-minute recipe for asparagus, a stress-free cheese sauce is made by simmering heavy cream until thickened, then stirring in Parmesan cheese.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/27byIJqPaofnFHbOfpUDCPZewfI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2629701_asparagus_0001_0-2000-d90a256461d24dcabba4e567c1e04121.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Asparagus with Cheese Sauce and Herb Breadcrumbs",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "recipeIngredient": [
+        "2 tablespoons unsalted butter",
+        "1/2 cup panko breadcrumbs",
+        "1/2 teaspoon crushed red pepper",
+        "1/4 teaspoon plus 1/8 tsp. kosher salt, divided",
+        "3 tablespoons finely chopped fresh flat-leaf parsley",
+        "1 tablespoon finely chopped fresh tarragon",
+        "2 pounds medium-size fresh asparagus spears, trimmed",
+        "1 tablespoon olive oil",
+        "1/2 cup heavy cream",
+        "4 ounces Parmigiano-Reggiano cheese, finely shredded (about 1 1/2 cups)",
+        "1 teaspoon lemon zest (from 1 small lemon)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt butter in a small skillet over medium-high. Add panko, crushed red pepper, and 1/8 teaspoon of the salt. Cook, stirring often, until toasted, 2 to 3 minutes. Stir in parsley and tarragon; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to high broil with rack in middle position. Place asparagus on a rimmed baking sheet, and drizzle with olive oil; toss to coat. Sprinkle with remaining 1/4 teaspoon of the salt, and broil until asparagus is tender-crisp, about 5 minutes (do not stir)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While asparagus broils, place heavy cream in a small skillet. Bring to a gentle simmer over medium, stirring occasionally. Add Parmigiano-Reggiano 1/4 cup at a time, stirring until completely melted and smooth after each addition."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange broiled asparagus on a platter. Spoon cheese sauce over asparagus, and sprinkle with panko mixture and lemon zest."
+        }
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/asparagus-cheese-sauce-herb-breadcrumbs",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions/easter",
+                        "name": "Easter"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions/easter/recipes",
+                        "name": "Easter Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/asparagus-cheese-sauce-herb-breadcrumbs",
+                        "name": "Asparagus with Cheese Sauce and Herb Breadcrumbs"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

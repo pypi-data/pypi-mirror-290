@@ -1,0 +1,123 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1.00xw:0.668xh;0,0.115xh&resize=100:*",
+    "datePublished": "2018-03-09T22:08:00 EST",
+    "headline": "Cheddar Biscuits",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1.00xw:0.668xh;0,0.115xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1.00xw:0.668xh;0,0.115xh&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1.00xw:0.668xh;0,0.115xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1xw:0.5xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1.00xw:0.668xh;0,0.115xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cheddar-biscuits-1520631893.jpg?crop=1xw:0.375xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a4268/cheddar-biscuits-recipe-clv1212/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "url": "https://www.countryliving.com/food-drinks/recipes/a4268/cheddar-biscuits-recipe-clv1212/",
+    "isBasedOn": "https://www.countryliving.com/food-drinks/recipes/a4268/cheddar-biscuits-recipe-clv1212/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "Serve these biscuits with Sweet-and-Spicy Cola-Glazed Ham and store-bought chutneys and mustards for a savory brunch or hearty dinner.",
+    "author": {
+        "name": "Carrie Purcell",
+        "url": "https://www.countryliving.com/author/6571/carrie-purcell/",
+        "@type": "Person",
+        "email": "unknown@hearst.com"
+    },
+    "name": "Cheddar Biscuits",
+    "prepTime": "PT35M",
+    "cookTime": "PT0S",
+    "totalTime": "PT1H",
+    "recipeIngredient": [
+        "4 c. all-purpose flour, plus more for surface",
+        "8 tsp. baking powder",
+        "2 tsp. salt",
+        "2 tsp. Freshly ground pepper",
+        "1 1/2 stick unsalted butter, cold and cut into small pieces",
+        "2 c. buttermilk",
+        "4 oz. grated Cheddar (about 1 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 450°F. Meanwhile, in a large bowl, combine flour, baking powder, salt, and pepper. Using a pastry cutter or your fingers, cut in butter until mixture resembles coarse crumbs. Add buttermilk and Cheddar, and stir until dough just comes together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn out dough onto a lightly floured surface; divide dough into halves and pat each into a rectangle. Set aside one rectangle and cover with a clean dish towel."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working with the other rectangle and using your hands, fold, flatten, and repeat until the dough has been folded over 4 times. Pat out until 1 inch thick. Cut out biscuits using a 2-inch round cutter. Repeat with reserved dough rectangle. Reroll scrap dough and repeat until all dough is used."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer biscuits to two baking sheets and bake until golden on top, 14 to 18 minutes."
+        }
+    ],
+    "recipeYield": "24 serving(s)",
+    "recipeCuisine": [
+        "American",
+        "Southern"
+    ],
+    "recipeCategory": [],
+    "keywords": "cheddar biscuits,make ahead brunch recipes,biscuit recipes,homemade biscuits",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "155 calories"
+    },
+    "@context": "http://schema.org"
+}

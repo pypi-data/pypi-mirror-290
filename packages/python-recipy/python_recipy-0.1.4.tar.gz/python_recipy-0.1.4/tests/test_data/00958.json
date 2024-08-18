@@ -1,0 +1,140 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/citrus-cornmeal-cake/",
+    "name": "Citrus Cornmeal Cake",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-10-04",
+    "prepTime": "PT25M",
+    "cookTime": "PT25M",
+    "totalTime": "PT50M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Citrus-Cornmeal-Cake_EXPS_JMZ18_50358_D03_14_2b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Cornmeal adds a rustic quality to this delicate dessert flavored with citrus and almond. It makes a great holiday party hostess gift and is sure to be a staple in your recipe collection. —Roxanne Chan, Albany, California",
+    "recipeIngredient": [
+        "1/2 cup lemon yogurt",
+        "1/3 cup honey",
+        "1/4 cup olive oil",
+        "1 large egg",
+        "2 large egg whites",
+        "1/4 teaspoon almond extract",
+        "3/4 cup all-purpose flour",
+        "1/2 cup cornmeal",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon grated orange zest",
+        "1 can (15 ounces) mandarin oranges, drained",
+        "3 tablespoons sliced almonds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°. In a large bowl, beat the yogurt, honey, oil, egg, egg whites and extract until well blended. Combine the flour, cornmeal and baking powder; gradually beat into yogurt mixture until blended. Stir in orange zest."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat a 9-in. fluted tart pan with removable bottom with cooking spray; pour batter in pan. Arrange oranges over batter; sprinkle with almonds. Bake until a toothpick inserted in the center comes out clean, 25-30 minutes. Cool on a wire rack for 10 minutes before cutting. Serve warm or at room temperature."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 240 calories",
+        "fatContent": "9g fat (1g saturated fat)",
+        "cholesterolContent": "27mg cholesterol",
+        "sodiumContent": "85mg sodium",
+        "carbohydrateContent": "36g carbohydrate (20g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "5g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-01-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "John7288"
+            },
+            "reviewBody": "<p>I was a little worried about this one because there were only two reviews. One said that they couldn't eat it and trashed it.</p><p>I made the Citrus Cornmeal Cake this afternoon, anticipating that we would have it for dessert. It's already been eaten and we haven't had dinner yet! What a pleasant surprise!</p><p>The taste is a bit like a soft almond / orange biscotti. </p><p>  </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-03-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "misscoffeepot"
+            },
+            "reviewBody": "<p>super easy and impressive.  I sprinkled about 1 Tbl of coarse sugar on top before baking for a little extra sparkle</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dorrieo"
+            },
+            "reviewBody": "This is a wonderful mix of sweet & savory...even my husband liked it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-12-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jdwalters"
+            },
+            "reviewBody": "I made this thinking it sounded really interesting. Too bad it sounded better than it tasted. No one liked it, we trashed it",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

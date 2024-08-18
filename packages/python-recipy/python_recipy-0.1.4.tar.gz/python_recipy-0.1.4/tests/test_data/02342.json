@@ -1,0 +1,65 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Chex® Barbecue Snack Mix",
+    "keywords": "chex® barbecue snack mix",
+    "recipeCategory": "Snack",
+    "image": "https://mojo.generalmills.com/api/public/content/jcNsMT8kkUifGu_Jt3-PBQ_webp_base.webp?v=6ac4d548&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Need something to munch on while grilling in the backyard?  Need a great snack for a video marathon?  This recipe fills the bill!",
+    "recipeIngredient": [
+        "3  cups Rice Chex™ cereal",
+        "3  cups Corn Chex™ cereal",
+        "1 1/2  cups bite-size pretzel twists",
+        "1 1/2  cups bite-size cheese crackers",
+        "3/4  cup honey-roasted peanuts",
+        "1/2  cup barbecue sauce",
+        "1  tablespoon vegetable oil",
+        "3/4  teaspoon onion powder",
+        "3/4  teaspoon garlic powder"
+    ],
+    "totalTime": "PT0H30M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "15",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "15",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In large microwavable bowl, mix cereals, pretzels, crackers and peanuts."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, mix remaining ingredients until well blended. Pour over cereal mixture, stirring until evenly coated. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Microwave uncovered on High 7 minutes, stirring every 2 minutes. Spread on foil or paper towels to cool, about 15 minutes. Store in airtight container."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "150 ",
+        "carbohydrateContent": "21 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "1 ",
+        "fiberContent": "1 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "1 1/2 g",
+        "servingSize": "1/2 Cup",
+        "sodiumContent": "330 mg",
+        "sugarContent": "5 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "01/01/2004",
+    "dateModified": "08/14/2006"
+}

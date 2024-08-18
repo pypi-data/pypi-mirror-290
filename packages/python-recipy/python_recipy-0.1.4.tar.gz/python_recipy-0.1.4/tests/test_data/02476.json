@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Penne with Spinach Pesto and Turkey Sausage",
+    "datePublished": "2018-02-15T13:08:21.000-05:00",
+    "dateModified": "2019-01-04T16:35:05.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Spinach takes center stage here: it serves as the base for the super-green pesto, along with basil and peas, and leaves are crisped in the oven for the topping. Coins of roasted Italian turkey sausage add heft but can be omitted if you want to go vegetarian.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/n3vwWH4OMmwKs95TvdXTuzkyctE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-pesta-with-shortcut-turkey-meatballs-103242185_horiz-299ceac25dbe4a90b382cefaaee403fb.jpgitokJUDTIzrD",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Penne with Spinach Pesto and Turkey Sausage",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "1"
+    },
+    "prepTime": "PT25M",
+    "recipeIngredient": [
+        "7 cups packed curly spinach leaves, well washed and dried",
+        "2 cups packed fresh basil leaves",
+        "1 tablespoon fresh lemon juice",
+        "1.5 cups frozen peas, thawed",
+        "0.333 cup extra-virgin olive oil, plus more for drizzling",
+        "0.333 cup grated Parmesan, plus more for serving",
+        "Kosher salt and freshly ground pepper",
+        "12 ounces sweet Italian turkey sausage (3 to 4 links)",
+        "1 pound short pasta, such as penne rigate"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 450 degrees. In a food processor, combine 4 cups spinach, basil, lemon juice, 1/2 cup peas, and olive oil; process until combined. Pulse in cheese; season with salt and pepper. Using kitchen shears, snip sausage into 1-inch pieces. Drizzle with oil; roast on a rimmed baking sheet until undersides are brown, 7 to 8 minutes. Flip and push to one side. Lightly drizzle remaining 3 cups spinach with oil; season with salt and pepper. Scatter evenly over other half of sheet; roast until sausage is cooked through and spinach is crisp, 5 to 6 minutes more."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, cook pasta in a pot of salted boiling water according to package directions. Drain, reserving 1 cup pasta water. Return pasta to pot; add pesto, sausage, remaining 1 cup peas, and pasta water, 1/4 cup at a time, until evenly coated. Season with salt and pepper. Serve, topped with crisped spinach, more cheese, and a drizzle of oil."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1526859/penne-spinach-pesto-and-turkey-sausage",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513772/quick-easy-recipes",
+                        "name": "Quick & Easy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1526859/penne-spinach-pesto-and-turkey-sausage",
+                        "name": "Penne with Spinach Pesto and Turkey Sausage"
+                    }
+                }
+            ]
+        }
+    }
+}

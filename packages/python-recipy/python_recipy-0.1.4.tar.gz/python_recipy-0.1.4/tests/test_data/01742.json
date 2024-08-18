@@ -1,0 +1,154 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "The Wienery - Coleslaw",
+    "url": "https://www.foodnetwork.com/recipes/the-wienery-coleslaw-recipe-1941035",
+    "headline": "The Wienery - Coleslaw",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2014-12-16T00:08:21.131-05:00",
+    "dateModified": "2013-12-16T17:38:02.965-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Picnic Salad Recipes,Celery,Vegetable,Cabbage Recipes,Side Dish,Lunch,Gluten Free",
+    "prepTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT0H15M0.000S",
+    "recipeIngredient": [
+        "1/2 cabbage, shredded and finely chopped",
+        "1/2 large onion, finely chopped",
+        "1/2 tablespoon black pepper",
+        "1/2 tablespoon celery salt",
+        "3 tablespoons sugar",
+        "1 cup mayonnaise"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "298",
+        "fatContent": "30g",
+        "saturatedFatContent": "4g",
+        "carbohydrateContent": "8g",
+        "fiberContent": "0g",
+        "sugarContent": "7g",
+        "proteinContent": "0g",
+        "cholesterolContent": "15mg",
+        "sodiumContent": "223mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl add all ingredients and mix well. Chill and serve."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 5
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diana W."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I would venture to say that the recipes called for celery seeds, rather than celery salt. Way too salty for my taste."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "john b."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is easy and tasty. I also added shredded carrot"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathleen F."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is my favorite coleslaw recipe...I added one carrot and chopped it with the onion in the food processor...also used \"Jane's Salt\" and used Veggie Pepper and added 1/2 teaspoon celery seed...Also added 1T. Organic Apple Cider Vinegar for alittle \"bite\"...Delicious..!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane D."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is going to be added to my recipe box as one of my favorite coleslaw recipes. It is very creamy and crunchy. I did use packaged coleslaw with carrots from the store and it turned delicious."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RD M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Made this slaw using half of the recommended celery salt and it was delicious."
+        }
+    ],
+    "recipeCategory": []
+}

@@ -1,0 +1,153 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/marinated-grilled-chicken/",
+    "name": "How to Grill Chicken Breasts",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-12-21",
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Marinated-Grilled-Chicken_EXPS_GHTAJ17_32233_C05_09_5b-2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Learn how to grill chicken breast for the easiest summer dinner. The days of dull, dry chicken are over.",
+    "recipeIngredient": [
+        "1/4 cup balsamic vinegar",
+        "2 tablespoons olive oil",
+        "1-1/2 teaspoons lemon juice",
+        "1/2 teaspoon lemon-pepper seasoning",
+        "4 boneless skinless chicken breast halves (6 ounces each)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Prepare the meat",
+            "text": "First things first: Tenderize the meat a bit. This step helps cook the chicken evenly, keeping one end from drying out before the other has time to cook. Place a large piece of parchment paper or plastic wrap on your work surface, place the chicken on top and cover the chicken with another piece of parchment or plastic. Next, grab a meat mallet or rolling pin and give the thickest part of the chicken a few firm whacks—if you've ever learned how to butterfly a chicken, these are the same first steps. You don't need to pulverize the cut, but do flatten it slightly so the breast is an even thickness from end to end."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Marinate the chicken",
+            "text": "Now it's time to marinate that bird. Place the vinegar, oil, lemon juice and lemon pepper into a medium-size bowl or pan, then add the chicken. Turn and flip the chicken to coat, then cover. Thinking about skipping this step? Think again. Marinade is a crucial part of keeping your chicken juicy (and adding extra flavor). Take a look at these marinade recipes for more options. Once covered, pop the chicken in the fridge. After 30 minutes or so, drain and discard the marinade. Test Kitchen Tip: Compared to beef and pork, chicken doesn't need to marinate for long—especially if the marinade includes acidic ingredients such as vinegar, lemon juice or buttermilk. All it takes is 30 minutes to a couple of hours at most for an acidic marinade to work its way into the meat. If you're running short on time, remember that some time spent marinating is better than none at all.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2017/04/marinating-chicken-GHTAJ17_32233_C05_09_1b_preview.jpg?fit=1024,683"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Clean and grease your grates",
+            "text": "When it comes to grilled food, it's best to start with clean grill grates. Check to make sure the grill is free of stuck-on food before you begin. The quickest way to clean a stainless steel grill is to turn up the heat to burn off the gunk, let it cool and scrub it down. Once clean, you'll want to brush the grill rack with oil. Moisten a paper towel with cooking oil, then use long-handled tongs to carefully rub it over the grill rack.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2017/04/cleaning-grill-GHTAJ17_32233_C05_09_2b_preview.jpg?fit=1024,683"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Start grilling",
+            "text": "Turn the heat up to medium, then use tongs to place the chicken breasts on the grill. If using a charcoal grill, you can gauge the temperature by holding your hand five inches above the cooking grate. If you can keep it there comfortably for four to six seconds, it's at medium heat. Cover the grill and let the chicken cook for five to seven minutes, then use tongs to flip the breasts over. Grill for five to seven minutes longer. For best results, pull out your meat thermometer. A fully cooked chicken breast will reach a temperature of 165°F. Test Kitchen Tip: If you plan to brush on a sweet glaze such as barbecue sauce, wait until the last few minutes of cooking. Sugary sauces tend to get dark quickly.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2017/04/grilling-chicken-GHTAJ17_32233_C05_09_3b_preview.jpg?fit=1024,683"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Let the chicken rest",
+            "text": "When you first learn how to make grilled chicken, you'll probably want to eat it the second it comes off the grill. However, it's best to be patient. Remove the chicken from the grill, cover with foil and let the chicken rest. This is absolutely key to keeping the chicken tender! Letting the meat rest for about five minutes gives the juices inside time to redistribute (instead of running out on your plate). By the time the table's set, your juicy grilled chicken will be ready for you to chow down."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 207 calories",
+        "fatContent": "6g fat (1g saturated fat)",
+        "cholesterolContent": "94mg cholesterol",
+        "sodiumContent": "105mg sodium",
+        "carbohydrateContent": "1g carbohydrate (1g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "34g protein. <B><b>Diabetic Exchanges</b>: </B> 5 lean meat"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.25,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-04-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "DWare5883"
+            },
+            "reviewBody": "It was good but not great. A great low calorie marinade that I would let marinade for as long as possible.  I think it would be better with some thin cut chicken breasts.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-05-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "saschlos"
+            },
+            "reviewBody": "My family absolutely loves this chicken.  We plan on making it at least once a week this summer.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-04-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "iamcarrie"
+            },
+            "reviewBody": "This was extremely easy to make.  I was concerned about what seemed like lots of balsamic vinegar, but it was not overpowering at all.  I had fairly large chicken breasts, so I cut them into pieces and flattened the thicker pieces.  The chicken was very tender after grilling and very tasty.  I may try adding some garlic next time and a little more lemon juice just for something a little  different.  I also used the marinade on zucchini and grilled it.  It was tasty on the zucchini, too.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-08-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "pajamaangel"
+            },
+            "reviewBody": "This was a very tasty recipe!  There weren't any leftovers and that says a lot in this house!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

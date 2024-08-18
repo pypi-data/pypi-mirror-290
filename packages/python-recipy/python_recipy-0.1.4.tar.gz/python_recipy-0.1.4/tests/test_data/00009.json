@@ -1,0 +1,152 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Garlic Cashew Chicken Casserole",
+    "datePublished": "2018-03-01T19:28:08.000-05:00",
+    "dateModified": "2023-09-19T17:44:31.577-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Combine brown rice, cashews, chow-mein noodles and vegetables galore with chicken in this delicious casserole.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/jzTQElj7FqRjmVPtSZuKE1fm5MM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5202392-7e87b89147604ac291cb3c69d4b17d4f.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Garlic Cashew Chicken Casserole",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.4",
+        "ratingCount": "5"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "340 kcal",
+        "carbohydrateContent": "40 g",
+        "cholesterolContent": "49 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "23 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "480 mg",
+        "sugarContent": "8 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT35M",
+    "recipeIngredient": [
+        "Nonstick cooking spray",
+        "1 cup reduced-sodium chicken broth",
+        "0.25 cup hoisin sauce",
+        "2 tablespoons grated fresh ginger",
+        "4 teaspoons cornstarch",
+        "0.5 teaspoon crushed red pepper",
+        "0.125 teaspoon ground black pepper",
+        "1 pound skinless, boneless chicken breast halves, cut into 1-inch strips",
+        "2 medium onions, cut into thin wedges",
+        "2 cups sliced bok choy",
+        "1 cup sliced celery (2 stalks)",
+        "1 cup sliced carrots (2 medium)",
+        "0.75 cup chopped green sweet pepper (1 medium)",
+        "6 cloves garlic, minced",
+        "2 cups cooked brown rice",
+        "1 cup chow-mein noodles, coarsely broken",
+        "0.5 cup cashews",
+        "0.25 cup thinly sliced green onions (2)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400 degrees F. Lightly coat a 2-quart rectangular baking dish with cooking spray. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For sauce, in a medium bowl whisk together broth, hoisin sauce, ginger, cornstarch, crushed red pepper and black pepper; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lightly coat an extra-large skillet with cooking spray; heat over medium-high heat. Add chicken to skillet; cook until lightly browned. Remove from skillet. Add onion wedges, bok choy, celery, carrots and sweet pepper to the skillet. Cook for 3 to 4 minutes or until vegetables start to soften. Add garlic; cook for 30 seconds more. Stir in the sauce. Cook and stir about 3 minutes or until sauce is thickened and bubbly. Stir in cooked rice and browned chicken."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon chicken-rice mixture into the prepared baking dish. Cover with foil and bake about 20 minutes or until casserole is bubbly and chicken is no longer pink (165 degrees F). Sprinkle chow-mein noodles and cashews over. Bake, uncovered, for 4 to 5 minutes more or until noodles and cashews are golden brown. Sprinkle with green onions."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/263004/garlic-cashew-chicken-casserole/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17932/ingredients/meat-poultry/chicken/main-dish/",
+                        "name": "Healthy Chicken Main Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18912/ingredients/meat-poultry/chicken/main-dish/casserole/",
+                        "name": "Healthy Chicken Casserole Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/263004/garlic-cashew-chicken-casserole/",
+                        "name": "Garlic Cashew Chicken Casserole"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T17:44:31.577-04:00"
+    },
+    "recipeCategory": []
+}

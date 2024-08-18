@@ -1,0 +1,426 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024123-ginger-scallion-steamed-fish#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024123-ginger-scallion-steamed-fish",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/04/20/multimedia/as-ginger-scallion-fish-fgqk/as-ginger-scallion-fish-fgqk-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024123-ginger-scallion-steamed-fish",
+    "name": "Ginger-Scallion Steamed Fish",
+    "description": "Connie Chung wanted to add steamed whole fish — a dish served at the Cantonese banquet meals of her childhood — to the menu at Milu, her restaurant in New York City. But to make it work in a fast-casual setting, she needed to make some changes. She wanted to keep the tender fish heady with soy sauce, ginger and scallions, but it had to hold up during delivery and be easy to eat. She landed on steaming cubed fish with soy sauce and a ginger-scallion stock, a forgiving method that isn’t stinky or splattery and results in deeply seasoned, buttery fish. While any firm fish works in this adaptation, Ms. Chung uses salmon, her mom’s suggestion. At Milu, this dish is served with rice, charred broccoli, a watercress-cilantro salad and a ginger-scallion oil, but would also be great in a nori hand roll, over salad greens or tossed with ramen.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/04/20/multimedia/as-ginger-scallion-fish-fgqk/as-ginger-scallion-fish-fgqk-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/04/20/multimedia/as-ginger-scallion-fish-fgqk/as-ginger-scallion-fish-fgqk-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/04/20/multimedia/as-ginger-scallion-fish-fgqk/as-ginger-scallion-fish-fgqk-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/04/20/multimedia/as-ginger-scallion-fish-fgqk/as-ginger-scallion-fish-fgqk-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "fish, fresh ginger, scallion, soy sauce, healthy",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1714
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 378,
+        "unsaturatedFatContent": "13 grams",
+        "carbohydrateContent": "5 grams",
+        "cholesterolContent": null,
+        "fatContent": "23 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "36 grams",
+        "saturatedFatContent": "5 grams",
+        "sodiumContent": "542 milligrams",
+        "sugarContent": "4 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 1/2 pounds firm fish, such as salmon, halibut or haddock, cut into 1-inch cubes and patted dry",
+        "1 tablespoon Diamond Crystal Kosher salt or 1 ½ teaspoons fine sea salt",
+        "4 scallions",
+        "1 (1-inch) piece fresh ginger",
+        "2 tablespoons soy sauce",
+        "1 tablespoon granulated sugar, plus more as needed"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium bowl, stir together 1 cup water with the fish and salt. Set aside for 10 minutes. (This quick brine will help the fish stay tender.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, slice the scallion whites and light green parts into 1-inch-thick segments, then thinly slice the greens for garnish. Peel the ginger and cut into thin matchsticks."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large pot or skillet with a lid, combine ½ cup water with the scallion segments, ginger, soy sauce and sugar. Bring to a simmer over medium-high and cook until reduced by about half, 5 to 7 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Reduce heat to low, then use a slotted spoon or your fingers to transfer the fish to the pot. (No need to pat it dry first.) Stir to coat in the soy mixture, then shake into an even layer. Cover and cook until the fish is cooked through, 8 to 12 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Taste the sauce in the pot and if it’s too salty, stir in a pinch of sugar. Divide the fish among bowls, including the sauce, ginger and scallions, and top with the thinly sliced scallion greens. It’s good warm, at room temperature (you can leave out up to 2 hours), or cold from the fridge (store it for up to 1 day). "
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-04-20T00:00:00.000Z",
+    "dateModified": "2024-03-30T01:09:04.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karla"
+            },
+            "reviewBody": "I assume you pat the fish dry so that it has \"room\" to absorb the brine.",
+            "datePublished": "2024-05-23T03:04:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JMR"
+            },
+            "reviewBody": "To those mentioning overcooked salmon, it would seem that common sense should be used to determine the cooking time and that would be dependent on the thickness of the fish. As an example, store-bought salmon filets are usually much thinner than pieces of haddock or halibut. The recipe mention all of those as a choice.",
+            "datePublished": "2024-04-25T00:08:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tracy Bellavance"
+            },
+            "reviewBody": "So good!!!   Pretty much made as instructed.  Easy. Going in the rotation!",
+            "datePublished": "2024-04-15T22:58:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robin C"
+            },
+            "reviewBody": "I'm going to use my Costco bag of vacuumed sealed salmon loins...nice and thick for these cubes.  I never rinse my brined fish and not too salty.  (I use Diamond Crystal, less sodium than regular kosher or iodized), so 1 tbsp is ok.",
+            "datePublished": "2024-04-14T17:01:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "patricia"
+            },
+            "reviewBody": "Delish! Can this method be used with ~6 oz filets? Or a 2lb filet of salmon? Need to feed a crowd and filets are more elegant in presentation. Steamed with lemon & thyme?",
+            "datePublished": "2024-04-14T13:37:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John"
+            },
+            "reviewBody": "We made this with cod and it just wasn’t very good",
+            "datePublished": "2024-04-09T03:50:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelly A"
+            },
+            "reviewBody": "Cooked exactly as instucted, using a nice thick piece of center cut salmon. The recipe is simple and delicious. The whole family loved it - yay!",
+            "datePublished": "2024-04-06T16:21:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christina"
+            },
+            "reviewBody": "Added garlic~ and my greens included broccoli and kale~ all of it was amazingly delicious!",
+            "datePublished": "2024-04-02T20:04:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa F."
+            },
+            "reviewBody": "Really enjoyed this recipe! I was a little skeptical at first about cooking the fish in cubes, but it turned out great and was super easy to make! This will be on rotation for me. I cooked salmon and paired with bok choy and rice. For leftovers, I paired it with quinoa. Both ways were delicious!",
+            "datePublished": "2024-04-02T19:02:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie"
+            },
+            "reviewBody": "Love love love this dish!  I add way more ginger, scallions and cilantro.  Serve with lots of roasted broccoli and buckwheat udon noodles.",
+            "datePublished": "2024-04-01T03:02:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John C"
+            },
+            "reviewBody": "I followed the recipe but substituted Teriyaki sauce instead of soy which is too salty. \nNot difficult to make, very delicious.",
+            "datePublished": "2024-03-30T16:31:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marci L."
+            },
+            "reviewBody": "I followed the recipe exactly, it was delicious.  The only thing I will do differently next time is to cook it 6 minutes instead of 8.  I used salmon.",
+            "datePublished": "2024-03-28T16:09:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JB"
+            },
+            "reviewBody": "excellent— if you have a good fresh fish. def watch it times seem long…",
+            "datePublished": "2024-03-24T04:00:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Uma G."
+            },
+            "reviewBody": "I cooked this just as instructed except that I used steelhead because it looked very nice in the store. It was incredibly easy and SO delicious. 100/10.",
+            "datePublished": "2024-03-10T04:02:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "susan"
+            },
+            "reviewBody": "Lisa, where did you use this delicious sounding oil?",
+            "datePublished": "2024-04-10T12:35:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa"
+            },
+            "reviewBody": "Here is the link to the ginger scallion oil- it is in the article, not the recipe that accompanies it.\n<a href=\"https://www.nytimes.com/2018/05/08/magazine/caramelized-scallion-sauce-viral-chinese-barbecue.html\" target=\"_blank\">https://www.nytimes.com/2018/05/08/magazine/caramelized-scallion-sauce-viral-chinese-barbecue.html</a>",
+            "datePublished": "2024-02-29T21:58:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrea H."
+            },
+            "reviewBody": "I’m puzzled that this cooking technique is called “steaming”. If I’ve read the instructions correctly, the fish is cooked IN the reduced sauce. Am I misinterpreting?",
+            "datePublished": "2023-04-23T15:49:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JOhn V"
+            },
+            "reviewBody": "Sugest the poachers reread the recipe- \n\nUsing a quart sauce pan then we're poaching, if using a 10\" skillet - it's steaming - really depends on the depth of the liquid. \n\nA 1/4 cup of liquid in a 10\" skillet is going to steam.",
+            "datePublished": "2023-04-23T17:40:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "I used (real) maple syrup instead of sugar and added a little garlic.",
+            "datePublished": "2023-04-23T16:10:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carol"
+            },
+            "reviewBody": "Why would you pat the fish dry if you are going to brine then place in a water bath?",
+            "datePublished": "2023-04-23T15:31:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "don"
+            },
+            "reviewBody": "Delicious and simple and easy!  My changes:  Rinsed the fish a little after brining, white Bordeaux instead of water in the steaming sauce, mirin in place of sugar…more of both added after reducing, for steaming the fish.  8 minutes steaming for perfectly moist salmon sections about an inch thick at thickest part.",
+            "datePublished": "2023-04-27T21:02:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Todd"
+            },
+            "reviewBody": "Commenters puzzled by the recipe's use of the word \"steamed\" don't seem to have noticed the very small amount of liquid actually called for. Yes, there will be some sauce in the bottom of the pan as the fish cooks, but the fish will not be immersed in liquid and will be cooked primarily by steam. I haven't tried this yet, but I'm looking forward to doing so. It sounds like a great recipe.",
+            "datePublished": "2023-04-23T17:25:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jola"
+            },
+            "reviewBody": "I loved it, but I was watching the salmon and it only needed 3-4 minutes, and I think it actually overcooked a little between the time I took it off the flame and served it.  I had to give into my love of garlic in Asian dishes, so I sliced one into the mix of ginger and green onion. The sauce was amazing and the fish was tender. I am definitely making it again, probably steaming salmon for 2-3 min.",
+            "datePublished": "2023-04-28T19:41:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Grace"
+            },
+            "reviewBody": "Is the fish skinned, or skin on, or does it matter?",
+            "datePublished": "2023-04-24T00:42:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elainefrommaine"
+            },
+            "reviewBody": "Thanks to others, I substituted maple syrup for sugar, added a touch of garlic to the broth, and cooked 4 minutes, not 8. Perfectly moist and tasty.",
+            "datePublished": "2023-05-15T23:13:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ric"
+            },
+            "reviewBody": "I think this was posted today.  I just happened to have some sockeye in the fridge for tonight so changed my plan to give this a try.  Served over rice with baby bok choy.  The flavor was great, and the sauce paired exceptionally with the bok choy, but the salmon was the opposite of tender, or as Sifton described it in today’s email, “buttery”.  It was hard, and a little chewy after only 8 minutes.  Maybe farm-raised Atlantic gives a different result.",
+            "datePublished": "2023-04-24T00:33:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lily"
+            },
+            "reviewBody": "No mention of this, but are you supposed to rinse the fish after the brining step? Isn't it too salty if you don't?",
+            "datePublished": "2023-04-23T18:57:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jill"
+            },
+            "reviewBody": "This was simple and great. Be sure you let the sauce reduce adequately before adding the salmon, as you don’t lose much more liquid in the cooking process. I used low-sodium soy sauce and found the dish plenty salty and served with rice and broccoli. Next time I might consider removing the skin as I didn’t love the texture, but it’s not necessary.",
+            "datePublished": "2023-04-26T01:55:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue"
+            },
+            "reviewBody": "The fish is sitting on only 1/4c of the reduced sauce in a large skillet.  Once covered the fish will be steaming in that sauce.",
+            "datePublished": "2023-04-23T16:52:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter M"
+            },
+            "reviewBody": "Great recipe and relatively easy and fast to prepare.  I followed the recipe closely except for adding three small arbor chilis (chopped) to add some heat, cooking in a cast iron skillet.  I also doubled the ginger.   It worked, and made for a nice counterpoint to the buttery, salty flavors of the sauce and salmon.  Chopped scallion greens were inspired, as well.  Served with roasted broccoli and brown jasmine rice.",
+            "datePublished": "2023-04-29T00:19:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrea"
+            },
+            "reviewBody": "Greater than the sum of its parts. Delicious. Followed the recipe.",
+            "datePublished": "2023-05-20T19:48:23.000Z"
+        }
+    ]
+}

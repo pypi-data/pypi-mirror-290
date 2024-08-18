@@ -1,0 +1,431 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/11566-basic-chicken-stock#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/11566-basic-chicken-stock",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2017/01/20/dining/20COOKING-BASIC-CHICKEN-STOCK4/20COOKING-BASIC-CHICKEN-STOCK4-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/11566-basic-chicken-stock",
+    "name": "Basic Chicken Stock",
+    "description": "The difference between a good soup and a great soup is the stock, and if you've never made your own, you're really missing out. This recipe from the legendary Jacques Pépin takes a few hours, but very little effort, and you'll never go back to those cardboard cartons of over-salted stock again. It also freezes beautifully.",
+    "author": {
+        "@type": "Person",
+        "name": "Jacques Pepin"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2017/01/20/dining/20COOKING-BASIC-CHICKEN-STOCK4/20COOKING-BASIC-CHICKEN-STOCK4-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/20/dining/20COOKING-BASIC-CHICKEN-STOCK4/20COOKING-BASIC-CHICKEN-STOCK4-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/20/dining/20COOKING-BASIC-CHICKEN-STOCK4/20COOKING-BASIC-CHICKEN-STOCK4-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/01/20/dining/20COOKING-BASIC-CHICKEN-STOCK4/20COOKING-BASIC-CHICKEN-STOCK4-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H30M",
+    "recipeYield": "13 cups",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "chicken, thanksgiving",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 399
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 11,
+        "unsaturatedFatContent": "0 grams",
+        "carbohydrateContent": "0 grams",
+        "cholesterolContent": null,
+        "fatContent": "1 gram",
+        "fiberContent": "0 grams",
+        "proteinContent": "1 gram",
+        "saturatedFatContent": "0 grams",
+        "sodiumContent": "51 milligrams",
+        "sugarContent": "0 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 pounds chicken bones (neck, backs and gizzards, skinless or with as little skin as possible)",
+        "6 quarts lukewarm water",
+        "1 tablespoon herbes de Provence (see note)",
+        "1 large onion, peeled and cut into 4 pieces",
+        "12 whole cloves",
+        "1 teaspoon celery seed",
+        "1 tablespoon dark soy sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place the bones and the water in a large stockpot, and bring to a boil over high heat. Reduce the heat and boil gently for 30 minutes. Most of the fat and impurities will come to the surface during this time; skim off and discard as much of them as you can."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the remainder of the ingredients, return the liquid to a boil and boil gently for 2 hours. Strain through a fine-mesh sieve or through a colander lined with a dampened cloth kitchen towel or dampened paper towels."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Allow the stock to cool. Then remove the surface fat and freeze the stock in plastic containers with tight-fitting lids. Use as needed."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martha in Louiisville CO"
+            },
+            "reviewBody": "Best stock recipe I have ever made.  Followed directions exactly.",
+            "datePublished": "2023-12-27T18:25:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Frank"
+            },
+            "reviewBody": "I was taught to roast the bones of any stock first to bring out the golden color and flavor inside the bone marrow. Then add the roasted chicken, beef or pork bones into cold water and reduce on a low simmer so the any leftover meat on the bones does not cloud the consume. This method has never failed me",
+            "datePublished": "2023-02-05T19:33:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Blaze"
+            },
+            "reviewBody": "I made this at Thanksgiving using turkey necks & at Christmas using chicken backs. Both times I omitted cloves & celery seeds. It makes the best gravy of all time & filled the house with delicious smells!",
+            "datePublished": "2020-12-25T04:24:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Noel Noodleman"
+            },
+            "reviewBody": "Chef Pepin might tell you that In French, stock is called fond de cuisine, or, roughly, \"foundation of the kitchen.\" \n\nFat removal is not only cosmetic but also allows the stock to serve as a neutral flavorant—some dishes will benefit from the fat, others not, and fat can be added back if necessary. :-)",
+            "datePublished": "2022-08-21T18:13:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "t"
+            },
+            "reviewBody": "I have always wondered: why is it important to remove fat at any point in recipe? Doesn't the fat make everything taste better?",
+            "datePublished": "2020-12-07T16:27:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy Black"
+            },
+            "reviewBody": "Game changer for my soup recipes. And ridiculously easy!",
+            "datePublished": "2020-06-05T18:48:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DGO"
+            },
+            "reviewBody": "how much stock does this recipe make?",
+            "datePublished": "2020-01-15T17:38:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ECC"
+            },
+            "reviewBody": "Now making my second batch. I get the whole chicken carcass at my local Asian supermarket for $1 each...2 or 3 suffice. Then do as written. Simple and tasty.",
+            "datePublished": "2019-11-06T17:03:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "Make chicken stock often, usually w/o recipe, but thought I'd try this as it had a couple of unique twists.  Published by Chef Pepin in 1991.  A classic for sure.  But things change.  Not a keeper for me.  If you want a recipe try Samin Nosrat's Chicken Stock on this site.  Notes:\n\n*Starts w/ 24 C (6 qts) water & says 13 C outcome.  Simmering for only 2'ish hours, even uncovered, will not get that amount of redux.\n\n*Is 12 cloves a typo? Regardless, too many. \n \n*Use the fine sieve option step 2.",
+            "datePublished": "2019-10-25T17:21:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alicia"
+            },
+            "reviewBody": "Wait what? Do you mean remove the skin \"and\" meat from a raw bird, or just the skin? Removing everything sounds like a mean task. Advise??",
+            "datePublished": "2019-05-11T11:57:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JMR"
+            },
+            "reviewBody": "To remove fat, I find it far better to chill broth then skim off fat when cool. The fat, if carefully removed, can be used to make matzo balls for soup. Also, in my ever-so-humble opinion, there are too many cloves in this recipe.",
+            "datePublished": "2019-04-24T18:40:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris B"
+            },
+            "reviewBody": "I do that a lot, and you get a decent stock (still better than cans or boxes), but not nearly as good as what results from fresh bones.  If you use a store-bought rotisserie chicken, or even your own roast, taste the stock for saltiness, and usually be careful not to boil it down much.",
+            "datePublished": "2019-05-04T02:30:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cheffy Dave"
+            },
+            "reviewBody": "Of course!",
+            "datePublished": "2019-05-04T21:00:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dorran"
+            },
+            "reviewBody": "Can you use the bones from a carcass of a chicken already roasted (and enjoyed), or does one need raw?",
+            "datePublished": "2019-04-20T21:41:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shabnam Russo"
+            },
+            "reviewBody": "I prefer to use chicken wings , sautéed in a little butter , add OCCL onions carrots celery leeks simmer in boiling water I add a Knorr Stick pot and bouquet garni ( bayleaves peppercorns and cloves ) bubble bubble tool no trouble 💖",
+            "datePublished": "2019-04-22T16:21:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PatC"
+            },
+            "reviewBody": "Reduce the number of cloves to two or three!  Often I can buy a whole air chilled chicken for the same per-pound price as chicken backs. Poach the breasts and de boned thighs in court bullion, use them for chicken salad or pot pie meat and use the rest to make stock.  Alternatively, roast a chicken whole and uses the bones—leave them a little meaty—to make roast chicken stock. Be sure to save ALL the pan juices and fond for the stock. Maybe not as French as Jacques’ stock but good nonetheless.",
+            "datePublished": "2019-04-20T20:13:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carmela Sanford"
+            },
+            "reviewBody": "Completely untrue. There’s absolutely no taste from white paper towels. Besides, you’re not dipping a piece of towel into the pot. You're gently skimmer the surface.",
+            "datePublished": "2019-04-21T07:07:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cook 252"
+            },
+            "reviewBody": "Perhaps it depends on the brand, but I also have found paper towels to leave a bad taste when using as a filter.  The white paper products are made with bleach.  It would be unhealthy to use. Brown paper towels may be ok.",
+            "datePublished": "2019-04-22T16:47:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "René of B3K"
+            },
+            "reviewBody": "do not use paper towels to filter the broth or replace a coffee filter unless you like the taste of the industrial paper process. Line the calendar with cheese cloth.",
+            "datePublished": "2019-04-20T20:16:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tiger squeakily, jr."
+            },
+            "reviewBody": "how big a pot do you need o make this?",
+            "datePublished": "2019-03-14T16:48:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jill"
+            },
+            "reviewBody": "Easy to make, and is a great way to use the entire chicken and not throw out the bones.  Using herbes de Provence is a must.  Try not to substitute if you can.",
+            "datePublished": "2017-10-30T13:11:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brad"
+            },
+            "reviewBody": "Not all the the butchers near me sell carcasses, but I've been getting great results using chicken feet. They produce a rich, gelatinous stock that's good in soup, or for making Bolognese and other recipes. No more canned broth for me.",
+            "datePublished": "2017-10-20T18:44:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "judy dyer"
+            },
+            "reviewBody": "I make stock similar to this but first I bake/brown the chicken bones, necks, etc. in the oven.   very flavorful.",
+            "datePublished": "2019-01-12T16:10:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevin"
+            },
+            "reviewBody": "That would be cloves. 12 seems like a lot but who am i to doubt The Great One. You can poke them into the onion.",
+            "datePublished": "2017-10-24T18:23:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephen"
+            },
+            "reviewBody": "Twelve cloves dominated the broth and the dark soy made it really dark. Couldn't taste the chicken in this chicken broth recipe. I froze it labeled as vegetable broth thinking it might go better with recipes calling for that. ",
+            "datePublished": "2019-01-06T17:32:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PatC"
+            },
+            "reviewBody": "Reduce the number of cloves to two or three!  Often I can buy a whole air chilled chicken for the same per-pound price as chicken backs. Poach the breasts and de boned thighs in court bullion, use them for chicken salad or pot pie meat and use the rest to make stock.  Alternatively, roast a chicken whole and uses the bones—leave them a little meaty—to make roast chicken stock. Be sure to save ALL the pan juices and fond for the stock. Maybe not as French as Jacques’ stock but good nonetheless.",
+            "datePublished": "2019-04-20T20:13:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tiger squeakily, jr."
+            },
+            "reviewBody": "cloves of what?",
+            "datePublished": "2019-03-14T16:51:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "René of B3K"
+            },
+            "reviewBody": "do not use paper towels to filter the broth or replace a coffee filter unless you like the taste of the industrial paper process. Line the calendar with cheese cloth.",
+            "datePublished": "2019-04-20T20:16:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris B"
+            },
+            "reviewBody": "I do that a lot, and you get a decent stock (still better than cans or boxes), but not nearly as good as what results from fresh bones.  If you use a store-bought rotisserie chicken, or even your own roast, taste the stock for saltiness, and usually be careful not to boil it down much.",
+            "datePublished": "2019-05-04T02:30:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "Chicken feet all the way for soup stock.  Agreed.  There is nothing better for producing a flavorful rich stock.  A carrot is always added when making my stock.",
+            "datePublished": "2018-03-19T21:20:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carmela Sanford"
+            },
+            "reviewBody": "Completely untrue. There’s absolutely no taste from white paper towels. Besides, you’re not dipping a piece of towel into the pot. You're gently skimmer the surface.",
+            "datePublished": "2019-04-21T07:07:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shabnam Russo"
+            },
+            "reviewBody": "I prefer to use chicken wings , sautéed in a little butter , add OCCL onions carrots celery leeks simmer in boiling water I add a Knorr Stick pot and bouquet garni ( bayleaves peppercorns and cloves ) bubble bubble tool no trouble 💖",
+            "datePublished": "2019-04-22T16:21:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LTP"
+            },
+            "reviewBody": "<a href=\"https://en.wikipedia.org/wiki/Clove\" target=\"_blank\">https://en.wikipedia.org/wiki/Clove</a>",
+            "datePublished": "2019-03-28T16:01:55.000Z"
+        }
+    ]
+}

@@ -1,0 +1,489 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/oven-denver-omelet/",
+    "name": "Oven Denver Omelet",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-12-07",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps9221_THCB1415561D12_12_1bC_WEB-2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I like omelets but don't always have time to stand by the stove. That's why I favor this oven-baked variety that I can quickly pop into the oven at a moment's notice. My family frequently requests this for Sunday brunch. They always empty the dish. &mdash;Ellen Bower, Taneytown, Maryland",
+    "recipeIngredient": [
+        "8 large eggs",
+        "1/2 cup half-and-half cream",
+        "1 cup shredded cheddar cheese",
+        "1 cup finely chopped fully cooked ham",
+        "1/4 cup finely chopped green pepper",
+        "1/4 cup finely chopped onion"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°. In a large bowl, whisk eggs and cream. Stir in the cheese, ham, green pepper and onion. Pour into a greased 9-in. square baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until the omelet is golden brown and the center is set, 25-30 minutes."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 235 calories",
+        "fatContent": "16g fat (8g saturated fat)",
+        "cholesterolContent": "326mg cholesterol",
+        "sodiumContent": "506mg sodium",
+        "carbohydrateContent": "4g carbohydrate (2g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "17g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.6938777,
+        "reviewCount": 98,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-03-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mumsay"
+            },
+            "reviewBody": "This is easy and tastes very good.  I used a variety of bell peppers and I sprinkled it with black pepper.  I baked it for 30 minutes, and during the last 10 minutes I reduced the oven to 375 degrees.  Came out perfect the 3 times I've made it so far.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-07-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "meliss.beyer"
+            },
+            "reviewBody": "I made this for a mother's day brunch. The end product was liked by many. My only issue was that the middle seemed to take forever to set. I left it in longer which results in the edges being overcooked. Overall, I would still make it again",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-04-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Deborah7258"
+            },
+            "reviewBody": "<p>Very Good, did ours at 325 and it took 40 mins. and it was Perfectly light brown and done. Will make again!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-12-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "tammycookblogsbooks"
+            },
+            "reviewBody": "<p>Delicious! I cooked the green pepper and onions before adding them to the egg mixture. A cast iron skillet worked great for this recipe.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-06-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ChefKrazyKat"
+            },
+            "reviewBody": "<p>Great go to dinner idea. Fast and easy. Have made it many times over the years. I serve it with a green salad and buttermilk biscuits.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-03-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Hauna"
+            },
+            "reviewBody": "I make this recipe at least once a month. I use a 10x10 pan so I use a dozen eggs. I always use the ham and green pepper and a can of green chilies. Sometimes I add green onions or tomatoes if I have some to use up. My husband loves it. He's retired so he sometimes has it for lunch. It's a great recipe because you can tailor it to fit what you like and don't like.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-02-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Susie77"
+            },
+            "reviewBody": "The first time I made this as stated in the recipe; felt that it was kind of bland. The second time I added salt, pepper, a quarter tsp of garlic powder, a dash of red pepper flakes, a few sauteed chopped button mushrooms and a handful of baby spinach (also chopped). Perfection!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-06-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "AmyForsyth"
+            },
+            "reviewBody": "This is great as supper too! Love this recipe!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-06-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JGa2595176"
+            },
+            "reviewBody": "LOve this dish! We make this at least once a month. We're a big breakfast-for-dinner family and this pleases everyone...and it's easy to throw together.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-03-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jdog31399"
+            },
+            "reviewBody": "This is a great way to use leftover ham.  Easy to change the ingredients.  I've added mushrooms, replaced 1/2 and 1/2 with milk, subtracted onions, and used green onions.  I don't think I've made it the same way twice, but have always had great results.  Delicious.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-02-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "7833louis"
+            },
+            "reviewBody": "This is so easy and so versatile. You can add any vegetables, any kinds of meat, or any kind of cheese. Thanks for sharing!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-01-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Wingslady"
+            },
+            "reviewBody": "Excellent.  Easy to put together and turns out very moist.  I do, however, add extra green pepper, onions and cheese just because I love these ingredients!  Can adjust ingredients to your own tastes.  Definitely a \"Keeper.\"",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-05-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JamesCunningham"
+            },
+            "reviewBody": "Loved this one.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-02-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "hkpepin"
+            },
+            "reviewBody": "My husband and I really liked this. I added some extra ham and extra eggs but otherwise followed the recipes. My changes were mostly because I had some things I needed to use up. Personally, I would prefer a different color pepper but my husband devoured two helpings of this with no complaints or issues. My kids weren't as thrilled and probably would have eaten more if I had left out the pepper completely. But it was very simple and I definitely think I'd make it again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-04-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "DeliciouslyResourceful_Gina"
+            },
+            "reviewBody": "Really delicious and satisfying!  Also very easy. I will add this into my meal rotation. I used milk instead of half and half because that is what I had on hand and also added some salt and pepper. We had this for dinner with hashbrowns, but I will also make it for breakfast and brunch.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-10-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "CyndyA13"
+            },
+            "reviewBody": "I didn't make this as written because I didn't have a bell pepper or ham, so I substituted a 4 ounce can of drained green chilies, 12 small chopped fresh crimini mushrooms and added 1/2 teaspoon of fresh ground pepper and 1/2 cup more of shredded sharp cheddar cheese, only because we like cheese.  It was so good.  Next time I will saut? the onions prior to adding.  I baked this for 35 minutes in a preheated 400 degree oven.   Ellen, thank you for a recipe that can be molded into a good meal and a 5 star recipe with the substitutions!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-03-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MelanieRae"
+            },
+            "reviewBody": "I made my version of this for brunch last weekend.  I used shredded parmesan cheese instead - added ham and sweet pepper (no onion) and a teaspoon of dried tarragon.  Was delicious.  I've already shared it with friends and family.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-01-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sjpoor"
+            },
+            "reviewBody": "This is very easy and tastes great.  I used 6 eggs and 1/3 cup egg whites as that is what I had on-hand.  The baking time and temperature were perfect.  Served it with O'Brien hash browns last night for dinner.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-04-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "rena 55",
+                "givenName": "rena",
+                "familyName": "55"
+            },
+            "reviewBody": "Great way to make omelets for a crowd or family!  You can easily change up the meats or add some favorite veggies to suit your families taste!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-05-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "TomBraddock"
+            },
+            "reviewBody": "The greatest thing since sliced bread or canned beer!!! I have found Nirvana in this recipe and never again will I use the traditional method of making an omelet - never!!  One recommendation: \"do it\" in individual baking dishes if serving more than one - it makes a great deal of difference.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-06-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "renjohns"
+            },
+            "reviewBody": "GREAT recipe!! Normally I am adding or changing a recipe but this was perfect. Quick, easy and great for a group of people.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-04-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "VictoriaElaine"
+            },
+            "reviewBody": "This was pretty good.  I felt it could use more flavor, so would likely add a dash of cayenne pepper or hot sauce if I made it again.  Mine also took 10 - 15 minutes longer to bake.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-12-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jupowers"
+            },
+            "reviewBody": "Made this for a breakfast for my husband and I this morning.  Very good its a keeper.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Oven Denver Omelet",
+        "description": "There's no need to babysit your skillet while making this breakfast dish All the flavors of the Southwest classic are baked right in",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/VD9221010217H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2020-09-5 10:47:17",
+        "duration": "P0DT0H0M41S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2018/06/VD9221_010217_H.mp4"
+    }
+}

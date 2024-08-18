@@ -1,0 +1,374 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/corn-dogs/",
+    "name": "Homemade Corn Dogs",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-01-04",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Corn-Dogs_EXPS_TOHJJ20_1362_B01_31_2b-1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Love fair food like funnel cake and corn dogs? Here is how to make perfectly golden, hand-dipped corn dogs at home.",
+    "recipeIngredient": [
+        "3/4 cup yellow cornmeal",
+        "3/4 cup self-rising flour",
+        "1 large egg, lightly beaten",
+        "2/3 cup 2% milk",
+        "10 pop sticks",
+        "10 hot dogs",
+        "Oil for deep-fat frying"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Dry the hot dogs",
+            "text": "Using a paper towel, pat the hot dogs until they're completely dry. Don't skip this step—the batter won't adhere to a wet dog. Next, insert a popsicle stick (or sturdy bamboo skewer) about two-thirds of the way into each hot dog. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Make the corn dog batter",
+            "text": "In a large mixing bowl, combine the cornmeal, 3/4 cups of the self-rising flour, and the egg. Add the milk and stir until a thick batter forms. Let the mixture stand for four minutes, then pour it into a tall glass."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Dip the dogs",
+            "text": "Roll each hot dog in the remaining 1/4 cup flour. This will help the batter really stick to the hot dog. Then, dunk each dog into the batter, making sure to cover the whole thing. This is where that tall glass comes in handy."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Fry and serve",
+            "text": "Immediately after dipping the hot dogs, drop them carefully into a deep fryer or a Dutch oven filled with oil preheated to 350°F. Fry the corn dogs, a few at a time, until golden brown, six to eight minutes, turning occasionally. Drain the corn dogs on paper towels and serve warm with your choice of dipping sauce. Editor's Tip: Don't overcrowd the fryer with corn dogs, and monitor the oil temperature while cooking. The oil temp will drop slightly when the corn dogs are added, so bump up the oil temperature a little, if necessary, after adding the corn dogs to ensure they're frying at the proper temperature. If you're new to frying, check out our guide to deep-frying."
+        }
+    ],
+    "recipeYield": "10 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 316 calories",
+        "fatContent": "23g fat (7g saturated fat)",
+        "cholesterolContent": "45mg cholesterol",
+        "sodiumContent": "588mg sodium",
+        "carbohydrateContent": "18g carbohydrate (2g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "8g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.8125,
+        "reviewCount": 16,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-09-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amsm"
+            },
+            "reviewBody": "My family loved these corn dogs. Putting the batter in a tall glass helps to dip the corn dogs. I added a bit of sugar to the batter to sweeten it a tad.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-09-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "tammycookblogsbooks"
+            },
+            "reviewBody": "<p>The corn dogs were good, the coating was light & tasty! I had great success with making these thanks to all the tips from previous reviewers. </p><p></p><p>I used a 4 cup measuring glass to hold the batter. Each hot dog was dried off, rolled in cornstarch, cut in half lengthwise & no sticks were used. I put the hot dogs in the batter & to cover fully I used my finger to get any empty spots then twisted them out. A sauce pan with about 1/2\" of oil was used to fry them. They took around 4 minutes to get done.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-07-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jimmyJEO"
+            },
+            "reviewBody": "almost forgot...use a twisting motion as you pull the corndogs out of the batter (that is in a tall skinny glass)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-09-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "vizavis"
+            },
+            "reviewBody": "For anyone who is having trouble making the batter stick, here is a trick: pour the batter into a very tall glass, completely dry the franks and roll them in cornstarch.  Then just put in the sticks and dip into the glass to coat, using a rolling motion as you dip them.  Have the oil heated to temp and just fry away.  My mom made these often in just this way.  Hope this tip helps.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-06-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dboyd"
+            },
+            "reviewBody": "try putting the batter in a tall glass and dip the dogs in it",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cynthia43"
+            },
+            "reviewBody": "What ya'll need to do is first off, soak the sticks for 10 minutes before putting the hot dogs on em, then your gonna roll your hot dogs in cornstarch, about 1/4 cup, mean while heat up for deep fryer, take1 1/2 cups of self rising cornmeal,1/2 cup flour, 3TBS sugar, 1 1/4 buttermilk, or 1% milk, add all together, roll your dogs in this then deep fry till golden brown, 2-3 minutes.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-05-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jimmyJEO"
+            },
+            "reviewBody": "This one is closer to Disney's- 1C cornmeal, 1C all purpose flour, 2 Tbls sugar, 2t baking powder, 1/2t salt, 1-lg egg, \"1-1/4 C buttermilk\", 2 Tbls melted butter, 8 all beef dogs. whisk all dry, then add we ingredients, dry dogs, then roll in cornstarch, \"use cornstarch\" for fluffier crunchy yet soft crust, I am going to add more sugar or honey to increase sweetness. TOH Rocks! not as much on this recipe. (buttermilk is key)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-09-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Cherry605"
+            },
+            "reviewBody": "These where really good- although they were not a piece of cake to make!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-03-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cindiak"
+            },
+            "reviewBody": "Love corn dogs and these turned out great. Followed advice given to roll them in cornstarch first and had no problem with the batter sticking.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-11-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "radcook"
+            },
+            "reviewBody": "I think this is a great corn dog recipe. I usually use a spoon to help with the batter, but have never really had any problems with these.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-08-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "becky66"
+            },
+            "reviewBody": "My daughter, who is a big corn dog fan, has made these numerous times for herself and friends. We use a skillet with about 1/2 inch of cooking oil, and also wooden skewers instead of popsicle sticks. For the batter, we have used all-purpose flour, which is what we always have on hand with a little added salt to taste. For her latest batch, she used mini sausages without the sticks. Although I corn dogs have never been a favorite of mine, I did try these and they were delicious. The batter cooked up light and tasty, without a heavy oily taste.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-03-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "GWJ"
+            },
+            "reviewBody": "Was making for only one little girl. So I halved the recepie except for the egg and added baking powder to the flour as I only had plain.  I had to cut the hotdogs in half also as I used a sauce pan for the oil. I had not read the other reviews but mine worked just fine and they came out great.  The four year old was happy!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-08-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "msdosty1941"
+            },
+            "reviewBody": "How exciting! I have NEVER seen a recipe on how to make corn dogs! We love them & will definetly be making some,lots cheaper than buying them! Thank you for this great recipe!Lois M. Gillette,WY",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-08-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dschultz01"
+            },
+            "reviewBody": "Made these last night using some of the tips from other reviewers.  They came out great! I did coat the hot dogs in corn starch first, and I added a couple tablespoons of sugar to the batter. I did use fat-free milk because that was all I had, but it still came out fine. I might have used just a little too much and made the batter a little thin, but they still came out fine.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-11-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "shiny0torchic"
+            },
+            "reviewBody": "The recipe tasted like corn dogs, but I was just left with a giant mess on my hands. The batter dripped and stuck to my frier, making these guys impossible to get out. I ended up with corn dogs with half of their breading still on them and the other half stuck to the frier. This recipe wasn't worth the trouble to me, I probably won't make them again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-06-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "CookingUSA"
+            },
+            "reviewBody": "I made these corn dogs on the built-in griddle on our stove.  The recipe turned out very good tasting.  However, the look of the dogs was nothing like the picture; mine were a lot more uneven, and did not look like they had been deep-fried.  Also, I did not have evaporated milk on hand, so I used regular whole milk.  I wonder if that made a huge difference in the batter consistency and cooking, even though the taste was still good.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Corn Dogs",
+        "description": "Check out this video for how to make Corn Dogs.",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/CornDogsDIYD1362022624H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-03-1 03:38:28",
+        "duration": "P0DT0H0M55S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/03/CornDogs_DIYD_1362_022624_H.mp4"
+    }
+}

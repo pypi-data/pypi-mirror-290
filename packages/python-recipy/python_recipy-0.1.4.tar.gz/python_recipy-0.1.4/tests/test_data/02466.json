@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Martha&#39;s Favorite Egg Salad Sandwich",
+    "datePublished": "2014-10-30T15:10:57.000-04:00",
+    "dateModified": "2020-09-01T15:15:52.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Make Martha&#39;s Favorite Egg Salad Sandwich for your next picnic. It&#39;s a healthy and simple recipe that everyone will love.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/nrK_lx9wVE-i3fmDqnX5sLQml_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1086_recipe_eggsalad_xl-4c52ca23036343c0a3cb302ae0cc930c.jpg",
+        "height": 360,
+        "width": 288
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/q7xiN5Q0-TOddfwAf.mp4",
+        "description": "Martha shows actor Harry Hamlin healthy recipes for egg salad sandwiches and tuna salad sandwiches.",
+        "duration": "PT4M45S",
+        "name": "Egg and Tuna Sandwich",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/q7xiN5Q0/poster.jpg?width=720",
+        "uploadDate": "2021-07-15T23:11:48.614-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Martha&#39;s Favorite Egg Salad Sandwich",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.4",
+        "ratingCount": "162"
+    },
+    "keywords": "Martha's Favorite Egg Salad Sandwich",
+    "recipeIngredient": [
+        "10 hard-boiled egg whites",
+        "2 hard-boiled egg yolks",
+        "2 to 3 tablespoons light mayonnaise",
+        "1 teaspoon Dijon mustard",
+        "1 tablespoon freshly squeezed lemon juice",
+        "0.5 avocado, mashed, plus ½ avocado roughly chopped",
+        "Coarse salt and freshly ground pepper",
+        "Boston lettuce, arugula, and tomato slices (optional)",
+        "12 white sandwich bread, such as Pullman, sliced about ½-inch thick, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Using a pastry blender or fork, mash together egg whites and yolks in a large bowl; carefully fold in avocado. Stir in mayonnaise, mustard, and lemon juice; season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/nrK_lx9wVE-i3fmDqnX5sLQml_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1086_recipe_eggsalad_xl-4c52ca23036343c0a3cb302ae0cc930c.jpg"
+                }
+            ],
+            "text": "Place 6 slices of bread on a work surface. Evenly divide egg salad among bread slices. Add lettuce greens or tomato, if desired. Top with remaining 6 slices bread. Serve."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/339031/marthas-favorite-egg-salad-sandwich",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1520452/recipes-ingredient",
+                        "name": "Ingredients"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513560/egg-recipes",
+                        "name": "Egg Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/339031/marthas-favorite-egg-salad-sandwich",
+                        "name": "Martha&#39;s Favorite Egg Salad Sandwich"
+                    }
+                }
+            ]
+        }
+    }
+}

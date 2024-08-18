@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "name": "Roasted Chestnuts",
+    "author": {
+        "@id": "https://www.justonecookbook.com/#/schema/person/033420c6cd0fe01255dcd76d04d95472"
+    },
+    "description": "Chestnuts roasted over charcoal, healthy snack recipe for the fall season.",
+    "datePublished": "2012-10-14T17:00:15+00:00",
+    "image": [
+        "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts-500x400.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts-500x375.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts-480x270.jpg"
+    ],
+    "cookTime": "PT15M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+        "chestnuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Start the grill. You don't need as much charcoal as you might need for grilling steak or fish.",
+            "name": "Start the grill. You don't need as much charcoal as you might need for grilling steak or fish.",
+            "url": "https://www.justonecookbook.com/roast-chestnuts/#wprm-recipe-59248-step-0-0",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts-1.jpg"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a small, sharp knife, cut a cross into the skin of each chestnut (my husband did not do this process, but the chestnuts luckily didn't explode.).",
+            "name": "Using a small, sharp knife, cut a cross into the skin of each chestnut (my husband did not do this process, but the chestnuts luckily didn't explode.).",
+            "url": "https://www.justonecookbook.com/roast-chestnuts/#wprm-recipe-59248-step-0-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roast over the BBQ grill covered for 15-20 minutes, or until you see the skin opens up.",
+            "name": "Roast over the BBQ grill covered for 15-20 minutes, or until you see the skin opens up.",
+            "url": "https://www.justonecookbook.com/roast-chestnuts/#wprm-recipe-59248-step-0-2",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2012/10/Roasted-Chestnuts-2.jpg"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.67",
+        "ratingCount": "3"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Japanese"
+    ],
+    "keywords": "chestnut",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "280 kcal",
+        "carbohydrateContent": "63 g",
+        "proteinContent": "2 g",
+        "fatContent": "2 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "3 mg",
+        "unsaturatedFatContent": "2 g",
+        "servingSize": "1 serving"
+    },
+    "@id": "https://www.justonecookbook.com/roast-chestnuts/#recipe",
+    "isPartOf": {
+        "@id": "https://www.justonecookbook.com/roast-chestnuts/#article"
+    },
+    "mainEntityOfPage": "https://www.justonecookbook.com/roast-chestnuts/"
+}

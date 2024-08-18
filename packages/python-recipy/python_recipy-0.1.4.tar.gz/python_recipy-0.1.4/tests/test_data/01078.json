@@ -1,0 +1,120 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Smoky Snack Mix",
+    "datePublished": "2018-08-08T21:31:53.000-04:00",
+    "dateModified": "2023-07-24T23:44:03.884-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Perfect for game days, birthday parties, or any get-together, this recipe easily doubles or triples, which we recommend. And don&#39;t skip the white Cheddar cheese crackers—their buttery richness makes them the MVP of this hard-to-resist mix.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/UzVSs5DBSTUUHCB4kpUiPmu5ksw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2561201_Tailg_00-61e9fef02ae2439dbf3d6109dbe8d4bc.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Smoky Snack Mix",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "keywords": "smoked chex mix",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 cups crispy corn snack crackers (such as Bugles)",
+        "2 cups rice cereal squares (such as Rice Chex)",
+        "2 cups bite-size white Cheddar cheese crackers (such as Cheez-It)",
+        "1 cup mini pretzels",
+        "1 cup smoked almonds",
+        "6 tablespoons unsalted butter",
+        "2 teaspoons chipotle chile powder",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon kosher salt",
+        "1/2 teaspoon garlic powder"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325°F. Toss together crispy corn snack crackers, rice cereal squares, bite-sizewhite Cheddar cheese crackers, mini pretzels, smoked almonds in a large bowl. Melt unsalted butter in a small saucepan over medium. Stir in chipotle chile powder, smoked paprika, kosher salt, and garlic powder. Drizzle over snack mixture, and toss to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread mixture in a single layer on a rimmed baking sheet lined with parchment paper. Bake in preheated oven until lightly toasted, about 10 to 12 minutes, stirring once or twice during baking. Cool completely on baking sheet. Store in an airtight container up to 5 days."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT20M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/smoky-snack-mix-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/smoky-snack-mix-recipe",
+                        "name": "Smoky Snack Mix"
+                    }
+                }
+            ]
+        }
+    }
+}

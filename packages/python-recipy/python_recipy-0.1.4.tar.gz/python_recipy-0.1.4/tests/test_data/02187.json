@@ -1,0 +1,145 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Almond Cherry Croquants Recipe",
+    "datePublished": "2012-06-06T03:45:00.000-04:00",
+    "dateModified": "2018-08-30T05:12:36.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carrie Vasios Mullins",
+            "url": "https://www.seriouseats.com/carrie-vasios-mullins-5118593"
+        }
+    ],
+    "description": "This Provencal sweet is a cross between almond nougat candy and cookies. It&#39;s sticky, crunchy, and totally addictive.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/qtowBfi2k_LhBLVWo-rtSO0uMkg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__05__20120530-cookie-monster-cherry-almond-croquants-3608c27ce13441c5b4b48c341535aba4.JPG",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Almond Cherry Croquants Recipe",
+    "keywords": "cookie monster, Cookies",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Copycat"
+    ],
+    "recipeIngredient": [
+        "Nonstick cooking spray",
+        "1/2 cup sugar",
+        "1 egg white",
+        "2 tablespoons honey",
+        "1 tablespoon flour",
+        "2 cups raw almonds",
+        "1/2 cup dried cherries"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place oven rack in middle position and preheat oven to 350°F. Line the bottom of a 9-inch cake pan with parchment paper, then lightly coat the interior with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine sugar, egg white, honey, and flour. Whisk until white is frothy, about 2 minutes. Add almonds and cherries and stir until they are coated and entire mixture is uniformly combined. Pour mixture into cake pan. Bake until the mixture is golden, about 30 minutes. Let cool in pan at least 1 hour, then cut into wedges."
+        }
+    ],
+    "recipeYield": "12",
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeebdar"
+            },
+            "reviewBody": "I've got this in the oven just now but it looked a lot drier than the one in the pic.....a conversion website told me two cups of almonds should be able 300g - is that right? Seemed a lot...."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carrie Vasios Mullins"
+            },
+            "reviewBody": "@Jennalynn: nope, I actually used regular raw almonds-skin on"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "amy.spencer"
+            },
+            "reviewBody": "I really like this recipe. It is so different from my normal baking style. @KillerQnBee I tried cranberries and they were perfect. @Jennalynn I used blanched skinless almonds. Next time I might try almonds with the skins. I wonder how much difference the blanching makes on the firmness of the almonds in the final product."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennalynn"
+            },
+            "reviewBody": "I'm a little late to this party... but it seems like you used skinless Marcona almonds. Yes?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carrie Vasios Mullins"
+            },
+            "reviewBody": "@KillerQnBee: You can use any dried fruit, though if it's large like say, apricots, I'd dice them first"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/almond-cherry-croquants-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dessert-recipes-5117878",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/candy-recipes-5117877",
+                        "name": "Candy"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/almond-cherry-croquants-recipe",
+                        "name": "Almond Cherry Croquants Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

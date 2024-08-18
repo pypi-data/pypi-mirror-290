@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Touchdown Tea",
+    "datePublished": "2006-01-29T22:08:20.000-05:00",
+    "dateModified": "2021-05-06T14:23:55.747-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Colleen Graham",
+            "url": "https://www.thespruceeats.com/colleen-graham-758955"
+        }
+    ],
+    "description": "Serve a touchdown tea at your next game day party! This punch recipe puts a sports-themed twist on the Long Island iced tea and it&#39;s easy to mix up.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/YWd6O4fZeK6jK6wnXBHB-cGv0AI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TouchdownTea-86064752-56a1711e3df78cf7726aad3e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Touchdown Tea",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "2"
+    },
+    "cookTime": "PT0M",
+    "keywords": "tea",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "128 kcal",
+        "carbohydrateContent": "8 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "8 mg",
+        "sugarContent": "4 g",
+        "fatContent": "0 g",
+        "servingSize": "15 servings",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 cup gin",
+        "1 cup rum",
+        "1 cup vodka",
+        "1/2 cup tequila",
+        "1 cup orange juice",
+        "3 cups lemon-lime sports drink",
+        "1 splash cola  (for color)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pitcher or punch bowl with ice, pour the gin, rum, vodka, tequila, sports drink, and orange juice. Stir well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add a splash of cola, stir the punch, and add a little more if needed to get a &#34;tea&#34; color."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve and enjoy."
+        }
+    ],
+    "recipeYield": [
+        "15",
+        "1/2 gallon"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/touchdown-tea-759829",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/cocktails-4162707",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/alcoholic-punch-recipes-4162696",
+                        "name": "Alcoholic Punch Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/touchdown-tea-759829",
+                        "name": "Touchdown Tea"
+                    }
+                }
+            ]
+        }
+    }
+}

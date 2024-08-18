@@ -1,0 +1,99 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Beef Pelmeni",
+    "url": "https://www.foodnetwork.com/recipes/beef-pelmeni-14019129",
+    "headline": "Beef Pelmeni",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/3/14/DV3704-pelmeni-aloynka-russian-cuisine-boise-idaho_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1678816141992.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Pelmeni, a traditional Russian dish, as served by Aloynka Russian Cuisine, located in Boise, Idaho, as seen on Diners, Drive-Ins and Dives, Season 37."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/3/14/DV3704-pelmeni-aloynka-russian-cuisine-boise-idaho_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1678816141992.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Pelmeni, a traditional Russian dish, as served by Aloynka Russian Cuisine, located in Boise, Idaho, as seen on Diners, Drive-Ins and Dives, Season 37."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/3/14/DV3704-pelmeni-aloynka-russian-cuisine-boise-idaho_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1678816141992.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Pelmeni, a traditional Russian dish, as served by Aloynka Russian Cuisine, located in Boise, Idaho, as seen on Diners, Drive-Ins and Dives, Season 37."
+        }
+    ],
+    "datePublished": "2023-03-14T15:26:41.754-04:00",
+    "dateModified": "2023-03-14T15:26:41.512-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Beef,Meat,Main Dish,High Fiber",
+    "cookTime": "P0Y0M0DT0H55M0.000S",
+    "totalTime": "P0Y0M0DT1H50M0.000S",
+    "recipeIngredient": [
+        "4 cups boiling water",
+        "12 cups all-purpose flour",
+        "2 1/2 tablespoons salt",
+        "2 1/2 tablespoons light olive oil",
+        "3 eggs",
+        "2 1/2 pounds ground beef (80/20)",
+        "1 pound onion, ground",
+        "1 tablespoon salt, or more to taste",
+        "Pinch ground coriander",
+        "Pinch garlic powder",
+        "Pinch ground black pepper",
+        "Pinch hot red pepper flakes",
+        "Butter or sour cream and chopped fresh dill, for serving"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "1178",
+        "fatContent": "42g",
+        "saturatedFatContent": "16g",
+        "carbohydrateContent": "149g",
+        "fiberContent": "6g",
+        "sugarContent": "3g",
+        "proteinContent": "46g",
+        "cholesterolContent": "176mg",
+        "sodiumContent": "1237mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the dough: Using a mixer, combine the hot water and half of the flour and start mixing. Add the salt, oil and eggs, then add the rest of the flour gradually. Mix until it’s not sticky in your hands, 5 to 10 minutes. Remove from the mixer to a table and cover with plastic wrap; let rest for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the filling: Meanwhile, combine the beef, onion, salt, coriander, garlic, black pepper and red pepper in a bowl and mix very well; add salt if needed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the dough evenly into 2 to 4 pieces. Roll out one piece to 1/2-centimeter thick, making sure the others are covered so they don’t dry out. Cut into circles with a 2 1/2-inch round cutter. Place a teaspoon of filling in the center of each circle and fold in half, creating a half-moon, then press the two ends together. Continue until all the dough and filling are used."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Boil some water in a pot and season it with salt. Add 10 to 15 pelmeni at the same time, right away, then stir them gently so they won’t stick to the bottom. Let boil for 7 to 10 minutes. Drain, then serve with butter on top, sour cream on the side or with the broth of your choice. Garnish with fresh dill! Bon Appetit! In Russia we say Priyatnova appetita!"
+        }
+    ],
+    "recipeYield": "6 to 8 servings",
+    "recipeCategory": []
+}

@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Strawberry Piña Coladas",
+    "datePublished": "2021-04-28T19:22:59.000-04:00",
+    "dateModified": "2024-05-29T15:22:26.678-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Karen Schroeder-Rankin",
+            "url": "https://www.southernliving.com/author/karen-schroeder-rankin"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "A strawberry pina colada is just what the doctor ordered. See how to make this rosy cocktail at home in just 10 minutes.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/jj_pJNr9zCohZEYybASrN16F8CA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberry-Pina-Colada101-416831b74e25462eaad35192c7dd4e23.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Strawberry Piña Coladas",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "keywords": "strawberry pina colada",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Caribbean"
+    ],
+    "recipeIngredient": [
+        "2 cup ice cubes",
+        "1 cup cored and halved fresh strawberries (from 8 oz. whole berries), plus whole berries for garnish",
+        "1 cup chopped fresh pineapple (about 6 oz.), plus pineapple wedges for garnish",
+        ".25 cup sweetened cream of coconut (such as Coco López) (from 1 [15-oz.] can)",
+        ".25 cup fresh lime juice (from 2 limes)",
+        ".25 cup (2 oz.) white rum (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blend drink: Place ice cubes, halved strawberries, chopped pineapple, cream of coconut, lime juice, and rum (if using) in a blender. Process until smooth, 30 to 45 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour into glass and garnish: Pour evenly into 2 rocks or Collins glasses. Garnish each glass with a strawberry and a pineapple wedge. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "2"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/strawberry-pina-coladas",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks",
+                        "name": "Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/strawberry-pina-coladas",
+                        "name": "Strawberry Piña Coladas"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-05-29T15:22:26.678-04:00"
+    }
+}

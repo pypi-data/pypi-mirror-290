@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Andouille-and-Sweet Potato Pie with Tangy Apple Salad",
+    "datePublished": "2013-12-06T18:08:26.000-05:00",
+    "dateModified": "2017-06-01T14:12:22.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Donald Link",
+            "url": "https://www.foodandwine.com/author/donald-link"
+        }
+    ],
+    "description": "This savory sweet-potato pie has a super creamy filling that includes pureed sweet potatoes and pieces of andouille sausage.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/Unuydrl31kkhx5VObg5hlCO7rLI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/200905-xl-andouille-and-sweet-potato-pie-with-tangy-apple-salad-1287b83f4b2b45f4aa6004aabd2090ba.jpg",
+        "height": 1274,
+        "width": 1273
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Andouille-and-Sweet Potato Pie with Tangy Apple Salad",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "552"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 pound small sweet potatoes, pierced with a fork",
+        "1 cup yellow cornmeal",
+        "1 cup all-purpose flour",
+        "1 teaspoon salt, plus more for seasoning",
+        "1 stick plus 2 tablespoons unsalted butter, cubed and chilled",
+        "1/4 cup plus 2 tablespoons ice water",
+        "1 tablespoon pure olive oil",
+        "1/2 pound andouille sausage, cut into 1-inch pieces",
+        "1/2 small onion, finely chopped",
+        "1 tablespoon minced garlic",
+        "1/2 teaspoon dried sage, crumbled",
+        "1 cup heavy cream",
+        "Freshly ground pepper",
+        "3 large egg yolks",
+        "Tangy Apple Salad"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°. Wrap the sweet potatoes in foil and bake for 45 minutes, until they are soft. Let the sweet potatoes cool. Meanwhile, in a food processor, combine the cornmeal and flour with the 1 teaspoon of salt. Add the chilled butter cubes and pulse until the mixture resembles coarse meal. Add the ice water and pulse until the dough comes together. Turn the dough out onto a work surface and knead until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lightly flour the work surface and roll out the dough to a 13-inch round, about 1/4 inch thick. Ease the dough into a 9-inch glass pie plate. Trim the overhang to 1 inch, then fold it under itself and crimp decoratively. Prick the bottom crust several times with a fork. Line the dough with foil and fill with pie weights. Bake for about 30 minutes, until the crust is barely set. Remove the foil and weights and bake for 10 minutes longer, until the crust is dry and very lightly browned."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a large skillet, heat the olive oil. Add the andouille sausage and cook over high heat, stirring occasionally, until it is lightly browned, about 5 minutes. Add the onion, garlic and dried sage and cook until the onion is softened, about 5 minutes. Let cool slightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Peel the sweet potatoes and transfer them to a food processor. Add the cream and puree until very smooth. Season with salt and pepper. Add the egg yolks and process until incorporated. Transfer the filling to a large bowl and stir in the andouille mixture. Scrape the filling into the crust and bake for about 45 minutes, until the custard is set. Let cool for 20 minutes, then cut the pie into wedges and serve with the Tangy Apple Salad."
+        }
+    ],
+    "totalTime": "PT150M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/andouille-and-sweet-potato-pie-tangy-apple-salad",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/desserts/pies",
+                        "name": "Pies & Tarts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/desserts/pies/sweet-potato-pie",
+                        "name": "Sweet Potato Pie"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/andouille-and-sweet-potato-pie-tangy-apple-salad",
+                        "name": "Andouille-and-Sweet Potato Pie with Tangy Apple Salad"
+                    }
+                }
+            ]
+        }
+    }
+}

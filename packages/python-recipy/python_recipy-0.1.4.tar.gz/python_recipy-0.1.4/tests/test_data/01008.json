@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Peach Ranch Water Will Raise Your Spirits",
+    "datePublished": "2024-06-13T21:06:29.623-04:00",
+    "dateModified": "2024-06-13T21:06:29.623-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Elizabeth Nelson",
+            "url": "https://www.southernliving.com/elizabeth-nelson-7104958"
+        }
+    ],
+    "description": "Peach ranch water is our new go-to porch sipper. Texas meets Georgia in this extra-Southern version of our favorite summer cocktail.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/x5otKnm-HTH6uKXLYQoR-D1b5ck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peach_Ranch_Water_007-fbe071601ebc4532b5246515573c24ec.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Peach Ranch Water Will Raise Your Spirits",
+    "keywords": "peach ranch water",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "Chili-lime seasoning (such as Tajín), optional",
+        "         Ice",
+        "1/4   cup (2 oz.) blanco tequila",
+        "1/4  cup (2 oz.) peach nectar",
+        "1/2       Tbsp. (1/4 oz.) fresh lime juice (from 1 lime)",
+        "6      Tbsp. (3 oz.) sparkling water (such as Topo Chico)",
+        "         Garnish: peach slices"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/-wYxcHBeWJAWSi-ZQBhCUslHxpc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peach_Ranch_Water_002-c20daf72f4d346a3b3ffa8bde43b7a35.jpg"
+                }
+            ],
+            "text": "Rim the glass: If desired, dip rim or side of a double old-fashioned glass in water and then into chili-lime seasoning."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/nDKjtgcZp_8Wafc0X4yN0_NKsfE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peach_Ranch_Water_003-7290f2b721eb442dbd6e9acca17d8903.jpg"
+                }
+            ],
+            "text": "Add ice: Fill glass with ice."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/UATFJFYm9JO62LlWeNadZ_aBoRY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peach_Ranch_Water_006-062f2f2fe67d499986e88a85098f86fa.jpg"
+                }
+            ],
+            "text": "Add remaining ingredients: Add blanco tequila, peach nectar, and lime juice. Top with sparkling water; stir to combine. Garnish with peach slices."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/peach-ranch-water-8653691",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks",
+                        "name": "Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/peach-ranch-water-8653691",
+                        "name": "Peach Ranch Water Will Raise Your Spirits"
+                    }
+                }
+            ]
+        }
+    }
+}

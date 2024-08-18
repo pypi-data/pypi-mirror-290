@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chicken-Salad Club Roll ",
+    "datePublished": "2020-04-20T14:27:46.000-04:00",
+    "dateModified": "2021-02-08T14:09:28.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Shira Bocar",
+            "url": "https://www.marthastewart.com/author/shira-bocar"
+        }
+    ],
+    "description": "Whip up an easy chicken salad, then stuff them into toasted sub rolls. To make it a proper club, crisp bacon, tomatoes, and lettuce dress up the top.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/6wQzQ1_OHUmr6w1zTcLw4f8Nyi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-salad-club-roll-c76d4e82-0520-hz-f0aebe2d030b410bac3ad92e1d960c5d.jpgitokzHrF7jgH",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Chicken-Salad Club Roll ",
+    "prepTime": "PT30M",
+    "recipeIngredient": [
+        "1 pound boneless, skinless chicken breasts (2 to 3), pounded ½ inch thick",
+        "Kosher salt and freshly ground pepper",
+        "2 scallions, thinly sliced",
+        "1 celery stalk, finely diced",
+        "1 tablespoon chopped fresh tarragon or basil",
+        "0.333 cup mayonnaise",
+        "8 ounces bacon",
+        "4 hot-dog buns, split and toasted",
+        "1 avocado, sliced",
+        "1 head Little Gem lettuce, leaves separated",
+        "0.5 cup cherry tomatoes, sliced",
+        "Potato chips, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large straight-sided skillet, cover chicken with water by 1 inch; season generously with salt. Bring to a simmer over high heat, then reduce heat to medium and simmer until cooked through, about 8 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer chicken to a plate and let cool, then coarsely chop. Combine with scallions, celery, tarragon, and mayonnaise. Season with salt and pepper; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange bacon in a single layer in a large skillet over medium heat. Cook, flipping, until golden and crisp, about 8 minutes. Transfer to a paper towel-lined plate. Top each bun with avocado and lettuce; fill with chicken mixture. Top with bacon and tomatoes and serve with potato chips."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1548185/chicken-salad-club-roll",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513726/meat-poultry-recipes",
+                        "name": "Meat & Poultry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504661/pork-recipes",
+                        "name": "Pork Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1548185/chicken-salad-club-roll",
+                        "name": "Chicken-Salad Club Roll "
+                    }
+                }
+            ]
+        }
+    }
+}

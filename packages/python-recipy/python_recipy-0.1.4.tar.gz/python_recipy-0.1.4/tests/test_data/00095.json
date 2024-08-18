@@ -1,0 +1,125 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mango-Date Energy Bites",
+    "datePublished": "2016-06-03T00:49:07.000-04:00",
+    "dateModified": "2023-09-20T11:08:32.033-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Sweet, sticky dates act as the glue for these no-cook energy balls. Perfect for hikes or during sports, this healthy snack travels well.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/Pg4xNRCmq-XhwkuGIkLSAdhdEhA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4473532-6d82cca10eb547d49c889fdf80819de5.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Mango-Date Energy Bites",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "9"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "73 kcal",
+        "carbohydrateContent": "11 g",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "35 mg",
+        "sugarContent": "9 g",
+        "fatContent": "3 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "2 cups pitted whole dates",
+        "1 cup raw cashews",
+        "1 cup dried mango or other dried fruit",
+        "0.25 teaspoon salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Process dates, cashews, mango (or other fruit) and salt in a food processor until finely chopped. Form into about 20 balls, using 2 tablespoons each."
+        }
+    ],
+    "recipeYield": [
+        "20"
+    ],
+    "totalTime": "PT15M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/251259/mango-date-energy-bites/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18043/ingredients/",
+                        "name": "Ingredients"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18244/ingredients/fruit/",
+                        "name": "Healthy Fruit Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/251259/mango-date-energy-bites/",
+                        "name": "Mango-Date Energy Bites"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T11:08:32.033-04:00"
+    },
+    "recipeCategory": []
+}

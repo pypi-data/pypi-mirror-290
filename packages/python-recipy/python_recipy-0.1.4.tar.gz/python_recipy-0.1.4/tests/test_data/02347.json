@@ -1,0 +1,66 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Mocha Marble Fudge",
+    "keywords": "mocha marble fudge",
+    "recipeCategory": "Dessert",
+    "image": "https://mojo.generalmills.com/api/public/content/NosNi8JkLkW0RmAhgBm-Cw_webp_base.webp?v=35b23817&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Serve these wonderful chocolate and coffee candies to your guests as a homemade gift. ",
+    "recipeIngredient": [
+        "  Butter for greasing",
+        "1  can (14 oz) sweetened condensed milk (not evaporated)",
+        "1  tablespoon instant espresso coffee powder or coffee granules",
+        "1  bag (12 oz) white vanilla baking chips (2 cups)",
+        "1  cup semisweet chocolate chips (6 oz)",
+        "1/2  teaspoon vanilla"
+    ],
+    "totalTime": "PT2H10M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "64",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "7",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Line bottom and sides of 8- or 9-inch square pan with foil, leaving foil overhanging 2 opposite sides of pan; grease foil with butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 2-quart nonstick saucepan, mix 3/4 cup of the milk and the espresso powder. Stir in white baking chips. Heat over medium-low heat 5 to 7 minutes, stirring occasionally, until chips are melted and mixture is smooth. Spread in pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In same saucepan, mix remaining milk, the chocolate chips and vanilla. Heat over medium-low heat 5 to 7 minutes, stirring occasionally, until chips are melted and mixture is smooth. Drop by spoonfuls over espresso layer. Swirl mixtures with table knife. Gently press with hand to smooth top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Refrigerate about 2 hours or until cooled and firm. Remove from pan, using foil to lift. Cut into 1-inch pieces."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "60 ",
+        "carbohydrateContent": "8 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "2 g",
+        "servingSize": "1 Candy",
+        "sodiumContent": "20 mg",
+        "sugarContent": "8 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "06/05/2009",
+    "dateModified": "09/21/2010"
+}

@@ -1,0 +1,136 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:1.0xh;center,top&resize=100:*",
+    "datePublished": "2006-12-05T23:00:00 EST",
+    "headline": "Gazpacho",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:1.0xh;center,top&resize=100:*",
+            "url": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:1.0xh;center,top&resize=100:*",
+            "url": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:1.0xh;center,top&resize=100:*",
+            "url": "https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/54ee5735d094d_-_gazpacho-0898-xln.jpg?crop=1xw:0.5625xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a8726/gazpacho-2783/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "gazpacho,soup,cold",
+        "NUTRITION: dairy-free",
+        "NUTRITION: healthy",
+        "NUTRITION: heart-healthy",
+        "NUTRITION: low-calorie",
+        "NUTRITION: low-fat",
+        "NUTRITION: vegan",
+        "NUTRITION: vegetarian",
+        "OCCASION: feed a crowd",
+        "OCCASION: Fourth of July",
+        "OCCASION: picnic",
+        "CATEGORY: dinner",
+        "CATEGORY: main dish",
+        "CATEGORY: soup",
+        "TOTALTIME: 00:15:00",
+        "FILTERTIME: <30MINS",
+        "RATING: 0",
+        "FILTERRATING: unrated"
+    ],
+    "url": "https://www.countryliving.com/food-drinks/recipes/a8726/gazpacho-2783/",
+    "isBasedOn": "http://www.goodhousekeeping.com/food-recipes/a3867/gazpacho-2783/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "A splash of red-pepper sauce adds a little zing.",
+    "name": "Gazpacho",
+    "prepTime": "PT0S",
+    "cookTime": "PT0S",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+        "6 large ice cubes",
+        "6 medium ripe tomatoes",
+        "2 medium seedless (English) cucumbers",
+        "1 c. fresh corn kernels",
+        "1/2 c. loosely packed fresh cilantro leaves",
+        "2 tbsp. fresh lime juice",
+        "3/4 tsp. salt",
+        "1/4 tsp. ground black pepper",
+        "Hot Pepper sauce to taste",
+        "Lime wedges for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In food processor with knife blade attached, coarsely chop all ingredients except lime wedges."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If not serving right away, cover and refrigerate up to 1 day. Serve with lime wedges, if you like."
+        }
+    ],
+    "recipeYield": "1",
+    "recipeCuisine": [],
+    "recipeCategory": [
+        "dairy-free",
+        "healthy",
+        "heart-healthy",
+        "low-calorie",
+        "low-fat",
+        "vegan",
+        "vegetarian",
+        "feed a crowd",
+        "Fourth of July",
+        "picnic",
+        "dinner",
+        "main dish",
+        "soup"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "50 calories"
+    },
+    "@context": "http://schema.org"
+}

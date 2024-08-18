@@ -1,0 +1,148 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Our Favorite Turkey Burger Recipe",
+    "datePublished": "2011-03-11T09:05:03.000-05:00",
+    "dateModified": "2023-07-21T15:21:18.595-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Victoria Spencer",
+            "url": "https://www.marthastewart.com/victoria-spencer-7106333"
+        }
+    ],
+    "description": "Our turkey burgers are moist and delicious. The recipe takes you through the steps to form and cook patties, including how long to grill turkey burgers for.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/Nl5TzoHkaSq82r41dgI5Xcx-ieA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/favorite-turkey-burger-a100107-horiz-0723-bbb84e2facc44d1e82ffc3cdaa8154c7.jpg",
+        "height": 843,
+        "width": 1265
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/19DPNGYc-zqASzng0.mp4",
+        "description": " ",
+        "duration": "PT1M29S",
+        "name": "Favorite Turkey Burgers",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/19DPNGYc/poster.jpg?width=720",
+        "uploadDate": "2021-07-05T21:11:54.516-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Our Favorite Turkey Burger Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "542"
+    },
+    "keywords": "All-American, Barbecue, Barbecue and grill, Burgers, Dinner, Ground turkey, Lunch, Main course, Spring, Summer",
+    "prepTime": "PT10M",
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1.5 pounds ground turkey (93 percent lean)",
+        "0.5 cup finely grated Gruyere cheese",
+        "4 scallions, thinly sliced",
+        "0.25 cup dried breadcrumbs",
+        "0.25 cup Dijon mustard",
+        "1 garlic clove, minced",
+        "Coarse salt and ground pepper",
+        "Oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat grill and form burgers: Heat grill to high. In a medium bowl, use a fork to gently combine ground turkey with Gruyere, scallions, breadcrumbs, mustard, and garlic; season generously with salt and pepper. Gently form mixture into four 1-inch-thick patties."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Oil grill and cook patties: Lightly oil grill. Place patties on hottest part of grill; sear until browned, 1 to 2 minutes per side."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/Nl5TzoHkaSq82r41dgI5Xcx-ieA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/favorite-turkey-burger-a100107-horiz-0723-bbb84e2facc44d1e82ffc3cdaa8154c7.jpg"
+                }
+            ],
+            "text": "Flip burgers and continue cooking Move patties to cooler part of grill; continue grilling until cooked through, 5 to 10 minutes per side."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/337340/favorite-turkey-burger",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513387/turkey-recipes",
+                        "name": "Turkey Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502524/ground-turkey-recipes",
+                        "name": "Ground Turkey Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/337340/favorite-turkey-burger",
+                        "name": "Our Favorite Turkey Burger Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

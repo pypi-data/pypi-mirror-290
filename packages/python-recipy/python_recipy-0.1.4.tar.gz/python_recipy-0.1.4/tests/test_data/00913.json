@@ -1,0 +1,58 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/rhubarb-cherry-chutney/",
+    "name": "Rhubarb-Cherry Chutney",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps174460_SD153321D02_03_3b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I love surprising recipes like this chutney with rhubarb, apple and cherries. Try it with cream cheese and crackers or as a condiment for grilled chicken. &mdash;Sue Gronholz, Beaver Dam, Wisconsin ",
+    "recipeIngredient": [
+        "7 cups chopped fresh or frozen rhubarb (about 2 pounds)",
+        "2 cups packed brown sugar",
+        "2 cups fresh or  frozen pitted tart cherries, chopped",
+        "1 large tart apple, peeled and chopped",
+        "1 cup red wine vinegar",
+        "1 medium red onion, chopped",
+        "1 celery rib, chopped",
+        "1 tablespoon finely chopped crystallized ginger",
+        "3 garlic cloves, minced",
+        "3/4 teaspoon ground cinnamon",
+        "1/2 teaspoon ground coriander",
+        "1/4 teaspoon ground cloves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a 6-qt. stockpot, combine all ingredients; bring to a boil. Reduce heat; simmer, uncovered, 25-30 minutes or until mixture has thickened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to covered containers. (If freezing, use freezer-safe containers and fill to within 1/2 in. of tops.) Refrigerate up to 3 weeks or freeze up to 12 months. Thaw frozen chutney in refrigerator before serving."
+        }
+    ],
+    "recipeYield": "6 cups.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "",
+        "fatContent": "",
+        "cholesterolContent": "",
+        "sodiumContent": "",
+        "carbohydrateContent": "",
+        "fiberContent": "",
+        "proteinContent": ""
+    }
+}

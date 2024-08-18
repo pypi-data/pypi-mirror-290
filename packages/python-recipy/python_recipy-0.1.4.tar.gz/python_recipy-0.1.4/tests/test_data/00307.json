@@ -1,0 +1,141 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Beergarita",
+    "datePublished": "2020-06-19T00:04:22.000-04:00",
+    "dateModified": "2022-09-20T15:09:51.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jodean Seniuk"
+        }
+    ],
+    "description": "Beer is mixed with limeade and tequila in these refreshing margarita-inspired &#34;beergaritas&#34; perfect for your next cocktail party.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/_C7EOCO0vGdFU7TDo_ehCWYinWg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3172282-1f1af0720f8d4d27aac1d9a97aeb1b52.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Beergarita",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "5"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "232 kcal",
+        "carbohydrateContent": "29 g",
+        "proteinContent": "1 g",
+        "sodiumContent": "7 mg",
+        "sugarContent": "22 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "6 (12 fluid ounce) cans or bottles beer",
+        "1 (12 fluid ounce) can frozen limeade concentrate (such as Minute Maid®)",
+        "12 fluid ounces tequila",
+        "6 cups ice cubes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pour beers into a large pitcher. Add limeade; stir to combine. Use limeade can to measure out tequila; pour into pitcher and stir to combine. Serve over ice."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT10M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Arizona Desert Flower"
+            },
+            "reviewBody": "I've always made mine with 12 oz of lemon lime soda added as well as beer, but this was extremely enjoyable! They weren't as sweet due to the lack of sprite, and that isn't a bad thing."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tamara"
+            },
+            "reviewBody": "Very refreshing! Not too sweet nor too sour. I only added 3 beer and squeezed fresh lime and added rounds of lime for appeal :)",
+            "datePublished": "2018-08-26T19:30:17.180Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/245788/beergarita/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/133/drinks/cocktails/",
+                        "name": "Cocktail Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1742/drinks/cocktails/tequila-drinks/",
+                        "name": "Tequila Drinks Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/245788/beergarita/",
+                        "name": "Beergarita"
+                    }
+                }
+            ]
+        }
+    }
+}

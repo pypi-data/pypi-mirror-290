@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "German Red Cabbage (Rotkohl)",
+    "datePublished": "2008-08-08T10:25:26.000-04:00",
+    "dateModified": "2021-12-06T13:04:15.868-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jennifer McGavin",
+            "url": "https://www.thespruceeats.com/jennifer-mcgavin-1446440"
+        }
+    ],
+    "description": "This cooked cabbage recipe is a simple way to make great German Rotkohl from scratch. Try this easy and delicious dish for your next Sunday dinner.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/_gGMDz2qE83GxDwPbD2vyDn7ugE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7846462364_64c4edf30a_o-58a47bd23df78c475875225b.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "German Red Cabbage (Rotkohl)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.9",
+        "ratingCount": "41"
+    },
+    "cookTime": "PT180M",
+    "keywords": "cabbage",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "215 kcal",
+        "carbohydrateContent": "27 g",
+        "cholesterolContent": "18 mg",
+        "fiberContent": "6 g",
+        "proteinContent": "9 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "345 mg",
+        "sugarContent": "17 g",
+        "fatContent": "7 g",
+        "servingSize": "4 servings",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT25M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "German"
+    ],
+    "recipeIngredient": [
+        "2 1/2 ounces bacon (either American or German Bauchspeck, chopped)",
+        "1/2 cup onion (diced)",
+        "4 cups red cabbage (shredded, about 1 pound)",
+        "1/2 cup dry red wine",
+        "1/2 cup apple juice",
+        "1 tablespoon sugar (or agave nectar or honey)",
+        "1 whole bay leaf",
+        "4 whole cloves",
+        "Dash ground black pepper",
+        "1 apple (peeled, cored and quartered)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Brown 2 1/2 ounces bacon in a Dutch oven . Add 1/2 cup diced onion and sauté for 5 minutes. Add 4 cups shredded red cabbage and cook for 2 to 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour in 1/2 cup red wine and 1/2 cup apple juice to deglaze, add the 1 tablespoon sugar or agave nectar or honey, 1 whole bay leaf, 4 whole cloves, ground black pepper to taste and 1 peeled, cored and quartered apple."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Simmer on stove top for 2 to 3 hours, stirring occasionally. Keep the liquids one finger width (1/2 inch) deep, adding apple juice or water. Adjust seasonings. Serve hot."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT205M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/german-red-cabbage-rotkohl-recipe-1447261",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/german-food-4162558",
+                        "name": "German Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/german-side-dishes-4162554",
+                        "name": "German Sides"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/german-red-cabbage-rotkohl-recipe-1447261",
+                        "name": "German Red Cabbage (Rotkohl)"
+                    }
+                }
+            ]
+        }
+    }
+}

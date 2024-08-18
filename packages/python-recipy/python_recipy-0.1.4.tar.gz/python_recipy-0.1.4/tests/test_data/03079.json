@@ -1,0 +1,186 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Best Brown Butter Blondies",
+    "datePublished": "2021-04-09T13:12:49.000-04:00",
+    "dateModified": "2023-11-24T09:49:18.013-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Emily Nabors Hall",
+            "url": "https://www.southernliving.com/author/emily-nabors-hall"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "Brown sugar brings a warm flavor to these simple brown butter blondies, but it&#39;s the brown butter that gives these classic bar cookies a tasty new twist.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/94OKcgIX21tp5Z_RIOLvECj-QPk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2663901_SaveR_0142-db404380a5ea41aba4450c5eba2ab208.jpg",
+        "height": 1001,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/8AEMEVUg-KtCa7qb3.mp4",
+        "description": "Brown butter and blondies are a match made in dessert heaven. ",
+        "duration": "PT1M27S",
+        "name": "Best Brown Butter Blondies Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/8AEMEVUg/poster.jpg?width=720",
+        "uploadDate": "2022-05-20T15:51:25.569-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Best Brown Butter Blondies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "2"
+    },
+    "cookTime": "PT10M",
+    "keywords": "brown butter blondies",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1.5 cups unsalted butter",
+        "1 cup granulated sugar",
+        ".5 cup packed light brown sugar",
+        "3 large eggs",
+        "2 teaspoons vanilla extract",
+        "2.25 cups all-purpose flour",
+        "1.5 teaspoons kosher salt",
+        "2 (4-oz.) 60% bittersweet chocolate bars, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Brown the butter: Cook butter in a medium saucepan over medium-high, stirring occasionally, until butter melts, smells toasted, and turns brown, 8 to 10 minutes. Remove from heat; immediately pour butter into a large metal bowl. Let cool about 20 minutes (butter should still be melted, but bowl should be cool enough to handle)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare baking pan: Preheat oven to 350°F. Coat a 9-inch square baking pan with cooking spray, and line with parchment paper, leaving a 2-inch overhang on 2 sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix blondie batter: Add granulated sugar and brown sugar to melted butter in bowl; whisk together until smooth. Add eggs and vanilla; whisk together until incorporated. Add flour and salt; fold together using a rubber spatula until just fully incorporated. Fold in chopped chocolate. Pour mixture into prepared baking pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake blondies: Bake in preheated oven until a wooden pick comes out clean (the top will still look moist), about 45 minutes. Cool on a wire rack until pan is cool to the touch, about 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut into squares: Remove blondies from pan using parchment paper overhang; transfer to a cutting board. Cut into squares. Store in an airtight container at room temperature up to 3 days."
+        }
+    ],
+    "recipeYield": [
+        "20"
+    ],
+    "totalTime": "PT155M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/best-brown-butter-blondies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/bars",
+                        "name": "Bars"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/best-brown-butter-blondies",
+                        "name": "Best Brown Butter Blondies"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2023-11-24T09:49:18.013-05:00"
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "How is a blondie different from a brownie?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>While brownies include melted chocolate or cocoa, or both, for a deep chocolatey flavor, blondies skip the chocolate and are more of a cookie baked in bar form.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Should blondies be gooey in the center?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>A wooden pick inserted into the center should come out clean when the blondies are done baking. If the blondies are overly gooey in the center, give them more time to bake. They should be set to a chewy consistency when cool.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What were blondies originally called?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Early brownies in the late 19th century were flavored with molasses. Chocolate was added later, leading to the original variety being referred to as blonde brownies, and later, blondies.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

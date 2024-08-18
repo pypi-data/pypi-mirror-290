@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/veggie-barley-salad/",
+    "name": "Veggie Barley Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps30882_LT1115375D19B-2.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "\"When I took this salad to a family potluck, it was such a hit! I often fix it with basil-flavored vinegar that I make each summer. The longer this chills, the tastier it gets.\" --Kathy Rairigh of Milford, Indiana\r\n",
+    "recipeIngredient": [
+        "1-1/4 cups reduced-sodium chicken broth or vegetable broth",
+        "3/4 cup water",
+        "1 cup quick-cooking barley",
+        "1 medium tomato, seeded and chopped",
+        "1 small zucchini, halved and thinly sliced",
+        "1 small sweet yellow pepper, chopped",
+        "2 tablespoons minced fresh parsley",
+        "DRESSING:",
+        "3 tablespoons olive oil",
+        "2 tablespoons white wine vinegar",
+        "1 tablespoon water",
+        "1 tablespoon lemon juice",
+        "1 tablespoon minced fresh basil",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "1/4 cup slivered almonds, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small saucepan, bring the broth, water and barley to a boil. Reduce heat; cover and simmer for 10-12 minutes or until barley is tender. Remove from the heat; let stand for 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the tomato, zucchini, yellow pepper and parsley. Stir in barley. In a small bowl, whisk the oil, vinegar, water, lemon juice, basil, salt and pepper. Pour over barley mixture; toss to coat. Cover and refrigerate for at least 3 hours. Just before serving, stir in almonds."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 211 calories",
+        "fatContent": "10g fat (1g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "334mg sodium",
+        "carbohydrateContent": "27g carbohydrate (2g sugars",
+        "fiberContent": "7g fiber)",
+        "proteinContent": "6g protein.  <B><b>Diabetic Exchanges</b>: </B>2 fat"
+    },
+    "recipeCuisine": "Europe, Italian"
+}

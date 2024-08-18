@@ -1,0 +1,104 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Baba Ghanouj",
+    "datePublished": "2013-12-06T18:09:59.000-05:00",
+    "dateModified": "2016-06-15T23:56:09.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sam Mogannam",
+            "url": "https://www.foodandwine.com/author/sam-mogannam"
+        }
+    ],
+    "description": "Sam Mogannam&#39;s mother used to puree all of the eggplant for her baba ghanouj in a food processor until silky-smooth because she didn&#39;t think her kids...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/zuzdtGWb6YiB8SgHQlRR0QAghrU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201011-xl-baba-ghanouj-2000-f1d0e594c26748df91e2f070436451c8.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Baba Ghanouj",
+    "recipeIngredient": [
+        "4 pounds Japanese eggplants (14 medium)",
+        "1/4 cup plus 1 1/2 tablespoons extra-virgin olive oil, plus more to taste",
+        "1/4 cup fresh lemon juice",
+        "3 tablespoons tahini",
+        "1 tablespoon coarsely chopped garlic",
+        "1/4 teaspoon cayenne pepper",
+        "Kosher salt",
+        "2 tablespoons coarsely chopped flat-leaf parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the broiler. Set the eggplants on a large baking sheet and rub with 1 1/2 tablespoons of the olive oil. Broil 8 inches from the heat for about 15 minutes, turning them every 5 minutes, until charred all over and soft inside. Transfer the eggplants to a large bowl and let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Discard the stems and peel the eggplants. Coarsely chop one-third of the eggplant. Put the remaining eggplant in a food processor. Add the remaining 1/4 cup of olive oil and the lemon juice, tahini, garlic, cayenne pepper and 2 teaspoons of salt and puree until smooth. Transfer to a medium bowl and fold in the chopped eggplant. Garnish with the chopped parsley and serve."
+        }
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/baba-ghanouj",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/appetizers/dips",
+                        "name": "Dips & Spreads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/baba-ghanouj",
+                        "name": "Baba Ghanouj"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

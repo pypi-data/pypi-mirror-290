@@ -1,0 +1,53 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/southern-rice-dressing",
+    "name": "Southern Rice Dressing",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2010%2F03%2F07%2FMah-Caro-l.jpg",
+        "width": 300,
+        "height": 300
+    },
+    "datePublished": "2010-03-06T21:57:42.000Z",
+    "description": "",
+    "prepTime": null,
+    "cookTime": null,
+    "totalTime": null,
+    "recipeYield": "Makes 8 Servings",
+    "recipeIngredient": [
+        "1 cup Mahatma®  or Carolina®  White Rice",
+        "¾ pound ground pork sausage",
+        "1 large onion, chopped",
+        "4 stalks celery, chopped",
+        "1 large bell pepper, chopped",
+        "¾ pound chicken gizzards, boiled and ground",
+        "¾ pound chicken livers, boiled and ground",
+        "3 cups broth from gizzards and livers",
+        "½ cup dark brown roux *",
+        "salt, pepper, and cayenne pepper to taste",
+        "½ cup green onion, chopped",
+        "½ cup parsley, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "* May be purchased in spice section of your grocery store. Prepare rice according to package directions. Set aside. While rice is cooking, brown sausage in large heavy skillet; add onions, celery, and bell pepper and cook until onions are transparent. Add gizzards and livers and continue to cook for 10 minutes. Add broth, roux, salt and peppers and continue to cook over medium heat for 30 minutes. Fold in cooked rice. Add green onions and parsley, stir gently.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": {
+        "@type": "Organization",
+        "name": "MyRecipes"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": 0,
+        "itemReviewed": "Southern Rice Dressing",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": null,
+    "review": []
+}

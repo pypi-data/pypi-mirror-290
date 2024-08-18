@@ -1,0 +1,74 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "The cinnamon simple syrup is equally tasty in hot chocolate or Chai tea.",
+    "alternativeHeadline": "The cinnamon simple syrup is equally tasty in hot chocolate or Chai tea.",
+    "keywords": [
+        "cocktail",
+        "coffee",
+        "whiskey",
+        "cinnamon",
+        "easy",
+        "drinks",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Pamela Wiznitzer, Grace, NYC ",
+            "sameAs": "https://www.bonappetit.com/contributor/pamela-wiznitzer, grace, nyc "
+        },
+        {
+            "@type": "Person",
+            "name": "Matt Duckor",
+            "sameAs": "https://www.bonappetit.com/contributor/matt-duckor"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "ratingCount": 8
+    },
+    "description": "The cinnamon simple syrup is equally tasty in hot chocolate or Chai tea. ",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ad515ff1c801a1038bcb6e/master/w_2000,h_1333,c_limit/irishcoffee_grace.jpg"
+    ],
+    "headline": "The Blind Abbot",
+    "name": "The Blind Abbot",
+    "recipeIngredient": [
+        "1 1/2 ounces Tullamore Dew Irish whiskey",
+        "1 ounce chilled freshly brewed coffee",
+        "3/4 ounce Galliano Ristretto",
+        "1/2 ounce Cinnamon Syrup (click for recipe)",
+        "3 dashes Angostura bitters",
+        "Whipped cream and ground cinnamon (for serving)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine whiskey, coffee, liqueur, cinnamon syrup, and bitters in a cocktail shaker; fill shaker with ice. Shake until outside of shaker is frosty, about 30 seconds. Strain into an Irish coffee glass and top with whipped cream and cinnamon."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/blind-abbot",
+    "dateModified": "2014-02-27T13:39:35.000-05:00",
+    "datePublished": "2014-02-27T13:39:35.000-05:00",
+    "recipeCategory": []
+}

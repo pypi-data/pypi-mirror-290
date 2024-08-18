@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Avocado Toasts With Watermelon Radishes",
+    "datePublished": "2024-03-15T19:30:48.424-04:00",
+    "dateModified": "2024-03-15T19:30:48.424-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jasmine Smith",
+            "url": "https://www.southernliving.com/author/jasmine-smith"
+        }
+    ],
+    "description": "These avocado toasts with watermelon radishes make a perfect breakfast or light lunch for spring.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/XFQQFp8gnXoBPJkBRAPu_3YID68=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/April2024_Bounty_WatermelonRadish_04-69776e49b20a4a09aa4fb75a8c3fe68b.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Avocado Toasts With Watermelon Radishes",
+    "keywords": "avocado toasts, avocado toasts with watermelon radishes",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1/4 cup extra-virgin olive oil",
+        "1/4 cup chopped fresh mint ",
+        "1/4 cup chopped fresh flat-leaf parsley",
+        "1/2 tsp. minced garlic (from 1 garlic clove)",
+        "1/4 tsp. crushed red pepper ",
+        "2 1/2 Tbsp. fresh lemon juice (from 1 large lemon), divided ",
+        "3/4 tsp. kosher salt, divided, plus more to taste",
+        "2 medium (7 oz. each) avocados  ",
+        "4 (1 1/4-oz.) sourdough bread slices, toasted ",
+        "4 small (1 1/2 oz. each) watermelon radishes, peeled and thinly sliced crosswise (1 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together oil, mint, parsley, garlic, crushed red pepper, 1 tablespoon of the lemon juice, and 1/4 teaspoon of the salt in a small bowl until well combined. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place avocados and remaining 1 1/2 tablespoons lemon juice and 1/2 teaspoon salt in a medium bowl. Gently mash with the back of a fork. Season with additional salt to taste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Brush 1 side of each toast with some of the herb oil to taste. Top evenly with mashed avocado mixture and radish slices. Drizzle with more herb oil to taste. Store leftover herb oil in an airtight container in refrigerator up to 2 weeks; let come to room temperature before serving."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/avocado-toasts-with-watermelon-radishes-8606183",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/breakfast",
+                        "name": "Breakfast"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/breakfast/brunch",
+                        "name": "Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/avocado-toasts-with-watermelon-radishes-8606183",
+                        "name": "Avocado Toasts With Watermelon Radishes"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-03-15T19:30:48.424-04:00"
+    }
+}

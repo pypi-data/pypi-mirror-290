@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Cashew Lentil Loaf for the Crock Pot",
+    "author": "ladypit",
+    "cookTime": "PT5H",
+    "prepTime": "PT20M",
+    "totalTime": "PT5H20M",
+    "datePublished": "2007-01-15T20:44Z",
+    "description": "This is posted in response to a request for a vegetarian loaf that cooks in the crock pot.  It is from &quot;125 Best Vegetarian Slow Cooker Recipes&quot; by Judith Finlayson.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/gk-static/fdc-new/img/fdc-shareGraphic.png",
+    "recipeCategory": "Cheese",
+    "keywords": "Lentil,Beans,Fruit,Nuts",
+    "recipeIngredient": [
+        "1   tablespoon    cumin seed",
+        "1   tablespoon    vegetable oil",
+        "1   large    onion, finely chopped ",
+        "2   stalks    celery, diced ",
+        "2   cups    carrots, shredded ",
+        "2       garlic cloves, minced ",
+        "1/2-1       chili pepper, diced ",
+        "1   teaspoon    salt",
+        "1/2  teaspoon    cracked pepper",
+        "2   cups    cooked lentils",
+        "3   cups    cheddar cheese, shredded ",
+        "1   cup    cashews, coarsely chopped ",
+        "3       eggs, beaten ",
+        "  boiling water"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "526.7",
+        "fatContent": "34.7",
+        "saturatedFatContent": "15.2",
+        "cholesterolContent": "165.1",
+        "sodiumContent": "959.9",
+        "carbohydrateContent": "29.3",
+        "fiberContent": "7.7",
+        "sugarContent": "6",
+        "proteinContent": "27.7"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spray an 8 by 5 inch loaf pan and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large dry pan toast the cumin seeds until they start to brown and release their aroma.  Right away put it in a spice grinder or a mortar and a pestle.  Grind to a powder and set it aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the pan back on the stove and add the vegetable oil.  Add the onion and celery and cook until the celery is soft, about 5 minutes.  Add the carrots, garlic, red pepper, chili pepper, salt and cracked pepper.  Cook, stirring, for 2 minutes.  Remove it from the heat and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl combine the lentils, cheese, and cashews.  Add the cooked vegetables and stir well.  Add the eggs and mix well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the mixture into the prepared pan.  Cover the pan tightly with foil and secure with a rubber band or string."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the prepared pan into the crock pot and put in enough boiling water to the crock pot until the water reaches about 1 inch up the sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and cook on high for 4 to 5 hours until the loaf has set."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "You can prepare this loaf the night before and then put the loaf into the crock pot with water in the morning."
+        }
+    ],
+    "recipeYield": "6 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "WOW!  What a neat recipe!  I mistakenly had in my mind that it was going to be like \"meatloaf.\"  The consistency however is VERY different from meatloaf, but the taste is phenomenal!  I put mine on sandwich bread with a little mayo.  (The consistency reminded me of a sandwich spread.)  My husband REALLY liked it too, which I wasn't expecting.  Thanks for posting this interesting recipe!",
+            "datePublished": "May 15, 2009",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Cashew Lentil Loaf for the Crock Pot"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "Stephie B."
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

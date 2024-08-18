@@ -1,0 +1,146 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate Souffle",
+    "datePublished": "2016-06-03T00:21:58.000-04:00",
+    "dateModified": "2023-09-20T10:22:05.926-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Soufflés may look like a restaurant-only dessert, but they are actually easy to make. Whip them up right after dinner and enjoy while they&#39;re still warm from the oven.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/v3bBLPz1UZ_cUpE8kK3k-RaN2AA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3747403-95b19e6311ad4a949ee7a4eec9c5f68d.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Chocolate Souffle",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "334 kcal",
+        "carbohydrateContent": "44 g",
+        "cholesterolContent": "103 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "10 g",
+        "saturatedFatContent": "9 g",
+        "sodiumContent": "235 mg",
+        "sugarContent": "40 g",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "3 tablespoons granulated sugar, divided",
+        "2.5 ounces semisweet or bittersweet chocolate, chopped",
+        "1 large egg, separated, plus 2 large egg whites",
+        "1 tablespoon heavy cream",
+        "1 teaspoon all-purpose flour",
+        "0.125 teaspoon ground cinnamon",
+        "0.125 teaspoon salt",
+        "Confectioners' sugar, for dusting (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Position rack in center of oven; preheat to 375 degrees F. Lightly coat two 10-ounce ramekins with cooking spray; coat the insides of each with 1 1/2 teaspoons sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place chocolate in a small microwave-safe bowl. Microwave on Medium, stirring every 20 seconds, until melted, 1 to 2 minutes. (Alternatively, see &#34;No Microwave?&#34; below.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk egg yolk and cream in a medium bowl until combined. Whisk in the chocolate until smooth, then whisk in flour and cinnamon until incorporated."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat egg whites and salt in a medium bowl with an electric mixer on high speed until soft peaks form. Beat in the remaining 2 tablespoons sugar in four additions, until stiff, glossy peaks form."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a rubber spatula, gently fold half the beaten whites into the chocolate mixture until fairly smooth; then gently fold this combined mixture back into the remaining egg whites until no white streaks remain. Divide between the prepared ramekins and place on a baking sheet. Bake until puffed and firm to the touch, 18 to 22 minutes. Dust with confectioners&#39; sugar, if desired. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "2"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/249626/chocolate-souffle/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19921/holidays-occasions/more-holidays/valentines-day/",
+                        "name": "Healthy Valentine's Day Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21326/holidays-occasions/more-holidays/valentines-day/dessert/",
+                        "name": "Healthy Valentine's Day Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/249626/chocolate-souffle/",
+                        "name": "Chocolate Souffle"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T10:22:05.926-04:00"
+    },
+    "recipeCategory": []
+}

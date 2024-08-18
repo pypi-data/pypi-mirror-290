@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Tomatillo-Avocado Salsa (Salsa Verde Cruda)",
+    "datePublished": "2013-12-06T18:54:28.000-05:00",
+    "dateModified": "2017-02-06T10:22:25.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Zarela Martinez",
+            "url": "https://www.foodandwine.com/author/zarela-martinez"
+        }
+    ],
+    "description": "In Veracruz, this versatile sauce is served with appetizers, as well as with grilled meats, chicken and fish. Zarela Martinez eats it like a lighter, ...",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Tomatillo-Avocado Salsa (Salsa Verde Cruda)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4221"
+    },
+    "recipeIngredient": [
+        "2 garlic cloves, coarsely chopped",
+        "Salt",
+        "1/2 pound tomatillos, husked and coarsely chopped",
+        "1 small onion, coarsely chopped",
+        "2 serrano or 3 jalapeño chiles, coarsely chopped",
+        "6 cilantro sprigs, coarsely chopped",
+        "1 ripe Hass avocado, halved and pitted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a mortar or a food processor, pound or pulse the garlic with 1 teaspoon of salt until a paste forms. Add the tomatillos, onion, chiles and cilantro and pound or pulse until a slightly chunky puree forms. Add the avocado and pound or pulse until smooth. Season the salsa with salt and serve right away."
+        }
+    ],
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny Hagen"
+            },
+            "reviewBody": "Just got a food processor and this is absolutely delicious. It's actually a raw and healthy salsa. Even cured my cold. I added an extra avocado than they said and it came out delicious!",
+            "datePublished": "2016-11-19T04:52:57.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/tomatillo-avocado-salsa-salsa-verde-cruda",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/appetizers/dips",
+                        "name": "Dips & Spreads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/tomatillo-avocado-salsa-salsa-verde-cruda",
+                        "name": "Tomatillo-Avocado Salsa (Salsa Verde Cruda)"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

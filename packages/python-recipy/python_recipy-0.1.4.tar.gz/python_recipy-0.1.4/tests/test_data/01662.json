@@ -1,0 +1,268 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Matcha Latte",
+    "datePublished": "2015-02-19T22:59:41.000-05:00",
+    "dateModified": "2023-05-15T18:13:35.173-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Molly Yeh",
+            "url": "https://www.foodandwine.com/author/molly-yeh"
+        }
+    ],
+    "description": "Here&#39;s how to make a matcha latte that&#39;s sweet and comforting by mixing matcha powder with steaming hot milk and honey. Food &amp; Wine introduces the two main grades of matcha powder and how each can be used.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/5tgBWed0sGOHbA3Nd8psgrainbQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Matcha-Latte-FT-RECIPE0622-6882b11559a3400fbf76fdbb82f3974e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/yMePHXyb-eFraYBD7.mp4",
+        "description": "A steaming hot matcha latte is a comforting drink that is easy to make at home. Blogger Molly Yeh shares her easy recipe that calls for matcha powder, milk and honey for sweetness.",
+        "duration": "PT22S",
+        "name": "Matcha Latte",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/yMePHXyb/poster.jpg?width=720",
+        "uploadDate": "2021-06-28T07:49:21.454-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Matcha Latte",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4408"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 1/2 teaspoons matcha powder",
+        "1 tablespoon hot water",
+        "2 teaspoons honey, or to taste",
+        "3/4 cup hot milk"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/s2c2nMJvbeMO4wNRrt3i6PLaqEE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-matcha-latte-ingredients-46661468862c4d4b94f3e2ea94a2c1b8.jpg"
+                }
+            ],
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/qc2BevK-miODa4OxSJqrhvpNS_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-matcha-latte-step-01-74d7330be0594043a9a5aee174374825.jpg"
+                }
+            ],
+            "text": "Sift the matcha powder into a mug."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/NCim6rXTQSZX9cktAogIr8ebs_Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-matcha-latte-step-02-5f1b817fe7fa41099db5b24b3e73018f.jpg"
+                }
+            ],
+            "text": "Add the hot water and whisk until no lumps remain. Stir in the honey."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/5tgBWed0sGOHbA3Nd8psgrainbQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Matcha-Latte-FT-RECIPE0622-6882b11559a3400fbf76fdbb82f3974e.jpg"
+                }
+            ],
+            "text": "Add the milk and either whisk to combine or use a milk frother; serve immediately."
+        }
+    ],
+    "totalTime": "PT5M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "RDFoodie"
+            },
+            "reviewBody": "This was a great base recipe! I used agave syrup and increased the milk to 8oz. Delicious!! I think I will try adding vanilla which another reviewer mentioned.",
+            "datePublished": "2024-06-01T16:03:52.812Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dave Tidy"
+            },
+            "reviewBody": "This recipe calls for at least 3 times as much Matcha powder as traditional Matcha tea (which is typically 1/2 teaspoon). Why?",
+            "datePublished": "2024-05-07T23:25:43.843Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "When I mixed the macha and the water I got a matcha paste. I think a milk frother probably would be the right was to go (if you have one).",
+            "datePublished": "2024-05-05T17:20:06.551Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "nanajanet"
+            },
+            "reviewBody": "Excellent! I also stirred in 1/4 tsp pure vanilla with the honey.",
+            "datePublished": "2024-05-04T23:59:33.426Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "Perfect",
+            "datePublished": "2024-04-16T13:11:14.203Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "It's very simple &amp; delicious!",
+            "datePublished": "2024-03-22T23:56:12.660Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Antonette Toney"
+            },
+            "reviewBody": "Divinely Delicious! Perfect recipe, true to measurements and instructions. I used Oat Milk. My tastebuds are delighted. Thank you Food &amp; Wine team 💞!",
+            "datePublished": "2024-02-03T23:12:32.983Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "It's delicious :)",
+            "datePublished": "2023-09-03T18:07:26.920Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "Double the amount of all the ingredients, but keep the volume of honey the same and it’s amazing! Hot or cold.",
+            "datePublished": "2023-07-29T14:17:58.890Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/matcha-latte",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/non-alcoholic-drinks-7496802",
+                        "name": "Nonalcoholic Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/tea",
+                        "name": "Tea"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/matcha-latte",
+                        "name": "Matcha Latte"
+                    }
+                }
+            ]
+        }
+    }
+}

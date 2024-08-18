@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/wonton-chicken-noodle-soup/#recipe",
+    "url": "https://www.marionskitchen.com/wonton-chicken-noodle-soup/",
+    "name": "Wonton Chicken Noodle Soup | Marion&#039;s Kitchen",
+    "description": "Chewy egg noodles and savoury wontons in an awesome broth are a quintessential Asian dish. Add some fresh ginger and spices to store-bought chicken stock for extra aromatic flavour in the soup.",
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "",
+    "keywords": "Chicken, Dumplings, Noodles, Soups, Wontons",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "",
+    "recipeIngredient": [
+        "5 garlic cloves",
+        "1 tsp black peppercorns",
+        "4cm (1.6 inch) piece ginger, roughly chopped",
+        "2 tbsp vegetable oil",
+        "2 chicken thighs",
+        "4 whole star anise",
+        "6 cups chicken stock",
+        "3 tbsp soy sauce",
+        "1 tsp sea salt",
+        "blanched Asian greens e.g. bok choy to serve",
+        "cooked Chinese egg noodles (or your noodle of choice) to serve",
+        "Wontons:",
+        "200g (8oz) chicken mince",
+        "¼ cup finely sliced spring onion (scallions)",
+        "1 tsp sesame oil",
+        "½ tsp sea salt",
+        "¼ tsp ground white pepper",
+        "1 tbsp water",
+        "1 tsp corn flour (cornstarch)",
+        "100g (3.5oz) peeled prawns, roughly chopped",
+        "20 wonton wrappers"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Step 1.Use a mortar and pestle to pound the garlic, peppercorns and ginger into a rough paste. Heat oil in a large pot over high heat and fry the paste for 1 minute or until fragrant. Add the chicken pieces and cook, turning, until golden brown. Add the star anise, chicken stock and soy sauce. Bring to a simmer, then lower heat and gently simmer for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 2.In the meantime, make the wonton filling. Place the chicken mince, spring onion, sesame oil, salt, pepper, water and corn flour in large mixing bowl. Mix until well combined and sticky. Then stir through the prawns."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 3.To form the wontons, place a tablespoon of the mixture onto the centre of a wonton wrapper. Moisten edges with water and fold in half diagonally, ensuring there are no air pockets. Bring one corner of the wonton together to meet the other to form a similar shape to tortellini. Repeat with remaining filling mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 4.Divide Asian greens and egg noodles among serving bowls."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 5.Cook wontons in boiling water for 5 minutes or until cooked through. Drain and divide wontons among serving bowls. Strain the stock and ladle over the top."
+        }
+    ],
+    "datePublished": "2021-06-08T00:00:00Z",
+    "dateModified": "2022-06-12T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/wonton-chicken-noodle-soup/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2020/03/wonton-chicken.jpg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2020/03/wonton-chicken.jpg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

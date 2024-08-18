@@ -1,0 +1,191 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chicken &amp; Cauliflower-Rice Casserole",
+    "datePublished": "2021-01-07T13:37:07.000-05:00",
+    "dateModified": "2024-04-19T17:43:04.024-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Julia Levy",
+            "url": "https://www.eatingwell.com/author/julia-levy/"
+        }
+    ],
+    "description": "Get your veggies and your protein fix in this easy, gluten-free chicken and cauliflower-rice casserole. Riced cauliflower stands in for traditional rice, making this creamy casserole low in carbs but—with the simple combination of Cheddar cheese and chicken—suitable for even the pickiest of eaters.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/7yYrn6tXkdt5J2B9SrAD2fqtLGA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-cauliflower-rice-casserolerole-2000-ee7748cffd2b4b049281f2fe1ec822f9.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Chicken &amp; Cauliflower-Rice Casserole",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "3"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "348 kcal",
+        "carbohydrateContent": "7 g",
+        "cholesterolContent": "118 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "32 g",
+        "saturatedFatContent": "13 g",
+        "sodiumContent": "439 mg",
+        "sugarContent": "2 g",
+        "fatContent": "22 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "1 (12-ounce) package riced cauliflower (about 3 cups)",
+        "6 ounces cream cheese, softened",
+        "2 teaspoons garlic powder",
+        "1 teaspoon onion powder",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dry mustard",
+        ".5 teaspoon ground pepper",
+        ".25 teaspoon salt",
+        ".25 teaspoon cayenne pepper",
+        ".5 cup thinly sliced scallions, divided",
+        "3 cups shredded cooked chicken breast",
+        "1.5 cups shredded sharp Cheddar cheese, divided"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°F. Coat a 7-by-11-inch (2-quart) baking dish with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place cauliflower in a microwaveable bowl. Cover tightly and microwave on High until tender, about 3 minutes. Drain, if necessary."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine cream cheese, garlic powder, onion powder, oregano, mustard, pepper, salt, cayenne and ¼ cup scallions in a large bowl; beat with an electric mixer on medium speed until smooth, about 1 minute. Fold in the cauliflower, chicken and 1 cup Cheddar. Spoon the mixture into the prepared baking dish. Sprinkle with the remaining ½ cup Cheddar and cover with foil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until bubbly, about 30 minutes. Uncover and bake until the cheese browns, about 10 more minutes. Remove from oven and sprinkle with the remaining ¼ cup scallions. Let stand for 10 minutes before serving."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT60M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "This dish has a lot of potential but the seasoning is off. There is too much pepper (black and cayenne) and it needs more creaminess.",
+            "datePublished": "2023-06-14T00:11:45.524Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I am not a fan of this recipe. For me, the seasonings just didn't blend well. Too much garlic powder. The oregano also stuck out. If I make again, I'll 1/2 the garlic powder and completely cut out the oregano.",
+            "datePublished": "2022-04-28T22:55:46.301Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "LeslieS"
+            },
+            "reviewBody": "Pretty good flavor. I used raw cauliflower that I riced and then microwaved according to directions, but substituted Greek yogurt (drained) for the sour cream since that’s what I had. Otherwise followed all cooking instructions and, other than more water than I wanted in the bottom, it all worked together well. I’ll take a little more time to cook the “rice” more or maybe roast the cauliflower first next time. Great use of leftovers!",
+            "datePublished": "2021-10-14T02:17:09.815Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7883913/chicken-cauliflower-rice-casserole/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22824/dietary-restrictions/",
+                        "name": "Dietary Restrictions"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17900/dietary-restrictions/gluten-free/",
+                        "name": "Gluten-Free Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7883913/chicken-cauliflower-rice-casserole/",
+                        "name": "Chicken &amp; Cauliflower-Rice Casserole"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jessica Ball, M.S., RD",
+                "url": "https://www.eatingwell.com/author/jessica-ball/"
+            }
+        ],
+        "lastReviewed": "2024-04-19T17:43:04.024-04:00"
+    },
+    "recipeCategory": []
+}

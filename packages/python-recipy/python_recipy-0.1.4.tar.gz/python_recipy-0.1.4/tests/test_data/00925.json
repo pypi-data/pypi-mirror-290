@@ -1,0 +1,93 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/orange-sweet-potatoes/",
+    "name": "Orange Sweet Potatoes",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-03-12",
+    "prepTime": "PT30M",
+    "cookTime": "PT25M",
+    "totalTime": "PT55M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Orange-Sweet-Potatoes_EXPS_TOHX25_14144_P2_MD_01_11_5b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Our show-stopping baked orange sweet potatoes make for one vibrant, crowd-pleasing side dish for the holidays and special events.",
+    "recipeIngredient": [
+        "8 medium sweet potatoes (about 4 pounds)",
+        "2/3 cup packed brown sugar",
+        "4 teaspoons cornstarch",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon ground cinnamon",
+        "1 cup orange juice",
+        "1/4 cup honey",
+        "3 tablespoons butter",
+        "2 tablespoons water",
+        "2 tablespoons grated orange zest",
+        "1/2 cup chopped walnuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Prepare the sweet potatoes",
+            "text": "Place the sweet potatoes in a Dutch oven, and cover with water. Bring to a boil. Reduce the heat. Cover and simmer until the sweet potatoes can easily be pierced with a knife or fork, 25 to 30 minutes. Drain. Preheat your oven to 350°F. When the sweet potatoes have cooled enough to handle, peel them and cut into 1/2-inch slices. Arrange the slices in a greased shallow 3-quart baking dish. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Create the glaze",
+            "text": "In a large saucepan, whisk together the brown sugar, cornstarch, salt and cinnamon. Whisk in the orange juice, honey, butter, water and orange zest. Bring everything to a boil. Cook and whisk the orange mixture until thickened, about two minutes. Remove from heat, and stir in the walnuts."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Assemble and bake",
+            "text": "Pour the orange mixture over the sweet potatoes. Bake, uncovered, until everything is heated through, about 25 minutes.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Orange-Sweet-Potatoes_TOHX25_14144_P2_MD_01_11_6b_SSedit.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "12 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 267 calories",
+        "fatContent": "6g fat (2g saturated fat)",
+        "cholesterolContent": "8mg cholesterol",
+        "sodiumContent": "138mg sodium",
+        "carbohydrateContent": "52g carbohydrate (32g sugars",
+        "fiberContent": "4g fiber)",
+        "proteinContent": "3g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Bcooks"
+            },
+            "reviewBody": "I have made this recipe multiple times. Its become a favorite at our family Thanksgiving meal.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

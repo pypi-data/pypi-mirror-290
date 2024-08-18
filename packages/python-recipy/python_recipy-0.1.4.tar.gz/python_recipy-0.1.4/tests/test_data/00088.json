@@ -1,0 +1,253 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Rainbow Grain Bowl with Cashew Sauce",
+    "datePublished": "2017-10-05T19:54:00.000-04:00",
+    "dateModified": "2024-04-22T18:29:27.793-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sylvia Fountaine",
+            "url": "https://www.eatingwell.com/author/sylvia-fountaine/"
+        }
+    ],
+    "description": "This vibrant bowl is packed with nutrients to keep you full for hours. Look for precooked lentils in the refrigerated section of the produce department.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/rMFFw_MoPNUei64pWSezBNFnf38=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45654661-f67619abf7e141d09e587d2199a4f4da.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/aHJ1j6gQ-ZrSBkzFI.mp4",
+        "description": "The vibrant veggies in this colorful bowl pack in the nutrients with 14 grams of fiber and 17 grams of protein to leave you full and satisfied. Drizzle a vegan tahini sauce over the mix of quinoa, lentils and vegetables for a flavorful packable lunch or easy dinner. ",
+        "duration": "PT1M6S",
+        "name": "How to Make a Rainbow Buddha Bowl",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/aHJ1j6gQ/poster.jpg?width=720",
+        "uploadDate": "2021-07-20T02:14:03.777-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Rainbow Grain Bowl with Cashew Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.7",
+        "ratingCount": "6"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "361 kcal",
+        "carbohydrateContent": "54 g",
+        "fiberContent": "14 g",
+        "proteinContent": "17 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "139 mg",
+        "sugarContent": "9 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "0.75 cup unsalted cashews",
+        "0.5 cup water",
+        "0.25 cup packed parsley leaves",
+        "1 tablespoon lemon juice or cider vinegar",
+        "1 tablespoon extra-virgin olive oil",
+        "0.5 teaspoon reduced-sodium tamari or soy sauce (see Tip)",
+        "0.25 teaspoon salt",
+        "0.5 cup cooked lentils",
+        "0.5 cup cooked quinoa",
+        "0.5 cup shredded red cabbage",
+        "0.25 cup grated raw beet",
+        "0.25 cup chopped bell pepper",
+        "0.25 cup grated carrot",
+        "0.25 cup sliced cucumber",
+        "1 tablespoon Toasted chopped cashews for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blend cashews, water, parsley, lemon juice (or vinegar), oil, tamari (or soy sauce) and salt in a blender until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.eatingwell.com/thmb/rMFFw_MoPNUei64pWSezBNFnf38=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45654661-f67619abf7e141d09e587d2199a4f4da.jpg"
+                }
+            ],
+            "text": "Place lentils and quinoa in the center of a shallow serving bowl. Top with cabbage, beet, pepper, carrot and cucumber. Spoon 2 tablespoons of the cashew sauce over the top (save extra sauce for another use). Garnish with cashews, if desired."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT20M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sophie Johnson"
+            },
+            "reviewBody": "Added sweet potatoes, and did a maple tahini dressing instead to make it more seasonal. Will make again!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I never make changes on the first time. The next time, if there is a next time, I tweak the recipe. This one had too many things needing to be tweaked, so I will move on to another recipe.",
+            "datePublished": "2024-06-01T18:50:39.640Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "Delicious!! Love the dressing and that I was able to fill my bowl with the rainbow. I didnt have cabbage so subbed arugula and added in snap peas. Will definitely make again!",
+            "datePublished": "2024-04-27T18:56:27.523Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "This recipe is superb! It's actually my favourite meal so far! BUT!!!! For the seasoning I only used 4 tbsp of fat free Greek yogurt, a drizzle of olive oil, apple cider vinegar. And it's soo Yummy 🤌🏻",
+            "datePublished": "2023-12-17T22:02:18.935Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lysa"
+            },
+            "reviewBody": "The ingredients are fine, but the dressing has no flavor.",
+            "datePublished": "2021-06-06T03:49:36.780Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ruth"
+            },
+            "reviewBody": "This was flavorless but very filling.",
+            "datePublished": "2018-03-26T06:05:53.543Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sophie Johnson"
+            },
+            "reviewBody": "Added sweet potatoes, and did a maple tahini dressing instead to make it more seasonal. Will make again!",
+            "datePublished": "2017-10-09T14:17:46.713Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/260740/rainbow-buddha-bowl-with-cashew-tahini-sauce/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18226/main-dishes/grains/",
+                        "name": "Grain Main Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22489/main-dishes/grains/bowls/",
+                        "name": "Grain Bowls"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/260740/rainbow-buddha-bowl-with-cashew-tahini-sauce/",
+                        "name": "Rainbow Grain Bowl with Cashew Sauce"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Victoria Seaver, M.S., RD",
+                "url": "https://www.eatingwell.com/author/victoria-seaver/"
+            }
+        ],
+        "lastReviewed": "2024-04-22T18:29:27.793-04:00"
+    },
+    "recipeCategory": []
+}

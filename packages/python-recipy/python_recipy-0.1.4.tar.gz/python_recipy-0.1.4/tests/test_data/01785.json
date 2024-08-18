@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Puerto Rican Remoulade (Mayoketchup)",
+    "url": "https://www.foodnetwork.com/recipes/puerto-rican-remoulade-mayoketchup-5285522",
+    "headline": "Puerto Rican Remoulade (Mayoketchup)",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2018-06-06T09:16:21.162-04:00",
+    "dateModified": "2018-06-06T09:16:20.858-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT0H25M0.000S",
+    "recipeIngredient": [
+        "2 cups mayonnaise",
+        "1 cup tomato ketchup",
+        "1/4 cup granulated garlic",
+        "1/4 cup minced garlic",
+        "3 tablespoons Sofrito, recipe follows",
+        "2 tablespoons adobo seasoning",
+        "2 tablespoons Cajun spice",
+        "2 tablespoons granulated onion",
+        "1/4 teaspoon cayenne",
+        "1/4 teaspoon black pepper",
+        "1/2 onion",
+        "1 onion, sliced",
+        "1 green bell pepper, stemmed and seeded",
+        "2 cups sweet mini peppers, stemmed ",
+        "1 cup whole or minced garlic ",
+        "8 bunches cilantro "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 14 servings",
+        "calories": "295",
+        "fatContent": "26g",
+        "saturatedFatContent": "4g",
+        "carbohydrateContent": "15g",
+        "fiberContent": "2g",
+        "sugarContent": "5g",
+        "proteinContent": "2g",
+        "cholesterolContent": "13mg",
+        "sodiumContent": "362mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine the mayonnaise, ketchup, granulated garlic, minced garlic, Sofrito, adobo seasoning, Cajun spice, granulated onion, cayenne, black pepper and onion in a blender. Blend to an even consistency."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the onion, bell pepper, sweet peppers, garlic and cilantro in a blender. Blend to an even consistency, 30 seconds."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "5 cups",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anthony C."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Ads just the right kick to most any dish."
+        }
+    ],
+    "recipeCategory": []
+}

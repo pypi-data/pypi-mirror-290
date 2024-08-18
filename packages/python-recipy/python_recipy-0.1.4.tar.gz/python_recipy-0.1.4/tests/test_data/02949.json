@@ -1,0 +1,79 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/avocado-houmous-crudites#Recipe",
+    "@type": "Recipe",
+    "description": "Get all five of your 5-a-day with this healthy, low-calorie, vegan recipe that works as lunch or a starter. Enjoy deliciously creamy hummus made with avocado",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/avocado-houmous-crudites-54e1ffe.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/avocado-houmous-crudites"
+    },
+    "name": "Avocado hummus & crudités",
+    "url": "https://www.bbcgoodfood.com/recipes/avocado-houmous-crudites",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sophie Godwin – Cookery writer",
+            "url": "https://www.bbcgoodfood.com/author/sophiegodwin"
+        }
+    ],
+    "dateModified": "2022-11-10T17:21:16+00:00",
+    "datePublished": "2018-03-02T08:36:03+00:00",
+    "headline": "Avocado hummus & crudités",
+    "keywords": "5 of 5 a day, Avocado, Crudites, Fibre, Folate, Gluten free, Healthy, Houmous, Low calorie, Lunch, Quick, Sophie Godwin, Vegan, Vit C",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "335 calories",
+        "fatContent": "17 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "28 grams carbohydrates",
+        "sugarContent": "15 grams sugar",
+        "fiberContent": "15 grams fiber",
+        "proteinContent": "10 grams protein",
+        "sodiumContent": "0.2 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 avocado , peeled and stoned",
+        "210g chickpeas , drained",
+        "1 garlic clove , crushed",
+        "pinch chilli flakes , plus extra to serve",
+        "1 lime , juiced",
+        "handful coriander leaves",
+        "2 carrots , cut into strips",
+        "2 mixed peppers , cut into strips",
+        "160g sugar snap peas"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blitz together the avocado, chickpeas, garlic, chilli flakes and lime juice, and season to taste. Top the hummus with the coriander leaves and a few more chilli flakes, and serve with the carrot, pepper and sugar snap crudités. Make the night before for a great take-to-work lunch."
+        }
+    ],
+    "recipeYield": 2,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet, https://schema.org/VeganDiet, https://schema.org/VegetarianDiet",
+    "totalTime": "PT10M"
+}

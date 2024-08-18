@@ -1,0 +1,60 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/prosciutto-shrimp-with-tropical-mango-salsa/",
+    "name": "Prosciutto Shrimp with Tropical Mango Salsa",
+    "datePublished": "2022-08-08",
+    "dateModified": "2023-11-09",
+    "prepTime": "PT30M",
+    "cookTime": "PT0M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2022/08/Prosciutto-Shrimp-with-Tropical-Mango-Salsa_EXPS_TOHDJ23_117059_P2_MD_07_12_6b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "",
+    "recipeIngredient": [
+        "24 peeled and deveined cooked shrimp (16-20 per pound)",
+        "5 tablespoons lime juice",
+        "MANGO SALSA:",
+        "2 medium ripe mangoes, peeled and chopped",
+        "3/4 cup cubed fresh pineapple",
+        "3/4 cup chopped peeled papaya",
+        "1/2 cup finely chopped red onion",
+        "1/2 cup finely chopped sweet red pepper",
+        "2 jalapeno peppers, seeded and minced",
+        "2 tablespoons minced fresh cilantro",
+        "2 tablespoons lime juice",
+        "24 thin slices cantaloupe",
+        "12 thin slices prosciutto, halved lengthwise"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place shrimp and lime juice in a large shallow bowl. Refrigerate, covered, while making salsa, turning once. In a large bowl, combine mangoes, pineapple, papaya, red onion, red pepper, jalapenos, cilantro and lime juice. Refrigerate, covered, until serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain shrimp, discarding lime juice. Place 1 cantaloupe slice on each prosciutto slice; top each with 1 shrimp. Fold both sides of prosciutto around shimp and melon. If desired, secure with toothpicks. Serve with mango salsa."
+        }
+    ],
+    "recipeYield": "2 dozen",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 65 calories",
+        "fatContent": "1g fat (0 saturated fat)",
+        "cholesterolContent": "37mg cholesterol",
+        "sodiumContent": "170mg sodium",
+        "carbohydrateContent": "7g carbohydrate (6g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "7g protein."
+    },
+    "recipeCuisine": "Europe, Italian"
+}

@@ -1,0 +1,166 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Thai Sukiyaki Soup (Suki Nam) สุกี้นำ้",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/09/suki-nam-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/09/suki-nam-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/09/suki-nam-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2017/09/suki-nam-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/suki-nam/",
+    "recipeIngredient": [
+        "1 cup chicken stock or pork stock, unsalted",
+        "20 g dry glass noodles",
+        "1 cup chopped napa cabbage",
+        "1 cup water spinach (or regular spinach)",
+        "A small handful chopped Chinese celery or sliced regular celer",
+        "2 fresh shiitake mushrooms or other Asian mushrooms, chopped (optional)",
+        "~75g of protein of your choice (I usually do chicken breast)",
+        "1 egg",
+        "2-3 Tbsp of Thai sukiyaki sauce (recipe below)",
+        "4 Red bean curd cubes (see video for more info on this item)",
+        "2 Tbsp red bean curd juice",
+        "Thai chilies, to taste (I put 2)",
+        "5 cloves garlic",
+        "2 Tbsp granulated sugar",
+        "¼ cup white vinegar",
+        "1 Tbsp toasted sesame oil",
+        "1 Tbsp soy sauce",
+        "1 Tbsp white sesame seeds, toasted",
+        "¼ cup chopped cilantro",
+        "Sriracha, for dipping sauce (see note)",
+        "350 g chicken breast, sliced",
+        "1 Tbsp soy sauce",
+        "1 Tbsp oyster sauce",
+        "1 ½ tsp sesame oil",
+        "1 egg white",
+        "2 Tbsp cornstarch"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Make Suki Sauce:",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Pound garlic and chilies into a paste, add sugar and grind some more till sugar is dissolved.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add sesame seeds and crush gently (I did not do this in the video but I recommend it to get more flavour out of the sesame seeds).",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add bean curd cubes and mash. Add bean curd juice, vinegar, soy sauce, sesame oil and stir to mix.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Stir in some chopped cilantro.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-4"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Make Dipping Sauce (optional):",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Set aside an amount of the suki sauce you will use for the soup (you’ll need 2-3 Tbsp per serving), then with whatever is left, stir in about 30% Sriracha—this is your dipping sauce.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-5"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Marinate chicken:",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine meat with soy sauce, oyster sauce and sesame oil and toss to thoroughly combine.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-6"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add egg white and cornstarch and mix well to combine. Let marinate for at least 20 minutes and up to one day in advance.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-7"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bring chicken stock to a boil.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-8"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add vegetables and blanch 1 minutes or just until done. Remove with a slotted skimmer and distribute into serving bowls.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-9"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bring broth back to a boil, add glass noodles and cook for about 2 minutes; remove and distribute into serving bowls. NOTE: If you’re not using glass noodles, cook them separately in boiling water. Unlike glass noodles, rice or wheat noodles tend to release a lot of starch into the water as they cook, which will make your broth starchy and unappetizing.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-10"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bring stock to a boil again, then add marinated meat and spread it out so the pieces are not clumping together and let cook until almost done. Add the egg and quickly stir it into the soup. Turn off the heat and distribute the soup and protein into serving bowls.",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-11"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Top each bowl with sauce (as much as you like, starting with 2 Tbsp per bowl), and serve immediately. Enjoy!",
+                    "url": "https://hot-thai-kitchen.com/suki-nam/#instruction-step-12"
+                }
+            ]
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "1",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Thai Sukiyaki Recipe (Suki Nam) สุกี้นำ้   Thai Recipes.mp4",
+        "description": "Sukiyaki is a Japanese hotpot, but Thai people have taken the idea and created our own version of this hotpot with a bold flavoured sauce that better matches our palates. Not only that, we have created 3 different ways you can have sukiyaki (or just suki as we call it in Thailand)!",
+        "duration": "PT11M5S",
+        "embedUrl": "https://video.mediavine.com/videos/iVIU1Bk00.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681226997/iVIU1Bk00.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--oLnhD7fr--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681227004/ns0irheouvamvo595yp4.jpg"
+        ],
+        "uploadDate": "2020-12-01T05:41:08+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tia"
+            },
+            "datePublished": "2020-12-25",
+            "reviewBody": "This review is for the suki sauce itself: I love it as a hot pot dipper, with or without the addition of sriracha as suggested. Usually without. \r\nI usually use it for Chinese-style hot pot; it is umami, sweet, and sour, without overwhelming the flavor of the food. It is unconventional but it's not to be missed at my winter hot pot table."
+        }
+    ],
+    "datePublished": "2017-09-22",
+    "@id": "https://hot-thai-kitchen.com/suki-nam/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/suki-nam/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/suki-nam/",
+    "recipeCategory": []
+}

@@ -1,0 +1,183 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Easy Catfish Tacos With Slaw",
+    "datePublished": "2019-01-15T08:04:41.000-05:00",
+    "dateModified": "2023-09-09T22:51:07.055-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Paige Grandjean",
+            "url": "https://www.southernliving.com/author/paige-grandjean"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "These crispy Catfish Tacos are easy to make and the whole family will love them.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/C-Ge1sK0qx5Lg3Yjc20UkFua9KI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2591001_qfssh_0129_0-2000-36df9778c159445098ff8b42058f3d20.jpg",
+        "height": 2000,
+        "width": 1488
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Easy Catfish Tacos With Slaw",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "keywords": "catfish tacos",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American",
+        "Southern",
+        "Mexican"
+    ],
+    "recipeIngredient": [
+        "1 pound skinless catfish fillets, cut into 16 pieces",
+        ".75 cup whole buttermilk",
+        ".5 cup fine yellow cornmeal",
+        ".5 cup panko (Japanese-style breadcrumbs)",
+        "2 tablespoons Cajun seasoning (such as Slap Ya Mama)",
+        ".75 teaspoon kosher salt, divided",
+        ".25 cup mayonnaise",
+        "2 tablespoons fresh lime juice (from 1 lime)",
+        ".25 teaspoon black pepper",
+        "2 cups shredded napa or green cabbage (from 1 small cabbage)",
+        "8 (6-inch) yellow corn tortillas, warmed",
+        "2 radishes, cut into matchsticks (¼ cup)",
+        "1 ripe avocado, thinly sliced",
+        "2 tablespoons fresh cilantro leaves",
+        "2 tablespoons minced fresh chives",
+        "Lime wedges",
+        "Hot sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Soak catfish: Preheat oven to 450°F with oven rack 6 inches from heat. Combine catfish and buttermilk in a medium bowl; cover and chill 20 minutes or up to 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake catfish pieces: Whisk together cornmeal, panko, Cajun seasoning, and ¼ teaspoon of the salt in a shallow dish. Drain catfish; discard buttermilk. Working in batches, dredge fish in cornmeal mixture. Place fish on a wire rack set inside a rimmed baking sheet. Bake in preheated oven until golden brown and flakes with a fork, 20 to 25 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make slaw: Meanwhile, whisk together mayonnaise, lime juice, pepper, and remaining ½ teaspoon salt in a medium bowl. Add cabbage; toss to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Build tacos: Place 2 pieces of catfish in each tortilla. Top with cabbage mixture, radishes, avocado, cilantro, and chives. Serve with lime wedges and hot sauce."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT55M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/easy-catfish-tacos",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish",
+                        "name": "Dish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish/tacos",
+                        "name": "Tacos"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/easy-catfish-tacos",
+                        "name": "Easy Catfish Tacos With Slaw"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Why do you soak catfish in buttermilk before baking or frying?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>The mild acidity of buttermilk helps tenderize the fish, permeates it with flavor, and keeps it juicy after baking. It also helps give the breading something to stick to.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are fish tacos best with corn or flour tortillas?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>With the cornmeal and panko breading, we love pairing these catfish filets with corn tortillas. That being said, if you love flour tortillas, you can absolutely use those instead.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I substitute the type of fish?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Any firm, white-fleshed fish will do for this recipe, including cod, tilapia, grouper, and more.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Should I add more salt to the breading if my Cajun seasoning already has some?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If your Cajun seasoning has a good amount of salt in the mix, skip the additional salt called for in the recipe (you can always sprinkle a little extra salt on the filets before serving, if needed).</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

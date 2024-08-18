@@ -1,0 +1,127 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Fudgy Chocolate Cake Bars",
+    "description": "These simple fudgy chocolate cake bars only have 5 ingredients and taste like a combination of brownies and flourless chocolate cake.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "fudge chocolate cake bars, fudge bars, chocolate bars",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Matilda-Chocolate-Cake-7-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Matilda-Chocolate-Cake-7-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Matilda-Chocolate-Cake-7-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Matilda-Chocolate-Cake-7.jpg"
+    ],
+    "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars",
+    "recipeIngredient": [
+        "8 ounces semisweet chocolate chips",
+        "1 1/2 sticks salted butter, about 170 grams, softened",
+        "1 cup sugar",
+        "1/4 cup all purpose flour",
+        "6 eggs, yolks and whites separated",
+        "8 ounces semisweet chocolate chips (for the frosting)",
+        "1 cup heavy cream (for the frosting)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees. Melt 8 ounces of chocolate chips in a double boiler, or if you don&#8217;t have a double boiler, just melt it in a heat-safe bowl over a pot of boiling water. Stir in the butter until it&#8217;s all melted.",
+            "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the melted mixture to a cooler, larger bowl and add the sugar and flour. Lightly beat the egg yolks and stir them into the bowl.",
+            "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using an electric mixer, beat the egg whites until they are stiff. I find that it helps to have a cold bowl when I do this, and usually it takes about 3 minutes. Fold the stiff egg whites into the chocolate mixture.",
+            "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the batter into the rectangular bar pan (9&#215;13) or a round cake pan (8 1/2 inches) lined with parchment paper and bake for about 30-35 minutes. The cake should have a thin crust on top when it&#8217;s done, but the inner texture might appear underbaked. That&#8217;s okay &#8211; the cake settles and firms up as it cools. It&#8217;s meant to be thick and fudgy. I baked for 35 minutes and I wish I had stopped at 30.",
+            "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make the frosting by melting the chocolate again in the double boiler with the cream, stirring until just melted. Let the frosting cool slightly and the gently spread the frosting over the cake bars. To set the frosting, let it cool in the refrigerator. Or dig in to the hot melty chocolate. Up to you.",
+            "url": "https://pinchofyum.com/fudgy-chocolate-cake-bars#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT30M",
+    "cookTime": "PT30M",
+    "totalTime": "PT1H",
+    "recipeYield": "24",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "11",
+        "ratingValue": "4.5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "233 calories",
+        "sugarContent": "19.3 g",
+        "sodiumContent": "65.9 mg",
+        "fatContent": "15.8 g",
+        "saturatedFatContent": "9.6 g",
+        "transFatContent": "0.4 g",
+        "carbohydrateContent": "21.7 g",
+        "fiberContent": "1.4 g",
+        "proteinContent": "3.4 g",
+        "cholesterolContent": "72.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Chef Amber Shea"
+            },
+            "datePublished": "2013-04-17",
+            "reviewBody": "I still remember the day in second grade when our teacher, Ms. Kovacik, gathered us around and told us that unfortunately, Roald Dahl was, in fact, dead, and thus was not writing new books anymore.  Every book of his that I read after that was savored all the more.  He was my favorite childhood author - so I loved this post.  :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Joanna@DrizzleofSunshine"
+            },
+            "datePublished": "2013-04-17",
+            "reviewBody": "Matilda is one of my favorite books. The movie was super cute, too and the chocolate cake part was so funny...and gross. Haha! If my punishment was to eat all of this yumminess that you posted, I would be in heaven! haha"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kayle (The Cooking Actress)"
+            },
+            "datePublished": "2013-04-17",
+            "reviewBody": "Ah! I love that movie! And this cake *swoon*"
+        }
+    ],
+    "datePublished": "2013-04-17",
+    "@id": "https://pinchofyum.com/fudgy-chocolate-cake-bars#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/fudgy-chocolate-cake-bars#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/fudgy-chocolate-cake-bars"
+}

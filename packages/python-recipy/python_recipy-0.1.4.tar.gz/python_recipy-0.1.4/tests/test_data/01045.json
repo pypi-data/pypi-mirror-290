@@ -1,0 +1,160 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Fresh Peach Ice Cream",
+    "datePublished": "2018-06-12T17:52:31.000-04:00",
+    "dateModified": "2023-07-03T22:42:59.445-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "This homemade peach ice cream recipe, made with fresh peaches and sweetened condensed milk, is a Southern favorite. Get the recipe for fresh peach ice cream, and serve a scoop up tonight.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/l9iRY7Lzic7uZfFuS7uZCqlCf4w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-peach-ice-cream-ddmfs-4x3-1-6f3637756b964bcb9e99c30f1c34bc29.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/7N4l5uAm-KtCa7qb3.mp4",
+        "description": "This homemade ice cream recipe is a Southern favorite.",
+        "duration": "PT1M5S",
+        "name": "Peach Ice Cream",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/7N4l5uAm/poster.jpg?width=720",
+        "uploadDate": "2021-05-27T21:02:21.037-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Fresh Peach Ice Cream",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "ratingCount": "5"
+    },
+    "keywords": "peach ice cream, peach ice cream recipe",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "5 large egg yolks",
+        "1/2 cup sugar",
+        "2 cups whole milk",
+        "1 (14-oz.) can sweetened condensed milk",
+        "1 (12-oz.) can evaporated milk",
+        "2 cups mashed peaches",
+        "1 1/2 teaspoons vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/Yde5joJmenehTonOMal6YZL15sE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-peach-ice-cream-3-8b3aed9605824882b902c16b1d82baba.jpg"
+                }
+            ],
+            "text": "Prepare custard: Whisk together the egg yolks and sugar in a large heavy saucepan. Whisk in the milks. Cook over medium-low, stirring constantly, 15 minutes or until the mixture coats the back of a spoon. Stir in the peaches and vanilla."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/ZN4KxwJu4MMscTLrzW9_HN6QsSE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-peach-ice-cream-4-45878a27f13d441381f17f128d6dff4a.jpg"
+                }
+            ],
+            "text": "Chill ice cream base: Cool completely (about 30 minutes); cover and chill at least 4 hours or up to 8 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/9IsNzarCppTEvOMTRASO6VwRbl0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fresh-peach-ice-cream-7-9e312803c3a84bc9998544c7c3de9569.jpg"
+                }
+            ],
+            "text": "Freeze the ice cream: Pour the custard into the freezer container of a 2 1/2 to 3-quart electric ice-cream maker. Freeze according to manufacturer&#39;s instructions. (Instructions and times may vary.) Transfer to a freezer-safe container; freeze 2 hours or until firm."
+        }
+    ],
+    "totalTime": "PT410M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/fresh-peach-ice-cream-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/ice-cream",
+                        "name": "Ice Cream"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/fresh-peach-ice-cream-recipe",
+                        "name": "Fresh Peach Ice Cream"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is peach ice cream made of?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Keep it simple with classic peach ice cream. It&#39;s made with egg yolks, sugar, three types of milk (whole milk, sweetened condensed milk, evaporated milk), peaches, and vanilla extract.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

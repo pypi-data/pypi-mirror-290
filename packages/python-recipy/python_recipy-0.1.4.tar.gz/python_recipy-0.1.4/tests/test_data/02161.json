@@ -1,0 +1,142 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Tequila por mi Amante Recipe",
+    "datePublished": "2010-05-07T13:15:00.000-04:00",
+    "dateModified": "2018-08-30T12:09:16.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Paul Clarke",
+            "url": "https://www.seriouseats.com/paul-clarke-5118946"
+        }
+    ],
+    "description": "When local strawberries are at their peak, one of my favorite drinks to make is a simple preparation called Tequila por mi Amante. It&#39;s not something you put together to enjoy tonight—rather, it&#39;s an infusion that takes a few minutes of work and a few weeks of waiting, but the payoff is definitely worthwhile. Combining the bright, aromatic sweetness of strawberries with the peppery earthiness of tequila, Tequila por mi Amante tastes like joyous summer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/gHYmMrFuYgqui57bsJUjzor_Taw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__201000506-strawberries-500-8be9b4585afe4447a59dc22c9c9f93e6.jpg",
+        "height": 333,
+        "width": 500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Tequila por mi Amante Recipe",
+    "keywords": "cocktail, tequila",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "108 kcal",
+        "carbohydrateContent": "7 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "1 mg",
+        "sugarContent": "4 g",
+        "fatContent": "0 g",
+        "servingSize": "makes about 8 servings",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Mexican"
+    ],
+    "recipeIngredient": [
+        "1 quart very ripe strawberries",
+        "Half of one 750mL bottle reposado or blanco tequila"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Wash and stem the strawberries and cut them in half (or in quarters if your berries are large). Place the cut berries in a quart-size jar, adding until the jar is about three-quarters full. Add tequila until the berries are completely covered. Store the jar in a cool place and let the mixture soak for three weeks, agitating the jar every day or so. After three weeks, taste the mixture; let soak for a few days more if necessary, otherwise strain through cheesecloth, lightly pressing the berry pulp to extract the last drops of infused tequila. Keep refrigerated, and use within a couple of weeks."
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GretaGrace"
+            },
+            "reviewBody": "Would freezing the final product slow the oxidation process?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JerseyRED"
+            },
+            "reviewBody": "Never mind... some how I missed that fouth paragraph. Twice.\n\nRich"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JerseyRED"
+            },
+            "reviewBody": "What happens to the tequila if it isn't used within a couple of weeks? Does it lose flavor or become rancid?\n\nThanks, Rich"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KarmaFreeCooking"
+            },
+            "reviewBody": "Tequila POR mi Amante = Tequila BY my lover\n\nTequila PARA mi Amante = Tequila FOR my lover... It just seems this one is the right spelling... don't you think??"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/tequila-por-mi-amante-strawberries-drinks-cocktails-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/tequila-recipes-5117848",
+                        "name": "Tequila"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/tequila-por-mi-amante-strawberries-drinks-cocktails-recipe",
+                        "name": "Tequila por mi Amante Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

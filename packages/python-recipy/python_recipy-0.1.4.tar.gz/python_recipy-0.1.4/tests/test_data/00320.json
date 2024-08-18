@@ -1,0 +1,266 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Lancashire Hot Pot",
+    "datePublished": "2000-12-13T04:12:56.000-05:00",
+    "dateModified": "2022-07-14T16:26:58.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Heather"
+        }
+    ],
+    "description": "Very simple lamb and potato casserole made with layers of sliced potatoes, browned onion and leg of lamb, fresh thyme, stock and seasoning.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/pMHvt1FY7-4_6uCfvoY25xROcig=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3482186-bcc6dd424bfc46979ce5131877c5e2ec.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Lancashire Hot Pot",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "34"
+    },
+    "cookTime": "PT120M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "365 kcal",
+        "carbohydrateContent": "38 g",
+        "cholesterolContent": "58 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "17 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "302 mg",
+        "sugarContent": "5 g",
+        "fatContent": "16 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "English"
+    ],
+    "recipeIngredient": [
+        "1 tablespoon vegetable oil",
+        "12 ounces chopped onion",
+        "1.5 pounds cubed leg of lamb meat",
+        "2.5 pounds potatoes, peeled and thinly sliced",
+        "2 tablespoons chopped fresh thyme",
+        "1 ounce butter",
+        "2 cups chicken or lamb stock"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large skillet over medium high heat. Saute onion until soft and deep golden in color. Remove from skillet and set aside. Add lamb to skillet and fry (in batches if necessary) until rich chestnut brown in color, 12 to 15 minutes. Drain fat and reserve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees F (190 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread 1/2 of the potatoes in the bottom of a 9x13 inch baking dish. Season with salt and pepper to taste. Place browned lamb and onions on top, then sprinkle with thyme and season to taste. Cover with remaining potatoes, season to taste and dot with butter. Pour stock over all."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven for 1 1/2 to 2 hours. Note: If casserole is drying out while cooking, add more stock as needed. If casserole is browning too quickly, cover with aluminum foil."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT140M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "JOHNMONIHAN"
+            },
+            "reviewBody": "Made receipe as directed. Lamb was very, very flavorful (but I love lamb). My wife, who's not a lamb fan, enjoyed it but didn't think it was the best lamb she's ever had. Potatoes were very dry on top, and completely mushy under the lamb. Top cover potatoes weren't covered by the broth, and I didn't add any so they dried out. I think they were supposed to be covered. Lamb was better the next day after sitting overnight in the fridge. Recommended changes: Add a tablespoon of sage. Add some carrots. Completely drain the lamb and onions of all the oil. Add more salt on the potatoes. Maybe add mushrooms for those who like them."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bonnie Toland"
+            },
+            "reviewBody": "Very plain - no sauce. Just cooked potatoes and pieces of lamb."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bron Oz"
+            },
+            "reviewBody": "Great recipe, we nearly cleaned the pot which is amazing as my hubby is harder to please than most. I did make a few changes based on the other reviews."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Camille Offenbach"
+            },
+            "reviewBody": ", good. Easy, delicious, it made it's own gravy. I added a bunch of garlic. Exquisitely captures the magic that it meat-and-potatoes. It would be amenable to adding more, hardy veg, like Brussels sprouts, carrots, roots &amp;, green beans."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "KATHY SINK"
+            },
+            "reviewBody": "This was absolutely delicious. After reading some other reviews I made the following changes: I did not used sliced potatoes underneath, but put chunks of raw potatoes in with the meat and added carrot pieces. I used dried thyme and oregano, added a bay leaf and a splash of Worcestershire sauce.. I used beef broth and thickened it with flour to make the gravy thicker. I enjoyed the crunchy potato topping. Leftovers are amazing!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "maire"
+            },
+            "reviewBody": "I've made it twice now and really enjoyed it. As an American, I made a slight tweak in that I substituted sweet potatoes for the white potatoes. They cooked very nicely and kept their shape. I added bay leaves and used beef broth rather than chicken (no lamb stock available). I also added some dry sack and Worchestershire sauce. Both added a real depth of flavor."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carol Q."
+            },
+            "reviewBody": "I used leftover cooked lamb so I had to modify cooking times. I should have also reduced the amount of liquid if I wanted consistency of a stew, but the flavours were just great as a lamb soup. I added green beans for colour and nutrition."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lara"
+            },
+            "reviewBody": "I have made this for years, you definitely need to add bay leaves to the liquid and worstersauce, a couple of tablespoons. I also use lamb cutlets either neck, and other cuts with bone for flavour and i cover this in seasoned flour before lightly frying, this helps thicken the gravy while cooking. I cover the dish in tinfoil until the potatoes are soft and only take off at the end to crisp them up, maybe adding a bit more butter.... very delicious!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bob Ardolino"
+            },
+            "reviewBody": "Delicious and very simple"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kel2411"
+            },
+            "reviewBody": "I usually add 1-2 sliced Carrots to my hot pot, and I fry the potatoes in the Lamb juice. Then I put them on top of the Lamb, carrots, onions and stock (but not in the stock) Then bake for an hour. And I also add a tablespoon of mint sauce too, tastes great!!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/24805/lancashire-hot-pot/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/704/world-cuisine/european/uk-and-ireland/",
+                        "name": "UK and Ireland"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/705/world-cuisine/european/uk-and-ireland/english/",
+                        "name": "English"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/24805/lancashire-hot-pot/",
+                        "name": "Lancashire Hot Pot"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Test Kitchen",
+                "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+        ]
+    }
+}

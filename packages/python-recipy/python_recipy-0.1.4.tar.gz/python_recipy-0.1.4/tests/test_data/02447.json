@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Herbed Roasted Turkey",
+    "datePublished": "2016-06-06T11:11:40.000-04:00",
+    "dateModified": "2020-10-28T12:59:22.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This traditional roast turkey recipe for Thanksgiving is rubbed with an herb blend of parsley, rosemary, sage, thyme, and garlic.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/Kk9-67aFOrsFfDSq-fZyLP3IAfw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ba_1107_turkey_horiz-d6d96b2c425a46ae9bdc5b9f58685d91.jpgitokokWZG6r8",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Herbed Roasted Turkey",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.9",
+        "ratingCount": "283"
+    },
+    "prepTime": "PT35M",
+    "recipeIngredient": [
+        "1 turkey (about 12 pounds), thawed if frozen, rinsed and patted dry",
+        "0.5 cup chopped parsley",
+        "1 tablespoon chopped fresh rosemary, plus 3 sprigs",
+        "1 tablespoon chopped fresh sage leaves",
+        "1.5 teaspoons chopped fresh thyme leaves",
+        "8 cloves garlic, finely chopped (3 tablespoons)",
+        "5 tablespoons olive oil",
+        "Coarse salt and ground pepper",
+        "2 lemons, poked all over with a fork",
+        "1 quart apple cider"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees with rack in lowest position. Remove packet of giblets and neck from cavity. Discard liver. Rinse remaining giblets and neck; refrigerate until ready to make broth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn turkey on its back and bend wing tips forward and underneath neck cavity of bird so they stay in place (you may have to break the bones)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine parsley, rosemary, sage, thyme, garlic, 4 tablespoons oil, 1 teaspoon salt, and 1/2 teaspoon pepper. Using your fingers, carefully loosen skin of breast and around thighs and rub herb mixture under skin of both."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season cavity with salt and pepper and loosely fill with lemons and rosemary sprigs. Using cotton kitchen twine, tie legs together so bird retains its shape and moisture during cooking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour cider in bottom of pan. Set roasting rack on top. Lift turkey onto rack, breast side up; rub with remaining tablespoon oil; season generously with salt and pepper. Tent turkey loosely with foil. Roast 1 hour. Uncover and continue to roast, basting frequently with pan juices, until an instant read thermometer inserted into thickest part of thigh (avoiding bone) registers 170 degrees, 2 1/2 to 3 hours more. (Temperature will rise about 10 degrees as turkey rests.) Tent with foil if browning too quickly; add water if pan becomes dry. Cover loosely with foil, and let stand 30 minutes before carving. Serve with roasted vegetables."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT300M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/355578/herbed-roasted-turkey",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513726/meat-poultry-recipes",
+                        "name": "Meat & Poultry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513387/turkey-recipes",
+                        "name": "Turkey Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/355578/herbed-roasted-turkey",
+                        "name": "Herbed Roasted Turkey"
+                    }
+                }
+            ]
+        }
+    },
+    "meal": "Dinner",
+    "cuisine": "American"
+}

@@ -1,0 +1,433 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1025009-lasagna-soup#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1025009-lasagna-soup",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/02/15/multimedia/15SOUPrex-vkjb/15LASAGNA-SOUPrex-vkjb-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1025009-lasagna-soup",
+    "name": "Lasagna Soup",
+    "description": "This simple, one-pot soup delivers all the comfort of a classic lasagna with very little of the work. A jar of marinara sauce is its secret to speedy flavor, along with a combination of ground beef and Italian sausage (though for ease, you can use one or the other), plus a pinch of ground nutmeg. Dried lasagna noodles are broken into small pieces and cooked directly in the soup, thickening the broth with their starches as they soften. Don’t skip the ricotta-Parmesan topping; it adds richness and the unmistakable essence of lasagna. This soup comes together quickly and is best served right away; the noodles will continue to absorb the broth as it sits.",
+    "author": {
+        "@type": "Person",
+        "name": "Lidey Heuck"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/02/15/multimedia/15SOUPrex-vkjb/15LASAGNA-SOUPrex-vkjb-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/15/multimedia/15SOUPrex-vkjb/15LASAGNA-SOUPrex-vkjb-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/15/multimedia/15SOUPrex-vkjb/15LASAGNA-SOUPrex-vkjb-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/15/multimedia/15SOUPrex-vkjb/15LASAGNA-SOUPrex-vkjb-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT40M",
+    "totalTime": "PT45M",
+    "recipeYield": "6 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "ground beef, italian american, italian sausage, lasagna, lasagna noodle, marinara sauce, parmesan, ricotta, soup, stovetop, winter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1737
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 626,
+        "unsaturatedFatContent": "17 grams",
+        "carbohydrateContent": "51 grams",
+        "cholesterolContent": null,
+        "fatContent": "33 grams",
+        "fiberContent": "5 grams",
+        "proteinContent": "32 grams",
+        "saturatedFatContent": "13 grams",
+        "sodiumContent": "1369 milligrams",
+        "sugarContent": "9 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "3 tablespoons extra-virgin olive oil",
+        "1 large yellow onion, chopped",
+        "2 tablespoons minced garlic (from about 6 cloves)",
+        "1/2 pound ground beef",
+        "1/2 pound bulk sweet Italian sausage (or sausages, with casings removed)",
+        "1 teaspoon dried oregano",
+        "1/2 teaspoon ground nutmeg",
+        "1/4 teaspoon crushed red pepper, plus more to taste",
+        "Kosher salt and freshly ground black pepper",
+        "3 tablespoons tomato paste",
+        "6 cups low-sodium chicken broth",
+        "1 (24-ounce) jar marinara sauce",
+        "8 ounces dried lasagna noodles, broken crosswise into 1-inch pieces",
+        "1 1/2 cups/12 ounces whole-milk ricotta",
+        "1/3 cup grated Parmesan",
+        "1/4 cup heavy cream",
+        "1/2 cup fresh basil leaves, torn, plus more for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large Dutch oven or other heavy-bottomed pot, heat the olive oil over medium. Add the onion and cook, stirring occasionally, until translucent but not browned, 4 to 6 minutes. Add the garlic and stir for 30 seconds to 1 minute, until fragrant."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the beef, sausage, oregano, nutmeg, crushed red pepper, 1 1/2 teaspoons salt and 1/2 teaspoon black pepper. Cook, breaking up the meat with a spoon, until starting to brown, 3 to 5 minutes. Add the tomato paste and cook for 1 minute, stirring often."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the chicken broth and marinara sauce and bring to a boil over medium-high heat. Stir in the lasagna noodles, reduce the heat to medium-low and simmer, uncovered, for 15 to 20 minutes, stirring occasionally, until the noodles are tender and the broth has reduced slightly."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the soup simmers, combine the ricotta and Parmesan in a medium bowl. Add 1/4 teaspoon salt and a few grinds of black pepper and mix well; set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Off the heat, stir the cream and basil into the soup, then taste and add more salt and crushed red pepper, if desired."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve the soup in shallow bowls, topped with a large dollop of the ricotta mixture and a few torn basil leaves."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-02-15T00:00:00.000Z",
+    "dateModified": "2024-02-20T15:22:29.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "I cook in my Insta pot on sauté- then after the liquid is added, along with the noodles (regular), I cook on high for five minutes. Then wait 20 minutes to release pressure and everything is perfect.",
+            "datePublished": "2024-05-31T15:24:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SGCA"
+            },
+            "reviewBody": "Added red wine vinegar to brighten and almost make more like stuffed cabbage soup. Added zucchini and some cabbage too. Did not make ricotta mixture. Delicious noodle texture!",
+            "datePublished": "2024-05-25T21:08:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Em"
+            },
+            "reviewBody": "My family loves this soup! Used pappardelle pasta the most recent time I made it and was just as good - probably would work to sub any pasta but I did try to keep with a flat noodle",
+            "datePublished": "2024-05-06T15:27:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christine R"
+            },
+            "reviewBody": "I've made this dish several times now and LOVE IT!  I used buffalo mozzarella instead of Ricotta, whole milk instead of cream, and much more than the 1/3 cup of Parmesan the recipe calls for.  The leftovers were sublime!  This recipe lives in my \"favorites\" file now.",
+            "datePublished": "2024-05-05T12:45:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Phyllis"
+            },
+            "reviewBody": "I made this for some dinner guests whose taste preferences were not well known to me. I figured it seemed mellow enough not to rock the boat. It was delicious. I made it with a package of no-boil lasagna noodles that I broke into small pieces. \nI made the soup base the day before. Day of serving, I added the pasta about 1.5 hours ahead of serving. The no-boil noodles were VERY thirsty, and if I had added them another hour earlier, I would have served it by cutting slices, instead of ladling it.",
+            "datePublished": "2024-04-30T02:02:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cissy"
+            },
+            "reviewBody": "My husband made this as written and I did not want my bowl to end. it was like the ultimate comfort food. 5 stars from us!",
+            "datePublished": "2024-04-29T04:35:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "celia mllton"
+            },
+            "reviewBody": "I made it this week and it was great!  I used all sausage, because that's what I had and substituted greek yogurt for the heavy cream, again because it was available. My partner just loved it and it took no time at all to put together!\nThank you!",
+            "datePublished": "2024-04-28T12:07:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PKP"
+            },
+            "reviewBody": "For second day leftovers, refrigerate the ricotta mix; when you’re ready to make another meal of it, dish out portions of the soup into microwave safe bowls, microwave to heat, add the ricotta mixture and serve. If you have more fresh basil for garnish, add some, but if you don’t it’s not the end of the world.\nAnother thing: I live in a rural area and grocery shop about every two weeks. When I don’t have fresh herbs from my garden, I use the tubes of herb paste, which have more flavor than dried",
+            "datePublished": "2024-04-23T22:30:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CWR"
+            },
+            "reviewBody": "A winner!! Husband could NOT stop raving about this! Thanks to all who suggested Rao’s Arrabbiata, since I’ve *NEVER* used commercial marinara sauce - but might have to start now. Didn’t add full amount of chili flakes & still a bit too hot for my tender taste buds. Might have added a little less broth. Added frozen chopped spinach at the end; cooked gluten-free rotini pasta separately. Added some mozzarella with the ricotta/parm in the bowl. Skipped the heavy cream. Excellent!!!",
+            "datePublished": "2024-04-23T19:16:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Polly"
+            },
+            "reviewBody": "Perfect for family of 4. Adjusted to what I had on hand: used traditional Prego spaghetti sauce (egad!), skipped tomato paste, cooked 1lb hot sausage instead of split hamburger/sausage, goat cheese instead of ricotta, and orecchiette pasta. Would make again for picky eaters.",
+            "datePublished": "2024-04-23T00:40:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "K M"
+            },
+            "reviewBody": "Ricotta topping was very rich- we didn’t feel it was necessary",
+            "datePublished": "2024-04-16T02:09:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacquie"
+            },
+            "reviewBody": "Made as written here. I used Rao’s Marinara Sauce (not hanging my head in shame!) My family *loved* this.",
+            "datePublished": "2024-04-11T18:15:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mav"
+            },
+            "reviewBody": "I really wanted to love this but found it very disappointing.\nNothing that I would make again. I love all the ingredients separately but to me it tasted like soupy canned ChefBoyardee. Sorry!!",
+            "datePublished": "2024-04-11T18:26:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dr. H."
+            },
+            "reviewBody": "This is a terrific dish and easy to make.  My family loved it!  I prefer using ground red pepper rather than crushed.  By the time you add all of your \"touches,\" the jarred sauce is not a factor, in my opinion.  Delicious!",
+            "datePublished": "2024-04-11T16:55:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dave"
+            },
+            "reviewBody": "Last night I swagged a rough x1.5 version of this with run-of-the-mill HEB ground beef in a tube and the squeezed out innards of a leftover Johnsonville Brat to the tune of about 1.6 pounds. Used Rao's, as I ran out of Michael's of Brooklyn. My 17 year-old picky eater musician and my 14 year-old \"sous-chef\" said \"Dad this is best soup I've ever had.\" So easy. So good. Just had the leftover at my desk. I'm looking forward to fully doubling this recipe with better beef and maybe some ground lamb.",
+            "datePublished": "2024-04-09T17:12:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Greg"
+            },
+            "reviewBody": "For those who \"never\" use sauce off-the-shelf, try Rao's one time. You will still prefer homemade when you have time, but Rao's is amazingly good.  But for a quick meal, is a game changer.",
+            "datePublished": "2024-02-17T14:16:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "L Stuart"
+            },
+            "reviewBody": "I've been making a version of this for years to rave reviews. For my version, skip the ground beef. It will be \"less meat\" while still having plenty of flavor. I also recommend adding 1/2-inch diced fresh mozzarella at the end in place of the ricotta mixture. It stays intact but gets soft and melty. I worry the amount of basil called for in this recipe would be overpowering. Instead, consider adding some chopped spinach for color and nutrients.",
+            "datePublished": "2024-02-16T14:00:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen"
+            },
+            "reviewBody": "Rao's is the best possible jarred sauce -- Arrabiata is the best of the Rao's. :)",
+            "datePublished": "2024-02-17T16:54:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scott J Hamilton"
+            },
+            "reviewBody": "I've made this before following the directions. I made it again yesterday and used beef stock instead of chicken and it made a real difference. It delivered much more of a lasagna flavor and will be my go-to from now on.",
+            "datePublished": "2024-02-19T15:21:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JLClarkson"
+            },
+            "reviewBody": "Is there a way to make the full recipe for two and use the leftovers? Not boil and add lasagna noodles until ready to serve leftovers? Some of these NYT recipes sound great, but many of us are cooking for less than six people.",
+            "datePublished": "2024-02-16T18:54:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevin"
+            },
+            "reviewBody": "I would suggest using malfalda, which are like small, bite-sized lasagna noodles.",
+            "datePublished": "2024-02-18T01:42:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fern"
+            },
+            "reviewBody": "For those worried about sauce from a jar: Don't worry!  Note ALL the flavorings that you add, including the meat & cheese.  Mainly, all that garlic, oregano, crushed red pepper & basil.  If you want, splash in drinkable red wine (or my go-to, a tablespoon or more of decent cognac).  With all that, even us super-tasters won't know, unless you use sauce with added sugar, a dead giveaway.  Tomatoes must cook for hours to lose enough acidity so folks can digest that much tomato sans Rx antacids.",
+            "datePublished": "2024-02-16T19:53:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GG"
+            },
+            "reviewBody": "Good, but make it with homemade marinara.  I can never, ever use jarred sauce. It always has that commercial taste.",
+            "datePublished": "2024-02-16T00:35:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J Riva"
+            },
+            "reviewBody": "Are no-boil noodles ok?",
+            "datePublished": "2024-02-16T00:45:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BJ"
+            },
+            "reviewBody": "Great idea and easily converted to a vegetarian recipe using either crumbled tofu (preferably frozen, then thawed for more meat-like texture), vegan sausage and vegetable broth, preferably homemade. I always make vegetarian lasagna with spinach, onions and green peppers, a definite possibility here.",
+            "datePublished": "2024-02-16T20:50:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard X"
+            },
+            "reviewBody": "Go ahead and use them. You don't need anyone's permission.",
+            "datePublished": "2024-02-16T08:46:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet H."
+            },
+            "reviewBody": "I have used a really good organic marinara sauce from my local Trader Joe's store for lots of recipes. While it's not homemade, it is very very good! I will use it in this soup.",
+            "datePublished": "2024-02-16T17:33:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "If I have tomatoes that are starting \"to go\" I roast them with a little olive oil S&P and throw them into the blender before adding to the sauce. Gives the sauce a nice taste as if you've cooked it for hours. I have made this with a good brand of jarred sauce and with canned. Both are good.",
+            "datePublished": "2024-02-16T22:47:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Benetollo"
+            },
+            "reviewBody": "Delicious recipe and so easy. I added fennel seeds to the meat mixture and tossed in fresh spinach leaves at the end. Leftovers are even better the next day. I will never make lasagna again! This is so good and less heavy.",
+            "datePublished": "2024-02-17T19:14:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan W"
+            },
+            "reviewBody": "No-boil noodles should work OK, but I don't imagine you'll want to cook them for anywhere near 15-20 minutes. I also suspect you should cut back the amount of chicken stock, because the no-boil noodles won't add much starch to the broth. How much to use? Not sure, but maybe start with 4 1/2 cups and have more ready to add if the final result doesn't seem soupy enough for you.",
+            "datePublished": "2024-02-17T02:14:16.000Z"
+        }
+    ]
+}

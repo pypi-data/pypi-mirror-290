@@ -1,0 +1,85 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Lemon-Parsley Linguine Recipe",
+    "keywords": [
+        "pasta",
+        "italian",
+        "linguine",
+        "lemon",
+        "parsley",
+        "quick",
+        "easy",
+        "weeknight meals",
+        "side",
+        "vegetarian",
+        "vegan",
+        "dairy-free",
+        "nut-free",
+        "dinner",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Maria Helm Sinskey",
+            "sameAs": "https://www.bonappetit.com/contributor/maria-helm sinskey"
+        },
+        {
+            "@type": "Person",
+            "name": "Gail Albert Halaban",
+            "sameAs": "https://www.bonappetit.com/contributor/gail-albert halaban"
+        }
+    ],
+    "description": "Lemon-Parsley Linguine Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b01b8053e63daf11a4e912/master/w_310,h_344,c_limit/mare_lemon_parsley_linguine_v.jpg"
+    ],
+    "headline": "Lemon-Parsley Linguine",
+    "name": "Lemon-Parsley Linguine",
+    "recipeIngredient": [
+        "1/2 pound linguine",
+        "3 tablespoons extra-virgin olive oil",
+        "2 medium garlic cloves, pressed",
+        "1 teaspoon (packed) finely grated lemon peel",
+        "2 tablespoons chopped fresh Italian parsley",
+        "2 teaspoons fresh lemon juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook linguine in large pot of boiling salted water until tender but still firm to bite, stirring occasionally. Drain, reserving 1 cup pasta cooking liquid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, heat extra-virgin olive oil in large skillet over medium heat. Add garlic; sauté until golden, about 1 minute. Add grated lemon peel to skillet and cook 20 seconds. Remove skillet from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add linguine to skillet with garlic and lemon peel. Return skillet to medium heat; mix in parsley. Add 1/2 cup pasta cooking liquid and lemon juice. Season with salt and pepper. Toss until heated through, adding more cooking liquid to moisten if dry."
+        }
+    ],
+    "recipeYield": "4  Servings",
+    "url": "https://www.bonappetit.com/recipe/lemon-parsley-linguine",
+    "dateModified": "2009-11-17T19:00:00.000-05:00",
+    "datePublished": "2009-11-17T19:00:00.000-05:00",
+    "recipeCategory": []
+}

@@ -1,0 +1,225 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/overnight-maple-oatmeal/",
+    "name": "Overnight Maple Oatmeal",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-09-11",
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Overnight-Maple-Oatmeal_exps160824_SD143203B10_16_1bC_RMS-1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I tasted muesli on a trip to Switzerland, and when I came home, I made it my way. Keep things interesting (and avoid midmorning munchies) by adding different fruits and nuts every day. &mdash;Maddie Kirk, Springfield, Pennsylvania",
+    "recipeIngredient": [
+        "2 cups old-fashioned oats",
+        "1 cup fat-free milk",
+        "1/4 cup maple syrup",
+        "2 teaspoons vanilla extract",
+        "1 cup vanilla yogurt",
+        "1/2 cup chopped walnuts, toasted",
+        "Assorted fresh fruit"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine oats, milk, syrup and vanilla. Refrigerate, covered, overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Just before serving, stir in yogurt. Top with walnuts and fruit."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 249 calories",
+        "fatContent": "9g fat (1g saturated fat)",
+        "cholesterolContent": "3mg cholesterol",
+        "sodiumContent": "46mg sodium",
+        "carbohydrateContent": "36g carbohydrate (16g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "9g protein.  <B><b>Diabetic Exchanges</b>: </B>2-1/2 starch"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.8888888,
+        "reviewCount": 9,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-01-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "annie1992"
+            },
+            "reviewBody": "No, jenn, the oatmeal is not cooked.  It sits overnight and soaks up the milk and becomes softer, and it's not a hot cereal, it's eaten cold and requires no cooking at all.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MargeAZ"
+            },
+            "reviewBody": "You can make it more diabetic friendly by using plain fat-free yogurt instead of the vanilla yogurt, Greek yogurt if you want even more protein, and replacing the maple syrup with sugar-free syrup.  That will cut carbs and fat.The Nutritional Facts for the recipe as is - 36 grams of carbs, but you have to add the carbs for any fruit you inlcude.  So, it could put you over the recommended amount of carbs for a diabetic meal, which is 45-60.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-01-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JMartinelli13"
+            },
+            "reviewBody": "I added a teaspoon of chia seeds and used Apple Pie Greek Yogurt.  I topped it with some locally made Maple Nut granola.  I packed it into jars so it was grab and go.  Delicious!  Will definitely be in my regular rotation.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Halfthere"
+            },
+            "reviewBody": "I can 't imagine wanting to eat cold wet oatmeal.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-01-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jenninick"
+            },
+            "reviewBody": "Do you cook the oatmeal?",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Air Force Mom"
+            },
+            "reviewBody": "I made this with vanilla Greek Yogurt & toasted pecans - topped it with berries & the family lived it.  So quick & easy! ??",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-04-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Orbs"
+            },
+            "reviewBody": "I added cinnamon and substituted applesauce for the yogurt.  Delicious!  Thank you, Maddie, for sharing this recipe.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-07-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sgronholz"
+            },
+            "reviewBody": "I thought this recipe was great. I used vanilla Greek yogurt and doubled the amount...yum! I can't wait to make it again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-01-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "camatt"
+            },
+            "reviewBody": "This was so easy and  wonderful. Easy to take to work.  Lots of options for variety with changing up the fruits and nuts.  Thanks for the recipe",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

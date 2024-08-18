@@ -1,0 +1,165 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cranberry Liqueur",
+    "datePublished": "2020-06-18T23:52:29.000-04:00",
+    "dateModified": "2022-09-25T19:15:10.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "bella_bex"
+        }
+    ],
+    "description": "Cranberries and sugar are soaked in gin for six weeks creating a festive cranberry liqueur for the holiday season.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/l4Pg7Qj3HO8O8Pj9vWlmwpe7Yjg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4464900-04db2529c9734e82bfe1e9dea85b3867.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Cranberry Liqueur",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "232 kcal",
+        "carbohydrateContent": "41 g",
+        "fiberContent": "1 g",
+        "proteinContent": "0 g",
+        "sodiumContent": "1 mg",
+        "sugarContent": "39 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "4 cups cranberries, coarsely chopped",
+        "3 cups white sugar",
+        "2 cups gin",
+        "1 teaspoon vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine cranberries, sugar, gin, and vanilla extract in a large sterilized jar with a tight-fitting lid. Let stand at room temperature for 6 weeks, shaking at least once a week. Pour mixture through a sieve and discard solids. Store in an airtight container for up to 2 months."
+        }
+    ],
+    "recipeYield": [
+        "16"
+    ],
+    "totalTime": "PT11107M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "miss chickadee"
+            },
+            "reviewBody": "I used vodka as I don’t like gin- best liqueur ever! Put it in pretty bottles and gave as gifts for Christmas- everyone loved it. Great with some seltzer too!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "miss chickadee"
+            },
+            "reviewBody": "I used vodka as I don’t like gin- best liqueur ever! Put it in pretty bottles and gave as gifts for Christmas- everyone loved it. Great with some seltzer too!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mindy Sullivan Stowell"
+            },
+            "reviewBody": "taste good so far! now I got to wait 6 weeks. hehe!! I added blueberries also bc I didn't have enough cranberries."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kristen Larson"
+            },
+            "reviewBody": "Beautiful and tastes great!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/230311/cranberry-liqueur/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                        "name": "Drinks Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1555/drinks/liqueurs/",
+                        "name": "Liqueur Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/230311/cranberry-liqueur/",
+                        "name": "Cranberry Liqueur"
+                    }
+                }
+            ]
+        }
+    }
+}

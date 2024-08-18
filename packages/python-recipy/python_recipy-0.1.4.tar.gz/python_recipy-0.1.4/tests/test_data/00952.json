@@ -1,0 +1,121 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/lime-muffins/",
+    "name": "Lime Muffins",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-16",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2019/07/no-photo-recipe-700x700.jpg",
+        "height": 700,
+        "width": 700
+    },
+    "recipeCategory": [],
+    "description": "I bake muffins every Sunday morning, so I'm always trying different ingredients to make them interesting. These citrus muffins are my husband's favorite.",
+    "recipeIngredient": [
+        "2 cups all-purpose flour",
+        "1 cup sugar",
+        "2-1/2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "2 large eggs",
+        "1/4 cup whole milk",
+        "1/3 cup vegetable oil",
+        "3 tablespoons lime juice",
+        "1-1/2 teaspoons grated lime zest"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a bowl, combine the first four ingredients. In another bowl, beat the eggs, milk, oil, lime juice and zest. Stir into dry ingredients just until moistened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fill paper-lined muffin cups two-thirds full. Bake at 400&deg; for 18-20 minutes or until a toothpick comes out clean. Cool for 5 minutes before removing from pan to a wire rack."
+        }
+    ],
+    "recipeYield": "1 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 210 calories",
+        "fatContent": "7g fat (1g saturated fat)",
+        "cholesterolContent": "36mg cholesterol",
+        "sodiumContent": "195mg sodium",
+        "carbohydrateContent": "33g carbohydrate (17g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "3g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.3333335,
+        "reviewCount": 3,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MuffinMazing"
+            },
+            "reviewBody": "I loved these! I agree they needed a little something on top. I made a glaze with 2 Tbsp lime juice and 1 cup powdered sugar and drizzled it on top! They were superb! I will make them again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-04-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Chris Recipes",
+                "givenName": "Chris",
+                "familyName": "Recipes"
+            },
+            "reviewBody": "I used lime juice and orange zest for a nice citrus combination.  The batter is thick, but the muffins come out moist enough.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Loricookie"
+            },
+            "reviewBody": "These were pretty good, but I added a lime juice/powedered sugar glaze to them for more lime flavor.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

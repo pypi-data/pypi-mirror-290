@@ -1,0 +1,54 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Seven-Layer Taco Salad",
+    "keywords": "seven-layer taco salad",
+    "recipeCategory": "Dinner",
+    "recipeCuisine": "Mexican",
+    "image": "https://mojo.generalmills.com/api/public/content/Pw127t1pl0G_kFa8Cst4OA_webp_base.webp?v=f456d5f2&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Pre-seasoned frozen chicken strips and a quick mayo dressing make this dish  ultra-easy.",
+    "recipeIngredient": [
+        "1  bag (12 oz) torn salad greens",
+        "3  medium tomatoes, seeded, chopped",
+        "8  medium green onions with green tops, sliced (1/2 cup)",
+        "1 1/4  cups light mayonnaise",
+        "1  packet (1 oz) Old El Paso™ Original Taco Seasoning Mix",
+        "2  packages (9 oz each) frozen cooked fajita-seasoned chicken strips, thawed, coarsely chopped",
+        "2  cups shredded sharp Cheddar cheese (8 oz)",
+        "6  oz tortilla chips (about 36), broken, if desired"
+    ],
+    "totalTime": "PT1H20M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "6",
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 13x9-inch (3-quart) glass baking dish, layer salad greens, tomatoes and onions. In 1-quart bowl, mix mayonnaise and taco seasoning mix; spread over onions. Top with chicken and cheese. Cover tightly with plastic wrap."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Refrigerate at least 1 hour or until serving time. Top individual servings with tortilla chips."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "560 ",
+        "carbohydrateContent": "33 g",
+        "cholesterolContent": "85 mg",
+        "fatContent": "6 ",
+        "fiberContent": "3 g",
+        "proteinContent": "23 g",
+        "saturatedFatContent": "12 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1550 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "06/07/2004",
+    "dateModified": "02/26/2010"
+}

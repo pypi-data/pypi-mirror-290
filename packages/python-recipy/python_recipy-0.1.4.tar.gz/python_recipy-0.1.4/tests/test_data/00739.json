@@ -1,0 +1,411 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023589-pork-chops-with-kale-and-dates#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023589-pork-chops-with-kale-and-dates",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/10/26/dining/as-pork-chops-with-kale-and-dates/merlin_215246175_66a0cc74-a0da-4c94-a024-06e99d080d15-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023589-pork-chops-with-kale-and-dates",
+    "name": "Pork Chops With Kale and Dates",
+    "description": "A fat and juicy pork chop will always shine on a dinner plate, and these are especially star-worthy. For browned outsides, evenly cooked insides and fewer splatters, cook them over moderate heat and flip often. Use this method for basic pork chops, or continue with the recipe for a tangy and bittersweet tumble of kale, dates, garlic and vinegar inspired by bittersweet meat dishes like  suon kho, orange beef or  root beer-glazed ham. Instead of kale, use another bitter green like escarole or radicchio, but keep the dates, which contribute a sweetness far more nuanced than straight sugar. Eat with  roasted potatoes,  grits or on top of a thick piece of toast.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/10/26/dining/as-pork-chops-with-kale-and-dates/merlin_215246175_66a0cc74-a0da-4c94-a024-06e99d080d15-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/26/dining/as-pork-chops-with-kale-and-dates/merlin_215246175_66a0cc74-a0da-4c94-a024-06e99d080d15-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/26/dining/as-pork-chops-with-kale-and-dates/merlin_215246175_66a0cc74-a0da-4c94-a024-06e99d080d15-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/26/dining/as-pork-chops-with-kale-and-dates/merlin_215246175_66a0cc74-a0da-4c94-a024-06e99d080d15-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "2 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, quick, weeknight, steaks and chops, main course",
+    "keywords": "cast iron, dates, kale, pork chop, red wine vinegar, skillet, fall, winter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 782
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 769,
+        "unsaturatedFatContent": "20 grams",
+        "carbohydrateContent": "63 grams",
+        "cholesterolContent": null,
+        "fatContent": "36 grams",
+        "fiberContent": "11 grams",
+        "proteinContent": "54 grams",
+        "saturatedFatContent": "12 grams",
+        "sodiumContent": "1206 milligrams",
+        "sugarContent": "49 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 (1- to 1½-inch-thick) bone-in pork rib chops (10 to 12 ounces each), patted very dry",
+        "Salt and pepper",
+        "1 tablespoon neutral oil (such as grapeseed or canola)",
+        "1 tablespoon unsalted butter",
+        "3 fresh rosemary sprigs or sage leaves (optional)",
+        "6 Medjool dates, pitted and sliced",
+        "4 garlic cloves, smashed very well and peeled",
+        "1 bunch kale, ribs removed, leaves torn ",
+        "2 teaspoons red wine vinegar or Sherry vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat a large cast-iron skillet over medium. Season the pork chops all over with salt and pepper. Add the oil and the pork chops to the skillet. Cook, flipping every 2 minutes, until browned on the outside and the internal temperature in the thickest part is around 130 degrees, 10 to 15 minutes depending on thickness of pork chops. If your chops have a fat cap, using tongs, stack both chops on top of one another, then grab both chops together and hold upright to sear the fat caps until crisp, about 1 minute. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Turn off the heat, add the butter and rosemary, if using. Tilt the skillet and baste the pork by spooning the butter and drippings over the pork for about 1 minute. Transfer the pork and rosemary to a plate, leaving the drippings in the skillet."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the dates and garlic to the skillet, then pile in the kale but don’t stir. Return the skillet to medium heat and cook untouched until the dates and bottom layer of kale is charred, 2 to 3 minutes. Season with salt and pepper, add a tablespoon of water, then cook, stirring often, until the kale is dark green and slightly wilted, another minute or two. Remove from the heat, stir in the vinegar, then season to taste with salt and pepper. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, discard the rosemary. Slice the pork away from the bones and thinly slice against the grain. Eat with the kale and any resting juices."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Madi"
+            },
+            "reviewBody": "Made again for at least thrle 4th time! In addition to porterhouse pork chops, used Sage leaves from my garden, garlic scapes and Toscana Kale. Turned out great. This is one of our pork recipes that we keep in rotation!",
+            "datePublished": "2024-06-18T23:25:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mel3"
+            },
+            "reviewBody": "Elegant, simple, and cozy! I'll definitely use this recipe often. The kale was standout as a weeknight side for pork or chicken or venison, and it stands up to the rich pork chop well.",
+            "datePublished": "2024-05-30T17:04:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Angele"
+            },
+            "reviewBody": "The flavors were fantastic but the pork chops were dry as was the whole dish. I followed the recipe exactly as written. Can anyone tell me what went wrong?  I feel it should have been juicier with some sort of saucy element.",
+            "datePublished": "2024-05-20T11:27:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sam"
+            },
+            "reviewBody": "I found great pork chops at Trader Joe’s!",
+            "datePublished": "2024-05-06T02:39:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charles"
+            },
+            "reviewBody": "This was a delightfully simple recipe to prepare with an amazing amount of flavor.  I used escarole which significantly wilted.  The concoction of escarole with dates and vinegar would qualify as a braise, I think, and was very good and oh so French.  My wife and I are planning on working our way through the various vegetables. It was a terrific find.",
+            "datePublished": "2024-05-04T05:13:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Thomas"
+            },
+            "reviewBody": "Did it word for word and it clapped.",
+            "datePublished": "2024-03-22T23:52:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maura"
+            },
+            "reviewBody": "Do more greens. We did 2 bunches for 6 people and I would do 3 or 4 for 6 people. Because they were so yummy I’d love to have leftovers.",
+            "datePublished": "2024-03-23T02:16:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maura"
+            },
+            "reviewBody": "More greens. We did 2 bunches for 6 people and I would prefer leftovers. So I would do 3 or 4 bunches for 6 people.",
+            "datePublished": "2024-03-23T02:18:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MH"
+            },
+            "reviewBody": "I used swiss chard and added a little crushed red pepper, and served it with polenta.  My husband and I loved it!",
+            "datePublished": "2024-03-20T00:25:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacob J"
+            },
+            "reviewBody": "Easy, quick, and delicious. What more could you ask for?",
+            "datePublished": "2024-03-17T21:25:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary"
+            },
+            "reviewBody": "Absolutely delicious! I used pork steaks - full of marbling and flavor. Used herbs de provence instead of sage, a few dates and a few apricots and 5 oz container of baby kale. Served with Emily's Roasted Potatoes from Ina Garten.",
+            "datePublished": "2024-03-16T01:00:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Doug S."
+            },
+            "reviewBody": "I used the rosemary sprigs as directed.  They added nothing.  When making again, I'll either remove the rosemary leaves from the stems, chop & leave in or just use the sage leaves chopped & left in.  Also, don't overcook the kale until it reduces.  Cook only until it resembles the photo.  Serve the chops intact with sharp knives versus cutting off the bone before serving. Also, peel & mince the garlic & double the butter or use equal amounts of butter & oil to baste.  One Tbsp. is too little.",
+            "datePublished": "2024-03-09T08:13:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sheri"
+            },
+            "reviewBody": "Made as written with rosemary and red wine vinegar. Delicious! Will definitely make again. The dates were so good with the pork.",
+            "datePublished": "2024-02-21T04:07:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "judys"
+            },
+            "reviewBody": "This is delicious. I followed recipe exactly, except used collards from the garden, under row cover in February, instead of kale. Had regular pork chops, 1/2 inch so cooked less, and I opted for sage because we like it with pork. Served with baked sweet potatoes. Nice dinner on a cold winter night.",
+            "datePublished": "2024-02-19T02:05:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cameron"
+            },
+            "reviewBody": "For those who cannot find thick pork chops - I regularly make this with pork tenderloin instead. Sear on each side, perform the butter basting, then transfer the rosemary to a small baking dish and plop the tenderloin on top to finish in the oven for 5-10 minutes while you finish the rest. Toss some cauliflower in there to roast with it and you won’t be sorry! I serve the cauliflower alongside the kale and add some balsamic glaze and pine nuts for a great rounded meal",
+            "datePublished": "2024-01-16T20:07:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "D. Ward"
+            },
+            "reviewBody": "Made as written with fresh sage. This was a truly delicious meal! We eat meat a few times a week and try to make it special-and it was. Can’t wait to try with rosemary and one less date to cut sweetness a little. Don’t forget the finishing vinegar since it really wakes up the kale and balances the sweetness.",
+            "datePublished": "2022-10-31T16:49:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dorothy Wiese"
+            },
+            "reviewBody": "Problem is finding fat juicy pork chops.",
+            "datePublished": "2022-10-29T17:51:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa"
+            },
+            "reviewBody": "This was delicious. I used persimmons instead of dates and it turned out beautifully.",
+            "datePublished": "2022-10-30T00:03:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "TedG"
+            },
+            "reviewBody": "White wine instead of the water at the end deglazes nicely. Outstanding recipe.",
+            "datePublished": "2023-02-09T02:30:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "D. Ward"
+            },
+            "reviewBody": "Andrea, prunes are delicious with pork. Should work fine.",
+            "datePublished": "2022-10-30T21:23:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "anarnor"
+            },
+            "reviewBody": "I used boneless thick-cut loin chops and used Herbes de Provence with salt and pepper, and they were cooked perfectly at 130 degrees after about 10 minutes. I didn't have any dates but the dish was really good without them. The charred kale with the pork was really good. Definitely a keeper.",
+            "datePublished": "2022-10-30T00:28:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily"
+            },
+            "reviewBody": "Can you use spinach instead?",
+            "datePublished": "2023-01-13T18:35:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jim B"
+            },
+            "reviewBody": "Just made this for the third time, and I had come back and say that this is one of the best recipes I have ever made from the NYT. Packed with flavor, so easy and quick to make. For a simple recipe, this has a bunch of complex flavors. Economical too if you have a freezer and can buy the chops in bulk at Costco. We too only do meat about twice a week, and this is the perfect way to make it.",
+            "datePublished": "2023-03-02T01:51:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeanine"
+            },
+            "reviewBody": "This is a keeper of a recipe; I'll cook it again and again A few minor adjustments:\n- I used currants instead of dates.  For any who find dates too sweet, the currants are a wonderful alternative\n- I browned the pork chops in butter and oil.  Since the heat was only on medium, and the butter was mixed with the oil, there was no problem with burning.\n- I put *lots* of sage leaves in to brown/crisp with the pork as it was browning, then took them out to do the kale, but didn't throw them away!",
+            "datePublished": "2022-11-04T00:46:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RLV"
+            },
+            "reviewBody": "Way to much cooking time check at 10 minutes.  Probably best seared each side 3-4 minutes and out.  \nUse 2/3 head of radicchio and was superb.",
+            "datePublished": "2023-01-20T16:20:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AG"
+            },
+            "reviewBody": "Such a simple and quick recipe with SO MUCH FLAVOR. I used apricots instead of dates and liked the tangy sweetness.",
+            "datePublished": "2023-02-23T04:48:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "olivia"
+            },
+            "reviewBody": "We made this except we used apples instead of dates because we didn’t want to go shopping and had the rest at home. SOO GOOD!",
+            "datePublished": "2022-11-29T23:59:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CJ"
+            },
+            "reviewBody": "Made this per recipe and used sherry vinegar. It was fabulous. Made with parmesan polenta and the flavors were so well balanced. I quit making pork chops a long time ago due to the low fat content and toughness, but I bought two thick 1 1/2 \" chops and brined them overnight and they were great.I took them off the heat at 137 degrees. My kale hating husband raved like a maniac about the char,dates and garlic.The entire meal including red wine transported me to Italy will make this again for sure",
+            "datePublished": "2023-01-20T01:13:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meg"
+            },
+            "reviewBody": "Absolutely delicious! Next time, I’m doubling the kale, as it cooks down quite a bit and the dates overpower. Served with roasted new potatoes.",
+            "datePublished": "2023-01-21T23:28:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Holly"
+            },
+            "reviewBody": "I was thinking the same thing!",
+            "datePublished": "2023-02-23T23:48:32.000Z"
+        }
+    ]
+}

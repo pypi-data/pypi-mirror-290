@@ -1,0 +1,201 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Cranberry Apple Pie",
+    "datePublished": "2022-10-21T18:35:06.000-04:00",
+    "dateModified": "2023-11-11T23:59:49.300-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Marianne Williams",
+            "url": "https://www.southernliving.com/author/marianne-williams"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Alesandra Dubin",
+            "url": "https://www.southernliving.com/author/alesandra-dubin"
+        }
+    ],
+    "description": "Cranberries add a hint of tartness to a classic apple pie. This cranberry apple pie recipe is a treasure for Thanksgiving buffets, but we&#39;d also welcome a slice with our morning coffee any day.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/b4JFOX5-qHqQ1Xw_hgaQ8phFP3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie_TK-0200-ec765fe596ab4cfe85517b2741e332d8.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Cranberry Apple Pie",
+    "keywords": "cranberry apple pie, apple cranberry pie",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 (14.1-oz.) pkg. refrigerated piecrusts (such as Pillsbury), divided",
+        "All-purpose flour, for work surface",
+        "4 medium (8 oz. each) Granny Smith apples, peeled and sliced 1/4-in. thick (6 to 7 cups)",
+        "2 cups (8 oz.) fresh or unthawed frozen cranberries",
+        "0.25 cup packed dark brown sugar",
+        "0.25 cup apple butter (such as Smucker's)",
+        "3 Tbsp. cornstarch",
+        "2 Tbsp. fresh orange juice (from 1 medium orange)",
+        "0.5 tsp. ground cinnamon",
+        "0.5 tsp. ground ginger",
+        "0.125 tsp. kosher salt",
+        "0.25 cup, plus 1 Tbsp. granulated sugar, divided",
+        "1 Tbsp. unsalted butter, cut into small cubes",
+        "1 large egg, lightly beaten",
+        "1 Tbsp. water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/rHYC1u_IN0--hgvUaz4Nnq3eRa4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-1-0124-5beb949bccba498b8b924da371f75331.jpg"
+                }
+            ],
+            "text": "Prepare one piecrust: Place 1 of the piecrusts into bottom and up sides of a 9-inch glass pie plate. Fold excess crust under, around edges. Refrigerate while preparing lattice and filling, at least 20 minutes or up to 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/wO42k7s6bCQhQ5MFBEVorMePnVc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-3-0126-0d1d4030d0434762b9f150966d455795.jpg"
+                }
+            ],
+            "text": "Make lattice crust: Roll remaining piecrust out on a lightly floured work surface into a 12-inch round, and place on a parchment paper-lined baking sheet. Cut dough into 10 (1-inch) strips. Thread the pie dough strips over and under one another to form a lattice. Freeze, uncovered, while making the filling, at least 12 minutes or up to 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare oven and baking sheet: Preheat oven to 425°F with rack in center position. Place a parchment-lined baking sheet on rack while oven preheats."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/FMB8x2k_qSubXfg3J9eW8TNqR1Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-4-0128-b92352ce9ba14f389d89dca2998d50dc.jpg"
+                }
+            ],
+            "text": "Make pie filling: Stir together apples, cranberries, brown sugar, apple butter, cornstarch, orange juice, cinnamon, ginger, salt, and 1/4 cup of the granulated sugar in a large bowl, tossing to fully coat apples."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/TiihsJcusJBVx-EC3PiNwxieqPM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-5-0129-778476385cea4edfb12c618fff76d407.jpg"
+                }
+            ],
+            "text": "Add filling to prepared piecrust: Immediately remove piecrust from refrigerator and lattice top from freezer; spoon apple mixture into prepared piecrust, scraping out juices from bottom of bowl, and mounding apple mixture in center. Scatter cubes of butter over filling."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/1WX_-1KayAJV7jIDr5QebwmiiTw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-6-0130-1ea83732f02e4e978568a01df83318ee.jpg"
+                }
+            ],
+            "text": "Brush egg wash on lattice crust: Whisk together egg and water in a small bowl; gently brush over crust edges and lattice on baking sheet."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/rovg1cW7t6X40VXYgfgejW8gHjk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-8-0132-234251180f9a45d99e974c72f5b9ea7a.jpg"
+                }
+            ],
+            "text": "Put lattice crust on pie: Place the lattice top over the filling, adjusting carefully to make sure the lattice is even. Trim overhang dough with scissors or sharp knife, and discard. Press edges of lattice strips into crust edge to seal. Gently crimp edge decoratively. Sprinkle top of pie evenly with remaining 1 tablespoon granulated sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/evS5MxOYcWk2FDveZW4IjNIKKW0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AppleCranberryPie-Step-9-0157-85dc0a9f4fdf41aebca4be4af4d48761.jpg"
+                }
+            ],
+            "text": "Bake pie: Place pie plate on preheated baking sheet, and bake in preheated oven 15 minutes. Reduce oven temperature to 350°F, and bake until crust has browned and filling is bubbly throughout, about 1 hour, 15 minutes, shielding crust with foil as needed to prevent overbrowning. Let cool 30 minutes on baking sheet, then transfer to a wire rack and let cool completely, about 1 hour, 30 minutes."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT255M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/cranberry-apple-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/pies",
+                        "name": "Pies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/cranberry-apple-pie",
+                        "name": "Cranberry Apple Pie"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2023-11-11T23:59:49.300-05:00"
+    }
+}

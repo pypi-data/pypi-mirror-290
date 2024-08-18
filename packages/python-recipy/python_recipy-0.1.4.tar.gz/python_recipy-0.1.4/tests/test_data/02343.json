@@ -1,0 +1,80 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Eggnog Snickerdoodles",
+    "keywords": "eggnog snickerdoodles",
+    "recipeCategory": "Dessert",
+    "image": "https://mojo.generalmills.com/api/public/content/p9tvOy8-VUaJ_qoT5WrS3A_webp_base.webp?v=19954355&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Craving holiday eggnog? Skip the cocktail and grab a spruced-up snickerdoodle cookie instead. The nutmeg and rum flavors of this holiday favorite combine perfectly with the cinnamon-sugar taste of snickerdoodles. For the icing on top, there’s a vanilla-chip dip that adds just the right creamy contrast.",
+    "recipeIngredient": [
+        "1  pouch (17.5 oz) Betty Crocker™ Sugar Cookie Mix",
+        "  Butter and egg called for on cookie mix pouch for drop cookies",
+        "1  teaspoon ground nutmeg",
+        "1/2  teaspoon rum extract",
+        "1/4  cup sugar",
+        "1/2  teaspoon ground cinnamon",
+        "1 2/3  cups white vanilla baking chips"
+    ],
+    "totalTime": "PT2H15M",
+    "prepTime": "PT0H35M",
+    "recipeYield": "36",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "18",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "video": {
+        "@type": "VideoObject",
+        "name": "How to Make Eggnog Snickerdoodles Video",
+        "thumbnailUrl": "https://images-gmi-pmc.edge-generalmills.com/d10ec008-9da3-4f0e-8f56-8adadafd207c.jpg",
+        "description": "This year, try spiking your snickerdoodles with eggnog flavoring and dipping them in a vanilla chip icing for a delicious twist on a holiday classic.",
+        "contentUrl": "https://www.bettycrocker.com/videos/eggnog-snickerdoodles",
+        "embedUrl": "https://www.youtube.com/embed/V4i-hnBKFoE",
+        "uploadDate": "08/25/2023"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375°F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In large bowl, mix cookie mix, softened butter, egg, 1/2 teaspoon nutmeg and the rum extract with spoon until soft dough forms. Shape dough into 36 (1 1/4-inch) balls. In small bowl, mix sugar, cinnamon and remaining 1/2 teaspoon nutmeg. Roll balls in sugar-spice mixture. Place 2 inches apart on ungreased cookie sheets. Discard sugar-spice mixture after rolling balls."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 7 to 9 minutes or until edges are set. Cool 2 minutes; remove from cookie sheet to cooling rack. Cool completely, about 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In small microwavable bowl, microwave white vanilla baking chips uncovered on Medium (50% power) 60 seconds. Stir; continue to microwave in 15-second increments until mixture can be stirred smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working with one cookie at a time, dip halfway into melted chips; gently shake off excess. Place on waxed paper. Repeat with remaining cookies. If chips have cooled too much, reheat. Let stand 30 minutes or until set. Store covered in airtight container."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "120 ",
+        "carbohydrateContent": "16 g",
+        "cholesterolContent": "10 mg",
+        "fatContent": "1 ",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "3 1/2 g",
+        "servingSize": "1 Cookie",
+        "sodiumContent": "80 mg",
+        "sugarContent": "12 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "01/28/2019",
+    "dateModified": "11/23/2020"
+}

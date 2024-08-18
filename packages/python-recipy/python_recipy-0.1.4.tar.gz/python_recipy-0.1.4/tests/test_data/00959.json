@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/lightsaber-pretzels/",
+    "name": "Lightsaber Pretzels",
+    "datePublished": "2020-07-17",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT60M",
+    "cookTime": "PT0M",
+    "totalTime": "PT60M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2020/07/Lightsaber-Pretzels_EXPS_HCA20_255799_05_28_E_6b-2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Candy-coated lightsaber pretzels take on a fun Star Wars theme. These treats are wonderfully sweet and salty. —<i>Taste of Home</i> Test Kitchen",
+    "recipeIngredient": [
+        "8 ounces each blue, green and red candy coating disks",
+        "30 pretzel rods",
+        "Blue, green and red colored sugar",
+        "6 ounces each white and black candy coating disks",
+        "30 M&M's minis"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place each color of candy melts into separate microwave-safe bowls. Working with 1 color at a time, heat in microwave, stirring every 30 seconds until smooth. Dip 10 pretzel rods in each blue, green and red melted candy coating, stopping 2 inches from end; allow excess to drip off. Immediately roll in matching colored sugar. Let stand on a parchment-lined pan until set. Reheat candy coating as needed. Adding 1 teaspoon at a time, stir melted black candy coating into the white until desired shade of gray is achieved; reserve remaining melted black candy coating. Dip the uncoated end of the pretzel rods into melted gray candy coating for handle; allow excess to drip off. Return to parchment-lined pan until set. Place reserved melted black candy coating into a piping bag fitted with a small round tip; pipe 3 lines onto handle. For power buttons, secure M&amp;M's minis to handles with melted black candy coating. Allow to set completely before serving. Store at room temperature in an airtight container between layers of waxed paper."
+        }
+    ],
+    "recipeYield": "2-1/2 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 223 calories",
+        "fatContent": "11g fat (9g saturated fat)",
+        "cholesterolContent": "1mg cholesterol",
+        "sodiumContent": "244mg sodium",
+        "carbohydrateContent": "31g carbohydrate (24g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "1g protein."
+    }
+}

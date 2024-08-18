@@ -1,0 +1,266 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Chef John&#39;s Nectarine Salsa",
+    "datePublished": "2015-06-23T19:53:27.000-04:00",
+    "dateModified": "2022-11-25T16:48:28.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "John Mitzewich",
+            "url": "https://www.allrecipes.com/author/chef-john/"
+        }
+    ],
+    "description": "Chef John pairs sweet with heat in this quick nectarine salsa with red bell peppers, jalapeño peppers, and cilantro.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/Vkhx-ClzT3oTl5FZ8WZjfFeYfVM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5482571-b522b102290d4e38a5bc7df9d9d11982.jpg",
+        "height": 2000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/Gh04nSz9-K3AjnAEN.mp4",
+        "description": "If you think fruit isn't for salsa, this recipe will make you think twice. In this video, Chef John creates a delicious (and quite simple) fruit salsa using fresh nectarines, onion, peppers, cilantro and jalapenos. The sweet, tangy flavor and the firm, juicy texture makes nectarines the perfect secret weapon for salsa.",
+        "duration": "PT5M37S",
+        "name": "Chef John's Nectarine Salsa",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/Gh04nSz9/poster.jpg?width=720",
+        "uploadDate": "2021-07-30T04:45:31.278-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Chef John&#39;s Nectarine Salsa",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "32"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "33 kcal",
+        "carbohydrateContent": "5 g",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "195 mg",
+        "sugarContent": "3 g",
+        "fatContent": "2 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 cup finely diced nectarine",
+        "0.5 cup finely diced red bell pepper",
+        "0.33333334326744 cup finely diced onions",
+        "2 tablespoons finely diced jalapeno pepper",
+        "1 tablespoon chopped fresh cilantro",
+        "1 tablespoon fresh lime juice",
+        "2 teaspoons olive oil",
+        "0.5 teaspoon salt, plus more to taste",
+        "1 pinch cayenne pepper",
+        "1 pinch freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine nectarine, bell pepper, onions, jalapeño pepper, and cilantro in a medium bowl. Stir in lime juice, olive oil, salt, and cayenne pepper. Cover the bowl with plastic wrap. Refrigerate to let flavors develop, 30 minutes to 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/Vkhx-ClzT3oTl5FZ8WZjfFeYfVM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5482571-b522b102290d4e38a5bc7df9d9d11982.jpg"
+                }
+            ],
+            "text": "Stir in black pepper before serving. Add a pinch more salt if needed."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT50M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carol F"
+            },
+            "reviewBody": "Refreshing, not too sweet, bit of a kick. - I think I over-pinched the cayenne but I like it hot. Great way to enjoy tasty farmer.s market fruit and veggies. Easy to make."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "This was a hit at our party with chips. We also substituted the nectarine with mango and used it as a side for our salmon."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Amanda Potter"
+            },
+            "reviewBody": "So flavourful, fresh &amp; delicious. Thank you, as always, Chef John!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "jeanieb"
+            },
+            "reviewBody": "Delicious on salmon, chicken and pork! The nectarine salsa got rave reviews from everyone who tried it!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lalc1321"
+            },
+            "reviewBody": "Great, fresh addition to fish, chicken or as a change up with tortilla chips. Added a mango and peach for more flavor, touch of honey (tsp.), half the oil and extra jalapeno for a nice zing. Cayenne pepper is a must as well. Will make again!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mike G"
+            },
+            "reviewBody": "I added a plumcot to it and it was absolutely delicious .will definitely make this alot more!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Apctaz Smith"
+            },
+            "reviewBody": "Excellent salsa very tasty. This paired with the Moist Pork Chop recipe was the best."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "George P. Cooper"
+            },
+            "reviewBody": "Rave reviews from guests at a recent party. Only problem we had? Everyone overloaded their scoop chips and we ran out of salsa"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "tia musick"
+            },
+            "reviewBody": "We have tons of peppers this year. I used one of every color. Excellent presentation. My Father in Law wants me to make a ton and can it. I don't know how, yet. I want to keep the texture and the super fresh taste."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sonya"
+            },
+            "reviewBody": "I used pineapple instead of nectarines. Yummy."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/244391/chef-johns-nectarine-salsa/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/436/appetizers-and-snacks/dips-and-spreads/salsa/",
+                        "name": "Salsa Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/15842/appetizers-and-snacks/dips-and-spreads/salsa/peach-salsa/",
+                        "name": "Peach Salsa Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/244391/chef-johns-nectarine-salsa/",
+                        "name": "Chef John&#39;s Nectarine Salsa"
+                    }
+                }
+            ]
+        }
+    }
+}

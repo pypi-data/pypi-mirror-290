@@ -1,0 +1,118 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Pickled Green Tomato, Watercress &amp; Walnut Tabbouleh",
+    "datePublished": "2013-12-06T18:41:38.000-05:00",
+    "dateModified": "2016-06-17T09:14:50.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Michael Solomonov",
+            "url": "https://www.foodandwine.com/author/michael-solomonov"
+        }
+    ],
+    "description": "For his twist on the Middle Eastern salad called tabbouleh, Michael Solomonov pickles crunchy green tomatoes instead of using the usual fresh red ones.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/KfMpUtjuuJl6l9Q-hqFQ8wHgw_4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2013-r-xl-pickled-green-tomato-watercress-and-walnut-tabbouleh-4c2f3335d739463ba31d793af8b94c30.jpg",
+        "height": 550,
+        "width": 550
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Pickled Green Tomato, Watercress &amp; Walnut Tabbouleh",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1/2 cup distilled white vinegar",
+        "1 tablespoon honey",
+        "1 tablespoon yellow mustard seeds",
+        "1 tablespoon kosher salt",
+        "4 green tomatoes (2 pounds), sliced crosswise 1/4 inch thick",
+        "1 cup coarse bulgur (5 ounces)",
+        "1 cup walnuts (3 ounces)",
+        "3 ounces watercress, minced (1 cup)",
+        "1/2 cup minced parsley",
+        "1/2 cup minced dill",
+        "1/2 cup finely chopped red onion",
+        "1/4 cup extra-virgin olive oil",
+        "3 tablespoons fresh lemon juice",
+        "Kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, combine the vinegar, honey, mustard seeds, salt and 1 cup of water and bring to a simmer over moderate heat. In a medium heatproof bowl, cover the tomato slices with the hot brine. Let cool completely, then cover and refrigerate the tomatoes overnight. make the tabbouleh"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, cover the bulgur with 2 cups of water and let stand until the grains are plumped and tender, about 1 hour; drain the bulgur well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a medium skillet, toast the walnuts over moderate heat, stirring, until golden, about 5 minutes. Let cool, then finely chop the nuts."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the green tomatoes and cut them into 1/4-inch dice. In a large bowl, toss the bulgur with the pickled tomatoes, chopped walnuts and all of the remaining ingredients. Season the tabbouleh with salt and serve."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/pickled-green-tomato-watercress-walnut-tabbouleh",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/salads",
+                        "name": "Salads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/grains/grain-salads",
+                        "name": "Grain Salads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/pickled-green-tomato-watercress-walnut-tabbouleh",
+                        "name": "Pickled Green Tomato, Watercress &amp; Walnut Tabbouleh"
+                    }
+                }
+            ]
+        }
+    }
+}

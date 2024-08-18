@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "keywords": [
+        "savory pie and tart",
+        "onion",
+        "starter",
+        "dinner",
+        "nut free",
+        "vegetarian",
+        "oven bake",
+        "gourmet",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/560dd6b87b55306961bfa817/1:1/w_265,h_265,c_limit/230744.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Epicurious",
+            "sameAs": ""
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "ratingCount": 41
+    },
+    "image": [
+        "https://assets.epicurious.com/photos/560dd6b87b55306961bfa817/16:9/w_256,h_144,c_limit/230744.jpg",
+        "https://assets.epicurious.com/photos/560dd6b87b55306961bfa817/4:3/w_264,h_198,c_limit/230744.jpg",
+        "https://assets.epicurious.com/photos/560dd6b87b55306961bfa817/1:1/w_265,h_265,c_limit/230744.jpg"
+    ],
+    "headline": "Caramelized-Onion Tartlets",
+    "name": "Caramelized-Onion Tartlets",
+    "cookTime": "30 min",
+    "recipeIngredient": [
+        "2 cups very thinly sliced onion (about 2 onions)",
+        "1 1/2 tablespoons unsalted butter",
+        "2 tablespoons water",
+        "3/8 teaspoon salt",
+        "1/8 teaspoon black pepper",
+        "1 (9-inch) refrigerated pie shell (from a 15-ounce package)",
+        "3 tablespoons crème fraîche at room temperature",
+        "1 1/2 teaspoons finely chopped fresh chives",
+        "",
+        "a 2 1/4-inch round cookie cutter; a mini-muffin pan with 12 (1/8-cup) muffin cups"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put oven rack in middle position and preheat oven to 375°F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook onion, butter, water, salt, and pepper, covered, in a 10-inch heavy skillet over moderately low heat, 10 minutes. Remove lid and cook, stirring frequently, until onion is deep golden brown and very tender, about 25 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While onion cooks, roll out dough to slightly less than 1/8 inch thick. Cut out 12 rounds with cutter and lightly press each into a mini-muffin cup. Bake until pale golden, 10 to 12 minutes. Remove tartlet shells from muffin pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together crème fraîche and chives and divide among shells, then top with caramelized onions."
+        }
+    ],
+    "totalTime": "45 min",
+    "recipeYield": "Makes 12 hors d'oeuvres",
+    "url": "https://www.epicurious.com/recipes/food/views/caramelized-onion-tartlets-230744",
+    "dateModified": "2006-05-16T16:12:06.000-04:00",
+    "datePublished": "2006-05-16T16:12:06.000-04:00",
+    "recipeCategory": []
+}

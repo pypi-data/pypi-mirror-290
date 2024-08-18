@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/pad-thai-prawns#Recipe",
+    "@type": "Recipe",
+    "description": "This simple stir-fry features udon noodles, prawns and spring onions in a fragrant peanut and tamarind sauce. It's ready in just 20 minutes",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1071471_11-0fcde3b.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/pad-thai-prawns"
+    },
+    "name": "Prawn pad Thai",
+    "url": "https://www.bbcgoodfood.com/recipes/pad-thai-prawns",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jennifer Joyce",
+            "url": "https://www.bbcgoodfood.com/author/jenniferjoyce"
+        }
+    ],
+    "dateModified": "2023-06-23T10:25:16+01:00",
+    "datePublished": "2012-09-13T11:07:46+01:00",
+    "headline": "Prawn pad Thai",
+    "keywords": " Josh Eagleton, 10-30 minutes, 2 servings, 600 kcal or less, A week of healthy suppers, Jennifer Joyce, Low calorie, Mains, Noodles, Nutty, Peanut sauce, Quick, Satay, Stir fry, Thai curry, Udon noodle, Udon noodles, Vitamin c",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "498 calories",
+        "fatContent": "18 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "56 grams carbohydrates",
+        "sugarContent": "22 grams sugar",
+        "fiberContent": "4 grams fiber",
+        "proteinContent": "27 grams protein",
+        "sodiumContent": "2.3 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": "Thai",
+    "recipeIngredient": [
+        "250g udon noodle",
+        "2 tsp vegetable oil",
+        "100g peeled raw  prawn",
+        "4 spring onions , chopped",
+        "2 eggs , beaten",
+        "2 tbsp roasted peanut , chopped",
+        "small handful coriander leaves",
+        "lime wedges, to serve",
+        "2 tbsp tamarind paste",
+        "1 tbsp fish sauce",
+        "juice 1 lime",
+        "1 tbsp soft  brown sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Boil the noodles in salted water for 3 mins until soft. Drain and rinse in cold water. To make the sauce, mix all the ingredients together in a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a wok with half the oil. Add the prawns and spring onions, and cook, stirring quickly, for 1 min or until the prawns turn pink. Push to the side and add the remaining oil. Add the egg and let sit for 30 secs, then scramble until cooked. Add the noodles and sauce, and cook, stirring continuously, for 3 mins or until everything is hot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve the noodles with the peanuts and coriander sprinkled on top, and lime wedges for squeezing over."
+        }
+    ],
+    "recipeYield": 2,
+    "totalTime": "PT20M"
+}

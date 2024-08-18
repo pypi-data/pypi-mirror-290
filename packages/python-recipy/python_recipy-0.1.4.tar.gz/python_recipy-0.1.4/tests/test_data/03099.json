@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Bacon-and-Cheddar Grits Quiche Recipe",
+    "datePublished": "2018-01-10T13:04:07.000-05:00",
+    "dateModified": "2023-01-09T15:00:05.009-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Lisa Cericola",
+            "url": "https://www.southernliving.com/author/lisa-cericola"
+        }
+    ],
+    "description": "Spread cheese to the edge of the warm, bacony grits &#34;crust&#34; to prevent any custard from seeping out while the quiche bakes.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/tUl4Evp7e1PhhB5-pJvdxGDXSSM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2335401_ibhfo_120_0_0-2000-0f94de93b8c845c898b1ea1d51d69df0-2a86282cf4ad4335bf8acb20010d291f.jpg",
+        "height": 889,
+        "width": 1333
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/tLWN8lDX-KtCa7qb3.mp4",
+        "description": "Take charge of brunch with this delicious breakfast casserole made with grits, bacon, and cheddar cheese. Spread the cheese to the edge of the warm grits \"crust\" to prevent any custard from seeping out while the quiche bakes.",
+        "duration": "PT1M50S",
+        "name": "Bacon-and-Cheddar Grits Quiche",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/tLWN8lDX/poster.jpg?width=720",
+        "uploadDate": "2021-05-26T23:01:57.220-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Bacon-and-Cheddar Grits Quiche Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "ratingCount": "19"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "6 thick bacon slices",
+        "2.25 cups milk",
+        "2 tablespoons butter",
+        ".5 cup uncooked stone-ground grits",
+        "2 teaspoons kosher salt, divided",
+        "1 teaspoon black pepper, divided",
+        "2.5 cups shredded sharp Cheddar cheese, divided",
+        "6 large eggs",
+        "2.5 cups half-and-half",
+        "1 cup heavy cream",
+        ".33 cup sliced green onions"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Cook bacon in a skillet over medium heat until crisp. Remove bacon; drain and crumble. Transfer 2 tsp. bacon drippings to a saucepan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring drippings, milk, and butter to a boil over medium heat. Gradually whisk in grits, 1 tsp. salt, and ½ tsp. pepper; cook, whisking constantly, 15 minutes or until very thick. Remove from heat; let stand 10 minutes. Stir in 1 cup cheese; let stand 10 minutes. Stir in 1 egg; spread in a 9-inch springform pan coated with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 350°F for 25 minutes or until set and browned. Sprinkle remaining 1 ½ cups cheese over warm grits, spreading to edges. Let stand 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce oven temperature to 325°F. Combine half-and-half, cream, onions, and remaining 5 eggs, 1 tsp. salt, and ½ tsp. pepper. Pour over grits; sprinkle with crumbled bacon. Place pan on a foil-lined baking sheet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 325°F for 1 hour and 15 minutes or until lightly browned and just set. Let stand 20 minutes. Run a sharp knife around edges of quiche; remove sides of pan."
+        }
+    ],
+    "totalTime": "PT225M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/bacon-cheddar-grits-quiche",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/bacon-cheddar-grits-quiche",
+                        "name": "Bacon-and-Cheddar Grits Quiche Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

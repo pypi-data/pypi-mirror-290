@@ -1,0 +1,299 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1015835-broiled-mussels-with-garlicky-herb-butter#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1015835-broiled-mussels-with-garlicky-herb-butter",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2013/12/18/dining/18JPAPPE3/18JPAPPE3-articleLarge.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1015835-broiled-mussels-with-garlicky-herb-butter",
+    "name": "Broiled Mussels With Garlicky Herb Butter",
+    "description": "Garlic-laden herb butter is often called snail butter, because the French use it on roasted snails. But it’s too good to be relegated to snails — after all, how often do you cook snails? In this recipe, the green-flecked butter, flavored with a little Pernod, is slathered on mussels on the half shell, then broiled until the tops are brown-edged and golden. Although this recipes is somewhat involved, none of the steps are hard, and every except for the broiling can be done in advance. Save any leftover mussels and butter to toss with hot pasta for dinner the next day.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2013/12/18/dining/18JPAPPE3/18JPAPPE3-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2013/12/18/dining/18JPAPPE3/18JPAPPE3-superJumbo.jpg",
+            "height": 969,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2013/12/18/dining/18JPAPPE3/18JPAPPE3-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2013/12/18/dining/18JPAPPE3/18JPAPPE3-verticalTwoByThree735-v3.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT35M",
+    "recipeYield": "8 to 12 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "christmas, mussel",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 200
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 215,
+        "unsaturatedFatContent": "5 grams",
+        "carbohydrateContent": "7 grams",
+        "cholesterolContent": null,
+        "fatContent": "14 grams",
+        "fiberContent": "0 grams",
+        "proteinContent": "12 grams",
+        "saturatedFatContent": "8 grams",
+        "sodiumContent": "289 milligrams",
+        "sugarContent": "0 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/2 cup parsley leaves",
+        "2 large garlic cloves",
+        "1/2 teaspoon kosher salt",
+        "1/4 teaspoon black pepper",
+        "10 tablespoons unsalted butter, softened",
+        "1/4 cup plus 1 1/2 tablespoons Pernod or pastis",
+        "2 pounds mussels, scrubbed",
+        "1/3 cup bread crumbs"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a food processor, pulse together parsley, garlic, salt and pepper until finely chopped. Pulse in butter and 1 1/2 tablespoons Pernod until mixture is combined. Scrape into a bowl."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a soup pot with a tightfitting lid, combine mussels, 1/4 cup pastis and 1/4 cup water. Cover and cook over medium-high heat until mussels have opened, 5 to 10 minutes. Transfer mussels to a bowl until cool enough to handle; remove meat from the shells (reserving shells) and transfer to a bowl."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pry apart mussel shells and arrange half the shells on one or two large baking sheets; discard remaining shells. Place one mussel in each shell. Top each with a small spoonful of herb butter and a sprinkling of bread crumbs. Mussels may be made up to 1 day ahead up to this point; wrap baking sheets and mussels in plastic wrap and refrigerate. When ready to serve, heat broiler to high and arrange a rack 4 inches from the heat. Transfer tray(s) to the oven and broil until bread crumbs are golden, 1 to 2 minutes."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2013-12-18T00:00:00.000Z",
+    "dateModified": "2023-10-17T17:17:47.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aubrey"
+            },
+            "reviewBody": "Made this with frozen in shell mussels from the Asian market. Amazing! Low effort, high protein dinner. Served with warm toasty baguette and butter.",
+            "datePublished": "2023-10-18T00:40:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PCB's"
+            },
+            "reviewBody": "so, a little bit of heat on the butter mixture and it can be spooned on to the mussels a lot easier. My wife and love this recipe.",
+            "datePublished": "2021-12-17T21:57:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tom Alvord"
+            },
+            "reviewBody": "delicious!",
+            "datePublished": "2021-08-11T21:33:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandra"
+            },
+            "reviewBody": "Great recipe. I made 4 lbs mussels as a dinner for 2. Will make this again as an hors d’oeuvre for a party. 1 stick butter more than enough for 4 lbs. I made compound butter ahead, rolled it into a log in plastic wrap and refrigerated it. Very easy to slice off and add to mussels. Since steaming liquid is discarded I used white wine & water. I reduced Pernod to 1 T in butter. Yummy!",
+            "datePublished": "2020-07-09T15:25:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "WendyK"
+            },
+            "reviewBody": "While this was an absolute fantastic appetizer-using exactly 2 lbs of mussels (devoured by 3 people), the herb/butter mixture was more than twice the amount necessary, even after using a generous amount!  I had to freeze the remainder for future use.",
+            "datePublished": "2019-12-26T01:20:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Beth G."
+            },
+            "reviewBody": "We made this tonight, on Christmas Eve.  My husband despises licorice and my son and I love it, so we compromised:  I used Pastis in the cooking liquid but did not mix with the butter.  I first thought that 2 cloves of garlic would not be enough, but I was wrong: it was perfect.  This recipe was absolutely delicious and, while time consuming, was easy.  I plan to make this for my next party, especially since it can be made ahead and broiled right before serving.",
+            "datePublished": "2019-12-25T01:14:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mudd"
+            },
+            "reviewBody": "These look wonderful. A French restaurant (closed but not forgotten) in D.C. used to serve what they titled clams Provençal. This seems like what they served. Will try w/ clams.",
+            "datePublished": "2019-12-18T17:36:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Conner"
+            },
+            "reviewBody": "Slightly annoying to put all the herb butter onto the individual mussels, but the results are wonderful. No matter what else we make with them there are never any mussels left over afterwards!",
+            "datePublished": "2018-12-21T14:04:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eileen"
+            },
+            "reviewBody": "I worked in a French restaurant years ago and we served something similar except with the addition of bread crumbs. I remember them being delicious!",
+            "datePublished": "2018-04-09T01:24:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Solleke"
+            },
+            "reviewBody": "This is an excellent alternative to the escargots, even a little lighter, so more suitable as appetizer/entrée.  As a native of Belgium, I love mussels.  Now tell me where to order them fresh in the middle of nowhere, Nebraska...!",
+            "datePublished": "2017-10-24T23:27:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Megan"
+            },
+            "reviewBody": "This is appetizers for a crowd or dinner for about 4-5 people.  Works well, try other herbs instead of just parsley.",
+            "datePublished": "2017-10-24T18:36:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kidrid"
+            },
+            "reviewBody": "Never use salted butter!  For anything!",
+            "datePublished": "2017-12-26T14:02:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mudd"
+            },
+            "reviewBody": "Don’t pay any attention to “don’t use salted butter for anything”! Many European butters are salted and cultured and they are wonderful in European “receipts”. Just don’t use it when unsalted is called for in American style recipes. If salted butter is all you have, eliminate all or most of the salt",
+            "datePublished": "2019-12-18T17:31:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Max Alexander"
+            },
+            "reviewBody": "In America salted butter can be lesser quality. The salt prolongs the shelf life and can also hide off flavors. Salted butter in Europe is generally higher quality. I'm an American living in Rome.",
+            "datePublished": "2020-11-16T08:46:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carey Larsen"
+            },
+            "reviewBody": "I served this as an appetizer for Easter dinner. Fantastic! I prepped the dish on Saturday, and it was so easy to pop the pan of mussels under the broiler as my lamb was resting. I used salted butter AND added the kosher salt, and the result was too salty. Should have either used unsalted butter as the recipe calls for, or skipped the salt. Or maybe the briny mussels would have been salty enough on their own. I substituted Ouzo for Pernod.",
+            "datePublished": "2017-10-30T12:51:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carey Larsen"
+            },
+            "reviewBody": "I served this as an appetizer for Easter dinner. Fantastic! I prepped the dish on Saturday, and it was so easy to pop the pan of mussels under the broiler as my lamb was resting. I used salted butter AND added the kosher salt, and the result was too salty. Should have either used unsalted butter as the recipe calls for, or skipped the salt. Or maybe the briny mussels would have been salty enough on their own. I substituted Ouzo for Pernod.",
+            "datePublished": "2017-10-30T12:51:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eileen"
+            },
+            "reviewBody": "I worked in a French restaurant years ago and we served something similar except with the addition of bread crumbs. I remember them being delicious!",
+            "datePublished": "2018-04-09T01:24:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Solleke"
+            },
+            "reviewBody": "This is an excellent alternative to the escargots, even a little lighter, so more suitable as appetizer/entrée.  As a native of Belgium, I love mussels.  Now tell me where to order them fresh in the middle of nowhere, Nebraska...!",
+            "datePublished": "2017-10-24T23:27:27.000Z"
+        }
+    ]
+}

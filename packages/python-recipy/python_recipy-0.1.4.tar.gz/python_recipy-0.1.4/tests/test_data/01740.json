@@ -1,0 +1,144 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Chicken Shawarma",
+    "url": "https://www.foodnetwork.com/recipes/chicken-shawarma-3877358",
+    "headline": "Chicken Shawarma",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2017-09-18T16:39:39.007-04:00",
+    "dateModified": "2017-09-18T16:39:38.541-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Recipes,Poultry,Main Dish,Marinating Recipes",
+    "cookTime": "P0Y0M0DT0H50M0.000S",
+    "totalTime": "P0Y0M0DT9H10M0.000S",
+    "recipeIngredient": [
+        "1 cup tomato paste",
+        "1 cup white distilled vinegar ",
+        "1/2 cup minced garlic ",
+        "2 tablespoons Spanish paprika ",
+        "2 tablespoons crushed red pepper",
+        "1 tablespoon ground coriander ",
+        "1 tablespoon ground cumin ",
+        "1 tablespoon dried oregano ",
+        "1 tablespoon sumac ",
+        "Salt and pepper",
+        "10 pounds boneless, skinless chicken thighs and legs",
+        "Zaytoon Garlic Sauce, recipe follows",
+        "One 10-pound can cooked diced potatoes",
+        "3 cups heavy-duty mayonnaise",
+        "1 1/2 cups peeled garlic cloves ",
+        "1 tablespoon lemon salt ",
+        "Kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine the tomato paste, vinegar, garlic, paprika, red pepper, coriander, cumin, oregano, sumac, 2 tablespoons salt, 1 teaspoon black pepper and 1 cup water in a large mixing bowl. Whisk until thoroughly mixed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the chicken in a large bowl and pour the marinade over the chicken; mix thoroughly. Cover and refrigerate overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place a rack in the center of the oven and preheat the oven to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fillet open the chicken thighs, making them as thin as possible. Stack the chicken vertically on a skewer, pushing it down as you go to make it as tight as possible."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the chicken on a baking sheet and bake until golden brown, about 10 minutes per side. Slice the chicken into thin pieces and serve with Zaytoon Garlic Sauce. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the potatoes, mayonnaise, garlic, lemon salt, 1 tablespoon kosher salt and 1 cup ice to a 20-cup food processor. Process until smooth and creamy."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 4
+    },
+    "recipeYield": "10 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kerajoseph32"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Love this recipe! "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lou K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This was my first Shwarma I’ve prepared.  Not certain how authentic but it was excellent.  Used Tzatziki sauce and skipped the potatoes. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Samy A."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Best in town"
+        }
+    ],
+    "recipeCategory": []
+}

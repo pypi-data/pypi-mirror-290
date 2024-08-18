@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Venison Quesadilla",
+    "url": "https://www.foodnetwork.com/recipes/venison-quesadilla-recipe-2104933",
+    "headline": "Venison Quesadilla",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2014-12-15T23:28:44.388-05:00",
+    "dateModified": "2014-07-02T11:17:42.301-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Easy Main Dish,Easy,Main Dish,Quesadilla,Venison Recipes,High Fiber",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT0H30M0.000S",
+    "recipeIngredient": [
+        "One 6- to 8-ounce venison flank steak",
+        "1/4 teaspoon kosher salt, plus more for seasoning",
+        "1/4 teaspoon fresh ground black pepper, plus more for seasoning",
+        "2 tablespoons canola oil",
+        "1/2 white onion, thinly julienned",
+        "1 fire-roasted red bell pepper, peeled, seeded and julienned ",
+        "1/4 teaspoon ground cumin",
+        "2 flour tortillas, store-bought or homemade",
+        "3/4 cup shredded Monterey jack cheese",
+        "1 lime"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 1 servings",
+        "calories": "1326",
+        "fatContent": "83g",
+        "saturatedFatContent": "29g",
+        "carbohydrateContent": "70g",
+        "fiberContent": "8g",
+        "sugarContent": "12g",
+        "proteinContent": "77g",
+        "cholesterolContent": "225mg",
+        "sodiumContent": "1574mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a grill to medium. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season the venison with salt and pepper and grill for 2 minutes per side. Remove from the grill to a cutting board and let rest. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a saute pan with 2 tablespoons of canola oil over medium-high heat. Add the onions and red pepper and saute until transparent, about 4 to 5 minutes. Stir in the cumin and season with salt and pepper, to taste. Cover 1 tortilla with cheese then evenly top with onions and red peppers. Slice the venison steak against the grain and on the bias. Cover the tortilla with the meat and squeeze 1/2 the lime over top the meat. Put the tortilla, ingredient side up, on stove top griddle pan or a large frying pan. Top with the remaining tortilla and cook until brown. Flip the quesadilla over and brown the other side. Cut into 4 large pieces or 6 small pieces and serve with the remaining 1/2 lime."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "1 large quesadilla",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Easy to make and satisfied that craving for something a little different for dinner "
+        }
+    ],
+    "recipeCategory": []
+}

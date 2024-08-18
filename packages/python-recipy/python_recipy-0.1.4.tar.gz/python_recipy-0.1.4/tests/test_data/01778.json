@@ -1,0 +1,154 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Kung Pao Chicken",
+    "url": "https://www.foodnetwork.com/recipes/kung-pao-chicken-5427846",
+    "headline": "Kung Pao Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/5/DVSP75_Kung-Pao-Chicken_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1536176908068.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Kung Pao Chicken with Noodles as Served at Frank's Noodle House in Portland, Oregon,  as seen on Triple D Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/5/DVSP75_Kung-Pao-Chicken_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1536176908068.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Kung Pao Chicken with Noodles as Served at Frank's Noodle House in Portland, Oregon,  as seen on Triple D Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/5/DVSP75_Kung-Pao-Chicken_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1536176908068.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Kung Pao Chicken with Noodles as Served at Frank's Noodle House in Portland, Oregon,  as seen on Triple D Nation, Special."
+        }
+    ],
+    "datePublished": "2018-09-07T10:24:09.785-04:00",
+    "dateModified": "2018-09-07T10:24:09.474-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Asian,Chinese Recipes,Chicken Thigh,Main Dish,Deep-Frying",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT0H30M0.000S",
+    "recipeIngredient": [
+        "Oil, for frying",
+        "24 ounces chicken thighs ",
+        "2 teaspoons cornstarch ",
+        "1 teaspoon baking soda ",
+        "1/2 cup roasted peanuts",
+        "1/2 cup chicken stock ",
+        "2 teaspoons sugar ",
+        "1 teaspoon soy sauce ",
+        "1 teaspoon dark soy sauce ",
+        "1 teaspoon rice vinegar ",
+        "1 teaspoon cooking rice wine ",
+        "1/2 teaspoon sesame oil "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 2 servings",
+        "calories": "1548",
+        "fatContent": "136g",
+        "saturatedFatContent": "22g",
+        "carbohydrateContent": "16g",
+        "fiberContent": "3g",
+        "sugarContent": "7g",
+        "proteinContent": "68g",
+        "cholesterolContent": "335mg",
+        "sodiumContent": "1289mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring oil to between 350 and 375 degrees F. Cut chicken into chunks and mix with cornstarch and baking soda. Deep-fry in the oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the sauce: Mix peanuts, chicken stock, sugar, soy sauce, dark soy sauce, vinegar, rice wine and sesame oil in a bowl. Toss fried chicken in sauce, then serve."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.6,
+        "reviewCount": 10
+    },
+    "recipeYield": "1 to 2 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This was horrible!!! Followed the recipe to the letter and it’s a no go! I threw the entire dish into the garbage."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tracie s."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Where’s the spice? Sorry, but isn’t that what Kung pao chic is known for?!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Just made the sauce from this recipe. It was great! I added some hoisin and more sesame oil, soy sauce to it before pouring it over my protein. Then made a slurry with cornstarch to thicken. Absolutely perfect! "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "macmc24"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Great!"
+        }
+    ],
+    "recipeCuisine": "asian",
+    "recipeCategory": []
+}

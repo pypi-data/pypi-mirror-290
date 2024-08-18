@@ -1,0 +1,95 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Crispy Fried Onions and Nori Topping Recipe",
+    "datePublished": "2014-07-03T07:50:00.000-04:00",
+    "dateModified": "2018-08-29T14:07:49.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ideas in Food",
+            "url": "https://www.seriouseats.com/ideas-in-food-ideas-in-food-5118717"
+        }
+    ],
+    "description": "This quick and easy crunchy topping is intended as a component of a Korean-flavored clam recipe. It&#39;s made with store-bought fried onions, shallots, and garlic, plus strips of teriyaki-flavored nori. As a stand-alone topping, it would also be delicious sprinkled onto pastas, rice dishes, and stews.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/px3xcSANF7kLpCrwA0OtLf_yt9A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__07__20140703-ideas-in-food-clam-sauce-AddingLemonZestTopping-a1bee3a12cf54fd8bb6d3a23a5781a2b.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Crispy Fried Onions and Nori Topping Recipe",
+    "keywords": "garlic, ideas in food, nori, onion, shallot",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 ounces (28 grams) fried shallots (see note)",
+        "1 ounces (28 grams) fried garlic (see note)",
+        "1 ounces (28 grams) fried red onions (see note)",
+        "1/4 ounces (7 grams) teriyaki nori (see note)",
+        "1/4 teaspoon (1.5 grams) fine sea salt",
+        "Zest from 1 lemon"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a food processor, combine fried shallots, fried garlic, fried red onions, teriyaki nori, and salt. Pulse mixture until it forms a medium-sized crumb, like fine panko crumbs. Add lemon zest and pulse to combine. Transfer crispy topping to an airtight container and reserve at room temperature for up to 2 days. This Recipe Appears In \n Ideas in Food vs. Linguine alle Vongole: Part 2"
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/crispy-fried-onions-nori-topping-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/recipes-by-course-5117906",
+                        "name": "Recipes By Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/condiment-sauce-recipes-5117888",
+                        "name": "Condiments & Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/crispy-fried-onions-nori-topping-recipe",
+                        "name": "Crispy Fried Onions and Nori Topping Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

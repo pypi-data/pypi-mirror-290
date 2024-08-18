@@ -1,0 +1,406 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/chicken-wild-rice-chowder/",
+    "name": "Chicken Wild Rice Chowder",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-15",
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps39419_SD1193247D7B-4.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [
+        "Lunch"
+    ],
+    "description": "This is comfort food at it's finest, and perfect for that cold weather hump-day to help get you through the rest of the week.",
+    "recipeIngredient": [
+        "2 cups sliced fresh carrots",
+        "1/2 cup chopped onion",
+        "1/2 cup chopped celery",
+        "2 tablespoons butter",
+        "3 tablespoons all-purpose flour",
+        "2 cans (14-1/2 ounces each) chicken broth",
+        "2-2/3 cups cubed cooked chicken breasts",
+        "1 package (8.8 ounces) ready-to-serve long grain and wild rice",
+        "1/4 cup half-and-half cream",
+        "1/8 teaspoon pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, saute the carrots, onion and celery in butter until tender. Stir in flour until blended; gradually add broth. Bring to a boil; cook and stir for 2 minutes or until thickened. Stir in the chicken, rice, cream and pepper; heat through."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 371 calories",
+        "fatContent": "12g fat (5g saturated fat)",
+        "cholesterolContent": "99mg cholesterol",
+        "sodiumContent": "1369mg sodium",
+        "carbohydrateContent": "32g carbohydrate (6g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "32g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.6666665,
+        "reviewCount": 21,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mandyr777"
+            },
+            "reviewBody": "Very good. I used some cooked white rice (1 cup) instead of the wild rice and it was yummy. Will definitely make it again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-12-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mom2grlys"
+            },
+            "reviewBody": "My family loves this recipe.  I have to double it so we have left overs for lunch.  This is very easy to make and very good on a cold day (we make it in the summer too, we love it so much!).",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-01-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sheilast"
+            },
+            "reviewBody": "I am so glad I tried this recipe. It was delicious! I am already planning on making it agian and will double the recipe next time.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-10-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ojc0806"
+            },
+            "reviewBody": "<p>needs more flavoring.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-11-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "joymark"
+            },
+            "reviewBody": "this is the ultimate comfort food, I also added the same amount of white pepper makes it just a littlezipper.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-01-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "slbastress"
+            },
+            "reviewBody": "My whole family loved this chowder tonight.  My 8-year-old son now wants me to make this recipe for his birthday dinner in March...",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-02-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sheilast"
+            },
+            "reviewBody": "This is now on my list of favorite soups to make when it's cold out.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "janice1054"
+            },
+            "reviewBody": "Easy quick and very good.  Nice comfort flavor",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-08-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Dianaore"
+            },
+            "reviewBody": "I couldn't find Ready to Serve rice so I had to precook my rice that took away from the simplicity of the recipe but it was worth it.  I think I would like a bit more seasoning to taste in mine next time (my 13 year old who loves to cook said he thought it needed a bit of something more in seasoning) I also needed more liquid in mine as by the time the second and third person dished up it was pretty much just rice and no chowder.  Will make it again though for sure.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "conniepage"
+            },
+            "reviewBody": "i made this with olive oil (a healthy fat) instead of butter and fat-free half and half for a healther version. I used Uncle Bens Whole grain medley (ready rice... zap in the microwave for 90 seconds) Its a great cooler weather soup and figure friendly too!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "maggie1642"
+            },
+            "reviewBody": "My husband does not like rice, so I substitued some cubed up baked potatoes I had left over and added a bit of thyme.  It was very good.  I also think it would be good using the small flat noodles in place of the rice - just not too many.  Anyway, we loved it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Juanita99"
+            },
+            "reviewBody": "Made this tonight and it came out delicious and so easy. I made a few changes to recipe. I used frozen sliced carrots, another cup of broth and another 1/4 cup half & half to make more liquid because it was too chunky. I also added 1/8 tsp. ground thyme for flavor and a pinch of salt. Yummy! I will make again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Goodiewin"
+            },
+            "reviewBody": "LOVE this soup.  It is on my \"favorites\" list.  I've also used the base of this soup for pot pies, chicken ala king and other casseroles with just some small adjustments here and there.  It is delicious!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lorischlecht"
+            },
+            "reviewBody": "I liked it.  I thought it would be bland, with only pepper being added.  But the rice and chicken broth had a nice, mellow flavor to it.I also used fat-free half and half.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sevyjj"
+            },
+            "reviewBody": "This is the BEST chicken and rice soup recipe I've ever made. My family LOVED it! It kept us warm during a snow storm-thanks for sharing!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-11-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "casey1mollt"
+            },
+            "reviewBody": "BEST soup recipe to date. I used chicken stock instead of broth and I used Uncle Bens ready long grain / wild rice. I also bought a cooked chicken from Sams and used the breast meat....quick and easy. I made it tonite for the 3rd time this month",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-10-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "teeracey14"
+            },
+            "reviewBody": "This is my husband's favorite soup recipe. I lighten things up by using Fat Free Half and Half. I also add 2-3 cloves of garlic to the veggies when I saute them. I also like to add potatoes to make it more hardy. I almost ALWAYS double this recipe.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-02-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "astarzynski"
+            },
+            "reviewBody": "The whole family loved it. Excellent flavor. Definitley will make it again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-01-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "pajamaangel"
+            },
+            "reviewBody": "This lacked a little bit of flavor but otherwise it was a really hearty and filling meal.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

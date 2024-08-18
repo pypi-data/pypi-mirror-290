@@ -1,0 +1,114 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/spring-vegetable-macaroni-n-cheese",
+    "name": "Spring Vegetable Macaroni 'n' Cheese",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2006%2F02%2F07%2Fmacaroni-su-1157820-x.jpg",
+        "width": 420,
+        "height": 420
+    },
+    "datePublished": "2006-02-07T10:38:44.000Z",
+    "description": "Step out of the box with your mac-and-cheese  recipe and use creamy goat cheese instead of the usual cheddar. In this recipe, the flavor of goat cheese balances better with the peas and asparagus than that of traditional cheddar.",
+    "prepTime": null,
+    "cookTime": null,
+    "totalTime": "P0DT1H0M",
+    "recipeYield": "Makes 4 to 6 servings",
+    "recipeIngredient": [
+        "1 bunch (about 12 oz.) asparagus",
+        "2 leeks",
+        "4 ½ tablespoons butter",
+        "1 ½ teaspoons salt",
+        "12 ounces dried orecchiette pasta",
+        "¾ cup frozen petite peas",
+        "2 slices sourdough bread",
+        "3 tablespoons flour",
+        "2 teaspoons fresh thyme leaves",
+        "3 cups milk",
+        "2 teaspoons grated lemon peel",
+        "1 tablespoon Dijon mustard",
+        "½ teaspoon fresh-ground pepper",
+        "6 ounces fresh ch&egrave;vre (goat cheese)",
+        "1 ½ cups shredded romano cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400&deg;. Snap tough ends off asparagus; cut spears into 1/2-inch pieces. Cut root ends and tough green tops from leeks; cut leeks in half lengthwise and rinse well under running water, then thinly slice crosswise.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium pan over medium-high heat, stir the asparagus with the leeks, 1 tablespoon butter, and 1/2 teaspoon salt. Cook until the asparagus is just tender, about 7 minutes, then remove from pan and set aside.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pan over high heat, bring about 3 quarts water to a boil. Add pasta and cook according to package instructions; stir in peas at the end. Drain and return to pan.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, tear bread into chunks and put in a food processor with 1/2 tablespoon butter. Whirl until crumbs form.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the medium pan over medium-high heat, melt remaining 3 tablespoons butter. Add the flour and thyme; stir until smooth and bubbling, about 30 seconds. Slowly whisk in milk and stir until boiling and thickened, 5 to 8 minutes. Add lemon peel, mustard, pepper, and remaining teaspoon salt. Remove from heat and add goat cheese and 1 cup romano; stir until smooth.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour sauce over drained pasta and peas. Add asparagus mixture and stir well. Scrape mixture into a 2 1/2-quart baking dish and spread level. Sprinkle evenly with remaining 1/2 cup romano and the bread crumbs. Bake until sauce is bubbling and bread crumbs are browned, 15 to 20 minutes.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Note: Nutritional analysis is per serving.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": {
+        "@type": "Organization",
+        "name": "MyRecipes"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "ratingCount": 2,
+        "itemReviewed": "Spring Vegetable Macaroni 'n' Cheese",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "655 calories",
+        "carbohydrateContent": "66 g",
+        "cholesterolContent": "92 mg",
+        "fatContent": "30 g",
+        "fiberContent": "3.4 g",
+        "proteinContent": "30 g",
+        "saturatedFatContent": "19 g",
+        "servingSize": null,
+        "sodiumContent": "1353 mg",
+        "sugarContent": null,
+        "transFatContent": null,
+        "unsaturatedFatContent": null
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "datePublished": "2011-04-27T14:34:15.000Z",
+            "reviewBody": "YUM!  I used feta and romano, the boys loved it.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "elswan",
+                "image": null,
+                "sameAs": null
+            }
+        }
+    ]
+}

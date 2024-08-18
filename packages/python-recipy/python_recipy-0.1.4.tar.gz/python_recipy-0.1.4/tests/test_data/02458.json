@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Sauteed Asparagus with Lemon",
+    "datePublished": "2011-01-14T09:43:31.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Try this side with seared steak, roasted lamb or chicken.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/IuPfUD5b8t2JH_twPH2Ye_JWdwI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/med105604_0610_asparagus_lemon_vert-c4a2725434b84b6ebfac2e3c85647522.jpgitokielNisnS",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Sauteed Asparagus with Lemon",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "23"
+    },
+    "keywords": "Appetizers, Asparagus, Dinner, Lunch, SautÃ©, Side dishes",
+    "recipeIngredient": [
+        "1 tablespoon olive oil",
+        "2 bunches asparagus (14 ounces each), ends trimmed",
+        "Coarse salt and ground pepper",
+        "4 wide strips lemon zest",
+        "Juice from 1/2 lemon"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, heat olive oil over medium. Add asparagus, and season with salt and pepper. Cook, tossing occasionally, until lightly browned and crisp-tender, 10 to 15 minutes, depending on thickness. Add lemon zest and cook 1 minute. Add lemon juice, toss to coat, and serve warm."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/316639/sauteed-asparagus-with-lemon",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513772/quick-easy-recipes",
+                        "name": "Quick & Easy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/316639/sauteed-asparagus-with-lemon",
+                        "name": "Sauteed Asparagus with Lemon"
+                    }
+                }
+            ]
+        }
+    }
+}

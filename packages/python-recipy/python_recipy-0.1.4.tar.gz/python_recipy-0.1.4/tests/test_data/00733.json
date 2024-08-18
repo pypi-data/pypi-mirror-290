@@ -1,0 +1,356 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024004-sheet-pan-chile-crisp-salmon-and-asparagus#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024004-sheet-pan-chile-crisp-salmon-and-asparagus",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/05/13/dining/YS-Sheet-Pan-Chile-Crisp-Salmon/YS-Sheet-Pan-Chile-Crisp-Salmon-googleFourByThree.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024004-sheet-pan-chile-crisp-salmon-and-asparagus",
+    "name": "Sheet-Pan Chile Crisp Salmon and Asparagus",
+    "description": "A mixture of chile crisp, soy sauce and honey coats salmon bites that roast alongside scallions and asparagus for a quick and colorful weeknight dinner. While the salmon doesn’t need to be cubed, it’s an easy and enjoyable way to eat it; the bite-size pieces can be served over rice, cooked grains or big salads. Much like a grain bowl component, this recipe is versatile, and works as an add-on or base. Finish it as you’d like: Try some gently torn fresh cilantro, toasted sesame seeds, flaky sea salt, lime slices or an extra drizzle of chile crisp.",
+    "author": {
+        "@type": "Person",
+        "name": "Yasmin Fahr"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/05/13/dining/YS-Sheet-Pan-Chile-Crisp-Salmon/YS-Sheet-Pan-Chile-Crisp-Salmon-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/13/dining/YS-Sheet-Pan-Chile-Crisp-Salmon/YS-Sheet-Pan-Chile-Crisp-Salmon-googleFourByThree.jpg",
+            "height": 600,
+            "width": 800,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/13/dining/YS-Sheet-Pan-Chile-Crisp-Salmon/YS-Sheet-Pan-Chile-Crisp-Salmon-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/13/dining/YS-Sheet-Pan-Chile-Crisp-Salmon/YS-Sheet-Pan-Chile-Crisp-Salmon-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeYield": "4 servings ",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "asparagus, chile crisp, salmon fillet, scallion, sheet-pan, spring",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 634
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 563,
+        "unsaturatedFatContent": "23 grams",
+        "carbohydrateContent": "7 grams",
+        "cholesterolContent": null,
+        "fatContent": "37 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "48 grams",
+        "saturatedFatContent": "8 grams",
+        "sodiumContent": "763 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 tablespoon store-bought or homemade chile crisp, plus more for serving",
+        "1 tablespoon soy sauce",
+        "1 teaspoon honey",
+        "2 pounds skinless, center-cut salmon (1 to 1 ½-inch thick), cut into 1 to 1 1/2-inch cubes",
+        "1 bunch scallions, light green and white parts thinly sliced (dark greens reserved for another use)",
+        "1 bunch asparagus, trimmed",
+        "Kosher salt ",
+        "2 tablespoons olive oil",
+        "Cooked grains or salad greens (optional), for serving "
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 400 degrees. In a large bowl, combine the chile crisp, soy sauce and honey. Add the salmon and sliced scallions; toss to coat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the asparagus to a sheet pan; season with salt and toss with the olive oil until shiny. Add the salmon mixture to the pan, nestling the salmon between spears or on top, if needed. Place any larger cubes near the edges of the pan, so they’ll cook evenly."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Roast in the oven until the salmon is just cooked through and the asparagus crisp-tender, about 12 minutes. Season to taste with salt. Serve with cooked grains or salad greens, if desired."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-04-27T00:00:00.000Z",
+    "dateModified": "2024-05-13T15:24:12.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name sharon"
+            },
+            "reviewBody": "8 oz of salmon per person is a lot!",
+            "datePublished": "2024-06-01T22:39:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Madison"
+            },
+            "reviewBody": "This was amazing. Based on the reviews I upped the sauce to salmon/veg ratio quite a bit: for 1lb of salmon I doubled the sauce in the original recipe meant for 2lb. I subbed go-chu gang for chile crisp in the sauce recipe, but still added a heaping tsp of chile crisp for good measure. As advised, I roasted the asparagus with scallion greens for 8 min before adding the salmon/scallion whites for another 8 min. The leftovers were amazing on mixed greens the next day.",
+            "datePublished": "2024-05-08T16:46:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name sharon"
+            },
+            "reviewBody": "Made this last night using brussel sprouts.   Cooked them way ahead of putting salmon in.   All else as written. Was really good. Would def make again",
+            "datePublished": "2024-05-02T12:54:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandra C"
+            },
+            "reviewBody": "Lovely! Used salmon steaks, and added green beans and cremini to the tray. In future I will add anything similar from the fridge - peppers broccoli, etc. I will also use more chile crisp on the salmon. Time? 14 minutes because I used  1\" steaks.",
+            "datePublished": "2024-04-28T22:54:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara Aschenbrenner"
+            },
+            "reviewBody": "Too hot for me, but since I was adjusting quantities to serve one, I may well have misjudged how much chili crisp to use.  I think I’ll try mixing some of this with some leftover veg curry (with coconut milk); sounds like a nice taste combination even if it’s “fusion”",
+            "datePublished": "2024-04-21T03:02:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "P Dennis &"
+            },
+            "reviewBody": "Yup, a five star neoclassical salmon dish. Double the honey when using King Salmon. The higher fat content is offset nicely with a tad more sweetness.",
+            "datePublished": "2024-04-16T00:07:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "isabel"
+            },
+            "reviewBody": "Super yummy and quick, used Lao gan ma. Next time I’ll 1.5-2x the chili crisp",
+            "datePublished": "2024-04-09T02:13:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "Loved it, as did my wife and 2 year old, and my wife isn’t a huge salmon fan. Only had a pound of salmon but didn’t cut back on the sauce and added the dark green parts of the scallions with the asparagus. Gave those a four minute head start, added the salmon, and then baked for 10 minutes more.",
+            "datePublished": "2024-04-08T12:10:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Miranda Ottewell"
+            },
+            "reviewBody": "Made this with our first real harvest of asparagus from the garden (stored over almost two weeks in glasses of water in the fridge as the spears came up, which worked great--crisp and sweet), with a big salmon filet cut nto slices. Chile crisp from Genevieve Ko's NYT recipe, used a lot. Twelve minutes was perfect for salmon and asparagus. Served with basmati rice and a simple lettuce and onion salad with Martha Shulman's.miso-ginger dressing. Fantastic!",
+            "datePublished": "2024-03-28T18:28:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bigtazdude80"
+            },
+            "reviewBody": "Made in air fryer instead of oven, served with white rice. \nDouble the amount of sauce made in the future. \nHighly recommend using Japanese bbq sauce too.",
+            "datePublished": "2024-03-04T23:16:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bruce"
+            },
+            "reviewBody": "Simple and tasty!   Broccoli could sub for asparagus.  Would need to think about the timing on that",
+            "datePublished": "2024-02-29T03:12:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Clare"
+            },
+            "reviewBody": "Needed more honey maybe? It was better the second day. It was ok but probably would not make again.",
+            "datePublished": "2024-02-25T02:54:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carlin"
+            },
+            "reviewBody": "I doubled the chili crisp and added some extra green beans in addition to the asparagus. We had it with a wild rice/brown rice blend and some mixed salad leaves, easy and healthy.",
+            "datePublished": "2024-02-19T02:50:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth"
+            },
+            "reviewBody": "I was worried I wouldn’t find the chili crisp, but there it was in the Asian section of my suburban supermarket.",
+            "datePublished": "2024-02-16T00:04:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nashgirl"
+            },
+            "reviewBody": "I used a thin, whole sockeye salmon with skin on. Didn’t bother to cut it up, just slathered on the mixture. So quick and delicious! Cutting in cubes may make it crispier. Thin asparagus also was cooked perfectly.",
+            "datePublished": "2024-01-29T00:20:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fearn"
+            },
+            "reviewBody": "What is chili crisp?",
+            "datePublished": "2023-04-30T14:51:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie"
+            },
+            "reviewBody": "Chili crisp is an infused oil condiment that usually contains crunchy, flavorful bits of peppers, onions or scallions, garlic and other aromatics.",
+            "datePublished": "2023-05-01T01:48:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura J"
+            },
+            "reviewBody": "A delicious keeper! For 2, I used 1 lb of salmon, the rest as written, turned on the broiler at the end. For four, I would use 2 bunches of asparagus and consider doubling the sauce (2 trays?), but we like lots of veggies. An easy dinner to prep and hold until needed - Basmati rice staying warm in the cooker and salmon & asparagus on the tray ready to go, we had a fabulous meal minutes after waiting for a late arrival.",
+            "datePublished": "2023-04-27T10:30:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sherye Horner"
+            },
+            "reviewBody": "What is Chile crisp?",
+            "datePublished": "2023-04-30T23:14:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jay"
+            },
+            "reviewBody": "I like cooking salmon after cutting it into cubes.  However, when it is cut into cubes, at 400 degrees it is medium or medium rare in about 7-8 minutes.  So I would recommend giving the asparagus a head start in the oven before adding the salmon.",
+            "datePublished": "2023-05-13T23:53:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LuisV"
+            },
+            "reviewBody": "Just made it, but didn’t dice the salmon. Much less effort, great result. Just bake it without the asparagus for the suggested 12 minutes, then add them and bake for 10 more minutes.",
+            "datePublished": "2023-05-01T19:49:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stuart"
+            },
+            "reviewBody": "Since chili crisp is the centerpiece of this dish, if you can't handle spicy food then the perfect substitute is another recipe.",
+            "datePublished": "2023-05-13T17:08:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen GF"
+            },
+            "reviewBody": "I buy Chile crisp at Trader Joe’s.",
+            "datePublished": "2023-05-01T19:10:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David F."
+            },
+            "reviewBody": "Just made this according to the recipe (but with skin-on salmon) and it was divine. The deliciousness : effort ratio on this one is quite high. Will make this again and again.",
+            "datePublished": "2023-05-01T03:00:31.000Z"
+        }
+    ]
+}

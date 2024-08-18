@@ -1,0 +1,104 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Honey and Wild Blueberry Smoothie",
+    "description": "This Honey and Wild Blueberry Smoothie is so simple and delicious. Creamy, refreshing, and healthy - a great, easy breakfast or snack!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "honey and blueberry smoothie, blueberry smoothie, healthy breakfast smoothie",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/blueberry-smoothie-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/blueberry-smoothie-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/blueberry-smoothie-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/blueberry-smoothie-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/honey-wild-blueberry-smoothie",
+    "recipeIngredient": [
+        "1 banana, fresh or frozen",
+        "1 cup mango chunks, fresh or frozen",
+        "1/2 cup wild blueberries, fresh or frozen",
+        "1/2 cup plain nonfat Greek yogurt",
+        "1/2 cup milk (or just enough to help things blend smoothly)",
+        "1 heaping tablespoon raw honey (more to taste)",
+        "1/2 cup kale or any other add ins that you want"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place bananas, mangoes, blueberries, yogurt, and milk in a blender. Blend until smooth. Add the kale and honey; blend again until smooth.",
+            "url": "https://pinchofyum.com/honey-wild-blueberry-smoothie#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If desired (and especially if all your ingredients were fresh instead of frozen), add a few ice cubes to increase the volume of the smoothie and help it stay chilled. Crush until smooth.",
+            "url": "https://pinchofyum.com/honey-wild-blueberry-smoothie#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with additional blueberries and serve immediately.",
+            "url": "https://pinchofyum.com/honey-wild-blueberry-smoothie#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
+    "recipeYield": "2",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "5",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "223 calories",
+        "sugarContent": "33.3 g",
+        "sodiumContent": "51.7 mg",
+        "fatContent": "1.4 g",
+        "saturatedFatContent": "0.6 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "46.8 g",
+        "fiberContent": "4.8 g",
+        "proteinContent": "9.4 g",
+        "cholesterolContent": "5.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "datePublished": "2014-01-10",
+            "reviewBody": "I'm a big fan of sit down bk's too but lately I've been running out the door with a banana in hand. This bk on the go is perfecto for me! Love the blueberry/honey combo!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Johanna"
+            },
+            "datePublished": "2014-01-11",
+            "reviewBody": "Lindsay, you are an inspiration.  I just posted my first blog post.  I would be honored if you want to take a peek."
+        }
+    ],
+    "datePublished": "2014-01-10",
+    "@id": "https://pinchofyum.com/honey-wild-blueberry-smoothie#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/honey-wild-blueberry-smoothie#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/honey-wild-blueberry-smoothie"
+}

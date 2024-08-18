@@ -1,0 +1,409 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/12194-field-day-poundcake#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/12194-field-day-poundcake",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2017/02/20/dining/20COOKING-FIELDDAY-POUNDCAKE2/20COOKING-FIELDDAY-POUNDCAKE2-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/12194-field-day-poundcake",
+    "name": "Field Day Poundcake",
+    "description": "Every cook needs a go-to poundcake recipe, and this one, adapted from Denise Moseley of Houston, is just that. It's nothing fancy – just butter, flour, sugar, eggs, vanilla, heavy cream and salt – but the result is equally befitting a school bake sale or a fancy dinner party. By definition, it is a true poundcake (it calls for a full pound of butter), yet despite its richness, it is still remarkably light and tender. For better or worse, it's the sort of cake you wouldn't mind snacking on all day. (A few tips: Be sure to butter and flour the pan meticulously, and let the cake cool for a full 10 minutes before unmolding it from the pan. Also, do take time to stir the flour in by hand until just combined. This ensures a tender, delicate crumb. Lastly, if you're the type of person who sprinkles salt on their chocolate chip cookies before baking, consider adding an extra pinch or two of salt to the batter.)",
+    "author": {
+        "@type": "Person",
+        "name": "Jennifer Steinhauer"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2017/02/20/dining/20COOKING-FIELDDAY-POUNDCAKE2/20COOKING-FIELDDAY-POUNDCAKE2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/02/20/dining/20COOKING-FIELDDAY-POUNDCAKE2/20COOKING-FIELDDAY-POUNDCAKE2-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/02/20/dining/20COOKING-FIELDDAY-POUNDCAKE2/20COOKING-FIELDDAY-POUNDCAKE2-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/02/20/dining/20COOKING-FIELDDAY-POUNDCAKE2/20COOKING-FIELDDAY-POUNDCAKE2-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H45M",
+    "recipeYield": "1 large Bundt cake or 2 loaf cakes",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "butter, flour, pound cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1690
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 317,
+        "unsaturatedFatContent": "6 grams",
+        "carbohydrateContent": "38 grams",
+        "cholesterolContent": null,
+        "fatContent": "18 grams",
+        "fiberContent": "0 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "11 grams",
+        "sodiumContent": "118 milligrams",
+        "sugarContent": "25 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "453 grams (2 cups) unsalted butter, at room temperature, plus more to grease the pans",
+        "600 grams (3 cups) granulated sugar",
+        "6 large eggs, at room temperature",
+        "2 teaspoons vanilla extract",
+        "1 teaspoon fine sea salt",
+        "383 grams (3 cups) cake flour",
+        "1/4 cup heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 325 degrees. Generously butter and flour one 12-cup Bundt pan or two 8.5-inch-by-4.5-inch loaf pans, and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Using an electric mixer or by hand, cream together the remaining butter and sugar. Add the eggs 1 at a time, beating well after each addition. Beat in the vanilla and salt."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Gently stir in the flour by hand, adding it very gradually; this will help to keep the cake tender. Add the cream and stir just until thoroughly combined."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pour the batter into the pan or pans and smooth the top. Bake until a toothpick inserted in the center comes out clean, about 1 hour and 15 minutes. Cool in the pan for 10 minutes, then turn the cake out onto a rack to cool completely."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name"
+            },
+            "reviewBody": "I made a simple glaze out of confectioners sugar, lemon juice, lemon zest, and a hint of cardamom. Delicious.",
+            "datePublished": "2024-02-16T02:36:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark T"
+            },
+            "reviewBody": "Everyone is correct, this is the best poundcake (I think I’ve tried 3 recipes). I’ve been baking almost weekly since mid-2020 and my best friend said this was in the top 3 of things I’ve baked. I did make it lemon-y as someone else suggested, by adding zest of a small lemon (rubbed into the sugar), and adding 2 tsps lemon juice (omitting one of the tsps of vanilla), and it tastes very similar to the lemon cake from my favorite bakery in NYC which sadly closed during the pandemic, Padoca.",
+            "datePublished": "2024-01-20T02:46:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Jacobsen"
+            },
+            "reviewBody": "The best pound cake ever! I used a Bundt pan, but next time will try two loaf pans, and freeze one.delicious with coffee, tea or champagne…why not!",
+            "datePublished": "2023-12-30T21:12:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dorothy"
+            },
+            "reviewBody": "This cake was beautiful, but like others have noted, too sweet. Also, and I never thought I would say this as I LOVE butter, but I found the taste of butter to be overpowering. (I understand that some may consider this a selling point).",
+            "datePublished": "2023-09-10T19:06:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Silke"
+            },
+            "reviewBody": "Chill a tin after buttering and flouring it. The logic being that the cooled butter sets were you applied it and won’t slide down the tin when adding the dough.\nMaybe this really does the trick or maybe the non stick coating of my relatively new Bundt pan still works, yet, after following all the advice given here, my cake effortlessly slid out of its pan.\nThe recipe itself is extraordinary, it produces an outstanding cake that does not need any extra frills. Keep to the measurements!",
+            "datePublished": "2023-07-28T21:44:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LL"
+            },
+            "reviewBody": "Moist cake. Lovely crust. We loved this.",
+            "datePublished": "2023-03-05T16:05:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "My son says this is the best pound cake ever. That said it stuck badly. Definitely a delicious mess! Next time I’ll bake it in two loaf pans with parchment slings so I can take it out in one piece. Today’s project is lemon curd to go with the intact bottom half",
+            "datePublished": "2023-02-10T16:32:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ken"
+            },
+            "reviewBody": "Following this recipe the way it is written and with the ingredients listed, resulted in a \"ton\" cake that was barely edible. Tough exterior and heavy interior without a trace of any lightness.\nThe flour should be pre-sifted with at least a teaspoon of baking powder first.\nPlain whole milk is fine, too - why add cream to a pound of butter?",
+            "datePublished": "2023-01-29T17:23:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mj cleary"
+            },
+            "reviewBody": "I had never made a real pound-cake before. Now I don’t know how I’m going to stop.  I didn’t have cake flour so I used 333g of all purpose flour and 50 g of tapioca flour sifted together. Also, I forgot to add the quarter cup of heavy cream at the end.\n\nNonetheless, the finished product is frightening in it’s simplicity and deliciousness. If you cut a slice, several hours later, the exposed surface will become a little bit stale. How is that somehow even better? (it is).",
+            "datePublished": "2023-01-14T11:21:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "Very disappointing. It's unusual for me to follow a NYT recipe with good reviews and be so unhappy with the result. When I removed it from the oven, it was swimming in melted butter and I had to pour it off the top. It tasted okay but the ratios are just wrong. I went back and looked an an old favorite pound cake, Bishop's Cake from the Silver Palate.  It has 1/2 pound of butter, 2 cups of sugar and flour, 5 eggs, 1 tsp of vanilla extract and 1T. fresh lemon juice.  So much better.",
+            "datePublished": "2022-12-30T02:24:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol Warden"
+            },
+            "reviewBody": "I went for half the recipe just to cut down on volume but forgot to halve the 1/4 cup heavy cream. It turned out to be delicious!",
+            "datePublished": "2022-12-22T04:23:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sarah k"
+            },
+            "reviewBody": "Remember to flour the pan!\n\nI substituted a cup of flour for almond flour and made “cake flour” with cornstarch and flour (remember to do the ratio for each cup of flour) and MIX all the flours together before pouring in. \n\nToo sweet. Only needs 2 cups of sugar!! \n\nAlso substituted yogurt and milk for heavy cream \n\nGood with strawberries and whipped cream on top \nand could also be good with lemon zest and juice mixed in the batter",
+            "datePublished": "2022-11-06T16:47:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lfb"
+            },
+            "reviewBody": "I make this pound cake in loaf pans every two weeks for my son-in-law who loves it!  I do modify it somewhat in that I use 2&1/2 cups of sugar instead of 3 cups. The advise to butter the pans generously and flour them is essential, I tried the baking spray shortcut and it was a mess. I never have cake flour on had so I substitute 1/3 cup of the flour with 1/3 cup of cornstarch & I cream the butter and sugar together for 5 minutes before adding the eggs as air is the only leavener.",
+            "datePublished": "2022-08-12T16:20:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "christina"
+            },
+            "reviewBody": "I thought these were a little bit too dry I’m not really sure why but I think 25 minutes in the oven is too much\n\nIf you want to make mini cupcakes they bake for about 10 minutes",
+            "datePublished": "2022-04-11T16:15:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "WhoDey!!!"
+            },
+            "reviewBody": "Cut the sugar in half, & thought it was a little dry. (& not too sweet - which was a good thing.) Made to accompany some homemade apricot preserves, so it was OK in the end. Used 1/4 cup rum in the sauce because I was afraid the  1/2 cup others suggested would be too much for my tastes. It could have used 1/2 cup. Also recommend making larger holes for the glaze to penetrate the cake. Everybody else LOVED it.",
+            "datePublished": "2022-03-31T04:40:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Francine Ryan"
+            },
+            "reviewBody": "BEWARE! This is the best pound cake recipe ever, but the pan(s) MUST be floured after they are buttered, or the cake will stick and will have to be pried out of the pan, making a delicious mess.",
+            "datePublished": "2017-10-24T18:34:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Staff Editor"
+            },
+            "reviewBody": "I made this in two loaf pans, and it was absolutely delicious. Tender, buttery and not too heavy. A big hit at home and at the office. As Francine said below, be sure to butter and flour the living daylight out of the pan (if you're using loaf pans, I'd line with a parchment sling), and let the cake cool considerably before unmolding.",
+            "datePublished": "2017-10-24T17:36:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SheraM"
+            },
+            "reviewBody": "I used my Uncle Al's pan coaster recipe to coat my stoneware bundt pan and it came out perfectly. Melt 1 stick of butter, add one half cup light olive oil and whisk in one cup of flour in a small pot on low heat until it is all incorporated. Store in the refrigerator and use to coat pans. I heat it about 30 seconds in the microwave before using. Use a silicone brush. Hasn't failed me yet. ",
+            "datePublished": "2017-10-01T15:19:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "idalu"
+            },
+            "reviewBody": "I read comments before making and verdict is: very good but one must make some changes. I reduced the sugar to 1.5 cup and it was plenty sweet for me. I also added 2 teaspoons grand marnier and a dash more heavy creme and after 1h15, voila.",
+            "datePublished": "2017-10-01T13:59:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia Barcomi"
+            },
+            "reviewBody": "I am a cookbook author living in Berlin.  I calculate 140g flour per cup, 200g sugar per cup of sugar. A true pound cake is always based on the weight of the eggs.  In this case, a medium egg usually weighs 50g. To keep the relation of the ingredients in a \"classic pound cake\" balance, one would use 450g each of butter, flour, sugar and 5 eggs.<br/>Hope this helps.<br/>Best, Cynthia",
+            "datePublished": "2017-10-01T14:46:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "If using all-purpose flour rather than cake flour, substitute 25% of the flour, by weight, with cornstarch.  Doing so reduces gluten formation and makes for a delicate and delicious crumb.",
+            "datePublished": "2018-04-09T22:34:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Zev Noach Granowitz"
+            },
+            "reviewBody": "Be sure to butter and flour the pan meticulously, and let the cake cool for a full 10 minutes before unmolding it from the pan. Also, do take time to stir the flour in by hand until just combined. This ensures a tender, delicate crumb.<br/>The pan(s) MUST be floured after they are buttered, or the cake will stick and will have to be pried out of the pan, making a delicious mess.",
+            "datePublished": "2017-10-24T17:43:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jamie"
+            },
+            "reviewBody": "This was very delicious and t's definitely sweet. I found it was even better two days after I baked it. Also, when it says the cake is done once the toothpick comes out clean, don't wait till it's overdone.  A few crumb pieces don't constitute underbaked.",
+            "datePublished": "2017-10-01T13:51:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "christa1"
+            },
+            "reviewBody": "I have made this cake in 2 loaf pans 3 times and it is the best pound cake recipe I have ever made. I added lemon zest & juice to one & it came out very delicious. I also tried it with chai spice - also a winner. So good it’s dangerous!",
+            "datePublished": "2017-10-09T00:00:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Staff Editor"
+            },
+            "reviewBody": "Rose, mine came out just around the 1 hour 10 minute mark, but I'd start checking at 50 minutes. So much of it depends on your oven.",
+            "datePublished": "2017-10-24T17:26:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Staff Editor"
+            },
+            "reviewBody": "Hi there! We recalculated the weights for the cake flour, and using our methodology, it should be 383 grams. We've updated the recipe accordingly. Thanks for flagging!",
+            "datePublished": "2017-10-01T16:02:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mitchell"
+            },
+            "reviewBody": "The first time l made this l made a full recipe,  one in a  6.5 Kaiser non-stick bundt pan, and the other in a loaf pan. The second time l halved the recipe and used only a loaf pan. lt halves perfectly, tasted exactly like the first time with full recipe. l was out of cream, and used -- mea culpa -- vanilla yoghurt -- but it did not affect the delicious taste at all.",
+            "datePublished": "2017-10-23T13:09:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Renee"
+            },
+            "reviewBody": "Too sweet! I conservatively reduced the sugar to 2.5 cups, which was not enough. Otherwise it's phenomenal. It's such an expensive cake to mess with the ingredients but I'll reduce another half cup sugar next time and hope for the best.",
+            "datePublished": "2017-10-01T15:58:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aunticky"
+            },
+            "reviewBody": "Yeah, I thought a true pound cake was 1 pound each of flour, sugar, and butter but this recipe calls for 30% more sugar.",
+            "datePublished": "2017-10-04T15:54:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Becky"
+            },
+            "reviewBody": "This is a great stable cake!  I have made the recipe halved in a loaf pan.  This always takes longer to cook than the 1 hr 15 min.",
+            "datePublished": "2017-10-01T14:19:46.000Z"
+        }
+    ]
+}

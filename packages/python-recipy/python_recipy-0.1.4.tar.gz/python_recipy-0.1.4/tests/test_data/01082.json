@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cucumber-And-Onion Dip",
+    "datePublished": "2023-07-22T11:06:54.792-04:00",
+    "dateModified": "2023-07-22T11:06:54.792-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Melissa Gray",
+            "url": "https://www.southernliving.com/author/melissa-gray"
+        }
+    ],
+    "description": "Try our fresh take on a chip dip: Cucumber-And-Onion Dip. It can be made up to three days in advance so you can focus on the rest of the party menu.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/4rid3t4Cr6Sin6lDFgXHJBNWQks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/27496_MkitEasy_DIGI_46_preview_scale_100_ppi_150_quality_100-3afad684f9c540f9942caebd8f127b65.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Cucumber-And-Onion Dip",
+    "keywords": "cucumber and onion dip",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 1/2 cups sour cream ",
+        "1 cup peeled, chopped English cucumber (from 1 medium [9 1/2 oz.] cucumber), plus more for garnish",
+        "1/2 cup mayonnaise",
+        "1/4 cup chopped red onion (from 1 small [5 oz.] onion), plus more for garnish",
+        "2 tsp. ranch dressing mix (from 1 [1-oz.] envelope)",
+        "1/4 tsp. kosher salt",
+        "1/4 tsp. black pepper",
+        "Chopped fresh flat-leaf parsley",
+        "Wavy potato chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together sour cream, cucumber, mayonnaise, red onion, ranch dressing mix, salt, and pepper in bowl until well combined. Cover, and refrigerate at least 30 minutes or up to 36 hours. Garnish with parsley, cucumber, and red onion; serve with chips."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/cucumber-and-onion-dip-7556360",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish",
+                        "name": "Dish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish/dips",
+                        "name": "Dips"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/cucumber-and-onion-dip-7556360",
+                        "name": "Cucumber-And-Onion Dip"
+                    }
+                }
+            ]
+        }
+    }
+}

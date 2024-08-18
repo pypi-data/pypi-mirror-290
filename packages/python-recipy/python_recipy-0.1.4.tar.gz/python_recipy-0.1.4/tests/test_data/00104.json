@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Air Fried &quot;Hash Brown&quot; Potatoes",
+    "author": "Tom G",
+    "cookTime": "PT18M",
+    "prepTime": "PT5M",
+    "totalTime": "PT23M",
+    "datePublished": "2017-01-30T16:52Z",
+    "description": "A healthier way to enjoy the incredibly delicious side dish.  Very easy and quick and packed with flavor.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/53/01/60/cYVBRwafRpO1PUjSUntW_28116433-F9F3-4EB0-B9FB-5AA3185CEA70.jpeg",
+    "recipeCategory": "< 30 Mins",
+    "keywords": "Easy",
+    "recipeIngredient": [
+        "2   medium    potatoes",
+        "2      generous sprays with cooking spray",
+        "3/4  teaspoon    seasoning salt"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "7"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "164",
+        "fatContent": "0.2",
+        "saturatedFatContent": "0.1",
+        "cholesterolContent": "0",
+        "sodiumContent": "12.8",
+        "carbohydrateContent": "37.2",
+        "fiberContent": "4.7",
+        "sugarContent": "1.7",
+        "proteinContent": "4.3"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cut potatoes in small cubes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place diced potatoes in a bowl and spray with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add seasoning salt of your choice, toss to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread in air fryer basket."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Set air fryer to French fry setting and cook them until crispy, stir halfway through."
+        }
+    ],
+    "recipeYield": "2 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "This is a good base recipe. I make these using 8 oz. of baby red potatoes cut in half, with 1/2 tsp each salt, onion powder, garlic powder, and paprika. Mix together with 1 tbsp melted butter and air fry in a preheated 400 degree basket for 10 minutes, shaking half way through. Serves 2. So good.",
+            "datePublished": "June 08, 2022",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Air Fried &quot;Hash Brown&quot; Potatoes"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "Sue G."
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

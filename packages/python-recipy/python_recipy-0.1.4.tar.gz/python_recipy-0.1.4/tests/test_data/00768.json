@@ -1,0 +1,411 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024575-banh-mi#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024575-banh-mi",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/09/10/magazine/10EATrex-banh-mi/10mag-Eat-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024575-banh-mi",
+    "name": "Bánh Mì",
+    "description": "Bánh mì are, frankly, perfect sandwiches. From the baguettes (“bánh mì” literally translates to bread) to the fillings, they leave room for endless variation while remaining entirely distinct as a complete, complex Vietnamese dish. For this recipe, pork is the star: Following a brief marinade, the meat is broiled, then stuffed in a warm baguette alongside pickles, mayo, butter and a sprinkling of herbs. Ideally, it’s worth picking up the baguettes and butter from your local Vietnamese bakery or bánh mì shop (just ask; they’ll likely sell some to you). Both the pork and the pickles can be made ahead of time. Any extra cooked pork shoulder would serve as delicious leftovers when reheated alongside rice and eggs, or tossed between noodles, or folded into yet another bánh mì. Any extra pickles will hold in the fridge for several weeks — and are endlessly adaptable for later meals.",
+    "author": {
+        "@type": "Person",
+        "name": "Bryan Washington"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/09/10/magazine/10EATrex-banh-mi/10mag-Eat-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/10/magazine/10EATrex-banh-mi/10mag-Eat-superJumbo.jpg",
+            "height": 1541,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/10/magazine/10EATrex-banh-mi/10mag-Eat-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/10/magazine/10EATrex-banh-mi/10mag-Eat-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT2H45M",
+    "totalTime": "PT3H",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "vietnamese",
+    "recipeCategory": [],
+    "keywords": "baguette, boneless pork shoulder, carrot, cilantro, daikon, lemongrass, plan-ahead",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 231
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 1761,
+        "unsaturatedFatContent": "41 grams",
+        "carbohydrateContent": "212 grams",
+        "cholesterolContent": null,
+        "fatContent": "70 grams",
+        "fiberContent": "10 grams",
+        "proteinContent": "70 grams",
+        "saturatedFatContent": "23 grams",
+        "sodiumContent": "3167 milligrams",
+        "sugarContent": "57 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 1/2 pounds boneless pork shoulder",
+        "1/4 cup granulated sugar",
+        "1 medium shallot, minced (about 3 tablespoons)",
+        "8 garlic cloves, minced",
+        "2 tablespoons minced fresh lemongrass (from tender inner portion of about 2 stalks)",
+        "2 tablespoons fish sauce",
+        "1 tablespoon soy sauce",
+        "1 tablespoon oyster sauce",
+        "1 tablespoon neutral oil",
+        "1 medium daikon radish (12 to 14 ounces)",
+        "1 medium carrot",
+        "1 teaspoon salt",
+        "3/4 cup white vinegar",
+        "1/2 cup granulated sugar",
+        "4 bánh mì (Vietnamese baguettes; see Tip), warmed",
+        "1/4 cup mayonnaise",
+        "1/4 cup unsalted butter, at room temperature",
+        "1 medium or 2 small seedless cucumbers, thinly sliced on a diagonal",
+        "4 fried eggs (optional)",
+        "Seasoning sauce (optional), such as Maggi",
+        "Cilantro, to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the pork: On a cutting board, cut pork into 2- to 3-inch chunks, then thinly slice them."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium bowl, combine sugar, shallot, garlic, lemongrass, fish sauce, soy sauce and oyster sauce; mix well. Add pork slices and turn to coat. Cover and marinate, refrigerated, for at least 2 hours or up to overnight."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the pork is marinating, prepare the pickles: Peel daikon and carrot, then cut each into 1/8-inch-thick matchsticks. In a medium bowl, toss vegetables with the salt. Let stand for 30 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a liquid measuring cup or small bowl, stir together vinegar, sugar and 1/2 cup warm water until completely dissolved,"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Rinse salted vegetables thoroughly under running water, then squeeze to remove excess moisture. Transfer vegetables back to the same bowl (or to a jar if not using right away). Pour vinegar mixture over vegetables to cover them entirely and let the vegetables pickle for another 30 minutes, then either drain them to use immediately or cover and refrigerate for up to 1 month (or until the pickles lose their firmness)."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When ready to cook the pork, arrange one oven rack 4 to 6 inches from the broiler and another in the center of the oven. Heat oven to 375 degrees. Remove pork from marinade and pat dry. Set pork on a sheet pan lined with aluminum foil, toss with the oil and arrange in a single layer with space between pieces. Roast on center rack until just cooked through, 12 to 15 minutes. Move the pan to the upper rack and broil meat on high until browned and crisp in spots, 3 to 5 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove pork from oven, and let rest for 10 minutes. Meanwhile, slice open warmed baguettes lengthwise. Spread each with mayonnaise and butter, then layer with pickles and cucumber slices."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide cooked pork among the four baguettes. If using fried eggs, add them to each sandwich, then sprinkle with seasoning sauce, if desired, and add cilantro to taste. Serve immediately."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-09-05T00:00:00.000Z",
+    "dateModified": "2023-10-11T21:28:34.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cathy"
+            },
+            "reviewBody": "Excellent and easy to prep ahead leaving just the roast/broil then assemble for the last (30) minutes.  I used pork tenderloin and pickled carrots cucumber cherry tomatoes and jicama,   The roll if you can find/ is great.   I had and used some crusty dinner rolls.  Excellent",
+            "datePublished": "2024-02-11T09:20:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "susan"
+            },
+            "reviewBody": "We grilled a pork tenderloin-super easy- no marinading either.  We had lots of easy to use leftover meat.  We also found the Pate everyone talks about- it added another dimension to the dish that we really loved.  Our family loves these sandwiches- so fresh and flavorful.",
+            "datePublished": "2024-01-13T21:14:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "robert"
+            },
+            "reviewBody": "I don’t miss the pate, but where are the jalapeños!? Absolutely essential.",
+            "datePublished": "2023-12-18T20:01:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Denis"
+            },
+            "reviewBody": "I can’t see how the marinate works without a few tbs of vinegar.",
+            "datePublished": "2023-11-03T13:14:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Genevieve"
+            },
+            "reviewBody": "Added a teaspoon of Chinese five spice to the marinade, turned out fantastic",
+            "datePublished": "2023-10-24T06:06:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie K"
+            },
+            "reviewBody": "I really liked this recipe because all the ingredients were easy to find. Bahn mi is a yummy sandwich.  This recipe is a great way to enjoy at home.  Pate is great to add if you want too. This recipe is easy to follow, but a little adventurous for those who don't cook or just learning.  If issue finding diakon, you can substitute radishes or just use all carrots. The color will get a little pink.",
+            "datePublished": "2023-10-13T21:02:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "molly"
+            },
+            "reviewBody": "very good! i added jalapenos to the pickled veggie mix (they came out quite spicy) and used the marinade on tofu instead of pork. easy to make vegetarian, if you are ok with fish products like i am!",
+            "datePublished": "2023-10-13T21:10:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eric M"
+            },
+            "reviewBody": "I made 2 times this with boneless, skinless chicken thighs instead of pork and it was excellent.  I cut each thigh into 3 pieces. The second time I left the sauce on instead of blotting it off and just cooked and broiled longer to account for evaporation. It was even tastier this way.  I served over rice with the pickled veggies. Will add this to my regular line up.",
+            "datePublished": "2023-10-01T14:01:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anita"
+            },
+            "reviewBody": "The nutrition on this recipe seems to be for the entire 4 portions.",
+            "datePublished": "2023-09-21T16:34:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carlos Maglutac"
+            },
+            "reviewBody": "My experience with Banh Mi in Saigon and in Manila includes the use of Hoi Sin sauce, or Kecap Manis rather than Maggi seasoning but the beauty of Banh Mi is the endless array of combinations",
+            "datePublished": "2023-09-26T00:08:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jon"
+            },
+            "reviewBody": "If you're OK with a little heat, use *very* thin jalapeno slices to gild the lily.  :)\n\nCaution: Use sparingly, or they will overpower other flavors.",
+            "datePublished": "2023-09-21T17:43:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bill"
+            },
+            "reviewBody": "Jicama is a decent sub for daikon.",
+            "datePublished": "2023-09-20T15:37:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Al B."
+            },
+            "reviewBody": "Are you trimming off the ends? \nI've read that they contain chemicals that can turn pickles mushy.",
+            "datePublished": "2024-02-12T18:48:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mimi"
+            },
+            "reviewBody": "I’m not sure what the chemical reaction is, but whenever I make or buy pickles like these, they are very smelly. They’re still delicious, but be warned. And of course, what is smelly to me, may not be smelly to you.",
+            "datePublished": "2023-09-20T02:55:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Puddleglum"
+            },
+            "reviewBody": "I found that boiling counteracted the flavor of the marinade, so I mutinously did a sauté with a finish in the oven. \n\nI found Teresa's comment confusing: \"Most b. mi use agile, not mayo.\" Aoli is mayonnaise, just with garlic.",
+            "datePublished": "2023-09-14T01:24:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jay"
+            },
+            "reviewBody": "Adding Chinese 5 spice to the pork makes a world of difference. Also, Nam Pang in NYC (which uses 5 spice in theirs) makes the best pork bánh mì i've ever had",
+            "datePublished": "2023-09-12T23:30:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Terese"
+            },
+            "reviewBody": "I find the pate makes the sandwich. The tinned meat is fairly readily available and should not be skipped. Also, most Bahn mi uses aoli not mayo.",
+            "datePublished": "2023-09-06T13:16:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff B"
+            },
+            "reviewBody": "Vietnamese baguettes don't have 'softer' crust, but thinner and crackly with a light airy crumb. A Mexican bolillo roll would make a pretty good substitute. Both are made with a similar technique of adding a pan of hot water to the bottom rack of the oven to add moisture to the oven; this creates the thin crispy crust and soft light crumb inside.",
+            "datePublished": "2023-09-08T19:56:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia"
+            },
+            "reviewBody": "Bahn Mi make me want to cry. The most perfect sandwich in the world. A colleague once noted, “there’s a lot happening between two slices of bread.”",
+            "datePublished": "2023-09-08T02:48:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lynn"
+            },
+            "reviewBody": "Almond butter mixed with mayo and a little soy sauce \nmakes a spreadable sauce that is a pretty good substitute for the pate.",
+            "datePublished": "2023-09-10T14:32:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hannah"
+            },
+            "reviewBody": "If you want to make your own (and have a mixer), this is a good recipe:\n<a href=\"https://tastylittledumpling.com/vietnamese-baguette-recipe\" target=\"_blank\">https://tastylittledumpling.com/vietnamese-baguette-recipe</a>/",
+            "datePublished": "2023-09-09T17:59:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt D"
+            },
+            "reviewBody": "No paté? No thanks!",
+            "datePublished": "2023-09-10T19:18:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jess"
+            },
+            "reviewBody": "If I don't have daikon (or sometimes in addition), I use a white onion for the pickles.",
+            "datePublished": "2023-09-06T18:43:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jo"
+            },
+            "reviewBody": "\"On the Rise\" or as I call it \"On My Thighs\" is  a bakery in Cleveland Heights, Ohio where Bahn Mi is offered with pate or tofu. The daikon and carrot pickles with fresh cilantro on their crusty baguette with the seasoned tofu are perfection as are the rest of their breads and pastries. No oyster sauce, no mayo, just delicious and vegan.",
+            "datePublished": "2023-09-11T12:43:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth"
+            },
+            "reviewBody": "Spoiler alert - I'm vegetarian. But I adore banh mi and will approximate this with a meat substitute (and obv, no fish or oyster sauces). I am going to make this.",
+            "datePublished": "2023-09-09T21:24:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "robert"
+            },
+            "reviewBody": "I don’t miss the pate, but where are the jalapeños!? Absolutely essential.",
+            "datePublished": "2023-12-18T20:01:42.000Z"
+        }
+    ]
+}

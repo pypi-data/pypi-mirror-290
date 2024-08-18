@@ -1,0 +1,55 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/spiced-lemonade/",
+    "name": "Spiced Lemonade",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps3742_CS0706C16.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "Serve this drink over ice in summer or warmed in winter - it's always refreshing. If you have a cold, a warm mug of spiced lemonade will make you feel <I>much</I> better. And when you're feeling great, it'll quench a big thirst, too!",
+    "recipeIngredient": [
+        "6 cups water, divided",
+        "3/4 cup sugar",
+        "2 cinnamon sticks",
+        "6 whole cloves",
+        "1 large lime, thinly sliced",
+        "1 lemon, thinly sliced",
+        "3/4 cup lemon juice",
+        "Ice cubes",
+        "Additional cinnamon sticks, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, bring 4 cups water, sugar, cinnamon and cloves to a boil. Reduce heat; simmer 10 minutes. Remove from heat; discard cinnamon and cloves. Cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour into a large pitcher. Stir in lime, lemon, lemon juice and remaining water. Chill at least 1 hour. Serve in chilled glass over ice. Garnish with cinnamon stick if desired. Can also be served warm."
+        }
+    ],
+    "recipeYield": "about 2 quarts.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 66 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "1mg sodium",
+        "carbohydrateContent": "18g carbohydrate (15g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein. "
+    }
+}

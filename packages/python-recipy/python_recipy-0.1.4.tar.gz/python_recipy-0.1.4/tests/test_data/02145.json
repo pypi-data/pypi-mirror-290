@@ -1,0 +1,114 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "The Singapore Sling Recipe",
+    "datePublished": "2011-04-08T12:30:00.000-04:00",
+    "dateModified": "2019-02-11T14:57:15.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Paul Clarke",
+            "url": "https://www.seriouseats.com/paul-clarke-5118946"
+        }
+    ],
+    "description": "Fresh and delicious, the best Sling brings together gin, cherry heering, Benedictine, and lime.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/j0UpK2ksRZ7KX13W-GJmTYUTgFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20110408singaporeslingprimary-363a3c207f224c9299df936df924fda4.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "The Singapore Sling Recipe",
+    "keywords": "cherry heering, gin, Singapore sling",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "201 kcal",
+        "carbohydrateContent": "22 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "7 mg",
+        "sugarContent": "14 g",
+        "fatContent": "0 g",
+        "servingSize": "1",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Asian"
+    ],
+    "recipeIngredient": [
+        "ice",
+        "1 ounce gin (Tanqueray or Beefeater recommended)",
+        "1 ounce fresh lime juice",
+        "1 ounce Cherry Heering or Bols Cherry Brandy",
+        "1 ounce Benedictine (optional)",
+        "chilled club soda",
+        "3 dashes Angostura bitters",
+        "optional: pineapple spear, cherry, and/or orange slice for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine gin, lime juice, Cherry Heering, and Benedictine in a Collins glass filled with ice. Top with club soda, and dash bitters into the drink. Garnish with a pineapple spear, cherry, orange slice or nothing at all."
+        }
+    ],
+    "recipeYield": "1",
+    "totalTime": "PT1M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/the-singapore-sling-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/gin-recipes-5117855",
+                        "name": "Gin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/the-singapore-sling-recipe",
+                        "name": "The Singapore Sling Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

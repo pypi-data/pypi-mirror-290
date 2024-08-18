@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/mascarpone-pineapple-cheesecake#Recipe",
+    "@type": "Recipe",
+    "description": "This clever cheesecake uses crushed oatcakes and desiccated coconut for the base and naturally sweet pineapple for a lower-sugar dessert",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/pineapple-cheesecake-628cb81.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/mascarpone-pineapple-cheesecake"
+    },
+    "name": "Mascarpone & pineapple cheesecake",
+    "url": "https://www.bbcgoodfood.com/recipes/mascarpone-pineapple-cheesecake",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sara Buenfeld",
+            "url": "https://www.bbcgoodfood.com/author/sarabuenfeld"
+        }
+    ],
+    "dateModified": "2022-11-08T14:34:53+00:00",
+    "datePublished": "2015-01-12T16:40:55+00:00",
+    "headline": "Mascarpone & pineapple cheesecake",
+    "keywords": "healthier cheesecake, light cheesecake, Low sugar, low sugar cheesecake, low sugar dessert, no bake, No bake cheesecake, Sara Buenfeld, Winter",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "213 calories",
+        "fatContent": "16 grams fat",
+        "saturatedFatContent": "10 grams saturated fat",
+        "carbohydrateContent": "10 grams carbohydrates",
+        "sugarContent": "5 grams sugar",
+        "fiberContent": "1 grams fiber",
+        "proteinContent": "6 grams protein",
+        "sodiumContent": "0.2 milligram of sodium"
+    },
+    "prepTime": "PT25M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "40g butter",
+        "100g oatcakes , crushed to crumbs",
+        "25g toasted desiccated coconut",
+        "425g can pineapple in natural juice, drained",
+        "5 leaves gelatine",
+        "250g tub reduced fat  mascarpone",
+        "500g tub fromage frais (full fat version)",
+        "160g can coconut cream",
+        "grated zest 0.5 lemon"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt the butter in a pan and stir in the biscuit crumbs and all but 1 tbsp of the coconut. Mix well then press very firmly onto the base of a lightly oiled 21cm spring-form tin to make a firm layer. Chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Finely chop a slice of pineapple then pulse the remainder to a pulp in a food processor or with a hand blender. Soak the gelatine in cold water to soften it. In a bowl beat together the mascarpone and fromage frais."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Very gently warm the coconut cream in a small pan. Squeeze the excess moisture from the gelatine, add to the warm coconut and stir until melted. Stir into the mascarpone mixture with the crushed and chopped pineapple and lemon zest then pour onto the biscuit base and chill until set."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Carefully remove from the tin, slide onto a plate, and decorate with the reserved coconut round the edge."
+        }
+    ],
+    "recipeYield": 12,
+    "totalTime": "PT25M"
+}

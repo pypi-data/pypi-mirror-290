@@ -1,0 +1,83 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "The salty-sweet-sour umeboshi complement the earthy notes in the beets.",
+    "alternativeHeadline": "The salty-sweet-sour pickled umeboshi complement the earthy notes in the beets.",
+    "keywords": [
+        "pickle",
+        "beet",
+        "easy",
+        "side",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "vegan",
+        "vegetarian",
+        "roast",
+        "dinner",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Melissa Hamilton and Christopher Hirsheimer",
+            "sameAs": "https://www.bonappetit.com/contributor/melissa-hamilton and christopher hirsheimer"
+        },
+        {
+            "@type": "Person",
+            "name": "Hirsheimer Hamilton",
+            "sameAs": "https://www.bonappetit.com/contributor/hirsheimer-hamilton"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 9
+    },
+    "description": "The salty-sweet-sour pickled umeboshi complement the earthy notes in the beets.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57adc2b453e63daf11a4de6c/master/w_940,h_671,c_limit/pickled-umeboshi-beets.jpg"
+    ],
+    "headline": "Pickled Umeboshi Beets",
+    "name": "Pickled Umeboshi Beets",
+    "cookTime": "10 minutes",
+    "recipeIngredient": [
+        "3 medium beets (about 1½ lb.)",
+        "8 umeboshi (Japanese pickled plums)",
+        "2–3 tablespoons umeboshi vinegar or unseasoned rice vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 475°. Wrap beets in foil; place on a rimmed baking sheet and roast until tender, 1–1¼ hours. Unwrap; let cool slightly. Remove skin, then cut beets into wedges. Place in a small bowl, add umeboshi and vinegar, and toss to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "DO AHEAD: Beets can be made 5 days ahead. Cover and chill."
+        }
+    ],
+    "totalTime": "1 hour 40 minutes",
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/pickled-umeboshi-beets",
+    "dateModified": "2013-12-17T03:00:03.000-05:00",
+    "datePublished": "2013-12-17T03:00:03.000-05:00",
+    "recipeCategory": []
+}

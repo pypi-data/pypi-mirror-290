@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Lemony Brown-Butter Crinkle Cookies",
+    "datePublished": "2016-09-23T14:48:44.000-04:00",
+    "dateModified": "2020-05-20T14:57:34.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Crinkle cookies are always a delight to look at but the flavor from the lemon and brown-butter flavor will make it a delight to eat too!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/rLRMJ6Pfp8l1NsA4gQnNHhXh1cE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lemony-brown-butter-cookies-0043-hero-d113086_horiz-9bad865e0d1b4d10b8adb7481fe1f3e8.jpgitokOWsoek3X",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Lemony Brown-Butter Crinkle Cookies",
+    "prepTime": "PT35M",
+    "recipeIngredient": [
+        "1 stick unsalted butter",
+        "2.25 cups unbleached all-purpose flour",
+        "0.75 teaspoon baking powder",
+        "0.5 teaspoon ground cinnamon",
+        "0.75 teaspoon kosher salt",
+        "0.5 cup granulated sugar",
+        "0.5 cup dark-brown sugar",
+        "2 large eggs",
+        "1 teaspoon finely grated lemon zest, plus 3 tablespoons fresh juice",
+        "1 teaspoon pure vanilla extract",
+        "0.75 cup confectioners' sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt butter in a saucepan over medium-high. When it boils, reduce heat to medium; simmer until foamy. Continue cooking, stirring occasionally and scraping bottom of pan, until foam subsides, butter turns golden brown with a nutty aroma, and milk solids separate into brown specks that sink to bottom, 2 to 7 minutes. Remove from heat; transfer to a large heatproof bowl and let cool 10 minutes. Meanwhile, whisk together flour, baking powder, cinnamon, and salt in another bowl. Stir granulated and brown sugars into brown butter until combined, then stir in eggs, lemon zest and juice, and vanilla. Add flour mixture; stir until a dough forms. Transfer to a piece of plastic wrap, shape into a disk, and wrap tightly. Refrigerate until firm, at least 1 hour and up to 2 days."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees with racks in upper and lower thirds. Place confectioners&#39; sugar in a bowl. Scoop 1 tablespoon dough and roll into a ball between your palms; toss with confectioners&#39; sugar (do not shake off excess). Transfer to a parchment-lined baking sheet. Repeat with remaining dough and confectioners&#39; sugar, leaving 1 inch between each cookie (you will need 2 baking sheets). Bake, rotating sheets halfway through, until cookies spread slightly, crackle, and are set at edges, 15 to 18 minutes. Let cool on sheets on a wire rack 5 minutes, then carefully transfer to rack; let cool completely. Store in a single layer in an airtight container up to 2 days."
+        }
+    ],
+    "totalTime": "PT115M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1163624/lemony-brown-butter-crinkle-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502264/cookie-recipes",
+                        "name": "Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1163624/lemony-brown-butter-crinkle-cookies",
+                        "name": "Lemony Brown-Butter Crinkle Cookies"
+                    }
+                }
+            ]
+        }
+    }
+}

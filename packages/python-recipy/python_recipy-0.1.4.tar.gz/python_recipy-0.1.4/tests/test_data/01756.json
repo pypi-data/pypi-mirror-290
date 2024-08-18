@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Orecchiette, Sausage and Broccoli Rabe",
+    "url": "https://www.foodnetwork.com/recipes/orecchiette-sausage-and-broccoli-rabe-2109213",
+    "headline": "Orecchiette, Sausage and Broccoli Rabe",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2018-03-15T16:34:24.132-04:00",
+    "dateModified": "2018-03-15T16:34:23.870-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Italian,Sausage Recipes,Vegetable,High Fiber",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT0H30M0.000S",
+    "recipeIngredient": [
+        "1 heaping tablespoon sea salt",
+        "1 pound imported orecchiette pasta",
+        "1 1/2 pounds broccoli rabe, stems cleaned, cut into 1-inch pieces",
+        "3 tablespoons extra-virgin olive oil",
+        "4 cloves garlic, minced",
+        "2 fillets imported salted anchovies, cleaned",
+        "1 teaspoon crushed red pepper",
+        "12 ounces Italian sausage, casing removed",
+        "1/3 cup coarsely shredded ricotta salata"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "592",
+        "fatContent": "28g",
+        "saturatedFatContent": "9g",
+        "carbohydrateContent": "61g",
+        "fiberContent": "6g",
+        "sugarContent": "3g",
+        "proteinContent": "24g",
+        "cholesterolContent": "51mg",
+        "sodiumContent": "628mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of water to a boil over high heat. Once the water has boiled, add the salt and the pasta, being sure to stir the pasta once added. Set the timer for half of the recommended cooking time. When the time is reached, add the rabe and continue to cook for the remaining recommended time. If al dente is desired, take 2 minutes off the total cooking time."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the pasta is cooking, heat the olive oil in a large saute pan over medium heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the oil is shimmering, add the garlic, anchovies and crushed red pepper. Smash with the back of a wooden spoon to make a paste, and cook 1 minute, being sure not to burn the garlic. Add the sausage meat to the pan and break into small pieces. Cover the pan and adjust the heat to medium-low, being sure to stir frequently."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the pasta and rabe, reserving 1 cup of water used to cook the pasta."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the pasta and rabe to the pan and cook an additional minute, adding pasta water to the sauce if the pan is dry, 1/4 cup at a time. Turn off the heat and add half of the cheese stirring to incorporate, saving the remaining cheese to add once the pasta has been plated."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 3
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Virnamd1"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This recipe is so easy and satisfying. I used anchovy paste instead of fillets and highly recommended you do not skip this step. Will definitely make this again "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marjorie W."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Excellent recipe!  The addition of the anchovies adds an added depth of flavor and I really liked the ricotta salada instead of the usual Parmesan. Will definitely make again. "
+        }
+    ],
+    "recipeCuisine": "italian",
+    "recipeCategory": []
+}

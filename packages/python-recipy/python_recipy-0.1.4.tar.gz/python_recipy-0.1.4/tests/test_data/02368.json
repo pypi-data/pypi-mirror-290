@@ -1,0 +1,69 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Huevos Rancheros Casserole",
+    "keywords": "huevos rancheros casserole",
+    "recipeCategory": "Breakfast",
+    "recipeCuisine": "Mexican",
+    "image": "https://mojo.generalmills.com/api/public/content/lyNB1x4JRUGrB7h9KMWLtQ_webp_base.webp?v=64239e1d&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Cheese, chorizo, chiles and chunky salsa layer into a yummy casserole.",
+    "recipeIngredient": [
+        "5  corn tortillas (6 inch)",
+        "1 1/2  cups finely shredded colby-Monterey Jack cheese blend (6 oz)",
+        "1/2  lb smoked cooked chorizo sausage, coarsely chopped",
+        "1  can (4 oz) Old El Paso™ Chopped Green Chiles",
+        "6  eggs",
+        "1/2  cup milk",
+        "1/2  teaspoon dried oregano leaves",
+        "1/8  teaspoon ground red pepper (cayenne)",
+        "  Thick & chunky salsa"
+    ],
+    "totalTime": "PT9H10M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "36",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spray 8-inch square (2-quart) glass baking dish with nonstick cooking spray. Place 4 of the tortillas in bottom of sprayed baking dish, overlapping as necessary, about 1/2 to 1 inch up sides. Cut remaining tortilla in half; cut into 1/2-inch-wide strips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle 1/2 cup of the cheese over tortillas in baking dish. Top with chorizo, chiles and 1/2 cup cheese. Arrange tortilla strips over cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, combine eggs, milk, oregano and ground red pepper; beat well. Pour over mixture in baking dish. Sprinkle with remaining 1/2 cup cheese; press lightly into egg mixture. Cover with foil. Refrigerate at least 8 hours or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Bake covered casserole for 30 minutes. Uncover; bake 15 to 20 minutes longer or until knife inserted in center comes out clean. Let stand 5 minutes before serving. Cut into squares. Serve with salsa."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "390 ",
+        "carbohydrateContent": "16 g",
+        "cholesterolContent": "265 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "23 g",
+        "saturatedFatContent": "11 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "920 mg",
+        "sugarContent": "3 g"
+    },
+    "dateCreated": "08/07/2003",
+    "dateModified": "10/01/2010"
+}

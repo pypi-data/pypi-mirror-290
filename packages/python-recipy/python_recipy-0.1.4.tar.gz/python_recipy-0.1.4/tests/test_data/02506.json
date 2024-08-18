@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Blueberry-Buttermilk Scones",
+    "datePublished": "2010-12-03T06:19:21.000-05:00",
+    "dateModified": "2017-06-12T14:00:53.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "The secret to making delicate scones is handling the dough as little as possible. Another tip: If you don&#39;t have buttermilk, you can substitute 1/2 cup plain yogurt whisked with 2 tablespoons milk.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/wrkJvnkm0EkwqeSGUCFpqBYLeiA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mld104491_0609_blueber_scone_vert-c68dc0f8cec4446caa3b2ea216acf961.jpgitokEgEhmRN1",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Blueberry-Buttermilk Scones",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.6",
+        "ratingCount": "307"
+    },
+    "keywords": "Blueberries, Breakfast, Brunch, Buttermilk, Scones",
+    "recipeIngredient": [
+        "1.5 cups all-purpose flour",
+        "0.5 cup cake flour, (not self-rising)",
+        "3 tablespoons granulated sugar",
+        "2.5 teaspoons baking powder",
+        "0.75 teaspoon salt",
+        "4 ounces (1 stick) cold unsalted butter, cut into small pieces",
+        "1 cup (½ pint) blueberries",
+        "0.5 cup low-fat buttermilk",
+        "1 large egg, plus 1 large egg lightly beaten for egg wash",
+        "0.5 teaspoon pure vanilla extract",
+        "Fine sanding sugar, for sprinkling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees. Line a baking sheet with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together flours, granulated sugar, baking powder, and salt in a large bowl. Cut in butter with a pastry cutter, or rub in with your fingers, until mixture has the texture of coarse meal. Stir in blueberries."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together buttermilk, 1 egg, and the vanilla. Drizzle over flour mixture, and stir lightly with a fork until dough comes together but a small amount of flour remains in bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn out dough onto a work surface, and gently knead dough once or twice just to incorporate flour. Pat dough into a 1-inch-thick round. Cut into 12 wedges. Transfer to prepared baking sheet. Brush with egg wash, and sprinkle with sanding sugar. Bake until golden brown and cooked through, about 22 minutes. Transfer scones to wire racks to cool."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/314281/blueberry-buttermilk-scones",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502328/breakfast-recipes",
+                        "name": "Breakfast & Brunch Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502326/bread-muffin-recipes",
+                        "name": "Bread Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/314281/blueberry-buttermilk-scones",
+                        "name": "Blueberry-Buttermilk Scones"
+                    }
+                }
+            ]
+        }
+    }
+}

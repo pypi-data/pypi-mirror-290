@@ -1,0 +1,139 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Creamy Spinach Sweet Potato Noodles with Cashew Sauce",
+    "description": "Creamy Spinach and Sweet Potato Noodles with Cashew Sauce - easy to make, adaptable, gluten free, vegan. Divine and delicious!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "sweet potato noodles, healthy recipe, spinach and sweet potatoes, vegan noodle recipe, vegan recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Sweet-Potato-Noodles-with-Cashew-Sauce-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sweet-Potato-Noodles-with-Cashew-Sauce-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sweet-Potato-Noodles-with-Cashew-Sauce-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sweet-Potato-Noodles-with-Cashew-Sauce-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/sweet-potato-noodles",
+    "recipeIngredient": [
+        "1 cup cashews",
+        "3/4 cup water (more for soaking)",
+        "1/2 teaspoon salt",
+        "1 clove garlic",
+        "1 tablespoon oil",
+        "4 large sweet potatoes, spiralized",
+        "2 cups baby spinach",
+        "a handful of fresh basil leaves, chives, or other herbs",
+        "salt and pepper to taste",
+        "olive oil for drizzling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cover the cashews with water in a bowl and soak for 2 hours or so.",
+            "url": "https://pinchofyum.com/sweet-potato-noodles#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain and rinse thoroughly. Place in a food processor or blender (I got better texture with the blender) and add the 3/4 cup water, salt, and garlic. Puree until very smooth.",
+            "url": "https://pinchofyum.com/sweet-potato-noodles#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a large skillet over high heat. Add the sweet potatoes; toss in the pan for 6-7 minutes with tongs until tender-crisp. Remove from heat and toss in the spinach &#8211; it should wilt pretty quickly.",
+            "url": "https://pinchofyum.com/sweet-potato-noodles#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add half of the herbs and half of the sauce to the pan and toss to combine. Add water if the mixture is too sticky. Season generously with salt and pepper, drizzle with olive oil, and top with the remaining fresh herbs.",
+            "url": "https://pinchofyum.com/sweet-potato-noodles#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "recipeYield": [
+        "4",
+        "4-6"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "96",
+        "ratingValue": "4.4"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "307 calories",
+        "sugarContent": "5.9 g",
+        "sodiumContent": "255.2 mg",
+        "fatContent": "19 g",
+        "saturatedFatContent": "3.3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "29.4 g",
+        "fiberContent": "4.1 g",
+        "proteinContent": "8.6 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Creamy Spinach Sweet Potato Noodles with Cashew Sauce",
+        "description": "Creamy Spinach and Sweet Potato Noodles with Cashew Sauce – easy to make, adaptable, gluten free, vegan. Divine and delicious!",
+        "contentUrl": "https://content.jwplatform.com/videos/FDrvpLMb.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/FDrvpLMb-720.jpg"
+        ],
+        "uploadDate": "2023-01-23T17:06:48+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "ANDY | dinnerhealthy"
+            },
+            "datePublished": "2015-07-16",
+            "reviewBody": "Can you advice any spiralizer? here i didn't find it =("
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Punit @ Breast cancer"
+            },
+            "datePublished": "2017-08-04",
+            "reviewBody": "Yes it's a great recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Deanna Nathan"
+            },
+            "datePublished": "2020-08-02",
+            "reviewBody": "This is absolutely delicious...I make it at least once a month!  Thank you!"
+        }
+    ],
+    "datePublished": "2015-07-15",
+    "@id": "https://pinchofyum.com/sweet-potato-noodles#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/sweet-potato-noodles#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/sweet-potato-noodles"
+}

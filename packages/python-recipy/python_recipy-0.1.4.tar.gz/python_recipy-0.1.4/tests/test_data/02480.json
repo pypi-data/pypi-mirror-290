@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Corn and Butternut Squash Chowder",
+    "datePublished": "2010-12-03T10:43:01.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Usher in the fall season with this warming vegetarian soup, a recipe courtesy of Jonathan Parks from Brooklyn, New York.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/w5wq7PZv3GlGuZATYD89xRzcljU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/med104831_0909_cornchowder1a_vert-f557cb76eafb442c899f21446aaa7132.jpgitokF-_NbV0z",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Corn and Butternut Squash Chowder",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.9",
+        "ratingCount": "133"
+    },
+    "keywords": "Broth, Butternut squash, Chowder, Corn, Cream, Dinner, Fall, Lunch, Simmer, Soup course",
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "2 tablespoons vegetable oil",
+        "1.5 pounds butternut squash, peeled, seeded, and cut into 1-inch chunks (about 5 cups)",
+        "1 medium onion, chopped",
+        "1 box (10 ounces) frozen corn, thawed",
+        "1.5 teaspoons curry powder",
+        "Coarse salt and ground pepper",
+        "2 cans (14.5 ounces each) vegetable broth",
+        "0.5 cup heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large heavy pot, heat oil over medium-high; add squash and onion. Cook until onion is soft, about 6 minutes. Add corn and curry powder; cook until curry is fragrant, about 2 minutes. Season with salt and pepper. Add broth and simmer until squash is tender, about 25 minutes. In a blender, blend half the soup until smooth. Return to pot and stir in cream; heat through over medium-low (do not boil)."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/339853/corn-and-butternut-squash-chowder",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1520454/soups-stews-stocks",
+                        "name": "Soups, Stews & Stocks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505182/soup-recipes",
+                        "name": "Soup Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/339853/corn-and-butternut-squash-chowder",
+                        "name": "Corn and Butternut Squash Chowder"
+                    }
+                }
+            ]
+        }
+    }
+}

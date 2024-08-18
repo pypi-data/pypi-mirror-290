@@ -1,0 +1,97 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/margherita-pizza/",
+    "name": "Margherita Pizza",
+    "datePublished": "2024-02-28",
+    "dateModified": "2024-03-29",
+    "prepTime": "PT30M",
+    "cookTime": "PT15M",
+    "totalTime": "PT45M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-_EXPS_TOHVP24_275515_MF_02_28_1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Margherita pizza is beautiful in its simplicity, showcasing the classic flavors of Italy with crushed San Marzano tomatoes, fresh mozzarella and basil leaves. We’ll show you how to make margherita pizza at home in a standard oven.",
+    "recipeIngredient": [
+        "CRUST:",
+        "2 cups all-purpose flour",
+        "1 teaspoon sugar",
+        "1/2 teaspoon salt",
+        "1 package (1/4 ounce) quick-rise yeast",
+        "2/3 cup water",
+        "1/4 cup extra virgin olive oil",
+        "SAUCE:",
+        "3/4 cup crushed  San Marzano tomatoes",
+        "1 tablespoon extra virgin olive oil",
+        "1 teaspoon sugar",
+        "1 teaspoon dried oregano",
+        "1/2 teaspoon salt",
+        "1 garlic clove, minced",
+        "TOPPINGS:",
+        "1/4 pound fresh sliced mozzarella cheese",
+        "1/4 cup fresh basil leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Mix the dough",
+            "text": "Preheat the oven to 450°F. In a large bowl, mix the sugar, yeast, salt and 1 cup of the flour. In a small saucepan, heat the water and oil to 110° to 115°. Stir the warm water into the bowl with the dry ingredients. Stir in enough of the remaining flour to form a soft dough. Editor’s Tip: Instead of all-purpose flour, use double zero flour (also known as “00 flour”). This specialty flour is commonly used in pizza dough recipes because of its fine texture. It creates a super-smooth dough that’s easy to work with.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-TOHVS24_275515_MF_02_28_2.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Knead the dough and let rise",
+            "text": "Turn the dough onto a floured surface. Knead for six to eight minutes or until smooth and elastic. Place the dough in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about one hour.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-TOHVS24_275515_MF_02_28_3.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Roll the dough",
+            "text": "Punch the dough down. Roll it into a 13-inch circle. Then, transfer it to a greased 14-inch pizza pan, and build up the edges slightly. Cover the pan with a clean kitchen towel, and let the dough rest for 10 minutes.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-TOHVS24_275515_MF_02_28_4.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Assemble the pizza",
+            "text": "Meanwhile, in a small bowl, combine the tomatoes, olive oil, sugar, dried oregano, salt and minced garlic. Spoon the sauce over the dough. Top it with the fresh mozzarella cheese slices. Editor's Tip: If you bought mozzarella packed in water, let the cheese slices drain for 15 minutes. Drying the mozzarella will prevent excess liquid from diluting the tomato sauce or making the crust soggy.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-TOHVS24_275515_MF_02_28_5.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Bake the pizza",
+            "text": "Bake for 13 to 15 minutes or until the crust is golden brown. Remove the pizza from the oven and top it with fresh basil.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-TOHVP24_275515_MF_02_28_1.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 326 calories",
+        "fatContent": "16g fat (4g saturated fat)",
+        "cholesterolContent": "15mg cholesterol",
+        "sodiumContent": "478mg sodium",
+        "carbohydrateContent": "37g carbohydrate (3g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "9g protein."
+    },
+    "recipeCuisine": "Europe, Italian",
+    "video": {
+        "@type": "VideoObject",
+        "name": "Margherita Pizza",
+        "description": "Check out this video for how to make Margherita Pizza",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/MargheritaPizza275515H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-04-1 14:27:56",
+        "duration": "P0DT0H1M45S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/04/Margherita-Pizza-275515_H.mp4"
+    }
+}

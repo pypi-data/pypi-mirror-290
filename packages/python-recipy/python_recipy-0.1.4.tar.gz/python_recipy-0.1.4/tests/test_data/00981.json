@@ -1,0 +1,156 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/cranberry-cherry-pie/",
+    "name": "Cranberry Cherry Pie",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-11-23",
+    "prepTime": "PT20M",
+    "cookTime": "PT55M",
+    "totalTime": "PT01H15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps11491_TH10079C67.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "\"Guests won't know how quickly you made this sweet-tart pie,\" notes Marilyn Williams of Matthews, North Carolina.",
+    "recipeIngredient": [
+        "3/4 cup sugar",
+        "2 tablespoons cornstarch",
+        "1 can (21 ounces) cherry pie filling",
+        "2 cups cranberries",
+        "Pastry for double-crust pie (9 inches)",
+        "Milk and additional sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine sugar and cornstarch. Stir in pie filling and cranberries. Line a 9-in. pie plate with bottom pastry; trim to 1 in. beyond edge of plate. Pour filling into crust."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll out remaining pastry to fit top of pie. Cut slits in pastry or cut out stars with a star-shaped cookie cutter. Place pastry over filling; trim, seal and flute edges. Arrange star cutouts on pastry. Brush with milk and sprinkle with sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover edges loosely with foil. Bake at 375&deg;for 55-60 minutes or until crust is golden brown and filling is bubbly. Cool on a wire rack."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 417 calories",
+        "fatContent": "14g fat (6g saturated fat)",
+        "cholesterolContent": "10mg cholesterol",
+        "sodiumContent": "214mg sodium",
+        "carbohydrateContent": "70g carbohydrate (40g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "2g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-11-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Constance038"
+            },
+            "reviewBody": "<p>I have made this recipe twice and it is the easiest pie recipe I have ever made. Whether you make your own crust or use Pillsbury premade crust it turns out perfect every time. I use a 9” pie pan and you have to serve it topped with fresh whipped heavy cream. The pie is not too sweet which is very nice. The combination of cherries and cranberries is perfection!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MAJcooking"
+            },
+            "reviewBody": "i made this pie for a dinner party.  Everyone loved it!  It is not so sweet as a regular cherry pie, which is a good thing!  I would highly recommend this recipe.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-11-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "damaw2u"
+            },
+            "reviewBody": "This is my sons favorite pie for Thanksgiving or Christmas.  I have been making it for about 8 years and it is a big hit every time.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-05-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mcphersondb"
+            },
+            "reviewBody": "I have made this pie on numerous occasions and shared it with family and friends. It always gets rave reviews and is a snap to put together.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-12-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "liz43230"
+            },
+            "reviewBody": "Many compliments!!  made as written but with homemade crusts",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

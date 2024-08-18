@@ -1,0 +1,102 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/pumpkin-spice-sugar-cookies/",
+    "name": "Pumpkin-Spice Sugar Cookies",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-30",
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Pumpkin-Spice-Sugar-Cookies_EXPS_CBZ16_167511_C04_26_2b-10.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I've been making these quick and easy cookies for over 20 years. They're the first to go at our annual church bake sale.&mdash;Paula Marchesi, Lenhartsville, Pennsylvania\r\n",
+    "recipeIngredient": [
+        "1 cup butter, softened",
+        "2 cups sugar",
+        "2 large eggs, room temperature",
+        "2-3/4 cups all-purpose flour",
+        "2 tablespoons pumpkin pie spice",
+        "Cinnamon sugar, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, cream butter and sugar until light and fluffy, 5-7 minutes. Beat in eggs. In another bowl, whisk flour and pie spice; gradually beat into creamed mixture. Divide dough in half. Shape each into a disk. Cover and refrigerate 1 hour or until firm enough to roll."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°. On a lightly floured surface, roll each portion of dough to 1/4-in. thickness. Cut with a floured 2-1/2-in. round cookie cutter. Place 1 in. apart on ungreased baking sheets. If desired, sprinkle with cinnamon sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until edges are light brown, 12-14 minutes. Cool on pans 1 minute. Remove to wire racks to cool."
+        }
+    ],
+    "recipeYield": "4 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 96 calories",
+        "fatContent": "4g fat (3g saturated fat)",
+        "cholesterolContent": "18mg cholesterol",
+        "sodiumContent": "34mg sodium",
+        "carbohydrateContent": "14g carbohydrate (8g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "1g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-11-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MissyRichard"
+            },
+            "reviewBody": "Great tasting cookies, made a few changes to make cookies light, crunchy with a soft chew center. Used 1/2 butter and then 1/2 cup crisco lard, instead of 1 cup butter. Added  2 teaspoon Pumkin butter (optional), refrigerated dough 15 minutes. Take scoop of dough, then  roll in ball, then roll in cinnamon sugar (adding teaspoon of pumpkin spice to cinnamon sugar mix) and gently flatten to disk size of a half dollar size. Dough will be soft and tacky,",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-10-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "robryan"
+            },
+            "reviewBody": "I liked the flavor and I did use the cinnamon sugar topping. One issue, my cookies turned out extremely crispy - like a gingersnap. Even the ones I didn't bake as long were crispy. Luckily, I enjoy crispy cookies but, I was using them in Halloween treat boxes and some people (like my husband) do not like crisp cookies. Also, the recipe doesn't have bakng soda or baking powder..which also may cause crispness.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

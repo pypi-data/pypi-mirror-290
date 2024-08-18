@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "S&#39;mores Energy Balls",
+    "datePublished": "2020-07-23T21:40:37.000-04:00",
+    "dateModified": "2023-09-19T12:36:27.204-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Joy Howard",
+            "url": "https://www.eatingwell.com/author/joy-howard/"
+        }
+    ],
+    "description": "These two-bite, protein-packed snacks have all the flavors of a campfire favorite rolled right in. Mini chocolate chips and graham cracker pieces are blended into the base mixture, while a mini marshmallow is tucked into the center. Even better, they&#39;re no-bake and you can make a big batch in about 30 minutes.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/b6gdbapMZYIJiYNqI5wJWeDMgNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8362627-081fc3e0a85a4a319017a25c08f83389.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "S&#39;mores Energy Balls",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "2"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "179 kcal",
+        "carbohydrateContent": "22 g",
+        "fiberContent": "2 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "63 mg",
+        "sugarContent": "12 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT30M",
+    "recipeIngredient": [
+        "2 cups old-fashioned rolled oats",
+        "1 cup creamy sunflower seed butter or nut butter",
+        "0.5 cup honey",
+        "8 whole graham crackers, coarsely crushed, divided",
+        "0.25 cup mini chocolate chips",
+        "0.5 teaspoon ground cinnamon",
+        "36 mini marshmallows (about 1/2 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine oats, sunflower seed butter (or nut butter), honey, 1/4 cup graham cracker crumbs, chocolate chips and cinnamon in a medium bowl; stir well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the remaining graham cracker crumbs in a small bowl. Scoop a tablespoon of the mixture and flatten it slightly. Place a mini marshmallow in the center, cover it with the mixture, and roll it into a ball. Roll the ball in the graham cracker crumbs to coat. Repeat with the remaining ingredients. Makes about 3 dozen balls."
+        }
+    ],
+    "recipeYield": [
+        "18"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/281013/smores-energy-balls/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18278/desserts/candy/",
+                        "name": "Healthy Candy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22836/desserts/candy/smores/",
+                        "name": "Healthy S'more Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/281013/smores-energy-balls/",
+                        "name": "S&#39;mores Energy Balls"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T12:36:27.204-04:00"
+    },
+    "recipeCategory": []
+}

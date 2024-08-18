@@ -1,0 +1,164 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Sheet-Pan Portobello Fajitas",
+    "datePublished": "2022-11-30T16:49:22.000-05:00",
+    "dateModified": "2023-09-18T19:11:24.960-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Nicole Hopper",
+            "url": "https://www.eatingwell.com/author/nicole-hopper/"
+        }
+    ],
+    "description": "These veggie-packed sheet-pan portobello fajitas are well-seasoned with a smoky spice blend and served with a zesty avocado-yogurt crema.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/sPehPfVQbr4D_zy95GCIBQxpyLc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sheet-pan-portobello-fajitas-1x1-082-be4d31e99ae24d4b988e168ed84978aa.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Sheet-Pan Portobello Fajitas",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "441 kcal",
+        "carbohydrateContent": "54 g",
+        "cholesterolContent": "4 mg",
+        "fiberContent": "11 g",
+        "proteinContent": "10 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "665 mg",
+        "sugarContent": "12 g",
+        "fatContent": "22 g",
+        "unsaturatedFatContent": "16 g"
+    },
+    "recipeIngredient": [
+        "3 tablespoons extra-virgin olive oil",
+        "1 teaspoon chili powder",
+        "1 teaspoon chipotle chile powder",
+        "1 teaspoon ground cumin",
+        "0.5 teaspoon onion powder",
+        "0.5 teaspoon garlic powder",
+        "5 tablespoons lime juice, divided",
+        "1 teaspoon salt, divided",
+        "4 medium portobello mushroom caps, sliced",
+        "1 large red onion, sliced",
+        "1 large red bell pepper, sliced",
+        "1 large orange bell pepper, sliced",
+        "0.5 cup whole-milk plain strained yogurt, such as Greek-style",
+        "1 medium avocado, halved lengthwise, pitted and peeled",
+        "1 medium serrano pepper, stemmed and seeded",
+        "2 medium cloves garlic",
+        "12 (6 inch) corn tortillas",
+        "Torn fresh cilantro leaves and tender stems, sliced jalape&ntilde;os and/or crumbled queso fresco for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk oil, chili powder, chipotle powder, cumin, onion powder, garlic powder, 2 tablespoons lime juice and 1/2 teaspoon salt together in a large bowl. Add mushrooms; toss to coat. Cover, and let marinate at room temperature for at least 20 minutes or up to 2 hours. (Alternatively, refrigerate for up to 8 hours.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425°F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add onion and bell peppers to the mushroom mixture in the bowl; toss until well combined. Spread the mixture on a large rimmed baking sheet. Roast until tender, 20 to 25 minutes. Remove from oven. (Do not turn the oven off.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, combine yogurt, avocado, serrano, garlic and the remaining 3 tablespoons lime juice and 1/2 teaspoon salt in a food processor; process until smooth and creamy, about 30 seconds. Cover and refrigerate until ready to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Wrap tortillas all together in foil. Place in the oven until warmed through, about 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve the fajita mixture with the warmed tortillas and avocado crema. Garnish with cilantro, jalapeños and/or queso fresco, if desired."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT70M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/8015626/sheet-pan-portobello-fajitas/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17969/cuisines-regions/latin-american/mexican/",
+                        "name": "Healthy Mexican Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19771/cuisines-regions/latin-american/mexican/fajitas/",
+                        "name": "Healthy Fajitas Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/8015626/sheet-pan-portobello-fajitas/",
+                        "name": "Sheet-Pan Portobello Fajitas"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-18T19:11:24.960-04:00"
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Blanched Greens",
+    "datePublished": "2015-02-27T09:42:28.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This technique can be used for leafy greens such as collards, kale, Swiss chard, and spinach. Blanched greens can be stored in an airtight container in the refrigerator for up to 4 days. See how to use blanched greens.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/g8UwniE3nDAD2n87Uxl_gift66c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/greens-opener-028-d111711-1_horiz-e55ab0b0c96e456384dc2addb913fe3c.jpgitokc7mvG-Lj",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Blanched Greens",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "1"
+    },
+    "keywords": "Blanch, Chard, Collard greens, Kale, Spinach",
+    "recipeIngredient": [
+        "1 bunch greens"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Remove leaves from stems. (Swiss chard stems are edible, so save and cook them) Blanch greens in a large pot of boiling salted water, 15 seconds (spinach and chard) to 2 minutes (kale and collards); drain. When cool enough to handle, squeeze out excess liquid; let cool completely in a single layer on a rimmed baking sheet. Greens can be stored in an airtight container in refrigerator up to 4 days."
+        }
+    ],
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mark Anderson"
+            },
+            "reviewBody": "This is the first instructional I've read that doesn't call for an ice bath after blanching, which I've long suspected was an unnecessary step. Glad to have MS available to support my hunch.",
+            "datePublished": "2023-07-13T17:56:46.879Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1105810/blanched-greens",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513432/vegetables",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513572/spinach-recipes",
+                        "name": "Spinach Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1105810/blanched-greens",
+                        "name": "Blanched Greens"
+                    }
+                }
+            ]
+        }
+    }
+}

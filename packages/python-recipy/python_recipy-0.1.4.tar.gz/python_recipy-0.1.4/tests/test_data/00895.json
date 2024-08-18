@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Garlic Mashed Potatoes With Parmesan Cheese",
+    "datePublished": "2005-05-23T18:36:30.000-04:00",
+    "dateModified": "2022-11-15T12:07:00.715-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Diana Rattray",
+            "url": "https://www.thespruceeats.com/diana-rattray-3034029"
+        }
+    ],
+    "description": "These mashed potatoes are made with plenty of garlic, along with butter and milk. Parmesan cheese is optional, but it makes a nice addition.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/LWKhz8GvhuqZ7_G35C0o9ej-840=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/150666712-56a8bb205f9b58b7d0f4a811.jpg",
+        "height": 860,
+        "width": 1280
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Garlic Mashed Potatoes With Parmesan Cheese",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "40"
+    },
+    "cookTime": "PT20M",
+    "keywords": "Potato",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "180 kcal",
+        "carbohydrateContent": "29 g",
+        "cholesterolContent": "15 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "219 mg",
+        "fatContent": "5 g",
+        "servingSize": "6-8 portions (6-8 servings)",
+        "unsaturatedFatContent": "2 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "7 cups baking potatoes ( russets , peeled and cubed)",
+        "6 cloves​  garlic (peeled)",
+        "1/2 cup milk (low-fat, regular, or​ half-and-half)",
+        "2 tablespoons butter (or more if you like)",
+        "1/2 teaspoon salt (or to taste)",
+        "1/8 teaspoon ground black pepper (or to taste)",
+        "Optional: 1/4 cup Parmesan cheese (grated, optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place potatoes and peeled garlic in a large saucepan; cover with water and then bring to a boil over high heat. ​​Reduce the heat to low and cover the pan. Simmer the potatoes for about 20 minutes, or until fork tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the potatoes and garlic thoroughly and return them to the pan or to a large mixing bowl. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, combine the milk and butter in a cup and microwave just until hot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the hot milk and butter mixture to the potatoes; mash until smooth, adding salt and pepper, to taste. Stir in the Parmesan cheese, if using. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If using an electric mixer, avoid overmixing.   "
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/garlic-mashed-potatoes-3059697",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/southern-food-4162667",
+                        "name": "Southern Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/southern-food-side-dishes-4162662",
+                        "name": "Southern Sides"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/garlic-mashed-potatoes-3059697",
+                        "name": "Garlic Mashed Potatoes With Parmesan Cheese"
+                    }
+                }
+            ]
+        }
+    }
+}

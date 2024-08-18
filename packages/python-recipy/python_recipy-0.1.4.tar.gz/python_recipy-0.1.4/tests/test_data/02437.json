@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Baked Feta-Marinara Dip",
+    "datePublished": "2018-02-08T10:36:03.000-05:00",
+    "dateModified": "2021-05-24T08:21:07.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Doctor homemade or store-bought marinara with smoky piquillo peppers and tangy feta cheese for an irresistible dip that comes together in a flash. Serve with plenty of crostini to sop up every last bit of sauce.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/MVau1-jXWRKd4seZZ3x-KnV760E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-feta-marinara-dip-103257091_horiz-cb7d000b69d1425d9752235ea2adc3d8.jpgitokWONEQ4EM",
+        "height": 422,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/HE1dLCLH-DuXeUCvc.mp4",
+        "description": "This Baked Feta Marinara Dip is a great addition to your party menu. Try this easy recipe with crispy chips or crostini. ",
+        "duration": "PT56S",
+        "name": "Baked Feta Marinara Dip",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/HE1dLCLH/poster.jpg?width=720",
+        "uploadDate": "2021-05-24T22:40:55.596-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Baked Feta-Marinara Dip",
+    "prepTime": "PT5M",
+    "recipeIngredient": [
+        "1.5 cups Marinara or store-bought marinara",
+        "3 jarred piquillo peppers, drained",
+        "1 (8-ounce) block feta",
+        "Fresh basil leaves and red-pepper flakes, for garnish",
+        "Crostini, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a blender, process marinara and piquillo peppers until smooth; transfer to a small (about 8-by-6-inch) heatproof dish. Top with feta."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/MVau1-jXWRKd4seZZ3x-KnV760E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-feta-marinara-dip-103257091_horiz-cb7d000b69d1425d9752235ea2adc3d8.jpgitokWONEQ4EM"
+                }
+            ],
+            "text": "Bake until bubbly around edges, about 20 minutes. Garnish with basil and red-pepper flakes, and serve with crostini."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1526792/baked-feta-marinara-dip",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502258/appetizers-snacks",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1526792/baked-feta-marinara-dip",
+                        "name": "Baked Feta-Marinara Dip"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Main Lobster Roll",
+    "url": "https://www.foodnetwork.com/recipes/main-lobster-roll-recipe-1924058",
+    "headline": "Main Lobster Roll",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:58:13.643-05:00",
+    "dateModified": "2013-11-08T10:07:53.333-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Lobster Roll,Sandwich,Lobster,Shellfish Recipes",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "prepTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT0H30M0.000S",
+    "recipeIngredient": [
+        "2 gallons salted water",
+        "4 live lobsters",
+        "2 cups prepared mayonnaise",
+        "1cup finely diced celery",
+        "1cup finely diced onion",
+        "1 teaspoon paprika",
+        "1/2 teaspoon salt",
+        "1 tablespoon fresh lemon juice",
+        "1/4 teaspoon freshly ground black pepper",
+        "Clarified butter, for brushing rolls",
+        "4 top-split hot dog buns",
+        "Lemon wedges, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot, bring the water to a boil. Add the lobsters. Bring the water back to a rolling boil and start a timer for 8 minutes. When the timer sounds remove the cooked lobsters and put them into an ice bath to stop the cooking process. When cooled, remove all the lobster meat and cut into 1/2-inch dice. Refrigerate cooked lobster until you are ready to assemble the sandwiches."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the dressing:"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the mayonnaise, celery, onion, paprika, salt, lemon juice and pepper in a mixing bowl. Add the lobster pieces, stirring to combine. Cover and refrigerate until ready to serve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Final assembly:"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using clarified butter, brush both sides the hot dog buns and toast in a hot saute pan or on a griddle until golden brown. While still warm, divide the lobster roll filling evenly among buns. Serve with fresh lemon wedges and favorite side dish."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.8,
+        "reviewCount": 4
+    },
+    "recipeYield": "Serves 4",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Art G."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "It's not a Main lobster roll, it's a Maine Lobster Roll.  But taste great with either spelling.<br />"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ms.Crys"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Very good, I didn't need to use the whole 2 cups of mayonaise though. I'm glad I waited to put it in last otherwise if would've been way too creamy.  Besides that, this is an amazing recipe, everyone loved it!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "After 4 months in the hospital in Denver I was ready for some real food.  I saw Guy host this lobster roll at Steuben's in Denver.  Steuben's was one of the first places I ate after 4 months of hospital food.  It was everything Guy said it was.  Awesome.\r<br />Note: I was pleased to met Brandon and also my parents used to go out on dinner/dancing dates at the original Seubens in Boston, Mass. owned by Brandon's uncle.  When I go to Denver for check-ups, I always stop and have the lobster roll.  Try their corn also."
+        }
+    ],
+    "recipeCategory": []
+}

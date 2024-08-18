@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cellophane Noodles with Pork and Thai Basil Recipe",
+    "datePublished": "2011-06-24T10:25:00.000-04:00",
+    "dateModified": "2019-05-15T10:30:42.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Chichi Wang",
+            "url": "https://www.seriouseats.com/chichi-wang-5118603"
+        }
+    ],
+    "description": "Cellophane noodles tossed with crisp bits of ground meat, and a tart fish sauce dressing.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/s7Xv4g4KPeL7f3kwVvkiCxEa-Wc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20110624-seriously-asian-5dede3f8470745a19cb8674f718a43be.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Cellophane Noodles with Pork and Thai Basil Recipe",
+    "keywords": "Asian, cellophane noodles, cilantro, Seriously Asian, Thai basil",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "259 kcal",
+        "carbohydrateContent": "13 g",
+        "cholesterolContent": "50 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "16 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "423 mg",
+        "sugarContent": "1 g",
+        "fatContent": "15 g",
+        "servingSize": "4",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Thai"
+    ],
+    "recipeIngredient": [
+        "3 bundles of cellophane noodles, about 9 ounces",
+        "10 ounces ground pork, beef, or chicken",
+        "1 tablespoon oil",
+        "2 garlic cloves, minced",
+        "1/2 teaspoon dried red chili flakes",
+        "1/2 teaspoon salt",
+        "To Dress the Noodles:",
+        "1 teaspoon fish sauce (or more, depending on saltiness)",
+        "1/2 teaspoon sesame oil",
+        "1/2 teaspoon sugar",
+        "2 teaspoons rice vinegar",
+        "1 teaspoon garlic chili paste, optional",
+        "Finely sliced bird&#39;s eye chilies, optional",
+        "To Garnish:",
+        "Bean spouts, parboiled",
+        "Finely chopped cilantro",
+        "Finely chopped Thai basil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To cook the pork, heat the oil in a wok and add the red chili pepper flakes and garlic, cooking until garlic begins to brown. Add the pork and salt and stir-fry until pork is just cooked through, about 2 minutes. Turn the stove off and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the meantime, bring a medium-sized pot of water to boil. Add the dried bundles of cellophane noodles cover the pot. Turn off the heat and let the noodles soften in the water, no longer than 10 minutes. Remove the noodles from the pot and drain in a colander."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the noodles and the ingredients for the dressing to the wok and toss everything together. Add the beansprouts if you are using."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Garnish with Thai basil and cilantro. Serve warm or tepid."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/cellophane-noodles-with-pork-and-thai-basil",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/main-recipes-by-type-5117824",
+                        "name": "Mains By Type"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/noodle-main-recipes-5117818",
+                        "name": "Noodle Mains"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cellophane-noodles-with-pork-and-thai-basil",
+                        "name": "Cellophane Noodles with Pork and Thai Basil Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

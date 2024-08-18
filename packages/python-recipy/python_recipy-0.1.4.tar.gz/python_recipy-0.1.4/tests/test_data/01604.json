@@ -1,0 +1,100 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Stone Fruit Butter",
+    "datePublished": "2013-12-06T18:52:00.000-05:00",
+    "dateModified": "2022-07-06T14:10:54.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Parisi",
+            "url": "https://www.foodandwine.com/author/grace-parisi"
+        }
+    ],
+    "description": "Fruit butters are made with less sugar than jam, so they have a less candied fruit flavor. Grace Parisi blends all types of stone fruits in this recipe, making combinations like nectarine-plum or cherry-peach.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/mn0MRVtTAB2gXN7NZQgBLcP-LBk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HD-201008-r-fruit-butter-5dd85a490fd4474dbd1bfa921a435b5b.jpg",
+        "height": 550,
+        "width": 550
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Stone Fruit Butter",
+    "recipeIngredient": [
+        "5 pounds ripe peaches, plums, cherries or nectarines, pitted and coarsely chopped",
+        "1 cup water",
+        "1 1/2 cups sugar",
+        "6 tablespoons fresh lemon juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot, combine the fruit with the water and cook over moderate heat, stirring occasionally, just until the fruit softens, about 15 minutes. Set a food mill over a heatproof bowl and pass the fruit through the mill to remove any skins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return the pureed fruit to the pot. Add the sugar and lemon juice and bring to a rapid boil. Reduce the heat to low and cook, stirring frequently to prevent scorching, until the puree is very thick and reduced to 4 to 5 cups, 1 hour and 15 minutes to 1 hour and 30 minutes. Spoon the fruit butter into 1/2-pint jars and tap gently to release any air bubbles. Let cool, then cover and refrigerate for up to 4 months or freeze for up to 6 months."
+        }
+    ],
+    "totalTime": "PT150M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/stone-fruit-butter",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sauces-condiments-preserves-7497095",
+                        "name": "Sauces, Condiments and Preserves"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/condiments/jams",
+                        "name": "Jams"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/stone-fruit-butter",
+                        "name": "Stone Fruit Butter"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,162 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mini Potato Skins",
+    "datePublished": "2018-01-15T22:06:27.000-05:00",
+    "dateModified": "2024-03-30T22:03:10.498-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "This five-ingredient potato skins recipe makes a bite-sized appetizer that every guest will rave about. Best yet, it pairs well with beer, so cheers!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/74U_ZiwkJYCtduTjphDROujT1IU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2555001_WCIBF_02-b02bf7ac2aea48959a9fafa9f8c4b4ae.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Mini Potato Skins",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "keywords": "potato skins",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 - 1.5 pounds Baby Dutch Yellow potatoes (about 20 [2-inch] potatoes)",
+        "1 tablespoon olive oil",
+        "4 ounces sharp Cheddar cheese, shredded (about 1 cup)",
+        "6 bacon slices, cooked and crumbled",
+        ".5 cup sour cream",
+        "2 tablespoons chopped fresh chives"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bake potatoes: Preheat oven to 425°F. Scrub potatoes, and pat dry thoroughly. Place potatoes in a large bowl, and drizzle with olive oil; toss to coat. Arrange potatoes in a single layer on a baking sheet lined with parchment paper. Bake in preheated oven until tender, 17 to 20 minutes. Cool potatoes completely on baking sheet, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scoop out potatoes: Slice potatoes in half lengthwise, and scoop out potato flesh, leaving 1/8-inch-thick shell. Reserve potato flesh for another use (such as mashed potatoes )."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake potato skins: Increase oven temperature to 450°F. Place potato skins, hollowed side down, on baking sheet lined with parchment paper. Bake at 450°F for 10 minutes; flip potatoes over, and bake until crispy, 8 to 10 minutes longer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fill potato skins: Fill potato skins evenly with Cheddar cheese, and top with bacon crumbles. Bake at 450°F until cheese melts, 1 to 2 minutes. Top each potato skin with a dollop of sour cream, and sprinkle evenly with chopped fresh chives."
+        }
+    ],
+    "recipeYield": [
+        "20"
+    ],
+    "totalTime": "PT105M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/mini-potato-skins-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/mini-potato-skins-recipe",
+                        "name": "Mini Potato Skins"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What type of potatoes are best for mini potato skins?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>For mini potato skins, we prefer baby Dutch yellow potatoes for their mild sweetness, buttery texture, and thin skin. You can substitute with other types of small potatoes, including fingerling potatoes, red potatoes, and more if needed.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can I ensure my potato skins are crispy?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>By thoroughly drying the potatoes before roasting, coating with olive oil, and cooking at a high temperature, you should end up with nicely crisped results.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I use sweet potatoes for mini potato skins?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Note that sweet potatoes will offer a different flavor profile than standard potatoes, but they can be used for potato skins. Just bake until tender as directed, adjusting the cooking time as needed. Scoop out, and halve or quarter before filling and baking again as directed.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

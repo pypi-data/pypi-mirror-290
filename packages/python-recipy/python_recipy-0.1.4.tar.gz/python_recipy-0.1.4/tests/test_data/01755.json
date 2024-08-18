@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Teriyaki Ahi",
+    "url": "https://www.foodnetwork.com/recipes/teriyaki-ahi-7120025",
+    "headline": "Teriyaki Ahi",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/6/3/1/DV3004_Teriyaki-Ahi-Tuna_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1559586867551.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "The Teriyaki Ahi Tuna as Served at The Dolphin in Hanalei, Hawaii, as seen on Diners, Drive-Ins and Dives, Season 30."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/6/3/1/DV3004_Teriyaki-Ahi-Tuna_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1559586867551.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "The Teriyaki Ahi Tuna as Served at The Dolphin in Hanalei, Hawaii, as seen on Diners, Drive-Ins and Dives, Season 30."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/6/3/1/DV3004_Teriyaki-Ahi-Tuna_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1559586867551.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "The Teriyaki Ahi Tuna as Served at The Dolphin in Hanalei, Hawaii, as seen on Diners, Drive-Ins and Dives, Season 30."
+        }
+    ],
+    "datePublished": "2019-06-10T21:57:07.052-04:00",
+    "dateModified": "2019-06-10T21:57:06.264-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Teriyaki,Fish,Tuna Recipes",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT6H25M0.000S",
+    "recipeIngredient": [
+        "2 gallons Hawaiian shoyu, such as Aloha",
+        "2 pounds brown sugar ",
+        "2 pounds white sugar ",
+        "1/2 pound fresh ginger, sliced ",
+        "1 quart cooking sherry ",
+        "1 cup oil ",
+        "Handful rough-chop green onion ",
+        "3 garlic heads, cut in half horizontally",
+        "1 tablespoon ground white pepper ",
+        "Six 1/2-pound portions ahi tuna",
+        "Oil, for seasoning tuna",
+        "Salt and pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place shoyu, brown and white sugars, ginger, sherry, oil, green onions, garlic, white pepper and 3/4 gallon water in a large pot and bring to a rolling boil. Let cool, then strain out the solids so you are left with just teriyaki sauce. Place the ahi in a large bowl and cover with the teriyaki marinade (save remaining marinade for another use). Let marinade, refrigerated, 4 to 6 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a grill for cooking at medium-high heat. Oil tuna and sprinkle with salt and pepper, then grill to desired doneness, 2 1/2 minutes per side for medium-rare."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 2.3,
+        "reviewCount": 3
+    },
+    "recipeYield": "6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jon S."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "It’s the best recipe for when I’m have 10,000 of my closest friends over...."
+        }
+    ],
+    "recipeCategory": []
+}

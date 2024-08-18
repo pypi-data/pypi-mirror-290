@@ -1,0 +1,79 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/beggars-chicken/#recipe",
+    "url": "https://www.marionskitchen.com/beggars-chicken/",
+    "name": "Beggars’ Chicken | Marion&#039;s Kitchen",
+    "description": "My mum passed down this recipe and it’s now a true family favourite in my household. Gorgeously tender chicken, braised in a rich, spiced soy sauce broth… delicious! Serve it with steamed rice or noodles to really make the most of all that yummy sauce.",
+    "prepTime": "PT10M",
+    "cookTime": "PT1H45M",
+    "totalTime": "",
+    "keywords": "Chicken, Comfort food, Winter warmers",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "",
+    "recipeIngredient": [
+        "3 coriander roots",
+        "8 small garlic cloves (about 4 large cloves)",
+        "1 tsp whole white peppercorns",
+        "¼ tsp sea salt, plus extra to taste",
+        "2 tbsp vegetable oil",
+        "1 whole chicken",
+        "½ cup sweet dark soy sauce",
+        "4 tbsp light soy sauce",
+        "3 whole star anise",
+        "2 cinnamon sticks",
+        "2 tsp sugar",
+        "coriander (cilantro) leaves to serve",
+        "steamed rice or cooked vermicelli rice noodles to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Step 1.Use a mortar and pestle to pound coriander roots, garlic, peppercorns and salt to a rough paste (you could also do this in a food processor)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 2.Heat oil in a pot just large enough to hold the chicken.  Add the paste and cook for a few seconds. Then add the whole chicken breast side down. Cook for 2 minutes or until just golden. Then add the dark sweet soy sauce, light soy sauce, star anise, cinnamon sticks and sugar.  Pour in enough water to almost cover the chicken.  Bring to a boil, turn the heat down to medium-low, cover and simmer for 90 minutes, turning the chicken over halfway through cooking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 3.Carefully remove chicken and place into a deep serving dish.  To the broth, add salt to taste. Pour the broth over chicken and garnish with coriander leaves. Serve with steamed rice or noodles."
+        }
+    ],
+    "datePublished": "2021-07-30T00:00:00Z",
+    "dateModified": "2022-06-11T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/beggars-chicken/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2019/06/Beggars’-Chicken1.jpg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2019/06/Beggars’-Chicken1.jpg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

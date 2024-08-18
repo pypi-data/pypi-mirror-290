@@ -1,0 +1,185 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Easy Orange Sorbet Recipe",
+    "datePublished": "2012-09-17T19:36:22.000-04:00",
+    "dateModified": "2022-08-17T16:53:45.846-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kimberly Kunaniec",
+            "url": "https://www.thespruceeats.com/kimberly-kunaniec-1945644"
+        }
+    ],
+    "description": "Our recipe for easy orange sorbet can be put together by anyone, and really lets the flavor of the orange shine through. It&#39;s a refreshing and bright dessert.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/j8XrPyWFHCHE7dfmJuFdf_zuTxA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-hero-01-02c52ae96bbe49f795a5ab997953c0ad.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Easy Orange Sorbet Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.8",
+        "ratingCount": "19"
+    },
+    "cookTime": "PT5M",
+    "keywords": "orange",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "79 kcal",
+        "carbohydrateContent": "19 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "2 mg",
+        "sugarContent": "18 g",
+        "fatContent": "0 g",
+        "servingSize": "Servings 8 to 10",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 cup water",
+        "2/3 cup sugar",
+        "2 cups orange juice",
+        "1 tbsp. Grand Marnier"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/i_Ze3aC9InQbiaeYv5IKz9fy_Ys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-01-49e958831bc64b08965a5e268437ab74.jpg"
+                }
+            ],
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/F9fQbzFz8DX0tZcwaqVHAXkDVtc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-02-5934784dd629400eb64c8a0746c9bf31.jpg"
+                }
+            ],
+            "text": "Place the water and sugar in a small saucepan over medium-low heat."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/NiVoZAp1FY8eEiOcEWe_9qJcizU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-03-698667819f3349169ff2bc5546949d53.jpg"
+                }
+            ],
+            "text": "Cook the syrup mixture, stirring occasionally until all the sugar is dissolved. This should take about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/kShXk5E-qDGTo_pv5kXqtlX2hzc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-04-fd9ffdd0d3d14f229ded108c0b3eb1b9.jpg"
+                }
+            ],
+            "text": "Remove the sugar syrup from the heat and stir in the orange juice. Refrigerate the juice mixture until it is completely chilled, about 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/LEwMe6r39Kjk04yxCClXP4KuBXc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-05-431292b59652401e9693db17618e6a6a.jpg"
+                }
+            ],
+            "text": "Stir in the Grand Marnier."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/aEF12hMvwHxdv6sFR26E6gJVyFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-orange-sorbet-recipe-1945837-step-06-514113811b0e41c89e9bb0cd59b15e4d.jpg"
+                }
+            ],
+            "text": "Churn according to your ice-cream maker’s directions. For a firmer texture, transfer to a covered freezer-safe container and freeze for about 2 hours."
+        }
+    ],
+    "recipeYield": [
+        "10",
+        "3 cups"
+    ],
+    "totalTime": "PT225M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/easy-orange-sorbet-recipe-1945837",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/dessert-4162795",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/ice-cream-4162766",
+                        "name": "Ice Cream"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/easy-orange-sorbet-recipe-1945837",
+                        "name": "Easy Orange Sorbet Recipe"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Diana Andrews",
+                "url": "https://www.thespruceeats.com/diana-andrews-5073138"
+            }
+        ],
+        "lastReviewed": "2022-08-17T16:53:45.846-04:00"
+    }
+}

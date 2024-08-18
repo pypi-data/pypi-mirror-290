@@ -1,0 +1,76 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "These will be sweet and chewy when done and are the perfect decorations for BA's Best Carrot Cake Recipe.",
+    "alternativeHeadline": "These will be sweet and chewy when done and are the perfect decorations for <a href=\"http://www.bonappetit.com/recipe/bas-best-carrot-cake/\">BA's Best Carrot Cake</a>.",
+    "keywords": [
+        "dessert",
+        "carrot",
+        "easy",
+        "quick",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claire Saffitz",
+            "sameAs": "https://www.bonappetit.com/contributor/claire-saffitz"
+        },
+        {
+            "@type": "Person",
+            "name": "Alex Lau",
+            "sameAs": "https://www.bonappetit.com/contributor/alex-lau"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 3
+    },
+    "description": "These will be sweet and chewy when done and are the perfect decorations for <a href=\"http://www.bonappetit.com/recipe/bas-best-carrot-cake/\">BA's Best Carrot Cake</a>.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57acbedef1c801a1038bc719/master/w_5000,h_3333,c_limit/candied-carrot-coins.jpg"
+    ],
+    "headline": "Candied Carrot Coins",
+    "name": "Candied Carrot Coins",
+    "recipeIngredient": [
+        "2 medium carrots, scrubbed, very thinly sliced on a mandoline",
+        "2 tablespoons sugar, plus more"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring carrots, 2 Tbsp. sugar, and ¼ cup water to a simmer in a medium skillet over medium-low heat, stirring to separate carrots. Cook until carrots are soft, about 5 minutes. Increase heat to medium and cook, stirring, until liquid is reduced to a thick syrup (if syrup starts to color, reduce heat). Add several generous pinches of sugar, tossing constantly, then cook, tossing, until carrots are coated. Spread out on a parchment-lined baking sheet and let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Separate carrots with your fingers and toss each piece in more sugar to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Do Ahead: Carrots can be made 1 day ahead. Store tightly wrapped at room temperature. Toss in sugar before using."
+        }
+    ],
+    "recipeYield": "Makes about 1 cup",
+    "url": "https://www.bonappetit.com/recipe/candied-carrot-coins",
+    "dateModified": "2016-04-19T04:00:49.000-04:00",
+    "datePublished": "2016-04-19T04:00:49.000-04:00",
+    "recipeCategory": []
+}

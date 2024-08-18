@@ -1,0 +1,70 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Spicy Spinach Artichoke Dip",
+    "keywords": "spicy spinach artichoke dip",
+    "recipeCategory": "Appetizer",
+    "image": "https://mojo.generalmills.com/api/public/content/TVYJWdyg9UiCEPvZ1CoLdw_webp_base.webp?v=45d5bd3d&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Spinach dip just teamed up with caramelized onions, bacon and chili garlic sauce for a sexy makeover that takes this dip from classic to fantastic!",
+    "recipeIngredient": [
+        "1  box (9 oz) frozen chopped spinach",
+        "2  slices bacon, chopped",
+        "2  cups thinly sliced sweet onions",
+        "1  serrano chile, seeded, finely chopped (about 1 tablespoon)",
+        "1  package (8 oz) cream cheese, softened",
+        "1/4  cup chili garlic sauce",
+        "1/2  cup sour cream",
+        "1  can (14 oz) Progresso™ artichoke hearts, drained, coarsely chopped",
+        "1/3  cup shredded Parmesan cheese",
+        "  Crackers, crostini or vegetables, as desired"
+    ],
+    "totalTime": "PT0H55M",
+    "prepTime": "PT0H30M",
+    "recipeYield": "16",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350° F. Spray 9-inch pie plate with cooking spray. Cook spinach as directed on box. Drain well; squeeze with paper towel to get out as much liquid as possible; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spray 10-inch skillet with cooking spray. Place bacon in skillet; cook over medium heat until crispy. Using slotted spoon, transfer to paper towel-lined plate; set aside. Add onions and serrano chile to bacon drippings in pan; cook 7 to 9 minutes, stirring occasionally, until onions are caramelized."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in large bowl, mix cream cheese, chili garlic sauce and sour cream; stir in spinach and artichokes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir onion mixture into spinach mixture. Pour into pie plate. Sprinkle with Parmesan cheese. Bake 20 to 25 minutes or until hot in center. Top with reserved bacon; serve with crackers, crostini or vegetables."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "110 ",
+        "carbohydrateContent": "8 g",
+        "cholesterolContent": "20 mg",
+        "fatContent": "1 ",
+        "fiberContent": "2 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "4 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "190 mg",
+        "sugarContent": "4 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "08/07/2015",
+    "dateModified": "09/20/2016"
+}

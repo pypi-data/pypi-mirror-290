@@ -1,0 +1,117 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "White Rum and Aperol Spritz",
+    "datePublished": "2021-05-20T11:04:27.000-04:00",
+    "dateModified": "2021-05-20T11:04:27.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Marc Farrell",
+            "url": "https://www.foodandwine.com/author/marc-farrell"
+        }
+    ],
+    "description": "Marc Farrell&#39;s White Rum and Aperol Spritz pairs white rum, Aperol, and sparkling wine for a refreshing and flavorful summer cocktail.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/kIzPi7oQwRS426Uz5Z3D8S9q8Fg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-rum-and-aperol-spritz-FT-RECIPE0621-ceece1b871d7497c9d2174eab027ecd4.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/JwrAZpl1-eFraYBD7.mp4",
+        "description": " Marc Farrell will teach us how to make three different rum cocktails: Watermelon Daiquiri, Black Manhattan and White Rum & Aperol Spritz. ",
+        "duration": "PT6M29S",
+        "name": "Marc Farrell makes Rum Cocktails",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/JwrAZpl1/poster.jpg?width=720",
+        "uploadDate": "2023-01-13T17:30:48.548-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "White Rum and Aperol Spritz",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "3 tablespoons (1 1/2 ounces) white rum (such as Ten To One)",
+        "1 tablespoon (1/2 ounce) Aperol",
+        "1 tablespoon (1/2 ounce) passion fruit liqueuror other fruit liqueur",
+        ".5 tablespoon (1/4 ounce) Ancho Reyes Verde Chile Poblano Liqueur (optional)",
+        "Ice cubes",
+        ".5 cup (4 ounces) sparkling wine or sparkling water",
+        "Orange peel twist or grapefruit peel twist"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/kIzPi7oQwRS426Uz5Z3D8S9q8Fg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-rum-and-aperol-spritz-FT-RECIPE0621-ceece1b871d7497c9d2174eab027ecd4.jpg"
+                }
+            ],
+            "text": "Combine rum, Aperol, passion fruit liqueur, and, if using, poblano liqueur in a 14-ounce wine glass completely filled with ice. Top with sparkling wine or sparkling water, and gently stir. Garnish with an orange peel twist or grapefruit peel twist."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/white-rum-and-aperol-spritz",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/rum-cocktails-7496740",
+                        "name": "Rum Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/white-rum-and-aperol-spritz",
+                        "name": "White Rum and Aperol Spritz"
+                    }
+                }
+            ]
+        }
+    }
+}

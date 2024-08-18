@@ -1,0 +1,91 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Sloppy Joe Sliders",
+    "author": "bmartin1958",
+    "cookTime": "PT15M",
+    "prepTime": "PT5M",
+    "totalTime": "PT20M",
+    "datePublished": "2010-01-29T08:56Z",
+    "description": "This recipe came from French's (think yellow mustard) website. I plan to make it tomorrow night but wanted to go ahead and get it into one of my cookbooks. I've been looking for a recipe for Sloppy Joes that wasn't sweet and I hope this is it.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/41/08/61/CAlvWlNWQ4u3RClsfelF_IMG_0277.jpg",
+    "recipeCategory": "Lunch/Snacks",
+    "keywords": "Meat,Healthy,Potluck,Weeknight,< 30 Mins",
+    "recipeIngredient": [
+        "1 1/2  tablespoons    oil",
+        "2   cups   chopped onions",
+        "3   lbs    lean ground beef",
+        "2   cups    barbecue sauce or 2   cups    ketchup",
+        "1   cup   french's classic yellow mustard",
+        "1/2  cup   french's classic Worcestershire sauce",
+        "2 (15   ounce) packages  hamburger slider rolls (about 24 rolls)"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "3"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "518.6",
+        "fatContent": "17.1",
+        "saturatedFatContent": "5.3",
+        "cholesterolContent": "73.7",
+        "sodiumContent": "1162.9",
+        "carbohydrateContent": "58.4",
+        "fiberContent": "3",
+        "sugarContent": "14.6",
+        "proteinContent": "30.9"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large pot. Saute onions 3 minutes until tender. \r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add ground beef to pot. Cook until brown, stirring to separate meat. Drain well.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in BBQ sauce (or Ketchup), mustard and Worcestershire.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Simmer about 5 minutes until flavors are blended. \r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon onto slider rolls."
+        }
+    ],
+    "recipeYield": "24 sliders, 12 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "I saw this recipe in the coupon section of the Sunday paper one week and wanted to try it.  It makes a lot so I decreased it to 1 lb of meat and still have leftovers for another meal.  I used ketchup because I was out of BBQ sauce; the mustard was a little too tangy for me (I am not a big fan of mustard) so I added 1 Tbs of brown sugar to sweeten it up a little.  I will try with BBQ sauce and see if that offsets the mustard since it is sweeter than ketchup.  These little sloppy joes were great and got a thumbs up all around!  Made for Spring PAC 2013.",
+            "datePublished": "March 28, 2013",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Sloppy Joe Sliders"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "AZPARZYCH"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/grilled-paneer-wraps-kathi-paneer-rolls#Recipe",
+    "@type": "Recipe",
+    "description": "Enjoy these omelette-coated chapati rolls as a snack or treat at Diwali. They're spread with coriander relish and stuffed with paneer seasoned with mango",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/09/Grilled-paneer-wraps-338b496.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/grilled-paneer-wraps-kathi-paneer-rolls"
+    },
+    "name": "Grilled paneer wraps (kathi paneer rolls)",
+    "url": "https://www.bbcgoodfood.com/recipes/grilled-paneer-wraps-kathi-paneer-rolls",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Roopa Gulati",
+            "url": "https://www.bbcgoodfood.com/author/roopagulati"
+        }
+    ],
+    "dateModified": "2022-11-08T15:05:49+00:00",
+    "datePublished": "2021-10-19T14:32:31+01:00",
+    "headline": "Grilled paneer wraps (kathi paneer rolls)",
+    "keywords": "Diwali, kathi, Paneer, Wraps",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "1029 calories",
+        "fatContent": "68 grams fat",
+        "saturatedFatContent": "18 grams saturated fat",
+        "carbohydrateContent": "65 grams carbohydrates",
+        "sugarContent": "9 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "40 grams protein",
+        "sodiumContent": "1.29 milligram of sodium"
+    },
+    "prepTime": "PT1H",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "300g  paneer",
+        "150ml  full-fat Greek yogurt",
+        "30g ginger, peeled and finely grated",
+        "6 garlic cloves, crushed",
+        "¼ tsp  carom seeds (ajwain; optional)",
+        "¼ tsp  ground turmeric",
+        "¾ tsp  Kashmiri chilli powder",
+        "1 tsp  garam masala",
+        "1 tsp  mango powder (amchoor)",
+        "1 lime, juiced",
+        "3-4 tbsp  sunflower oil",
+        "1 small  red onion, finely sliced",
+        "1 carrot, coarsely grated",
+        "1 green chilli, deseeded and finely chopped",
+        "1 lime, juiced",
+        "2 tsp  caster sugar",
+        "1 tbsp shredded  mint leaves",
+        "6-8 tbsp  sunflower oil or melted ghee",
+        "8 chapatis",
+        "4 eggs, lightly beaten",
+        "coriander relish, to serve (see 'Goes well with', below)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tip the paneer into a heatproof bowl, cover with boiling water from the kettle and leave to soak for 10 mins to soften it. Drain and discard the water, then cut the cheese into three 2cm rectangles."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the yogurt with the ginger, garlic, carom seeds (if using), turmeric, chilli powder, garam masala, mango powder and lime juice. Gently mix the spiced yogurt with the paneer and leave to marinate at room temperature for 30 mins. For the salad, combine the sliced onion with the grated carrot, green chilli, lime juice, sugar and mint. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a heavy-based frying pan over a medium heat and fry the paneer for 3-4 mins until softened, turning the pieces over occasionally with a fish slice. Remove from the heat, cover with a lid and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the bread, heat a griddle or heavy-based frying pan over a medium heat and add 1 tsp oil or ghee. Put a chapati on the griddle and spoon over 1-2 tbsp of the beaten egg. Drizzle another 1 tsp oil or ghee around the edge of the bread and, using a fish slice, quickly flip the chapati over so the eggy side is facing downwards. Some of the egg will spill out as you turn it and can be scraped back under the chapati as it cooks. Cook for a minute, then remove the chapati from the pan and cook the remaining chapatis in the same way. Stack the bread, omelette-side up, and loosely wrap in foil to keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange the omelette-chapatis on the counter and spread some coriander relish generously over the egg. Arrange four or five pieces of paneer in a row down the centre of each chapati and top with 1 tbsp of the salad. Roll the ‘roti’ around the filling and serve straightaway."
+        }
+    ],
+    "recipeYield": 4,
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT1H30M"
+}

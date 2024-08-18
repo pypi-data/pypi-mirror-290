@@ -1,0 +1,69 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/bloody-mary-oyster-shooters",
+    "name": "Bloody Mary Oyster Shooters",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2010%2F03%2F18%2Foyster-shooters-ck-x.jpg",
+        "width": 420,
+        "height": 420
+    },
+    "datePublished": "2010-03-18T18:04:36.000Z",
+    "description": "This recipe calls for a small amount of alcohol, so it's really more of a fun canap&eacute; than a beverage. If you want to make a nonalcoholic version, omit the vodka and add an extra 1/4 cup veggie juice and a bit more lemon juice.",
+    "prepTime": null,
+    "cookTime": null,
+    "totalTime": null,
+    "recipeYield": "10 servings (serving size: 1 shooter)",
+    "recipeIngredient": [
+        "10 live oysters in shell",
+        "1 cup vegetable juice (such as V-8)",
+        "3 tablespoons vodka",
+        "1 tablespoon prepared horseradish",
+        "1 tablespoon Worcestershire sauce",
+        "2 teaspoons fresh lemon juice",
+        "⅛ teaspoon salt",
+        "½ teaspoon hot sauce (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Scrub oysters thoroughly, and rinse under cold running water until all grit is removed. Shuck oysters (leaving the meat on the half shells); carefully cut the foot of each oyster with the shucking knife.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine vegetable juice and next 5 ingredients (through salt) in a liquid measuring cup. Stir in hot sauce, if desired. Fill each of 10 shot glasses with 2 1/2 tablespoons juice mixture. Place the meat from one oyster in each glass. Discard shells.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Barton Seaver"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": 0,
+        "itemReviewed": "Bloody Mary Oyster Shooters",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "28 calories",
+        "carbohydrateContent": "2.4 g",
+        "cholesterolContent": "4 mg",
+        "fatContent": "0.2 g",
+        "fiberContent": "0.3 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0.1 g",
+        "servingSize": null,
+        "sodiumContent": "139 mg",
+        "sugarContent": null,
+        "transFatContent": null,
+        "unsaturatedFatContent": null
+    },
+    "review": []
+}

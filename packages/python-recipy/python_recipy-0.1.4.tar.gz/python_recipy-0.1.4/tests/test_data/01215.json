@@ -1,0 +1,138 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Healthy Pesto Baked Rigatoni",
+    "description": "This Healthy Baked Pesto Rigatoni is tossed with heirloom tomatoes and a saucy spinach pesto that will knock your socks off.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "pesto rigatoni, pesto recipe, whole wheat pasta recipe, healthy pasta recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/healthy-pesto-baked-rigatoni-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/healthy-pesto-baked-rigatoni-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/healthy-pesto-baked-rigatoni-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/healthy-pesto-baked-rigatoni-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/healthy-baked-pesto-rigatoni",
+    "recipeIngredient": [
+        "1 lb. whole wheat rigatoni",
+        "2-3 cups chopped heirloom tomatoes",
+        "1/2 cup water",
+        "1/2 cup shredded cheese of choice (I used Asiago)",
+        "pesto (recipe follows)",
+        "2 cups spinach",
+        "1 cup kale",
+        "1 cup basil",
+        "3/4 cup almonds or pine nuts",
+        "1/2 cup olive oil",
+        "1/4 cup Parmesan or Asiago cheese",
+        "1/2 teaspoon salt",
+        "3 large cloves garlic",
+        "juice of 1 lemon (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of water to boil. While the water is boiling, chop up the tomatoes &#8211; I just cut the little ones in half. Add the pasta to the water and cook according to package directions.",
+            "url": "https://pinchofyum.com/healthy-baked-pesto-rigatoni#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the pasta is cooking, place all the pesto ingredients in the food processor until smooth. You may have to push the spinach down periodically to get everything moving. I had to do this in two batches because my food processor is very small. You should end up with 2 heaping cups of pesto.",
+            "url": "https://pinchofyum.com/healthy-baked-pesto-rigatoni#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400 degrees. Toss the cooked noodles with the chopped tomatoes, pesto, and enough water to make it a little saucy. Transfer to a 9&#215;13 baking dish and sprinkle with the cheese. Cover loosely with well-oiled aluminum foil and bake for 10-15 minutes or until the cheese is melted.",
+            "url": "https://pinchofyum.com/healthy-baked-pesto-rigatoni#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "recipeYield": [
+        "8",
+        "8-10"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "33",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "363 calories",
+        "sugarContent": "2.3 g",
+        "sodiumContent": "387.9 mg",
+        "fatContent": "28.1 g",
+        "saturatedFatContent": "3.5 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "20.5 g",
+        "fiberContent": "4.3 g",
+        "proteinContent": "12.5 g",
+        "cholesterolContent": "11.5 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Healthy Baked Pesto Rigatoni",
+        "description": "his Healthy Baked Pesto Rigatoni is tossed with heirloom tomatoes and a saucy spinach pesto that will knock your socks off.",
+        "contentUrl": "https://content.jwplatform.com/videos/E9JRUi7I.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/E9JRUi7I-720.jpg"
+        ],
+        "uploadDate": "2022-04-25T13:32:44+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Christina Clough"
+            },
+            "datePublished": "2020-12-02",
+            "reviewBody": "Nice recipe. Thanks for sharing.\r\n\r\nI wonder how well it would turn out with arugula? It does have a nutty flavor that would go well with pine nuts."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Hillary | Nutrition Nut on the Run"
+            },
+            "datePublished": "2014-06-25",
+            "reviewBody": "Just curious why you need to oil the foil? Great looking recipe!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Hopeful"
+            },
+            "datePublished": "2014-06-30",
+            "reviewBody": "I use pistachios instead of pine nuts! they work great. I am also going to add/toss in  some marinated artichoke hearts to this also as the pesto and artichoke go together so well! \r\n\r\nGreat recipe and i have never used kale in pesto so I cant wait to try!"
+        }
+    ],
+    "datePublished": "2014-06-25",
+    "@id": "https://pinchofyum.com/healthy-baked-pesto-rigatoni#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/healthy-baked-pesto-rigatoni#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/healthy-baked-pesto-rigatoni"
+}

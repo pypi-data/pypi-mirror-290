@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Birria Maria",
+    "datePublished": "2021-09-12T19:01:23.000-04:00",
+    "dateModified": "2023-07-26T14:11:59.434-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claudette Zepeda",
+            "url": "https://www.foodandwine.com/author/claudette-zepeda"
+        }
+    ],
+    "description": "Claudette Zepeda takes some of the flavorful broth left over from making her popular Birria and mixes it with citrus juices, tequila, and beer for a delicious and thirst-quenching cocktail.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/S77PYIygMLcF3O6MnKYAiQL1jwg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Birria-Maria-FT-RECIPE0921-bc2dabb114a5439bbf21f9a8bd60bc5b.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Birria Maria",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Mexican Inspired"
+    ],
+    "recipeIngredient": [
+        "Chili limon (such as Tajin)",
+        "1 orange wedge",
+        "1 cup cold birria broth (caldo), skimmed of all fat, strained",
+        "2 ounces fresh lime juice, optional",
+        "1 ounce fresh orange juice",
+        "1 ounce tequila blanco (such as Fortaleza)",
+        "Hot sauce (such as Valentina or Tapatio), to taste",
+        "Salsa Maggi (or Worcestershire sauce), to taste",
+        "Red wine vinegar or other fruity vinegar, to taste",
+        "Cold beer (such as Pacifico, or a saison or sour), for topping off",
+        "2 lime wedges, for garnishing"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place a thin layer of the chili limon on a small plate. Run the orange wedge around the rim of 2 pint glasses, then dip the rims of the glasses in the chili limon to coat. In a cocktail shaker, add the birria broth, lime juice (if using), orange juice, and tequila. Add hot sauce, Salsa Maggi, and vinegar to taste. Fill the cocktail shaker with ice and carefully secure the lid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Shake the contents vigorously for at least 30 seconds. Strain the contents of the shaker into the glasses, dividing equally. Top off with the beer and stir to blend with a cocktail spoon. Garnish with the lime wedges."
+        }
+    ],
+    "recipeYield": [
+        "2"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/birria-maria",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/tequila-cocktails-7496742",
+                        "name": "Tequila Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/birria-maria",
+                        "name": "Birria Maria"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-07-26T14:11:59.434-04:00"
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "The 5-Ingredient Dinner I Can Make in 10 Minutes Flat",
+    "datePublished": "2024-06-04T12:01:00.000-04:00",
+    "dateModified": "2024-06-04T12:01:00.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Coco Morante",
+            "url": "https://www.simplyrecipes.com/coco-morante-5091788"
+        }
+    ],
+    "description": "For a satisfying meal ready in 10 minutes flat, make my 5-ingredient pesto shrimp with cherry tomatoes. It&#39;s an easy recipe that&#39;s ideal for summer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.simplyrecipes.com/thmb/3lLrTiMLYBSugyPJzhrfhqpD4Kw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-5-Ingredient-Pesto-Shrimp-LEAD-3-16a9caf760b346458721d50a06ffbd4f.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Simply Recipes",
+        "url": "https://www.simplyrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+            "width": 1125,
+            "height": 320
+        },
+        "brand": "Simply Recipes",
+        "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/simplyrecipes",
+            "https://www.instagram.com/simplyrecipes",
+            "https://www.pinterest.com/simplyrecipes"
+        ]
+    },
+    "name": "The 5-Ingredient Dinner I Can Make in 10 Minutes Flat",
+    "cookTime": "PT3M",
+    "keywords": "5-Ingredient Pesto Shrimp with Cherry Tomatoes, Pesto Shrimp",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "284 kcal",
+        "carbohydrateContent": "9 g",
+        "cholesterolContent": "239 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "28 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "1367 mg",
+        "sugarContent": "6 g",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT7M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 pound 21-30 count (also called “jumbo”) shrimp, peeled and deveined",
+        "1/2 teaspoon garlic salt",
+        "2 tablespoons olive oil",
+        "1/4 cup pesto ( homemade or store-bought)",
+        "1 cup cherry or grape tomatoes, halved",
+        "Basil leaves, for garnish (optional)French bread or garlic bread , for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.simplyrecipes.com/thmb/19ou1SF3lXf6gRwCBqFdqjtYaPk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-5-Ingredient-Pesto-Shrimp-METHOD-5-b17c2d1f728643fcb0cee7aa4529a4b5.jpg"
+                }
+            ],
+            "text": "Cook the shrimp: Season the shrimp all over with the garlic salt.  Heat the olive oil in a large skillet over medium-high heat. Add the shrimp. Let them sear on one side for about 1 minute, then flip them over and let sear on the other side for about 1 more minute, or until they’re pink and opaque all the way through, with a firm but tender texture. Turn off the heat."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.simplyrecipes.com/thmb/tiUsA-Cwz0uAgHsjc8awxtQPSPo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-5-Ingredient-Pesto-Shrimp-LEAD-5-6c3c1f11afbb4f65b5c24ffebe0f88f9.jpg"
+                }
+            ],
+            "text": "Finish the dish: Add the pesto and toss to combine. Transfer to a serving dish, garnish with cherry tomatoes and basil, and serve right away with French bread or garlic bread on the side.  Refrigerate leftovers in an airtight container for up to 2 days. I actually enjoy the leftover shrimp cold from the fridge! Love the recipe? Leave us stars and a comment below!"
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.simplyrecipes.com/pesto-shrimp-with-cherry-tomatoes-recipe-8654920",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/dinner-recipes-by-time-and-ease-5091425",
+                        "name": "Dinners By Time and Ease"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/quick-dinner-recipes-5091422",
+                        "name": "Quick Dinners"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/pesto-shrimp-with-cherry-tomatoes-recipe-8654920",
+                        "name": "The 5-Ingredient Dinner I Can Make in 10 Minutes Flat"
+                    }
+                }
+            ]
+        }
+    }
+}

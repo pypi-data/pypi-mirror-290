@@ -1,0 +1,148 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Spicy Korean Fish Stew",
+    "datePublished": "2012-07-31T01:28:51.000-04:00",
+    "dateModified": "2022-02-19T10:45:45.840-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Naomi Imatome-Yun",
+            "url": "https://www.thespruceeats.com/naomi-imatome-yun-2118498"
+        }
+    ],
+    "description": "This recipe for Korean fish stew (maeun-tang) is a little bit spicy and sweet and has dozens of different fish and vegetable variations.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/uOFETbDXOmYsrlTQp32jfxEv8NQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/0-87174286-588b8fa53df78caebc471ee0.jpg",
+        "height": 1079,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Spicy Korean Fish Stew",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "11"
+    },
+    "cookTime": "PT20M",
+    "keywords": "Tofu",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "404 kcal",
+        "carbohydrateContent": "27 g",
+        "cholesterolContent": "125 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "62 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "1235 mg",
+        "sugarContent": "16 g",
+        "fatContent": "6 g",
+        "servingSize": "4 portions (4 servings)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [
+        "Soup"
+    ],
+    "recipeCuisine": [
+        "Asian",
+        "Korean"
+    ],
+    "recipeIngredient": [
+        "1 whole fish/ daegu (filleted with the head separated but reserve)",
+        "8 ounces Korean or Chinese white radish (peeled and cut into 1-inch pieces)",
+        "2 garlic cloves (crushed and chopped)",
+        "1 red chili pepper (cut on the bias)",
+        "1 green chili pepper (cut on the bias)",
+        "1 sweet onion (sliced into strips)",
+        "3 teaspoons  kochukaru (Korean crushed red chili pepper powder)",
+        "3 tablespoons gochujang (Korean chili pepper paste)",
+        "1 tablespoon soy sauce",
+        "2 scallions (sliced into 1-inch pieces)",
+        "1/2 block firm tofu (cubed)",
+        "4 ounces edible chrysanthemum leaves (crown daisy, ssukgat )",
+        "1/2 medium zucchini (sliced)",
+        "Salt (to taste)",
+        "Black pepper (to taste​)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cut the fish into several pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring 3 to 4 cups water (depending on the size of your fish) and the fish head to a boil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add radish, garlic, gochujang , kochukaru , and sliced chiles and continue to cook over medium heat for 5 to 6 minutes. Don't stir too much, as you want the broth to be relatively clear."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the fish head and add the fish meat into the pot. Simmer until fish is tender, about 3 to 4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add tofu, edible chrysanthemum (crown daisy) and simmer for 2 to 3 minutes more. Do not stir anymore."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/korean-spicy-fish-stew-mae-un-tang-recipe-2118943",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/korean-4162618",
+                        "name": "Korean Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/korean-main-dishes-4162614",
+                        "name": "Korean Mains"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/korean-spicy-fish-stew-mae-un-tang-recipe-2118943",
+                        "name": "Spicy Korean Fish Stew"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Veggie Burger",
+    "url": "https://www.foodnetwork.com/recipes/veggie-burger-3548155",
+    "headline": "Veggie Burger",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/11/10/0/DV2512H_Veggie-Burger-Grind-Burger-Kitchen_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1479848494852.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Veggie Burger as served at Grind Burger Kitchen in Louisville, KY as seen on Food Network's Diners, Drive-Ins and Dives episode 2512."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/11/10/0/DV2512H_Veggie-Burger-Grind-Burger-Kitchen_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1479848494852.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Veggie Burger as served at Grind Burger Kitchen in Louisville, KY as seen on Food Network's Diners, Drive-Ins and Dives episode 2512."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/11/10/0/DV2512H_Veggie-Burger-Grind-Burger-Kitchen_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1479848494852.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Veggie Burger as served at Grind Burger Kitchen in Louisville, KY as seen on Food Network's Diners, Drive-Ins and Dives episode 2512."
+        }
+    ],
+    "datePublished": "2016-11-22T14:29:28.040-05:00",
+    "dateModified": "2016-11-22T14:29:11.210-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Vegetarian,Burger,Vegetable,Main Dish,High Fiber,Vegan",
+    "cookTime": "P0Y0M0DT0H50M0.000S",
+    "totalTime": "P0Y0M0DT4H50M0.000S",
+    "recipeIngredient": [
+        "1/2 head cauliflower, cored and divided into florets",
+        "4 ounces fresh shiitake mushrooms ",
+        "1/2 cup diced yellow onion ",
+        "1/2 cup Brussels sprouts ",
+        "Oil",
+        "1/2 tablespoon kosher salt ",
+        "2 cans chickpeas, drained and rinsed ",
+        "2 tablespoons potato starch ",
+        "1/2 cup cooked lentils ",
+        "1/2 cup gluten-free oats ",
+        "1/2 cup toasted pumpkin seeds ",
+        "1/2 cup cooked quinoa ",
+        "1 teaspoon smoked paprika ",
+        "1/2 teaspoon cayenne pepper",
+        "1/2 teaspoon ancho chile powder ",
+        "1/2 teaspoon curry powder ",
+        "1/2 teaspoon garlic powder ",
+        "1/2 teaspoon mustard powder ",
+        "1/2 teaspoon sage powder ",
+        "1/2 teaspoon sorghum syrup",
+        "1/2 teaspoon ground black pepper ",
+        "1/2 teaspoon ground white pepper ",
+        "1/2 teaspoon cider vinegar ",
+        "8 hamburger buns",
+        "Serving suggestion: your favorite burger toppings"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "440",
+        "fatContent": "13g",
+        "saturatedFatContent": "2g",
+        "carbohydrateContent": "64g",
+        "fiberContent": "12g",
+        "sugarContent": "9g",
+        "proteinContent": "19g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "607mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a food processor, pulse the cauliflower, mushrooms onions and Brussels sprouts in separate batches. Mix together in a large bowl. Mix in a little oil and salt. Spread out on a baking pan and roast, stirring every 15 minutes, for 1 hour; let cool. (This step is important because roasting helps evaporate moisture from the vegetables and adds deep roasted flavor to the final product.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss the chickpeas with the potato starch, then grind with a meat grinder or pulse in a food processor."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, combine the ground chickpeas and roasted vegetables with the lentils, oats, pumpkin seeds, quinoa, smoked paprika, cayenne, chile powder, curry powder, garlic powder, mustard powder, sage powder, sorghum, black pepper, white pepper and cider vinegar. Mix thoroughly by hand. Refrigerate for a few hours to let the oats absorb the oil and moisture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Form into 8 patties. Cook in oil in a skillet over medium heat until golden brown and hot throughout. Serve on buns with your favorite burger toppings."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "8 burgers",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer B."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "My neighbor made these and they are amazing! I had two burgers!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "The best veggie burger recipe EVER! I topped with Brie, lettuce, tomato, and spicy honey. "
+        }
+    ],
+    "recipeCategory": []
+}

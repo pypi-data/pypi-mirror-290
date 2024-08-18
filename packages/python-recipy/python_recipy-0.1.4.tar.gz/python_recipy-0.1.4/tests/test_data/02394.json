@@ -1,0 +1,49 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Spicy Honey Chicken Drumettes",
+    "keywords": "spicy honey chicken drumettes",
+    "recipeCategory": "Appetizer",
+    "image": "https://mojo.generalmills.com/api/public/content/UI7Op8AgzUWbgQOP2rrcJw_webp_base.webp?v=c3e6bc34&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Add something spicy to your meal! Enjoy these zesty chicken drumettes - a delicious appetizer.",
+    "recipeIngredient": [
+        "1/4  cup honey",
+        "1/4  cup soy sauce",
+        "1/4  cup chili sauce",
+        "1/2  teaspoon Frank's™ RedHot™ Original cayenne pepper sauce",
+        "1/4  teaspoon ginger",
+        "1/4  teaspoon dry mustard",
+        "12  chicken drumettes"
+    ],
+    "totalTime": "PT2H10M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "12",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 12x8-inch (2-quart) baking dish, combine honey, soy sauce, chili sauce, hot pepper sauce, ginger and dry mustard; mix well. Add drumettes; turn to coat. Cover; refrigerate 1 hour to marinate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375°F. Uncover dish. Bake chicken in marinade at 375°F. for 45 to 60 minutes or until chicken is tender and no longer pink next to bone, brushing with marinade occasionally."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 sERVING"
+    },
+    "dateCreated": "07/09/1999",
+    "dateModified": "09/09/2016"
+}

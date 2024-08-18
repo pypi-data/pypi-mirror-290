@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Fireside Beef Stew",
+    "datePublished": "2017-11-15T11:59:02.000-05:00",
+    "dateModified": "2018-02-20T12:55:25.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Our rich, comforting beef stew chock-full of root vegetables is just the thing to get you through winter. The one-pot wonder can be made two to three days in advance, then reheated and finished with the parsley-horseradish topping and the sour cream right before serving.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/Mx_sRPNIz4FfSt0CIYYq9dalreM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fireside-beef-stew-103180162_horiz-314b745d3e2e451a896a1b373c0a6b0b.jpgitokPph38v4K",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Fireside Beef Stew",
+    "prepTime": "PT60M",
+    "recipeIngredient": [
+        "3 tablespoons safflower oil",
+        "3 pounds whole chuck roast, cut crosswise into 2-inch-thick steaks",
+        "Kosher salt and freshly ground pepper",
+        "1 large onion, diced",
+        "2 celery stalks, thinly sliced",
+        "4 cloves garlic, crushed",
+        "2 tablespoons tomato paste",
+        "2 tablespoons unbleached all-purpose flour",
+        "1 tablespoon Worcestershire sauce",
+        "1 cup dry red wine, such as Cabernet Sauvignon",
+        "4 cups low-sodium chicken broth",
+        "2 dried bay leaves",
+        "1 pound Yukon Gold potatoes, peeled and cut into 1-inch pieces",
+        "1 pound carrots, peeled and cut into 1-inch pieces",
+        "1 large turnip, peeled and cut into 1-inch pieces",
+        "0.5 cup chopped flat-leaf parsley",
+        "0.25 cup prepared horseradish",
+        "0.5 cup sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat 2 tablespoons oil in a 5-quart Dutch oven over medium-high. Generously season beef with salt and pepper. Working in two batches, sear beef, flipping once, until deep golden brown, 3 to 4 minutes per side. Transfer to a bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove fat from Dutch oven; add remaining 1 tablespoon oil. Stir in onion, celery, and garlic; cook, stirring occasionally, until softened, 6 to 8 minutes. Add tomato paste and flour and cook, stirring, 1 minute. Add Worcestershire and wine and cook, scraping up browned bits from bottom, 1 minute. Add broth and bay leaves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut beef into 1 1/2-inch chunks; return to Dutch oven along with any juices. Bring to a boil, then partially cover and reduce heat to a simmer. Cook until meat is tender, about 1 1/2 hours. Add potatoes, carrots, and turnip, re-cover partially, and continue to cook until vegetables are tender, about 1 hour, 15 minutes. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine parsley and horseradish in a small bowl. Serve stew with dollops of sour cream, topped with parsley-horseradish mixture."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT225M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1523991/fireside-beef-stew",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513726/meat-poultry-recipes",
+                        "name": "Meat & Poultry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505014/beef-recipes",
+                        "name": "Beef Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1523991/fireside-beef-stew",
+                        "name": "Fireside Beef Stew"
+                    }
+                }
+            ]
+        }
+    }
+}

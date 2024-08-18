@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Reindeer Cookies",
+    "datePublished": "2021-05-05T08:51:01.000-04:00",
+    "dateModified": "2023-02-16T08:31:46.682-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Gather your elves in the kitchen to make these cute Christmas Reindeer Cookies. They come alive in minutes and are perfect for everyone, including Santa.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/qdzjZ91sLGfPsAYQ09jHjsSzpPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-make-reindeer-cookies-209c2e3408804001936a845a18491015-2576343aee314fbdb1cad056fa0c3963.jpg",
+        "height": 720,
+        "width": 1080
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/x6JLz9lY-6pBsaupF.mp4",
+        "description": "Learn how easy it is to make these adorable Christmas cookies with your kids.",
+        "duration": "PT2M39S",
+        "name": "How To Make Reindeer Cookies",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/x6JLz9lY/poster.jpg?width=720",
+        "uploadDate": "2021-06-09T01:02:20.942-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Reindeer Cookies",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "Classic white frosting",
+        "Peanut butter cookies, like Nutter Butters",
+        "Pretzels",
+        "Mini M&Ms",
+        "Ziploc bag"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare a DIY piping bag for your frosting. Our trick is to take a Ziploc bag and place it inside a glass. When you transfer the frosting, keep scraping the spatula against the rim of the glass that&#39;s covered by the bag. When you&#39;re done, lift the bag up and squish the icing into one corner. Take a pair of scissors and clip the end slightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Take the peanut butter cookies and split them in half. Set them aside where you plan to assemble the cookies."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chop the pretzels to create antlers that will be added to the peanut butter cookie base."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place a dollop of frosting at the top and bottom of the peanut butter cookie. You&#39;ll want to do this on one of the cookies in each pair. Placing a dollop at the top and bottom of the cookie helps to balance out the sandwich once the antlers are added."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Take the pretzel antlers and place two on opposite sides of the top dollop of frosting on each cookie. Place the other side of the cookie back on gently to make a closed sandwich."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place two dollops on the top of each cookie sandwich. Place another dollop at the bottom of the cookie for the nose. Gently press mini M&amp;Ms on the top dollops for the eyes and the bottom for the nose of these reindeer. Make sure the emblem is face down toward the frosting so it&#39;s hidden."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/reindeer-christmas-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/reindeer-christmas-cookies",
+                        "name": "Reindeer Cookies"
+                    }
+                }
+            ]
+        }
+    }
+}

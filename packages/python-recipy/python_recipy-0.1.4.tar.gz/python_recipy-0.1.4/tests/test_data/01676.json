@@ -1,0 +1,158 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sourdough Tortillas with Charred Steak and Scallion Salsa",
+    "datePublished": "2017-05-31T12:47:44.000-04:00",
+    "dateModified": "2023-08-02T11:58:51.183-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Val M. Cantu",
+            "url": "https://www.foodandwine.com/author/val-m-cantu"
+        }
+    ],
+    "description": "Learn to make extra-tasty sourdough tortillas at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/KyIvGiAc-lSpFmPqbGZ9eItHW08=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sourdough-tortillas-with-charred-steak-and-scallion-salsa-XL-RECIPE0717-ac1bbba95a404cfa9a9da2a49ab07f58.jpg",
+        "height": 1000,
+        "width": 1000
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Sourdough Tortillas with Charred Steak and Scallion Salsa",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 cup buttermilk",
+        "3/4 cup water",
+        "1 tablespoon sugar",
+        "2 1/2 ounces fresh sourdough starter (see Note)",
+        "2 teaspoons active dry yeast",
+        "3 3/4 cups bread flour, plus more for dusting",
+        "Kosher salt",
+        "Pepper",
+        "Canola oil, for greasing",
+        "12 large scallions",
+        "1/2 cup fresh lime juice",
+        "1 serrano chile—stemmed, seeded and minced",
+        "2 pounds skirt steak, cut into 5-inch lengths"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small saucepan, heat the buttermilk, water and sugar until an instant-read thermometer registers 95°. Transfer to the bowl of a stand mixer and whisk in the sourdough starter and yeast. Let stand until foamy, about 20 minutes. Attach the dough hook. Add the 3 3/4 cups of bread flour and mix on low speed until smooth, about 7 minutes. Add 2 1/2 teaspoons of salt and mix on low speed until incorporated, about 3 minutes. Transfer the dough to a large greased bowl, cover with plastic wrap and let rise in a warm place until doubled in bulk, about 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the dough into 20 pieces. Gently shape into balls and transfer to 2 large greased baking sheets. Very loosely cover the dough with plastic wrap. Let stand in a warm place until doubled in bulk, about 2 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a cast-iron griddle or large skillet over moderately high heat. On a lightly floured work surface, dust 1 ball of dough with flour and roll 1/8 inch thick. Griddle the tortilla, turning once, until browned in spots and pliable, about 30 seconds per side. Wrap the tortilla in a towel and repeat with the remaining balls of dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Light a grill or preheat a grill pan. Grill the scallions over moderately high heat, turning, until lightly charred, 3 minutes total. Transfer to a work surface to cool, then cut into 1/2-inch pieces. In a medium bowl, mix the scallions with the lime juice and serrano and season with salt. Leave the grill on."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season the steak with salt and pepper. Grill over moderately high heat, turning once, until lightly charred outside and medium-rare within, about 6 minutes total. Transfer to a carving board and let rest for 5 minutes, then carve against the grain. Serve the steak in the tortillas with the scallion salsa."
+        }
+    ],
+    "totalTime": "PT275M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food Sleuth"
+            },
+            "reviewBody": "The sourdough tortillas make this recipe, the skirt steak I use my recipe which is brush with sweetened lime juice, season with salt pepper and cumin, grill to a char on each side.",
+            "datePublished": "2023-11-12T14:11:40.650Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "IsaChernobil"
+            },
+            "reviewBody": "That Scallion Salsa sounds sooooo good!!",
+            "datePublished": "2017-06-21T05:22:45.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/sourdough-tortillas-charred-steak-and-scallion-salsa",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/meat-dishes-7497037",
+                        "name": "Meat Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/sourdough-tortillas-charred-steak-and-scallion-salsa",
+                        "name": "Sourdough Tortillas with Charred Steak and Scallion Salsa"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-02T11:58:51.183-04:00"
+    }
+}

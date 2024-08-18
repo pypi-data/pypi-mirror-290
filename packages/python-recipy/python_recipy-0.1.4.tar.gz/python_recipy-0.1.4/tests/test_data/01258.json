@@ -1,0 +1,161 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Honey Lemon Chicken",
+    "description": "Honey Lemon Chicken - so easy to make with just honey, fresh lemon juice, olive oil, salt, pepper, and chicken. Perfect for easy entertaining!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "honey lemon chicken, chicken recipe, lemon chicken, honey chicken",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Lemon-Chicken-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Lemon-Chicken-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Lemon-Chicken-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Lemon-Chicken-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/lemon-chicken",
+    "recipeIngredient": [
+        "1 lb. chicken thighs (4 pieces)",
+        "1/2 cup lemon juice (2 lemons)",
+        "1/4 cup olive oil",
+        "1 clove minced garlic",
+        "1 teaspoon sea salt",
+        "1/2 teaspoon dried oregano",
+        "1 tablespoon honey"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Turn the oven to the broil setting (about 450-500 degrees Fahrenheit). Place the chicken skin-side down in a well seasoned cast iron skillet (we use LODGE all the way baby!). Broil for 15 minutes. Flip the chicken over so the skin is facing up &#8211; broil for another 15 minutes.",
+            "url": "https://pinchofyum.com/lemon-chicken#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make the sauce by whisking the lemon juice, olive oil, garlic, sea salt, and oregano together.",
+            "url": "https://pinchofyum.com/lemon-chicken#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip each chicken piece in the sauce (lazy girl pro-tip &#8211; you can also just pour or brush a little bit of the sauce over the chicken) and return to the hot oven for a few minutes. The exterior of the chicken should get crispy and golden brown.",
+            "url": "https://pinchofyum.com/lemon-chicken#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the chicken is done, set aside. Pour out the drippings from the pan (reserve them!), wipe out any large residual chicken bits, and put the cast iron back on a warm burner. Add a few tablespoons of the reserved chicken drippings and the remaining sauce + honey. Simmer for just a few minutes until the sauce is bubbly and hot. Pour the remaining sauce over the chicken and sprinkle with fresh parsley. Serve with a green salad and crusty bread for soaking up the very lemony sauce!",
+            "url": "https://pinchofyum.com/lemon-chicken#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "15",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "250 calories",
+        "sugarContent": "5.1 g",
+        "sodiumContent": "621.4 mg",
+        "fatContent": "21.6 g",
+        "saturatedFatContent": "4.1 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "6.9 g",
+        "fiberContent": "0.2 g",
+        "proteinContent": "8.2 g",
+        "cholesterolContent": "47.3 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Brittany | Words Like Honeycomb"
+            },
+            "datePublished": "2016-07-15",
+            "reviewBody": "Cast Iron 12in Skillet sistas  #lazygirlclub"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kristina"
+            },
+            "datePublished": "2020-01-12",
+            "reviewBody": "I made this tonight with chicken tenderloins and real California lemons. This is my new favorite recipe! The sauce is the perfect balance between zest and sweet and all of my kids loved it!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jo@SimplyBeingMum"
+            },
+            "datePublished": "2016-07-15",
+            "reviewBody": "This looks A-Mazing! I always use a skillet (one of those things passed down from my Mom)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lindsay"
+            },
+            "datePublished": "2016-07-16",
+            "reviewBody": "So yeah this sauce was finger licking incredible. I are way too much bread with it just to have more sauce. Sorry not sorry. On the funny side of cooking we also dropped one of the thighs in the oven and consequently set off the fire alarm but I don't even care because the sauce was that. Good."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Krystal"
+            },
+            "datePublished": "2016-07-16",
+            "reviewBody": "Rice goes great with chicken and brown rice is healthier. If anyone is looking for a quick and easy way to make brown rice in the microwave, check out my blog post: https://krystalbrownblog.wordpress.com/2015/11/30/how-to-microwave-brown-rice/"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "max"
+            },
+            "datePublished": "2016-07-18",
+            "reviewBody": "this looks good taste.&amp; different way of make.i'll make this tomorrow."
+        }
+    ],
+    "datePublished": "2016-07-15",
+    "@id": "https://pinchofyum.com/lemon-chicken#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/lemon-chicken#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/lemon-chicken"
+}

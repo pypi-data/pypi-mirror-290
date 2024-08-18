@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Toasted-Coconut Caramel Ice Cream Sundaes  Recipe",
+    "keywords": [
+        "sundae",
+        "dessert",
+        "coconut",
+        "gluten-free",
+        "simmer",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Diane Rossen Worthington",
+            "sameAs": "https://www.bonappetit.com/contributor/diane-rossen worthington"
+        },
+        {
+            "@type": "Person",
+            "name": "Gentl Hyers",
+            "sameAs": "https://www.bonappetit.com/contributor/gentl-hyers"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.4,
+        "ratingCount": 5
+    },
+    "description": "Toasted-Coconut Caramel Ice Cream Sundaes  Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b06e1653e63daf11a4eaa2/master/w_484,h_344,c_limit/mare_toasted_coconut_caramel_ice_cream_sundaes_h.jpg"
+    ],
+    "headline": "Toasted-Coconut Caramel Ice Cream Sundaes ",
+    "name": "Toasted-Coconut Caramel Ice Cream Sundaes ",
+    "recipeIngredient": [
+        "1 cup sugar",
+        "1/4 cup water",
+        "1 cup heavy whipping cream",
+        "1/4 cup sweetened cream of coconut (such as Coco López)*",
+        "1 1/4 cups sweetened flaked coconut (loosely packed; about 3 1/2 ounces)",
+        "1 1/2 pints purchased French vanilla ice cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place sugar and 1/4 cup water in heavy deep medium saucepan. Stir over medium-low heat until sugar dissolves. Increase heat to high. Boil until mixture turns dark amber, occasionally swirling pan and brushing down sides with wet pastry brush, about 9 minutes. Remove from heat. Immediately add cream and sweetened cream of coconut (mixture will bubble vigorously). Whisk over low heat until caramel sauce is blended and smooth and any caramel bits dissolve. DO AHEAD Can be made 1 day ahead. Cool, cover, and chill. Rewarm slightly over medium heat, stirring often, before using."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Spread coconut evenly on small baking sheet. Bake until golden brown, stirring every 3 to 4 minutes, about 12 minutes. Cool. DO AHEAD Toasted coconut can be made 4 hours ahead. Let stand at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scoop ice cream into bowls. Spoon some of warm caramel sauce over. Sprinkle toasted coconut over and serve immediately."
+        }
+    ],
+    "recipeYield": "makes 6  Servings",
+    "url": "https://www.bonappetit.com/recipe/toasted-coconut-caramel-ice-cream-sundaes",
+    "dateModified": "2009-04-15T20:00:00.000-04:00",
+    "datePublished": "2009-04-15T20:00:00.000-04:00",
+    "recipeCategory": []
+}

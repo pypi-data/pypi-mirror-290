@@ -1,0 +1,84 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/premium/strawberry-elderflower-semifreddo#Recipe",
+    "@type": "Recipe",
+    "description": "Finish your summer menu with the perfect al fresco pudding – this semifreddo is incredibly easy to make but looks so impressive",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/04/Semifreddo-a9ec558.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/premium/strawberry-elderflower-semifreddo"
+    },
+    "name": "Strawberry & elderflower semifreddo",
+    "url": "https://www.bbcgoodfood.com/premium/strawberry-elderflower-semifreddo",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Samuel Goldsmith",
+            "url": "https://www.bbcgoodfood.com/author/samuelgoldsmith"
+        }
+    ],
+    "dateModified": "2023-08-21T11:44:34+01:00",
+    "datePublished": "2022-04-28T10:24:22+01:00",
+    "headline": "Strawberry & elderflower semifreddo",
+    "keywords": "Elderflower, Frozen yoghurt, Ice cream, Semifreddo, Strawberry, Yoghurt",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "313 calories",
+        "fatContent": "24 grams fat",
+        "saturatedFatContent": "15 grams saturated fat",
+        "carbohydrateContent": "20 grams carbohydrates",
+        "sugarContent": "19 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "3 grams protein",
+        "sodiumContent": "0.1 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "500g strawberries, hulled and quartered",
+        "50g caster sugar, plus 2 tbsp (optional)",
+        "6 tbsp elderflower cordial",
+        "300ml double cream",
+        "300ml full-fat Greek yogurt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Line a 1-litre loaf tin with cling film. Cook 300g of the strawberries with the 50g sugar and 4 tbsp of the elderflower cordial for 8-10 mins in a small pan over a medium heat until the strawberries have released some of their liquid and it has reduced a little. Leave to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the double cream to soft peaks, then fold in the Greek yogurt until combined. Gently fold the cooked strawberries through the cream and yogurt mixture to create a ripple effect. Tip the mixture into the lined tin, then gently even out with the back of a spoon. Cover with cling film and freeze for at least 5 hrs or overnight. Will keep frozen for up to one month."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve, remove from the freezer, turn out onto a serving plate, peel off the cling film and defrost for 20 mins. Meanwhile, mix the rest of the strawberries with the remaining elderflower cordial, sprinkle over the 2 tbsp sugar, if using, and pile these on the semifreddo."
+        }
+    ],
+    "recipeYield": 8,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet, https://schema.org/VegetarianDiet",
+    "totalTime": "PT30M"
+}

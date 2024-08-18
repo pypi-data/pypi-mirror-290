@@ -1,0 +1,141 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Spaghetti with Tomato Sauce",
+    "url": "https://www.foodnetwork.com/recipes/spaghetti-with-tomato-sauce-2707985",
+    "headline": "Spaghetti with Tomato Sauce",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-20T14:57:49.347-05:00",
+    "dateModified": "2015-01-27T11:39:07.959-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Italian,Pasta Recipes,Sauce Recipes,Tomato,Vegetable,Spaghetti,Main Dish,Vegetarian",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT1H30M0.000S",
+    "recipeIngredient": [
+        "8 local tomatoes",
+        "6 tablespoons olive oil ",
+        "3 cloves garlic, chopped ",
+        "Salt",
+        "1 pound spaghetti",
+        "2 tablespoons freshly grated Parmesan",
+        "Crushed red pepper flakes, for sprinkling ",
+        "Olive oil, for drizzling "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "475",
+        "fatContent": "19g",
+        "saturatedFatContent": "3g",
+        "carbohydrateContent": "63g",
+        "fiberContent": "4g",
+        "sugarContent": "6g",
+        "proteinContent": "13g",
+        "cholesterolContent": "2mg",
+        "sodiumContent": "607mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the sauce: Using a small knife, peel the skins off the tomatoes. Chop the tomatoes by hand and drain in a colander."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the olive oil, garlic and some salt in a bowl. Mix together and let the mixture sit for 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Add the pasta and cook until al dente. Drain and plate the pasta. Heat the tomato mixture in a pan for just a couple of minutes until it becomes warm, not cooked."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To plate: Pour the tomato mixture over the pasta and garnish with the Parmesan, some crushed red pepper flakes and a drizzle of olive oil."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 4
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pe P."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I made Briganti’s dish. It was a keeper! I parboiled the tomatoes to remove the tomato skins off easily. Followed the rest of the recipe and finished it off with extra drizzle of evoo, real parm cheese and the basil. It was great, thanks!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Masta M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This recipe forgot the basil but looks delicious and simple. Going to make it for tomorrow night's dinner."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sherryfl1980"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Amazing!!!   Light and so fresh.  I added some basil on top.  The drizzle of olive oil on the finished plate was key.   "
+        }
+    ],
+    "recipeCuisine": "italian",
+    "recipeCategory": []
+}

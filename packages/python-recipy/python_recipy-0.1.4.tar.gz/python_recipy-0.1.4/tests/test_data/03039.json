@@ -1,0 +1,271 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mini Beef Wellingtons",
+    "datePublished": "2012-10-23T17:18:47.000-04:00",
+    "dateModified": "2021-03-20T09:15:29.188-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Gene Gerrard",
+            "url": "https://www.thespruceeats.com/gene-gerrard-2313259"
+        }
+    ],
+    "description": "Whip up these easy-to-prepare and elegant individual beef Wellingtons drizzled with a rich red wine and Gorgonzola sauce.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/tECUb9Aj2S0bq6_iYFhJXS81ZlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mini-beef-wellington-57c48daf5f9b5855e5d80bb5.jpg",
+        "height": 1000,
+        "width": 1000
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Mini Beef Wellingtons",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "54"
+    },
+    "cookTime": "PT20M",
+    "keywords": "beef wellington",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "663 kcal",
+        "carbohydrateContent": "13 g",
+        "cholesterolContent": "224 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "50 g",
+        "saturatedFatContent": "16 g",
+        "sodiumContent": "373 mg",
+        "sugarContent": "3 g",
+        "fatContent": "41 g",
+        "servingSize": "4 portions (4 servings)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT30M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "British"
+    ],
+    "recipeIngredient": [
+        "For the Filet Mignon:",
+        "4 (6-ounce) filet mignon steaks (cut 1 1/2 inches thick)",
+        "1/8 teaspoon kosher salt",
+        "1/8 teaspoon black pepper (freshly ground)",
+        "1 tablespoon olive oil",
+        "For the Mushroom Duxelles:",
+        "10 ounces cremini mushrooms",
+        "1 tablespoon butter (unsalted)",
+        "1 small shallot (minced)",
+        "1 clove garlic (minced)",
+        "1/4 teaspoon salt (sea)",
+        "1/8 teaspoon black pepper (freshly ground)",
+        "2 1/2 tablespoons dry sherry (or dry vermouth)",
+        "For the Beef Wellington:",
+        "1 sheet puff pastry (frozen; thawed)",
+        "1 large egg (beaten with 2 teaspoons water for egg wash)",
+        "1 1/4 cups red wine sauce",
+        "Optional: 4 ounces Gorgonzola"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Make the Filet Mignon",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Gather the ingredients."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Sprinkle both sides of the filet mignon steaks with kosher salt and fresh ground pepper."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "In a heavy skillet over medium-high heat, heat the oil. Add the filets and sear for 1 minute on each side."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Transfer to a plate, cool, then refrigerate for 30 minutes."
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Make the Mushroom Duxelles",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Clean, stem, and finely chop the cremini mushrooms."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Heat the butter in a skillet over medium-high heat. Add the shallot and garlic, and sauté for 1 minute."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Add the mushrooms, salt, and pepper. Cook, stirring often, until the mushroom liquid has evaporated and the mushrooms begin to brown around the edges."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Take the skillet off the heat and stir in the sherry."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Return the skillet to the heat, and cook until the liquid has again evaporated. Transfer to a plate and cool completely."
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Make the Beef Wellington",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat the oven to 425 F. Cut a piece of parchment paper to fit inside a baking tray."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Prepare the red wine sauce, and keep warm."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Roll out the puff pastry on a lightly floured board to a 14-inch square. Cut into four 7-inch squares."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Remove the seared filets from the refrigerator. Using a paper towel, gently dab them dry to remove any accumulated juices."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Compactly press an equal amount of the mushroom duxelles on top of each filet."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Lay a filet, mushroom-side down, on a puff pastry square. Using a pastry brush, brush the egg wash along the edges of the pastry square."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Fold one side of the pastry, press down, then fold the adjacent side (like wrapping a package) and press down. Press together the other two sides to seal the pastry. Put the Wellington, with the seal-side down onto the tray. Do the same for the other three Wellingtons."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Brush more of the egg wash over the top and sides of each Wellington."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bake for 20 minutes, or until the pastry is golden brown. Remove the tray from the oven, and let the Wellingtons rest for 5 minutes."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Re-heat the red wine sauce. If using the Gorgonzola, stir it into the sauce, then whisk until melted and smooth."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Spoon a little of the sauce onto each plate. Transfer a Wellington on top of the sauce. Cut the Wellington in half on the diagonal, slightly opening the two halves, and spoon a little sauce between the two halves. Serve and enjoy."
+                }
+            ]
+        }
+    ],
+    "recipeYield": [
+        "4",
+        "4 Wellingtons"
+    ],
+    "totalTime": "PT90M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peggy Chuang-Tupac"
+            },
+            "reviewBody": "Can I make these a day in advance and bake the next evening?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean Perry"
+            },
+            "reviewBody": "Could you please explain what was wrong with my comment expressing concern about how to adjust the time and temperature, as I had mistakenly purchased thinner filets than called for? I'd contact you through email about this, but your 'Contact' link seems to be disabled. I assume that someone will at least see this comment before dumping it, even though I will not get a response.\n~Disappointed."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean Perry"
+            },
+            "reviewBody": "Looks great, but I really wish you had lead with the thickness, and maybe left the weight of the filets out. I made the mistake of asking the butcher for 6 oz filets, thinking they would therefore be 1 1/2 inches thick, as called for. Unfortunately, I found out that not all 6 oz filet mignons are the same thickness - depends on the shape. These are only about an inch thick, and I have no idea how to adjust the time and temperatures so that the pastry is properly cooked and the filets are not overdone. A costly error."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy Gehrke"
+            },
+            "reviewBody": "how much in advance can these be assembled?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "disqus_mlxePpmtp4"
+            },
+            "reviewBody": "Could you make the mushrooms ahead of time?"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/mini-beef-wellingtons-recipe-2313386",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/dinner-4162806",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/beef-dishes-4162801",
+                        "name": "Beef Mains"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/mini-beef-wellingtons-recipe-2313386",
+                        "name": "Mini Beef Wellingtons"
+                    }
+                }
+            ]
+        }
+    }
+}

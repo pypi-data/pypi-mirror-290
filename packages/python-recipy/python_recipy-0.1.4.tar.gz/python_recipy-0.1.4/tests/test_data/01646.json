@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Strawberry-Almond Scones",
+    "datePublished": "2013-12-06T18:52:10.000-05:00",
+    "dateModified": "2019-02-01T14:18:18.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Breanne Varela",
+            "url": "https://www.foodandwine.com/author/breanne-varela"
+        }
+    ],
+    "description": "When baking these scones, be sure to use whole wheat pastry flour, which is less dense than whole wheat flour. Mixing in some all-purpose white flour ...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/69exiWrnObXl2dxMTKizz7K2DVs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201103-xl-strawberry-scones-1b7722e32cef4438a398329a72e59058.jpg",
+        "height": 1306,
+        "width": 1306
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Strawberry-Almond Scones",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "1954"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 1/2 cups all-purpose flour",
+        "1 1/2 cups whole wheat pastry flour",
+        "1/4 cup plus 2 tablespoons granulated sugar",
+        "1 tablespoon baking powder",
+        "1/2 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "1 stick cold unsalted butter, cubed",
+        "1 1/4 cups buttermilk, plus more for brushing",
+        "1 1/2 cups sliced strawberries",
+        "2 tablespoons turbinado sugar (also called Sugar in the Raw)",
+        "1/2 cup sliced almonds",
+        "2 cups confectioners' sugar",
+        "3 tablespoons buttermilk",
+        "1/2 teaspoon pure almond extract",
+        "Pinch of salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400° and line 2 baking sheets with parchment paper. In a large bowl, combine the all-purpose and whole wheat pastry flours with the granulated sugar, baking powder, baking soda and salt. Using a pastry blender or 2 knives, cut in the butter until the mixture resembles coarse meal. Stir in the 1 1/4 cups of buttermilk and carefully fold in the sliced strawberries."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using an ice cream scoop or a spoon, scoop the dough into 16 mounds on the prepared baking sheets. Brush the scones with buttermilk and sprinkle with the turbinado sugar. Bake in the upper and lower thirds of the oven for 30 to 35 minutes, until the scones are golden and cooked through; shift the pans from front to back and top to bottom halfway through baking. Let the scones cool on a rack for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lower the oven temperature to 350°. Spread the almonds in a pie plate and toast for about 8 minutes, until golden. Meanwhile, in a small bowl, whisk the confectioners&#39; sugar with the buttermilk, almond extract and salt. Cover and let stand at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle the scones with the glaze, then top with the almonds, pressing to help them adhere. Let dry for 10 minutes, then serve."
+        }
+    ],
+    "totalTime": "PT105M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "This was my first time making scones. They came out fantastic! I did make a few changes - I only had enriched bleached white flour, so that's what I used. I also had to make my own buttermilk (3 parts plain yogurt to 1 part milk), and I did not toast the very thin almond slices that I had. Instead I just added them to the topping mixture. I did have to add a little more \"buttermilk\" to the original dough, since it was extremely dry and wouldn't hold together. The cooking time was about 5-6 minutes less than the 30 minutes. When they came out, they were light fluffy and shaped like bumpy mountains. The almond extract gave just the right amount of almond flavoring. I will definitely make these again!",
+            "datePublished": "2021-02-22T17:44:41.418Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/strawberry-almond-scones",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/bread-dough/breakfast-bread",
+                        "name": "Breakfast Breads & Pastries"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/bread-dough/breakfast-bread/scones",
+                        "name": "Scones"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/strawberry-almond-scones",
+                        "name": "Strawberry-Almond Scones"
+                    }
+                }
+            ]
+        }
+    }
+}

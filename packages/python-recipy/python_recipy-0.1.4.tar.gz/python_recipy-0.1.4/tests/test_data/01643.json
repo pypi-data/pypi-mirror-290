@@ -1,0 +1,120 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Rosemary-Brown Sugar Pumpkin Seeds",
+    "datePublished": "2014-02-23T22:27:05.000-05:00",
+    "dateModified": "2014-02-23T22:27:05.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Todd Porter and Diane Cu",
+            "url": "https://www.foodandwine.com/author/todd-porter-and-diane-cu"
+        }
+    ],
+    "description": "Rosemary and brown sugar are great flavors for these holiday-appropriate roasted pumpkin seeds.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/LjP1hykW5kjnRRIjI1bTIcLoz_A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rosemary-brown-sugar-pumpkin-seeds-ft-recipe1019-2-597f0a6f8a7c4b838fee3d5f4a8bda96.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/SNMnGJCQ-eFraYBD7.mp4",
+        "description": "Use your leftover Halloween pumpkin seeds to make the perfect afternoon snack.",
+        "duration": "PT6M27S",
+        "name": "The Best Way to Roast Pumpkin Seeds",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/SNMnGJCQ/poster.jpg?width=720",
+        "uploadDate": "2021-07-03T15:50:24.503-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Rosemary-Brown Sugar Pumpkin Seeds",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "Seeds from 1 medium (10-pound) pumpkin (about 1 cup)",
+        "1 tablespoon vegetable oil",
+        "2 teaspoons brown sugar",
+        "2 teaspoons minced fresh rosemary",
+        "1/2 teaspoon kosher or sea salt, or to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400°. Line a baking pan with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring a pot of salted water to a boil. Add the seeds and boil for 10 minutes. Drain. Pat the pumpkin seeds dry on paper towels."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.foodandwine.com/thmb/LjP1hykW5kjnRRIjI1bTIcLoz_A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rosemary-brown-sugar-pumpkin-seeds-ft-recipe1019-2-597f0a6f8a7c4b838fee3d5f4a8bda96.jpg"
+                }
+            ],
+            "text": "In a bowl, toss the pumpkin seeds with the vegetable oil, brown sugar, and rosemary. Season with salt to taste. Spread the coated seeds evenly on the lined baking pan. Roast for 20-25 minutes, turning the seeds every 10 minutes. Remove the seeds from the oven when they are crispy. Allow to cool to room temperature and serve."
+        }
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/rosemary-brown-sugar-pumpkin-seeds",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/snacks",
+                        "name": "Snacks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/rosemary-brown-sugar-pumpkin-seeds",
+                        "name": "Rosemary-Brown Sugar Pumpkin Seeds"
+                    }
+                }
+            ]
+        }
+    }
+}

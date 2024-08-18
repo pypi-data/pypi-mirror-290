@@ -1,0 +1,160 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Eggless Sugar Cookies",
+    "datePublished": "2014-01-14T16:31:06.000-05:00",
+    "dateModified": "2023-03-14T16:25:29.088-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Reima"
+        }
+    ],
+    "description": "Crisp on the outside and slightly chewy in the middle, you&#39;d never guess these delicious sugar cookies were eggless!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/IEiTUo33asX1vSEiQG54-gDX-qk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/286127eggless-sugar-cookiesnicoleKrystyn-81c7d6c7bda142a0b6886b5e9f2cb40c.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Eggless Sugar Cookies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "99 kcal",
+        "carbohydrateContent": "15 g",
+        "cholesterolContent": "10 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "82 mg",
+        "sugarContent": "9 g",
+        "fatContent": "4 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "0.75 cup all-purpose flour",
+        "0.75 cup bread flour",
+        "0.75 teaspoon baking powder",
+        "0.5 teaspoon baking soda",
+        "0.5 teaspoon fine sea salt",
+        "2 tablespoons water",
+        "1 tablespoon cornstarch",
+        "0.5 cup unsalted butter, softened",
+        "0.5 cup white sugar",
+        "0.5 cup light brown sugar",
+        "0.25 cup plain low-fat yogurt",
+        "2 teaspoons vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C). Line 2 baking sheets with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk both flours, baking powder, baking soda, and salt together in a medium bowl. Mix water and cornstarch together in a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine butter and both sugars in a large bowl; beat with an electric mixer until smooth and creamy. Mix in cornstarch mixture, then add yogurt and vanilla and beat thoroughly. Add dry ingredients in small batches, beating well after each addition."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drop tablespoonfuls of dough 2 inches apart onto the prepared baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until edges are golden, 10 to 12 minutes. Cool on the baking sheet for 3 to 4 minutes before removing to a wire rack to cool completely, about 10 more minutes."
+        }
+    ],
+    "recipeYield": [
+        "24"
+    ],
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "nicolekrystyn"
+            },
+            "reviewBody": "This is a great cookie recipe! The only change I made was using greek yogurt instead of regular yogurt, but the taste and texture came out great. For the second half of the batch I added mini vanilla chips and rainbow sprinkles which added a lot of color and some extra sweetness. My husband preferred the plain cookies but we have both already had several each! I used a small scooper and scooped directly onto the parchment lined sheets and didn't flatten out the dough, but the cookies baked into flat, chewy, circles with golden brown bottoms. Definitely would recommend this recipe and make it again!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/286127/eggless-sugar-cookies/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                        "name": "Cookies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/859/desserts/cookies/sugar-cookies/",
+                        "name": "Sugar Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/286127/eggless-sugar-cookies/",
+                        "name": "Eggless Sugar Cookies"
+                    }
+                }
+            ]
+        }
+    }
+}

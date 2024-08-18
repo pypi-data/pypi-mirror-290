@@ -1,0 +1,102 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Fruit-and-Nut Trail Mix",
+    "datePublished": "2013-12-06T18:27:21.000-05:00",
+    "dateModified": "2017-09-28T09:48:32.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jeremy Sewall",
+            "url": "https://www.foodandwine.com/author/jeremy-sewall"
+        }
+    ],
+    "description": "&#34;At the restaurant, I used to take slices of bacon off trays, stuff them in a roll and eat that as a snack,&#34; says chef Jeremy Sewall of Lineage in Bro...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/jqL0yU33CIpjJpo-MzIgimsxepk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201012-xl-fruit-nut-trail-mix-2000-4d001d1e962e49708304a1cd2f648cd4.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Fruit-and-Nut Trail Mix",
+    "recipeCategory": [
+        "Snack"
+    ],
+    "recipeIngredient": [
+        "0.25 cup raw almonds",
+        "0.25 cup raw cashews",
+        "0.25 cup raw walnut halves",
+        "Sea salt or kosher salt",
+        "0.25 cup golden raisins",
+        "0.25 cup dried cranberries",
+        "0.25 cup dried apricots",
+        "0.25 cup banana chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°. Toss the nuts with a pinch of salt and spread on a baking sheet. Toast for 10 minutes until golden, stirring halfway through. Let the nuts cool completely. Mix the nuts with the dried fruits."
+        }
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/fruit-and-nut-trail-mix",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/special-diets",
+                        "name": "Dietary Preferences"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/special-diets/vegan",
+                        "name": "Vegan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/fruit-and-nut-trail-mix",
+                        "name": "Fruit-and-Nut Trail Mix"
+                    }
+                }
+            ]
+        }
+    }
+}

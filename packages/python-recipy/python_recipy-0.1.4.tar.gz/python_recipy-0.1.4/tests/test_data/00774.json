@@ -1,0 +1,473 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1018018-lemon-angel-food-cake-with-preserved-lemon-curd#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1018018-lemon-angel-food-cake-with-preserved-lemon-curd",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2016/03/16/dining/lemon-curd-angel-food-cake/lemon-curd-angel-food-cake-articleLarge-v3.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1018018-lemon-angel-food-cake-with-preserved-lemon-curd",
+    "name": "Lemon Angel Food Cake With Preserved Lemon Curd",
+    "description": "Adding preserved lemon juice to lemon curd is the brilliant brainchild of Samantha Kincaid, the pastry chef of the restaurant High Street on Hudson. It adds a complex brininess to what can be an overly sweet citrus custard. In this recipe, the curd is lightened with a little whipped cream and used to frost and fill a lemon-flavored angel food cake. It’s a stunning dessert that’s bright, rich and light all at once.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2016/03/16/dining/lemon-curd-angel-food-cake/lemon-curd-angel-food-cake-square640-v3.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/03/16/dining/lemon-curd-angel-food-cake/lemon-curd-angel-food-cake-superJumbo-v3.jpg",
+            "height": 1336,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/03/16/dining/lemon-curd-angel-food-cake/lemon-curd-angel-food-cake-videoSmall-v3.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/03/16/dining/lemon-curd-angel-food-cake/lemon-curd-angel-food-cake-verticalTwoByThree735-v4.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT3H",
+    "recipeYield": "12 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "easter, egg white, lemon, preserved lemon",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 952
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 418,
+        "unsaturatedFatContent": "6 grams",
+        "carbohydrateContent": "59 grams",
+        "cholesterolContent": null,
+        "fatContent": "17 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "9 grams",
+        "saturatedFatContent": "10 grams",
+        "sodiumContent": "226 milligrams",
+        "sugarContent": "50 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 cup/110 grams cake flour",
+        "1 1/3 cups/265 grams granulated sugar",
+        "12 large egg whites",
+        "Pinch kosher salt",
+        "1 1/2 teaspoons cream of tartar",
+        "1/2 cup/62 grams confectioners’ sugar",
+        "1 tablespoon finely grated lemon zest",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon lemon extract",
+        "1/2 cup/118 milliliters lemon juice",
+        "1 1/2 teaspoons powdered gelatin",
+        "6 large eggs",
+        "1 1/4 cups/250 grams granulated sugar",
+        "1/2 cup/113 grams unsalted butter (1 stick), melted",
+        "1/4 cup/60 milliliters preserved lemon juice (strained off from a batch of salt preserved lemons, either store-bought or homemade)",
+        "Finely grated zest of two lemons",
+        "3/4 teaspoon kosher salt",
+        "1 cup/236 milliliters heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the cake: Heat the oven to 350 degrees and place a rack in the center."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Sift flour and 1/3 cup/65 grams granulated sugar into a large bowl."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In the bowl of an electric mixer, combine egg whites, salt and cream of tartar and beat with the whisk attachment on medium-high speed until medium peaks form, about 3 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Gradually add in remaining 1 cup/200 grams granulated sugar, 1 tablespoon at a time, and beat until firm, glossy peaks form. Beat in confectioners’ sugar, lemon zest, vanilla and lemon extract."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Sift a quarter of the flour mixture over egg whites and use a rubber spatula to fold until barely combined. Repeat with remaining flour in 3 more additions."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Scrape into an ungreased 10-inch tube pan, smooth top, and bake until cake is springy and pulls away from the pan, 35 to 40 minutes. Transfer to a wire rack to cool."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the curd: In a small bowl, combine 1/4 cup/59 milliliters lemon juice and gelatin; set aside to bloom. In a large bowl, lightly beat eggs."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium bowl, combine granulated sugar, butter, remaining 1/4 cup/59 milliliters fresh lemon juice, the preserved lemon juice, the zest and the salt. Place bowl over a pot of simmering water until warm. Remove from the heat, then pour over the eggs in a thin stream, constantly whisking. Place bowl with the egg and lemon mixture over the simmering water pot and cook, stirring constantly, to 175 degrees, about 5 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove from heat, stir in gelatin mixture and immediately pour through a fine strainer into a wide bowl set over ice bath, stirring until mixture is cool. Chill for 1 hour."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Whip the cream until soft peaks form. Fold into the lemon curd and chill for another hour, until cold."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, unmold the cake. Using a serrated knife, halve the cake crosswise to create 2 layers. Dollop on some of the lemon cream to cover. Top with the cake and dollop on more lemon cream. (Remaining lemon cream will last up to a week in the refrigerator.)"
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sab"
+            },
+            "reviewBody": "Make sure you cool the cake with the cake pan inverted, otherwise it will collapse as it cools.",
+            "datePublished": "2024-03-30T16:56:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cinja"
+            },
+            "reviewBody": "I adapted this for restaurant use. I baked the cake in a 10” springform pan, cooled upside down on a rack.\nOnce cooled I sliced it horizontally, and layered it with regular lemon curd and a mascarpone mousse similar  to a tiramisu filling. Topped it with blueberries, the other slice of cake and the rest of the mousse. Grated some white chocolate over it and let it sit overnight. Released easily from the springform and cut into 12 pieces. It sliced easily and made for a beautiful plated dessert.",
+            "datePublished": "2024-03-04T14:22:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nina Altschiller"
+            },
+            "reviewBody": "You'll have a loftier cake if you stop whipping the egg whites when soft peaks form. Also, don't bake until the cake comes away from the sides. Take it out when the top is golden, and a toothpick comes out clean, about 45 minutes. The cake still clinging to the sides will keep it from shrinking when cooling. Last, cool it upside down, either on a rack if your cake pan has little legs or inverted onto a wine bottle. Upside down also keeps the cake from shrinking.",
+            "datePublished": "2024-02-06T23:17:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "Has anyone made this cake at high altitude?  I'm at 7500 ft.",
+            "datePublished": "2023-08-04T23:17:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sanja"
+            },
+            "reviewBody": "How much total lemon curd does the recipe yield?  I'm thinking of using Stonewall Kitchen's curd instead of making it from scratch, but wonder how much to use?  Thanks!",
+            "datePublished": "2023-07-29T19:12:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophia"
+            },
+            "reviewBody": "I know that you've made this already (being that you commented this 6 months ago), but to be clear, initially you add 65 grams in step 2, but later in step 4 it asks you to gradually add the remaining 200 grams.",
+            "datePublished": "2024-02-26T18:33:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mikena"
+            },
+            "reviewBody": "There is a SNAFU here - it says 1 1/3 cup / 265 grams granulated sugar in the recipe list, then in the directions, it says 1/3 cup / 65 grams. Crossing my fingers here hoping that it is indeed 65 grams.",
+            "datePublished": "2023-07-28T23:57:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ferguson"
+            },
+            "reviewBody": "I mixed 6 leftover egg yolks with 1/2 a cup of sugar and froze them and then made a second batch.  Later I used the yolk/sugar mix to make \n<a href=\"https://cooking.nytimes.com/recipes/9039-vanilla-creme-brulee\" target=\"_blank\">https://cooking.nytimes.com/recipes/9039-vanilla-creme-brulee</a>\nwith 2 cups of half and half and salt and vanilla. I skipped the brulee part and we just had some easy, lovely custards.  When those were gone I did the same with the second batch. I know Bittman's recipe calls for 5 egg yolks but 6 worked just fine and no yolks were wasted.",
+            "datePublished": "2023-04-16T02:09:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Baking Princess"
+            },
+            "reviewBody": "I’m not suggesting this lemon curd be used in the following way. But here’s a tasty shortcut I use to create a filling layer in my angel food cakes. \n\nI scoop half the cake batter into the pan and then in the center, all around, I spoon in a combo I’ve already stirred together, made of preserves & unsweetened coconut. Then I scoop the rest of the batter on top. And pop the pan into the oven. \n\nThe result is a lovely bit of fruity coconuty surprise in the center of each slice.",
+            "datePublished": "2023-04-14T16:02:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lemony Tooth"
+            },
+            "reviewBody": "I don't have a tube pan.  Any suggestions on how to adjust the baking time/temp in a 9 in square or round bake pan?",
+            "datePublished": "2023-04-10T22:18:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Molly White"
+            },
+            "reviewBody": "Disaster if you don’t invert the cake to cool. I had to make the cake twice. I also upped the oven time to 45 after reviewing other recipes. I used egg white purchased in a carton; they worked fine.",
+            "datePublished": "2023-01-01T00:00:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane"
+            },
+            "reviewBody": "Forgive me, but I use a store-bought angel food cake and I stir jarred lemon curd into fresh whipped cream. It’s not the same, of course, but the result is truly lovely.",
+            "datePublished": "2022-11-23T16:55:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny"
+            },
+            "reviewBody": "I’ve used this recipe just for the cake and we love it. I typically make Meyer lemon curd in the winter, so we use that instead of the curd from the recipe since it’s handy. And, all those extra egg yolks- Melissa Clark has a phenomenal recipe for strawberry (or raspberry) ice cream that calls for six egg yolks, so my two batches of that ice cream yielded the egg whites for this angel food cake to go with it. The egg whites freeze well- easy to save them for when I want to make the cake!",
+            "datePublished": "2022-06-19T18:53:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen S"
+            },
+            "reviewBody": "This cake was the hit of the Easter dinner I went to last night.  The only thing I would do differently next time is not to add salt to the lemon cream.  The liquid from the preserved lemons is salty enough.  The lemons are preserved in salt.\nI sprinkled the top with viola blossoms from my garden.  Very festive!",
+            "datePublished": "2022-04-18T21:34:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sarahpatto"
+            },
+            "reviewBody": "I didn't find that the preserved lemon juice was worth the trouble. Fresh lemon juice is fine.",
+            "datePublished": "2022-04-03T03:17:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "martha weiss"
+            },
+            "reviewBody": "No, that's eactly how you do make lemon curd.\n\nCan I just use fresh lemon juice instead of preserved salted lemon juice?\nI can't find it.",
+            "datePublished": "2021-11-11T19:50:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Catherine"
+            },
+            "reviewBody": "This was delicious, the curd especially, very tasty & unique. I made this exactly as written, except that I made the curd the night before I served it & it set up just like the recipe photo, so maybe there is something to that as it sounds like some people had trouble with the curd setting.",
+            "datePublished": "2021-09-11T00:38:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gordon"
+            },
+            "reviewBody": "Classic Angel Food dilemma: a dozen egg yolks sitting in a bowl, looking at me accusingly.  Would it be foolhardy to attempt making the lemon curd with yolks rather than whole eggs?",
+            "datePublished": "2017-10-24T19:04:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff Gossett"
+            },
+            "reviewBody": "3 things. <br/><br/>1. The cake is delicious.<br/>2. Use Amanda Hesser's recipe for Lemon Curd Napoleons (NYtimes) It uses 8 of the leftover egg yolks has half the sugar, twice the butter and 3 times the deliciousness for the above  3 reasons.<br/>3. The lemon cream overpowers the delicate flavor of this cake. BUT separately they are wonderful.  The lemon cream should be served on the side, which also allows you to leave the cake at room temperature!",
+            "datePublished": "2017-10-24T18:58:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rosemary"
+            },
+            "reviewBody": "Has anyone tried this without the preserved lemon juice?",
+            "datePublished": "2017-10-24T19:01:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue"
+            },
+            "reviewBody": "I cannot find the preserved lemon juice in the store, and I don't have enough time to make it. Can I just use regular lemon juice? Thanks.",
+            "datePublished": "2017-10-24T18:52:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jaime"
+            },
+            "reviewBody": "you absolutely can make it with just yolks.<br/>you need:<br/>10 egg yolks<br/>2c granulated white sugar<br/>zest and juice of 4-5 lemons to make 2/3 cup<br/>half a pound of butter, cut into pats and chilled well.",
+            "datePublished": "2017-10-24T19:16:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AHW"
+            },
+            "reviewBody": "Could this be made with Matzoh cake flour? I realize it is not parve but we don't keep kosher, just for Passover.",
+            "datePublished": "2017-10-24T19:06:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DEW"
+            },
+            "reviewBody": "Do you need to invert the tube pan when cooling the cake?  It isn't mentioned in the instructions but is normally recommended in Angel Food Cake recipes.",
+            "datePublished": "2017-10-24T19:07:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark"
+            },
+            "reviewBody": "Most curds are made with yolks, Kate Zimmerman former pastry chef at Chanterelle uses 1 whole egg to 6 egg yolks, this recipe is unique in it's use of whole eggs and gelatin, usually curd is not stabilized with gelatin. I think making the curd with 6 of the \"left over\" eggs yolks would be an excellent and practical idea!",
+            "datePublished": "2017-10-24T18:53:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa Clark"
+            },
+            "reviewBody": "In step 11 it should read lemon cream - that is, any extra cream mixture that doesn't fit on the cake itself.",
+            "datePublished": "2017-10-24T18:53:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bonnie Edwards"
+            },
+            "reviewBody": "I just weighed 12 egg whites for this recipe. It comes out to 420 grams give or take.",
+            "datePublished": "2017-10-24T19:09:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Victoria"
+            },
+            "reviewBody": "You can purchase preserved Tunisian lemon slices at Trader Joe's",
+            "datePublished": "2017-10-24T19:05:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Catherine DiNardo"
+            },
+            "reviewBody": "Made this using Amanda Hesser's recipe for the lemon curd (Lemon Curd Napoleon), substituting the preserved lemon juice for regular. Also, used lightly toasted sugar (seriouseats.com) in the cake to add a slight caramel flavor. Delicious!",
+            "datePublished": "2017-10-24T20:58:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff Gossett"
+            },
+            "reviewBody": "Also, you don't need the gelatin.  Just whip your cream thoroughly.",
+            "datePublished": "2017-10-24T18:57:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily Weinstein, Cooking Editor"
+            },
+            "reviewBody": "You should use the liquid from a batch of preserved lemons; you do not need to squeeze the lemons themselves. Note that preserved lemons take time to cure, so if you are hoping to make this cake quickly then store-bought is the best option.<br/><br/>Here's a classic recipe for preserved lemons from Paula Wolfert: <a href=\"http://cooking.nytimes.com/recipes/1016212-preserved-lemons\" title=\"http://cooking.nytimes.com/recipes/1016212-preserved-lemons\" target=\"_blank\">http://cooking.nytimes.com/recipes/1016212-preserved-lemons</a>",
+            "datePublished": "2017-10-24T18:55:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joann Grey"
+            },
+            "reviewBody": "I made the angel food cake twice as the first time I forgot to add the last 4 egg whites and it was desert for a dinner party so I wanted it perfect. We have chickens so eggs are never a problem-but 18 left over yokes-I used 2 whole eggs and 8 egg yokes for the lemon curd as well as slightly less sugar and it turned out  amazingly well.",
+            "datePublished": "2017-10-24T19:12:08.000Z"
+        }
+    ]
+}

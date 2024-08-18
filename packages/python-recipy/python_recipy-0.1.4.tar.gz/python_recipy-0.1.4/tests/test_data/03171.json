@@ -1,0 +1,86 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Cardamom Crescents Recipe",
+    "keywords": [
+        "cookie",
+        "dessert",
+        "cardamom",
+        "pecan",
+        "winter",
+        "snack",
+        "baking",
+        "christmas",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Gina Marie Miraglia Eriquez",
+            "sameAs": "https://www.bonappetit.com/contributor/gina-marie miraglia eriquez"
+        },
+        {
+            "@type": "Person",
+            "name": "Romulo Yanes",
+            "sameAs": "https://www.bonappetit.com/contributor/romulo-yanes"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "ratingCount": 46
+    },
+    "description": "Cardamom Crescents Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57afb9c4f1c801a1038bd39c/master/w_940,h_671,c_limit/cardamom-crescents.jpg"
+    ],
+    "headline": "Cardamom Crescents",
+    "name": "Cardamom Crescents",
+    "recipeIngredient": [
+        "2 1/2 cups all-purpose flour",
+        "3/4 teaspoon ground cardamom",
+        "1/2 teaspoon ground cinnamon",
+        "1/2 teaspoon kosher salt",
+        "1 1/2 cups powdered sugar, divided",
+        "1 cup pecans",
+        "1 cup (2 sticks) unsalted butter, room temperature",
+        "1 tablespoon vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Arrange racks in lower and upper thirds of oven; preheat to 350°. Line 2 baking sheets with parchment paper. Whisk first 4 ingredients in a medium bowl. Combine 1/2 cup sugar and pecans in a food processor; pulse until coarse meal forms. Using an electric mixer, beat butter and vanilla in a medium bowl until creamy, 2–3 minutes. Add nut mixture; beat to blend. Add dry ingredients; blend well (dough will be moist but still crumbly). Transfer to a work surface; knead to form a ball, about 4 turns."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Measure 1 rounded Tbsp. of dough; form into a ball, then roll into a 1 1/2\"-long log. Gently bend into a crescent shape, pinching ends to taper (cookies may crack slightly). Repeat with remaining dough, spacing about 1\" apart on prepared sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake, rotating sheets halfway through baking, until bottoms are golden 12–15 minutes. Sift remaining 1 cup powdered sugar into a shallow wide bowl. Working in batches of about 8 cookies each, roll warm cookies gently in powdered sugar to coat. Transfer to wire rack to let cool. Roll or dust cooled cookies with powdered sugar. DO AHEAD: Can be made 5 days ahead. Store airtight at room temperature."
+        }
+    ],
+    "recipeYield": "Makes about 50  Servings",
+    "url": "https://www.bonappetit.com/recipe/cardamom-crescents",
+    "dateModified": "2011-11-14T19:00:00.000-05:00",
+    "datePublished": "2011-11-14T19:00:00.000-05:00",
+    "recipeCategory": []
+}

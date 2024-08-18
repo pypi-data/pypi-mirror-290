@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Beets with Chicories, Yogurt, and Sherry Mustard Vinaigrette",
+    "datePublished": "2022-06-13T22:23:19.000-04:00",
+    "dateModified": "2023-07-20T16:18:25.354-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Nancy Silverton",
+            "url": "https://www.foodandwine.com/author/nancy-silverton"
+        }
+    ],
+    "description": "Use late summer and fall beets to make this vibrant salad from chef Nancy Silverton, which also features Castelfranco, a homemade Sherry Mustard Vinaigrette, and creamy Greek yogurt.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/eSd-mvkfK1U0qIxF4s7AUr3ztzM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Roasted-Beets-Chicories-FT-RECIPE0622-f6fbd19e3c5b44cabcbf76d7835de1e6.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Beets with Chicories, Yogurt, and Sherry Mustard Vinaigrette",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 pounds medium-size red or yellow beets (10 beets total)",
+        "0.25 cup olive oil",
+        "1 tablespoon, plus 1/4 teaspoon kosher salt, divided",
+        "2 tablespoons finishing-quality olive oil",
+        "1 teaspoon flaky sea salt",
+        "1 (12-ounce) head Castelfranco (or other another chicory, such as Speckled Hen or radicchio), leaves left whole and separated from core",
+        "2 teaspoons grated lemon zest, plus 1 teaspoon fresh juice (from 1 lemon), divided",
+        "1 medium shallot, finely chopped (2 1/2 tablespoons)",
+        "2 tablespoons sherry vinegar",
+        "1 teaspoon Dijon mustard",
+        "0.25 teaspoon kosher salt",
+        "0.25 teaspoon black pepper",
+        "0.25 cup extra-virgin olive oil",
+        "2 cups Straus Organic Greek Yogurt (or another plain whole-milk, not overly thick yogurt)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400ºF. Trim beet greens from beets, leaving 1 inch of stems attached; reserve beet greens for another use. Scrub beets thoroughly, leaving tails intact. Place beets on a rimmed baking sheet. Drizzle evenly with olive oil, and sprinkle evenly with 1 tablespoon of the kosher salt; toss to coat. Roast in preheated oven until beet skins are charred and wrinkled and beets are tender when pierced with a paring knife, about 45 minutes, rotating baking sheet from front to back halfway through cook time. Remove from oven. Let cool to room temperature, about 25 minutes. While beets cook, prepare the Sherry Mustard Vinaigrette:"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together shallot, vinegar, mustard, salt, and pepper in a small bowl. Gradually add oil, whisking constantly. Set aside until ready to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer cooled beets to a cutting board. Cut off and discard stem ends. Slice beets crosswise into 1/2-inch-thick slices, leaving the thin, crunchy tails of the beets attached to the last slice. (If the tails are thick and soft, cut off and discard.) Arrange beet slices in a single layer on a large platter, arranging slices with tails around edges of platter so they stick out decoratively. Drizzle beets with finishing-quality olive oil, and, using your fingertips, gently pat oil onto beets to coat and make them glisten. Using your fingertips, crush flaky sea salt over beets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place Castelfranco leaves in a large, wide-mouthed bowl. Squeeze lemon juice over leaves; sprinkle evenly with remaining 1/4 teaspoon kosher salt, and toss to coat. Drizzle Sherry Mustard Vinaigrette evenly over leaves, and toss with your hands, massaging each leaf with dressing to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To build the salad, build 4 large &#34;nests&#34; of dressed lettuce on top of beet slices, starting with the larger leaves. Spoon yogurt evenly into lettuce cups, and sprinkle evenly with lemon zest."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT80M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/beets-with-chicories-yogurt-and-sherry-mustard-vinaigrette",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/side-dishes/vegetable-side-dishes",
+                        "name": "Vegetable Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/roasted-vegetables-7497064",
+                        "name": "Roasted Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/beets-with-chicories-yogurt-and-sherry-mustard-vinaigrette",
+                        "name": "Beets with Chicories, Yogurt, and Sherry Mustard Vinaigrette"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-07-20T16:18:25.354-04:00"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mexican Street Corn",
+    "datePublished": "2018-07-17T21:44:50.000-04:00",
+    "dateModified": "2023-09-19T16:43:21.641-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Soaking the corn in its husk in water for up to two hours before grilling is definitely a new approach to cooking corn on the cob, but give it a try! The addition of salt, spices and cheese takes this side dish to new levels.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/JlvF-Ce04Ysq4C4MMpTdxddz2W4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5583225-36351af1139a4bc4a244eb3f0d06254c.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/T5mVhdR8-ZrSBkzFI.mp4",
+        "description": "Soaking the corn in its husk in water for up to two hours before grilling is definitely a new approach to cooking corn on the cob, but give it a try! ",
+        "duration": "PT59S",
+        "name": "How to make Mexican Street Corn ",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/T5mVhdR8/poster.jpg?width=720",
+        "uploadDate": "2020-10-21T13:12:00.562-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Mexican Street Corn",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "148 kcal",
+        "carbohydrateContent": "18 g",
+        "cholesterolContent": "11 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "208 mg",
+        "sugarContent": "6 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "8 small ears of corn with husks",
+        "2 tablespoons avocado oil or canola oil",
+        "1 teaspoon chili powder",
+        "0.25 teaspoon cayenne pepper (optional)",
+        "0.125 teaspoon salt",
+        "0.75 cup crumbled Cotija cheese (3 ounces)",
+        "0.25 cup snipped fresh cilantro",
+        "1 teaspoon Lime zest",
+        "1 wedge Lime wedges"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Peel back corn husks, but do not remove. Remove silks; rinse corn. Fold husks back around corn. Tie husk tops with 100% cotton kitchen string to secure. Soak corn in enough water to cover 1 to 2 hours; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill corn, covered, over medium 30 to 35 minutes or until kernels are tender, turning once. Remove string and pull back husks. Tie husks with string to hold open."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.eatingwell.com/thmb/JlvF-Ce04Ysq4C4MMpTdxddz2W4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5583225-36351af1139a4bc4a244eb3f0d06254c.jpg"
+                }
+            ],
+            "text": "Place corn on a platter and brush with oil. In a small bowl combine chili powder, cayenne pepper (if desired), and salt; sprinkle over corn. Top with cheese, cilantro, and, if desired, lime zest. If desired, serve with lime wedges."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT110M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "Best corn I have ever made! I will never make corn on the cob any other way! Easy and delicious!",
+            "datePublished": "2022-07-03T15:27:42.192Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "MeganOS"
+            },
+            "reviewBody": "I love the combination of salty Cotija, fresh herbs and lime juice with the corn.",
+            "datePublished": "2019-07-11T15:59:34.593Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/266586/mexican-street-corn/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18028/side-dishes/vegetable/",
+                        "name": "Vegetable Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19399/side-dishes/vegetable/corn/",
+                        "name": "Healthy Corn Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/266586/mexican-street-corn/",
+                        "name": "Mexican Street Corn"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T16:43:21.641-04:00"
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Rice Salad with Tomatoes, Cucumbers, and Feta",
+    "datePublished": "2018-07-05T11:35:57.000-04:00",
+    "dateModified": "2020-08-31T13:05:45.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "In this fresh take on tabbouleh, trade bulgur for brown rice, then toss with heirloom tomatoes, cucumbers, parsley, mint, and feta. A couple spoonfuls of sherry vinegar tie it all together.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/9yfctFqfA876Unr8l4S0cqr_N8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rice-salad-with-tomatoes-cucumbers-feta-6383311-msl0818_horiz-ee09a6c4227b4160860ac9a386a8600a.jpgitoknNqGPzWP",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Rice Salad with Tomatoes, Cucumbers, and Feta",
+    "prepTime": "PT30M",
+    "recipeIngredient": [
+        "7 tablespoons extra-virgin olive oil",
+        "1 medium onion, finely chopped (1 ½ cups)",
+        "3 cloves garlic, minced (2 tablespoons)",
+        "Kosher salt and freshly ground pepper",
+        "1.5 cups long-grain brown rice",
+        "1 pound small heirloom or cherry tomatoes, halved (3 cups)",
+        "3 medium Kirby cucumbers, peeled, quartered lengthwise, and sliced crosswise (3 cups)",
+        "3 tablespoons sherry vinegar",
+        "8 ounces feta, crumbled (1 ½ cups)",
+        "1 cup lightly packed flat-leaf parsley leaves, roughly chopped if large",
+        "1 cup lightly packed fresh mint leaves, roughly chopped if large"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a medium saucepan over medium-high. Swirl in 2 tablespoons oil. Add onion, garlic, and 1 teaspoon salt; cook, stirring occasionally, until fragrant and translucent, 3 to 4 minutes. Transfer mixture to a large bowl. Return saucepan to medium-high heat with 1 tablespoon oil and rice. Cook, stirring occasionally, until nutty and golden in places, 2 to 3 minutes. Add 2 1/4 cups water; bring to a boil. Stir once, reduce heat to low, and cover. Cook until rice is tender and water has been absorbed, 35 to 40 minutes. Remove from heat; let stand, covered, 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer rice to bowl with onion mixture; let cool about 20 minutes. Stir in tomatoes, cucumbers, vinegar, and remaining 1/4 cup oil. Season with salt and pepper. Fold in cheese, parsley, and mint; serve."
+        }
+    ],
+    "totalTime": "PT85M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1530482/rice-salad-tomatoes-cucumbers-and-feta",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504583/salad-recipes",
+                        "name": "Salad Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1530482/rice-salad-tomatoes-cucumbers-and-feta",
+                        "name": "Rice Salad with Tomatoes, Cucumbers, and Feta"
+                    }
+                }
+            ]
+        }
+    }
+}

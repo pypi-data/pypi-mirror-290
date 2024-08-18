@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Pa Amb Tomàquet (Catalan Tomato Bread)",
+    "datePublished": "2013-12-06T18:15:48.000-05:00",
+    "dateModified": "2018-08-06T15:11:45.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Steven Raichlen",
+            "url": "https://www.foodandwine.com/author/steven-raichlen"
+        }
+    ],
+    "description": "In Barcelona, this tomato bread with garlic and olive oil is served all over the city. Get the recipe at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/bAgekpvmWbPvx-XbOTvhzj3mTyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/catalan-tomato-bread-XL-RECIPE0918-77a59a1a2acc435a9322073157dfb094.jpg",
+        "height": 1000,
+        "width": 1000
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Pa Amb Tomàquet (Catalan Tomato Bread)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "8 large slices country-style bread, about 1/2 inch thick",
+        "4 garlic cloves (optional)",
+        "2 very ripe tomatoes, halved crosswise",
+        "Spanish extra-virgin olive oil",
+        "Coarse sea salt",
+        "Freshly ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Light a grill. When the fire is medium hot, grill the bread for 2 minutes per side, or until nicely browned and crisp."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Give each diner a garlic clove and half a tomato. Have them rub their toast with the garlic, then with the cut tomato. (The idea is to apply a thin film of tomato on the bread.) Then they can drizzle their toast with olive oil, sprinkle on some salt and pepper and eat."
+        }
+    ],
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "traci"
+            },
+            "reviewBody": "This is a fantastic recipe that we recently had in Barcelona. IMO though the garlic is a must, not optional!",
+            "datePublished": "2024-04-18T15:00:54.007Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/catalan-tomato-bread",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/catalan-tomato-bread",
+                        "name": "Pa Amb Tomàquet (Catalan Tomato Bread)"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Air-Fryer Hard-Boiled Eggs",
+    "datePublished": "2022-06-13T16:09:25.000-04:00",
+    "dateModified": "2023-09-18T19:27:33.426-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Devon O'Brien",
+            "url": "https://www.eatingwell.com/author/devon-obrien/"
+        }
+    ],
+    "description": "These air-fryer hard-boiled eggs are a fuss-free way to cook hard-boiled eggs without boiling water.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/xyRNt_RtY0utRjvLELTCECImR6w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/air-fryer-hardboiled-eggs-2000-175fac7ef9174b32945addfeef745be8.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Air-Fryer Hard-Boiled Eggs",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "72 kcal",
+        "cholesterolContent": "186 mg",
+        "proteinContent": "6 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "71 mg",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "3 g"
+    },
+    "recipeIngredient": [
+        "6 large eggs"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat air fryer to 250°F for 5 minutes. Working in batches if necessary, place eggs in the air-fryer basket and cook for 20 minutes. Meanwhile, prepare a large bowl of ice water."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Immediately plunge the cooked eggs into the ice bath. Let stand until cool, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the eggs and peel."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7964875/air-fryer-hard-boiled-eggs/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17942/cooking-methods-styles/",
+                        "name": "Cooking Methods"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/23202/cooking-methods-styles/air-fryer/",
+                        "name": "Healthy Air Fryer Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7964875/air-fryer-hard-boiled-eggs/",
+                        "name": "Air-Fryer Hard-Boiled Eggs"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-18T19:27:33.426-04:00"
+    },
+    "recipeCategory": []
+}

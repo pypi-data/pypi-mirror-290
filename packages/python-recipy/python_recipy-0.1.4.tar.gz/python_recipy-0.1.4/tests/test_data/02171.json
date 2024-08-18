@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Barbecue Brisket",
+    "datePublished": "2009-10-23T15:00:00.000-04:00",
+    "dateModified": "2024-01-14T16:03:31.502-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Joshua Bousel",
+            "url": "https://www.seriouseats.com/joshua-bousel-5118775"
+        }
+    ],
+    "description": "This brisket is smoked long-and-low for perfect, meltingly-tender results.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/W1L-u5VWdzwYLGioObBi4PPgYR4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20091022-smoked-brisket-84f2ec846d5b4d6899335a07cc4a4b54.jpg",
+        "height": 332,
+        "width": 500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Barbecue Brisket",
+    "cookTime": "PT1080M",
+    "keywords": "beef, brisket, dry rubs",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "765 kcal",
+        "carbohydrateContent": "0 g",
+        "cholesterolContent": "280 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "76 g",
+        "saturatedFatContent": "19 g",
+        "sodiumContent": "127 mg",
+        "sugarContent": "0 g",
+        "fatContent": "49 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT40M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 whole, untrimmed beef brisket",
+        "About 1 cup of of your favorite dry rub",
+        "8 large chunks of your favorite smoking wood (I like a mix of oak and apple)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Trim brisket of hard and excess fat, leaving 1/4-inch layer of fat along top. Coat brisket liberally in your favorite dry rub and wrap in heavy duty aluminum foil. Place in refrigerator and let it sit for 8 hours and up to one day."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fire up your smoker between 215°F to 225°F (100°C-110°C). Add chunks of wood, and when they begin to smoke, remove brisket from foil and place in smoker."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook brisket between 215°F to 225°F (100°C-110°C) until an instant read thermometer reads 165°F (74°C) in flat section of brisket, about 10 to 12 hours. Wrap brisket in heavy duty aluminum foil and put back into smoker. Continue cooking until point section of brisket registers 195°F (90°C), about 4 to 6 hours more. Remove from smoker, let rest at least 30 minutes, slice and serve."
+        }
+    ],
+    "recipeYield": "12",
+    "totalTime": "PT1630M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/barbecue-brisket-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/main-recipes-by-ingredient-5117837",
+                        "name": "Mains By Ingredient"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/beef-main-recipes-5117836",
+                        "name": "Beef Mains"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/barbecue-brisket-recipe",
+                        "name": "Barbecue Brisket"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

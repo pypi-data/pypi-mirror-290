@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Italian Chicken Pesto Pot Pie",
+    "keywords": "italian chicken pesto pot pie",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/Y2jOgK4Oy0OdErhs7Wf3MQ_webp_base.webp?v=a5c2dd5d&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Use Bisquick® Gluten Free mix and leftover chicken to get this tasty pot pie on the table in only 35 minutes.",
+    "recipeIngredient": [
+        "2  cups diced cooked chicken",
+        "1  medium red bell pepper, chopped (1 cup)",
+        "1  can (14.5 oz) diced tomatoes with basil, garlic and oregano, undrained",
+        "1  tablespoon Bisquick™ Gluten Free mix",
+        "1/2  teaspoon salt",
+        "1/4  teaspoon pepper",
+        "3/4  cup Bisquick™ Gluten Free mix",
+        "1  cup gluten free shredded Parmesan cheese (4 oz)",
+        "1/3  cup milk",
+        "1  egg, beaten",
+        "2  tablespoons gluten free basil pesto"
+    ],
+    "totalTime": "PT0H35M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "1",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. In ungreased 2-quart microwavable casserole, mix chicken, bell pepper, tomatoes, 1 tablespoon Bisquick mix, the salt and pepper. Cover with microwavable plastic wrap. Microwave on High 3 to 4 minutes or until bubbly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In small bowl, stir 3/4 cup Bisquick mix, 1/2 cup of the cheese, the milk, egg and pesto until well blended. Drop mixture by small spoonfuls over chicken mixture. Sprinkle with remaining 1/2 cup cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake uncovered 25 minutes or until cheese begins to turn golden brown."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "390 ",
+        "carbohydrateContent": "26 g",
+        "cholesterolContent": "135 mg",
+        "fatContent": "2 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "36 g",
+        "saturatedFatContent": "7 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1640 mg",
+        "sugarContent": "10 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "05/10/2011",
+    "dateModified": "08/18/2011"
+}

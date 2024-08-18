@@ -1,0 +1,134 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/pork-chops-with-apricot-sauce/",
+    "name": "Pork Chops with Apricot Sauce",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-01-31",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Pork-Chops-with-Apricot-Sauce_exps47049_THHC1785930D62A_RMS-8.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "\"The apricot preserves bring a very special flavor to the pork. I serve it with good old corn bread, which can be made in advance and tastes great with any meat.” Patricia Swart - Bridgeton, Nersey",
+    "recipeIngredient": [
+        "6 boneless pork loin chops (6 ounces each)",
+        "1/2 teaspoon garlic pepper blend",
+        "1 tablespoon olive oil",
+        "1 cup sugar-free apricot preserves",
+        "1 tablespoon minced chives",
+        "1/4 teaspoon salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle pork with garlic pepper blend. In a large nonstick skillet, brown chops in oil on each side."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the preserves, chives and salt; spoon over chops. Reduce heat; cover and cook until a thermometer reads 145°, 5-6 minutes. Let stand for 5 minutes before serving. Serve with sauce."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 273 calories",
+        "fatContent": "12g fat (4g saturated fat)",
+        "cholesterolContent": "82mg cholesterol",
+        "sodiumContent": "169mg sodium",
+        "carbohydrateContent": "13g carbohydrate (0 sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "33g protein.  <B><b>Diabetic Exchanges</b>: </B>5 lean meat"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.75,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-04-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cass73"
+            },
+            "reviewBody": "Very Good!This will be in my rotation of recipes.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-04-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gypsymal"
+            },
+            "reviewBody": "These chops had an excellent taste. The sauce was beautiful. And yes, I would fix it again and again",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-08-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "tmcke32259"
+            },
+            "reviewBody": "Super easy, great for when you need to make something very quick and you want it to be good.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-02-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sam51180"
+            },
+            "reviewBody": "These pork chops were delicious and easy to make.  We loved them.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

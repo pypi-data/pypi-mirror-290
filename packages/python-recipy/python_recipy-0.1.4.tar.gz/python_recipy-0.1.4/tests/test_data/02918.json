@@ -1,0 +1,102 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/creamy-halloumi-tomato-curry#Recipe",
+    "@type": "Recipe",
+    "description": "Enjoy halloumi in this family-friendly curry – it has a wonderful texture, similar to paneer. You may want to halve the amount of garam masala for young children",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/12/Creamy-halloumi-and-tomato-curry-6775d78.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/creamy-halloumi-tomato-curry"
+    },
+    "name": "Creamy halloumi & tomato curry",
+    "url": "https://www.bbcgoodfood.com/recipes/creamy-halloumi-tomato-curry",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cassie Best",
+            "url": "https://www.bbcgoodfood.com/author/cassiebest"
+        }
+    ],
+    "dateModified": "2023-12-28T06:47:01+00:00",
+    "datePublished": "2023-12-28T06:47:01+00:00",
+    "headline": "Creamy halloumi & tomato curry",
+    "keywords": "Creamy curry, Halloumi, halloumi curry, Mild curry, Veggie curry",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "575 calories",
+        "fatContent": "45 grams fat",
+        "saturatedFatContent": "24 grams saturated fat",
+        "carbohydrateContent": "18 grams carbohydrates",
+        "sugarContent": "14 grams sugar",
+        "fiberContent": "5 grams fiber",
+        "proteinContent": "23 grams protein",
+        "sodiumContent": "2.3 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "225g block halloumi",
+        "2 tbsp flavourless oil (such as vegetable or sunflower oil)",
+        "1 large onion, chopped",
+        "2 garlic cloves , crushed",
+        "thumb-sized piece of  ginger, grated",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp turmeric",
+        "400g can chopped tomatoes",
+        "100ml double cream",
+        "80g fresh or frozen baby spinach",
+        "2 tsp sugar",
+        "1 tbsp garam masala",
+        "1 tsp nigella seeds",
+        "cooked rice, grains or naan, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cut the halloumi into bite-sized cubes and set them aside. Heat 1 tbsp of the oil in a large pan over a medium heat. Add the onion and cook for about 5 mins, or until it turns translucent."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the garlic and ginger to the pan. Cook for another 2 mins, stirring frequently, until they become fragrant. Stir in the cumin, coriander and turmeric, and cook for 2 mins more. Pour in the tomatoes and stir well. Simmer for 5-7 mins, or until the mixture thickens."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce the heat and add the cream. Stir and simmer gently for 3-4 mins until thickened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the sauce is simmering, heat the remaining 1 tbsp oil in a separate pan over a medium-high heat. Fry the halloumi for 3-4 mins until golden brown on all sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the halloumi is browned, add it to the sauce along with the spinach, sugar and garam masala and stir to combine. Gently simmer for 5 mins until the spinach has wilted or defrosted. If the curry seems too thick, add a splash of water or more cream to loosen it. Scatter with nigella seeds and serve with rice, grains or naan."
+        }
+    ],
+    "recipeYield": 3,
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT25M"
+}

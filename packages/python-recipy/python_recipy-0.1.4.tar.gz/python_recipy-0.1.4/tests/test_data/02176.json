@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Roasted Banana Chocolate Pancakes Recipe",
+    "datePublished": "2013-02-11T02:45:00.000-05:00",
+    "dateModified": "2020-05-07T12:33:48.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carrie Vasios Mullins",
+            "url": "https://www.seriouseats.com/carrie-vasios-mullins-5118593"
+        }
+    ],
+    "description": "Pan frying bananas in butter then roasting them with sugar makes them into a rich sauce for chocolate pancakes.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Roasted Banana Chocolate Pancakes Recipe",
+    "keywords": "breakfast, chocolate, pancakes, wake and bake",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "For Bananas:",
+        "4 ripe, medium bananas sliced",
+        "4 tablespoons butter",
+        "4 tablespoons sugar",
+        " ",
+        "For Pancakes",
+        "1 cup (about 5 ounces) all purpose flour",
+        "1 tablespoon baking powder",
+        "2 tablespoons sugar",
+        "1/4 teaspoon salt",
+        "2 1/2 tablespoons unsweetened cocoa powder",
+        "1 egg, lightly beaten",
+        "1 cup milk",
+        "Butter, for griddle"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Heat 1 tablespoon butter in a skillet over medium high heat. Add one banana&#39;s worth of slices and fry until just golden. Transfer slices to a baking dish. Repeat with remaining bananas. Sprinkle fried bananas with 4 tablespoons sugar and bake until bubbling, 15 minutes. Clean skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, whisk together flour, baking powder, sugar, salt, and cocoa powder in a medium bowl. Add egg and milk and whisk until batter is well combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When bananas are almost ready, heat 1 tablespoon butter on skillet until starting to foam. Add batter and cook pancakes until golden on bottom, about 3 minutes, flip with a spatula, and cook until just cooked through, about another 2 minutes more. Place pancakes on plates. Continue making pancakes with remaining batter. Top pancakes with roasted bananas and serve."
+        }
+    ],
+    "recipeYield": "12 pancakes with sauce",
+    "totalTime": "PT40M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "j-rod"
+            },
+            "reviewBody": "WHAAAAT."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/chocolate-pancakes-with-sugar-roasted-bananas-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/breakfast-brunch-recipes-5117905",
+                        "name": "Breakfast & Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/pancake-recipes-5117892",
+                        "name": "Pancakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/chocolate-pancakes-with-sugar-roasted-bananas-recipe",
+                        "name": "Roasted Banana Chocolate Pancakes Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

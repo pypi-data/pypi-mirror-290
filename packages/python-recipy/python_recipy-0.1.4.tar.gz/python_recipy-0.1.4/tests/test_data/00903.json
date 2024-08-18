@@ -1,0 +1,51 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/grilled-herbed-olives/",
+    "name": "Grilled Herbed Olives",
+    "datePublished": "2024-02-13",
+    "dateModified": "2024-04-04",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/02/Grilled-Herbed-Olives_EXPS_RC23_274586_P2_MD_12_05_6b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "A few years ago, we hit the olive bar at our local grocery store and were amazed with the grilled olives. I never thought to grill olives before! Use whatever herbs you prefer. You could also use black olives or a combination of green and black. —Debra Keil, Owasso, Oklahoma",
+    "recipeIngredient": [
+        "1 can (6 ounces) pitted green olives, drained",
+        "1 tablespoon extra virgin olive oil",
+        "3/4 teaspoon each minced fresh marjoram, rosemary and thyme",
+        "Optional: Sea salt and coarsely ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine olives, oil and herbs. Let stand for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer olives to a grill wok or open grill basket; place on grill rack. Grill, uncovered, over medium-high heat until lightly charred, 8-10 minutes, stirring frequently. If desired, sprinkle with salt and pepper. Serve warm or at room temperature."
+        }
+    ],
+    "recipeYield": "6 servings",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 64 calories",
+        "fatContent": "7g fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "480mg sodium",
+        "carbohydrateContent": "2g carbohydrate (0 sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein. <b>Diabetic Exchanges</b>: 1-1/2 fat."
+    },
+    "recipeCuisine": "Europe, Italian"
+}

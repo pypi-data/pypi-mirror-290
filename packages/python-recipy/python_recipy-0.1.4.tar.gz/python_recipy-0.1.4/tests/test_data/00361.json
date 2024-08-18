@@ -1,0 +1,201 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Simple Seafood Sheet Pan Meal",
+    "datePublished": "2021-01-19T19:41:47.000-05:00",
+    "dateModified": "2022-01-14T01:16:55.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Juliana Hale"
+        }
+    ],
+    "description": "Salmon, za&#39;atar, broccoli, and feta cheese showcase this easy recipe formula for a simple, weeknight, seafood sheet pan meal that you can easily customize.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/gBcgF7bthw6DTyZlMsGmYrPwNGs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8979564-a4e28e4a0cf449efa187448eb6ac736d.jpg",
+        "height": 844,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Simple Seafood Sheet Pan Meal",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "4"
+    },
+    "cookTime": "PT25M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "396 kcal",
+        "carbohydrateContent": "12 g",
+        "cholesterolContent": "98 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "35 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "441 mg",
+        "sugarContent": "3 g",
+        "fatContent": "24 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 pound broccoli florets",
+        "3 teaspoons olive oil",
+        "1 tablespoon minced garlic",
+        "2 teaspoons za'atar, divided, or more to taste",
+        "0.25 teaspoon salt, divided",
+        "0.25 teaspoon ground black pepper, divided",
+        "1.5 pounds skin-on salmon fillets",
+        "1 medium lemon, thinly sliced",
+        "0.25 cup crumbled feta cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 425 degrees F (220 degrees C). Line a 10x15-inch baking pan with aluminum foil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange broccoli in a single layer on the prepared pan. Drizzle with 2 teaspoons oil. Sprinkle with garlic, 1/2 of the za&#39;atar, and 1/8 teaspoon each salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roast in the preheated oven for 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle salmon with remaining 1 teaspoon oil, remaining za&#39;atar, and remaining salt and pepper. Top with lemon slices. Add to the pan. Roast until vegetables are tender and fish flakes easily when tested with a fork, 12 to 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle with feta cheese."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT40M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "PAMYOUNG11"
+            },
+            "reviewBody": "This was easy and so good. I made my own za’atar seasoning and used blue cheese crumbles. I love that this recipe is customizable and will be trying it with cod and asparagus next week.",
+            "datePublished": "2023-12-01T03:29:09.808Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "travel4wellness"
+            },
+            "reviewBody": "Delicious!",
+            "datePublished": "2023-09-24T16:11:44.147Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "David Douthett"
+            },
+            "reviewBody": "Simple way to put dinner together! I used tilapia instead of salmon and other seasonings because I didn't have za'atar, but otherwise pretty much followed the recipe. It was good!",
+            "datePublished": "2021-07-21T01:21:51.050Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Michele"
+            },
+            "reviewBody": "Really easy to make, delicious flavor. I added extra broccoli and used Sicilian Lemon EVOO. Served it with Farrow and it was a healthy meal. Will make it again.",
+            "datePublished": "2021-02-13T14:11:42.893Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/283078/simple-seafood-sheet-pan-meal/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1642/everyday-cooking/",
+                        "name": "Everyday Cooking"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/22992/everyday-cooking/sheet-pan-dinners/",
+                        "name": "Sheet Pan Dinner Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/283078/simple-seafood-sheet-pan-meal/",
+                        "name": "Simple Seafood Sheet Pan Meal"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Test Kitchen",
+                "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+        ]
+    }
+}

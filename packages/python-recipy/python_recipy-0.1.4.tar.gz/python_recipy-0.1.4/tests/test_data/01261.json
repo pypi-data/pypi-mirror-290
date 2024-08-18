@@ -1,0 +1,97 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Coconut Oil Apple Crisp",
+    "description": "Coconut Oil Apple Crisp - a wholesome, cozy treat made with oats, pecans, cinnamon, honey, almond meal, and coconut oil! So yummy!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "coconut oil apple crisp, healthy apple crisp, apple crisp recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Apple-Crisp-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Apple-Crisp-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Apple-Crisp-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Apple-Crisp-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/coconut-oil-apple-crisp",
+    "recipeIngredient": [
+        "4 Opal apples, chopped",
+        "2 tablespoons almond meal",
+        "1 teaspoon cinnamon",
+        "3/4 cups + 2 tablespoons coconut oil (in liquid form)",
+        "1/2 cup honey",
+        "1 1/4 cup rolled oats",
+        "1/2 cup chopped pecans",
+        "1/2 cup almond meal",
+        "1 teaspoon cinnamon",
+        "1/2 teaspoon salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees. Grease a 9&#215;13 baking dish. Toss the apples with the almond meal and cinnamon and spread in a single layer in the baking dish.",
+            "url": "https://pinchofyum.com/coconut-oil-apple-crisp#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the coconut oil and honey together until smooth. Place the rolled oats, pecans, almond meal, cinnamon, and salt in a large bowl. Add the coconut oil and honey mixture; stir until combined.",
+            "url": "https://pinchofyum.com/coconut-oil-apple-crisp#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the oat mixture over the apples to cover them evenly. Bake for 30-40 minutes until the topping is browning slightly. Let stand for 15-20 minutes.",
+            "url": "https://pinchofyum.com/coconut-oil-apple-crisp#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT35M",
+    "totalTime": "PT45M",
+    "recipeYield": [
+        "8",
+        "8-10"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "15",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "373 calories",
+        "sugarContent": "22 g",
+        "sodiumContent": "117.7 mg",
+        "fatContent": "25.7 g",
+        "saturatedFatContent": "16.4 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "33.4 g",
+        "fiberContent": "4.3 g",
+        "proteinContent": "3.5 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Joe Russo"
+            },
+            "datePublished": "2015-02-20",
+            "reviewBody": "There has been some news around GMO apples recently that are grown to resist bruising and turning brown when sliced. What many fail to realize, and Lindsay you so expertly picked up on, is that many of the heirloom varieties naturally do this already, they just aren't as marketable as some of the other better known apples out there."
+        }
+    ],
+    "datePublished": "2015-02-20",
+    "@id": "https://pinchofyum.com/coconut-oil-apple-crisp#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/coconut-oil-apple-crisp#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/coconut-oil-apple-crisp"
+}

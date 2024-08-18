@@ -1,0 +1,158 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Philly Cheese Steak Deluxe",
+    "url": "https://www.foodnetwork.com/recipes/philly-cheese-steak-deluxe-recipe-2083170",
+    "headline": "Philly Cheese Steak Deluxe",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-05-12T14:53:49.419-04:00",
+    "dateModified": "2013-12-18T01:39:19.356-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "American,Sandwich,Cheese,Beef,Meat",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT11H0M0.000S",
+    "recipeIngredient": [
+        "1 (22-pound) top round beef roast",
+        "Granulated chicken base",
+        "2 ounces sliced onions",
+        "2 ounces sliced green peppers",
+        "4 slices American cheese",
+        "1(8-inch) hero bun"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Rub the meat with chicken base and put it into a large container. Allow the beef to marinate, overnight, in the refrigerator."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the beef into a large roasting pan and roast it until rare, about 2 1/2 hours. Remove the roast to a cutting board and let cool before thinly slicing."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Saute the onions and peppers together in a grill pan over medium-low heat until softened. Add 6 ounces of thinly sliced beef over the peppers and onions. Top with 4 slices of cheese and allow it to melt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the grilled meat, cheese, onions and peppers on the hero bun and serve."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.2,
+        "reviewCount": 6
+    },
+    "recipeYield": "1 serving with leftover meat",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ADMIN CUST SVCE"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Update: Our culinary team has changed the amount of top round beef roast to 2 1/2-pounds.<br /> <br />Admin Customer Service<br />"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lanz"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "No typo.  The beef portion is going to make many sandwiches (6 oz of meat each and the remaining ingredients is to make just one.  "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MIKE F."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Cant you see that the 22lb beef roast is a typo it should be 2 pound roast"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dot O."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "If Ms. Boston would have read the recipe, the onion &amp; peppers are for ONE SANDWICH! There is no measurement given for the chicken base - just rub the 22 pounds of beef with it. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "That's not enough seasoning and onion for 22 pounds of meat.  "
+        }
+    ],
+    "recipeCuisine": "american",
+    "recipeCategory": []
+}

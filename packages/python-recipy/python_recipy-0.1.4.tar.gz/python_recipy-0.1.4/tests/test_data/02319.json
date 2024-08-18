@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Slow-Cooker Pizza Joes",
+    "keywords": "slow-cooker pizza joes",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/UtObdfoh7Ue8GhvnACZA7A_webp_base.webp?v=d246a0a3&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Serve two kid favorites in one with pizza sauce, pepperoni, and more added to ground beef sauce for sandwich buns.",
+    "recipeIngredient": [
+        "2  lb lean (at least 80%) ground beef",
+        "2  medium onions, chopped (about 1 cup)",
+        "1/2  cup chopped green bell pepper (1/2 medium)",
+        "2  jars (14 oz each) pizza sauce",
+        "1  package (3.5 oz) sliced pepperoni, chopped (about 3/4 cup)",
+        "1  teaspoon dried basil leaves",
+        "1/2  teaspoon dried oregano leaves",
+        "18  sandwich buns, split",
+        "2  cups shredded mozzarella cheese (2 oz)"
+    ],
+    "totalTime": "PT6H25M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "18",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 12-inch skillet, cook ground beef and onions over medium-high heat 5 to 7 minutes, stirring frequently, until beef is thoroughly cooked; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spray 3 1/2- to 4-quart slow cooker with cooking spray. Spoon beef mixture into slow cooker. Stir in bell pepper, pizza sauce, pepperoni, basil and oregano."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover; cook on Low setting 4 to 6 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To assemble sandwiches, spoon about 1/3 cup beef mixture onto bottom halves of buns. Top each with scant 2  tablespoons cheese. Cover with top halves of buns."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "320 ",
+        "carbohydrateContent": "26 g",
+        "cholesterolContent": "40 mg",
+        "fatContent": "1 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "18 g",
+        "saturatedFatContent": "6 g",
+        "servingSize": "1 Sandwich",
+        "sodiumContent": "630 mg",
+        "sugarContent": "7 g"
+    },
+    "dateCreated": "04/21/2004",
+    "dateModified": "04/30/2010"
+}

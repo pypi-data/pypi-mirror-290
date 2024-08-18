@@ -1,0 +1,182 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Crispy Fried Eggs Recipe",
+    "datePublished": "2016-06-07T05:45:00.000-04:00",
+    "dateModified": "2022-11-10T15:35:42.889-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "For me, a fried egg should taste fried, with cratered, bubbly whites, crispy brown edges, and all. It&#39;s the built-in texture and flavor contrasts that really make it. Here&#39;s how I cook mine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/FbE-LpK0q4nJVo_jovLgZjihvxU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__06__20160605-crispy-fried-egg-6-64687805fcb1467cb71d07a1fcf2c868.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/ADSXzk2N-YWmivM3Y.mp4",
+        "description": "How to make a fried egg with crispy, lacy edges and cratered, bubbly whites—a fried egg, in other words, with personality. [Video: Serious Eats Video. Technique: J. Kenji López-Alt]",
+        "duration": "PT41S",
+        "name": "How to Make Extra-Crispy Fried Eggs",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/ADSXzk2N/poster.jpg?width=720",
+        "uploadDate": "2021-04-20T16:09:28.537-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Crispy Fried Eggs Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "8"
+    },
+    "cookTime": "PT10M",
+    "keywords": "breakfast, easy, egg, essential, quick",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "382 kcal",
+        "carbohydrateContent": "1 g",
+        "cholesterolContent": "372 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "13 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "293 mg",
+        "sugarContent": "0 g",
+        "fatContent": "37 g",
+        "servingSize": "Serves 1",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "3 tablespoons (45ml) vegetable or olive oil",
+        "2 eggs",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/Y6Jyi40dIZJy-hXwqU_CtDfpcuU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160605-crispy-fried-egg-3-ff73dc37f2bc4c59b531c78e207ab10b.jpg"
+                }
+            ],
+            "text": "Heat oil in a 10-inch cast iron, carbon steel, or nonstick skillet over medium-high heat until shimmering. (A small drop of water dropped into it should immediately sizzle.) Carefully break eggs into hot oil, dropping them from right above the surface to prevent hot oil from splashing. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/-thIL9g0lW6cEa-0_sWeCMUzR0w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160605-crispy-fried-egg-5-0c3a5b373b44499e9a55f9bf8191e245.jpg"
+                }
+            ],
+            "text": "Tilt the skillet toward you so oil pools against the side of the pan. Using a spoon, baste eggs with hot oil, aiming at the uncooked portions of the egg whites and avoiding the yolk. Continue basting until eggs are puffy and cooked, 45 seconds to 1 minute. Transfer to a plate and serve."
+        }
+    ],
+    "recipeYield": "1",
+    "totalTime": "PT10M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dtaitel"
+            },
+            "reviewBody": "This is my favorite way to eat fried eggs! This is similar to how my grandmother and mom prepare eggs."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "hugseverycat"
+            },
+            "reviewBody": "I love this. it's the only way I make fried eggs anymore."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "shrinkrap"
+            },
+            "reviewBody": "The hubs says the crispy edge was called \"bacon\"."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KitchenVixxen"
+            },
+            "reviewBody": "I wish more breakfast places made their eggs this way. I never order eggs in restaurants because the eggs are usually undercooked for my liking."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nola2chi"
+            },
+            "reviewBody": "Grew up on these! I called them black lace eggs. They were made in a black iron skillet with bacon grease, served with grits. \nI still make them a lot, but they often top different stuff now. Like, soba noodles with kimchi; stir fried cabbage and onions w/ a pinch of fennel seed; anything a runny, crispy egg belongs on."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/crispy-fried-eggs-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/frying-recipes-5117358",
+                        "name": "Frying"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/fried-egg-recipes-5117356",
+                        "name": "Fried Eggs"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/crispy-fried-eggs-recipe",
+                        "name": "Crispy Fried Eggs Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

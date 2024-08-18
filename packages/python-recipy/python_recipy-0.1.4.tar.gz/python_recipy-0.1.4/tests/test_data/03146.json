@@ -1,0 +1,74 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "This pizza sauce produces excess tomato liquid, which would be great added to a braise.",
+    "alternativeHeadline": "This pizza sauce produces excess tomato liquid, which would be great added to a braise.",
+    "keywords": [
+        "sauce",
+        "italian",
+        "canned tomato",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alfia Muzio",
+            "sameAs": "https://www.bonappetit.com/contributor/alfia-muzio"
+        },
+        {
+            "@type": "Person",
+            "name": "Michael Graydon Nikole Herriott",
+            "sameAs": "https://www.bonappetit.com/contributor/michael-graydon nikole herriott"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.9,
+        "ratingCount": 169
+    },
+    "description": "This pizza sauce produces excess tomato liquid, which would be great added to a braise.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ad32621b334044149754b5/master/w_2000,h_1333,c_limit/fresh-tomato-pizza-sauce.jpg"
+    ],
+    "headline": "Fresh Tomato Pizza Sauce",
+    "name": "Fresh Tomato Pizza Sauce",
+    "recipeIngredient": [
+        "1 28-oz. can whole peeled tomatoes, drained",
+        "2 anchovy fillets packed in oil, drained",
+        "2 garlic cloves",
+        "6 tablespoons olive oil",
+        "¼ cup fresh basil leaves",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pulse tomatoes, anchovies, garlic, oil, and basil in a food processor or blender until mostly smooth (some texture is okay); season with salt and pepper."
+        }
+    ],
+    "recipeYield": "Makes about 5 cups",
+    "url": "https://www.bonappetit.com/recipe/fresh-tomato-pizza-sauce",
+    "dateModified": "2014-09-17T07:24:55.000-04:00",
+    "datePublished": "2014-09-17T07:24:55.000-04:00",
+    "recipeCategory": []
+}

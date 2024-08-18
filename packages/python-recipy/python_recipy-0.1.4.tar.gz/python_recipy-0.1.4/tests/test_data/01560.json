@@ -1,0 +1,94 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Quick pickled figs add a sweet-tartness to this bruschetta.",
+    "alternativeHeadline": "Quick pickled figs add a sweet-tartness to this bruschetta.",
+    "keywords": [
+        "toast",
+        "italian",
+        "fig",
+        "cheese",
+        "pistachio",
+        "starter",
+        "snack",
+        "dinner",
+        "vegetarian",
+        "bon appétit",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/56043a52968c2fa94dc98a31/1:1/w_1529,h_1529,c_limit/365809_hires.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "The Bon Appétit Test Kitchen",
+            "sameAs": "https://www.epicurious.com/contributor/the-bon appétit test kitchen"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "ratingCount": 9
+    },
+    "description": "Quick pickled figs add a sweet-tartness to this bruschetta.",
+    "image": [
+        "https://assets.epicurious.com/photos/56043a52968c2fa94dc98a31/16:9/w_2288,h_1287,c_limit/365809_hires.jpg",
+        "https://assets.epicurious.com/photos/56043a52968c2fa94dc98a31/4:3/w_2036,h_1527,c_limit/365809_hires.jpg",
+        "https://assets.epicurious.com/photos/56043a52968c2fa94dc98a31/1:1/w_1529,h_1529,c_limit/365809_hires.jpg"
+    ],
+    "headline": "Pickled Fig, Robiola, & Pistachio Oil Crostini",
+    "name": "Pickled Fig, Robiola, & Pistachio Oil Crostini",
+    "recipeIngredient": [
+        "12 slices ciabatta bread",
+        "½ cup red wine vinegar",
+        "2 tablespoons sugar",
+        "6 dried figs",
+        "¼ cup water",
+        "2 tablespoons pistachios, toasted and shelled",
+        "¼ cup extra-virgin olive oil",
+        "Robiola cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine red wine vinegar, sugar, and dried figs with ¼ cup water in a saucepan; bring to a simmer. Remove from heat and let sit until figs soften, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Halve figs lengthwise. (Alternatively, use 6 fresh figs and halve lengthwise.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Finely crush pistachios and combine with extra-virgin olive oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill bread slices."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Smear room-temperature Robiola cheese onto warm toasts. Top with halved figs. Drizzle with pistachio oil."
+        }
+    ],
+    "recipeYield": "Makes 12 servings",
+    "url": "https://www.epicurious.com/recipes/food/views/pickled-fig-robiola-pistachio-oil-crostini-365809",
+    "dateModified": "2011-05-17T00:00:00.000-04:00",
+    "datePublished": "2011-05-17T00:00:00.000-04:00",
+    "recipeCategory": []
+}

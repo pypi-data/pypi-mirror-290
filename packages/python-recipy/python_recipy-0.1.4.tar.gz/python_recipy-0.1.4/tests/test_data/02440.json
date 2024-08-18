@@ -1,0 +1,103 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Basic Caramel",
+    "datePublished": "2015-11-04T13:36:25.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Keep an eye on your pan; the best indicator of doneness is appearance, not time. Just before the syrup reaches the shade you desire, remove it from the heat; the caramel will continue to cook for a few more seconds.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/zCXUyCKaGt9pO14iuKSlleS7sAY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/drip-0404-mla100664_vert-9ef1041d45124b14b718a044ec5bff84.jpgitokOlC2FUgl",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Basic Caramel",
+    "keywords": "Brown, Caramel, Dessert, Dessert party, Spring, Sugar, Summer",
+    "recipeIngredient": [
+        "2 cups sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pour 1/2 cup water into a medium (2- to 3-quart) heavy-bottom saucepan. Add sugar. Cook over medium heat, gently stirring occasionally, until sugar is dissolved and syrup is clear."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue to cook, without stirring, until the syrup comes to a boil, washing down the sides of the pan with a wet pastry brush two or three times to prevent crystals from forming. Let syrup boil, gently swirling pan occasionally, until medium amber. Remove from heat."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1154655/basic-caramel",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1154655/basic-caramel",
+                        "name": "Basic Caramel"
+                    }
+                }
+            ]
+        }
+    }
+}

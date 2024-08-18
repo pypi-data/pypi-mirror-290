@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Dutch Sugar Cookies (Arnhemse Meisjes)",
+    "datePublished": "2018-04-09T20:46:02.000-04:00",
+    "dateModified": "2020-05-26T12:38:26.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "These buttery sugar cookies were made by Martha on Martha Bakes. Here&#39;s how you can bake these delicious Dutch cookies!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/HCAm5bn-pBFfNjBbKUrzu59LFjs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arnheim-meisjes-mbak911-netherlands-1446-v2-d113210-0118_horiz-c2d7b458be3b43418ead040a807510e3.jpgitokLijH4rGv",
+        "height": 421,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Dutch Sugar Cookies (Arnhemse Meisjes)",
+    "recipeIngredient": [
+        "Sugar, for sprinkling",
+        "0.333 cup whole milk",
+        "5 grams fresh yeast",
+        "1.5 cups unbleached all-purpose flour",
+        "0.25 teaspoon kosher salt",
+        "1 tablespoon pure vanilla extract",
+        "1 stick (½ cup) unsalted butter, cut into tablespoons, room temperature"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Line a baking sheet with parchment; sprinkle evenly with sugar to cover. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a liquid-measuring cup, combine milk and yeast. In the bowl of an electric mixer fitted with the paddle attachment, combine flour, salt, and vanilla. Beat in milk mixture on medium-high speed until thoroughly combined, about 2 minutes. With mixer running, add butter, 1 tablespoon at a time, making sure it is fully incorporated before adding the next one. Once all butter has been added, increase speed to high and beat 5 minutes. Turn out dough, wrap tightly in plastic, and refrigerate at least 2 hours and up to overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees. Generously sprinkle sugar on work surface. Place dough on sugared surface; sprinkle with sugar to cover. Top with a piece of parchment, then roll out dough 1/4 inch thick. Using a 3-inch oval cutter, cut out cookies. Transfer to prepared baking sheet, spaced 1 inch apart. Sprinkle with additional sugar. Bake until deeply golden all over, 15 to 18 minutes. Let cool on sheet 5 minutes, then transfer to a wire rack and let cool completely."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1527489/dutch-sugar-cookies-arnhemse-meisjes",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502264/cookie-recipes",
+                        "name": "Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1527489/dutch-sugar-cookies-arnhemse-meisjes",
+                        "name": "Dutch Sugar Cookies (Arnhemse Meisjes)"
+                    }
+                }
+            ]
+        }
+    }
+}

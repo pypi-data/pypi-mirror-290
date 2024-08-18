@@ -1,0 +1,101 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "This sauce is delicious with the chiles rellenos, but would also be perfect drizzled over enchiladas or added to your favorite chili.",
+    "alternativeHeadline": "This sauce is delicious with the chiles rellenos, but would also be perfect drizzled over enchiladas or added to your favorite chili.",
+    "keywords": [
+        "sauce",
+        "mexican",
+        "ancho chile",
+        "anaheim chile",
+        "new mexico chile",
+        "side",
+        "gluten-free",
+        "dairy-free",
+        "nut-free",
+        "vegetarian",
+        "vegan",
+        "simmer",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Zin Restaurant Wine Bar in Healdsburg CA",
+            "sameAs": "https://www.bonappetit.com/contributor/zin-restaurant wine bar in healdsburg ca"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 1,
+        "ratingCount": 2
+    },
+    "description": "This sauce is delicious with the chiles rellenos, but would also be perfect drizzled over enchiladas or added to your favorite chili.",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Red Chile Sauce",
+    "name": "Red Chile Sauce",
+    "recipeIngredient": [
+        "3 large dried ancho chiles* (about 1 ounce)",
+        "2 large dried New Mexico chiles* (about 3/4 ounce)",
+        "2 large dried Anaheim chiles* (about 1/2 ounce)",
+        "2 cups water",
+        "1/2 teaspoon cumin seeds",
+        "1 tablespoon olive oil",
+        "3/4 cup chopped onion",
+        "2 small garlic cloves, peeled, sliced",
+        "1 teaspoon dried oregano",
+        "1 cup vegetable broth, divided",
+        "1 tablespoon red wine vinegar",
+        "1 tablespoon (packed) dark brown sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stem and seed chiles; tear into 1-inch pieces. Heat heavy large skillet over medium heat. Add chiles to dry skillet and toast until beginning to smoke, stirring occasionally, 5 to 6 minutes. Add 2 cups water; bring to boil. Remove from heat and let stand 20 minutes to soften. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir cumin seeds in small skillet over medium-high heat until slightly darker and aromatic, 3 to 4 minutes. Cool. Transfer to spice mill; process until finely ground."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in heavy medium saucepan over medium heat. Add onion; sauté until golden, stirring often, about 8 minutes. Add garlic, oregano, and ground cumin. Add drained chiles and 1/2 cup broth; sprinkle with salt. Bring to boil; reduce heat to medium-low, cover, and simmer 20 minutes to allow flavors to blend. Add 1/2 cup broth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working in batches, purée sauce in blender until smooth. Add vinegar and sugar. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "DO AHEAD: Can be made 1 week ahead. Cover and chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "*Available at many supermarkets and at specialty foods stores and Latin markets."
+        }
+    ],
+    "recipeYield": "makes about 2 cups",
+    "url": "https://www.bonappetit.com/recipe/red-chile-sauce",
+    "dateModified": "2010-04-29T20:00:00.000-04:00",
+    "datePublished": "2010-04-29T20:00:00.000-04:00",
+    "recipeCategory": []
+}

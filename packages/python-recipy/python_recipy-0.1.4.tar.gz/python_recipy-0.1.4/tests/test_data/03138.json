@@ -1,0 +1,100 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Like it hot? Sub a Fresno chile for the red bell pepper for some extra kick.",
+    "alternativeHeadline": "Like it hot? Sub a Fresno chile for the red bell pepper for some extra kick.",
+    "keywords": [
+        "sandwich",
+        "chickpea",
+        "bell pepper",
+        "main",
+        "dairy-free",
+        "nut-free",
+        "vegetarian",
+        "vegan",
+        "deep-fry",
+        "lunch",
+        "dinner",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sarit Packer & Itamar Srulovich",
+            "sameAs": "https://www.bonappetit.com/contributor/sarit-packer & itamar srulovich"
+        },
+        {
+            "@type": "Person",
+            "name": "Marcus Nilsson",
+            "sameAs": "https://www.bonappetit.com/contributor/marcus-nilsson"
+        }
+    ],
+    "description": "Like it hot? Sub a Fresno chile for the red bell pepper for some extra kick.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57acdbb21b3340441497526e/master/w_5071,h_3381,c_limit/FALAFEL-1-of-3.jpg"
+    ],
+    "headline": "Red Pepper Falafel",
+    "name": "Red Pepper Falafel",
+    "recipeIngredient": [
+        "8 ounces dried chickpeas, soaked overnight, drained",
+        "½ onion, coarsely chopped",
+        "½ small red bell pepper, coarsely chopped",
+        "1 garlic clove, crushed",
+        "3 tablespoons chickpea flour",
+        "1 tablespoon ground cumin",
+        "2½ teaspoons kosher salt",
+        "2 teaspoons ground coriander",
+        "1 teaspoon smoked paprika",
+        "1 teaspoon Hungarian sweet paprika",
+        "1 teaspoon baking powder",
+        "Vegetable oil (for frying; about 8 cups)",
+        "Shredded Cabbage Salad with Pomegranate and Tomatoes",
+        "Spiced Green Tahini Sauce",
+        "Warm thick pita with pockets (for serving)",
+        "A deep-fry thermometer"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pulse chickpeas in a food processor, scraping down sides as needed, until they resemble finely chopped nuts (the texture should be uneven with some slightly larger pieces of chickpeas visible), about 1 minute. Scrape into a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pulse onion, bell pepper, and garlic in food processor, scraping down sides as needed, until coarsely chopped, about 1 minute. Mix into chickpeas, then mix in chickpea flour, cumin, salt, coriander, smoked paprika, Hungarian sweet paprika, and baking powder. Form into ping-pong-size balls."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour oil into a large heavy pot to a depth of 3\". Fit pot with thermometer and heat oil over medium-high until thermometer registers 330°. Working in batches, cook falafel, turning occasionally, until deep brown and crisp, about 5 minutes. Transfer to paper towels to drain and let sit 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve falafel with salad, tahini sauce, and pita."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Do Ahead: Falafel mixture can be made 5 hours ahead. Cover and store at room temperature. When ready to fry, stir to loosen mixture and form into balls."
+        }
+    ],
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/red-pepper-falafel",
+    "dateModified": "2015-09-22T04:00:26.000-04:00",
+    "datePublished": "2015-09-22T04:00:26.000-04:00",
+    "recipeCategory": []
+}

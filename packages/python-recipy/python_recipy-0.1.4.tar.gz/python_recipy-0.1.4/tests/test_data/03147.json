@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Port o' Call Cocktail Recipe",
+    "keywords": [
+        "cocktail",
+        "cognac",
+        "easy",
+        "quick",
+        "drinks",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jamie Boudreau",
+            "sameAs": "https://www.bonappetit.com/contributor/jamie-boudreau"
+        },
+        {
+            "@type": "Person",
+            "name": "Tim Mazurek",
+            "sameAs": "https://www.bonappetit.com/contributor/tim-mazurek"
+        }
+    ],
+    "description": "Port o' Call Cocktail Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57afd2181b33404414975f24/master/w_100,h_100,c_limit/mare_drinks_port_o_call_cocktail_s.jpg"
+    ],
+    "headline": "Port o' Call Cocktail",
+    "name": "Port o' Call Cocktail",
+    "recipeIngredient": [
+        "1 ounce Guinness",
+        "1 1/4 ounce Martell VSOP (or other nice, assertive cognac)",
+        "1/2 ounce St-Germain",
+        "1/4 ounce crème de cacao",
+        "3 dashes Angostura bitters",
+        "Orange zest, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add all of the ingredients to a mixing glass with ice. Stir and then strain into a chilled coupe. Garnish with orange zest."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/port-o-call-cocktail",
+    "dateModified": "2011-02-06T19:00:00.000-05:00",
+    "datePublished": "2011-02-06T19:00:00.000-05:00",
+    "recipeCategory": []
+}

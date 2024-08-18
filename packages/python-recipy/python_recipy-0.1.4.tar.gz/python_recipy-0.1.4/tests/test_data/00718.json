@@ -1,0 +1,424 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024117-furikake-snack-mix#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024117-furikake-snack-mix",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/09/05/multimedia/sl-furikake-snack-mix-cjwz/sl-furikake-snack-mix-cjwz-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024117-furikake-snack-mix",
+    "name": "Furikake Snack Mix",
+    "description": "This sweet and spicy snack mix is inspired by furikake snack mix, a Japanese Hawaiian dish that uses a soy-butter blend to coat a cereal mixture and then seasons it with furikake, a traditional Japanese seasoning mix that traditionally combines dried fish, seaweed and sesame seeds, creating deep umami. Taking the original as inspiration, this recipe introduces the use of a pack of store-bought ramen. The ramen seasoning is used to flavor the cereal mix, while its crunchy noodles add texture and flair. The foundation of this snack mix calls for a wide variety of crunchy ingredients, but feel free to streamline your shopping list by skipping one of the snack items listed and doubling up on another.",
+    "author": {
+        "@type": "Person",
+        "name": "Sue Li"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/09/05/multimedia/sl-furikake-snack-mix-cjwz/sl-furikake-snack-mix-cjwz-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/05/multimedia/sl-furikake-snack-mix-cjwz/sl-furikake-snack-mix-cjwz-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/05/multimedia/sl-furikake-snack-mix-cjwz/sl-furikake-snack-mix-cjwz-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/05/multimedia/sl-furikake-snack-mix-cjwz/sl-furikake-snack-mix-cjwz-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "recipeYield": "12 servings (about 14 cups)",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "gochugaru, kid-friendly, make-ahead, nori, sesame seed, soy sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 181
+    },
+    "recipeIngredient": [
+        "3/4 cup/1 1/2 sticks unsalted butter",
+        "3 tablespoons light agave syrup",
+        "3 tablespoons soy sauce",
+        "2 tablespoons gochugaru",
+        "1 teaspoon kosher salt (such as Diamond Crystal)",
+        "1 (4.23-ounce) pack spicy Korean ramen (such as Shin Ramen), spice packet reserved and noodles broken into bite-size pieces",
+        "1 (2.6-ounce) pack shrimp crackers (about 2 1/2 cups), or substitute with extra oyster crackers",
+        "2 cups waffled rice cereal (such as Rice Chex)",
+        "2 cups honey-flavored corn and oat cereal (such as Honeycomb)",
+        "2 cups thin, 3-inch-long pretzel sticks",
+        "2 cups oyster crackers",
+        "1 cup wasabi peas",
+        "4 sheets toasted nori, torn into 1/2-to-1-inch pieces",
+        "2 tablespoons toasted sesame seeds"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 275 degrees. Line two 13-by-18-inch baking sheets with parchment paper; set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a small saucepan, combine butter, agave syrup, soy sauce, gochugaru, salt and the spice packet from the ramen. Cook over medium heat until the butter is melted and slightly bubbling, 3 to 4 minutes. Turn off the heat and set aside to allow the gochugaru to bloom."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the ramen noodles with the shrimp crackers, rice cereal, honey-flavored cereal, pretzel sticks, oyster crackers, wasabi peas and nori."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Drizzle half of the warm, spicy butter over the crunchy mixture and toss to coat. Drizzle with the remaining butter and toss to coat again until all of the pieces are coated."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide the mixture evenly between the two prepared baking sheets and spread into even layers. Sprinkle each with 1 tablespoon toasted sesame seeds."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake until the mixture has dried and toasted, 25 to 35 minutes, switching the sheet pans between racks and tossing the mixture every 10 minutes. Let cool completely before serving (about 20 minutes). Snack mix will keep 1 week in an airtight container."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-09-05T00:00:00.000Z",
+    "dateModified": "2023-10-11T21:26:54.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "debbieo."
+            },
+            "reviewBody": "Should the goghugaru be the coarse kind or the powdered knid?",
+            "datePublished": "2024-06-08T16:32:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny-Nick"
+            },
+            "reviewBody": "I have made this a couple of times for the work \"share\" table in the staff room.  It goes faster than I anticipate each time.  I have also been known to add honey toasted sesame sticks to give an extra flavor/texture.",
+            "datePublished": "2024-05-27T23:08:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sweet Tooth"
+            },
+            "reviewBody": "Omitted wasabi peas, nori, & shrimp crackers. Added more of other 4 dry ingred; only 2 oz of ramen noodles. Subbed Aleppo pepper for gochugaru, and Lyle's Golden Syrup for agave. Omitted salt and used only one ramen seasoning pack. This resulted in a less salty snack mix. I bumped up the sweetness, too, by going a little heavy on my Honeycomb cereal and syrup. I like the salty, sweet, spicy, umami flavor. Planning to add macadamia nuts! Definitely switch the pans every 8 min; 25 min total.",
+            "datePublished": "2024-01-21T03:13:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue T"
+            },
+            "reviewBody": "So we’re basically addicted to this stuff. I made some for Christmas snacking and am making more today for New Year’s snacking. My husband suggested adding mini Nilla wafers (basically cause we were in the cookie aisle and he wanted some) but it turned out to be genius! Another little hint of sweet along with the Honeycomb.  And I was pleasantly surprised by the gochugaru as I'd never heard of it. Smoky and just slightly spicy. Love it!",
+            "datePublished": "2023-12-30T20:16:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan B"
+            },
+            "reviewBody": "I made this exactly as written, but found that it was inedibly salty and very spicy.  After spending about $30 on the ingredients, I ended up throwing most of it out.  Maybe I used a very salty brand of Shin Ramen?  The torn bits of toasted nori had the unappetizing appearance of burnt paper flakes in the mix.",
+            "datePublished": "2023-12-28T20:54:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "Made as directed except used Gold Emblem Asian Trail Mix in place of shrimp crackers, used two small packs of Gim roasted seaweed snacks instead of toasting Nori sheets, and only used 5 tsp of Gochugaru.  It was really good and everyone liked it.  Next time, I would sprinkle the sesame seeds on at Step 4.  Doing it at Step 5, a lot of them just fell off.",
+            "datePublished": "2023-12-26T16:42:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anchorage"
+            },
+            "reviewBody": "Very good, especially first day.  After that, the nori became a bit overpowering and I might leave out on next batch as it definitely commanded the palate.  Swapped in light corn syrup for agave and loved how it made clumps of mix and did not over sweeten the batch.",
+            "datePublished": "2023-12-26T15:44:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "durantenge"
+            },
+            "reviewBody": "delicious!!! addictive.",
+            "datePublished": "2023-12-21T12:56:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Regina"
+            },
+            "reviewBody": "Thanks - I've mainly seen it paste form. I'm glad I asked!",
+            "datePublished": "2023-12-20T20:58:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "Gochukaru is Korean chile flakes, kind of like Aleppo pepper in consistency.",
+            "datePublished": "2023-12-20T19:30:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "Gochukaru is Korean chile flakes, kind of like Aleppo pepper in consistency.",
+            "datePublished": "2023-12-20T18:55:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Regina"
+            },
+            "reviewBody": "Is the  gochugaru powdered or sauce?",
+            "datePublished": "2023-12-19T21:20:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Regina"
+            },
+            "reviewBody": "I rotated the pans and tossed the mix at each rotation every 10 minutes.",
+            "datePublished": "2023-12-26T17:36:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Choppie"
+            },
+            "reviewBody": "Rotated my baking sheets after 12 minutes. Four minutes later everything was burned. The different elements seemed to bake at different speeds. The rice Chex was black! Next time I will remove after 12 minutes!",
+            "datePublished": "2023-12-15T00:49:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A. Cleary"
+            },
+            "reviewBody": "This looks like a nice change from the Chex Party Mix, and I'd like to give it a try. But I have some furikake on hand and wonder if I could substitute it for some of the ingredients here. Any ideas?",
+            "datePublished": "2023-12-13T18:49:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne"
+            },
+            "reviewBody": "This is close to gluten free already.  How can I make it totally gluten free?",
+            "datePublished": "2023-12-13T18:31:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carolem"
+            },
+            "reviewBody": "Substituted dark maple syrup for the agave syrup with decent results. Light maple syrup is probably a better sub.",
+            "datePublished": "2023-11-05T00:56:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christy"
+            },
+            "reviewBody": "The hardest thing about this recipe is not eating the entire massive quantity of snack mix in one standing (as opposed to sitting, because I’m in my kitchen trying to convince myself I’m about to put the lid back on the container).",
+            "datePublished": "2023-10-12T23:42:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katy"
+            },
+            "reviewBody": "Would love to see the nutrition details before I try this recipe!",
+            "datePublished": "2023-09-09T22:03:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gourmanding in the 206"
+            },
+            "reviewBody": "I like this Korean style Chex Mix!  Added cashews and almonds instead of Honeycomb but the flavor profile is a keeper.  Thanks.",
+            "datePublished": "2023-09-10T06:20:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christy"
+            },
+            "reviewBody": "The hardest thing about this recipe is not eating the entire massive quantity of snack mix in one standing (as opposed to sitting, because I’m in my kitchen trying to convince myself I’m about to put the lid back on the container).",
+            "datePublished": "2023-10-12T23:42:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie"
+            },
+            "reviewBody": "Yes, it’s an absolute sodium bomb … and therefore delicious. I subbed Diamond brand wasabi roasted almonds. The almonds themselves were not a terrible addition but all the wasabi flavoring was washed off by the butter/Gochujang mixture. Couldn’t find Honeycomb (so disappointed, this was the sugar cereal fantasy of my youth, still yet to pass these lips) so subbed Honey Nut Chex. Next time I might increase the sweet Chex and decrease the plain — I like that hit of sweet and savory.",
+            "datePublished": "2023-09-26T21:54:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia"
+            },
+            "reviewBody": "Should furikake be added?",
+            "datePublished": "2023-09-15T20:34:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa"
+            },
+            "reviewBody": "I have been obsessed with this recipe since it was published because I've loved this flavor profile ever since a childhood in Hawaii where arare crackers are popular. I finally got around to buying all the ingredients, which involved a trip to three stores. (I still couldn't find gochugaru but substituted Aleppo pepper, which worked fine.) It turned out great! Because I live alone, I halved the recipe. How to use up the leftover ingredients is my next task ...",
+            "datePublished": "2023-09-24T13:52:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Suzanne"
+            },
+            "reviewBody": "Agreed. The sodium content has to be really high.",
+            "datePublished": "2023-09-10T11:51:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carolem"
+            },
+            "reviewBody": "I learned from your experience and added coarsely chopped wasabi/soy almonds at the end, after cooking the mix. Turned out very nicely. I don't care for wasabi peas, so it was an excellent substitution.",
+            "datePublished": "2023-12-13T16:53:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SusanW"
+            },
+            "reviewBody": "The recipe says that it makes approximately 14 cups for 12 servings. So it's a little more than one cup per serving.",
+            "datePublished": "2023-09-11T00:55:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brushjl"
+            },
+            "reviewBody": "Oh my, I think I just added 10 years to my life!  Absolutely delicious.  Will never go back to my mother's chef mix.",
+            "datePublished": "2023-09-18T18:28:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Johnson"
+            },
+            "reviewBody": "its honestly really good in my opinion, especially if you have had it before.",
+            "datePublished": "2023-09-12T22:47:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa"
+            },
+            "reviewBody": "There's no need to; it has the furikake ingredients (nori, sesame seed) in it.",
+            "datePublished": "2023-09-24T13:55:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy"
+            },
+            "reviewBody": "I made this for my husband this afternoon, and he sampled it when he got home. He called it \"fantastic.\" (I really don't like spicy stuff, so I have no opinion.)",
+            "datePublished": "2023-09-28T21:10:04.000Z"
+        }
+    ]
+}

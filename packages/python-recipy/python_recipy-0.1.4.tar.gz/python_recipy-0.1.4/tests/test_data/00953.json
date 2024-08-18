@@ -1,0 +1,196 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/grilled-potatoes-with-bacon-ranch-sauce/",
+    "name": "Grilled Potatoes with Bacon-Ranch Sauce",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-08-15",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2017/09/exps49166_UGG143377C01_09_2b_WEB.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "These potatoes are tender and good all by themselves, but pairing them with the sauce creates a perfect combination&mdash;a side dish compatible with any entree cooked on the grill. &mdash;Craig Carpenter, Coraopolis, Pennsylvania",
+    "recipeIngredient": [
+        "2 tablespoons olive oil",
+        "1 tablespoon barbecue seasoning",
+        "2 garlic cloves, minced",
+        "2 teaspoons lemon juice",
+        "1-1/2 pounds small potatoes, quartered",
+        "SAUCE:",
+        "2/3 cup ranch salad dressing",
+        "4 teaspoons bacon bits",
+        "2 teaspoons minced chives",
+        "Dash hot pepper sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine oil, barbecue seasoning, garlic and lemon juice. Add potatoes; toss to coat. Place on a double thickness of heavy-duty foil (about 28 in. square). Fold foil around potato mixture and seal tightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill, covered, over medium heat 20-25 minutes or until potatoes are tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine sauce ingredients. Serve with potatoes."
+        }
+    ],
+    "recipeYield": "5 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 365 calories",
+        "fatContent": "23g fat (4g saturated fat)",
+        "cholesterolContent": "7mg cholesterol",
+        "sodiumContent": "879mg sodium",
+        "carbohydrateContent": "37g carbohydrate (3g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "4g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 7,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2024-02-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "SColson132"
+            },
+            "reviewBody": "<p>Excellent recipe!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-08-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Marene469"
+            },
+            "reviewBody": "I reads bacon-ranch sauce not sour cream sauce.  Read it.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-03-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dayette"
+            },
+            "reviewBody": "I am wondering why it is called 'Grilled Potatoes with Sour Cream Sauce' when there is no sour cream in the recipe. Could an ingredient be missing?",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-08-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "pcothran"
+            },
+            "reviewBody": "I don't see sour cream in the recipe!  I hate to give this a 3 star rating because I haven't tried it, but where else can you ask a question?",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-03-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Sprowl"
+            },
+            "reviewBody": "Wonderful recipe!  I used red skin potatoes.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-04-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "caruso"
+            },
+            "reviewBody": "Very tasty, easy to cook, add crumbled bacon & cover with your favorite cheese. Slice up some Kielbasa and cook it on the side. Easy clean up, great for camping.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "justmbeth"
+            },
+            "reviewBody": "Simple recipe for grilling.   Great tasting!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

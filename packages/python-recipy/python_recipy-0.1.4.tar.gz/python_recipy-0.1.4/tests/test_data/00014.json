@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cauliflower Hummus",
+    "datePublished": "2021-04-21T17:05:32.000-04:00",
+    "dateModified": "2023-09-19T12:14:56.158-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Casey Barber",
+            "url": "https://www.eatingwell.com/author/casey-barber/"
+        }
+    ],
+    "description": "Is there anything cauliflower can&#39;t do? This versatile ingredient subs for chickpeas in a lightened-up, low-carb version of hummus.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/cabif-VRle8DHJQDcrQp-7kiBfM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/roasted-cauliflower-hummus-b1d9c7f7a31d4421ab1dd28f0f19d07f.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Cauliflower Hummus",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "152 kcal",
+        "carbohydrateContent": "10 g",
+        "fiberContent": "3 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "280 mg",
+        "sugarContent": "3 g",
+        "fatContent": "12 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "6 cups cauliflower florets (about 1 pound)",
+        "1 tablespoon extra-virgin olive oil, plus more for garnish",
+        "1 large garlic clove, roughly chopped",
+        "0.25 cup tahini",
+        "Zest of 1 lemon",
+        "2 tablespoons lemon juice",
+        "0.5 teaspoon kosher salt",
+        "0.5 teaspoon ground cumin",
+        "0.5 teaspoon crushed red pepper",
+        "2 tablespoons water",
+        "Chopped red bell pepper for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°F and line a baking sheet with parchment paper or a silicone mat. Toss cauliflower with oil in a large bowl. Spread in a single layer on the prepared baking sheet. Roast until tender and just starting to brown, 20 to 25 minutes. Let cool to room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the cauliflower, garlic, tahini, lemon zest, lemon juice, salt, cumin, crushed red pepper and water to a food processor. Process until combined, scraping down the sides of the bowl as needed. Add more water, if desired, to make a looser dip."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a bowl. Drizzle with additional olive oil and sprinkle with chopped pepper, if desired."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7899393/cauliflower-hummus/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18172/appetizer/dips-spreads/",
+                        "name": "Dips & Spreads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18813/appetizer/dips-spreads/hummus/",
+                        "name": "Healthy Hummus Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7899393/cauliflower-hummus/",
+                        "name": "Cauliflower Hummus"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T12:14:56.158-04:00"
+    },
+    "recipeCategory": []
+}

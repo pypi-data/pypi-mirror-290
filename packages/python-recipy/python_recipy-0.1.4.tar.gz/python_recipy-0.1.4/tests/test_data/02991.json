@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/chicken-biryani-bake#Recipe",
+    "@type": "Recipe",
+    "description": "Keep this biryani bake in the freezer for an easy midweek health kick",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-592546_12-dcaef4e.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/chicken-biryani-bake"
+    },
+    "name": "Chicken biryani bake",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-biryani-bake",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2022-11-11T10:08:20+00:00",
+    "datePublished": "2011-03-17T04:51:52+00:00",
+    "headline": "Chicken biryani bake",
+    "keywords": " Josh Eagleton, 600 kcal or less, Biryani bake, Chicken breast, Chicken breasts, Chicken thigh, Chicken thighs, Easy, Five a day, Flaked almond, Flaked almonds, Freezable, Good Food, Iron, Low fat, Mains, Natural yogurt, Over an hour, Quick to prepare, Super healthy, Vitamin c",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT1H15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "463 calories",
+        "fatContent": "11 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "54 grams carbohydrates",
+        "sugarContent": "7 grams sugar",
+        "fiberContent": "5 grams fiber",
+        "proteinContent": "40 grams protein",
+        "sodiumContent": "1.31 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": "Indian",
+    "recipeIngredient": [
+        "1 tbsp olive oil",
+        "4 skinless chicken breasts , chopped into chunks",
+        "4 skinless, boneless chicken thighs , chopped into chunks",
+        "2 onions , sliced",
+        "4 tbsp curry paste (we used korma and tikka masala)",
+        "300g cauliflower , chopped into small florets",
+        "700ml chicken stock",
+        "400g can chopped tomato",
+        "400g can chickpea , rinsed and drained",
+        "200g natural yogurt",
+        "300g spinach",
+        "400g basmati rice , cooked following pack instructions",
+        "5 tbsp flaked almond"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Start by making the curry. Heat 1 tbsp of the oil in a large, deep frying pan. Season the chicken and fry until browned, then remove and set aside. Fry the onion in the rest of the oil for 10-12 mins until soft and starting to caramelise."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the paste and cauliflower, stirring to coat everything, then return the chicken. Pour in the stock, tomatoes and chickpeas and simmer everything for 30 mins until the cauliflower is nearly tender. There should be just enough liquid to cover everything so add a splash more water or stock if you need to. Remove from the heat and stir in the yogurt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Assemble the bake in either 1 large or 2 smaller, deep ovenproof dishes. Start with a ¹/³ of the spinach leaves, season, then top with a ¹/³ of the curry. Finish with a ¹/³ of the rice then repeat twice more. Scatter on the almonds and either cool completely to freeze, or heat oven to 220C/200C fan/gas 7 and cook for 20-25 mins until the topping has crisped up and the dish is piping hot through."
+        }
+    ],
+    "recipeYield": 8,
+    "totalTime": "PT1H25M"
+}

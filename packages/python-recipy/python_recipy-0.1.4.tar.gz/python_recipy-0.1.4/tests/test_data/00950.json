@@ -1,0 +1,138 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/hot-creole-shrimp-dip/",
+    "name": "Hot Creole Shrimp Dip",
+    "datePublished": "2020-08-19",
+    "dateModified": "2022-09-07",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2020/08/Hot-Shrimp-Dip_EXPS_TOHDJ21_250409_E07_29_6b-3.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I came across a recipe for crawfish dip, and it sounded delicious, but we don't have a lot of crawfish available in my area. I'm a big fan of shrimp, so I used that instead. The dish has become a family favorite. —Jill Burwell, Renton, Washington",
+    "recipeIngredient": [
+        "1/2 cup butter, cubed",
+        "8 green onions, thinly sliced",
+        "1 small green pepper, finely chopped",
+        "1 pound peeled and deveined cooked shrimp (61-70 per pound)",
+        "1 jar (4 ounces) diced pimientos, drained",
+        "2 garlic cloves, minced",
+        "2 teaspoons Creole seasoning",
+        "1 package (8 ounces) cream cheese, cubed",
+        "Chopped fresh parsley",
+        "French bread baguette slices or assorted crackers"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a Dutch oven, melt butter over medium heat. Add green onions and green pepper; cook and stir until tender, 3-4 minutes. Add shrimp, pimientos, garlic and Creole seasoning. Cook and stir until heated through."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in cream cheese until melted; sprinkle with parsley. Serve with baguette slices or crackers."
+        }
+    ],
+    "recipeYield": "4 cups.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 136 calories",
+        "fatContent": "11g fat (7g saturated fat)",
+        "cholesterolContent": "73mg cholesterol",
+        "sodiumContent": "217mg sodium",
+        "carbohydrateContent": "2g carbohydrate (1g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "7g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-03-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JosephMills"
+            },
+            "reviewBody": "I cut the butter in half and had a great dish.  It was eaten very quickly.  Will fix again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-01-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Linda"
+            },
+            "reviewBody": "Rated five stars for flavor.  The dip was runny, however, and I did not know how to thicken it up.  Any suggestions?  I served it with toasted French baguette slices.  I don't know how you you could serve this with crackers. Used the leftovers to flavor up baked flounder the next day...it was a hit with my husband.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-11-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "diallaura"
+            },
+            "reviewBody": "The flavors in this dip are amazing. I did find it a bit runny, though. Did I do something wrong? We used crackers, but dipping and soaking bread in this dip would be awesome!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-12-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Rhorn11"
+            },
+            "reviewBody": "Great flavors. Was a bit runny and thickened with Wondra.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

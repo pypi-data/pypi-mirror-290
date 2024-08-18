@@ -1,0 +1,79 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/cheese-chorizo-or-prosciutto-skewers#Recipe",
+    "@type": "Recipe",
+    "description": "Enjoy brochettes two ways with manchego and chorizo or prosciutto, mozzarella and basil - ideal for a picnic. For young kids, simply slide them off the stick",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cheese-chorizo-or-prosciutto-skewers-0624c90.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/cheese-chorizo-or-prosciutto-skewers"
+    },
+    "name": "Cheese & chorizo or prosciutto skewers",
+    "url": "https://www.bbcgoodfood.com/recipes/cheese-chorizo-or-prosciutto-skewers",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Lulu Grimes",
+            "url": "https://www.bbcgoodfood.com/author/lulugrimes"
+        }
+    ],
+    "dateModified": "2022-11-08T13:58:02+00:00",
+    "datePublished": "2018-06-22T12:37:49+01:00",
+    "headline": "Cheese & chorizo or prosciutto skewers",
+    "keywords": "Basil, Canapés, Cheese, Chorizo, Grapes, Lulu Grimes, Prosciutto, Skewers, Snack",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT5M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "289 calories",
+        "fatContent": "23 grams fat",
+        "saturatedFatContent": "13 grams saturated fat",
+        "carbohydrateContent": "1 grams carbohydrates",
+        "sugarContent": "1 grams sugar",
+        "proteinContent": "20 grams protein",
+        "sodiumContent": "2.2 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "150g manchego",
+        "12 slices chorizo",
+        "6 red grapes , halved",
+        "12 mini mozzarella balls",
+        "12 small  basil leaves (optional)",
+        "6 slices prosciutto , halved"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 180C/160C fan/gas 4. Cut the manchego into 12 cubes or oblongs. Fold a slice of chorizo around each piece of cheese and push a cocktail stick through the middle to secure it. Push half a grape on to one side, then transfer skewers to a baking tray and cook for 5 mins. Cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Wrap each mozzarella ball in basil, top with half a slice of prosciutto and push a skewer through. To serve young children, slide everything off the skewers."
+        }
+    ],
+    "recipeYield": 6,
+    "totalTime": "PT25M"
+}

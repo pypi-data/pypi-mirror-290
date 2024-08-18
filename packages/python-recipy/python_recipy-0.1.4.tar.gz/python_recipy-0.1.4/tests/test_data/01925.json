@@ -1,0 +1,235 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "headline": "Moroccan-Spiced Chickpea Bowls",
+    "url": "https://www.thekitchn.com/recipe-moroccan-spiced-chickpea-bowls-259054",
+    "description": "These saucy, spiced chickpea bowls with kale, avocado, and a runny-yolked egg are all the proof you need that comfort food can also be healthy.",
+    "brand": {
+        "@type": "Thing",
+        "name": "The Kitchn"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "742 cal",
+        "carbohydrateContent": "73.4 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "24.4 g",
+        "proteinContent": "30.9 g",
+        "saturatedFatContent": "8.3 g",
+        "sodiumContent": "385.5 mg",
+        "sugarContent": "13.4 g",
+        "fatContent": "41.5 g",
+        "servingSize": "Serves 4",
+        "unsaturatedFatContent": "0.0 g"
+    },
+    "suitableforDiet": "https://schema.org/VegetarianDiet",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Africa",
+        "Moroccan"
+    ],
+    "recipeIngredient": [
+        "1 cup plain Greek yogurt",
+        "1/4 cup finely chopped fresh mint leaves",
+        "1/4  cup water",
+        "1 tablespoon extra-virgin olive oil",
+        "1 clove garlic, minced",
+        "  Kosher salt",
+        "  Freshly ground black pepper",
+        "3 tablespoons avocado oil or extra-virgin olive oil, divided",
+        "1/2  medium onion, diced",
+        "2 cloves garlic, minced",
+        "2 teaspoons harissa paste",
+        "1 teaspoon tomato paste",
+        "2 teaspoons ground cumin",
+        "1 teaspoon paprika",
+        "1/2 teaspoon ground cinnamon",
+        "  Kosher salt",
+        "  Freshly ground black pepper",
+        "2 cups cooked chickpeas, drained",
+        "1 (14.5-ounce) can can diced tomatoes",
+        "3/4 cup bulgur",
+        "8 packed cups shredded or chopped kale leaves (about 1 pound)",
+        "4  poached or hard-boiled large eggs",
+        "2  medium avocados, thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Step 1: Make the yogurt sauce: ",
+            "text": "Place the ingredients in a medium bowl, season with salt and pepper, and whisk until combined.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 1: Make the bowls:",
+            "text": "Heat 2 tablespoons of the oil in a large frying pan over medium heat until shimmering. Add the onion and cook, stirring occasionally, until soft and fragrant, about 5 minutes. Add the garlic, harissa, tomato paste, cumin, paprika, and cinnamon, season with salt and pepper, and cook for 2 minutes. Stir in the chickpeas and tomatoes with their juices. Bring to a boil, then reduce the heat to low and simmer for 20 minutes. Meanwhile, prepare the bulgur.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 2: Make the bowls:",
+            "text": "Place the bulgur, 1 1/2 cups of water, and a generous pinch of salt in a medium saucepan and bring to a boil over medium-high heat. Reduce the heat to low, cover, and simmer until tender, 10 to 15 minutes. Fluff with a fork.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 3: Make the bowls:",
+            "text": "Heat the remaining 1 tablespoon oil in a skillet over medium heat until shimmering. Add the kale and season with salt. Cook, stirring occasionally, until wilted and tender, about 5 minutes.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 4: Make the bowls:",
+            "text": "To serve, divide the bulgur between 4 bowls. Divide the chickpea mixture, sautéed kale, and avocado slices over the bulgur. Top each bowl with an egg and drizzle with the yogurt mint sauce. ",
+            "image": null
+        }
+    ],
+    "HowtoTip": {
+        "text": "Make ahead: The sauce, chickpea mixture, bulgur, and kale can be made up to 1 day in advance and refrigerated in separate airtight containers.Storage: Leftovers can be refrigerated in an airtight container for up to 4 days.Reprinted with permission from Buddha Bowls by Kelli Foster, copyright (c) 2018. Published by Harvard Common Press."
+    },
+    "recipeYield": 4,
+    "prepTime": "PT600S",
+    "cookTime": "PT2100S",
+    "totalTime": "PT2700S",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "worstRating": 1,
+        "reviewCount": 6
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "chocolatechipsforlife"
+            },
+            "reviewBody": "I love a bowl for dinner and then next-day lunch. This one is especially great b/c I can easily half the recipe and it&#39;s still super easy to make. As someone who cooks for one most of the time, I really appreciate that. Plus, it still holds up when I throw in extra veg I need to use up.",
+            "datePublished": "2024-01-09"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "SalsaMachaEverything"
+            },
+            "reviewBody": "What a delicious melange of flavors and textures, so warming and hearty but not heavy. I think it just might be even better the next day, which is another thing that makes it perfect for meal prep.",
+            "datePublished": "2024-01-12"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "bagel_Lover8"
+            },
+            "reviewBody": "I love a bowl situation, but what I typically don&#39;t love is all the work involved into preparing the separate components. This was straightforward to make and I didn&#39;t even need to turn on my oven.",
+            "datePublished": "2024-01-11"
+        }
+    ],
+    "name": "Moroccan-Spiced Chickpea Bowls",
+    "articleSection": "Recipes",
+    "thumbnailUrl": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2Farchive%2F4a6ca82eb229ad6876062d8f048dc052064d0f5d",
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2Farchive%2F4a6ca82eb229ad6876062d8f048dc052064d0f5d"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F4a6ca82eb229ad6876062d8f048dc052064d0f5d"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F4a6ca82eb229ad6876062d8f048dc052064d0f5d"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Apartment Therapy, LLC.",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thekitchn.com/static/logos/publisher-logo.png",
+            "width": 180,
+            "height": 46
+        }
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kelli Foster",
+            "URL": "https://www.thekitchn.com/authors/kelli-foster",
+            "description": "Kelli is a Senior Contributing Food Editor for Kitchn. She's a graduate of the French Culinary Institute and author of the cookbooks, Plant-Based Buddha Bowls, The Probiotic Kitchen,  \r\nBuddha Bowls, and Everyday Freekeh Meals. She lives in New Jersey.",
+            "jobTitle": ""
+        }
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "Kelli Foster"
+    },
+    "keywords": [
+        "avocados",
+        "beans",
+        "Beans &amp; Lentils",
+        "Canned Goods",
+        "dinner",
+        "egg-free",
+        "Eggs",
+        "garlic",
+        "greens",
+        "herbs",
+        "Ingredient",
+        "Keeps Well",
+        "lentils",
+        "Lunch",
+        "Main Dish",
+        "Make Ahead",
+        "moroccan",
+        "Nut-Free",
+        "Olive Oil",
+        "onions",
+        "Pinterest",
+        "Recipe",
+        "Rice & Grains",
+        "stovetop",
+        "Tomatoes",
+        "vegetarian",
+        "Yogurt & Kefir",
+        "african",
+        "Vegetables",
+        "Dish Types",
+        "team:recipes",
+        "course:main dish",
+        "cuisine:africa",
+        "cuisine:moroccan",
+        "diet:egg-free",
+        "diet:vegetarian",
+        "mainingredients:vegetable",
+        "mainingredients:beans",
+        "mainingredients:tomatoes",
+        "mainingredients:greens",
+        "dishtype:egg dish",
+        "method:stovetop",
+        "meal:lunch",
+        "meal:dinner",
+        "updated:2020-02-05"
+    ],
+    "mainEntityOfPage": "https://www.thekitchn.com/recipe-moroccan-spiced-chickpea-bowls-259054",
+    "dateCreated": "2018-07-30T09:00:00-04:00",
+    "datePublished": "2018-07-30T09:00:00-04:00",
+    "dateModified": "2020-02-05T12:26:04-05:00",
+    "abstract": null
+}

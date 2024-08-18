@@ -1,0 +1,158 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cincinnati Chili Dogs",
+    "datePublished": "2017-05-22T13:49:29.000-04:00",
+    "dateModified": "2020-04-24T16:13:37.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This ballpark ready recipe, a hot dog stacked with chili and toppings, is perfect for a backyard cookout in the summer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/QgAIOxZF0_jeYEpFCCx6K26BfQ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cincinnati-chili-dogs-0617-102941317_horiz-b7247729762d404bac3a8c96fb65f1cf.jpgitokWvSCKiS4",
+        "height": 420,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/JG9SqPkc-zqASzng0.mp4",
+        "description": " ",
+        "duration": "PT4M26S",
+        "name": "Cincinnati Chili Dog",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/JG9SqPkc/poster.jpg?width=720",
+        "uploadDate": "2021-07-19T19:25:03.607-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Cincinnati Chili Dogs",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "prepTime": "PT40M",
+    "recipeIngredient": [
+        "1 tablespoon extra-virgin olive oil",
+        "1 cup chopped white onion (from 1 onion), plus more for serving",
+        "1 tablespoon minced garlic (from 3 cloves)",
+        "1 pound 85 percent-lean ground beef, preferably grass-fed",
+        "Kosher salt",
+        "1 tablespoon unsweetened Dutch-process cocoa powder",
+        "0.5 teaspoon ground cinnamon",
+        "0.5 teaspoon ground allspice",
+        "1 can (8 ounces) low-sodium tomato sauce",
+        "1 tablespoon apple-cider vinegar",
+        "1 teaspoon Worcestershire sauce",
+        "1 tablespoon chili powder",
+        "6 all-beef franks",
+        "6 long potato rolls, such as Martin's, split",
+        "Yellow mustard, for serving",
+        "4 ounces finely shredded sharp cheddar (2 cups), for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large skillet over medium. Add onion and cook, stirring occasionally, until soft and golden in places, 8 to 10 minutes. Add garlic; cook 30 seconds more. Add ground beef and season with salt. Increase heat to medium-high and cook, breaking into bite-size pieces and stirring occasionally, until meat is browned in places and just cooked through, 6 to 8 minutes. Stir in cocoa, cinnamon, and allspice; cook 1 minute. Stir in tomato sauce, 1 cup water, vinegar, Worcestershire, and chili powder. Bring to a boil, then reduce heat to low and simmer, stirring occasionally, until thick and darkened slightly, 18 to 20 minutes. Remove from heat; cover to keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/QgAIOxZF0_jeYEpFCCx6K26BfQ8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cincinnati-chili-dogs-0617-102941317_horiz-b7247729762d404bac3a8c96fb65f1cf.jpgitokWvSCKiS4"
+                }
+            ],
+            "text": "Meanwhile, bring 2 inches of water to a boil in a large saucepan. Add franks, reduce heat to low, and simmer until plump and hot, about 5 minutes. Drain franks and place in rolls. Top each with chili, sprinkle with onion, drizzle with mustard, and top with cheese. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT60M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dawn M Hutzell"
+            },
+            "reviewBody": "My grandparents lived in Cincinnati and I always looked forward to these! Tastes just like it!",
+            "datePublished": "2023-09-03T21:58:25.867Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1516248/cincinnati-chili-dogs",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505014/beef-recipes",
+                        "name": "Beef Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502520/ground-beef-recipes",
+                        "name": "Ground Beef Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1516248/cincinnati-chili-dogs",
+                        "name": "Cincinnati Chili Dogs"
+                    }
+                }
+            ]
+        }
+    },
+    "meal": "Dinner",
+    "cuisine": "American"
+}

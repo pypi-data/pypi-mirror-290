@@ -1,0 +1,69 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Simple Hamburger Hot Dish",
+    "keywords": "simple hamburger hot dish",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/-mUX8jmDdE25TopgvdogJw_webp_base.webp?v=636413ba&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Even picky eaters can agree that this Simple Hamburger Hot Dish is one impressive family meal. Perfect for any weeknight, use ingredients you have in your kitchen to prep a satisfying bake in 25 minutes. With rotini pasta, ground beef, diced tomatoes and melty cheese, this hot dish recipe screams comfort food. Serve your hamburger hot dish with a simple salad, and you'll have yourself a winning meal in no time.",
+    "recipeIngredient": [
+        "3  cups uncooked rotini pasta (8 oz)",
+        "1  lb ground beef (at least 80% lean)",
+        "1  cup chopped onions",
+        "1  can (15 oz) tomato sauce",
+        "1  can (14.5 oz) diced tomatoes, undrained",
+        "1  teaspoon garlic powder",
+        "1/2  teaspoon salt",
+        "1/2  teaspoon ground black pepper",
+        "2  cups shredded Colby-Jack cheese blend (8 oz)                                                "
+    ],
+    "totalTime": "PT1H0M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "122",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Spray 13x9-inch (3-quart) glass baking dish with cooking spray. Cook and drain pasta as directed on package. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 12-inch skillet, cook beef and onions over medium-high heat 8 to 10 minutes, stirring occasionally, until beef is thoroughly cooked; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in tomato sauce, tomatoes, garlic powder, salt and pepper; heat to a simmer over high heat. Remove from heat; stir in pasta and 1 cup of the cheese. Pour into baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover dish with foil. Bake 20 to 25 minutes or until bubbly around edges. Sprinkle with remaining cheese. Bake uncovered 5 to 7 minutes longer or until cheese is melted."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "480 ",
+        "carbohydrateContent": "42 g",
+        "cholesterolContent": "80 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "4 g",
+        "proteinContent": "30 g",
+        "saturatedFatContent": "11 g",
+        "servingSize": "1 1/2 Cups",
+        "sodiumContent": "1030 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "10/18/2005",
+    "dateModified": "12/28/2020"
+}

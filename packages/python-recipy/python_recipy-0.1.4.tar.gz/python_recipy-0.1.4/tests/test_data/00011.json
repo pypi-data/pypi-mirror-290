@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Wake-Up Smoothie",
+    "datePublished": "2016-06-03T00:09:37.000-04:00",
+    "dateModified": "2019-08-16T20:12:10.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "With a stash of berries in your freezer, you can jump-start your day with this nutritious, tasty smoothie in just minutes. It provides vitamin C, fiber, potassium and soy protein.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/GSJbr7iItqKhaL_dN-FpnRneA00=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3975943-f4243faf07be4942baa5879a2d19275c.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Wake-Up Smoothie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "19"
+    },
+    "cookTime": "PT5M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "139 kcal",
+        "carbohydrateContent": "28 g",
+        "fiberContent": "4 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "19 mg",
+        "sugarContent": "17 g",
+        "fatContent": "2 g",
+        "servingSize": "3 servings, 1 cup each",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "1.25 cups orange juice, preferably calcium-fortified",
+        "1 banana",
+        "1.25 cups frozen berries, such as raspberries, blackberries, blueberries and/or strawberries",
+        "1/2 cup low-fat silken tofu, or low-fat plain yogurt",
+        "1 tablespoon sugar, or Splenda Granular (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine orange juice, banana, berries, tofu (or yogurt) and sugar (or Splenda), if using, in a blender; cover and blend until creamy. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "3"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/248810/wake-up-smoothie/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17949/drinks/",
+                        "name": "Healthy Drink Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17989/drinks/smoothies/",
+                        "name": "Healthy Smoothie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/248810/wake-up-smoothie/",
+                        "name": "Wake-Up Smoothie"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/ginger-ale-fruit-punch/",
+    "name": "Ginger Ale Fruit Punch",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-30",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps16618_CW10212C39.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "This pretty red beverage is always popular and is a refreshing way to celebrate the season. I keep a pitcher in the fridge and wait to add the ginger ale for the proper fizz. —Heidi Wilcox, Lapeer, Michigan",
+    "recipeIngredient": [
+        "1 quart white grape juice, chilled",
+        "1 quart cranberry-raspberry juice, chilled",
+        "1 liter ginger ale, chilled"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a punch bowl or large pitcher, combine all ingredients. Serve immediately."
+        }
+    ],
+    "recipeYield": "3 quarts.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 118 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "14mg sodium",
+        "carbohydrateContent": "29g carbohydrate (28g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-06-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ladylp56"
+            },
+            "reviewBody": "I made tons of this for my son's high school graduation party last year.  Bought extra juice to pour into a mold and freeze to add to the punch bowl.  Everyone loved it, from his friends to his grandparents and their friends.  \"Light\" cran-raspberry juice and diet ginger ale lowered the calories without sacrificing taste!  Many asked for the recipe!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-06-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Mary_1959"
+            },
+            "reviewBody": "This is a great, easy punch recipe.  Very well-received and fun.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

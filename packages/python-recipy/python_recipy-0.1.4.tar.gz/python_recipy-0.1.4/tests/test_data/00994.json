@@ -1,0 +1,442 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/quinoa-with-peas-and-onion/",
+    "name": "Quinoa with Peas and Onion",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-09-23",
+    "prepTime": "PT30M",
+    "cookTime": "PT15M",
+    "totalTime": "PT45M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Quinoa-with-Peas-and-Onion_EXPS_SDAM19_46330_E12_04_10b-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Even picky eaters will love this protein-packed dish. If you have freshly shelled peas on hand, substitute them for the frozen. —Lori Panarella, Phoenixville, Pennsylvania",
+    "recipeIngredient": [
+        "2 cups water",
+        "1 cup quinoa, rinsed",
+        "1 small onion, chopped",
+        "1 tablespoon olive oil",
+        "1-1/2 cups frozen peas",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "2 tablespoons chopped walnuts"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, bring water to a boil. Add quinoa. Reduce heat; cover and simmer until water is absorbed, 12-15 minutes. Remove from the heat; fluff with a fork."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a large cast-iron or other heavy skillet, saute onion in oil until tender, 2-3 minutes. Add peas; cook and stir until heated through. Stir in the cooked quinoa, salt and pepper. Sprinkle with walnuts."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 174 calories",
+        "fatContent": "6g fat (1g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "244mg sodium",
+        "carbohydrateContent": "26g carbohydrate (2g sugars",
+        "fiberContent": "4g fiber)",
+        "proteinContent": "6g protein.  <B><b>Diabetic Exchanges</b>: </B>1-1/2 starch"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.428571,
+        "reviewCount": 21,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-04-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Aricka"
+            },
+            "reviewBody": "<p>Made this last night to go with my tri tip. I cooked the onion first in butter and then toasted the quinoa in the onion mixture with garlic. Added beef stock since I had leftover. When quinoa was cooked added the frozen peas and moved to a serving dish to add toasted walnuts. Wish I had some fresh herb on hand but shopping day is way off. Wasn't needed. My family went crazy over. Tasted like a cross of a pilaf and oddly fried rice. But it was delish. We eat a lot of quinoa so it'll go into rotation. </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-06-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "AmyRushing"
+            },
+            "reviewBody": "This was delicious! I only had 3/4 cup of peas, so I added frozen cauliflower. I also cooked the quina in vegetable broth. This is probably the best quinoa I’ve ever had. And so simple!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-02-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ccunningham"
+            },
+            "reviewBody": "Made this with red quinoa. Would make a lovely Christmas dish. Very tasty!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-03-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "RedBattery"
+            },
+            "reviewBody": "I made with quinoa and brown rice and added mixed veg and a scrambled egg and my 80yr old mum who is fussy actually ate a whole bowl so this is a keeper in our house",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-02-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "pastiepie"
+            },
+            "reviewBody": "I also added some shredded carrots.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-01-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "michelletheprincess"
+            },
+            "reviewBody": "This was the first time I tried quinoa, so I didnt know what to expect.  It turned out very good, but I did have to add some seasoning salt.  I will definetly make it again:)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-10-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "redram37"
+            },
+            "reviewBody": "Yes, I would definitely make this recipe again.  I have fought my high blood pressure for many years, until I started eating Quinoa.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-01-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "elaineae"
+            },
+            "reviewBody": "I didn't even add the nuts and it was very good.  I will make again and try adding other things.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "parksville"
+            },
+            "reviewBody": "Have prepared this quinoa dish a few times and find it very tasty.  Made half the recipe and reduced the salt to 1/8 tsp.  Replaced the walnuts w/ toasted pine nuts.  Yum, yum, it's even good cold.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-06-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Tomcatlover"
+            },
+            "reviewBody": "Made quinoa in rice cooker",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-12-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "kitchenmaid"
+            },
+            "reviewBody": "so glad i found the recipe. Had just purchased some quinia and was not sure how to fix it...This recipe was excellent and easy. I would definately make it again",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-05-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Pina1551"
+            },
+            "reviewBody": "This is my first time having quinoa and it is fantastic! This is a perfect and easy recipe when you need to cook up a quick sidedish, it's light, healthy and has a wonderful nutty taste! I will definately be making this again:)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "bylaw"
+            },
+            "reviewBody": "Made this with the Walnut Ginger Salmon, as well.  I thought it was a nice combo.  I'm always on the lookout for quinoa recipes.  I let my onions get a tad brown and that added to the flavor.  I also think chicken broth would be a good idea, but I did like it as is, nice and simple.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-06-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "emma_e95"
+            },
+            "reviewBody": "I didn't think this recipe had any flavor other than the green peas. Would not make again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-07-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "howdu"
+            },
+            "reviewBody": "Quick and easy. I served it with the walnut ginger salmon (also on this site), and it complemented the fish very well. This was my first try at quinoa, and it's made me a fan.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "joedebfry"
+            },
+            "reviewBody": "Simple, healthy, easy! I'll make this often.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-03-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mjlouk"
+            },
+            "reviewBody": "This had no taste at all.  Very bland - even after I added Italian seasoning and Parmesan cheese.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-11-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "getto140"
+            },
+            "reviewBody": "Very simple.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-12-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "wiscook"
+            },
+            "reviewBody": "a little plain, will try with chicken broth instead of water and add some spices, but good & healthy, love quinoa",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-04-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "twhite67"
+            },
+            "reviewBody": "My family loves this recipe. It is has a simple flavor. It doesn't overpower anything else on the plate. It is a perfect side dish. I also use chicken broth instead of water which really adds to the flavor. T It is excellent the next day which is good because we love leftovers.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-12-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dayton46"
+            },
+            "reviewBody": "This was so quick and easy to make and it was delicious!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

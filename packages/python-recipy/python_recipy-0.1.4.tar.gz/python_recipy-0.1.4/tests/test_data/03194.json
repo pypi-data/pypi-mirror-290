@@ -1,0 +1,78 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "A perfect use for that leftover can of chipotles in adobo hiding in the fridge.",
+    "alternativeHeadline": "A perfect use for that leftover can of chipotles in adobo hiding in the fridge.",
+    "keywords": [
+        "cocktail",
+        "vodka",
+        "pineapple",
+        "strawberry",
+        "quick",
+        "easy",
+        "drinks",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.bonappetit.com/photos/57ad51a4f1c801a1038bcb73/1:1/w_922,h_922,c_limit/srirachaweek_strawberry_pineapple_hotness.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Dawn Perry",
+            "sameAs": "https://www.bonappetit.com/contributor/dawn-perry"
+        },
+        {
+            "@type": "Person",
+            "name": "Matt Duckor",
+            "sameAs": "https://www.bonappetit.com/contributor/matt-duckor"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.8,
+        "ratingCount": 5
+    },
+    "description": "A perfect use for that leftover can of chipotles in adobo hiding in the fridge. ",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ad51a4f1c801a1038bcb73/16:9/w_2000,h_1125,c_limit/srirachaweek_strawberry_pineapple_hotness.jpg",
+        "https://assets.bonappetit.com/photos/57ad51a4f1c801a1038bcb73/4:3/w_1776,h_1332,c_limit/srirachaweek_strawberry_pineapple_hotness.jpg",
+        "https://assets.bonappetit.com/photos/57ad51a4f1c801a1038bcb73/1:1/w_922,h_922,c_limit/srirachaweek_strawberry_pineapple_hotness.jpg"
+    ],
+    "headline": "Strawberry-Pineapple Hotness",
+    "name": "Strawberry-Pineapple Hotness",
+    "recipeIngredient": [
+        "2 strawberries, hulled, halved",
+        "2 teaspoons sugar",
+        "2 ounces vodka",
+        "2 ounces pineapple juice",
+        "½ teaspoon adobo sauce from canned chipotle chiles in adobo sauce",
+        "Pineapple slice (for serving)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Muddle strawberries and sugar in a cocktail shaker. Add vodka, pineapple juice, and adobo sauce; fill shaker with ice. Shake until outside of shaker is frosty, about 30 seconds. Strain into a rocks glass filled with ice and garnish with pineapple slice."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/strawberry-pineapple-hotness",
+    "dateModified": "2014-02-27T12:25:12.000-05:00",
+    "datePublished": "2014-02-27T12:25:12.000-05:00",
+    "recipeCategory": []
+}

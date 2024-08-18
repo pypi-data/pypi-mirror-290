@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Cold Peanut-Sesame Noodles",
+    "datePublished": "2013-12-06T18:20:20.000-05:00",
+    "dateModified": "2017-05-03T16:15:43.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Andrew Zimmern",
+            "url": "https://www.foodandwine.com/author/andrew-zimmern"
+        }
+    ],
+    "description": "Andrew Zimmern was inspired to create his spicy cold noodle recipe after traveling to China.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/H-__BdJN7l0_LNEP5xY9FMnYM88=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201205-xl-cold-peanut-sesame-noodles-2000-292c02f8e0694d15be200b878bf8306d.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Cold Peanut-Sesame Noodles",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1119"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 tablespoon minced fresh ginger",
+        "1/3 cup soy sauce",
+        "3 tablespoons toasted sesame oil",
+        "3 tablespoons natural, unsweetened, salted peanut butter",
+        "3 tablespoons sugar",
+        "3 tablespoons rice vinegar",
+        "2 tablespoons rice wine or sake",
+        "1 small garlic clove, minced",
+        "3 tablespoons Chinese sesame paste or tahini",
+        "1 small shallot, minced",
+        "5 tablespoons roasted peanut oil (see Note)",
+        "1 pound dried Chinese egg noodles",
+        "1/2 large seedless cucumber—peeled, halved lengthwise, seeded and cut into fine matchsticks",
+        "4 scallions, thinly sliced",
+        "Ma la oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a blender, combine the ginger, soy sauce, sesame oil, peanut butter, sugar, vinegar, rice wine, garlic, sesame paste, shallot and 3 tablespoons of the peanut oil and puree until smooth. Transfer the sauce to a bowl and refrigerate for 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot of boiling water, cook the noodles until al dente. Drain and rinse under cold running water until chilled. Shake out the excess water and blot dry; transfer the noodles to a bowl and toss with the remaining 2 tablespoons of peanut oil. Add the peanut-sesame sauce and toss well to coat. Garnish with the cucumber and scallions and drizzle with Ma La Oil, leaving the solid spices behind."
+        }
+    ],
+    "totalTime": "PT90M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/cold-peanut-sesame-noodles",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/pasta-noodle-dishes-7497019",
+                        "name": "Pasta and Noodle Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/noodles-7497029",
+                        "name": "Noodles"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/cold-peanut-sesame-noodles",
+                        "name": "Cold Peanut-Sesame Noodles"
+                    }
+                }
+            ]
+        }
+    }
+}

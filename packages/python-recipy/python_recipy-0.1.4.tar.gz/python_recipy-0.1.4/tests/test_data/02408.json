@@ -1,0 +1,66 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Deep Dish Pizza Pie",
+    "keywords": "deep dish pizza pie",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/uVhycMZ--kOwTu9JelZhPw_webp_base.webp?v=6993e3b6&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Original Bisquick® mix provides a simple addition to this cheesy pizza baked with pepperoni and veggies – perfect for dinner.",
+    "recipeIngredient": [
+        "1  lb bulk reduced-fat Italian pork sausage",
+        "1  large onion, chopped (1 cup)",
+        "1  small green bell pepper, chopped",
+        "2  cups Original Bisquick™ mix",
+        "1/2  cup stone-ground yellow cornmeal",
+        "1/2  cup shredded Parmesan cheese (2 oz)",
+        "6  tablespoons cold butter",
+        "1/4  cup boiling water ",
+        "6  slices (3/4 oz each) mozzarella cheese",
+        "2/3  cup pizza sauce ",
+        "1  package (3 oz) sliced pepperoni",
+        "2  cups shredded mozzarella cheese (8 oz)",
+        "  Small fresh basil leaves, if desired"
+    ],
+    "totalTime": "PT1H0M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "8",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. In 12-inch nonstick skillet, cook sausage over medium heat until no longer pink. Remove sausage to paper towels, reserving drippings. Cook onion and bell pepper in drippings until crisp-tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, stir Bisquick mix, cornmeal and Parmesan cheese. Cut in butter, using pastry blender, until crumbly. Add boiling water; stir vigorously until dough forms. Spray 10-inch ovenproof skillet with cooking spray. Press dough on bottom and up side of skillet. Arrange cheese slices over crust; spread with 1/3 cup of the pizza sauce. Top with sausage and onion mixture. Arrange two-thirds of the pepperoni over onion mixture. Spread remaining 1/3 cup pizza sauce over pepperoni; top with shredded mozzarella cheese and remaining pepperoni."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 30 to 35 minutes or until crust is golden brown. Let stand 5 minutes. Garnish with basil. Cut into 8 wedges; serve with additional pizza sauce, heated, if desired."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "585 ",
+        "carbohydrateContent": "34 g",
+        "fatContent": "2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "30 g",
+        "saturatedFatContent": "19 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "506 mg"
+    },
+    "dateCreated": "08/02/2012",
+    "dateModified": "12/13/2012"
+}

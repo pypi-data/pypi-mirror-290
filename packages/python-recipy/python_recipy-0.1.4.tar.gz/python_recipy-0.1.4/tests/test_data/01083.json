@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Cajun-Style Potato Salad ",
+    "datePublished": "2022-04-11T18:47:56.000-04:00",
+    "dateModified": "2024-04-15T18:32:36.670-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Karen Schroeder-Rankin",
+            "url": "https://www.southernliving.com/author/karen-schroeder-rankin"
+        }
+    ],
+    "description": "This Cajun Potato Salad starts with creamy, tender gold new potatoes. We took it beyond the limit, adding thick-cut bacon, bell peppers, celery, and freshly chopped dill pickles.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/6arWruW9wUMZpC1IuTp-pdpjiQU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2681901_Salad_CAJUN_POTATO_SALAD_052_preview-5f74d57f48114281aa196e195c52fe4b.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Cajun-Style Potato Salad ",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "5"
+    },
+    "cookTime": "PT30M",
+    "keywords": "cajun potato salad",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Cajun",
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1 (24-oz.) bag gold new potatoes, cut into 1½-inch pieces",
+        "6 thick-cut bacon slices, cut into 1-inch pieces",
+        ".75 cup mayonnaise",
+        "2 tablespoons pickle juice (from a jar of dill pickles)",
+        "2 tablespoons Creole mustard",
+        "2 teaspoons Cajun seasoning",
+        "1 cup (1-inch) chopped red bell pepper (from 1 medium bell pepper)",
+        "1 cup (1-inch) chopped yellow bell pepper (from 1 medium bell pepper)",
+        ".5 cup (1-inch) chopped green bell pepper (from 1 medium bell pepper)",
+        ".5 cup coarsely chopped dill pickles",
+        ".5 cup (¼-inch) diagonally sliced celery (from 1 medium celery stalk)",
+        "5 hard-cooked eggs, peeled and cut into eighths (quartered lengthwise, then halved crosswise)",
+        ".25 cup sliced scallions (2 small scallions), plus more for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Boil potatoes: Bring a large pot of water to a boil over high. Add new potatoes, and cook until tender when pierced with a knife, about 15 minutes. Drain and spread on a large rimmed baking sheet to cool to room temperature, about 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook bacon: Meanwhile, cook bacon in a large skillet over medium, stirring often, until crisp, about 12 minutes. Remove from skillet, and place on a paper towel-lined plate. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix potato salad: Stir together mayonnaise, pickle juice, Creole mustard, and Cajun seasoning in a large bowl. Add bell peppers, pickles, celery, hard-cooked eggs, scallions, cooled potatoes, and three-fourths of the bacon pieces; stir gently until evenly coated (trying not to break bacon pieces or eggs). Transfer to a serving bowl, and garnish with remaining bacon pieces and additional scallions. Store, covered, in refrigerator until ready to serve."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT80M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/cajun-style-potato-salad",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/side-dishes",
+                        "name": "Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/side-dishes/potato",
+                        "name": "Potato Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/cajun-style-potato-salad",
+                        "name": "Cajun-Style Potato Salad "
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-04-15T18:32:36.670-04:00"
+    }
+}

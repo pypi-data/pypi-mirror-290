@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Two-Cheese Moussaka with Sautéed Mushrooms and Zucchini",
+    "datePublished": "2013-12-06T18:55:12.000-05:00",
+    "dateModified": "2019-05-09T14:13:46.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Dave Matthews",
+            "url": "https://www.foodandwine.com/dave-matthews-8412426"
+        }
+    ],
+    "description": "Dave Matthews loves making this casserole, layered with roasted zucchini, mushrooms, tomato sauce, feta and provolone. It&#39;s his version of the Croatia...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/RY636Gptag6elqhsiDATKP2U2Lw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/200510-r-xl-two-cheese-moussaka-with-sauteed-mushrooms-and-zucchini-2000-7c3a23b286b848f0bc58a0967ae41bec.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Two-Cheese Moussaka with Sautéed Mushrooms and Zucchini",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2900"
+    },
+    "recipeIngredient": [
+        "1/2 cup extra-virgin olive oil",
+        "2 large onions, coarsely chopped",
+        "1 large garlic clove, minced",
+        "One 28-ounce can whole tomatoes, chopped, juices reserved",
+        "2 tablespoons tomato paste",
+        "2 cups water",
+        "2 tablespoons finely chopped basil",
+        "Salt and freshly ground pepper",
+        "2 pounds cremini mushrooms, thinly sliced",
+        "1/2 cup dry white wine",
+        "2 tablespoons tamari soy sauce",
+        "2 tablespoons finely chopped dill",
+        "2 pounds zucchini, sliced crosswise 1/2 inch thick",
+        "2/3 pound dried lasagna noodles (about 15 noodles)",
+        "6 large eggs, beaten",
+        "1 pound feta cheese, crumbled",
+        "1/4 pound provolone cheese, shredded"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450°. In a large saucepan, heat 2 tablespoons of the olive oil until shimmering. Add one-fourth of the onions and the garlic and cook over moderately high heat, stirring occasionally, until softened. Add the tomatoes and their juices, the tomato paste and water and bring to a boil. Simmer the sauce over moderate heat until reduced to 4 cups, about 20 minutes. Stir in the basil; season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large, deep skillet, heat 1/4 cup of the olive oil. Add the mushrooms, season with salt and pepper and cook over high heat until the mushrooms begin to brown, about 8 minutes. Add the remaining chopped onions and cook, stirring occasionally, until softened, about 5 minutes longer. Add the wine and tamari and boil until the liquid has reduced, about 5 minutes. Add the dill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss the zucchini with the remaining 2 tablespoons of olive oil and season with salt and pepper. Spread the zucchini on a baking sheet and roast for about 10 minutes, until golden on the bottom and softened. Lower the oven to 350°."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread 1/2 cup of the tomato sauce in a 10 1/2-by-14-inch baking dish. Arrange one-third of the uncooked noodles on the sauce, overlapping them slightly. Top with another 1/2 cup of sauce, one-third of the mushrooms and half of the zucchini; season with salt and pepper. Repeat with another 1/2 cup of sauce, another layer of noodles, 1/2 cup of sauce, one-third of the mushrooms and the remaining zucchini; season again. Top with 1/2 cup of sauce and the remaining noodles, then cover with the remaining sauce and mushrooms. Press the moussaka down slightly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a bowl, whisk the eggs with the feta; pour over the mushrooms. Season with pepper and sprinkle with the provolone. Bake the moussaka for about 45 minutes, until the top is golden. Cover with foil and bake for 25 minutes longer, or until piping hot in the center. Uncover and let rest for 20 minutes before serving."
+        }
+    ],
+    "totalTime": "PT165M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/two-cheese-moussaka-sauteed-mushrooms-and-zucchini",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/comfort-food/casseroles",
+                        "name": "Casseroles"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/two-cheese-moussaka-sauteed-mushrooms-and-zucchini",
+                        "name": "Two-Cheese Moussaka with Sautéed Mushrooms and Zucchini"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

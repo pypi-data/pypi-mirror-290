@@ -1,0 +1,65 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Slow-Cooker Hearty Chicken and Noodle Soup",
+    "keywords": "slow-cooker hearty chicken and noodle soup",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/9zHJzvbrUUu9RLXpctk0Hw_webp_base.webp?v=90153346&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Simply delicious homemade soup! Slow cooking results in a well-seasoned broth and tender pieces of chicken.",
+    "recipeIngredient": [
+        "1 1/2  pounds boneless skinless chicken thighs",
+        "1  pound baby-cut carrots",
+        "1  teaspoon salt",
+        "1/2  teaspoon dried thyme leaves",
+        "1/4  teaspoon pepper",
+        "1  dried bay leaf",
+        "1  tablespoon instant chopped onion",
+        "1  clove garlic, finely chopped",
+        "2  medium stalks celery, chopped (1 cup)",
+        "1  carton (32 ounces) Progresso™ chicken broth (4 cups)",
+        "1  cup frozen snow (Chinese) pea pods",
+        "2  cups uncooked wide egg noodles"
+    ],
+    "totalTime": "PT9H30M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "25",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place chicken, carrots, salt, thyme, pepper, bay leaf, onion, garlic, celery and broth in order listed in 3- to 4-quart slow cooker."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and cook on low heat setting 8 to 9 hours.\r\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in pea pods and noodles. Increase heat setting to high. Cover and cook 20 minutes or until noodles are tender. Remove chicken from cooker; place on cutting board. Shred chicken, using 2 forks. Return chicken to cooker. Remove bay leaf."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "305 ",
+        "carbohydrateContent": "20 g",
+        "cholesterolContent": "80 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "31 g",
+        "saturatedFatContent": "3 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1180 mg"
+    },
+    "dateCreated": "08/19/2003",
+    "dateModified": "06/01/2010"
+}

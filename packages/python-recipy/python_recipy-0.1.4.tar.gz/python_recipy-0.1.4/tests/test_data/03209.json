@@ -1,0 +1,73 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Pour in the root beer slowly, allowing it to cascade over the ice cream, then top off until the glass is full.",
+    "alternativeHeadline": "Pour in the root beer slowly, allowing it to cascade over the ice cream, then top off until the glass is full.",
+    "keywords": [
+        "frozen dessert",
+        "dessert",
+        "american",
+        "cinnamon",
+        "amaro",
+        "easy",
+        "quick",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claire Saffitz",
+            "sameAs": "https://www.bonappetit.com/contributor/claire-saffitz"
+        },
+        {
+            "@type": "Person",
+            "name": "Ted Cavanaugh",
+            "sameAs": "https://www.bonappetit.com/contributor/ted-cavanaugh"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "ratingCount": 4
+    },
+    "description": "Pour in the root beer slowly, allowing it to cascade over the ice cream, then top off until the glass is full.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57acea7df1c801a1038bc8f1/master/w_1692,h_2535,c_limit/caramel-and-root-beer-float.jpg"
+    ],
+    "headline": "Caramel and Root Beer Float",
+    "name": "Caramel and Root Beer Float",
+    "recipeIngredient": [
+        "1 cinnamon stick",
+        "3 scoops caramel ice cream",
+        "Root beer",
+        "1 ounce Averna or other Italian amaro (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Lightly char cinnamon stick over a gas burner. Place ice cream in a chilled tall glass. Top with root beer and Averna, if desired, and garnish with burned cinnamon stick."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/caramel-root-beer-float",
+    "dateModified": "2015-05-19T04:00:19.000-04:00",
+    "datePublished": "2015-05-19T04:00:19.000-04:00",
+    "recipeCategory": []
+}

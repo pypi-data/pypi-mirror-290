@@ -1,0 +1,177 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "How to Caramelize Onions",
+    "datePublished": "2019-06-11T06:28:32.000-04:00",
+    "dateModified": "2023-02-23T21:02:47.547-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Daniel Gritzer",
+            "url": "https://www.seriouseats.com/daniel-gritzer-5118638"
+        }
+    ],
+    "description": "This recipe for classic caramelized onions couldn&#39;t be easier. Just slice some onions and add butter and time.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/zYa-lnLFqnlfTfgnRs1J8PI5ydQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190510-caramelized-onions-vicky-wasik-11-1-bf5233ae674240af9d1b6e6fb6deeda5.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "How to Caramelize Onions",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "7"
+    },
+    "keywords": "onion",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "39 kcal",
+        "carbohydrateContent": "4 g",
+        "cholesterolContent": "6 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "80 mg",
+        "sugarContent": "2 g",
+        "fatContent": "2 g",
+        "servingSize": "Makes about 1 quart",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "French"
+    ],
+    "recipeIngredient": [
+        "6 tablespoons (90g) unsalted butter",
+        "3 pounds (1.4kg) yellow or mixed onions, sliced 1/8 inch thick (see note)",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/TMEiDEP12eC8mFzk33kwRAQ3FjM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190510-caramelized-onions-vicky-wasik-4-1-1500x1000-99ac1f348f9c4bd181c259d0bb838bcd.jpg"
+                }
+            ],
+            "text": "In a large stainless steel sauté pan, or in 2 large stainless steel or cast iron skillets, melt butter over medium-high heat until foaming. Add onions and cook, stirring occasionally, until softened, about 8 minutes. Lower heat to medium-low and cook, stirring frequently, until onions are very sweet and a rich golden-brown color, 1 to 2 hours. If browned onion juices on bottom of pot threaten to burn, add 1 tablespoon (15ml) water, scrape up browned bits, and continue cooking; add water whenever needed to prevent burning. Season with salt and pepper."
+        }
+    ],
+    "recipeYield": [
+        "32",
+        "1 quart"
+    ],
+    "totalTime": {
+        "@type": "Duration",
+        "minValue": "PT60M",
+        "maxValue": "PT120M"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John"
+            },
+            "reviewBody": "What's with the bad rating? This recipe yields perfect caramelized onions.... I guess people have no patience"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Justin Time"
+            },
+            "reviewBody": "A true recipe with no cheating. You don't need sugar, you just need time. Someone looked at all the misleading cooking times, experimented and concluded that there is no way you can get caramelized onions in less than 45 min.\n\n\nI agree with John from the comments, a perfect recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "John"
+            },
+            "reviewBody": "Slow and steady wins the race. These were a big hit"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "WestfW"
+            },
+            "reviewBody": "I wonder if you can say something about the DEPTH of onions in the pan during the browning phase. In my experience, if the depth is too shallow, the onions can dry out and get crispy, or blacken. If you have too many onions, then the onions on top get more steamed than carmelized (even with stirring), and you end up with unevenly caramelized onions. This is problematic, since the volume of onions decreases as they cook.\n(Of course, my experience is somewhat limited, and my results could also be due to wrong temperature or insufficient stirring.)"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MarkT29"
+            },
+            "reviewBody": "I don't know if I did something wrong or there's a typo in the yield above, but I started with 3lb onions and got 1.5 cups of caramelized onions, not a quart."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/caramelized-onions",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/vegetable-recipes-5117510",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/onion-recipes-5117443",
+                        "name": "Onions"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/caramelized-onions",
+                        "name": "How to Caramelize Onions"
+                    }
+                }
+            ]
+        }
+    }
+}

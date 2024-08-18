@@ -1,0 +1,79 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "This hot toddy recipe, with honey, bourbon, and cinnamon, is the perfect cure for whatever ails you—cold, sore throat, you name it!",
+    "alternativeHeadline": "This hot toddy recipe, with honey, bourbon, and cinnamon, is the perfect cure for whatever ails you—cold, sore throat, you name it!",
+    "keywords": [
+        "cocktail",
+        "hot drink",
+        "bourbon",
+        "winter",
+        "quick",
+        "easy",
+        "drinks",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Matt Tanner of Anvil Bar Refuge in Houston TX",
+            "sameAs": "https://www.bonappetit.com/contributor/matt-tanner of anvil bar refuge in houston tx"
+        },
+        {
+            "@type": "Person",
+            "name": "Jamie Chung",
+            "sameAs": "https://www.bonappetit.com/contributor/jamie-chung"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "ratingCount": 205
+    },
+    "description": "This hot toddy recipe, with honey, bourbon, and cinnamon, is the perfect cure for whatever ails you—cold, sore throat, you name it!",
+    "image": [
+        "https://assets.bonappetit.com/photos/57afbabdf1c801a1038bd3ae/master/w_940,h_600,c_limit/honey-bourbon-toddy.jpg"
+    ],
+    "headline": "Honey-Bourbon Toddy",
+    "name": "Honey-Bourbon Toddy",
+    "recipeIngredient": [
+        "2 tablespoons honey",
+        "1 cup hot water",
+        "6 tablespoons bourbon or Apple Bourbon (see below for recipe)",
+        "2 3x1/2' strips lemon peel",
+        "2 cinnamon sticks"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir honey and water in a 2-cup measuring cup until honey dissolves. Add bourbon (or better yet, Apple Bourbon, in which case you'll use 1 Tbsp. honey). Divide between 2 Toddy glasses. Twist a strip of lemon peel over each drink, then add to glass. Stir each with a cinnamon stick and serve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make Apple Bourbon, combine a 750-ml bottle of bourbon, 4 cored, sliced Fuji apples, and 4 cinnamon sticks in a pitcher. Cover; chill for 3 days. Strain and sip of use in recipe above."
+        }
+    ],
+    "recipeYield": "Makes 2  Servings",
+    "url": "https://www.bonappetit.com/recipe/honey-bourbon-toddy",
+    "dateModified": "2011-11-14T19:00:00.000-05:00",
+    "datePublished": "2011-11-14T19:00:00.000-05:00",
+    "recipeCategory": []
+}

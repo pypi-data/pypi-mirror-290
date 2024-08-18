@@ -1,0 +1,82 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/fennel-dauphinoise#Recipe",
+    "@type": "Recipe",
+    "description": "Potatoes gratin is a French bistro classic and this creamy version for two has mild aniseedy flavour from added fennel",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fennel-8563d2f.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/fennel-dauphinoise"
+    },
+    "name": "Fennel dauphinoise",
+    "url": "https://www.bbcgoodfood.com/recipes/fennel-dauphinoise",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sara Buenfeld",
+            "url": "https://www.bbcgoodfood.com/author/sarabuenfeld"
+        }
+    ],
+    "dateModified": "2022-11-08T12:48:07+00:00",
+    "datePublished": "2013-08-23T15:49:11+01:00",
+    "headline": "Fennel dauphinoise",
+    "keywords": "2 servings, 600 kcal or less, Calcium, Dauphinois, Dinner party recipes, gratin dauphinoise, Meals for two, Over an hour, Potato gratin, Potato recipes, Sara Buenfeld, Side dishes",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT1H",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "432 calories",
+        "fatContent": "33 grams fat",
+        "saturatedFatContent": "21 grams saturated fat",
+        "carbohydrateContent": "22 grams carbohydrates",
+        "fiberContent": "5 grams fiber",
+        "proteinContent": "11 grams protein",
+        "sodiumContent": "0.4 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": "French",
+    "recipeIngredient": [
+        "225g medium-sized potato, very thinly sliced",
+        "1 small fennel bulb, sliced, fronds reserved",
+        "1 garlic clove, finely chopped",
+        "75ml whole milk",
+        "100ml double cream",
+        "butter, for the ramekins",
+        "2 tbsp finely grated parmesan (or vegetarian alternative)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 180C/160C fan/gas 4. Put potatoes, fennel, and garlic in a medium non-stick pan. Pour in milk and double cream, season well and simmer gently, covered, for 10 mins, stirring halfway through, until potatoes are just tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the mixture between 2 small (about 150ml) buttered ramekins and scatter with parmesan. Bake for 40 mins until the potatoes are golden and tender when pierced with a knife. Snip the reserved fennel fronds over before serving."
+        }
+    ],
+    "recipeYield": 2,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet, https://schema.org/VegetarianDiet",
+    "totalTime": "PT1H15M"
+}

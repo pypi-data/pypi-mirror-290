@@ -1,0 +1,426 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022216-spaghetti-al-limone-with-shrimp#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022216-spaghetti-al-limone-with-shrimp",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/05/11/dining/lh-spaghetti-al-limone/merlin_187482171_3f6192a9-280a-455e-8740-32b0ad87b228-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022216-spaghetti-al-limone-with-shrimp",
+    "name": "Spaghetti al Limone With Shrimp",
+    "description": "There are many interpretations of the classic Italian pasta dish, spaghetti al limone, or spaghetti with lemon. Some call for an Alfredo-like sauce made with heavy cream, butter and Parmesan, while others rely on just olive oil, lemon juice, Parmesan and starchy pasta water. This particular recipe, which adds sautéed shrimp, white wine and fresh tarragon to the mix, leans toward the simpler preparation. Without the addition of heavy cream, the sauce has a brighter lemon flavor, which works beautifully with the delicate brininess of the shrimp. Tarragon adds a fragrant note and a bit of complexity to an otherwise fairly straightforward dish. Finally, if there were a time to spring for freshly grated Parmigiano-Reggiano, this would be it. In an uncomplicated recipe like this one, the quality of each ingredient is paramount.",
+    "author": {
+        "@type": "Person",
+        "name": "Lidey Heuck"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/05/11/dining/lh-spaghetti-al-limone/merlin_187482171_3f6192a9-280a-455e-8740-32b0ad87b228-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/11/dining/lh-spaghetti-al-limone/merlin_187482171_3f6192a9-280a-455e-8740-32b0ad87b228-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/11/dining/lh-spaghetti-al-limone/merlin_187482171_3f6192a9-280a-455e-8740-32b0ad87b228-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/11/dining/lh-spaghetti-al-limone/merlin_187482171_3f6192a9-280a-455e-8740-32b0ad87b228-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT25M",
+    "recipeYield": "6 servings",
+    "recipeCuisine": "italian",
+    "recipeCategory": [],
+    "keywords": "dry white wine, lemon, parmesan, shrimp, spaghetti, tarragon",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 2445
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 569,
+        "unsaturatedFatContent": "12 grams",
+        "carbohydrateContent": "59 grams",
+        "cholesterolContent": null,
+        "fatContent": "21 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "32 grams",
+        "saturatedFatContent": "8 grams",
+        "sodiumContent": "506 milligrams",
+        "sugarContent": "2 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Kosher salt and black pepper",
+        "1 pound spaghetti",
+        "1 pound large shrimp (18 to 20 count), peeled and deveined, tails on or off ",
+        "1/4 cup olive oil",
+        "2 lemons, zested (about 1 1/2 packed tablespoons), plus 3 tablespoons lemon juice",
+        "1 tablespoon chopped fresh tarragon, plus more for serving",
+        "1/2 cup dry white wine",
+        "3 tablespoons cold unsalted butter, diced",
+        "3/4 cup freshly grated Parmesan"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to boil. Add the spaghetti and cook according to package directions until al dente. Scoop out 1 cup of the cooking liquid, then drain the pasta and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the pasta cooks, pat the shrimp dry and season them with salt and black pepper. Combine the olive oil, lemon zest (setting a few pinches aside for serving) and tarragon in a large skillet set over medium heat. When the oil begins to sizzle, cook for 1 more minute, until the zest and tarragon are fragrant but not browned."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the shrimp to the skillet and spread into an even layer. Cook for about 90 seconds on each side, or until just cooked through. Transfer the shrimp to a plate and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the wine, 1 teaspoon salt and a few grinds of black pepper to the skillet, and bring to a simmer, scraping any browned bits from the pan. Cook until the wine has reduced by about half, then set aside, off the heat, until the pasta has finished cooking."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the cooked pasta and reserved pasta water to the skillet. Cook over medium-low heat for 2 to 3 minutes, tossing often, until the liquid that has collected at the bottom of the skillet has reduced slightly. (The sauce should still be fairly loose at this point.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Off the heat, add the butter and 1/2 cup Parmesan, sprinkling the cheese evenly over the pasta. Toss until the butter and cheese are melted and the sauce is smooth. Add the lemon juice and remaining 1/4 cup Parmesan and toss until the sauce is thick and smooth."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the shrimp, toss, then season with more salt and black pepper to taste. Divide among shallow bowls and garnish with chopped fresh tarragon, lemon zest and black pepper."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rheta"
+            },
+            "reviewBody": "Big hit! I used cooked shrimp and simply seasoned it and added it at the end (so I could make a portion sans seafood). Worked out fine. The fresh tarragon is key.",
+            "datePublished": "2024-06-12T12:03:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann"
+            },
+            "reviewBody": "Used basil instead of tarragon.  Did the shrimp as directed (great). Once the shrimp were cooked and taken out of the pan, I sautéed cut-up zucchini and small tomatoes in the oil, zest & basil.  Threw in the wine, boiled it down. threw in the pasta water and juice from the bag of shrimp that I had reserved.  Added a pinch of red pepper flakes.  Last thing - about a 1/2 cup of ricotta.  No parmesan.  It was fantastic.",
+            "datePublished": "2024-05-24T22:52:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "I used thin spaghetti but it’s a lot of pasta for the recipe. Granted we’re two seniors and a 20+, but the flavor profile was not there. Lemon did not come through. Nor did the tarragon.",
+            "datePublished": "2024-05-21T02:00:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "Exceedingly decadent but good.  Next time I will reduce the cheese by 1/3 and the butter by 1/3 and increase the Tarragon.",
+            "datePublished": "2024-05-15T15:00:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "anyDenver"
+            },
+            "reviewBody": "Great with sautéed broccoli and garlic",
+            "datePublished": "2024-05-09T01:24:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JERF"
+            },
+            "reviewBody": "Made as directed, except used about 10 oz bucatini, so there was lots of sauce (lovely!). I’m ordinarily a fan of garlic, but I think it would have overpowered the other flavors and made it all about the garlic. That wouldn’t have been terrible, just different.",
+            "datePublished": "2024-05-07T01:50:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PFox"
+            },
+            "reviewBody": "Delicious and simple. Only changes were 1/2 Tbsp dried tarragon and used a half pound of pasta since we like it saucy.  Served 4. Paired with roasted asparagus, it made a perfect Spring dinner.",
+            "datePublished": "2024-05-06T17:00:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "Subbed wheat linguini, shredded Parmesan for grated and dried tarragon as no fresh was available (1:3 dry to fresh conversion ratio).  It was a healthy and refreshing meal with leftovers for my husband and me.",
+            "datePublished": "2024-05-01T15:55:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jillborgeson"
+            },
+            "reviewBody": "Delicious! Added about 1C parboiled asparagus,  2 cloves garlic, parsley instead of tarragon. Really tasty.",
+            "datePublished": "2024-05-01T04:19:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AlinaC"
+            },
+            "reviewBody": "Is there another herb I can use because I do not like tarragon?",
+            "datePublished": "2024-04-30T15:48:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brooke D."
+            },
+            "reviewBody": "We used thyme instead of tarragon, as I had fresh thyme in the garden. The lemon juice on this pasta \"made\" it. I am still smiling and licking my lips.",
+            "datePublished": "2024-04-20T02:28:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "my notes"
+            },
+            "reviewBody": "Don’t forget to salt. Use shallot and garlic. Good recipe and enjoyed it. Finish pasta in the sauce. Definitely two lemons for zest, 1.5 of lemons for juice worked. Needs the lemony flavor. Used thyme instead of tarragon",
+            "datePublished": "2024-04-17T01:03:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris"
+            },
+            "reviewBody": "Such a great recipe. What I did:\n-Added a touch of Better than Bouillon with the white wine\n-Said white wine was 3/4 cup (maybe even a full cup would be good)\n\nSome Togarashi (Japanese seven spice) would go soooo well on this. Also, the 3 tbsp of lemon juice is a recommendation - just juice the lemons you used for the zest and you'll be fine!",
+            "datePublished": "2024-04-06T03:16:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elisabeth G."
+            },
+            "reviewBody": "Delicious. Simple, easy, flavorful. The only addition I made was adding minced garlic before the white wine went in!",
+            "datePublished": "2024-03-29T22:55:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Annabelle"
+            },
+            "reviewBody": "This was outstanding. I had jumbo shrimp, so halved them lengthwise so they'd curl up around the spaghetti. I also sauteed some thinly sliced zucchini before the shrimp. Per other comments, added a little bit of garlic and shallot between the shrimp and the wine. Used dried tarragon plus a dollop of tarragon Dijon mixed in with the wine. Easy and delicious, will definitely make again.",
+            "datePublished": "2024-03-11T03:26:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Greg"
+            },
+            "reviewBody": "The no cheese with seafood pasta is born out of the historic reality that places with fishing economies did not have the same access to cheese as those meat/dairy based inland areas.  Lack of cheese kept it out of the seafood home cooking and lack of fresh seafood kept inland dishes cheese, or cheese and meat based.  Today, modern Italians will mix available ingredients in 'untraditional' but exciting ways as shown in this great recipie.",
+            "datePublished": "2021-05-15T09:52:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ingrid"
+            },
+            "reviewBody": "The same quantity of dried tarragon was fine with this, though I can see how fresh would be extra nice. The recipe serves three people if two of them are tall, hungry men and one of those men is an adolescent who has spent the day in dance practice. There is a small amount left over.",
+            "datePublished": "2021-05-15T03:36:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris S."
+            },
+            "reviewBody": "Have a similar recipe and add a few tablespoons of capers to it.",
+            "datePublished": "2021-05-15T13:23:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "The tarragon in my garden is calling out for this recipe, but I’ll be adding garlic.",
+            "datePublished": "2021-05-15T04:50:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris B"
+            },
+            "reviewBody": "Protip: *Always* reserve at least a cup of cooking water for any pasta dish. Just make it a habit. Depending on the other ingredients, substitutions, variations in taste, etc, it can rescue a recipe that’s going south on you.",
+            "datePublished": "2021-05-18T18:49:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DonnaT"
+            },
+            "reviewBody": "Loved it. We are not fans of tarragon so I subbed fresh thyme and flat leaf parsley. Also since hubby likes a little spice, he added a few flakes of crushed red pepper. Dish was excellent with a Rioja for our wine choice. I will try this for friends soon. We have access to a lot of fresh NC shrimp!",
+            "datePublished": "2021-05-16T00:21:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "M.R"
+            },
+            "reviewBody": "You could make a quick shrimp stock from the shells and use it instead of wine. I do that often in other recipes.",
+            "datePublished": "2021-05-17T17:30:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Miriam"
+            },
+            "reviewBody": "I make a much simpler version of this: douse cooked spaghetti in olive oil, lemon juice, lemon zest and optional ground black pepper and or red pepper flakes. Serve with steamed broccoli and lots of parmesan. Added shrimp\nSounds like a good idea.",
+            "datePublished": "2021-05-15T15:23:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris B"
+            },
+            "reviewBody": "For those fearing it being too subtle in flavor and texture, consider sautéing a little minced shallot and garlic after removing the shrimp, but before adding the wine. Some toasted pine nuts at the end would add some complimentary flavor and crunch.",
+            "datePublished": "2021-05-18T18:55:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "vincent giardina"
+            },
+            "reviewBody": "Salmon, cream cheese, tomato on toasted bread, breakfast.\nThere goes no cheese and fish.\nAnd I am 100% pure Italian.\nRaised on my grandmother apron strings in Brooklyn.",
+            "datePublished": "2021-05-16T21:04:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard NYC"
+            },
+            "reviewBody": "It's Kosher salt. Kosher salt has a less heavy salt taste than table salt and is desirable as a \"finishing\" salt. Use table salt if you like; the results won't be as good.",
+            "datePublished": "2021-05-16T06:14:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peggy Shiffrin"
+            },
+            "reviewBody": "I've been breaking that \"no cheese with fish\" rule ever since I learned there was such a rule.",
+            "datePublished": "2021-06-18T17:32:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mari Metcalf"
+            },
+            "reviewBody": "I will be combining the cheese and seafood in my mouth.",
+            "datePublished": "2021-05-16T16:18:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jo"
+            },
+            "reviewBody": "Made this today with farfalle because that's what I have in store.  Nice meal, quartered for One:  <4 oz of shrimp, 2 oz of pasta and . . . a bit of this and some of that re: the other ingredients.\n\nToo-many recipes -- no, wait, ALL the recipes on NYT Cooking are for 4 or 8 or 12 servings.  I think I'd faint if there was a recipe for 2 or, gods forbid, One!  But, grateful, still, for the ideas and I'm enough of a cook to Figure It Out.  Cheers!",
+            "datePublished": "2021-06-07T17:54:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary D"
+            },
+            "reviewBody": "I made added 3 cloves minced garlic to the tarragon and zest. Also I parboiled about a cup of chopped asparagus in 1.5 inch pieces. It was delicious!",
+            "datePublished": "2021-05-18T02:22:53.000Z"
+        }
+    ]
+}

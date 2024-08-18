@@ -1,0 +1,196 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Heavenly Key Lime Pie",
+    "datePublished": "2018-02-27T11:10:56.000-05:00",
+    "dateModified": "2023-06-27T23:56:20.869-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Kimberly Holland",
+            "url": "https://www.southernliving.com/author/kimberly-holland"
+        }
+    ],
+    "description": "Fresh and bright, Key lime pie is a much-loved dessert any time of the year. This pie is wonderful with fresh or bottled Key lime juice.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/X-HeBpARc66bQTaaD76XDd3XIAI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_Key_Lime_Pie_011-c7865e9bb4da409190edc9f8ee461f82.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/CfL1wM0g-KtCa7qb3.mp4",
+        "description": "A little bit of sugar never did anyone harm—and this Southern dessert favorite hits the spot. Heavenly Key Lime Pie is wonderful with fresh or bottled Key lime juice.",
+        "duration": "PT1M5S",
+        "name": "Heavenly Key Lime Pie",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/CfL1wM0g/poster.jpg?width=720",
+        "uploadDate": "2021-05-27T22:00:51.454-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Heavenly Key Lime Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "9"
+    },
+    "keywords": "key lime pie, key lime",
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 (14-oz.) can sweetened condensed milk",
+        "3 egg yolks",
+        "2 teaspoons Key lime zest*",
+        ".5 cup Key lime juice",
+        "1 (9-inch) graham cracker piecrust",
+        "1 cup whipping cream",
+        "3 tablespoons powdered sugar",
+        "Garnish: fresh Key lime slices*"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/Z1RK2WKL9sjsbPHvJomrLT9_20Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_Key_Lime_Pie_005-c44f730852894ed4af7963544e03fda2.jpg"
+                }
+            ],
+            "text": "Make filling: Preheat oven to 350°F. Whisk together condensed milk and next 3 ingredients until well blended. Pour mixture into piecrust."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/DaJq7ZOa1G3YsU-XfXVPMLogSIk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_Key_Lime_Pie_007-a7fa0311a5854d64bee3530f831aaa4b.jpg"
+                }
+            ],
+            "text": "Bake pie, then chill: Bake at 350°F for 15 minutes or until pie is set. Cool completely on a wire rack (about 1 hour). Chill 1 hour before serving."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/t_UerguUrMHc3gUAwLGgdcornZU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_Key_Lime_Pie_009-86819a54ad0b4c96998db62cc3ee75e4.jpg"
+                }
+            ],
+            "text": "Top with whipped cream and garnishes: Beat whipping cream at high speed with an electric mixer 2 to 3 minutes or until soft peaks form, gradually adding powdered sugar. Top pie with whipped cream. Garnish, if desired."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT150M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/heavenly-key-lime-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/pies",
+                        "name": "Pies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/heavenly-key-lime-pie",
+                        "name": "Heavenly Key Lime Pie"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can you use regular limes instead of Key limes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Yes, you can use Persian limes in place of Key limes in Key lime pie.</p><p><br/></p><p>Persian limes, the kind you are most likely to find at the grocery store, are plentiful and easier to find than Key limes if you live outside Florida.</p><p><br/></p><p>However, the flavor of a Key lime pie made with Persian limes may not be the same experience as you remember from the slice you had while visiting the Florida Keys: Persian limes are more tart and lack the floral aroma of Key limes. They&#39;ll still make a perfectly delicious lime pie. It just might be a bit different than what you&#39;re expecting.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is special about Key lime pie?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Key limes are tiny, about half the size of Persian limes. It takes a baker a lot of work to get enough juice for a Key lime pie. All that work and love means the Key lime pie is a special treat, one to be treasured when you get a slice.</p><p><br/></p><p>Also, the flavor of a Key lime is more floral and sweeter than regular limes, which makes for a pie that is more refreshing and unique.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is Key lime pie so popular in Florida?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Key limes only grow in subtropical environments like Southeast Asia—and the Florida Keys! While most Key limes sold in the U.S. today are grown in Mexico or Central America, it&#39;s still a prized crop to the growers in Florida who dedicate part of the grove to the petite citrus fruit.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is key lime pie filling made of?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Classic Key lime pie filling is made of four simple ingredients: sweetened condensed milk, Key lime juice, egg yolks, and lime zest. The filling is added to a graham cracker crust, then baked. Once cooled, it&#39;s topped with whipped cream and served.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Pizza Crust",
+    "keywords": "pizza crust",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/aSxX10A9GUmI5sjsXUsWHw_webp_base.webp?v=6178cd04&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Does the pizza delivery person know the route to your house by heart? With this easy recipe, you can bypass the pizzeria and pull together a piping hot, from-scratch pizza almost as quickly as it takes to get one delivered—using your own homemade pizza dough.",
+    "recipeIngredient": [
+        "2 1/2  to 3 cups Gold Medal™ all-purpose flour or Better for Bread™ bread flour",
+        "1  tablespoon sugar",
+        "1  teaspoon salt",
+        "1  package regular or quick active dry yeast (2 1/4 teaspoons)",
+        "3  tablespoons olive or vegetable oil",
+        "1  cup very warm water (120°F to 130°F)"
+    ],
+    "totalTime": "PT0H45M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "8",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "55",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "video": {
+        "@type": "VideoObject",
+        "name": "How to Make Pizza Crust Video",
+        "thumbnailUrl": "https://images-gmi-pmc.edge-generalmills.com/26780f83-db99-49a3-98c8-6c62d0e92a5a.jpg",
+        "description": "Easier than driving to the grocery store to purchase pre-made dough and much tastier than frozen or delivery, this homemade pizza crust dough takes only 15 minutes to prepare and after a little time to rest, is ready to be covered with your favorite toppings. Plus, it’s a fun way to get the kids involved in making dinner for a fun family meal everyone will enjoy.",
+        "contentUrl": "https://www.bettycrocker.com/videos/pizza-crust",
+        "embedUrl": "https://www.youtube.com/embed/SrLLI95nv-c",
+        "uploadDate": "08/25/2023"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In large bowl, mix 1 cup of the flour, the sugar, salt and yeast. Add 3 tablespoons oil and the warm water. Beat with electric mixer on medium speed 3 minutes, scraping bowl frequently. Stir in enough of the remaining flour until dough is soft and leaves side of bowl. Place dough on lightly floured surface. Knead 5 to 8 minutes or until dough is smooth and springy. Cover loosely with plastic wrap; let rest 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For Thin Crusts: Heat oven to 425°F. Grease two flat cookie sheets or 12-inch pizza pans with oil. Divide dough in half. Pat each half into 12-inch circle on one of the cookie sheets. Partially bake 7 to 8 minutes or until crusts just begin to brown. Add desired toppings; bake 8 to 10 minutes or until cheese is melted. For Thick Crusts: Grease two 8-inch square pans, or two 9-inch round pans with oil. Sprinkle with cornmeal. Divide dough in half. Pat each half in bottom of one of the pans. Cover loosely with clean kitchen towel; let dough rise in warm place 30 to 45 minutes or until almost doubled in size. Move oven racks to lowest positions. Heat oven to 375°F. Partially bake 20 to 22 minutes or until crust just begins to brown. Add desired toppings; bake about 20 minutes or until cheese is melted."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "190 ",
+        "carbohydrateContent": "32 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "1 ",
+        "fiberContent": "1 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "1 g",
+        "servingSize": "1/8 of Recipe (without toppings)",
+        "sodiumContent": "300 mg",
+        "sugarContent": "2 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "05/25/2001",
+    "dateModified": "06/13/2019"
+}

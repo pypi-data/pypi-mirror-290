@@ -1,0 +1,93 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "The Original Schnitzelwich Recipe",
+    "keywords": [
+        "sandwich",
+        "pork chop",
+        "nut-free",
+        "fry",
+        "lunch",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Tabor",
+            "sameAs": "https://www.bonappetit.com/contributor/tabor"
+        },
+        {
+            "@type": "Person",
+            "name": "Sian Kennedy",
+            "sameAs": "https://www.bonappetit.com/contributor/sian-kennedy"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 1
+    },
+    "description": "The Original Schnitzelwich Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b055e6f1c801a1038bd7ca/master/w_310,h_344,c_limit/mare_the_original_schnitzelwich_v.jpg"
+    ],
+    "headline": "The Original Schnitzelwich",
+    "name": "The Original Schnitzelwich",
+    "recipeIngredient": [
+        "5 tablespoons (or more) olive oil, divided",
+        "2 tablespoons sour cream",
+        "2 tablespoons prepared horseradish",
+        "1 large onion, thinly sliced",
+        "4 1/2-inch-thick boneless pork chops (about 12 ounces total)",
+        "1/2 cup unbleached all purpose flour",
+        "2 large eggs",
+        "1 cup panko (Japanese breadcrumbs)",
+        "6 tablespoons ajvar*",
+        "4 ciabatta rolls or other crusty rolls, halved horizontally",
+        "4 romaine lettuce leaves, torn in half crosswise"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk 2 tablespoons oil, sour cream, and horseradish in small bowl. Season to taste with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat 1 tablespoon oil in heavy large skillet over medium-high heat. Add onion and sauté until beginning to soften and brown, stirring often, about 8 minutes. Reduce heat to medium-low and cook until onions are very soft and deep golden brown, stirring often, about 20 minutes. Transfer to bowl. DO AHEAD Horseradish sauce and caramelized onion can be made 1 day ahead. Cover separately and chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place rack on rimmed baking sheet. Place pork between 2 sheets of plastic wrap, spacing apart. Using flat side of meat tenderizer or mallet, pound to thickness of 1/4 inch. Place flour in 1 shallow bowl. Beat eggs in another shallow bowl. Place panko in third shallow bowl. Sprinkle pork with salt and pepper. Working with 1 pork chop at a time, dredge both sides in flour, shaking off excess; dip in eggs to coat. Transfer to panko and press to coat pork all over. Place on prepared rack. DO AHEAD Can be made 1 hour ahead. Let stand at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat 2 tablespoons oil in heavy large skillet over medium-high heat. Add pork to skillet and cook until golden brown and cooked through, about 3 minutes per side, adding more oil by tablespoonfuls if needed. Transfer pork to paper towels."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon 1 1/2 tablespoons ajvar onto each roll bottom; top each with 2 tablespoons caramelized onion. Place pork atop onion, then top with lettuce. Spoon 1 rounded tablespoon horseradish sauce onto cut side of each roll top. Place roll tops on sandwiches and serve."
+        }
+    ],
+    "recipeYield": "Makes 4  Servings",
+    "url": "https://www.bonappetit.com/recipe/the-original-schnitzelwich",
+    "dateModified": "2009-07-08T20:00:00.000-04:00",
+    "datePublished": "2009-07-08T20:00:00.000-04:00",
+    "recipeCategory": []
+}

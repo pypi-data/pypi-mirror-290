@@ -1,0 +1,73 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Santa Fe Chicken-Tortellini Casserole",
+    "keywords": "santa fe chicken-tortellini casserole",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/e0QQVHIuckaaaZJHKjzRJA_webp_base.webp?v=ead21380&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "A zesty cheese sauce coats tender pockets of tortellini, crisp-tender veggies and flavorful chicken.",
+    "recipeIngredient": [
+        "1  package (9 oz) refrigerated cheese-filled tortellini",
+        "3  tablespoons olive or vegetable oil",
+        "2  cups broccoli flowerets",
+        "1  medium onion, chopped (1/2 cup)",
+        "1  medium red bell pepper, chopped (1 cup)",
+        "3  tablespoons Gold Medal™ all-purpose flour",
+        "3/4  cup milk",
+        "3/4  cup Progresso™ chicken broth (from 32-oz carton)",
+        "1  teaspoon ground cumin",
+        "4  cups cut-up cooked chicken",
+        "3/4  cup shredded Monterey Jack cheese (3 oz)",
+        "1/2  cup shredded Colby cheese (2 oz)",
+        "1/2  cup crushed tortilla chips, if desired"
+    ],
+    "totalTime": "PT1H5M",
+    "prepTime": "PT0H30M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "11",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 325°F. Spray 3-quart casserole with cooking spray. Cook and drain tortellini as directed on package."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 12-inch nonstick skillet, heat 1 tablespoon of the oil over medium-high heat. Cook broccoli, onion and bell pepper in oil about 3 minutes, stirring frequently, until crisp-tender. Remove broccoli mixture from skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In same skillet, cook flour and remaining 2 tablespoons oil over low heat, stirring constantly, until smooth. Stir in milk, broth and cumin. Heat to boiling over medium heat, stirring constantly; remove from heat. Stir in chicken, Monterey Jack cheese, tortellini and broccoli mixture. Spoon into casserole."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake uncovered 25 to 35 minutes, sprinkling with Colby cheese and tortilla chips for last several minutes of baking, until hot in center and cheese is melted."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "440 ",
+        "carbohydrateContent": "17 g",
+        "cholesterolContent": "140 mg",
+        "fatContent": "2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "38 g",
+        "saturatedFatContent": "9 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "390 mg",
+        "sugarContent": "5 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "06/29/2000",
+    "dateModified": "03/13/2010"
+}

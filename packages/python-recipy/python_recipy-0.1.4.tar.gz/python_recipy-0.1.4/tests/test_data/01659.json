@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Easy Short Ribs Braised in Red Wine",
+    "datePublished": "2013-12-06T18:24:30.000-05:00",
+    "dateModified": "2022-07-05T11:46:57.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ken Frank",
+            "url": "https://www.foodandwine.com/author/ken-frank"
+        }
+    ],
+    "description": "This braised short ribs in red wine recipe pairs perfectly with egg noodles. Try this short rib recipe for your next dinner.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/eHNACDpwSCtX95kzZcotiohKlZw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201010-xl-easy-short-ribs-braised-in-red-wine-2000-b2bfb470f71147a7b250b2a98578df14.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Easy Short Ribs Braised in Red Wine",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "542"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 tablespoon unsalted butter",
+        "1 medium onion, finely chopped",
+        "1 large celery rib, finely chopped",
+        "1 large carrot, finely chopped",
+        "2 tablespoons tomato paste",
+        "2 tablespoons all-purpose flour",
+        "One 750-milliliter bottle dry red wine",
+        "2 cups veal or chicken stock",
+        "2 tablespoons vegetable oil",
+        "Four 2-inch-thick, flanken-cut short ribs with bone (2 3/4 pounds)",
+        "Salt and freshly ground pepper",
+        "Buttered egg noodles, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large, enameled cast-iron casserole, melt the butter. Add the onion, celery and carrot, cover and cook over moderate heat until slightly softened, about 5 minutes. Uncover and cook until the vegetables are lightly browned, about 3 minutes longer. Stir in the tomato paste. Add the flour and cook for 1 minute, stirring. Add the wine and veal stock and bring to a simmer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, heat the oil in a large skillet until shimmering. Season the ribs with salt and pepper, add them to the pan and cook over moderately high heat, turning, until they are well browned, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the short ribs to the casserole. Partially cover and cook over moderately low heat until very tender, about 2 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the ribs to a plate and remove the bones. Strain the sauce into a heatproof measuring cup and skim off the fat. Return the sauce to the casserole and boil until reduced to 2 cups, 10 minutes. Return the meat to the sauce and simmer over low heat until heated through. Serve the ribs with egg noodles."
+        }
+    ],
+    "totalTime": "PT160M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "This recipe was very disappointing. Cooking the carrots, onion and celery for so long totally disintegrated the veggies and changed the taste of the whole dish - the carrot taste was so sweet that it overcame the delicate veal flavor.",
+            "datePublished": "2023-10-28T01:24:03.737Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/easy-short-ribs-braised-in-red-wine",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/meat-dishes-7497037",
+                        "name": "Meat Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/easy-short-ribs-braised-in-red-wine",
+                        "name": "Easy Short Ribs Braised in Red Wine"
+                    }
+                }
+            ]
+        }
+    }
+}

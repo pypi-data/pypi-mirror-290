@@ -1,0 +1,345 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023255-celery-sour-mocktail#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023255-celery-sour-mocktail",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/06/15/dining/10noabvrex1-sour/merlin_208251018_7818f19f-e3c0-46f9-a1fd-c22695dce839-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023255-celery-sour-mocktail",
+    "name": "Celery Sour Mocktail",
+    "description": "Serve this bright, refreshing nonalcoholic mixed drink up in a chilled cocktail glass, or stretch it by pouring it over ice in a lowball glass and topping with a splash of soda water or tonic. However you choose to serve it, reserve the extra celery simple syrup and use it as a replacement for regular simple syrup in all manner of drinks, nonalcoholic and spirited, alike. Or, if you don’t have time to make the celery simple syrup for this drink, you can substitute in standard 1:1 simple syrup, though the resulting sour will lose some of its vegetal nuance.",
+    "author": {
+        "@type": "Person",
+        "name": "Rebekah Peppler"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/06/15/dining/10noabvrex1-sour/10noabvrex1-sour-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/06/15/dining/10noabvrex1-sour/merlin_208251018_7818f19f-e3c0-46f9-a1fd-c22695dce839-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/06/15/dining/10noabvrex1-sour/merlin_208251018_7818f19f-e3c0-46f9-a1fd-c22695dce839-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/06/15/dining/10noabvrex1-sour/10noabvrex1-sour-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "recipeYield": "1 cocktail",
+    "recipeCuisine": "",
+    "recipeCategory": "",
+    "keywords": "allspice, celery, chamomile, lime, mocktail",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 206
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 879,
+        "unsaturatedFatContent": "0 grams",
+        "carbohydrateContent": "227 grams",
+        "cholesterolContent": null,
+        "fatContent": "1 gram",
+        "fiberContent": "5 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "0 grams",
+        "sodiumContent": "184 milligrams",
+        "sugarContent": "218 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 cup granulated sugar",
+        "4 whole allspice berries",
+        "10 black peppercorns",
+        "Pinch of flaky sea salt (optional)",
+        "1 cup celery leaves (or ½ cup celery leaves and ½ cup parsley leaves)",
+        "2 chamomile tea bags (or 2 tablespoons loose leaf tea)",
+        "2 (3-inch) pieces lemon peel",
+        "½ lime, cut into quarters",
+        "½ celery stalk, cut into ½-inch pieces",
+        "¾ ounce Celery Simple Syrup",
+        "3 ounces Chilled Chamomile Tea",
+        "Ice"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the celery simple syrup: In a small saucepan, combine sugar, allspice, peppercorns and salt (if using) with 1 cup water. Heat over low, stirring frequently, just until sugar dissolves, about 3 minutes. Remove from the heat, add the celery leaves (and parsley leaves, if using). Set aside to steep at room temperature for 1 to 2 hours. Strain through a fine-mesh sieve, pressing on the solids. (You should have about 1½ cups syrup.) Keep it in the refrigerator, tightly covered in an airtight container, for up to 3 weeks."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the chamomile tea base: In a tea kettle or small saucepan over high heat, bring 2 cups of water to a boil. Remove from the heat, add the tea and lemon peels. Allow to steep for 10 minutes, then remove the tea bags and peels or, if using loose-leaf tea, strain through a fine-mesh sieve and set aside to cool completely. Keep it chilled in the refrigerator, tightly covered in an airtight container, for up to 5 days."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the cocktail: In a shaker, add lime, celery pieces and the simple syrup. Muddle to smash and release the lime’s juices. Add the chilled chamomile tea and ice. Cover and shake vigorously until well chilled, about 15 seconds. Strain into a chilled Nick and Nora or coupe glass."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tom"
+            },
+            "reviewBody": "For a cocktail this was pretty solid. Some good layers of flavor, tannins from the tea and subtle celery notes. I’ll definitely make this again but in the end it drinks like a sweetened herbal tea. It’s missing a bite, something to replace that nice burn that alcohol gives. Maybe I’ll up the lime or add a splash of apple cider vinegar",
+            "datePublished": "2024-03-26T21:29:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AR"
+            },
+            "reviewBody": "This is amazing!! I made it with lemon zinger tea and it’s GREAT!",
+            "datePublished": "2024-03-10T21:06:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lipton iced tea"
+            },
+            "reviewBody": "I am also allergic to camomile. I tried this with lemon balm tea and it is exactly how I remember Powdered Lipton iced tea.",
+            "datePublished": "2024-01-14T00:01:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophie"
+            },
+            "reviewBody": "Excellent mocktail with an interesting, vegetal flavor! I used a different herbal tea (roasted buckwheat and lemon verbena) so I think you can probably use whatever herbal tea you like.",
+            "datePublished": "2023-11-26T02:50:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Annekabunny"
+            },
+            "reviewBody": "Crushed celery seeds and kosher salt rim. Skip the tea and go straight to gin. I call it a Celerity.",
+            "datePublished": "2023-09-29T19:50:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "liz"
+            },
+            "reviewBody": "this is so good! prep is easy and makes enough for several drinks. i know this is a mocktail but it’s also great with a little gin - perfect for situations where some people are drinking and others are not",
+            "datePublished": "2023-08-27T22:46:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The ‘Ol Redhead"
+            },
+            "reviewBody": "How bout Dr. Browns Cel Ray and/or crushed celery seeds and/or bottled oil instead of steeped leaves?",
+            "datePublished": "2023-08-08T18:34:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marina Del Ray"
+            },
+            "reviewBody": "Meh. I followed the directions to the letter and I found it drinkable. Too much effort for so little flavor.  Back to Monday \"Gin\" and tonic for me.",
+            "datePublished": "2023-08-07T00:25:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "hannah"
+            },
+            "reviewBody": "Wow this was so unexpectedly good! I’ve never been a fan of celery, just tolerated it. It turns out I like the flavor of celery but not the texture. So perfect solution with this drink.",
+            "datePublished": "2023-07-31T21:23:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Regina"
+            },
+            "reviewBody": "Plan to make this today as written. Definitely prep the components ahead of time so its ready to go when u want to make it. For people with chamomile issues, You could try lemon balm leaves for the tea. Would add a similar yellow color as chamomile and complement the lemon. Would be a more lemony drink, though. It might also be good with celery juice rather than the tea. Or just do lots of celery leaves, omitting the chamomile for the “tea”.",
+            "datePublished": "2023-06-18T14:05:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda S"
+            },
+            "reviewBody": "What is a good sugar free substitute that works for simple syrup? \nIf I'm going AF, might as well make it sugar free as well.",
+            "datePublished": "2023-02-18T21:03:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allyson"
+            },
+            "reviewBody": "This recipe is awesome!!!! Worthy of being called a mocktail. So good I felt moved to leave my first comment after years of making NYT recipes. Make it people, and share it with the kids and the drinkers too.",
+            "datePublished": "2023-02-12T22:01:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bonnie Lemons"
+            },
+            "reviewBody": "This was delish, but I really don’t understand muddling. Why not squeeze the line and the celery in a citrus squeezer to get more out of them?",
+            "datePublished": "2023-02-04T21:58:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia B."
+            },
+            "reviewBody": "I assume the calorie count is for the entire batch of simple syrup rather than one serving of the mocktail, no?",
+            "datePublished": "2023-02-04T15:21:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Boyce rensberger"
+            },
+            "reviewBody": "Substitutions for chammomile, please.",
+            "datePublished": "2023-02-03T14:45:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean"
+            },
+            "reviewBody": "I will try this with lovage leaves. I make a simple syrup with lovage and add to gin and tonics or spritzers. Lovage is a celery like herb that produces a bushy plant. The taste is more herbaceous than celery. I am always looking for ways to use this herb from my garden in the summer.",
+            "datePublished": "2022-06-09T21:51:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amanda K"
+            },
+            "reviewBody": "This is a fantastic drink. The celery/herbaceous flavor is strong in a really delicious way. For those who don’t love chamomile tea - you really don’t taste it. The celery masks it well. Only change I’d make is doubling the syrup and tea amounts when making the cocktail - otherwise it makes a teeny tiny drink. \n\nIt’s so exciting to see Rebekah Peppler putting out NA drink recipes. Before I stopped consuming alcohol earlier this year, she was my patron saint of aperitifs. Please keep them coming!",
+            "datePublished": "2022-07-09T04:20:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "Possible subs for the light taste of chamomile tea: linden, fennel, a weak green tea.  Or a combo.",
+            "datePublished": "2022-06-28T15:28:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chrissi"
+            },
+            "reviewBody": "The leaves are usually on the celery stalks at the very top. If you buy celery hearts, they may have been cut off...",
+            "datePublished": "2022-06-20T17:49:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily"
+            },
+            "reviewBody": "Does anyone who has made this have a suggestion for substituting out the chamomile tea? I think I’m allergic to it—makes my face itch from the inside out every time I drink it, but I love the celery idea. I thought about mint tea, but wouldn’t that overpower the celery flavor?",
+            "datePublished": "2022-06-21T03:21:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eric T."
+            },
+            "reviewBody": "Double recipe for 2 ppl - makes very little volume.",
+            "datePublished": "2022-07-29T23:44:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie"
+            },
+            "reviewBody": "Fresh celery stalks have leaves at the end but of you buy packaged celery you will not get the leaves.",
+            "datePublished": "2022-06-13T15:24:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shirley P"
+            },
+            "reviewBody": "Not a big fan of chamomile either, makes me all 'sinus-y'\nI think chamomile was chosen because it's rather flavorless and they wanted an herb tea so there's no caffeine.  If caffeine isn't a problem try this with just plain old green tea, that's what I'm going to do.  If caffeine is a problem try decaf green tea or any other mild herb tea.  Mint tea would totally change the flavor profile, but it might be rather interesting.",
+            "datePublished": "2023-02-02T19:42:33.000Z"
+        }
+    ]
+}

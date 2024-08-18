@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Spicy Chicken Cacciatore",
+    "datePublished": "2013-12-06T18:50:50.000-05:00",
+    "dateModified": "2017-05-17T12:26:48.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Barbara Lynch",
+            "url": "https://www.foodandwine.com/barbara-lynch-8413078"
+        }
+    ],
+    "description": "Although this Italian standard has suffered at the hands of lesser chefs, Barbara Lynch redeems it. She ably deconstructs what is often a heavy sauce ...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/QulbzJyd6Z8hrADGaTurj1WiSNs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/200802-r-xl-spicy-chicken-cacciatore-134272f4b80a4f0da3d3790637fe265a.jpg",
+        "height": 1104,
+        "width": 1104
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Spicy Chicken Cacciatore",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "3170"
+    },
+    "recipeIngredient": [
+        "2 tablespoons extra-virgin olive oil",
+        "8 boneless chicken thighs (3 pounds)",
+        "Salt and freshly ground pepper",
+        "1 medium onion (thinly sliced)",
+        "1 red bell pepper (thinly sliced)",
+        "2 pickled hot peppers (thinly sliced)",
+        "3 garlic cloves (thinly sliced)",
+        "0.5 cup dry red wine",
+        "1.5 cups chicken stock",
+        "1 pound ripe plum tomatoes (coarsely chopped)",
+        "2 tablespoons chopped flat-leaf parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a deep skillet, heat the olive oil. Season the chicken thighs with salt and pepper and add the chicken to the skillet, skin side down. Cook over moderately high heat, turning once until lightly browned and crisp, about 8 minutes. Transfer to a plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the onion, bell pepper, pickled peppers and garlic and cook over low heat, stirring occasionally, until softened, about 10 minutes. Pour in the wine and simmer, stirring occasionally, until nearly evaporated, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the chicken stock and tomatoes to the skillet and season lightly with salt and pepper. Return the chicken to the pan, nestling it in the vegetables skin side up, and bring to a simmer. Cover partially and cook over moderate heat for 30 minutes, until the chicken is tender and the sauce is reduced by half. Sprinkle with the parsley."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/spicy-chicken-cacciatore",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/poultry-dishes-7497047",
+                        "name": "Poultry Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/chicken-main-course-7497051",
+                        "name": "Chicken Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/spicy-chicken-cacciatore",
+                        "name": "Spicy Chicken Cacciatore"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

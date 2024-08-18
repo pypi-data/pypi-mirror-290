@@ -1,0 +1,128 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Thai Coffee 5 Ways",
+    "description": "Here's all the ways Thai people drink Thai coffee that you didn't know about before. Hot, iced, black, milky, there is something for everyone!",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/04/Oliang-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/04/Oliang-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/04/Oliang-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/04/Oliang.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/",
+    "recipeIngredient": [
+        "3 Tbsp Thai coffee mix",
+        "180 ml (¾ cup) hot off the boil water",
+        "5.5 oz (160 ml) brewed Thai coffee (from above recipe, it's okay if you end up with a little more or less) ",
+        "2 Tbsp (30 ml) sweetened condensed milk",
+        "2 tsp (10 ml) sugar, or to taste",
+        "Pinch of salt",
+        "Enough ice to fill a 16-0z (480 ml) glass",
+        "2-3 (30-45 ml) evaporated milk",
+        "5.5 oz (160 ml) brewed Thai coffee (from above recipe, it's okay if you end up with a little more or less)",
+        "2 tsp (10 ml) sugar, or to taste",
+        "Pinch of salt",
+        "1-2 Tbsp (15-30 ml) condensed milk, to taste ",
+        "5.5 oz (160 ml) brewed Thai coffee (from above recipe, it's okay if you end up with a little more or less)",
+        "2-3 tsp (10-15 ml) sugar, to taste",
+        "Pinch of salt",
+        "5.5 oz (160 ml) brewed Thai coffee (from above recipe, it's okay if you end up with a little more or less)",
+        "2-3 tsp sugar, to taste",
+        "Pinch of salt",
+        "Enough ice to fill a 16-oz (480 ml) glass",
+        "5.5 oz (160 ml) brewed Thai coffee (from above recipe, it's okay if you end up with a little more or less)",
+        "2-3 tsp sugar, to taste",
+        "Pinch of salt",
+        "Enough ice to fill a 16-oz (480 ml) glass",
+        "2-3 Tbsp evaporated milk (unsweetened)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Thai Iced Coffee: Gafae Yen",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "In a mixing glass, combine the brewed coffee with the sugar, condensed milk and salt; stir until dissolved. Fill the glass with ice and pour the coffee over it. Drizzle the top with evaporated milk and serve, letting the drinker stir to mix the milk with the coffee before drinking.",
+                    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#instruction-step-1"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Thai Hot Coffee: Gafae Ron",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine the hot coffee with sugar and salt and stir to dissolve. Add the condensed milk without stirring, allowing it to settle to the bottom so you get a layered effect. Serve and let the drinker stir the coffee!",
+                    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#instruction-step-2"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Thai Hot Black Coffee: O-Yua",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine the hot coffee with sugar and a pinch of salt and serve while hot.",
+                    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#instruction-step-3"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Thai Black Iced Coffee: O-liang",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine the brewed coffee with sugar and salt and stir until dissolved. Pack a serving glass with ice and pour the coffee over it and serve. You can top it up with a little more water if it is too strong.",
+                    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#instruction-step-4"
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Thai Iced Coffee with Milk: O-liang Yok Law",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Combine the brewed coffee with sugar and salt and stir until dissolved. Pack a serving glass with ice and pour the coffee over the ice. Drizzle the evaporated milk on top for a beautiful cascade effect and serve. Let the drinker stir to mix the milk before drinking.",
+                    "url": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#instruction-step-5"
+                }
+            ]
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT3M",
+    "totalTime": "PT8M",
+    "recipeYield": [
+        "1",
+        "1 serving"
+    ],
+    "recipeCategory": [],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Thai Coffee Recipe 4 Ways - Hot Thai Kitchen!.mp4",
+        "description": "Thai Coffee Recipe 4 Ways - Hot Thai Kitchen!.mp4",
+        "duration": "PT5M40S",
+        "embedUrl": "https://video.mediavine.com/videos/iXte00ulV.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681226021/iXte00ulV.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--WhZQuwhi--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681226025/be0uyytdpp1pi1vu58uc.jpg"
+        ],
+        "uploadDate": "2020-12-10T05:56:02+00:00"
+    },
+    "datePublished": "2014-04-11",
+    "@id": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/thai-coffee-4-ways/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/thai-coffee-4-ways/"
+}

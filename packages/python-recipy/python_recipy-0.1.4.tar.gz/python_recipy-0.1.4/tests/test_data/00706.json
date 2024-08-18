@@ -1,0 +1,410 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020879-slow-cooker-bbq-pork-and-beans#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020879-slow-cooker-bbq-pork-and-beans",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/02/14/dining/as-slow-cooker-pork-and-beans/as-slow-cooker-pork-and-beans-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020879-slow-cooker-bbq-pork-and-beans",
+    "name": "Slow Cooker BBQ Pork and Beans",
+    "description": "Pork and beans are cooked together in a slow cooker for mutually beneficial results (If you don't have a slow cooker, you can do it in a pot in the oven.)&nbsp;As the pork shoulder and barbecue sauce braise in the oven, the sauce soaks up the pork juices while the pork tenderizes. Then, beans are added to soak up the deeply concentrated sauce. The recipe uses store-bought barbecue sauce enhanced with the smoky heat of canned chipotles in adobo and brown sugar, which helps glaze the pork. Because every barbecue sauce is different, taste and adjust yours as needed. (For a more acidic sauce, add apple cider vinegar with the beans, or you can increase the sweetness with added sugar.) To serve, slice the pork or shred it into pulled pork.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/02/14/dining/as-slow-cooker-pork-and-beans/as-slow-cooker-pork-and-beans-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/14/dining/as-slow-cooker-pork-and-beans/as-slow-cooker-pork-and-beans-superJumbo.jpg",
+            "height": 1292,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/14/dining/as-slow-cooker-pork-and-beans/as-slow-cooker-pork-and-beans-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/14/dining/as-slow-cooker-pork-and-beans/as-slow-cooker-pork-and-beans-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H",
+    "recipeYield": "4 to 6 servings",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "barbecue sauce, chipotle, chipotles in adobo, garlic, pinto bean, pork shoulder, slow cooker",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1283
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 858,
+        "unsaturatedFatContent": "27 grams",
+        "carbohydrateContent": "53 grams",
+        "cholesterolContent": null,
+        "fatContent": "48 grams",
+        "fiberContent": "8 grams",
+        "proteinContent": "52 grams",
+        "saturatedFatContent": "16 grams",
+        "sodiumContent": "1099 milligrams",
+        "sugarContent": "21 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 to 3 1/2 pounds boneless pork shoulder, trimmed of more than 1/4-inch fat",
+        "Kosher salt and black pepper",
+        "1 tablespoon extra-virgin olive oil",
+        "1 cup store-bought or homemade barbecue sauce",
+        "1 chipotle in adobo, finely chopped, plus more to taste",
+        "3 tablespoons light brown sugar, plus more to taste",
+        "2 (14-ounce) cans pinto beans, rinsed",
+        "6 garlic cloves, peeled and thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Season the pork all over with 1 tablespoon salt and and 3/4 teaspoon pepper. In a large Dutch oven or skillet, heat the olive oil over medium-high. Add the pork shoulder and sear until browned on all sides, 8 to 10 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in your slow cooker, stir together the barbecue sauce, chipotle and brown sugar. Taste the mixture and adjust sweetness with brown sugar and spice with chipotle."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add browned pork to the barbecue sauce and turn to coat in the sauce. Add the beans and garlic to the sauce around the pork. Cover and cook on low until the meat falls apart when prodded with a fork, 8 to 10 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the pork to a cutting board. Skim excess fat from the top if desired, then season the beans to taste with salt and pepper. Slice the pork against the grain into 1/2-inch thick slices, or shred the pork with two forks. Serve the pork with the beans."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Good Dish With The Right Sides"
+            },
+            "reviewBody": "Make sure to check towards the 2/3rds mark for seasoning for brown sugar if you want it sweeter and don't forget the salt and pepper at the end to taste",
+            "datePublished": "2023-11-26T17:06:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Beatrix"
+            },
+            "reviewBody": "This is really good. I’d say 10 hours on the low setting of the slow cooker is minimum amount of time. The pork was well-cooked at 9 hours but not quite as fall off the bone as I would have liked. I used Stubbs Dr Pepper sauce and no substitutions.  I would make this again.",
+            "datePublished": "2023-08-22T12:19:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mute"
+            },
+            "reviewBody": "I loved this. I used a pork loin as that's all they had at Trader Joe's. I used a blackening rub on it, (paprika, salt, pepper onion powder, garlic powder, baking soda) The BBQ sauce I bought was sweet enough so I skipped the sugar. The beans came out super yummy and I will use 3 cans next time, plus a cup of canning liquid to loosen it up a bit. Six hours on low was plenty, with a pile of coleslaw on the side, delicious.",
+            "datePublished": "2023-07-29T14:13:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Carroll"
+            },
+            "reviewBody": "The success of this recipe really depends on the barbecue sauce you use. I used one that I've enjoyed through the years, but its vinegar flavor was amplified during the slow cook. Also the canned beans were rather mushy when I opened the can, mushier after cooking. Not very many beans for the amount of pork. I would at least double their amount next time. If I ever make this again I would cook dried beans first.",
+            "datePublished": "2023-07-13T14:51:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "judy"
+            },
+            "reviewBody": "So good! Used Stubbs Original BBQ sauce, a little less sugar than called for. Served with corn bread and coleslaw. This Northeasterner may need to cultivate a Southern drawl.",
+            "datePublished": "2023-06-14T22:30:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Simon Howe"
+            },
+            "reviewBody": "I followed the recipe and it was fantastic!\nBut I have a lot leftover!  Any suggestions on what to do with the leftovers would be very welcome",
+            "datePublished": "2023-05-02T16:44:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ANNE WRIDER"
+            },
+            "reviewBody": "I used sugar free bbq sauce and brown sugar substitute. Way too sweet. I think a less sweet bbq sauce next time.",
+            "datePublished": "2023-04-11T19:59:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sirrah231"
+            },
+            "reviewBody": "Kat.  4 stars\nSkip.  3 stars",
+            "datePublished": "2023-03-21T17:41:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "janisani"
+            },
+            "reviewBody": "VERY delicious as written. However, I used 2 lbs. of meat and 2 cans of beans, and next time I would use 1 lb. of meat with 2 cans of beans.",
+            "datePublished": "2023-03-13T18:07:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ccr"
+            },
+            "reviewBody": "Lake liked it\nNot that great",
+            "datePublished": "2023-03-01T01:16:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jennifersjen"
+            },
+            "reviewBody": "This was super easy and very good. I used 2 chipotle peppers and granulated garlic since I was out of fresh…while I’m sure fresh is better it still came out good. Will make again.",
+            "datePublished": "2023-03-01T00:54:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ccr"
+            },
+            "reviewBody": "Made this according to the recipe but used 2 tablespoons of sugar, it was still overly sweet and tasted very much like the BBQ sauce- would not make again unfortunately.",
+            "datePublished": "2023-03-01T01:20:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helen"
+            },
+            "reviewBody": "Easy and tasty. I added the beans a couple hours before the meat was done and some of the beans were a little mushy. In the future I will try to cook my own pinto beans in hopes for better texture. I served a little extra BBQ sauce on the side. I used 2 chipotle’s in adobo and added a few extra cloves of garlic.",
+            "datePublished": "2023-01-25T15:49:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris"
+            },
+            "reviewBody": "Cooked it as described. It was very good, my family ate it all up!",
+            "datePublished": "2022-12-19T17:27:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "better with more beans"
+            },
+            "reviewBody": "I’ve made the recipe as directed but another time I soaked about twice the recommended amount of dry beans and added those in place of cans…liked it much better. More beans to distribute the flavor and also better for feeding a group.",
+            "datePublished": "2022-09-21T17:22:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "reviewBody": "In the Instant Pot, brown the pork on sauté, then remove to a platter. Sauté the onions and garlic, then add one cup of broth and deglaze the vessel to prevent burning. Add the meat back in, pour the bbq sauce over, and pressure cook on high for 55 minutes. Ours came out falling apart tender. We cooked the beans in our other Instant Pot, drained them and added them to the meat after it had been chopped. We will refrigerate all night, then skim fat in the morning and reheat.",
+            "datePublished": "2020-02-29T02:56:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DanY"
+            },
+            "reviewBody": "I remember watching Cook's Illustrated on PBS and they did a tasting test on store bought barbecue sauces. The one that came out on top, and we think is a very good alternative to homemade, is Bull’s-Eye Original BBQ Sauce.",
+            "datePublished": "2020-02-26T21:54:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary P"
+            },
+            "reviewBody": "I like Stubbs!",
+            "datePublished": "2020-02-16T20:58:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike"
+            },
+            "reviewBody": "Soak dried beans overnight, then cook the rest as per the recipe. Probably have to add more liquid. I'm interested in other reader's suggestions on barbeque sauces.",
+            "datePublished": "2020-02-16T19:05:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ryguy"
+            },
+            "reviewBody": "I tried to combine the best of the oven and slow cooker recipes. Seared the pork with the sauté setting, removed pork and drained the fat. Then I sautéed a chopped large onion, a few chopped shallots and 8 sliced garlic cloves for a couple minutes. Added the BBQ & adds, a cup of chicken stock and the pork. High setting, 4 hours. I removed the sauce, cooled until the fat congealed, then put everything back in the cooker with the beans and vinegar until warmed through. Put over kale and rice.",
+            "datePublished": "2020-02-23T23:16:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Angela"
+            },
+            "reviewBody": "Made this exactly as written using our crock pot and it turned out great! Used Stubb’s BBQ sauce and did not doctor beyond the one chipotle and 3 TB brown sugar called for. PS, you can absolutely add the pinto beans in the beginning (making sure to rinse, as the recipe directs)—no mushiness, just perfectly seasoned. Mark Bittman’s cornbread paired nicely with this dish. RECOMMEND!",
+            "datePublished": "2020-06-05T17:46:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mskdc"
+            },
+            "reviewBody": "Had a pound of Rio Zape beans, soaked overnight and then cooked with a dried chipotle, three dried guajillos and a dried ancho. Put the pulp of the peppers back into the bean liquid, half of that went into the freezer. Added two chipotles and two spoons of adobo, three spoons of honey, some oregano and chopped fresh garlic. Browned the pork in a big Dutch oven, poured the beans and sauce over, covered and cooked at 275 for 4  hours. Deep flavors, smoky and just spicy enough. Ate it ladled over",
+            "datePublished": "2020-02-18T03:06:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne"
+            },
+            "reviewBody": "This is bubbling away right now and the house smells great! You know how COVID cooking goes ... not enough barbecue sauce but plenty of ketchup, ran out of garlic (yikes!) so I used garlic powder. We have too many yellow onions in the house so I quartered two and threw them on. Apple cider vinegar and boiled cider helped make the sauce more liquid, and I had 2 oranges that were going south so I chopped them up and threw them in. Why not, right?",
+            "datePublished": "2020-10-21T22:08:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SandaSavi"
+            },
+            "reviewBody": "Yummy and so easy. I used dried beans and did the quick soak method while I was preparing everything else.  I had a pork shoulder that was more that called for so I used the entire bottle of Stubbs BBQ sauce, extra chipotle and less sugar. After cooking I remove the pork and put the beans and sauce in a pot on the stove at medium to thicken the sauce. I didn't add extra water and the beans were perfectly cooked, better than canned would result.",
+            "datePublished": "2020-03-16T22:20:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marguerite"
+            },
+            "reviewBody": "I have a lamb shoulder in the freezer that I bought to make a much more involved recipe. I’m thinking it would be put to good use here.",
+            "datePublished": "2020-02-16T18:29:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ray"
+            },
+            "reviewBody": "Just checking - you cook the beans the entire time?  The narrative before the recipe instructions implies (or I inferred) that they are added later; the recipe steps tell me they spend the whole 8-10 hours in the slow cooker.  I'd think canned pinto beans would disintegrate into mush in that time, but I admit I don't know.",
+            "datePublished": "2020-02-17T06:48:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeanne"
+            },
+            "reviewBody": "Found Lillies Bar-B-Que sauces -- love the one called simley \"Smoky\" - but there is a range of varieties to suit all tastes. Quite expensive to order from Lillies but can find it on line elsewhere for a good price.  Best I've had aside from homemade.",
+            "datePublished": "2020-02-17T00:57:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Phil"
+            },
+            "reviewBody": "I think you're right.  See the oven cooked recipe for when to add the canned beans-at the end.",
+            "datePublished": "2020-02-17T17:53:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MP"
+            },
+            "reviewBody": "I like Stubbs!",
+            "datePublished": "2020-02-16T20:56:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily"
+            },
+            "reviewBody": "Very easy and yummy! I made whipped sweet potatoes to put this over. Next time I’d add a second adobo pepper for some more heat.",
+            "datePublished": "2020-02-18T00:16:40.000Z"
+        }
+    ]
+}

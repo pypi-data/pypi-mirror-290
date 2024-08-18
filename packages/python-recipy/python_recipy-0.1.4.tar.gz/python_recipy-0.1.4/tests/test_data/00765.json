@@ -1,0 +1,428 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019014-sweet-potato-and-gruyere-gratin#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019014-sweet-potato-and-gruyere-gratin",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2017/11/08/dining/08COOKING-POTATO2/08COOKING-POTATO2-videoSixteenByNineJumbo1600-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019014-sweet-potato-and-gruyere-gratin",
+    "name": "Sweet Potato and Gruyère Gratin",
+    "description": "This rich, cheese-laden gratin is a more savory take on the usual Thanksgiving sweet potato casserole, with sage and rosemary giving it an herbal bite. If you'd like to make it partway ahead, you can peel and slice the potatoes the day before; store in a sealable plastic bag in the fridge. You can also simmer the cream mixture (don’t add eggs) and grate the cheese the day before as well, storing them covered in the refrigerator.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2017/11/08/dining/08COOKING-POTATO2/08COOKING-POTATO2-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/11/08/dining/08COOKING-POTATO2/08COOKING-POTATO2-superJumbo-v2.jpg",
+            "height": 900,
+            "width": 1439,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/11/08/dining/08COOKING-POTATO2/08COOKING-POTATO2-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/11/08/dining/08COOKING-POTATO2/08COOKING-POTATO2-articleLarge-v2.jpg",
+            "height": 375,
+            "width": 600,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H30M",
+    "recipeYield": "12 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "christmas, thanksgiving, gruyère, parmesan, sweet potato",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1588
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 365,
+        "unsaturatedFatContent": "8 grams",
+        "carbohydrateContent": "26 grams",
+        "cholesterolContent": null,
+        "fatContent": "25 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "11 grams",
+        "saturatedFatContent": "15 grams",
+        "sodiumContent": "447 milligrams",
+        "sugarContent": "6 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 tablespoons unsalted butter, softened, for pan and foil",
+        "1/3 cup grated Parmesan",
+        "2 cups heavy cream (or half-and-half)",
+        "3 tablespoons fresh sage, chopped",
+        "1 tablespoon fresh rosemary, finely chopped",
+        "3 fat cloves garlic, grated or minced",
+        "1/4 teaspoon freshly grated nutmeg",
+        "1 1/2 teaspoons kosher salt, plus more as needed",
+        "3 large eggs, lightly beaten",
+        "3 pounds sweet potatoes (about 4 large or 5 medium), peeled",
+        "Freshly ground black pepper, to taste",
+        "1 2/3 cups/6 1/2 ounces grated Gruyère"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 400 degrees and generously butter a 9-by-13-inch baking pan or shallow gratin dish. Butter a piece of foil large enough to cover top of pan. Sprinkle Parmesan all over bottom of pan."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium pot, bring cream, sage, rosemary, garlic, nutmeg and a pinch of salt to a simmer. Simmer until reduced by 1/4, about 10 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large, heatproof bowl, whisk eggs just enough to break them up. Slowly pour hot cream into eggs to combine, whisking while pouring, and reserve the mixture."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, using a mandoline or sharp knife, slice the potatoes into 1/8-inch-thick rounds."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place 1 layer of potatoes in the pan, slightly overlapping as you go, using about a third of the slices. Sprinkle with 1/4 teaspoon salt and pepper to taste, then pour 1/3 of the egg mixture over potatoes. Top with 1/2 cup Gruyère. Repeat with another layer of potatoes, 1/2 teaspoon of salt, pepper and 1/3 egg mixture. Top with 1/2 cup Gruyère. Top with remaining potatoes, 1/4 teaspoon salt, pepper to taste, and remaining egg mixture (but not the remaining cheese). Press down to compact the potatoes. Cover with foil and bake until potatoes are tender, about 40 minutes, then remove foil, sprinkle top with remaining 2/3 cup Gruyère and bake until browned and bubbling, 25 to 30 minutes. Let cool slightly, then serve."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kirsten"
+            },
+            "reviewBody": "This is a beautiful meal. It's a little rich for every day dining, but was a perfect way to celebrate a special event",
+            "datePublished": "2023-12-22T18:51:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SleepyD"
+            },
+            "reviewBody": "My mandolin is sharp but sweet potatoes are tough. Don’t want to cut off a finger.",
+            "datePublished": "2023-12-16T04:31:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean"
+            },
+            "reviewBody": "For most potato dishes that will bake in oven,  for years I have speeded things up—and used less energy—by using the potato function of microwave as first step.\n\nFor sweet potatoes that I will roast w fish or chicken, I cut 3 or 4 slashes, the.n put a couple potatoes in microwarpve and hit the “ potato” button.  I let it cook until it switches to a countdown showing numbers.\nStop it, & put on plate to cool.   Make slices and arrange/ season  as wanted for oven.  SO much easier and quicker.",
+            "datePublished": "2023-11-21T17:47:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tessa"
+            },
+            "reviewBody": "I usually use a 9x13 pan and have just enough potatoes.",
+            "datePublished": "2024-02-04T22:04:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bob"
+            },
+            "reviewBody": "I am obviously doing something wrong. I've made this dish for the last couple of thanksgivings and it's a big hit. However, when I buy the number of sweet potatoes listed in the ingredients I have a large number of slices  left over. If I'm reading the recipe correctly there are three layers of potatoes. Do people use a 9x11 pan? I've used an oval gratin pan that is larger than 9x11 but looks considerably smaller and shallower than in the recipe's illustration.",
+            "datePublished": "2023-11-15T04:32:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Doc"
+            },
+            "reviewBody": "Works great in the microwave during heat dome events",
+            "datePublished": "2023-07-20T02:43:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DefCay"
+            },
+            "reviewBody": "Made this for my boyfriend who loves sweet potatoes however we were both a little disappointed. Followed the recipe exactly and it was very delicious all in all but the whole thing was overpowered by sage, unfortunately couldn’t even taste the other herbs and spices. Definitely want to give it another try with the herbs ratio modified and might omit the eggs. Would highly recommend for thanksgiving as a side.",
+            "datePublished": "2023-01-15T05:24:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "julie"
+            },
+            "reviewBody": "Erin made this with Italian cheese mix on top. Super delicious.",
+            "datePublished": "2023-01-05T03:17:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Misty Sack"
+            },
+            "reviewBody": "This was wonderful--Unlike other holiday sweet potato dishes (which are all so very sweet) the  spices--even garlic--helped create an unexpected savoriness--sweet & umami).  a real hit for New Year's Day dinner with family finally allowed to drive here from snowbound Buffalo! I called it \"sweet potatoes Anna\" and granddaughter Anna wolfed down at least a couple of helpings plus leftovers the next day, along with the rest of us. Will make it again!",
+            "datePublished": "2023-01-03T17:31:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy"
+            },
+            "reviewBody": "I made this for Christmas dinner and love it. I definitely agree with the make ahead suggestions offered by others in this forum.  It really pays to read over the recipe a few times. As is often the case, what appears to be simple is really a bit more involved. There are enough steps that it is challenging to make the same day.  With that said, the leftovers are fabulous and this is now one of my favorite dishes.",
+            "datePublished": "2022-12-29T18:26:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helen"
+            },
+            "reviewBody": "I just served this. Huge hit. I've made it a couple of times and remembered that I could prepare the cream mixture and slice the potatoes (in the food processor) the day ahead. It certainly made the final assembly easy, since I didn't have to worry about overly hot cream not mixing well with the eggs.",
+            "datePublished": "2022-12-26T20:28:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charles"
+            },
+            "reviewBody": "This has consistency of a savory pudding due to the 3 eggs. It’s OK, but not a gratin in the strict sense. Might be better with the eggs omitted altogether.",
+            "datePublished": "2022-12-26T01:28:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mollmwi"
+            },
+            "reviewBody": "Made this for Christmas dinner and it was delicious! A great savory take on sweet potatoes that I will definitely be making again. I read some of the comments and increased the whipping cream to 2.25 cups and only used one egg. I also added a little extra cheese. Skipped the butter and just used cooking spray for the gratin dish and foil.",
+            "datePublished": "2022-12-25T14:59:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ji Ji"
+            },
+            "reviewBody": "Tested this to see if I wanted to serve it for Christmas Eve dinner. Followed the recipe exactly and found that, for the amount of prep work, it was good but not stellar. Still, it smelled great and looked delicious so I may try it next week, prepping a goodly part ahead of time, and upping the S&P and spices.",
+            "datePublished": "2022-12-18T18:00:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "Delicious Thanksgiving side.  Everyone enjoyed this dish.  I did make the sauce one day ahead of time and didn't add the eggs.  Sauce was a probably a bit thinner due to egg omission, but still tasted great.",
+            "datePublished": "2022-11-29T21:25:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tessa"
+            },
+            "reviewBody": "This is a keeper. I had already roasted the sweet potatoes so peeled the potatoes and sliced those and assembled the dish. Omitted the first baking since the potatoes were cooked. Absolutely delicious.",
+            "datePublished": "2022-11-25T18:01:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Beth"
+            },
+            "reviewBody": "This sounds delicious. Why couldn't you make the whole thing a day early and just keep it covered in the refrigerator? Would love to know.",
+            "datePublished": "2017-11-08T16:25:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hut"
+            },
+            "reviewBody": "I believe the classic do it ahead strategy would be to follow through to the mid way point of step 5.  Bake it for the first 40 minutes, let it cool, and refrigerate overnight.  Next day let warm to room temp, add a couple of tablespoons of milk along the side of the pan and add topping of cheese and reheat for about 40 minutes (you may want to try a 350 oven for this part).",
+            "datePublished": "2017-11-08T16:56:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "I made this last night to test-drive it before Thanksgiving.  It was fun to make and tasted fabulous!  I, too, wondered about what to do with the 3 tablespoons of butter.  The only thing that made sense to me was to pull the butter into pea-size pieces and dot them around the top of the gratin at the same time I added the gruyere (after the initial 40 minutes of baking). This worked out wonderfully. The finished gratin was gorgeous and so good I had cold leftovers this morning for breakfast.",
+            "datePublished": "2017-11-10T13:26:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Klkruger"
+            },
+            "reviewBody": "This IS healthy. It's real food - not packaged, processed junk loaded with chemical preservatives and colorings.  Sure, it's cream and eggs and cheese. So what? Don't want a lot of calories? Have a portion that is smaller. \n\nCholesterol in food DOES NOT equal (or even affect) blood cholesterol levels - the notion that it does was debunked years ago.",
+            "datePublished": "2017-11-22T19:46:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet"
+            },
+            "reviewBody": "Can someone suggest another cheese?  Not fond of Gruyere.",
+            "datePublished": "2017-11-08T16:47:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris"
+            },
+            "reviewBody": "I have become a big fan of Fontina, both for it's flavor and for its melting quality. I now use it in lasagna instead of mozzarella.",
+            "datePublished": "2017-11-11T19:17:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cnieri"
+            },
+            "reviewBody": "I made this for a dry run for Thanksgiving and it was way to heavy and cheesy, totally overpowered the beauty and flavor of the sweet potatoes. For me, this is a pass.",
+            "datePublished": "2017-11-13T05:12:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Staff Editor"
+            },
+            "reviewBody": "The butter is for the pan and the foil. We've updated the recipe to reflect that! Thank you!",
+            "datePublished": "2017-11-15T15:02:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MJ"
+            },
+            "reviewBody": "Why are eggs included? ",
+            "datePublished": "2017-11-12T06:39:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Val"
+            },
+            "reviewBody": "Not sure how any recipe calling for 2 cups of cream would cause any surprise about the calories/fat content per serving. It's a Thanksgiving recipe and not intended to be a candidate for a typical weekday dinner.",
+            "datePublished": "2017-11-12T18:28:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy Hilt"
+            },
+            "reviewBody": "I made this last Sunday and reheated leftovers tasted just a good as the first time, though the cheese on top broke down more after reheating. I’d try making it ahead up to when you add the cheese on top, then finish it from that point the day of.",
+            "datePublished": "2017-11-18T20:58:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alexa"
+            },
+            "reviewBody": "Leave eggs out.",
+            "datePublished": "2017-12-03T16:58:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "VS"
+            },
+            "reviewBody": "Made this for Thanksgiving. It was delicious and creamy, with lots of fresh herby flavor. Not so sure if three eggs are necessary. The high cooking heat seemed to cook them into a scrambled egg-like consistency. Next time I will try making this without the eggs, or reducing to one to ensure binding.",
+            "datePublished": "2018-11-24T17:35:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JoAnne"
+            },
+            "reviewBody": "I missed where the 3 tablespoons of softened butter goes in the recipe.  The recipe butters the pan and foil but the ingredient list calls that \"plus more\".  I think the butter is just for the pan and foil?",
+            "datePublished": "2017-11-08T22:37:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Itzi"
+            },
+            "reviewBody": "I have done it with gouda cheese. It was delicious.",
+            "datePublished": "2017-11-11T21:35:35.000Z"
+        }
+    ]
+}

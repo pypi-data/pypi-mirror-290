@@ -1,0 +1,358 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024771-pumpkin-roll#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024771-pumpkin-roll",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/11/10/multimedia/SSe-pumpkin-roll-zqvl/SSe-pumpkin-roll-zqvl-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024771-pumpkin-roll",
+    "name": "Pumpkin Roll",
+    "description": "This basic pumpkin roll hits the spot. The cinnamon-scented cake has a soft, airy texture that works well with the decadent American buttercream filling. It’s simple and satisfying as is, but could also be a great jumping off point for experimentation: Fold a bit of chopped chocolate, toasted coconut, raisins or your favorite nuts into the cake batter, or flavor the buttercream with bits of spicy candied ginger, earthy molasses, maple syrup or floral honey. You could even swap the buttercream altogether and fill the cake with your favorite cream cheese frosting or a simple whipped cream. The possibilities are endless.",
+    "author": {
+        "@type": "Person",
+        "name": "Samantha Seneviratne"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/SSe-pumpkin-roll-zqvl/SSe-pumpkin-roll-zqvl-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/SSe-pumpkin-roll-zqvl/SSe-pumpkin-roll-zqvl-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/SSe-pumpkin-roll-zqvl/SSe-pumpkin-roll-zqvl-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/SSe-pumpkin-roll-zqvl/SSe-pumpkin-roll-zqvl-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT1H40M",
+    "totalTime": "PT1H50M",
+    "recipeYield": "8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "confectioners' sugar, ground cinnamon, make-ahead, pumpkin purée, fall, winter, thanksgiving",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 110
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 540,
+        "unsaturatedFatContent": "8 grams",
+        "carbohydrateContent": "79 grams",
+        "cholesterolContent": null,
+        "fatContent": "23 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "6 grams",
+        "saturatedFatContent": "14 grams",
+        "sodiumContent": "380 milligrams",
+        "sugarContent": "58 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Unsalted butter, for greasing",
+        "1 1/2 cups/192 grams all-purpose flour",
+        "2 teaspoons ground cinnamon",
+        "1 teaspoon baking powder",
+        "1/4 teaspoon baking soda",
+        "1 teaspoon kosher salt",
+        "1 cup/240 grams canned pumpkin purée",
+        "3 large eggs",
+        "3/4 cup/150 grams granulated sugar",
+        "1/2 cup/110 grams packed dark brown sugar",
+        "2 teaspoon pure vanilla extract",
+        "2 teaspoons apple cider vinegar",
+        "Confectioners’ sugar, for dusting",
+        "12 tablespoons/170 grams unsalted butter, at room temperature",
+        "1 1/2 cups/180 grams confectioners’ sugar",
+        "3 tablespoons/45 milliliters heavy cream",
+        "2 teaspoons pure vanilla extract",
+        "1/2 teaspoon kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 350 degrees. Butter a 13-by-18-inch rimmed baking sheet. Line it with parchment paper, then butter the parchment."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the cake: In a medium bowl, whisk together the flour, cinnamon, baking powder, baking soda and salt. In a large bowl, whisk together the pumpkin purée, eggs, granulated sugar, brown sugar, vanilla extract and vinegar until smooth. Fold the dry ingredients into the wet ingredients, whisking gently if needed to eliminate any lumps."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Spread the batter onto the prepared sheet in an even layer. (It won’t look very thick.) Bake until the cake is puffed, set and springs back when pressed gently in the center, 12 to 15 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, set a clean dish towel on a work surface. Dust with confectioners’ sugar until evenly coated."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove the cake from the oven and use a paring knife to loosen it from the edges. Immediately flip the cake out onto the prepared towel and peel off the parchment paper. Starting from one of the short edges of the towel, roll the cake and towel up into a spiral, taking care not to compress the cake. Transfer the towel-wrapped cake to a rack to cool completely, about 1 hour."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, make the filling: In a large bowl, beat the butter and confectioners’ sugar with an electric mixer on low speed until combined. Using a rubber spatula, scrape down the side of the bowl, then beat on medium-high until very light and fluffy, about 4 minutes. The mixture will lighten in color and become glossy. Beat in the cream, vanilla and salt. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Carefully unroll the cooled cake. Spread the filling evenly over the cake and then roll it back up without the dish towel. Trim about 1 inch from each end of the cake. Transfer to a serving plate, dust with confectioners’ sugar, if using, and serve immediately. (You can also make the cake in advance and refrigerate up to 24 hours. If doing so, wait to dust with confectioners’ sugar until ready to serve.)"
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-11-09T00:00:00.000Z",
+    "dateModified": "2023-11-09T03:35:32.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meryl"
+            },
+            "reviewBody": "I made this for Thanksgiving but found the cake too heavy and a bit too sweet.",
+            "datePublished": "2023-12-08T19:47:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Erin Ely"
+            },
+            "reviewBody": "I made this and used a cream cheese frosting for the filling (recipe she linked in this description).  I sprinkled a cup full of chopped walnuts over the cream cheese before rolling the cake up. I also used my freshly made pumpkin puree that I had in my freezer left over from my Thanksgiving pumpkin pie making. The cake seems very dense to me, I expected it to be much lighter.  Maybe I did something wrong?  Otherwise the flavors are good.",
+            "datePublished": "2023-12-06T17:04:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robin"
+            },
+            "reviewBody": "Loved the pumpkin roll! I used the cream cheese icing. It was sweet but not cloying. Cake was nicely spiced. I used half cup of white sugar, half cup of dark brown sugar, and it was plenty sweet. This was my first cake roll and it was fun. I will definitely make it again.",
+            "datePublished": "2023-12-02T20:35:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patty"
+            },
+            "reviewBody": "Very disappointed! I love a log cake and was so excited to make this for Thanksgiving. Followed recipe to the letter but found the cake to be completely lacking in flavor. As others have mentioned, the filling is basically like eating sugary butter and does not work well with the cake. She rolled beautifully so looked nice aesthetically but the taste was not there.",
+            "datePublished": "2023-11-23T23:48:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patty"
+            },
+            "reviewBody": "Completely agree!! Such a bummer. Hope you found a good dessert alternative for Thanksgiving!",
+            "datePublished": "2023-11-23T23:53:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "emily"
+            },
+            "reviewBody": "When I baked this, the cake was incredibly dense, cooked at the edges and raw in the middle. By the time it cooked through, it was so dry. I followed the directions and used the sheet pan specified. I’m not sure if my pumpkin (Whole Foods brand) wasn’t as liquid-y as whatever kind they tested the recipe with, but this just didn’t turn out. Seems strange that there’s no other fat in the batter.",
+            "datePublished": "2023-11-23T14:54:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ScomaPanew"
+            },
+            "reviewBody": "My goodness this is so sweet. I made it as described with the suggestion to add a little molasses to the frosting. But I found both the cake and the frosting far too sweet. I used the pan size described in the recipe and there was too little batter so it was hard to it to spread to the the edges and it was difficult to get an even bake. If I make again I will reduce sugar and use a slightly smaller pan size.",
+            "datePublished": "2023-11-22T05:26:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Too Salty"
+            },
+            "reviewBody": "Frosting is very salty. Agree with other comments that a cream cheese frosting would be better. The cake could have more flavor.",
+            "datePublished": "2023-11-22T03:05:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deb Shaw"
+            },
+            "reviewBody": "I have traditionally filled with a block of cream cheese combined with 3 T butter + powdered sugar + vanilla. It's a perennial winner in our family",
+            "datePublished": "2023-11-20T14:19:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Belle"
+            },
+            "reviewBody": "I had high hopes for this pretty cake, and most reviewers’ issues were with the filling, which I planned to swap for cream cheese filling. Didn’t even make it that far, as the sponge was inedible. I followed the recipe to the letter, mixed the dry ingredients gently, and baked for 10 minutes with my oven thermometer reading at 350. It came out tough as old boots and dense as ever. A true disappointment.",
+            "datePublished": "2023-11-19T16:26:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "I also am not wild about butter cream and plan to adapt the mascarpone and whipped heavy cream from the NYT \"Raspberry and Cream Roulade\" recipe (Claire Saffitz).  Also, may try roasting pumpkin seeds tossed in mapple syrup and drizzling over the top instead of confectionary sugar (messy and little taste).  Finally, too much cinnamon for my taste - will cut in half and add instead powdered ginger and maybe a little clove, allspice and/or mace.",
+            "datePublished": "2023-11-14T15:52:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Wright"
+            },
+            "reviewBody": "For the filling use cream cheese instead of butter.",
+            "datePublished": "2023-11-11T19:43:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Neul"
+            },
+            "reviewBody": "I just made this as practice before I make it for real on thanksgiving. Excellent flavor, very moist. 12 minutes in oven . Rolled perfectly. My only issue was pan size. My half sheet pans are 14x 19.5”. My rimmed cookie sheets are 10x15. I decided to use the smaller pan and did some math to figure out how much batter to leave off. (I baked the leftover in a 5” round pan and ate as a snack!) the whole thing came out perfectly!",
+            "datePublished": "2023-11-11T18:39:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dimitroula"
+            },
+            "reviewBody": "I'd already decided to fill this cake with a cream cheese frosting. Best-ever and easiest recipe:\n560g full-fat cream cheese + 200ml heavy cream + 150g conf. sugar + 1 tsp ground cinnamon + 1 tsp. vanilla.\nCombine all ingredients in stand mixer with whisk attachment on low speed, then increase speed to medium-high until firm peaks form. (The yield will be too much for this cake, so adjust overall proportion accordingly.)",
+            "datePublished": "2023-11-11T19:01:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cbmeckfessel"
+            },
+            "reviewBody": "I have always thought the Land O Lakes, Libby pumpkin roll was the standard. The filling in that has 8 oz of cream cheese, 6 Tbsp butter, 1 cup confectioner's sugar and a teaspoon of vanilla extract. It is more like a cream cheese frosting than a butter cream. But as stated, \"to each his/her own.\"",
+            "datePublished": "2023-11-11T16:39:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sarah"
+            },
+            "reviewBody": "Like another reviewer I found the filling to be too buttery. Maybe adding some cream cheese in lieu of the butter would work? The cake itself was good and the directions for creating a good roll were helpful!",
+            "datePublished": "2023-11-11T04:31:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cbmeckfessel"
+            },
+            "reviewBody": "I have always thought the Land O Lakes, Libby pumpkin roll was the standard. The filling in that has 8 oz of cream cheese, 6 Tbsp butter, 1 cup confectioner's sugar and a teaspoon of vanilla extract. It is more like a cream cheese frosting than a butter cream. But as stated, \"to each his/her own.\"",
+            "datePublished": "2023-11-11T16:39:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dimitroula"
+            },
+            "reviewBody": "I'd already decided to fill this cake with a cream cheese frosting. Best-ever and easiest recipe:\n560g full-fat cream cheese + 200ml heavy cream + 150g conf. sugar + 1 tsp ground cinnamon + 1 tsp. vanilla.\nCombine all ingredients in stand mixer with whisk attachment on low speed, then increase speed to medium-high until firm peaks form. (The yield will be too much for this cake, so adjust overall proportion accordingly.)",
+            "datePublished": "2023-11-11T19:01:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lex"
+            },
+            "reviewBody": "Pretty good but I found the filling to be too buttery. Unfortunately I’d already put it into the roll. I’m guessing adding a bit more confectioner’s sugar or vanilla or cream would get rid of the taste. My friend really liked her slice of the roll so I suppose to each their own!",
+            "datePublished": "2023-11-11T00:44:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Neul"
+            },
+            "reviewBody": "I just made this as practice before I make it for real on thanksgiving. Excellent flavor, very moist. 12 minutes in oven . Rolled perfectly. My only issue was pan size. My half sheet pans are 14x 19.5”. My rimmed cookie sheets are 10x15. I decided to use the smaller pan and did some math to figure out how much batter to leave off. (I baked the leftover in a 5” round pan and ate as a snack!) the whole thing came out perfectly!",
+            "datePublished": "2023-11-11T18:39:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "I also am not wild about butter cream and plan to adapt the mascarpone and whipped heavy cream from the NYT \"Raspberry and Cream Roulade\" recipe (Claire Saffitz).  Also, may try roasting pumpkin seeds tossed in mapple syrup and drizzling over the top instead of confectionary sugar (messy and little taste).  Finally, too much cinnamon for my taste - will cut in half and add instead powdered ginger and maybe a little clove, allspice and/or mace.",
+            "datePublished": "2023-11-14T15:52:52.000Z"
+        }
+    ]
+}

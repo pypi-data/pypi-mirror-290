@@ -1,0 +1,65 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Pesto Ravioli with Chicken",
+    "keywords": "pesto ravioli with chicken",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/1FrZf6DzWkiIrbcHlFAPNA_webp_base.webp?v=f107555b&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Help yourself to a savory, stove-top dish that's ready in a flash.",
+    "recipeIngredient": [
+        "2  teaspoons olive or vegetable oil",
+        "1  pound chicken breast tenders (not breaded)",
+        "3/4  cup Progresso™ chicken broth (from 32-oz carton)",
+        "1  package (9 oz) refrigerated cheese-filled ravioli",
+        "3  small zucchini, cut into 1/4-inch slices",
+        "1  large red bell pepper, thinly sliced",
+        "1/4  cup basil pesto",
+        "  Freshly grated Parmesan cheese, if desired"
+    ],
+    "totalTime": "PT0H30M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "69",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 12-inch skillet, heat oil over medium-high heat. Cook chicken in oil about 4 minutes, turning occasionally, until brown. Remove chicken from skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add broth and ravioli to skillet. Heat to boiling; reduce heat. Cover and simmer about 4 minutes or until ravioli are tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir zucchini, bell pepper and chicken into ravioli. Cook over medium-high heat about 3 minutes, stirring occasionally, until vegetables are crisp-tender and chicken is no longer pink in center. Toss with pesto. Sprinkle with cheese."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "440 ",
+        "carbohydrateContent": "34 g",
+        "cholesterolContent": "85 mg",
+        "fatContent": "1 ",
+        "fiberContent": "3 g",
+        "proteinContent": "36 g",
+        "saturatedFatContent": "6 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "660 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "03/05/2001",
+    "dateModified": "10/22/2008"
+}

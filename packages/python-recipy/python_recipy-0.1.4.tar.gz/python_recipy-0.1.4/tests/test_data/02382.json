@@ -1,0 +1,55 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Sweet Potato Chicken Nuggets",
+    "keywords": "sweet potato chicken nuggets",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/Rlq9OhidMEG_J68BFUVtAw_webp_base.webp?v=479da06c&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Sweet and savory, these nuggets are  great way to get more veggies on the dinner table. Make a double batch and freeze them for a quick weeknight meal.",
+    "recipeIngredient": [
+        "2  sweet potatoes, peeled, cut into 2-inch pieces",
+        "1  egg",
+        "1  cup Progresso™ Italian style panko crispy bread crumbs",
+        "2  tablespoons grated Parmesan cheese",
+        "2  boneless skinless chicken breasts, cut into 1- to 2-inch pieces"
+    ],
+    "totalTime": "PT0H40M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Cheri Liefeld"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 400°F. Spray cookie sheet with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 2-quart saucepan, place sweet potatoes and enough water to cover. Heat to boiling; boil uncovered about 10 minutes or until tender. Drain; cool slightly. In food processor, process sweet potatoes until pureed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, beat egg and 1 cup of the sweet potato puree. (Refrigerate any remaining puree for later use.) In another bowl, mix bread crumbs and cheese. Dip chicken pieces in egg mixture, then in crumb mixture. Place on cookie sheet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 15 to 20 minutes, turning once halfway through baking time, or until coating is golden brown and chicken is no longer pink in center."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 Serving"
+    },
+    "dateCreated": "09/28/2012",
+    "dateModified": "09/30/2012"
+}

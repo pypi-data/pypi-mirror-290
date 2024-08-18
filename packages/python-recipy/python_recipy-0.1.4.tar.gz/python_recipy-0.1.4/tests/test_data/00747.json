@@ -1,0 +1,391 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1018203-simple-crusty-bread#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1018203-simple-crusty-bread",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-googleFourByThree-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1018203-simple-crusty-bread",
+    "name": "Simple Crusty Bread",
+    "description": "We thought we’d landed upon the simplest yeast bread recipe in 2007, when Mark Bittman wrote about the no-knead approach of Jim Lahey, owner of Sullivan Street Bakery. It quickly became (and remains) one of our most popular recipes because it made bakery-quality bread a real possibility for home cooks. But then we heard about Jeff Hertzberg, a physician from Minneapolis, who devised a streamlined technique for a crusty loaf of bread. Mix flour, salt, yeast and water. Let it sit a bit, refrigerate it, take some out and let it rise, then bake it. The crusty, full-flavored loaf that results may be the world’s easiest yeast bread.",
+    "author": {
+        "@type": "Person",
+        "name": "Nick Fox"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-googleFourByThree-v2.jpg",
+            "height": 600,
+            "width": 800,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2017/08/08/insider/simple-crusty-bread/simple-crusty-bread-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT3H45M",
+    "recipeYield": "4 loaves",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "plan-ahead, yeast",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 7698
+    },
+    "recipeIngredient": [
+        "1 1/2 tablespoons yeast",
+        "1 1/2 tablespoons kosher salt",
+        "6 1/2 cups unbleached, all-purpose flour, more for dusting dough",
+        "Cornmeal"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl or plastic container, mix yeast and salt into 3 cups lukewarm water (about 100 degrees). Stir in flour, mixing until there are no dry patches. Dough will be quite loose. Cover, but not with an airtight lid. Let dough rise at room temperature 2 hours (or up to 5 hours)."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake at this point or refrigerate, covered, for as long as two weeks. When ready to bake, sprinkle a little flour on dough and cut off a grapefruit-size piece with serrated knife. Turn dough in hands to lightly stretch surface, creating a rounded top and a lumpy bottom. Put dough on pizza peel sprinkled with cornmeal; let rest 40 minutes. Repeat with remaining dough or refrigerate it."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place broiler pan on bottom of oven. Place baking stone on middle rack and turn oven to 450 degrees; heat stone at that temperature for 20 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Dust dough with flour, slash top with serrated or very sharp knife three times. Slide onto stone. Pour one cup hot water into broiler pan and shut oven quickly to trap steam. Bake until well browned, about 30 minutes. Cool completely."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CO"
+            },
+            "reviewBody": "i also had an issue with the dough being super sticky and goopy. Not sure how to fix that. If i male it again, will put it in my bread machine. Maybe that would help?",
+            "datePublished": "2024-04-29T02:18:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maureen"
+            },
+            "reviewBody": "I made the dough last night and put one loaf in the oven this afternoon. It turned out very well. The texture was good. The only issue I have was that it was too salty. I read the comments and someone had said as long as the coarse Kosher salt was used it was fine. I disagree. It’s much saltier than I like. My general rule of thumb when making bread is 1 tsp of water per cup of water. I’ll do that next time. Otherwise this recipe is a keeper.",
+            "datePublished": "2024-04-28T23:55:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janice Koppell"
+            },
+            "reviewBody": "For 1 loaf *with changes \n\n1 1/2 tsp yeast\n1 1/2 tsp salt \n2 cups plus 3 tbsp flour\n1 cup warm (not hot) water\n1/3 tsp sugar (to proof yeast ) \n\n  Add 1 1/2 tsp yeast and 1/2 tsp sugar  to 1 cup warm water (not hot) proof 10 minutes \nAdd 1 cup of flour to the yeast / water before adding 1 1/2 tsp salt \n\nThen add 1 cup plus 3 tbsp flour - \n\nfollow rest of recipe as written",
+            "datePublished": "2024-04-11T14:48:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alianico"
+            },
+            "reviewBody": "Made this last night as a first time bread maker. Used a 450 degree preheated cast iron skillet with parchment paper and water in pan on bottom rack. Thirty minutes baking. It was delicious but did note a little burning on top on one side. Not sure why. Will make again for sure.",
+            "datePublished": "2024-04-07T19:41:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "reviewBody": "I just made this bread yesterday and I'm making another loaf right now!  I have skipped the water in the pan because I am, well, kinda lazy.  I can imagine it might improve an already great recipe.  Thanks to Scott from 5 years ago who reduced the portions for a single small loaf. This is a marvelous loaf. I made some Tuscan soup and it paired deliciously.",
+            "datePublished": "2024-04-06T22:29:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dhwsmith"
+            },
+            "reviewBody": "Texture was very homogenous--finely textured.",
+            "datePublished": "2024-03-10T00:32:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessalyn"
+            },
+            "reviewBody": "This was my first ever attempt at bread and it came out beautifully! Didn't have cornmeal and used a ceramic Dutch oven style pan instead of a stone. I didn't even have kosher salt but I had fine sea salt and it was incredible. Great beginner recipe. PS: this makes a ton of bread. I have a small oven and limited bakeware so will definitely stick to a half recipe next time.",
+            "datePublished": "2024-02-28T00:46:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "debra"
+            },
+            "reviewBody": "This is so easy! And thank you fellow commenters—since I don’t have a pizza stone, took advice to use Dutch oven,  bake covered for 20 minutes and uncovered for 10. Perfect!",
+            "datePublished": "2024-02-20T17:52:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "E."
+            },
+            "reviewBody": "Secret tips for even tastier bread. Two options!\n\nAdd two tablespoons rye flour\n\nAdd two tablespoons buttermilk powder\n\nUse thermometer and bake to internal temp 200 degrees\n\nHave pan heating in bottom of oven, place bread top rack.\nImmediately add a cup or two ice cubes to hot pan bottom rack.",
+            "datePublished": "2024-02-13T20:46:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "E."
+            },
+            "reviewBody": "You can cook in covered container for self contained steam\nOr use method of hot pan with ice cubes with bread no top.",
+            "datePublished": "2024-02-13T20:48:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judy"
+            },
+            "reviewBody": "If this was supposed to make 4 loaves, I must have done something wrong. It made 4 miniature, hand-size loaves that did not rise, and they were not crilusth.",
+            "datePublished": "2024-02-11T16:35:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "What kind of yeast? Active dry or instant?",
+            "datePublished": "2024-02-06T19:12:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tracey"
+            },
+            "reviewBody": "Someone called this \"Voodo,\" and they were correct.  This bread is PERFECT and perfectly wonderful! I did use Ann Steeves' tip with regard to proofing the yeast first with 1t sugar, then adding 1 cup flour and THEN the kosher salt.Was slightly too salty, so next time I will adjust to 1T Kosher Salt. Granted, the dough was very difficult to work with/STICKY. On the next batch, I took the dough and dumped it in my Kitchen Aid mixer with a dough hook and added flour there. Worked great!  Delicious!",
+            "datePublished": "2024-02-06T22:48:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz Foster"
+            },
+            "reviewBody": "Why take a lump out???",
+            "datePublished": "2024-02-06T01:53:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martin S"
+            },
+            "reviewBody": "Fantastically easy & good! Full recipe makes three perfectly medium-sized loafs. Took a bit longer than the indicated time, probably a bit over 40min.",
+            "datePublished": "2024-02-04T15:21:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cedric"
+            },
+            "reviewBody": "775g flour<br/>8g yeast<br/>23g salt<br/>630g water",
+            "datePublished": "2017-10-01T14:18:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "paul"
+            },
+            "reviewBody": "Must have done something wrong. Most of the dough wound up attached to me and half the kitchen. I think it could be weaponized and used to subdue the enemy or large rioting mobs in thick, inescapable goo. ",
+            "datePublished": "2017-10-01T13:18:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scott"
+            },
+            "reviewBody": "I reduced this recipe by 1/3 and it makes a loaf just the right size for a family of 4.\n1 1/2 tsp yeast\n1 1/2 tsp salt\n2 cups + 3 tbsp flour\n1 cup water\n\nI also used a cast iron dutch oven to bake in the oven.  Preheat the oven and dutch oven to 450 for 30 minutes.  Put the dough in the dutch oven and bake for 30 minutes covered.  After 30 minutes, remove the lid and bake for 5 more minutes.  Works beautifully without need for pizza stone or water.",
+            "datePublished": "2018-11-02T18:00:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "I divided the recipe by three and made a single loaf. Didn't have a pizza peel, a baking stone, or cornmeal (the student life), so I put the dough on parchment paper and added a pan of hot water to the oven. Turned out just fine. Perfect crust, big air pockets. Super easy. Will make again.",
+            "datePublished": "2017-10-01T13:08:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mountainweaver"
+            },
+            "reviewBody": "To those who found the dough too loose, and anyone else who questions how much flour..... flour absorbs moisture from the air. I can make the same recipe every month and have to adjust the flour for the humidity. The rule to follow is \"the dough should feel like a babies bottom\" soft, pliable, but not sticky. Whatever amount of flour it takes on that day is the amount you use. Go by feel, your judgement is the best guide..",
+            "datePublished": "2017-10-01T18:00:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann Steeves"
+            },
+            "reviewBody": "I made this today, and OMG it is so good, and easy! By far the simplest bread recipe I've made. I made two very slight changes. First, I added a teaspoon of sugar to the yeast/water and let it proof for 10 minutes. Second, I added a cup of flour before I added the salt (I read somewhere a long time ago that yeast doesn't like salt, so adding a cup of flour first insulates the yeast). It turned out amazing. This is a keeper!",
+            "datePublished": "2017-10-22T17:15:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike Burton"
+            },
+            "reviewBody": "Corrected weights are:\n\n681g water\n16g salt\n923g AP flour\n14g yeast\n\nThe values from Cedric and terryslo are incorrect.\n\nSources:\n- The Food Lab\n- Red Star yeast",
+            "datePublished": "2019-03-04T02:57:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Casey"
+            },
+            "reviewBody": "This bread was a great accompaniment to a pot of escarole soup I made tonight with its nice crispy crust. I was a little apprehensive as I took a few shortcuts with the time I let it rise (I used quick yeast) and I didn't have a pizza peel or baking stone. I omitted the cornmeal, greased a cookie sheet with olive oil, and threw a little casserole dish with some water on the bottom rack for steam. It turned out awesome and came together in a little over an hour and a half start to finish.",
+            "datePublished": "2017-10-24T22:27:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rob Brown"
+            },
+            "reviewBody": "This has been my go-to bread recipe since the day that Obama won his first Presidential election. I saved the local newspaper announcing his victory and this recipe was in the food section.  \n\nAfter refrigerating the dough overnight, I divide the dough into three portions and I make baguettes, rising on an olive-oiled baguette tray.  Follow all the normal baking instructions.  The baked loaves are perfect for appetizers—just have plenty of butter and cheese on hand!",
+            "datePublished": "2018-04-20T19:28:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Sayler"
+            },
+            "reviewBody": "I find an iron frying pan to be a great substitute for a pizza stone.  I put it in the oven and heat it just as you would a pizza stone. Make your loaf and let it rise on a piece of parchment.  When risen pick up the parchment and place parchment and loaf into the frying pan.  Carry on as if you were using a stone.  I started doing this even though I have a stone when I was developing a sourdough bread recipe for someone who didn't have a stone.",
+            "datePublished": "2018-03-21T21:12:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rodney"
+            },
+            "reviewBody": "I made this for the second time last night. For a fast bread that you need in a hurry you can't beat this one. I didn't feel like fooling with the stone so I used my cast-iron skillet, which is much easier to get in and out of the oven. I wonder if the people that say this bread is too salty are using regular table salt and not the big Kosher salt. That would make a big difference on how salty it is. ",
+            "datePublished": "2017-10-01T13:00:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kaija"
+            },
+            "reviewBody": "I found even with the water in the oven that I didn’t get the sort of crust I get on regular sourdough rounds. The second loaf I ended up baking inside of a Dutch oven (heated in the oven for the same time and temp as the stone), keeping it covered for 25 minutes and uncovered for 10. I ended up with a better rise and a much better crackled crust. (But what an easy and fool-proof recipe!)",
+            "datePublished": "2019-02-23T19:47:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ed from Boston"
+            },
+            "reviewBody": "I use a similar recipe.  After its first 2 hr. rest, I put it in refrigerator for 2 hrs. then let the grapefruit sized loaf rise on parchment paper for an hour and slash top 3 times front to back 1/2\" deep.  I then place the bread on the paper on a large stone to bake.  Otherwise follow the recipe.  I always use bread flour or french flour. Sometimes I substitute, for 2 cups of the white flour, 2 cups or whole wheat.  Fantastic bread.",
+            "datePublished": "2017-10-24T21:07:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Corey"
+            },
+            "reviewBody": "What sort of voodoo is this? I have no baking experience whatsoever but now have some free time during the pandemic and a bunch of hungry kids, so I have used this ridiculously easy recipe in my wife's dutch oven and I am banging out loaf after loaf of consistently delicious crunchy bread. This is a remarkable and simple recipe for a beginner.",
+            "datePublished": "2020-04-01T21:55:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Angel"
+            },
+            "reviewBody": "Follow cedric's advice and measure the flour by weight (as you should for all baking recipes) - 775 g of all purpose flour - and your loaf won't end an oaf. It's too bad this recipe's measurements are so far off from that weight estimate - I measured 900g+ for 6.5 cups of flour with my scale. 775 g (which is what I used) ended up being about 5+change cups of flour. Big difference. Get a scale and shoot for 775 g.",
+            "datePublished": "2017-10-01T18:22:08.000Z"
+        }
+    ]
+}

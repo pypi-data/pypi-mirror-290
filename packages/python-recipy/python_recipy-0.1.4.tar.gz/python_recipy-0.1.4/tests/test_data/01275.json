@@ -1,0 +1,151 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Chicken Tamale Pie, Version 2",
+    "description": "A second version of my favorite recipe ever - Chicken Tamale Pie! This one has a tamale crust made from scratch and uses Smart Balance eggs, milk, and oil.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "chicken tamale pie, tamale crust",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/chicken-tamale-pie-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-tamale-pie-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-tamale-pie-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-tamale-pie.jpg"
+    ],
+    "url": "https://pinchofyum.com/chicken-tamale-pie-2",
+    "recipeIngredient": [
+        "⅔ cup all purpose flour",
+        "½ cup yellow cornmeal",
+        "3 tablespoons sugar",
+        "1 tablespoon baking powder",
+        "¼ teaspoon salt",
+        "2 tablespoons Smart Balance cooking oil",
+        "⅓ cup Smart Balance low fat milk",
+        "1 Smart Balance Omega-3 Grade A Natural Large egg",
+        "1½ tablespoon taco seasoning, divided",
+        "1 &#8211; 14 ounce can cream-style corn",
+        "1 &#8211; 4 ounce can chopped green chiles, drained",
+        "1 &#8211; 10 ounce can red enchilada sauce",
+        "2 cups cooked, shredded chicken breast",
+        "1 cup shredded white cheese such as Jack or Pepperjack",
+        "cilantro and crumbled Cotija cheese for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°.",
+            "url": "https://pinchofyum.com/chicken-tamale-pie-2#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the flour, cornmeal, sugar, baking powder, salt, ½ tablespoons taco seasoning, and oil in a large bowl until soft and crumbly. Whisk in the milk, egg, green chiles, and cream-style corn. Pour mixture into a round 10-inch pie plate. Bake at 400° for 20-30 minutes.",
+            "url": "https://pinchofyum.com/chicken-tamale-pie-2#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While corn is baking, toss the chicken in the remaining 1 tablespoon taco seasoning. When corn is done, pierce entire surface with a fork. Pour enchilada sauce over top. Top with chicken; sprinkle with cheese. Bake at 400° for 15 minutes or until cheese melts and sauce is bubbling. Remove from oven; let stand 5 minutes. Cut into 8 pieces; top each serving with cilantro and Cotija cheese.",
+            "url": "https://pinchofyum.com/chicken-tamale-pie-2#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT45M",
+    "totalTime": "PT1H",
+    "recipeYield": "8",
+    "recipeCategory": [],
+    "recipeCuisine": "Mexican",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "8",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "300 calories",
+        "sugarContent": "8.1 g",
+        "sodiumContent": "686 mg",
+        "fatContent": "7.8 g",
+        "saturatedFatContent": "2 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "30.4 g",
+        "fiberContent": "1.8 g",
+        "proteinContent": "17.9 g",
+        "cholesterolContent": "65.3 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "MRS STARBUCK"
+            },
+            "datePublished": "2012-10-02",
+            "reviewBody": "We must be cosmically connected or something...I visit your blog all the time but just today I had about half of a roasted, shredded pork shoulder sitting in my fridge starring awkwardly at me.  I mean, really, of all the nerve! I used a cup of frozen corn and subbed in the socially inept pork for the chicken and it was CRAZY GOOD!  I enjoyed every last bite and can't wait to have it for leftovers.  Thanks so much for posting this creative, easy, tasty dish.  VOTE FOR TAMALE PIE!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Hayley"
+            },
+            "datePublished": "2012-10-02",
+            "reviewBody": "So excited for you with this opportunity!!!  I have been following your blog for a while and tried several of your delicious recipes!  Chicken tamale pie happened to be one of the first recipes of yours I made, and it was sooo good!  I just voted!  I hope you win!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Brittany"
+            },
+            "datePublished": "2012-10-03",
+            "reviewBody": "We made this recipe last night and then I hope on your blog and see this!! My whole family (including my 4 year old) LOVED this meal. It has now made its way into the rotation along with lots of your recipes. Thanks for your recipes and taking us on your incredible journey overseas and with those precious children."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "datePublished": "2012-10-03",
+            "reviewBody": "Voted!! I love your blog and recipes! The carnitas recipe is rocking out in my crockpot today and I look forward to turning it into a tamale pie!! Good luck!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Meg Teckman-Fullard"
+            },
+            "datePublished": "2012-10-20",
+            "reviewBody": "I love this recipe. My friends beg for it all the time. I do hope you win (and I'm totally down with a beach party with you)."
+        }
+    ],
+    "datePublished": "2012-10-02",
+    "@id": "https://pinchofyum.com/chicken-tamale-pie-2#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/chicken-tamale-pie-2#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/chicken-tamale-pie-2"
+}

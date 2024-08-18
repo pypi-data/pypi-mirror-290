@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Wine-Braised Brisket",
+    "datePublished": "2016-02-29T14:09:23.000-05:00",
+    "dateModified": "2019-10-09T00:10:07.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "For a springtime spin on the classic brisket recipe, we braised the meat in a dry white wine instead of the usual heavier red. Braising makes the brisket juicy and tender.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/zFV9ooFYIe7b-NpkO2P002H8Bso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/brisket-sliced-003-d112713-0416-horizontal_0_horiz-2c5ab75ca4334503bb0a7f03e4856c09.jpgitokoEap6i7d",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Wine-Braised Brisket",
+    "keywords": "Brisket, Brisket, Buffet, Carrots, Dinner, Main course, Mustard, Passover, Potluck, Religious celebrations, Shallots, Thyme, Turnips, White wines, Yukon Gold potatoes",
+    "prepTime": "PT45M",
+    "recipeIngredient": [
+        "1 \"first cut\" beef brisket (5 pounds), fat trimmed to ¼ inch thick",
+        "Coarse salt and freshly ground pepper",
+        "0.25 cup extra-virgin olive oil",
+        "6 shallots, peeled and halved",
+        "5 cloves garlic, peeled",
+        "0.25 cup potato starch",
+        "1.5 cups dry white wine, such as Sauvignon Blanc",
+        "4 cups low-sodium chicken broth",
+        "0.25 cup grainy mustard",
+        "3 long strips lemon zest, plus 2 tablespoons fresh lemon juice",
+        "6 sprigs thyme",
+        "1.5 pounds baby Yukon Gold potatoes, scrubbed clean",
+        "4 medium carrots, peeled and cut into 3-inch pieces",
+        "1 small turnip, peeled and cut into 4 wedges"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 300 degrees. Generously season brisket with salt and pepper. Heat 2 tablespoons oil in a large Dutch oven over medium-high. Sear brisket until browned, 4 to 5 minutes a side; transfer to a plate. Drain fat from pot and discard. Reduce heat to medium; add remaining 2 tablespoons oil, shallots, garlic, and potato starch and cook, stirring, 2 minutes. Stir in wine, scraping up any browned bits from bottom of pot. Add broth, mustard, zest, and thyme; bring to a boil. Add meat and any accumulated juices. Cover and transfer to oven; cook 2 hours, 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flip meat over; add vegetables. Cover and continue to cook until everything is very tender, about 45 minutes. (If you&#39;re saving it for the next day, let cool, then cover and refrigerate overnight. Reheat, covered, in a 350 degrees oven until warmed through, about 40 minutes.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer vegetables to a platter and meat to a cutting board; season with salt. Skim fat from liquid in pot. Stir in lemon juice; season with salt and pepper. Slice brisket against the grain and serve, with vegetables and sauce."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT225M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1146995/wine-braised-brisket",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505014/beef-recipes",
+                        "name": "Beef Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502430/brisket-recipes",
+                        "name": "Brisket Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1146995/wine-braised-brisket",
+                        "name": "Wine-Braised Brisket"
+                    }
+                }
+            ]
+        }
+    }
+}

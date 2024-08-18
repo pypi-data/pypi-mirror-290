@@ -1,0 +1,101 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/sichuan-style-yuxiang-aubergine#Recipe",
+    "@type": "Recipe",
+    "description": "Share this veggie Sichuan dish with friends as part of a Chinese banquet with steamed jasmine rice. It used minced soy for a meaty texture",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/12/Sichuan-style-yusiang-aubergine-a91877a.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/sichuan-style-yuxiang-aubergine"
+    },
+    "name": "Sichuan-style yuxiang aubergine",
+    "url": "https://www.bbcgoodfood.com/recipes/sichuan-style-yuxiang-aubergine",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ching-He Huang",
+            "url": "https://www.bbcgoodfood.com/author/chinghehuang"
+        }
+    ],
+    "dateModified": "2022-11-08T15:04:17+00:00",
+    "datePublished": "2022-01-26T11:03:04+00:00",
+    "headline": "Sichuan-style yuxiang aubergine",
+    "keywords": "Aubergine, chinese dishes, minced soy, Sharing dishes",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "327 calories",
+        "fatContent": "9 grams fat",
+        "saturatedFatContent": "1 grams saturated fat",
+        "carbohydrateContent": "31 grams carbohydrates",
+        "sugarContent": "11 grams sugar",
+        "fiberContent": "4 grams fiber",
+        "proteinContent": "28 grams protein",
+        "sodiumContent": "2.9 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": "Chinese",
+    "recipeIngredient": [
+        "200g  dehydrated minced soy",
+        "2 tbsp  rapeseed oil",
+        "200g (3-4)  baby aubergines, trimmed and sliced into quarters lengthways",
+        "1 tsp  toasted whole Sichuan pepper",
+        "2 garlic cloves, finely chopped",
+        "2.5cm piece ginger, peeled and finely grated",
+        "1 red chilli, deseeded and finely chopped",
+        "2 tbsp  dark soy sauce",
+        "1 heaped tbsp  chilli bean paste",
+        "2 tbsp  shaoxing rice wine  or dry sherry",
+        "2 spring onions, trimmed and finely sliced, to garnish",
+        "200ml vegetable stock , cold",
+        "2 tbsp  chinkiang black rice vinegar",
+        "2 tbsp  tamari or low-sodium light soy sauce",
+        "1 tbsp  toasted sesame oil",
+        "1 tbsp  golden syrup or agave syrup",
+        "1 tbsp cornflour"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tip the minced soy into a bowl, pour over 400ml hot boiling water from the kettle. Fluff up the grains. Set aside for 5 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir all the ingredients for the sauce in a jug. Set aside until needed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a wok over a high heat until smoking, then add 1 tbsp rapeseed oil. Add the aubergines and cook, stirring, for 5 mins, until browned. As you cook it, keep adding drops of water, up to about 50ml in total. This will create steam to help soften the aubergine (rather than frying it in lots of oil). Repeat this process about three times until the aubergines have softened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Push the aubergine to the far side of the wok (away from you). Add the remaining 1 tbsp rapeseed oil. Add the Sichuan pepper, garlic, ginger and chilli, and stir for a few seconds, then toss into the aubergines. Push this all to one side of the wok, then add the rehydrated minced soy and stir for 30 seconds. Season with the dark soy sauce, chilli bean paste and shaoxing rice wine or dry sherry. Pour over the sauce from the jug and bring to the bubble, cooking for 1-2 mins on high heat until the sauce thickens. Give it a final mix. Turn off the heat. Sprinkle over the spring onions and serve immediately with jasmine rice."
+        }
+    ],
+    "recipeYield": "Serves 4 to share ",
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT30M"
+}

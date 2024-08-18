@@ -1,0 +1,484 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/tilapia-lemon-sauce/",
+    "name": "Tilapia & Lemon Sauce",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-02-10",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Tilapia-Lemon-Sauce_EXPS_FT20_42077_F_0402_1_home.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Serve this lemon tilapia with any tossed salad full of your favorite vegetables and buttered bread. It's easy, quick and unique. And it's a big hit with company, too. —Susan Taul, Birmingham, Alabama",
+    "recipeIngredient": [
+        "1/4 cup plus 1 tablespoon all-purpose flour, divided",
+        "1 teaspoon salt",
+        "4 tilapia fillets (4 ounces each)",
+        "2 tablespoons plus 2 teaspoons butter, divided",
+        "1/3 cup reduced-sodium chicken broth",
+        "2 tablespoons white wine or additional reduced-sodium chicken broth",
+        "1-1/2 teaspoons lemon juice",
+        "1-1/2 teaspoons minced fresh parsley",
+        "2 cups hot cooked rice",
+        "1/4 cup sliced almonds, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a shallow bowl, combine 1/4 cup flour and salt. Dip fillets in flour mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large nonstick skillet, cook fillets in 2 tablespoons butter over medium-high heat until fish just begins to flake with a fork, 4-5 minutes on each side. Remove and keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the same skillet, melt remaining 2 teaspoons butter. Stir in remaining 1 tablespoon flour until smooth; gradually whisk in broth, wine and lemon juice. Bring to a boil; cook and stir until thickened, about 2 minutes. Stir in parsley. Serve fish and sauce with rice; garnish with almonds."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 334 calories",
+        "fatContent": "12g fat (6g saturated fat)",
+        "cholesterolContent": "76mg cholesterol",
+        "sodiumContent": "593mg sodium",
+        "carbohydrateContent": "30g carbohydrate (1g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "26g protein. <b>Diabetic Exchanges</b>: 3 lean meat"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.521739,
+        "reviewCount": 23,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-01-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JenInTX77"
+            },
+            "reviewBody": "Very easy and good!  I doubled the lemon juice and didn't even bother with the almonds or parsley.  My 6 year old even loved it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-01-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cocosmom0426"
+            },
+            "reviewBody": "Tasted like a dinner from a gourmet restuarant.  Unbelievably delicious!  Used olive oil for frying instead of butter and served with steamed broccoli",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-03-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jenniemsrich"
+            },
+            "reviewBody": "Loved it!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "got2bn2it"
+            },
+            "reviewBody": "Getting ready to try without the parsley...",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mmay402"
+            },
+            "reviewBody": "This was awesome!! it dont make much sauce,but you only need a little.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-11-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "homemadewithlove"
+            },
+            "reviewBody": "My family loved the fish and sauce. Didn't have almonds but will try next time. Even used gluten free flour. Served with the Vegetable Trio as pictured.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-06-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lodean"
+            },
+            "reviewBody": "I loved this! It was delightfully fresh and flavorful. I would have liked a little more sauce. Will definitely make this again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-02-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mumsay"
+            },
+            "reviewBody": "The fish was good - the sauce not so much.  I made it with white cooking wine, which ruined the taste.  I'll try chicken broth next time.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-10-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "SpinningYogini"
+            },
+            "reviewBody": "I made this last night with Pacific cod.  It's quick and easy, yet flavorful.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-08-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "xlsalbums"
+            },
+            "reviewBody": "Fish is really good but there wasn't enough sauce.  I would double that next time and add a little more liquid.  It thickens pretty quickly and doesn't pour.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-02-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "SRAdair"
+            },
+            "reviewBody": "This turned out very good. Maybe a little more lemon next time. The toasted almonds were a nice touch. Will be making this again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KarenLiz"
+            },
+            "reviewBody": "This was a very nice fish recipe for someone (me) who doesn't like cooked fish very much. I added a little extra lemon juice, next time I will add even a little more.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-03-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "tenamac"
+            },
+            "reviewBody": "We loved this! I added some dried tarragon to the sauce as I felt it needed a little something more. Served it with wild rice blend cooked in chicken stock and a little lemon juice and broccoli. As per comments below, I made extra sauce and was glad I did. YUM! Will put this in the fish rotation!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-05-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "raceywlf"
+            },
+            "reviewBody": "excellent flavor,  I seasoned the tilapia first,  salt, pepper, and paprika,before I dredged in flour,  mine were only 2 oz. each so it went very fast.  and used oil with a little butter instead, turned out great!   thanks for a great recipe!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-03-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "styles4u2"
+            },
+            "reviewBody": "This recipe was not only excellent tasting, it was so easy to prepare. My husband said he could eat this anytime! I made this on a Tuesday and since it is Lent, he may get it again on Friday!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "hotandspicey"
+            },
+            "reviewBody": "HAVEN'T TRIED IT YET, BUT I CAN TELL BY THE PICTURE IT'S GOING TO BE GREAT!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-01-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "brkornhaus"
+            },
+            "reviewBody": "I used frozen pollock instead of tilapia.  I cooked the rice with leftover chicken broth instead of water, then seasoned it with a sprinkle of chicken bouillon granules.  On the side, I served the Vegetable Trio featured in the magazine.  It looked like a restaurant meal and is relatively healthy too.  I'll make this again and again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-05-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "raceywlf"
+            },
+            "reviewBody": "excellent flavor,  I seasoned the tilapia first,  salt, pepper, and paprika,before I dredged in flour,  mine were only 2 oz. each so it went very fast.  and used oil with a little butter instead, turned out great!   thanks for a great recipe!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sflynda"
+            },
+            "reviewBody": "Loved it, fast & easy to make. Excellent flavors.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mythyagain"
+            },
+            "reviewBody": "This was fantastic!  Quick, easy, uses ingredients I already have and the taste is out of this world!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-04-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "crawley3"
+            },
+            "reviewBody": "Not usually a big fish person, but this recipe is great.The tilapia doesn't have a strong fishy taste.  This recipe is a favorite of our family.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-07-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mjlouk"
+            },
+            "reviewBody": "Really good!  My kids even are it - without the sauce.  Great with some rice and vegetables.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-05-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "thomasri"
+            },
+            "reviewBody": "Excellent! I used thyme in place of parsely, and used Kentucky Kernal Seasoned flour (doubled) and two cans of chicken broth. This is now my favorite fish dish!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Radish and Fennel Salad with Pomegranate-Honey Dressing Recipe",
+    "keywords": [
+        "salad",
+        "salad dressing",
+        "radish",
+        "fennel",
+        "pomegranate",
+        "quick",
+        "easy",
+        "side",
+        "starter",
+        "dairy-free",
+        "vegetarian",
+        "gluten-free",
+        "nut-free",
+        "raw",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Silvena Rowe",
+            "sameAs": "https://www.bonappetit.com/contributor/silvena-rowe"
+        }
+    ],
+    "description": "Radish and Fennel Salad with Pomegranate-Honey Dressing Recipe",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Radish and Fennel Salad with Pomegranate-Honey Dressing",
+    "name": "Radish and Fennel Salad with Pomegranate-Honey Dressing",
+    "recipeIngredient": [
+        "2 tablespoons white wine vinegar",
+        "1 tablespoon pomegranate molasses",
+        "1 tablespoon honey",
+        "1 tablespoon minced shallot",
+        "1 garlic clove, minced",
+        "6 tablespoons extra-virgin olive oil",
+        "1 1/2 teaspoons finely chopped fresh oregano",
+        "Kosher salt and freshly ground black pepper",
+        "2 5-ounce packages mixed baby greens",
+        "1 medium fennel bulb, trimmed, very thinly sliced crosswise",
+        "1/2 medium red onion, thinly sliced",
+        "1 bunch red radishes, trimmed, thinly sliced (about 2 cups)",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk first 5 ingredients in a small bowl to blend. Gradually whisk in oil. Stir in oregano. Season to taste with salt and pepper. DO AHEAD Can be made 1 day ahead. Cover and chill. Return to room temperature before using."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss greens, fennel, onion, and radishes in a large bowl. Drizzle dressing over; toss to coat. Season to taste with salt and pepper."
+        }
+    ],
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/radish-and-fennel-salad-with-pomegranate-honey-dressing",
+    "dateModified": "2011-06-07T20:00:00.000-04:00",
+    "datePublished": "2011-06-07T20:00:00.000-04:00",
+    "recipeCategory": []
+}

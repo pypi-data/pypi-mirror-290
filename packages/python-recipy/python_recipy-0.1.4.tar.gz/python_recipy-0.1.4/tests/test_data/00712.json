@@ -1,0 +1,290 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022811-midnight-fizz#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022811-midnight-fizz",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/12/29/dining/23cocktailsrex2-fizz/merlin_199407117_6e47634b-cf03-41dc-9cde-f1b9026b6706-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022811-midnight-fizz",
+    "name": "Midnight Fizz",
+    "description": "While a classic gin fizz uses lemon juice, the sweet acidity of lime in this variation skews it toward a (very) frothy gimlet. To ensure plenty of that froth, use a double shake to make the cocktail: first without ice to foam the egg white, then a second time with ice to chill and dilute the drink. Serve traditionally without ice in a small Collins or fizz glass, or go rogue and serve over a few cubes. Either way, as with all egg white drinks, drink with efficiency to capitalize on the drink’s froth and avoid its inevitable separation.",
+    "author": {
+        "@type": "Person",
+        "name": "Rebekah Peppler"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/12/29/dining/23cocktailsrex2-fizz/23cocktailsrex2-fizz-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/29/dining/23cocktailsrex2-fizz/merlin_199407117_6e47634b-cf03-41dc-9cde-f1b9026b6706-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/29/dining/23cocktailsrex2-fizz/merlin_199407117_6e47634b-cf03-41dc-9cde-f1b9026b6706-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/29/dining/23cocktailsrex2-fizz/23cocktailsrex2-fizz-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "recipeYield": "1 drink",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "gin, lime, orange liqueur, new year’s day",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 384
+    },
+    "recipeIngredient": [
+        "2 ounces dry gin",
+        "3/4 ounce fresh lime juice",
+        "1/2 ounce simple syrup",
+        "1/2 ounce orange liqueur, such as Pierre Ferrand Dry Curaçao, Cointreau or triple sec",
+        "1 egg white",
+        "Ice",
+        "Soda water, chilled"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a shaker, combine the gin, lime juice, simple syrup, orange liqueur and egg white. Cover and shake vigorously for 10 seconds. Add ice to the shaker, cover again and shake vigorously until chilled and well frothed, about 10 to 15 seconds more. Double-strain into a small Collins or fizz glass without ice and top with soda water. Serve immediately."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2021-12-29T00:00:00.000Z",
+    "dateModified": "2024-06-10T15:22:42.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "zane"
+            },
+            "reviewBody": "This drink originally is called a white lady but there is more orange liqueur and less simple syrup. All together solid drink.",
+            "datePublished": "2023-12-30T12:40:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MP"
+            },
+            "reviewBody": "I made this only I didn't follow the instructions at all and just sort of did whatever I felt like with it. It was pretty good. I hope that's helpful to anyone who is interested in this recipe.",
+            "datePublished": "2023-12-29T23:18:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrew"
+            },
+            "reviewBody": "This is a gin margarita with egg white and soda added to it.",
+            "datePublished": "2023-12-29T17:39:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Abby&Jordan"
+            },
+            "reviewBody": "Instead of simple syrup, I use a 1/4-1/2 oz of rose water and a drop of honey. I’ve also topped w lime flavored sparkling water instead of soda water. Delish!",
+            "datePublished": "2023-08-28T02:42:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "I'll Follow The Recipe Once"
+            },
+            "reviewBody": "If it tastes good but unexceptional, add a little more soda water to bring out the bitter notes in the orange and lime",
+            "datePublished": "2023-01-02T02:48:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "You can do whatever you like but it's not a fizz, without the egg won't get fizzy.",
+            "datePublished": "2022-12-29T04:19:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scotchy McSinglemalt"
+            },
+            "reviewBody": "Fee Brothers makes a product called Fee Foam, which will give you the same effect without the egg white, but then, you know, chemicals. I use it, but I'm about 75% chemicals anyway!",
+            "datePublished": "2022-12-31T17:09:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DH"
+            },
+            "reviewBody": "Or aquafava!",
+            "datePublished": "2022-12-31T19:21:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Miriam Reinhart"
+            },
+            "reviewBody": "Is it possible to skip the egg?",
+            "datePublished": "2022-12-28T05:46:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "abbey"
+            },
+            "reviewBody": "Really nice but slightly bland. I’m not a big gin fan but I think I’d add more lime juice/orange liqueur flavor next time.",
+            "datePublished": "2022-04-17T02:01:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Erin"
+            },
+            "reviewBody": "I made a nice Friday night meal this week that ended with chocolate lava cake for two. This drink would make a nice nightcap during a movie afterward I think, and make use of the two egg whites leftover from the cake.",
+            "datePublished": "2022-01-21T08:44:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gabrielle"
+            },
+            "reviewBody": "Really enjoyed this. Swapped simple syrup for St Germaine Elderflower Liqueur and added a few dashes of orange bitters to sub for orange liqueur. Delicious!",
+            "datePublished": "2022-01-14T02:21:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "I made mine without the fizz and it was quite good. Even to have all the ingredients on hand. I will keep this cocktail in rotation.",
+            "datePublished": "2022-01-06T23:40:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "D'Arcy Barron"
+            },
+            "reviewBody": "This drink is sublime. I upped the lime juice to 2 ounces to match the gin quotient and skipped the simple syrup and added 1/2 ounce of Cointreau. I threw in a few ice chips from the shaker just because. Midnight Fizzes will help me make it through Omicron. Cheers!",
+            "datePublished": "2022-01-01T03:54:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen"
+            },
+            "reviewBody": "This drink is sublime.  I upped the lime juice to 2 ounces to match the gin quotient and skipped the simple syrup and added 1/2 ounce of Cointreau.  I threw in a few ice chips from the shaker just because.  Midnight Fizzes will help me make it through Omicron.  Cheers!",
+            "datePublished": "2021-12-31T02:48:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anthony M"
+            },
+            "reviewBody": "A wonderful cocktail! I think it works better with more Cointreau and slightly less gin. Adding frozen strawberries after straining out the ice suits this cheery drink.",
+            "datePublished": "2021-12-24T15:03:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anthony M"
+            },
+            "reviewBody": "A wonderful cocktail! I think it works better with more Cointreau and slightly less gin. Adding frozen strawberries after straining out the ice suits this cheery drink.",
+            "datePublished": "2021-12-24T15:03:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen"
+            },
+            "reviewBody": "This drink is sublime.  I upped the lime juice to 2 ounces to match the gin quotient and skipped the simple syrup and added 1/2 ounce of Cointreau.  I threw in a few ice chips from the shaker just because.  Midnight Fizzes will help me make it through Omicron.  Cheers!",
+            "datePublished": "2021-12-31T02:48:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gabrielle"
+            },
+            "reviewBody": "Really enjoyed this. Swapped simple syrup for St Germaine Elderflower Liqueur and added a few dashes of orange bitters to sub for orange liqueur. Delicious!",
+            "datePublished": "2022-01-14T02:21:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "I made mine without the fizz and it was quite good. Even to have all the ingredients on hand. I will keep this cocktail in rotation.",
+            "datePublished": "2022-01-06T23:40:33.000Z"
+        }
+    ]
+}

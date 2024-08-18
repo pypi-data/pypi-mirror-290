@@ -1,0 +1,146 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/s-mores-no-bake-cookies/",
+    "name": "S'mores No-Bake Cookies",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-04-02",
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/S-mores-No-Bake-Cookies_EXPS_CBZ16_193263_B05_27_-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "There's no easier way to get that s'mores goodness in your kitchen. Mix these cookies together and chill till you're ready to share. &mdash;Taste of Home Test Kitchen",
+    "recipeIngredient": [
+        "1-2/3 cups milk chocolate chips",
+        "2 tablespoons canola oil",
+        "3 cups Golden Grahams",
+        "2 cups miniature marshmallows"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large microwave-safe bowl, microwave chocolate chips and oil, uncovered, at 50% power until chocolate is melted, stirring every 30 seconds, 1 to 1-1/2 minutes. Stir in cereal until blended; fold in marshmallows. Drop by rounded tablespoonfuls onto waxed paper-lined baking sheets. Refrigerate until firm, about 15 minutes."
+        }
+    ],
+    "recipeYield": "2-1/2 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 79 calories",
+        "fatContent": "4g fat (2g saturated fat)",
+        "cholesterolContent": "2mg cholesterol",
+        "sodiumContent": "39mg sodium",
+        "carbohydrateContent": "11g carbohydrate (8g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "1g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-12-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dawn384"
+            },
+            "reviewBody": "8/13/21:  Prepared these cookies:  Used a double boiler and stovetop for preparing these cookies! Also Used DARK semi-sweet chocolate chips!  Rest of ingredients were kept as recipe instructed!  This is a real keeper!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-08-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "bakergirl00"
+            },
+            "reviewBody": "These are scrumptious! I used semi-sweet morsels and pressed them into an 8x8 dish for a s’mores bar. Try to refrigerate them for a couple of hours, to let the chocolate set up. Hubby raved about them and asked for more as soon as the dish is empty!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-12-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Gwen"
+            },
+            "reviewBody": "I have made these for 2 years now and just love them! Getting ready to make again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-01-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ellimaye1"
+            },
+            "reviewBody": "Yum! Simple and easy to make. We did have to store them in the fridge because they kept getting too melty if on the counter.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-06-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "angela32"
+            },
+            "reviewBody": "I used semi sweet chocolate chips, they are SO good!  Wow, you can't eat just one :D",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

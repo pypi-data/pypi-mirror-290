@@ -1,0 +1,90 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/ponzu-tofu-poke-bowl#Recipe",
+    "@type": "Recipe",
+    "description": "Use silken tofu to make this flavourful poke bowl. It's similar to a Japanese dish called ‘hiyayakko’, which is usually enjoyed at the height of summer",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/05/Ponzu-tofu-poke-bowl-d98d157.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/ponzu-tofu-poke-bowl"
+    },
+    "name": "Ponzu tofu poke bowl",
+    "url": "https://www.bbcgoodfood.com/recipes/ponzu-tofu-poke-bowl",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ailsa Burt",
+            "url": "https://www.bbcgoodfood.com/author/ailsaburt"
+        }
+    ],
+    "dateModified": "2023-05-25T10:33:41+01:00",
+    "datePublished": "2023-05-25T10:33:41+01:00",
+    "headline": "Ponzu tofu poke bowl",
+    "keywords": "Edamame beans, poke bowl, Quinoa, Radishes, Seaweed, silken tofu, Tofu",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "462 calories",
+        "fatContent": "14 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "57 grams carbohydrates",
+        "sugarContent": "15 grams sugar",
+        "fiberContent": "13 grams fiber",
+        "proteinContent": "22 grams protein",
+        "sodiumContent": "0.7 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 tbsp ponzu sauce",
+        "½ tbsp rice vinegar",
+        "5g ginger , peeled and grated",
+        "1 tsp sesame oil",
+        "300g silken tofu",
+        "100g edamame beans",
+        "250g pouch cooked quinoa",
+        "100g radishes , sliced",
+        "2 carrots , peeled into ribbons",
+        "2 spring onions , finely sliced",
+        "2 small seaweed thins , crumbled",
+        "1 tsp sesame seeds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine the ponzu, vinegar, ginger and sesame oil in a bowl. Pat the tofu dry using kitchen paper and tear into chunks, then gently toss in the ponzu mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour some boiling water over the edamame and set aside for 2 mins before draining thoroughly and seasoning with salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the quinoa between bowls and top with the edamame, radishes and carrots. Spoon over the tofu and drizzle over the remaining dressing before scattering over the spring onions, seaweed and sesame seeds."
+        }
+    ],
+    "recipeYield": 2,
+    "suitableForDiet": "https://schema.org/LowCalorieDiet, https://schema.org/VeganDiet, https://schema.org/VegetarianDiet",
+    "totalTime": "PT20M"
+}

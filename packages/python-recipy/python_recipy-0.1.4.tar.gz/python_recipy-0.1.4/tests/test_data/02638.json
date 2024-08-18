@@ -1,0 +1,84 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/kimchi-chicken-kiev/#recipe",
+    "url": "https://www.marionskitchen.com/kimchi-chicken-kiev/",
+    "name": "Kimchi Chicken Kiev | Marion&#039;s Kitchen",
+    "description": "This fusion dish is literally an umami bomb with the buttery, garlicky goodness of chicken kiev stuffing combined with kimchi and gochujang chilli paste inside crumbed chicken breasts. Serve with Marion’s honey sesame coleslaw.",
+    "prepTime": "PT40M",
+    "cookTime": "PT25M",
+    "totalTime": "",
+    "keywords": "Chicken, Kimchi, Korean cuisine",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Korean",
+    "recipeIngredient": [
+        "200g (7 oz) unsalted butter, softened",
+        "½ cup kimchi, roughly chopped",
+        "3 tbsp gochujang",
+        "3 garlic cloves, chopped",
+        "4 skinless chicken breasts, tenderloin removed",
+        "1 cup plain flour",
+        "3 eggs",
+        "3 cups panko breadcrumbs",
+        "vegetable oil for frying",
+        "Honey sesame coleslaw, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Step 1.Process butter, kimchi, gochujang and garlic in a food processor until smooth and combined. Transfer to a large sheet of cling film and wrap to form a log. Freeze for 10 minutes until firm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 2.Meanwhile, working with one chicken breast at a time, cover with cling film and use a rolling pin to pound to an even 2cm thickness. Slice thick pieces of the butter log and remove cling film. Place piece of butter in the centre of the chicken and wrap. Wrap with cling film and freeze for 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 3.Place flour, egg and breadcrumbs into separate shallow trays and dip each chicken ball in flour, then egg, then crumbs, shaking off excess between layers. Press crumbs onto breast to help them stick."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 4.Preheat oven to 180C and preheat oil in a deep-fryer or deep-sided saucepan to 160C. Deep-fry chicken in batches until golden (about 3 minutes). Transfer to a baking tray lined with a baking rack and bake for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 5.Serve on a warm plate with honey sesame coleslaw."
+        }
+    ],
+    "datePublished": "2021-06-13T00:00:00Z",
+    "dateModified": "2022-06-12T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/kimchi-chicken-kiev/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2021/06/20180329_Studio_Kimchi-Chicken-Kiev-9-scaled.jpg",
+        "height": "1639",
+        "width": "2048"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2021/06/20180329_Studio_Kimchi-Chicken-Kiev-9-scaled.jpg",
+            "height": "2048",
+            "width": "1639"
+        }
+    },
+    "review": []
+}

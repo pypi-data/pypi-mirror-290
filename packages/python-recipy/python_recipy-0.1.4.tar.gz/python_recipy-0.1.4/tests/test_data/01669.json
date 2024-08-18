@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Fig-and-Prosciutto Flatbreads",
+    "datePublished": "2013-12-06T18:25:46.000-05:00",
+    "dateModified": "2019-10-09T15:55:15.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Todd English",
+            "url": "https://www.foodandwine.com/author/todd-english"
+        }
+    ],
+    "description": "Chef Way A staple at Todd English&#39;s Olives restaurants is his much-lauded house-made flatbread, topped with sticky-sweet fig jam, pungent Gorgonzola c...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/vAVR4cSg4Ud1AQpzMkh153zWYK4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/200807xl-fig-and-prosciutto-flatbreads-2000-674c1bbf4402404bad0e0dd270e8add0.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Fig-and-Prosciutto Flatbreads",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "36"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "Two 12-ounce balls of pizza dough, at room temperature",
+        "All-purpose flour",
+        "1/4 cup extra-virgin olive oil",
+        "1 garlic clove, minced",
+        "1 teaspoon minced fresh rosemary",
+        "Salt and freshly ground pepper",
+        "1/2 cup fig jam (from a 6-ounce jar)",
+        "1/4 pound Gorgonzola cheese, crumbled (1 cup)",
+        "3 ounces sliced prosciutto",
+        "1 scallion, white and green parts thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place a pizza stone in the bottom of the oven and preheat the oven to 500°. Allow at least 45 minutes for the pizza stone to heat thoroughly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, on a lightly floured surface, roll out one piece of the pizza dough to a 13-inch round. Dust a pizza peel with flour and slide the dough onto it. Drizzle with about 2 tablespoons of the olive oil and sprinkle with half of the garlic and rosemary. Season with salt and pepper. Dollop 1/4 cup of the fig jam all over the crust, being sure to leave a 1-inch border of dough all around. Scatter half of the cheese and prosciutto over the dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slide the flatbread onto the stone and bake for about 15 minutes, until puffed and golden. Transfer the flatbread to a cutting board and let cool for 10 minutes before slicing. Repeat with the remaining ingredients to make the second flatbread. Garnish with the sliced scallion and serve."
+        }
+    ],
+    "totalTime": "PT75M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/fig-and-prosciutto-flatbreads",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/comfort-food/pizza-calzones",
+                        "name": "Pizza & Calzones"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/fig-and-prosciutto-flatbreads",
+                        "name": "Fig-and-Prosciutto Flatbreads"
+                    }
+                }
+            ]
+        }
+    }
+}

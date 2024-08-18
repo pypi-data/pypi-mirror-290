@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Grilled Cheese and Chorizo Sandwiches",
+    "datePublished": "2013-12-06T18:29:40.000-05:00",
+    "dateModified": "2019-04-12T10:17:53.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Annie Miller",
+            "url": "https://www.foodandwine.com/author/annie-miller"
+        }
+    ],
+    "description": "More Great Sandwiches...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/H2pgVTPuMbVfzO2lhHlSxt-qEfA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-cheese-and-chorizo-sandwiches-xl-r-200408-2000-025e2807e2bf47cb8e3094832f06994d.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Grilled Cheese and Chorizo Sandwiches",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3902"
+    },
+    "recipeIngredient": [
+        "3 chorizo sausages (6 ounces), thinly sliced on the diagonal",
+        "2 tablespoons unsalted butter, softened",
+        "8 slices of sourdough bread, cut from a pullman loaf",
+        "6 ounces Pepper Jack cheese, thinly sliced",
+        "2 tablespoons drained and sliced pickled jalape&ntilde;os",
+        "6 ounces Havarti cheese, thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, cook the sliced chorizo over moderately high heat, stirring occasionally, until lightly browned, about 3 minutes. Drain the chorizo on paper towels and wipe out the skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Butter the bread on 1 side and turn 4 slices buttered side down on a work surface. Top with Pepper Jack, chorizo, pickled jalapeños and Havarti. Close the sandwiches with the remaining bread slices, turning the buttered side up."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat 2 large skillets. Add the sandwiches and cook over moderate heat, turning once, until the bread is golden and crisp, about 8 minutes. Cut the sandwiches in half and serve."
+        }
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/grilled-cheese-and-chorizo-sandwiches",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sandwiches-wraps/hot-sandwiches",
+                        "name": "Hot Sandwiches"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sandwiches-wraps/cheese-sandwiches/grilled-cheese",
+                        "name": "Grilled Cheese"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/grilled-cheese-and-chorizo-sandwiches",
+                        "name": "Grilled Cheese and Chorizo Sandwiches"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

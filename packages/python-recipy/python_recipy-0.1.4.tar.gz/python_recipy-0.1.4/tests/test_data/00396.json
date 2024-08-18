@@ -1,0 +1,252 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Welsh Rabbit",
+    "datePublished": "2000-06-19T15:23:39.000-04:00",
+    "dateModified": "2022-07-14T15:42:24.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "PATTY5"
+        }
+    ],
+    "description": "I believe this recipe is the same as Welsh Rarebit, the classic British topping for rye or white bread toast. Melted sharp Cheddar cheese is complimented by Worcestershire sauce and a hint of cayenne pepper.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/l8Fe5W1Rr_n8Eg_h8mOW30eLNxg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8282863-cdfc75b645144e91bac641aa9ee5de3a.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Welsh Rabbit",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.9",
+        "ratingCount": "26"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "333 kcal",
+        "carbohydrateContent": "13 g",
+        "cholesterolContent": "75 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "15 g",
+        "saturatedFatContent": "16 g",
+        "sodiumContent": "577 mg",
+        "sugarContent": "4 g",
+        "fatContent": "25 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Welsh"
+    ],
+    "recipeIngredient": [
+        "4 tablespoons butter",
+        "0.5 cup all-purpose flour",
+        "0.5 teaspoon salt",
+        "0.125 teaspoon dry mustard",
+        "0.125 teaspoon cayenne pepper",
+        "2 cups milk",
+        "1 teaspoon Worcestershire sauce",
+        "2 cups shredded sharp Cheddar cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a 2 quart saucepan over low heat, melt the butter. Stir in and blend the flour, salt, mustard and pepper. Stir in the milk and Worcestershire sauce. Continue stirring the mixture for 10 minutes, or until thickened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stirring continuously, melt the cheese into the mixture and blend well. Serve immediately over warm toast."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT20M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "ADLEVINE"
+            },
+            "reviewBody": "My Welsh mother-in-law tells me you MUST make this with beer, not milk. Will try that next time"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "I have had much better Welsh rabbit 😥"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lori"
+            },
+            "reviewBody": "I made this for a team potluck at work. My co-worker's loved it! I used to but Stouffer's version of this treat for my mom so it was a pleasant surprise to see such an easy recipe for this dish. I made this in a crock pot rather than a saucepan for easy transport to work but the cooking time was not that much different. I will definitely make this again."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Linda Howell"
+            },
+            "reviewBody": "I will definitely make this again ... it tastes most like what I've always had. Next time though I think I'll add a bit less flour."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie Phillips-Bailey"
+            },
+            "reviewBody": "This was very good. It brought back memories of my 7th grade cooking class, except that we added sweet peas to the mixture and served over crackers."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kris821"
+            },
+            "reviewBody": "Bland, but a good base to add on to."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kathryn Krische"
+            },
+            "reviewBody": "I liked this recipe but I had to add the flour after the milk and would recommend sifting the flour first as well. Also as written it was a little bland so I increased the amounts of cayenne, worchestershire, and dry mustard to taste and would probably add more next time! I also recommend turning the heat up to low/med or medium even depending on your stove top. Overall though a good base recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "MBökel"
+            },
+            "reviewBody": "My family and I really enjoyed this recipe. My kids even wanted to eat the sauce straight from a bowl. Next time I will try to use beer to see if I like that flavor as well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "baskerville_gal"
+            },
+            "reviewBody": "This was a delicious recipe! I live in a very dry climate, and had to add an additional 1/4 cup liquid, but except for that I followed the recipe exactly. I think this is one that we'll be making again."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "StevenRN"
+            },
+            "reviewBody": "Very VERY bland. Did what I cold to spice it up and add flavor.....but nothing would work. Sorry but I wont make this again"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/20970/welsh-rabbit/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/105/appetizers-and-snacks/dips-and-spreads/",
+                        "name": "Dips and Spreads Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/17192/appetizers-and-snacks/dips-and-spreads/cheese-dips-and-spreads/",
+                        "name": "Cheese Dips and Spreads Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/20970/welsh-rabbit/",
+                        "name": "Welsh Rabbit"
+                    }
+                }
+            ]
+        }
+    }
+}

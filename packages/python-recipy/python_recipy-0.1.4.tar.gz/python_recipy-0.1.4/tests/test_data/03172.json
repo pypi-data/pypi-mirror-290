@@ -1,0 +1,94 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Nectarine-Blackberry Crisp Recipe",
+    "keywords": [
+        "crisp",
+        "dessert",
+        "nectarine",
+        "blackberry",
+        "spring",
+        "summer",
+        "nut-free",
+        "baking",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Diane Rossen Worthington",
+            "sameAs": "https://www.bonappetit.com/contributor/diane-rossen worthington"
+        },
+        {
+            "@type": "Person",
+            "name": "Gentl Hyers",
+            "sameAs": "https://www.bonappetit.com/contributor/gentl-hyers"
+        }
+    ],
+    "description": "Nectarine-Blackberry Crisp Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b06b151b3340441497625b/master/w_484,h_344,c_limit/mare_nectarine_blackberry_crisp_h.jpg"
+    ],
+    "headline": "Nectarine-Blackberry Crisp",
+    "name": "Nectarine-Blackberry Crisp",
+    "recipeIngredient": [
+        "1 cup all purpose flour",
+        "6 tablespoons (packed) golden brown sugar",
+        "1 teaspoon finely grated lemon peel",
+        "1/2 teaspoon salt",
+        "1/2 cup (1 stick) unsalted butter, melted",
+        "1 teaspoon vanilla extract",
+        "2 large eggs",
+        "1 cup crème fraîche or sour cream",
+        "1 teaspoon vanilla extract",
+        "1 tablespoon plus 1/2 cup all purpose flour",
+        "3 cups blackberries (two 5.6- to 6-ounce packages)",
+        "4 medium nectarines (about 18 ounces total), pitted, cut into 1 1/2-inch cubes",
+        "1/4 cup sugar",
+        "Vanilla ice cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk flour, golden brown sugar, lemon peel, and salt in medium bowl to blend. Add melted butter and vanilla; stir until evenly moistened but crumbly. DO AHEAD Can be made 4 hours ahead. Let stand at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk eggs in large bowl to blend. Whisk in crème fraîche and vanilla. Add 1 tablespoon flour; whisk to blend. DO AHEAD Can be made 4 hours ahead. Cover and chill. Rewhisk before continuing."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375°F. Butter 8x10-inch oval ceramic dish. Place berries and nectarines in large bowl. Sprinkle remaining 1/2 cup flour and sugar over; toss to coat. Transfer to prepared dish. Pour egg mixture evenly over fruit. Using fingers, crumble topping over fruit, distributing evenly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake crisp until custard is set and topping is golden brown, about 55 minutes. Let cool at least 10 minutes and up to 1 hour before serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scoop crisp into bowls. Serve with vanilla ice cream."
+        }
+    ],
+    "recipeYield": "12  Servings",
+    "url": "https://www.bonappetit.com/recipe/nectarine-blackberry-crisp",
+    "dateModified": "2009-04-15T20:00:00.000-04:00",
+    "datePublished": "2009-04-15T20:00:00.000-04:00"
+}

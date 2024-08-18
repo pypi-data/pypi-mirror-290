@@ -1,0 +1,108 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Mexican Ceviche",
+    "author": "Bergy",
+    "cookTime": "PT8H",
+    "prepTime": "PT20M",
+    "totalTime": "PT8H20M",
+    "datePublished": "2001-05-02T10:03Z",
+    "description": "This dish is a regular served on the beaches of Mexico. Serve it as a seafood appetizer or as a side salad dish. You can alter it to suit your own taste. Make it as spicy or as mild as you wish. My friends all love it. I often use shrimp &amp; fish or shrimp &amp; scallops - when I do this I do not marinate the shrimp as the shrimp tend to get tough. I steam the shrimp and add them a few hours before serving as I mix all the ingredients together. In Mexico when they make this they often add sea water (not recommened).  If you are using frozen fish, choose a firm-fleshed fish and make sure it is fully thawed with as much moisture as possible removed.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/88/99/zKK1YEbS0G92b050ZWtP_Mexican%20Ceviche_final%204.jpg",
+    "recipeCategory": "Halibut",
+    "keywords": "Mexican,Healthy,Spicy,Weeknight,No Cook,Refrigerator",
+    "recipeIngredient": [
+        "1   lb    sea bass fillets (or use a mixture of fish and shrimp) or 1   lb    red snapper fillet (or use a mixture of fish and shrimp)",
+        "5 -6       limes (Enough Juice to cover fish)",
+        "1   cup   diced fresh tomato",
+        "1       green pepper, sweet, chopped ",
+        "4   tablespoons   chopped parsley or 4   tablespoons   chopped cilantro",
+        "1/4  teaspoon    salt",
+        "1/4  teaspoon    pepper",
+        "1/2  teaspoon    oregano",
+        "2       jalapeno peppers, chopped  (or more to suit your taste)",
+        "2   tablespoons    white vinegar",
+        "1   medium    onion, finely chopped ",
+        "2   tablespoons    fresh cilantro, chopped ",
+        "1   dash    Tabasco sauce",
+        "  lettuce leaf (to line serving bowls)",
+        "  avocado (optional)",
+        "  black olives, sliced  (for garnish) (optional)"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "54"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "181.7",
+        "fatContent": "2.2",
+        "saturatedFatContent": "0.5",
+        "cholesterolContent": "68.1",
+        "sodiumContent": "247.8",
+        "carbohydrateContent": "15.4",
+        "fiberContent": "4.2",
+        "sugarContent": "4.8",
+        "proteinContent": "27.3"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Dice the fish (approximately 1/2-inch dice if using shrimp use cleaned shrimp)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Marinate fish in the lime juice in the fridge overnight (this step cooks the fish)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir often."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour off most of the lime juice (just leave it moist)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add remaining ingredients except lettuce, avocado and olive. Do this preferably a few hours before serving &amp; refrigerate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss well and arrange in individual serving bowls that are lined with the lettuce leaves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If you wish garnish with sliced avocado and sliced black olives."
+        }
+    ],
+    "recipeYield": "4-6 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "Here in Nova Scotia, we have shrimp on a regular basis....when I was first taught to make any Ceviche...you were to cover the shellfish with lime and leave is on for no longer than half an hour as longer could cause the shrimp to become tough and possibly ruining your dish.  Any shellfish..shrimp, scallops, even clams, etc. can be \"cooked\" this way...super simple and delicious.   AlLWAYS use lime not lemon juice.",
+            "datePublished": "August 10, 2010",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Mexican Ceviche"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "Laynie"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

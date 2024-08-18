@@ -1,0 +1,142 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Homemade Poppy Seed Dressing",
+    "description": "This homemade poppy seed dressing recipe uses simple ingredients and hardly takes any time to make!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "poppyseed dressing, homemade poppyseed dressing, homemade salad dressing",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/06/salad-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/salad-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/salad-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/salad.jpg"
+    ],
+    "url": "https://pinchofyum.com/homemade-poppy-seed-dressing",
+    "recipeIngredient": [
+        "2 tablespoons chopped shallot",
+        "1/2 tablespoon butter",
+        "3 tablespoons Greek vanilla or plain yogurt",
+        "1/4 cup olive oil mayonnaise",
+        "1 tablespoon olive oil",
+        "1 tablespoon semi-sweet white wine (optional)",
+        "1/2 tablespoon cider vinegar",
+        "2 teaspoons sugar",
+        "1/2 tablespoon water",
+        "2-3 tablespoons poppy seeds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Saute the shallot in the butter over medium low heat for 5-10 minutes or until the shallot is very soft and fragrant.",
+            "url": "https://pinchofyum.com/homemade-poppy-seed-dressing#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a food processor, place the yogurt, mayonnaise, olive oil, wine, vinegar, sugar, and the sauteed shallots. Puree until smooth. Taste and adjust as necessary. Add the water to adjust the consistency if it needs to be thinned. Stir in the poppy seeds and just like that, you&#8217;re good to go! Don&#8217;t forget to keep it refrigerated.",
+            "url": "https://pinchofyum.com/homemade-poppy-seed-dressing#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeYield": "6",
+    "recipeCategory": [],
+    "cookingMethod": "Blend",
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "6",
+        "ratingValue": "4.2"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "104 calories",
+        "sugarContent": "3 g",
+        "sodiumContent": "90.8 mg",
+        "fatContent": "9 g",
+        "saturatedFatContent": "1.7 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "4.5 g",
+        "fiberContent": "1 g",
+        "proteinContent": "2 g",
+        "cholesterolContent": "6.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Janet lee"
+            },
+            "datePublished": "2014-08-16",
+            "reviewBody": "Thats EXACTLY what I need it for!!!! The kale salad from costco is great, but not nearly enough dressing!! I've tried other favors of dressing on it, but the poppyseed is the perfect match!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Grammy"
+            },
+            "datePublished": "2013-06-19",
+            "reviewBody": "Oh. My. Yum...."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Erin"
+            },
+            "datePublished": "2014-04-09",
+            "reviewBody": "Loved it! Just made it and it's waiting in the fridge for dinner. For all those trying to reduce sugar consumption and move towards natural sugars, i found that adding 4 dried apricots in place of the refined sugar was enough to add a balance of sweetness (though probably not as much as refined sugar would add). Thanks for the recipe!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Corin"
+            },
+            "datePublished": "2014-05-26",
+            "reviewBody": "just made this dressing again, except I added a cup of frozen raspberries to the mix.  Ba-da-boom!  Raspberry poppy seed dressing.  Gorgeous and delicious.  Bonus:  my husband will actually eat salad for supper with this dressing (and chicken of course) :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Angela"
+            },
+            "datePublished": "2016-06-22",
+            "reviewBody": "Didn't like the dressing. Made it to go on the nectarine blueberry chicken spinach almond salad. I tasted the mayo too much. Wouldn't make this one again."
+        }
+    ],
+    "datePublished": "2013-06-19",
+    "@id": "https://pinchofyum.com/homemade-poppy-seed-dressing#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/homemade-poppy-seed-dressing#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/homemade-poppy-seed-dressing"
+}

@@ -1,0 +1,94 @@
+{
+    "@type": "Recipe",
+    "name": "Strawberry Cookies",
+    "author": {
+        "@id": "https://www.budgetbytes.com/#/schema/person/a44a137d7237f3be9155c3341c33588e"
+    },
+    "description": "Strawberry cookies are tender, sweet, and full of fresh strawberry flavor. These cookies are the real deal-- no artificial colors or flavors!",
+    "datePublished": "2024-06-22T08:30:00+00:00",
+    "image": [
+        "https://www.budgetbytes.com/wp-content/uploads/2024/06/Strawberry-Cookies-Overhead.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2024/06/Strawberry-Cookies-Overhead-500x500.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2024/06/Strawberry-Cookies-Overhead-500x375.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2024/06/Strawberry-Cookies-Overhead-480x270.jpg"
+    ],
+    "recipeYield": [
+        "16",
+        "16 cookies (2-ounce scoop)"
+    ],
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+        "1 cup fresh strawberries, brunoised (diced very small) ($2.13)",
+        "1 tsp lemon juice ($0.02)",
+        "8 Tbsp salted butter ($0.94)",
+        "1 cup light brown sugar ($0.68)",
+        "1/2 cup granulated sugar ($0.17)",
+        "1 large egg ($0.12)",
+        "1 tsp vanilla extract ($0.65)",
+        "2 cups all-purpose flour ($0.24)",
+        "1 tsp sea salt ($0.05)",
+        "1 tsp baking powder ($0.04)",
+        "1/4 cup white chocolate chips ($0.57)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°F. Toss the diced strawberries and lemon juice together and let them sit while you prep the rest of the cookie dough.",
+            "name": "Toss",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-0"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cream both sugars and room-temperature butter together using your hand mixer on low speed.",
+            "name": "Cream",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the egg and vanilla extract to the creamed butter and sugars. Whisk or mix on low until consistent.",
+            "name": "Whisk",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Then, add the flour, salt, and baking powder to a mixing bowl and whisk dry ingredients together. Adding a spoonful or so at a time, slowly mix in all of your dry ingredients with the wet ingredients until a consistent dough forms.",
+            "name": "Add",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Strain the strawberries, discarding the juice.* Gently fold in strawberries and white chocolate chips into the cookie dough.**",
+            "name": "Fold",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "With a 2-ounce scoop, drop cookie dough balls 2-3 inches apart on a parchment-lined baking sheet and bake in the preheated oven for 20-25 minutes, depending on how crispy or chewy you like your cookies!",
+            "name": "Bake",
+            "url": "https://www.budgetbytes.com/strawberry-cookies/#wprm-recipe-95428-step-0-5"
+        }
+    ],
+    "recipeCuisine": [
+        "American"
+    ],
+    "keywords": "strawberry cookies",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 cookie",
+        "calories": "207 kcal",
+        "carbohydrateContent": "34 g",
+        "proteinContent": "2 g",
+        "fatContent": "7 g",
+        "sodiumContent": "228 mg",
+        "fiberContent": "1 g"
+    },
+    "@id": "https://www.budgetbytes.com/strawberry-cookies/#recipe",
+    "isPartOf": {
+        "@id": "https://www.budgetbytes.com/strawberry-cookies/#article"
+    },
+    "mainEntityOfPage": "https://www.budgetbytes.com/strawberry-cookies/",
+    "meal": "Snack",
+    "cuisine": "American"
+}

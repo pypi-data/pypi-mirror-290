@@ -1,0 +1,68 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/grilled-tuna-salad/",
+    "name": "Grilled Tuna Salad",
+    "datePublished": "2019-11-26",
+    "dateModified": "2023-10-27",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2019/11/Grilled-Tuna-Salad_EXPS_TOHAM20_50419_E10_30_4b-11.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I love serving this tuna spinach salad! Tuna steaks are quick to cook and delicious, and although they’re pretty inexpensive, they always seem a little more elegant than canned tuna. You can find them at most meat and seafood counters. Try this salad with fresh bread and tall glasses of lemonade.  &amp;mdash;De'Lawrence Reed, Durham, North Carolina",
+    "recipeIngredient": [
+        "1/2 pound tuna steaks",
+        "1 teaspoon olive oil",
+        "1/8 teaspoon salt",
+        "1/8 teaspoon pepper",
+        "3 cups fresh baby spinach",
+        "1/2 cup grape tomatoes",
+        "1/3 cup frozen shelled edamame, thawed",
+        "1/4 cup frozen corn, thawed",
+        "CITRUS VINAIGRETTE:",
+        "1 tablespoon olive oil",
+        "1-1/2 teaspoons minced fresh basil",
+        "1-1/2 teaspoons white wine vinegar",
+        "1-1/2 teaspoons honey",
+        "1-1/2 teaspoons lime juice",
+        "1-1/2 teaspoons lemon juice",
+        "1-1/2 teaspoons orange juice",
+        "1/8 teaspoon salt",
+        "1/8 teaspoon pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Brush tuna with oil; sprinkle with salt and pepper. Grill, covered, over high heat on a greased grill rack or broil 3-4 in. from the heat for 3-4 minutes on each side for medium-rare or until slightly pink in the center. Let stand for 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a large bowl, combine the spinach, tomatoes, edamame and corn. In a small bowl, whisk the vinaigrette ingredients; drizzle over salad and toss to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide salad between 2 plates; slice tuna and arrange over salads. Serve immediately."
+        }
+    ],
+    "recipeYield": "2 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "",
+        "fatContent": "12 g fat (2 g saturated fat)",
+        "cholesterolContent": "51 mg cholesterol",
+        "sodiumContent": "380 mg sodium",
+        "carbohydrateContent": "16 g carbohydrate",
+        "fiberContent": "3 g fiber",
+        "proteinContent": "31 g protein. <B><b>Diabetic Exchanges</b>:</B> 4 lean meat"
+    }
+}

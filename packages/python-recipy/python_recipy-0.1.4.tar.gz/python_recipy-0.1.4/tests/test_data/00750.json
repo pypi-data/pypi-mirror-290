@@ -1,0 +1,401 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023888-roasted-cauliflower-with-crispy-parmesan#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023888-roasted-cauliflower-with-crispy-parmesan",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/01/30/multimedia/as-roasted-cauliflower-with-parmesan1-mbvg/as-roasted-cauliflower-with-parmesan1-mbvg-videoSixteenByNineJumbo1600-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023888-roasted-cauliflower-with-crispy-parmesan",
+    "name": "Roasted Cauliflower With Crispy Parmesan",
+    "description": "The key to well-roasted cauliflower, with frizzled edges and sweet and tender middles, is to cook it at a high heat on a rack near the heat source, mostly on one side. You could stop there or, toward the end of cooking, shower it with grated Parmesan to crisp and add a salty boost. Follow the instructions in Step 1 to cut the cauliflower through the stem to create lots of flat sides, which yields more surface area for browning and cheese — in other words, more of the good stuff.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/01/30/multimedia/as-roasted-cauliflower-with-parmesan1-mbvg/as-roasted-cauliflower-with-parmesan1-mbvg-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/01/30/multimedia/as-roasted-cauliflower-with-parmesan1-mbvg/as-roasted-cauliflower-with-parmesan1-mbvg-superJumbo-v2.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/01/30/multimedia/as-roasted-cauliflower-with-parmesan1-mbvg/as-roasted-cauliflower-with-parmesan1-mbvg-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/01/30/multimedia/as-roasted-cauliflower-with-parmesan1-mbvg/as-roasted-cauliflower-with-parmesan1-mbvg-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT45M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cauliflower, parmesan, sheet-pan, fall, thanksgiving, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1709
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 190,
+        "unsaturatedFatContent": "9 grams",
+        "carbohydrateContent": "12 grams",
+        "cholesterolContent": null,
+        "fatContent": "13 grams",
+        "fiberContent": "5 grams",
+        "proteinContent": "8 grams",
+        "saturatedFatContent": "3 grams",
+        "sodiumContent": "577 milligrams",
+        "sugarContent": "4 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 medium head cauliflower (about 2 pounds)",
+        "3 tablespoons extra-virgin olive oil",
+        "Salt and pepper",
+        "1 1/2 ounces/3/4 cup finely grated Parmesan"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Arrange a rack at the bottom of the oven and heat to 450 degrees. With the stalk end facing up, slice the cauliflower in half through the stalk, then when your knife reaches florets, pull the pieces apart. (Pulling instead of cutting through the florets will prevent little buds from falling off.) Continue to slice through the stalks and pull apart florets until pieces are no thicker than 1 inch. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "On a sheet pan, toss the cauliflower pieces with the olive oil; season with salt and pepper. Spread in an even layer, cut sides down. Roast, undisturbed, on the bottom rack until golden brown on the underside, 15 to 20 minutes. (Check pieces in the middle of the pan, because pieces at the edges brown faster.) "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Flip the cauliflower, sprinkle with the Parmesan, then roast until the cauliflower is tender and the Parmesan is melted and golden in spots, 7 to 10 minutes. Let cool a few minutes for the Parmesan to crisp. Use a spatula to transfer the cauliflower and any cheese on the sheet pan to plates."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JLL"
+            },
+            "reviewBody": "5/15/2024: Made as directed but added a sliced shallot, garlic and chili flakes on the roasting tray. When flipping cauliflower halfway through, added sliced cauliflower leaves with stems to the outer edges of the pan. Topped these with olive oil, salt & pepper. Then topped everything with shredded Parmesan cheese & roasted for another 5 minutes. Served with smoked mackerel & pan grilled garlic toast. Topped everything with fresh parsley, lemon juice, olive oil & pepper. Delicious!",
+            "datePublished": "2024-05-15T20:18:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helen"
+            },
+            "reviewBody": "Easy preparation, great results. I used garlic infused olive oil for the roasting and sprinkled a few capers on with the Parmesan. Delicious.",
+            "datePublished": "2024-05-05T17:33:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "a. jensen"
+            },
+            "reviewBody": "Parmesan not park",
+            "datePublished": "2024-04-13T00:34:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dawn Voorhees"
+            },
+            "reviewBody": "I used my convection roast. Either turn it down 25° or do less time. The vegetables were overdone though delicious.",
+            "datePublished": "2024-03-26T22:11:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mimi"
+            },
+            "reviewBody": "add a small amount of freshly grated lemon peel for brightness.\nWhen you bake, and not broil, the bottom rack is the hottest\nadded a pinch of red pepper flakesadd a small amount of freshly grated lemon peel for brightness.\nWhen you bake, and not broil, the bottom rack is the hottest\nadded a pinch of red pepper flakesaadd a small amount of freshly grated lemon peel for brightness.\nWhen you bake, and not broil, the bottom rack is the hottest\nadded a pinch of red pepper flakesd",
+            "datePublished": "2024-03-26T23:08:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Layne"
+            },
+            "reviewBody": "This recipe is perfect. I personally like a bit of flavor burst even above and beyond what this dish provides so I top the cauliflower and Parmesan with some fried capers. They add some pizzazz on the initial serving but are even more fabulous as part of left-overs the next day.",
+            "datePublished": "2024-02-04T22:06:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michele Sharpy"
+            },
+            "reviewBody": "I make this often. In fact, the only way I eat cauliflower. Thanks for something so simple, NYT.",
+            "datePublished": "2024-01-31T02:08:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KG"
+            },
+            "reviewBody": "I add whole peeled cloves of garlic to the pan…delicious combination",
+            "datePublished": "2024-01-31T05:29:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "Delicious!",
+            "datePublished": "2024-01-28T02:05:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "r"
+            },
+            "reviewBody": "To add color to your plate, the cauliflower takes the place of your starch (potato or rice, etc) and you add another green vegetable such as brussel sprouts, green beans, peas, edamame, broccoli or a green salad.",
+            "datePublished": "2024-01-14T22:10:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie"
+            },
+            "reviewBody": "Very nice, per suggestions I topped it with freshly grated parmesan, to which I added a bit of lemon zest and a few pinches of bread crumbs (fresh or Panko).  Served it as a side to Mattar Paneer, another great NY Times recipe!  All vegetarian",
+            "datePublished": "2024-01-08T02:40:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary"
+            },
+            "reviewBody": "Did exactly as instructed and everything turned out very well. Lovely, golden, and mildly crunchy. Loved the parmesan at the end. Looking forward to some of the additions described by other cooks. Thank you!",
+            "datePublished": "2024-01-07T04:05:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "L"
+            },
+            "reviewBody": "Perfect recipe. I'm vegetarian and I made this and served it with white beans in pesto and a radicchio salad. Yum.",
+            "datePublished": "2024-01-03T03:56:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny"
+            },
+            "reviewBody": "Perfect. Crispy and delicious!",
+            "datePublished": "2023-12-26T15:43:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carol"
+            },
+            "reviewBody": "Use parchment paper to line the sheet pan.",
+            "datePublished": "2023-12-11T01:19:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dana"
+            },
+            "reviewBody": "Sounds great and will try this. However, I have noticed that any time a recipe calls for roasting vegetables, the instructions call for tossing the vegetables with oil on the sheet pan. It is so much easier and more effective to do this in a bowl first, with oil and seasonings, then place on the sheet pan. They are much more evenly coated and less oil mess on the pan.",
+            "datePublished": "2023-02-01T19:57:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DCCymb"
+            },
+            "reviewBody": "You could add a small amount  of freshly grated lemon peel for brightness.",
+            "datePublished": "2023-02-01T16:33:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kit Emory"
+            },
+            "reviewBody": "Best when topped with fresh Italian flat-leaf parsley after taking it out of the oven but before it cools. Adds a wonderful dimension of flavor.",
+            "datePublished": "2023-02-01T16:22:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "naomi"
+            },
+            "reviewBody": "When I was a child, the friends grandparents had a cook who made this dish. She ground up breadcrumbs and parsley with the cheese. I remember this dish since I was 12 years old and I have made it many times since.",
+            "datePublished": "2023-02-01T17:36:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mona"
+            },
+            "reviewBody": "When you bake, and not broil, the bottom rack is the hottest",
+            "datePublished": "2023-02-02T14:12:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Freya"
+            },
+            "reviewBody": "I basically did this (on my own) last night, adding some carrot chunks to the cauliflower and served over bowtie pasta. Delish & satisfying!",
+            "datePublished": "2023-02-01T16:06:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dmaniac278"
+            },
+            "reviewBody": "The key to roasting (as I learned here) is a delicate splash of cider vinegar. Not enough that you can taste it, but just enough to brighten the natural flavor. Really elevates any roasted vegetable.",
+            "datePublished": "2023-02-05T23:56:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa J."
+            },
+            "reviewBody": "Has anyone tried making this recipe with an air fryer? Tips for suggested time and temp are welcome. Thank you!",
+            "datePublished": "2023-02-01T16:37:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "For those asking what to serve…if you eat fish, a beautiful piece of roasted salmon and sautéed greens.  If strictly vegetarian, the sautéed greens with balsamic roasted portobello mushrooms or a tricolor quinoa studded with colorful vegetables and pistachios.",
+            "datePublished": "2023-02-01T18:06:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Serena"
+            },
+            "reviewBody": "Yum. Followed recipe almost exactly, added a pinch of red pepper flakes with salt/pepper/evoo. My oven has hot spots so rotated pan at halfway of first roast. Watched carefully after adding parm at second roast. Garnished with chopped Italian parsely, thought it needed just a bit of acid so hit it with a bit of lemon zest. Perfect!!! \nWe love cauliflower sides with sautéed pork chops and an herb sauce or chimichurri, any roasted chicken, or a pasta with pesto and lots of greens.",
+            "datePublished": "2023-02-01T18:22:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cara"
+            },
+            "reviewBody": "I wish there were a video on how you cut your cauliflower. Do you just slice it in half and then pull of the florets, or do you continue to slice the whole cauliflower head?",
+            "datePublished": "2023-02-08T18:19:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tess De Jung"
+            },
+            "reviewBody": "I need more calcium for osteoporosis and I just found out that Parmesan is HIGH in calcium! This is a real winner!",
+            "datePublished": "2023-02-02T02:18:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tracey A."
+            },
+            "reviewBody": "OMG that was absolutely delicious! We loved it so much and ate every little bit! \nI made it exactly as written except I used Pecorino instead of Parmesan. \nOh man I could put that in a bowl and have just that for dinner!\nWe get a CSA and Cauliflower is often in our box. We will be eating it this way a lot!\n\nThank you so much for this recipe!",
+            "datePublished": "2023-02-03T02:44:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elle"
+            },
+            "reviewBody": "This sheet pan cauliflower recipe recommends shaving the Parm. It adheres very well to flat and curved surfaces. \n<a href=\"https://cooking.nytimes.com/recipes/1021536-roasted-cauliflower-with-pancetta-olives-and-crisp-parmesan\" target=\"_blank\">https://cooking.nytimes.com/recipes/1021536-roasted-cauliflower-with-pancetta-olives-and-crisp-parmesan</a>",
+            "datePublished": "2023-02-01T16:47:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MollyA"
+            },
+            "reviewBody": "I love roasted cauliflower and am dying to try this. My problem is that I never know what to serve it with. It seems that I always end up with all-white/tan meals, like chicken, rice, cauliflower. Green salad, of course, but I'd like to see what others serve it with.",
+            "datePublished": "2023-02-01T16:51:23.000Z"
+        }
+    ]
+}

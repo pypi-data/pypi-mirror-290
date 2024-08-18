@@ -1,0 +1,170 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Ham and Egg Cups",
+    "datePublished": "2022-05-05T10:08:31.000-04:00",
+    "dateModified": "2024-04-11T07:17:07.658-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "LaDonna Langwell"
+        }
+    ],
+    "description": "These ham and egg cups with cheese and chives cook in just 20 minutes for a deliciously easy breakfast or brunch the whole family will love!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/s4HvoSuNevWNPvijl8tnzrdLEKI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ham-cheese-and-egg-cups-301768234aee40ddbf5114ca55a3655d.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Ham and Egg Cups",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "315 kcal",
+        "carbohydrateContent": "2 g",
+        "cholesterolContent": "290 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "41 g",
+        "saturatedFatContent": "5 g",
+        "sodiumContent": "1656 mg",
+        "sugarContent": "2 g",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "nonstick cooking spray",
+        "3 thin slices ham",
+        "0.25 cup shredded Gruyere cheese",
+        "3 large eggs",
+        "1 tablespoon milk, or as needed",
+        "3 leaves fresh basil, torn",
+        "0.5 teaspoon chopped fresh chives, or to taste",
+        "salt and freshly ground black pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C). Spray a 6-cup muffin pan with nonstick spray, making sure the spray coats all sides of the cup."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut ham in half and place 1 piece in each cup, pressing it down so it forms a basket in the cup. Sprinkle a small amount of Gruyere cheese on the bottom of the ham."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crack eggs into a a measuring cup. Add milk, basil, chives, salt, and pepper. Whisk until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour egg mixture evenly into each muffin cup."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until set, 20 to 25 minutes. Let cool for a few minutes before using a spoon to slide the cups out onto a plate."
+        }
+    ],
+    "recipeYield": [
+        "3"
+    ],
+    "totalTime": "PT30M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "deb"
+            },
+            "reviewBody": "Loved it! I used mozzarella cheese and left the eggs whole. (put the egg in a measuring cup to make easier to put in) The only spice I used was some ground black pepper on top of the egg. Came out great!",
+            "datePublished": "2024-01-13T15:01:47.688Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Guy R Gifford"
+            },
+            "reviewBody": "KETO !!! Yep, perfect for weight-loss or leaning diet. Stick with Keto cheese, the hard cheeses, such as cheddar or harder, and don't over-do the cheese (for Keto). A bit of parmesan cheese sparks this up.",
+            "datePublished": "2022-06-10T17:50:22.458Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/8386954/ham-cheese-and-egg-cups/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                        "name": "Breakfast and Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                        "name": "Eggs"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/8386954/ham-cheese-and-egg-cups/",
+                        "name": "Ham and Egg Cups"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,433 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020238-mediterranean-lentil-salad#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020238-mediterranean-lentil-salad",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/06/05/dining/31kitchrex1/merlin_155289774_990f698b-fe5d-407f-bc16-ce7c4d3e6768-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020238-mediterranean-lentil-salad",
+    "name": "Mediterranean Lentil Salad",
+    "description": "Here’s a summery lentil salad topped with tomatoes, roasted peppers and feta, garnished with hard-cooked eggs, anchovy fillets and good canned tuna. Studded with olives and sprinkled with oregano, it’s a sort-of niçoise salad by way of Greece, an easy main course suitable for a picnic or a no-fuss make-ahead supper.",
+    "author": {
+        "@type": "Person",
+        "name": "David Tanis"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/06/05/dining/31kitchrex1/merlin_155289774_990f698b-fe5d-407f-bc16-ce7c4d3e6768-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/06/05/dining/31kitchrex1/merlin_155289774_990f698b-fe5d-407f-bc16-ce7c4d3e6768-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/06/05/dining/31kitchrex1/merlin_155289774_990f698b-fe5d-407f-bc16-ce7c4d3e6768-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/06/05/dining/31kitchrex1/merlin_155289774_990f698b-fe5d-407f-bc16-ce7c4d3e6768-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "6 to 8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "eggs, feta, lentil, potato, salad, tomato, tuna",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 844
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 462,
+        "unsaturatedFatContent": "15 grams",
+        "carbohydrateContent": "46 grams",
+        "cholesterolContent": null,
+        "fatContent": "22 grams",
+        "fiberContent": "8 grams",
+        "proteinContent": "23 grams",
+        "saturatedFatContent": "5 grams",
+        "sodiumContent": "765 milligrams",
+        "sugarContent": "5 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 1/2 cups small brown or green lentils, such as Castelluccio or Le Puy ",
+        "1 bay leaf ",
+        "A few thyme sprigs, tied in a bundle",
+        "Salt and pepper",
+        "1 1/2 pounds tiny new potatoes",
+        "12 ounces cherry tomatoes, halved (about 3 cups)",
+        "1/2 small red onion, thinly sliced and soaked in ice water",
+        "2 red bell peppers, roasted, skin removed and cut into long, wide strips",
+        "8 anchovy fillets (optional)",
+        "8 ounces good-quality canned tuna, drained, in large chunks (optional)",
+        "4 hard-cooked eggs (9 minutes), halved or quartered",
+        "2 tablespoons roughly chopped mint",
+        "3 tablespoons roughly chopped parsley",
+        "Small handful of basil leaves, for garnish",
+        "1 cup good-quality black olives, such as niçoise, Kalamata or Moroccan",
+        "4 ounces feta, cut in 1/2-inch slices",
+        "3 tablespoons red-wine vinegar, plus more to taste",
+        "2 garlic cloves, grated or smashed to a paste (about 1/2 teaspoon)",
+        "Salt and pepper",
+        "1/2 cup extra-virgin olive oil, plus more to taste",
+        "1 teaspoon crumbled oregano, plus a little more for sprinkling"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cook the lentils: Rinse and put in a medium saucepan. Cover with 4 cups water and add bay leaf, thyme sprig and a large pinch of salt. Bring to a boil over high heat, then reduce heat and simmer gently with lid ajar for 20 to 25 minutes, until lentils are tender. Set pot aside and let cool to room temperature."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Put the potatoes in another saucepan, cover with water and add a heaping teaspoon of salt. Bring to a boil, then reduce heat to brisk simmer. Cook about 15 minutes, until cooked through when probed with a paring knife. Drain and set aside. (If desired, use a paring knife to remove skins from potatoes while still warm.) Cut in halves or quarters."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While lentils cook, make the vinaigrette: In a small bowl, stir together vinegar and garlic. Season with a good pinch of salt and pepper. Whisk in the oil. Taste and adjust. Stir in oregano."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Put the cherry tomatoes in a bowl. Drain onion slices, and add to the tomatoes along with roasted pepper strips. Season with salt, then add half the vinaigrette (well whisked). Toss to coat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To assemble salad, drain lentils and transfer to a large low, wide bowl or platter and let cool for 10 minutes.  Add remaining vinaigrette, sprinkle with a little salt and toss gently. Taste and adjust seasoning."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Top lentils with tomato-onion-pepper mixture. Arrange anchovy fillets, tuna (if using) and eggs on top. Sprinkle with mint and parsley. Arrange halved or quartered potatoes around the perimeter. Garnish with basil leaves, olives and feta. Sprinkle a pinch of oregano over the salad."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chandra"
+            },
+            "reviewBody": "Made this as is and it was absolutely divine. I used a very high-quality jar of tuna. Thank you for this delicious recipe.",
+            "datePublished": "2023-08-29T23:32:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mel B"
+            },
+            "reviewBody": "Good recipe. I wasn't feeling anchovies; I used fried capers instead. I think next time I will do that and sub sliced avocado for the tuna for a vegetarian version. Conversely, if I make it with tuna and anchovies in the future I'll skip the feta. A lot of competing salty flavors. A heavy squeeze of lemon over the lentils when they're done cooking would be welcome. More mint next time, too.",
+            "datePublished": "2023-08-15T10:11:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "pat"
+            },
+            "reviewBody": "The dressing needs more acid.   It’s prettier flavorless",
+            "datePublished": "2023-08-01T03:08:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "soona"
+            },
+            "reviewBody": "This was delicious. Spring for the imported tuna packed with olive oil in a jar. Expensive but worth it!",
+            "datePublished": "2023-07-30T16:51:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia Hanigsberg"
+            },
+            "reviewBody": "This is a wonderful summer dinner salad. At the last minute realized I didn’t have tuna - didn’t miss it! I couldn’t resist adding steamed green beans because they are fresh locally as I made this in July. A perfect make ahead dish: throw together at dinner time and make enough for leftovers for lunch.",
+            "datePublished": "2023-07-29T01:53:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jp inframan"
+            },
+            "reviewBody": "Sorry, far too many conflicting Umami ingredients. Only heavy smokers would benefit from this, imo..",
+            "datePublished": "2023-07-29T04:14:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa T"
+            },
+            "reviewBody": "Made this for a light summer dinner with my parents. Really made for an elegant and healthy meal. Instead of fish, paired with shawarma seasoned chicken thighs. Left off the feta, which would have made it even better, but it had gone bad unfortunately. I think the garlicky dressing really tied everything together. Delicious!",
+            "datePublished": "2023-07-23T18:34:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mindy"
+            },
+            "reviewBody": "Delicious! Made exactly as prescribed. Perfectly balanced flavors and textures. I used de puy lentils.",
+            "datePublished": "2023-07-21T03:35:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Suzanna Smith"
+            },
+            "reviewBody": "Delicious, though rather over-fussy for the weekday lunch I was making. I did the roasted bell pepper and hard boiled eggs the night before to save time. You can also do the sliced onion in advance. Overall happy with the result! Served with a small loaf of focaccia.",
+            "datePublished": "2023-07-20T18:19:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie"
+            },
+            "reviewBody": "A good salad. I would add more dressing or make it sharper. Steve did not like it because it was cold.",
+            "datePublished": "2023-07-14T19:50:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jim in japan"
+            },
+            "reviewBody": "Delicious! After making several times in a rushed, haphazard way, I finally made it last night following Tanis’ directions more carefully and was rewarded with a much more subtle and satisfying result.",
+            "datePublished": "2023-03-20T21:27:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "I added some avocado slices, to good effect. This is basically Salad Niçcoise with lentils instead of lettuce for the base, and there's nothing wrong with that at all.",
+            "datePublished": "2022-09-23T22:16:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SirFreddy"
+            },
+            "reviewBody": "Terrific, and not too much cooking for a hot August day. Minor changes: added white anchovy to vinaigrette to tamper the flavor and also added dried oregano to vinaigrette. Use fine cooked bulgar (my preferred starch) instead of potato. Did not use tuna. Overall, a great meal on a hot summer day!",
+            "datePublished": "2022-08-02T17:58:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allison"
+            },
+            "reviewBody": "I love this salad. I have made it several times. It is always well received. Truly a 'meal' salad. I use grilled or poached salmon instead of tuna. Sometimes I cheat and use 'Red Roasted Peppers' from a jar to save a little time.",
+            "datePublished": "2022-06-10T20:31:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bonnie"
+            },
+            "reviewBody": "Delicious.  Variation based on what I had.  DePuey lentils, roasted baby peppers, cooked baby potatoes, cherry tomatoes, chopped parsley, good vinaigrette.  Served with avocado toast.",
+            "datePublished": "2022-04-22T23:50:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fredericktibbetts"
+            },
+            "reviewBody": "Variations. A more Nordic take on this salad. For the basil, substitute fresh dill; for the red peppers, radishes thinly sliced. For the feta, a grated hard cheese (such as gruyere).  For the red onion, scallions. For the tuna, herring, pickled or smoked.\n    All these alternatives play well with lentils, small potatoes and hard-cooked eggs.",
+            "datePublished": "2019-06-02T06:20:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Régine B."
+            },
+            "reviewBody": "Dijon mustard works really well with lentils.  The French pair them often.",
+            "datePublished": "2019-06-03T19:00:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Evelyn"
+            },
+            "reviewBody": "The ingredients in this are divine and work together really well, but it needs more seasoning than the recipe specifies.  I might try it next time with cumin or more oregano.",
+            "datePublished": "2019-06-03T00:54:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gia"
+            },
+            "reviewBody": "Use anchovy paste; add it to the vinaigrette.\nAnchovy flavor without anchovy texture!",
+            "datePublished": "2019-06-03T19:56:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jamie"
+            },
+            "reviewBody": "1 hour??  This is an excellent dish, but it is all there prep-wise.  Be prepared for at least a 2 hour gig making it.  If you buy pre-roasted red peppers, maybe hard boil the eggs the day before, etc., you might shave a few minutes off.  Also, don't let the lentils cool in their cooking water, they'll turn to mush.",
+            "datePublished": "2019-06-07T19:54:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard Schinella"
+            },
+            "reviewBody": "You know ...I can't understand how people frequently comment on how they think a particular dish \"should have\" been cooked! I made this dish exactly how Dave Tanis reported it (including the \"optional\" items (I also added some crushed basil ...since this is the Italian way to serve tomatoes) ...but it was FANTASTIC. Loved it, ate all of it ...no left-overs. ...Some of the Nordic suggestions may be good ...but better??? (Give me a break).",
+            "datePublished": "2019-06-11T21:30:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tricia"
+            },
+            "reviewBody": "Variations. A more Nordic take on this salad. For the basil, substitute fresh dill; for the red peppers, radishes thinly sliced. For the feta, a grated hard cheese (such as gruyere). For the red onion, scallions. For the tuna, herring, pickled or smoked.\nAll these alternatives play well with lentils, small potatoes and hard-cooked eggs.",
+            "datePublished": "2019-06-03T19:08:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MHV"
+            },
+            "reviewBody": "As a plant-based eater, I substituted the tuna for garbanzo beans, and omitted the eggs.  A hunk of good bread to sop up the juices.  What's not to love.",
+            "datePublished": "2019-06-05T13:47:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaret Nichols"
+            },
+            "reviewBody": "Made as described except I used quick pickled red onions, which were  nicely crunchy counterpoint to the otherwise soft foods.  And, I had fresh oregano and used quite a bit of it.  The whole ensemble was very tasty!",
+            "datePublished": "2019-06-05T00:26:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "debsa"
+            },
+            "reviewBody": "No potatoes at home, but used so,e left over white beans. What a lovely creamy consistency that contrasted beautifully with the crunchy veg. Omitted cheese. Used extra anchovies. For anyone who thought the seasoning wasn’t strong enough, suggest using much more salt when cooking the lentils. It really helps them “pop”.",
+            "datePublished": "2019-06-09T16:33:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gillian"
+            },
+            "reviewBody": "This was very tasty. Note to self next time: Move your butt and go buy Le Puy lentils. Do not substitute with red lentils -- a trifle mushy as you knew they were bound to be.",
+            "datePublished": "2019-06-08T16:04:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Régine B."
+            },
+            "reviewBody": "This is a totally different recipe! It might be good, though!",
+            "datePublished": "2019-06-03T19:01:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "quaasam"
+            },
+            "reviewBody": "excellent. 1/2 cup puy lentils for 2 people. All other ingredients 1/2 portion.\nDelicious. Will do it again.",
+            "datePublished": "2020-01-01T20:06:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jamie"
+            },
+            "reviewBody": "My partner and I are vegetarian, so I made this as is without anchovies or tuna and we still found it excellent and satisfying--and healthy, too! If you're doing WW, it's remarkably low points. I had all the required herbs growing in pots on the patio, which really enhanced the flavor and felt like quite an urban gardener win!",
+            "datePublished": "2020-05-29T22:18:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SirFreddy"
+            },
+            "reviewBody": "Terrific, and not too much cooking for a hot August day. Minor changes: added white anchovy to vinaigrette to tamper the flavor and also added dried oregano to vinaigrette. Use fine cooked bulgar (my preferred starch) instead of potato. Did not use tuna. Overall, a great meal on a hot summer day!",
+            "datePublished": "2022-08-02T17:58:55.000Z"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Virginia Peanut Pie",
+    "datePublished": "2016-10-03T09:47:10.000-04:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This pie is inspired by the version served at the Virginia Diner, a landmark restaurant in Wakefield, Virginia, that&#39;s renowned for this dessert. Martha made this recipe on Martha Bakes episode 709.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/WF9XoeRjSN97GM-_yU3DUd4WeHI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/102802596_horiz-2d003872ac804d08871c8dfb73386fc9.jpgitokQOo7GIz9",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Virginia Peanut Pie",
+    "keywords": "American recipes, Apple cider vinegar, Bake, Buffet, Cayenne pepper, Chop, Dessert, Dessert party, Dinner party, Fall, Freeze, Golden syrup, Housewarming, Ice cream, Make-ahead, Nut pies, Pate brisee, Peanuts, Potluck, Rolling out dough, Thanksgiving, Van",
+    "prepTime": "PT25M",
+    "recipeIngredient": [
+        "3 tablespoons unbleached all-purpose flour, plus more for dusting",
+        "1 disk Test Kitchen&#039;s Favorite Pate Brisee",
+        "3 large eggs, room temperature",
+        "4 tablespoons unsalted butter, melted and cooled",
+        "0.75 cup packed light-brown sugar",
+        "0.75 cup golden syrup, such as Lyle's",
+        "2 tablespoons apple-cider vinegar",
+        "1 teaspoon kosher salt",
+        "1 teaspoon pure vanilla extract",
+        "0.25 teaspoon cayenne pepper, plus more for serving (optional)",
+        "1.5 cups roasted unsalted Virginia peanuts",
+        "Vanilla ice cream, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees. On a lightly floured work surface, roll out dough to an 11-inch round. Transfer to a 9-inch pie dish; trim edges to a 1/2-inch overhang. Tuck overhang under and crimp edges with the tines of a fork; freeze until firm, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Line crust with parchment and fill with dried beans or pie weights. Bake until bottomno longer looks wet, about 25 minutes. Carefully remove parchment and beans; continue baking until light golden, about 10 minutes more. Let cool completely on a wire rack."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk eggs in a large bowl. Add butter, brown sugar, syrup, vinegar, flour, salt, vanilla, and cayenne; whisk until smooth. Coarsely chop 1 cup peanuts and stir into egg mixture, then pour into cooled crust. Scatter remaining 1/2 cup peanuts evenly over top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until crust is golden brown and filling is puffed slightly and set, 40 to 50 minutes (if crust is browning too quickly, tent with foil). Let cool completely on wire rack. Slice and serve, with scoops of ice cream lightly sprinkled with cayenne."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT145M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1163185/virginia-peanut-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1163185/virginia-peanut-pie",
+                        "name": "Virginia Peanut Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

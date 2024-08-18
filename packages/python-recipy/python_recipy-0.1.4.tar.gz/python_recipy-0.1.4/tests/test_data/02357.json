@@ -1,0 +1,69 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Apple Butter",
+    "keywords": "apple butter",
+    "recipeCategory": "Condiment",
+    "image": "https://mojo.generalmills.com/api/public/content/Btge8AR2MkaibuA0pEA-Hw_webp_base.webp?v=80cea55a&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Looking for a classic homemade condiment? Enjoy this slow cooked apple butter made with apple and spices.",
+    "recipeIngredient": [
+        "12  medium Granny Smith or other cooking apples, peeled and cut into fourths",
+        "1 1/2  cups packed brown sugar",
+        "1/2  cup apple juice",
+        "1  tablespoon ground cinnamon",
+        "1  tablespoon lemon juice",
+        "1  teaspoon ground allspice",
+        "1  teaspoon ground nutmeg",
+        "1/2  teaspoon ground cloves"
+    ],
+    "totalTime": "PT2H30M",
+    "prepTime": "PT0H30M",
+    "recipeYield": "64",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "26",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix all ingredients in 5- to 6-quart slow cooker."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and cook on low heat setting 8 to 10 hours or until apples are very tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mash apples with potato masher or large fork."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook uncovered on low heat setting 1 to 2 hours, stirring occasionally, until mixture is very thick. Cool about 2 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon apple butter into container. Cover and store in refrigerator up to 3 weeks."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "30 ",
+        "carbohydrateContent": "9 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "0 g",
+        "servingSize": "1 Tablespoon",
+        "sodiumContent": "0 mg"
+    },
+    "dateCreated": "10/12/2001",
+    "dateModified": "07/10/2018"
+}

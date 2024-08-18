@@ -1,0 +1,137 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/2048x2048/square-1445875108-delish-caramel-apple-pie.jpg?resize=100:*",
+    "datePublished": "2015-10-26T18:24:00 EDT",
+    "headline": "Caramel Apple Pie Oatmeal",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/2048x2048/square-1445875108-delish-caramel-apple-pie.jpg?resize=100:*",
+            "url": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/2048x2048/square-1445875108-delish-caramel-apple-pie.jpg?resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/2048x2048/square-1445875108-delish-caramel-apple-pie.jpg?resize=100:*",
+            "url": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/1445875108-delish-caramel-apple-pie.jpg?crop=1xw:0.5xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/2048x2048/square-1445875108-delish-caramel-apple-pie.jpg?resize=100:*",
+            "url": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/44/1445875108-delish-caramel-apple-pie.jpg?crop=1xw:0.375xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.delish.com/cooking/recipe-ideas/recipes/a44493/caramel-apple-pie-oatmeal-recipe/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Delish",
+        "sameAs": [
+            "https://twitter.com/delish",
+            "https://www.tiktok.com/@delish",
+            "https://www.youtube.com/c/delish",
+            "https://www.facebook.com/delish",
+            "http://instagram.com/delish",
+            "http://www.pinterest.com/Delish/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.delish.com/_assets/design-tokens/delish/static/images/logos/logo-jsonld.1396ea2.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "apple oatmeal recipe, caramel apple oatmeal recipe, apple pie oatmeal, caramel oatmeal, fall oatmeal recipes",
+        "CATEGORY: breakfast",
+        "TOTALTIME: 00:10:00",
+        "FILTERTIME: <30MINS",
+        "RATING: 3.5",
+        "FILTERRATING: <4"
+    ],
+    "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a44493/caramel-apple-pie-oatmeal-recipe/",
+    "isBasedOn": "https://www.delish.com/cooking/recipe-ideas/recipes/a44493/caramel-apple-pie-oatmeal-recipe/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "Yes, we love apple pie so much we turned it into oatmeal. Drizzled with caramel, it's a breakfast you won't forget.",
+    "name": "Caramel Apple Pie Oatmeal",
+    "prepTime": "PT10M",
+    "cookTime": "PT0S",
+    "totalTime": "PT10M",
+    "recipeIngredient": [
+        "1 tbsp. butter",
+        "1 apple, diced",
+        "1 tsp. ground cinnamon",
+        "1/2 c. milk or water",
+        "1 c. old-fashioned rolled oats",
+        "kosher salt",
+        "1 tbsp. brown sugar",
+        "Caramel, for drizzling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small skillet over medium heat, melt butter. Add apple and cinnamon and stir, cooking until soft and golden, about 6 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a medium saucepan over high heat, bring milk to a boil. Stir in oats and salt, reduce heat to low, and simmer until oats are tender and creamy, 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in cooked apples and brown sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve in a bowl drizzled with caramel."
+        }
+    ],
+    "recipeYield": "1",
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeCategory": [
+        "breakfast"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 609 Calories",
+        "fatContent": "21 g",
+        "saturatedFatContent": "11 g",
+        "transFatContent": "0 g",
+        "cholesterolContent": "43 mg",
+        "sodiumContent": "953 mg",
+        "carbohydrateContent": "83 g",
+        "fiberContent": "13 g",
+        "sugarContent": "35 g",
+        "proteinContent": "16 g"
+    },
+    "@context": "http://schema.org"
+}

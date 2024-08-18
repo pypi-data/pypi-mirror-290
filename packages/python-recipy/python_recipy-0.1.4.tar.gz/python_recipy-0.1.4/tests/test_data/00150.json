@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Macaroon Ice Cream Sandwiches",
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/macaroon-ice-cream-sandwiches-3362798",
+    "headline": "Macaroon Ice Cream Sandwiches",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Food Network Kitchen",
+            "url": "https://www.foodnetwork.com/profiles/talent/food-network-kitchen"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-16T00:48:50.237-05:00",
+    "dateModified": "2014-03-14T17:45:50.182-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Cookie,Dairy Recipes,Coconut Recipes,Fruit,Gluten Free",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "prepTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT0H55M0.000S",
+    "recipeIngredient": [
+        "3 large egg whites",
+        "1/2 cup sugar",
+        "1/8 teaspoon salt",
+        "1/4 teaspoon vanilla extract",
+        "1 14-ounce package sweetened shredded coconut",
+        "3 pints vanilla ice cream, slightly softened"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 15 servings",
+        "calories": "271",
+        "fatContent": "15g",
+        "saturatedFatContent": "12g",
+        "carbohydrateContent": "32g",
+        "fiberContent": "2g",
+        "sugarContent": "29g",
+        "proteinContent": "3g",
+        "cholesterolContent": "23mg",
+        "sodiumContent": "142mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 325 degrees F and line a baking sheet with parchment paper. Whisk the egg whites, sugar, salt and vanilla in a large bowl until combined; fold in the coconut."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flatten heaping tablespoonfuls of the coconut mixture into 2-inch disks; place them about 1 inch apart onto the baking sheet. Bake until golden brown around the edges, 20 to 25 minutes. Let cool 10 minutes on the baking sheet, then transfer to a rack to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gently sandwich the macaroons with the vanilla ice cream; freeze until set, at least 15 minutes."
+        }
+    ],
+    "recipeYield": "about 15 ice cream sandwiches",
+    "recipeCategory": []
+}

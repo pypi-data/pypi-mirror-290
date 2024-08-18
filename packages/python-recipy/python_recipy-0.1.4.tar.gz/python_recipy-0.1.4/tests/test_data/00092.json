@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Slow-Cooker Cherry Cobbler",
+    "datePublished": "2019-03-08T17:22:47.000-05:00",
+    "dateModified": "2023-09-19T16:09:38.781-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sarah Epperson Loveless",
+            "url": "https://www.eatingwell.com/author/sarah-epperson-loveless/"
+        }
+    ],
+    "description": "While you&#39;re focused on every other dish for the backyard barbecue, let the slow cooker make cherry cobbler for a crowd. With frozen fruit, this easy slow-cooker dessert can be made and enjoyed any time of year.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/zm0W_5cIK1tS-7CRdIWKj750UWM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6440436-7295eb88e3b44d07b3505b947e84a122.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Slow-Cooker Cherry Cobbler",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "321 kcal",
+        "carbohydrateContent": "57 g",
+        "cholesterolContent": "15 mg",
+        "fiberContent": "6 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "65 mg",
+        "sugarContent": "40 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "10 cups frozen pitted dark sweet cherries (about 48 oz.), thawed and well drained",
+        "0.5 cup granulated sugar",
+        "0.25 cup cornstarch",
+        "2 tablespoons lemon juice",
+        "1 cup granola",
+        "0.25 cup white whole-wheat flour",
+        "0.25 cup unsalted butter, softened",
+        "1 tablespoon light brown sugar",
+        "0.25 teaspoon kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To prepare filling: Coat a 6-quart slow cooker with cooking spray. Combine cherries, granulated sugar and cornstarch in a large bowl; toss until well coated. Transfer to the prepared slow cooker. Cover and cook on High for 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, prepare topping: Combine granola, flour, butter, brown sugar and salt in a large bowl; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "After 1 hour of cooking, stir lemon juice into the cherry mixture. Evenly distribute the granola mixture on top. Cover and cook for 1 hour. Adjust the lid to partially cover; cook for 30 minutes more. Serve warm."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT165M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/271085/slow-cooker-cherry-cobbler/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18287/desserts/fruit/",
+                        "name": "Healthy Dessert Recipes with Fruit"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19601/desserts/fruit/cherry/",
+                        "name": "Healthy Cherry Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/271085/slow-cooker-cherry-cobbler/",
+                        "name": "Slow-Cooker Cherry Cobbler"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T16:09:38.781-04:00"
+    },
+    "recipeCategory": []
+}

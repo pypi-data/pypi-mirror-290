@@ -1,0 +1,85 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/premium/aromatic-mince-apricots-with-minty-bulgur#Recipe",
+    "@type": "Recipe",
+    "description": "Use lean beef for this spicy dish – it's a good source of vitamin B12, iron and zinc, as well as protein. You can also cook the mince and freeze it for a busy day",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/06/AromaticMince-3bafe5e.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/premium/aromatic-mince-apricots-with-minty-bulgur"
+    },
+    "name": "Aromatic mince & apricots with minty bulgur",
+    "url": "https://www.bbcgoodfood.com/premium/aromatic-mince-apricots-with-minty-bulgur",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sara Buenfeld",
+            "url": "https://www.bbcgoodfood.com/author/sarabuenfeld"
+        }
+    ],
+    "dateModified": "2024-06-06T17:05:09+01:00",
+    "datePublished": "2024-06-06T17:05:09+01:00",
+    "headline": "Aromatic mince & apricots with minty bulgur",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "648 calories",
+        "fatContent": "18 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "73 grams carbohydrates",
+        "sugarContent": "17 grams sugar",
+        "fiberContent": "14 grams fiber",
+        "proteinContent": "41 grams protein",
+        "sodiumContent": "1.23 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "1 tbsp rapeseed oil",
+        "1 onion , halved and thinly sliced",
+        "200g lean beef mince (5% fat)",
+        "1 tsp cumin seeds",
+        "2 tbsp harissa paste",
+        "2 tbsp tomato purée",
+        "1 tsp vegetable bouillon powder",
+        "400g can chickpeas , not drained",
+        "5 dried apricots , halved",
+        "160g bulgur wheat",
+        "1 tbsp fresh mint leaves , chopped",
+        "10g toasted almond flakes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a large pan and fry the onion, stirring occasionally, until starting to turn golden. Add the mince and break up with a wooden spoon, then continue cooking until browned. Stir in the cumin seeds, harissa and tomato purée, then add the bouillon powder, chickpeas plus the liquid from the can, apricots and 150ml water. Stir well, then cover the pan and cook over a low heat for 20 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, bring a litre of water to the boil then add the bulgur. Cover and cook over a medium heat for 15 mins, until tender. Drain if there's any water left in the pan. Stir through the mint and serve with the spicy mince mixture, scattered with the toasted almonds."
+        }
+    ],
+    "recipeYield": 2,
+    "totalTime": "PT40M",
+    "recipeCategory": []
+}

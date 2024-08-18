@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Goat Cheese and Caramelized Apple Toasts",
+    "datePublished": "2013-12-06T18:28:30.000-05:00",
+    "dateModified": "2015-12-01T11:46:51.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Parisi",
+            "url": "https://www.foodandwine.com/author/grace-parisi"
+        }
+    ],
+    "description": "Grace Parisi&#39;s sweet and savory toasts are perfect for breakfast or an afternoon snack.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Goat Cheese and Caramelized Apple Toasts",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1/4 cup pecans",
+        "4 ounces fresh goat cheese, softened",
+        "3 ounces cream cheese, softened",
+        "1 tablespoon confectioners' sugar",
+        "6 tablespoons unsalted butter, softened",
+        "2 large Granny Smith apples, peeled and thinly sliced",
+        "1/4 cup granulated sugar",
+        "2 tablespoons water",
+        "6 slices white bread",
+        "Coarse sea salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°. Spread the pecans in a pie plate and toast for 10 minutes, until golden and fragrant. Let cool, then coarsely chop."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, mash the goat cheese with the cream cheese and confectioners&#39; sugar. Fold in the chopped pecans."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt 4 tablespoons of the butter in a large skillet. Add the apples and cook over moderately high heat, stirring occasionally, until golden, about 5 minutes. Add the granulated sugar and cook, stirring occasionally, until the apples are caramelized and tender, about 5 minutes longer. Stir in the water and transfer the apples to a plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the broiler and position a rack 8 inches from the heat. Arrange the bread on a baking sheet and brush both sides with the remaining 2 tablespoons of butter. Broil the bread, turning once, until golden and toasted, about 4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the goat cheese mixture on the toast and spoon the apples on top. Sprinkle very lightly with coarse salt. Cut each toast in half diagonally and serve right away."
+        }
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/november-2007-goat-cheese-and-caramelized-apple-toasts",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/breakfast-brunch",
+                        "name": "Breakfast & Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/november-2007-goat-cheese-and-caramelized-apple-toasts",
+                        "name": "Goat Cheese and Caramelized Apple Toasts"
+                    }
+                }
+            ]
+        }
+    }
+}

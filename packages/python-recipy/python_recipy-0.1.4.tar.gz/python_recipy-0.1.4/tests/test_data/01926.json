@@ -1,0 +1,168 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "headline": "Cheesy Garlic Bread",
+    "url": "https://www.thekitchn.com/cheesy-garlic-bread-23578491",
+    "description": "The secret to better garlic bread? Lots of cheese, a little bit of mayo (yes, really), and scallions.",
+    "brand": {
+        "@type": "Thing",
+        "name": "The Kitchn"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "563 cal",
+        "carbohydrateContent": "31.3 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "1.6 g",
+        "proteinContent": "18.3 g",
+        "saturatedFatContent": "22.0 g",
+        "sodiumContent": "799.2 mg",
+        "sugarContent": "3.7 g",
+        "fatContent": "40.7 g",
+        "servingSize": "Serves 4",
+        "unsaturatedFatContent": "0.0 g"
+    },
+    "suitableforDiet": "https://schema.org/VegetarianDiet",
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "recipeIngredient": [
+        "8 tablespoons (1 stick) unsalted butter, preferably European or Kerrygold",
+        "1 (8-ounce) loaf  unsliced Italian bread",
+        "2  medium scallions",
+        "5 cloves garlic",
+        "2 tablespoons mayonnaise",
+        "1/2 teapoon garlic powder",
+        "1/2 teaspoon freshly ground black pepper",
+        "1/2 teaspoon granulated sugar",
+        "1/4 teaspoon kosher salt",
+        "3 ounces low-moisture shredded mozzarella cheese",
+        "3 ounces Parmesan cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Step 1",
+            "text": "Place 1 stick unsalted butter in a small bowl and let sit at room temperature until softened.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 2",
+            "text": "Arrange a rack in the middle of the oven and heat the oven to 425ºF. Line a baking sheet with parchment paper or aluminum foil.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 3",
+            "text": "Cut 1 loaf Italian bread in half horizontally with a serrated knife. Halve each piece crosswise for a total of 4 pieces. Place the pieces cut-side up on the baking sheet.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 4",
+            "text": "Thinly slice 2 medium scallions. Reserve 1 tablespoon of the dark green parts for garnish, then add the remaining to the bowl of butter. Mince 5 garlic cloves and add to the bowl of butter.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 5",
+            "text": "Add 2 tablespoons mayonnaise, 1/2 teaspoon garlic powder, 1/2 teaspoon black pepper, 1/2 teaspoon granulated sugar, and 1/4 teaspoon kosher salt to the butter. Smash and stir together until combined into a spreadable paste. Spread the garlic butter evenly onto the cut side of the bread.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 6",
+            "text": "Grate 3 ounces low-moisture mozzarella cheese on the large holes of a box grater (about 1 cup). Grate 3 ounces Parmesan cheese on the small holes of a box grater (about 1 cup). Place both cheeses in a medium bowl and toss to combine. Sprinkle the cheeses evenly over the garlic bread.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 7",
+            "text": "Bake until the cheese is melted and browned in spots, about 15 minutes. Garnish with the reserved scallions.",
+            "image": null
+        }
+    ],
+    "HowtoTip": {
+        "text": "Make ahead: You can make the garlic butter mixture 3 days ahead and refrigerate in an airtight container. Let come to room temperature before using.Storage: Leftovers can be refrigerated in an airtight container for up to 5 days or frozen for up to 6 months."
+    },
+    "recipeYield": 4,
+    "prepTime": "PT600S",
+    "cookTime": "PT900S",
+    "totalTime": "PT1500S",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "worstRating": 1,
+        "reviewCount": 4
+    },
+    "review": [],
+    "name": "Cheesy Garlic Bread",
+    "articleSection": "Recipes",
+    "thumbnailUrl": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2023-09-garlic-bread%2Fgarlic-bread-035",
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2FPhoto%2FRecipes%2F2023-09-garlic-bread%2Fgarlic-bread-035"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2023-09-garlic-bread%2Fgarlic-bread-035"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-09-garlic-bread%2Fgarlic-bread-035"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Apartment Therapy, LLC.",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thekitchn.com/static/logos/publisher-logo.png",
+            "width": 180,
+            "height": 46
+        }
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "James Park",
+            "URL": "https://www.thekitchn.com/authors/james-park",
+            "description": "James Park is a food content creator, food personality, and social media strategist based in Brooklyn. He was professionally trained at the International Culinary Center. He loves to share his love and passion for Korean cuisine and culture, fried chicken, and all things noodles. He’s currently working on his debut cookbook that’s all about chile crisp.",
+            "jobTitle": ""
+        }
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "James Park"
+    },
+    "keywords": [
+        "recipe",
+        "vegetarian",
+        "dairy",
+        "Side Dish",
+        "quick",
+        "baked goods",
+        "Bread",
+        "Baking",
+        "Dish Types",
+        "Cooking Methods",
+        "team:recipes",
+        "platform:search",
+        "course:side dish",
+        "diet:vegetarian",
+        "mainingredients:dairy",
+        "timing:quick",
+        "timing:30-minute",
+        "dishtype:bread",
+        "dishtype:baked good",
+        "method:baked",
+        "updated:2023-11-13"
+    ],
+    "mainEntityOfPage": "https://www.thekitchn.com/cheesy-garlic-bread-23578491",
+    "dateCreated": "2023-11-13T19:03:23-05:00",
+    "datePublished": "2023-11-13T19:03:23-05:00",
+    "dateModified": "2023-11-13T18:55:14-05:00",
+    "abstract": null
+}

@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Cauliflower Gratin with Manchego and Almond Sauce",
+    "datePublished": "2013-12-06T18:15:52.000-05:00",
+    "dateModified": "2019-10-09T15:55:15.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Parisi",
+            "url": "https://www.foodandwine.com/author/grace-parisi"
+        }
+    ],
+    "description": "This outrageously rich sauce, flavored with salty, nutty Manchego, gets poured on sautéed cauliflower and baked until it&#39;s golden and bubbling....",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/FtciPtbp5JHXQeXqStkvkkxuAvU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cauliflower-gratin-with-manchego-and-almond-sauce-xl-r-200502-2000-09303970cad246c0b8f35e8448228e9b.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Cauliflower Gratin with Manchego and Almond Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "3941"
+    },
+    "recipeIngredient": [
+        "3/4 cup half-and-half",
+        "4 tablespoons unsalted butter",
+        "2 tablespoons all-purpose flour",
+        "1 cup whole milk",
+        "Pinch of freshly grated nutmeg",
+        "Salt and freshly ground pepper",
+        "One 2-pound head of cauliflower, cut into 1 1/2-inch florets",
+        "1/2 cup whole roasted almonds with skin, plus 2 tablespoons coarsely chopped almonds (3 ounces)",
+        "3/4 cup plus 2 tablespoons finely shredded Manchego or other mildly nutty semi-aged sheep's- or cow's-milk cheese (3 1/2 ounces), such as Gouda",
+        "1 medium onion, finely chopped",
+        "1/4 teaspoon Pimentón de la Vera (smoked Spanish paprika)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400°. In a small saucepan, heat the half-and-half until steaming, then transfer it to a food processor or blender. Add the 1/2 cup of whole almonds and process until finely ground. Let stand for 10 minutes. Strain the half-and-half through a fine sieve set over a bowl, pressing on the almonds to extract as much liquid as possible. Discard the ground almonds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, melt 2 tablespoons of the butter. Add the flour and whisk over moderately high heat for 1 minute. Add the milk and the half-and-half and cook, whisking constantly, until thickened, 5 minutes. Remove from the heat. Add 3/4 cup of the Manchego and whisk until melted. Whisk in the nutmeg; season with salt and pepper. Keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, bring 1/2 inch of salted water to a boil. Add the cauliflower, cover and cook over high heat until crisp-tender, about 4 minutes. Drain the cauliflower in a colander. Wipe out the skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt the remaining 2 tablespoons of butter in the skillet. Add the onion and cook over moderately high heat, stirring until lightly browned, about 5 minutes. Add the cauliflower and cook, stirring until lightly golden, about 2 minutes. Season lightly with salt and pepper. Transfer the cauliflower to a 7-by-10-inch glass or ceramic baking dish and spread the Manchego sauce on top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle the gratin with the remaining cheese, the 2 tablespoons of chopped almonds and the paprika and bake in the center of the oven for 20 minutes, or until bubbling and browned on top. Let stand for 10 minutes before serving."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/cauliflower-gratin-manchego-and-almond-sauce",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/food-7499700",
+                        "name": "Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/cauliflower-gratin-manchego-and-almond-sauce",
+                        "name": "Cauliflower Gratin with Manchego and Almond Sauce"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

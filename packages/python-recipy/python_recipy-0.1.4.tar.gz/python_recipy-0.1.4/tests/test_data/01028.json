@@ -1,0 +1,105 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Memphis BBQ Sauce",
+    "datePublished": "2020-05-14T17:39:45.000-04:00",
+    "dateModified": "2020-05-14T17:39:45.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "This quick and easy Memphis-style BBQ sauce is the closest you&#39;ll get to eating on Beale Street at home. Plus, it&#39;s ready in just 25 minutes.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/OCjjmHlqFdBhNf76RNsZGXdplMY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mephisstylebbqnachos-sauce-fc29bcab46244d76b115be26d36f426f.jpg",
+        "height": 860,
+        "width": 1142
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Memphis BBQ Sauce",
+    "recipeIngredient": [
+        "1 cup crushed tomatoes (from 1 [15-oz.] can)",
+        "1/2 cup apple cider vinegar",
+        "1/4 cup ketchup",
+        "1/4 cup unsulphured molasses",
+        "2 tablespoons unsalted butter",
+        "1 plus 1 tsp. Worcestershire sauce",
+        "1 tablespoon light brown sugar",
+        "1 tablespoon yellow mustard",
+        "1 teaspoon Louisiana-style hot sauce (such as Texas Pete)",
+        "1/2 teaspoon kosher salt",
+        "1/2 teaspoon black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together tomatoes, vinegar, ketchup, molasses, butter, Worcestershire, brown sugar, mustard, hot sauce, salt, and pepper in a medium saucepan. Bring to a boil over high; reduce heat to medium-low, and simmer, stirring occasionally, until slightly thickened, 15 to 20 minutes. Store, covered, in refrigerator until ready to use or up to 1 week."
+        }
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/memphis-bbq-sauce",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/memphis-bbq-sauce",
+                        "name": "Memphis BBQ Sauce"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

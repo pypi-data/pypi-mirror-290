@@ -1,0 +1,150 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Gazpacho",
+    "datePublished": "2022-07-27T10:08:21.000-04:00",
+    "dateModified": "2023-08-02T10:26:46.441-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Mary-Frances Heck",
+            "url": "https://www.foodandwine.com/author/mary-frances-heck"
+        }
+    ],
+    "description": "Mary-Frances Heck&#39;s Gazpacho recipe is pureed until silky-smooth, chilled, and topped with a salsa fresca of chopped tomatoes, shallots, jalapeños, and cilantro.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/Y7V4VBOQ0Rgx0yRDQTCOOgmxsJk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Gazpacho-FT-RECIPE0822-2000-a215e6b67e244566b373b189acfd4e3e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Gazpacho",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "prepTime": "PT25M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 pounds red beefsteak tomatoes, cored and chopped (6 cups)",
+        "1 medium (11-ounce) cucumber, peeled, seeded, and chopped (about 1 1/2 cups)",
+        "1 medium-size (10-ounce) red bell pepper, stemmed, seeded, and chopped (about 1 1/4 cups)",
+        "2 teaspoons fine sea salt, plus more to taste",
+        "1 medium (2-ounce) shallot, chopped (about 1/2 cup)",
+        "2 tablespoons sherry vinegar, plus more to taste",
+        "1 cup vegetable juice (such as V8)",
+        "0.5 cup extra-virgin olive oil",
+        "2 cups multicolored cherry tomatoes (from 1 pound tomatoes), halved lengthwise",
+        "0.25 cup finely chopped shallot (from 1 medium shallot)",
+        "1 tablespoon finely chopped seeded fresh jalapeño (from 1 medium jalapeño)",
+        "1 tablespoon chopped fresh cilantro",
+        "2 teaspoons sherry vinegar",
+        "2 teaspoons extra-virgin olive oil",
+        "0.5 teaspoon fine sea salt",
+        "0.25 teaspoon black pepper",
+        "Fresh herbs (such as cilantro or basil leaves)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Toss together beefsteak tomatoes, cucumber, bell pepper, and salt in a medium bowl. Let stand until 1 inch of drained vegetable juice collects in bottom of bowl, about 30 minutes. Meanwhile, place shallot in a small bowl, and drizzle with sherry vinegar; let stand 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour tomato mixture (with juices), shallot mixture, and vegetable juice into a blender; pulse until finely chopped, about 4 pulses. Process until smooth, about 1 minute. Remove center piece from blender lid; with blender running, slowly drizzle in oil, and process until smooth, about 1 minute. Season with additional salt to taste. (It should taste bright, bracing, and rich.) Chill, covered, until very cold, at least 2 hours or up to 2 days. Make the salsa fresca:"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together cherry tomatoes, shallot, jalapeño, cilantro, vinegar, oil, salt, and pepper in a medium bowl until well combined. Let salsa fresca stand, uncovered, at room temperature up to 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir gazpacho to blend, and adjust seasonings with additional salt and vinegar to taste. Divide gazpacho evenly among bowls; top with salsa fresca and fresh herbs."
+        }
+    ],
+    "totalTime": "PT165M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lkilborngmailcom"
+            },
+            "reviewBody": "Made the gazpacho exactly as written, but just topped with basil ribbons instead of the salsa fresca. It was delicious, silky smooth just like the recipe says, and my guests loved it.",
+            "datePublished": "2022-08-06T14:05:55.264Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/gazpacho",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup",
+                        "name": "Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup/vegetable-soup",
+                        "name": "Vegetable Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/gazpacho",
+                        "name": "Gazpacho"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-02T10:26:46.441-04:00"
+    }
+}

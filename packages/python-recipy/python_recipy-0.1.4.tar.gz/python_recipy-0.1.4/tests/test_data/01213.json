@@ -1,0 +1,125 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "French Silk Brownie Pie",
+    "description": "This French silk brownie pie is absolutely decadent. Bottom layer brownie, middle layer chocolate French silk, and top layer whipped cream.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "french silk pie, brownie pie, pie recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/french-silk-brownie-pie-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/french-silk-brownie-pie-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/french-silk-brownie-pie-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/french-silk-brownie-pie.jpg"
+    ],
+    "url": "https://pinchofyum.com/french-silk-brownie-pie",
+    "recipeIngredient": [
+        "1 batch of your favorite brownie batter (I&#8217;ve made it no secret that mine is the Ghirardelli Double Chocolate boxed mix)",
+        "6 tablespoons butter, softened",
+        "1/2 cup sugar",
+        "3 ounces unsweetened chocolate, melted and cooled",
+        "1/2 cup eggs (for me that was about 1 1/2 eggs)",
+        "whipped cream",
+        "chocolate shavings"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare the brownie batter. Pour the batter into tart pans, making just a thin layer (about 1 inch) of batter. Bake for about 10-15 minutes, depending on how gooey you want the crust. When completely cool, if they puffed up a little bit you can press them down with your hands to make more room for the filling.",
+            "url": "https://pinchofyum.com/french-silk-brownie-pie#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cream the butter and sugar until fluffy. Add the melted and cooled chocolate. The mixture will look kind of grainy &#8211; that&#8217;s ok.",
+            "url": "https://pinchofyum.com/french-silk-brownie-pie#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "With your mixer on low, incorporate the eggs. As soon as they&#8217;re just incorporated, start gradually turning your mixer to a faster setting, scraping the sides as you go. Beating it faster will fluff the whole thing up and it will become a wonderful, fluffy chocolate mousse.",
+            "url": "https://pinchofyum.com/french-silk-brownie-pie#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the mousse over the brownies and refrigerate for at least 4 hours. When ready to serve, top with whipped cream and chocolate shavings.",
+            "url": "https://pinchofyum.com/french-silk-brownie-pie#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT20M",
+    "cookTime": "PT6H",
+    "totalTime": "PT6H20M",
+    "recipeYield": [
+        "8",
+        "8-10"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "6",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "381 calories",
+        "sugarContent": "42.9 g",
+        "sodiumContent": "243.6 mg",
+        "fatContent": "15.9 g",
+        "saturatedFatContent": "8.7 g",
+        "transFatContent": "0.3 g",
+        "carbohydrateContent": "58.5 g",
+        "fiberContent": "2.2 g",
+        "proteinContent": "3 g",
+        "cholesterolContent": "46.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Grant"
+            },
+            "datePublished": "2012-03-19",
+            "reviewBody": "This is by far my new favorite.... Just saying.."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kayle (The Cooking Actress)"
+            },
+            "datePublished": "2012-03-19",
+            "reviewBody": "Holy wow"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lindsay"
+            },
+            "datePublished": "2012-03-19",
+            "reviewBody": "You said it."
+        }
+    ],
+    "datePublished": "2012-03-19",
+    "@id": "https://pinchofyum.com/french-silk-brownie-pie#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/french-silk-brownie-pie#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/french-silk-brownie-pie"
+}

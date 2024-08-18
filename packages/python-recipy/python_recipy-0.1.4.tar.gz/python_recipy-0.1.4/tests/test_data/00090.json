@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Slow-Cooker Citrus Salmon with Melted Leeks",
+    "datePublished": "2019-10-05T18:59:35.000-04:00",
+    "dateModified": "2023-09-19T15:10:25.951-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "We&#39;ve discovered the perfect pairing for this moist, lemony, slow-cooker salmon--slightly chewy leeks. Like other alliums, leeks become sweet and rich when roasted slowly for a long time. When cooked in the slow cooker they &#34;melt,&#34; becoming jam-like but still retaining pleasant chewiness. Garnish with fresh sage leaves and thyme sprigs, if desired.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/vC320yTq33K4J2yK2_4qLi7jQX4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7125924-34d51716481a4563b22273900148fb12.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Slow-Cooker Citrus Salmon with Melted Leeks",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "369 kcal",
+        "carbohydrateContent": "10 g",
+        "fiberContent": "1 g",
+        "proteinContent": "35 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "569 mg",
+        "sugarContent": "3 g",
+        "fatContent": "20 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "Cooking spray",
+        "3 cups sliced leeks (from 2 leeks)",
+        "1 tablespoon finely chopped fresh thyme",
+        "1 teaspoon chopped fresh sage",
+        "1 teaspoon kosher salt",
+        "0.5 teaspoon black pepper",
+        "0.25 cup dry white wine",
+        "2 tablespoons unsalted butter, cut into 8 pieces",
+        "4 (6 ounce) skinless salmon fillets",
+        "1 lemon, thinly sliced",
+        "1 tablespoon olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coat a 5- to 6-quart slow cooker with cooking spray. Place the leeks in the slow cooker; toss with the thyme, sage, and 1/2 teaspoon of the salt and 1/4 teaspoon of the pepper, and spread in an even layer. Drizzle the leeks with the wine, and dot with the butter. Cover and cook on LOW until the leeks are tender, about 2 hours and 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the salmon on top of the leeks in the slow cooker. Sprinkle the salmon with the remaining 1/2 teaspoon salt and 1/4 teaspoon pepper; top with the lemon slices, and drizzle with the oil. Cover and cook on LOW until a thermometer inserted in thickest portion of the salmon registers 140 degrees F, about 1 hour. Transfer the salmon to a platter, and serve with the leeks."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT220M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/276395/slow-cooker-citrus-salmon-with-melted-leeks/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19180/ingredients/fish-seafood/fish/salmon/",
+                        "name": "Salmon"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21609/ingredients/fish-seafood/fish/salmon/fillet/",
+                        "name": "Healthy Salmon Fillet Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/276395/slow-cooker-citrus-salmon-with-melted-leeks/",
+                        "name": "Slow-Cooker Citrus Salmon with Melted Leeks"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T15:10:25.951-04:00"
+    },
+    "recipeCategory": []
+}

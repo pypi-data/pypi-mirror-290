@@ -1,0 +1,163 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/garlic-roasted-chicken-and-vegetables/",
+    "name": "Garlic-Roasted Chicken and Vegetables",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-02-10",
+    "prepTime": "PT20M",
+    "cookTime": "PT02H00M",
+    "totalTime": "PT02H20M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Garlic-Roasted-Chicken-and-Vegetables_EXPS_CHBZ19_29333_C10_24_6b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "The first time my Greek father-in-law made this chicken, he proudly shared the recipe with me. It's my favorite way to roast chicken.",
+    "recipeIngredient": [
+        "1 roasting chicken (5 to 6 pounds)",
+        "4 tablespoons butter, softened, divided",
+        "15 garlic cloves, halved",
+        "1 can (14-1/2 ounces) chicken broth, divided",
+        "1/4 cup olive oil",
+        "1/4 cup lemon juice",
+        "1 to 2 tablespoons dried oregano",
+        "1 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1/4 teaspoon garlic powder",
+        "10 red potatoes (about 1-1/2 pounds), cut into large chunks",
+        "2 cups baby carrots",
+        "1 medium red onion, thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Rub inside of chicken with 2 tablespoons butter. With a sharp knife, cut 16 small slits in chicken breast, drumsticks and thighs. Place a halved garlic clove in each slit. Place chicken on a rack in a shallow roasting pan; tie drumsticks together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place remaining garlic in pan. Pour half of the broth over chicken. Combine oil and lemon juice; pour half over chicken. Rub remaining butter over chicken. Combine the oregano, salt, pepper and garlic powder; sprinkle half over chicken. Cover and bake at 350° for 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the potatoes, carrots and onion in pan. Drizzle remaining oil mixture and broth over chicken and vegetables. Sprinkle remaining oregano mixture over chicken. Cover and bake 30 minutes longer; baste. Bake, uncovered, for 45-50 minutes or until a thermometer reads 170°-175°, basting several times. Thicken pan juices if desired. Cover and let stand for 10 minutes before serving."
+        }
+    ],
+    "recipeYield": "10 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 460 calories",
+        "fatContent": "26g fat (8g saturated fat)",
+        "cholesterolContent": "103mg cholesterol",
+        "sodiumContent": "567mg sodium",
+        "carbohydrateContent": "24g carbohydrate (3g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "31g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-10-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "daduk"
+            },
+            "reviewBody": "This chicken was absolutely fantastic!  It had such a wonderful smell while cooking and the taste exceeded my expectations.  Will definitely make again.  Followed the directions to a \"T\".",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-07-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "LadyNaava"
+            },
+            "reviewBody": "My family really liked this. I thought it was pretty good. I was disappointed the chicken which was just under 5 lbs was not thoroughly cooked, despite being in the oven for 2 hrs. The vegies were great.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-11-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "richtercory"
+            },
+            "reviewBody": "This was an easy recipe to make and it smelled delicious while baking.  I added about 1 Tbsp. olive oil and spread it on the skin to crisp it up a little.  The meat was very tender and moist.  The vegetables were perfectly done too.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-02-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "VictoriaElaine"
+            },
+            "reviewBody": "My chicken turned out moist & full of flavor!  I was worried that cutting slits in the chicken would release the juices & dry the meat out, so I just inserted them under the skin in the breast, thighs & drumsticks.  I placed the remaining garlic in the cavity.  I left out the onion, but followed the rest of the recipe as is.  The vegetables & the garlic were perfectly roasted & tasted so yummy!  No butter or additional seasonings were required.  Perfect!  Will be making this recipe often.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-02-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "firstsoprano50"
+            },
+            "reviewBody": "So tasty!  Easy to make and only one pan to wash!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

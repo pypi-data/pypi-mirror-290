@@ -1,0 +1,86 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/coconut-rum-cake-pops/",
+    "name": "Coconut-Rum Cake Pops",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-05-05",
+    "prepTime": "PT55M",
+    "cookTime": "PT35M",
+    "totalTime": "PT01H30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2017/09/Coconut-Rum-Cake-Pops_EXPS_HC17_162398_D10_19_5b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Plan your own tropical escape with these surprisingly light-tasting pops. Angel food cake is a nice change of pace.",
+    "recipeIngredient": [
+        "1 package (16 ounces) angel food cake mix",
+        "3/4 cup canned vanilla frosting",
+        "1 cup sweetened shredded coconut",
+        "1 teaspoon coconut extract",
+        "1/2 teaspoon rum extract",
+        "48 lollipop sticks",
+        "2-1/2 pounds white candy coating, melted",
+        "Lightly toasted sweetened shredded coconut"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare and bake cake mix according to package directions. Cool completely on a wire rack."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, mix frosting, coconut and extracts. Tear cake into pieces. In batches, pulse cake in a food processor until crumbs form. Stir crumbs into frosting mixture. Shape into 1-in. balls; place on baking sheets. Insert sticks. Freeze at least 2 hours or refrigerate at least 3 hours, until firm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip cake pops in melted candy coating, allowing excess to drip off. Roll in toasted coconut. Insert cake pops in a Styrofoam block; let stand until set."
+        }
+    ],
+    "recipeYield": "4 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 188 calories",
+        "fatContent": "8g fat (7g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "92mg sodium",
+        "carbohydrateContent": "29g carbohydrate (25g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "1g protein."
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-02-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Jennifer084"
+            },
+            "reviewBody": "<p>Such a delicious dessert!  I love the addition of rum extract.  I used colored paper straws in place of lollipop sticks.  </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

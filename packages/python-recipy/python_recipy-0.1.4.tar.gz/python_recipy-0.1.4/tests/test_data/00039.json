@@ -1,0 +1,147 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Summer Vegetable Gnocchi Salad",
+    "datePublished": "2020-04-30T00:27:36.000-04:00",
+    "dateModified": "2023-09-19T13:04:29.361-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Devon O'Brien",
+            "url": "https://www.eatingwell.com/author/devon-obrien/"
+        }
+    ],
+    "description": "This riff on pasta salad is best served warm while the gnocchi are nice and tender. Plus, the grilled veggies taste extra-good fresh off the fire in this easy gnocchi recipe.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/UV7A5WYbFsJ6okOVXli8nQELXuQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8059193-bf7667adb50c4716bf3488359f4edb6b.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Summer Vegetable Gnocchi Salad",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "445 kcal",
+        "carbohydrateContent": "60 g",
+        "cholesterolContent": "13 mg",
+        "fiberContent": "9 g",
+        "proteinContent": "13 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "691 mg",
+        "sugarContent": "12 g",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT40M",
+    "recipeIngredient": [
+        "1 (16 ounce) package whole-wheat gnocchi",
+        "1 small eggplant, sliced lengthwise into 1/2-inch planks",
+        "1 medium zucchini, sliced lengthwise into 1/2-inch planks",
+        "1 medium yellow squash, sliced lengthwise into 1/2-inch planks",
+        "1 ear corn, husked",
+        "0.5 medium red onion, cut into 1/2-inch-thick rings",
+        "4 tablespoons extra-virgin olive oil, divided",
+        "2 tablespoons balsamic vinegar",
+        "2 tablespoons chopped fresh basil",
+        "2 cloves garlic, grated",
+        "0.5 teaspoon ground pepper",
+        "0.25 teaspoon salt",
+        "0.5 cup crumbled feta cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat grill to medium-high."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Boil gnocchi according to package directions. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, brush eggplant, zucchini, squash, corn and onion with 2 tablespoons oil. Grill the vegetables, turning occasionally, until charred and tender, 6 to 10 minutes total. Transfer to a cutting board. Remove the corn kernels from the cob and cut the other vegetables into bite-size pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the remaining 2 tablespoons oil, vinegar, basil, garlic, pepper and salt in a large bowl. Add the gnocchi and the vegetables and toss to coat. Serve sprinkled with feta."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/280001/summer-vegetable-gnocchi-salad/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22758/ingredients/pasta-noodle/pasta-by-shape/",
+                        "name": "Healthy Pasta Recipes by Shape"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19254/ingredients/pasta-noodle/pasta-by-shape/gnocchi/",
+                        "name": "Healthy Gnocchi Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/280001/summer-vegetable-gnocchi-salad/",
+                        "name": "Summer Vegetable Gnocchi Salad"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T13:04:29.361-04:00"
+    },
+    "recipeCategory": []
+}

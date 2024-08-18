@@ -1,0 +1,101 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Non-Alcoholic Negroni",
+    "datePublished": "2023-06-14T09:22:00.000-04:00",
+    "dateModified": "2023-08-31T11:04:12.427-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Oset Babür-Winter",
+            "url": "https://www.foodandwine.com/author/oset-babur"
+        }
+    ],
+    "description": "Learn how to make a classic Negroni without alcohol. This Negroni calls for non-alcoholic gin as well as a non-alcoholic aperitif.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/X2qy3yyxtq73tFAsB9Bnf7TeDOM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Non-alcoholic-Negroni-FT-RECIPE0623-94789a6710334f91a36685b8fc942d41.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Non-Alcoholic Negroni",
+    "cookTime": "PT5M",
+    "keywords": "nonalcoholic",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 ounce Ritual gin",
+        "1 ounce Ritual aperitif alternative",
+        "1 orange wedge"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/non-alcoholic-negroni-7546141",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/non-alcoholic-drinks-7496802",
+                        "name": "Nonalcoholic Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails-spirits/mocktails",
+                        "name": "Non-Alcoholic Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/non-alcoholic-negroni-7546141",
+                        "name": "Non-Alcoholic Negroni"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-31T11:04:12.427-04:00"
+    }
+}

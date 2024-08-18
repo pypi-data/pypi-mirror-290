@@ -1,0 +1,71 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Secret ingredient: pickle juice. Its salty edge rounds out the Sherry.",
+    "alternativeHeadline": "Secret ingredient: pickle juice. Its salty edge rounds out the Sherry.",
+    "keywords": [
+        "cocktail",
+        "australian",
+        "cucumber",
+        "sherry",
+        "summer",
+        "easy",
+        "quick",
+        "drinks",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Three Blue Ducks, Sydney, Australia",
+            "sameAs": "https://www.bonappetit.com/contributor/three-blue ducks, sydney, australia"
+        },
+        {
+            "@type": "Person",
+            "name": "Chris Searl",
+            "sameAs": "https://www.bonappetit.com/contributor/chris-searl"
+        }
+    ],
+    "description": "Secret ingredient: pickle juice. Its salty edge rounds out the Sherry.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ace424f1c801a1038bc8a3/master/w_2439,h_3660,c_limit/seaside-cocktail.jpg"
+    ],
+    "headline": "Seaside Cocktail",
+    "name": "Seaside Cocktail",
+    "recipeIngredient": [
+        "1 1½-inch piece peeled cucumber",
+        "2 ounces fino Sherry",
+        "¾ ounce fresh lime juice",
+        "½ ounce dill pickle juice",
+        "½ ounce simple syrup"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Purée cucumber, Sherry, lime juice, pickle juice, simple syrup, and ¾ cup crushed ice in a blender until smooth. Serve in a tall glass with a straw."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/seaside-cocktail",
+    "dateModified": "2015-07-21T04:00:07.000-04:00",
+    "datePublished": "2015-07-21T04:00:07.000-04:00",
+    "recipeCategory": []
+}

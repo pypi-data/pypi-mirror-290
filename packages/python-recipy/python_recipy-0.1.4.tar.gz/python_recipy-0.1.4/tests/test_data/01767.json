@@ -1,0 +1,127 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Hawaiian Style Smoked Meat",
+    "url": "https://www.foodnetwork.com/recipes/hawaiian-style-smoked-meat-7448429",
+    "headline": "Hawaiian Style Smoked Meat",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/10/DVSP95_Hawaiian-Style-Smoked-Meat_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1568142571633.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/10/DVSP95_Hawaiian-Style-Smoked-Meat_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1568142571633.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/10/DVSP95_Hawaiian-Style-Smoked-Meat_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1568142571633.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2019-09-10T13:38:24.938-04:00",
+    "dateModified": "2019-09-10T13:38:24.260-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "American,Hawaiian Recipes,Pork Butt",
+    "cookTime": "P0Y0M0DT0H35M0.000S",
+    "totalTime": "P0Y0M1DT6H35M0.000S",
+    "recipeIngredient": [
+        "1 pound brown sugar",
+        "8 ounces shoyu sauce, preferably Aloha",
+        "2 ounces garlic, chopped ",
+        "2 ounces ginger, chopped ",
+        "5 pounds pork butt, cut into 2-by-2-by-8-inch strips ",
+        "1/8 cup oyster sauce",
+        "Oil, for stir-frying",
+        "4 ounces sliced onions"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 10 servings",
+        "calories": "664",
+        "fatContent": "33g",
+        "saturatedFatContent": "10g",
+        "carbohydrateContent": "50g",
+        "fiberContent": "1g",
+        "sugarContent": "45g",
+        "proteinContent": "42g",
+        "cholesterolContent": "141mg",
+        "sodiumContent": "1497mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix together sugar, shoyu, garlic and ginger in a bowl. Remove and reserve 1/4 cup, and add the pork to the marinade. Refrigerate, covered, for 24 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a smoker to 260 degrees F. Remove pork from marinade and thread on skewers. Place skewers in smoker and cook until an instant-read thermometer inserted in the center of the meat registers 145 degrees F, 5 to 6 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove pork from skewers and slice into 1/4-inch pieces. Stir the oyster sauce into the reserved marinade and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir fry the meat and onions together in the oil in a hot frying pan until the onions are seared, then add oyster sauce mixture."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": 4
+    },
+    "recipeYield": "10 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Great recipe (make sure you use fresh ginger) and easy to cook, provided you have patience. I personally would make about 1/4 cup more of the sauce/marinade for coating towards the end. Definitely on my repeat list. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joe P."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Amazing dish! It's super simple to make and went just as easy as it could. I'd only smoked once before on my old charcoal so I was nervous but even with the grill being too hot it still turned out great! 10/10 will make again."
+        }
+    ],
+    "recipeCuisine": "american",
+    "recipeCategory": []
+}

@@ -1,0 +1,101 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/strawberry-tart#Recipe",
+    "@type": "Recipe",
+    "description": "Wow family and friends with a stunning strawberry tart. A lovely centrepiece dessert for summer dining, it's made with homemade pastry and crème pâtissière",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/strawberry-tart-c14cba5.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/strawberry-tart"
+    },
+    "name": "Strawberry tart",
+    "url": "https://www.bbcgoodfood.com/recipes/strawberry-tart",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Liberty Mendez",
+            "url": "https://www.bbcgoodfood.com/author/libertymendez"
+        }
+    ],
+    "dateModified": "2024-01-23T14:04:35+00:00",
+    "datePublished": "2020-06-10T10:10:00+01:00",
+    "headline": "Strawberry tart",
+    "keywords": "Crème patisserie, Dessert, Indulgent, Liberty Mendez, PASTRY, Strawberry, Strawberry jam, Summer, Tart",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT45M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "377 calories",
+        "fatContent": "22 grams fat",
+        "saturatedFatContent": "13 grams saturated fat",
+        "carbohydrateContent": "39 grams carbohydrates",
+        "sugarContent": "23 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "4 grams protein",
+        "sodiumContent": "0.2 milligram of sodium"
+    },
+    "prepTime": "PT35M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "125g unsalted  butter , softened slightly",
+        "85g icing sugar",
+        "1  egg",
+        "200g plain flour , plus extra for dusting",
+        "100g strawberry jam",
+        "500g strawberries , (small hulled, large sliced)",
+        "2 tbsp apricot jam",
+        "300ml milk",
+        "150ml double cream",
+        "1 tsp vanilla extract",
+        "3 egg yolks",
+        "60g caster sugar",
+        "3½ tbsp cornflour",
+        "50g butter , cubed and softened"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Beat the butter and sugar together until smooth, but not fluffy. Mix in the egg until combined, then add the flour. Bring together with your hands to form a dough. Wrap and chill in the fridge for 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dust a surface with flour and roll out the pastry to a 26cm circle (or 3cm bigger than your tin). Line a 23cm fluted tart tin with the pastry, leaving an overhang. Prick the base with a fork to stop any air bubbles forming. Chill for 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 200C/180C fan/gas 6. Line the pastry case with a scrunched up sheet of baking parchment and baking beans, then bake for 15 mins. Remove the parchment and beans and bake for 15-20 mins more until crisp and golden. Leave in the tin to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the crème pâtissière, heat the milk, cream and vanilla in a pan over a medium heat, stirring occasionally. Bring up to a simmer. Meanwhile, whisk the yolks and sugar in a bowl for 3 mins until pale, then stir in the cornflour until combined. Pour a quarter of the hot cream over the egg mix, whisking continuously, then pour the warm egg mix into the pan with the rest of the cream. Stir over a low-medium heat for 5-8 mins until the crème pâtissière thickens. Transfer to a large bowl and cool for 15 mins, whisking occasionally. Gradually whisk in the butter until smooth, cover and put in the fridge until needed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat the strawberry jam to loosen it, then spread over the bottom of the pastry case. Put the crème pâtissière into a piping bag and pipe in a spiral on top of the jam. Arrange the strawberries on top in a pattern. Heat the apricot jam in a small pan with 1 tbsp water until warm. Whisk to loosen the jam, then leave to cool slightly. Brush over the top of the strawberries."
+        }
+    ],
+    "recipeYield": "Serves 12",
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT1H20M"
+}

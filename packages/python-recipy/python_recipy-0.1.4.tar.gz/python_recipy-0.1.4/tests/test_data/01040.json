@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Cheesecake Cookies",
+    "datePublished": "2018-12-06T21:53:29.000-05:00",
+    "dateModified": "2018-12-06T21:53:29.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kimberly Holland",
+            "url": "https://www.southernliving.com/author/kimberly-holland"
+        }
+    ],
+    "description": "As adorable as they are addictive, this cheesecake treat might become your new favorite holiday cookie. Try our Cheesecake Cookies for a crowd-pleasing dessert at your next party.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/2aEiiY1l6AM2-EqSCm4BeOkfDG0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/seo_holiday_recipes_006_0_1_1_1_0-2000-5e641a7a6b0b4f6eb5506166357ef821.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Cheesecake Cookies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "4"
+    },
+    "recipeIngredient": [
+        "5 ounces (about 2/3 cup) cream cheese, softened",
+        "2/3 cup granulated sugar",
+        "1/4 cup unsalted butter, softened",
+        "1 large egg",
+        "1 1/2 cups (about 6 3/8 oz.) all-purpose flour",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon kosher salt",
+        "1/4 cup powdered sugar",
+        "30 maraschino cherries without stems (from 1 [8-oz.] jar), drained and patted dry"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350ºF. Beat cream cheese, granulated sugar, and butter with an electric mixer on medium-low speed until smooth, about 1 minute. Stop to scrape down sides and bottom of bowl; continue beating until smooth and creamy, about 1 minute. Add egg; beat on medium speed until very smooth, about 1 minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together flour, baking powder, and salt in a small bowl. Gradually add flour mixture to cream cheese mixture, beating on low speed until just incorporated, about 1 minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Line 2 baking sheets with parchment paper. Using a 1 1/2-inch scoop, dollop batter into rounds spaced 2 inches apart on baking sheets. Bake in preheated oven until cookies are set, about 12 minutes, rotating baking sheets from top to bottom racks halfway through bake time. (Cookie tops will not have any browning but will be slightly cracked and should spring back when touched lightly.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer baking sheets to wire racks; immediately press gently into cookie tops using a round 1/4-teaspoon measuring spoon to create a small divot. Let cookies cool completely, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dust cookies with powdered sugar; place 1 cherry inside each divot. Store in an airtight container up to 1 day. To keep up to 3 days, store cookies without cherries in an airtight container; place cherries on cookies just before serving."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/cheesecake-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/cheesecake-cookies",
+                        "name": "Cheesecake Cookies"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

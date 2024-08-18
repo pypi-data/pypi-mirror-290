@@ -1,0 +1,72 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Moscow Mules are usually made with bottled ginger beer, but nothing compares to the aromatic heat from the real thing.",
+    "alternativeHeadline": "Moscow Mules are usually made with bottled ginger beer, but nothing compares to the aromatic heat from the real thing.",
+    "keywords": [
+        "cocktail",
+        "ginger",
+        "easy",
+        "drinks",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Fairmont Banff Springs, Alberta, Canada",
+            "sameAs": "https://www.bonappetit.com/contributor/fairmont-banff springs, alberta, canada"
+        },
+        {
+            "@type": "Person",
+            "name": "Alex Lau",
+            "sameAs": "https://www.bonappetit.com/contributor/alex-lau"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "ratingCount": 31
+    },
+    "description": "Moscow Mules are usually made with bottled ginger beer, but nothing compares to the aromatic heat from the real thing.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ad40221b3340441497555f/master/w_940,h_671,c_limit/fresh-ginger-moscow-mule.jpg"
+    ],
+    "headline": "Fresh Ginger Moscow Mule",
+    "name": "Fresh Ginger Moscow Mule",
+    "recipeIngredient": [
+        "2 oz. vodka",
+        "1½ oz. simple syrup",
+        "1 oz. fresh lime juice",
+        "1 teaspoon finely grated peeled ginger",
+        "2 oz. club soda",
+        "1 lime wedge",
+        "Candied ginger (for serving)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine vodka, simple syrup, lime juice, and ginger in a cocktail shaker; fill shaker with ice. Shake until outside of shaker is frosty, about 30 seconds. Strain into a highball glass filled with ice; top off with club soda and garnish with lime wedge and candied ginger."
+        }
+    ],
+    "recipeYield": "Makes 1  Servings",
+    "url": "https://www.bonappetit.com/recipe/fresh-ginger-moscow-mule",
+    "dateModified": "2014-06-19T08:28:26.000-04:00",
+    "datePublished": "2014-06-19T08:28:26.000-04:00"
+}

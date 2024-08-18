@@ -1,0 +1,435 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1017380-bangladeshi-chicken-korma#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1017380-bangladeshi-chicken-korma",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2015/05/03/magazine/03eat1/03eat1-articleLarge-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1017380-bangladeshi-chicken-korma",
+    "name": "Bangladeshi Chicken Korma",
+    "description": "Homestyle Bangladeshi chicken korma is likely more aromatic, flavorful, and deeply chicken-flavored than the heavy, creamy versions served in Indian restaurants. This recipe, adapted from Shama Mubdi, is also incredibly easy to make: You just stir everything together in a pot and turn on the heat. A last-minute addition of butter-fried onions adds sweet complexity. Serve with basmati rice and salad or South Asian pickles.",
+    "author": {
+        "@type": "Person",
+        "name": "Francis Lam"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2015/05/03/magazine/03eat1/03mag-03eat-t_CA2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/03/magazine/03eat1/03eat1-superJumbo-v2.jpg",
+            "height": 1500,
+            "width": 1124,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/03/magazine/03eat1/03eat1-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/03/magazine/03eat1/03eat1-verticalTwoByThree735-v2.jpg",
+            "height": 1101,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cardamom pods, chicken, yogurt",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 678
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 661,
+        "unsaturatedFatContent": "30 grams",
+        "carbohydrateContent": "11 grams",
+        "cholesterolContent": null,
+        "fatContent": "48 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "45 grams",
+        "saturatedFatContent": "15 grams",
+        "sodiumContent": "761 milligrams",
+        "sugarContent": "4 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 pounds skinless, bone-in chicken pieces (preferably dark meat)",
+        "1 teaspoon salt, plus more to taste",
+        "1 medium onion, peeled",
+        "1 1 1/2-inch knob of ginger, peeled and chopped",
+        "3 cloves garlic, chopped",
+        "1/2 cup whole-milk yogurt",
+        "4 to 6 green cardamom pods, cracked open",
+        "3 to 5 cloves",
+        "2 bay leaves",
+        "1 3-inch stick cinnamon",
+        "1/2 teaspoon sugar",
+        "1/2 teaspoon black peppercorns",
+        "2 to 3 small hot green chiles (optional)",
+        "2 tablespoons butter",
+        "2 tablespoons vegetable oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place the chicken in a medium Dutch oven, and season with 1 teaspoon salt. Thinly slice 1/4 of the onion, and set aside. Roughly chop the rest of the onion, and purée it in a blender with the ginger, garlic and 3 tablespoons of water, until smooth. Add splashes of water to keep it moving, if necessary."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Combine the onion purée with the chicken, yogurt, cardamom, cloves, \nbay leaves, cinnamon and peppercorns. Bring the mixture to a simmer over medium-high heat, stirring. Cover the pot until the chicken releases its juices, 5 to 7 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Uncover the pot, and adjust the heat to maintain a gentle simmer. Cook, stirring and flipping the chicken occasionally, until tender and the sauce is gravylike in consistency, about 35 minutes. Adjust the thickness of the sauce by adding water or cooking it down. Stir in the sugar. Pierce the chiles with a knife, then add them. Season to taste with salt. Keep warm over low heat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the butter and oil in a small saucepan over medium-high heat. After it foams, add the sliced onions, and cook, stirring, until they are richly browned, 3 to 4 minutes. Season with a pinch of salt. Add the onion mixture to the korma. Serve with steamed basmati rice."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nanzee"
+            },
+            "reviewBody": "This is a great recipe.  I've made it many, many times. Sometimes I forget the sugar. No big deal. The onions on top are a great addition, but I think I've served without them too. I like it with basmati rice cooked with cumin, cinnamon stick, mustard seeds and fried onions. Delish!",
+            "datePublished": "2023-12-11T23:55:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "evmcg"
+            },
+            "reviewBody": "I put the cardamon, cloves, cinnamon stick, etc. in a little cheesecloth pouch.",
+            "datePublished": "2023-01-20T17:50:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LB"
+            },
+            "reviewBody": "1.5 tsp. salt\n1 large onion\n5 cloves garlic\n1 c. yogurt\n7 cardamom pods\n6 cloves\n3 bay leaves\n1 tsp. sugar\n1 tsp. black peppercorns \n\nTry blending yogurt.\nUse water only if needed.\nAdd chiles earlier.",
+            "datePublished": "2022-06-14T00:46:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy W"
+            },
+            "reviewBody": "You must use full fat yogurt...otherwise the sauce breaks down. I did it with boneless skinless thighs.... Flavor was great!!",
+            "datePublished": "2022-02-02T01:08:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Evan"
+            },
+            "reviewBody": "I ended up liking this quite a bit! Was a little nervous as I cooked it and read others' comments... If you're tasting the sauce halfway through and going \"What is this I'm making?\", just keep cooking! It does come together into something quite delicious. Subtle, but delicious.\n\nI do agree that it's not very much sauce...perhaps all the non-chicken ingredients could be doubled? But I haven't tried that, so don't take my word for it!",
+            "datePublished": "2020-12-16T19:16:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "brushjl"
+            },
+            "reviewBody": "fabulous!  mouth wateringly good. perfect combination of spices.  the sauce was sublime.",
+            "datePublished": "2020-08-12T21:02:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "matt"
+            },
+            "reviewBody": "Used food processor. Agree mixing all except chicken first.",
+            "datePublished": "2020-08-02T14:58:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David Cohen de Lara"
+            },
+            "reviewBody": "Very disappointing. Smells amazing, tastes bland. Cooking time is too short. Sauce can easily become a curdled, watery mess. \n\nIf you know what you’re doing you can turn these ingredients into something wonderful but if you follow this recipe to the letter you’re going to be let down.",
+            "datePublished": "2020-07-03T16:17:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rogamer"
+            },
+            "reviewBody": "Meh. No flavor,  i was surprised that it just tasted like chicken. The chiles did nothing for the sauce. Some sriracha and mango chutney made this somewhat enjoyable.",
+            "datePublished": "2020-07-04T02:15:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "megan"
+            },
+            "reviewBody": "Used chicken breasts and was aggressive with spices based on other notes. Added broccoli and cauliflower at the end which was an improvement. If this is your first time cooking it go with the spices as indicated, mine was INTENSE. Onions at the end are a must.",
+            "datePublished": "2020-07-04T04:02:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "Well sheep milk yogurt doesn't break. I've amped up the spices -added curry powder, delicious chili flakes, and cinnamon powder, more cloves etc. we'll see.",
+            "datePublished": "2020-06-30T21:06:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Evan"
+            },
+            "reviewBody": "This one's not Indian! It's Bengali. Close in geography, but different. :)",
+            "datePublished": "2020-12-16T19:21:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie"
+            },
+            "reviewBody": "Apparently a lot of folks haven't actually read the recipe thoroughly, which at step 3 says \"season to taste with salt.\"  So you start with the one teaspoon of salt, and then as the dish is constructed, you add more to taste.  So if the criticism is that it \"needs more salt\" the only answer I can construe is that the directions weren't followed, and the dish wasn't \"seasoned to taste with salt.\"  Cooking with a variety of spices always involves adequate salt - otherwise the spices don't \"pop.\"",
+            "datePublished": "2021-11-03T14:04:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Edith"
+            },
+            "reviewBody": "I agree with previous comments re salt. Needs more! I cook Indian dishes once/twice a week & this one was the most disappointing recipe. Shouldn’t be called Indian. Tasted way too much of onions & actually sour, despite the sugar. I added dagad phool as well as asafoetida, coconut & homemade garam masala to get an ‘Indian’ flavour into the dish. Turmeric was a very useful tip to get a little bit of colour into this ‘off looking’ mess...",
+            "datePublished": "2020-07-01T02:54:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara M."
+            },
+            "reviewBody": "Didn't have access the cardamom pods so I used half tsp of ground cardamom as a substitute. Worked well. I did add the tumeric mentioned earlier at the end to create a less \"grey look\" to the sauce and it didn't affect the flavor much at all. Would like a little more punch to the recipe, but overall, it was a winner and I'll continue to play around with it.",
+            "datePublished": "2020-06-30T23:26:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jody"
+            },
+            "reviewBody": "Easy and delicious. Used 1/4 c whipped cream cheese, 1/4 c half & half, and a dollop of light sour cream instead of yogurt. No breakage! Used unthawed flash-frozen boneless thighs instead of bone-in and worked great. Served over jasmine rice cooked with raisins and shredded carrots in Instant Pot. Sublime pairing! I might actually use more sliced onion at the end next time - that part was especially delicious. I cooked those in ghee for even better flavor.",
+            "datePublished": "2020-06-30T14:31:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Desert fox"
+            },
+            "reviewBody": "I found this to be very fragrant and sweet from the spices alone, I forgot the sugar! so can't speak tot that. Liked it a lot.",
+            "datePublished": "2020-06-30T02:57:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet Zimmerman"
+            },
+            "reviewBody": "A few tips: first, it's easier to mix the onion puree with the yogurt and spices separately, then add to the chicken, especially if your pan isn't very large. Second, if you strain the sauce after the chicken cooks, you not only remove the whole spices, but also most of the curdled bits of yogurt, resulting in a smoother sauce. Third, the 5-7 plus 35 minutes was not enough time for bone-in chicken thighs; they were cooked through but not very tender. An extra 15 minutes would have helped.",
+            "datePublished": "2017-10-30T13:39:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue Llewellyn"
+            },
+            "reviewBody": "A parenthetical comment in step 2 or 3 that even whole-milk yogurt is likely to break, even at a simmer, might reassure some readers that all will eventually be well--preventing considerable dismay when they first lift the lid!",
+            "datePublished": "2017-10-30T13:16:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet"
+            },
+            "reviewBody": "I served this with Franey's turmeric rice with raisins (using brown basmati); the combination was really good. I used two serrano chilies, 4 cloves, and 5 cardamom pods, omitted the sugar, and didn't find the chicken at all bland.",
+            "datePublished": "2017-10-30T13:29:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brita"
+            },
+            "reviewBody": "This smelled amazing, but alas, it tasted kind of bland. Husband can't eat hot peppers so did not include them, but not sure whether that would have made that much of a difference. Need more than a teaspoon of salt to season the chicken, and I'm thinking the chicken needs to be browned a bit before adding the yogurt and spices. I will probably try it again, but be more aggressive with the seasoning.",
+            "datePublished": "2017-10-30T14:36:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Su S."
+            },
+            "reviewBody": "This particular type of korma is meant to have a white fragrant gravy. That is why the ground onion and spices are not fried and the chicken is not browned. It is different from the other types of meat curries that in which the onions and garlic-ginger are fried first. <br/><br/>If the curdled yogurt really bothers you, you can try substituting half and half, evaporated milk or cream.",
+            "datePublished": "2017-10-01T13:45:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kashinka"
+            },
+            "reviewBody": "To avoid the gray sauce problem, add a tablespoon of turmeric after you've pureed the onion mixture and another tablespoon of garam masala right before serving.\n\nBecause I wanted veggies, I dumped a bag of broccoli & cauliflower florets into the pot about 10 minutes before it was ready. Used the suggestion for Marcona almonds in the onion puree (do the almonds first) and added whole almonds to the pot. Made bouquet garni of bay leaves, cloves, cardomom, and peppercorns.",
+            "datePublished": "2018-12-25T02:10:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CL"
+            },
+            "reviewBody": "This is definitely better the second day, but I found a few things perk it up a bit. First if you have time marinate the chicken for 30 min to an hour after step 2 before turning on the heat it's a lot better. Second, if you want it spicier add the chiles earlier/in the marinating phase. Finally, crush a few marcona almonds in the blender before adding the onion mixture. All in all a pretty good recipe as is tho for such little effort.",
+            "datePublished": "2017-10-30T13:50:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail Cowan"
+            },
+            "reviewBody": "I have very little experience with Indian cooking.  Loved this and would have preferred more heat.  I didn't have a \"small hot green chile\" so I used a dried chipole that I had.  It didn't provide much.  My chicken thighs had skins so I pulled them off and rendered them for the fat and set them aside. Then I cooked the onions in the chicken fat (!), and crumbled the crispy chicken skins on top of the finished thighs. \"What's this great crispy thing?\" my husband asked.   Good dish.",
+            "datePublished": "2017-10-30T13:14:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Naomi"
+            },
+            "reviewBody": "Next time I'll bundle the cardamom & peppercorns in cheesecloth. Otherwise, we loved this.",
+            "datePublished": "2017-10-30T13:10:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen"
+            },
+            "reviewBody": "Typically, they are left in for the diners to fish out. My family hates that, though, so I wrap the spices in a piece of cheesecloth tied with twine and remove the bundle before serving.",
+            "datePublished": "2017-10-30T13:18:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PVN"
+            },
+            "reviewBody": "Peppercorns? Not in the list of ingredients. How many?",
+            "datePublished": "2017-10-30T13:01:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue Llewellyn"
+            },
+            "reviewBody": "Nope--will only help flavors permeate meat, plus tenderizing it a bit.",
+            "datePublished": "2017-10-30T13:13:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helper"
+            },
+            "reviewBody": "It's not Indian.",
+            "datePublished": "2017-10-30T14:13:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "thinkingaboutart"
+            },
+            "reviewBody": "This is good but I had to take out the chicken and put it under the broiler and then cook down the sauce that was in the pan.  We all agreed that the recipe could benefit from some nuts... cashews, slivered almonds, whatever you like.  Maybe a bit of cumin? Also it is very pale in appearance, as others have noted.  It's almost terrific and worth making and tinkering with.",
+            "datePublished": "2017-10-30T15:31:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chelsea"
+            },
+            "reviewBody": "Marinated the chicken in a regular brine while I was making the onion paste so it would be more juicy and flavorful.  When serving with jasmine rice, I recommend cooking the rice (1 1/2 cups) with 6-10 cloves added and a dash of ground cardamom. No need to season the rice any more than that, it’s main purpose is to soak up all the extra gravy, which should be flavorful if you follow the most helpful tips listed here.",
+            "datePublished": "2019-12-27T01:31:11.000Z"
+        }
+    ]
+}

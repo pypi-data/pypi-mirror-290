@@ -1,0 +1,181 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Christmas Feta",
+    "description": "Christmas Feta is here for the holidays! Smooth and creamy whipped feta topped with orange zest, pomegranate seeds, candied nuts, and fresh thyme. It's basically a delicious ornament in a bowl! ",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "feta dip, dip recipe, whipped feta",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Christmas-Feta-Square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Christmas-Feta-Square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Christmas-Feta-Square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Christmas-Feta-Square.jpg"
+    ],
+    "url": "https://pinchofyum.com/christmas-feta",
+    "recipeIngredient": [
+        "one 8-ounce block of feta cheese",
+        "1 small clove garlic (or half if you’re sensitive to garlic)",
+        "2 ounces cream cheese",
+        "2 tablespoons honey",
+        "Pomegranate seeds",
+        "Candied nuts (see notes)",
+        "Thyme leaves",
+        "Freshly ground black pepper",
+        "Orange or lemon zest"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pulse feta, garlic, cream cheese, and honey in a food processor until very smooth. Transfer to a plate and give it some swoops with a spoon to make it pretty.",
+            "url": "https://pinchofyum.com/christmas-feta#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with pomegranate seeds, candied nuts, thyme leaves, freshly ground black pepper, zest, and a drizzle of honey.",
+            "url": "https://pinchofyum.com/christmas-feta#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "",
+    "totalTime": "PT5M",
+    "recipeYield": [
+        "4",
+        "4-6 servings"
+    ],
+    "recipeCategory": [],
+    "cookingMethod": "Pulse",
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "7",
+        "ratingValue": "4.6"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "155 calories",
+        "sugarContent": "7.7 g",
+        "sodiumContent": "376.7 mg",
+        "fatContent": "11.3 g",
+        "saturatedFatContent": "7.6 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "8.1 g",
+        "fiberContent": "0 g",
+        "proteinContent": "6 g",
+        "cholesterolContent": "43.2 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Christmas Feta",
+        "description": "Christmas Feta is here for the holidays! Smooth and creamy whipped feta topped with orange zest, pomegranate seeds, candied nuts, and fresh thyme. It’s basically a delicious ornament in a bowl! ",
+        "contentUrl": "https://content.jwplatform.com/videos/7x8fE02T.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/7x8fE02T-720.jpg"
+        ],
+        "uploadDate": "2021-12-13T18:58:57+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tammy"
+            },
+            "datePublished": "2023-12-10",
+            "reviewBody": "I made this and it was so thin just ran all\r\nOver the plate. The taste was good, a little salty for my taste, which I’m sure was just the Feta."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Bragg"
+            },
+            "datePublished": "2021-12-21",
+            "reviewBody": "This was such a hit at my holiday party! The combination of toppings is magical. And serving alongside pear and apple (plus bread, of course) was perfect! Thank you for yet another family favorite recipe that will be repeated many times over!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dana"
+            },
+            "datePublished": "2021-12-26",
+            "reviewBody": "I made this for Christmas Eve, it is divine. I'm planning on making it next year already."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Caree"
+            },
+            "datePublished": "2022-01-03",
+            "reviewBody": "This was tasty, but didn't really come together for me as described.  I blended and blended and blended with my food processor but it wouldn't turn creamy and still left big chunks of feta (because it was still cold from the fridge? not sure).  I had to thin it with some water and olive oil and it finally thinned out.  Just my personal experience."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mothersfoods"
+            },
+            "datePublished": "2022-01-14",
+            "reviewBody": "Good Recepie Thanks for sharing !"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Emily"
+            },
+            "datePublished": "2022-03-22",
+            "reviewBody": "Delicious! I had to thoroughly break up my feta, and it took a while to process the dip until it was smooth, but it came out deliciously! We ate it both sweet and savory. Great both ways!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rebecca Richardson"
+            },
+            "datePublished": "2023-12-31",
+            "reviewBody": "I made this for my annual Christmas Eve party. Easy to make and absolutely decadent.  I followed the recipe completely and it came out perfect."
+        }
+    ],
+    "datePublished": "2021-12-13",
+    "@id": "https://pinchofyum.com/christmas-feta#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/christmas-feta#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/christmas-feta"
+}

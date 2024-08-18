@@ -1,0 +1,404 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024693-arroz-con-maiz-y-crema-cheesy-rice-casserole-with-corn#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024693-arroz-con-maiz-y-crema-cheesy-rice-casserole-with-corn",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/10/10/multimedia/10LATINISIMOrex2-rice-gvwf/10LATINISIMOrex2-rice-gvwf-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024693-arroz-con-maiz-y-crema-cheesy-rice-casserole-with-corn",
+    "name": "Arroz con Maiz y Crema (Cheesy Rice Casserole With Corn)",
+    "description": "Sandra A. Gutierrez, the author of “Latinísimo: Home Recipes from the 21 Countries of Latin America” (Knopf, 2023), was born in Philadelphia and raised by her Guatemalan parents in their home country. This recipe, a classic from Guatemala City where she lived, has been made since the 1950s, when mayonnaise started gaining popularity in Latin America as it became available in grocery stores. Ms. Gutierrez says the dish is typically enjoyed alongside buffet dinners with roast chicken or beef tenderloin. A satisfyingly easy side dish that is rich, cheesy and tangy, this casserole can be prepared and assembled in advance, or easily halved for a smaller crowd.",
+    "author": {
+        "@type": "Person",
+        "name": "Christina Morales"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/10/10/multimedia/10LATINISIMOrex2-rice-gvwf/10LATINISIMOrex2-rice-gvwf-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/10/multimedia/10LATINISIMOrex2-rice-gvwf/10LATINISIMOrex2-rice-gvwf-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/10/multimedia/10LATINISIMOrex2-rice-gvwf/10LATINISIMOrex2-rice-gvwf-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/10/multimedia/10LATINISIMOrex2-rice-gvwf/10LATINISIMOrex2-rice-gvwf-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT40M",
+    "totalTime": "PT50M",
+    "recipeYield": "8 to 12 servings",
+    "recipeCuisine": "central american",
+    "recipeCategory": "dinner, easy, weeknight, casseroles, grains and rice, main course, side dish",
+    "keywords": "corn, cotija, make-ahead, mayonnaise, rice, sour cream, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 245
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 619,
+        "unsaturatedFatContent": "21 grams",
+        "carbohydrateContent": "63 grams",
+        "cholesterolContent": null,
+        "fatContent": "36 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "12 grams",
+        "saturatedFatContent": "13 grams",
+        "sodiumContent": "622 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Butter, as needed for greasing",
+        "6 (lightly packed) cups/800 grams cooked white rice (preferably medium- or long-grain)",
+        "2 cups fresh corn kernels (or frozen, thawed)",
+        "1 1/2 cups/340 grams sour cream",
+        "1 cup/225 grams mayonnaise",
+        "1 cup finely grated Cotija, queso seco or Parmesan",
+        "1 cup finely chopped fresh parsley leaves and tender stems",
+        "1/2 cup finely chopped scallions",
+        "2 large drained, roasted red bell peppers (about 6 ounces), thinly sliced",
+        "1 teaspoon fine sea salt",
+        "1/4 teaspoon freshly ground black pepper",
+        "1 1/2 cups/115 grams shredded Chihuahua, Monterey Jack or other melting cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 350 degrees. Butter a 9-by-13-inch baking dish."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the rice, corn, sour cream, mayonnaise, Cotija, parsley, scallions, roasted red pepper, salt and pepper. Spread the mixture into the prepared baking dish, sprinkle with the shredded cheese and bake until bubbly, about 30 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "If you’d like additional color on your casserole, broil the casserole a few inches away from your broiler heat source until golden in spots, about 3 minutes. Let cool a few minutes, then serve hot."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-10-10T00:00:00.000Z",
+    "dateModified": "2023-10-10T17:55:23.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cks"
+            },
+            "reviewBody": "Delicious. Ignore baking time. Baked it for at least an hour - it’s dense and wet.",
+            "datePublished": "2024-05-01T16:13:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AJ0224"
+            },
+            "reviewBody": "Pure, delicious comfort food. I made it with leftover brown basmati rice, and it was excellent.",
+            "datePublished": "2024-02-28T03:26:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy"
+            },
+            "reviewBody": "I added cubed ham with lime zest and lime juice as well as halving mayo, sour cheese and cheese- tasty",
+            "datePublished": "2024-02-06T01:34:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "I doubled the corn and halved the sour cream and mayonnaise. Loved the mix or flavors - especially the roasted red peppers and fresh parsley. I am going to add in some green chili or a little hot chili next time, but this makes a great side for a meal.",
+            "datePublished": "2024-02-02T15:09:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jody"
+            },
+            "reviewBody": "This can be a side dish OR meal. My mom served it at Christmas and it was a huge hit. When a friend fell and dislocated his shoulder we threw some cooked chicken in it and made it a meal. Cheesy, warm, and can easily be heated up with red pepper flakes or jalapeños!",
+            "datePublished": "2024-01-13T14:18:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth Armstrong"
+            },
+            "reviewBody": "I’ve made this a couple of times now, never quite following the recipe exactly—adapted to what I had on hand—but it strikes me as a wonderful template for cheesy rice that’s a perfect base for experimentation and play—definitely a keeper",
+            "datePublished": "2024-01-06T23:15:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rose"
+            },
+            "reviewBody": "This is a wonderful recipe. It can scale to serve 2-20. I first had a variation of this 55y ago; this version is great. Substitutions are simple. Precook the rice. If it's leftover and dry, adjust the mayo and sour cream. Whatever mild peppers you have will work (jarred red peppers or pimientos, roasted poblanos, or canned green chiles). Grated carrots add flavor, color, nutrition; corn too. Blends of cheddar & Jack cheese or Parmesan & goat add new flavors (haven't tried blue or swiss cheeses).",
+            "datePublished": "2023-12-27T12:47:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Beachwriter"
+            },
+            "reviewBody": "I think prep time should include yelling at your family to help you find the cheese grater and running to the store for extra cheese. This one was easy to cut in half. Didn't have sour cream, so I used yogurt. Cottage cheese might also work. Definitely add some Tajin or maybe some smoked chili powder.",
+            "datePublished": "2023-12-26T21:55:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "reviewBody": "Rice takes 20 minutes to cook, and the casserole takes 30 minutes to bake, so yes, 50 minutes is accurate.",
+            "datePublished": "2023-12-22T15:28:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Breanne"
+            },
+            "reviewBody": "This was phenomenal. I used jasmine rice cooked with 1/2 bulb garlic & 1 onion (sauteed) in a rice cooker with recommended water and a healthy spoonful of roasted garlic and veggie better than bouillon. I never do plain rice.  Finished up manchego and cojita cheese, plus recommended cheese, used whole milk Cabot Greek yogurt in place of sour cream and I only use duke's mayo. Served with salsa verde chicken, slow cooked. yum!",
+            "datePublished": "2023-12-13T15:27:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "I like the idea of adding black beans.",
+            "datePublished": "2023-12-11T09:37:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Cannon"
+            },
+            "reviewBody": "This was good and I passed it off as ‘Rainbow Casserole’ to my little kids.  Added 1/2 cup black beans.  I cut the mayo to 1/2 cup and the s cream to 1 cup.   Still gooey and yummy.",
+            "datePublished": "2023-11-29T23:13:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "I cut the recipe in half, used light sour cream and greek youghurt instead of regular sour cream and mayo, and substituted a cup of Hatch green chiles (Young Guns is the best) for the bell peppers. I also added cumin, red pepper flakes, a dash of cayenne, and chile powder. Que rico!",
+            "datePublished": "2023-11-28T20:33:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Monika"
+            },
+            "reviewBody": "This was a really interesting side dish and we had it with ribs.  It felt like it needed some type of citrus but we liked this a lot - made exactly as written.",
+            "datePublished": "2023-11-21T17:19:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eric"
+            },
+            "reviewBody": "This was disappointing for me. The whole thing had a sticky, mushy texture that was not appetizing and the flavors weren't very special. Like many people who left comments, I thought it would work and liked the ingredients. But in the end, this one didn't work here. Happy that others found success with it.",
+            "datePublished": "2023-11-12T22:57:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan W"
+            },
+            "reviewBody": "Everyone loved this! I did cut back on the amount of rice and upped the amount of corn (frozen worked fine). Also, it felt like the dish was a bit like street corn in a casserole form, so I added chili powder and the juice from a whole lime. The addition of the lime juice was excellent.",
+            "datePublished": "2023-11-08T12:46:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patrick"
+            },
+            "reviewBody": "This makes so much (also true with a lot of NY Times Cooking recipes). How well does it cut in half? Sure wish there were more smaller serving recipes for us singletons.",
+            "datePublished": "2023-10-12T19:34:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bruce E Futhey"
+            },
+            "reviewBody": "My taste buds got into a knock-down, drag-out fight with my coronary arteries over this recipe.  A truce was negotiated that provided for: small servings, low-fat ingredients (where/if possible), and a half mile run every night for a week after each serving.  \nThat said, I made a half sized version that was quite tasty, and will again.  Yum!",
+            "datePublished": "2023-10-14T03:04:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen j"
+            },
+            "reviewBody": "I will try this using mild green chilis (Ortega or Hatch), perhaps cilantro for parsley.",
+            "datePublished": "2023-10-13T13:41:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Just wondering, does 50 minutes include time to cook rice? I don't know many people who have 6 cups of rice hanging out in the fridge.",
+            "datePublished": "2023-10-12T19:18:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shannon J"
+            },
+            "reviewBody": "I plan to try it with roasted poblano peppers instead of the red peppers.  I would bet that canned green chilies could work as well.",
+            "datePublished": "2023-10-13T11:08:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard"
+            },
+            "reviewBody": "Of course 50 minutes does not include the time to cook the rice. Nor does it include the time to make homemade mayonnaise.",
+            "datePublished": "2023-10-14T18:11:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Quatorze"
+            },
+            "reviewBody": "Looks good.  Any ideas for replacing the red peppers?  My family hates them, (though I eat them when out...)",
+            "datePublished": "2023-10-12T16:32:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "I just noticed they even say in the description: \"A satisfyingly easy side dish that is rich, cheesy and tangy, this casserole can be prepared and assembled in advance, or easily halved for a smaller crowd.\"",
+            "datePublished": "2023-10-13T08:22:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Cannon"
+            },
+            "reviewBody": "This was good and I passed it off as ‘Rainbow Casserole’ to my little kids.  Added 1/2 cup black beans.  I cut the mayo to 1/2 cup and the s cream to 1 cup.   Still gooey and yummy.",
+            "datePublished": "2023-11-29T23:13:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda"
+            },
+            "reviewBody": "I am going to try and substitute pimiento as I read \"they're great for recipes that call for chopped up bell peppers\".",
+            "datePublished": "2023-10-12T16:47:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mamaJ"
+            },
+            "reviewBody": "You could try adding frozen green beans, green peas, frozen diced carrots, or even frozen chopped spinach. They all work well. well. Substitute green pepper (if they will eat that instead of the red pepper). Mushrooms or fresh zucchini are also good substitutes that I have used successfully for the red pepper hating eaters in my household.",
+            "datePublished": "2023-10-14T17:44:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathy"
+            },
+            "reviewBody": "I routinely cook 3 cups of rice at a time for the two of us, and the next day put half in a freezer bag. I always have frozen rice for a casserole or to put a batch of curry on.",
+            "datePublished": "2023-10-21T13:43:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NeeNee"
+            },
+            "reviewBody": "Just leave them out?  They're probably in the recipe for color.",
+            "datePublished": "2023-10-13T10:46:52.000Z"
+        }
+    ]
+}

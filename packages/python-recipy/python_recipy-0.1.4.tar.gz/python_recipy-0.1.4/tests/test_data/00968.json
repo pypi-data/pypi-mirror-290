@@ -1,0 +1,83 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/jerk-seasoned-air-fryer-potatoes/",
+    "name": "Jerk-Seasoned Air-Fryer Potatoes",
+    "datePublished": "2022-06-21",
+    "dateModified": "2023-01-06",
+    "prepTime": "PT25M",
+    "cookTime": "PT15M",
+    "totalTime": "PT40M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2022/06/Jerk-Seasoned-Air-Fryer-Potatoes_EXPS_RC22_267875_DR_03_02_11b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "As a spicy food lover, this is a simple way to enjoy the Jamaican jerk flavor profile in a meatless side dish. It also works really well with any store-bought Thai curry paste. — Ben Costantino, Astoria, New York",
+    "recipeIngredient": [
+        "1 pound baby Yukon Gold potatoes, quartered",
+        "3 tablespoons fresh thyme leaves",
+        "3 garlic cloves, minced",
+        "1 tablespoon freshly ground pepper",
+        "1 teaspoon kosher salt",
+        "1 teaspoon ground allspice",
+        "1 Scotch bonnet pepper, seeded and minced, optional",
+        "2 tablespoons canola oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat air fryer to 360°. In a large saucepan, bring 8 cups water to a boil. Add potatoes; cook, uncovered, just until water returns to a boil, about 5 minutes. Meanwhile, in a spice grinder, or with a mortar and pestle, combine thyme, garlic, pepper, salt, allspice and, if desired, Scotch bonnet pepper; grind to a paste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain potatoes and pat dry. Transfer to a large bowl. Drizzle with oil; toss to coat. Stir in paste until potatoes are well coated. Place potatoes on greased tray in air-fryer basket. Cook for 8 minutes, shaking basket once. Increase temperature to 375°. Cook until fork-tender and crispy, 5-6 minutes longer, shaking basket once."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 174 calories",
+        "fatContent": "7g fat (1g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "495mg sodium",
+        "carbohydrateContent": "25g carbohydrate (2g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "3g protein. <b>Diabetic Exchanges</b>: 1-1/2 starch"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-06-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Nancy634"
+            },
+            "reviewBody": "I loved this recipe and so did my husband.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Caribbean, Jamaican"
+}

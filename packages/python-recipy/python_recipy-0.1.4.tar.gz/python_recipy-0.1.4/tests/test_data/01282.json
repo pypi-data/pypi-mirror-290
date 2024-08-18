@@ -1,0 +1,97 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Flax and Blueberry Vanilla Overnight Oats",
+    "description": "These overnight oats have flax, blueberry, and vanilla yogurt to make them creamy, nutty, and the best healthy breakfast you'll ever eat.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "overnight oats, flax and blueberry overnight oats, healthy overnight oats",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/overnight-oats-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/overnight-oats-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/overnight-oats-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/overnight-oats-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats",
+    "recipeIngredient": [
+        "1/2 cup rolled oats OR quick oats",
+        "2/3 cup water",
+        "1/2 cup lowfat vanilla yogurt",
+        "1 tablespoon flaxmeal",
+        "1 baby pinch of salt",
+        "blueberries, pecans, brown sugar, and other goodies for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In an individual food storage container, add the ingredients in the order listed (except for toppings). Do not stir. Refrigerate overnight.",
+            "url": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the morning, stir up the mixture; it should be thick and the oats should be completely soft. Add the toppings of your choice. Repeat forever.",
+            "url": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT5M",
+    "totalTime": "PT5M",
+    "recipeYield": "1",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "14",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "313 calories",
+        "sugarContent": "20.7 g",
+        "sodiumContent": "671 mg",
+        "fatContent": "4.6 g",
+        "saturatedFatContent": "1.8 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "51.3 g",
+        "fiberContent": "6.8 g",
+        "proteinContent": "12.6 g",
+        "cholesterolContent": "6.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ali @ Inspiralized"
+            },
+            "datePublished": "2014-02-10",
+            "reviewBody": "Love these oats! Gorgeous photos, as usual."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "DessertForTwo"
+            },
+            "datePublished": "2014-02-10",
+            "reviewBody": "Yay! Another ebook! You guys work so dang hard :)\r\n\r\nI dream up my breakfast just as I'm falling asleep, too. Now I'm dreaming of this!"
+        }
+    ],
+    "datePublished": "2014-02-10",
+    "@id": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/flax-blueberry-vanilla-overnight-oats"
+}

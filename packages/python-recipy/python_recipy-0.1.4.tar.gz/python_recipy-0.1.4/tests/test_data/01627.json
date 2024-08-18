@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sea Bass Piccata With Fried Capers and Leeks",
+    "datePublished": "2015-12-30T11:42:22.000-05:00",
+    "dateModified": "2015-12-30T11:42:22.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Andrew Zimmern",
+            "url": "https://www.foodandwine.com/author/andrew-zimmern"
+        }
+    ],
+    "description": "in this easy fish recipe, Andrew Zimmern cooks sea bass like chicken piccata. He dredges the fillets in flour, then pan-fries them in butter for a crisp crust.Get the Recipe with Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/gPRbBiUi3aE845sB775xZHxSYbs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sea-bass-piccata-with-fried-capers-and-leeks-xl-wnbook2014-2000-4670b88fcef14d2db16b3f90fda33b40.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Sea Bass Piccata With Fried Capers and Leeks",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeIngredient": [
+        "6 tablespoons unsalted butter",
+        "1/4 cup drained capers, rinsed and dried",
+        "1/4 cup all-purpose flour",
+        "Four 6-ounce sea bass fillets with skin",
+        "Salt",
+        "Freshly ground black pepper",
+        "1 medium leek, white and light green parts only, thinly sliced",
+        "3 tablespoons finely chopped parsley",
+        "1 teaspoon finely grated lemon zest",
+        "1/2 cup white verjus (see Note)",
+        "2 tablespoons yuzu juice or fresh lemon juice (see Note)",
+        "2 tablespoons olive oil",
+        "2 garlic cloves, thinly sliced",
+        "Pinch of crushed red pepper",
+        "1 bunch of arugula (about 10 ounces), large stems removed"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, melt 2 tablespoons of the butter, then cook over moderately high heat until lightly browned, about 1 minute. Add the capers and cook until the skins burst, about 2 minutes. Transfer to a paper towel–lined plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the flour in a wide, shallow dish. Season the sea bass with salt and black pepper and dredge in the flour; tap off the excess."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt the remaining 4 tablespoons of butter in the skillet. Add the sea bass skin side down and cook over moderately high heat until the skin is crisp and golden, about 5 minutes. Flip the fish and cook until white throughout, about 4 minutes; transfer to plates. Add the leek, parsley and lemon zest to the skillet and cook, stirring frequently, until the leek is tender, about 2 minutes. Add the verjus and simmer until reduced by half, about 3 minutes. Stir in the yuzu juice and fried capers, then spoon the sauce over the fish; keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In another large skillet, heat the olive oil until shimmering. Add the garlic and crushed red pepper and cook over moderately high heat until the garlic is softened, about 1 minute. Add the arugula and cook, stirring frequently, until wilted, 1 to 2 minutes; season with salt and black pepper. Serve with the fish"
+        }
+    ],
+    "totalTime": "PT35M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jeannie Pierce"
+            },
+            "reviewBody": "Words fail to describe how delicious this dish is!! It's so impressive to serve to guests. The flavor is fabulous and the arugula tastes amazing when served like this.",
+            "datePublished": "2022-07-05T22:35:12.850Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/sea-bass-piccata-fried-capers-and-leeks",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/vegetables",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seasonings/alliums/leeks",
+                        "name": "Leeks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/sea-bass-piccata-fried-capers-and-leeks",
+                        "name": "Sea Bass Piccata With Fried Capers and Leeks"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

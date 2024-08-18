@@ -1,0 +1,99 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/noodles-with-crispy-tofu#Recipe",
+    "@type": "Recipe",
+    "description": "Combine crispy tofu with noodles, broccoli, peas and plenty of spices for a flavour-packed dinner. It's a spicy, vibrant dish that's sure to be a weeknight favourite",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/12/Noodles-with-crispy-tofu-87e7745.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/noodles-with-crispy-tofu"
+    },
+    "name": "Noodles with crispy tofu",
+    "url": "https://www.bbcgoodfood.com/recipes/noodles-with-crispy-tofu",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Helena Busiakiewicz",
+            "url": "https://www.bbcgoodfood.com/author/helenabusiakiewicz"
+        }
+    ],
+    "dateModified": "2023-12-28T06:46:36+00:00",
+    "datePublished": "2023-12-28T06:46:36+00:00",
+    "headline": "Noodles with crispy tofu",
+    "keywords": "Broccoli, crispy tofu, Noodles, Peas, Spicy noodles",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT25M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "500 calories",
+        "fatContent": "13 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "64 grams carbohydrates",
+        "sugarContent": "10 grams sugar",
+        "fiberContent": "13 grams fiber",
+        "proteinContent": "26 grams protein",
+        "sodiumContent": "1.7 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "300g firm tofu, patted dry and sliced into 2cm cubes",
+        "2 tbsp cornflour",
+        "250g medium egg noodles",
+        "1 tbsp vegetable oil",
+        "2 spring onions, sliced",
+        "½ - 1 red chilli, finely chopped",
+        "15g ginger, finely grated",
+        "3 garlic cloves, finely grated",
+        "1 ½ tsp Chinese five-spice powder",
+        "½ large head of  broccoli, finely chopped",
+        "2 red peppers, sliced",
+        "200g frozen peas",
+        "2 tbsp light soy sauce",
+        "1 tbsp crispy chilli oil, plus extra to serve (optional)",
+        "10g coriander, chopped",
+        "1 lime, juiced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven or air-fryer to 220C/200C fan/gas 7. Toss the tofu and cornflour together in a large bowl and season. Tip onto a lined baking tray and spread out to an even layer (or do this in the basket of your air-fryer) and cook for 15-20 mins until crisp and golden."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, cook the noodles following pack instructions, then rinse well in cold water so they don’t clump together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the noodles are cooking, add the oil to a large frying pan over high heat. Once shimmering, stir-fry the spring onions, chilli, ginger and garlic for 2-3mins. Sprinkle in the Chinese five-spice and stir to combine, then add the broccoli, peppers and peas."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook for 10-12 mins, stirring regularly, until softened and charring at the edges. Stir in the cooked noodles, soy sauce, chilli oil, coriander and half the lime juice, tossing to combine (it’s easier to use two wooden spoons). Toss the crispy tofu with the other half of the lime juice. Divide the noodles between four bowls and top with the crispy tofu. Serve with extra crispy chilli oil, if you like."
+        }
+    ],
+    "recipeYield": 4,
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT40M"
+}

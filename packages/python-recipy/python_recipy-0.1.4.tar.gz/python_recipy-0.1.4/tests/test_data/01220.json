@@ -1,0 +1,73 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Nuevo Cubano Sandwiches",
+    "description": "This nuevo cubano sandwich combines black bean cilantro puree, sliced mango, ham, and cheese layered between panini grilled bread. A twist on the Cuban!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "nuevo cubano sandwich, black bean panini, cuban sandwich",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Nuevo-Cubano-Sandwich-Recipe-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Nuevo-Cubano-Sandwich-Recipe-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Nuevo-Cubano-Sandwich-Recipe-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Nuevo-Cubano-Sandwich-Recipe.jpeg"
+    ],
+    "url": "https://pinchofyum.com/nuevo-cubano-sandwiches",
+    "recipeIngredient": [
+        "1/4 cup chopped fresh cilantro",
+        "1 tablespoons fresh lime juice",
+        "1/4 teaspoon chili powder",
+        "2 garlic cloves, minced",
+        "1 (15-ounce) can black beans, rinsed and drained",
+        "ham",
+        "provolone",
+        "mango slices",
+        "wheat bread (needs to be pretty sturdy)",
+        "black bean puree (see above)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spread bean mixture evenly on bottom halves of the prepared rolls. Layer bread evenly with ham, mango, and provolone cheese; top with another slice of bread.",
+            "url": "https://pinchofyum.com/nuevo-cubano-sandwiches#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread with butter (or grease the pan). Grill in a skillet or Panini Press until golden brown.",
+            "url": "https://pinchofyum.com/nuevo-cubano-sandwiches#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "recipeYield": [
+        "2",
+        "2 servings"
+    ],
+    "recipeCategory": [],
+    "cookingMethod": "Grill",
+    "recipeCuisine": "American",
+    "nutrition": {
+        "servingSize": null,
+        "calories": "710 calories",
+        "sugarContent": "30.8 g",
+        "sodiumContent": "2108.8 mg",
+        "fatContent": "12.5 g",
+        "saturatedFatContent": "5.2 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "106.7 g",
+        "fiberContent": "26 g",
+        "proteinContent": "38.1 g",
+        "cholesterolContent": "73.2 mg",
+        "@type": "nutritionInformation"
+    },
+    "datePublished": "2011-04-01",
+    "@id": "https://pinchofyum.com/nuevo-cubano-sandwiches#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/nuevo-cubano-sandwiches#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/nuevo-cubano-sandwiches"
+}

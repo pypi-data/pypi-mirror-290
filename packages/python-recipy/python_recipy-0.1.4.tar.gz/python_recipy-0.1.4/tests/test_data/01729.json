@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Ghormeh Sabzi",
+    "url": "https://www.foodnetwork.com/recipes/ghormeh-sabzi-7216793",
+    "headline": "Ghormeh Sabzi",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/10/0/DV3008_Ghrome-Sabzi_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1661884878476.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Description: Tasty Kabob's Ghormeh Sabzi. Keywords: Parsley, Persian Leeks, Cilantro, Spinach, Fenugreek, Onion, Clove, Turmeric, Beef, Lamb, Persian Limes."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/10/0/DV3008_Ghrome-Sabzi_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1661884878476.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Description: Tasty Kabob's Ghormeh Sabzi. Keywords: Parsley, Persian Leeks, Cilantro, Spinach, Fenugreek, Onion, Clove, Turmeric, Beef, Lamb, Persian Limes."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/10/0/DV3008_Ghrome-Sabzi_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1661884878476.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Description: Tasty Kabob's Ghormeh Sabzi. Keywords: Parsley, Persian Leeks, Cilantro, Spinach, Fenugreek, Onion, Clove, Turmeric, Beef, Lamb, Persian Limes."
+        }
+    ],
+    "datePublished": "2019-07-19T11:14:42.515-04:00",
+    "dateModified": "2019-07-19T11:14:41.655-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Middle Eastern Recipes,Stew Recipes,Lamb Recipes,Meat,Beef,Gluten Free,High Fiber",
+    "cookTime": "P0Y0M0DT0H35M0.000S",
+    "totalTime": "P0Y0M0DT5H50M0.000S",
+    "recipeIngredient": [
+        "1/2 cup vegetable oil",
+        "2 pounds fresh herbs (8 bunches parsley, 8 bunches Persian leeks, 2 bunches cilantro, 2 bunches fenugreek, 1 bunch spinach), chopped medium fine ",
+        "1 large white onion, chopped medium fine ",
+        "1 garlic clove, minced ",
+        "1 teaspoon ground turmeric ",
+        "1 pound beef or lamb, cut into medium chunks ",
+        "2 cups cooked red kidney beans",
+        "1 1/2 tablespoons ground black pepper, plus additional as needed ",
+        "1 tablespoon salt, plus additional as needed ",
+        "6 dried Persian limes, 2 holes poked on opposite sides of each ",
+        "Serving suggestion: basmati rice"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "561",
+        "fatContent": "24g",
+        "saturatedFatContent": "3g",
+        "carbohydrateContent": "58g",
+        "fiberContent": "17g",
+        "sugarContent": "5g",
+        "proteinContent": "36g",
+        "cholesterolContent": "48mg",
+        "sodiumContent": "934mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large skillet over medium heat; add 1/4 cup vegetable oil to warm. Add chopped herbs and saute until slightly darker but not black, about 10 minutes. Remove the herbs from the heat and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large saucepan or pot with a lid over medium-high heat; add remaining 1/4 cup vegetable oil to warm. Add chopped onion and minced garlic and saute until golden brown, about 5 minutes. Add the turmeric and chunks of meat. Continue to saute until meat is browned on outside and the juices have begun to render, creating a thin sauce in the pan, 5 to 7 minutes. Add the sauteed herbs and fold into the meat/onion mixture. Add kidneys beans, black pepper, salt, dried limes and 10 cups water. Bring to boil, then reduce heat to medium-low, cover and let simmer, making sure to check water level throughout cooking time, until the meat is tender enough to shred with a fork, 4 to 5 hours. (It's important not to let the top get dry; add water if necessary.) Season with salt and pepper to taste. Serve with steamed basmati rice."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hani E."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "The most delicious Persian cuisine "
+        }
+    ],
+    "recipeCuisine": "middle-eastern",
+    "recipeCategory": []
+}

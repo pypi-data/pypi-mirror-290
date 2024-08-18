@@ -1,0 +1,440 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020711-citrusy-cheesecake#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020711-citrusy-cheesecake",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/12/18/dining/17Romanrex4/merlin_162383931_8ab8d59f-884c-4b48-a51a-82884244413e-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020711-citrusy-cheesecake",
+    "name": "Citrusy Cheesecake",
+    "description": "The nice thing about this cheesecake is that it doesn’t require a water bath or any sort of special baking pan: More shallow than a traditional version, it gets baked right in a pie plate (or tart pan, if you’ve got that). While there are zest and juice inside the cream cheese filling, it’s the fresh sliced citrus on top that makes this cake Creamsicle-like, so don’t skip it. The ultimate do-ahead dessert, this cheesecake can be baked three or so days in advance, just make sure to wrap it tightly as cream cheese tends to easily pick up on that “fridge” scent.",
+    "author": {
+        "@type": "Person",
+        "name": "Alison Roman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/12/18/dining/17Romanrex4/merlin_162383931_8ab8d59f-884c-4b48-a51a-82884244413e-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/18/dining/17Romanrex4/merlin_162383931_8ab8d59f-884c-4b48-a51a-82884244413e-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/18/dining/17Romanrex4/merlin_162383931_8ab8d59f-884c-4b48-a51a-82884244413e-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/18/dining/17Romanrex4/merlin_162383931_8ab8d59f-884c-4b48-a51a-82884244413e-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT45M",
+    "recipeYield": "8 to 10 servings",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "cheesecake, cream cheese, grapefruit, make-ahead, sour cream, vanilla wafers, christmas, easter, mother’s day, thanksgiving, valentine’s day",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 1120
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 436,
+        "unsaturatedFatContent": "11 grams",
+        "carbohydrateContent": "34 grams",
+        "cholesterolContent": null,
+        "fatContent": "32 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "6 grams",
+        "saturatedFatContent": "17 grams",
+        "sodiumContent": "282 milligrams",
+        "sugarContent": "24 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "8 ounces/225 grams vanilla wafers or graham crackers ",
+        "3 tablespoons light brown sugar",
+        "6 tablespoons/85 grams unsalted butter, melted",
+        "Pinch of kosher salt ",
+        "1 pound/455 grams (two 8-ounce/225-gram packages) cream cheese, not the whipped kind, preferably at room temperature ",
+        "1 cup/240 milliliters sour cream or full-fat Greek yogurt",
+        "1/2 cup/100 grams granulated sugar",
+        "2 large eggs",
+        "3 tablespoons fresh grapefruit, lemon, lime or orange juice",
+        "3 tablespoons finely grated grapefruit, lemon, lime or orange zest",
+        "Pinch of kosher salt ",
+        "Sliced citrus, for serving ",
+        "Flaky sea salt, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the crust: Heat oven to 325 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pulse cookies in a food processor until you’ve got a nice fine crumb (but not a powder). You can also do this by hand if you like, by placing the cookies in a resealable bag and crushing or smashing with a skillet or rolling pin, but you will need a food processor for the filling. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer crumbs to a medium bowl and add brown sugar and butter, followed by a pinch of salt. Using your hands, mix until the crumbs are evenly coated and the mixture has a nice, wet-sand texture. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Press the crust onto the bottom and up the sides of a 9-inch pie plate, tart pan or springform pan. (Alternatively, you could use a cake pan lined with parchment. You can even use an 8-by-8-inch baking dish here, although expect a slightly thicker outcome.) Use the bottom of a measuring cup or small bowl to make sure the crust is really pressed in there, otherwise the cake could be challenging to cut later on. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake the crust until it is lightly golden brown at the edges (it gets baked one more time, so best not to overdo it here), 10 to 12 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the filling: Combine cream cheese, sour cream and granulated sugar in the bowl of a food processor and process until the mixture is extremely smooth and well blended, a minute or two, scraping down the sides as needed to incorporate any stubborn chunks of cream cheese. Add eggs, grapefruit juice, zest and a pinch of kosher salt and keep processing until it’s even smoother and creamier than before (a miracle!), another 30 seconds or so. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pour filling into baked crust (you may have some leftover filling depending on your chosen vessel) and bake until mostly set (a little jiggle is fine), 20 to 30 minutes. The filling should not brown at all."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Turn oven off and open the door a crack. Let the tart sit in the oven for a few minutes before transferring it to a wire rack on the counter to cool completely. Then place the tart in the refrigerator to chill for at least 1 hour. (This is to prevent any unsightly cracks from appearing on the surface, which can happen when there is a sudden or drastic change in temperature.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, scatter fresh citrus slices on top and sprinkle with a little flaky salt."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CBB"
+            },
+            "reviewBody": "Has anyone made this the day before.  I would like to make today and serve for dinner tomorrow night.",
+            "datePublished": "2024-05-25T19:40:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "leah"
+            },
+            "reviewBody": "When you cleaned the house, shopped for the present and put off making the cheesecake until 3 pm, this is the perfect recipe. It goes together fast (bought crust, cooks fast and chills perfectly while eating and digesting.",
+            "datePublished": "2024-05-17T15:25:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jasmine"
+            },
+            "reviewBody": "Wonderful citrusy cheesecake. I swapped the crust in the recipe for a Tate’s gluten free ginger zinger cookie crust for Passover, and I had to use orange juice in place of the grapefruit juice since it’s what I had on hand, so it turned out like a orange creamsicle. It was a huge crowd pleaser for our Passover dinner party! Very easy to make. I used all the zest it called for and like most of the other comments baked it for 45 mins and it was perfect.",
+            "datePublished": "2024-04-28T22:02:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "christine"
+            },
+            "reviewBody": "Made this for Easter dinner yesterday. Cheesecake was fantastic but took almost an hour in the oven to firm up in a 8\" springform pan (even though I held back some of the crust and the filling). The flavour was subtle, but there, and the texture was excellent.",
+            "datePublished": "2024-04-01T18:47:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vivi"
+            },
+            "reviewBody": "Instead of citrus slices, I took about 2 tbs of leftover zest, mixed in about 1/2 tbs of granulated sugar, and lightly dusted the mixture along the edges. Not only did it look bright and beautiful, the cheesecake was also still easy to cut and the zest added just a tiny touch of extra tangy sweetness!",
+            "datePublished": "2024-03-15T03:54:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Colleen Trang"
+            },
+            "reviewBody": "Love it! Used Claudia's Fleming recipe for graham crackers and had meyer lemons in the fridge 😍",
+            "datePublished": "2024-02-15T02:02:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MDBro"
+            },
+            "reviewBody": "I substituted graham crackers with Trader Joe's ginger snap cookies and eliminated the additional sugar for the crust. This recipe is a winner!",
+            "datePublished": "2024-01-15T16:40:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "May"
+            },
+            "reviewBody": "In our climate and at our altitude - Calgary, Alberta - cheesecakes crack no matter what.  But as my sister says, no one ever refuses a piece because the cheesecake cracked.",
+            "datePublished": "2024-01-15T16:37:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Erin N"
+            },
+            "reviewBody": "I’ve made this in a spring form pan and a pie pan with very slanted sides and both required 50 minutes to not be completely runny in the middle.",
+            "datePublished": "2024-01-15T00:58:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "I’ve made this twice over a couple of years and both times it was beautiful and delicious. The second time I did not add fruit slices on the top because while pretty the first day, the slices get dried out and don’t add much to the flavor and ended up on the edge of my plate. I appreciate the beauty of it for a party though! It’s a fun recipe because it’s versatile with the various citrus flavors. Let go of your ideas of a traditional cheesecake and have fun!",
+            "datePublished": "2024-01-11T20:49:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "TiffC"
+            },
+            "reviewBody": "I used a combo of 2/3 blood orange and 1/3 lemon. OMG! This was outrageously good. Plus, the blood orange gave it a slight blush, which was so pretty. It tasted almost like a dreamsicle. I also found it to be an easy recipe to make. I don't know if my pie plate was too small or I made too much crust, but that was the only thing I'd say wasn't perfect. It seemed like too much crust. I will definitely be making this again.",
+            "datePublished": "2024-01-08T17:23:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mimi"
+            },
+            "reviewBody": "This is the first cheesecake I’ve made and was a big hit! Used zest of 2 Cara Cara oranges   a withering navel orange (didn’t use the juice). Used a Le Creuset pie plate but it took 40 mins to bake, still with jiggle in the middle. Chilled in the fridge for a day, delicious. The next day is even better. Someone said there’s no direction for crumbs around the cake in the pic - if you bake in a pie plate that what it looks, which is quite pretty. No sliced citrus on top but still creamsicle-y!",
+            "datePublished": "2023-12-26T02:50:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shannon"
+            },
+            "reviewBody": "I've made this more than once. I've tried changing the temperature of my ingredients, the amount of orange/grapefruit juice that gets added all to no avail. EVERY time i've made it, it is liquidy and nothing like the video. Before adding the juice, it was fine. After, bubbly and thin. When it cooks, it bubble and is an unpleasant texture. I've added cornstarch which helped slightly. I am not a new baker. This recipe simply does not work each time I've made it. Save yourself the trouble.",
+            "datePublished": "2023-12-24T16:13:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anniemarie"
+            },
+            "reviewBody": "This makes a great gluten-free holiday dessert, as it's so easy to get GF grahams or gingersnaps and no one even notices.",
+            "datePublished": "2023-12-13T20:19:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NCSong"
+            },
+            "reviewBody": "I made this with lime and it was delicious. What I would do differently are these following things: bake for at least 40 minutes, I used a 9 inch springform pan and it was still quite jiggly after 30 minutes. I would also add at least a quarter cup more sugar and some vanilla to the cheesecake mixture. I used a stainless measuring cup to pack down the crust, and it worked perfectly.",
+            "datePublished": "2023-12-08T00:05:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S"
+            },
+            "reviewBody": "What's the baking temperature?",
+            "datePublished": "2019-12-18T22:24:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rory kandel"
+            },
+            "reviewBody": "Nearly the identical recipe to the sweet / salty  cream cheese tart in, Nothing Fancy. This recipe is a blank canvas. I made it into a pumpkin cheesecake for thanksgiving. Change the flavor to your hearts content. Use Ritz, Biscoff, graham crackers for the crust. It is crucial to leave in the oven with the door cracked for that final 15 if you want no cracks.",
+            "datePublished": "2019-12-19T17:18:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SK"
+            },
+            "reviewBody": "This was a winner. Not as heavy as traditional cheesecake. My 14 yo guest said “Wow! Did you make this?” \n\nMade in a springform pan. Used 2TBL lime zest/ 1 tBL lemon zest. Was going for a key lime taste. \n\nOnly edit is I baked this for double recommended time ~40 minutes. I baked for 20 minutes and then began checking for ‘jiggle’ every 5 minutes. Mine was ‘jiggle free’ after 40 minutes.",
+            "datePublished": "2019-12-22T12:55:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rose Swan"
+            },
+            "reviewBody": "I followed the recipe exactly including using the right sized springform. My oven temperature was accurate. It took me almost 40 minutes to bake, not the 18-20 stayed in the recipe.",
+            "datePublished": "2019-12-23T02:18:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bruce"
+            },
+            "reviewBody": "The photo shows crumbs around the top edge of the cake. Maybe they want you to reserve a portion of the crust mix and then sprinkle them on before the second bake? But the instructions say nothing about this.",
+            "datePublished": "2019-12-20T10:33:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SRVNYC"
+            },
+            "reviewBody": "Great recipe. Doesn’t require 3 tablespoons of zest. Maybe 1.5, or really whatever zest you get from the citrus giving you the fresh juice. The creamsicle taste will still be very strong and lovely.\n\nThe crust is good. It yields extra if you’re using a pie plate. Don’t try to use it all in that iteration. \n\n\nThe citrus on top looks nice but doesn’t cut well for serving (reality v instagram).",
+            "datePublished": "2020-01-26T05:29:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "km"
+            },
+            "reviewBody": "Made with gluten free ginger snaps, extra tablespoon or so of fresh orange juice. 35 minutes to no jiggle   15 mins with oven off and door open. Topped with orange slices, and candied ginger. Delicious.",
+            "datePublished": "2019-12-26T03:40:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Senior Staff Editor, NYT Cooking"
+            },
+            "reviewBody": "Hi all! I checked in with Alison, and she updated the cook time to 20 to 30 minutes. A little jiggle of the filling is fine!",
+            "datePublished": "2020-01-02T15:33:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "W"
+            },
+            "reviewBody": "The recipe states 325 in step one.",
+            "datePublished": "2019-12-19T20:51:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean"
+            },
+            "reviewBody": "I am interested in knowing how you made it with pumpkin. What did you add or adjust? Thanks.",
+            "datePublished": "2019-12-22T16:46:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patrick"
+            },
+            "reviewBody": "Really good.  Using the \"...no longer jiggles when tapped...\" test I had to extend the bake time to 30 min.  Used Cara Cara oranges.  Came out perfect.",
+            "datePublished": "2019-12-21T20:06:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Used gingersnaps and added cardamom to crust dry ingredients.  Baked in 25 minutes.",
+            "datePublished": "2020-03-04T17:31:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "I used a stick blender for the filling ... texture was excellent. I crushed the biscuit by hand using a bottle to press on the biscuits which I bagged in a zip lock bag",
+            "datePublished": "2022-11-13T18:09:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leanna"
+            },
+            "reviewBody": "Probably illegal but I made this vegan! Used Miyoko Cream Cheese and Forager Greek Yogurt. I subbed cornstarch for the eggs. The edges are perfectly set but the middle is still a little loose. Going to test again increasing the bake time! I see others here went for 40 minutes. Taste is amazing and served with a lemon raspberry topping!",
+            "datePublished": "2023-03-14T15:06:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lanam"
+            },
+            "reviewBody": "Alison has a YouTube video showing this step by step. I made the version of this on Alison’s website which no longer includes citrus juice, and I just wanted vanilla so no citrus. Otherwise made as written. It took 30 minutes to get the right jiggle. Alison writes that it could take 25-35 minutes if using a springform pan and 20-30 minutes if using a pie plate. I used a stand mixer and beat the graham crackers in a ziplock.",
+            "datePublished": "2023-04-02T23:52:48.000Z"
+        }
+    ]
+}

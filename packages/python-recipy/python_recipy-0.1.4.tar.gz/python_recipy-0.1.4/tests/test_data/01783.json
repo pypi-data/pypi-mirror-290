@@ -1,0 +1,128 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Boneless Wings",
+    "url": "https://www.foodnetwork.com/recipes/boneless-wings-5456897",
+    "headline": "Boneless Wings",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/27/0/DVSP77_Boneless-Wings-with-Sweet-Hot-Sauce_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1538075545805.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "The Boneless Wings with Sweet Hot Sauce as Served at Capone's Pub and Grill in Post Falls, Idaho, as seen on Trible D Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/27/0/DVSP77_Boneless-Wings-with-Sweet-Hot-Sauce_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1538075545805.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "The Boneless Wings with Sweet Hot Sauce as Served at Capone's Pub and Grill in Post Falls, Idaho, as seen on Trible D Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/27/0/DVSP77_Boneless-Wings-with-Sweet-Hot-Sauce_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1538075545805.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "The Boneless Wings with Sweet Hot Sauce as Served at Capone's Pub and Grill in Post Falls, Idaho, as seen on Trible D Nation, Special."
+        }
+    ],
+    "datePublished": "2018-10-05T15:59:19.875-04:00",
+    "dateModified": "2018-10-05T15:59:19.545-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Breast,Recipes for Parties,Tailgate Party,Deep-Frying,High Fiber,Low-Fat",
+    "cookTime": "P0Y0M0DT0H35M0.000S",
+    "totalTime": "P0Y0M0DT0H40M0.000S",
+    "recipeIngredient": [
+        "1 cup ketchup",
+        "1/2 cup honey ",
+        "1/2 cup brown sugar ",
+        "1/4 cup sriracha",
+        "2 tablespoons brown mustard ",
+        "2 tablespoons cider vinegar ",
+        "1 tablespoon cayenne pepper",
+        "3 pounds cornstarch",
+        "1 1/4 pounds all-purpose flour ",
+        "1/2 cup granulated garlic ",
+        "1/2 cup onion powder ",
+        "1/2 cup paprika ",
+        "1/4 cup ground black pepper ",
+        "1/4 cup cayenne pepper ",
+        "4 to 6 boneless, skinless chicken breasts",
+        "1/2 cup milk",
+        "12 large eggs"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "1938",
+        "fatContent": "20g",
+        "saturatedFatContent": "5g",
+        "carbohydrateContent": "354g",
+        "fiberContent": "13g",
+        "sugarContent": "48g",
+        "proteinContent": "81g",
+        "cholesterolContent": "540mg",
+        "sodiumContent": "971mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the sweet hot sauce: Combine the ketchup, honey, brown sugar, sriracha, mustard, vinegar, cayenne and 2 tablespoons water in a large bowl and whisk vigorously until everything is mixed well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the flour dredge: Mix together the cornstarch, flour, granulated garlic, onion powder, paprika, black pepper and cayenne in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the chicken: Heat a deep-fryer to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the chicken into strips approximately the size of your thumb, making each strip as even as possible. Whisk together the milk and eggs in a large shallow dish for the egg wash. Roll the chicken strips in the flour dredge until evenly coated, shaking off the excess. Then dip in the egg wash. Then dip in the flour dredge once again."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In batches, place the chicken strips in the fryer basket and drop it in the oil, giving it a good shake to make sure they don't stick together. Cook until they all begin to float, about 5 minutes. (To insure they have been cooked all the way, feel free to cut one in half.) Toss them in a large bowl with some sweet hot sauce until evenly coated. Repeat with the remaining chicken."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 3
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jay M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "goood<div>imaculate</div>"
+        }
+    ],
+    "recipeCategory": []
+}

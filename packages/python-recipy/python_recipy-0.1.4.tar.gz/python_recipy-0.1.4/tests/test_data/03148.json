@@ -1,0 +1,105 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Black Bottom Pie Recipe",
+    "keywords": [
+        "pie",
+        "dessert",
+        "american",
+        "chocolate",
+        "coffee",
+        "baking",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Julian Broad",
+            "sameAs": "https://www.bonappetit.com/contributor/julian-broad"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.2,
+        "ratingCount": 21
+    },
+    "description": "Black Bottom Pie Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57af74591b33404414975dde/master/w_646,h_459,c_limit/black-bottom-pie-646.jpg"
+    ],
+    "headline": "Black Bottom Pie",
+    "name": "Black Bottom Pie",
+    "recipeIngredient": [
+        "6 ounces gingersnap cookies (about 24)",
+        "3 tablespoons unsalted butter, melted",
+        "1 tablespoon heavy cream",
+        "1 envelope unflavored gelatin powder",
+        "1 1/2 cups whole milk",
+        "1/2 cup heavy cream",
+        "4 large egg yolks",
+        "1/2 cup sugar",
+        "2 tablespoons dark rum",
+        "1 tablespoon cornstarch",
+        "1 teaspoon vanilla extract",
+        "1/4 teaspoon kosher salt",
+        "1/4 cup mascarpone",
+        "5 ounces semisweet or bittersweet chocolate, finely chopped",
+        "1/4 cup hot espresso or strong coffee",
+        "1 cup chilled heavy cream",
+        "3 tablespoons powdered sugar",
+        "1 tablespoon dark rum",
+        "1/2 teaspoon vanilla extract",
+        "Natural unsweetened cocoa powder",
+        "Grated semisweet or bittersweet chocolate",
+        "Toasted sliced almonds"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°. Pulse cookies in a food processor until finely ground. Drizzle in butter and cream; pulse until well blended. Pour into prepared dish. Use the bottom and sides of a measuring cup to pack crumbs onto bottom and up sides of dish. Bake until crust is set, 12–15 minutes. Let cool completely on a wire rack; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour 2 Tbsp. water into a small bowl; sprinkle gelatin over. Let stand until gelatin softens, about 10 minutes. Heat milk and cream in a large saucepan over medium heat until mixture just comes to a simmer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk egg yolks and next 5 ingredients in a medium bowl. Gradually whisk egg mixture into milk mixture; whisk in gelatin. Whisk constantly over medium-low heat until thick, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove vanilla custard from heat and stir in mascarpone. Place 1 cup custard in a medium bowl; add chocolate and stir until melted and smooth. Stir in espresso. Pour chocolate custard into crust; smooth top. Chill pie until set, about 30 minutes. Let vanilla custard stand at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gently pour remaining vanilla custard over chilled chocolate layer (pour slowly so as not to disturb chocolate layer). Smooth top; chill until set, about 1 hour, or keep covered up to 1 day."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using an electric mixer at medium-low speed, beat cream and sugar in a medium bowl until cream begins to thicken. Add rum and vanilla; increase speed to high and beat until stiff peaks form. Spread whipped cream over custard. Dust with cocoa powder and garnish with grated chocolate and almonds. DO AHEAD: Can be made 4 hours ahead. Chill uncovered."
+        }
+    ],
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/black-bottom-pie",
+    "dateModified": "2012-01-16T19:00:00.000-05:00",
+    "datePublished": "2012-01-16T19:00:00.000-05:00",
+    "recipeCategory": []
+}

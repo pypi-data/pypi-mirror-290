@@ -1,0 +1,94 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/beef-chorizo-empanadas#Recipe",
+    "@type": "Recipe",
+    "description": "Think of these beef and chorizo empanadas as a kind of South American pasty. They can be baked or fried and are tasty served with guacamole and sour cream",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/empanadas-66f95e9.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/beef-chorizo-empanadas"
+    },
+    "name": "Beef & chorizo empanadas",
+    "url": "https://www.bbcgoodfood.com/recipes/beef-chorizo-empanadas",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Tilly Amore",
+            "url": "https://www.bbcgoodfood.com/author/tillyamore"
+        }
+    ],
+    "dateModified": "2022-11-08T13:59:21+00:00",
+    "datePublished": "2018-04-02T10:36:49+01:00",
+    "headline": "Beef & chorizo empanadas",
+    "keywords": "Beef, Chorizo, empanadas, Freezable, PASTRY, Tilly Amore",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "273 calories",
+        "fatContent": "17 grams fat",
+        "saturatedFatContent": "9 grams saturated fat",
+        "carbohydrateContent": "19 grams carbohydrates",
+        "sugarContent": "1 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "9 grams protein",
+        "sodiumContent": "0.9 milligram of sodium"
+    },
+    "prepTime": "PT40M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "375g plain flour",
+        "220g chilled  butter , chopped",
+        "2 eggs , beaten",
+        "100g cooking  chorizo sausage",
+        "300g beef mince",
+        "1 onion , chopped",
+        "½ small pack coriander , finely chopped",
+        "½ small pack parsley , finely chopped",
+        "2 tsp smoked paprika",
+        "2 tsp ground cumin",
+        "1 tsp chilli flakes",
+        "2 tbsp tomato purée"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tip the flour into a bowl with 1 tsp salt and add the butter. Rub the butter and flour with your fingertips until crumbly. Add the eggs and 100ml cold water, bring together to a dough then turn out onto a floured surface and begin to knead until soft and smooth. Cover with cling film and put in the fridge to rest for 20 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the chorizo from its casing and add to a mixing bowl with the mince, onion, coriander, parsley, paprika, cumin and chilli flakes. Mix everything together, then cook in a frying pan over a medium heat for 2 mins. Add the tomato purée and cook for a further 7-10 mins until everything is cooked through. Remove from the heat and allow to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 180C/160C fan/gas 4. Divide the dough into four portions and roll out each one into a thin sheet. Use a 10cm biscuit cutter to cut out discs. Place 1 tsp of filling in the centre of each disc, wet the edges, pinch both sides up and fold in half to seal. Use a fork to crimp the edges."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange on a lined baking tray, brush with beaten egg and bake for 20 mins. When the empanadas are ready, remove from the oven and cool for 5 mins before serving."
+        }
+    ],
+    "recipeYield": "Makes 16",
+    "totalTime": "PT1H10M"
+}

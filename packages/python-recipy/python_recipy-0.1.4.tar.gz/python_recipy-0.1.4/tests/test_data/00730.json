@@ -1,0 +1,222 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1025432-sauteed-green-beans#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1025432-sauteed-green-beans",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/06/05/multimedia/kd-sauteed-green-beansrex-thjp/kd-sauteed-green-beansrex-thjp-googleFourByThree.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1025432-sauteed-green-beans",
+    "name": "Sautéed Green Beans",
+    "description": "Vibrant, snappy yet perfectly tender green beans needn’t involve large pots of boiling water. Here, a mixture of butter and olive oil coats the pan while the beans release their natural water content in a combination of steaming and sautéing. Fresh garlic is preferred for its subtle sweetness and texture, but if need be, you can use granulated garlic or garlic powder instead. Finish with a squeeze of lemon for a silky, garlicky sauce and a perfectly balanced side dish. Serve with baked fish, steak au poivre or some simple roasted or grilled chicken.",
+    "author": {
+        "@type": "Person",
+        "name": "Kia Damon"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/06/05/multimedia/kd-sauteed-green-beansrex-thjp/kd-sauteed-green-beansrex-thjp-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/06/05/multimedia/kd-sauteed-green-beansrex-thjp/kd-sauteed-green-beansrex-thjp-googleFourByThree.jpg",
+            "height": 600,
+            "width": 800,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/06/05/multimedia/kd-sauteed-green-beansrex-thjp/kd-sauteed-green-beansrex-thjp-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/06/05/multimedia/kd-sauteed-green-beansrex-thjp/kd-sauteed-green-beansrex-thjp-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "green bean, stovetop, summer, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 37
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 124,
+        "unsaturatedFatContent": "5 grams",
+        "carbohydrateContent": "10 grams",
+        "cholesterolContent": null,
+        "fatContent": "9 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "2 grams",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "319 milligrams",
+        "sugarContent": "4 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 tablespoons unsalted butter",
+        "1 tablespoon olive oil",
+        "2 large garlic cloves, minced",
+        "1 pound green beans, trimmed",
+        "Salt and black pepper",
+        "1/2 lemon"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Melt the butter with the olive oil in a large skillet (with a lid) over medium heat. Add the garlic and swirl into the butter mixture until fragrant, about 1 minute. You don’t want the garlic to take on much color, just to become tender."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the green beans and toss well, until they’re coated in the butter and garlic mixture. Cover and cook for about 2 minutes (the beans will begin to steam and will brighten in color to a more lively green), then remove the pan from the heat, uncover and toss again. (The goal is to make sure all the beans have an opportunity to make contact with the bottom of the pan.) Return the covered pan to the heat and cook, tossing every so often, until the beans are tender and cooked through but with a bit of a snap, about 3 minutes. Season with salt and pepper and finish with a squeeze of lemon."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-06-05T00:00:00.000Z",
+    "dateModified": "2024-06-05T19:43:57.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jon"
+            },
+            "reviewBody": "I must say, I always parboil the beans first in the same pan, then remove, drain, then cook the oil/butter and saute the garlic at a fairly low heat to make sure they don't brown, then readd the beans where they take just a minute to get back to heat. Still one pan, beans aren't as brown but the garlic is soft and perfect.",
+            "datePublished": "2024-06-13T11:31:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary M Zhu"
+            },
+            "reviewBody": "Sounds like a variation of the basic Chinese way to cook greens, ideally in a wok. Start with smashed garlic in hot oil (I use canola oil for health reasons), remove garlic, toss in veggies to sear in flavors, add a bit of water, cover to steam under lower heat, when veggies are bright green and al dente, can add a cornstarch paste to thicken remaining liquid, add flavoring as desired, serve.",
+            "datePublished": "2024-06-11T15:30:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "I added frozen green beans straight from the bag, no thawing. The garlic got a bit too brown, but the dish was fine.",
+            "datePublished": "2024-06-10T23:25:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "James Liu"
+            },
+            "reviewBody": "We do green beans twice a week.  In addition to butter and olive oil to start, add the minced garlic halfway through cooking the green beans; also add 1 tsp of sugar also at this point before the citrus, salt and pepper.  This way the garlic won't burn over the last 3 minutes and the sugar enhances the sweetness of the beans and the citrus notes.",
+            "datePublished": "2024-06-10T19:23:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane"
+            },
+            "reviewBody": "Two local restaurants that brown the minced garlic result in green beans (and spinach) that is so fabulous it sells the dishes they accompany. People seriously come in to get the green beans! The other cook just softens the garlic and the result is lame.",
+            "datePublished": "2024-06-12T03:45:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Roy"
+            },
+            "reviewBody": "Seemed pretty oily. Next time will try using half the butter and oil. Also garlic got pretty brown during the time it took to cook the beans. Not sure of a solution for that, maybe add the garlic when the beans are halfway cooked? But the beans were good, just the right crunch.",
+            "datePublished": "2024-06-09T11:37:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Walter"
+            },
+            "reviewBody": "To dry the beans thoroughly, I use a salad spinner. Any water covering the beans will make the oil slide off.",
+            "datePublished": "2024-06-12T03:02:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue"
+            },
+            "reviewBody": "To use frozen beans, thaw and drain the beans first.",
+            "datePublished": "2024-06-07T19:05:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "susu"
+            },
+            "reviewBody": "I make it with frozen beans all the time. I microwave frozen for a minute or two and then dry before sauté…",
+            "datePublished": "2024-06-07T15:59:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy H"
+            },
+            "reviewBody": "How would this change with frozen green beans?",
+            "datePublished": "2024-06-07T14:55:34.000Z"
+        }
+    ]
+}

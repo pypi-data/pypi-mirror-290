@@ -1,0 +1,392 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/german-potato-salad-with-sausage/",
+    "name": "German Potato Salad with Sausage",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-09-30",
+    "prepTime": "PT30M",
+    "cookTime": "PT06H00M",
+    "totalTime": "PT06H30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/German-Potato-Salad-with-Sausage_exps39528_SD2856494B12_11_3bC_RMS-7.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Hearty and saucy, this potato salad is an old family recipe that was updated using cream of potato soup to ease preparation. Despite the “salad” name, this is a hot and filling dish that brings comfort food to the supper. The sausage and sauerkraut give it a special zip. —Teresa McGill, Trotwood, Ohio",
+    "recipeIngredient": [
+        "8 bacon strips, finely chopped",
+        "1 large onion, chopped",
+        "1 pound smoked kielbasa or Polish sausage, halved and cut into 1/2-inch slices",
+        "2 pounds medium red potatoes, cut into chunks",
+        "1 can (10-3/4 ounces) condensed cream of potato soup, undiluted",
+        "1 cup sauerkraut, rinsed and well drained",
+        "1/2 cup water",
+        "1/4 cup cider vinegar",
+        "1 tablespoon sugar",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon coarsely ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, cook bacon over medium heat until crisp. Remove to paper towels with a slotted spoon to drain. Saute onion in drippings for 1 minute. Add sausage; cook until lightly browned. Add potatoes; cook 2 minutes longer. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer sausage mixture to a 3-qt. slow cooker. In a small bowl, combine the soup, sauerkraut, water, vinegar, sugar, salt and pepper. Pour over sausage mixture. Sprinkle with bacon. Cover and cook on low until potatoes are tender, 6-7 hours."
+        }
+    ],
+    "recipeYield": "5 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 674 calories",
+        "fatContent": "44g fat (15g saturated fat)",
+        "cholesterolContent": "92mg cholesterol",
+        "sodiumContent": "1643mg sodium",
+        "carbohydrateContent": "46g carbohydrate (9g sugars",
+        "fiberContent": "5g fiber)",
+        "proteinContent": "22g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.7222223,
+        "reviewCount": 18,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-09-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Laa135"
+            },
+            "reviewBody": "I made this tonight and as I'm use to making kielbasa, potatoes & kraut, this just elevated to a new level and I can't believe I've been missing it all these years. My husband is on his 2nd helping right now. I also used my stove top skillet and par boiled the potatoes, everything else I followed except I added some mustard seeds and topped our dishes w/ the crumble bacon so that way it would stay crispy and not get soggy in the whole pot since there will be leftovers for tomorrows lunch.  The vinegar really added a nice kick, and I used homemade kielbasa from my local Amish market, but any brand would do.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-08-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "arslp"
+            },
+            "reviewBody": "This recipe is absolutely delicious.  I've made this several times.  It is tasty and filling.  When I made this, I adapted  it for the top of the stove and did not use a slow cooker.  I did NOT rinse the kraut, and used about double what was called for.  I put about 1/4 cup more of water and cooked in covered heavy dutch oven slowly on top of stove - about an hour.  It was absolutely delicious.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-10-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Xena7751"
+            },
+            "reviewBody": "This is really good and easy. I added extra sauerkraut and it was fantastic.  Otherwise, kept everything else the same and the family loved it.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-11-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "kimlauryn"
+            },
+            "reviewBody": "I thought it was very good and will make this recipe again.  The next time I make it will plan on reducing the amount of potatoes and increasing the sauerkraut, my personal taste bud's.  But I thought the entire dish was full of flavor and relatively easy to make.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-12-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Mama_B"
+            },
+            "reviewBody": "Good, but could be improved. I found it too soupy and had to drain a lot of liquid off. And the sodium level is through the roof thanks to the processed soup. It's good. It just needs tweaking.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-12-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KitchenQueen60"
+            },
+            "reviewBody": "This will be my go to recipe for German potato salad. It uses less sugar and tastes better than other recipes I've tried. Did I mention the aroma is wonderful?",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "leemilo"
+            },
+            "reviewBody": "This is just the type of food to make my hubby glad to come home. I am going to add some carrot chunks next time just to play a little. I made it with my homemade kraut so I doubled the recipe from the soup down since my kraut is in quart cans. Worked great. Thank you to the author!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-07-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "linsvin"
+            },
+            "reviewBody": "I found this very easy to put together, not too expensive to make. No leftovers :( Well I guess I'll have to make this again! In the recipe box it goes.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-10-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "shugardrawers"
+            },
+            "reviewBody": "Simple to prepare and so delicious!  I love sauerkraut so I add extra and don't rinse it in order to get a tangier flavor.  I add extra bacon as well.  A terrific main dish on it's own, leftovers can be used as a side dish. This is a wonderful, hearty one dish meal that's excellent in the fall and winter.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-02-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jillknit"
+            },
+            "reviewBody": "This is  in the crockpot right now...can't  wait  till  supper time!  The only thing I  did  different was added a bit of  caraway seed.  Oh wait, reading down I see someone suggest  adding a few  carrots...gotta go!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-09-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Ricketty1"
+            },
+            "reviewBody": "This is very good. My family loved it and I didn't have any leftovers.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-09-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "strawberrykd"
+            },
+            "reviewBody": "This was so good i went by the recipe it came out great!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-09-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gdubmom"
+            },
+            "reviewBody": "I made this using leftover bacon (yes that's a real thing at my house) and in a hurry, so I added my reserved bacon grease directly to the crockpot, then sausage and onion. Instead of rinsing and draining all the flavor off the sauerkraut, I left the juice in and omitted the water and salt from the recipe. Since I wasn't pre-browning the potatoes, I tossed the cut pieces with the soup mixture (so they wouldn't stick together) before adding that to the crockpot. Finally, I saved the bacon to top the potato salad at the end, so it stayed crispy.This was delicious and is on our list of recipes to repeat.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-01-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "HenryRios"
+            },
+            "reviewBody": "Made this per recipe BEST POTATO SALAD EVER!!!  Give yourself a treat!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-02-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "AMANDALEEANN"
+            },
+            "reviewBody": "I really enjoyed this!  I like that the potatoes were browned first to get that tasty texture outside.  I also liked that it has a long cook time.  I work long hours and end up burning a lot of recipes if I don't plug the slow cooker into a timer.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-06-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Sudie"
+            },
+            "reviewBody": "Oh my goodness!   This is absolutely the best potato salad that I have ever made!   My family loves any potato salad with brown mustard but the sauerkrout was the magic ingredient that.   I will make it again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2008-06-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mlittle209"
+            },
+            "reviewBody": "I love this recipe!!  My parents do too.  My husband doesn't love it, but it is just different taste preferences.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-05-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Guest1478"
+            },
+            "reviewBody": "HOMERUN!! We skipped the Crock-Pot recipe. I cubed and boiled the potatoes. Then followed the rest of the recipe using the stovetop...and it was BOTH fast and delicious.... I also use an entire 16 ounce jar of sauerkraut rather than the 8 oz the recipe specifies.  I also did not drain the juice because that adds to the flavor.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, German"
+}

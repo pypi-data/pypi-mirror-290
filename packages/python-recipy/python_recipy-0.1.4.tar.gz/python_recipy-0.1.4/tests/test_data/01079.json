@@ -1,0 +1,153 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Almond Snowballs",
+    "datePublished": "2017-12-11T18:59:06.000-05:00",
+    "dateModified": "2023-02-16T08:40:46.010-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Almond Snowballs",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/vDsIRaa3DSQpm4L_gSBcxrP6768=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/474428695_2832221941001_almond-snowballs-0941b735534849468717c4a1e6811549-88751935277e4d59bde12f96e6656db5.jpg",
+        "height": 720,
+        "width": 1080
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/LAvKYaLW-KtCa7qb3.mp4",
+        "description": "These fragrant, nutty cookies are great as Christmas gifts or as a sweet snack at your next holiday party.",
+        "duration": "PT1M1S",
+        "name": "Almond Snowballs",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/LAvKYaLW/poster.jpg?width=720",
+        "uploadDate": "2020-04-06T11:44:47.807-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Almond Snowballs",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "1"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1/2 cup slivered almonds",
+        "1 cup butter, softened",
+        "1 teaspoon vanilla extract",
+        "1 cup powdered sugar",
+        "2 1/2 cups all-purpose flour",
+        "1/4 teaspoon salt",
+        "Parchment paper",
+        "1/2 cup powdered sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°. Bake almonds in a single layer in a shallow pan 6 minutes or until toasted and fragrant, stirring halfway through. Cool completely (about 20 minutes). Reduce oven temperature to 325°."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Process almonds in a food processor 30 seconds or until finely ground."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat butter at medium speed with a heavy-duty electric stand mixer until creamy. Gradually add vanilla and 1 cup powdered sugar, beating well. (Dough will be crumbly.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine flour, salt, and almonds; gradually add to butter mixture, beating until blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Shape dough into 3/4-inch balls, and place 2 inches apart on parchment paper-lined baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 325° for 12 to 15 minutes or until edges are lightly browned. Cool on baking sheets 2 minutes. Transfer to wire racks, and cool 10 minutes. Roll cookies in 1/2 cup powdered sugar."
+        }
+    ],
+    "totalTime": "PT97M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Southern Living Member"
+            },
+            "reviewBody": "I would roll the balls into one tablespoon balls. Cook about 15 mins on 325. Add almond extract instead of vanilla. And add more extract to flavor.",
+            "datePublished": "2024-02-03T14:59:25.326Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/almond-snowballs",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cookies",
+                        "name": "Cookies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/almond-snowballs",
+                        "name": "Almond Snowballs"
+                    }
+                }
+            ]
+        }
+    }
+}

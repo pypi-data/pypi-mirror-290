@@ -1,0 +1,184 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sausage Balls",
+    "datePublished": "2018-03-08T11:10:43.000-05:00",
+    "dateModified": "2023-10-25T19:27:51.928-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "This mouthwatering recipe for homemade sausage balls takes less than 30 minutes to make, and it&#39;s perfect for breakfast, a party, or a grab-and-go snack.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/CO9RSTMukjx9AEmpATskJofL7H8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sausage_Balls_006-df660c4c8b1f4fc28d1253a19197eb54.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/yjydUK83-KtCa7qb3.mp4",
+        "description": "This mouthwatering sausage ball recipe takes less than 30 minutes to make, and it’s perfect for breakfast, lunch, dinner, or a grab-and-go snack. ",
+        "duration": "PT44S",
+        "name": "You Have To Try This Southern Sausage Ball Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/yjydUK83/poster.jpg?width=720",
+        "uploadDate": "2021-05-27T21:00:10.370-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Sausage Balls",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.6",
+        "ratingCount": "23"
+    },
+    "cookTime": "PT10M",
+    "keywords": "sausage balls, sausage balls recipe",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "3 cups all-purpose baking mix (such as Bisquick)",
+        "1 lb. ground hot pork sausage, uncooked",
+        "1 lb. sharp Cheddar cheese, shredded"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare oven and baking sheets: Preheat the oven to 400°F. Lightly spray two baking sheets with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/TTjX102wi08Ece0wEO9Co2AdHDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sausage_Balls_003-6239acb68e394149a2d6c5cba510edd8.jpg"
+                }
+            ],
+            "text": "Combine ingredients: Combine all ingredients in a large bowl, pressing mixture together with hands."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/ceARcoGExNr4-syI0PnWZg-SjpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sausage_Balls_004-ed02cc9fb79a4605ac9ae7ebd1131ffd.jpg"
+                }
+            ],
+            "text": "Make sausage balls: Shape into 3/4-inch balls, and place on lightly greased baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/ihUhfFlm3-PtTzbMnUZs6r8UGbI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sausage_Balls_005-4e2bb205ca9e4d8397dc308c0bce19d3.jpg"
+                }
+            ],
+            "text": "Bake sausage balls: Bake at 400ºF for 15 to 18 minutes or until lightly browned."
+        }
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/sausage-ball-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/sausage-ball-recipe",
+                        "name": "Sausage Balls"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Why are my sausage balls dry?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Be sure to spoon and level your baking mix to avoid adding more than intended. If your sausage was lean, this may also account for a dry texture. If needed, add a tablespoon of milk at a time until the sausage ball mixture binds together.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do I need to refrigerate sausage balls?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Sausage balls can sit out while serving for up to two hours. Past that point, they should be refrigerated and reheated.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do sausage balls need a dipping sauce?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Sausage balls are delicious all on their own, but you can pair with ranch, honey mustard, or any other dipping sauce you love.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

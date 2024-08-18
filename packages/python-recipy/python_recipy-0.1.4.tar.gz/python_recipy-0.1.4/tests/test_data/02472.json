@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Rhubarb Meringue Pie",
+    "datePublished": "2011-05-06T14:47:57.000-04:00",
+    "dateModified": "2017-06-12T14:00:53.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "If you prefer a less sweet piecrust, make a pate brisee instead of the pate sucree we used.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/JCUyB8TokHkvlD7wQUi6Yr7_NZ4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/LD105025Rhubarb4b_horiz-83a5ce58b0c9492ca198e5d1cfc57489.jpgitok2agybcq_",
+        "height": 421,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Rhubarb Meringue Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "55"
+    },
+    "keywords": "Afternoon tea, Bake, Boil, Broil, Dessert, Dinner, Eggs, Pate sucree, Pies, Rhubarb, Spring, Summer, Whip",
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "1 disk Pate Sucree for Rhubarb Meringue Pie",
+        "All-purpose flour, for surface",
+        "2 pounds rhubarb, trimmed and cut crosswise into 3-inch pieces",
+        "1.75 cups sugar",
+        "0.25 cup cornstarch",
+        "Coarse salt",
+        "3 large egg yolks plus 4 large egg whites",
+        "2 tablespoons unsalted butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees. Roll out pate sucree to 1/8-inch thickness on a lightly floured surface. Fit dough into a 9-inch pie dish; trim to 1 inch, fold under, and crimp edges. Refrigerate for 30 minutes. Prick inside of pie shell all over with a fork; line with parchment. Fill with pie weights or dried beans. Bake until edges are golden and set, 20 to 25 minutes. Remove weights and parchment. Bake until bottom is dry and light gold, 5 to 10 minutes more. Let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Juice rhubarb. (You&#39;ll need 2 1/4 cups juice; add water if needed.) Whisk together 1 cup sugar, the cornstarch, and 1/2 teaspoon salt. Whisk in juice; bring to a boil in a medium saucepan, whisking. Cook for 1 minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place yolks in a bowl; gradually whisk in half of hot juice mixture. Return to pan. Cook over medium heat, whisking, until thick, about 1 minute. Whisk in butter. Strain through a fine sieve into pie shell. Refrigerate until set, at least 4 hours or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat broiler with rack about 8 inches from heat source. Heat whites and remaining 3/4 cup sugar in a double boiler or a heatproof bowl set over a pan of simmering water, whisking, until sugar dissolves and mixture is hot (160 degrees), about 2 minutes. Transfer to the bowl of a mixer. Whisk on high speed until medium peaks form. Dollop meringue onto pie. Broil until browned, 30 to 40 seconds."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT330M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martha Stewart Member"
+            },
+            "reviewBody": "How does one juice rhubarb without juicer?",
+            "datePublished": "2015-03-11T10:02:02.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/349860/rhubarb-meringue-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/349860/rhubarb-meringue-pie",
+                        "name": "Rhubarb Meringue Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

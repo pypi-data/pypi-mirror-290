@@ -1,0 +1,417 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023380-basil-and-tomato-fried-rice#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023380-basil-and-tomato-fried-rice",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/08/01/dining/HM-tomato-and-basil-fried-rice/merlin_210026700_8232a93f-3b37-4eba-b072-7a544beaedfc-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023380-basil-and-tomato-fried-rice",
+    "name": "Basil and Tomato Fried Rice",
+    "description": "Summer’s dynamic duo of tomato and basil make a surprising appearance in this aromatic fried rice. The tomatoes cook down slightly and become sweeter, coating the rice in their vibrant, sun-kissed juices, while basil adds a peppery perfume. This recipe is very adaptable, so make it your own. Use any tomato variety you like. Add more or less basil, or use Thai or holy basil in its place for even bolder flavors. If you want more heat, leave the seeds in the chiles. Finally, for a fresh element, serve with cucumber slices and a lime wedge on the side.",
+    "author": {
+        "@type": "Person",
+        "name": "Hetty Lui McKinnon"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/08/01/dining/HM-tomato-and-basil-fried-rice/HM-tomato-and-basil-fried-rice-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/08/01/dining/HM-tomato-and-basil-fried-rice/merlin_210026700_8232a93f-3b37-4eba-b072-7a544beaedfc-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/08/01/dining/HM-tomato-and-basil-fried-rice/merlin_210026700_8232a93f-3b37-4eba-b072-7a544beaedfc-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/08/01/dining/HM-tomato-and-basil-fried-rice/HM-tomato-and-basil-fried-rice-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "basil, budget, egg, rice, tomato, summer, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1681
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 1029,
+        "unsaturatedFatContent": "95 grams",
+        "carbohydrateContent": "17 grams",
+        "cholesterolContent": null,
+        "fatContent": "105 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "9 grams",
+        "saturatedFatContent": "9 grams",
+        "sodiumContent": "1782 milligrams",
+        "sugarContent": "8 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "4 eggs",
+        "Kosher salt (such as Diamond Crystal) and black pepper",
+        "Neutral oil, such as canola or vegetable oil",
+        "1 yellow onion, peeled and diced into 1/2-inch pieces",
+        "4 garlic cloves, peeled and finely chopped",
+        "1 to 2 bird’s-eye chiles (or other hot chiles), deseeded and finely chopped ",
+        "2 pounds firm, ripe large or cherry tomatoes (see Tip), cut into 3/4-inch wedges if using large tomatoes",
+        "5 to 6 cups cooked leftover rice, preferably jasmine",
+        "2 tablespoons soy sauce",
+        "1 1/2 cups tightly packed basil leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a bowl, whisk the eggs with 1/2 teaspoon salt."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat a large wok or 12-inch well-seasoned cast-iron or nonstick skillet over medium-high. When hot, add 1 tablespoon of oil, then pour in the beaten egg. Cook for 15 to 30 seconds, allowing the bottom to set slightly, before stirring and turning until just set. Break up the egg slightly, then remove from the wok and set aside. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the wok over high. Add 2 tablespoons of oil, along with the onions, and stir-fry for 1 minute, until slightly softened. Add the garlic and bird’s-eye chiles and stir for 15 to 30 seconds, until fragrant. Next, add the tomatoes and 1 teaspoon of salt, and cook for 3 to 4 minutes, tossing every now and then, until the tomatoes are softened. (Reduce heat to medium-high if it starts getting too smoky or the garlic begins to scorch.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the rice, soy sauce and half the basil, and season with 1 to 2 teaspoons of salt, to taste. Reduce heat to medium-high and stir-fry for 5 to 6 minutes, allowing the rice to soak up the tomato juices. As the liquid cooks off, the rice will char (though less so if using a nonstick pan) and develop some smoky flavors."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the egg and remaining basil and toss for 1 minute. Turn off the heat and check seasonings, adding some black pepper and more salt if needed. Serve immediately. "
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "used sp, tofu and farro"
+            },
+            "reviewBody": "Too salty",
+            "datePublished": "2024-05-21T01:15:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A. R. Hamb"
+            },
+            "reviewBody": "Don’t skip the chiles, it is a bit bland without a spice element. Other than that super solid and a great way to do a fried rice.",
+            "datePublished": "2024-04-25T04:27:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Misty"
+            },
+            "reviewBody": "Great \"go to\" fried rice recipe, easy to adapt to what's in the kitchen. Added mushrooms and subbed left-over steamed kale and dried basil and oregano for the fresh basil. Substituted one dried \"fish pepper\" for the fresh hot peppers. It was so satisfying!",
+            "datePublished": "2024-03-22T01:16:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DH"
+            },
+            "reviewBody": "Followed the recipe exactly and it was just a gloppy mess, not stir fry consistency at all.",
+            "datePublished": "2024-03-19T02:03:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AP"
+            },
+            "reviewBody": "I would suggest using either less tomatoes or more rice as it was very soupy and I had to spend a lot of time cooking it down in order for it not to basically be a stew. It ended up being almost like a risotto, which I wasn’t mad about. Just wasn’t what I thought I’d be making.\nAlso I don’t know who is capable of making this in 15 minutes!",
+            "datePublished": "2024-01-11T00:55:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CD"
+            },
+            "reviewBody": "It's more like a Spanish rice, hard to keep the rice so it doesn't become mushy/clumpy.  I wouldn't make it again",
+            "datePublished": "2023-11-09T14:47:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rosemary"
+            },
+            "reviewBody": "Made this to use up the last of the tomato harvest before the freeze sets in. Also used the last of the basil from my garden, though that harvest wasn’t as plentiful, so I added in some baby spinach to make the result a bit more green. Delicious and easy recipe — a nice mashup of Asian and Italian — though mine came out a bit mushy because my rice was mushy.  But tasty nonetheless.",
+            "datePublished": "2023-11-02T00:15:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CAM"
+            },
+            "reviewBody": "This was a great way to use this week’s struggle harvest after a long, extremely hot, dry summer. I used a mixture of cherry and large, cut-up tomatoes, and added a diced Japanese eggplant that would’ve gone to waste as a singleton. I let my frozen leftover rice thaw on the counter and then made the recipe as written. It was delicious!",
+            "datePublished": "2023-10-03T15:43:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacqueline A"
+            },
+            "reviewBody": "You can also use chili flakes in place of birds eye chile as a substitute. Gives the dish a nice bit of heat!",
+            "datePublished": "2023-09-13T15:01:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DJM"
+            },
+            "reviewBody": "A few suggestions: 1) use a much larger cooking vessel. A 12 inch cast iron skillet was far too small. Had to switch to a cast iron Dutch oven after adding the rice. 2) Reduce the amount of basil and be sure you’re pulling sweet leaves. The amount in the recipe calls for a sizable plant. The more mature leaves could be bitter in such a big plant. I had to yank most of mine out after cooking to save the dish. 3) I used normally cooked fresh rice, which was a bad idea. Rice ended up too sticky.",
+            "datePublished": "2023-09-04T22:30:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BB"
+            },
+            "reviewBody": "Just didn’t dig this mix. The tomatoes, basil and rice mixture is a great idea but the soy sauce and egg is an odd addition. I’d probably make it again without either of those items.",
+            "datePublished": "2023-08-26T14:02:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia"
+            },
+            "reviewBody": "Very nice.",
+            "datePublished": "2023-08-25T14:39:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Candice"
+            },
+            "reviewBody": "LOVED THIS. I used about a pound of cherry tomatoes with 4c rice. My basil got too cold in the fridge and had blackened, hence I used cilantro instead, 1/2c. Instead of soy sauce I used Milk Street Thai fried rice sauce: 1T fish sauce, 1t soy sauce, 1t sugar, 1t water. Decades ago I had fried rice with cherry tomatoes from a roadside kitchen in rural Thailand. This dish took me back there. I will make it with basil the next time.",
+            "datePublished": "2023-08-19T03:05:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Paula"
+            },
+            "reviewBody": "Fantastic!  I instituted Meatless Mondays a couple years ago & my carnivorous partner has accepted them, a bit grudgingly.  Last night he told me, “Do not lose that recipe!”  I used red onion, bell pepper, & seasoned with chili powder with some Ancho chili powder.  I won’t lose the recipe.",
+            "datePublished": "2023-08-15T15:31:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Suze"
+            },
+            "reviewBody": "Delicious! Tasted and upped the seasonings",
+            "datePublished": "2023-08-14T17:46:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KDA"
+            },
+            "reviewBody": "This was a great way to use this week’s struggle harvest after a long, extremely hot, dry summer. I used a mixture of cherry and large, cut-up tomatoes, and added a diced Japanese eggplant that would’ve gone to waste as a singleton. I let my frozen leftover rice thaw on the counter and then made the recipe as written. It was delicious!",
+            "datePublished": "2022-08-08T02:24:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "debdog"
+            },
+            "reviewBody": "The seeds of a chile are not the hot part.  It's the pithy veins that have the heat.   They are rather difficult to cut out of a dried chile, but very visible in a green one.  Come on down to Santa Fe NM to experience it.",
+            "datePublished": "2022-08-07T20:35:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Granddaughter of immigrants"
+            },
+            "reviewBody": "Made this with brown basmati rice (all I had). Adaptations: more tomatoes (I was making a single serving; no point saving half a tomato). No Thai bird chiles or onion so I used 4 shishito peppers, dried red pepper, and scallion. Added corn (needed to use it up), I blistered the corn and shishito peppers, added scallion & garlic, then everything else in the order written. Drizzled a little sesame oil (because my Chinese ex & his family always finished that way). Delish!",
+            "datePublished": "2022-08-11T02:49:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "Trickle the egg into the hot mixture towards the end the way you do with Asian stir fry. Easier and yummy. Use dried hot pepper flakes instead of a fresh pepper.I used olive oil as usual. Obviously you can cook up the rice fresh. This is good and VERY filling.",
+            "datePublished": "2022-08-12T20:06:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachel"
+            },
+            "reviewBody": "The newsletter referred to frozen rice. How do you cook with frozen rice? Thaw first? Or?",
+            "datePublished": "2022-08-07T23:41:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tobias"
+            },
+            "reviewBody": "So good! Loved the tomato juice soaked rice. Be warned, though: your wok or skillet might not be big enough to handle all the ingredients. I thought I had a fairly large wok, but I ended up having to stir-fry the rice separately (I put the tomatoes & onions, leaving the tomato juice in the wok, into a separate bowl), then combining everything. This recipe makes quite a lot, arguably more like 6 servings, so halving the recipe might be a good call, especially with a smaller wok.",
+            "datePublished": "2022-08-11T01:59:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen Smith"
+            },
+            "reviewBody": "I also added Japanese eggplant and upped the soy sauce. Delicious! Great use of our garden harvest. Summertime comfort food",
+            "datePublished": "2022-08-09T12:16:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Granddaughter of immigrants"
+            },
+            "reviewBody": "If you have freshly-cooked rice, spread it out on a baking tray or a large plate to let it dry out a bit.",
+            "datePublished": "2022-09-25T01:49:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judy"
+            },
+            "reviewBody": "Thaw the rice for best results.",
+            "datePublished": "2022-08-08T11:53:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "my notes"
+            },
+            "reviewBody": "Came out soggy in non-stick pan.",
+            "datePublished": "2022-08-10T00:58:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "FLS"
+            },
+            "reviewBody": "Made this as written, minus the hot peppers as I didn't have any.  Delicious and a great way to use up all the tomatoes and basil from our garden.",
+            "datePublished": "2022-08-08T15:43:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kristin"
+            },
+            "reviewBody": "I recommend using half the salt listed.  Add more at the end if you prefer.",
+            "datePublished": "2023-07-19T03:03:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Quinn"
+            },
+            "reviewBody": "Long-time cook, first-time poster. This was pretty tasty! But the amount of rice it calls for is deranged to me and my normal-sized wok, lol. I only fit about a cup and a half in there, but I also steamed some broccoli at the start, which took up quite a bit of space (while adding some nice texture). And because I don't live on a basil farm (a CUP AND A HALF fresh leaves?? I can't take out a loan for this recipe, I'm sorry), I substituted with two large tablespoons of dried. Very good overall!",
+            "datePublished": "2023-08-08T14:57:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A"
+            },
+            "reviewBody": "The flavors were good, but quite uniform and unexciting. The texture was boring. Best served as a side dish to something more substantive, definitely not as a main course.",
+            "datePublished": "2022-09-29T01:56:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nice and flexible"
+            },
+            "reviewBody": "Cooked this with what I had as per usual. I used canned diced tomatoes instead of cherry and I cooked the onions and egg together first and then set aside because I misread the instructions. I didn’t have the peppers, but everything turned out pretty good. Easy, cheap, and adaptable meal.",
+            "datePublished": "2023-06-16T22:25:14.000Z"
+        }
+    ]
+}

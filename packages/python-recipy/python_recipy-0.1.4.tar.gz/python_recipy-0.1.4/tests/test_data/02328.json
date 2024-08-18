@@ -1,0 +1,63 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Easy Cake Mix Peanut Butter Cookies",
+    "keywords": "easy cake mix peanut butter cookies",
+    "recipeCategory": "Dessert",
+    "image": "https://mojo.generalmills.com/api/public/content/rPRU_8m5G0-pd0rZD8sjYw_webp_base.webp?v=628e571f&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Make it look easy to make a classic. These deliciously soft and delightfully easy peanut butter cookies are a dream to enjoy, with a moist and chewy texture and just the right amount of peanut butter flavor in every bite. Plus, they’re wonderfully simple to make. Just add peanut butter and brown sugar to a box of classic Betty Crocker™ Super Moist™ Yellow Cake Mix and you’re already halfway there. Mix in the rest of your baking ingredients and your dough will be ready for shaping, no chilling required. This easy peanut butter cookie recipe makes 50 cookies, perfect for sharing with fellow peanut butter-loving friends and family!",
+    "recipeIngredient": [
+        "1  box Betty Crocker™ Super Moist™ Yellow Cake Mix",
+        "1/4  cup packed brown sugar",
+        "2  tablespoons water",
+        "1  cup creamy peanut butter",
+        "1/4  cup shortening",
+        "2  eggs",
+        "1/2  cup granulated sugar"
+    ],
+    "totalTime": "PT1H30M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "50",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "168",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375°F (350°F for dark or nonstick cookie sheets). In large bowl, beat cake mix, brown sugar, water, peanut butter, shortening and eggs with electric mixer on low speed until blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Shape dough into 1 1/4-inch balls. Roll in granulated sugar. Place about 2 inches apart on ungreased cookie sheets. Flatten in crisscross pattern with fork dipped in sugar. Discard any remaining sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 8 to 10 minutes or until edges are set and golden brown. Cool 1 minute; remove from cookie sheet to cooling rack. Cool completely, about 30 minutes. Store covered at room temperature."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "90 ",
+        "carbohydrateContent": "10 g",
+        "cholesterolContent": "5 mg",
+        "fatContent": "1 ",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "servingSize": "1 Cookie",
+        "sodiumContent": "80 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "01/01/2004",
+    "dateModified": "07/26/2023"
+}

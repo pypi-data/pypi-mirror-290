@@ -1,0 +1,135 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Braised Bison",
+    "url": "https://www.foodnetwork.com/recipes/braised-bison-5497021",
+    "headline": "Braised Bison",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/11/8/0/DVSP79_Braised-Bison_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1541700153365.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Shredded Bison and Wild Rice Bowl as Served at Tocabe, An American Indian Eatery in Greenwood Village, Colorado, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/11/8/0/DVSP79_Braised-Bison_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1541700153365.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Shredded Bison and Wild Rice Bowl as Served at Tocabe, An American Indian Eatery in Greenwood Village, Colorado, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/11/8/0/DVSP79_Braised-Bison_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1541700153365.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Shredded Bison and Wild Rice Bowl as Served at Tocabe, An American Indian Eatery in Greenwood Village, Colorado, as seen on DDD Nation, Special."
+        }
+    ],
+    "datePublished": "2018-11-12T11:53:19.886-05:00",
+    "dateModified": "2018-11-12T11:53:19.461-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Main Dish,High Fiber",
+    "cookTime": "P0Y0M0DT1H5M0.000S",
+    "totalTime": "P0Y0M0DT13H25M0.000S",
+    "recipeIngredient": [
+        "6 large dried New Mexican red chiles or 4 tablespoons chili powder",
+        "2 teaspoons toasted cumin seeds ",
+        "4 tablespoons sweet corn powder, optional ",
+        "4 tablespoons rubbed sage ",
+        "1 tablespoon garlic powder ",
+        "2 teaspoons smoked paprika ",
+        "2 tablespoons kosher salt ",
+        "2 teaspoons ground black pepper ",
+        "One 5-pound bison chuck roll or other braising cut",
+        "1/2 cup olive or neutral oil ",
+        "1 quart bison stock, beef stock or water ",
+        "4 to 6 dried New Mexican red chiles",
+        "1 yellow onion, chopped",
+        "3 Roma tomatoes",
+        "2 cloves garlic",
+        "Salt and pepper"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 10 servings",
+        "calories": "848",
+        "fatContent": "23g",
+        "saturatedFatContent": "3g",
+        "carbohydrateContent": "134g",
+        "fiberContent": "9g",
+        "sugarContent": "10g",
+        "proteinContent": "27g",
+        "cholesterolContent": "3mg",
+        "sodiumContent": "1380mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the bison dry rub: Blend the chiles, cumin seeds and corn powder in a spice grinder into a smooth powder and set aside. Transfer to a mixing bowl and add the sage, garlic powder, smoked paprika, salt and pepper. Mix thoroughly and keep in a mason jar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the braised bison: Preheat a grill for cooking over medium-high heat and preheat the oven to 225 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the bison on a cookie sheet and cover it with oil. Cover with about 5 tablespoons dry rub, thoroughly covering the entire cut. Sear the meat all over on the grill, about 5 minutes per side, then transfer to a Dutch oven and add enough stock to cover the meat halfway. Cover with foil, then the lid and bake until tender, about 12 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the meat from the hot stock to a cookie sheet and let rest, at least 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the chile reduction: Deseed chiles and toast them. Char onion and tomatoes. Put chiles, onion, tomatoes and garlic in a blender along with 2 cups bison stock left behind from cooking the bison and blend until smooth. Add salt and pepper to taste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Use tongs to pull the meat apart and use your hands to separate the fat (discard the fat)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut meat into smaller pieces and return to the Dutch oven with the hot stock and 1 cup chile reduction."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "10 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Tocabe is absolutely amazing!"
+        }
+    ],
+    "recipeCategory": []
+}

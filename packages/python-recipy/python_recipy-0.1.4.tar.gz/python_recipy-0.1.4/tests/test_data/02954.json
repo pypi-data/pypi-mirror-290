@@ -1,0 +1,110 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/vegetarian-wrap-four-ways#Recipe",
+    "@type": "Recipe",
+    "description": "Try these flavour-packed veggie wraps filled with pickled onions, roasted veg, coconut tzatziki and spicy green sauce. They will feed four people for under £10 – perfect for a hungry crowd",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flatbreads-83021da.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/vegetarian-wrap-four-ways"
+    },
+    "name": "Vegetarian wraps",
+    "url": "https://www.bbcgoodfood.com/recipes/vegetarian-wrap-four-ways",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Emma Freud",
+            "url": "https://www.bbcgoodfood.com/author/emmafreud"
+        }
+    ],
+    "dateModified": "2022-11-08T13:59:24+00:00",
+    "datePublished": "2018-04-02T08:17:19+01:00",
+    "headline": "Vegetarian wraps",
+    "keywords": "Budget, Easy, Emma Freud, Flatbreads, Picnic, Sandwiches, Vegetarian",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT45M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "732 calories",
+        "fatContent": "20 grams fat",
+        "saturatedFatContent": "11 grams saturated fat",
+        "carbohydrateContent": "103 grams carbohydrates",
+        "sugarContent": "24 grams sugar",
+        "fiberContent": "16 grams fiber",
+        "proteinContent": "27 grams protein",
+        "sodiumContent": "1.4 milligram of sodium"
+    },
+    "prepTime": "PT40M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 red onion",
+        "3 tbsp cider vinegar",
+        "2 courgettes",
+        "1 large red pepper",
+        "½ cauliflower",
+        "400g can chickpeas",
+        "3 tsp coriander seeds",
+        "2 tsp garam masala",
+        "350g self raising flour",
+        "500g natural yogurt",
+        "small bunch coriander",
+        "100g pot coconut chunks",
+        "small bunch mint",
+        "2 limes",
+        "½ cucumber",
+        "2 garlic cloves",
+        "1 shallot",
+        "1 green chilli",
+        "salt, pepper, sugar and olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the sweet pickled onions, slice one red onion into thin half moons. Put 2 tbsp cider vinegar in a small pan with 1 tbsp sugar and 1 tsp salt. Heat until almost boiling, then pour over the onions and leave for 2 hrs, by which time they will be sweet and crunchy."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the roasted veg, heat oven to 180C/160C fan/gas 4. Chop the courgettes, remaining red onion, the red pepper and cauliflower into bite-sized pieces. Tip into a baking tray with the chickpeas, plus 1 tbsp of the starchy water from the can. Pour over a good glug of olive oil, add 2 tsp of the coriander seeds, the garam masala, a sprinkle of salt and pepper, and mix everything together with your hands. Cook in the oven for 45 mins, but give them a good shake after 30."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the flatbreads, mix the flour with 350g of the yogurt, the remaining 1 tsp coriander seeds, and all the coriander stalks, finely chopped. It will come together quickly into a dough. Take a golf ball-sized chunk and roll it out on a floured board until it’s the thickness of a 20p coin, then dry-fry in a hot frying pan for about a minute on each side. When done, brush each flatbread on one side with some olive oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the tzatziki, blitz 1/4 of the pot of coconut chunks in a blender until it resembles breadcrumbs, then set aside. Pour the remaining 150g yogurt into a bowl. Finely chop half the mint leaves and add to the bowl along with the juice of 1 lime. Grate in the cucumber and a garlic clove, then add the coconut. Season and mix."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the spicy green sauce, put the rest of the coconut chunks in a blender with the rest of the coriander and mint leaves, a peeled clove of garlic, the peeled shallot, chilli, the juice of a lime, 1 tbsp cider vinegar, and 1 tsp brown sugar. Blitz until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Take a flatbread, load it with a handful of vegetables, then a big spoonful of tzatziki and spicy green sauce, then a sprinkling of sweet pickled onions. Wrap it up, and tuck in."
+        }
+    ],
+    "recipeYield": 4,
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT1H25M"
+}

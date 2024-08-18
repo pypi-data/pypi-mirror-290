@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cuban Roasted Pork Crostini",
+    "datePublished": "2016-09-15T03:57:28.000-04:00",
+    "dateModified": "2020-06-19T00:18:14.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Dietz & Watson"
+        }
+    ],
+    "description": "Try the Cuban Roasted Pork Crostini for a bite-sized version of the Cuban sandwich. It&#39;s less of a mess but still packs a punch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/E-lTtvGTjwTNy-tLSmR0_w6zJKI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3962389-cb917ba857e64ad08dedc89bcda85de9.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Cuban Roasted Pork Crostini",
+    "cookTime": "PT6M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "268 kcal",
+        "carbohydrateContent": "25 g",
+        "cholesterolContent": "40 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "19 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "668 mg",
+        "sugarContent": "1 g",
+        "fatContent": "7 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT2M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 baguette",
+        "1 serving Olive oil cooking spray",
+        "1 tablespoon Dietz & Watson Stone Ground Mustard",
+        "8 slices Dietz & Watson Cuban Roast Pork",
+        "8 slices Dietz & Watson Swiss Cheese",
+        "8 fresh Dietz & Watson Dill Pickles, quartered or halved",
+        "1 pinch Salt and cracked pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a serrated knife cut baguette into 16 slices. Lightly spray both sides with olive oil cooking spray and place on baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 8 minutes, or until light golden brown. Remove from oven and let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat each crostini with Dietz &amp; Watson Stone Ground Mustard."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 2 strips of roast port and 1 slice of Swiss cheese on top of crostini and top with a few slices of dill pickles. Season with salt and pepper."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT8M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/255450/cuban-roasted-pork-crostini/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/82/trusted-brands-recipes-and-tips/",
+                        "name": "Trusted Brands: Recipes and Tips"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/17352/trusted-brands-recipes-and-tips/dietz-watson/",
+                        "name": "Dietz & Watson"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/255450/cuban-roasted-pork-crostini/",
+                        "name": "Cuban Roasted Pork Crostini"
+                    }
+                }
+            ]
+        }
+    }
+}

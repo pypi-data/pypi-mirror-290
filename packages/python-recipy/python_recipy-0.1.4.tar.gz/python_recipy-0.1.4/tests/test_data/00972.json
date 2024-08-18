@@ -1,0 +1,219 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/deluxe-cheeseburger-salad/",
+    "name": "Cheeseburger Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-06-11",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Deluxe-Cheeseburger-Salad_EXPS_FT24_104297_ST_0522_9.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "No buns? No problem. Make cheeseburger salad when you want a crunchy, fresh twist on the classic burger.",
+    "recipeIngredient": [
+        "1 pound ground beef",
+        "2 teaspoons Montreal steak seasoning",
+        "6 cups torn iceberg lettuce",
+        "2 cups shredded cheddar cheese",
+        "1 cup salad croutons",
+        "1 medium tomato, chopped",
+        "1 small onion, halved and thinly sliced",
+        "1/2 cup dill pickle slices",
+        "Thousand Island salad dressing"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Shape the burgers",
+            "text": "Crumble the ground beef into a large bowl, and add the steak seasoning. Lightly mix the spice into the beef—don't overmix, as this will give the burgers a tougher texture. Shape the beef mixture into 20 miniature patties that are about 2 inches in diameter and 1/2-inch thick.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Cheeseburger-Salad_FT24_104297_ST_0522_2.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Grill the burgers",
+            "text": "Set an outdoor grill to medium heat. You can also use a grill surface on your stove or an indoor grill. Grill the mini burgers, covered, for three to four minutes per side. The internal temperature should read 160°F on a digital thermometer. Let the burgers cool slightly.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Cheeseburger-Salad_FT24_104297_ST_0522_5.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Assemble the salad",
+            "text": "Toss together the torn lettuce, cheddar cheese, croutons, tomato, onion, pickles and burgers in a large bowl. Drizzle Thousand Island dressing over the salad. Serve immediately. Editor's Note: You can also keep the burgers separate from the salad. Portion the salad into individual bowls, then add mini burgers to the tops, followed by a drizzle of dressing.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Cheeseburger-Salad_FT24_104297_ST_0522_6.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 511 calories",
+        "fatContent": "34g fat (17g saturated fat)",
+        "cholesterolContent": "128mg cholesterol",
+        "sodiumContent": "1033mg sodium",
+        "carbohydrateContent": "14g carbohydrate (4g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "36g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.25,
+        "reviewCount": 8,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-04-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Cynthia175"
+            },
+            "reviewBody": "We thought this was very good. Dinner on the table 30 minutes or less. I didn’t make the patty’s. I cooked it crumbled in the skillet and the cheese was co Jack pre shredded. We will have this again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-11-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "annrms"
+            },
+            "reviewBody": "Great taste!  I used romaine lettuce, served the dressing on the side, and skipped the croutons and served it in pita bread.  Will definitely make this again.  Makes a great lunch!  Make ahead keeping the burger separate and microwave it before adding it to the salad.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-08-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "SColson132"
+            },
+            "reviewBody": "Did not form the meat into burgers; just browned the meat and added the onion. I also left out the croutons (which I don't like). Turned out pretty well!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-10-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Cook38"
+            },
+            "reviewBody": "This was a very good salad and my husband liked it as well.  Bonus: I had tossed the entire recipe in the dressing but there was only 2 of us - it makes generous single servings for 4 but we still had quite a bit left.  Not wanting it to go to waste, I fridged it all in a glass container - aside from being a smidge soft and the croutons being soggy of course, it was actually very tasty for a left-over already-dressed salad!!  So don't throw away leftovers!!!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-06-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ConnieK"
+            },
+            "reviewBody": "Very yummy!!! I felt the burgers were a bit too salty so will cut back on the seasoning next time (yes, there will definitely be a next time). I grilled the burgers and melted a little bit of the cheese right on to each of the mini burgers, feel this made a big difference. Also, I cut back the cheese by half, as I felt that was way too much cheese. With my small alterations, I loved it!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-06-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "karen421"
+            },
+            "reviewBody": "Really good! Even the kids liked it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-12-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "michelebuckley"
+            },
+            "reviewBody": "I enjoyed it, but my husband didn't care for it.  But, he isn't that fond of Thousand Island dressing.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-06-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ColleenaG"
+            },
+            "reviewBody": "Very different  spin on a cheeseburger recipe. My family thought it was pretty good.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

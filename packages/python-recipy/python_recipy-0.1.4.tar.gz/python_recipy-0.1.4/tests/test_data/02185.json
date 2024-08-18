@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Homemade Rayu From &#39;Japanese Soul Cooking&#39;",
+    "datePublished": "2013-12-09T09:07:00.000-05:00",
+    "dateModified": "2018-08-30T04:25:35.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kate Williams",
+            "url": "https://www.seriouseats.com/kate-williams-5118791"
+        }
+    ],
+    "description": "Use this Japanese chili oil from Tadashi Ono and Harris Salat&#39;s new cookbook, Japanese Soul Cooking, in a dipping sauce for their classic pork gyoza.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/1iGnMFVbG2k5LRuhOzjv6TxVEqY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__12__20131209-276188-cook-the-book-japanese-soul-cooking-cover-4cc7ed8cf13e4c56a96a0d8c18b4675e.jpg",
+        "height": 450,
+        "width": 372
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Homemade Rayu From &#39;Japanese Soul Cooking&#39;",
+    "keywords": "Asian, Cook the Book, gyoza, japanese soul cooking, pork",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "130 kcal",
+        "carbohydrateContent": "2 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "1 mg",
+        "sugarContent": "0 g",
+        "fatContent": "14 g",
+        "servingSize": "Makes about 1/2 cup",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Japanese"
+    ],
+    "recipeIngredient": [
+        "1 tablespoon finely chopped ginger",
+        "1 tablespoon finely chopped garlic",
+        "1 tablespoon finely chopped scallion, white parts only",
+        "1/2 cup toasted sesame oil",
+        "1 tablespoon ichimi togarashi or ground ground Chinese red pepper",
+        "1 tablespoon coarse Chinese red pepper flakes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add the ginger, garlic, scallion, and 1/4 cup of the sesame oil to a small saucepan. Place the saucepan over low heat and bring to a boil. Gently simmer for about 3 minutes over low heat, or until the ingredients turn golden. Gently swirl the pot while cooking to prevent the ingredients from burning. Pour the oil into a mixing bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the ichimi togarashi and coarse red pepper flakes, and mix to combine. Allow the oil to come to room temperature, and then add the remaining 1/4 cup toasted sesame oil. Transfer the rayu to a glass jar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To use, spoon the red rayu oil from the surface (so the chopped ingredients remain resting on the bottom). You can also strain the rayu through a fine sieve to remove the chopped ingredients from the oil, before pouring it into a storage jar."
+        }
+    ],
+    "recipeYield": [
+        "8",
+        "1/2 cup"
+    ],
+    "totalTime": "PT20M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "C Shannon"
+            },
+            "reviewBody": "I just came across this after trying to buy the Ra-Yu Kyoto furikake in the US to no avail yet. But one big thing is the Ra-Yu furikake that I have has both black and white sesame seeds in it also and this recipe does not show that. Might be a good starting point anyway. I’d still like to be able to buy it in the US though."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/homemade-rayu-from-japanese-soul-cooking-cookbook",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/condiment-sauce-recipes-5117888",
+                        "name": "Condiments & Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dipping-sauce-recipes-5117885",
+                        "name": "Dipping Sauce"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/homemade-rayu-from-japanese-soul-cooking-cookbook",
+                        "name": "Homemade Rayu From &#39;Japanese Soul Cooking&#39;"
+                    }
+                }
+            ]
+        }
+    }
+}

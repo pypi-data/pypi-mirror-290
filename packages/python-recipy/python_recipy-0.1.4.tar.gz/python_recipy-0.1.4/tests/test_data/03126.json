@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Masa Cornbread Recipe",
+    "keywords": [
+        "bread",
+        "cornmeal",
+        "masa",
+        "buttermilk",
+        "fall",
+        "easy",
+        "side",
+        "nut-free",
+        "vegetarian",
+        "baking",
+        "breakfast",
+        "lunch",
+        "dinner",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Rochelle Palermo",
+            "sameAs": "https://www.bonappetit.com/contributor/rochelle-palermo"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 2.8,
+        "ratingCount": 12
+    },
+    "description": "Masa Cornbread Recipe",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Masa Cornbread",
+    "name": "Masa Cornbread",
+    "recipeIngredient": [
+        "1 cup masa (corn tortilla mix)",
+        "2 teaspoons plus 1/2 cup vegetable oil",
+        "1 2/3 cups buttermilk",
+        "2 large eggs",
+        "1 1/3 cups yellow cornmeal",
+        "1/3 cup unbleached all purpose flour",
+        "1/3 cup sugar",
+        "4 teaspoons baking powder",
+        "1 1/4 teaspoons salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Position rack in center of oven; preheat to 400°F. Spread masa on large rimmed baking sheet. Bake until golden, stirring frequently, about 8 minutes. Transfer masa to medium bowl and cool. Maintain oven temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat 13x9x2-inch metal pan with 2 teaspoons oil. Whisk 1/2 cup oil, buttermilk, and eggs in medium bowl. Whisk cooled masa, cornmeal, and next 4 ingredients in large bowl. Stir buttermilk mixture into cornmeal mixture. Transfer batter to pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake cornbread until edges are lightly browned and tester inserted into center comes out clean, about 15 minutes. Cool in pan 10 minutes. Turn out onto rack; cool completely. DO AHEAD If using bread in stuffing, wrap in foil and store at room temperature at least 1 day and up to 2 days."
+        }
+    ],
+    "prepTime": "30 minutes",
+    "totalTime": "1 minutes",
+    "recipeYield": "12  Servings",
+    "url": "https://www.bonappetit.com/recipe/masa-cornbread",
+    "dateModified": "2010-10-13T20:00:00.000-04:00",
+    "datePublished": "2010-10-13T20:00:00.000-04:00",
+    "recipeCategory": []
+}

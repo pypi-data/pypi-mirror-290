@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Apple, Pork &amp; Wild Rice Salad",
+    "datePublished": "2019-05-20T14:59:20.000-04:00",
+    "dateModified": "2023-09-19T15:38:26.387-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "This easy apple and pork salad uses up the leftovers from two separate recipes--Maple-Mustard Pork and Wild Rice Pilaf--for a fast and easy lunch or dinner. Since it&#39;s served cold, it&#39;s especially good for packing up for work lunches. The simple cider vinegar and honey dressing would be nice on any grain salad.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Apple, Pork &amp; Wild Rice Salad",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "431 kcal",
+        "carbohydrateContent": "43 g",
+        "cholesterolContent": "57 mg",
+        "fiberContent": "7 g",
+        "proteinContent": "24 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "480 mg",
+        "sugarContent": "19 g",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "1 cup chopped apple",
+        "1 cooked pork chop, chopped (from Maple-Mustard Pork; see Associated Recipes)",
+        "0.66666668653488 cup shredded red cabbage",
+        "1/3 cup leftover Wild Rice Pilaf (see Associated Recipes)",
+        "1 tablespoon cider vinegar",
+        "2 teaspoons olive oil",
+        "0.5 teaspoon honey",
+        "0.125 teaspoon salt",
+        "1 tablespoon slivered almonds, toasted",
+        "1 tablespoon thinly sliced scallion"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine apple, pork, cabbage and pilaf in a medium bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk vinegar, oil, honey and salt in a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle the dressing over the salad; toss to coat. Top with almonds and scallion."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/273721/apple-pork-wild-rice-salad/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19956/health-condition/diabetic/dinner/meats/",
+                        "name": "Diabetic Meats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/23000/health-condition/diabetic/dinner/meats/pork/",
+                        "name": "Diabetic Pork Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/273721/apple-pork-wild-rice-salad/",
+                        "name": "Apple, Pork &amp; Wild Rice Salad"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T15:38:26.387-04:00"
+    },
+    "recipeCategory": []
+}

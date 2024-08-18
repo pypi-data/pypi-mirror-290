@@ -1,0 +1,55 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Beefy Vegetable Soup",
+    "keywords": "beefy vegetable soup",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/oYmmY8rYQ06ANd8dPITosw_webp_base.webp?v=83e2f322&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Beef and veggies come together in this one-pot soup – perfect for a hearty dinner.\r\n",
+    "recipeIngredient": [
+        "1  lb ground beef sirloin",
+        "1  cup chopped green bell pepper",
+        "2  cans (14.5 oz each) Mexican-style stewed tomatoes with jalapeño peppers, garlic and onion, undrained, chopped",
+        "1  can (8 oz) no-salt-added tomato sauce",
+        "3/4  cup fat-free beef broth",
+        "1  bag (16 oz) frozen stew vegetables",
+        "1/8  teaspoon salt"
+    ],
+    "totalTime": "PT0H45M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 4-quart Dutch oven, cook beef and bell pepper over medium-high heat 5 to 7 minutes, stirring occasionally, until beef is thoroughly cooked; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add tomatoes, tomato sauce and broth; heat to boiling. Stir in vegetables and salt. Reduce heat. Cover; simmer 30 minutes or until vegetables are tender."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "190 ",
+        "carbohydrateContent": "21 g",
+        "fiberContent": "5 g",
+        "proteinContent": "17 g",
+        "saturatedFatContent": "1 1/2 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "650 mg"
+    },
+    "dateCreated": "02/22/2013",
+    "dateModified": "04/22/2013"
+}

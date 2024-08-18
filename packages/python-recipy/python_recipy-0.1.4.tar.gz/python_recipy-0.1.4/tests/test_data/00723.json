@@ -1,0 +1,261 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/12354-pear-and-arugula-smoothie-with-ginger-and-walnuts#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/12354-pear-and-arugula-smoothie-with-ginger-and-walnuts",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2012/02/28/science/28recipehealth/28recipehealth-articleLarge-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/12354-pear-and-arugula-smoothie-with-ginger-and-walnuts",
+    "name": "Pear and Arugula Smoothie With Ginger and Walnuts",
+    "description": "Arugula may seem like a strange ingredient for a smoothie, but this combination is a real winner, a great lunchtime smoothie.",
+    "author": {
+        "@type": "Person",
+        "name": "Martha Rose Shulman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2012/02/28/science/28recipehealth/28recipehealth-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/02/28/science/28recipehealth/28recipehealth-superJumbo.jpg",
+            "height": 1333,
+            "width": 2000,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/02/28/science/28recipehealth/28recipehealth-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/02/28/science/28recipehealth/28recipehealth-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "recipeYield": "1 generous serving",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "arugula, orange, pear, gluten-free, healthy, low cholesterol, low-sodium, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 200
+    },
+    "recipeIngredient": [
+        "1/2 cup freshly squeezed orange juice",
+        "1 cup arugula, tightly packed (about 30 grams)",
+        "1 tablespoon walnuts (7 grams)",
+        "1/2 ripe pear, cored and peeled (100 grams)",
+        "1 quarter-size piece of fresh ginger, peeled",
+        "2 to 4 tablespoons plain low-fat yogurt (to taste)",
+        "3 ice cubes"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place all of the ingredients in a blender and blend for 1 full minute."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ash"
+            },
+            "reviewBody": "This is delicious, I will definitely make again.",
+            "datePublished": "2023-12-06T19:09:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jessica"
+            },
+            "reviewBody": "I made this as written (other than just throwing in a whole orange vs the OJ because I only had one orange) and it was great!!  Not to be one of those people who is like “you could swap out every ingredient in this recipe” but I tend to make smoothies with leftovers of what I have around.  Seems the arugula, yogurt, and ginger are the non-negotiable ingredients here—you could probably sub an apple for the pear, and water or other juice for the OJ, and any nut or flax for the walnut.",
+            "datePublished": "2022-03-17T18:40:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ADV"
+            },
+            "reviewBody": "I absolutely love this smoothie. I make substitutions when I don’t have the exact ingredients and it works every time. Always use cashew yogurt because that’s what I buy. Have used spinach, pecans, green apple. But I love the arugula taste. Just delicious.",
+            "datePublished": "2020-12-29T20:22:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jean"
+            },
+            "reviewBody": "Eager to make this, I added an unripe pear to the mix. I missed the sweetness of the fruit, so next time, I’ll wait. Still drinkable though. Perhaps a dash of honey would compensate for the decreased sugar in an unripe pear. Better yet, wait.",
+            "datePublished": "2020-08-11T04:17:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Terri"
+            },
+            "reviewBody": "For this batch used 5oz arugula, 2 green apples, 1/2C walnut pieces, an inch of ginger, 5 mandarins.  Nice alternative to our usual simple arugula/pear/flax smoothie. I used what was on hand. Added extra walnuts for creaminess because i just don’t like this particular green with yogurt, but prefer thicker smoothies at lunchtime. Tasted fine next day too",
+            "datePublished": "2019-12-29T20:14:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "neel"
+            },
+            "reviewBody": "Very nice and fresh. Didn’t have pear at disposal, so added red apple and a couple of dates instead. I went a little bit heavy on the ginger as I like the taste coming through the arugula. Finished with a bit of orange zest and coconut water.",
+            "datePublished": "2019-12-24T01:24:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "HK"
+            },
+            "reviewBody": "I love each ingredient separately. Unfortunately, this was less than the sum of its parts. I'm sorry to say, me and the mister, we just didn't like it.",
+            "datePublished": "2019-06-20T17:52:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Courtney"
+            },
+            "reviewBody": "This is my favorite smoothie ever. I have it almost every day. Some changes: I add fresh turmeric and about a half inch of fresh ginger, all unpeeled. I also add some unflavored protein powder and Greek yogurt. Delicious!",
+            "datePublished": "2019-05-23T18:00:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacqueline"
+            },
+            "reviewBody": "Excellent! I just made exactly per the recipe for the first time (yes, using a scale, which I like to do first time around anytime I try a new recipe), except no ice cubes. For oranges that was 2 and a half for me, and most of one pear which had seen better days:) The arugula taste comes though but muted, which I like because I am not a huge fan of arugula (using Trader Joe's baby arugula, more mature may be more pronounced), and it does not taste overly sweet, just fresh and virtuous:)",
+            "datePublished": "2019-05-23T20:08:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Natalia"
+            },
+            "reviewBody": "Used 2 TBSP roasted hazelnuts, 6 pieces ginger, some fresh turmeric, 1/2 cup yogurt, added 1-2 tsp honey (my preference). Enjoyed it!",
+            "datePublished": "2018-10-29T18:47:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "blisssu"
+            },
+            "reviewBody": "I was eager to use my supply of beautiful arugula from the farmers market, but I had no oranges or pears. Instead, I substituted diluted o.j. concentrate and pineapple I had in the freezer for the fresh juice and pear the recipe calls for. Since I've never had all the suggested ingredients for this recipe at the same time, I still can't judge the intended outcome, but this variation was quite good, with a strong flavor of arugula and plenty of sweetness from the other ingredients.",
+            "datePublished": "2017-10-01T16:53:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane El"
+            },
+            "reviewBody": "LOVE this recipe. I substituted mango juice just because it was on hand.",
+            "datePublished": "2017-10-24T15:01:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "blisssu"
+            },
+            "reviewBody": "I free-lanced this one, due to available ingredients & forgetfulness:<br/>1/2 cup just-squeezed orange and tangerine juices<br/>remaining pulp from orange and tangerine<br/>small piece of orange peel, sliced thin<br/>30 grams mix of arugula and kale<br/>oops, forgot the walnuts!<br/>half a medium banana<br/>1 whole pear, peeled, cored and bad spots removed<br/>chunk of ginger, about 1/2 inch thick, peeled and sliced<br/>1/4 cup soy milk<br/>1 tablespoon apple cider vinegar<br/><br/>It was good!",
+            "datePublished": "2017-10-24T18:25:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelarity"
+            },
+            "reviewBody": "Great combination of flavours. We were out of walnuts so used pistachios instead.",
+            "datePublished": "2017-10-24T17:49:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "May Lynn"
+            },
+            "reviewBody": "I really like this - it has a nice tart/sweet flavor. If I use an organic pear I do not bother peeling and sometimes I use an apple instead if that is what I have. Do not skip the ginger. I keep some peeled and sliced in the freezer so it is easy to throw in. I have also been known to use half and half if I don't have yogurt, but it is not as tart when I do this.",
+            "datePublished": "2017-10-30T14:41:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "May Lynn"
+            },
+            "reviewBody": "I really like this - it has a nice tart/sweet flavor. If I use an organic pear I do not bother peeling and sometimes I use an apple instead if that is what I have. Do not skip the ginger. I keep some peeled and sliced in the freezer so it is easy to throw in. I have also been known to use half and half if I don't have yogurt, but it is not as tart when I do this.",
+            "datePublished": "2017-10-30T14:41:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacqueline"
+            },
+            "reviewBody": "Excellent! I just made exactly per the recipe for the first time (yes, using a scale, which I like to do first time around anytime I try a new recipe), except no ice cubes. For oranges that was 2 and a half for me, and most of one pear which had seen better days:) The arugula taste comes though but muted, which I like because I am not a huge fan of arugula (using Trader Joe's baby arugula, more mature may be more pronounced), and it does not taste overly sweet, just fresh and virtuous:)",
+            "datePublished": "2019-05-23T20:08:08.000Z"
+        }
+    ]
+}

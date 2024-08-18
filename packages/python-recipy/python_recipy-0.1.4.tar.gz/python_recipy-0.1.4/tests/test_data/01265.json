@@ -1,0 +1,104 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Roasted Veggie Pitas with Avocado Dip",
+    "description": "Roasted Veggie Pitas with Avocado Dip - super adaptable to any veggies you have on hand - loaded with flavor, and ready in 30 minutes!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "roasted veggie pitas, avocado dip, veggie pitas",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/roasted-veggie-pita-with-avocado-dip-recipe-1-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/roasted-veggie-pita-with-avocado-dip-recipe-1-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/roasted-veggie-pita-with-avocado-dip-recipe-1-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/roasted-veggie-pita-with-avocado-dip-recipe-1.jpg"
+    ],
+    "url": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip",
+    "recipeIngredient": [
+        "2 ripe avocados",
+        "1-2 cloves garlic (go for one clove or less if you&#8217;re sensitive to strong garlic tastes)",
+        "2 tablespoons olive oil",
+        "2 tablespoons water (more as needed)",
+        "a handful of cilantro (about 1 cup)",
+        "1/2 teaspoon salt",
+        "1 teaspoon cumin",
+        "half of a Serrano pepper (more or less depending on how much heat you want)",
+        "juice of one lime",
+        "2 heads cauliflower, cut into small florets",
+        "two 14-ounce cans chickpeas, rinsed and drained",
+        "1-2 teaspoons chili powder",
+        "1-2 teaspoons garam masala",
+        "cayenne pepper (optional &#8211; if you want spicy)",
+        "oil for drizzling",
+        "salt and pepper to taste",
+        "8 small whole wheat pitas",
+        "Greek yogurt for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 425 degrees. Pat the cauliflower and chickpeas dry with paper towels. Arrange in a single layer on one large baking sheet or two baking sheets. Drizzle with olive oil and sprinkle with spices. Give the pan a gentle shake to sort of mix things around. Roast for 15-20 minutes, stir, and roast for an additional 15-20 minutes. The cauliflower and chickpeas should be golden brown and the chickpeas will be semi-crunchy.",
+            "name": "Veggies",
+            "url": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the veggies are roasting, puree the avocado dip ingredients in a food processor. Set aside.",
+            "name": "Avocado Dip",
+            "url": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread each pita with a spoonful of avocado dip and top with roasted veggies. Sprinkle with extra salt, pepper, cilantro, and a dollop of Greek yogurt.",
+            "name": "Assembly",
+            "url": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeYield": [
+        "8",
+        "8 small pitas"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "Mediterranean",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "48",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "276 calories",
+        "sugarContent": "5.1 g",
+        "sodiumContent": "468 mg",
+        "fatContent": "11.2 g",
+        "saturatedFatContent": "1.5 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "38.5 g",
+        "fiberContent": "10 g",
+        "proteinContent": "9.6 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Roasted Veggie Pitas with Avocado Dip",
+        "description": "Roasted Veggie Pitas with Avocado Dip – super adaptable to any veggies you have on hand – loaded with flavor, and ready in 30 minutes!",
+        "contentUrl": "https://content.jwplatform.com/videos/PkIKejPC.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/PkIKejPC-720.jpg"
+        ],
+        "uploadDate": "2023-02-08T03:07:10+00:00"
+    },
+    "datePublished": "2015-02-23",
+    "@id": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/roasted-veggie-pitas-with-avocado-dip"
+}

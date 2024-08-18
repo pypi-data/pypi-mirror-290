@@ -1,0 +1,325 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "New England Clam Chowder",
+    "datePublished": "1999-02-10T21:31:04.000-05:00",
+    "dateModified": "2024-03-15T14:14:20.633-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Debbie2"
+        }
+    ],
+    "description": "This New England clam chowder with onions, potatoes, clams, and bacon in a rich and creamy broth is easy to prep for a deliciously comforting soup.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/ElqwjwX_F7u9wPDB6dfHYxYmVCY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-3X4-0560-e9b8d6db885546538990735f2d4d2199.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/I1mTGKho-ma1DlVvV.mp4",
+        "description": "AR0339",
+        "duration": "PT2M38S",
+        "name": "New England Clam Chowder I",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/I1mTGKho/poster.jpg?width=720",
+        "uploadDate": "2021-07-04T19:49:26.274-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "New England Clam Chowder",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "733"
+    },
+    "cookTime": "PT35M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "396 kcal",
+        "carbohydrateContent": "24 g",
+        "cholesterolContent": "101 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "24 g",
+        "saturatedFatContent": "12 g",
+        "sodiumContent": "706 mg",
+        "sugarContent": "2 g",
+        "fatContent": "23 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "New England",
+        "American"
+    ],
+    "recipeIngredient": [
+        "4 slices bacon, diced",
+        "1.5 cups chopped onion",
+        "4 cups peeled and cubed potatoes",
+        "1.5 cups water",
+        "1.5 teaspoons salt",
+        "0.5 teaspoon ground black pepper to taste",
+        "3 cups half-and-half",
+        "3 tablespoons butter",
+        "2 (10 ounce) cans minced clams"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/0zoySYpuepuElnWXXI15H18-L-E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-Step-1-0528-6dee427180f9494d9bdb6e9c0c16fb0e.jpg"
+                }
+            ],
+            "text": "Gather all ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/hfxaS2OHIbb4oCh_OVhCBmOmuic=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-Step-3-0531-b91c916505a54121803a04ad3ccffed6.jpg"
+                }
+            ],
+            "text": "Place diced bacon in a large stockpot over medium-high heat; cook and stir until almost crisp. Add onion; cook and stir until tender, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/Nr7wIOWhWYXwGqIp7go67XzxOo0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-Step-5-0542-b1c9dc3123ad48d196ba5ff9761f5457.jpg"
+                }
+            ],
+            "text": "Stir in potatoes and add water; season with salt and pepper and bring to a boil. Reduce heat to low and simmer, uncovered, until potatoes are tender, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/KgOGZ_lC1Kc3vPcxmEANJAIfyUk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-Step-6-0543-c8880395c16d4269975a39ce609d7019.jpg"
+                }
+            ],
+            "text": "Pour in half-and-half and add butter."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/OTXOopMVm_9Zlg56uSeA1au6ihE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-Step-7-0545-acbbc08d93314e6982273485ed294892.jpg"
+                }
+            ],
+            "text": "Drain clams, reserving clam liquid; stir clams and 1/2 of the clam liquid into the soup. Cook until heated through, without boiling, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/ElqwjwX_F7u9wPDB6dfHYxYmVCY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13078-New-England-Clam-Chowder-DDMFS-3X4-0560-e9b8d6db885546538990735f2d4d2199.jpg"
+                }
+            ],
+            "text": "Serve and enjoy!"
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT50M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Joel Manthei"
+            },
+            "reviewBody": "Reading the reviews before making this recipe I made the following changes: I used bottled clam juice instead of the water (1 ½ cups); 2 cups half-and-half and one-cup heavy cream instead of 3 cups half-and-half, and 3 - 10oz. cans of clams. The other adjustment I made was to use 1-cup ham instead of bacon as I find that bacon gets to soggy in soups, the ham is a perfect substitute and give the soup a bit more bite."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Perfect. no flour or cornstarch and potatoes are cooked in broth. The real thing.",
+            "datePublished": "2024-05-26T00:47:29.020Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "onlijoni"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-04-13T16:52:55.330Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "I have made this over and over and it is delicious! I use the clam juice from the clams and extra in in lieu of water. I always add more clams and have even included some shrimp at the end. My guests always rave about it. Very easy to make as well.",
+            "datePublished": "2024-03-24T20:22:19.106Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Probably the best i have ever had. I used real bacon pieces in the bag to save time.",
+            "datePublished": "2024-03-18T11:18:12.672Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Yulia Potekhina"
+            },
+            "reviewBody": "Quick, easy, delicious. Even better if you add a teaspoon of Old Bay seasoning.",
+            "datePublished": "2024-02-22T04:00:18.076Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "mom2twins"
+            },
+            "reviewBody": "This was delicious and easy to make. I did use vegetable stock instead of water and added a 1/4 tsp of thyme.",
+            "datePublished": "2024-02-05T22:50:43.086Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sue"
+            },
+            "reviewBody": "I pretty much did the same as another reviewer, Joel Manthei, only I used only two cups of half and half and no cream for less liquid. I also added 1/2 teaspoon of dried thyme leaves and a tablespoon of fresh lemon juice. Was yumilicious! Even my picky husband asked for seconds.",
+            "datePublished": "2024-01-19T00:10:53.923Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dan Campbell"
+            },
+            "reviewBody": "Great base recipe. But! I'm looking for more Clams and not Bacon. the taste was good but little on clams. We can do better.",
+            "datePublished": "2024-01-13T21:47:02.389Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "steve3219"
+            },
+            "reviewBody": "Very easy, but much too thin and kind of bland, not much flavor. It should be much thicker. If we try again, we'll add something to thicken it.",
+            "datePublished": "2024-01-03T14:34:13.933Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/13078/new-england-clam-chowder-i/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/174/soups-stews-and-chili/chowders/",
+                        "name": "Chowders"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/14771/soups-stews-and-chili/chowders/clam-chowder/",
+                        "name": "Clam Chowder Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/13078/new-england-clam-chowder-i/",
+                        "name": "New England Clam Chowder"
+                    }
+                }
+            ]
+        }
+    }
+}

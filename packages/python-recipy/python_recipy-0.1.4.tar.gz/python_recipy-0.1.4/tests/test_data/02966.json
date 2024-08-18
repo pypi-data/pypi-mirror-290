@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/cabbage-rolls#Recipe",
+    "@type": "Recipe",
+    "description": "Wrap minced beef or pork in cabbage leaves to make this classic Polish dish, Gołąbki, which is often served around Christmas and other festive occasions",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/09/StockFood11992055HiResPolishGolabkicabbagewrappedaroundamincedmeatandricefilling-5c49bad.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/cabbage-rolls"
+    },
+    "name": "Cabbage rolls",
+    "url": "https://www.bbcgoodfood.com/recipes/cabbage-rolls",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Moje Gotowanie team",
+            "url": "https://www.bbcgoodfood.com/author/mojegotowanieteam"
+        }
+    ],
+    "dateModified": "2024-01-19T12:34:56+00:00",
+    "datePublished": "2022-09-16T14:35:44+01:00",
+    "headline": "Cabbage rolls",
+    "keywords": "cabbage rolls, content exchange, Sharing food",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT2H",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "274 calories",
+        "fatContent": "10 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "27 grams carbohydrates",
+        "sugarContent": "4 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "17 grams protein",
+        "sodiumContent": "0.32 milligram of sodium"
+    },
+    "prepTime": "PT25M",
+    "recipeCategory": [],
+    "recipeCuisine": "Polish",
+    "recipeIngredient": [
+        "1 white cabbage",
+        "300g rice",
+        "1 large onion, finely chopped",
+        "2 tbsp olive oil",
+        "750g pork mince",
+        "1 egg",
+        "pinch of dried marjoram",
+        "200g tomato purée"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a pan of salted water to the boil. Cut the base off the cabbage and cook it whole in the boiling water for about 4 mins. Remove the outer leaves, then keep peeling away more and set them aside. You may need to cook the heart of the cabbage a little longer to un-peel the innermost leaves. Or if you prefer, cut the leaves off the raw cabbage and cook them loose for 1-2 mins. Reserve the cooking water."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook the rice according to pack instruction and drain it well – it needs to be very dry. Fry the onion in the oil for 8 -10 mins or until soft and cooked through. Put the pork, rice, onions egg and marjoram in a bowl, season well and mix thoroughly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lay out each cabbage leaf and put 2 heaped tbsp of stuffing in the centre towards the stalk end. Fold in the sides, then roll up tightly. Repeat with the remaining mixture and leaves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover the base of a deep, wide pan with the smaller cabbage leaves. Pack the cabbage rolls on top of the leaves, tightly together. Then, make a tomato sauce by mixing the tomato purée with some salt and pepper and some of the reserved cabbage water. You need enough to submerge the cabbage rolls by a couple of centimetres. Simmer, covered, for 2 hrs. Serve the cabbage rolls with the tomato sauce."
+        }
+    ],
+    "recipeYield": "makes 11 rolls",
+    "totalTime": "PT2H25M"
+}

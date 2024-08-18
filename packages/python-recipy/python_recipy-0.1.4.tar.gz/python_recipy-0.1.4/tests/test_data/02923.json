@@ -1,0 +1,75 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/acai-bowl#Recipe",
+    "@type": "Recipe",
+    "description": "Try this fruity breakfast smoothie bowl for a quick, easy start to your day. Vary toppings according to the season – fresh berries or peaches work well in summer",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/acai-bowl-e1d7cbc.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/acai-bowl"
+    },
+    "name": "Acai bowl",
+    "url": "https://www.bbcgoodfood.com/recipes/acai-bowl",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2023-06-09T12:09:57+01:00",
+    "datePublished": "2018-09-26T11:29:58+01:00",
+    "headline": "Acai bowl",
+    "keywords": "Açaí bowl, BBC Good Food team, Breakfast, fire, Fruit, Gluten free, Vegan, Vegetarian, Vitamin c",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "180 calories",
+        "fatContent": "8 grams fat",
+        "saturatedFatContent": "5 grams saturated fat",
+        "carbohydrateContent": "19 grams carbohydrates",
+        "sugarContent": "13 grams sugar",
+        "fiberContent": "7 grams fiber",
+        "proteinContent": "3 grams protein",
+        "sodiumContent": "0.1 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 tsp açaí powder",
+        "handful frozen berries",
+        "½ a very ripe banana , chopped",
+        "handful ice cubes",
+        "1 tsp coconut flakes , 5 pineapple chunks, ½ passionfruit, 1 tbsp toasted oats, to top (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put the açaí powder, frozen berries, banana and ice cubes into a powerful blender with 100ml water. Blitz until smooth, then pour into a bowl and add your choice of toppings."
+        }
+    ],
+    "recipeYield": 1,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet, https://schema.org/VeganDiet, https://schema.org/VegetarianDiet",
+    "totalTime": "PT5M"
+}

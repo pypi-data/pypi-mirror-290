@@ -1,0 +1,144 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sweet Potato Doughnuts",
+    "description": "These sweet potato doughnuts are made completely from scratch - it's the perfect way to sneak some sweet potatoes into your favorite sweet breakfast!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "sweet potato doughnuts, homemade doughnuts, sweet potato puree doughnuts",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2011/04/Sweet-Potato-Doughnuts-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/04/Sweet-Potato-Doughnuts-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/04/Sweet-Potato-Doughnuts-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/04/Sweet-Potato-Doughnuts.jpeg"
+    ],
+    "url": "https://pinchofyum.com/sweet-potato-doughnuts",
+    "recipeIngredient": [
+        "1 Tbsp instant yeast",
+        "1 egg + 1 yolk",
+        "1/3 cup brown sugar",
+        "2 ¼ tsp baking powder",
+        "1 ½ tsp salt",
+        "¾ tsp ground nutmeg",
+        "1 cup milk, lukewarm",
+        "sweet potato puree (from about one medium sweet potato)",
+        "6 tbs. butter, melted",
+        "1 tsp. vanilla",
+        "5 1/2 cups flour"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients except flour. Whisk until smooth.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour and knead for 10 minutes.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place in a greased, covered bowl and allow to rise for about an hour.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll out dough to 1/2 inch thick and cut out doughnuts.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place cut doughnuts and doughnut holes on a greased plate. Cover and allow to rise in a semi-warm place until doubled in size (about 30 minutes).",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-5"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil to medium heat (about 350 degrees). Fry each doughnut a minute or two on each side until cooked. Place on a plate with paper towels to drain.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-6"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dip in glaze and allow to cool on a cooling rack.",
+            "url": "https://pinchofyum.com/sweet-potato-doughnuts#instruction-step-7"
+        }
+    ],
+    "prepTime": "PT2H",
+    "cookTime": "PT20M",
+    "totalTime": "PT2H20M",
+    "recipeYield": [
+        "12",
+        "12 servings"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "3",
+        "ratingValue": "4.3"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "443 calories",
+        "sugarContent": "31.5 g",
+        "sodiumContent": "324.7 mg",
+        "fatContent": "10.9 g",
+        "saturatedFatContent": "6.4 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "78.1 g",
+        "fiberContent": "2.2 g",
+        "proteinContent": "8.5 g",
+        "cholesterolContent": "57.5 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Alice"
+            },
+            "datePublished": "2014-03-19",
+            "reviewBody": "I just finished making these and they turned out amazing. I added cinnamon because I didn't have nutmeg and they had a lovely flavor. I would have never thought to use sweet potatoes in doughnuts. They were fluffy and melted in my mouth. It makes a nice yeast dough which I used half of for doughnuts and half of to make dinner rolls. I rolled the dough into balls and baked them in the oven at 375. They reminded me of getting rolls at places like Texas Road House or Lonestar with the honey cinnamon butter except the cinnamon is baked inside the bread. Great recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carmen"
+            },
+            "datePublished": "2021-11-23",
+            "reviewBody": "Did you ever get an answer on this?  Because if its 78g/12 doughnuts, so 6.5g per doughnut?  Google estimates a regular doughnut is 23g of carbs.\r\nThe reason I'm stuck on carbs is because I made these and now I'm curious how this would affect people with variable blood sugar.  Great recipe!  I tried them fried, baked, and air fried!  the dough worked pretty well in all cooking formats!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "MaryAnn Coy"
+            },
+            "datePublished": "2019-01-06",
+            "reviewBody": "Would love donut recipes that have alternative baked directions. I'm on\r\na low fat diet medically. Fried anything\r\nmakes me horridly ill. There are many \r\nof us, plus those with lipid, triglycerides  &amp;\r\ncholesterol, abnormalities, on cardiac &amp; diabetic diets, &amp; those who have had bariatric or intestinal surgery. Not saying that making normal goodies is wrong, just that there is a market audience requiring healthier options &amp; an audience seeking healthier options. It is even harder to stay \r\non medically restricted diets, than worst crash diets of the last 50 years, to put it in\r\nlay man's terms. Urges to cheat are just as hard.. Talk to your blogger friends, just adding an alternative to frying, an alternative to frosting &amp; sprinkles. Being a little leaner. More people than ever are needing to lose weight, &amp; need healthy options that look good, taste even better &amp; fill the need for something yummy that causes, cheating, Make 2019 the year of eating healthier, for those who need it &amp; \r\nthose who prefer it. When putting up a new post, create a healthier prep or a tasty\r\nhealthy alternative item. Thanks, MA"
+        }
+    ],
+    "datePublished": "2011-04-05",
+    "@id": "https://pinchofyum.com/sweet-potato-doughnuts#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/sweet-potato-doughnuts#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/sweet-potato-doughnuts"
+}

@@ -1,0 +1,65 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Easy Oven-Baked Chicken Tacos",
+    "keywords": "easy oven-baked chicken tacos",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Southwestern",
+    "image": "https://mojo.generalmills.com/api/public/content/FeA6H9r7x0qChOzQDFoRDw_webp_base.webp?v=f2013e0a&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "These Easy Oven-Baked Chicken Tacos are our new favorite way to turn a rotisserie chicken into a super-easy dinner that serves up to 10. One bite, and you'll feel like they're almost too good to be true! Bring a platter of cheese- and bean-stuffed baked chicken tacos along to a family gathering or a get-together with friends, and watch them disappear.",
+    "recipeIngredient": [
+        "1  box (4.7 oz) Old El Paso™ Stand 'n Stuff Taco Shells (10 Count)",
+        "2 1/2  cups shredded deli rotisserie chicken",
+        "1  packet (.85 oz) Old El Paso™ Chicken Taco Seasoning Mix",
+        "1/4  cup water",
+        "1  can (4 oz) Old El Paso™ Chopped Green Chiles",
+        "1  can (16 oz) Old El Paso™ Traditional Refried Beans",
+        "1 1/4  cups shredded Mexican cheese blend (5 oz)",
+        "  Diced avocado, chopped tomato, green onions, shredded lettuce, salsa and sour cream, if desired"
+    ],
+    "totalTime": "PT0H30M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "10",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "11",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 400°F. Spray bottom of 13x9-inch (3-quart) baking dish with cooking spray. Place taco shells standing up and together in dish; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 10-inch nonstick skillet, cook chicken, taco seasoning mix, water and chiles over medium heat 5 to 6 minutes, stirring frequently, until chicken is heated through. Remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To assemble, spread about 2 tablespoons refried beans in bottom of each shell. Top each with heaping 1/4 cup chicken mixture and 2 tablespoons shredded cheese. Bake 5 to 7 minutes or until cheese is melted. Top with remaining ingredients, if desired."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "220 ",
+        "carbohydrateContent": "16 g",
+        "cholesterolContent": "45 mg",
+        "fatContent": "1 ",
+        "fiberContent": "2 g",
+        "proteinContent": "16 g",
+        "saturatedFatContent": "6 g",
+        "servingSize": "1 Taco",
+        "sodiumContent": "650 mg",
+        "sugarContent": "0 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "12/07/2016",
+    "dateModified": "10/10/2022"
+}

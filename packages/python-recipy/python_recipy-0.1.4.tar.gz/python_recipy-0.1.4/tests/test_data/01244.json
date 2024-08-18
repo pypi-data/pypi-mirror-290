@@ -1,0 +1,305 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Red Curry Noodles",
+    "description": "Red Curry Noodles! Lots of fresh veggies, seared tofu, slurpable noodles, and a saucy coconut red curry sauce. Stovetop to table in 30 minutes flat!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "red curry noodles, thai curry noodles, noodles with tofu",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Red-Curry-Noodles-Stir-Fry-Square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Red-Curry-Noodles-Stir-Fry-Square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Red-Curry-Noodles-Stir-Fry-Square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Red-Curry-Noodles-Stir-Fry-Square.jpg"
+    ],
+    "url": "https://pinchofyum.com/red-curry-noodles",
+    "recipeIngredient": [
+        "8 ounces stir fry rice noodles",
+        "2 tablespoons olive oil",
+        "2 cloves garlic, minced",
+        "1 thumb-size piece of ginger, peeled and grated",
+        "14 ounces extra firm tofu, cubed",
+        "3 tablespoons red curry paste",
+        "4 cups stir fry vegetables (see notes)",
+        "1 (14-oz) can coconut milk",
+        "2 tablespoons soy sauce",
+        "2 tablespoons sugar ",
+        "1 tablespoons sriracha or chili paste",
+        "a handful of cilantro, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Boil for 3-5 minutes (depending on thickness). Drain and set aside. ",
+            "name": "Noodles",
+            "url": "https://pinchofyum.com/red-curry-noodles#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the olive oil over medium heat. Add the garlic and ginger. Saute until soft and fragrant.",
+            "name": "Garlic and Ginger",
+            "url": "https://pinchofyum.com/red-curry-noodles#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Give your tofu a quick press with paper towels to get extra water out. Add the curry paste, tofu, and the vegetables to the pan. Stir gently, and saute until the everything is almost starting to caramelize a little bit &#8211; about 10 minutes.",
+            "name": "Tofu and Vegetables",
+            "url": "https://pinchofyum.com/red-curry-noodles#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the coconut milk, soy sauce, sugar, and chili paste. Throw in your cilantro.",
+            "name": "Sauce",
+            "url": "https://pinchofyum.com/red-curry-noodles#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the cooked noodles and toss to combine. YUM!",
+            "name": "Finish",
+            "url": "https://pinchofyum.com/red-curry-noodles#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "cookingMethod": "Stir-Fry",
+    "recipeCuisine": "Thai-Inspired",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "32",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "621 calories",
+        "sugarContent": "9.6 g",
+        "sodiumContent": "641.9 mg",
+        "fatContent": "31.6 g",
+        "saturatedFatContent": "17.8 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "69.9 g",
+        "fiberContent": "5.3 g",
+        "proteinContent": "14.8 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Red Curry Noodles",
+        "description": "Red Curry Noodles! Lots of fresh veggies, seared tofu, slurpable noodles, and a saucy coconut red curry sauce. Stovetop to table in 30 minutes flat!",
+        "contentUrl": "https://content.jwplatform.com/videos/Ny6vKjEJ.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/Ny6vKjEJ-720.jpg"
+        ],
+        "uploadDate": "2023-02-08T02:12:31+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Frank"
+            },
+            "datePublished": "2020-07-02",
+            "reviewBody": "This recipe is delicious! It's the first dish I've ever made with tofu, but we've already made it twice in the past couple of weeks. The second time we marinated with tofu beforehand which brought a lot more flavor to the tofu IMO. Heats up great for lunch the next day, too. \r\n\r\nThis is definitely going to be a staple for us going forward :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mackenzie"
+            },
+            "datePublished": "2019-01-28",
+            "reviewBody": "I made this for dinner tonight and it was amazing. A keeper of a recipe for a fast, warm dish. I actually used fettucine noodles on hand with broccoli and julienned carrots."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "datePublished": "2019-01-29",
+            "reviewBody": "I made this tonight with coconut aminos! It was great. I left out the sugar because I find coconut aminos much sweeter than soy sauce."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rose"
+            },
+            "datePublished": "2019-02-02",
+            "reviewBody": "Thank You! I made this the other day and it’s pretty darned delicious. I followed Lindsay’s suggestion to let the rice noodles sit it hot water for 1/2 an hour and it worked a treat! No gloggy stick together mass of noodles! I used white rice noodles and I added about a tablespoon of peanut butter at the end for a little added oompf. Will definitely make again!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marsha"
+            },
+            "datePublished": "2019-02-04",
+            "reviewBody": "OMG this is OMG delicious! I did just as the recipe said. I used spinach, mushrooms , broccoli, carrots,3 fresh tomatoes, but did put shrimp in it and did what the directions said and this is just  fantastic/delicious . Over the top delicious I should say !!! I did add a little more sriracha  to mine and a little splash of soy sauce extra . Love this recipe will make it again."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "datePublished": "2019-02-05",
+            "reviewBody": "Made this recipe tonight and it was delicious! Used mushrooms, spinach, red capsicum and carrots. Only change to the recipe was that I pan-fried the tofu separately first for 10 minutes."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Laurie"
+            },
+            "datePublished": "2019-02-05",
+            "reviewBody": "I made this tonight and threw in shredded chicken instead of tofu- it was delicious!! Just the right amount of spice and sweetness. We’ll be keeping this in rotation for sure! Everything I’ve made of yours has been amazing, thanks for all your hard work!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Julie"
+            },
+            "datePublished": "2019-02-05",
+            "reviewBody": "Made this and eating the leftovers on REPEAT! Dare I say it’s my fav of your noodle dishes to date?! Made a few tweaks to lessen the sugar + up the spice level, then served it over a bed of spinach. PERFECTION. Thank you!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lee"
+            },
+            "datePublished": "2019-02-06",
+            "reviewBody": "Made this tonight! It was delicious. I was amazed at how much flavor there was with not too many ingredients! Thank you for the recipe, I am so full!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dana"
+            },
+            "datePublished": "2019-02-07",
+            "reviewBody": "Made this last night with shrimp and it was so delicious and easy! Will definitely be adding it to the lineup :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lauren"
+            },
+            "datePublished": "2019-02-09",
+            "reviewBody": "I've never tried thai red curry before, and I have been kinda iffy about the curry and coconut milk combination (though i know that's a popular thing). I made this tonight just to try something new, and it was amazing!! The flavors worked really well together and the sriracha added a nice kick. Very warm and comforting, and you can't go wrong with slurpable noodles! Glad I have most of the ingredients left over to make this again soon!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rebecca B."
+            },
+            "datePublished": "2019-02-12",
+            "reviewBody": "I made this for dinner tonight, and it was delicious! I didn't add protein, but I used about 6 cups of vegetables (broccoli, carrots, and purple cabbage). This will definitely become a regular part of our meal rotation!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Katie"
+            },
+            "datePublished": "2019-02-26",
+            "reviewBody": "Made this tonight with asparagus, mushrooms, shredded carrots and a some shredded cabbage.  It was, as expected, amazing!  Full of veggies, flavorful, and came together in less than 30 minutes.  Can't ask for more than that.  Thanks again guys."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sarah A Davis"
+            },
+            "datePublished": "2019-03-04",
+            "reviewBody": "I've been a big fan of your blog for a long time, thank you. While the picture is beautiful, and I had high hopes for this dish, it fell a little flat for me.\r\n \r\nA few things I learned along the way: \r\n1) soak noodles in warm water, but test them for doneness along the way, and don't use the range/burner. Just start with warm water don't try to keep it warm - I left the noodles soaking for 30 min, but to keep them warm I had the burner on low, they fell apart. \r\n2) I used lite coconut milk, which was a bit too watery for this dish (my fault, the original recipe calls for regular coconut milk, but I wanted to reduce the fat content). \r\n\r\nThe disappointing part for me though, was the lack of flavor. The heat was also just too mild for me. I ended up doctoring it with lime juice, chili paste, cilantro, and sliced fresh jalapenos which helped. \r\n\r\nNext time I'll use the full fat coconut milk, more curry paste, lime juice, and chili paste. \r\n\r\nThanks for the inspo!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rachel joy"
+            },
+            "datePublished": "2019-03-09",
+            "reviewBody": "So good! Thank you for this quick method to get my Thai curry noodle fix! My onechange was that i did 1T soy sauce and 1T fish sauce. Gives it that authentic umami kick! Yum!!! I also followed another commenter and threw in 1T of peanut butter at the end. Loved it!"
+        }
+    ],
+    "datePublished": "2019-01-28",
+    "@id": "https://pinchofyum.com/red-curry-noodles#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/red-curry-noodles#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/red-curry-noodles"
+}

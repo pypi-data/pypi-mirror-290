@@ -1,0 +1,140 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Baked Gingerbread Mini Donuts",
+    "description": "These Baked Gingerbread Mini Donuts are so easy and will make your whole house smell like Christmas.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "baked mini donuts, gingerbread mini donuts, mini donuts recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/gingerbread-donuts-4-300x300-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/gingerbread-donuts-4-300x300-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/gingerbread-donuts-4-300x300.jpg"
+    ],
+    "url": "https://pinchofyum.com/baked-gingerbread-mini-donuts",
+    "recipeIngredient": [
+        "1 cup flour (I used white whole wheat)",
+        "3/4 teaspoon baking powder",
+        "1/4 teaspoon baking soda",
+        "1 teaspoon cinnamon",
+        "1/2 teaspoon ginger",
+        "pinch of allspice",
+        "pinch of cloves",
+        "1/4 teaspoon salt",
+        "1/4 cup brown sugar",
+        "1 egg",
+        "1/4 cup applesauce",
+        "1 tablespoon milk",
+        "2 tablespoons melted butter",
+        "2 tablespoons butter",
+        "1/4 cup brown sugar",
+        "2 tablespoons maple syrup",
+        "2 tablespoons milk",
+        "1/2 cup powdered sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the donuts, preheat oven to 350. Mix all dry ingredients.",
+            "url": "https://pinchofyum.com/baked-gingerbread-mini-donuts#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in moist ingredients. Pour batter into a gallon-sized plastic bag and cut the corner off. Pipe the batter into a greased mini-donut pan, filling each donut space about 1/2 full (for me, this was about 22 mini donuts). Bake for about 7-8 minutes. Remove from oven and take each donut out of the pan.",
+            "url": "https://pinchofyum.com/baked-gingerbread-mini-donuts#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the glaze, melt 2 tablespoons butter with 1/4 cup brown sugar in a small saucepan over medium heat. Bring to a boil and boil for about 2 minutes. Add maple syrup and 1 tablespoon milk and bring back to a boil. Add powdered sugar, using the last tablespoon of milk to help thin out the frosting if needed. Keep over low heat (otherwise it will start to crystallize) and dunk each mini donut into the frosting. Frosting should set almost immediately.",
+            "url": "https://pinchofyum.com/baked-gingerbread-mini-donuts#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeYield": "12",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "28",
+        "ratingValue": "4.6"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "126 calories",
+        "sugarContent": "12.7 g",
+        "sodiumContent": "94.8 mg",
+        "fatContent": "3.8 g",
+        "saturatedFatContent": "2.1 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "21.6 g",
+        "fiberContent": "0.5 g",
+        "proteinContent": "1.8 g",
+        "cholesterolContent": "24.5 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Grant"
+            },
+            "datePublished": "2011-11-09",
+            "reviewBody": "Someone at work told me that the Bieber CD was actually good.  I didn't like how they could openly lie to me like that.  Haha.. maybe bring it along with some of these donuts at Christmas and we can test them both out..."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Grant"
+            },
+            "datePublished": "2011-11-15",
+            "reviewBody": ":)  I'll see if I can make some sushi again this year.. then we'll be even.. :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carole Resnick"
+            },
+            "datePublished": "2011-11-09",
+            "reviewBody": "Yum"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "J"
+            },
+            "datePublished": "2018-01-02",
+            "reviewBody": "They just came out of the oven and....YUM! The warm spices combined with the maple-y glaze was wonderful. I'll bring these in to work tomorrow to share them. Thank you Lindsay for this recipe, you must be a very talented baker!"
+        }
+    ],
+    "datePublished": "2011-11-09",
+    "@id": "https://pinchofyum.com/baked-gingerbread-mini-donuts#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/baked-gingerbread-mini-donuts#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/baked-gingerbread-mini-donuts"
+}

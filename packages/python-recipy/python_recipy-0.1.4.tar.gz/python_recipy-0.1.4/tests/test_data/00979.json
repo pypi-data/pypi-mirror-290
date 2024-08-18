@@ -1,0 +1,479 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/parmesan-crusted-chicken/",
+    "name": "Parmesan-Crusted Chicken",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-09-25",
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps31741_CFT943311D21-2.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "Laura Babberl of Boone, Iowa, relates, “I’m a retired nurse and do all the cooking for my sister and me. It’s difficult to come up with simple recipes for two, so I created this one. We love it!”  ",
+    "recipeIngredient": [
+        "1/4 cup all-purpose flour",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon garlic powder",
+        "1 egg",
+        "1/2 cup shredded Parmesan cheese",
+        "2 boneless skinless chicken breast halves (6 ounces each)",
+        "1 tablespoon olive oil",
+        "2 teaspoons lemon juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a shallow bowl, combine the flour, salt and garlic powder. In another bowl, beat the egg. Place the Parmesan cheese in a third bowl. Coat chicken in flour mixture, then dip in egg and roll in cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a skillet, brown chicken in oil on both sides. Transfer to a shallow 1-qt. baking dish coated with cooking spray; drizzle with lemon juice. Bake, uncovered, at 350&deg; for 18-20 minutes or until juices run clear."
+        }
+    ],
+    "recipeYield": "2 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 394 calories",
+        "fatContent": "18g fat (6g saturated fat)",
+        "cholesterolContent": "173mg cholesterol",
+        "sodiumContent": "830mg sodium",
+        "carbohydrateContent": "11g carbohydrate (1g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "45g protein.  <B><b>Diabetic Exchanges</b>: </B>5 lean meat"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.36,
+        "reviewCount": 25,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-10-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "tcarver"
+            },
+            "reviewBody": "I made this recipe as written and it was very easy and tasted good.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "danielleylee"
+            },
+            "reviewBody": "Great recipe for 2! The chicken is very moist and juicy. We added a hint more freshly grated parm cheese at the end and omitted the lemon. This recipe goes well with a spicy vodka sauce pasta.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-02-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KaitlinRose"
+            },
+            "reviewBody": "I added some extra seasonings: pepper, chili powder, a dash of onion powder, and I also fried it in about an inch or so of olive oil instead of baking it. I cooked 5 min on each side, I probably could have done a little less but I think it tastes great. Next time I may add some cajun seasoning in to give it a kick!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-08-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MaikoEmi"
+            },
+            "reviewBody": "I did half grated parmesan, half shredded.  Pretty tasty, though it needed more spice.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-08-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jupebox"
+            },
+            "reviewBody": "Good recipe.  We made it for 4 people, and the baking time could probably be a bit longer.  We baked it for an extra 5 minutes, and maybe even longer than that.  It probably depends on your oven, but just thought I'd mention our experience.  Other than that, I thought that this was pretty good!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-12-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "China21215"
+            },
+            "reviewBody": "I made this recipe tonight after searching for recipe that did NOT involve bread crumps because I didn't feel like going out to the store.  This was really good and it was light verses the heavy breadings of the some of the recipes that I have tried before.  I did use some oregano and parsley mixed in with the flour mixture and seasoned my chicken with a little sea salt.  I will certainly make this recipe again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Sascha18"
+            },
+            "reviewBody": "This recipe is a keeper! I was looking for a simple Sunday night meal and this fit the description perfectly. The cooking time did need to be increased by at least five minutes. I would highly recommend serving this chicken with mashed potatoes :)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "kcoffman"
+            },
+            "reviewBody": "Great recipe, we loved it.  I added a little Italian seasoning mix to the flour.  I also made some alfredo sauce and angel hair pasta to go with it and it was a perfect combination with the chicken.  We also had salad to round out the meal.  We will definitely make this again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Liz86"
+            },
+            "reviewBody": "I made this tonight and it was delish...had a friend over and she said it was like eating at a restraunt! We added mozzarella cheese and a little garlic salt right before we put the chicken in the oven,also we used chicken breast but the chicken was so juicy! Will make again for sure! :)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-10-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mjkrein"
+            },
+            "reviewBody": "As a single guy, I'm always looking for quick and easy meals. This is a breeze to make and very tasty. Only changes I made were to mix some plain bread crumbs in with the flour, and added a little thyme. Didn't have shredded parm so I used grated instead-but next time I'll use shredded. Will definitely be making this often- thanks for sharing.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-10-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ashleyOHiO"
+            },
+            "reviewBody": "Super easy and quick. I also used grated parmesan and it turned out great. Very flavorful!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-11-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "laurie1206"
+            },
+            "reviewBody": "This is absolutely the best recipe ever! I have made it a lot of times and it comes out so super moist every time! The only thing i usually do different is I season the chicken first with Montreal Chicken seasoni",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-07-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "motochick179"
+            },
+            "reviewBody": "This recipe is easy to make and tastes very good!  I have made it a couple of times now and it is getting added to my recipe book as a regular.  With a little more Parmesan cheese it will easily make 4 pieces of chicken.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-07-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lisabuckley"
+            },
+            "reviewBody": "This is a great way to change up chicken cutlets.  I thoroughly enjoyed them as did my husband.  This went great with the Parmesan Noodle side dish.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-12-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lczuba"
+            },
+            "reviewBody": "Quick, easy and tasty. Great with buttered noodles and green bean almondine!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-02-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amynolen"
+            },
+            "reviewBody": "This was simple to put together. The chicken had great flavore and was very tender. This is a recipe I will be using often! Thank you!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-12-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "rmbarr059"
+            },
+            "reviewBody": "The cheese stuck to the pan instead of the chicken! But nevertheless--it was still pretty tasty and easy!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-04-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KapaluaPrincess"
+            },
+            "reviewBody": "I added 1/2 tsp Italian seasoning to the flour mixture, for more  flavor.  However, I've never made such a messy dish as this one.  All of the cheese stuck to the pan instead of the chicken.  I won't make this dish again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-09-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Stillincinci"
+            },
+            "reviewBody": "Okay, I worked in commercial kitchens for six years and while I am not the most creative ad libbing in the kitchen, I have solid fundamental skills. I thawed some chicken and prepared to make this for my girlfriend and I. We had other options, but this recipe sounded great.Followed the recipe to a tee and like a couple others, all of the Parmesan goodness hardened to a crusty mess at the bottom of my all clad sautée pan. No crust left whatsoever. Seeing as I had just detailed the kitchen the day previous, I was livid. Perhaps the recipe really calls for the powdered Parmesan cheese topping, I grated my own cheese and made a mess. The chicken, of course, was then bland coming out of the baking dish. I dumped some canned tomato sauce on top and ate my angry feelings. Be forewarned!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-09-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "countrygirlchef"
+            },
+            "reviewBody": "I've made a very similar chicken dish like this before, with a few differences.. a little cayenne pepper & onion powder to the flour mixture...then I never fry it!  Bake at 400 for 30 minutes and mmmm....mmmmm...it's golden brown and tastes like it's fried!  I make a lemon butter sauce with tarragon to drizzle over and serve with lemon butter asparagus.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-01-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "johnnoschese"
+            },
+            "reviewBody": "All the complaints about the coating sticking to frying pan, use a non stick frying pan and you won't have a problem.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-10-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "greatwithoutgluten"
+            },
+            "reviewBody": "This was good. I ended up adding extra seasoning. I just baked the chicken and all the crust stayed on. I will make again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-09-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MissSassiee"
+            },
+            "reviewBody": "I'm unemployed and broke.  I had no breadcrumbs.This is an awesome dish for what I had in the kitchen.Is so good!!!!I made the chicken and also boiled some noodles.Put the noodles and sauce in a baking pan and then added the chicken after I fried it.I love it !!!   And will still make it when I find a job.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, Italian"
+}

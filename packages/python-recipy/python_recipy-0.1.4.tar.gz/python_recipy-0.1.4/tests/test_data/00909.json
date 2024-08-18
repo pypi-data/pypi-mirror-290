@@ -1,0 +1,339 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/slow-cooked-loaded-potato-soup/",
+    "name": "Slow-Cooker Potato Soup",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-06-13",
+    "prepTime": "PT30M",
+    "cookTime": "PT08H15M",
+    "totalTime": "PT08H45M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps179256_SD143207B05_29_4b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This slow-cooker potato soup takes all the flavor of a loaded baked potato—butter, bacon and onion—and turns it into an easy Crockpot potato soup you can serve any day of the week.",
+    "recipeIngredient": [
+        "5 pounds potatoes, peeled and cubed (about 10 cups)",
+        "1 medium onion, finely chopped",
+        "5 cans (14-1/2 ounces each) chicken broth",
+        "1 garlic clove, minced",
+        "1-1/2 teaspoons salt",
+        "1/4 teaspoon pepper",
+        "2 packages (8 ounces each) cream cheese,  softened and cubed",
+        "1 cup half-and-half cream",
+        "1/4 cup butter, cubed",
+        "TOPPINGS:",
+        "1 pound bacon strips, cooked and crumbled",
+        "3/4 cup shredded sharp cheddar cheese",
+        "1/4 cup minced chives"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Slow-cook the potatoes",
+            "text": "Add the potatoes to a 6-quart slow cooker, along with the onion, chicken broth, garlic, salt and pepper. Cook on low for 8 to 10 hours, until potatoes are fall-apart tender."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Mash the potatoes and add dairy",
+            "text": "Mash the potatoes as much as you like—leave them a little chunky for more texture, or go for a smoother soup. Stir in the cream cheese, half-and-half and butter. Cook on low, covered, for another 15 minutes, until everything is heated through."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Garnish and serve",
+            "text": "When you're ready to serve, give the soup a whisk to combine all the ingredients, then ladle it into bowls and top each with bacon, cheddar cheese and chives, as desired."
+        }
+    ],
+    "recipeYield": "12 servings (4 quarts).",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 447 calories",
+        "fatContent": "27g fat (14g saturated fat)",
+        "cholesterolContent": "86mg cholesterol",
+        "sodiumContent": "1512mg sodium",
+        "carbohydrateContent": "37g carbohydrate (5g sugars",
+        "fiberContent": "4g fiber)",
+        "proteinContent": "14g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.428571,
+        "reviewCount": 14,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-02-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "msvplinda"
+            },
+            "reviewBody": "This did not live up to my expectations. I followed the recipe exactly.  I was looking for more of a creamy soup with little chunks of potatoes.  There was way to much chicken broth, which made it runny and took away from the potato taste.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-09-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "BelindaQ"
+            },
+            "reviewBody": "Made it in the pressure pot, quick and amazing........",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-12-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "turleyhome"
+            },
+            "reviewBody": "I've always loved loaded potato soup at restaurants, and found this while looking for a DIY, no MSG version. I've made this recipe three times now, and my children never tire of requesting it! Even my VERY picky 5yo keeps asking for \"that potato soup\", and never eats fewer than 2 bowls at a sitting. THANK YOU for posting this recipe! Instead of using only cream cheese, I used half cream cheese and half cheddar. I've also made it stovetop only by boiling the potatoes, onions, garlic and seasonings in the broth for about 35 minutes, then proceeding with the recipe. REALLY cuts down on prep time if you're not patient enough for the slow-cooker! ;)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-02-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "BillWilson"
+            },
+            "reviewBody": "Great soup, followed the recipe exactly. Tied for first place at work soup off. will be making again soon. Thank You",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-12-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JGa2595176"
+            },
+            "reviewBody": "I have made this several times, including on Christmas Day 2020. This recipe is fantastic and I highly recommend. It's very tasty, easy to throw together and totally satisfying. Kids and adults alike enjoyed it. Can serve with a \"garnish bar\" of croutons, crispy bacon, snipped green onions, shredded cheese and more. If your potato chunks are too big for your liking after you mash or cream cheese bits too large after adding, spoon a few cups into your blender to puree until smoother and add back to the pot. Easy and delicious!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-01-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "JenniferKazee"
+            },
+            "reviewBody": "Made this tonight - AMAZING!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-10-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "drt531"
+            },
+            "reviewBody": "Super easy and everyone loved! Even co-workers asked for the recipe after they tried it! Added some corn and chopped ham to add some more bulk as a twist.  Def making again!! Thanks!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-09-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "TracFac"
+            },
+            "reviewBody": "My family loved this soup...and they aren't big soup eaters!  I added some leftover corn which also worked well.  They all agreed this was \"repeat-worthy\".  Thanks!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-10-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Angel182009"
+            },
+            "reviewBody": "This recipe is very easy to throw together. It's great for a weeknight meal. I like to leave the skins on the potato.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-02-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gunslinger"
+            },
+            "reviewBody": "Very easy to make. It was also very tasty! The cream cheese made it so creamy and delicious! It would also be delicious to add chopped ham if you wanted to instead of topping with the bacon.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-03-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "msbrazie"
+            },
+            "reviewBody": "This was a huge waste of ingredients.  Way to much chicken stock, cream cheese never melted - had large lumps no matter how hard I stirred.  I tried a bowl and threw that away along with the remaining 11 servings.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-01-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Ldkelly"
+            },
+            "reviewBody": "We made this at work for one of our weekly lunches. Two full crockpots and there was nothing left!  We also added some mined garlic and a bit more pepper, gave it a bit more spice.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-10-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "BIGJOHNSGAL"
+            },
+            "reviewBody": "I made this and I love it! Definitely a keeper!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-01-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "eilahvb"
+            },
+            "reviewBody": "This was easy to make and had great flavor.  I wish that the cream cheese had mixed in a bit better. I left the skin on the potatoes because my boys really like the flavor skins add. Everyone agreed it was a do again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Slow-Cooked Loaded Potato Soup",
+        "description": "We make a slow cooked loaded potato soup.",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/OOQTSlowCookedLoadedPotatoSoup230403EGv02_thumbnail.jpeg"
+        ],
+        "uploadDate": "2023-04-19 20:27:56",
+        "duration": "P0DT0H0M34S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2023/04/OO-QT-Slow-Cooked-Loaded-Potato-Soup-230403-EG-v02.mp4"
+    }
+}

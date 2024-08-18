@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/three-cheese-scalloped-potatoes",
+    "name": "Three-Cheese Scalloped Potatoes",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2012%2F11%2F09%2Fthree-cheese-scalloped-potatoes-ay-x.jpg",
+        "width": 420,
+        "height": 420
+    },
+    "datePublished": "2012-11-09T15:58:38.000Z",
+    "description": "You will savor every bite of these decadent Three-Cheese Scalloped Potatoes. Mix up different types of cheeses based on your preferences for this side dish.",
+    "prepTime": "P0DT0H50M",
+    "cookTime": "P0DT1H15M",
+    "totalTime": "P0DT2H5M",
+    "recipeYield": "Serves 12",
+    "recipeIngredient": [
+        "Salt and pepper",
+        "4 pounds baking potatoes, scrubbed",
+        "1 tablespoon unsalted butter",
+        "1 onion, finely chopped",
+        "2 cloves garlic, finely chopped",
+        "1 ½ cups shredded Gruy&egrave;re (about 5 1/2 oz.)",
+        "1 ½ cups shredded Cheddar",
+        "¾ cup grated Parmesan",
+        "1 tablespoon chopped fresh thyme",
+        "2 cups heavy cream",
+        "3 bay leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Add potatoes and cook, removing when not quite tender, 25 to 30 minutes. Drain and set aside until potatoes are cool enough to handle.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small skillet, melt 1 Tbsp. butter over medium heat. Add onion and cook, stirring occasionally, until tender, about 6 minutes. Add garlic and cook, stirring, until fragrant, about 2 minutes longer. Transfer to a medium bowl and let cool.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350&ordm;F and line a large baking sheet with foil. Generously butter a 9-by-13-inch baking dish and place it on lined baking sheet. Add Gruy&egrave;re, Cheddar, Parmesan, thyme, 2 tsp. salt and 1 tsp. pepper to onion mixture and stir until well combined.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Peel and slice potatoes 1/4-inch thick. Arrange 1/3 of potatoes in baking dish, overlapping where necessary, and sprinkle with 1/3 of cheese mixture. Repeat layering twice, finishing with cheese. Pour cream over all potatoes and press bay leaves on top. Bake until cream is mostly absorbed and top is golden brown and bubbling, about 1 hour 15 minutes. Remove bay leaves. Let cool for 10 minutes and serve.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": {
+        "@type": "Organization",
+        "name": "MyRecipes"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.67,
+        "reviewCount": 2,
+        "ratingCount": 3,
+        "itemReviewed": "Three-Cheese Scalloped Potatoes",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "408 calories",
+        "carbohydrateContent": "30 g",
+        "cholesterolContent": "92 mg",
+        "fatContent": "26 g",
+        "fiberContent": "2 g",
+        "proteinContent": "14 g",
+        "saturatedFatContent": "16 g",
+        "servingSize": null,
+        "sodiumContent": "647 mg",
+        "sugarContent": null,
+        "transFatContent": null,
+        "unsaturatedFatContent": null
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "datePublished": "2021-12-26T00:17:21.594Z",
+            "reviewBody": "Been cooking for over 3 hours now. Potatoes are not done    Screwed up my whole meal",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 1
+            },
+            "author": {
+                "@type": "Person",
+                "name": "hilda66",
+                "image": null,
+                "sameAs": null
+            }
+        },
+        {
+            "@type": "Review",
+            "datePublished": "2013-02-09T05:58:12.000Z",
+            "reviewBody": "This is by far the best scalloped potato recipe I've used.  I think it's the pre-cooking of the potatoes.  Most recipes the potatoes never seem to be done but this one they're just right.  I add more garlic, atleast 1 cup more sharp cheddar and about 1/2 cup more of cream.  Great make ahead recipe.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "bestRating": "5",
+                "ratingValue": 5
+            },
+            "author": {
+                "@type": "Person",
+                "name": "LisaDarbyCook",
+                "image": null,
+                "sameAs": null
+            }
+        }
+    ]
+}

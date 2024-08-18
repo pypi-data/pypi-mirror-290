@@ -1,0 +1,135 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Citrus Glaze",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/citrus-glaze-recipe-1918185",
+    "headline": "Citrus Glaze",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-05-30T11:08:49.826-04:00",
+    "dateModified": "2013-11-05T19:10:07.706-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Cake,Fruit,Lemon,Low Sodium",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT0H5M0.000S",
+    "recipeIngredient": [
+        "6 ounces powdered sugar",
+        "1 teaspoon lemon or orange zest",
+        "2 1/2 tablespoons freshly squeezed lemon or orange juice",
+        "Pinch kosher salt",
+        "Buttermilk Pound Cake, recipe follows",
+        "12 ounces unsalted butter, cut into pieces and softened, plus 1 tablespoon",
+        "16 ounces cake flour, plus 2 tablespoons",
+        "16 ounces sugar",
+        "4 large eggs, room temperature",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon kosher salt",
+        "1 cup whole buttermilk, room temperature"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 22 servings",
+        "calories": "324",
+        "fatContent": "14g",
+        "saturatedFatContent": "9g",
+        "carbohydrateContent": "46g",
+        "fiberContent": "0g",
+        "sugarContent": "29g",
+        "proteinContent": "3g",
+        "cholesterolContent": "70mg",
+        "sodiumContent": "75mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add the powdered sugar, zest, juice, and salt to a medium mixing bowl and whisk until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drizzle immediately over the completely cooled cake or store glaze in the refrigerator in an airtight container for up to 2 days. Stir well before using."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange a rack in the middle of the oven and heat to 375 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat a 10-inch aluminum tube pan or 2 (9 by 5-inch) loaf pans with 1 tablespoon of butter and dust with 2 tablespoons of the flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the remaining 12 ounces of butter and sugar in the bowl of a stand mixer and cream for 6 minutes on medium speed, using the paddle attachment. Stop once to scrape down the sides of the bowl with a spatula. With the mixer running at lowest speed, add the eggs, 1 at a time, making sure each egg is fully incorporated before adding the next. Again stopping once to scrape down the sides of the bowl. This will take approximately 1 1/2 minutes. Add the vanilla and salt and beat on medium speed for 30 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "With the mixer on the lowest speed add the flour in 3 installments, alternating with the buttermilk, beginning and ending with the flour, making sure each portion is fully incorporated before adding the next. After the final addition, beat the batter for 30 seconds on medium speed until almost smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Scoop the batter into the prepared pan(s), dividing evenly if using 2 pans. Bake for 1 hour in a tube pan or 40 minutes in loaf pans, until the internal temperature reaches 210 degrees F on an instant-read thermometer. The crust will be golden brown and spring back when pressed, but the crack around the center will appear moist."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the cake from the oven to a cooling rack for 10 minutes. Remove the cake from the pan(s) and cool on the rack. Store the cake on the rack covered with a tea towel for up to 3 days."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "about 2/3 cup glaze",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Best. Cake. Ever."
+        }
+    ],
+    "recipeCategory": "condiment"
+}

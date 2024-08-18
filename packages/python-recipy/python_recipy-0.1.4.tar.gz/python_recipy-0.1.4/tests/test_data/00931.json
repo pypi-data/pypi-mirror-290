@@ -1,0 +1,88 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/best-croque-madame/",
+    "name": "Croque-Madame",
+    "datePublished": "2024-02-24",
+    "dateModified": "2024-04-01",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Best-Croque-Madame_EXPS_THVP24_275824_MR_02_21_24_CroqueMadame_1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "The croque-madame is a classic French bistro sandwich that you can easily make in your own kitchen.",
+    "recipeIngredient": [
+        "2 tablespoons butter",
+        "2 tablespoons all-purpose flour",
+        "Dash salt",
+        "Dash white pepper",
+        "Dash ground nutmeg",
+        "1 cup 2% milk",
+        "2 ounces Gruyere cheese, shredded",
+        "SANDWICHES:",
+        "4 thick slices country bread",
+        "6 ounces fully cooked ham, thinly sliced",
+        "3 ounces Gruyere cheese, shredded, divided",
+        "1 tablespoon Dijon mustard, optional",
+        "4 tablespoons butter, softened, divided",
+        "2 large eggs"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Make the Mornay sauce",
+            "text": "In a small saucepan, melt the butter over medium heat. Whisk in the flour, salt, pepper and nutmeg until smooth. Gradually whisk in the milk. Bring the mixture to a boil. Cook and stir until thickened, about one minute. Reduce the heat to low. Add the cheese, and stir until it's melted. Keep warm.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Croque-Madame_THVS24_275824_MR_02_21_24_CroqueMadame_1.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Prep the sandwich",
+            "text": "&nbsp; On each of two bread slices, spread 2 tablespoons Mornay sauce, and top with 3 ounces ham and 1/4 cup cheese. If desired, spread Dijon mustard over the remaining two slices of bread. Place the bread, mustard side down, on top of the cheese. Spread the outsides of the sandwiches with 3 tablespoons butter.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Croque-Madame_THVS24_275824_MR_02_21_24_CroqueMadame_5.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Toast the sandwiches",
+            "text": "In a large cast-iron or broiler-safe skillet, toast the sandwiches over medium heat until they're golden brown and the cheese is melted, two to three minutes on each side. Spread the remaining Mornay sauce over top of the sandwiches. Sprinkle with the remaining 1/4 cup cheese. Preheat the broiler. Broil the sandwiches 4 to 6 inches from the heat until the tops of the sandwiches are bubbly and lightly browned, two to three minutes.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Croque-Madame_THVS24_275824_MR_02_21_24_CroqueMadame_6.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Fry the eggs",
+            "text": "Meanwhile, melt the remaining butter in a small nonstick skillet over medium-high heat. Break the eggs, one at a time, into the skillet. Reduce the heat to low. Cook until the whites are set and yolks begin to thicken, turning once if desired. Top each sandwich with a fried egg.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Croque-Madame_THVS24_275824_MR_02_21_24_CroqueMadame_8.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "2 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 1118 calories",
+        "fatContent": "71g fat (39g saturated fat)",
+        "cholesterolContent": "419mg cholesterol",
+        "sodiumContent": "2284mg sodium",
+        "carbohydrateContent": "60g carbohydrate (13g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "60g protein."
+    },
+    "recipeCuisine": "Europe, French",
+    "video": {
+        "@type": "VideoObject",
+        "name": "Croque Madame",
+        "description": "Check out this video for how to make Croque Madame.",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/TOHCroqueMadameDIYD275824021924H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-04-1 15:08:56",
+        "duration": "P0DT0H2M10S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/04/TOH_CroqueMadame_DIYD_275824_021924_H.mp4"
+    }
+}

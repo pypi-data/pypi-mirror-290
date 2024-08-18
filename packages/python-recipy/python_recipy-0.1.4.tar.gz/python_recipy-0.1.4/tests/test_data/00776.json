@@ -1,0 +1,151 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/12497-melon-pomegranate-almond-smoothie#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/12497-melon-pomegranate-almond-smoothie",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2012/06/06/science/08recipehealth/08recipehealth-articleLarge-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/12497-melon-pomegranate-almond-smoothie",
+    "name": "Melon Pomegranate Almond Smoothie",
+    "description": "You can juice pomegranates using a citrus press: Just cut the pomegranate in half and press down and twist it on the press. Be careful to wear an apron so you don’t get splattered with the beautiful red juice. Half of a medium-size pomegranate will yield about 1/4 cup of juice if pressed this way. Or you can, of course, use a juicer.",
+    "author": {
+        "@type": "Person",
+        "name": "Martha Rose Shulman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2012/06/06/science/08recipehealth/08recipehealth-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/06/06/science/08recipehealth/08recipehealth-superJumbo-v2.jpg",
+            "height": 1537,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/06/06/science/08recipehealth/08recipehealth-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2012/06/06/science/08recipehealth/08recipehealth-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2M",
+    "recipeYield": "1 serving",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "almond, cantaloupe, pomegranate, dairy-free, gluten-free, healthy, low cholesterol, low-sodium, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 32
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 220,
+        "unsaturatedFatContent": "7 grams",
+        "carbohydrateContent": "37 grams",
+        "cholesterolContent": null,
+        "fatContent": "8 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "5 grams",
+        "saturatedFatContent": "1 gram",
+        "sodiumContent": "43 milligrams",
+        "sugarContent": "32 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/4 cup freshly squeezed pomegranate juice",
+        "1/2 pound cantaloupe or another sweet yellow-fleshed melon, like Crenshaw or Persian melon",
+        "12 almonds, soaked overnight or blanched and skinned",
+        "1 tablespoon fresh lime juice",
+        "1 drop almond oil",
+        "1 slice fresh ginger (optional)",
+        "1 teaspoon honey or agave nectar"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place all of the ingredients in a blender and blend at high speed for a full minute. Pour into a glass and enjoy."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John R"
+            },
+            "reviewBody": "Very nice, love the tart-sweet flavor and the melon works beautifully. The only issue is that it doesn’t make much - I think this recipe could easily be increased by half or possibly even doubled for a more satisfying single serving, which is no problem given the huge cantaloupes I’m seeing in the markets now.",
+            "datePublished": "2020-08-05T17:12:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jesse"
+            },
+            "reviewBody": "Used cantaloupe that was very ripe and sweet, so in the original recipe this came out quite saccharine--too sweet for our liking. Next time we cut the honey and added several handfuls of spinach. Still very sweet, but better.",
+            "datePublished": "2020-08-02T16:30:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "blisssu"
+            },
+            "reviewBody": "2-day overripe cantaloupe had lost flavor and sweetness, so I compensated by doctoring the recipe. I added a bunch of mint leaves, but they didn't go well with the ginger--one or the other might have worked. No pom juice, so I substituted 1 T of pom molasses and sweetened the mix with 2 chopped medjool dates. I had to substitute almond extract for the oil. I'd give my results a B; next time I'll get a better melon and all the right ingredients.",
+            "datePublished": "2017-10-23T13:18:19.000Z"
+        }
+    ]
+}

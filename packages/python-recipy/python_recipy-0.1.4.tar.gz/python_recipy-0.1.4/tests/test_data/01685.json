@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sliced Poached Chicken with Baby Turnips and Mushrooms",
+    "datePublished": "2016-01-12T15:44:40.000-05:00",
+    "dateModified": "2023-08-02T11:40:15.410-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Linton Hopkins",
+            "url": "https://www.foodandwine.com/author/linton-hopkins"
+        }
+    ],
+    "description": "This recipe employs a technique Hopkins often uses when cooking chicken for his family: He gently poaches an entire chicken in an herbed stock, then s...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/WoB2-nm7cmlQtCDe3dPvRBqX9Kc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/BNCBOOK2013-XL-sliced-poached-chicken-with-baby-turnips-and-mushrooms-73149534d0d245f68461b391ee2e11e1.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Sliced Poached Chicken with Baby Turnips and Mushrooms",
+    "recipeIngredient": [
+        "One 3-pound chicken",
+        "1/2 pound beef eye of round",
+        "1 onion, quartered",
+        "1 celery rib, halved",
+        "12 black peppercorns",
+        "Handful of mixed herbs—such as thyme, tarragon, parsley, chervil and chives—plus chopped chives and tarragon leaves for garnish",
+        "2 bay leaves",
+        "Kosher salt",
+        "2 tablespoons unsalted butter",
+        "12 baby turnips, halved lengthwise",
+        "1 leek, white and light green parts only, thinly sliced (1 cup)",
+        "12 small button mushrooms",
+        "Freshly ground pepper",
+        "Crusty bread, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cut the legs and wings off the chicken. Using kitchen shears, remove the back and cut it into 3 pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot, combine the chicken legs, wings and back with the beef, onion, celery, peppercorns, mixed herbs, 1 bay leaf and 1 tablespoon of salt. Lay the chicken breast on top of the herbs. Fill the pot with enough cold water to cover the breast by 1 inch. Bring to a simmer, skimming occasionally. Simmer gently until the breast is cooked through, about 20 minutes. Transfer the chicken breast to a plate and cover loosely with plastic wrap."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue to simmer the broth, skimming occasionally, until reduced to 8 cups, 1 1/2 to 2 hours. Strain the broth into a medium pot and keep warm; discard the solids."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a large skillet, melt the butter until it foams. Add the turnips cut side down in a single layer and season with salt. Add the remaining bay leaf and enough water to reach halfway up the sides of the turnips. Bring to a simmer. Cover and cook over moderate heat until the turnips are just tender, about 10 minutes. Add the sliced leek and mushrooms, cover and cook until softened, about 10 minutes. Season with salt and pepper. Discard the bay leaf."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mound the turnips and mushrooms in bowls. Thinly slice the chicken breast and place on top of the vegetables. Pour the broth into the bowls, garnish with the chopped chives and tarragon leaves and serve with crusty bread."
+        }
+    ],
+    "totalTime": "PT165M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/sliced-poached-chicken-baby-turnips-and-mushrooms",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup",
+                        "name": "Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup/chicken-soup",
+                        "name": "Chicken Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/sliced-poached-chicken-baby-turnips-and-mushrooms",
+                        "name": "Sliced Poached Chicken with Baby Turnips and Mushrooms"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-02T11:40:15.410-04:00"
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/collection/dark-chocolate-recipes#Recipe",
+    "@type": "Recipe",
+    "description": "Calling all chocoholics! Indulge in our deliciously dark chocolate collection, including rich gooey brownies, tortes, mousses, cakes and truffles.",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2017/07/Dark-chocolate-recipes-0b174e0.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/collection/dark-chocolate-recipes"
+    },
+    "name": "Dark chocolate recipes",
+    "url": "https://www.bbcgoodfood.com/recipes/collection/dark-chocolate-recipes",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2024-05-28T17:22:36+01:00",
+    "datePublished": "2017-07-05T23:33:36+01:00",
+    "headline": "Dark chocolate recipes",
+    "keywords": "Brownies, CAKE, Chocolate, Chocolate cookies, Dark and decadent, Dark chocolate, Dessert, Pudding, Tart, Truffle",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "recipeIngredient": "Dark chocolate recipes",
+    "recipeCategory": []
+}

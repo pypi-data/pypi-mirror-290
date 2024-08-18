@@ -1,0 +1,183 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Pig Pickin&#39; Cake",
+    "datePublished": "2019-08-12T14:25:53.000-04:00",
+    "dateModified": "2024-03-11T15:23:28.008-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "This light pig pickin&#39; cake will be a new summer staple. Layers of yellow cake are stacked with a fruity mixture of whipped topping, pineapple, and pecans.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/2b4q6e6hb0XuofhHeuLw9X9Gs_M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pig-Pickin-Cake_audit7280_beauty1-79-8c84008766824c068d3df6182e3cfa47.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Pig Pickin&#39; Cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "ratingCount": "7"
+    },
+    "keywords": "pig pickin' cake, pig pickin cake",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1 (18.25-ounce) package yellow cake mix",
+        "1/3 cup water",
+        "1/3 cup vegetable oil",
+        "3 large eggs",
+        "1 (11-ounce) can mandarin oranges, drained",
+        "1 (15-ounce) can crushed pineapple, undrained",
+        "1 (3.4-ounce) package vanilla instant pudding mix",
+        "1 (12-ounce) container frozen whipped topping, thawed",
+        "1/2 cup chopped pecans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/sQZLtXdXgTgrwVU7NvXQmXipjEw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pig-Pickin-Cake_audit7280_step2-11-eefccb81af024b78bd24bded69503569.jpg"
+                }
+            ],
+            "text": "Make cake batter: Beat first 4 ingredients in a large bowl at medium speed with an electric mixer until blended. Stir in oranges."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/Ug3LlgIdZJkl3tRwwjOAKRateGE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pig-Pickin-Cake_audit7280_step3-12-c28b24c06a294a4a9a9e66c19a87e4a7.jpg"
+                }
+            ],
+            "text": "Add batter to pans: Pour batter into 3 greased and floured 8-inch round cakepans. (Layers will be thin.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake and cool cake layers: Bake at 350ºF for 25 to 30 minutes or until a wooden pick inserted in center comes out clean. Cool layers in pans on wire racks 10 minutes; remove layers from pan, and let cool completely on wire racks."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/3OtDXUcs4WHmjveY1ctE67y443g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pig-Pickin-Cake_audit7280_step5-14-c42a7483b9de49fd9c4e92ff548931cb.jpg"
+                }
+            ],
+            "text": "Make frosting and chill: Combine pineapple and next 3 ingredients. Spread pineapple frosting evenly between layers and on top of cake. Chill cake 3 to 4 hours. Garnish, if desired. Store cake in refrigerator."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT285M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/pig-pickin-cake",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes/layer-cakes",
+                        "name": "Layer Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/pig-pickin-cake",
+                        "name": "Pig Pickin&#39; Cake"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can I substitute the boxed cake mix for homemade yellow cake layers?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If you have a yellow or white cake recipe you love, feel free to substitute the boxed cake mix. Just skip the water, oil, and eggs called for in this recipe, and stir in mandarin oranges, as directed, before baking.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I substitute the frozen whipped topping for whipped cream?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Frozen whipped topping is more stable than whipped cream, and helps the frosting stand up well between cake layers. It also lasts in the refrigerator without breaking down for a longer period of time, so we do not recommend substituting.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I keep my layer cake from sliding?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>For a perfectly stacked layer cake, be sure to cool the cake layers completely before frosting. Refrigerating or freezing the layers before stacking is a baker&#39;s trick that helps keep everything in place.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

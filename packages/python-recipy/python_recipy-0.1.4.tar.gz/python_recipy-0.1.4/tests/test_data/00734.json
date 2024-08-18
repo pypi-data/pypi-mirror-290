@@ -1,0 +1,441 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022815-raisin-cinnamon-roll-wreath#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022815-raisin-cinnamon-roll-wreath",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/12/15/dining/13BREAKFASTREX3/merlin_198975474_e26cad40-6d27-4533-b4ff-421afe86ae82-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022815-raisin-cinnamon-roll-wreath",
+    "name": "Raisin Cinnamon Roll Wreath",
+    "description": "Perfume the house and decorate the table with this whimsical wreath made of buttery, sweet cinnamon rolls. Arranging the rolls into a ring makes it easy to tear away individual servings. The extra protein in bread flour yields a sturdier dough that’s easier to shape, but all-purpose flour works too. If you assemble these a day ahead and refrigerate them overnight before baking them the next morning, be sure to let the rolls rise three-quarters of the way before placing them in the fridge. A few hours before baking, allow them to come to room temperature on the counter. Have fun, and complete the wreath decoration with dehydrated orange wheels, cinnamon sticks, sugar-dusted cranberries or even a red ribbon bow.",
+    "author": {
+        "@type": "Person",
+        "name": "Jerrelle Guy"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/12/15/dining/13BREAKFASTREX3/merlin_198975474_e26cad40-6d27-4533-b4ff-421afe86ae82-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/15/dining/13BREAKFASTREX3/merlin_198975474_e26cad40-6d27-4533-b4ff-421afe86ae82-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/15/dining/13BREAKFASTREX3/merlin_198975474_e26cad40-6d27-4533-b4ff-421afe86ae82-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/12/15/dining/13BREAKFASTREX3/13BREAKFASTREX2-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT4H",
+    "recipeYield": "About 2 dozen rolls",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "christmas, new year’s day, cream cheese, ground cinnamon, raisins",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 241
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 301,
+        "unsaturatedFatContent": "3 grams",
+        "carbohydrateContent": "46 grams",
+        "cholesterolContent": null,
+        "fatContent": "12 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "6 grams",
+        "saturatedFatContent": "6 grams",
+        "sodiumContent": "152 milligrams",
+        "sugarContent": "25 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "4 cups/540 grams bread flour or all-purpose flour, plus more for dusting",
+        "1/4 cup/50 grams granulated sugar",
+        "4 1/2 teaspoons/14 grams instant (fast-acting) yeast (2 packets)",
+        "1 teaspoon coarse kosher salt",
+        "6 tablespoons/78 grams unsalted butter, plus more for greasing",
+        "2/3 cup/171 grams whole milk",
+        "2 large eggs, at room temperature, beaten",
+        "3 cups/480 grams dark raisins",
+        "2 teaspoons almond extract",
+        "2/3 cup/70 grams finely ground almond meal or flour",
+        "2/3 cup/150 grams packed light brown sugar",
+        "2 tablespoons ground cinnamon",
+        "1/2 teaspoon coarse kosher salt",
+        "8 tablespoons/114 grams unsalted butter, softened",
+        "2 tablespoons whole milk",
+        "1 tablespoon granulated sugar",
+        "4 ounces/115 grams cream cheese, softened",
+        "2 tablespoons unsalted butter, softened",
+        "1/2 cup/60 grams confectioners’ sugar",
+        "1 teaspoon pure vanilla extract",
+        "3 tablespoons whole milk, plus more as needed"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the dough: In the bowl of a stand mixer fitted with the dough hook attachment, combine the flour, granulated sugar, yeast and salt. Toss with your hands to mix."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a small saucepan, melt the butter over medium heat. Once it’s melted, add the milk and remove from the heat. The mixture should register 125 to 130 degrees on an instant-read thermometer, so let it cool or warm it as needed. It should feel warm to the touch, but not be hot. Pour the warmed milk mixture into the flour mixture, along with the beaten eggs. Turn the mixer to medium-low speed, and knead until the flour has been fully incorporated and you're left with a smooth, supple dough that's firm to the touch, about 5 minutes. (When you press it with your thumb, the dough should spring back gradually.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Gather the dough and shape it into a round ball in your hands, then transfer to a large, lightly buttered bowl, turning over a couple times to coat with the butter. Cover the bowl tightly with plastic wrap or a damp kitchen towel and let rise in a warm place until doubled in size, about 1 hour."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the dough is rising, prepare the filling: Place the raisins in a large heatproof bowl and cover with boiling water. Allow to sit for 10 minutes to plump, then drain, and return to the bowl. Add the almond extract and toss with a spoon to coat. Set aside to cool, about 20 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a medium bowl, combine the almond flour, brown sugar, cinnamon and salt mixing with a fork or your hands to remove any clumps. Set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Fill and assemble the dough: Lightly flour a clean working surface, and a large baking sheet lined with parchment paper nearby. Cut the risen dough in half with a pair of kitchen shears. Place one half of the dough on the floured surface, keeping the other half covered in the bowl. Lightly flour a rolling pin and roll the dough out to a 12-by-9-inch rectangle (about 1/4 inch thick), picking up the dough to stretch and turn it with your hands to make the edges as straight and even as possible. Spread 4 tablespoons of butter evenly over the entire surface using the back of a spoon. Evenly sprinkle over half the almond mixture, spreading with your hands to cover every inch. Firmly pat the mixture down to help it adhere to the butter. Evenly sprinkle over half of the raisins, pressing down firmly to help keep them in place."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Starting with one of the longer edges, tightly roll the dough into a log ending with the seam side down on the counter pressing the log down firmly to help seal the seam closed. The log will feel very stuffed. Wipe down and re-flour the work surface, then repeat with the other half of the dough and the remaining 4 tablespoons butter, almond mixture and raisins."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Carefully transfer the two rolled logs, seam side down, to the lined sheet pan and arrange together to form an oval or circle with their ends barely touching. Using kitchen shears with the point of the shears facing down toward the counter, cut slits into the ring roughly 1 inch apart, being careful not to cut all the way through the ring by leaving a 1/2 inch dough still attached at the bottom. One by one, lean every other rolled piece outward away from the center of the ring, creating a staggered look. Make any final adjustments to the shape that you like, turning some rolls up slightly to create air between them and filling out the baking sheet, being sure to keep a rough circular or oval shape."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Loosely cover the entire pan with plastic wrap and allow it to rest on the counter until slightly puffed, 30 to 40 minutes. (At this point, you can refrigerate the dough overnight: Wrap the entire pan of slightly proofed rolls very well in plastic wrap, being sure not to squish the rolls, but ensuring the wrapping is airtight. Chill for up to 12 hours. Remove the pan from the fridge and place them on the counter for an hour or so before you’re ready to bake them, so they come to room temperature.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 350 degrees. In a small bowl, stir the milk and the granulated sugar with a spoon until the sugar dissolves. Uncover the risen rolls. Using a pastry brush, brush the tops of the rolls with the milk wash."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake for 25 to 30 minutes, rotating the pan halfway through, until the wreath is deeply golden brown on top and the edges of the rolls are puffed and cooked through. Remove the rolls from the oven and place the sheet pan on a cooling rack, and allow to cool for 30 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When the rolls are almost done cooling, make the icing: In a medium bowl, using a fork, mix the cream cheese and butter. Add the confectioners’ sugar and mix until smooth and most of the clumps of sugar are gone. Add the vanilla and milk and mix. The icing should be thin enough to drizzle. If it isn’t, mix in another tablespoon of milk."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "With your serving platter nearby, carefully lift the wreath using the parchment and lower onto the platter with the paper. Tear the parchment down the center and along the edges, then carefully pull out the paper without disturbing the wreath. Decorate the finished wreath with the icing: Drizzle it over the top with a fork or transfer to a piping bag with a small tip or a resealable plastic bag with a corner cut open to pipe thin lines along the tops of the rolls. Or smear the icing all over the tops of the rolls using a butter knife. Decorate with a ribbon, or dried or sugared fruit. Serve warm."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane K. Martin"
+            },
+            "reviewBody": "This is very similar to the maple pecan Christmas wreath that was in Gourmet magazine decades ago and has been a holiday tradition in my family. No raisins are used; the filling is maple syrup and brown sugar and pecans—but not much maple syrup. It does run during baking, so I always make it on parchment paper on the baking sheet. This wreath is a bread, not a cake, so it requires no icing, just egg for a shine. You put it in your refrigerator on Xmas Eve afternoon and bake it Xmas morning.",
+            "datePublished": "2022-03-06T01:11:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbs"
+            },
+            "reviewBody": "I found the dough to be more bread like too dry. Difficult to manage. Filling not moist enough.",
+            "datePublished": "2022-01-25T01:09:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pam"
+            },
+            "reviewBody": "We aren’t cream cheese fans, so I make a glaze of lemon juice and icing sugar instead of the icing.  The lemon is a great contrast to the sweetness.",
+            "datePublished": "2022-01-02T17:10:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cindyqwho"
+            },
+            "reviewBody": "For the filling i used half raisins and half chopped walnuts. For my next attempt, i am putting a thin layer of jam on the dough before the filling. Its a delicious and easy recipe.",
+            "datePublished": "2022-01-01T04:11:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ferrisanne"
+            },
+            "reviewBody": "This filling reminded me so much of mincemeat pie flavors - I am happy to have made it. The milk bread that surrounds it came out rather brick like - not a soft dough once baked. Almost like a pie crust !",
+            "datePublished": "2021-12-28T02:08:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "I think the almond extract was a bit overwhelming. I think next time I’ll leave the extract out and consider plumbing the raisins with rum instead of water",
+            "datePublished": "2021-12-25T22:15:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tom L"
+            },
+            "reviewBody": "This is very similar to Swedish Tea Ring both in ingredients and how to assemble. There are some good how to videos on Youtube",
+            "datePublished": "2021-12-25T16:52:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "Turned out brilliantly, not too sweet which was good. The almond extract added a very interesting note to the flavours. Will make this again, loved it!",
+            "datePublished": "2021-12-25T15:09:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tami"
+            },
+            "reviewBody": "Good but too many raisins for me. Next time I make it I’m reducing the amount by half.",
+            "datePublished": "2021-12-25T14:05:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa"
+            },
+            "reviewBody": "These comments are for a different recipe?",
+            "datePublished": "2021-12-25T14:01:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michal"
+            },
+            "reviewBody": "For the filling, you can replace the almond flour with matzo meal and the raisins with Solo brand poppyseed filling.",
+            "datePublished": "2021-12-25T12:51:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katy"
+            },
+            "reviewBody": "Think I could make this ahead of time and then freeze it? If so, warm in the oven Christmas morning? Thoughts??",
+            "datePublished": "2021-12-19T21:24:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kevin"
+            },
+            "reviewBody": "raisins aren't your thing? use dried cherries, cranberries, blueberries.. all good.",
+            "datePublished": "2021-12-19T23:23:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "Mix one part fresh cranberries and the other half craisins",
+            "datePublished": "2021-12-19T23:22:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eileen from New England"
+            },
+            "reviewBody": "It's generally easier to direct the cut just as you like with scissors. A very sharp paring knife would work, but in that case, I would stop and re-hone it a few times along the way.",
+            "datePublished": "2023-08-24T16:04:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tim W"
+            },
+            "reviewBody": "This recipe looks delicious. Is there a particular reason why kitchen shears are necessary (rather than a knife)?",
+            "datePublished": "2021-12-15T18:58:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "michelle"
+            },
+            "reviewBody": "we have a nut allergy in the house. Can I just add extra flour to replace the almond flour? or something else?",
+            "datePublished": "2021-12-15T14:23:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amanda"
+            },
+            "reviewBody": "This would be beautiful on the Christmas breakfast table. My family doesn't love raisins. Some of you who are great at making recipes your own might have an alternate suggestion.",
+            "datePublished": "2021-12-15T16:58:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "YvonneCPA"
+            },
+            "reviewBody": "It would be great to see a video of how this is put together and ultimately shaped.",
+            "datePublished": "2021-12-17T02:26:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann M."
+            },
+            "reviewBody": "Does your family like any kind of dried fruit? If yes, I would suggest subbing plumped and chopped dried apricots, prunes, or maybe even cherries. But if they hate all dried fruits, you might have to find a different recipe (or just increase the amount of the nut mixture... it looks like the recipe as written makes a very full roll, so decreasing the total volume of filling slightly probably wouldn't hurt).",
+            "datePublished": "2021-12-15T17:18:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "reviewBody": "I don't mind raisins, but all raisins seems like a lot.  I think a mixture of dried fruits would be nice - dried apples, cranberries, chopped apricots, & raisins would be really good.",
+            "datePublished": "2021-12-16T14:14:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jt"
+            },
+            "reviewBody": "The picture looks as it’s decorated with cranberries. So dried cranberries would work too. I’m going to do it with dried med apricots (chopped).",
+            "datePublished": "2021-12-15T19:01:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "GMag -- The \"or flour\" refers to \"almond flour\" instead of \"almond meal,\" not regular or bread flour.",
+            "datePublished": "2021-12-15T20:25:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathy Swetzoff"
+            },
+            "reviewBody": "Try dried blueberries,  dates chopped, cranberries,  chopped dried apricots etc.",
+            "datePublished": "2021-12-16T13:41:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrew"
+            },
+            "reviewBody": "If you have a nut allergy, you can find other cinnamon roll recipes that are but free. We’ve made the NYT Cooking, “Overnight Cinnamon Roll” recipe for years. Cutting it into a wreath shape is the twist with this one. I’ve also made a similar pastry with croissant dough that was called a “Princess Roll.” More work, but does not disappoint.",
+            "datePublished": "2021-12-16T14:00:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Casimira"
+            },
+            "reviewBody": "I also have a nut allergy and I think I will try it with some oat flour",
+            "datePublished": "2021-12-15T17:40:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christine"
+            },
+            "reviewBody": "I noticed the same in the photo and I would also prefer cranberry or apricot.",
+            "datePublished": "2021-12-15T21:02:52.000Z"
+        }
+    ]
+}

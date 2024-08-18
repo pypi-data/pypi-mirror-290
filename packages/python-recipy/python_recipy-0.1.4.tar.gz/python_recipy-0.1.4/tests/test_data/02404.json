@@ -1,0 +1,69 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Minestrone with Italian Sausage",
+    "keywords": "minestrone with italian sausage",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/i91bzLoQOUyqilT_B3wZHQ_webp_base.webp?v=02414901&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Need a hearty warmer-upper? Make a one-pot soup packed with meat, beans and pasta to satisfy hungry appetites.",
+    "recipeIngredient": [
+        "1  tablespoon olive or vegetable oil",
+        "1  lb bulk sweet Italian sausage",
+        "1  medium onion, chopped (1/2 cup)",
+        "2  medium carrots, coarsely chopped (1 cup)",
+        "2  teaspoons dried basil leaves",
+        "2  teaspoons finely chopped garlic",
+        "5 1/4  cups Progresso™ beef flavored broth (from two 32-oz cartons)",
+        "1  can (14.5 oz) Muir Glen™ organic diced tomatoes, undrained",
+        "1  can (15.5 oz) great northern beans, drained, rinsed",
+        "1  cup uncooked small elbow macaroni (3 1/2 oz)",
+        "1  medium zucchini, cut lengthwise in half, then cut into 1/4-inch slices (1 cup)",
+        "1  cup frozen cut green beans"
+    ],
+    "totalTime": "PT0H45M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "7",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "17",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 5-quart Dutch oven, heat oil over medium-high heat. Add sausage, onion, carrots, basil and garlic; cook 5 to 7 minutes, stirring frequently, until sausage is no longer pink; drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir broth, tomatoes and great northern beans into sausage mixture. Heat to boiling. Reduce heat to medium-low; cover and cook 7 to 8 minutes, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in macaroni, zucchini and frozen green beans. Heat to boiling. Cook over medium-high heat 5 to 6 minutes, stirring occasionally, until vegetables are hot and macaroni is tender."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "380 ",
+        "carbohydrateContent": "38 g",
+        "cholesterolContent": "25 mg",
+        "fatContent": "1 1/2 ",
+        "fiberContent": "6 g",
+        "proteinContent": "20 g",
+        "saturatedFatContent": "5 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1400 mg",
+        "sugarContent": "5 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "02/13/2004",
+    "dateModified": "06/14/2012"
+}

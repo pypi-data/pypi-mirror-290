@@ -1,0 +1,67 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Fiesta Taco Casserole",
+    "keywords": "fiesta taco casserole",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Mexican",
+    "image": "https://mojo.generalmills.com/api/public/content/z9oq3rgprUSfy93gVP74vw_webp_base.webp?v=62d8857a&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Have a flavor fiesta with taco fixin's baked into a casserole.",
+    "recipeIngredient": [
+        "1  lb lean (at least 80%) ground beef",
+        "1  can (15 to 16 oz) spicy chili beans in sauce, undrained",
+        "1  cup thick & chunky salsa",
+        "2  cups coarsely broken tortilla chips",
+        "4  medium green onions, sliced (1/4 cup)",
+        "1  medium tomato, chopped (3/4 cup)",
+        "1  cup shredded Cheddar or Monterey Jack cheese (4 oz)",
+        "  Tortilla chips, if desired",
+        "  Shredded lettuce, if desired",
+        "  Additional thick & chunky salsa, if desired"
+    ],
+    "totalTime": "PT0H45M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "129",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. In 10-inch skillet, cook beef over medium heat 8 to 10 minutes, stirring occasionally, until brown; drain. Stir in beans and 1 cup salsa. Heat to boiling, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In ungreased 2-quart casserole, place broken tortilla chips. Top with beef mixture. Sprinkle with onions, tomato and cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake uncovered 20 to 30 minutes or until hot and bubbly. Arrange tortilla chips around edge of casserole. Serve with lettuce and additional salsa."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "530 ",
+        "carbohydrateContent": "36 g",
+        "cholesterolContent": "100 mg",
+        "fatContent": "1 ",
+        "fiberContent": "7 g",
+        "proteinContent": "35 g",
+        "saturatedFatContent": "11 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1540 mg",
+        "sugarContent": "7 g",
+        "transFatContent": "1 g"
+    },
+    "dateCreated": "01/17/2001",
+    "dateModified": "09/14/2015"
+}

@@ -1,0 +1,171 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Beef Jerky Recipe | Cook the Book",
+    "datePublished": "2010-09-29T08:45:00.000-04:00",
+    "dateModified": "2018-08-09T14:24:27.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Caroline Russock",
+            "url": "https://www.seriouseats.com/caroline-russock-5118590"
+        }
+    ],
+    "description": "This recipe for Beef Jerky wasn&#39;t exactly what I had in mind, but after seeing the thin slices of grass-fed top round laid out behind glass, I knew that it was meant to be.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/DYZdFBrNAmtvQFtsf5UVgRoD6qU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20100929beefjerky-39d0d9fcbaa8474dbc758279768f5d93.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Beef Jerky Recipe | Cook the Book",
+    "cookTime": "PT240M",
+    "keywords": "beef, beef jerky, Cook the Book, Deborah Krasner, Good Meat, jerky",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "11 kcal",
+        "carbohydrateContent": "0 g",
+        "cholesterolContent": "3 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "31 mg",
+        "sugarContent": "0 g",
+        "fatContent": "1 g",
+        "servingSize": "about 45 pieces",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1/2 pound boneless grass-fed beef top round or sirloin tip roast, fat trimmed, partially frozen",
+        "1/4 cup Worcestershire sauce",
+        "2 tablespoons water",
+        "1 garlic clove, finely chopped",
+        "1 teaspoon chili powder",
+        "1/2 teaspoon ground dried chipotle",
+        "1/2 teaspoon freshly ground black pepper",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon cayenne"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Using a meat slicer or a food processor, cut the partially frozen meat into thin strips about 1/8 inch thick and as long as possible."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Choose a medium bowl and mix the Worcestershire sauce, water, chopped garlic, chili powder, chipotle, black pepper, salt, and cayenne. Put the meat strips into this marinade and turn everything over with your hands. Cover the bowl with plastic wrap and refrigerate overnight to allow the flavors to blend and penetrate the meat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "The next day, heat the oven to 175°F. Line 2 baking pans with foil. Arrange the meat strips side by side on the pans, discarding any bits of garlic and blotting off any liquid clinging to the meat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slow-roast the strips for 3 hours, then turn them over and roast for another hour or two more. The goal is a leathery texture that is still pliable . The jerky will keep, refrigerated, for 3 weeks. It is stable enough to pack in lunches or for trips as long as a day without refrigeration."
+        }
+    ],
+    "recipeYield": "45",
+    "totalTime": "PT980M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bendem"
+            },
+            "reviewBody": "I initially wrote that this recipe seemed bland, but then I realized I doubled the amount of meat without doubling the accompanying ingredients. I'd like to delete my comment but don't see an option to do so. Moderators: please delete if possible. Thanks."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MattKeys"
+            },
+            "reviewBody": "Any reason this has to be refrigerated? I thought one of the great things about jerky is that it is shelf stable? Anything I could change about this recipe to make it shelf stable?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jwink3101"
+            },
+            "reviewBody": "@PommeDG, I think you're mixing *fluid* ounces (volume measure) and ounces (weight measure). \n\n1/6 fl. oz does equal 1 tsp"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PommeDG"
+            },
+            "reviewBody": "45 pieces from 8 ounces of meat? That's about 1/6 of an ounce per (roughly a teaspoon). Is that accurate?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nickiter"
+            },
+            "reviewBody": "I'm 2 hours into roasting these, and they smell incredible! I can't wait to taste the finished product."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/beef-jerky-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/recipes-by-course-5117906",
+                        "name": "Recipes By Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/snack-appetizer-recipes-5117792",
+                        "name": "Snacks & Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/beef-jerky-recipe",
+                        "name": "Beef Jerky Recipe | Cook the Book"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Brownie-Cookie Cupcakes",
+    "keywords": "brownie-cookie cupcakes",
+    "recipeCategory": "Dessert",
+    "image": "https://mojo.generalmills.com/api/public/content/-V2e_GitIkqsb2gl8Amijw_webp_base.webp?v=4d1d3cc9&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "We used Betty Crocker™ chocolate chip cookie mix and Betty Crocker™ Supreme original brownie mix to create our delectable brownie-cookie cupcakes. Top with Betty Crocker™ Rich & Creamy chocolate frosting.",
+    "recipeIngredient": [
+        "1  pouch (17.5 oz) Betty Crocker™ Chocolate Chip Cookie Mix",
+        "1/2  cup butter, softened",
+        "3  eggs ",
+        "1  box (16 oz) Betty Crocker™ Delights Supreme Original Brownie Mix",
+        "3  tablespoons water",
+        "1/3  cup vegetable oil",
+        "1  cup from 1 tub (16 oz) Betty Crocker™ Rich & Creamy Chocolate Frosting"
+    ],
+    "totalTime": "PT1H55M",
+    "prepTime": "PT0H40M",
+    "recipeYield": "12",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "6",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Jessica Walker"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 375°F. Place paper baking cup in each of 12 regular-size muffin cups. Make cookie dough as directed on pouch, using butter and 1 of the eggs."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make brownie batter as directed on box, using water, oil and remaining 2 eggs for cakelike brownies."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 1 tablespoon cookie dough in bottom of each muffin cup. Using teaspoon sprayed with cooking spray, press cookie dough to flatten in bottom of each cup. Cover and refrigerate remaining cookie dough until ready to use. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top cookie dough in each cup with 3 tablespoons brownie batter. Bake 22 to 25 minutes or until toothpick inserted in center comes out almost clean. Cool 5 minutes; remove from pan to cooling rack. Cool completely, about 45 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, drop remaining cookie dough by rounded teaspoonfuls 2 inches apart on ungreased cookie sheets. Bake 8 to 10 minutes or until edges are light golden brown. Cool 1 minute; remove from cookie sheet to cooling rack. Cool completely, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread cupcakes with frosting. Crumble 3 baked cookies; sprinkle over frosted cupcakes."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "390 ",
+        "carbohydrateContent": "64 g",
+        "cholesterolContent": "30 mg",
+        "fatContent": "2 1/2 ",
+        "fiberContent": "1 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "4 g",
+        "servingSize": "1 Cupcake",
+        "sodiumContent": "280 mg",
+        "sugarContent": "44 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "03/25/2012",
+    "dateModified": "04/27/2019"
+}

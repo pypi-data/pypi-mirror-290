@@ -1,0 +1,298 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Avocado-Egg Toast",
+    "datePublished": "2018-08-03T22:23:51.000-04:00",
+    "dateModified": "2024-04-19T15:37:31.583-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ellen Davis",
+            "url": "https://www.eatingwell.com/author/ellen-davis/"
+        },
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "Try it once and we think you&#39;ll agree: Topping avocado toast with an egg is a near-perfect breakfast.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/uVY_gqoovBnnh0ELyntL-vhKLIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-267169-avocado-egg-toast-Hero-01-9385a3b6112b409b944e04d1cb6a9733.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/95s5iOAx-ZrSBkzFI.mp4",
+        "description": "Try it once and we think you'll agree: Topping avocado toast with an egg is a near-perfect breakfast.",
+        "duration": "PT52S",
+        "name": "How to make Avocado-Egg Toast",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/95s5iOAx/poster.jpg?width=720",
+        "uploadDate": "2020-10-21T13:16:05.415-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Avocado-Egg Toast",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "26"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "271 kcal",
+        "carbohydrateContent": "18 g",
+        "cholesterolContent": "186 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "12 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "216 mg",
+        "sugarContent": "2 g",
+        "fatContent": "18 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "0.25 avocado",
+        "0.25 teaspoon ground pepper",
+        "0.125 teaspoon garlic powder",
+        "1 slice whole-wheat bread, toasted",
+        "1 large egg, fried",
+        "1 teaspoon Sriracha",
+        "1 tablespoon scallion, sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.eatingwell.com/thmb/WOHob3pOme73k20jqbm-K1Xjj3k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-267169-avocado-egg-toast-Step-03-B-0bcf6a70701e416c85464e1e28b0fc50.jpg"
+                }
+            ],
+            "text": "Combine avocado, pepper and garlic powder in a small bowl and gently mash."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.eatingwell.com/thmb/uVY_gqoovBnnh0ELyntL-vhKLIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-267169-avocado-egg-toast-Hero-01-9385a3b6112b409b944e04d1cb6a9733.jpg"
+                }
+            ],
+            "text": "Top toast with the avocado mixture and fried egg. Garnish with Sriracha and scallion, if desired."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT5M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "yurrabazaingmailcom"
+            },
+            "reviewBody": "This is a regular breakfast for my family. The bread choice can really make this dish have variation. Seedy breads are delightful. We especially like topping this with hot chilli crisps."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "P Barrios"
+            },
+            "reviewBody": "This is my new go-to breakfast! It was delicious. Followed it almost exactly but used a whole grain sour dough bread and a bit of salt in avocado. 😬",
+            "datePublished": "2024-06-04T15:35:22.854Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "DeAnna Jaramillo"
+            },
+            "reviewBody": "It looks delicious, quick, and easy to make for when I'm in a hurry.",
+            "datePublished": "2024-06-03T15:28:20.328Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I sometimes add a little bit of lime juice to the avocado cause it makes it more creamy.",
+            "datePublished": "2024-06-03T03:21:45.514Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "cronus titan"
+            },
+            "reviewBody": "Bread is not low carb nor appropriate for an anti-inflammatory diet. It has a high glycemic index and is converted to sugar in the body, often faster than pure glucose.",
+            "datePublished": "2024-05-30T13:54:48.609Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I have love this with arugula, blue cheese, and a medium poached egg with everything bagel seasoning, on 12 grain toast, from my favorite breakfast cafe. I add a thin slice of tomato at home.",
+            "datePublished": "2024-05-19T03:01:57.950Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "yurrabazaingmailcom"
+            },
+            "reviewBody": "This is a regular breakfast for my family. The bread choice can really make this dish have variation. Seedy breads are delightful. We especially like topping this with hot chilli crisps.",
+            "datePublished": "2024-05-11T02:22:36.741Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "It was absolutely perfect",
+            "datePublished": "2024-02-05T21:09:19.185Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "My eggs are cooked overeasy and drizzled with olive oil. Best and longest filling breakfast ever! Only takes 5 mins to make so there is no excuse not to eat breakfast.",
+            "datePublished": "2024-01-01T01:38:45.769Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mary Harper"
+            },
+            "reviewBody": "This was so good thank you for a healthy breakfast idea.",
+            "datePublished": "2023-12-19T13:33:45.743Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/267169/avocado-egg-toast/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18662/mealtimes/breakfast-brunch/toast/",
+                        "name": "Toast"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22587/mealtimes/breakfast-brunch/toast/avocado/",
+                        "name": "Avocado Toast"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/267169/avocado-egg-toast/",
+                        "name": "Avocado-Egg Toast"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            }
+        ],
+        "lastReviewed": "2024-04-19T15:37:31.583-04:00"
+    }
+}

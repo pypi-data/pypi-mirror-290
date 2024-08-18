@@ -1,0 +1,61 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Tabbouleh Salad",
+    "keywords": "tabbouleh salad",
+    "recipeCategory": "Side Dish",
+    "recipeCuisine": "Middle Eastern",
+    "image": "https://mojo.generalmills.com/api/public/content/WEqm_s2U4EeuZZCzD2zZNA_webp_base.webp?v=4b49b8bf&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Enjoy this mint- and parsley-flavored couscous salad.",
+    "recipeIngredient": [
+        "1  cup Progresso™ chicken broth (from 32-oz carton) or vegetable broth",
+        "1/2  cup uncooked couscous",
+        "1  small cucumber, chopped (1 cup)",
+        "1  medium onion, finely chopped (1/2 cup)",
+        "1  small tomato, chopped (1/2 cup)",
+        "1/2  cup chopped fresh parsley",
+        "1/4  cup lime juice",
+        "2  tablespoons chopped fresh mint leaves",
+        "2  tablespoons vegetable oil",
+        "1/2  teaspoon salt"
+    ],
+    "totalTime": "PT1H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "7",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat broth to boiling in 2-quart saucepan. Stir in couscous; remove from heat. Cover and let stand 5 to 10 minutes or until liquid is absorbed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix couscous and remaining ingredients in large glass or plastic bowl. Cover and refrigerate at least 1 hour to blend flavors. "
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "170  ",
+        "carbohydrateContent": "22  g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "1 1/2 ",
+        "fiberContent": "2  g",
+        "proteinContent": "5  g",
+        "saturatedFatContent": "1  g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "560  mg"
+    },
+    "dateCreated": "01/01/2004",
+    "dateModified": "11/04/2008"
+}

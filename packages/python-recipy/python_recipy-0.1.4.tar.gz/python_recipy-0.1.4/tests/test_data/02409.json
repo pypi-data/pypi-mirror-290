@@ -1,0 +1,57 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Pesto Tuna Wrap",
+    "keywords": "pesto tuna wrap",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/XiQLACgQ906WKRG_DAKfkg_webp_base.webp?v=163094c3&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "A big wrap stuffed full of basil-flavored tuna salad and topped with savory provolone cheese and Greek olives.",
+    "recipeIngredient": [
+        "1  can (5 oz) tuna in water, drained, flaked",
+        "2  tablespoons mayonnaise or salad dressing",
+        "1  tablespoon basil pesto",
+        "1  teaspoon lemon juice",
+        "1/8  teaspoon pepper",
+        "1  (10 inch) flour tortilla, heated as directed on package",
+        "2  leaves leaf lettuce",
+        "1  slice provolone cheese, cut in half",
+        "5  kalamata olives, cut in half"
+    ],
+    "totalTime": "PT0H10M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "1",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "2",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In bowl, gently stir together tuna, mayonnaise, pesto, lemon juice and pepper until well mixed. Spread tuna mixture on tortilla; top with lettuce, cheese and olives. Fold bottom of tortilla up about 2 inches to enclose filling; roll tortilla tightly into compact wrap."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "660 ",
+        "carbohydrateContent": "28 g",
+        "cholesterolContent": "65 mg",
+        "fatContent": "4 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "45 g",
+        "saturatedFatContent": "9 g",
+        "servingSize": "1 Wrap",
+        "sodiumContent": "950 mg",
+        "sugarContent": "2 g",
+        "transFatContent": "1 g"
+    },
+    "dateCreated": "12/15/2009",
+    "dateModified": "10/27/2010"
+}

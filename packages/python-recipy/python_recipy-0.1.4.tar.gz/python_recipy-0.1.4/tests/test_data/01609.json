@@ -1,0 +1,102 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Spinach Egg Drop Soup",
+    "datePublished": "2013-12-06T18:51:14.000-05:00",
+    "dateModified": "2016-02-16T16:58:39.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sang Yoon",
+            "url": "https://www.foodandwine.com/author/sang-yoon"
+        }
+    ],
+    "description": "&#34;A few years ago,&#34; Sang Yoon recalls, &#34;I caught a cold and my friend Sal Marino of Il Grano invited me for a bowl of stracciatella alla romana, the It...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/1ncMk2LePvrbOT-YjELJf2-WI28=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201002-xl-spinach-eggdrop-soup-2000-7d35468e970744e494cb9d3f4eefc944.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Spinach Egg Drop Soup",
+    "recipeIngredient": [
+        "5 cups chicken stock or low-sodium broth",
+        "One 3-inch piece of fresh ginger—2 inches thinly sliced, 1 inch peeled and julienned",
+        "1 teaspoon freshly ground white pepper",
+        "2 large eggs, lightly beaten",
+        "2 cups packed spinach leaves, with stems",
+        "Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, bring the chicken stock to a boil with the sliced ginger and 1/2 teaspoon of the white pepper. Cover and simmer over low heat for 5 minutes. Strain and return the stock to the saucepan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the julienned ginger to the stock and return the stock to a boil. Reduce the heat to low. Gently stir in the eggs, breaking them into long strands, and cook for about 30 seconds. Stir in the spinach and remove from the heat. Season with salt and the remaining 1/2 teaspoon of white pepper. Ladle into bowls and serve right away."
+        }
+    ],
+    "totalTime": "PT15M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/spinach-egg-drop-soup",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup",
+                        "name": "Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/spinach-egg-drop-soup",
+                        "name": "Spinach Egg Drop Soup"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,143 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mini Pizza Bites",
+    "datePublished": "2008-12-15T02:33:35.000-05:00",
+    "dateModified": "2021-06-28T16:01:43.635-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Linda Larsen",
+            "url": "https://www.thespruceeats.com/linda-larsen-474734"
+        }
+    ],
+    "description": "Mini pizza bites are a quick and tasty recipe made with frozen fillo shells and pizza sauce that is the perfect appetizer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/oUk6EW1MKXDKm3Ag1qenHd-v-8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Mini-Pizza-Bites-58a727ce5f9b58a3c9556fb7.jpg",
+        "height": 2250,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Mini Pizza Bites",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "15"
+    },
+    "cookTime": "PT18M",
+    "keywords": "Mozzarella",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "694 kcal",
+        "carbohydrateContent": "124 g",
+        "cholesterolContent": "14 mg",
+        "fiberContent": "7 g",
+        "proteinContent": "26 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "220 mg",
+        "sugarContent": "3 g",
+        "fatContent": "9 g",
+        "servingSize": "30 Bites (6 to 8 servings)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1/3 cup pizza sauce",
+        "3 tablespoons minced green onions",
+        "1/4 cup pepperoni slices, cubed",
+        "1/2 cup diced mozzarella cheese",
+        "1/4 cup grated Parmesan cheese",
+        "30 frozen mini filo shells"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine the pizza sauce green onions, pepperoni, and mozzarella cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fill filo shells with this mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top the filo shells with the Parmesan cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the little filo shells for 15 to 20 minutes or until cheese is melted and cups are bubbly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let stand 5 minutes, then serve."
+        }
+    ],
+    "recipeYield": [
+        "8",
+        "30 mini pizzas"
+    ],
+    "totalTime": "PT28M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/mini-pizza-bites-478737",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/breads-4162750",
+                        "name": "Breads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/pizza-dough-4162742",
+                        "name": "Pizza Dough"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/mini-pizza-bites-478737",
+                        "name": "Mini Pizza Bites"
+                    }
+                }
+            ]
+        }
+    }
+}

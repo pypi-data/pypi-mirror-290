@@ -1,0 +1,57 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Hamburger Gravy",
+    "keywords": "hamburger gravy",
+    "recipeCategory": "Condiment",
+    "image": "https://mojo.generalmills.com/api/public/content/oGYONbUmj0qLXhKX9Dbvtw_webp_base.webp?v=eadc3598&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "15 minutes and two steps are all you need to prepare this flavorful beef gravy that adds instant zing to almost anything!",
+    "recipeIngredient": [
+        "1  lb. lean ground beef",
+        "1/2  cup chopped onion",
+        "3  tablespoons all purpose or unbleached flour",
+        "1  tablespoon beef-flavor instant bouillon",
+        "2  tablespoons steak sauce",
+        "2  cups milk"
+    ],
+    "totalTime": "PT0H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "141",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In large skillet, cook ground beef and onion over medium-high heat until beef is thoroughly cooked, stirring frequently."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in flour, bouillon and steak sauce. Gradually stir in milk. Cook and stir 4 to 6 minutes or until mixture boils and thickens, stirring frequently. If desired, serve over mashed potatoes or cooked rice."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "390 ",
+        "carbohydrateContent": "14 g",
+        "cholesterolContent": "95 mg",
+        "fatContent": "1 1/2 ",
+        "fiberContent": "1 g",
+        "proteinContent": "26 g",
+        "saturatedFatContent": "11 g",
+        "servingSize": "3/4 Cup",
+        "sodiumContent": "940 mg",
+        "sugarContent": "8 g"
+    },
+    "dateCreated": "08/10/2001",
+    "dateModified": "11/25/2010"
+}

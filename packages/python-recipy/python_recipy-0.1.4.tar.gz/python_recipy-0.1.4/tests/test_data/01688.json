@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Open-Faced Buckwheat Crêpes with Tuna, Arugula and Dijon Vinaigrette",
+    "datePublished": "2013-12-06T18:39:29.000-05:00",
+    "dateModified": "2015-12-03T15:07:05.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Phoebe Lapine",
+            "url": "https://www.foodandwine.com/author/phoebe-lapine"
+        }
+    ],
+    "description": "Gluten-free buckwheat crêpes get topped with a delicious apple-studded tuna salad.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/1Gm_kPuq_7qmN6xQsMNpdc5-g0Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201310-r-xl-open-faced-buckwheat-crepes-with-tuna-arugula-and-dijon-vinaigrette-2000-77150b4853de49c4862c55efc48c3b71.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Open-Faced Buckwheat Crêpes with Tuna, Arugula and Dijon Vinaigrette",
+    "recipeIngredient": [
+        "3/4 cup buckwheat flour",
+        "2 large eggs, beaten",
+        "1 1/3 cups milk",
+        "8 ounces bonito tuna in olive oil, drained",
+        "1 small green apple, cored and cut into 1/4-inch dice",
+        "1 small shallot, minced",
+        "1/3 cup mayonnaise",
+        "1 tablespoon fresh lemon juice",
+        "1 tablespoon Dijon mustard",
+        "1 tablespoon red wine vinegar",
+        "Sea salt",
+        "1/4 cup olive oil, plus more for brushing",
+        "5 ounces arugula"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk the buckwheat flour with the eggs and half of the milk until lump-free. Add the remaining milk and whisk until smooth. Refrigerate the batter for 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in another medium bowl, mix the tuna with the apple, shallot, mayonnaise and lemon juice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, whisk the mustard with the vinegar and salt. Gradually whisk in the 1/4 cup of olive oil, then season the vinaigrette with salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Line a plate with wax paper. Heat an 8-inch nonstick skillet and lightly brush with olive oil. Add 1/4 cup of the batter to the skillet and swirl to coat the pan. Cook over moderate heat until the edges begin to pull away from the pan, 30 seconds to 1 minute. Flip the crêpe and cook 30 seconds to 1 minute longer. Transfer the crêpe to the prepared plate and repeat with the remaining batter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the tuna salad between the crêpes and top with the arugula. Drizzle with the vinaigrette and serve."
+        }
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/open-faced-buckwheat-crepes-with-tuna-arugula-and-dijon-vinaigrette",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood-main-course-7497015",
+                        "name": "Seafood Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/fish-main-course-7497018",
+                        "name": "Fish Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/open-faced-buckwheat-crepes-with-tuna-arugula-and-dijon-vinaigrette",
+                        "name": "Open-Faced Buckwheat Crêpes with Tuna, Arugula and Dijon Vinaigrette"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

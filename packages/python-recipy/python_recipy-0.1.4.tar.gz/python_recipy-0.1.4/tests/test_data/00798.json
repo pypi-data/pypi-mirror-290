@@ -1,0 +1,437 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019952-baked-buffalo-wings#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019952-baked-buffalo-wings",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/02/26/dining/26nymayor-food-wings/as-baked-buffalo-wings-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019952-baked-buffalo-wings",
+    "name": "Baked Buffalo Wings",
+    "description": "For chicken wings that come out of the oven as crisp and tender as their fried counterparts, coat the wings in salt and baking powder. The combination promotes even browning, crackly-crisp skin and moist, tender meat. (Do this for roast chicken, too!) Then, cook them directly under the high heat of the broiler, which renders fat and fuses the spicy buttery sauce to each wing. You can buy any combination of meaty drumettes, wingettes (flats) or wing tips, or buy whole wings and break them down yourself, cutting at the joints to separate each wing into three pieces. Looking for a vegetarian version — or simply to add some vegetables to your spread? Try these Buffalo crudités.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/02/26/dining/26nymayor-food-wings/as-baked-buffalo-wings-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/02/26/dining/26nymayor-food-wings/merlin_149955708_93f772ee-ec5e-4f4a-97fe-87f2df4a97ef-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/02/26/dining/26nymayor-food-wings/as-baked-buffalo-wings-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/02/26/dining/26nymayor-food-wings/as-baked-buffalo-wings-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT35M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "baking powder, blue cheese, chicken wings, hot sauce, low-carb, super bowl",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 4737
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 973,
+        "unsaturatedFatContent": "43 grams",
+        "carbohydrateContent": "5 grams",
+        "cholesterolContent": null,
+        "fatContent": "75 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "66 grams",
+        "saturatedFatContent": "26 grams",
+        "sodiumContent": "1012 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 ounces blue cheese, crumbled (about 3/4 cup)",
+        "1/4 cup mayonnaise",
+        "1/4 cup sour cream",
+        "1 tablespoon fresh lemon juice or apple cider vinegar",
+        "1 to 3 tablespoons milk or buttermilk, or to taste",
+        "Kosher salt and black pepper",
+        "3 pounds chicken wings, or any combination of drumettes, wingettes and tips",
+        "1 tablespoon baking powder",
+        "Kosher salt and black pepper",
+        "1/3 cup Buffalo-style hot sauce, such as Frank’s",
+        "3 tablespoons unsalted butter, melted",
+        "2 tablespoons fresh lemon juice",
+        "2 garlic cloves, minced (about 2 teaspoons)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the blue cheese dip: In a small bowl, stir together blue cheese, mayonnaise, sour cream and lemon juice. Thin with milk until spoonable. Season with salt and pepper and set aside. (Dip keeps for up to 4 days in the refrigerator; thin as needed with more milk.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place an oven rack 4 to 6 inches from the broiler. Heat the broiler."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the chicken: Pat the wings dry. If the wings are not yet broken down into three pieces, cut each wing at the two joints. To do so, flip the wing over and wiggle each part to find the joint. Cut at the joint hinge to separate the meaty drumette from the wingette (also known as the flat) and the wingette from the smaller wing tip."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, toss the baking powder with 1 tablespoon kosher salt (such as Diamond Crystal) or 1/2 tablespoon coarse kosher salt (such as Morton's). Add the wings and toss until evenly coated. Spread the wings in an even layer on a foil-lined baking sheet. (To prepare them in advance and allow them to dry-brine, let the wings sit out at room temperature for up to 1 hour after coating, or in the refrigerator overnight. Let them come to room temperature before proceeding.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Broil the wings in the oven until golden and crisp all over, turning halfway through, about 15 minutes per side."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "As wings cook, make the buffalo sauce: In a large bowl, stir together the hot sauce, butter, lemon juice and garlic. Season to taste with salt and pepper."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the wings to the hot sauce-mixture and toss to coat. Using a slotted spoon, return the wings to the baking sheet, leaving extra sauce behind. Broil until sizzling and browned in spots, about 5 minutes. (Depending on your broiler, you may need to rotate the pan so all the food is exposed to the heat source.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve with extra buffalo sauce and the blue cheese dip."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2019-01-28T00:00:00.000Z",
+    "dateModified": "2024-01-30T16:28:06.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sumbo"
+            },
+            "reviewBody": "I misread the ingredients \nUsed sodium Bicarbonate instead of baking powder.  (well not misread, misremembered..)\n\nI would not recommend this substitution, unless you want your wings to taste like soapy salt. \n\nWorst meal I have ever cooked. All my own fault",
+            "datePublished": "2024-05-31T10:39:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Otto"
+            },
+            "reviewBody": "I have made this before and it was excellent - BUT, I made it tonight and had to toss several pounds of innocent chicken wings.  And they looked beautiful - perfect cook time.   \nBut- because it was a big batch, I doubled the recipe of baking soda and it was horrible.  I cannot figure out if Baking Soda messes with the flavor, or something else:  tin foil?  my wife asked to use lemon pepper seasoning, so I am wondering if the salt content was too much, but all of it tasted like chemical.",
+            "datePublished": "2024-05-29T02:45:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S"
+            },
+            "reviewBody": "We made these today and they were good.  We also baked the wings initially at 400 degrees and then after tossing with the sauce broiled the wings ( our broiler seems to burn stuff too easily to do the initial cooking under the broiler).  Blue cheese sauce instead of mayo I used some plain yogurt since we don't normally keep mayo on hand.",
+            "datePublished": "2024-04-19T20:43:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name"
+            },
+            "reviewBody": "Made these and love the melted butter sauce. Sticks to the wing beautifully for a simple delightful cheap dinner.",
+            "datePublished": "2024-04-15T14:38:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa B"
+            },
+            "reviewBody": "Agree with all the salty comments- I used fresh unseasoned wings and followed the recipe exactly.  The salt really took away from the flavour of the sauce. Next time I’ll reduce the salt to 1 tsp in the brine.",
+            "datePublished": "2024-04-02T13:46:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Josh"
+            },
+            "reviewBody": "It tasted really good I liked it better than the fried wings and I didnt expect them to be that good.",
+            "datePublished": "2024-03-29T00:57:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alex"
+            },
+            "reviewBody": "These were a hit, following the recipe but subbing Frank's for Sriracha (what I had on hand), and goat cheese for the blue cheese.",
+            "datePublished": "2024-02-27T16:12:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "evie"
+            },
+            "reviewBody": "This recipe looked so good, but really it’s terrible. There is so much salt in the recipe that I ate a few wings and then threw the rest. I don’t recommend this method at all. Stick with the Franks recipe and you’ll be happy.",
+            "datePublished": "2024-02-25T00:30:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Russell Jordan"
+            },
+            "reviewBody": "This is a large amount of work for really mediocre results. I would suggest you go to \"Buffalo Wild Wings\" or your local dive bar and the results will probably be better. The prep and cooking instructions are really poor. The wings stuck to the foil coated tray which required a lot of work to pick the foil off the wings. They were overly salty (and yes I used 1/2 the Diamond kosher sat specified), If you really want wings go to a bar, do take out, or find some frozen variety",
+            "datePublished": "2024-02-22T01:21:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gwen"
+            },
+            "reviewBody": "These are good, but be careful not to over-salt in the first step.  Wish I had read the comments! \n I used half as much chicken and I really should have at least halved the salt.",
+            "datePublished": "2024-02-19T23:31:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MJ"
+            },
+            "reviewBody": "Is this a mild, hot or very hot sauce?",
+            "datePublished": "2024-02-08T23:30:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vintner"
+            },
+            "reviewBody": "Wow! I am a huge wings fan, and these are perfect. I substituted olive oil for butter and stil amazing. I will make these again, and again and . . .",
+            "datePublished": "2024-02-15T03:18:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "peggy the cook"
+            },
+            "reviewBody": "Well, this didn't work for me at all! First of all, too salty using Morton (used 1 T because I had more than 3 lbs wings). Should have used only 1/2 T . And I should have broiled at low. They started to burn after about 10 Minutes! We (cooking with Hubber) put them in the oven for about 30 minutes (350-400) and in the end they were delicious, but I wish I had started that way and I really wish I had read these comments! From now on, I'll read the comments before proceeding!",
+            "datePublished": "2024-02-13T18:13:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carol"
+            },
+            "reviewBody": "this was SO SALTY it was uneatable - and i LOVE wings.  had to toss most of them out.  wish i had read more of the reviews before making.",
+            "datePublished": "2024-02-13T13:46:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mimi"
+            },
+            "reviewBody": "Used about 2 lbs of party wings and adjusted quantities. Used a rack over sheet pan - I don’t know how you’d fit 3 lbs of wings as this filled up a pan! Dry brined in fridge for a few hrs and let it come to room temp before baking at 400 for 45 mins. Came out crackly and crispy! Would use this as a template for other saucy wings as well - thinking of soy garlic next time. Can’t comment on the taste as sadly I have a bad congestion…",
+            "datePublished": "2024-02-12T22:56:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Orlando"
+            },
+            "reviewBody": "I warm the wings under my arms. This takes a while, but the moist heat makes them exceptionally tender.",
+            "datePublished": "2020-02-02T08:20:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ned"
+            },
+            "reviewBody": "I've found that using a sheet pan, lined with foil, and an oven-safe rack on top, sprayed with Pam, allows for crispier, superior, results.\n\nHaving said that, baking powder, garlic powder, onion powder, salt and pepper to taste for the dredge, and skin-drying overnight in the fridge, is sheer genius.\n\nAlso, I bake, not broil, mine at 400 degrees for about 45 minutes, turning over halfway through. \n\nFrank's and butter, only, nothing else for the sauce.  No honey, mayo, etc. Keep it real, Buffalo!",
+            "datePublished": "2020-01-31T17:07:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sam M"
+            },
+            "reviewBody": "I steam my wings for ten minutes prior to going in the oven, this makes them tender, plus renders the fat. which creates often a smoky house. ",
+            "datePublished": "2019-02-01T20:04:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "I used 1 teaspoon of salt instead of 1 tablespoon and broiled at 400 for 12 minutes on each side and was pleased. They were delicious. I will make again.",
+            "datePublished": "2019-12-29T19:34:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "me!"
+            },
+            "reviewBody": "• Watch salt! Don't use extra salt while air drying until baking powder + salt dry brine.  Plus, usedLawry's Seasoning for extra flavoring while cooking.\n• Cook on Lo Broil. High was too much heat.\n• Took about 20 minutes total. \n• Blue Cheese Dip not worth the effort.",
+            "datePublished": "2019-06-24T00:52:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy"
+            },
+            "reviewBody": "Everything was great, except the amount of salt in the initial baking powder toss. I LOVE salt and add tons of it to everything, so I never complain about things being too salty, but yikes. I re-read the recipe after the fact to make sure I hadn't missed something about rinsing the salt off, it was that salty. ",
+            "datePublished": "2019-02-11T15:37:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jill"
+            },
+            "reviewBody": "Did not broil - baked at 450 for about 45 minutes.  Perfectly crispy!  Will make again!",
+            "datePublished": "2020-02-03T12:17:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark"
+            },
+            "reviewBody": "I sit on the wings in the car while on the way to work and also on the way home for a week. Then after they turn brown I shred them and roll them up in cigarette paper, and smoke them. Extremely mellow and contains very few carcinogens",
+            "datePublished": "2021-07-28T15:47:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JHerena"
+            },
+            "reviewBody": "I see a lot of unconventional ways to warm the wings and strongly disapprove. Wings should be warmed by hot air from jet engines and rinsed with de-icing fluid. Do not try this at home.",
+            "datePublished": "2021-11-10T23:20:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mavb"
+            },
+            "reviewBody": "I've found that using a sheet pan, lined with foil, and an oven-safe rack on top, sprayed with Pam, allows for crispier, superior, results.  Having said that, baking powder, garlic powder, onion powder, salt and pepper to taste for the dredge, and skin-drying overnight in the fridge, is sheer genius.  Also, I bake, not broil, mine at 400 degrees for about 45 minutes, turning over halfway through.   Frank's and butter, only, nothing else for the sauce.",
+            "datePublished": "2021-02-04T04:13:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jaime"
+            },
+            "reviewBody": "Delicious flavor! I broiled on low (400°F) for 10 minutes per side and cut the salt to ½ a teaspoon like many comments suggested.\n\nMy only other adjustment would be to not put them back into the oven after they're sauced. They're already fully cooked and the skin is so crispy - just serve right then! Cooking them after saucing makes the skin rubbery and dampens the joy of eating crunchy wings.",
+            "datePublished": "2021-03-20T00:08:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "Instead of using milk to thin out the sauce until spoonable, use Bacardi dark rum.",
+            "datePublished": "2020-01-28T01:47:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol Mack"
+            },
+            "reviewBody": "Made exactly as written except halved the salt. Husband, son and I scarfed them down. Will definitely make again.",
+            "datePublished": "2019-11-23T23:41:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judy"
+            },
+            "reviewBody": "You need to use non aluminum baking powder, I think.",
+            "datePublished": "2019-02-27T02:55:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ironicsense"
+            },
+            "reviewBody": "Just curious, did you use kosher salt?",
+            "datePublished": "2020-01-30T15:19:15.000Z"
+        }
+    ]
+}

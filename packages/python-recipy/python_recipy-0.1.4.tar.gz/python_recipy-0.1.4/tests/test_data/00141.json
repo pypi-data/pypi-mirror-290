@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Spanish Green Beans With Bacon",
+    "author": "COOKGIRl",
+    "cookTime": "PT15M",
+    "prepTime": "PT0S",
+    "totalTime": "PT15M",
+    "datePublished": "2005-10-17T20:49Z",
+    "description": "The quasi-classic Spanish side dish known as judias verdes con jamon. I substituted bacon for the Serrano ham. From 500 All-Time Great Recipes.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/14/16/51/picHi5vky.jpg",
+    "recipeCategory": "Pork",
+    "keywords": "Vegetable,Meat,Spanish,European,Low Protein,< 15 Mins,Easy",
+    "recipeIngredient": [
+        "1   lb    fresh green beans or 1   lb    frozen green beans",
+        "3   tablespoons   fruity olive oil",
+        "1   small    yellow onion, thinly sliced ",
+        "2       garlic cloves, finely minced ",
+        "3   ounces    bacon, cooked and crumbled  (Serrano ham or Parma ham can be substituted)",
+        "  salt",
+        "  fresh ground black pepper"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "19"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "231.3",
+        "fatContent": "20",
+        "saturatedFatContent": "4.7",
+        "cholesterolContent": "14.5",
+        "sodiumContent": "185.1",
+        "carbohydrateContent": "10.2",
+        "fiberContent": "3.4",
+        "sugarContent": "4.5",
+        "proteinContent": "4.8"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot of salted water cook the green beans about 5-6 minutes, only until just tender but still with some &quot;bite&quot;.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepan, heat the olive oil on medium heat and fry the onion for 5 minutes, until softened. Add the garlic and cook another minute. DO NOT burn the garlic!\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the green beans well and add to the saucepan with the garlic. Cook, stirring constantly for 2-3 minutes. Stir in the crumbled bacon. NOTE: If using Serrano or Parma ham, add it at the same time with the garlic.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season with salt and pepper. Serve warm."
+        }
+    ],
+    "recipeYield": "4-5 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "Sounded good and was very easy to make, but to us, it had no flavor.",
+            "datePublished": "March 28, 2016",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Spanish Green Beans With Bacon"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 2,
+                "bestRating": "5"
+            },
+            "author": "Lv2cook"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

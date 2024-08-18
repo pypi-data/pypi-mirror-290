@@ -1,0 +1,101 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Skinny Crab and Artichoke Dip with Jalapeño",
+    "description": "This Skinny Crab and Artichoke Dip has less than 100 calories per serving and is loaded with creamy, delicious flavor. Perfect appetizer!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "skinny crab dip, artichoke dip, crap and artichoke dip",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/crab-dip-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/crab-dip-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/crab-dip-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/crab-dip-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/skinny-crab-artichoke-dip",
+    "recipeIngredient": [
+        "1 jalapeno",
+        "1 red bell pepper",
+        "14 ounces canned or jarred artichoke hearts",
+        "8 ounces canned jumbo lump crab meat",
+        "2 tablespoons salted butter",
+        "2 tablespoons flour",
+        "1 1/4 cups 2% milk",
+        "1/2 teaspoon salt",
+        "1/4 cup shredded cheese (I used a combination of Parmesan and Gruyere)",
+        "3 scallions, sliced",
+        "1 tablespoon fresh lemon juice",
+        "chips for dipping, extra cheese for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Remove the ribs and seeds from the jalapeno and the red bell pepper. In a large nonstick skillet over medium high heat, saute the peppers with a tiny bit of oil. You can also roast them without oil, stirring every few minutes to get a nicely browned exterior. When they are soft, set them aside.",
+            "url": "https://pinchofyum.com/skinny-crab-artichoke-dip#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the peppers are cooking, drain and chop the artichoke hearts. Drain the crab. Set aside.",
+            "url": "https://pinchofyum.com/skinny-crab-artichoke-dip#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the pan from step one, melt the butter. Add the flour and whisk until a thick paste forms. Let the mixture bubble for a minute or two. Slowly pour in the milk; whisk to incorporate. Keep the sauce over low heat &#8211; it should begin to thicken slightly. Add the salt, cheese, peppers, artichokes, crab, scallions, and lemon juice. Stir gently to combine. Add more liquid if needed.",
+            "url": "https://pinchofyum.com/skinny-crab-artichoke-dip#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a small crockpot or serving dish. Sprinkle with a little extra cheese and replace the crockpot cover so it melts just before party time (or broil if you&#8217;re using a regular serving dish). Serve on crackers or with dippin&#8217; chips.",
+            "url": "https://pinchofyum.com/skinny-crab-artichoke-dip#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeYield": "12",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "3",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "83 calories",
+        "sugarContent": "2.3 g",
+        "sodiumContent": "295.5 mg",
+        "fatContent": "3.6 g",
+        "saturatedFatContent": "2 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "5.9 g",
+        "fiberContent": "1.6 g",
+        "proteinContent": "6.9 g",
+        "cholesterolContent": "22.2 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Muna Kenny"
+            },
+            "datePublished": "2014-01-29",
+            "reviewBody": "Oh my! So creamy and full of flavor. I don't care about the game really I just want to munch on this goody :)"
+        }
+    ],
+    "datePublished": "2014-01-29",
+    "@id": "https://pinchofyum.com/skinny-crab-artichoke-dip#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/skinny-crab-artichoke-dip#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/skinny-crab-artichoke-dip"
+}

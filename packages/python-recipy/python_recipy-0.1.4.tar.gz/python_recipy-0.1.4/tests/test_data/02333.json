@@ -1,0 +1,75 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Slow-Cooker Barbecue Brisket",
+    "keywords": "slow-cooker barbecue brisket",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/vn74aqTgk069Px551hWBRA_webp_base.webp?v=a848ed30&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Slow cook barbecue brisket to tender perfection with your favorite barbeque sauce and our homemade rub. ",
+    "recipeIngredient": [
+        "2  tablespoons packed brown sugar",
+        "1  tablespoon pepper",
+        "1  tablespoon paprika",
+        "1  tablespoon onion powder",
+        "1  tablespoon coarse salt",
+        "1  tablespoon garlic powder",
+        "1  tablespoon ground mustard",
+        "1 1/2  teaspoons ground cumin",
+        "1 1/2  teaspoons chili powder",
+        "1  beef brisket (3 1/2 lb)",
+        "1  cup barbecue sauce"
+    ],
+    "totalTime": "PT8H25M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "8",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Becky Rosenthal"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In small bowl, stir together all ingredients except beef and barbecue sauce. Rub mixture over beef. Place in resealable food-storage plastic bag; refrigerate at least 8 hours or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 3- to 4-quart slow cooker; place beef; pour barbecue over top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover; cook on Low heat setting 6 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Increase heat setting to High; cook 1 to 2 hours longer or until beef falls apart."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve with additional barbecue sauce."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "500 ",
+        "carbohydrateContent": "28 g",
+        "cholesterolContent": "165 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "58 g",
+        "saturatedFatContent": "6 g",
+        "servingSize": "1 serving",
+        "sodiumContent": "1750 mg",
+        "sugarContent": "20 g",
+        "transFatContent": "1 g"
+    },
+    "dateCreated": "08/08/2013",
+    "dateModified": "01/16/2015"
+}

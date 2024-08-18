@@ -1,0 +1,116 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/thai-green-chicken-curry-0#Recipe",
+    "@type": "Recipe",
+    "description": "Making your own fragrant curry paste takes some special key ingredients and a little time but you'll taste the difference",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1243672_7-07255a0.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/thai-green-chicken-curry-0"
+    },
+    "name": "Classic Thai green chicken curry",
+    "url": "https://www.bbcgoodfood.com/recipes/thai-green-chicken-curry-0",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Valerie Barrett",
+            "url": "https://www.bbcgoodfood.com/author/valeriebarrett"
+        }
+    ],
+    "dateModified": "2024-01-25T12:14:06+00:00",
+    "datePublished": "2013-03-06T04:04:47+00:00",
+    "headline": "Classic Thai green chicken curry",
+    "keywords": "Asian, Family meals, Homemade curry, Homemade paste, South east asia, Thai green curry, Thailand, Valerie Barrett",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT25M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "528 calories",
+        "fatContent": "38.9 grams fat",
+        "saturatedFatContent": "30.8 grams saturated fat",
+        "carbohydrateContent": "10.5 grams carbohydrates",
+        "sugarContent": "5.1 grams sugar",
+        "fiberContent": "2.3 grams fiber",
+        "proteinContent": "34.1 grams protein",
+        "sodiumContent": "1.1 milligram of sodium"
+    },
+    "prepTime": "PT30M",
+    "recipeCategory": [],
+    "recipeCuisine": "Thai",
+    "recipeIngredient": [
+        "1 stalk  lemongrass , thinly sliced",
+        "1 tbsp lime juice",
+        "1 tsp whole peppercorn",
+        "1 tsp coriander seed",
+        "½ tsp cumin seed",
+        "6 green  bird's-eye chillies , trimmed and halved",
+        "4 garlic cloves , peeled",
+        "5 shallots (use Thai if possible)",
+        "3cm piece  galangal or ginger, peeled and sliced",
+        "1 rounded tsp shredded lime peel (if you can get it)",
+        "2 tbsp chopped coriander stalks",
+        "1 tbsp chopped  coriander leaves",
+        "1 level tsp shrimp paste",
+        "2 tbsp vegetable or  sunflower oil",
+        "2 x 400g cans  coconut milk",
+        "2 heaped tbsp green curry paste",
+        "500g skinless, boneless  chicken breast , cut into thin strips",
+        "100ml chicken stock , plus extra if necessary",
+        "1-2 tbsp fish sauce",
+        "2 tsp palm sugar (or light muscovado)",
+        "4 lime leaves",
+        "50g fine  green bean , halved",
+        "100g baby aubergine , diced (or Thai pea aubergines)",
+        "handful Thai basil , shredded",
+        "coriander leaves",
+        "1 red chilli , thinly sliced",
+        "1 spring onion , shredded and left to curl in ice cold water",
+        "lime wedges",
+        "Thai fragrant rice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the Thai green curry paste, put the lemon grass and lime juice into a small bowl and leave to soak for 30 mins. Put a small pan over a medium heat and add the peppercorns, coriander and cumin seeds. Dry fry for about 1 minute until fragrant then tip onto a saucer to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the lemongrass, spices and all remaining curry paste ingredients into a mini food blender or small food processor and pulse the mixture. Scrape down the sides from time to time. Process as smooth as you can – the mixture will be slightly coarse and not as green as the purchased variety. Put the paste into a lidded jar and store in the fridge up to a week or freeze in portions."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make the curry, open the cans of coconut milk and carefully remove the thick cream and spoon it into a warm wok or large frying pan (see tip below). Cook it slowly, stirring all the time, until it reduces to a thick paste and the oil starts to separate. Add the green curry paste and cook for 1-2 mins. Add the chicken and stir until well coated in the paste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slowly add the coconut water remaining in the cans together with the chicken stock. Add all the remaining ingredients and cook over a medium heat for about 10 mins until the chicken is cooked. Add more stock if necessary - the sauce should be slightly thinner than single cream."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve spoon some rice into a bowl, pour over the curry and sprinkle with the coriander leaves, sliced chilli and spring onion. Add a wedge of lime on the side."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT55M"
+}

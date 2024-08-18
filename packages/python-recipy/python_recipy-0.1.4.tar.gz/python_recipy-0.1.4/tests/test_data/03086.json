@@ -1,0 +1,145 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Red Velvet-Raspberry Tiramisù Trifle",
+    "datePublished": "2018-09-25T15:25:53.000-04:00",
+    "dateModified": "2023-09-18T22:53:09.515-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Red Velvet-Raspberry Tiramisù makes a show-stopping dessert that combines all your favorite treats.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/1QhZVoEMYqYqg09cYJZxBxNwucY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/red-velvet-raspberry-tiramisu-trifle-sl-x-2c9224c99b8b4434957675c02ab16012.jpg",
+        "height": 420,
+        "width": 420
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Red Velvet-Raspberry Tiramisù Trifle",
+    "keywords": "red velvet trifle",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1 cup seedless raspberry jam",
+        "1/4 cup black raspberry liqueur",
+        "1/4 cup fresh orange juice",
+        "2 (8-oz.) containers mascarpone cheese",
+        "2 cups heavy cream",
+        "1/3 cup sugar",
+        "1 teaspoon vanilla extract",
+        "Red Velvet Madeleines, without powdered sugar",
+        "3 (6-oz.) containers fresh raspberries"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Steps to Make It",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Whisk together first 3 ingredients in a small bowl."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Stir together mascarpone cheese in a large bowl."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Beat heavy cream at high speed with an electric mixer until foamy; gradually add sugar and vanilla, beating until soft peaks form. Stir one-fourth of whipped cream into mascarpone using a rubber spatula; fold in remaining whipped cream."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Arrange one-third of Red Velvet Madeleines in a 3-qt. trifle dish; drizzle with one-third of jam mixture, top with 1 container of raspberries, and dollop with one-third of mascarpone mixture. Repeat layers twice. Cover and chill 4 to 24 hours before serving."
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Red Velvet Madeleines",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat oven to 400°F. Beat first 4 ingredients at medium-high speed with an electric mixer 5 minutes or until thick and pale. Add butter and food coloring, beating until blended."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Sift together cake flour and next 3 ingredients; fold into egg mixture. Spoon batter into 2 lightly greased shiny madeleine pans, filling three-fourths full (about 1 Tbsp. per madeleine)."
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Bake at 400°F for 8 to 10 minutes or until centers of madeleines spring back when lightly touched. Immediately remove from pans to wire racks, and cool completely (about 20 minutes). Dust with powdered sugar just before serving, if desired."
+                }
+            ]
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT305M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/red-velvet-raspberry-tiramisu",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/red-velvet-raspberry-tiramisu",
+                        "name": "Red Velvet-Raspberry Tiramisù Trifle"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Simple Turkey Gravy",
+    "datePublished": "2019-04-02T03:03:43.000-04:00",
+    "dateModified": "2023-09-11T07:19:53.021-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "The Gruntled Gourmand"
+        }
+    ],
+    "description": "Delicious turkey gravy is simple to prepare from pan drippings and turkey stock for a smooth and flavorsome gravy for your Thanksgiving feast.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/8OoQBfZqZBZ05tluHOSDQQDKMoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1736598-simple-turkey-gravy-The-Gruntled-Gourmand-4x3-1-441f43fb90ea4665b503e8ff70d8dd8b.jpg",
+        "height": 720,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Simple Turkey Gravy",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "21"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "189 kcal",
+        "carbohydrateContent": "3 g",
+        "cholesterolContent": "20 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "84 mg",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "0.5 cup fat from turkey drippings",
+        "0.5 cup all-purpose flour",
+        "1 cup liquid from turkey drippings",
+        "2 cups turkey stock",
+        "ground black pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat fat from turkey drippings in a saucepan over medium-low heat until liquefied, 2 to 3 minutes. Whisk flour into turkey fat until golden, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk liquid from turkey drippings and turkey stock into fat-flour mixture; increase heat to medium and cook, whisking continuously, until gravy is smooth and desired consistency, 5 to 10 minutes. Season gravy with pepper."
+        }
+    ],
+    "recipeYield": [
+        "16"
+    ],
+    "totalTime": "PT25M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ellen Etc."
+            },
+            "reviewBody": "This recipe worked a like a magic trick! \n\nI'd roasted turkeys before, but never made gravy. \nMy turkey didn't produce the half-cup of fat drippings, so I started with half a cup of butter and half a cup of flour. Whisk, whisk, whisk. After 5 minutes I tasted it, and it was floury-tasting, so I cooked it a little longer, still floury. Well, time was running short, had to proceed, so I added 2 cups of my turkey stock and the cup of pan drippings. Dear husband took a turn with whisking, then I finished, and IT TURNED INTO GRAVY! It was absolutely delicious, and it was all gone at the church Thanksgiving potluck. \nI AM A GRAVY-MAKER! (Thanks to you!)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Blaine Cole"
+            },
+            "reviewBody": "I used chicken broth with the fat/drippings and it was excellent. Absolutely perfect results. So relieved...........",
+            "datePublished": "2021-11-26T04:38:28.093Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Grannyannie"
+            },
+            "reviewBody": "Bought a roasted turkey Breast at the deli for sandwiches. It was so big, I had lots left over, decided to have turkey &amp; dressing for dinner, but had no gravy! Found this recipe, subbed butter for turkey fat, but had enough liquid at the bottom of the tray for the drippings, used chicken stock &amp; my husband, who “doesn’t eat gravy” had 2 helpings. Enough said",
+            "datePublished": "2021-07-03T23:32:32.190Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "The Sunday Night Chef"
+            },
+            "reviewBody": "amazing!!!!!",
+            "datePublished": "2020-11-29T23:53:03.527Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "mama"
+            },
+            "reviewBody": "Easy and delicious. I follow recipe but was slightly shy on turkey fat so used bacon grease to complete the 1/2 cup.",
+            "datePublished": "2020-11-26T16:52:21.327Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Doug"
+            },
+            "reviewBody": "I'm a first time \"gravy maker\", but a very long time gravy eater.\nThis was extremely simple and tasted very good.\nThe only change I made (because I had to) was to use chicken stock in place of turkey stock.\nI will make this again.",
+            "datePublished": "2019-03-12T22:33:15.743Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Brooklynite"
+            },
+            "reviewBody": "Great last minute gravy, taste good??!",
+            "datePublished": "2018-12-25T21:35:48.440Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Snyder"
+            },
+            "reviewBody": "So simple but be cautious of the turkey roasting recipe you use. I made this gravy from drippings from my son inlaw's turkey he roasted using bacon and olive oil so the gravy had those flavors incorporated. Still all in all was delicious!",
+            "datePublished": "2018-12-25T18:20:32.473Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marla Nardo"
+            },
+            "reviewBody": "This gravy was awesome! I cooked my turkey in a bag and when it came out of the oven, I took a ladle and skimmed off the fat and some of the juices into a saucepan. Brought it to a boil and whisked in the half cup of flour. It started to get really thick and clumpy but then I stirred in 3 cups of the turkey drippings (I had added a can of chicken broth to the bird prior to cooking) brought it to a boil, while stirring constantly and it thickened up and tasted fantastic! Loved it and will make it every year from now on!",
+            "datePublished": "2018-11-28T17:42:37.913Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Erica Dascoli-Lizzi"
+            },
+            "reviewBody": "I’m not a big gravy fan but this is so easy and everyone seems to like it!",
+            "datePublished": "2018-11-22T02:46:44.633Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/239434/simple-turkey-gravy/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/916/side-dish/sauces-and-condiments/gravy/",
+                        "name": "Gravy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/16857/side-dish/sauces-and-condiments/gravy/turkey-gravy/",
+                        "name": "Turkey Gravy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/239434/simple-turkey-gravy/",
+                        "name": "Simple Turkey Gravy"
+                    }
+                }
+            ]
+        }
+    }
+}

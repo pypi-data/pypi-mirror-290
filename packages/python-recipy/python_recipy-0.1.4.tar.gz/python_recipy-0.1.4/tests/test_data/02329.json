@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Beef and Artichoke Fettuccine",
+    "keywords": "beef and artichoke fettuccine",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/tR-6s6xEMEWjkPQ_Z_M0yQ_webp_base.webp?v=efbe431c&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Add Italian flavor to your family’s skillet dinner. Enjoy pasta made with beef and artichoke that’s ready in 20 minutes.",
+    "recipeIngredient": [
+        "8  oz uncooked spinach fettuccine",
+        "1  jar (6 to 7 oz) marinated artichoke hearts, cut in half and 1 tablespoon marinade reserved",
+        "1  small onion, finely chopped (1/4 cup)",
+        "1  cup half-and-half",
+        "1/2  cup grated Parmesan cheese",
+        "2  cups cut-up cooked roast beef",
+        "  Pepper, if desired"
+    ],
+    "totalTime": "PT0H20M",
+    "prepTime": "PT0H5M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "3",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook and drain fettuccine as directed on package."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 12-inch skillet, heat 1 tablespoon reserved artichoke marinade to boiling over medium-high heat. Cook onion in marinade about 2 minutes, stirring occasionally, until crisp-tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in half-and-half; heat until hot. Stir in cheese, artichoke hearts and beef; heat until hot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add fettuccine; toss. Sprinkle with pepper."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "360 ",
+        "carbohydrateContent": "31 g",
+        "cholesterolContent": "90 mg",
+        "fatContent": "1 ",
+        "fiberContent": "3 g",
+        "proteinContent": "22 g",
+        "saturatedFatContent": "7 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "300 mg",
+        "sugarContent": "3 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "12/29/1997",
+    "dateModified": "10/04/2010"
+}

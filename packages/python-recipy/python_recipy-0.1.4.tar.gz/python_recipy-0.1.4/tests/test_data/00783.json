@@ -1,0 +1,272 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1025376-chicken-pesto-meatballs#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1025376-chicken-pesto-meatballs",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-googleFourByThree.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1025376-chicken-pesto-meatballs",
+    "name": "Chicken Pesto Meatballs",
+    "description": "Simply adding pesto to chicken meatballs is a quick, easy way to infuse them with complex flavor while providing enough fat to ensure they are moist and juicy. With few ingredients, these meatballs come together fast and work well with any kind of pesto, whether homemade or store-bought. These meatballs can be eaten on their own, make a great addition to any plate and are the perfect companion to pesto pasta, of course.",
+    "author": {
+        "@type": "Person",
+        "name": "Dan Pelosi"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-googleFourByThree.jpg",
+            "height": 600,
+            "width": 800,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/22/multimedia/dp-chicken-pesto-meatballs-ztmk/dp-chicken-pesto-meatballs-ztmk-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeYield": "15 Meatballs",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "budget, ground chicken, panko, parmesan, pesto",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 443
+    },
+    "recipeIngredient": [
+        "3/4 cup homemade or store-bought pesto, plus more for serving",
+        "1/2 cup panko bread crumbs ",
+        "1 large egg",
+        "Salt and black pepper ",
+        "Red-pepper flakes ",
+        "1 pound ground chicken ",
+        "1/2 cup grated Parmesan "
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 400 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add pesto, panko, egg, 1 teaspoon salt, 1 teaspoon black pepper and a pinch of red pepper to a bowl and mix to combine, ensuring the panko is fully moistened. Add chicken and cheese and mix until just combined, being careful not to overmix. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Form the meat mixture into 15 small balls (about 2 tablespoons each) and place onto a baking sheet. Bake meatballs for 10 minutes. Remove from the oven and let rest for 5 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve with extra pesto sauce on the side or with pesto-coated pasta. "
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-05-22T00:00:00.000Z",
+    "dateModified": "2024-05-22T17:34:57.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "note"
+            },
+            "reviewBody": "these are great!!! made a double batch tonight. first made the homemade pesto from the link in the recipe’s description. i pan fried them— they were super crispy on the outside and juicy inside. i don’t think i would have liked them as much if they were baked—the crusty outside pushed them over the top. delicious recipe!",
+            "datePublished": "2024-06-14T00:34:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "FranE"
+            },
+            "reviewBody": "Made these for the first time tonight and they were delicious. Managed to make the first batch of balls larger than 2 tablespoons but they still cooked well. Will be enjoying them for a while. Dan Pelosi’a recipes are so easy to follow and always deliver a yummy dish.",
+            "datePublished": "2024-06-14T01:26:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alexandra"
+            },
+            "reviewBody": "delicious and easy!",
+            "datePublished": "2024-06-14T03:01:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jen"
+            },
+            "reviewBody": "I had a couple of containers of fresh spinach and arugula and a large bunch of fresh basil. Rough chopped them with a splash of lemon, garlic powder (for those of allium sensitive folks the powder seems to work better than fresh, roasted, or infused in oil), toasted walnuts, olive oil, black and red pepper, and salt in the food processor and then hand mixed with the chicken. I skipped the egg and bread crumbs because of family food allergies. They cooked into beautiful \"green burgers.\"",
+            "datePublished": "2024-06-12T20:09:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "reviewBody": "These were outstanding. They were very simple and fast to make and the flavor was so satisfying that I could not stop eating them. Luckily I read notes first and did not add the salt. They do not need it, the cheese and pesto I used were plenty salty enough. I served these over sundried tomato polenta with some extra pesto drizzled over top and it was excellent. These meatballs taste much more sinful than they actually are! These will be in regular rotation at my house.",
+            "datePublished": "2024-06-13T00:25:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joby"
+            },
+            "reviewBody": "I was out of bread crumbs and had to get dinner in the table. I used a tablespoon of potato starch. It worked \"in a pinch\".  :)",
+            "datePublished": "2024-06-13T01:46:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Merrill Ranken"
+            },
+            "reviewBody": "In place of the chicken, I sed 1/2 cup mashed ulu (breadfruit) mixed with one \"flax egg\" and 1 cup finely chopped steamed ulu- the vegan/ backyard sourced version held its shape and was super tasty.",
+            "datePublished": "2024-06-12T20:27:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elleji"
+            },
+            "reviewBody": "Had a windfall of greens from an enormous bunch of farm market celery. They became a great pesto for the freezer--and into these meatballs it went. Thanks Dan, you rock! In fact, pretty much all of the NYT baked meatball recipes are winners on nights we have ground meat on hand and feel lazy. Using a simple condiment like pesto for the seasoning leads one to imagine endless riffs, like ground pork with Soyaki, ground lamb with harissa...",
+            "datePublished": "2024-06-12T17:36:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jerry"
+            },
+            "reviewBody": "Definitely cook- completely- and then freeze.  Throw them in a zip-loc bag(remove air with a straw), and take out as many as you need for a given recipe.  They will retain virtually all of their flavor!",
+            "datePublished": "2024-06-12T21:04:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katherine"
+            },
+            "reviewBody": "Would you advise freezing them cooked or uncooked? I’m taking them to the cabin and thinking it would be easiest to partially cook, freeze then cook from frozen …",
+            "datePublished": "2024-06-12T17:11:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mb"
+            },
+            "reviewBody": "if you make enough to freeze how best to reheat?",
+            "datePublished": "2024-06-12T15:40:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CJ"
+            },
+            "reviewBody": "Good. I doubled the batch and froze some for later. These went really well with a caprese pasta salad with burst tomatoes from Cookie &Kate. Highly recommend the combo",
+            "datePublished": "2024-06-12T12:41:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "t*"
+            },
+            "reviewBody": "Have made these several times and they are a 11/10. So easy and flavorful and the texture of them is perfect. Making another double batch this week to throw in salads and bowls and it would make a great meatball for a parmesan sub situation.",
+            "datePublished": "2024-06-11T20:35:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pita chef"
+            },
+            "reviewBody": "Smart idea to add great flavor - and much needed fat in the form of olive oil to keep the ground chicken tender. And no need to fry either. Over all very nice and simple.",
+            "datePublished": "2024-06-11T03:47:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A. Ramblings"
+            },
+            "reviewBody": "When meatball shop first opened in Williamsburg I was addicted to getting their chicken pesto meatballs in the everything but the kitchen sink salad. It's been 13 years and I still dream about the perfect pesto chicken meatball and I've finally found it. Make a double batch and freeze as these are a perfect snack, addition to a salad, or a parm open faced sando.",
+            "datePublished": "2024-06-10T20:42:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pickle"
+            },
+            "reviewBody": "SO. GOOD.\nPaired them with scrambled eggs for breakfast, and then topped them with tzatziki for lunch and dinner. (chef's kiss) They were gone in about 24 hours.",
+            "datePublished": "2024-06-10T19:11:09.000Z"
+        }
+    ]
+}

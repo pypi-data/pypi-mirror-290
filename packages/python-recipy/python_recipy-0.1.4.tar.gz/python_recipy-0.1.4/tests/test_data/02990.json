@@ -1,0 +1,79 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/easy-coronation-chicken#Recipe",
+    "@type": "Recipe",
+    "description": "Make a classic coronation chicken filling to serve with jacket potatoes or in sandwiches and salads. It's an excellent way to use up leftover chicken after a roast",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coronation_chicken-55f6963.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/easy-coronation-chicken"
+    },
+    "name": "Easy coronation chicken",
+    "url": "https://www.bbcgoodfood.com/recipes/easy-coronation-chicken",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Joanna Simpson",
+            "url": "https://www.bbcgoodfood.com/author/joannasimpson"
+        }
+    ],
+    "dateModified": "2024-01-25T12:08:49+00:00",
+    "datePublished": "2019-06-18T12:42:11+01:00",
+    "headline": "Easy coronation chicken",
+    "keywords": "Chicken, Coronation chicken, Curry, joannasimpson, Sandwich filling",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "463 calories",
+        "fatContent": "35 grams fat",
+        "saturatedFatContent": "5 grams saturated fat",
+        "carbohydrateContent": "13 grams carbohydrates",
+        "sugarContent": "13 grams sugar",
+        "fiberContent": "1 grams fiber",
+        "proteinContent": "23 grams protein",
+        "sodiumContent": "0.4 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "6 tbsp mayonnaise",
+        "2-3 tsp mild curry powder, to taste",
+        "½ tsp ground cinnamon",
+        "2 tbsp mango chutney",
+        "1-3 tbsp sultanas, or to taste",
+        "500g shredded cooked chicken"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix the mayonnaise, curry powder, cinnamon, chutney and sultanas together and season with black pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the shredded chicken and stir to coat in the sauce. Stir in 2 tbsp water to loosen if needed, then season and serve as desired."
+        }
+    ],
+    "recipeYield": "Serves 4-6",
+    "totalTime": "PT5M"
+}

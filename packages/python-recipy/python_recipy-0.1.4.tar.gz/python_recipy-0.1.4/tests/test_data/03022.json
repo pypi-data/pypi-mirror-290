@@ -1,0 +1,146 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Apricot Chicken",
+    "datePublished": "2023-03-15T20:30:20.467-04:00",
+    "dateModified": "2023-03-15T20:30:20.467-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jill Schildhouse",
+            "url": "https://www.southernliving.com/author/jill-schildhouse"
+        }
+    ],
+    "description": "This easy apricot chicken recipe is perfect for Passover or any weeknight.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/xPo7bIUbIUZLxJvxJerr1oGIhNY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living-Apricot_Chicken_003-bf11391f69894f669616e6ec68c6fde4.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Apricot Chicken",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "keywords": "apricot chicken",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "Cooking spray",
+        "1 whole chicken, cut into pieces",
+        "1/2 tsp. garlic powder ",
+        "1/2 tsp. salt ",
+        "1/2 tsp. ground black pepper",
+        "1 jar (12-oz.) apricot preserves",
+        "1 bottle (8-10 oz.) Russian salad dressing (such as Wishbone)",
+        "1 medium onion, finely chopped (about 1 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Grease a 13- x 9-in. pan with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pat the chicken pieces dry with a paper towel and rub them with garlic powder, salt, and pepper. Place in prepared pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together the apricot preserves and the Russian dressing. Stir in the chopped onion. Pour over the chicken evenly."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/RwPBxiW8cqc8_mXcr8Z55jb32A4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living-Apricot_Chicken_001-0615712d9bc344bbbb3160719b8e50a2.jpg"
+                }
+            ],
+            "text": "Bake 1 hour, or until a thermometer inserted in thickest portion of chicken registers 165°F. Tent the dish with aluminum foil if the skin is getting too dark during baking."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT70M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Southern Living Member"
+            },
+            "reviewBody": "Recommend the Bonne Maman preserves for this..",
+            "datePublished": "2023-05-18T22:01:31.236Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/apricot-chicken-7182255",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions",
+                        "name": "Holidays & Occasions"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions/passover",
+                        "name": "Passover"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/apricot-chicken-7182255",
+                        "name": "Apricot Chicken"
+                    }
+                }
+            ]
+        }
+    }
+}

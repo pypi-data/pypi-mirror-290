@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Moussaka",
+    "url": "https://www.foodnetwork.com/recipes/moussaka-8148158",
+    "headline": "Moussaka",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/04/DVSP103_moussaka_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1580843888439.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/04/DVSP103_moussaka_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1580843888439.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/04/DVSP103_moussaka_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1580843888439.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2020-02-04T14:15:35.041-05:00",
+    "dateModified": "2020-02-04T14:15:34.294-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "European Recipes,Greek Recipes,Main Dish,High Fiber",
+    "cookTime": "P0Y0M0DT1H25M0.000S",
+    "totalTime": "P0Y0M0DT2H45M0.000S",
+    "recipeIngredient": [
+        "3 cups vegetable oil",
+        "3 to 4 large potatoes, peeled and sliced ",
+        "2 to 3 eggplants, sliced ",
+        "1/2 cup extra-virgin olive oil ",
+        "1 large white onion, chopped ",
+        "1 teaspoon chopped garlic ",
+        "2 pounds ground beef ",
+        "1/2 cup red wine ",
+        "1 cup tomato puree ",
+        "1 tablespoon tomato paste ",
+        "1 teaspoon salt ",
+        "1 teaspoon ground black pepper ",
+        "1 teaspoon sugar ",
+        "6 whole cloves ",
+        "2 bay leaves ",
+        "1 cinnamon stick ",
+        "1 1/2 quarts milk",
+        "14 tablespoons butter ",
+        "14 tablespoons all-purpose flour ",
+        "2 egg yolks ",
+        "1/2 cup grated Parmesan",
+        "1/2 teaspoon ground nutmeg ",
+        "1 teaspoon salt ",
+        "1 teaspoon ground black pepper "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "1744",
+        "fatContent": "150g",
+        "saturatedFatContent": "34g",
+        "carbohydrateContent": "65g",
+        "fiberContent": "10g",
+        "sugarContent": "20g",
+        "proteinContent": "37g",
+        "cholesterolContent": "195mg",
+        "sodiumContent": "907mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the filling: Heat the vegetable oil in large frying pan. When oil is hot, add the potatoes and cook, turning them over halfway through cooking, until golden brown. Remove potatoes to a paper towel to soak up extra oil. Repeat with the eggplant slices."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the olive oil in a large saute pan over medium heat, then add the onion and garlic and saute until soft and translucent. Add the ground beef, chopping and stirring with a large wooden spoon until browned. Add the red wine to the mixture and stir until the wine evaporates. Then add the tomato puree, tomato paste, salt, pepper, sugar, cloves, bay leaves and cinnamon stick. Mix well and let simmer for about 20 minutes. Remove from heat and remove bay leaves, cinnamon stick and cloves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the bechamel: Heat the milk in a pot. Heat the butter in another large pot until melted, then add the flour and cook, continuously whisking. Slowly add the heated milk, continuously whisking, and continue to cook, whisking, until the bechamel gets thick. Add the egg yolks, continuously whisking. Add the Parmesan, nutmeg, salt and pepper, whisking everything together. Remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 325 degrees F. Assemble the moussaka: Place a layer of potatoes in a 12-by-15-inch baking pan, making sure to cover the bottom, leaving no open space. Repeat this step with the eggplant. Add a layer of the ground beef mixture. Finally, top with a layer of bechamel. Bake, uncovered, until golden brown, for 1 hour."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "reviewCount": 2
+    },
+    "recipeYield": "6 to 8 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brenda h."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I have been to this restaurant and the recipe for me was easy to follow and delicious. The Bechamel sauce can be used on lasagna or puerto rucan lasagna pastelon so good"
+        }
+    ],
+    "recipeCuisine": "european",
+    "recipeCategory": []
+}

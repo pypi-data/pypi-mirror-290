@@ -1,0 +1,305 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Flan Custard Recipe",
+    "datePublished": "2012-11-30T21:57:32.000-05:00",
+    "dateModified": "2022-04-06T11:18:39.331-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Chelsie Kenyon",
+            "url": "https://www.thespruceeats.com/chelsie-kenyon-2342514"
+        }
+    ],
+    "description": "Flan is a creamy custard with caramel sauce. This basic recipe is baked in one dish and cut into pieces when ready to serve.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/ek_qRUt3jj1BisKChYTyi7taUDo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-hero-01-6e5310c2a82e4991b48b65cd8dc45e1e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Flan Custard Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "ratingCount": "140"
+    },
+    "cookTime": "PT80M",
+    "keywords": "flan, flan custard",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "339 kcal",
+        "carbohydrateContent": "50 g",
+        "cholesterolContent": "168 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "174 mg",
+        "sugarContent": "49 g",
+        "fatContent": "11 g",
+        "servingSize": "1 flan (6 to 8 servings)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Spanish",
+        "Mexican"
+    ],
+    "recipeIngredient": [
+        "1 1/2 cup sugar",
+        "6 large eggs (room temperature)",
+        "1 14-ounce can condensed milk",
+        "2 13-ounce cans evaporated milk",
+        "1 teaspoon​  vanilla extract",
+        "1 pinch salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToSection",
+            "name": "Make the Caramel Sauce",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/rj8WpnT1awYhdtFGG2v-Ihnh010=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-01-77340b63bbef4e10bbee07f2a1574a35.jpg"
+                        }
+                    ],
+                    "text": "Gather the ingredients."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/nnh4lvYL1BFTcHjqeaek4Svj25k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-02-130e6b14932a45e4b38d2edb781112fd.jpg"
+                        }
+                    ],
+                    "text": "Put a rack in the center of the oven and heat to 325 F. Have a deep 10-inch pie plate or 6- to 8-cup round baking dish ready for the caramel."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/_mYCbDXehFwR-EifjF6mmsZ3NNo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-03-67e0d2eff2e94de09a87c10c7417b95b.jpg"
+                        }
+                    ],
+                    "text": "Pour 1 cup of sugar into a warm saucepan over medium heat while stirring constantly. After a few minutes, the sugar will begin to melt and turn golden."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/P8QaXowouxfGE9lr-TwO9lPFqRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-04-8ce1176d35fd472893d0ad00b4702cbf.jpg"
+                        }
+                    ],
+                    "text": "When it is fully melted and light golden brown, quickly pour it into the reserved pie plate or baking dish and tilt to swirl the caramel around the sides."
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Prepare the Custard",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/-kue7ATbumy934bQQET_4gTHWAI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-01-b66630435b02488984c104da9b2b0188.jpg"
+                        }
+                    ],
+                    "text": "Using a stand mixer fitted with the whisk attachment, whisk the eggs on medium speed until they begin to become frothy. Alternatively, use a hand-held mixer."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/Ypl67zpn7kRFMIOfMTjboU6Dc8w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-02-f59a695556f84366a05cf4a69cb628c7.jpg"
+                        }
+                    ],
+                    "text": "While whisking the eggs, slowly pour in sweetened condensed milk, followed by evaporated milk."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/t_RhTnAwEiiSRYQaQOaLvcZDwq0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-03-f9ef1ca4be784ff4b3205ff3af856175.jpg"
+                        }
+                    ],
+                    "text": "Slowly whisk in the remaining 1/2 cup of sugar, vanilla, and salt. Whisk for a few minutes until the mixture is smooth."
+                }
+            ]
+        },
+        {
+            "@type": "HowToSection",
+            "name": "Bake the Flan",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/0UzwXJrb6w_eeboY5z1pYbmT6qc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-01-c5abe0a4734443faaad4291a231198f4.jpg"
+                        }
+                    ],
+                    "text": "Place the caramel-lined pie plate in a large, deep roasting pan."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/RYE1eKJ6toNitZ0pajqQEqwJ0fM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-02-ac3f93bd82d64ddab45da5cb604d5142.jpg"
+                        }
+                    ],
+                    "text": "Carefully fill the roasting pan with boiling water, about halfway up the pie plate (avoid getting water on the caramel in the pie plate)."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/6Z1l6SLtO5VZ9fJkZooZ5SQYQuw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-03-571d212eab0e45e29d65c6bb72ecdbcf.jpg"
+                        }
+                    ],
+                    "text": "Pour the custard mixture into the caramel-lined pie plate."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/ucZoUfEi95bVhJHYtBVonHJi244=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-04-bc0125e1d83e49a6ba4e0c7e9a9dcbd4.jpg"
+                        }
+                    ],
+                    "text": "Carefully transfer the pan to the oven and bake until the flan is set, about 45 minutes. Check with a knife just to side of the center. If knife comes out clean, the flan is ready. Remove and let cool to room temperature before covering and refrigerating for at least one hour, or ideally overnight."
+                },
+                {
+                    "@type": "HowToStep",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://www.thespruceeats.com/thmb/JTgAD3ikRwoU1DR3tA49XeBE86Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/traditional-flan-recipe-2342998-step-05-6f130ec2d1c24257830a6af2d091be01.jpg"
+                        }
+                    ],
+                    "text": "When ready to serve, run a sharp knife around the edge of the pie plate. Invert the flan onto a serving dish. Caramel sauce will flow over top of the custard. Drizzle any remaining caramel sauce from the pie dish onto the flan."
+                }
+            ]
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT455M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Feral Shade"
+            },
+            "reviewBody": "This was my first flan, and it came out great! \nI didn't have a 10-inch pie pan, so I ordered one online...making it more of a Doce de Mayo (rather, than Cinco, lol). That thing is huge, and it accommodated this flan recipe perfectly--well worth the wait! All of my holidays are late anyway XD\nI had a few issues, like putting a little too much water in the Bain-Marie--live and learn.\n\nChelsie...there's one thing I HAVE to know...it's the only reason I posted this comment...\n\n**dramatic pause**\n\nWhy does the caramel instantly freeze within a minute or so after boiling...YET...after a few hours of the flan cooling to room temperature....and several more hours of setting in the fridge...and several MORE hours of the leftovers being stored...does the caramel remain a liquid??\n\nThis mystery is haunting me!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shaun Campbell Stripling"
+            },
+            "reviewBody": "Umm, no, I don't think they tested the recipe. It makes 2 whole 10\" flans, and is taking double the time to cook them to firm, meanwhile the top is burning. I would not recommend this at all."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevin J Breckenfeld"
+            },
+            "reviewBody": "Use a 10 inch wide x 2inch high round pan NOT a 9 inch pan - I used a 10\" aluminum cake pan and set that into a 12\" aluminum cake pan - worked great."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John F. Carafoli"
+            },
+            "reviewBody": "This is my favorite go to recipe when I want to indulge! NOTE: It will NOT fit into a 9-inch plate! Also, on 02 I used brown suger instead of reg. white and reduced it to 1/4 instead of 1/2 cup of sugar.\nUse a tube bunt pan. Works great!! Love this recipe~"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rara Avis"
+            },
+            "reviewBody": "I just close my eyes and the image comes of Columbus dictating the flan recipe to the anonymous 15th-Century-Western-Hemisphere denizen he passed the recipe to. I can also hear the conversation...: \"No, no, no! That is ONE 14-ounce can of condensed milk!! Not 14 cans. What?? You do not know what ounces, cans or condensed milk are???\""
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/traditional-flan-recipe-2342998",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/mexican-food-4162509",
+                        "name": "Mexican Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/mexican-desserts-4162503",
+                        "name": "Mexican Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/traditional-flan-recipe-2342998",
+                        "name": "Flan Custard Recipe"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Diana Rattray",
+                "url": "https://www.thespruceeats.com/diana-rattray-3034029"
+            }
+        ],
+        "lastReviewed": "2022-04-06T11:18:39.331-04:00"
+    }
+}

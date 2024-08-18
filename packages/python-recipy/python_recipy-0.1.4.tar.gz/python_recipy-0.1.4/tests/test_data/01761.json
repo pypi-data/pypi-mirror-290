@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Falconetti's Chicken Thai Sausage",
+    "url": "https://www.foodnetwork.com/recipes/falconettis-chicken-thai-sausage-recipe-2107167",
+    "headline": "Falconetti's Chicken Thai Sausage",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/26/0/DV1306H_falconettis-chicken-thai-sausage_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1371603118692.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/26/0/DV1306H_falconettis-chicken-thai-sausage_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1371603118692.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/26/0/DV1306H_falconettis-chicken-thai-sausage_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1371603118692.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-06-06T10:33:32.201-04:00",
+    "dateModified": "2016-06-06T13:08:10.249-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Thai Chicken,Asian,Chicken Recipes,Poultry,Thai,Fruit,Lime Recipes,Coconut Recipes,Main Dish",
+    "cookTime": "P0Y0M0DT0H10M0.000S",
+    "prepTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT0H40M0.000S",
+    "recipeIngredient": [
+        "3 teaspoons ground white pepper",
+        "1 teaspoon chili powder",
+        "1 cup mild curry powder",
+        "1/4 cup Thai basil leaves, chopped",
+        "6 tablespoons salt",
+        "4 teaspoons garlic granules",
+        "29 to 32 mm hog casings",
+        "10 pounds boneless chicken leg and thigh, skin on",
+        "1 can coconut milk",
+        "3 teaspoons lime juice",
+        "2 teaspoons sesame oil "
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Grind the chicken, preferably with a coarse grind. Add 1 cup water, the coconut milk, lime juice and sesame oil to the meat and incorporate. Then add the curry powder, basil, salt, garlic granules, white pepper, coriander and chili powder, and mix into the meat thoroughly. Mix just enough as not to break down the meat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stuff into the hog casings, and remember to pin prick the links when done. You can grill, broil, saute, or bake...just make sure it reaches a safe internal temperature of 165 degrees F. One way to enjoy is to place in a hot dog bun, add Asian slaw with some hoisin and sriracha (Thai hot sauce)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Alternatively, instead of stuffing the meat mixture, you can saute it and use in such recipes as Asian-style lettuce wraps. Just add crispy noodles, chopped onion, hoisin sauce and enjoy!"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 1,
+        "reviewCount": 1
+    },
+    "recipeYield": "10 pounds, about thirty 6-inch links",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jonmactxn"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is not Thai. The recipe should have percentages with the chicken being 100%.. Go to the Len Poli site to get a clue"
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Thai Chicken Sausage on a Bun",
+        "description": "Guy digs into a house-made Thai chicken sausage on a custom curved bun.",
+        "duration": "PT0H3M34S",
+        "thumbnailUrl": "https://food.fnr.sndimg.com/content/dam/images/food/video/0/01/018/0180/0180523.jpg.rend.hgtvcom.406.305.suffix/1660157742194.jpeg",
+        "contentUrl": "https://www.foodnetwork.com/apps/api/playback?path=/etc/sni-asset/food/videos/0/01/018/0180/0180523",
+        "uploadDate": "2022-08-13T01:25:25.929-04:00"
+    },
+    "recipeCuisine": "asian",
+    "recipeCategory": []
+}

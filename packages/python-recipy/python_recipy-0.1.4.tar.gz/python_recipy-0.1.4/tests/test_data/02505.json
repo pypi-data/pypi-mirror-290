@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Quince Biscuit Pie",
+    "datePublished": "2011-04-24T07:53:18.000-04:00",
+    "dateModified": "2017-06-12T14:00:53.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Spoonfuls of biscuit dough bake atop the quinces, after poaching the fruit with vanilla bean and maple syrup.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/o32j2yMNKMUQyVRILup5bSsxWUk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mld106277_1110_quince_pie_v3_282_vert-dae9470101e948d2b279e4f37d9359ea.jpgitokq3rlE5vC",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Quince Biscuit Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "ratingCount": "19"
+    },
+    "keywords": "American, Bake, Buffet, Dessert, Dessert party, Dinner, Dinner party, Fall, Fruit pies, Lunch, Maple syrup, Poach, Potluck, Quince, Thanksgiving, Whip",
+    "prepTime": "PT40M",
+    "recipeIngredient": [
+        "5 cups water",
+        "1 cup pure maple syrup",
+        "0.5 cup granulated sugar",
+        "5 quinces, peeled, cored, and quartered",
+        "1 vanilla bean, split and scraped, pod reserved",
+        "2 teaspoons cornstarch",
+        "1.75 cups all-purpose flour",
+        "0.333 cup fine yellow cornmeal",
+        "0.333 cup granulated sugar",
+        "2 teaspoons baking powder",
+        "Salt",
+        "1.5 sticks cold unsalted butter, cut into small pieces",
+        "1 cup heavy cream",
+        "3 tablespoons sliced almonds",
+        "1 cup heavy cream, chilled",
+        "0.25 cup pure maple syrup",
+        "Garnish: confectioners' sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make the filling: Bring water, maple syrup, granulated sugar, quinces, and vanilla seeds and pod to a simmer in a large pot over medium heat. Cover with parchment, and cook until quinces are soft and rosy pink, about 2 hours. Discard vanilla pod."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees. Make the topping: Sift together flour, cornmeal, granulated sugar, baking powder, and 3/4 teaspoon salt, and then sift again. Cut in butter with a pastry cutter or rub in with your fingers until mixture resembles coarse meal with some large pieces remaining. Make a well in the center. Pour in cream; stir until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer quinces to a medium bowl using a slotted spoon. Add 1 cup poaching liquid and the cornstarch, and toss to combine. Pour quinces with juices into a 9-inch deep-dish pie plate. Arrange large spoonfuls of topping mixture around outer edge of pie, leaving a space in the center. Sprinkle almonds on top, and bake until liquid is bubbling and topping is golden, about 50 minutes. Let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make the maple cream: Whisk cream with a mixer on medium speed until stiff peaks form. Fold in maple syrup. Garnish pie with confectioners&#39; sugar. Serve with maple cream."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT270M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/346839/quince-biscuit-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/346839/quince-biscuit-pie",
+                        "name": "Quince Biscuit Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

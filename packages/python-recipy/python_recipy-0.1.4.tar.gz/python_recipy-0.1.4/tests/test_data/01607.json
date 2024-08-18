@@ -1,0 +1,106 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Parmesan Cheese Popcorn",
+    "datePublished": "2013-12-06T18:40:32.000-05:00",
+    "dateModified": "2021-04-14T17:37:18.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Todd Porter and Diane Cu",
+            "url": "https://www.foodandwine.com/author/todd-porter-and-diane-cu"
+        }
+    ],
+    "description": "Cheesy popcorn gets an upgrade with freshly grated Parmesan, salt and pepper.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/5qXO0oNwMWrUfFBagGDVM5Kzc6U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201310-xl-parmesan-cheese-popcorn-2000-39cf4aadb44e4256ac49e6786a26d3c7.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Parmesan Cheese Popcorn",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "0.5 cup popcorn kernels",
+        "0.25 cup canola oil or grapeseed oil (or other high flashpoint oil)",
+        "3 tablespoons unsalted butter (melted)",
+        "0.25 cup freshly grated Parmigiano-Reggiano",
+        "0.5 teaspoon kosher or sea salt (or to taste)",
+        "Fresh cracked black pepper (to taste)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil large pot over medium heat. After the oil is hot, add the popcorn kernels and shake the pot to gently toss the kernels until they are all coated with oil. Cover with a splatter screen or a lid that is placed slightly ajar to allow the steam to escape."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook until the popcorn popping frequency slows to several seconds between pops. Remove from heat, allow a minute or two for any final pops, and then pour into a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If the butter isn’t melted yet, add the butter into the still hot pot and melt. Drizzle over the popcorn and season with cheese, salt, and pepper, tossing occasionally as you butter and season the popcorn."
+        }
+    ],
+    "totalTime": "PT15M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/parmesan-cheese-popcorn",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/snacks",
+                        "name": "Snacks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/popcorn-7643180",
+                        "name": "Popcorn"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/parmesan-cheese-popcorn",
+                        "name": "Parmesan Cheese Popcorn"
+                    }
+                }
+            ]
+        }
+    }
+}

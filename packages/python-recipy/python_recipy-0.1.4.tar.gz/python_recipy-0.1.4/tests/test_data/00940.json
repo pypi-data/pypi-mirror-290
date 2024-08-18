@@ -1,0 +1,68 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/hot-toddy-2/",
+    "name": "Hot Toddy",
+    "datePublished": "2024-04-12",
+    "dateModified": "2024-05-13",
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Hot-Toddy_EXPS_THVP24_268279_MR_04_23_1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "When you feel a cold coming on, make a hot toddy recipe to help alleviate some of the symptoms. Whether it\\'s an old wives\\' tale or not, it sure will taste delicious and soothing.",
+    "recipeIngredient": [
+        "1 tablespoon honey",
+        "1 cup boiling water",
+        "2 ounces whiskey",
+        "1 tablespoon fresh lemon juice",
+        "1 cinnamon stick (3 inches)",
+        "1 orange slice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Add the honey to a mug",
+            "text": "Pour the honey into a tall glass or large mug.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Hot-Toddy_THVS24_268279_MR_04_23_1.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Add the remaining toddy ingredients",
+            "text": "Pour the boiling water over the honey, and stir until the honey has dissolved. Stir in the whiskey and lemon juice. Add the cinnamon stick, and garnish with the orange slice. Serve. Editor's Tip: Some studies have shown that adding boiling water to honey can break down some of its beneficial enzymes. I tend to boil my water and wait till it cools just slightly before mixing it with the honey. This way, I know I also won't burn my mouth if I want to drink it immediately after mixing.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Hot-Toddy_THVS24_268279_MR_04_23_2_2b_3_4.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "1 serving",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 196 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "2mg sodium",
+        "carbohydrateContent": "18g carbohydrate (18g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein."
+    },
+    "recipeCuisine": "Europe, Irish",
+    "video": {
+        "@type": "VideoObject",
+        "name": "Hot Toddy",
+        "description": "Check out this video for how to make a Hot Toddy.",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/HotToddyDIYD268279042224H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-05-9 16:29:08",
+        "duration": "P0DT0H0M40S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/05/HotToddy_DIYD_268279_042224_H.mp4"
+    }
+}

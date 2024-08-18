@@ -1,0 +1,96 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Pissaladière Recipe",
+    "keywords": [
+        "dough",
+        "pizza",
+        "french",
+        "yeast",
+        "onion",
+        "olive",
+        "anchovy",
+        "main",
+        "baking",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alice Waters",
+            "sameAs": "https://www.bonappetit.com/contributor/alice-waters"
+        }
+    ],
+    "description": "Pissaladière Recipe",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Pissaladière",
+    "name": "Pissaladière",
+    "recipeIngredient": [
+        "4-5 medium onions, thinly sliced",
+        "2 tablespoons olive oil",
+        "1 tablespoon chopped thyme",
+        "1/4 cup rye flour",
+        "2 teaspoons active dry yeast",
+        "1 tablespoon milk",
+        "2 tablespoons olive oil plus more for rubbing",
+        "1/2 teaspoon kosher salt",
+        "1 3/4 cups unbleached all-purpose flour plus more for surface",
+        "Anchovy paste",
+        "Salt-packed anchovies, soaked, boned, filleted",
+        "Coarsely ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large heavy skillet over medium heat; add onions and thyme. Season with salt and pepper and sauté until golden brown, about 20 minutes. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine rye flour, yeast, and 1/4 cup lukewarm water (105-115°) in a large bowl. Let rest for 20-30 minutes. Stir in milk, 2 Tbsp. olive oil, salt, and 1/2 cup more lukewarm water. Stir in all-purpose flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer dough to a floured surface (dough will be soft and a little sticky). Knead dough, using quick light motions to prevent dough from sticking, adding more flour as needed to prevent sticking to surface. A soft, moist dough makes a light and very crispy crust. Knead for 10-15 minutes to develop strength and elasticity in the dough. Put it in a bowl rubbed with olive oil, and oil surface of dough to prevent a crust from forming. Cover bowl with a towel and put it in a warm place, approximately 90°-110°; an oven heated just by its pilot light is a good spot. Let the dough rise to double its size, for about 2 hours, then punch it down. Let it rise about 40 minutes more."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put a layer of unglazed ceramic tiles on a rack in oven. Preheat oven to 450°-500°. Heavily flour a paddle or rimless baking sheet and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flatten the dough on a heavily floured surface. Use a rolling pin to roll the dough to roughly 12\"-14\" in diameter, about 1/8\"-1/4\" thick. When you roll and shape the dough, feel free to make it any shape you wish. Large flat pizzas with uneven bubbly edges have a rustic appeal. Transfer the dough to prepared paddle or baking sheet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working quickly, spread a light layer of anchovy paste over pizza dough, then cover with a thick layer of reserved onions, some anchovy fillets, and black pepper. Speed is crucial; after a minute or so the dough will begin to stick, and will be impossible to slide it off the paddle. Beware of spilling anything wet or oily between the dough and paddle, as that too will prevent it from sliding. Give the paddle a few shakes back and forth to make sure the dough is loose. Slide pizza from the paddle on to hot tiles in oven with abrupt jerking motions of your wrist. Bake until pizza is browned and cooked, 12-15 minutes. When you are deciding if the pizza is cooked, check the bottom to make sure it is quite crisp. The crust always softens a bit when it cools down."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Adapted from Chez Panisse: Pasta, Pizza, and Calzones"
+        }
+    ],
+    "recipeYield": "Makes one 12\"-14\" pizza Servings",
+    "url": "https://www.bonappetit.com/recipe/pissaladi-re-2",
+    "dateModified": "2011-07-11T20:00:00.000-04:00",
+    "datePublished": "2011-07-11T20:00:00.000-04:00",
+    "recipeCategory": []
+}

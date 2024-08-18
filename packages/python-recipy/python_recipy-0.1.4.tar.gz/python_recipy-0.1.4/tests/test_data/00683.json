@@ -1,0 +1,489 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Dan Dan Noodles",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/dan-dan-noodles-recipe-1924053",
+    "headline": "Dan Dan Noodles",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-13T21:05:39.120-05:00",
+    "dateModified": "2013-11-06T12:12:37.726-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Noodles,Peanut Butter,Nut Recipes",
+    "cookTime": "P0Y0M0DT0H1M0.000S",
+    "prepTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT0H31M0.000S",
+    "recipeIngredient": [
+        "1/3 cup creamy peanut butter",
+        "4 cloves garlic, minced",
+        "2 tablespoons grated fresh ginger",
+        "2 tablespoons low-sodium soy sauce",
+        "1 tablespoon dark brown sugar",
+        "1 tablespoon toasted sesame oil",
+        "1 tablespoon Chinese black vinegar",
+        "1 tablespoon chili oil",
+        "1/4 cup low-sodium chicken broth",
+        "8 ounces ramen noodles",
+        "1/2 cup roasted peanuts, chopped",
+        "3 scallions, finely chopped"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "568",
+        "fatContent": "37g",
+        "saturatedFatContent": "9g",
+        "carbohydrateContent": "47g",
+        "fiberContent": "5g",
+        "sugarContent": "7g",
+        "proteinContent": "17g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "1322mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place the peanut butter, garlic, ginger, soy sauce, brown sugar, sesame oil, black vinegar, and chili oil into the bowl of a mini-food processor. Process until the mixture is well combined and forms a paste, 1 to 2 minutes. With the processor running, gradually add the chicken broth and process until the sauce is creamy and well combined, 1 to 2 minutes. Transfer to a large mixing bowl, cover, and set aside while you prepare the rest of the dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 4 quarts water into a large pot and bring to a boil over high heat. Add the noodles and cook until al dente, 1 to 1 1/2 minutes. Drain thoroughly in a colander. Add the noodles to the bowl with the sauce and toss to combine. Serve topped with the peanuts and scallions."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "reviewCount": 30
+    },
+    "recipeYield": "4 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michigan Foodie"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Really tasty. I used udon noodles instead because I like those better. Use some noodle water to thin out if it's too gloopy. Next time I'll add some cooked chicken."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is always a family favorite! Quick and easy too. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Don't know what ol' AB was thinking with this one.  With all the peanut butter, it comes out like some weird pseudo-Thai glop (and I didn't even use the recommended brown sugar!), instead of the quick, peppery, oily Chinese street food noodles they should be.  Search elsewhere."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tim"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I like Alton’s variation on this dish. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Terwill S."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "These are awesome!  Quick and easy sauce to pour over spaghetti. I had half a pound of  cooked ground pork and bok choy. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick C."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Good base recipe but needs protein and some help. Here is my modified recipe. Thanks Alton! <br />         1/3 cup creamy peanut butter         4 cloves garlic, minced         2 tablespoons grated fresh ginger         2 tablespoons soy sauce         1 tablespoon Dark Brown Sugar (or light + dab of molasses)         1 tablespoon sesame oil         1 tablespoon Tahini         2 teaspoons Dry Sherry         1 1/2 teaspoons balsamic + 1 1/2 teaspoons rice wine vinegar          1 tablespoon chili oil (make with 1 T oil + 1 tsp red pepper)         1/4 cup chicken broth         8 ounces noodles         1/2 cup roasted peanuts, chopped         1 tablespoon toasted sesame seeds         3 scallions, finely chopped         12 ounces ground chicken<b> </b>Directions Sauté ground chicken with ginger, garlic and 1/2 of scallions. Add Dry Sherry and sauté another 30 seconds. Set aside. Place the peanut butter, soy sauce, brown sugar, molasses, sesame oil, Tahini, vinegars, and chili oil into food processor. Process until the mixture is well combined and forms a paste, 1 to 2 minutes. With the processor running, gradually add the chicken broth and process until the sauce is creamy and well combined, 1 to 2 minutes. Transfer to a large mixing bowl and set aside. Place 4 quarts water into a large pot and bring to a boil over high heat. Add the noodles and cook. Drain thoroughly in a colander. Add the noodles to the bowl with the sauce and toss to combine. Add ground chicken and lightly toss. Serve topped with peanuts, toasted sesame seeds and remaining scallions. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "richardalanmcguire"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Closer to Pad Thai than Dan Dan Noodles but tasty in its own right.  I think next time I will halve the peanut butter or use tahini instead."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gloria P."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Yumm Oh!  Followed this except used Rice Wine Vinegar; Can't find Black Chinese Vinegar.  I also way overcooked the Ramen noodles, but it's delicious.  The food processor is a must.  So now I have to wash the processor, colander and the big pan for boiling.  I also added a handful of fresh bean sprouts for crunch to the hot noodles.  It thickens on cooling.  I just paid $8.99 + tax for 1/8 of this portion at my favorite Chinese take-out place the other day.  Now I have a big bowl of this deliciousness for $0.75! PS Every time I order Chinese take-out I request Chili Oil and store it in the fridge.  Oh ya!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fred Rickson"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Terrible, thick, gloopy American Chinese style.  And, lose the peanut butter use sesame paste instead."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacqueline Kesicki"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This recipe is not authentic Dan Dan, HOWEVER, I have been looking for a replica version of Crystal Jade's Dan Dan noodles since I came back from Hong Kong, and this is the closest I got. Crystal Jade is a chain in Asia, and they have their own take on Dan Dan noodles, which basically tastes like this, and it literally the best dish I've eaten in my whole life. This is very close. Thank you for helping recreate!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mario Lanza"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I loved it.  Great recipe."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "harwluk"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Gross. Awful. And definitely not even close to Dan Dan Noodles, which is one of my favorite foods. I was intrigued by the ingredients as they seemed so far removed from Dan Dan, but I love Alton Brown and decided to try it out based on his name. I should have trusted my gut reaction to the ingredients. I couldn't even finish it. If you like sugary things, then it's conceivable that you will not have as bad a reaction as I did, but if you really want Dan Dan Noodles, run and scream from this recipe. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KRISTINA M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I love the taste of this dish! I used worcestershire sauce instead of the chinese black vinegar because I don't have it, omitted the chili oil because I don't have any, lessened the amount of the ginger because my husband doesn't like ginger too much. For the chicken broth, I just used one chicken broth sachet from a pack of instant noodles.  It turned out great even with the substitutions &amp; omissions. Also, the sauce was enough for 12oz of ramen noodles(in my case, that's 4 packs of ramen noodles at 85 grams per pack. Easy, cheap &amp; delicious!<br />"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Pretty good. I changed a few things:<br /><br />1 Change Black Vinegar to Szechuan sauce. Adds kick and nicer flavor.<br />2 Removed the peanuts. It's \"Peanutty\" enough.<br />3 Used garlic/ginger combo from Indian store. Tasted much better, no garlic chucks to deal with.<br />4 Added crushed red pepper to add an exclamation point.<br />5 Run cold water over noodles and let dry a bit, then add prepared sauce. Tastes much better when not served as warm pasta dish.<br /><br />If adding meat, try:<br /><br />1 Buy 1/2 lb ground pork<br />2 Put in a tbs or two soy sauce, 1/8 cup cilantro, a bit of garlic + garlic juice, and some scallions.<br />3 Mix it together, making sure to tear up any big pieces of pork.<br />4 Heat up a pan over med heat.<br />5 Put in some sesame oil and a bit of Szechuan sauce and a little soy sauce, to taste.<br />6 Cook through. The fat won't pool with the sauces, so just ignore it when you take the pork out.<br />7 When the pork is done, add to noodles, mix thoroughly. Delicious.<br />"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "herblover63"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This dish is Excellent and very easy!  I've made it a couple of times and my husband and I love it. There's a restaurant in LA called Chin Chin with a $9 version of this, but not as good as Alton's.  I didn't have sesame oil or Chinese Black vinegar, so I used grape seed oil (no flavor and rice vinegar.  Also, I subbed sambal oelek (a red chili sauce for chile oil ~ which gave a nice heat and didn't overpower.  Delicious!!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nydia Bani"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Just finished making (and eating 1 serving of this. It was delightful! It's an awesome way to make ramen noodles better, and I know I'll be making it again very soon!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dawn in KC"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I've never had the dish this was based on but I thought it was a pretty tasty way to spice up ramen noodles. I made half the recipe of sauce and it generously covered one pack of noodles. I added leftover chopped cucumber and bell pepper from my spring rolls, for added crunch. Next time I think I will use less peanut butter and more soy sauce to adjust for my tastes.  I think this recipe makes a great quick lunch or snack, or side dish as part of an asian fusion meal. <br />"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Wait a minute....did anyone notice that the water he used to boil the noodles in, was amber colored? No where in his show or recipe does it say what he used. He said not to use the flavor packets, but what the heck? I hate it when he skips steps or ingredients in his recipes and he's done this before! I give it 2 stars, because it was an okay recipe. Frankly, most of his recipes I've used before have never truly turned out great! "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Clifford Z."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I thought it was good but not great. A quick and easy meal."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "While I am not familiar with the \"authentic Dan Dan noodles\" I know that what I made was simply delicious!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steven T."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Tastes nothing like authentic Dan Dan Noodles since it is missing several key ingredients, most notably Szechuan peppercorns. This is a dumbed down version for Americans."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I made this with my youngest son. We watch Good Eats together all the time. Alton is our favorite host and we thought this would be an easy thing we could make together. We both weren't too sure that something made with Top Ramen noodles would be that good, but we were wrong. This is not only easy, it's very very good. So good in fact we bought a whole case of Top Ramen at Costco to make this all the time.<br /><br />  We have now done variations on it with Almond butter, Cashew butter and even added Satay style chicken, pork and shrimp to make it a main course. Who knew that the lonely instant Ramen noodle could be so good!!!<br /><br /> Thanks Alton!!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dorothy J."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Absolutely fabulous!  I buy all my Asian ingredients at an Asian supermarket, so I had everything I needed to make this wonderful dish.  In my area, this dish is the same as \"Cold Noodles with Sesame Sauce\".  It was much better than other dishes I have tried."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christine73"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I loved this recipe and followed it exactly.  It is spicy, but the heat goes well with the ginger and other flavors.  My only complaint was I had too much sauce for the noodles.  So I quickly cooked up another batch of noodles (I ended up making double the noodles the recipe called for.  That made the perfect balance of sauce and noodles.  The dish is definitely Good Eats!!<br /><br />PS - I used black Chinese vinegar and it does taste a lot like Worcestershire sauce, so you could use that as a substitute like Maggiethecat says.  "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "maggiethecat"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I just watched this episode last night, so I haven't made this recipe yet (but I will be soon.)  For those who can't find black Chinese vinegar, Alton did say (very quickly and easy to miss) that you can substitute Worcestershire sauce instead."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Danika H."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Great and easy to make! It tastes just good my favorite restaurant's version!<br /><br />Like the other posters, I cut back on the chili oil.  Also, I didn't have time to find black Chinese vinegar, so I substituted rice vinegar with a pinch of sugar. <br /><br />Will make again soon!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joel G."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Overall really good.  Be careful on that chili oil, though, AB tends to like things spicy.  I'm cutting to 2 tsp next time.<br /><br />Very easy to make, despite the long ingredient list."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ted G."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This was really easy- I stuck pretty much to the recipe although I added more peanut butter than called for.  I thought it wouldn't be spicy enough, but that 1 tablespoon of hot chili oil was enough (and I like things spicy).  To make this more of a complete meal, I bought a rotisserie chicken at Costco and took the meat off and shredded it.  Served that separately so you could use it or not. I thought that added to the dish.  Amazing how simple this one was.  "
+        }
+    ]
+}

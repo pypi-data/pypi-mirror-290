@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/sticky-pork-lettuce-wraps#Recipe",
+    "@type": "Recipe",
+    "description": "Let people build their own with these sticky pork lettuce wraps - they'll prove a winner with kids. They're perfect for a summer lunch or light dinner",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/sticky-pork-lettuce-wraps-41ace95.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/sticky-pork-lettuce-wraps"
+    },
+    "name": "Sticky pork lettuce wraps",
+    "url": "https://www.bbcgoodfood.com/recipes/sticky-pork-lettuce-wraps",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Lulu Grimes",
+            "url": "https://www.bbcgoodfood.com/author/lulugrimes"
+        }
+    ],
+    "dateModified": "2022-11-08T13:59:00+00:00",
+    "datePublished": "2018-04-25T11:00:39+01:00",
+    "headline": "Sticky pork lettuce wraps",
+    "keywords": "Family favourite, Lettuce, Lulu Grimes, sticky pork, Summer, Wraps",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "346 calories",
+        "fatContent": "19 grams fat",
+        "saturatedFatContent": "6 grams saturated fat",
+        "carbohydrateContent": "21 grams carbohydrates",
+        "sugarContent": "21 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "21 grams protein",
+        "sodiumContent": "1.2 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 tbsp soy sauce",
+        "2 tbsp honey",
+        "2 tbsp brown sugar",
+        "pinch cinnamon",
+        "pinch five-spice powder",
+        "4 thin-cut pork loin steaks",
+        "1 carrot , sliced into matchsticks",
+        "1 lime , juiced",
+        "pinch golden caster sugar",
+        "1 tbsp rapeseed oil",
+        "½ cucumber ,  cut into matchsticks",
+        "16 soft lettuce leaves (we used Butterhead lettuce)",
+        "sweet chilli sauce , to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make the marinade by mixing the soy with the honey, brown sugar, spices and 1 tbsp water. Put the pork in a shallow bowl, pour the marinade over, turning to make sure the steaks are well coated, then leave to marinate for at least 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the carrot with the lime juice and caster sugar. Brush a piece of foil with oil and line the grill pan. Grill the pork steaks (or griddle if you prefer) for 4 mins each side. Keep an eye on them in case the sugar in the marinade starts to blacken. When cooked, cut the pork into strips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the lettuce leaves out on a board and divide the pork between them. Add some carrot and cucumber, then fold in both ends of the lettuce leaf and roll up from one side to contain the filling. Serve with sweet chilli sauce, if you like."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT30M"
+}

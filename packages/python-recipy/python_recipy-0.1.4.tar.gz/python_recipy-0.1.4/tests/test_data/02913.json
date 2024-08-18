@@ -1,0 +1,105 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/bbq-beef-short-ribs-green-apple-salsa-fries#Recipe",
+    "@type": "Recipe",
+    "description": "Spare ribs are great when slow-cooked in a sweet barbecue sauce, with a hint of bourbon and chipotle - serve with contrasting chunky relish",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1309451_3-af05311.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/bbq-beef-short-ribs-green-apple-salsa-fries"
+    },
+    "name": "BBQ beef short ribs with green apple salsa & fries",
+    "url": "https://www.bbcgoodfood.com/recipes/bbq-beef-short-ribs-green-apple-salsa-fries",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sarah Cook",
+            "url": "https://www.bbcgoodfood.com/author/sarahcook"
+        }
+    ],
+    "dateModified": "2022-11-08T12:50:51+00:00",
+    "datePublished": "2013-06-09T10:27:31+01:00",
+    "headline": "BBQ beef short ribs with green apple salsa & fries",
+    "keywords": " Josh Eagleton, 2 of 5-a-day, 4 servings, 800 kcal or less, American fries, Braised, Chips, Mains, Make ahead, Over an hour, Sarah Cook, Slow cooked, Slow cooking, Spare ribs, Street food, Tender",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT5H30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "678 calories",
+        "fatContent": "37 grams fat",
+        "saturatedFatContent": "15 grams saturated fat",
+        "carbohydrateContent": "45 grams carbohydrates",
+        "sugarContent": "44 grams sugar",
+        "fiberContent": "3 grams fiber",
+        "proteinContent": "26 grams protein",
+        "sodiumContent": "2.6 milligram of sodium"
+    },
+    "prepTime": "PT30M",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "recipeIngredient": [
+        "1 small onion , roughly chopped",
+        "4 tbsp chipotle paste",
+        "2 tsp sweet smoked paprika",
+        "1 tsp cayenne pepper",
+        "400g can  chopped tomato",
+        "5 tbsp tomato ketchup",
+        "5 tbsp barbecue sauce",
+        "100ml malt vinegar",
+        "100g brown sugar",
+        "100ml bourbon",
+        "4 large or 8 smaller beef short ribs order from a butcher",
+        "1 beef stock cube",
+        "4 handfuls frozen skinny fries , cooked following pack instructions, to serve",
+        "juice 1  lime",
+        "2 Granny Smiths , quartered, cored and diced (and immediately tossed in the lime juice)",
+        "2 spring onions , sliced",
+        "handful coriander , roughly chopped",
+        "1 tbsp olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "The day before, put the first 10 ingredients in a food processor and whizz to a sauce. Put the ribs in a food bag (or baking dish), pour over the sauce and rub all over. Marinate in the fridge overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 160C/140C fan/gas 3 and boil the kettle. Tip the ribs and marinade into a big casserole dish with a lid. Crumble over the stock, then pour over enough boiling water from the kettle to come to the top of the ribs. Cover and cook for 4 hrs until tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tip all the liquid left into a big jug or bowl – leave for a while to separate, then skim off and discard any fat that has risen to the top. Lift the ribs into a roasting tin, then tip the cooking liquid back into the casserole and boil down on the hob until saucy again. Tip this back over the ribs and toss to coat. The ribs can now be cooled, then chilled for up to 48 hrs before finishing, or frozen."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 180C/160C fan/gas 4 and roast the ribs, uncovered, tossing halfway, for 1 hr until sticky and glazed on the outside, and heated through."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the ribs are done, cover the dish with foil to keep them warm while you cook the fries. Mix together the salsa ingredients. Serve the ribs with fries and a big spoonful of the salsa."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT6H"
+}

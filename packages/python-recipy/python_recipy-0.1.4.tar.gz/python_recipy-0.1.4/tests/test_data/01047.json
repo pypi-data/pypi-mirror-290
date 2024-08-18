@@ -1,0 +1,145 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Classic Trout Amandine",
+    "datePublished": "2019-08-24T15:13:55.000-04:00",
+    "dateModified": "2024-04-26T12:43:04.471-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Our classic Trout Amandine recipe features sliced, toasted almonds in a rich browned butter sauce that is flavored with lemon juice and Worcestershire sauce.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/ujpXxOHJhMek1HDRwGGPsV-0fc0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Heirloom_03_107-2000-3d2e3ff936294c2cb80f416e0d0f100f.jpg",
+        "height": 2000,
+        "width": 1425
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Classic Trout Amandine",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "keywords": "trout amandine, trout almondine",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "French"
+    ],
+    "recipeIngredient": [
+        "2 cups milk",
+        "1/8 teaspoon hot sauce",
+        "1 1/2 teaspoons salt, divided",
+        "12 (4-oz.) trout fillets",
+        "3/4 cup all-purpose flour",
+        "1/2 teaspoon pepper",
+        "3/4 cup butter, divided",
+        "1 tablespoon olive oil",
+        "1/2 cup sliced almonds",
+        "2 tablespoons fresh lemon juice",
+        "2 teaspoons Worcestershire sauce",
+        "1/4 cup chopped fresh parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Marinate fish: Stir together milk, hot sauce, and 1 tsp. salt in a 13- by 9-inch baking dish; add fillets, turning to coat. Cover and chill 2 hours. Drain, discarding marinade."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make fish coating: Combine flour and pepper in a shallow dish. Dredge fillets in flour mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pan fry trout: Melt 1/4 cup butter with oil in a large skillet over medium heat. Fry fillets, in batches, in butter mixture 2 minutes on each side or until fish flakes with a fork. Transfer to a serving platter; keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make sauce: Combine remaining 1/2 cup butter and almonds in a saucepan; cook over medium heat, stirring often, until almonds are lightly browned. Add lemon juice, Worcestershire sauce, and remaining 1/2 tsp. salt; cook, stirring constantly, 1 minute. Remove from heat; stir in parsley. Pour almond mixture over fillets, and serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT150M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Southern Living Member"
+            },
+            "reviewBody": "This was wonderful! I used salt free butter and almond flour instead of white flour. Very tender and flaky. Cooked it for myself and would serve to guests any time. I'm not a fish person, was never served it as a kid. If you have someone who doesn't like fish, I promise they will love this.",
+            "datePublished": "2022-08-12T00:41:00.813Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/trout-amandine",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/seafood",
+                        "name": "Seafood"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/seafood/fish",
+                        "name": "Fish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/trout-amandine",
+                        "name": "Classic Trout Amandine"
+                    }
+                }
+            ]
+        }
+    }
+}

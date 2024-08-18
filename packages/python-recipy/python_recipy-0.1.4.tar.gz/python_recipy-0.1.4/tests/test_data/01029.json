@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Old-Fashioned Pecan Logs",
+    "datePublished": "2020-10-29T15:41:48.000-04:00",
+    "dateModified": "2020-10-29T15:43:17.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Anna Theoktisto",
+            "url": "https://www.southernliving.com/author/anna-theoktisto"
+        }
+    ],
+    "description": "These classic pecan logs look more complicated than they are thanks to melted caramel candies standing in for homemade caramel.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/hhfAeotQEm6vtep2kZNrL9u07NA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pecan_Logs_0049-S-2000-440e2ee4919e46b79f77527cb25a511c.jpg",
+        "height": 819,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Old-Fashioned Pecan Logs",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "5"
+    },
+    "recipeIngredient": [
+        "1/2 cup unsalted butter",
+        "1/2 cup light corn syrup",
+        "1/3 cup granulated sugar",
+        "4 cups (about 16 oz.) powdered sugar",
+        "1/2 cup nonfat powdered milk",
+        "1 tsp. vanilla extract",
+        "1/4 tsp. kosher salt",
+        "1 1/2 (11-oz.) pkg. caramel candies, unwrapped",
+        "3 Tbsp. heavy whipping cream",
+        "3 cups chopped pecans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine butter, corn syrup, and granulated sugar in a medium saucepan over medium. Cook, stirring constantly, until sugar dissolves and mixture just begins to boil, about 3 minutes. Remove from heat, and stir in powdered sugar, powdered milk, vanilla, and salt. Continue stirring until mixture begins to clump, about 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread mixture in a parchment paper-lined 9-inch square baking pan. Let stand until cool enough to handle, about 15 minutes. Cut candy into 4 equal strips; cut crosswise in middle, creating 8 pieces. Shape each piece into a 4 1/2- to 5-inch-long log, and wrap in parchment paper or wax paper. Freeze until firm, about 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt caramel and cream in top of a double boiler over medium. Place chopped pecans on a rimmed baking sheet. Unwrap frozen candy logs. Carefully dip each log into hot caramel, letting excess drip off. Roll in chopped pecans until evenly coated. Wrap in parchment paper or wax paper, and store in an airtight container at room temperature up to 5 days. Cut each log into 4 pieces to serve."
+        }
+    ],
+    "recipeYield": [
+        "32"
+    ],
+    "totalTime": "PT120M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/pecan-logs-2",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/pecan-logs-2",
+                        "name": "Old-Fashioned Pecan Logs"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

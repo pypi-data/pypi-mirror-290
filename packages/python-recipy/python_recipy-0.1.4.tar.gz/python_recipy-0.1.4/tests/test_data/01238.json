@@ -1,0 +1,68 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Red Pepper and Artichoke Panini",
+    "description": "This red pepper and artichoke panini is simple and delicious - turkey, red pepper, and artichokes stacked between buttery grilled bread. Yum!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "panini recipe, artichoke panini, turkey panini, provolone cheese, red pepper hummus",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2011/02/Red-Pepper-and-Artichoke-Panini-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/02/Red-Pepper-and-Artichoke-Panini-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/02/Red-Pepper-and-Artichoke-Panini-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/2011/02/Red-Pepper-and-Artichoke-Panini.jpeg"
+    ],
+    "url": "https://pinchofyum.com/red-pepper-and-artichoke-panini",
+    "recipeIngredient": [
+        "turkey",
+        "provolone cheese, sliced",
+        "red pepper hummus",
+        "quartered artichokes",
+        "wheat bread",
+        "butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Assemble on bread; butter the outside.",
+            "url": "https://pinchofyum.com/red-pepper-and-artichoke-panini#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill until golden.",
+            "url": "https://pinchofyum.com/red-pepper-and-artichoke-panini#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
+    "recipeYield": [
+        "1",
+        "1 sandwich"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "nutrition": {
+        "servingSize": null,
+        "calories": "500 calories",
+        "sugarContent": "3.3 g",
+        "sodiumContent": "1218.4 mg",
+        "fatContent": "26.1 g",
+        "saturatedFatContent": "13.5 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "38.9 g",
+        "fiberContent": "6.6 g",
+        "proteinContent": "28.7 g",
+        "cholesterolContent": "88.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "datePublished": "2011-02-22",
+    "@id": "https://pinchofyum.com/red-pepper-and-artichoke-panini#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/red-pepper-and-artichoke-panini#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/red-pepper-and-artichoke-panini"
+}

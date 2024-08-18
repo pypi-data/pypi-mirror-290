@@ -1,0 +1,318 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/crunchy-romaine-strawberry-salad/",
+    "name": "Crunchy Romaine Strawberry Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-23",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Crunchy-Romaine-Strawberry-Salad_exps33043_SD1999447C12_09_2bC_RMS-6.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This is such an impressive salad! It’s been a hit with people of all ages at every get-together we’ve ever brought it to. In addition to being pretty and colorful, it’s a snap to make. And the mouthwatering combination of tastes and textures seems to please every palate.&mdash;Leslie Lancaster, Zachary, Louisiana",
+    "recipeIngredient": [
+        "1 package (3 ounces) ramen noodles",
+        "1 cup chopped walnuts",
+        "1/4 cup butter",
+        "1/4 cup sugar",
+        "1/4 cup canola oil",
+        "2 tablespoons red wine vinegar",
+        "1/2 teaspoon soy sauce",
+        "8 cups torn romaine",
+        "1/2 cup chopped green onions",
+        "2 cups fresh strawberries, sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Discard seasoning packet from ramen noodles or save for another use. Break noodles into small pieces. In a large skillet, cook noodles and walnuts in butter over medium heat for 8-10 minutes or until golden; cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For dressing, in a small bowl, whisk the sugar, oil, vinegar and soy sauce. Just before serving combine the romaine, onions, strawberries and noodle mixture in a large bowl. Drizzle with dressing and toss gently."
+        }
+    ],
+    "recipeYield": "12 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 200 calories",
+        "fatContent": "16g fat (4g saturated fat)",
+        "cholesterolContent": "10mg cholesterol",
+        "sodiumContent": "81mg sodium",
+        "carbohydrateContent": "13g carbohydrate (5g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "4g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.909091,
+        "reviewCount": 22,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-05-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "grannygourmet"
+            },
+            "reviewBody": "Wonderful salad!  The added crunch of the ramen noodles really makes it.  I don't think it would serve 12, however. 6 servings is more like it.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-06-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "eybsca"
+            },
+            "reviewBody": "wow, what a great salad, outstanding taste.Cathy E",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-05-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "valanddansmith"
+            },
+            "reviewBody": "I loved this and will definitely make it again!!!  I doubled the dressing, and will most likely double the noodles and walnuts next time - that part really made the salad stand out and there just wasn't enough of that for me!!  The flavor of the toasted walnuts was perfect with the other ingredients.  I also added a little salt and pepper to taste (to my own portion).  Yum!  Thanks, Leslie!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-08-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "vanillaluv"
+            },
+            "reviewBody": "Everyone loves this salad and it has become one of those \"go to\" recipes for all occasions.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-03-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "masoian"
+            },
+            "reviewBody": "Excellent recipe - also easy!  I think I will use a little less butter next time, as the noodles and walnuts were a little oily.  I put on paper towels to drain a bit.  Other than that, tasty as is!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-03-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "debbschaefer"
+            },
+            "reviewBody": "Everyone loves this when I make it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-04-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jenny.mast"
+            },
+            "reviewBody": "This is a favorite recipe for our family get togethers, everyone loves it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-04-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "beksand"
+            },
+            "reviewBody": "This salad was awesome!! we like the dressing doubled. My husband and I eat it for our supper!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-04-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "curious22"
+            },
+            "reviewBody": "This is the BEST homemade salad Ive ever made!! It was a complete hit at my familys easter dinner and I had several people asking me for the receipe after they ate it! If I could give it 10 stars I would!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-05-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "matkinson72"
+            },
+            "reviewBody": "This is the best salad I've ever tasted.  I've forwarded the recipe to several friends and family already, and I've never taken the time to do that before!  Great combination of flavors. So yummy!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-08-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mrsnpierce"
+            },
+            "reviewBody": "Quick and easy to make, this salad is a nice change-up for lovers of tossed salads.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-03-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amethystra"
+            },
+            "reviewBody": "I brought this recipe in to church for a potluck.  Since it's Lenten season, we couldn't have any meat.. or dairy products until Easter.  I used canola oil to stir fry the ramen noodles and walnuts.. my cousin even mentioned that you can stir fry them in a dry pan (just for a shorter period of time).  This went over very well!  I hardly had anything to bring back home.  :)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-06-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "kshea"
+            },
+            "reviewBody": "This is an excellent recipe. I halved it for 3 people. It is great!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-07-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ojc0806"
+            },
+            "reviewBody": "Wonderful!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

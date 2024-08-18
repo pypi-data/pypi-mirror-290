@@ -1,0 +1,77 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Spiced tea and sweetened condensed milk are the keys here.",
+    "alternativeHeadline": "Spiced tea and sweetened condensed milk are the keys here.",
+    "keywords": [
+        "cold drink",
+        "iced tea",
+        "black tea",
+        "thai",
+        "vanilla",
+        "beverages",
+        "nut free",
+        "gluten free",
+        "vegetarian",
+        "nonalcoholic",
+        "easy",
+        "make ahead",
+        "simmer",
+        "bon appétit",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "The Bon Appétit Test Kitchen",
+            "sameAs": "https://www.epicurious.com/contributor/the-bon appétit test kitchen"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "ratingCount": 5
+    },
+    "description": "Spiced tea and sweetened condensed milk are the keys here.",
+    "image": [
+        "https://assets.epicurious.com/photos/54af593fc4a891cc44ccf153/master/w_808,h_808,c_limit/51169480_thai-iced-tea_1x1.jpg"
+    ],
+    "headline": "Thai-Style Iced Tea",
+    "name": "Thai-Style Iced Tea",
+    "recipeIngredient": [
+        "10 star anise pods",
+        "3 tablespoons sugar",
+        "1 vanilla bean",
+        "15 black tea bags",
+        "1/2 cup heavy cream",
+        "1/2 cup sweetened condensed milk"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine 10 star anise pods, 3 tablespoons sugar, and 1 cup water in a small saucepan. Scrape in seeds from 1 vanilla bean; add bean. Bring to a boil, reduce heat, and simmer 10 minutes. Transfer to a large pitcher. Add 15 black tea bags and 7 cups cold water. Cover; chill at least 4 hours. Strain into another large pitcher. Stir in 1/2 cup heavy cream and 1/2 cup sweetened condensed milk until dissolved. Serve over ice."
+        }
+    ],
+    "recipeYield": "Makes 8 servings",
+    "url": "https://www.bonappetit.com/recipe/thai-style-iced-tea",
+    "dateModified": "2013-05-09T00:00:00.000-04:00",
+    "datePublished": "2013-05-09T00:00:00.000-04:00",
+    "recipeCategory": []
+}

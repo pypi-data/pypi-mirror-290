@@ -1,0 +1,336 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022399-peach-tea#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022399-peach-tea",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/07/07/dining/vl-peach-tea/merlin_190126671_bfbff18a-58e3-4254-9ee9-4c16ac366dff-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022399-peach-tea",
+    "name": "Peach Tea",
+    "description": "Sweetened with peaches, freshly puréed or from store-bought juice, this beverage tastes extra refreshing in warm weather. The fruit complements strongly brewed tea, and a little lemon juice further accentuates the peach flavor and helps balance the natural sweetness, which you can bolster with sugar if you’d like.",
+    "author": {
+        "@type": "Person",
+        "name": "Vallery Lomas"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/07/07/dining/vl-peach-tea/merlin_190126671_bfbff18a-58e3-4254-9ee9-4c16ac366dff-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/07/07/dining/vl-peach-tea/merlin_190126671_bfbff18a-58e3-4254-9ee9-4c16ac366dff-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/07/07/dining/vl-peach-tea/merlin_190126671_bfbff18a-58e3-4254-9ee9-4c16ac366dff-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/07/07/dining/vl-peach-tea/merlin_190126671_bfbff18a-58e3-4254-9ee9-4c16ac366dff-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "About 6 cups",
+    "recipeCuisine": "southern",
+    "recipeCategory": [],
+    "keywords": "black tea, lemon, peach",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 320
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 211,
+        "unsaturatedFatContent": "1 gram",
+        "carbohydrateContent": "52 grams",
+        "cholesterolContent": null,
+        "fatContent": "1 gram",
+        "fiberContent": "7 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "0 grams",
+        "sodiumContent": "5 milligrams",
+        "sugarContent": "46 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "8 black tea bags, preferably Lipton",
+        "2 pounds ripe peaches (6 to 8), peeled, pitted and coarsely chopped, or 2 cups peach juice (see Tip)",
+        "1 tablespoon fresh lemon juice, plus more if needed",
+        "1 cup ice, plus more for serving",
+        "Granulated sugar, if needed",
+        "Fresh peach slices, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a tea kettle or medium saucepan over high heat, bring 4 cups water to a boil. Remove from the heat and add the tea bags. Allow the tea to steep for 5 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the tea steeps, purée the peaches, if using fresh fruit. Pulse in a food processor or blender until very smooth. You should have 2 cups. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Gently squeeze the concentrated tea from the bags and discard the bags. If using puréed peaches, pour the tea into the blender, add the lemon juice and purée until smooth. Transfer to a pitcher. If using peach juice, transfer the tea to a pitcher, and stir in the peach juice and lemon juice. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the ice to the pitcher, then taste. If it’s too sweet, add more lemon juice, a couple of teaspoons at a time. If it isn’t sweet enough, stir in sugar, 1 tablespoon at a time, until dissolved. Refrigerate until the tea is chilled throughout. Serve in a large glass filled with ice and garnished with peach slices."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Luther"
+            },
+            "reviewBody": "Good recipe, certainly much better than the awful stuff sold in stores. Couple of notes. Why chop the peaches only to turn around and put them in a blender? Black tea is very strong so unless you are a lover of overpowering tea flavor with a hint of peach, you're going to need sugar and more than a couple of tablespoons. Wound up using a round 1/4 cup.",
+            "datePublished": "2023-08-19T18:04:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophia Lyons"
+            },
+            "reviewBody": "I cooked the peaches with 1/2 cup sugar for about 5 minutes, pureed and strained. Delicious!",
+            "datePublished": "2023-07-17T16:16:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "garrett"
+            },
+            "reviewBody": "Didn’t use the lemon juice and I think it turned out very well! In my opinion it needs at least a couple tablespoons if not 1/4 cup of sugar (especially if they are not so ripe) and it also uplifts the peach flavor. Would make again!",
+            "datePublished": "2022-08-07T22:13:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "Peeling the peaches did not lighten the tea to the nice beige-ish color in the photo.  Mine came out an extremely unappetizing brown ochre slush that no one was willing to try. I  will not be making this again.",
+            "datePublished": "2022-07-27T14:42:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "Not quite my cup of tea as printed here. I followed the recipe exactly, write down to the recommendation for Lipton. I doubt I would use Lipton again. The tea was tasty enough but needed a fair amount of sugar, perhaps that’s because I did squeeze the bags and, yes, it added bitterness as one reviewer previously mentioned. I have not tried it yet but I think I will add a shot of bourbon to one glass and see if that makes a reasonable summer cocktail. Seems like it should.",
+            "datePublished": "2022-07-24T22:54:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gordon"
+            },
+            "reviewBody": "Can I add some \nbourbon?",
+            "datePublished": "2021-08-25T20:21:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allie"
+            },
+            "reviewBody": "How long will this last in the refrigerator? (Using fresh peaches if that makes a difference)",
+            "datePublished": "2021-08-07T11:30:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Megs"
+            },
+            "reviewBody": "Had some old peaches- very easy to prepare when they are begging to be used! Added maple syrup and extra lemon juice, as peaches were not as flavorful as I liked.",
+            "datePublished": "2021-07-17T14:22:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LucianoYYZ"
+            },
+            "reviewBody": "I agree with another reader - use a higher quality black tea, like an Assam. And don't squeeze the teabags when discarding, as you wouldn't do this when having a cup of a tea. Squeezing teabags releases bitter tannins. Another option is to make the tea into a cold brew rather then using this recipe's method. it reveals a fresher, sweeter, more authentic character to the tea which can only help make the drink even better.",
+            "datePublished": "2021-07-14T19:25:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KT B"
+            },
+            "reviewBody": "preferably Red Rose tea bags, miles above Lipton.",
+            "datePublished": "2021-07-12T14:47:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hannah"
+            },
+            "reviewBody": "I had frozen peaches and earl grey tea, and decided to give this a try. I put half the seeped tea into a blender with the frozen peaches and puréed, then added in the rest of the tea   lemon. Poured into glasses over ice. Absolutely wonderful! Peachy and refreshing. You can easily riff off of this concept of pureed fruit   tea, I may give strawberries and green tea a try next!",
+            "datePublished": "2021-07-10T23:47:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia K"
+            },
+            "reviewBody": "I learned from the comments for the recipe posted here for Sweet Tea that squeezing the teabags releases too much tannin and makes the tea bitter. I’ve resisted squeezing since then, and I believe it to be true.",
+            "datePublished": "2021-07-10T21:02:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Petros"
+            },
+            "reviewBody": "You had me, until you recommended Lipton.\n\nUse real tea, such as Assam, indtead",
+            "datePublished": "2021-07-09T17:21:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne"
+            },
+            "reviewBody": "I’ll pick up a 25 lb box of peaches soon, from The Peach Truck. Already processed 50 lbs earlier this summer. This tea seems like a lovely way to use some of our peaches, and I think I’ll process some pre-measured for a winter peach tea drink.",
+            "datePublished": "2021-07-09T21:40:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maeve"
+            },
+            "reviewBody": "How is that much different? This is tea with pulsed peaches.  (Also, no sugar.)  Personally, I prefer the pureed peaches to chunks, but that's just a preference.  And, yes, I have to wash the blender, but I can make smoothies at the same time.",
+            "datePublished": "2021-07-10T01:24:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Madeleine"
+            },
+            "reviewBody": "This is a variation of iced tea I've had in Italy only the Italian recipe is much simpler:  plain black tea and cut up peaches.  No sugar.  It takes less time and is a refreshing delight.",
+            "datePublished": "2021-07-09T15:32:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Madeleine"
+            },
+            "reviewBody": "This is a variation of iced tea I've had in Italy only the Italian recipe is much simpler:  plain black tea and cut up peaches.  No sugar.  It takes less time and is a refreshing delight.",
+            "datePublished": "2021-07-09T15:32:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Petros"
+            },
+            "reviewBody": "You had me, until you recommended Lipton.\n\nUse real tea, such as Assam, indtead",
+            "datePublished": "2021-07-09T17:21:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hannah"
+            },
+            "reviewBody": "I had frozen peaches and earl grey tea, and decided to give this a try. I put half the seeped tea into a blender with the frozen peaches and puréed, then added in the rest of the tea   lemon. Poured into glasses over ice. Absolutely wonderful! Peachy and refreshing. You can easily riff off of this concept of pureed fruit   tea, I may give strawberries and green tea a try next!",
+            "datePublished": "2021-07-10T23:47:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maeve"
+            },
+            "reviewBody": "How is that much different? This is tea with pulsed peaches.  (Also, no sugar.)  Personally, I prefer the pureed peaches to chunks, but that's just a preference.  And, yes, I have to wash the blender, but I can make smoothies at the same time.",
+            "datePublished": "2021-07-10T01:24:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia K"
+            },
+            "reviewBody": "I learned from the comments for the recipe posted here for Sweet Tea that squeezing the teabags releases too much tannin and makes the tea bitter. I’ve resisted squeezing since then, and I believe it to be true.",
+            "datePublished": "2021-07-10T21:02:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LucianoYYZ"
+            },
+            "reviewBody": "I agree with another reader - use a higher quality black tea, like an Assam. And don't squeeze the teabags when discarding, as you wouldn't do this when having a cup of a tea. Squeezing teabags releases bitter tannins. Another option is to make the tea into a cold brew rather then using this recipe's method. it reveals a fresher, sweeter, more authentic character to the tea which can only help make the drink even better.",
+            "datePublished": "2021-07-14T19:25:05.000Z"
+        }
+    ]
+}

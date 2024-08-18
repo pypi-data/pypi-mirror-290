@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mixed Berry Cheesecake Cupcakes",
+    "datePublished": "2020-09-10T15:48:01.000-04:00",
+    "dateModified": "2022-02-24T11:34:28.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "We&#39;re making a case for never skipping dessert with our Mixed Berry Cheesecake Cupcakes that yield 12 perfect portions.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/eIgz7LLRY-qnhmhtxKyjpg3y0cs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/CheeseCakeCupcakes_451-S-2000-ed243924033b43749bf86d9d91e1c450.jpg",
+        "height": 823,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Mixed Berry Cheesecake Cupcakes",
+    "recipeIngredient": [
+        "1 cup graham cracker crumbs (from 1 [13.5-oz.] pkg., such as Keebler)",
+        "4 tablespoons unsalted butter, melted",
+        "1 tablespoon granulated sugar",
+        "1/4 tsp. kosher salt",
+        "2 (8-oz.) package cream cheese, softened",
+        "1/2 cup sour cream",
+        "1/3 cup granulated sugar",
+        "1 teaspoon vanilla extract",
+        "2 large eggs",
+        "1 cup cold heavy whipping cream",
+        "1/4 cup powdered sugar",
+        "1/2 cup fresh blueberries",
+        "1/2 cup fresh raspberries",
+        "6 whole fresh strawberries, halved"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Line a 12-cup standard-size muffin pan with paper or foil muffins liners."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together graham cracker crumbs, butter, sugar, and salt in a small bowl. Spoon a heaping 1 1/2 tablespoons into each muffin liner. Using a 1/4 cup measuring cup or your fingers, press cracker crumb mixture into bottom of muffin liner. Bake crusts just until lightly golden, about 5 minutes. Let cool in pan on a wire rack."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the crusts cool, prepare the Cheesecake Filling: Beat cream cheese, sour cream, and sugar n the bowl of a stand mixer fitted with a paddle attachment on medium speed until smooth, about 30 seconds, scraping down sides of bowl as needed. Add vanilla, and continue beating on medium speed just until combined. Add eggs, 1 at a time, beating on low speed until just incorporated after each addition. (Do not overbeat.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour cheesecake batter evenly over crusts in pan, about 3 tablespoons each. Jiggle muffin pan to smooth tops of batter. Bake in preheated oven until filling starts to set on sides and center slightly jiggles, 10 to 12 minutes. Let crusts cool in pan on a wire rack 20 minutes. Remove from pan, and place on serving platter. Refrigerate until completely cooled, about 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, prepare the Mixed Berry Topping: Beat heavy cream, and powdered sugar in the bowl of a stand mixer fitted with a whisk attachment on medium-high speed until stiff peaks form, about 1 1/2 minutes. Transfer whipped cream to a piping bag fitted with a star tip. Pipe whipped cream on each cheesecake; top each with 1 strawberry half, and add berries. Serve immediately or refrigerate until ready to serve."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT120M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/mixed-berry-cheesecake-cupcakes",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/mixed-berry-cheesecake-cupcakes",
+                        "name": "Mixed Berry Cheesecake Cupcakes"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

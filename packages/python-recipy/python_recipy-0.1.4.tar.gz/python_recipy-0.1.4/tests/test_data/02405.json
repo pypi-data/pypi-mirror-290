@@ -1,0 +1,74 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Creamy Chicken Lasagna",
+    "keywords": "creamy chicken lasagna",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/6dh9ylwc-EWgwjUhQBU1DA_webp_base.webp?v=8dd62a26&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Craving comfort food?  Try this creamy lasagna with layers of tasty chicken and four cheeses.",
+    "recipeIngredient": [
+        "12  uncooked lasagna noodles (12 oz)",
+        "1  tablespoon butter or margarine",
+        "3/4  cup chopped green bell pepper",
+        "3/4  cup chopped onions (1 1/2 medium)",
+        "1/3  cup milk",
+        "2  cans (10 3/4 oz each) condensed cream of chicken soup",
+        "1/2  teaspoon dried basil leaves",
+        "1/4  teaspoon pepper",
+        "1  container (12 oz) small-curd cottage cheese",
+        "3  cups diced cooked chicken",
+        "2  cups shredded mozzarella cheese (8 oz)",
+        "1  cup shredded Cheddar cheese (4 oz)",
+        "1/2  cup grated Parmesan cheese"
+    ],
+    "totalTime": "PT1H50M",
+    "prepTime": "PT0H40M",
+    "recipeYield": "8",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "101",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Spray bottom and sides of 13x9-inch (3-quart) glass baking dish with cooking spray. Cook and drain noodles as directed on package."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 2-quart saucepan, melt butter over medium-high heat. Cook bell pepper and onions in butter, stirring occasionally, until crisp-tender; remove from heat. Stir in milk, soup, basil and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 4 noodles in baking dish. Top with about 1 cup of the soup mixture, half of the cottage cheese, 1 1/2 cups of the chicken, 2/3 cup mozzarella cheese and 1/3 cup Cheddar cheese. Repeat layers once, starting with noodles. Place remaining 4 noodles over top. Top with remaining soup mixture, mozzarella cheese and Cheddar cheese. Sprinkle Parmesan cheese over top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake uncovered 50 to 55 minutes or until bubbly and hot in center. Let stand 15 minutes before cutting."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "520 ",
+        "carbohydrateContent": "36 g",
+        "cholesterolContent": "95 mg",
+        "fatContent": "1 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "40 g",
+        "saturatedFatContent": "12 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1230 mg",
+        "sugarContent": "4 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "02/18/2004",
+    "dateModified": "12/26/2017"
+}

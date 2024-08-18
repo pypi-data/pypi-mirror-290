@@ -1,0 +1,123 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Tom Collins",
+    "datePublished": "2021-07-06T13:02:15.647-04:00",
+    "dateModified": "2022-02-16T13:56:55.567-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sam Schick",
+            "url": "https://www.simplyrecipes.com/sam-schick-5091822"
+        }
+    ],
+    "description": "Enjoy a refreshing Tom Collins cocktail on a bright summer day. It’s a spiked lemonade made with gin, simple syrup for a little sweetness, and seltzer for fizz—summer is calling.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.simplyrecipes.com/thmb/4IWlhae83iUgYbJJUi09rGST8Dw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Tom-Collins-LEAD-4-17cebecf78714600b93d93733e850d59.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Simply Recipes",
+        "url": "https://www.simplyrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+            "width": 1125,
+            "height": 320
+        },
+        "brand": "Simply Recipes",
+        "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/simplyrecipes",
+            "https://www.instagram.com/simplyrecipes",
+            "https://www.pinterest.com/simplyrecipes"
+        ]
+    },
+    "name": "Tom Collins",
+    "keywords": "Tom Collins, Cocktail, Summer drink recipes, summer cocktails, gin, spiked lemonade cocktail, lemonade cocktail",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "352 kcal",
+        "carbohydrateContent": "70 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "19 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "20 mg",
+        "sugarContent": "24 g",
+        "fatContent": "2 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 ounces Old Tom Gin",
+        "3/4 ounce lemon juice",
+        "1/2 ounce simple syrup",
+        "2 ounces seltzer",
+        "Lemon wheel and cherry flag, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add ingredients to shaker and shake cocktail: Add the gin, lemon juice, and simple syrup to a shaker half-filled with ice. Shake until it’s just chill to the touch, about 5 to 10 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Strain the cocktail: Strain the cocktail into the chilled Collins glass filled with ice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with club soda and garnish: Top cocktail with seltzer. Garnish with a lemon wheel and cherry flag. Serve."
+        }
+    ],
+    "recipeYield": [
+        "1",
+        "1 cocktail"
+    ],
+    "totalTime": "PT5M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.simplyrecipes.com/tom-collins-recipe-5190817",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/cocktail-recipes-5091324",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/classic-cocktail-recipes-5091322",
+                        "name": "Classic Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/tom-collins-recipe-5190817",
+                        "name": "Tom Collins"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

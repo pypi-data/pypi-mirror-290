@@ -1,0 +1,144 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Feijoada",
+    "datePublished": "2013-12-06T18:25:24.000-05:00",
+    "dateModified": "2023-03-30T10:07:01.538-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Eric Ripert",
+            "url": "https://www.foodandwine.com/author/eric-ripert"
+        }
+    ],
+    "description": "Feijoada, Brazil&#39;s national dish, is a stew loaded with black beans and meats of every description: smoked pork loin, bacon and sausage such as chorizo.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/Jr3H4e5F4_2eHnOGKSm4jdY5bF0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Feijoada-FT-RECIPE0323-2ed2fbae5e0c4110b5bb522c6d7e0eac.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Feijoada",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "4894"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "South American"
+    ],
+    "recipeIngredient": [
+        "3 tablespoons unsalted butter",
+        "1 small onion (very thinly sliced)",
+        "1 large egg (beaten)",
+        "1 1/2 cups manioc flour (see Note)",
+        "2 tablespoons finely chopped flat-leaf parsley",
+        "Kosher salt",
+        "2 tablespoons vegetable oil",
+        "3 garlic cloves, thinly sliced",
+        "1 large onion, finely chopped",
+        "1 1/2 pounds dried black beans, soaked overnight and drained",
+        "3 1/2 quarts water",
+        "1 pound fresh spicy sausage, such as linguiça",
+        "3/4 pound dried beef (carne seca) or corned beef, in one piece",
+        "1 1/2 pounds smoked pork chops",
+        "3/4 pound lean slab bacon",
+        "3/4 pound chorizo, in one piece",
+        "1 dried red chile",
+        "Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt the butter in a large skillet. Add the onion and cook over low heat until softened, about 7 minutes. Stir in the egg and cook, stirring, until dry and crumbly, about 30 seconds. Add the manioc flour and cook over moderate heat, stirring occasionally, until lightly toasted, about 8 minutes. Stir in the parsley and season with salt. Make the Feijoada"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the vegetable oil in a large, heavy casserole. Add the garlic and onion and cook over moderately low heat, stirring occasionally, until the onion is softened, about 7 minutes. Stir in the drained black beans. Add the water to the casserole and bring to a boil over moderately high heat. Reduce the heat to low and simmer the beans for 1 hour, stirring occasionally. Add all of the meats and the dried chile and cook until the beans are tender, about 1 hour longer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the meats from the casserole and thickly slice them; discard any bones. Pick out and discard the chile. Season the beans with salt. Ladle the beans into shallow bowls and serve with the sliced meats. Pass the toasted manioc flour at the table for sprinkling over the feijoada."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT175M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "Awesome dish , just takes a little time.",
+            "datePublished": "2023-08-21T23:32:40.543Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/feijoada",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/comfort-food/stews",
+                        "name": "Stews"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/feijoada",
+                        "name": "Feijoada"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/honey-orange-roast-sea-bass-lentils#Recipe",
+    "@type": "Recipe",
+    "description": "Liven up your midweek meals with this low-calorie, gluten-free fish supper - ready in under half an hour",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/honey-orange-roast-sea-bass-with-lentils-58794c3.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/honey-orange-roast-sea-bass-lentils"
+    },
+    "name": "Honey & orange roast sea bass with lentils",
+    "url": "https://www.bbcgoodfood.com/recipes/honey-orange-roast-sea-bass-lentils",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Katy Gilhooly",
+            "url": "https://www.bbcgoodfood.com/author/katygilhooly"
+        }
+    ],
+    "dateModified": "2022-11-08T14:34:54+00:00",
+    "datePublished": "2015-01-08T14:30:33+00:00",
+    "headline": "Honey & orange roast sea bass with lentils",
+    "keywords": "2 of 5-a-day, Calcium, Easy fish, Fibre, Fish fillets, Iron, Katy Gilhooly, Vit C, Vitamin c, Winter",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "495 calories",
+        "fatContent": "18 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "33 grams carbohydrates",
+        "sugarContent": "9 grams sugar",
+        "fiberContent": "12 grams fiber",
+        "proteinContent": "44 grams protein",
+        "sodiumContent": "1.9 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "2 large skin-on sea bass fillets (or other white fish - see tip)",
+        "zest and juice ½  orange",
+        "2 tsp clear honey",
+        "2 tsp wholegrain mustard",
+        "2 tbsp olive oil",
+        "250g pouch ready-to-eat puy lentils",
+        "100g watercress",
+        "small bunch parsley, chopped",
+        "small bunch dill, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 200C/180C fan/gas 6. Place each sea bass fillet, skin-side down, on individual squares of foil. Mix together the orange zest, honey, mustard, 1 tbsp olive oil and some seasoning, and drizzle it over the fillets. Pull the sides of the foil up and twist the edges together to make individual parcels. Place the parcels on a baking tray and bake in the oven for 10 mins until the fish is just cooked and flakes easily when pressed with a knife."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Warm the lentils following pack instructions, then mix with the orange juice, remaining oil, the watercress, herbs and seasoning. Divide the lentils between 2 plates and top each with a sea bass fillet. Drizzle over any roasting juices that are caught in the foil and serve immediately."
+        }
+    ],
+    "recipeYield": 2,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet",
+    "totalTime": "PT25M"
+}

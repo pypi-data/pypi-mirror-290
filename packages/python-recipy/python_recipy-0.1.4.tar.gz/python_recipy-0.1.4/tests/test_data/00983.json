@@ -1,0 +1,90 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/warm-cabbage-fennel-and-pear-salad/",
+    "name": "Warm Cabbage, Fennel and Pear Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-12-24",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Warm-Cabbage-Fennel-and-Pear-Salad_EXPS_THN17_202635_B06_16_5b-3.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This crunchy salad makes an elegant first course or side, but it's hearty enough to be an entree when paired with a crusty artisan bread. We love it served warm. &mdash;Grace Voltolina, Westport, Connecticut",
+    "recipeIngredient": [
+        "2 firm medium pears",
+        "1/4 cup brandy or Cognac, optional",
+        "3 tablespoons olive oil",
+        "1 large fennel bulb, halved, cored and thinly sliced",
+        "4 cups shredded or thinly sliced cabbage",
+        "1/4 cup water",
+        "3 tablespoons lemon juice",
+        "2 teaspoons honey or agave nectar",
+        "1 teaspoon kosher salt",
+        "1/2 teaspoon pepper",
+        "3/4 cup crumbled or sliced Gorgonzola cheese",
+        "1/2 cup chopped walnuts, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Peel and core pears; cut into 1/2-in. slices. If desired, toss with brandy. Set pears aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, heat oil over medium-high heat. Add fennel; saute until crisp-tender, 2-3 minutes. Add cabbage; toss with fennel. Cook until both are tender, 2-3 minutes longer. Add pears, water, lemon juice, honey, salt and pepper to skillet, gently combining ingredients. Cook until liquid is evaporated, 6-8 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a serving bowl. Top with Gorgonzola cheese and toasted walnuts. Serve warm or at room temperature."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 391 calories",
+        "fatContent": "26g fat (7g saturated fat)",
+        "cholesterolContent": "19mg cholesterol",
+        "sodiumContent": "810mg sodium",
+        "carbohydrateContent": "28g carbohydrate (14g sugars",
+        "fiberContent": "8g fiber)",
+        "proteinContent": "9g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-12-23",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Traci427"
+            },
+            "reviewBody": "<p>Im giving this a 5 star for now just because it looks delicious and tantalizes my taste buds! I'll be making this on Christmas Day and am wondering if I can mix green and purple cabbage for this recipe.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

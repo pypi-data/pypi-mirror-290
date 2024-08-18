@@ -1,0 +1,434 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023096-eggplant-parmesan-pasta#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023096-eggplant-parmesan-pasta",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/04/05/dining/kc-eggplant-parmesan-pasta/kc-eggplant-parmesan-pasta-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023096-eggplant-parmesan-pasta",
+    "name": "Eggplant Parmesan Pasta",
+    "description": "The unassuming eggplant is the star of this comforting weeknight pasta that manages to capture the flavors of traditional eggplant Parmigiana without the fuss of frying, layering and baking. Cubed eggplant is browned with onion and garlic until golden, then simmered in a quick pantry-friendly tomato sauce until meltingly tender. Mezze rigatoni, fusilli and shells all do great jobs of capturing the thick sauce. The pasta is finished with slivers of fresh mozzarella that soften and offer cool, creamy bites, and a final sprinkling of a Parmesan bread-crumb topping offers familiar moments of crunch to contrast the creamy sauce.",
+    "author": {
+        "@type": "Person",
+        "name": "Kay Chun"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/04/05/dining/kc-eggplant-parmesan-pasta/kc-eggplant-parmesan-pasta-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/05/dining/kc-eggplant-parmesan-pasta/kc-eggplant-parmesan-pasta-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/05/dining/kc-eggplant-parmesan-pasta/kc-eggplant-parmesan-pasta-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/05/dining/kc-eggplant-parmesan-pasta/kc-eggplant-parmesan-pasta-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT35M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "eggplant, pasta, tomato, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 2542
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 984,
+        "unsaturatedFatContent": "28 grams",
+        "carbohydrateContent": "116 grams",
+        "cholesterolContent": null,
+        "fatContent": "44 grams",
+        "fiberContent": "14 grams",
+        "proteinContent": "34 grams",
+        "saturatedFatContent": "13 grams",
+        "sodiumContent": "1433 milligrams",
+        "sugarContent": "16 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/2 cup extra-virgin olive oil",
+        "3/4 cup panko bread crumbs",
+        "Kosher salt and black pepper",
+        "1/2 cup finely chopped yellow onion (from 1 small onion)",
+        "3 garlic cloves, minced",
+        "1 1/2 pounds eggplant, peeled and cut into ½-inch cubes (8 cups)",
+        "2 tablespoons tomato paste",
+        "1 (28-ounce) can whole tomatoes, crushed with your hands in a bowl",
+        "1 basil sprig, plus ⅓ cup coarsely chopped basil leaves",
+        "1/4 teaspoon dried oregano",
+        "1 pound short pasta, such as mezze rigatoni, fusilli or shells",
+        "2 tablespoons freshly grated Parmigiano-Reggiano",
+        "8 ounces fresh mozzarella, thinly sliced and at room temperature"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a high-sided large (12-inch) skillet with a lid, heat 2 tablespoons of the oil over medium. Add panko, season with salt and pepper, and cook, stirring constantly, until golden and crispy, about 2 minutes. Transfer to a plate. Set a large pot of salted water to boil."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Wipe out the skillet and heat 2 tablespoons of the oil over medium. Add onion and cook, stirring occasionally, until softened, about 2 minutes. Stir in garlic until fragrant, 30 seconds. Add eggplant and drizzle over the remaining ¼ cup oil. Season with salt and pepper, and cook, stirring occasionally, until eggplant is softened, about 8 minutes. Add in tomato paste and stir constantly until lightly caramelized on the bottom of the skillet, about 2 minutes. Add crushed tomatoes, basil sprig, oregano and 1½ cups of water, and bring to a simmer over medium-high heat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cover the skillet and reduce heat to medium. Cook, stirring occasionally and smashing some of the eggplant, until the eggplant is very tender and the sauce is thickened, about 15 minutes. Discard the basil sprig."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in the large pot of water, cook pasta according to package instructions until al dente. Reserve ½ cup of pasta water and drain."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add cooked pasta, reserved pasta water and the eggplant sauce to the large pasta cooking pot, and cook over medium heat, stirring, until sauce thickens and coats the pasta, 2 to 3 minutes. Stir in ¼ cup of the chopped basil."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add Parmesan to the panko and mix well. Divide the pasta in bowls and top each with some of the mozzarella. Sprinkle over cheesy bread crumbs, and garnish with the remaining basil."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Salted, drained then roasted the eggplant pieces at 400 F for about 20 min. Sautéed the onion, garlic, added red pepper flakes, salt & pepper, tomato paste, then finally the crushed tomatoes, basil and water. Ended up mixing the chunks of mozzarella into the final product. Was tasty but could use a little more sauce, and perhaps a splash of sherry vinegar or red wine vinegar. Can also see adding some sautéed mushrooms to this.",
+            "datePublished": "2024-06-10T05:08:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susigaj"
+            },
+            "reviewBody": "It was a bit bland.  But easy to make.",
+            "datePublished": "2024-04-25T02:43:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KSWinCA"
+            },
+            "reviewBody": "OK, but the eggplant never got very soft. Best parts were the breadcrumbs and mozzarella.",
+            "datePublished": "2024-04-18T05:42:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevinco"
+            },
+            "reviewBody": "Roasted the eggplant as suggested by GregB. Tasted great! The toasted panko and mozzarella slices really made it.",
+            "datePublished": "2024-04-16T23:55:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "I made this tonight with one change, I added some sautéed  sweet Italian sausage meat to the sauce.\nThe result was delicious!",
+            "datePublished": "2024-04-14T00:59:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steve"
+            },
+            "reviewBody": "I substituted zucchini for the eggplant.  Used leftover sauce with meatballs and added Boccancini.  The Panko was a game changer.",
+            "datePublished": "2024-04-10T00:57:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sher"
+            },
+            "reviewBody": "Somewhere years ago I learned that refrigerating eggplant turns it bitter, and I've found that to be true with my homegrown eggplant, which I try to keep out of the fridge. Most store-bought eggplant has already been ruined by refrigeration.",
+            "datePublished": "2024-04-20T05:40:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nina"
+            },
+            "reviewBody": "I could never figure out why eggplant was so nasty and bitter before I grew my own.   Eggplant is best used fresh.   You do not need to salt or even peel.  It is easy to grow and provides plenty of fruit.",
+            "datePublished": "2024-04-08T16:53:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S"
+            },
+            "reviewBody": "Needs a healthy dose of crushed red pepper or Calabrian red pepper paste (Trader Joe's has a good one).",
+            "datePublished": "2024-04-08T15:29:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steve A"
+            },
+            "reviewBody": "I disagree that one needs to salt eggplant before frying.   Come over to my house and I’ll prove it. \n\nWhile you can make a version of eggplant parm without bread crumbs, but it won’t taste as good.  Come over to my house and I’ll prove it.\n\nUse a mandolin to slice the eggplant in 3/16” slices.  Flour, egg, bread and fry.  Use paper towel to absorb the oil, then do the building process of sauce, parm, and/or mozzerella, each layer.  This was the version that blew Bobby Flay away.",
+            "datePublished": "2024-04-08T15:17:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeanmarie"
+            },
+            "reviewBody": "After reading all the notes decided to forget the recipe and do what I've done before (and most of the reviewers have done) oven roast fresh veggies and then toss them with pasta, cheese, herbs and enjoy.  This is not a recipe I would say needs to be followed.  Thank you NYT foodies.",
+            "datePublished": "2024-04-08T01:17:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rebecca Brindza"
+            },
+            "reviewBody": "Thickened nicely like a ratatouille. Skipped serving over pasta, instead had it with a gf take on Melissa Clarke’s meatballs.",
+            "datePublished": "2024-02-11T19:39:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "katy"
+            },
+            "reviewBody": "Delish! I took the suggestion to sweat the eggplant, but also just ended up sauteeing it without the whole paper towel thing. Reduced oil with the breadcrumbs and they toasted up beautifully. I did not add all the water suggested. I swished out the tomato paste can and added about 1/4 cup total. And I only added another 1/4 c from the pasta water. I think that kept the flavor high. Add red pepper flakes for pizzazz at the finish. Yum!",
+            "datePublished": "2023-11-10T00:40:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "marph"
+            },
+            "reviewBody": "It’s an easy dish to prepare, full of flavour, though it’s a bit pricy when it comes to add two different top end cheese, but the outcome was simply amazing, worth cooking this delicious pasta meal. Thank you.",
+            "datePublished": "2023-09-25T19:40:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "It took way longer than 8 minutes to cook the eggplant to a good texture, but it was worth it, it was delicious. I omitted the panko and just added parmesan at the end.",
+            "datePublished": "2023-08-31T07:19:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "Cubed eggplant; placed in colander; sprinkled with salt and let drain to release any bitterness. Added anchovies as suggested and more garlic.  Delicious.",
+            "datePublished": "2023-08-26T00:46:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GregBPortland"
+            },
+            "reviewBody": "Frying eggplant on the stove absorbs too much olive oil. Lidia Bastianich salts the cubed eggplant and lets it drain. It's the only way to get the bitterness. Once it is dried on paper towels, she tosses it with far less olive oil and roasts it in the oven. The eggplant that emerges is less oily, doesn't break down as fast as on top of the stove, and has a lovely flavor with the pasta and cheese. A little more work, but a big payoff in terms of texture and taste.",
+            "datePublished": "2022-04-08T19:53:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dave"
+            },
+            "reviewBody": "add a healthy amount of anchovy paste (I like Cento best)\n\nthank me later",
+            "datePublished": "2022-04-07T08:02:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DW in Chapel Hill"
+            },
+            "reviewBody": "Kept looking at the recipe to see if I was missing something as tasted bland even toward the end. Could do with more of most everything except tomato and eggplant. More onion, garlic, oregano, and bunch of salt next time.",
+            "datePublished": "2022-04-07T02:34:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sue"
+            },
+            "reviewBody": "I'd recommend making the pasta and sauce as listed (be sure to add plenty of salt to eggplant mixture), but don't cook the breadcrumbs in oil. Put the eggplant/pasta mix in baking pan, put breadcrumbs, parm, and mozzarella on top and bake. Otherwise, this was bland, and the oiled breadcrumbs did not taste good.",
+            "datePublished": "2022-04-07T22:37:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary"
+            },
+            "reviewBody": "I roast eggplant (diced) with salt and olive oil in the oven at 425 for about 15 to 20 minutes instead of pan frying until tender (so it isn't oily or mushy.)  Adding diced red bell pepper and zucchini would add flavor. I would skip frying the panko as well as suggested below.",
+            "datePublished": "2022-04-08T17:40:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mel"
+            },
+            "reviewBody": "I have made a variation of this for years.  To give it more punch, I add anchovies (or paste) to the olive oil, and I throw in Kalamata olives and some capers toward the end.  It is one of our favorite pasta dishes.",
+            "datePublished": "2022-04-08T16:03:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Taarheel"
+            },
+            "reviewBody": "I frequently make something like this, but include zucchini and bell pepper along with the eggplant, and some red wine, and call it \"ratatouille\".  Also works well with goat cheese instead of the fresh mozzarella.  It's important to make sure the eggplant is really soft before you start adding in other ingredients, especially the tomatoes.  Otherwise the eggplant will never cook properly and will be bitter.  This is a great vegetarian substitute for traditional Bolognese pasta sauce.",
+            "datePublished": "2022-04-07T13:33:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hillaryn"
+            },
+            "reviewBody": "Almost every week I roast separate pans of eggplant, tomatoes (usually cherry unless it’s the height of the season) plus zucchini and various sweet peppers. I season each separately-sometimes Italianish often Middle eastern (baharat or ras al hanut).   Roasting cuts way down on the amount of oil. Later I throw it all into a pot on the stove and simmer till the flavors meld. I use it for whatever I come up with for dinner-chicken or pasta, parm or feta, hot spices or warm. Makes great shakshuka.",
+            "datePublished": "2022-04-09T03:45:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jan"
+            },
+            "reviewBody": "I give up- what is CRP??",
+            "datePublished": "2022-04-10T00:29:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tim"
+            },
+            "reviewBody": "I agree with GregB that it isn't necessary to use so much oil in cooking the eggplant.  I used the Cook's Illustrated method of par-cooking the cubes (see <a href=\"https://www.cooksillustrated.com/articles/1810-10-unexpected-ways-to-use-your-microwave\" target=\"_blank\">https://www.cooksillustrated.com/articles/1810-10-unexpected-ways-to-use-your-microwave</a>. ) After this, proceed with cooking in much less oil.  The eggplant will not turn to mush.  Also, the suggestions about adding more flavoring (anchovy, garlic, oregano, etc.) is good, unless using a well seasoned homemade tomato sauce.",
+            "datePublished": "2022-04-09T14:32:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Burton, in Washington DC"
+            },
+            "reviewBody": "I made some tweaks: sweated the cubed eggplant with salt and dried them with paper towel, then mixed the cubes in a bowl with some drizzled olive oil, Italian spices, and Italian bread crumbs. Baked on oven pan at 400 degrees, turning once, until nicely done. Then put in an oven dish and mixed in al-dente pasta, tomato sauce from a jar and grated mozzarella cheese, sprinkling grated parmesan on top. Baked the casserole before putting it under the broiler. Voila. Delicious.",
+            "datePublished": "2022-04-16T04:20:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anjali"
+            },
+            "reviewBody": "Add a little sherry vinegar and red wine to the sauce. More garlic than called for.",
+            "datePublished": "2022-04-08T01:51:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": ""
+            },
+            "reviewBody": "This is a variation of Pasta Alla Norma",
+            "datePublished": "2022-04-08T18:00:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "Someone on this site suggested recently that the microwave is useful with eggplant, and may cut way down on oil or butter. I’ve been zapping eggplant, sliced or however, for recipes where I’m not sure that baking or sautéing will cook it enough. Or when my time-planning is inadequate!",
+            "datePublished": "2022-04-08T16:59:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "patricia"
+            },
+            "reviewBody": "How about roasting the eggplant so there's not so much oil?  Anybody try that?  If you bake it as a casserole is the oil step necessary?",
+            "datePublished": "2022-04-08T15:15:09.000Z"
+        }
+    ]
+}

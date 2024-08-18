@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sausage and Sweet Potato Zucchini Lasagna",
+    "description": "This Sausage and Sweet Potato Zucchini Lasagna features ancho chili spiced sausage and a sweet potato sauce that is uniquely sweet and savory.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "sweet potato zucchini lasagna, zucchini lasagna, squash lasagna",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/sweet-potato-lasagna-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/sweet-potato-lasagna-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/sweet-potato-lasagna-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/sweet-potato-lasagna-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna",
+    "recipeIngredient": [
+        "3 large zucchini",
+        "1 lb. ground pork",
+        "2 large sweet potatoes (4-5 cups when cooked and cut)",
+        "1 cup milk",
+        "1/2 cup chicken broth",
+        "2 tablespoons olive oil",
+        "5 cloves garlic",
+        "2 teaspoons ancho chili powder (in the spice aisle)",
+        "2 teaspoons ground cumin",
+        "1 1/2 teaspoons salt",
+        "1/2 cup chopped cilantro",
+        "1/2 cup chopped green onions",
+        "2 cups shredded Mozzarella or Provolone cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cut the zucchini into thin strips lengthwise. I did this without any special peeler &#8211; just a knife (see picture in post). Lay them on paper towels and sprinkle with salt. Let rest while you prep the other ingredients &#8211; the excess moisture will seep out of them and you can press them with paper towels when they&#8217;re ready. While the zucchini is resting, in a large skillet, brown the ground pork with 3 cloves minced garlic, 1 teaspoon ancho chili powder, 1 teaspoon cumin, and 1/2 teaspoon salt. Set aside.",
+            "url": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, wash the sweet potatoes, poke with a fork several times, wrap once in a paper towel, and microwave for 5-7 minutes or until soft. You can also bake them in the oven if you prefer. Cut into chunks, transfer to a blender, and puree with the milk, chicken broth, olive oil, 2 garlic cloves, 1 teaspoon ancho chili powder, 1 teaspoon cumin, and 1 teaspoon salt until smooth and creamy.",
+            "url": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 375 degrees. Spray a 9&#215;13 baking dish with nonstick cooking spray. Layer the zucchini noodles, sauce, sausage, chopped cilantro and green onions, and cheese; repeat layers three times. End with a final layer of zucchini noodles covered with a little sauce and cheese. Cover with greased foil so the cheese won&#8217;t stick and bake for 30-45 minutes. Remove from the oven and let stand for at least 15-20 minutes. This does not cut into perfectly clean squares, especially if you cut into it before it has time to cool and set a little bit (which I did &#8211; SO HUNGRY). For a cleaner cut slice, see notes about using regular lasagna noodles.",
+            "url": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeYield": "9",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "24",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "214 calories",
+        "sugarContent": "5.8 g",
+        "sodiumContent": "684.8 mg",
+        "fatContent": "10 g",
+        "saturatedFatContent": "4 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "12.7 g",
+        "fiberContent": "2.3 g",
+        "proteinContent": "19.8 g",
+        "cholesterolContent": "47.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Shel@PeachyPalate"
+            },
+            "datePublished": "2014-08-06",
+            "reviewBody": "Looks incredible! When you say two large sweet potatoes an idea on cup volume or weight? Or large in Ireland might be different to you guys! :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Danielle @ Chits and Chat @ Chocolate"
+            },
+            "datePublished": "2014-08-06",
+            "reviewBody": "I'm dying to try this! I've never seen anything like it!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Matt @ Plating Pixels"
+            },
+            "datePublished": "2014-08-06",
+            "reviewBody": "It's like sweet potato soup decided to cozy up in a lasagna, I love it! Great sauce idea. I agree that zucchinis are a great alternative to noodles."
+        }
+    ],
+    "datePublished": "2014-08-06",
+    "@id": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/sausage-sweet-potato-zucchini-lasagna"
+}

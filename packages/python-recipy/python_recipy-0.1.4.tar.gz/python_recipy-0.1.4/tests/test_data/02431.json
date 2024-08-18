@@ -1,0 +1,114 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Caramel Buttercream Frosting for Brown-Sugar Layer Cake",
+    "datePublished": "2012-08-27T08:13:39.000-04:00",
+    "dateModified": "2018-01-08T15:09:05.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Use this rich butterscotch-flavored frosting to decorate Martha&#39;s spectacular Brown-Sugar Layer Cake or any dessert you please.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/OrMnXaw5D4B72kYRYJC1_bU9JJo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/jude-perry-st-0318-mld108634_vert_0_horiz-d57ae8abcb2b4abe802c269af15e2e83.jpgitokkhIoZq-R",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Caramel Buttercream Frosting for Brown-Sugar Layer Cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.1",
+        "ratingCount": "172"
+    },
+    "keywords": "Birthday party, Buttercream frosting, Whip",
+    "prepTime": "PT40M",
+    "recipeIngredient": [
+        "2.25 cups sugar, divided",
+        "0.5 cup water",
+        "0.5 cup heavy cream",
+        "9 large egg whites, room temperature",
+        "6 sticks unsalted butter, room temperature, divided",
+        "1.5 teaspoons pure vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine 1 1/4 cups sugar and the water in a medium saucepan. Bring to a boil, stirring to dissolve sugar. Brush down sides of pan with a damp pastry brush, and cook, without stirring, until dark amber. Remove from heat, and gradually stir in cream until completely smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together remaining sugar and the egg whites in the bowl of a mixer set over a pot of simmering water. Whisk until sugar dissolves and mixture is warm. Transfer bowl to a stand mixer fitted with the whisk attachment, and whisk on medium-high speed until fluffy and cool and stiff peaks form, about 10 minutes. Add butter, 2 tablespoons at a time, whisking well after each addition. Whisk in vanilla. Slowly pour in caramel with mixer on medium speed, and whisk until completely incorporated. Continue to whisk until smooth, about 3 minutes. Use immediately, or transfer to an airtight container and refrigerate up to 3 days. Before using, bring to room temperature, and beat until smooth."
+        }
+    ],
+    "totalTime": "PT50M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/925637/caramel-buttercream-frosting",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502438/fillings-frostings",
+                        "name": "Fillings & Frostings"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502513/buttercream-frosting-recipes",
+                        "name": "Buttercream Frosting Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/925637/caramel-buttercream-frosting",
+                        "name": "Caramel Buttercream Frosting for Brown-Sugar Layer Cake"
+                    }
+                }
+            ]
+        }
+    }
+}

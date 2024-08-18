@@ -1,0 +1,80 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/choc-chip-peanut-butter-banana-pancake-filling#Recipe",
+    "@type": "Recipe",
+    "description": "A sweet, sumptuous pancake filling - and a selection of some of our other favourites",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-888496_11-cbd058b.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/choc-chip-peanut-butter-banana-pancake-filling"
+    },
+    "name": "Choc chip, peanut butter & banana pancake filling",
+    "url": "https://www.bbcgoodfood.com/recipes/choc-chip-peanut-butter-banana-pancake-filling",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2022-11-08T12:42:35+00:00",
+    "datePublished": "2012-01-31T10:46:20+00:00",
+    "headline": "Choc chip, peanut butter & banana pancake filling",
+    "keywords": "American pancakes, Crêpes, Delicious filling, Everyday, Family, Filling options, Good Food, Indulgent, Kids, Pancake batter, Pancake day, Pancake filling, Shrove Tuesday, Simple",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "621 calories",
+        "fatContent": "34 grams fat",
+        "saturatedFatContent": "13 grams saturated fat",
+        "carbohydrateContent": "64 grams carbohydrates",
+        "sugarContent": "44 grams sugar",
+        "fiberContent": "3 grams fiber",
+        "proteinContent": "14 grams protein",
+        "sodiumContent": "0.4 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "6 tbsp smooth peanut butter",
+        "2 tbsp icing sugar",
+        "2 tbsp milk",
+        "50g chocolate chip",
+        "½ banana , sliced",
+        "a few chopped peanuts , to serve (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare a warm batch of pancakes using one of our recipes (see 'Goes well with) or a ready-made pack of sweet pancakes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the peanut butter with the icing sugar, milk and chocolate chips. Spread the choc-chip mix over pancakes. Top with the banana. Fold up and sprinkle with a few chopped peanuts, if you like."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT5M"
+}

@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/raspberry-chipotle-dip/",
+    "name": "Raspberry Chipotle Dip",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-06-03",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Raspberry-Chipotle-Dip_exps40004_CWC1597098D44_RMS-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "It's almost hard to believe that such a scrumptious, festive cheese dip uses only three ingredients. Just add your favorite crackers, and you'll have the hit of the party. &mdash;Pat Stevens, Granbury, Texas",
+    "recipeIngredient": [
+        "3 cartons (8 ounces each) whipped cream cheese",
+        "1 cup raspberry chipotle salsa",
+        "1/2 cup pecan halves, toasted",
+        "Assorted crackers"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spread cream cheese onto a small serving platter. Top with salsa and pecans. Refrigerate until serving. Serve with crackers."
+        }
+    ],
+    "recipeYield": "3 cups.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 229 calories",
+        "fatContent": "22g fat (12g saturated fat)",
+        "cholesterolContent": "68mg cholesterol",
+        "sodiumContent": "270mg sodium",
+        "carbohydrateContent": "6g carbohydrate (5g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "3g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-02-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "PageRD"
+            },
+            "reviewBody": "<p>I love sweet and savory. The raspberry chipotle salsa is delicious when pared with the smooth cream cheese and crunch of the pecans. It's an easy appetizer when you don't have a lot of time. </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-10-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mamaknowsbest"
+            },
+            "reviewBody": "Our local store has carried Mrs. Renfro raspberry chipotle salsa for a number of years.  I have made this recipe many times and it is always a winner.  I prepare mine by simply opening one block of cream cheese and pouring the salsa over the top.  Everyone loves this great creamy spicy combination.  Put this dip in a location where you want guest to gather!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

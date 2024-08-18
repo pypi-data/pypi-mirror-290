@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Succotash of Fresh Corn, Lima Beans, Tomatoes, and Onion Recipe",
+    "keywords": [
+        "american",
+        "corn",
+        "lima bean",
+        "tomato",
+        "summer",
+        "easy",
+        "quick",
+        "side",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "vegan",
+        "vegetarian",
+        "simmer",
+        "dinner",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Amelia Saltsman",
+            "sameAs": "https://www.bonappetit.com/contributor/amelia-saltsman"
+        },
+        {
+            "@type": "Person",
+            "name": "Nigel Cox",
+            "sameAs": "https://www.bonappetit.com/contributor/nigel-cox"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.1,
+        "ratingCount": 14
+    },
+    "description": "Succotash of Fresh Corn, Lima Beans, Tomatoes, and Onion Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b0be0df1c801a1038bd9ee/master/w_484,h_344,c_limit/mare_succotash_of_corn_fresh_lima_beans_tomatoes_and_onion_h.jpg"
+    ],
+    "headline": "Succotash of Fresh Corn, Lima Beans, Tomatoes, and Onion",
+    "name": "Succotash of Fresh Corn, Lima Beans, Tomatoes, and Onion",
+    "recipeIngredient": [
+        "2 tablespoons extra-virgin olive oil",
+        "1 1/2 cups chopped onion",
+        "Coarse kosher salt",
+        "1 large garlic clove, minced",
+        "3 cups chopped red tomatoes (about 1 1/2 pounds)",
+        "2 1/4 cups corn kernels cut from 4 ears of corn (preferably 2 ears of white corn and 2 ears of yellow corn)",
+        "2 cups fresh lima beans (from about 2 pounds pods) or 10 to 11 ounces frozen lima beans or baby butter beans, thawed",
+        "3 tablespoons thinly sliced fresh basil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in heavy large skillet over medium heat. Add onion and sprinkle with coarse salt. Sauté until soft and translucent, about 5 minutes. Add garlic; stir until fragrant, about 1 minute. Add tomatoes, corn, and lima beans. Reduce heat to medium-low, cover, and simmer until corn and lima beans are tender and tomatoes are soft, about 20 minutes, stirring occasionally. Season to taste with salt and pepper. DO AHEAD Can be made 1 day ahead. Cover and chill. Rewarm before continuing."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in basil and serve."
+        }
+    ],
+    "recipeYield": "6  Servings",
+    "url": "https://www.bonappetit.com/recipe/succotash-of-fresh-corn-lima-beans-tomatoes-and-onion",
+    "dateModified": "2008-08-04T20:00:00.000-04:00",
+    "datePublished": "2008-08-04T20:00:00.000-04:00",
+    "recipeCategory": []
+}

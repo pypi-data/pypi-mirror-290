@@ -1,0 +1,65 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Heart Healthy Cookbook Broccoli-Cheese Soup",
+    "keywords": "heart healthy cookbook broccoli-cheese soup",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/G-qX6bH6dEiUognZGmvkEw_webp_base.webp?v=cfaadb3c&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "<b><i>Betty Crocker's Heart Healthy Cookbook</i> shares a recipe!</b> Dinner ready in 25 minutes! Try this cheesy broccoli soup topped with popcorn - a delightful meal.",
+    "recipeIngredient": [
+        "1  tablespoon canola or soybean oil",
+        "1  medium onion, chopped (1/2 cup)",
+        "1  tablespoon all-purpose flour",
+        "1  teaspoon salt",
+        "3  cups original-flavored soymilk or fat-free (skim) milk",
+        "2  teaspoons cornstarch",
+        "1 1/2  cups shredded reduced-fat sharp Cheddar cheese (6 oz)",
+        "3  cups bite-size fresh or frozen (thawed) broccoli florets",
+        "1  cup popped reduced-fat popcorn, if desired"
+    ],
+    "totalTime": "PT0H25M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "26",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 3-quart saucepan, heat oil over medium heat. Stir in onion, flour and salt. Cook 2 to 3 minutes, stirring constantly, until onion is soft."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In small bowl, stir soymilk and cornstarch with wire whisk until smooth. Gradually stir into onion mixture. Cook 5 to 6 minutes, stirring frequently, until thick and bubbly."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in cheese. Cook about 3 minutes, stirring frequently, until cheese is melted. Stir in broccoli. Cook about 1 minute or until hot, stirring occasionally. Serve topped with popcorn."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "140 ",
+        "carbohydrateContent": "11 g",
+        "cholesterolContent": "5 mg",
+        "fatContent": "0 ",
+        "fiberContent": "1 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "1 1/2 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "760 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "06/27/2001",
+    "dateModified": "01/13/2014"
+}

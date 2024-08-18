@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Simple Southwestern Breakfast Pizza",
+    "datePublished": "2020-09-06T23:14:39.000-04:00",
+    "dateModified": "2020-09-06T23:14:39.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "thedailygourmet"
+        }
+    ],
+    "description": "This Southwestern breakfast pizza with pork sausage patties is done in under 30 minutes and would be the perfect addition to a brunch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/0r29vY8qNSQR2uh2OxePL2zN97Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8518586-347cf6d441fb44d2baa2be308c67fda1.jpg",
+        "height": 2667,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Simple Southwestern Breakfast Pizza",
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "233 kcal",
+        "carbohydrateContent": "15 g",
+        "cholesterolContent": "78 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "467 mg",
+        "sugarContent": "2 g",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southwestern"
+    ],
+    "recipeIngredient": [
+        "3 pork sausage patties",
+        "1 large flour tortilla",
+        "0.5 cup shredded asadero cheese, divided",
+        "0.33333334326744 cup salsa",
+        "1 medium egg",
+        "4 slices avocado",
+        "1 tablespoon chopped fresh cilantro, or to taste",
+        "1 tablespoon crema con sal (salted Mexican-style sour cream)",
+        "1 pinch freshly ground black pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crumble sausage into a large skillet and cook until browned over medium-high heat, about 5 minutes. Drain grease and remove browned pork to a plate. Clean out skillet."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place flour tortilla into the skillet. Sprinkle 1/2 of the asadero cheese onto the tortilla and spread salsa over the cheese. Top with sausage crumbles and remaining cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Crack open the egg and carefully add to the middle of the pizza; cook for 12 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top pizza with avocado slices, chopped cilantro, crema con sal, and black pepper."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/281515/simple-southwestern-breakfast-pizza/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/78/breakfast-and-brunch/",
+                        "name": "Breakfast and Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/148/breakfast-and-brunch/eggs/",
+                        "name": "Eggs"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/281515/simple-southwestern-breakfast-pizza/",
+                        "name": "Simple Southwestern Breakfast Pizza"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Biscuits and Gravy",
+    "url": "https://www.foodnetwork.com/recipes/biscuits-and-gravy-7240319",
+    "headline": "Biscuits and Gravy",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/31/DVSP93H_biscuits-and-gravy_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1564586801726.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/31/DVSP93H_biscuits-and-gravy_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1564586801726.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/31/DVSP93H_biscuits-and-gravy_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1564586801726.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2019-07-31T10:35:28.553-04:00",
+    "dateModified": "2019-07-31T10:35:27.615-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Gravy,Biscuit,Sausage Recipes,Main Dish,Breakfast",
+    "cookTime": "P0Y0M0DT1H15M0.000S",
+    "totalTime": "P0Y0M0DT1H25M0.000S",
+    "recipeIngredient": [
+        "40 ounces self-rising flour, such as White Lily, plus more for dusting",
+        "1/4 cup baking powder ",
+        "1 heaping tablespoon sugar ",
+        "2 teaspoons salt ",
+        "1 pound cold butter, cubed into 1/4-inch pieces, plus 2 to 3 ounces melted butter ",
+        "3 cups cold whole milk, or more as needed ",
+        "4 1/2 pounds sage breakfast sausage",
+        "1 1/2 cups all-purpose flour ",
+        "12 cups milk ",
+        "2 teaspoons salt ",
+        "2 tablespoons ground black pepper, plus additional as needed ",
+        "Serving suggestion: eggs cooked any style"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 16 servings",
+        "calories": "1014",
+        "fatContent": "63g",
+        "saturatedFatContent": "29g",
+        "carbohydrateContent": "76g",
+        "fiberContent": "2g",
+        "sugarContent": "14g",
+        "proteinContent": "36g",
+        "cholesterolContent": "185mg",
+        "sodiumContent": "2168mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the biscuits: Preheat oven to 400 degrees F. Line a baking sheet with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix together the self-rising flour, baking powder, sugar and salt in the bowl of stand mixer. Toss in the cold butter and mix by hand to break apart the pieces a bit, then beat on medium speed just until the butter is coated in the dry mixture and begins to break down a little bit, 1 to 2 minutes. (Do NOT overmix to the point that the butter starts absorbing the dry mixture and looks shaggy.) Add the cold milk in two batches, scraping down the bowl in between each addition. Mix until dough comes together and feels tacky, no more than 2 minutes total. (You may need to add a splash or two more of milk to help it come together.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flour a clean work surface and dump out the dough. Gather it together briefly and shape it with your hands or a floured rolling pin into a 10-by-16-inch rectangle. Use a 3 1/4-inch square biscuit cutter to cut 15 pieces out of the dough. (You may have enough scraps to form one more biscuit.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place them close together on the prepared baking sheet and brush the tops liberally with melted butter. Bake, rotating the baking sheet halfway through, until biscuits are nicely golden brown, 16 to 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Allow to cool at least 10 minutes to set before removing from the baking sheet or cutting open."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the gravy: Brown the sausage in a large saute pan, breaking it up into chunks."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add just enough all-purpose flour to coat the sausage, about 1 cup. Cook, stirring, until it looks crumbly. Slowly stir in the milk in several batches, letting the gravy absorb the milk and thicken in between each addition. Season with salt and pepper, and add more flour in small doses if needed to thicken the gravy."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut one biscuit in half. Warm it through on a hot griddle for a few minutes. Place a biscuit cut-side up on a plate and top with gravy. Top with fresh black pepper. Serve with eggs."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 3
+    },
+    "recipeYield": "15 to 16 servings",
+    "recipeCategory": []
+}

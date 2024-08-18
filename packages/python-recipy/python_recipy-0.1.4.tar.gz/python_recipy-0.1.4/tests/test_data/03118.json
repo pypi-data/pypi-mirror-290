@@ -1,0 +1,78 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Some people like their waffles extra-crispy, while others enjoy a texture more like mashed potatoes. If you want yours soft in the middle, shave a minute or two off the cooking time. This recipe is from The Riddler in San Francisco, CA. Check out the recipe for a loaded baked potato version, too.",
+    "alternativeHeadline": "Some people like their waffles extra-crispy, while others enjoy a texture more like mashed potatoes. If you want yours soft in the middle, shave a minute or two off the cooking time. This recipe is from The Riddler in San Francisco, CA.",
+    "keywords": [
+        "waffle",
+        "american",
+        "potato",
+        "quick",
+        "easy",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "vegan",
+        "vegetarian",
+        "breakfast",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.bonappetit.com/photos/598c719c7a64b8353530624f/1:1/w_1000,h_999,c_limit/tater-tot-waffle.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "The Riddler, San Francisco, CA",
+            "sameAs": "https://www.bonappetit.com/contributor/the-riddler, san francisco, ca"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "ratingCount": 5
+    },
+    "description": "Some people like their waffles extra-crispy, while others enjoy a texture more like mashed potatoes. If you want yours soft in the middle, shave a minute or two off the cooking time. This recipe is from The Riddler in San Francisco, CA.",
+    "image": [
+        "https://assets.bonappetit.com/photos/598c719c7a64b8353530624f/16:9/w_991,h_557,c_limit/tater-tot-waffle.jpg",
+        "https://assets.bonappetit.com/photos/598c719c7a64b8353530624f/4:3/w_1000,h_750,c_limit/tater-tot-waffle.jpg",
+        "https://assets.bonappetit.com/photos/598c719c7a64b8353530624f/1:1/w_1000,h_999,c_limit/tater-tot-waffle.jpg"
+    ],
+    "headline": "Tater Tot Waffle",
+    "name": "Tater Tot Waffle",
+    "recipeIngredient": [
+        "Vegetable oil (for brushing)",
+        "1 32-ounce bag tater tots (preferably Ore-Ida), room temperature",
+        "Flaky sea salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a regular or Belgian waffle iron and brush liberally with oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange tater tots in an even layer across entire surface of waffle iron; pile another handful or two of tots over if you’re using a Belgian waffle iron. Sprinkle with salt. Press down on lid to close (use lid lock if you have one) and cook waffle until golden brown, 8–12 minutes depending on your iron. Season with more salt, if needed."
+        }
+    ],
+    "recipeYield": "4 servings",
+    "url": "https://www.bonappetit.com/recipe/tater-tot-waffle",
+    "dateModified": "2017-09-06T08:00:00.000-04:00",
+    "datePublished": "2017-09-06T08:00:00.000-04:00",
+    "recipeCategory": []
+}

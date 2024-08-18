@@ -1,0 +1,251 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Best Hot Fudge Sauce",
+    "datePublished": "1999-11-27T01:41:36.000-05:00",
+    "dateModified": "2022-10-03T12:29:42.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carla A."
+        }
+    ],
+    "description": "A friend of my mother-in-law shared this easy recipe with me years and years ago.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/HC6aIbyy3QEvyaG6CbXYZoA7Mzo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/309507-6743cca827f5475fa53422e83bda26eb.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Best Hot Fudge Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "63"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "278 kcal",
+        "carbohydrateContent": "35 g",
+        "cholesterolContent": "31 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "10 g",
+        "sodiumContent": "105 mg",
+        "sugarContent": "33 g",
+        "fatContent": "15 g",
+        "servingSize": "5 1/2 cups",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 cups semisweet chocolate chips",
+        "1 cup butter",
+        "4 cups confectioners' sugar",
+        "2.6666667461395 cups evaporated milk",
+        "1 teaspoon vanilla extract",
+        "0.125 teaspoon salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, combine chocolate chips and butter. Cook and stir over low heat until melted."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gradually mix in confectioners&#39; sugar and milk. Increase heat to a boil. Cook, stirring constantly, for 8 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from heat, then stir in vanilla and salt. Serve warm. Store in refrigerator."
+        }
+    ],
+    "recipeYield": [
+        "22"
+    ],
+    "totalTime": "PT20M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "This tastes just like the hot fudge sauce I loved as a kid, but it wasn't as thick. To thicken it up, cut way back on the evaporated milk...I used two-thirds of a cup for half of this recipe and it became much thicker. You can even go with less if you like it the consistency of real fudge!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tim O"
+            },
+            "reviewBody": "Honestly, I was a bit disappointed with this recipe. I am not sure if it was the 4 cups of confectionary sugar or not but my sauce came out grainy. The taste was good but when I heated it up and put it on ice cream it became like taffy and was way to chewy for my taste."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Don Hauptman"
+            },
+            "reviewBody": "Very simple. I used semi-sweet and 70.1% dark chocolate at a 1:1 ratio. It came out very deep and rich. It thickens up nicely."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "karen w"
+            },
+            "reviewBody": "This wasn’t as thick as I had hoped, so I wound up adding cocoa powder to the prepared sauce, and then heating that up. That did the trick. I also added a splash of Kahlua for a little more depth of flavor."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kerensa Russel"
+            },
+            "reviewBody": "If you want A-MAZING sauce.....use Ghirardelli 60% cacoa baking chips instead of regular semi sweet!! But does anyone know how many servings this makes?"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "homedad22"
+            },
+            "reviewBody": "This is so good!!! And, so easy. I took others reviews and decreased the milk. I used 1 - 12oz can of evaporated milk, 1 - box powdered sugar, and 1 - bag chocolate chips. The rest I went right by the recipe. It is perfect. Thanks"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "rmcgill"
+            },
+            "reviewBody": "It's all in the cooking to give it that home made fudge flavor. I cut the recipe in 1/2 . Like many others mentioned, I cut the evaporated milk to ~2/3 C &amp; also reduced sugar to 1 1/2 C. Delicious??"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lovemygirl"
+            },
+            "reviewBody": "Very rich and absolutely delicious!! I found that it doesn't thicken enough to my liking after 8 minute's. I almost doubled the time. \nI suggest cutting this recipe in half unless you want enough sauce for a large crowd. After cutting in half, I still ended up with about 3 cups. \nThank you very much for the recipe!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Mahoney"
+            },
+            "reviewBody": "Made this twice, first time was great!!! Used a little too much heavy cream this time :( does anyone know if/ how I could thicken the sauce up a little? Love the creaminess of this sauce!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "JulieD"
+            },
+            "reviewBody": "to me this tasted like a thick fudgy pudding..."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/9480/best-hot-fudge-sauce/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1976/side-dish/sauces-and-condiments/sauces/",
+                        "name": "Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/15596/side-dish/sauces-and-condiments/sauces/dessert-sauces/",
+                        "name": "Dessert Sauce Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/9480/best-hot-fudge-sauce/",
+                        "name": "Best Hot Fudge Sauce"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/easy-baked-shrimp/",
+    "name": "Baked Shrimp",
+    "datePublished": "2024-04-29",
+    "dateModified": "2024-05-28",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Easy-Baked-Shrimp_EXPS_THVP24_276437_MR_04_23_2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This baked shrimp recipe with a delicious, garlicky lemon sauce is a well-seasoned, light and refreshing meal. It also makes the perfect party appetizer.",
+    "recipeIngredient": [
+        "1 pound uncooked shrimp (26-30 per pound), peeled and deveined",
+        "3 tablespoons butter, melted",
+        "2 tablespoons lemon juice",
+        "3 garlic cloves, minced",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "1/8 teaspoon dried oregano",
+        "Chopped fresh parsley",
+        "Lemon wedges, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Toss the shrimp mixture",
+            "text": "Preheat the oven to 400°F. Arrange the shrimp in an ungreased 13x9-2-inch baking dish. In a small bowl, whisk together the butter, lemon juice, garlic, salt, pepper and oregano. Drizzle the mixture over the shrimp, and toss to coat.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Baked-Shrimp_THVS24_276437_MR_04_23_2.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Bake the shrimp",
+            "text": "Bake until the shrimp turn pink, 8 to 10 minutes. Sprinkle with parsley, and serve with lemon wedges, if desired. Editor's Tip: Judge the shrimp's doneness based on color and shape rather than your oven's timer. Shrimp are finished cooking when they turn pink, opaque and curl into a soft C shape. They are usually overcooked if they have a dull, matte color or curl into a tight O shape.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Baked-Shrimp_THVS24_276437_MR_04_23_5.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 178 calories",
+        "fatContent": "10g fat (6g saturated fat)",
+        "cholesterolContent": "161mg cholesterol",
+        "sodiumContent": "498mg sodium",
+        "carbohydrateContent": "2g carbohydrate (0 sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "19g protein."
+    },
+    "video": {
+        "@type": "VideoObject",
+        "name": "Baked Shrimp",
+        "description": "Check out this video for how to make Baked Shrimp.",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/BakedShrimpDIYD276437042224H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-06-12 16:10:10",
+        "duration": "P0DT0H0M56S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/06/BakedShrimp_DIYD_276437_042224_H.mp4"
+    }
+}

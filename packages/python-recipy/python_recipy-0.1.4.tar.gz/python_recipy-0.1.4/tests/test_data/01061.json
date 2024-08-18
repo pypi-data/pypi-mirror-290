@@ -1,0 +1,198 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Easy Chili",
+    "datePublished": "2018-10-09T18:32:05.000-04:00",
+    "dateModified": "2023-12-27T00:10:58.345-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "This easy chili recipe is hands down the best around. Get out your slow cooker, and make this chili when it&#39;s cold and you&#39;re craving comfort.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/um-A6hZCB44xxLvFPTSbQl9sqsM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/southern-living-Easy_Chili_004-e5a31f1014fb44cd923ae1f54d8a3cdb.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/Ogfbj3h2-KtCa7qb3.mp4",
+        "description": "Cold winter months make us long for warm, soul-satisfying home-cooked meals. When weekday schedules get overwhelmed with to-dos and weekends get crazy with commitments, there's something special about coming home to a comforting meal.",
+        "duration": "PT2M46S",
+        "name": "Easy Chili Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/Ogfbj3h2/poster.jpg?width=720",
+        "uploadDate": "2023-01-16T23:23:33.627-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Easy Chili",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "6"
+    },
+    "keywords": "chili, beef chili, easy chili",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 1/2 lbs. lean ground beef",
+        "1 medium chopped onion",
+        "1 small chopped green bell pepper",
+        "2 minced garlic cloves",
+        "16 oz. canned red kidney beans, rinsed and drained",
+        "2 cups beef broth",
+        "14 1/2 oz. canned diced tomatoes",
+        "1 1/2 Tbsp. chili powder",
+        "1 tsp. ground cumin",
+        "1 tsp. salt",
+        "1 tsp. pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/WxBD0OLUXv_SbeiZo41pfehE9xA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Easy_Chili_002-37d3bd71f7ad4afbadea4e9dd103ccc3.jpg"
+                }
+            ],
+            "text": "Cook ground beef, onion, bell pepper, and garlic: In a large skillet, cook ground beef, onion, bell pepper, and garlic over medium-high heat. Stir until beef crumbles and is no longer pink. Once cooked, drain mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/kZJvoismd6NiBe19Dd6SH2n7S44=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Easy_Chili_004-fcd5d30594b74740905b4db2b009fb26.jpg"
+                }
+            ],
+            "text": "Add ground beef mixture to slow cooker. Place ground beef mixture in a 5-quart slow cooker. Stir in beans, broth, diced tomatoes, chili powder, pepper, salt, and ground cumin."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/y4LSLq-Vll_JUDjyGh0kAVydZ9g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Easy_Chili_007-ec1c5ecc77154e4387114407b1d53a27.jpg"
+                }
+            ],
+            "text": "Cook chili: Cook at HIGH 3 to 4 hours or at LOW 5 to 6 hours."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT255M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/easy-chili",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish",
+                        "name": "Dish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish/chili",
+                        "name": "Chili"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/easy-chili",
+                        "name": "Easy Chili"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can I make this easy chili spicier?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>For a spicier chili, stir in additional chili powder, cayenne pepper, or diced jalapeños with the other ingredients before cooking.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How can I thicken this chili?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>To thicken the chili, stir in finely crushed saltine crackers until the desired thickness is achieved. You can also leave off the lid to cook off excess moisture, or add a cornstarch slurry at the end of cooking.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I double this easy chili recipe?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>This chili recipe can be easily doubled—just check that it fills your slow-cooker no more than 3/4 of the way full.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I make this slow-cooker chili on the stovetop?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>To make this chili on the stovetop, cook beef and onion mixture as directed in a Dutch oven or pot. Add remaining ingredients and bring to a simmer. Cover and cook over low heat for 15 to 20 minutes or until thickened.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

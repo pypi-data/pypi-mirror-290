@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Pigs in a Blanket Christmas Wreath",
+    "datePublished": "2021-12-11T22:18:42.000-05:00",
+    "dateModified": "2022-01-27T16:34:39.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Rebekah Rose Hills"
+        }
+    ],
+    "description": "Pigs in a blanket are arranged in a beautiful holiday wreath-the perfect Christmas appetizer for the holidays.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/ifLrrm9iIyQ02Zd43W4_UMg2hEE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9429910-154aa0b7cf104934a793dbb1b52a5936.jpg",
+        "height": 1000,
+        "width": 1333
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Pigs in a Blanket Christmas Wreath",
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "270 kcal",
+        "carbohydrateContent": "15 g",
+        "cholesterolContent": "31 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "8 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "878 mg",
+        "sugarContent": "4 g",
+        "fatContent": "19 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 (8 ounce) package refrigerated crescent rolls",
+        "2 tablespoons Dijon mustard",
+        "1 (14 ounce) package cocktail-size smoked link sausages (such as Hillshire Farm Lit'l Smokies ®)",
+        "12 sprigs fresh rosemary, or to taste",
+        "0.25 cup ketchup"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Unroll crescent roll dough on a clean work surface and brush generously with Dijon mustard. Cut each crescent roll triangle into 3 triangular pieces. Place a sausage at the thick end of one of the crescent roll strips and roll up, ending at the narrow end. Repeat until you have used all dough and made 24 pigs in a blanket. Reserve remaining sausages for another use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange pigs in a blanket in a circular shape on a round pizza pan, with rolls gently touching."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until dough is golden brown and puffed up, 15 to 18 minutes. Allow to cool for a few minutes before carefully transferring the wreath onto a round serving tray. If the sections come apart during the transfer, just recreate the circle shape as best as you can."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange rosemary sprigs around the outside of the wreath and place ketchup in a small bowl in the middle."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/286063/pigs-in-a-blanket-christmas-wreath/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/187/holidays-and-events/christmas/",
+                        "name": "Christmas"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/932/holidays-and-events/christmas/appetizers/",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/286063/pigs-in-a-blanket-christmas-wreath/",
+                        "name": "Pigs in a Blanket Christmas Wreath"
+                    }
+                }
+            ]
+        }
+    }
+}

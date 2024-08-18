@@ -1,0 +1,174 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Basic Garlic Butter Tomato Sauce",
+    "description": "Basic Garlic Butter Tomato sauce made with cherry tomatoes, garlic, balsamic, and butter. SO simple, good on everything.",
+    "author": {
+        "@type": "Person",
+        "name": "Jenna Arend",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "garlic butter tomato sauce, butter tomato sauce, garlic butter sauce",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Tomato-Sauce-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Tomato-Sauce-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Tomato-Sauce-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Tomato-Sauce-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/tomato-sauce",
+    "recipeIngredient": [
+        "2-ish cups cherry tomatoes",
+        "1 tablespoon olive oil",
+        "2 cloves garlic, minced",
+        "2 tablespoons balsamic vinegar",
+        "1 tablespoon butter",
+        "salt to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place the tomatoes in a nonstick skillet over medium high heat with NO OIL IN THE PAN. We are trying to blister the outsides of the skins a little bit here.",
+            "url": "https://pinchofyum.com/tomato-sauce#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the skins get a little blistered and the tomatoes are looking soft, turn the heat down to avoid lots of splatter, and add the olive oil and garlic. Be careful not to brown the garlic.",
+            "url": "https://pinchofyum.com/tomato-sauce#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Press the tomatoes gently with the back of a wooden spoon so they break open and release their juices. Add the balsamic and let the whole mixture reduce until it&#8217;s thickened a bit, maybe 5-10 minutes.",
+            "url": "https://pinchofyum.com/tomato-sauce#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Finish with the knob of butter and season with salt to taste.",
+            "url": "https://pinchofyum.com/tomato-sauce#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeYield": [
+        "1",
+        "1 cup sauce"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "36",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "78 calories",
+        "sugarContent": "3.2 g",
+        "sodiumContent": "6.2 mg",
+        "fatContent": "6.5 g",
+        "saturatedFatContent": "2.3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "4.8 g",
+        "fiberContent": "0.9 g",
+        "proteinContent": "0.8 g",
+        "cholesterolContent": "7.6 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Basic Garlic Butter Tomato Sauce",
+        "description": "Basic Garlic Butter Tomato sauce made with cherry tomatoes, garlic, balsamic, and butter. SO simple, good on everything.",
+        "contentUrl": "https://content.jwplatform.com/videos/KU6R5ryy.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/KU6R5ryy-720.jpg"
+        ],
+        "uploadDate": "2023-01-12T02:04:47+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lisa"
+            },
+            "datePublished": "2017-09-07",
+            "reviewBody": "Perfect timing! I am drowning in tomatoes!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "datePublished": "2017-09-07",
+            "reviewBody": "This looks so good that I feel compelled to make it immediately. AKA- already set a reminder to pick up tomatoes on my way home from work today. Yum!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Suzanne"
+            },
+            "datePublished": "2017-09-07",
+            "reviewBody": "I made this last weekend with the Caprese grilled cheese sandwich and opted to eat almost nothing else all weekend. It was a fanTAStic Labor Day, what can I say! I have a quarter of the sauce left and can't wait to use it on eggs this weekend. That breakfast sandwich looks Awesome! Thanks for another winner chicken diner!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "john corrydon"
+            },
+            "datePublished": "2017-09-07",
+            "reviewBody": "Bjork you are married to the most wonderful woman in the whole world. Thank you Lindsay."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "cristinamarton"
+            },
+            "datePublished": "2017-09-08",
+            "reviewBody": "Yummy Sauce, taste of it's so delicious and different. Today morning i make it, whole family member really enjoying. Thanks to this tasteful recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "parth rathod"
+            },
+            "datePublished": "2017-09-08",
+            "reviewBody": "hey \r\ni made this sauce and it goes fine with pizza and pasta as well. The texture is amazing. looking forward for more updates thank you"
+        }
+    ],
+    "datePublished": "2017-09-07",
+    "@id": "https://pinchofyum.com/tomato-sauce#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/tomato-sauce#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/tomato-sauce"
+}

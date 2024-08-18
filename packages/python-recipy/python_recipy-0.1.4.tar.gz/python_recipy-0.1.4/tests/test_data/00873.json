@@ -1,0 +1,157 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Beer Batter Hush Puppies",
+    "datePublished": "2014-10-08T08:39:00.000-04:00",
+    "dateModified": "2022-02-08T15:31:45.605-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Diana Rattray",
+            "url": "https://www.thespruceeats.com/diana-rattray-3034029"
+        }
+    ],
+    "description": "These hush puppies are made with beer in the batter and lots of minced onion. Add some jalapeño pepper or hot sauce to these hush puppies for a kick.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/kJBDucthIlewuLGrkabXR67uK18=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beer-batter-hushpuppies-22-56a8c08c3df78cf772a04ebd.jpg",
+        "height": 999,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Beer Batter Hush Puppies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "32"
+    },
+    "cookTime": "PT15M",
+    "keywords": "beer",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "117 kcal",
+        "carbohydrateContent": "10 g",
+        "cholesterolContent": "9 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "135 mg",
+        "sugarContent": "1 g",
+        "fatContent": "8 g",
+        "servingSize": "20 servings",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1 cup cornmeal (about 4 3/4 ounces)",
+        "3/4 cup all-purpose flour",
+        "2 teaspoons baking powder",
+        "3/4 teaspoon salt",
+        "1 tablespoon sugar",
+        "1/2 cup onion (finely chopped)",
+        "2 green onions (finely chopped)",
+        "1 or 2 tablespoons jalapeno peppers (finely minced)",
+        "1 large egg",
+        "1/2 cup beer",
+        "Tabasco sauce or cayenne, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put about 2 inches of peanut oil or canola oil in a deep, heavy pan. Heat to 360 F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, combine the cornmeal, flour, baking powder, salt, and sugar. Stir to blend. Stir in the chopped onion, green onions, and jalapeño peppers , if using."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a cup, whisk the egg with the beer. If desired, add a few dashes of Tabasco sauce or cayenne."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour the beer mixture into the dry ingredients and stir until blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drop by rounded teaspoon or small cookie scoop into the hot oil. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fry in batches of 6 to 8, turning after a minute or two, until golden brown, about 3 to 4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Makes about 1 1/2 to 2 dozen hush puppies."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve and enjoy!"
+        }
+    ],
+    "recipeYield": "20",
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/beer-batter-hush-puppies-3056899",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/american-4162675",
+                        "name": "American Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/southern-food-4162667",
+                        "name": "Southern Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/beer-batter-hush-puppies-3056899",
+                        "name": "Beer Batter Hush Puppies"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,261 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cherry Chocolate Cake",
+    "datePublished": "1999-01-24T20:33:01.000-05:00",
+    "dateModified": "2023-07-05T01:31:43.711-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ginger McKenney"
+        }
+    ],
+    "description": "This moist cherry chocolate cake is easy to make with pantry ingredients and cherry pie filling; top with chocolate frosting for a rich, chocolaty treat.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/HDy-F-OPgm2DrwIr5ZI_XjcQFQE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8136cherry-chocolate-cakelutzflcat4x3-7980a4c1ded04e8d8b7bab3c9e7a3be3.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Cherry Chocolate Cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "120"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "159 kcal",
+        "carbohydrateContent": "29 g",
+        "cholesterolContent": "26 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "201 mg",
+        "sugarContent": "13 g",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1.5 cups white sugar",
+        "0.5 cup butter",
+        "2 eggs",
+        "1 teaspoon almond extract",
+        "0.5 cup unsweetened cocoa powder",
+        "1.75 cups cake flour",
+        "1.25 teaspoons baking soda",
+        "1 teaspoon salt",
+        "1 (21 ounce) can cherry pie filling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C). Lightly grease and flour one 9x13-inch baking pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat sugar and butter together in a large bowl with an electric mixer until light and fluffy. Add eggs one at a time, beating well after each addition. Beat in vanilla extract. Add cocoa powder and mix until well combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine cake flour, baking soda, and salt in a separate bowl; add flour mixture to butter mixture and mix until just combined. Stir in cherry pie filling. Pour batter into the prepared pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until a toothpick inserted near the middle comes out clean, 30 to 35 minutes."
+        }
+    ],
+    "recipeYield": [
+        "24"
+    ],
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "SHECANCOOK"
+            },
+            "reviewBody": "Very good cake. I make this same cake using a boxed devils food cake mix, 1 tsp. almond extract, 2 eggs and a can of cherry pie filling. It's basically the same recipe only faster. I put it in a oiled bundt pan and bake it for approx. 30 minutes. The glaze is made of 5 tablespoons of butter, 1/3 cup milk and 1 cup white sugar mix and bring to boil for 2 minutes, remove from heat and add 1 cup chocolate chips....put on the cooled cake and garnish with halves of maraschino cherries. Wonderful easy version of this same cake. It can also be made in a 9x13\" pan (which I spray with cooking oil with flour)....Both the recipe submitted and the easier version is wonderful!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lee"
+            },
+            "reviewBody": "Light, satisfying with our favorite combination of cherry and chocolate. I made a buttercream frosting but gave our guests the choice to add the frosting to their slices or sprinkle with powdered sugar. Delicious!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Used monk fruit sweetener, sugar free pie filling and vanilla extract. It is a very nice and easy recipe so I was able to use substitution for the things I can't eat."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lutzflcat"
+            },
+            "reviewBody": "A very moist and chocolaty cake. The recipe ingredients list almond extract, but the instructions say vanilla extract. I went with the almond extract, and in the future, I’ll add another 1/2 to 1 teaspoon. When you have a bite with a cherry in it, it pops, but I think additional almond extract would enhance the cherry flavor in the cake itself which is a bit weak. I chose not to add frosting and just gave it a dusting of confectioners sugar, and that was not a mistake in my opinion. This cake is good and sweet enough, so I don’t think you need sugary frosting; just enjoy the cherry-chocolate flavor in the cake. I don’t think an addition of a few chocolate chips in the batter would hurt this cake either."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sondie Frus"
+            },
+            "reviewBody": "I used regular all purpose flour. Super moist. One of my favorites, and worth repeating. I used a recommended chocolate buttercream frosting that was not too sweet but yummy!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "KAH"
+            },
+            "reviewBody": "It is an excellent cake. My changes were to make it in two 9 inch layer cake pans. I thought the frosting would be too sweet so I used whiped cream instead. I also saved a few cherries from the cherry pie filling for decoration. It came out great. Eveerybody loved it."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "DebbieSue"
+            },
+            "reviewBody": "Easy to make and tastes amazing! I used a ceramic casserole dish, so I had to increase the baking time to 50 minutes."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Abc Abc"
+            },
+            "reviewBody": "For someone with a sweet tooth, it was way to sweet for my personal taste."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Duck-Duck"
+            },
+            "reviewBody": "Cherry Chocolate Cake by Ginger McKenney. Use two cans filling. Use recipe with thick cake batter. Reduce sugar in cake by 1/3c. Saving mostly for idea."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "tomf"
+            },
+            "reviewBody": "It does not look like the picture of the cake."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/8136/cherry-chocolate-cake/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/276/desserts/cakes/",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/835/desserts/cakes/chocolate-cake/",
+                        "name": "Chocolate Cake Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/8136/cherry-chocolate-cake/",
+                        "name": "Cherry Chocolate Cake"
+                    }
+                }
+            ]
+        }
+    }
+}

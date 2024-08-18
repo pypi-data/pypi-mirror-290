@@ -1,0 +1,109 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Simple Coconut Green Smoothie",
+    "description": "This Simple Coconut Green Smoothie is loaded with the power of fresh fruits, veggies, and antioxidants. 4 ingredients + super easy for breakfast!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "green smoothie, smoothie recipe, healthy smoothie, coconut smoothie",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Bai5-Coconut-Green-Smoothie-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Bai5-Coconut-Green-Smoothie-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Bai5-Coconut-Green-Smoothie-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Bai5-Coconut-Green-Smoothie-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/simple-coconut-green-smoothie",
+    "recipeIngredient": [
+        "1 cup Bai5 Antioxidant Infusions Molokai Coconut",
+        "1 heaping cup frozen peaches",
+        "1 cup spinach",
+        "2 tablespoons flaxmeal"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Thaw the peaches so they are still frozen, but soft. I usually put them in the microwave for 30 seconds to one minute, or I just leave them out on the counter for 15-20 minutes. This will help the texture of the smoothie.",
+            "url": "https://pinchofyum.com/simple-coconut-green-smoothie#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Blend the Bai5 Molokai Coconut, frozen peaches, spinach, and flax meal for 2-3 minutes or until very smooth. Taste and adjust to your liking. Serve or refrigerate immediately.",
+            "url": "https://pinchofyum.com/simple-coconut-green-smoothie#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT5M",
+    "totalTime": "PT15M",
+    "recipeYield": "1",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "12",
+        "ratingValue": "5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "348 calories",
+        "sugarContent": "61.8 g",
+        "sodiumContent": "290.7 mg",
+        "fatContent": "0.9 g",
+        "saturatedFatContent": "0.5 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "69.9 g",
+        "fiberContent": "11.8 g",
+        "proteinContent": "7.2 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Faith Still"
+            },
+            "datePublished": "2015-03-18",
+            "reviewBody": "I have never heard of Bai before but I love anything coconut.  My boys love green smoothies.  Honestly we throw what we have on hand in the blender and yumminess happens.  This morning I made smoothies with frozen mango, fresh strawberries, ground flax seed, coconut milk, chia seeds, and fresh spinach.  They were delicious.  Here is a green smoothie recipe my boys love.  http://www.homeecathome.com/the-home-economist/healthy-green-smoothies"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Robyn Stone | Add a Pinch"
+            },
+            "datePublished": "2015-03-18",
+            "reviewBody": "This looks like a smoothie I'd jump out of bed to drink every morning! I have got to try this recipe! And antioxidants from coffee? It's got my number!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "datePublished": "2015-03-26",
+            "reviewBody": "UPDATE - This Bai5 coconut water rocked my smoothie world!!! Never going back - this stuff is delicious! As is this recipe. Not only that, but it provides a great &amp; simple guide for using other fruits/addings - love it!!!"
+        }
+    ],
+    "datePublished": "2015-03-18",
+    "@id": "https://pinchofyum.com/simple-coconut-green-smoothie#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/simple-coconut-green-smoothie#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/simple-coconut-green-smoothie"
+}

@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Grilled Potato Slices with Salt and Vinegar",
+    "datePublished": "2010-11-23T17:45:49.000-05:00",
+    "dateModified": "2017-05-16T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Simmering potatoes in vinegar imparts a pleasant tang reminiscent of salt-and-vinegar potato chips. Grilling, a healthier technique than frying, gives the potatoes a nice charred flavor.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/XFco-_YSmtDteohqJ8W_6b211GY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mld104315_0609_grill_potato_l_hd-e6d53866450c49d1a657243784408afc.jpgitoklXu3UkAm",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Grilled Potato Slices with Salt and Vinegar",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.1",
+        "ratingCount": "84"
+    },
+    "keywords": "Barbecue and grill, Dinner, Fingerling potatoes, Potatoes, Side dishes",
+    "prepTime": "PT5M",
+    "recipeIngredient": [
+        "1 pound potatoes, preferably fingerling, cut lengthwise into ¼-inch-thick slices",
+        "2 cups white vinegar",
+        "2 tablespoons extra-virgin olive oil",
+        "1.5 teaspoons coarse salt, plus more for sprinkling",
+        "0.25 teaspoon freshly ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring potatoes and vinegar to a boil in a medium saucepan (vinegar should cover potatoes). Reduce heat to medium-low, and simmer potatoes until just fork tender, about 5 minutes. Let potatoes cool in vinegar for 30 minutes. Drain well, and gently toss with oil, salt, and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat grill to medium-high. Grill potatoes in a single layer until browned on both sides and cooked through, about 5 minutes per side. Sprinkle with salt before serving."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT50M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/313066/grilled-potato-slices-with-salt-and-vine",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502505/lunch-recipes",
+                        "name": "Lunch Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/313066/grilled-potato-slices-with-salt-and-vine",
+                        "name": "Grilled Potato Slices with Salt and Vinegar"
+                    }
+                }
+            ]
+        }
+    }
+}

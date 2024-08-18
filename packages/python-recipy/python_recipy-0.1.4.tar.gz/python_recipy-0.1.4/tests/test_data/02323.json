@@ -1,0 +1,68 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Slow-Cooker Apple Butter",
+    "keywords": "slow-cooker apple butter",
+    "recipeCategory": "Condiment",
+    "image": "https://mojo.generalmills.com/api/public/content/95KfcnxPrUyKYxvAzbJf4Q_webp_base.webp?v=ed5c9ece&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "All you need are Gala apples, brown sugar, salt and a cinnamon stick to make our yummy slow-cooker apple butter. Great for gifting!",
+    "recipeIngredient": [
+        "5  lb Gala apples",
+        "1  cup packed light brown sugar",
+        "1/2  teaspoon salt",
+        "1  cinnamon stick"
+    ],
+    "totalTime": "PT8H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "40",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "20",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Stephanie Wise"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Peel, core and slice apples. In food processor, grate apples (in batches, if needed). Place in slow cooker. Stir in brown sugar, salt and cinnamon stick."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover; cook on High heat setting 4 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove and reserve cinnamon stick. In food processor, puree apple mixture (in batches, if needed) until smooth. Return to slow cooker with cinnamon stick."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook uncovered on High heat setting 4 hours longer, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove and discard cinnamon stick. Cool completely. Transfer butter to jars; seal tightly. Store in refrigerator up to 3 weeks."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "45 ",
+        "carbohydrateContent": "11 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "0 ",
+        "fiberContent": "0 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "0 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "30 mg",
+        "sugarContent": "10 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "09/11/2013",
+    "dateModified": "07/10/2018"
+}

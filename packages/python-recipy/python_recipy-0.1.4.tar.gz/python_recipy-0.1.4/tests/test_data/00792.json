@@ -1,0 +1,441 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1016154-cumin-lamb-stir-fry#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1016154-cumin-lamb-stir-fry",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-articleLarge-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1016154-cumin-lamb-stir-fry",
+    "name": "Cumin Lamb Stir-Fry",
+    "description": "Fragrant, intense and full of fiery chile, this lamb stir-fry isn’t for the timid eater. For the most authentic flavor, it’s worth your while to seek out Sichuan peppercorns, which have a woodsy, tongue-numbing, camphor quality. (They are available at specialty spice markets, in Chinatown, or online.) You can substitute regular black peppercorns, but you won’t get the same punch. If you’re not a lamb-lover, you can also try this with lean beef. Serve this over white or brown rice to cut the heat, with a side of sliced cucumbers dressed with sesame oil and salt for freshness.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-superJumbo-v2.jpg",
+            "height": 1152,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-articleLarge-v2.jpg",
+            "height": 338,
+            "width": 600,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT35M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "asian",
+    "recipeCategory": [],
+    "keywords": "chilies, cumin, lamb",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 1143
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 851,
+        "unsaturatedFatContent": "41 grams",
+        "carbohydrateContent": "10 grams",
+        "cholesterolContent": null,
+        "fatContent": "86 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "10 grams",
+        "saturatedFatContent": "41 grams",
+        "sodiumContent": "496 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 tablespoon whole cumin seeds",
+        "2 teaspoons Sichuan or regular peppercorns",
+        "1 pound boneless lamb",
+        "1 teaspoon ground cumin",
+        "3/4 teaspoon kosher salt",
+        "4 to 8 dried red chiles (or substitute 1/2 teaspoon or more crushed red pepper)",
+        "1 large white onion",
+        "1 bunch (about 8) scallions, trimmed",
+        "2 tablespoons peanut oil",
+        "3 large garlic cloves, finely chopped",
+        "1 1/2 tablespoons soy sauce",
+        "1 1/2 tablespoons Chinese cooking sherry (Shaoxing rice wine) or dry sherry",
+        "2 cups fresh cilantro, leaves and stems",
+        "Rice, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a dry skillet over medium heat, toast cumin seeds and peppercorns until fragrant, 1 to 2 minutes. Transfer to a mortar and pestle and crush lightly."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Slice meat across the grain into 1/2-inch-thick strips. Toss meat with crushed spices, ground cumin, salt and dried chiles."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Peel onion and halve it through the root end. Trim the ends and cut each half lengthwise into 1/2-inch-thick slices. Cut white and light green parts of scallions into 2-inch lengths. Thinly slice scallion greens; keep separate."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat a very large skillet or wok over high heat until screaming hot, about 5 minutes. Add oil. Toss in onion and the scallion bottoms. Cook, tossing occasionally, until vegetables are lightly charred but still crisp, about 2 minutes. Transfer to a bowl."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add lamb and chiles to skillet. Cook, tossing quickly, until meat begins to brown. Add garlic, soy sauce and sherry. Cook until most of the liquid has evaporated and lamb is cooked through, about 2 minutes. Toss in onions and scallion bottoms. Remove from heat and mix in cilantro and scallion greens. Serve hot, over rice."
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Cumin Lamb Stir-Fry",
+        "description": "Melissa Clark makes a restaurant-worthy stir-fry using toasted cumin and Sichuan peppercorns for bigger, spicier flavors.",
+        "thumbnailUrl": "https://static01.nyt.com/images/2014/03/26/dining/26APPE_SPAN/26APPE_SPAN-mediumThreeByTwo440.jpg",
+        "uploadDate": "2014-03-21T15:49:07.000Z",
+        "duration": "PT3M7S",
+        "transcript": "",
+        "contentUrl": "http://vp.nyt.com/video/2014/03/20/26304_1_clark-cumin-lamb_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter S."
+            },
+            "reviewBody": "This is very good, although a bit underspiced by the standards of my favorite Sichuan restaurant's version of the dish. I tried it a couple of times, first doubling the spices and then tripling them, and it's good although still not up to the aforementioned restaurant level of spice. Will make again.",
+            "datePublished": "2024-05-24T17:29:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike Charbit"
+            },
+            "reviewBody": "So good.  Phenomenal flavor and texture.  The velvet thing made the meat so tender.",
+            "datePublished": "2024-05-13T17:09:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rick T"
+            },
+            "reviewBody": "Delicious and despite the warning, not excessively fiery -- at least to my palate.  But I like spicy.",
+            "datePublished": "2024-02-01T05:03:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark"
+            },
+            "reviewBody": "We love Sichuan cuisine and this dish satisfies our hunger for the spice and tongue tingle when we can’t or dont  go out. It’s a go to favourite of ours now. Being Aussie we love lamb and have plentiful supply.",
+            "datePublished": "2024-01-25T08:38:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda A"
+            },
+            "reviewBody": "Savory Sensation! I loved this dish. Very easy to prepare too. Highly recommend for those who love lamb and cumin.",
+            "datePublished": "2023-09-29T18:55:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie Dumont"
+            },
+            "reviewBody": "3/4 salt",
+            "datePublished": "2023-05-16T01:23:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jacqueline"
+            },
+            "reviewBody": "I've only ever used black pepper corns or mixed pepper. Been yummy every time.",
+            "datePublished": "2023-05-02T08:20:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dave"
+            },
+            "reviewBody": "Works well with ground lamb too, and with some broccoli florets mixed in!",
+            "datePublished": "2023-04-06T03:38:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "food lover"
+            },
+            "reviewBody": "So good.  One of my favorite dishes at our local Sichaun restaurant, this tasted very close to theirs.  I used this as a base recipe for some leftovers from a steak dinner.   Who wants to eat day old steak....  The steak which was rare to begin with was sliced and subbed for the lamb.  It was delicious.  I also added 2 whole  jalapeños with the seeds removed and cut lengthwise and added them with the garlic. I subbed crushed red pepper instead of the whole red chilies.",
+            "datePublished": "2023-04-02T19:29:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "myraf"
+            },
+            "reviewBody": "I skipped the scallions and used 2 med onions instead and added small diverse peppers for veg. I used 1 tbs Szechwan peppers and cumin seeds heated together, added the tsp of ground cumin and 2 tsp crushed red peppers. Definitely not too hot for us.",
+            "datePublished": "2023-03-01T00:24:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "EM"
+            },
+            "reviewBody": "Incredibly high flavor : effort/time ratio. Made this with ground lamb per some of the comments, but made the rest according to the recipe. Loved the varying onion flavors and punch of cumin, with just the right amount of heat. Keeping this in our weeknight rotation moving forward!",
+            "datePublished": "2022-09-21T19:01:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Megan"
+            },
+            "reviewBody": "So good. Made with ground lamb. Don't like sichuan pepper so used 1tsp black and 1tsp white peppercorns. Added some sliced red pepper and cucumber to the onion. I think it would be too salty if you don't add additional vegetables.",
+            "datePublished": "2022-09-14T14:29:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ama"
+            },
+            "reviewBody": "I feel like something burned when I added the meat and spices to the hot pan -- I think it was the peppercorns. Then I had this grittiness when I ate the whole thing -- really not sure what that was or how to avoid it or why it happened.",
+            "datePublished": "2022-08-31T22:27:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "judyvla"
+            },
+            "reviewBody": "Loved this!  “Screaming hot” pan was a little unnerving, but loved the char/crisp result. Cut the lamb into strips and pounded with one of those bumpy tenderizer mallets, and it turned out beautifully tender.  I didn’t have Szechuan peppers but will def look for them for next time. A new fave!",
+            "datePublished": "2022-07-28T04:37:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John"
+            },
+            "reviewBody": "I used these Sichuan chilis:\n<a href=\"https://themalamarket.com/collections/sichuan-spices-dry-goods/products/facing-heaven-chili-chao-tian-jiao\" target=\"_blank\">https://themalamarket.com/collections/sichuan-spices-dry-goods/products/facing-heaven-chili-chao-tian-jiao</a>",
+            "datePublished": "2022-03-06T17:17:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sadie Mathison"
+            },
+            "reviewBody": "\"Dried red chiles\"?  Thai? Ancho?  There are a lot of different dried chilis. I'm curious what others have used.",
+            "datePublished": "2022-02-25T18:23:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane Vennema"
+            },
+            "reviewBody": "In China we saw a cook working with Szechuan peppercorns. He cooked them in oil till the oil was thoroughly flavored, then scooped the peppercorns out. The taste can be really strong if you use the whole thing, so that's another option to the recipe above.",
+            "datePublished": "2017-10-30T15:21:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sheila"
+            },
+            "reviewBody": "I've had this recipe on regular rotation for months. Using ground lamb instead of boneless tastes just as delicious plus you don't have to spend time slicing.",
+            "datePublished": "2017-10-30T15:19:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Great recipe! And a  couple of suggestions!"
+            },
+            "reviewBody": "Be sure to add no more of the spices than the recipe calls for--otherwise it'll taste like cumin and hot pepper, but no lamb.  Don't overcook the lamb--it'll be chewy.  I shave 30 seconds of cooking time off step #4.  <br/><br/>The Sichuan pepper is fantastic, well worth the effort to seek out or buy online.  I don't have a pestle for grinding, so I use a rolling pin on a cutting board, which works fine.  <br/><br/>And for that real Melissa Clark flourish, as the oil is heating add  1-2 anchovy fillets & mash!",
+            "datePublished": "2017-10-30T14:25:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maureen"
+            },
+            "reviewBody": "I'm not sure that reviews are saying what the Sichuan peppercorns taste like, but for those that don't know, I've heard Chinese restaurantes that use them refer to \"mouth numbing beef\", etc. They are very unique, and do sort of numb your mouth. Or, like my husband says, they \"light up your mouth\". The effect lasts a little while, and it's pretty cool. I used a huge onion, and some fresh sweet red pepper to have more vegetables.",
+            "datePublished": "2017-10-30T15:30:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chilewheel"
+            },
+            "reviewBody": "A very good recipe. I've done with both lamb and beef. With the beef, I tenderized the sliced meat in 2t of baking soda, rinsed it off and then added it to the cumin(s) and Szechuan peppercorns.<br/>Wondering if Ms. Clark contributed this to Lucky Peach's  \"101 Easy Asian Recipes,\" as virtually the identical preparation is contained therein. As the notes there describe the interplay of the flavors, \"...nobody lingers too long or tries to steal the spotlight.\" Indeed.",
+            "datePublished": "2017-10-30T15:19:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne C."
+            },
+            "reviewBody": "I used pork tenderloin that I cut in strips and it was delicious! I added part of an anise star, following one of the comments, a good move! I also added at the end some veggies (zucchini, mushrooms and fresh pineapple) that I had sauted before. It absorbed some of the intense heat and the pineapple complimented perfectly the mix of the spices.",
+            "datePublished": "2018-07-28T06:36:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chessen"
+            },
+            "reviewBody": "Even a very plump scallion will turn to mush after 2 minutes of intense stir fry heat. Add only for last minute or less of 2-minute browning time for regular onion.",
+            "datePublished": "2017-10-30T13:24:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deborah VC"
+            },
+            "reviewBody": "Wonderful recipe.  I used about 10 chilies and upped the ground cumin to about 1 1/2 t.  Make sure your wok/pan is very hot so you get a good sear.  The sichuan peppercorns added a fabulous mouth-tingling taste and sensation.",
+            "datePublished": "2017-10-24T21:11:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike Anderson"
+            },
+            "reviewBody": "I advise going light on the Sichuan peppercorn until you decide whether you like the flavor.  I found it gave the dish an odd, pungent, medicinal tinge that wasn't enjoyable, IMO.",
+            "datePublished": "2017-10-24T17:34:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leah"
+            },
+            "reviewBody": "Wow!!<br/>First of all, do not make this if the vent fan in your kitchen does not work. You really do need a \"screaming hot\" wok. The spices will create something like a nerve gas when they hit the pan... but WOW what a taste!<br/>For those who suggest that it needs something sweet, add more onions and/or slice onions thicker. And eat them.<br/>Also drink a nice riesling with this!<br/>I served with a bland-by-comparison broccoli, ginger and garlic stir fry. Took the edge off!<br/>Thanks, Melissa :)",
+            "datePublished": "2017-10-30T15:20:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ray"
+            },
+            "reviewBody": "Can substitute ground lamb.",
+            "datePublished": "2018-04-30T00:04:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Todd B."
+            },
+            "reviewBody": "A flawless recipe. Followed it exactly. New York Times recipes can be hit or miss, but when they hit like this one did... wow. The family loved it. Melissa Clark's Asian recipes in general are pretty spectacular. ",
+            "datePublished": "2019-01-20T01:16:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Ann"
+            },
+            "reviewBody": "Finally cooked this tonight in honor of Scott Kelly's return from space.  I like a bit more heat so crumbled half of the dried chile peppers.  It was very good. and although I am a carb fanatic, I did add some rice.  The dish needs rice.  I also added some baby bok choy when the onions were quickly charred. Good idea to remove them before doing the lamb.",
+            "datePublished": "2017-10-24T18:59:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary B."
+            },
+            "reviewBody": "Very good, but not as hot as I was led to believe in the video.  Next time I will use crushed red pepper which may just spread the heat around a little more effectively.<br/><br/>I sought out Sichuan peppercorns for this recipe, which are really an unusual taste, and much different from regular peppercorns.  So thanks, Melissa, for turning me on to this unusual ingredient!",
+            "datePublished": "2017-10-30T13:23:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephen Coon"
+            },
+            "reviewBody": "I was inspired to try this recipe after being bowled over by Cafe China's similar dish. This recipe really catches the same flavors. I prepared it exactly according to the recipe and was thrilled with the results. Next time, I would slice the lamb slightly more thin but other than that I wouldn't change a thing. Now in my regular rotation!",
+            "datePublished": "2017-10-24T17:57:23.000Z"
+        }
+    ]
+}

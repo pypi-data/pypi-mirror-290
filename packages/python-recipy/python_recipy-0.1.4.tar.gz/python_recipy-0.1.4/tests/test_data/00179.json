@@ -1,0 +1,76 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Grilled Pork Chops, Three Ways",
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/grilled-pork-chops-three-ways-8659165",
+    "headline": "Grilled Pork Chops, Three Ways",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Food Network Kitchen",
+            "url": "https://www.foodnetwork.com/profiles/talent/food-network-kitchen"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/05/07/0/FNM_060120-Pork-Chops-Three-Ways_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1588879935222.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/05/07/0/FNM_060120-Pork-Chops-Three-Ways_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1588879935222.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/05/07/0/FNM_060120-Pork-Chops-Three-Ways_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1588879935222.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2020-05-07T14:08:58.768-04:00",
+    "dateModified": "2020-05-07T14:08:58.076-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Pork Chop,Pork,Main Dish,Summer,Grilling",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT0H30M0.000S",
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the pork chops: Season four 1-inch-thick boneless pork chops on both sides with salt, then rub all over with vegetable oil. Sprinkle with your choice of spice rub (recipes follow). Grill over medium-high heat until cooked through and a thermometer inserted into the centers registers 145˚ F, 4 to 5 minutes per side."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make Sichuan Peppercorn Rub: Pulse 2 tablespoons Sichuan peppercorns in a spice grinder with 4 teaspoons cumin seeds, 2 teaspoons sesame seeds and 1 teaspoon red pepper flakes until cracked. Transfer to a small bowl and mix in 1 teaspoon each Chinese five-spice powder and light brown sugar and 1/2 teaspoon garlic powder. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make Barbecue Rub: Mix 1 tablespoon each paprika and light brown sugar in a small bowl with 2 teaspoons ancho chile powder, 1 teaspoon ground cumin and 1/2 teaspoon each mustard powder, garlic powder, onion powder and pepper. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make Fennel-Coriander Rub: Pulse 1 tablespoon each fennel seeds and coriander seeds in a spice grinder until roughly ground. Transfer to a small bowl and mix in 1 teaspoon grated lemon zest and 1/2 teaspoon each garlic powder and red pepper flakes."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "4 grilled pork chops",
+    "recipeCategory": []
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Baked Greens Chips",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/baked-greens-chips-recipe-1961387",
+    "headline": "Baked Greens Chips",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/5/20/0/FN_Alton-Brown-Baked-Greens-Chips_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1400740930322.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/5/20/0/FN_Alton-Brown-Baked-Greens-Chips_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1400740930322.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/5/20/0/FN_Alton-Brown-Baked-Greens-Chips_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1400740930322.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-05-31T12:08:18.535-04:00",
+    "dateModified": "2014-07-09T16:01:17.366-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Healthy,Chips,Kale,Gluten Free,Low-Cholesterol,Low Calorie,Low Sodium,Diabetes-Friendly,Low-Carb,Vegan",
+    "cookTime": "P0Y0M0DT0H17M0.000S",
+    "prepTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT0H27M0.000S",
+    "recipeIngredient": [
+        "6 to 8 ounces hearty greens, such as kale, chard, mustard, collards or spinach",
+        "1/4 cup olive oil (not extra-virgin)",
+        "1/4 teaspoon kosher salt"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "136 calorie",
+        "fatContent": "14 grams",
+        "saturatedFatContent": "2 grams",
+        "cholesterolContent": "0 milligrams",
+        "sodiumContent": "134 milligrams",
+        "carbohydrateContent": "3 grams",
+        "fiberContent": "1 grams",
+        "proteinContent": "1 grams",
+        "sugarContent": "1 grams"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 300 degrees F. Line 2 half sheet pans with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Wash and thoroughly dry the greens. Tear the larger leaves into 1 to 2-inch strips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lay the greens in a single layer on the half sheet pans, spritz lightly with the olive oil and sprinkle with the salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until the greens are dry and have darkened slightly, 15 to 20 minutes. Remove immediately from the pan on the parchment and transfer into a serving dish. Repeat with any remaining greens. Serve immediately, or store in a brown paper bag for up to 3 days."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "4 appetizer servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sara C."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This recipe is awesome, My kids love it!"
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Alton: Healthy Chip How-Tos",
+        "description": "Alton Brown shares secrets for making healthy chips from fresh greens.",
+        "duration": "PT0H2M35S",
+        "thumbnailUrl": "https://food.fnr.sndimg.com/content/dam/images/food/video/0/01/016/0161/0161611.jpg.rend.hgtvcom.406.305.suffix/1661021903212.jpeg",
+        "contentUrl": "https://www.foodnetwork.com/apps/api/playback?path=/etc/sni-asset/food/videos/0/01/016/0161/0161611",
+        "uploadDate": "2022-08-20T14:58:24.355-04:00"
+    }
+}

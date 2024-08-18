@@ -1,0 +1,166 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Peppermint Pie",
+    "datePublished": "2021-12-08T17:39:12.000-05:00",
+    "dateModified": "2024-03-22T13:41:11.117-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jasmine Smith",
+            "url": "https://www.southernliving.com/author/jasmine-smith"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "Our peppermint pie recipe marries the season&#39;s most festive holiday flavors: chocolate and peppermint. With little effort and prep time, it&#39;s an easy yet spirited dessert everyone will enjoy.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/74Rb_x5ryChwv_zPHv90pisFD2Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peppermint-Pie_63-5dac238bcc4d4b858eae2b67484e77f8.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Peppermint Pie",
+    "keywords": "peppermint pie",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "30 chocolate wafer cookies (such as Nabisco Famous) (from 1 [9-ounce] package)",
+        "0.25 cup unsalted butter, melted",
+        "1 tablespoon granulated sugar",
+        "0.25 teaspoon kosher salt",
+        "8 ounces cream cheese, at room temperature",
+        "1 cup marshmallow creme",
+        "1 teaspoon peppermint extract",
+        "1 cup heavy whipping cream, chilled",
+        "0.5 cup granulated sugar",
+        "8 drops of red food coloring",
+        "Crushed hard peppermint candies (such as Starlight Peppermint Mints) (from 8 round candies)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare the Crust: Preheat oven to 350°F. Place chocolate wafers in a food processor; process until finely ground, about 30 seconds. Add butter, sugar, and salt; pulse until mixture has a wet sand consistency, about 5 (1-second) pulses. Press mixture firmly and evenly into bottom and up sides of a 9-inch tart pan. Place tart pan on a rimmed baking sheet. Bake in preheated oven until crust is firm and appears dry, about 10 minutes. Remove from oven; let cool completely, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare the Filling: Beat cream cheese and marshmallow creme in a large bowl with an electric mixer on medium speed until smooth, about 1 minute, 30 seconds. Add peppermint extract; beat on low speed until fully incorporated, about 15 seconds. Set aside. Beat whipping cream, sugar, and food coloring in a separate large bowl with an electric mixer on medium-high speed until stiff peaks form, about 1 minute, 30 seconds. Gently fold whipped cream mixture into cream cheese mixture until just combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Assemble Pie: Spread filling into prepared crust. Freeze until filling firms up, about 2 hours. Decorate with crushed peppermint candies. Serve. "
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT160M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/peppermint-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/pies",
+                        "name": "Pies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/peppermint-pie",
+                        "name": "Peppermint Pie"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-03-22T13:41:11.117-04:00"
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Should peppermint pie be served frozen or thawed?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>This peppermint pie should be served straight from the freezer for a firm but creamy consistency.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I make a gluten-free peppermint pie?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>For a gluten-free version, substitute the chocolate wafers with a gluten-free cookie variety. Then proceed with the recipe as written.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I use a store-bought pie crust for peppermint pie?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Feel free to prepare this pie with a store-bought crust for a shortcut option.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

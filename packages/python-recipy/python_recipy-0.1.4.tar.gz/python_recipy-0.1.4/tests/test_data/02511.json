@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Pizza with Fresh Figs, Ricotta, Thyme, and Honey",
+    "datePublished": "2011-09-19T08:26:34.000-04:00",
+    "dateModified": "2017-08-03T14:53:33.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Try a stone fruit instead of figs and think about this pizza as a dessert.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/lw2UgQDq5J4OZYdHTUiFzxOQ2Vk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fig-pizza-0911mbd107580_vert-37eb122846b443d8b13e673e1e8ec2ec.jpgitokiXLcPmWx",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Pizza with Fresh Figs, Ricotta, Thyme, and Honey",
+    "keywords": "Bake, Dinner, Fall, Figs, Honey, Kids' birthday party, Main course, Outdoor entertaining, Pizza, Pizza dough, Ricotta, Summer, Thyme",
+    "recipeIngredient": [
+        "Large-Batch Whole-Wheat Pizza Dough",
+        "0.25 cup fresh ricotta cheese",
+        "Fresh thyme, chopped",
+        "3 sliced fresh figs",
+        "Salt and pepper",
+        "Olive oil",
+        "1 tablespoon honey"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place pizza stone or inverted baking sheet on rack in top third of oven."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 450 degrees."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer stretched dough to parchment."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dot dough with ricotta cheese. Top with thyme and figs. Season with salt and pepper; drizzle with olive oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to oven: Slide parchment ontostone or baking sheet. Bake for 13 to 15 minutes, until cheese is bubbly and bottom is crisp. Drizzle with honey."
+        }
+    ],
+    "recipeYield": [
+        "2"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1156201/pizza-fresh-figs-ricotta-thyme-and-honey",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513772/quick-easy-recipes",
+                        "name": "Quick & Easy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1156201/pizza-fresh-figs-ricotta-thyme-and-honey",
+                        "name": "Pizza with Fresh Figs, Ricotta, Thyme, and Honey"
+                    }
+                }
+            ]
+        }
+    }
+}

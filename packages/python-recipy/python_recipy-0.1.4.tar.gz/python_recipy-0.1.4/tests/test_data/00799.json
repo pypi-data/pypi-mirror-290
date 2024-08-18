@@ -1,0 +1,412 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1021697-sheet-pan-lemony-chicken-with-brussels-sprouts#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1021697-sheet-pan-lemony-chicken-with-brussels-sprouts",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/12/02/dining/yf-lemony-roasted-chicken-thighs-and-brussels/yf-lemony-roasted-chicken-thighs-and-brussels-videoSixteenByNineJumbo1600-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1021697-sheet-pan-lemony-chicken-with-brussels-sprouts",
+    "name": "Sheet-Pan Lemony Chicken With Brussels Sprouts",
+    "description": "This is a true oven-to-table sheet-pan dinner full of tender, crunchy brussels sprouts and crispy, lemony chicken. A simple lemon-and-herb compound butter seasons both the chicken and sprouts, which are then topped with thin lemon slices that become crunchy in the oven, offering a nice textural element and a bright splash of color and flavor. The key is to cut the lemon rounds almost paper-thin, so they can crisp up and lose their bitterness. This recipe is easily adjustable for a larger batch: Add 4 drumsticks (about 1 ½ pounds) to the chicken thighs, increase the butter by 1 tablespoon and adjust seasonings as needed.",
+    "author": {
+        "@type": "Person",
+        "name": "Yasmin Fahr"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/12/02/dining/yf-lemony-roasted-chicken-thighs-and-brussels/yf-lemony-roasted-chicken-thighs-and-brussels-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/02/dining/yf-lemony-roasted-chicken-thighs-and-brussels/yf-lemony-roasted-chicken-thighs-and-brussels-superJumbo-v2.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/02/dining/yf-lemony-roasted-chicken-thighs-and-brussels/yf-lemony-roasted-chicken-thighs-and-brussels-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/02/dining/yf-lemony-roasted-chicken-thighs-and-brussels/yf-lemony-roasted-chicken-thighs-and-brussels-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "2 to 4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, for two, weekday, weeknight, main course",
+    "keywords": "brussels sprout, chicken thigh, lemon, roast chicken, sheet-pan, fall, winter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 4160
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 607,
+        "unsaturatedFatContent": "28 grams",
+        "carbohydrateContent": "19 grams",
+        "cholesterolContent": null,
+        "fatContent": "46 grams",
+        "fiberContent": "7 grams",
+        "proteinContent": "33 grams",
+        "saturatedFatContent": "15 grams",
+        "sodiumContent": "1006 milligrams",
+        "sugarContent": "5 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 tablespoons unsalted butter or ghee, at room temperature",
+        "2 lemons, both zested (about 2 tablespoons), 1 cut into very thin rounds and 1 halved, seeds removed",
+        "1/2 cup flat-leaf parsley leaves and tender stems, finely chopped",
+        "Kosher salt and black pepper",
+        "3 tablespoons plus 1 teaspoon olive oil",
+        "4 bone-in, skin-on chicken thighs (about 1 1/2 to 2 pounds)",
+        "1 1/2 pounds brussels sprouts, trimmed and halved, tough outer leaves removed",
+        "1 small red onion, peeled, quartered and cut into 1-inch wedges",
+        "1/2 teaspoon red-pepper flakes",
+        "1/4 cup grated Parmesan"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 450 degrees, set one rack 6 inches from the broiler and place another rack in the lower third of the oven. In a large bowl, combine the butter, zest of both lemons, half the parsley and 1 teaspoon salt. Rub 1 teaspoon oil on a sheet pan. Pat the chicken dry, then transfer to the sheet pan and season well with salt and pepper. Reserve about 1 teaspoon of the compound butter in the bowl, then rub the rest all over the chicken and under the skin by lifting it up, pushing a tiny amount of compound butter underneath, then pressing on top. Arrange the chicken pieces skin-side up."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the brussels sprouts, onion wedges, lemon rounds, red-pepper flakes and the remaining 3 tablespoons olive oil to the bowl with the compound butter; toss to coat. Season with salt and pepper. Arrange the brussels sprouts mixture around the chicken, placing some lemon rounds on top of the vegetables."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Roast on the lower rack, 30 to 35 minutes, stirring the vegetables halfway through, until the chicken is crispy, the chicken juices run clear when the meat is pierced with a fork, and the brussels sprouts are browned and crunchy. If the chicken skin is not as crispy as you’d like, transfer the vegetables to a serving platter, then place the chicken under the broiler for 1 to 3 minutes. Transfer the chicken to the serving platter."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Squeeze one of the lemon halves over the chicken and vegetables and cut the remaining lemon half into quarters. Garnish the chicken and vegetables with the cheese and the remaining parsley, and serve with the lemon wedges."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aggie"
+            },
+            "reviewBody": "This recipe works well with chicken breasts too. We used boneless skinless but closely watched the bake time with a meat thermometer(they were done in 18 mins) and we pulled back a little on the salt.",
+            "datePublished": "2024-06-25T13:02:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "Worked perfectly! Using convection crisped the skin, no need to run the chicken under the broiler.",
+            "datePublished": "2024-05-21T01:52:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ellen"
+            },
+            "reviewBody": "very good simple meal. forgot the lemon slices and was fine without. added potatoes and was glad I had. doesn't need the cheese.",
+            "datePublished": "2024-05-12T05:03:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Meissner"
+            },
+            "reviewBody": "I substituted boneless chicken breasts and recommend checking after 25 mins. I also left out the red pepper flakes because of a guest’s sensitive tummy but I think I should have just left them off just her portion. I think those flakes would have been great. We found the chicken to be slightly under seasoned without them. Don’t skip the purple onion! They are sweet like candy in this dish!",
+            "datePublished": "2024-05-02T18:14:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Craig W"
+            },
+            "reviewBody": "I went boneless, skinless and subbed in broccoli. Used the butter mixture inside folding thighs to make a pocket, also on top. Delicious!",
+            "datePublished": "2024-03-12T12:57:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ME"
+            },
+            "reviewBody": "Sliced chicken breasts\nUsed Betrhealth boiled/puréed lemons \nCooked rice w seasoning until crisp on bottom of pan, let it sit.\nLast minute, put chicken, onion, rice under broiler \nAdded parm over top at end in bowl\n\nMaybe a squeeze of lemon over the top?",
+            "datePublished": "2024-01-16T01:32:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cindy"
+            },
+            "reviewBody": "I thought this was more work than warranted.  I might just roast all the veggies and grill or cook the thighs separately.  The veggies got soggy and the brussel spouts did not crisp up the way they usually do when I roast them - perhaps from alll the juices from the chicken.  I didn't think the flavor of the lemon butter came through after all that work- marinating chicken in lemon, oil and herbs works better for me!",
+            "datePublished": "2024-01-09T19:38:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "atl mom"
+            },
+            "reviewBody": "Flavor was really delicious. The thighs I had were huge so I cooked them about 10 minutes before adding vegetables.  The pan was crowded so the veggies were more steamed than roasted, but everything tasted great.  Used only 1/4 tsp of red pepper flakes and that was enough.  Next time I plan to make the same amount of veggies but just 2 thighs.  A keeper of a recipe. Yum",
+            "datePublished": "2024-01-08T00:18:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane"
+            },
+            "reviewBody": "I love making this with brussel sprouts and chicken, and adding carrot and potato and a little more olive oil and butter and red pepper flakes. Just made it without the skin on bone-in thighs (because that’s what I had) and it was equally delicious.",
+            "datePublished": "2024-01-04T18:00:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Roo"
+            },
+            "reviewBody": "Well-written clear recipe that creates a healthy, flavorful meal.\nI forgot to add the parmesan cheese, but did not miss it at all, and I only had lemons that had already been zested, so I used lemon juice instead of zest. Flavors were so good! And the chicken was crispy and juicy.",
+            "datePublished": "2024-01-03T15:05:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Holly"
+            },
+            "reviewBody": "Ok I did some substitutions but it was a guide for me to cook the ingredients I wanted to make last night.  Olive oil instead of butter.  Chicken breast tenders instead of thighs.  Zucchini instead of brussels sprouts. And I only had enough lemon to squeeze juice on the final dish.  It was amazingly flavorful and a template for whenever I want to make sheet pan chicken and any veggies.  Will make again!",
+            "datePublished": "2023-12-22T00:24:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Oniongrrrl"
+            },
+            "reviewBody": "I'd agree with others who commented that 450 seems a little high. Some of my brussels sprouts looked like Sharon's pie from the Marie Callendar's meme. I think next time I'll take it down a notch. It was really good otherwise. I added some potatoes as well, and I'll for sure make it again.",
+            "datePublished": "2023-12-05T02:59:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carol singer"
+            },
+            "reviewBody": "Enjoyed the meal. The recipe and the instructions were fairly easy to prep overall. The timing of the meal was more varied. The chicken took 30 plus minutes longer then the recipe. The chicken thighs were a bit meatier but recommend keeping an eye on the vegetables. It was a delicious dinner and will definitely make it again.",
+            "datePublished": "2023-11-12T05:58:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "reviewBody": "I tried this last night with great enthusiasm. However the Brussels sprouts and vegs turned out really mushy with only a bit of crisp on the top. Tasty but mushy. And a bit too much red pepper , in my opinion. ♥️",
+            "datePublished": "2023-11-11T22:46:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "st"
+            },
+            "reviewBody": "lemon slices should be added ~half-way through because the rinds get too hard if cooked for the 30 minutes. For my tastes, the red pepper flakes should be reduced. Also could use a bit less oil.  Otherwise very tasty, if a bit of work.",
+            "datePublished": "2023-11-09T01:42:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "I made this for our dinner tonight, and it was spectacular. I accidentally used an entire stick of butter, though, and let me tell you...it was a happy accident. I'd do it exactly that way again. :)",
+            "datePublished": "2020-12-09T23:19:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kitty"
+            },
+            "reviewBody": "Super easy and came out great, perfect for summer in Southern Hemisphere. I love that I get to eat my home grown lemon. Tossed in small potatoes cut in half, whole meal sorted!",
+            "datePublished": "2020-12-12T09:09:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nikki"
+            },
+            "reviewBody": "This was just as good with skinless/boneless thighs, just dropped oven to 425, let veg cook for 10 minutes first, then another 25 with the chicken. Served w/ toasted French bread. Delicious!",
+            "datePublished": "2020-12-15T13:33:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deb"
+            },
+            "reviewBody": "Absolutely fabulous dish. I added extra veggies (beets, turnips, carrots) with a few thyme branches in a separate pan with the overflow of brussels sprouts and butter compound, and it was yummy. I also added a few breasts, and that worked out just great. The breasts were nice and moist. I did indeed have to broil the chicken at the end as all pieces were way too pale. The lemon zest and parsley are perfection, btw. The whole butter compound situation is a marvel to behold.",
+            "datePublished": "2020-12-13T01:11:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "Does this recipe work with chicken breasts",
+            "datePublished": "2020-12-12T04:22:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amber"
+            },
+            "reviewBody": "The photo looks like there is paprika in there, but it doesn't appear in the recipe. Red pepper flakes would not look as powdery as the red in the photo (and I agree with Molly Guenzer, 1/2 t is too much red pepper flakes)",
+            "datePublished": "2020-12-10T02:03:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Heidi Schwenk"
+            },
+            "reviewBody": "Delicious idea to put lemon rind in butter with parsley! 2 skinless and boneless chicken breasts were added with to the pan with 4 bone in and skin on chicken thighs. I put lemon slices on the breasts which helped them from not getting too dry on top. A white onion was used instead of the purple onion. We didn't add the red pepper flakes and the meal was very tasty. The brussel sprouts were exceptionally juicey and perfect texture. I would make again and add yukon potatoes & more salt and pepper",
+            "datePublished": "2020-12-14T07:06:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "shelley"
+            },
+            "reviewBody": "This was great for 2 people.  Any more than 4 thighs and the Brussel sprouts  steam rather than roast.  If you want to make for more than 2 would recommend using 2 pans. I added minced pancetta and a handful of whole garlic cloves. was company worthy. also is hard to have the chicken skin properly browned.  needed the extra step of broiling. also melted the last bit of reserved butter to toss in with veggies. a winner dish!",
+            "datePublished": "2020-12-14T03:00:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Armand"
+            },
+            "reviewBody": "Regarding using chicken brests instead of thighs, see this article.  <a href=\"https://cooking.nytimes.com/guides/54-how-to-make-a-sheet-pan-dinner\" target=\"_blank\">https://cooking.nytimes.com/guides/54-how-to-make-a-sheet-pan-dinner</a>",
+            "datePublished": "2020-12-14T12:51:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ROK"
+            },
+            "reviewBody": "I am going to do it. The family despises chicken thighs, period, end of conversation.  Will post the results.",
+            "datePublished": "2020-12-13T18:33:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Frances"
+            },
+            "reviewBody": "My brussels sprouts and onions became overly 'crisp.' I think next time I will add them 10 minutes or so into the baking of the chicken.  Regardless, this dish is a keeper. Delicious.  The pepper flakes are indispensable, and the roux works brilliantly. Yes, bring on the butter . . . and the zest and the fresh parsley. I will add diced potatoes next time (will add them with the chicken, then 10 minutes later add the sprouts and onions)--thanks Kitty!",
+            "datePublished": "2020-12-15T19:51:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alicia"
+            },
+            "reviewBody": "Im a vegetarian (though clearly not a picky one) and made this with chicken on one side of the sheet (For my partner) and tofu on the other. We both enjoyed mucho! Could definitely do the entire dish veggie to a great outcome. I added sweet potato half discs that caramelized with the veggies to round it out. Great one pan dish!",
+            "datePublished": "2020-12-15T05:18:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jann"
+            },
+            "reviewBody": "Add garlic, sure, but I'd keep the red onion just for color.",
+            "datePublished": "2020-12-09T18:26:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maria"
+            },
+            "reviewBody": "My guess is you could do bone-in skin-on breasts the same way. B/L S/L chicken breasts probably won't cook at the same speed as the veg. I can't think of an easy way to get that right.",
+            "datePublished": "2020-12-13T16:18:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Minouchka  ***** (5*)"
+            },
+            "reviewBody": "I make a similar dish for years and it is an easy and great meal enjoyed by all.  I did make just few additions for a complete meal and tastier. I too,  added few garlic cloves, peeled, added and tossed in small potatoes cut in half, and sprinkled overall some Emeril's Original Essence for golden color and extra taste.  It turned out delicious and spectacular!",
+            "datePublished": "2020-12-13T19:14:13.000Z"
+        }
+    ]
+}

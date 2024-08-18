@@ -1,0 +1,107 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Steamed Mussels with Thai Herbs",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/07/mussels-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/07/mussels-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/07/mussels-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2015/07/mussels-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/",
+    "recipeIngredient": [
+        "1 lb live mussels",
+        "1 Tbsp vegetable oil",
+        "3 cloves garlic, chopped",
+        "¼ red onion, small diced",
+        "1 cup chicken stock or pork stock",
+        "1 stalk lemongrass, thinly sliced on a bias",
+        "5 kaffir lime leaves, torn into chunks, center rib removed",
+        "6-7 slices galangal",
+        "4 Thai chilies, crushed",
+        "1½ cup cherry tomatoes, halved (I prefer a mix of orange and red ones for extra colour) ",
+        "1 Tbsp fish sauce",
+        "1 cup Thai basil",
+        "½ cup cilantro, chopped",
+        "1 Tbsp lime juice",
+        "For serving: grilled or toasted bread for dipping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Rinse mussels twice in cold water. If there are open ones, give them a tap and if they don't close, discard them (mussels close slowly, so be patient with them!). If the shells have barnacles and seaweeds growing on them, as is the case for wild mussels, give them a scrub. To debeard mussels: Some mussels already come debearded, some aren't. The beard is the tough, stringy stuff that usually sticks out between the shells, and it's what the mussels use to attach themselves to rocks or other structures. This beard is tough and not pleasant to eat so you want to remove it by grabbing on the the beard with a thin rag or a paper towel and pull it firmly towards the hinge of the shells until it detaches.",
+            "name": "Prepare mussels",
+            "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a pot large enough to hold the mussels, sauté garlic and onion in the vegetable oil until the garlic starts to turn golden. Add the stock, lemongrass, galangal, kaffir lime leaves, Thai chilies, 1 cup of the tomatoes, and fish sauce; bring to a boil. Add the mussels, cover the pot, and cook for about 2 minutes until the mussels are open (it will take longer if you're cooking a lot of mussels). I find it helpful to stir the mussels half way through to help distribute the heat, especially if you're cooking a large pot of mussels.",
+            "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the mussels are open, turn off the heat and stir in Thai basil, cilantro and the remaining 1/2 cup of cherry tomatoes. Close the lid for 20-30 seconds to let the residual heat warm up the fresh tomatoes and distribute the aroma of the basil and cilantro.",
+            "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "You can serve it as is or add the lime juice for some added fresh tartness. Give the broth a taste and adjust seasoning as needed.",
+            "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content and rewards!",
+            "url": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#instruction-step-5"
+        }
+    ],
+    "recipeYield": [
+        "1",
+        "Serves 1-2"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "1",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Thai Mussels Recipe หอยแมลงภู่อบสมุนไพร - Hot Thai Kitchen.mp4",
+        "description": "Mussels steamed in a flavourful broth, infused with all the iconic herbs of Thai cuisine—lemongrass, galangal, kaffir lime leaves, and Thai basil. Gimme some of these on a patio with a glass of white wine, and I'm a happy woman!",
+        "duration": "PT7M36S",
+        "embedUrl": "https://video.mediavine.com/videos/iQFwHi7co.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681223909/iQFwHi7co.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--xv2vDhh3--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681223915/zlfs8gkxkyzvroofnmne.jpg"
+        ],
+        "uploadDate": "2020-12-08T05:56:14+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lola721"
+            },
+            "datePublished": "2021-06-05",
+            "reviewBody": "So good!"
+        }
+    ],
+    "datePublished": "2015-07-31",
+    "@id": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/mussels-with-thai-herbs/",
+    "recipeCategory": []
+}

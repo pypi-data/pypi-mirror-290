@@ -1,0 +1,75 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/garlic-pork-fried-rice/#recipe",
+    "url": "https://www.marionskitchen.com/garlic-pork-fried-rice/",
+    "name": "Garlic Pork Fried Rice",
+    "description": "My NEW fried rice obsession… it’s garlicky, porky and features one ingredient you might not be expecting…",
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "",
+    "keywords": "30-minute meals, Dinner, Easy weeknight dinners, Fried rice, Lunch, Pork, Rice, Rice bowls, Serves 2",
+    "recipeYield": "2",
+    "recipeCategory": [],
+    "recipeCuisine": "",
+    "recipeIngredient": [
+        "2 tbsp vegetable oil",
+        "300g (10.5 oz) pork mince",
+        "1 onion, diced",
+        "4 garlic cloves, roughly chopped",
+        "3 tbsp Chinese garlic chilli paste or sambal oelek",
+        "1 small tomato, cut into large wedges",
+        "3 cups cooked rice",
+        "2 tbsp soy sauce",
+        "1 tsp dark soy sauce",
+        "½ tsp sugar",
+        "¼ tsp ground white pepper",
+        "fried eggs, to serve (optional)",
+        "finely sliced spring onion (scallions), to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1.Heat the vegetable oil in a wok or large frying pan over high heat. Add the pork mince and spread it out in the pan. Allow to sear for at least 5 minutes or until deeply golden and crusty. Then break up the pork and add the onion and garlic. Stir-fry for another 2 minutes or until the onion has softened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2.Add the chili paste and stir-fry until well combined. Now add the tomato and stir-fry for another minute. Add the rice, soy sauces, sugar and pepper. Stir-fry until well combined. Divide among serving plates and top with fried eggs, if using, and spring onion."
+        }
+    ],
+    "datePublished": "2021-08-12T00:00:00Z",
+    "dateModified": "2022-05-05T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/garlic-pork-fried-rice/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/Spicy-Garlic-Pork-Fried-Rice.jpg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/Spicy-Garlic-Pork-Fried-Rice.jpg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

@@ -1,0 +1,90 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/vietnamese-style-chicken-salad/#recipe",
+    "url": "https://www.marionskitchen.com/vietnamese-style-chicken-salad/",
+    "name": "Vietnamese-style Chicken Salad",
+    "description": "A chicken salad like no other, this dish is sweet, salty, tangy, crunchy… and downright yum! One taste of this and you’ll be craving salad every night of the week.",
+    "prepTime": "PT15M",
+    "cookTime": "PT5M",
+    "totalTime": "",
+    "keywords": "Chicken, Easy weeknight dinners, Healthier, Salads, Vietnamese Cuisine",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Vietnamese",
+    "recipeIngredient": [
+        "2 cups shredded cooked chicken (left-over roast, rotisserie or BBQ chicken are good options)",
+        "½ small carrot, finely julienned",
+        "3 cups finely shredded cabbage",
+        "¼ red onion, sliced",
+        "¼ cup finely sliced spring onion (scallions)",
+        "½ cup torn mint leaves",
+        "1 long red chilli, finely sliced",
+        "¼ cup roasted peanuts",
+        "¼ cup fried shallots",
+        "Dressing:",
+        "¼ cup honey",
+        "2 tbsp white vinegar",
+        "2 tbsp fish sauce",
+        "Crispy wonton noodles:",
+        "12 wonton sheets",
+        "vegetable oil for deep frying"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1.For dressing, whisk all the ingredients together.  Set aside until ready to serve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2.To make the crispy wonton noodles, heat a small saucepan of oil over high heat. When the oil is hot, add the noodles and cook for a minute or until golden and crisp. Remove with a slotted spoon and drain on paper towel. The noodles will crisp up even more as they cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "3.Place the chicken, carrot cabbage, onion, spring onion, mint, and chilli in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "4.Use a mortar and pestle to roughly pound the roasted peanuts. Add these to the bowl with the chicken also."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "5.When ready to serve, add the fried shallots to the other salad ingredients and pour over the dressing. Mix until well combined. Pile onto a serving plate. Use your fingers to crush the crispy wonton noodles over the top. Serve immediately."
+        }
+    ],
+    "datePublished": "2021-08-11T00:00:00Z",
+    "dateModified": "2022-05-05T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/vietnamese-style-chicken-salad/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201112_Vietnamese-style-Chicken-Salad-9-scaled-e1628700881213.jpeg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20201112_Vietnamese-style-Chicken-Salad-9-scaled-e1628700881213.jpeg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

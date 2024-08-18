@@ -1,0 +1,336 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1017621-chile-chimichurri#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1017621-chile-chimichurri",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2015/08/16/magazine/16eat4_chimichurri/16eat4_chimichurri-articleLarge.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1017621-chile-chimichurri",
+    "name": "Chile Chimichurri",
+    "description": "Chile chimichurri is an enlivened, updated version of the classic vinegar-and-parsley sauce. Served alongside a grilled rib-eye, the sauce brightens up the dish and makes eating a steak at home feel like you're eating one while out on the town.",
+    "author": {
+        "@type": "Person",
+        "name": "Mark Bittman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2015/08/16/magazine/16eat4_chimichurri/16eat4_chimichurri-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/08/16/magazine/16eat4_chimichurri/16eat4_chimichurri-superJumbo.jpg",
+            "height": 1535,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/08/16/magazine/16eat4_chimichurri/16eat4_chimichurri-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/08/16/magazine/16eat4_chimichurri/16eat4_chimichurri-verticalTwoByThree735-v2.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT10M",
+    "recipeYield": "4 servings.",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 731
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 258,
+        "unsaturatedFatContent": "23 grams",
+        "carbohydrateContent": "4 grams",
+        "cholesterolContent": null,
+        "fatContent": "27 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "1 gram",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "164 milligrams",
+        "sugarContent": "0 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 cups fresh parsley leaves",
+        "2 tablespoons chopped fresh oregano leaves",
+        "1 medium jalapeño chile (more or less to taste), trimmed and halved",
+        "1 large clove garlic, or more to taste",
+        "1/2 cup extra-virgin olive oil, or more if you’d like",
+        "Salt",
+        "2 tablespoons sherry or red-wine vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Put the herbs, chile and garlic in a food processor or blender with about half the oil and a pinch of salt. Purée, stopping to scrape down the sides of the container if necessary and adding the rest of the oil gradually."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the vinegar, then a little more oil or some water if you prefer a thinner sauce. Taste, adjust the seasoning and serve right away. Or cover and refrigerate for up to a day; return to room temperature before serving."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "QUAASAM"
+            },
+            "reviewBody": "Excellent and easy.",
+            "datePublished": "2024-06-10T11:04:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hey Nanc"
+            },
+            "reviewBody": "I have an abundance of parsley and oregano in my garden. This was perfect and so yummy. My jalapeño wasn’t spicy and my garlic lacked flavor. I only made half a batch as a test. I’ll get better ingredients and make a full batch or more soon!",
+            "datePublished": "2024-05-12T21:50:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mel"
+            },
+            "reviewBody": "I added a little fresh mint to the blend and I much preferred it to my earlier versions. It was lovely and bright.",
+            "datePublished": "2024-04-28T01:22:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MinnieG"
+            },
+            "reviewBody": "This is a solid Chimichurri. I use a bit less oil than is called for, for extra zip. I love to use a red Fresno chili in place of jalapeño for pretty flecks of color. Also, I’ve tried this with both types of vinegar and much prefer the simple brightness of the red wine vs the mellow complexity of the sherry.",
+            "datePublished": "2024-04-24T16:41:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nikamom"
+            },
+            "reviewBody": "So good!  Used two jalapeños and roasted them first.  Squirt of lemon and few dashes of cumin takes it over the top",
+            "datePublished": "2022-10-03T01:25:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellwell"
+            },
+            "reviewBody": "I served this with grilled pork tenderloin and it was delicious! This is my new go-to chimichurri.",
+            "datePublished": "2022-09-28T01:49:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Debora"
+            },
+            "reviewBody": "Do this",
+            "datePublished": "2022-08-26T19:46:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kat"
+            },
+            "reviewBody": "Add mint and basil too",
+            "datePublished": "2022-08-01T10:54:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Blue96berry"
+            },
+            "reviewBody": "Made this sauce without oregano simply because I didn’t have any in my fridge. Used a mild garlic fresh from a local farmer. Used the sauce on grilled ribeye and also on portobello mushrooms. It turned out very tasty; I think the flavor of the sauce complimented well with the flavor of the steak. Next time I will use oregano as the recipe says, and the next after that, I will add cilantro.",
+            "datePublished": "2022-07-23T19:00:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelsey"
+            },
+            "reviewBody": "We had a bunch of carrot tops from the farmers market. Substituted those for parsley. Also used roasted green chile instead of of jalepeno, because we live in New Mexico and frozen hatch chiles is what we had on hand. \n\nIt was delicious and a great way to use up carrot tops. Had over a baked potato with sautéed greens.",
+            "datePublished": "2022-07-20T16:37:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carrie"
+            },
+            "reviewBody": "This is delicious.  I tripped the jalapeños, and didn't have fresh oregano on hand so I used cilantro. I also added one medium shallot. I used it for a shrimp, seared tuna and string bean recipe. Served over mixed greens. It was great for a dressing and for a marinade. I will definitely make this again.",
+            "datePublished": "2022-04-25T12:56:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura G."
+            },
+            "reviewBody": "This is a nice, straightforward chimichuri recipe, and the jalapeño gives it brightness. I didn’t have the oregano so just omitted it.",
+            "datePublished": "2022-04-19T00:46:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patricia"
+            },
+            "reviewBody": "Half cup cilantro and half cup parsley.",
+            "datePublished": "2021-12-26T02:25:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rebecca"
+            },
+            "reviewBody": "This was delicious.  After seeing comments and other NYT recipes, I added some fresh thyme, lemon juice and used Prosecco vinegar.  We served it in grilled ahi tuna steaks accompanied with beets.",
+            "datePublished": "2021-11-28T02:58:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pebbles"
+            },
+            "reviewBody": "Subbed basil for the oregano, double the garlic and added a small handful of of almonds and the resulting chimi/pesto mash-up is to die for. Great on eggs, pasta, with beans, over tortillas. Really stellar.",
+            "datePublished": "2021-05-20T20:35:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "I think chimichurri has way more tasty kick to it when you use cilantro instead of parsley or far greater quantities of cilantro to parsley as a ratio.",
+            "datePublished": "2017-10-01T19:29:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Baddogbreath"
+            },
+            "reviewBody": "Chopped cilantro, chopped shallots, red pepper flakes, and seasoned rice wine vinegar",
+            "datePublished": "2017-12-31T02:19:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Heidi"
+            },
+            "reviewBody": "Added a small jalapeno, cilantro, and a half lime of juice.",
+            "datePublished": "2018-09-29T00:30:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "quaasam"
+            },
+            "reviewBody": "very nice. Excellent with grilled queso blanco.",
+            "datePublished": "2017-10-24T23:22:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "TeaLeigh"
+            },
+            "reviewBody": "This is really good on steak.  I had some leftover, so 2 days later I added fresh cilantro and a dash of cumin and mixed it into an easy rice/chicken bowl.  It really brightened both dishes and made them more memorable.",
+            "datePublished": "2017-10-01T15:43:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Klkruger"
+            },
+            "reviewBody": "Nah, the tastes aren't very different at all.  Mine finely and do a blind taste test. You won't be able to tell the difference.",
+            "datePublished": "2018-03-24T22:39:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mcfife"
+            },
+            "reviewBody": "I can’t believe how good this was. I used 2:1 parsley to cilantro with champagne vinegar as my only variations. My daughter asked to eat the whole batch with a spoon!",
+            "datePublished": "2020-05-09T01:06:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "beatrice"
+            },
+            "reviewBody": "1 Tbsp fresh = 1 tsp dried",
+            "datePublished": "2020-06-21T21:56:12.000Z"
+        }
+    ]
+}

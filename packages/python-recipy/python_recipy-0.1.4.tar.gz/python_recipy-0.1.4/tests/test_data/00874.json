@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Light and Fluffy Norwegian Pancakes",
+    "datePublished": "2016-07-26T11:31:37.000-04:00",
+    "dateModified": "2021-12-25T14:51:49.077-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Leah Maroney",
+            "url": "https://www.thespruceeats.com/leah-maroney-428304"
+        }
+    ],
+    "description": "This Norwegian pancake recipe gives you soft and fluffy pancakes that will taste delicious topped with powdered sugar and lingonberry jam.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/lZRV-krL0crUKeKZxIQKGw6qW84=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/norwegian-pancakes-57977f4c3df78ceb864b08a3.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Light and Fluffy Norwegian Pancakes",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "ratingCount": "66"
+    },
+    "cookTime": "PT15M",
+    "keywords": "pancake",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "283 kcal",
+        "carbohydrateContent": "46 g",
+        "cholesterolContent": "80 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "6 g",
+        "saturatedFatContent": "5 g",
+        "sodiumContent": "39 mg",
+        "sugarContent": "28 g",
+        "fatContent": "9 g",
+        "servingSize": "6 pancakes (6 servings)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Scandinavian"
+    ],
+    "recipeIngredient": [
+        "2 eggs",
+        "3/4 cup whole milk",
+        "1/2 cup water (room temperature)",
+        "1/4 cup sugar",
+        "1 cup of flour plus 2 tablespoons",
+        "3 tablespoons of butter (melted)",
+        "1 can butter or cooking spray for greasing",
+        "1/2 teaspoon vanilla extract",
+        "Garnish: powdered sugar for dusting",
+        "Optional: lingonberry jam (or other berry jam)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Beat together the whole milk, water, and eggs in a measuring cup until the ingredients are completely combined.  "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk in the sugar, melted butter, and vanilla extract ."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the flour in a separate bowl. Slowly add the liquid mixture to the dry mixture, whisking as you incorporate them together. This will ensure a smoother batter. Instead, you can also add all of the ingredients to a blender and blend until smooth. This will also help prevent lumps."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat your cast-iron skillet with butter or cooking spray. Turn your stove to medium heat so the pancakes will not burn. Place about 1/2 cup of the batter into the center of the skillet. Use a wooden spoon to spread the batter evenly in the pan, or hold the handle (use a pot holder) to swirl the batter , so it completely coats the bottom of the pan. Let the pancake cook for about a minute and then flip with a spatula . Cook for another minute and then remove from the pan. Sprinkle with powdered sugar and top with lingonberry jam."
+        }
+    ],
+    "recipeYield": [
+        "6",
+        "6 pancakes"
+    ],
+    "totalTime": "PT20M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/norwegian-pancakes-4066282",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/breakfast-brunch-4162826",
+                        "name": "Breakfast & Brunch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/pancakes-waffles-4162823",
+                        "name": "Pancakes & Waffles"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/norwegian-pancakes-4066282",
+                        "name": "Light and Fluffy Norwegian Pancakes"
+                    }
+                }
+            ]
+        }
+    }
+}

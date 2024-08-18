@@ -1,0 +1,182 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate Chip Cookie Pie Recipe",
+    "datePublished": "2011-11-17T08:13:00.000-05:00",
+    "dateModified": "2021-03-24T06:49:57.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carrie Vasios Mullins",
+            "url": "https://www.seriouseats.com/carrie-vasios-mullins-5118593"
+        }
+    ],
+    "description": "A giant chocolate chip cookie baked in a pie dish.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/4dMslBW_m0E6H4eJOKAgKlwDrck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__11__20111114-seriousentertaining-undertheweather-chocolatechipcookiepie-155ffd71586f41afb9a2c92dacdb809f.JPG",
+        "height": 460,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Chocolate Chip Cookie Pie Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "3"
+    },
+    "keywords": "chocolate, Cookies, pies, Serious Entertaining",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "233 kcal",
+        "carbohydrateContent": "30 g",
+        "cholesterolContent": "43 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "180 mg",
+        "sugarContent": "19 g",
+        "fatContent": "12 g",
+        "servingSize": "8",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 cup flour",
+        "1/2 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "8 tablespoons unsalted butter, at room temperature",
+        "1/4 cup packed light brown sugar",
+        "1/2 cup sugar",
+        "1/2 teaspoon vanilla extract",
+        "1 egg",
+        "1/2 cup chocolate chips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375°F. Grease a 9 inch pie dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, whisk together flour, baking soda, and salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, beat together butter, brown sugar, and sugar until light and fluffy."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add vanilla and eggs and beat until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour mixture to wet ingredients and beat until just combined. Stir in chocolate chips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Press dough evenly across prepared pie dish. Bake until golden, about 20 minutes."
+        }
+    ],
+    "recipeYield": "10",
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Van"
+            },
+            "reviewBody": "This doesn't work completely raw in the middle burnt on the edges the oven temp is set too high"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sugarfiend"
+            },
+            "reviewBody": "Fwiw, I'm thinking that if you saved a little flour mixture to mix with the chips, before adding they probably won't sink."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "riggert"
+            },
+            "reviewBody": "Easy and incredible! My chocolate chips also sank to the bottom so next time I'll mix half of them with the batter and the other half I'll sprinkle on top before putting in the oven to see if that makes a difference"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jae_em"
+            },
+            "reviewBody": "I made this 2 days ago - like Lili recommended, I doubled on the chips, except I had chunks...which all sank to the bottom =/ Nonetheless, still a great cookie - especially when I frosted it with buttercream for a semi-special occasion"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lili13"
+            },
+            "reviewBody": "Made it tonight, eating it now. So awesome. I doubled the chips. So awesome. It's easier than a cake mix. Easier than pie."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/chocolate-chip-cookie-pie-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dessert-recipes-5117878",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cookie-recipes-5117873",
+                        "name": "Cookies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/chocolate-chip-cookie-pie-recipe",
+                        "name": "Chocolate Chip Cookie Pie Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

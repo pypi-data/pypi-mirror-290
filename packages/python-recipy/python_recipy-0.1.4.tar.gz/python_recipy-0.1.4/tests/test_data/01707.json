@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Reinbeer Pizza",
+    "url": "https://www.foodnetwork.com/recipes/reinbeer-pizza-7588013",
+    "headline": "Reinbeer Pizza",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/23/DV3017_reinbeer-pizza-s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1571850675591.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/23/DV3017_reinbeer-pizza-s4x3.jpg.rend.hgtvcom.1280.960.suffix/1571850675591.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/23/DV3017_reinbeer-pizza-s4x3.jpg.rend.hgtvcom.1280.720.suffix/1571850675591.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2019-10-23T12:48:24.621-04:00",
+    "dateModified": "2019-10-23T12:48:23.877-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Pizza Restaurants,Sausage Recipes,Main Dish",
+    "cookTime": "P0Y0M0DT1H10M0.000S",
+    "totalTime": "P0Y0M0DT3H10M0.000S",
+    "recipeIngredient": [
+        "1/2 pound reindeer sausage or similar breakfast-type sausage (if links, remove from casings)",
+        "One 12-ounce amber-style beer ",
+        "1 tablespoon butter ",
+        "1 large shallot, thinly sliced ",
+        "1 cup heavy cream ",
+        "1 teaspoon salt ",
+        "1/4 cup thinly sliced red onion ",
+        "1/2 cup fresh mozzarella, cut or torn into 1/2-inch cubes ",
+        "1/2 cup grated Jarlsberg cheese ",
+        "2 balls Pizza Dough, each about 7 ounces, recipe follows",
+        "1/2 cup plus 2 tablespoons water, at room temperature",
+        "1/4 teaspoon active dry yeast",
+        "1 cup 00 flour ",
+        "1 1/2 teaspoons of salt ",
+        "1 teaspoon olive oil "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 2 servings",
+        "calories": "1076",
+        "fatContent": "72g",
+        "saturatedFatContent": "42g",
+        "carbohydrateContent": "68g",
+        "fiberContent": "3g",
+        "sugarContent": "8g",
+        "proteinContent": "29g",
+        "cholesterolContent": "243mg",
+        "sodiumContent": "1321mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put sausage and half of the beer in a frying pan. Cook over medium heat until meat is lightly browned. Drain off juices, pat sausage dry and set aside. Over low to medium heat, melt butter in a frying pan. Saute shallot until translucent, about 5 minutes. Add remaining beer and cook for about 10 minutes over medium heat. Add heavy cream and salt, cook for about 20 minutes, stirring often."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 500 degrees F. On a floured surface, press out Pizza Dough balls. After dough is pressed out flat, begin stretching by hand to desired size and thickness. Place on baking sheet or preheated pizza stone. Spread a thin layer of the cream sauce on the dough, leaving 1/2 inch all the way around free from sauce. Put on the sausage, onion and cheeses. Bake for at least 10 minutes, or until pizza dough edges look browned and cheese has some browned spots. (Best results will be achieved by using a pizza stone that is placed in the oven for at least 15 minutes before placing dough on it. Pizza can then be built directly on the pizza stone.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small cup, combine 2 tablespoons of the water and the yeast and stir until the yeast is dissolved. Set aside for about 10 minutes. In a mixer with a dough hook, combine the flour and yeast mixture and mix until incorporated. Add the salt and the remaining water. Mix until dough feels and looks smooth. You may have to add a bit more flour or water to achieve this consistency; do this in very small increments, like 1 teaspoon of either flour or water at a time. Let each incorporate and check for desired consistency. When the dough is smooth, and the bowl is free from dry flour, add the oil. Mix until well incorporated. With slightly oiled hands, remove the dough, divide into 2 balls and wrap in plastic wrap. Let rest in the fridge anywhere from 2 hours to 4 days."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 2
+    },
+    "recipeYield": "two 10-inch pizzas",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Easy to adapt to a home oven"
+        }
+    ],
+    "recipeCategory": []
+}

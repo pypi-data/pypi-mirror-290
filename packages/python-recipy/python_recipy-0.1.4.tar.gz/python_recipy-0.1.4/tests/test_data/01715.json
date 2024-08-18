@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "IPA Mac and Cheese",
+    "url": "https://www.foodnetwork.com/recipes/ipa-mac-and-cheese-recipe-2068858",
+    "headline": "IPA Mac and Cheese",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:52:25.616-05:00",
+    "dateModified": "2014-01-09T01:51:52.435-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Macaroni and Cheese,Beer,Cheddar,Cheese,Main Dish,Lunch",
+    "cookTime": "P0Y0M0DT1H0M0.000S",
+    "totalTime": "P0Y0M0DT1H15M0.000S",
+    "recipeIngredient": [
+        "3 cups heavy cream ",
+        "1 teaspoon coriander seeds",
+        "1 teaspoon fennel seeds",
+        "1 teaspoon black peppercorns",
+        "2 fresh bay leaves ",
+        "1 cup shredded sharp Cheddar",
+        "Hot sauce, such as Tapatio ",
+        "Cracked black pepper ",
+        "3 cups elbow macaroni, cooked ",
+        "1 cup peas, cooked ",
+        "1/4 cup shredded braised ham hock",
+        "1/4 cup West-Coast style IPA ",
+        "Salt",
+        "1 tablespoon chopped bacon",
+        "1/4 cup breadcrumbs "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "1065",
+        "fatContent": "74g",
+        "saturatedFatContent": "44g",
+        "carbohydrateContent": "77g",
+        "fiberContent": "6g",
+        "sugarContent": "10g",
+        "proteinContent": "25g",
+        "cholesterolContent": "270mg",
+        "sodiumContent": "826mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepan, add the cream, coriander seeds, fennel seeds, peppercorns and bay leaves. Turn the heat up to high and bring to a boil. Once a boil is reached, reduce the heat to medium and stir regularly to prevent burning and boil-over."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the cream is reduce by three-quarters, strain through a fine mesh strainer into another saucepan. Return the pan with the strained cream to a medium flame and stir in the Cheddar. Once the Cheddar is fully incorporated, add hot sauce and cracked black pepper to taste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the macaroni, peas and ham hock to the pan and stir well. Add the IPA and continue stirring until hot. Add salt to taste and place in large ramekin. Top with the chopped bacon and breadcrumbs. Bake until the breadcrumbs become golden brown and crispy."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "4 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sean K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Love IPA beer! I'll try this next Mac &amp; Cheese night. Interesting recipe. <br />I've made Mac &amp; Cheese w/beer and it's delicious! Used Guinness. Note most didn't make it in the recipe. Seriously, used it as 1/4th the normal heavy cream I add. Guinness &amp; heavy cream pair well together. (from Wisconsin) For Crunchy Cheese Crust I rub butter on the sides of thick ceramic bake crock before I layer noodles &amp; Cheddar then top w/3 heavy layers of very Sharp Cheddar. Between those layers add Japanese PANKO bread crumbs. Finish with a fast broil +/- 4 min. Sides &amp; top are crunchy!!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kbco"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "The mac and cheese from Hops &amp; Pie in Denver, CO is delicious!  Peas are a nice pop of flavor, breadcrumbs add a necessary crunch, and ham hock/bacon are flavorful and not overly salty.  Great mix of flavors and textures."
+        }
+    ],
+    "recipeCategory": []
+}

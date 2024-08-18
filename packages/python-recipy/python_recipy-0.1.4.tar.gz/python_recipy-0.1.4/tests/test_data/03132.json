@@ -1,0 +1,96 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Here's a soufflé recipe by Michel Richard of Citronelle in Washington, D.C. that can stand up for itself. Whip the whites until firm, but stop before they get too stiff.",
+    "alternativeHeadline": "Here's a soufflé recipe by Michel Richard of Citronelle in Washington, D.C. that can stand up for itself. Whip the whites until firm, but stop before they get too stiff.",
+    "keywords": [
+        "soufflé",
+        "french",
+        "cheese",
+        "side",
+        "nut-free",
+        "vegetarian",
+        "baking",
+        "easter",
+        "dinner",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Michel Richard",
+            "sameAs": "https://www.bonappetit.com/contributor/michel-richard"
+        },
+        {
+            "@type": "Person",
+            "name": "Peden + Munk",
+            "sameAs": "https://www.bonappetit.com/contributor/peden-+ munk"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.7,
+        "ratingCount": 26
+    },
+    "description": "Here's a soufflé recipe by Michel Richard of Citronelle in Washington, D.C. that can stand up for itself. Whip the whites until firm, but stop before they get too stiff.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57af6f8553e63daf11a4e59f/master/w_940,h_600,c_limit/the-loftiest-souffle.jpg"
+    ],
+    "headline": "The Loftiest Souffle",
+    "name": "The Loftiest Souffle",
+    "recipeIngredient": [
+        "3 tablespoons unsalted butter plus more, room temperature, for ramekins",
+        "4 tablespoons finely grated Parmesan, divided",
+        "3 tablespoons all-purpose flour",
+        "1 cup cold whole milk",
+        "1 cup grated Gruyère, divided",
+        "Pinch of freshly grated nutmeg",
+        "Kosher salt, freshly ground pepper",
+        "4 large eggs, yolks and whites separated",
+        "1/4 teaspoon xanthan gum (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°. Brush ramekins with butter and place on a foil-lined baking sheet; sprinkle ramekins with 2 Tbsp. Parmesan (total). Chill for 20 minutes or, covered, up to 1 day."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt 3 Tbsp. butter in a small saucepan over medium heat. Add flour; whisk constantly for 30 seconds. Gradually whisk in milk; increase heat and bring to a boil, whisking constantly. Add remaining 2 Tbsp. Parmesan and 1/2 cup Gruyère; stir until melted. Add nutmeg and season with salt and pepper. Transfer béchamel to a medium bowl and cover with plastic wrap; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place egg whites in a large bowl. Stir in a pinch of salt and xanthan gum, if using. Using an electric mixer, beat egg whites until firm but not stiff, 3–4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir egg yolks into béchamel. Gently stir in 1/4 of beaten egg whites to loosen béchamel base, then gently fold in remaining egg whites just to combine, taking care not to deflate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide mixture among ramekins; sprinkle with 1/2 cup Gruyère;. Run your finger around inside lip of ramekins, cleaning edges. Bake until soufflés rise, centers are set, and cheese is golden brown, 18–22 minutes. Serve immediately."
+        }
+    ],
+    "recipeYield": "4  Servings",
+    "url": "https://www.bonappetit.com/recipe/the-loftiest-souffle",
+    "dateModified": "2012-03-12T20:00:00.000-04:00",
+    "datePublished": "2012-03-12T20:00:00.000-04:00",
+    "recipeCategory": []
+}

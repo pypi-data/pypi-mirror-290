@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Basic Bark",
+    "datePublished": "2011-04-04T11:03:30.000-04:00",
+    "dateModified": "2017-12-18T09:07:03.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Who can resist velvety bittersweet, milk, or white chocolate topped with nuts, candy, or dried fruit? Try one of our bark variations below or experiment with your own favorite flavors.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/1878U2Xd1jaIfR4qFzsiK7SUeaQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/md106464_1210_04_barks_horiz-7cff82d93948416aa3821a9eb7e8fa1f.jpgitok8lKptUQy",
+        "height": 421,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Basic Bark",
+    "keywords": "Afternoon tea, Barks, Bittersweet chocolate, Christmas, Dessert, Dessert party, Milk chocolate, Religious celebrations, Snack, Tea party, White chocolate, Winter",
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "Vegetable oil cooking spray",
+        "Bittersweet, milk, or white chocolate, chopped, according to variation",
+        "Toppings, according to variation"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coat a 9-by-12 1/2-inch rimmed baking sheet withcooking spray, and line with parchment, leaving anoverhang on ends."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt chocolate in a double boileror a heatproof bowl setover a pan of simmering water,stirring. Pour into baking sheet,and spread in an even layer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Immediately sprinkle toppingsover chocolate. Refrigerateuntil firm, about 1 hour.Peel off parchment, and breakbark into pieces."
+        }
+    ],
+    "totalTime": "PT75M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1132276/basic-bark",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1132276/basic-bark",
+                        "name": "Basic Bark"
+                    }
+                }
+            ]
+        }
+    }
+}

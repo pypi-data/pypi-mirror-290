@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Eben Freeman, bartender of Tailor restaurant in New York City, developed this bitter, Cognac-based cocktail, which makes for a great after-dinner drink.",
+    "alternativeHeadline": "Eben Freeman, bartender of Tailor restaurant in New York City, developed this bitter, Cognac-based cocktail, which makes for a great after-dinner drink.",
+    "keywords": [
+        "cocktail",
+        "pitcher drink",
+        "cognac",
+        "walnut",
+        "beverages",
+        "gluten free",
+        "dairy free",
+        "5 ingredients or fewer",
+        "pickle & preserve",
+        "epicurious",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/5609a4fee0acd286555db706/1:1/w_380,h_380,c_limit/351593.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Eben Freeman",
+            "sameAs": "https://www.epicurious.com/contributor/eben-freeman"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 1.3,
+        "ratingCount": 1
+    },
+    "description": "Eben Freeman, bartender of Tailor restaurant in New York City, developed this bitter, Cognac-based cocktail, which makes for a great after-dinner drink.",
+    "image": [
+        "https://assets.epicurious.com/photos/5609a4fee0acd286555db706/16:9/w_368,h_207,c_limit/351593.jpg",
+        "https://assets.epicurious.com/photos/5609a4fee0acd286555db706/4:3/w_380,h_285,c_limit/351593.jpg",
+        "https://assets.epicurious.com/photos/5609a4fee0acd286555db706/1:1/w_380,h_380,c_limit/351593.jpg"
+    ],
+    "headline": "Nutty Monk",
+    "name": "Nutty Monk",
+    "recipeIngredient": [
+        "1 liter Cognac",
+        "1 cup walnut halves",
+        "2 tablespoons (1 ounce) Benedictine liqueur",
+        "1 dash bitters",
+        "1 cup ice cubes plus 1 large cube",
+        "",
+        "1 fresh cherry",
+        "",
+        "funnel, coffee filter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Transfer Cognac to large heatproof pitcher (or mason jar) (reserve Cognac bottle)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread walnuts on large rimmed baking sheet and toast, stirring occasionally, until dark brown, about 10 minutes. Add hot walnuts to pitcher with Cognac and cover with plastic wrap. Let steep 36 hours, agitating gently every 12 hours. Line funnel with coffee filter and set over Cognac bottle. Strain Cognac into bottle, discarding walnuts. DO AHEAD: Infused Cognac can be prepared ahead and stored at room temperature, covered, up to six months."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In chilled cocktail shaker, combine 1/4 cup (2 ounces) infused Cognac, Benedictine, bitters, and 1 cup ice. Stir until well chilled, about 30 seconds. Strain into 12-ounce double old-fashioned glass and add remaining 1 large cube of ice (or 2-3 smaller ones). Garnish with cherry and serve."
+        }
+    ],
+    "recipeYield": "Makes 1 drink",
+    "url": "https://www.epicurious.com/recipes/food/views/nutty-monk-351593",
+    "dateModified": "2009-01-28T23:00:00.000-05:00",
+    "datePublished": "2009-01-28T23:00:00.000-05:00",
+    "recipeCategory": []
+}

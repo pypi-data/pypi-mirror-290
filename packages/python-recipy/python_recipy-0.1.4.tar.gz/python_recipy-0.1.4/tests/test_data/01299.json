@@ -1,0 +1,138 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Autumn Glow Milkshake",
+    "description": "A glow-worthy \"milkshake\" that is loaded with nutrients and tastes like ice cream. Awesome for breakfasts on the go.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "healthy milkshake, healthy smoothie, sweet potato smoothie, sweet potato recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Breakfast-Milkshake-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Breakfast-Milkshake-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Breakfast-Milkshake-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Breakfast-Milkshake-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/autumn-glow-milkshake",
+    "recipeIngredient": [
+        "1 cup frozen sweet potato, steamed (see notes)",
+        "1/2 cup frozen cauliflower florets",
+        "1 cup Almond Breeze Vanilla Almondmilk",
+        "1 tablespoon almond butter",
+        "1 scoop of your fave protein powder (vanilla is best)",
+        "2 tablespoons honey",
+        "a pinch of sea salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blend everything up in a high-powered blender until smooth. Add more almondmilk as needed to keep it moving smoothly.",
+            "url": "https://pinchofyum.com/autumn-glow-milkshake#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve topped with granola, banana slices, fruit, a drizzle of almond butter, or whatever your heart desires.",
+            "url": "https://pinchofyum.com/autumn-glow-milkshake#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT10M",
+    "totalTime": "PT10M",
+    "recipeYield": [
+        "1",
+        "1 milkshake"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "13",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "488 calories",
+        "sugarContent": "56.8 g",
+        "sodiumContent": "262.1 mg",
+        "fatContent": "11.8 g",
+        "saturatedFatContent": "0.9 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "83.6 g",
+        "fiberContent": "8.1 g",
+        "proteinContent": "17.1 g",
+        "cholesterolContent": "1.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Autumn Glow Milkshake",
+        "description": "A glow-worthy “milkshake” that is loaded with nutrients and tastes like ice cream. Awesome for breakfasts on the go.",
+        "contentUrl": "https://content.jwplatform.com/videos/tIpIlIO6.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/tIpIlIO6-720.jpg"
+        ],
+        "uploadDate": "2023-01-11T15:25:08+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jenn in GA"
+            },
+            "datePublished": "2017-08-10",
+            "reviewBody": "if Starbucks can release pumpkin spice lattes September 1, i think it's acceptable for you to call this shake Autumn Glow. i've been using chilled or frozen sweet potatoes in my smoothies for over a year, and i like the flavor and the sustained satiation of this complex carb much better than a frozen banana. for all those cauliflower haters out there, trust me: you won't even taste it!!\r\n\r\nthanks for taking a step outside your comfort zone, Lindsay, and for nudging us in the same direction! \r\n\r\ncome on, FALL!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Michelle @ Vitamin Sunshine"
+            },
+            "datePublished": "2017-08-10",
+            "reviewBody": "I use pumpkin in my smoothies year round, so no judgement for releasing an \"Autumn\" smoothie early August! I'm all about veggies in smoothies but haven't done cauli yet. Will try this soon!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Valya @Valya's Taste of Home"
+            },
+            "datePublished": "2017-08-13",
+            "reviewBody": "Looks absolutely delicious! Love adding Vanilla Almond milk to my smoothies. Yum!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Heather"
+            },
+            "datePublished": "2017-08-14",
+            "reviewBody": "I didn't have the frozen cauliflower, but I made it with 1/2 cup of ice in place of the cauliflower, and it was AMAZING!\r\n~THANK YOU FOR SHARING YOUR RECIPES."
+        }
+    ],
+    "datePublished": "2017-08-10",
+    "@id": "https://pinchofyum.com/autumn-glow-milkshake#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/autumn-glow-milkshake#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/autumn-glow-milkshake"
+}

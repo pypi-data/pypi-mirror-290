@@ -1,0 +1,84 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Chicken Smithfield",
+    "url": "https://www.foodnetwork.com/recipes/chicken-smithfield-8640811",
+    "headline": "Chicken Smithfield",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/27/DVSP108_chicken-smithfield_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1588017656613.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/27/DVSP108_chicken-smithfield_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1588017656613.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/27/DVSP108_chicken-smithfield_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1588017656613.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2020-04-27T16:23:01.375-04:00",
+    "dateModified": "2020-04-27T16:23:00.686-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Breast,Main Dish,Sauteing Recipes,Gluten Free",
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT0H25M0.000S",
+    "recipeIngredient": [
+        "1 tablespoon olive oil",
+        "1 tablespoon minced shallot ",
+        "2 ounces diced smoked ham, preferably Smithfield",
+        "6 ounces chicken breast, cut into strips",
+        "1/2 cup sliced mushrooms",
+        "2 ounces brandy ",
+        "6 ounces heavy cream ",
+        "Salt and pepper",
+        "Cooked white rice, for serving"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 1 servings",
+        "calories": "1325",
+        "fatContent": "83g",
+        "saturatedFatContent": "43g",
+        "carbohydrateContent": "56g",
+        "fiberContent": "2g",
+        "sugarContent": "6g",
+        "proteinContent": "57g",
+        "cholesterolContent": "370mg",
+        "sodiumContent": "1544mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a saute pan over medium to high heat. Add shallots and sweat for 2 minutes. Add diced ham and cook for 2 minutes. Add chicken breast and saute for 4 to 5 minutes, then add mushrooms and saute for 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Deglaze the pan with brandy, using caution to watch out for a flame. Add heavy cream and reduce until creamy, 3 to 4 minutes. Season with salt and pepper to taste. Serve over white rice."
+        }
+    ],
+    "recipeYield": "1 serving",
+    "recipeCategory": []
+}

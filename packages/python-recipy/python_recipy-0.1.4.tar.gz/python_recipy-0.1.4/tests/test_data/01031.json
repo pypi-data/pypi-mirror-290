@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Charoset So Good You May Want To Eat It All Year",
+    "datePublished": "2024-04-15T14:39:13.890-04:00",
+    "dateModified": "2024-04-15T14:39:13.890-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Laurence Faber and Emily Williams",
+            "url": "https://www.southernliving.com/laurence-faber-and-emily-williams-8625188"
+        }
+    ],
+    "description": "Learn how to make Charoset, a classic Passover dish made with apples, grape juice, and honey. It represents the mortar Hebrew slaves used in Ancient Egypt.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/YSUCaKk_lz5ShN66fPkFW3AXSJY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Charoset_006-3bba10f40fd34aefb372b4d75b1d493a.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Charoset So Good You May Want To Eat It All Year",
+    "keywords": "charoset recipe, charoset",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Eastern European"
+    ],
+    "recipeIngredient": [
+        "3 medium Honeycrisp apples",
+        "3 medium Granny Smith apples",
+        "1 Tbsp. fresh lemon juice",
+        "2 cups kosher grape juice (such as Kedem)",
+        "1 3/4 cups toasted pecans, chopped",
+        "1 1/2 Tbsp. honey",
+        "1 tsp. ground cinnamon",
+        "1/2 tsp. kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/wywFOLYSCndbwp6WBN07y0mGnBw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Charoset_003-28053b0af7dd4d79873ac54bfa05285c.jpg"
+                }
+            ],
+            "text": "Grate apples: Grate apples on large holes of a box grater or a food processor fitted with a large shredding disk. Transfer grated apples to a large bowl, and immediately stir in lemon juice, tossing to coat."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/K1yRqpI63crAfnOPjCQ8THIYH7E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Charoset_005-434646452e29464b843129ffe353ca82.jpg"
+                }
+            ],
+            "text": "Add remaining ingredients, and let stand: Stir in grape juice, pecans, honey, cinnamon, and salt. Let stand 30 minutes. Serve, or store in an airtight container in refrigerator up to 2 days."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/charoset-8606890",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions",
+                        "name": "Holidays & Occasions"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/holidays-occasions/passover",
+                        "name": "Passover"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/charoset-8606890",
+                        "name": "Charoset So Good You May Want To Eat It All Year"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-04-15T14:39:13.890-04:00"
+    }
+}

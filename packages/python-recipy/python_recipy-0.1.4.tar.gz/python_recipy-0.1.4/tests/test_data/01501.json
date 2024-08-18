@@ -1,0 +1,74 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "keywords": [
+        "salad dressing",
+        "basil",
+        "shallot",
+        "nut free",
+        "gluten free",
+        "dairy free",
+        "vegetarian",
+        "meal prep",
+        "5 ingredients or fewer",
+        "quick",
+        "no-cook",
+        "blender",
+        "gourmet",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Epicurious",
+            "sameAs": ""
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "ratingCount": 45
+    },
+    "image": [
+        "/verso/static/epicurious/assets/logo-seo.png"
+    ],
+    "headline": "Creamy Basil Dressing",
+    "name": "Creamy Basil Dressing",
+    "recipeIngredient": [
+        "1 cup loosely packed fresh basil",
+        "1 1/2 tablespoons chopped shallot",
+        "2 tablespoons balsamic vinegar",
+        "3/4 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "2 tablespoons mayonnaise",
+        "6 tablespoons extra-virgin olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Blend all ingredients in a blender until smooth."
+        }
+    ],
+    "recipeYield": "Makes about 1/2 cup",
+    "url": "https://www.epicurious.com/recipes/food/views/creamy-basil-dressing-107028",
+    "dateModified": "2004-08-20T00:00:00.000-04:00",
+    "datePublished": "2004-08-20T00:00:00.000-04:00",
+    "recipeCategory": []
+}

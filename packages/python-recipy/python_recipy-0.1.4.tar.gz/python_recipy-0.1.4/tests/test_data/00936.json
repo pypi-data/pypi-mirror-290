@@ -1,0 +1,63 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/roasted-pheasants-with-oyster-stuffing/",
+    "name": "Roasted Pheasants with Oyster Stuffing",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT20M",
+    "cookTime": "PT01H15M",
+    "totalTime": "PT01H35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps35466_TH1191752D55A-3.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [
+        "Dinner"
+    ],
+    "description": "A hunter's holiday dinner from field editor Gloria Warczak of Cedarburg, Wisconsin features bacon-topped pheasants with savory oyster stuffing. No hunters in the family? Many meat departments can order pheasant, or you could substitute two broiler-fryer chickens. ",
+    "recipeIngredient": [
+        "1 can (8 ounces) whole oysters",
+        "2 cups herb stuffing mix",
+        "2 cups corn bread stuffing mix",
+        "1 can (14-1/2 ounces) chicken broth, divided",
+        "1 medium onion, chopped",
+        "1/2 cup chopped celery",
+        "1/4 cup egg substitute",
+        "2 pheasants (2 to 3 pounds each)",
+        "2 tablespoons Worcestershire sauce",
+        "1 teaspoon poultry seasoning",
+        "6 bacon strips"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Drain oysters, reserving liquid; coarsely chop oysters. In a large bowl, combine the oysters and liquid, stuffing mixes, 3/4 cup broth, onion, celery and egg substitute. Loosely stuff into pheasants. Skewer or fasten openings. Tie drumsticks together. Place breast side up on a rack in a roasting pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine Worcestershire sauce and remaining broth; spoon over pheasants. Sprinkle with poultry seasoning. Place three bacon strips over each pheasant."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake, uncovered, at 350&deg; for 1-1/4 to 1-1/2 hours or until a thermometer reads 180&deg; for poultry and 165&deg; for stuffing. Cover and let stand for 10 minutes before removing stuffing and slicing."
+        }
+    ],
+    "recipeYield": "6-8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 528 calories",
+        "fatContent": "18g fat (6g saturated fat)",
+        "cholesterolContent": "178mg cholesterol",
+        "sodiumContent": "1053mg sodium",
+        "carbohydrateContent": "25g carbohydrate (5g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "62g protein. "
+    }
+}

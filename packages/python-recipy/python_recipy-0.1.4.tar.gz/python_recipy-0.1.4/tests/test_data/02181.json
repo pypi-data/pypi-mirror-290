@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Aviary&#39;s Bitter Recipe",
+    "datePublished": "2011-10-25T11:45:00.000-04:00",
+    "dateModified": "2018-08-09T13:38:36.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Roger Kamholz",
+            "url": "https://www.seriouseats.com/roger-kamholz-5118970"
+        }
+    ],
+    "description": "The Bitter cocktail, from the Aviary in Chicago, is served in a glass that&#39;s been smoked over a piece of smoldering bourbon barrel stave, which is custom-cut by the cocktail lounge&#39;s industrial designer. Fear not—we love this cocktail with or without the touch of smokiness! But if you&#39;re feeling adventurous and want to truly re-create this drink at home, used small-format, seasoned barrels are available for purchase online from New York&#39;s Tuthilltown Spirits, makers of Hudson whiskey.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/kPG18o2srDGIN_ofl19b1v1hQyA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20111015-175186-Aviary-Bitter2-0c9d0f7ad6bc46498314aa9715dad2d5.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Aviary&#39;s Bitter Recipe",
+    "keywords": "amari, amaro, aviary, brandy, cognac",
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1/2 ounce Pierre Ferrand Cognac",
+        "1/2 ounce Laird&#39;s Bonded Apple Brandy",
+        "2/5 ounce Bonal",
+        "1/3 ounce Amaro Nonino",
+        "1 barspoon Lorenzo Inga My Amaro",
+        "Dash Peychaud&#39;s bitters",
+        "Ice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the barrel stave coaster, cut a roughly 6-inch-long section from the widest part of the barrel stave using a saw. Using a hole saw bit the same diameter as an Old Fashioned glass, drill a 1/2-inch-deep circular channel into the charred side of the barrel stave. The Old Fashioned glass should rest securely upturned in the circular channel."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To prepare the cocktail, combine cognac, apple brandy, Bonal, Amaro Nonino, My Amaro, and bitters in a mixing glass. Add fresh ice and stir for 20 seconds. Strain into a chilled, single-serving carafe."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To smoke the Old Fashioned glass, light blowtorch and apply heat for about 10 seconds to the center of the coaster circle made with the drill. The barrel stave should begin to lightly smoke. Cap the smoke with the Old Fashioned glass and allow smoke to collect in the glass, about 30 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve the cocktail, flip over the smoked Old Fashioned glass and pour in the contents of the carafe."
+        }
+    ],
+    "recipeYield": "1",
+    "totalTime": "PT15M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chanterelle"
+            },
+            "reviewBody": "Oh cool, I have to do this for a couple we know that will appreciate it."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/aviary-recipe-bitter-smoked-cocktail-cognac-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/brandy-cognac-recipes-5117857",
+                        "name": "Brandy & Cognac"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/aviary-recipe-bitter-smoked-cocktail-cognac-recipe",
+                        "name": "Aviary&#39;s Bitter Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

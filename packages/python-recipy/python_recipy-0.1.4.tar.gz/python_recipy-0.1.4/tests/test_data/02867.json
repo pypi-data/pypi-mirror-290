@@ -1,0 +1,122 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1.00xw:0.801xh;0,0&resize=100:*",
+    "datePublished": "2013-10-07T06:55:00 EDT",
+    "headline": "Classic Cornbread Dressing",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1.00xw:0.801xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1.00xw:0.801xh;0,0&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1.00xw:0.801xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1xw:0.6xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1.00xw:0.801xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/cornbread-dressing-1634831637.jpg?crop=1xw:0.45xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a4566/cornbread-dressing-recipe-clx1113/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "cornbread dressing,cornbread stuffing,side dish,stuffing recipes,Thanksgiving",
+        "OCCASION: Christmas",
+        "OCCASION: feed a crowd",
+        "OCCASION: Thanksgiving",
+        "CATEGORY: dinner",
+        "CATEGORY: side dish",
+        "TOTALTIME: 01:00:00",
+        "FILTERTIME: >1HR",
+        "RATING: 5",
+        "FILTERRATING: >4"
+    ],
+    "url": "https://www.countryliving.com/food-drinks/recipes/a4566/cornbread-dressing-recipe-clx1113/",
+    "isBasedOn": "https://www.countryliving.com/food-drinks/recipes/a4566/cornbread-dressing-recipe-clx1113/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "Two textures — crunchy and soft — up the ante on simple stuffing.",
+    "name": "Classic Cornbread Dressing",
+    "prepTime": "PT10M",
+    "cookTime": "PT0S",
+    "totalTime": "PT1H",
+    "recipeIngredient": [
+        "3/4 stick butter",
+        "3 c. chopped onions (abut 2 large onions)",
+        "2 c. chopped celery (about 6 stalks)",
+        "3/4 tsp. kosher salt, plus more to taste",
+        "1/4 tsp. freshly ground pepper, plus more to taste",
+        "7 c. day-old cornbread, broken into 1-inch cubes",
+        "2 tbsp. minced fresh sage",
+        "2 c. chicken or vegetable broth"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375°F. Meanwhile, in a 12-inch cast-iron skillet over medium heat, melt 1 tablespoon butter. Add onions, celery, salt, and pepper; cook until slightly softened, 3 to 5 minutes. Transfer to a large bowl, and add cornbread and sage. Mix well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In the same skillet over medium heat, melt 3 tablespoons butter. Add cornbread mixture. Add broth and stir to moisten. Dot with remaining butter, and season with salt and pepper to taste. Bake until brown and crispy on top, 40 to 50 minutes."
+        }
+    ],
+    "recipeYield": "8 serving(s)",
+    "recipeCuisine": [
+        "American",
+        "Southern"
+    ],
+    "recipeCategory": [],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "359 calories"
+    },
+    "@context": "http://schema.org"
+}

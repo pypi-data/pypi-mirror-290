@@ -1,0 +1,159 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/oven-baked-ribs/",
+    "name": "Oven-Baked Ribs",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-11-16",
+    "prepTime": "PT20M",
+    "cookTime": "PT02H30M",
+    "totalTime": "PT02H50M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2019/07/no-photo-recipe-700x700.jpg",
+        "height": 700,
+        "width": 700
+    },
+    "recipeCategory": [],
+    "description": "This recipe was developed by a college buddy of mine. Now I make it often for family and friends. The sweet-hot sauce has a unique subtle orange flavor.",
+    "recipeIngredient": [
+        "4 pounds pork spareribs",
+        "2 medium oranges",
+        "1 bottle (28 ounces) barbecue sauce",
+        "1 cup coarsely chopped onion",
+        "2/3 to 1 cup packed brown sugar",
+        "1 tablespoon Worcestershire sauce",
+        "1-1/2 teaspoons chili powder",
+        "1 to 1-1/2 teaspoons hot pepper sauce",
+        "1/4 to 1/2 teaspoon cayenne pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place ribs in two foil-lined 15x10x1-in. baking pans. Bake at 325&deg; for 2 hours; drain. Cut into serving size portions."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place ribs in an ungreased 13x9-in. baking dish. Squeeze oranges, reserving 1/2 cup juice and the peel. Combine the juice, barbecue sauce, onion, brown sugar, Worcestershire sauce, chili powder, pepper sauce and cayenne. Cut orange peel into large chunks and add to sauce; pour sauce over ribs."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake, uncovered, for 30-45 minutes or until ribs are tender and sauce is thickened, turning ribs several times to coat with sauce. Discard orange peel."
+        }
+    ],
+    "recipeYield": "4-6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 777 calories",
+        "fatContent": "45g fat (16g saturated fat)",
+        "cholesterolContent": "170mg cholesterol",
+        "sodiumContent": "1259mg sodium",
+        "carbohydrateContent": "47g carbohydrate (44g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "44g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-11-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dublinlab"
+            },
+            "reviewBody": "<p>The only change was I used a little less sugar.  Excellent!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-11-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mariekelly"
+            },
+            "reviewBody": "these are the best ribs ive ever made we didnt have oranges so i used just orange juice it was still perfect!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cherrylady"
+            },
+            "reviewBody": "My husband's birthday is July 3rd. Every year he wants ribs for his birthday dinner. He was very skeptical when I decided to try a new recipe for HIS ribs! They were so delicious! He wants THESE ribs again next year! YUMMY!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-07-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cherrylady"
+            },
+            "reviewBody": "I made this recipe exactly as written - - no change necessary!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-04-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Jazmine1142"
+            },
+            "reviewBody": "So easy and so good! I try to avoid cooking with ONLY barbeque sauce, so this was a nice change. I didn't have any oranges on hand, so just used orange juice but it still tasted great. Will definitely make again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Carrot Limeade",
+    "datePublished": "2020-03-12T14:56:30.000-04:00",
+    "dateModified": "2020-03-19T17:59:04.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Riley Wofford",
+            "url": "https://www.marthastewart.com/author/riley-wofford"
+        }
+    ],
+    "description": "Carrot juice and lime juice combine in this orange-hued cooler to make a refreshing and nutritious drink just right for brunch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/7eKUQ92oq9FWopyaMI8rG5Lw_DE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/carrot-limeade-030472b3-0420-horiz-74d4cc3ce99b404581131bdea48675bb.jpgitokyipiW9B-",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Carrot Limeade",
+    "recipeIngredient": [
+        "16 ounces pure carrot juice",
+        "4 ounces fresh lime juice (½ cup)",
+        "3 tablespoons super-fine sugar",
+        "16 ounces seltzer",
+        "Carrot greens, for garnish (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a pitcher, combine carrot juice, fresh lime juice, and super-fine sugar. Stir until sugar dissolves. Cover and refrigerate until cold, about 1 hour. When ready to serve, pour over tall glasses filled with ice and top each with 1 to 2 ounces seltzer. Garnish with 1 or 2 carrot tops, if desired."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1547130/carrot-limeade",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502328/breakfast-recipes",
+                        "name": "Breakfast & Brunch Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1547130/carrot-limeade",
+                        "name": "Carrot Limeade"
+                    }
+                }
+            ]
+        }
+    }
+}

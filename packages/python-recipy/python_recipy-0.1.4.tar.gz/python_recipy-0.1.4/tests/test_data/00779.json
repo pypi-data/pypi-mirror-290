@@ -1,0 +1,378 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024528-green-goddess-chicken-salad-sandwiches#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024528-green-goddess-chicken-salad-sandwiches",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/01/17/multimedia/LH-green-goddess-chicken-salad-kbzc/LH-green-goddess-chicken-salad-kbzc-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024528-green-goddess-chicken-salad-sandwiches",
+    "name": "Green Goddess Chicken Salad Sandwiches",
+    "description": "Avocado forms the base of creamy green goddess dressing in this everyday chicken salad recipe. Made with lots of green herbs, capers and scallions, it’s tangy, vinegary and luxuriously creamy without the addition of any dairy or mayonnaise. Feel free to substitute other tender herbs you have on hand — chervil, chives and tarragon would all nod to classic green goddess dressing. For the chicken, you can roast bone-in, skin-on breasts, use leftover chicken or purchase a rotisserie chicken. Breast meat is more traditional for a chicken salad, but if you love thighs, by all means use them here. Pile the chicken salad onto toasted bread with lettuce and tomato for a standout sandwich, or eat it straight from the bowl with salted crackers or pita chips. ",
+    "author": {
+        "@type": "Person",
+        "name": "Lidey Heuck"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/01/17/multimedia/LH-green-goddess-chicken-salad-kbzc/LH-green-goddess-chicken-salad-kbzc-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/17/multimedia/LH-green-goddess-chicken-salad-kbzc/LH-green-goddess-chicken-salad-kbzc-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/17/multimedia/LH-green-goddess-chicken-salad-kbzc/LH-green-goddess-chicken-salad-kbzc-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/17/multimedia/LH-green-goddess-chicken-salad-kbzc/LH-green-goddess-chicken-salad-kbzc-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, lunch, quick, weeknight, poultry, sandwiches, main course",
+    "keywords": "avocado, caper, chicken breast, chicken salad, dill, food processor, lemon juice, mint, parsley, scallion, dairy-free",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 508
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 442,
+        "unsaturatedFatContent": "14 grams",
+        "carbohydrateContent": "15 grams",
+        "cholesterolContent": null,
+        "fatContent": "20 grams",
+        "fiberContent": "6 grams",
+        "proteinContent": "48 grams",
+        "saturatedFatContent": "3 grams",
+        "sodiumContent": "743 milligrams",
+        "sugarContent": "2 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/2 cup chopped scallions (from 3 to 4 scallions)",
+        "1/2 packed cup coarsely chopped fresh parsley",
+        "1/3 packed cup coarsely chopped fresh dill",
+        "1/3 packed cup coarsely chopped fresh mint leaves",
+        "2 tablespoons drained capers",
+        "1 large garlic clove",
+        "1 ripe Hass avocado, halved and pitted",
+        "2 tablespoons freshly squeezed lemon juice (from 1 lemon)",
+        "2 tablespoons white wine or Champagne vinegar",
+        "2 tablespoons extra-virgin olive oil",
+        "Salt and freshly ground black pepper",
+        "3 1/2 cups cooked shredded chicken breast (from a 3-pound rotisserie chicken)",
+        "Toasted bread, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In the bowl of a food processor, combine the scallions, parsley, dill, mint, capers and garlic and process until finely chopped. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the avocado, lemon juice, vinegar and olive oil. Season with salt and a few grinds of black pepper. Process until smooth, thick and creamy. Taste for seasonings and add more salt and pepper to taste. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place the chicken in a large bowl. Add about 1 cup of the dressing and toss well, adding more to taste. Serve immediately, sandwiched between slices of toast, with the rest of the dressing on the side, or cover, placing plastic wrap directly on the surface of the chicken salad to prevent browning, and refrigerate for up to 2 days before serving."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-01-18T00:00:00.000Z",
+    "dateModified": "2024-01-18T18:10:54.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachael"
+            },
+            "reviewBody": "Followed the recipe except did half the mint. Amazing. So bright and summery. I have a bulky food processor I don't love getting out, but this was so worth it.",
+            "datePublished": "2024-07-03T22:02:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz in MA"
+            },
+            "reviewBody": "Really delicious! At the last minute, realized my avocados were in no shape to be used for this, so I swapped in mayo (albeit reluctantly). So tasty, though I look forward to trying it with the avocado next time if I can get the timing right! As suggested in another comment, I did a slow cooker whole chicken (great idea!). Will definitely make again.",
+            "datePublished": "2024-07-02T13:47:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mikaela M."
+            },
+            "reviewBody": "This was a crowd pleaser! Such a nice picnic option. Made a great sandwich with tomatoes, lettuce and a touch of Dijon Mustard over ciabatta.",
+            "datePublished": "2024-06-21T04:18:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen B"
+            },
+            "reviewBody": "I only had a couple of scallions, no mint, and skimped on the parsley. I don’t know how Wegmans could run out,of Italian parsley on a Friday, but they did.  As a consequence of the lack of greenery, I think my green goddess might have been a bit too tart, but that didn’t really upset my taste buds. I do, however, look forward to my next pass at this recipe. Delicious as it was, I think the second attempt will take the prize.",
+            "datePublished": "2024-06-16T21:30:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alan"
+            },
+            "reviewBody": "This is a fantastic sauce. But it doesn't go well with chicken: too bland. It needs to go with something spicy, like maybe salmon with a spice rub that includes cayenne. Also, I can't really consider this to be a chicken salad, without some sort of crunchy component: if not celery, then at least something like nuts, to give it some texture.\n\nI'll make the sauce again. But I'll do something else with it.",
+            "datePublished": "2024-06-09T02:11:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "HOLY SMOKES. I couldn't stop licking my fingers, the bowl, my spatula, etc. while cleaning up the food processor waiting to serve the chicken salad. DELICIOUS.",
+            "datePublished": "2024-05-31T23:58:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Courtney"
+            },
+            "reviewBody": "Really good, but needs a fresh element to lighten it up. I would add a layer of arugula dressed in lemon juice and salt. Otherwise it’s a bit heavy.",
+            "datePublished": "2024-04-10T14:21:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Daniel P"
+            },
+            "reviewBody": "This was good, but not FANTASTIC. In other words, it’s a reasonable alternative to a more traditional chicken salad, especially since it doesn’t require much more time to make.",
+            "datePublished": "2024-04-09T23:08:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alissajanet"
+            },
+            "reviewBody": "This was great, and does hold up for leftovers. I added some sugar and a pinch of MSG, toasted pepitas for crunch. Would be great with a thick slice of tomato on a sandwich.",
+            "datePublished": "2024-04-08T14:50:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen L Davis"
+            },
+            "reviewBody": "Yummy, even if you don't use it in a sandwich but as part of a salad instead, as we did. I have to admit that I cheated and used a guacamole that I had on hand, because it had big chunks of avocado in it, saved me some time and offered a texture that worked better in a salad than smooth. Subbed fresh basil, because I didn't have anything other than dried mint on hand (tossed a little in). Hannah was right that this would also make a dandy dip with tortilla chips. Will definitely make this again.",
+            "datePublished": "2024-03-26T15:54:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura in NH"
+            },
+            "reviewBody": "Made as written - so bright, fresh, and delicious!",
+            "datePublished": "2024-03-23T15:36:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "my version"
+            },
+            "reviewBody": "Made it as written using leftover spatchcock chicken from the weekend. Husband thought it was great. Served it on whole grain toasted bread, added Swiss cheese and romaine lettuce leaves. Unfortunately I was out of tomato, I think that would have been great!",
+            "datePublished": "2024-03-22T01:35:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jcs"
+            },
+            "reviewBody": "Delicious and super easy--fit perfectly in a mini cuisinart. I felt the capers were overshadowed, which is hard to do. But otherwise all the flavors were nicely balanced.",
+            "datePublished": "2024-03-21T21:12:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judy Forkner"
+            },
+            "reviewBody": "This would be good to serve Nathan, since he is not a fan of mayo! Also would probably work well with tuna when Kirsten is around!",
+            "datePublished": "2024-03-17T07:55:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Faith"
+            },
+            "reviewBody": "Made as written.",
+            "datePublished": "2024-03-16T23:38:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "This was delicious! I used parsley, dill, and chives (I find mint overwhelming), leftovers from the NYT recipe for slow cooker whole chicken, and made my sandwich with whole grain bread, lots of romaine leaves, and some small cut-up baby tomatoes. It was so good I had a second sandwich - and I never have more than one sandwich! And it's wonderful that it's much healthier than my usual chicken sandwich with mayo.",
+            "datePublished": "2024-01-21T20:53:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hannah"
+            },
+            "reviewBody": "Subbed chickpeas for chicken to keep this vegan and it turned out delightful. The green mixture itself would also make a lovely dip with crackers or pita chips.",
+            "datePublished": "2024-01-28T21:26:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patrick"
+            },
+            "reviewBody": "Canned chicken also works great for chicken salad. It's my go-to.",
+            "datePublished": "2024-01-23T17:40:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hiliry Harvey"
+            },
+            "reviewBody": "It seems like this would be good with tuna as well.",
+            "datePublished": "2024-01-27T17:06:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Wm"
+            },
+            "reviewBody": "Wonderful!\n\nGoes as well on a bed of romaine or arugula or somesuch for those who don't want or like bread.",
+            "datePublished": "2024-01-23T21:24:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lee"
+            },
+            "reviewBody": "Made as written with all fresh herbs from the garden and it was absolutely delicious! I was worried the leftovers would go brown since avocados, even when I wrap them in plastic, do so after only a half day but this did not. I'm a Kewpie-holic but did not miss the lack of mayo one bit and I felt so healthy! You could put so many things in this dressing and it would work. Can't wait to make it again.",
+            "datePublished": "2024-02-02T22:46:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tb"
+            },
+            "reviewBody": "Delish! Cut back on the mint, added some Aleppo pepper and a smidge kewpie because I couldn’t control myself. Brightened up this dreary day",
+            "datePublished": "2024-01-25T03:41:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "min"
+            },
+            "reviewBody": "Absolutely delicious! Used an extra garlic clove just because. Only had rice wine vinegar so used that. Only had mint which was great as I don’t love dill. Would add parsley next time. Used some roasted chicken breasts from Asda in the UK. It wasn’t creaming up so added a bit more oil which did the trick! Don’t be afraid to drizzle more olive oil to get that creamy texture as you blitz it.",
+            "datePublished": "2024-01-28T13:53:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rufus"
+            },
+            "reviewBody": "I tried to cut the recipe in half but had a hard time processing, as it just splatted against the wall of the processor and the blade couldn’t reach it. Ended up using the entire avocado and was not sorry. Oh, I also used prepared chicken breast chunks from the deli. Turned out great! My 16-year old, who is just beginning to appreciate foods other than cheeseburgers, grudgingly admitted enjoying it. When I make it again I might add black olives with the chicken.",
+            "datePublished": "2024-01-30T02:46:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ian"
+            },
+            "reviewBody": "Absolutely delicious, highly recommended.",
+            "datePublished": "2024-01-24T19:08:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "The lemon juice and vinegar should prevent that.",
+            "datePublished": "2024-01-28T00:40:14.000Z"
+        }
+    ]
+}

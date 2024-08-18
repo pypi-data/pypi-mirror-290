@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Parmesan-Rosemary Baked Zucchini Fries",
+    "datePublished": "2021-05-27T16:39:03.000-04:00",
+    "dateModified": "2023-09-19T11:53:12.429-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Hilary Meyer",
+            "url": "https://www.eatingwell.com/author/hilary-meyer/"
+        }
+    ],
+    "description": "These baked zucchini fries are great as an appetizer with a dipping sauce, such as ranch dressing or marinara sauce, or alongside just about anything from burgers to fish.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/8wbLJaz7QemY1gEd1bZYlXjm8c0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/parmesan-rosemary-zucchini-fries-c6923a8dda3348fa9147d11dc3ed987d.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Parmesan-Rosemary Baked Zucchini Fries",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "110 kcal",
+        "carbohydrateContent": "16 g",
+        "cholesterolContent": "4 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "403 mg",
+        "sugarContent": "3 g",
+        "fatContent": "2 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "0.333 cup all-purpose flour",
+        "3 large egg whites",
+        "1 tablespoon water",
+        "1 cup panko breadcrumbs, preferably whole-wheat",
+        "0.25 cup grated Parmesan cheese",
+        "2 teaspoons chopped fresh rosemary",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon ground pepper",
+        "1 pound zucchini and/or summer squash (about 2 medium), cut into 1/2-by 4-inch sticks"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425°F. Line a rimmed baking sheet with foil. Place a wire rack on top and coat with cooking spray. (Or to air-fry, see Tip.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place flour in a shallow dish. Whisk egg whites and water in another shallow dish until foamy. Combine breadcrumbs, Parmesan, rosemary, salt and pepper in a third shallow dish. Working in batches, toss zucchini (or summer squash) in the flour to coat. Dip in the egg white, shaking off the excess. Toss in the breadcrumb mixture, pressing to adhere. Transfer to the wire rack, spacing the fries close together without touching. Coat the fries with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until golden and crispy, flipping once halfway, 20 to 25 minutes. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7904660/parmesan-rosemary-baked-zucchini-fries/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19318/ingredients/vegetables/squash/",
+                        "name": "Healthy Squash Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19324/ingredients/vegetables/squash/zucchini/",
+                        "name": "Healthy Zucchini Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7904660/parmesan-rosemary-baked-zucchini-fries/",
+                        "name": "Parmesan-Rosemary Baked Zucchini Fries"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T11:53:12.429-04:00"
+    },
+    "recipeCategory": []
+}

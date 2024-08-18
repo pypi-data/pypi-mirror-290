@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Cocoa Nib Vinaigrette and Salad",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/cocoa-nib-vinaigrette-and-salad-8049146",
+    "headline": "Cocoa Nib Vinaigrette and Salad",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/31/WO1802_cocoa-nib-salad_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1577808771693.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/31/WO1802_cocoa-nib-salad_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1577808771693.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/31/WO1802_cocoa-nib-salad_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1577808771693.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2019-12-31T11:04:18.878-05:00",
+    "dateModified": "2019-12-31T11:04:18.485-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Salad Recipes,Gluten Free,High Fiber",
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT0H50M0.000S",
+    "recipeIngredient": [
+        "2 tablespoons cocoa nibs",
+        "4 tablespoons extra-virgin olive oil",
+        "3 tablespoons balsamic vinegar",
+        "2 tablespoons minced shallot",
+        "1/2 teaspoon kosher salt",
+        "1/2 teaspoon red pepper flakes",
+        "8 ounces torn butter lettuce",
+        "1 avocado, pitted, peeled and diced",
+        "2 oranges, supremed",
+        "2 ounces dried cherries",
+        "2 tablespoons cocoa nibs",
+        "1/2 ball fresh mozzarella, small dice"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 2 servings",
+        "calories": "703",
+        "fatContent": "50g",
+        "saturatedFatContent": "10g",
+        "carbohydrateContent": "66g",
+        "fiberContent": "19g",
+        "sugarContent": "38g",
+        "proteinContent": "14g",
+        "cholesterolContent": "17mg",
+        "sodiumContent": "630mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the vinaigrette: Pulse the cocoa nibs in a spice grinder 4 or 5 times, until finely ground."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the ground cocoa nibs and the olive oil in a 1-quart saucepan, and heat on low for 2 to 3 minutes, until warm and fragrant. Turn off the heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the vinegar, shallot, salt and red pepper flakes and let sit for about 25 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a jar, twist on the lid and shake like crazy."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss lettuce with vinaigrette to taste. Divide dressed lettuce between 2 serving dishes. Arrange remaining salad ingredients over the lettuce. Serve with any remaining vinaigrette on the side."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "2 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "callaghansheryl"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I made this last night after watching him make this on Worst Cooks show.  Its a strange vinaigrette that works perfectly with all the other elements.  I only had spring mix so I used that but otherwise kept to the recipe and it was all delicious. "
+        }
+    ]
+}

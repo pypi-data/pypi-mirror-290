@@ -1,0 +1,235 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Asparagus Quiche",
+    "datePublished": "2019-03-14T21:26:57.000-04:00",
+    "dateModified": "2024-05-03T23:28:49.892-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "With its pretty braided crust, rich and custardy filling, and loads of spring vegetables, this asparagus quiche makes a breakfast to remember.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/oimMlzoR2rWZTlNLzQpzPkMLMHU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_012-65f330b9bf744754856f5535fd5cdc03.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Asparagus Quiche",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "keywords": "asparagus quiche",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 large egg white, lightly beaten",
+        "1 (14.1-oz.) pkg. refrigerated piecrusts",
+        "1 tablespoon butter",
+        "3/4 cup thinly sliced spring onions (from 1 bunch)",
+        "4 ounces asparagus, trimmed and cut into 1-inch pieces (about 1 cup)",
+        "1 1/2 teaspoons kosher salt, divided",
+        "4 ounces Gouda cheese, shredded (about 1 cup)",
+        "4 large eggs",
+        "1 3/4 cups half-and-half",
+        "2 1/2 teaspoons chopped fresh tarragon, divided",
+        "1/2 teaspoon black pepper",
+        "1 tablespoon chopped fresh chives"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/aG8bJLlCpyWkcav_jBT7SfzB7ZE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_002-bdf3e78c79fa409e85f6cd63643d2e92.jpg"
+                }
+            ],
+            "text": "Fit piecrust into pie plate: Whisk together egg white and 2 teaspoons water. Unroll 1 piecrust; fit inside a 9-inch pie plate. Trim excess dough around edge. Brush dough edge with some of the egg-water mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/f7sFFTS-9aNwvvERN-qSMGJb6kc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_003-26bbe54b6f1b47b3aaa9be6f67df1d63.jpg"
+                }
+            ],
+            "text": "Braid crust: Unroll remaining piecrust; cut into 1⁄2-inch-wide strips. Pinch the 3 longest strips (from the center) together at 1 end to seal; braid. Repeat process twice, with 3 strips each from left and right of center, making 3 braids total, each about 7 inches long. (Discard remaining dough.)"
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/dc8rPngc6Cjn-zXiyxuYfGW1sCg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_005-cc3694588f7048679786192e88adc3de.jpg"
+                }
+            ],
+            "text": "Parbake pie crust: Preheat oven to 425°F. Press braids gently onto the dough edge. Brush braided dough with remaining egg-water mixture. Freeze 20 minutes. Place parchment paper over frozen piecrust, and top with pie weights. Bake until crust is lightly golden and set, about 10 minutes. Remove weights and parchment; continue baking until crust is fully dry, about 5 minutes. Cool on a wire rack, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/qw4PVBdIsfqGZ3sfohHTEuHVp4k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_006-29a712ddba90476eaad0cf6711b0cbd4.jpg"
+                }
+            ],
+            "text": "Cook asparagus: Reduce oven temperature to 350°F. Melt butter in a large skillet over medium-high. Add spring onions, asparagus, and 1/2 teaspoon of the salt. Cook, stirring often, until very soft, about 8 minutes. Remove from heat; cool 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/-JMM2TCmlk4CkPnKCk9U9xRwQG4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_009-13bf138ca1bd49e3b95805a9b5659796.jpg"
+                }
+            ],
+            "text": "Add quiche filling to crust: Spoon onion-asparagus mixture into cooled piecrust; sprinkle with cheese. Whisk together eggs, half-and-half, 2 teaspoons tarragon, pepper, chives, and remaining 1 teaspoon salt. Pour over vegetable mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/9Dls1bYMokHpyjghfKgpmdFl4e4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus_Quiche_010-23efeada694043928fa241070ce8d3c4.jpg"
+                }
+            ],
+            "text": "Bake quiche: Bake at 350°F until middle is nearly set, about 40 minutes. Cool 30 minutes. Sprinkle with remaining 1⁄2 teaspoon tarragon."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT165M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Southern Living Member"
+            },
+            "reviewBody": "Perfect for brunches or showers",
+            "datePublished": "2023-05-12T03:51:36.368Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/asparagus-quiche",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish",
+                        "name": "Dish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish/quiche",
+                        "name": "Quiche"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/asparagus-quiche",
+                        "name": "Asparagus Quiche"
+                    }
+                }
+            ]
+        }
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can I use frozen asparagus for asparagus quiche?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>You can use frozen asparagus for this quiche. Just thaw and drain excess moisture before using.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I make asparagus quiche without a crust?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Try making this quiche with a <a href=\"https://www.southernliving.com/recipes/bacon-hash-brown-quiche-recipe\" data-component=\"link\" data-source=\"inlineLink\" data-type=\"internalLink\" data-ordinal=\"1\">hash brown crust</a>, or without a crust at all, if preferred. Note you may need to adjust the baking time.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How do I prevent the quiche crust from becoming soggy?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Blind-baking the crust until golden brown is the best way of avoiding a soggy bottom. Blind-baking helps set and crisp up the crust before the filling goes in.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is asparagus quiche served warm or cold?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>This quiche is best served warm or at room temperature.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

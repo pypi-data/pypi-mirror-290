@@ -1,0 +1,109 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Honey Soy Glazed Ribs ft. Colin Knecht",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2016/04/Honey-soy-ribs-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2016/04/Honey-soy-ribs-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2016/04/Honey-soy-ribs-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2016/04/Honey-soy-ribs-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/honey-soy-ribs/",
+    "recipeIngredient": [
+        "1 rack of pork back ribs, cut into individual ribs",
+        "5 cilantro stems or 2-3 cilantro roots",
+        "7 cloves garlic",
+        "1 tsp white peppercorns",
+        "2 tsp coriander seeds, toasted ",
+        "3 Tbsp oyster sauce",
+        "2 Tbsp soy sauce",
+        "2 Tbsp honey",
+        "2 Tbsp Sriracha hot sauce",
+        "2 tsp black soy sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pound the coriander seeds in a mortar and pestle just until they are broken up into small pieces, they don't need to be super fine. Combine all marinade ingredients together, including the coriander seeds, and pour over ribs. Coat the ribs thoroughly in the marinade and let them sit while you prepare other ingredients.",
+            "url": "https://hot-thai-kitchen.com/honey-soy-ribs/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a mortar and pestle, pound together garlic, cilantro stems or roots, and white peppercorns into a fine paste. In a wok, add a little vegetable oil and saute the garlic paste until it starts to turn golden. Add the ribs all at once, making sure you get ALL the marinade in there, and add just enough water to almost cover the ribs. Tip: Rinse the ribs bowl with the water so you get all of the marinade into the wok. Bring to a low simmer and cover the pot; simmer for 35-45 minutes or until ribs are fork tender, but not falling-off-the-bone tender, exact timing will depend on the size of your ribs—if they are meaty, they will take longer. After you cover the wok, you will need probably need to turn the heat down a bit to maintain the simmer. Make sure it does not boil vigorously, or the ribs will become dry.",
+            "url": "https://hot-thai-kitchen.com/honey-soy-ribs/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the ribs are tender, remove them from the cooking liquid and keep covered in foil to keep warm while you reduce the sauce. Boil the sauce on high heat and reduce it until it thickens into a luscious glaze (this will take a while, so it's a good time to prep your side dishes). Once reduced, add the ribs back in and toss to thoroughly coat the ribs in the sauce. Enjoy on their own as an appetizer or with rice as a meal!",
+            "url": "https://hot-thai-kitchen.com/honey-soy-ribs/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content and rewards!",
+            "url": "https://hot-thai-kitchen.com/honey-soy-ribs/#instruction-step-4"
+        }
+    ],
+    "recipeYield": [
+        "3",
+        "Serves 3-4"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "2",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Honey Soy Glazed Ribs Recipe - Hot Thai Kitchen!.mp4",
+        "description": "Fall-off-the-bones tender ribs you can make without the oven! Sweet, salty honey soy glaze is literally finger-licking good, and really easy to do! #ribs #asianribs #hotthaikitchen",
+        "duration": "PT11M58S",
+        "embedUrl": "https://video.mediavine.com/videos/i00oV4o5B.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681226660/i00oV4o5B.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--D_diOfdW--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681226667/s2t3sxb8alisfvo8srld.jpg"
+        ],
+        "uploadDate": "2020-12-05T05:18:17+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stephen Chan"
+            },
+            "datePublished": "2020-12-12",
+            "reviewBody": "I love ribs, I've tried several of Pai's ribs recipes, and this one got loved by both me and my partner. The Thai flavours match the honey and the more western-looking ribs really well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Keith"
+            },
+            "datePublished": "2021-02-10",
+            "reviewBody": "This recipe is a keeper."
+        }
+    ],
+    "datePublished": "2016-04-22",
+    "@id": "https://hot-thai-kitchen.com/honey-soy-ribs/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/honey-soy-ribs/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/honey-soy-ribs/",
+    "recipeCategory": []
+}

@@ -1,0 +1,179 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Easy Roasted Cabbage",
+    "datePublished": "2017-12-13T07:50:50.000-05:00",
+    "dateModified": "2024-01-29T10:57:09.064-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "To get sweet nuttiness from caramelization and browning, you&#39;ll want to cut cabbage up into fat wedges and roast at high heat, for a deeply browned exterior and tender, meaty interior.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/AArQeFmNujD6HYDfKlpVMpidE34=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2017__09__20170908-roasted-vegetables-vicky-wasik-cabbage3-99f857cb28214ffdae9f3f63f2236f1e.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/PiGcvi1F-YWmivM3Y.mp4",
+        "description": "Cutting the cabbage up into fat wedges and roasting at high heat creates a nice contrast between deeply browned exterior and tender, meaty interior. [Video: Serious Eats Video. Technique: J. Kenji López-Alt]",
+        "duration": "PT1M12S",
+        "name": "How to Roast Cabbage",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/PiGcvi1F/poster.jpg?width=720",
+        "uploadDate": "2021-03-31T10:29:28.676-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Easy Roasted Cabbage",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "1"
+    },
+    "cookTime": "PT20M",
+    "keywords": "cabbage, fall, low carb, side, vegetable, winter",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "66 kcal",
+        "carbohydrateContent": "9 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "91 mg",
+        "sugarContent": "4 g",
+        "fatContent": "3 g",
+        "servingSize": "Serves 6 to 8",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 medium head cabbage, cut into 6 to 8 wedges",
+        "Extra-virgin olive oil, for drizzling",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Adjust oven rack to middle position and preheat oven to 500°F (260°C). Line a rimmed baking sheet with aluminum foil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange cabbage wedges on baking sheet in a single layer. Drizzle with olive oil on one side, then season with salt and pepper. Flip wedges, drizzle other side with oil, and season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place baking sheet in oven and roast until lightly browned, about 10 minutes. Flip wedges and continue roasting until tender and deeply browned, another 10 minutes, then serve."
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT25M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "graylshaped"
+            },
+            "reviewBody": "I saw a similar idea on a Netflix cooking that involved high-temp grilling. After grilling, the cabbage was layered with a pickle of some type, then dressed with a nutty salsa. I gave it my best shot and served it one. My wife raised an eyebrow, then tasted it and said \"do that again.\""
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BarbaraT"
+            },
+            "reviewBody": "What's the purpose of lining the baking sheet with foil? Just easier cleanup? It seems wasteful to take a perfectly good aluminum sheet and line it with aluminum foil just so you can later throw out the foil and save 2 minutes washing the baking sheet. Or, am I missing something here...?\n\nI do see why one would line the baking sheet with parchment when making cookies or something, since they cook differently and it helps them release, but I roast veggies and other food all the time on a baking sheet with no problems."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "swamp cook"
+            },
+            "reviewBody": "These recent recipes for roasting brassicas have called for a 500 degree oven. Would 550 be even better if your oven can go that high?"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Pamela G. Poon"
+            },
+            "reviewBody": "Also works with purple cabbage. Did it without foil and in thick (2 inch) slices and it was fine. It's not the easiest thing to eat - slippery and deconstructs itself as soon as you put fork and knife to it. It might be even nicer if the wedges are smaller, maybe 1/2 inch thick overall and put into a warm salad with chewy grain and dried fruit - cranberries or currants?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrew"
+            },
+            "reviewBody": "My plan is to do this tonight, or maybe tomorrow? My question is: what next? How do you serve these? Right out of the oven, or cooled and as part of a salad? Is there a sauce that would work well, for instance?"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/easy-roasted-cabbage",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/vegetable-recipes-5117510",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cabbage-recipes-5117498",
+                        "name": "Cabbage"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/easy-roasted-cabbage",
+                        "name": "Easy Roasted Cabbage"
+                    }
+                }
+            ]
+        }
+    }
+}

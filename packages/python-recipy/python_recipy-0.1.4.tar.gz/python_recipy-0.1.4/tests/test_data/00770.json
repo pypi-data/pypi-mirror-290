@@ -1,0 +1,381 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024769-pumpkin-empanadas#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024769-pumpkin-empanadas",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/11/09/multimedia/09PUMPKIN-EMPANADASrex-thwg/09PUMPKIN-EMPANADASrex-thwg-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024769-pumpkin-empanadas",
+    "name": "Pumpkin Empanadas",
+    "description": "During the fall, many Mexican American households and bakeries simmer winter squash with sugar and spices to make a purée then stuff it into disks of dough to make pumpkin empanadas. This recipe from Yvette Marquez-Sharpnack, a cookbook author and food blogger, is similar to her grandmother’s, but opts for convenience with canned pumpkin. When Ms. Marquez-Sharpnack was a child living in El Paso, her grandmother – from Chihuahua, Mexico – would cut up an old jack-o’-lantern and simmer it to make the filling, similar to ayote en miel. While Ms. Marquez-Sharpnack recommends making the dough from scratch, you could also use store-bought empanada disks for baking, which are less sweet and slightly firmer but incredibly easy to work with.",
+    "author": {
+        "@type": "Person",
+        "name": "Christina Morales"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/11/09/multimedia/09PUMPKIN-EMPANADASrex-thwg/09PUMPKIN-EMPANADASrex-thwg-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/09/multimedia/09PUMPKIN-EMPANADASrex-thwg/09PUMPKIN-EMPANADASrex-thwg-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/09/multimedia/09PUMPKIN-EMPANADASrex-thwg/09PUMPKIN-EMPANADASrex-thwg-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/09/multimedia/09PUMPKIN-EMPANADASrex-thwg/09PUMPKIN-EMPANADASrex-thwg-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT2H",
+    "totalTime": "PT2H15M",
+    "recipeYield": "About 24 empanadas",
+    "recipeCuisine": "american, mexican",
+    "recipeCategory": [],
+    "keywords": "dark brown sugar, ground cinnamon, pumpkin purée, fall, thanksgiving, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "ratingCount": 45
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 156,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "21 grams",
+        "cholesterolContent": null,
+        "fatContent": "7 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "2 grams",
+        "sodiumContent": "92 milligrams",
+        "sugarContent": "8 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "2 tablespoons unsalted butter",
+        "3/4 (packed) cup/150 grams dark brown sugar",
+        "1 (15-ounce) can pumpkin purée",
+        "1 teaspoon ground cinnamon",
+        "1/8 teaspoon ground cloves",
+        "1/8 teaspoon ground nutmeg",
+        "3 cups/384 grams all-purpose flour",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "1/2 cup shortening",
+        "2 eggs, plus 1 beaten egg for brushing",
+        "1/2 cup milk",
+        "2 tablespoons granulated sugar",
+        "Cooking spray"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the filling: Melt the butter in a medium saucepan over medium heat. Stir in the brown sugar until it dissolves, about 5 minutes. Next, stir in the pumpkin, cinnamon, cloves and nutmeg. (The sugar mixture might firm up when you add the pumpkin, but it will disperse as the mixture cooks further.) Cook, stirring frequently, until darkened and the flavor has deepened, about 10 minutes. (You should have about 1 3/4 cups.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the filling to a bowl and let it cool for about 15 minutes, then chill for 30 minutes (or overnight) to help it set."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the filling chills, make the empanada dough: In a medium bowl, mix the flour, baking powder and salt. Using a large fork, cut in the shortening, then use your fingertips to blend it in."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the 2 eggs, milk and sugar; stir to combine. Continue to knead the dough just until all the dry spots have disappeared. Split the dough in half, wrap in plastic wrap and chill for 20 to 30 minutes. Take out one half of the dough and split it into 12 balls of dough."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 350 degrees. Roll out the dough into small, 4 1/2-to-5-inch circles. Add about 1 heaping tablespoon filling on the top half of the rolled out dough. Wet the bottom edge of the dough with water, then fold over the dough to seal, pressing out any air. Seal off the edges by crimping them with the tines of a fork."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Brush each empanada with the beaten egg and puncture each empanada with a fork to allow steam to escape while baking."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Spray a large baking sheet with cooking spray, or place the empanadas on a parchment-lined baking sheet and bake until golden, 15 to 20 minutes."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-11-09T00:00:00.000Z",
+    "dateModified": "2023-11-09T19:46:37.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brenda in Philly"
+            },
+            "reviewBody": "These empanadas were a bear to make with a rolling pin but, boy, were they the hit of a New Year's Eve gathering! Everyone loved the sweet, spicy filling and the dough. Since I discovered at the last minute that I didn't have enough shortening, I used half butter and half shortening in the dough. The pastry was soft, tasty, and a lovely color. Will definitely make again. Worth buying a tortilla press!",
+            "datePublished": "2024-01-03T21:12:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robin"
+            },
+            "reviewBody": "Made recipe as is but without sugar. \nFilling: 800 g spinach, two things feta, three things dill, one leek, one red onion, two cloves garlic, two eggs.",
+            "datePublished": "2023-12-10T20:38:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Malinda"
+            },
+            "reviewBody": "Filling was delicious; pastry was bland.",
+            "datePublished": "2023-12-03T22:39:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "aro"
+            },
+            "reviewBody": "Reheated them the next morning and then topped them with icing. Great with coffee and scrambled eggs.",
+            "datePublished": "2023-11-25T15:35:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "timagination"
+            },
+            "reviewBody": "Don't be afraid of the lard.  It suffers because of the negative connotations of the name.  It is a superior shortening, and when locally sourced, far less detrimental than hydrogenated fats such as Crisco.",
+            "datePublished": "2023-11-23T01:48:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mir"
+            },
+            "reviewBody": "I used sweet potatoes instead of pumpkin, steamed in an instant pot. Modified the dough recipe to make it gluten free (used mixture of g-f flour substitute, g-f oat flour, g-f almond flour).  I used oil instead of solid shortening.  It was very good.",
+            "datePublished": "2023-11-22T23:36:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cleo"
+            },
+            "reviewBody": "I followed the recipe, but the pastry wasn’t as good as I thought it would be. The filling is also underwhelming. \n\nPlanning to add orange zest to the filling and chopped pecans to the next batch. Yes?",
+            "datePublished": "2023-11-22T04:30:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "IG"
+            },
+            "reviewBody": "I’d like to try a gluten free version. I read in some other empanada recipes to try using a store bought pie crust- I have premade gf pizza dough. Think that could work??",
+            "datePublished": "2023-11-19T21:03:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margie"
+            },
+            "reviewBody": "Used shortening, per instructions. Dough wasn’t as tender as I might have liked, but overall good results and I’ll make again. The pumpkin filling was just right amount of sweetness.",
+            "datePublished": "2023-11-19T01:33:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Wanda"
+            },
+            "reviewBody": "Can I prepare these and bake a day later?",
+            "datePublished": "2023-11-16T12:15:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary"
+            },
+            "reviewBody": "How long before eating can these be made? Thanksgiving Day is chaotic, so I’d like to have made these perhaps 1-2 days earlier.",
+            "datePublished": "2023-11-10T18:07:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "M"
+            },
+            "reviewBody": "I wish I'd seen this comment!  I made the recipe with 12 large empanadas -- not good, too doughy.",
+            "datePublished": "2023-12-03T22:40:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ethyl"
+            },
+            "reviewBody": "Step 8 = Repeat this process with the other half of the dough, thereby yielding the 24 empanadas indicated at the top of the recipe? Or am I missing something?",
+            "datePublished": "2023-11-16T00:03:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophie"
+            },
+            "reviewBody": "Add the filling ingredients to the pot at the same time– if you attempt to melt the sugar and add the pumpkin too fast, it will crystallize and become incredible difficult to recombine.",
+            "datePublished": "2023-11-12T18:26:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margie"
+            },
+            "reviewBody": "What if you use butter instead of shortening? How about Crisco instead of lard? I have lots of butter for pie crust but no shortening.",
+            "datePublished": "2023-11-12T18:53:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cynthia t"
+            },
+            "reviewBody": "Any idea if it will work with a store-bought crust? Like Goya?",
+            "datePublished": "2023-11-12T15:04:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ash"
+            },
+            "reviewBody": "Lard. Leaf lard. I normally don't use shortening either, but sometimes it is a necessary evil. I always try to use leaf lard in place of shortening.  In my opinion it is a less \"evil\" fat.",
+            "datePublished": "2023-11-10T23:45:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carolyn Laitsch"
+            },
+            "reviewBody": "I used my tortilla press to make the dough rounds.  Much faster than rolling them out.",
+            "datePublished": "2023-11-11T22:17:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "reviewBody": "I  would fry them before cooking the bird. The turkey will give the oil a flavor you might not want in your empanadas.",
+            "datePublished": "2023-11-11T15:48:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "Coconut oil is like the consistency of lard, and I use it often in baking.",
+            "datePublished": "2023-11-12T14:02:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sophie"
+            },
+            "reviewBody": "Add the filling ingredients to the pot at the same time– if you attempt to melt the sugar and add the pumpkin too fast, it will crystallize and become incredible difficult to recombine.",
+            "datePublished": "2023-11-12T18:26:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Thom"
+            },
+            "reviewBody": "Can these be deep fried? Thinking about frying a turkey, so these might be fun to throw in the hot oil after the bird comes out.",
+            "datePublished": "2023-11-10T00:09:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ethyl"
+            },
+            "reviewBody": "Step 8 = Repeat this process with the other half of the dough, thereby yielding the 24 empanadas indicated at the top of the recipe? Or am I missing something?",
+            "datePublished": "2023-11-16T00:03:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marielle"
+            },
+            "reviewBody": "Pumpkin purée is not sweet. Are you accidentally buying the canned pumpkin pie filling?",
+            "datePublished": "2023-11-17T13:50:27.000Z"
+        }
+    ]
+}

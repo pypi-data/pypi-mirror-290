@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Eggnog Ice Cream",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/eggnog-ice-cream-recipe-1957128",
+    "headline": "Eggnog Ice Cream",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0135434_02_pouring-mix-into-snow-ball-machine_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1371603143660.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0135434_02_pouring-mix-into-snow-ball-machine_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1371603143660.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0135434_02_pouring-mix-into-snow-ball-machine_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1371603143660.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-05-17T10:08:21.862-04:00",
+    "dateModified": "2013-11-21T10:29:13.010-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "American,Ice Cream,Eggnog,Christmas,Dairy Recipes,Whiskey Recipes,Rum Recipes,Liquor Recipes,Dessert,Gluten Free,Low Sodium",
+    "cookTime": "P0Y0M0DT0H5M0.000S",
+    "prepTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT4H15M0.000S",
+    "description": "From the Great Big Food Show",
+    "recipeIngredient": [
+        "4 egg yolks",
+        "1/3 cup sugar",
+        "1 pint whole milk",
+        "1 cup heavy cream",
+        "1 1/4 ounces bourbon",
+        "1 1/4 ounces dark rum",
+        "1 teaspoon freshly grated nutmeg"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 10 servings",
+        "calories": "173",
+        "fatContent": "12g",
+        "saturatedFatContent": "7g",
+        "carbohydrateContent": "10g",
+        "fiberContent": "0g",
+        "sugarContent": "10g",
+        "proteinContent": "3g",
+        "cholesterolContent": "96mg",
+        "sodiumContent": "33mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In the bowl of a stand mixer beat together the egg yolks and sugar until the yolks lighten in color and the sugar is completely dissolved. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, over medium heat, combine the milk and heavy cream and bring just to a simmer, stirring occasionally. Decrease the heat to low and temper in the egg mixture. Cook until the mixture just begins to thicken, approximately 5 minutes. Remove from the heat, stir in the nutmeg, bourbon and rum. Pour into a medium mixing bowl and set in the refrigerator. Chill the mixture in the refrigerator until it reaches a temperature of 40 degrees F, stirring occasionally. Once chilled, process in an ice cream maker according to the manufacturers' instructions. Place in an airtight container and put in freezer for 2 hours before serving"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 3
+    },
+    "recipeYield": "1 quart",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "p h."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I think it was good"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sabine H."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Tasted almost like a fermented dough once it was finished.... I made it again and used only Malibu rum instead of bourbon, slightly increased the sugar and added a touch of cinnamon.... it turned out fabulous !!!"
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Eggnog Ice Cream",
+        "description": "Rich, custardy eggnog is a natural to be turned into ice cream.",
+        "duration": "PT0H3M15S",
+        "thumbnailUrl": "https://food.fnr.sndimg.com/content/dam/images/food/video/0/01/013/0135/0135434.jpg.rend.hgtvcom.406.305.suffix/1660153751098.jpeg",
+        "contentUrl": "https://www.foodnetwork.com/apps/api/playback?path=/etc/sni-asset/food/videos/0/01/013/0135/0135434",
+        "uploadDate": "2022-08-13T00:14:44.027-04:00"
+    },
+    "recipeCuisine": "american",
+    "recipeCategory": "dessert"
+}

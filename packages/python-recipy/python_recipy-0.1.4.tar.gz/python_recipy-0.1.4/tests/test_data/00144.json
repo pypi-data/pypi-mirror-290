@@ -1,0 +1,108 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "The Best Brownies",
+    "author": "Juenessa",
+    "cookTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "datePublished": "2003-02-17T20:00Z",
+    "description": "These brownies are not cake-like. They are more moist and gooey. I always undercook them a bit because we like them very moist.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/54/22/5/DGMPaRDnQzSOR3Kw5Jo6_BB%204%20final%20-%20best%20brownies.jpg",
+    "recipeCategory": "Bar Cookie",
+    "keywords": "Dessert,Cookie & Brownie,Sweet,< 60 Mins,Oven",
+    "recipeIngredient": [
+        "1/2  cup    vegetable oil",
+        "1   cup    sugar",
+        "1   teaspoon    vanilla",
+        "2   large    eggs",
+        "1/4  teaspoon    baking powder",
+        "1/3  cup    cocoa powder",
+        "1/4  teaspoon    salt",
+        "1/2  cup    flour"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "678"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "218.6",
+        "fatContent": "12.3",
+        "saturatedFatContent": "2",
+        "cholesterolContent": "37.2",
+        "sodiumContent": "82.4",
+        "carbohydrateContent": "26.6",
+        "fiberContent": "1.1",
+        "sugarContent": "20.1",
+        "proteinContent": "2.5"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees Fahrenheit or 180 degrees Celsius."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix oil and sugar until well blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add eggs and vanilla; stir just until blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix all dry ingredients in a separate bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir dry ingredients into the oil/sugar mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour into greased 9 x 9 square pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 20 minutes or until sides just starts to pull away from the pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cool completely before cutting."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Note: I usually double the recipe and bake in a 9 x 13 pan. If you double the recipe, you will need to cook longer than 20 minutes."
+        }
+    ],
+    "recipeYield": "10 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "I logged into this website for the first time in over 4 years to rate these brownies. They literally are THE. BEST. BROWNIES. I&#039;ve been making the recipe for years, following it perfectly, and I&#039;ve never been disappointed. I do always double the recipe and bake by checking every couple minutes. &lt;br/&gt;There are brownies on this website with more ratings than these, they&#039;re not as good. Make these now. :)",
+            "datePublished": "May 06, 2013",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "The Best Brownies"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "lilchef_3"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

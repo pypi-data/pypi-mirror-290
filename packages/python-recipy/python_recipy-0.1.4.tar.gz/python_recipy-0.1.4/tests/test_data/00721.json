@@ -1,0 +1,416 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1015594-lemon-souffle#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1015594-lemon-souffle",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-LEMONSOUFFLE2/03COOKING-LEMONSOUFFLE2-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1015594-lemon-souffle",
+    "name": "Lemon Soufflé",
+    "description": "This soufflé, adapted from Mark Bittman's famous tome, \"How to Cook Everything,\" is rich, fluffy and very easy. You can also make orange or Grand Marnier variations. If you want to make individual soufflés, use a little more butter and grease four 1 1/2- to 2-cup ramekins.",
+    "author": {
+        "@type": "Person",
+        "name": "Mark Bittman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-LEMONSOUFFLE2/03COOKING-LEMONSOUFFLE2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-LEMONSOUFFLE2/03COOKING-LEMONSOUFFLE2-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-LEMONSOUFFLE2/03COOKING-LEMONSOUFFLE2-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/03/dining/03COOKING-LEMONSOUFFLE2/03COOKING-LEMONSOUFFLE2-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT45M",
+    "recipeYield": "4 to 6 servings",
+    "recipeCuisine": "french",
+    "recipeCategory": [],
+    "keywords": "egg dish, grand marnier, lemon, orange juice",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 512
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 236,
+        "unsaturatedFatContent": "3 grams",
+        "carbohydrateContent": "39 grams",
+        "cholesterolContent": null,
+        "fatContent": "5 grams",
+        "fiberContent": "0 grams",
+        "proteinContent": "5 grams",
+        "saturatedFatContent": "2 grams",
+        "sodiumContent": "87 milligrams",
+        "sugarContent": "38 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "About 1 teaspoon unsalted butter for the dish",
+        "1 cup sugar, plus some for the dish",
+        "6 eggs, separated",
+        "1 tablespoon minced or grated lemon or orange zest",
+        "1/4 cup freshly squeezed lemon or orange juice or Grand Marnier or other orange-flavored liqueur",
+        "Pinch salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Butter a 2-quart soufflé or other deep baking dish. Sprinkle the dish with sugar, invert it, and tap to remove excess sugar. Set aside and heat the oven to 350 degrees. Whisk the egg yolks with 3/4 cup of the sugar until light and very thick; the mixture will fall in a ribbon from the ends of the beaters when it is ready. Beat in the flavorings and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Beat the egg whites with the salt until they hold soft peaks; continue to beat, gradually adding the remaining 1/4 cup sugar, until they are very stiff but still glossy. Stir a good spoonful of them thoroughly into the egg yolk mixture to lighten it, then fold in the remaining whites, using a rubber spatula or your hand. Transfer to the prepared soufflé dish(es) and bake until the center is nearly set, 25 to 35 minutes (15 to 25 minutes for individual soufflés). Serve immediately."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "William"
+            },
+            "reviewBody": "I spoke too soon -- anticipation got the best of me. Took them out of the oven, set them on a rack to cool enough to handle, they looked great. Not 20 minutes later, I went to serve them up, and they were already in varying degrees of collapse -- the look was ruined. And despite using more juice than called for, the taste was just barely limey. In fact, it was more like eating sweetened scrambled eggs than anything else. Sad to say, since it was a lot of work late at night and I had high hopes.",
+            "datePublished": "2024-05-13T22:49:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "William"
+            },
+            "reviewBody": "Used limes & 1/3 c juice. Just took 8 ramekins out of the oven, light-to-medium browned. And it's 11:30pm because my mom told me I can't have dessert if I don't eat my dinner.\n\nSo, questions:\n1. How are you supposed to tell when the center of a souffle is nearly set? Stick a fork in it?\n2. How are you supposed to \"serve immediately\" when the ramekins are 350º and presumably so are the souffles? And do you take out extra burn insurance for your guests?\n\nI know they're gonna be great when edible.",
+            "datePublished": "2024-05-13T06:42:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maggie"
+            },
+            "reviewBody": "Followed the directions including some orange liquor. (I just had triple sec). That I topped off the lemon juice with. It came out light, fluffy and delicious! My very first soufflé!",
+            "datePublished": "2024-02-15T15:41:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shelley"
+            },
+            "reviewBody": "I made this and it turned out great--first time making souffle. However, I agree with another commenter. Way, way, WAY too sweet! Literally sickening. Otherwise the flavor was rich, lemon-y, and just right. Next time I won't dust the ramekins with sugar, as called for in the recipe.",
+            "datePublished": "2024-01-17T10:59:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lou in Berkeley"
+            },
+            "reviewBody": "I think you can’t pre-make the batter very far in advance of cooking. I’ve failed twice to get a soufflé, instead being left with a very tasty custard that has a slightly disagreeable texture after refrigerating for a few hours before baking. I’ve made great chocolate soufflés that were refrigerated for several hours, but that doesn’t seem to work here. \n\n(In fairness, this recipe doesn’t say you can do that.j",
+            "datePublished": "2023-09-01T15:35:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SBS"
+            },
+            "reviewBody": "This was fun, and easy to put together. I used fresh lemon juice. It was my best, flavor wise, Souffle I've ever made. Delightful!",
+            "datePublished": "2023-04-25T00:27:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "011"
+            },
+            "reviewBody": "can you prepare the mix in advance?",
+            "datePublished": "2022-06-21T14:54:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo B"
+            },
+            "reviewBody": "Too much sugar.",
+            "datePublished": "2022-06-22T22:58:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charmaine"
+            },
+            "reviewBody": "Reduce lemon juice",
+            "datePublished": "2022-06-18T13:24:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Adam"
+            },
+            "reviewBody": "I used 1-cup ramekins (anything larger seems like overkill for a sweet dessert), and cooked at 350 for 18 minutes. It was cooked thru perfectly, delicious and fluffy, and perhaps a smidge too browned on top. Thank God I remembered that our oven has a window and a light so I could check the progress while it cooked.",
+            "datePublished": "2022-04-17T23:55:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chrissi"
+            },
+            "reviewBody": "Eating chicken is not the answer, Chris. Great recommendation about cooking--just follow up making the lemon souffle with lemon ricotta pancakes and invite nice people over.",
+            "datePublished": "2022-02-27T18:02:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AAcold"
+            },
+            "reviewBody": "Agree on too much sugar.  Going to try reducing to 2/3 cup next time.  Nice light dessert.  A dusting of powdered sugar and a few raspberries elevate it even more.",
+            "datePublished": "2022-02-11T02:22:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JR"
+            },
+            "reviewBody": "This recipe has come out perfectly every time. We can all take inspiration from Christopher’s example. When life hands you lemons, make lemon soufflé.",
+            "datePublished": "2022-01-17T00:15:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eric"
+            },
+            "reviewBody": "I wish I'd read these notes first before making this. I used Meyer lemons, which are kind of sweet on their own but the sugar could be cut by 1/3rd and it'd be fine. Bittman usually assumes we know more than we do. Anyway, Christopher, I hope this have improved and that you've settled things with the misses. If not may I suggest J. Child's chocolate mousse recipe in her magnum opus. I need to stop writing after drinking so much. Happy holidays everyone. Use Meyers and less sugar. Be nice Mrs. C.",
+            "datePublished": "2021-12-26T05:19:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nicolecooks2"
+            },
+            "reviewBody": "\"Beat in flavorings\" in step one refers to when you add lemon or Grand Marnier or whatever flavoring you're using.",
+            "datePublished": "2021-12-30T20:34:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Adrienne L"
+            },
+            "reviewBody": "Great recipe! However, it doesn't say when to add the lemon and lemon zest. We added in step 1 with the egg yolks.",
+            "datePublished": "2021-12-25T21:37:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anon"
+            },
+            "reviewBody": "When do we add the liqueur?",
+            "datePublished": "2021-12-04T21:40:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christopher johnson"
+            },
+            "reviewBody": "Superb recipe. So light and fluffy it feels like a tangy cloud! My wife hates me and life is meaningless. Be sure to be careful with the variety of lemon because it can sometimes be too tart. Good luck!",
+            "datePublished": "2017-10-01T13:19:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LuvUrZZZs"
+            },
+            "reviewBody": "These are the best notes ever, except for Christopher's troubles of course. Usually they are all \"I made this exactly like the recipe except for changing it 90%\".",
+            "datePublished": "2017-10-23T13:11:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lawrence Freundlich"
+            },
+            "reviewBody": "I am surprised that that your wife hates you and that you find life meaningless even though you have \"superb\"  lemon soufflé in your life.",
+            "datePublished": "2017-10-01T13:29:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris"
+            },
+            "reviewBody": "Maybe a recipe that calls for more cooking and less wife is in order. I could recommend Laurie Colwin's mustard chicken, if you haven't tried it already. NYT Cooking covers it. :)",
+            "datePublished": "2017-10-01T14:20:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ted"
+            },
+            "reviewBody": "Mine souffles came out cold and like a thick liquid. I followed the recipe to a tee, except for that whole \"cooking it\" part. I think next time I'll try cooking it but leave out the ingredients.",
+            "datePublished": "2018-04-23T03:22:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessica"
+            },
+            "reviewBody": "Most fun and funny comments ever!! I made a Grand Marnier version of this and it was fantastic. But what I’m really thinking about is Christopher and whether he has found any happiness since his comment from three years ago.",
+            "datePublished": "2020-11-07T00:52:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NotPennyAnne"
+            },
+            "reviewBody": "Well perhaps your soufflé was TOO TART. Perhaps a nice dark chocolate souffle' to help with your darkish mood dear Christopher. xo",
+            "datePublished": "2017-10-01T14:46:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joe"
+            },
+            "reviewBody": "Ok, I tried the recipe and three things:\n1.  It cannot keep in the fridge for 24 hours, unfortunately.  It collapses and becomes more of a pudding instead of a souffle\n2.  When baked soon after being made, they was fantastic!  I did tweak the recipe just a bit, using juice from Meyer lemons reduced 50% for a stronger lemon taste and adding a 1/2 t. of cream of tartar to help the egg white whipping.\n3. I used individual 10 oz. ramekins and it took seven of them.  They were done at 15 minutes.",
+            "datePublished": "2018-02-02T14:07:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margo Price"
+            },
+            "reviewBody": "I make the individual soufflés and keep them in the fridge until time to bake.  They turn out great!",
+            "datePublished": "2018-01-17T14:58:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PSS"
+            },
+            "reviewBody": "I want to try this, especially in individual ramikens, but I'm a little stumped about the timing: how do you get this in the oven during a dinner party and serve immediately after a relatively short time baking? Can you prepare the two souffle mixtures ahead and then fold them together at the last minute?",
+            "datePublished": "2017-10-23T13:11:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J Scrapple"
+            },
+            "reviewBody": "Excellent springy start to our Easter lunch/dinner.  Taste the batter before adding whites to adjust lemony-ness.   ",
+            "datePublished": "2017-10-01T13:48:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tanvi"
+            },
+            "reviewBody": "Perfect texture and easy to make. But way too much sugar! It was sickeningly sweet. I would start with 2/3 cup next time. I would have liked more lemony taste to shine through - maybe a tablespoon of zest?",
+            "datePublished": "2017-12-05T02:29:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Edward Pottle"
+            },
+            "reviewBody": "Some woman named Martha bakes individual souffles at 375 for 16 minutes. She also says you can keep the mixture in the fridge for up to 3 hours before baking, although I think I'd a couple of minutes to the baking time if straight from the fridge. (Note, I've not tried this).",
+            "datePublished": "2017-11-16T03:10:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JANET LEVINE"
+            },
+            "reviewBody": "I made this yesterday, and as soon as i took the soufflé s out of the oven they fell.  I made individual ones.  I know that you have to have a quiet house and not to open the oven while they cook.  Lol, but the noise in my house right now can be deafening, as I am having hurricane impact windows installed, but the good news is that I did not open the oven.  Anyway,  I served them exactly how they looked and I must say they were like Lemon pudding cake.  Excellent & not a total loss.",
+            "datePublished": "2018-06-06T19:40:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Madeleine"
+            },
+            "reviewBody": "Followed exactly as written and it was wonderful. First time making a souffle.",
+            "datePublished": "2020-12-28T23:01:21.000Z"
+        }
+    ]
+}

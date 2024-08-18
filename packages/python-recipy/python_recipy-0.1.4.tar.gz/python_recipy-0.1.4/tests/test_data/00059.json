@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Vegetable Pasta Soup",
+    "datePublished": "2018-05-15T20:25:35.000-04:00",
+    "dateModified": "2023-09-19T17:23:45.256-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Serve this quick vegetable soup as an appetizer, or as a side dish for lunch or dinner.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/StuCXGaM7ra5SD49HOHYJZGhd4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5454427-cf96505b852e49fca29324de6b165f8c.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Vegetable Pasta Soup",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "86 kcal",
+        "carbohydrateContent": "15 g",
+        "cholesterolContent": "2 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "227 mg",
+        "sugarContent": "2 g",
+        "fatContent": "2 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT35M",
+    "recipeIngredient": [
+        "2 teaspoons olive oil",
+        "6 cloves garlic, minced",
+        "1.5 cups coarsely shredded carrot",
+        "1 cup chopped onion",
+        "1 cup thinly sliced celery",
+        "1 (32 ounce) carton reduced-sodium chicken broth",
+        "4 cups water",
+        "1.5 cups dried ditalini pasta",
+        "0.25 cup shaved Parmesan cheese",
+        "2 tablespoons snipped fresh parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a 5- to 6-quart Dutch oven, heat oil over medium heat. Add garlic; cook for 15 seconds. Add carrot, onion, and celery; cook for 5 to 7 minutes or until tender, stirring occasionally. Add chicken broth and the water; bring to boiling. Add uncooked pasta; cook for 7 to 8 minutes or until pasta is tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve, top individual servings with Parmesan cheese and parsley."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/264734/vegetable-pasta-soup/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19831/seasonal/fall/dinner/",
+                        "name": "Healthy Fall Dinner Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22893/seasonal/fall/dinner/pasta-noodles/",
+                        "name": "Healthy Fall Pasta & Noodle Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/264734/vegetable-pasta-soup/",
+                        "name": "Vegetable Pasta Soup"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T17:23:45.256-04:00"
+    },
+    "recipeCategory": []
+}

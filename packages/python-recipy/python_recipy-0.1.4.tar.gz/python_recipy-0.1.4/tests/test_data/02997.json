@@ -1,0 +1,86 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/herby-fish-fingers-chinese-style-rice#Recipe",
+    "@type": "Recipe",
+    "description": "This healthy, gluten-free lunch or dinner supplies a balance of carbs and protein, making it perfect for refuelling after exercise",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/herby-fish-fingers-with-rice-440-400-351c31b.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/herby-fish-fingers-chinese-style-rice"
+    },
+    "name": "Herby fish fingers with Chinese-style rice",
+    "url": "https://www.bbcgoodfood.com/recipes/herby-fish-fingers-chinese-style-rice",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sara Buenfeld",
+            "url": "https://www.bbcgoodfood.com/author/sarabuenfeld"
+        }
+    ],
+    "dateModified": "2022-11-10T17:06:57+00:00",
+    "datePublished": "2020-05-01T13:14:38+01:00",
+    "headline": "Herby fish fingers with Chinese-style rice",
+    "keywords": "1 of 5-a-day, Fibre, Folate, healthy diet plan, Iron, Sara Buenfeld, Sarah Lienard, Summer",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT35M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "487 calories",
+        "fatContent": "14 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "47 grams carbohydrates",
+        "sugarContent": "7 grams sugar",
+        "fiberContent": "7 grams fiber",
+        "proteinContent": "40 grams protein",
+        "sodiumContent": "1.14 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "100g brown basmati rice",
+        "160g frozen peas",
+        "50g French beans",
+        "3 spring onions , finely chopped",
+        "½ tsp dried chilli flakes",
+        "good handful coriander , roughly chopped",
+        "2 tsp tamari",
+        "few drops sesame oil",
+        "1 tbsp cold-pressed rapeseed oil",
+        "2 large eggs",
+        "280g pack skinless cod loins cut into chunky strips (cut into 4 strips per loin)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook the rice in a pan of water for 25 mins, adding the peas and beans for the last 6 mins. Drain, then return to the pan and stir in the spring onions, chilli flakes, all but 1 tbsp chopped coriander, the tamari and sesame oil. Cover."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, heat a large non-stick pan with the rapeseed oil Beat the eggs with the remaining 1 tbsp coriander. Cut the fish into chunky strips, then coat them in the egg and fry in the oil for a couple of mins each side until golden. Remove the fish from the pan and tip in the rice with any remaining egg and stir. Serve in bowls, topped with the fish."
+        }
+    ],
+    "recipeYield": 2,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet",
+    "totalTime": "PT45M"
+}

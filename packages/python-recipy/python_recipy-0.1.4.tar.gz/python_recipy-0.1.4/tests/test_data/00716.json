@@ -1,0 +1,433 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019428-karaage-japanese-fried-chicken#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019428-karaage-japanese-fried-chicken",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/merlin_141075300_74569dec-9fc2-4174-931d-019dddef3bb8-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019428-karaage-japanese-fried-chicken",
+    "name": "Karaage (Japanese Fried Chicken)",
+    "description": "At Kunyan, a ramen shop in a mountain hot-spring town near the Sea of Japan, fried chicken is served until 2 a.m., or whenever the last customer leaves. The flesh is firm and flavorful with sweetened soy and garlic, coated in a fox-colored crust of potato starch that stays crisp on the table through a second round of highballs. Kunyan’s “mama,” who presides over pan-frying gyoza and pouring frothy Super Dry beer, would never give up her recipe, but the flavors in this version are awfully similar. To approximate the best Japanese chicken — meatier, fattier, and more flavorful than American supermarket meat — buy your chicken from a farmers' market, and debone it yourself or ask a butcher. Don’t feel pressure to do it perfectly: The pieces will be encrusted in a crisp coating, and the leftover bones make great stock.",
+    "author": {
+        "@type": "Person",
+        "name": "Hannah Kirshner"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/merlin_141075300_74569dec-9fc2-4174-931d-019dddef3bb8-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/merlin_141075300_74569dec-9fc2-4174-931d-019dddef3bb8-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/merlin_141075300_74569dec-9fc2-4174-931d-019dddef3bb8-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/07/25/dining/HK-karaage-horizontal/HK-karaage-horizontal-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT45M",
+    "recipeYield": "2 to 4 servings",
+    "recipeCuisine": "japanese",
+    "recipeCategory": [],
+    "keywords": "chicken thigh, plan-ahead, potato starch",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1531
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 459,
+        "unsaturatedFatContent": "15 grams",
+        "carbohydrateContent": "34 grams",
+        "cholesterolContent": null,
+        "fatContent": "23 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "24 grams",
+        "saturatedFatContent": "6 grams",
+        "sodiumContent": "775 milligrams",
+        "sugarContent": "2 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 1/2 teaspoons grated fresh ginger, with its juice",
+        "2 teaspoons grated or smashed garlic (from about 3 cloves)",
+        "2 tablespoons dry sake",
+        "3 tablespoons soy sauce",
+        "2 teaspoons sugar",
+        "4 skin-on chicken thighs (about 1 1/2 to 2 pounds), deboned, cut into 2-inch chunks",
+        "Peanut oil, or a mixture of peanut and canola or safflower, for frying",
+        "1 cup potato starch (katakuriko)",
+        "1/4 teaspoon fine sea salt",
+        "1/2 teaspoon black pepper",
+        "Lemon wedge, for serving",
+        "Lettuce and cucumber slices, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a shallow baking dish large enough to hold the chicken, combine ginger, garlic, sake, soy sauce and sugar. Toss chicken pieces in marinade to coat. Cover and refrigerate for 24 to 48 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Fill an aluminum or thin stainless steel pot (best for quick temperature adjustments), with sides at least 5 inches tall, with about 3 inches of peanut oil. Heat the oil to 350 degrees. Place several layers of newsprint or paper towels on a sheet pan."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While the oil heats, place a wire rack over a second sheet pan. In a bowl, combine potato starch, salt and pepper. Remove one piece of chicken at a time from marinade, and tuck in any jagged bits or skin as you roll it in starch mixture to coat. Rest it on the rack. Repeat with all chicken pieces."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Gently shake off excess potato starch before cooking each piece of chicken. Fry 3 or 4 pieces at a time, keeping oil temperature around 325 degrees (temperature will fall when you add chicken) and no lower than 300 degrees. Fry for about 3 minutes, or until golden. Remove from oil using a wire-mesh spoon or long chopsticks, and cool on newsprint or paper towels."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When all the chicken has been fried once, increase the oil’s temperature to 375 degrees. Fry chicken pieces a second time, keeping the oil between 350 and 375 degrees, until the crust is deep golden brown, about 1 minute. Drain on newsprint or paper towels. This second frying makes the coating stay extra crisp, even if you don’t serve it immediately."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve hot or at room temperature, with a lemon wedge, and lettuce and cucumber slices for a cool, fresh contrast, if you like."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bridgette"
+            },
+            "reviewBody": "This was delicious! Subbed out sweet potatoes for the chicken and used coconut flour instead of potato flour.\n\nMarinated with ketchup and reused soy sauce packets.\n\nPerfection!",
+            "datePublished": "2024-01-13T20:45:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nate B"
+            },
+            "reviewBody": "I have two main notes:\n\n1. Adding toasted sesame oil to the marinade gives a nice boost to the flavor.\n\n2. I've tried cooking in a steel wok, enameled pot, and cast iron, but the recipe is correct, using an aluminum pot, for me a thrift store Revere Ware w/ copper bottom, gives the best temperature control.",
+            "datePublished": "2023-11-06T03:26:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nate B"
+            },
+            "reviewBody": "I filter it through a strainer, then a coffee filter, and reuse it. Absolutely essential to shake off the excess starch or it will clog the filter and take forever to filter.",
+            "datePublished": "2023-11-06T03:30:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary J in Montreal"
+            },
+            "reviewBody": "A pedantic question. What do folks do with the quart of oil? Do you toss it or keep it for the next time you deep fry ( which I do maybe once a year)?",
+            "datePublished": "2023-09-24T13:39:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick"
+            },
+            "reviewBody": "Soooooo good and easy to make! Loved it",
+            "datePublished": "2023-09-10T23:20:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marilyn"
+            },
+            "reviewBody": "This was fantastic, very worth all the effort to debone the chicken and marinade. My store didn't have potato starch, so had to substitute corn starch and it turned out great.",
+            "datePublished": "2023-08-14T04:01:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "megan louise"
+            },
+            "reviewBody": "Amazing, just wow! The only thing I changed is swapping out soy sauce for tamari to make it GF. The chicken gets soooo crispy/crunchy from the second frying. Will try again with other reviewers’ recommendations using leftover marinade to make a dipping sauce. Served this with coconut rice and sriracha- this will be a new staple in our house!",
+            "datePublished": "2023-08-09T02:59:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eduardo"
+            },
+            "reviewBody": "Is it possible to not fry this and bake it?",
+            "datePublished": "2023-08-06T16:14:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Ct"
+            },
+            "reviewBody": "Am I supposed to remove the skin after deboning??",
+            "datePublished": "2023-05-15T19:16:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Danny"
+            },
+            "reviewBody": "The twice fry is the key.",
+            "datePublished": "2023-03-09T14:15:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy the chef"
+            },
+            "reviewBody": "Here’s a tip for extra crunchy—after coating  in potato starch, place on rack on sheet pan and refridge for 1 hour before frying.  Stays crunchier longer!",
+            "datePublished": "2023-01-29T18:15:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cooking Wild"
+            },
+            "reviewBody": "Made this with wild dove breast marinated for just 90 minutes. Fried once at 325. Topped with a little su-miso sauce and hot sauce. AMAZING!",
+            "datePublished": "2022-09-07T01:45:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane in CA"
+            },
+            "reviewBody": "Made with skinless, boneless breast meat instead of thighs, and fried in avocado oil not nearly as deep as suggested--didn't measure the oil's temp, either, but it definitely sizzled, and the nuggets were fried twice. The finished pieces were crispy, light, and juicy (maybe because the chicken was fresh, not frozen?). Served with a dipping sauce that combined leftover tamarind chutney, sambal oekek, and lime juice--delicious!",
+            "datePublished": "2022-03-24T11:14:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kel B"
+            },
+            "reviewBody": "Sometimes it’s worth it to let a favorite restaurant dish stay at the restaurant.  It was good, but I expected a bigger payoff than good for the effort.  If you don’t have a favorite restaurant making it, this would be worth it.",
+            "datePublished": "2022-03-02T02:35:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "This is a terrible recipe! Who tested it? Potato starch gets absorbed into the still wet chicken pieces (from the marinade) and it does not form the delectable crunch expected from deep frying. very disappointing.",
+            "datePublished": "2021-11-30T19:13:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rich"
+            },
+            "reviewBody": "i did 4 min at 350 and used cornstarch",
+            "datePublished": "2021-11-02T17:40:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda"
+            },
+            "reviewBody": "This is a great dish! A Japanese friend marinates this in a bit of sesame oil too (along with the ginger and other ingredients here).",
+            "datePublished": "2018-08-16T18:40:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "frankaboutfoodblog"
+            },
+            "reviewBody": "Another serving tip: bring the marinade to a boil, with maybe a splash more sake. When you serve, pour a teaspoon on each piece of chicken and sprinkle with sesame seeds, or for a bit of hear shichimi togarashi (Japanese pepper).",
+            "datePublished": "2018-09-16T06:50:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Clark"
+            },
+            "reviewBody": "HOLY smokes. This was insane. The key is constantly monitoring the oil temperature while frying. Used Safflower oil which has a very high smoke point so it didn’t even look like it was hot when it was time to toss the chicken in. Heated up some honey thinned with a little coconut oil and mixed in red pepper flakes. Drizzle that over the fried chicken pieces...perfect accent to the soy marinade. ",
+            "datePublished": "2018-10-22T04:42:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Renee D. "
+            },
+            "reviewBody": "Tried this preparation with tofu instead, very tasty. Subbed mirin for the sake and sugar and added a splash of sesame oil as other suggested. Sauce tastes great on tofu even uncooked. Ending up frying after only 7 hrs sitting, due to impatience. Served with steamed white rice and simple sautéed bok choy with garlic topped with the leftover marinated ginger.",
+            "datePublished": "2018-10-09T00:56:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cherie"
+            },
+            "reviewBody": "Didn’t have potato starch, so substituted corn starch. Tasted delicious. ",
+            "datePublished": "2018-09-25T21:50:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "keep warm"
+            },
+            "reviewBody": "Has anyone tried this with an air fryer? Would love to try but struggle with all the oil.",
+            "datePublished": "2018-11-12T22:22:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "reviewBody": "We had boneless skinless chicken thighs that my husband was planning on using with no particular plan when I foisted this recipe on him and we had everything on hand except peanut oil.  It turned out great,  I'm the baker and he's the fryer, frying scares me.  We put the same coating on some veggies (brussel sprouts and asparagus) which pretty much just fell off in the oil (I warned him) but it turns out that brussel sprouts fried in peanut oil are amazing!  ",
+            "datePublished": "2018-12-24T19:40:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MD"
+            },
+            "reviewBody": "How do you check temperature using a toothpick? Enquiring minds want to know!",
+            "datePublished": "2018-12-16T19:08:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ben"
+            },
+            "reviewBody": "It’s hard to find a good gluten-free fried chicken recipe, but I swapped the soy out for tamari and it’s the best I’ve made at home. The marinade is awesome, even after just a couple hours in the fridge. \n\nDunked the twice-fried chicken in a combination of the tamari, sugar and ACV for a bright finish. \n\nThe fresh lemon juice is a perfect accompaniment; Kewpie mayonnaise is also great. Any of these flavors are great options for sauces and toppings: honey, red pepper, chili garlic, or citrus.",
+            "datePublished": "2018-09-21T00:45:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fay"
+            },
+            "reviewBody": "Has anyone tried this with chicken breasts? I hate thighs!",
+            "datePublished": "2018-11-13T16:43:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chris"
+            },
+            "reviewBody": "I made this with corn starch rather than potato starch and it was delicious! I would say it's better than any Chicken karaage we have had in Japanese restaurants; I also use skinless boneless thighs and marinated it overnight. \n\nI highly recommend using a candy thermometer to monitor the frying temperature; since the chicken pieces were small, I noticed my oil temp didn't drop much and actually had to dial back the energy.\n\nreally yummy- definitely make it again!",
+            "datePublished": "2018-12-17T03:41:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mimilinda"
+            },
+            "reviewBody": "This was fantastic! I changed nothing in the recipe, marinated for 24 hours and took the chicken out of the fridge a half hour before coating in the potato starch. I did cut the chicken in slightly smaller pieces and used the karaage as a topping for a ramen noodle soup. \nI used peanut oil and, lacking a thermometer, checked the heat in the old fashoned way using a wooden toothpick. :-)",
+            "datePublished": "2018-11-08T16:22:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "emily"
+            },
+            "reviewBody": "watch jacques pepin's tutorial on youtube - the greatest! <a href=\"https://www.youtube.com/watch?v=nfY0lrdXar8\" target=\"_blank\">https://www.youtube.com/watch?v=nfY0lrdXar8</a>",
+            "datePublished": "2019-01-14T22:23:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathleen"
+            },
+            "reviewBody": "Please use potato \"starch\" not potato flour, absolutely not the same thing. Think of how different corn starch is as opposed to corn flour, same thing with potato starch.  ",
+            "datePublished": "2019-01-27T17:29:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bizz"
+            },
+            "reviewBody": "This is on our permanent roster of crowd-pleasers, and definitely worth the time and hassle.  I’ve had hard-core vegetarians wolf it down and clamor for more.\nI serve it with red or green-leaf lettuce, so people can make lettuce wraps, along with a schmear of chili paste, black bean sauce, or hoisin sauce.  Cannot go wrong.",
+            "datePublished": "2019-10-27T22:12:49.000Z"
+        }
+    ]
+}

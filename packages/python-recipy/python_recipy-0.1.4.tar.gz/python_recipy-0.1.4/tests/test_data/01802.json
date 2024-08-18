@@ -1,0 +1,44 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "image": [
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/697_1_1439303626.jpg?tr=w-800,h-800",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/697_1_1439303626.jpg?tr=w-800,h-600",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/697_1_1439303626.jpg?tr=w-800,h-450,fo-face"
+    ],
+    "name": "New potato salad with crème fraîche and mint",
+    "recipeCategory": "Sides",
+    "description": "A sprinkle of lemon zest and fresh red chilli really takes the humble potato salad up a notch",
+    "recipeYield": "8",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+        "1 kg new potatoes scrubbed",
+        "250 ml reduced fat crème fraîche ",
+        "1  lemon zest and juice of",
+        "1 handful fresh mint very finely chopped",
+        "1  fat red chilli deseeded and finely sliced, optional"
+    ],
+    "recipeInstructions": "<ol class=\"recipeSteps\"><li>Gently boil the potatoes in salted water until tender, then drain well. Leave them to cool slightly, then slice in half. Dress with the crème fraîche, lemon zest and juice, sea salt and freshly ground black pepper to taste. Stir some of the chopped mint and chilli, if using, into the potato salad and sprinkle the rest over the top.</li></ol>",
+    "recipeCuisine": "british",
+    "keywords": "potato, new potatoes, mint, gluten-free, vegetarian, vegetable, herb or flavour, salad, potato salad, salads, Salad, Vegetables, Alfresco, Picnic, Wimbledon",
+    "suitableForDiet": [
+        "https://schema.org/GlutenFreeDiet",
+        "https://schema.org/VegetarianDiet"
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Jamie Oliver"
+    },
+    "nutrition": {
+        "calories": "139 calories",
+        "fatContent": "5.1 g fat",
+        "saturatedFatContent": "3.3 g saturated fat",
+        "proteinContent": "3.1 g protein",
+        "carbohydrateContent": "21.7 g carbohydrate",
+        "sugarContent": "2.7 g sugar",
+        "sodiumContent": "0.35 g salt",
+        "fiberContent": "1.3 g fibre",
+        "@type": "NutritionInformation"
+    },
+    "datePublished": "2015-09-16"
+}

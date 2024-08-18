@@ -1,0 +1,86 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/miso-carbonara/#recipe",
+    "url": "https://www.marionskitchen.com/miso-carbonara/",
+    "name": "Miso Carbonara | Marion&#039;s Kitchen",
+    "description": "Creamy, bacon-y carbonara with one little secret Asian ingredient that really takes this pasta dish to the next level. Can you guess what it is? Italian friends, you may want to look away now. But hey, miso love carbonara!",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "",
+    "keywords": "Bacon, Easy weeknight dinners, Family favourites, Pasta",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "",
+    "recipeIngredient": [
+        "3 eggs, plus 2 egg yolks",
+        "2 tbsp miso paste",
+        "100g (3.5 oz) finely grated parmesan cheese, plus extra to serve",
+        "½ tsp ground black pepper",
+        "400g (14 oz) spaghetti",
+        "200g (7 oz) thick cut bacon or pancetta, sliced into batons",
+        "1 tbsp extra virgin olive oil (optional)",
+        "Furikake* to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Step 1.In a large bowl, whisk together the eggs, egg yolks, miso paste, parmesan and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 2.Bring a large pot of salted water to the boil. Cook the pasta for its recommended cooking time."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 3.While the pasta cooks, heat the bacon in a large frying pan over high heat. You want the bacon to colour as well as render some fat. If there isn’t a sheen of fat on the bottom of your pan after 3-4 minutes, then add olive oil. Turn the heat off but let the pan sit on the warm stovetop."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 4.Reserve a cup of pasta cooking water. Then drain the pasta and add it straight into the warm pan. Add the egg mixture and toss with the pasta. Keep tossing the pasta in the egg mixture until it thickens (turn the heat on low under the pan if necessary). If the sauce becomes too thick you can loosen it with some of the pasta cooking water. Be careful not to scramble the eggs!"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 5.When the sauce is thick, divide among serving plates. Grate over extra parmesan cheese and scatter over the furikake."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Notes: – Furikake is a seasoning mix traditionally sprinkled over rice. You can find it at most Asian or Japanese grocery stores."
+        }
+    ],
+    "datePublished": "2021-08-02T00:00:00Z",
+    "dateModified": "2022-06-11T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/miso-carbonara/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20190820_Miso-Carbonara-9-scaled-e1627920120495.jpeg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2021/08/20190820_Miso-Carbonara-9-scaled-e1627920120495.jpeg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

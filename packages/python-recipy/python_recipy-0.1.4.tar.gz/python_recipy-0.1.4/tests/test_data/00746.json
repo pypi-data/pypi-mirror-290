@@ -1,0 +1,215 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1016347-tequila-and-grapefruit-juice#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1016347-tequila-and-grapefruit-juice",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-articleLarge.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1016347-tequila-and-grapefruit-juice",
+    "name": "Tequila and Grapefruit Juice",
+    "description": "A straightforward, pleasingly tart combo.",
+    "author": {
+        "@type": "Person",
+        "name": "Rosie Schaap"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-superJumbo.jpg",
+            "height": 1080,
+            "width": 1920,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-articleLarge.jpg",
+            "height": 338,
+            "width": 600,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "recipeYield": "1 drink",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 114
+    },
+    "recipeIngredient": [
+        "3 ounces tequila",
+        "4 ounces grapefruit juice",
+        "Soda water, to top",
+        "Lime wedge, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Fill a highball glass with ice. Add tequila and juice, then top with soda water and garnish with a wedge of lime."
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Tequila and Grapefruit Juice",
+        "description": "How to make this straightforward, pleasingly tart drink.",
+        "thumbnailUrl": "https://static01.nyt.com/images/2014/05/20/multimedia/sumdrinks-tequilagf-site/sumdrinks-tequilagf-site-mediumThreeByTwo440.jpg",
+        "uploadDate": "2014-05-20T20:53:08.000Z",
+        "duration": "PT38S",
+        "transcript": "",
+        "contentUrl": "http://vp.nyt.com/video/2014/05/20/28259_1_sumdrinks-tequilagf-site_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie Rake"
+            },
+            "reviewBody": "When this is made with grapefruit soda and mescal, it is called a palumbo and it is delicious.",
+            "datePublished": "2024-05-27T17:15:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allen Thomsen"
+            },
+            "reviewBody": "Absolutely delicious and stimulating.",
+            "datePublished": "2023-05-13T01:50:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lynn"
+            },
+            "reviewBody": "2oz tequila, 3oz grapefruits juice, fill remainder of ice-filled glass with lime seltzer and a wedge of lime. Helloooo, Summer!",
+            "datePublished": "2021-05-11T23:09:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie Rake"
+            },
+            "reviewBody": "Yes, we were served this in Merida in January at a cooking class.  The host called it a palumbo and made it with mescal but said it could be made with tequila.  It is startlingly good.  You can make it with any grapefruit soda.",
+            "datePublished": "2024-05-27T17:17:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "Fresca and tequila is a lovely combo. Don’t knock ‘til you’ve tried it.",
+            "datePublished": "2021-03-04T02:53:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo Jo Price"
+            },
+            "reviewBody": "I did a variation where I used repasado tequila, lime and Ruby Red juice, no soda water, and added a little kosher salt. Delicious!",
+            "datePublished": "2019-05-05T19:56:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "gr_store_feet"
+            },
+            "reviewBody": "how 'bout fresca instead of juice & soda?",
+            "datePublished": "2017-10-24T21:23:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jaypea"
+            },
+            "reviewBody": "to simplify the prep i’ve substituted the white grapefruit with Texas Ruby Red, eliminated the soda and lime, and doubled the amount of tequila.  ole!",
+            "datePublished": "2017-10-24T18:09:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jatropha"
+            },
+            "reviewBody": "According to Wikipedia, a highball glass has a volume of 8 to 12 US fl oz, while a pint glass holds 16 US fl oz.  The liquid ingredients here only amount to 7 fl oz, so there should be plenty of space left in all but the smallest highball glass.  All I can guess is that you're using ice made in very small cubes, so it fills more of the glass than it should.",
+            "datePublished": "2017-10-24T21:22:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris"
+            },
+            "reviewBody": "What size highball glass is contemplated here? I used a pint glass and still didn't have enough room for more than a splash of soda.",
+            "datePublished": "2017-10-24T18:14:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jaypea"
+            },
+            "reviewBody": "to simplify the prep i’ve substituted the white grapefruit with Texas Ruby Red, eliminated the soda and lime, and doubled the amount of tequila.  ole!",
+            "datePublished": "2017-10-24T18:09:05.000Z"
+        }
+    ]
+}

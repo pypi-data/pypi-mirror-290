@@ -1,0 +1,72 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/sweet-potato-crisps#Recipe",
+    "@type": "Recipe",
+    "description": "Everyone's favourite veggie snack: crispy sweet potato slices roasted in olive oil. They're a great lunchbox filler and vegan too",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/sweet-potato-crisps-714f240.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/sweet-potato-crisps"
+    },
+    "name": "Sweet potato crisps",
+    "url": "https://www.bbcgoodfood.com/recipes/sweet-potato-crisps",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Chelsie Collins",
+            "url": "https://www.bbcgoodfood.com/author/chelsiecollins"
+        }
+    ],
+    "dateModified": "2022-11-08T14:25:53+00:00",
+    "datePublished": "2016-08-19T11:07:14+01:00",
+    "headline": "Sweet potato crisps",
+    "keywords": "Chelsie Collins, Gluten free, Snack, Sweet potato, sweet potato crisps, Vegan, Vegetable crisps",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "70 calories",
+        "fatContent": "2 grams fat",
+        "carbohydrateContent": "12 grams carbohydrates",
+        "sugarContent": "6 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "1 grams protein",
+        "sodiumContent": "0.1 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "¼ small sweet potato",
+        "½ tbsp olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 200C/180C fan/gas 6 and slice the sweet potato thinly. Toss with the olive oil and roast for 15-20 mins until crisp. Leave to cool."
+        }
+    ],
+    "recipeYield": 1,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet, https://schema.org/VeganDiet",
+    "totalTime": "PT30M"
+}

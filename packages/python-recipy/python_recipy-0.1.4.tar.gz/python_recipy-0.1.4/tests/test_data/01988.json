@@ -1,0 +1,152 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "headline": "Hot Buttered Rum",
+    "url": "https://www.thekitchn.com/hot-buttered-rum-recipe-23587983",
+    "description": "Make this classic winter cocktail with warming spices, rich butter, and dark rum for the coziest night in.",
+    "brand": {
+        "@type": "Thing",
+        "name": "The Kitchn"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "374 cal",
+        "carbohydrateContent": "28.5 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "1.2 g",
+        "proteinContent": "0.9 g",
+        "saturatedFatContent": "12.4 g",
+        "sodiumContent": "92.9 mg",
+        "sugarContent": "25.5 g",
+        "fatContent": "19.9 g",
+        "servingSize": "Serves 6",
+        "unsaturatedFatContent": "0.0 g"
+    },
+    "suitableforDiet": "https://schema.org/GlutenFreeDiet,https://schema.org/VegetarianDiet",
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "recipeIngredient": [
+        "8 tablespoons (1 stick) unsalted butter",
+        "2/3 cup packed dark brown sugar",
+        "1 teaspoon ground cinnamon",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon freshly grated nutmeg, plus more for sprinkling",
+        "1/4 teaspoon ground allspice or ground cloves",
+        "1/4 teaspoon kosher salt",
+        "2 cups water",
+        "1 cup dark rum",
+        "2 cups whipped cream (optional)",
+        "4  (4-inch) long cinnamon sticks"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Step 1",
+            "text": "Place 1 stick unsalted butter in a medium heatproof bowl (or stand mixer bowl fitted with the paddle attachment) and let sit at room temperature until softened.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 2",
+            "text": "Add 2/3 cup packed dark brown sugar, 1 teaspoon ground cinnamon, 1 teaspoon vanilla extract, 1/2 teaspoon freshly ground nutmeg, 1/4 teaspoon ground allspice or ground cloves, and 1/4 teaspoon kosher salt. Beat with an electric hand mixer on high speed until fluffy and smooth, about 2 minutes.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 3",
+            "text": "Bring 2 cups water to a boil in a kettle or medium saucepan. Let the water cool slightly so it isn’t actively bubbling, about 30 seconds. Carefully pour the water into the butter mixture. Add 1 cup dark rum and beat with the mixer on medium speed until the butter is dissolved and the mixture is frothy, 1 to 2 minutes.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 4",
+            "text": "Divide between 4 mugs. Top with whipped cream if desired. Sprinkle with more freshly grated nutmeg. Garnish each mug with a cinnamon stick.",
+            "image": null
+        }
+    ],
+    "HowtoTip": {
+        "text": "Make ahead: The butter mixture can be made up to 1 week ahead and refrigerated in an airtight container. Let sit at room temperature until softened before adding the hot water and proceeding with the recipe."
+    },
+    "recipeYield": 6,
+    "prepTime": "PT300S",
+    "cookTime": "PT300S",
+    "totalTime": "PT600S",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "worstRating": 1,
+        "reviewCount": 3
+    },
+    "review": [],
+    "name": "Hot Buttered Rum",
+    "articleSection": "Recipes",
+    "thumbnailUrl": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2023-09-hot-buttered-rum%2Fhot-buttered-rum-1231",
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2FPhoto%2FRecipes%2F2023-09-hot-buttered-rum%2Fhot-buttered-rum-1231"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2023-09-hot-buttered-rum%2Fhot-buttered-rum-1231"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-09-hot-buttered-rum%2Fhot-buttered-rum-1231"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Apartment Therapy, LLC.",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thekitchn.com/static/logos/publisher-logo.png",
+            "width": 180,
+            "height": 46
+        }
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Rachel Perlmutter",
+            "URL": "https://www.thekitchn.com/authors/rachel-perlmutter",
+            "description": "Rachel Perlmutter is a recipe developer, food stylist, and culinary producer at The Kitchn. Originally from Houston, Texas, she spends her free time trying to perfect kolaches and breakfast tacos that taste like home. Rachel currently lives in Brooklyn with her partner, dog, cat and rabbit, where they all share a love of seasonal local produce.",
+            "jobTitle": ""
+        }
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "Rachel Perlmutter"
+    },
+    "keywords": [
+        "Cocktails",
+        "recipe",
+        "Gluten-Free",
+        "vegetarian",
+        "dairy",
+        "Party Food",
+        "winter",
+        "quick",
+        "Beverages",
+        "stovetop",
+        "Dish Types",
+        "team:recipes",
+        "platform:search",
+        "diet:vegetarian",
+        "diet:gluten-free",
+        "mainingredients:dairy",
+        "mainingredients:butter",
+        "occasion:winter",
+        "occasion:party format",
+        "timing:quick",
+        "dishtype:cocktail",
+        "dishtype:beverage",
+        "method:stovetop"
+    ],
+    "mainEntityOfPage": "https://www.thekitchn.com/hot-buttered-rum-recipe-23587983",
+    "dateCreated": "2023-10-18T14:00:00-04:00",
+    "datePublished": "2023-10-18T14:00:00-04:00",
+    "dateModified": "2023-10-30T10:41:58-04:00",
+    "abstract": null
+}

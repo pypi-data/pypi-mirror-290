@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Meatball Sliders with Tomato Sauce",
+    "datePublished": "2018-07-27T13:22:51.000-04:00",
+    "dateModified": "2022-01-04T11:51:52.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "This fun dish is two recipes in one: delicious, easy meatballs and a slow-simmered tangy tomato sauce. If you have any extra sauce, toss it with your favorite green vegetable, spoon it over a bowl of creamy grits, or pair it with pork chops or other meats.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/qDiojZ-cPTLlPBiIvstdpv0npoA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/meatball-sliders-tomato-sauce-sl-7881bdc7dfa04b438d21500d240d02ce.jpg",
+        "height": 1000,
+        "width": 1000
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Meatball Sliders with Tomato Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "6"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 tablespoons extra virgin olive oil",
+        "2 tablespoons tomato paste",
+        "1 tablespoon red wine vinegar",
+        "3 large fresh basil sprigs",
+        "2 garlic cloves, minced",
+        "2 (28-oz.) cans whole tomatoes, crushed",
+        "5 teaspoons kosher salt, divided",
+        "1 teaspoon freshly ground black pepper, divided",
+        "1 pound ground chuck",
+        "1 pound ground pork",
+        "1/2 cup panko (Japanese breadcrumbs)",
+        "1/4 cup freshly grated Parmigiano-Reggiano cheese",
+        "1/4 cup ricotta cheese",
+        "1/4 cup loosely packed chopped fresh flat-leaf parsley",
+        "1 large egg",
+        "1 large egg yolk",
+        "24 slider buns or dinner rolls, split and lightly toasted",
+        "12 (1-oz.) provolone cheese slices, halved",
+        "Garnish: fresh basil leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together first 6 ingredients in a 7-qt. slow cooker; stir in 2 tsp. salt and 1/2 tsp. pepper. Cover and cook on LOW 8 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, place ground chuck and ground pork in a large bowl. Add next 6 ingredients and remaining 1 Tbsp. salt and 1/2 tsp. pepper; mix gently just until blended. Gently shape mixture into 24 meatballs. (Do not pack.) Place meatballs in a single layer on a baking sheet; cover well, and chill until ready to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let meatballs stand at room temperature 20 minutes. Carefully submerge meatballs in tomato mixture in slow cooker. Cover and cook on HIGH 1 hour or until meatballs are done, stirring after 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat broiler with oven rack 7 inches from heat. Arrange bottom halves of 12 buns in a single layer on each of 2 baking sheets. Place 1 meatball on each bun; top with sauce and 1 halved provolone cheese slice. Repeat with remaining buns, meatballs, and cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Broil sliders, 1 baking sheet at a time, 2 to 3 minutes or until cheese melts. Top with top halves of buns."
+        }
+    ],
+    "totalTime": "PT575M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/meatball-sliders-tomato-sauce",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/meatball-sliders-tomato-sauce",
+                        "name": "Meatball Sliders with Tomato Sauce"
+                    }
+                }
+            ]
+        }
+    }
+}

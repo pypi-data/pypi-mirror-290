@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Salsa Verde",
+    "url": "https://www.foodnetwork.com/recipes/salsa-verde-3571589",
+    "headline": "Salsa Verde",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2018-03-16T01:05:23.874-04:00",
+    "dateModified": "2018-03-16T01:05:23.417-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Salsa,Fruit,Lemon,Gluten Free,Vegan",
+    "cookTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT0H10M0.000S",
+    "description": "Salsa verde is a bright, herbal accompaniment to meats, especially rich, fatty dishes like porchetta. It adds a lively freshness to almost any simple dish. It should be coarser than a pesto, but also more spreadable. Variables can be infinite: anchovy, lemon juice and Dijon mustard can deepen the flavor and balance the parsley; different herbs can be added or substituted to taste.",
+    "recipeIngredient": [
+        "1 bunch fresh Italian parsley",
+        "1 shallot ",
+        "1 tablespoon capers ",
+        "Zest of 1 lemon ",
+        "1/3 to 1/2 cup extra-virgin olive oil ",
+        "Salt and pepper",
+        "Salt and pepper "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 1.25 servings",
+        "calories": "706",
+        "fatContent": "73g",
+        "saturatedFatContent": "10g",
+        "carbohydrateContent": "16g",
+        "fiberContent": "5g",
+        "sugarContent": "5g",
+        "proteinContent": "3g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "516mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coarsely chop the parsley leaves and thin, tender stems. Finely chop the shallot and capers."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the chopped parsley, shallots and capers and the lemon zest in a small bowl; mix well. Stir in the olive oil to reach the desired consistency (ideally just binding the other ingredients together). Season to taste with salt and pepper."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "1/2 to 3/4 cup",
+    "recipeCategory": []
+}

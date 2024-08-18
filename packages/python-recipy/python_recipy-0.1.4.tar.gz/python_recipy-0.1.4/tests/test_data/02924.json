@@ -1,0 +1,86 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/onepot-coconut-fish-curry#Recipe",
+    "@type": "Recipe",
+    "description": "Cook our easy one-pot curry in just half an hour, with only 5 mins prep. Serve with rice and yogurt, it's ideal for feeding the family quickly, on a budget. Or serve with cauliflower rice for a keto-friendly dinner.",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/coconut-fish-curry-462110e.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/onepot-coconut-fish-curry"
+    },
+    "name": "One-pot coconut fish curry",
+    "url": "https://www.bbcgoodfood.com/recipes/onepot-coconut-fish-curry",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Elena Silcock",
+            "url": "https://www.bbcgoodfood.com/author/elenasilcock"
+        }
+    ],
+    "dateModified": "2023-02-07T15:27:33+00:00",
+    "datePublished": "2018-03-04T11:48:52+00:00",
+    "headline": "One-pot coconut fish curry",
+    "keywords": "1 of 5-a-day, Coconut, Curry, Easy, Elena Silcock, Family, Family friendly, Fish, Gluten free, Keto, keto dinner, Onepot",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT25M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "352 calories",
+        "fatContent": "25 grams fat",
+        "saturatedFatContent": "15 grams saturated fat",
+        "carbohydrateContent": "13 grams carbohydrates",
+        "sugarContent": "5 grams sugar",
+        "fiberContent": "5 grams fiber",
+        "proteinContent": "22 grams protein",
+        "sodiumContent": "0.6 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 tbsp oil",
+        "1 onion , chopped",
+        "1 large garlic clove , crushed",
+        "1 tsp turmeric",
+        "1 tsp garam masala",
+        "1 tsp chilli flakes",
+        "400ml can coconut milk",
+        "390g pack fish pie mix",
+        "200g frozen peas",
+        "1 lime , cut into wedges",
+        "yogurt and rice (or cauliflower rice), to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a large saucepan over a medium heat, add the onion and a big pinch of salt. Gently fry until the onion is translucent, so around 10 mins, then add the garlic and spices. Stir and cook for another minute, adding a splash of water to prevent them sticking. Tip in the coconut milk and stir well, then simmer for 10 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tip the fish pie mix and the frozen peas into the pan and cook until the peas are bright green and the fish is starting the flake, so around 3 mins. Season and add lime juice to taste. Ladle into bowls and serve with yogurt and rice."
+        }
+    ],
+    "recipeYield": 4,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet",
+    "totalTime": "PT30M"
+}

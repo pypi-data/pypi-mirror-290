@@ -1,0 +1,151 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/grilled-chicken-pasta-salad/",
+    "name": "Grilled Chicken Pasta Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-22",
+    "prepTime": "PT30M",
+    "cookTime": "PT10M",
+    "totalTime": "PT40M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Grilled-Chicken-Pasta-Salad_exps10431_GM1178114D13A_RMS-2.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "During the summer, my family often requests this recipe&mdash;especially our 19-year-old (we also have a 15-year-old and a 14-year-old). Simply add garlic bread for a great meal. It's wonderful, too, for a picnic or any gathering. &mdash;Lori Thon, Basin, Wyoming",
+    "recipeIngredient": [
+        "1-1/2 cups Italian salad dressing",
+        "1/2 cup cider vinegar",
+        "1/3 cup honey",
+        "2 teaspoons dried oregano",
+        "1 teaspoon dried basil",
+        "1/2 teaspoon pepper",
+        "6 boneless skinless chicken breast halves (4 ounces each)",
+        "1 package (12 ounces) fettuccine",
+        "1-1/2 cups fresh broccoli florets",
+        "3 medium carrots, thinly sliced",
+        "2 celery ribs, thinly sliced",
+        "1 large green pepper, chopped",
+        "2 cans (2-1/4 ounces each) sliced ripe olives, drained",
+        "DRESSING:",
+        "1-1/2 cups Italian salad dressing",
+        "1 teaspoon garlic salt",
+        "1 teaspoon dried oregano",
+        "1 teaspoon Italian seasoning"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large resealable plastic bag, combine the first six ingredients. Cut each chicken breast into four strips; add to marinade mixture. Seal bag and turn to coat. Refrigerate for 2-3 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain and discard marinade. Grill chicken, uncovered, over medium heat for 4-5 minutes on each side or until no longer pink. Meanwhile, cook fettuccine according to package directions; drain and rinse in cold water. Cut chicken into bite-size pieces; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the vegetables, olives and fettuccine. In a small bowl, whisk the dressing ingredients. Pour over salad; toss to coat. Top with chicken."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 516 calories",
+        "fatContent": "17g fat (3g saturated fat)",
+        "cholesterolContent": "63mg cholesterol",
+        "sodiumContent": "1290mg sodium",
+        "carbohydrateContent": "54g carbohydrate (11g sugars",
+        "fiberContent": "5g fiber)",
+        "proteinContent": "32g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-05-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "whiskeyechoalpha"
+            },
+            "reviewBody": "this recipe is confusing on ingredients and directions to make it. next time look before you put on web site",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-05-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mnlorraine"
+            },
+            "reviewBody": "What's wrong with the directions? Can you not read English?",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-06-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KScales"
+            },
+            "reviewBody": "We apologize for any confusion with this recipe. As others have stated, the chicken gets added to the marinade mixture, which are the first six ingredients. To clarify, we'll update the method soon.Taste of Home Test Kitchen",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-03-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jblunt4"
+            },
+            "reviewBody": "This was a light and tasty dish full of vegetables! Loved it !",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, Italian"
+}

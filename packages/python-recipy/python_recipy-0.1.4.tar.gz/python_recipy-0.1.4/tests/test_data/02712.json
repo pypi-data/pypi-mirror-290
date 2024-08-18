@@ -1,0 +1,150 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sukiyaki Stir-Fry (suki hang) สุกี้แห้ง",
+    "description": "Suki hang is a must-try Thai street food that is uniquely delicious. Glass noodles and veggies are stir fried in a luscious red sauce, with juicy marinated chicken. It's as easy as it is flavourful!",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2019/07/Suki-hang-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2019/07/Suki-hang-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2019/07/Suki-hang-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2019/07/Suki-hang-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/suki-hang/",
+    "recipeIngredient": [
+        "250g marinated chicken (recipe below), or another protein of your choice (see note)",
+        "2 cups napa cabbage, bite-sized pieces",
+        "1 cups water spinach or another leafy greens, 2-inch pieces",
+        "2 stalks Chinese celery or 1 stalk regular celery, cut into thin sticks",
+        "40g glass noodles, soaked in room temp water for 10 minutes and cut a couple of times to shorten",
+        "4 Tbsp suki sauce (recipe below)",
+        "2 eggs",
+        "Green onions and/or cilantro for garnish",
+        "250g chicken thigh or breast, boneless, skinless, bite-sized pieces",
+        "1½ tsp soy sauce",
+        "1½ tsp oyster sauce",
+        "1 tsp sesame oil",
+        "Thai chilies, to taste (I put 2)",
+        "5 cloves garlic",
+        "2 Tbsp granulated sugar",
+        "1 Tbsp white sesame seeds, toasted",
+        "4 Red bean curd cubes (see video for more info on this item)",
+        "2 Tbsp red bean curd juice",
+        "¼ cup white vinegar (*In the video I made a mistake and said 1 Tbsp vinegar; ¼ cup is the correct amount)",
+        "1 Tbsp toasted sesame oil",
+        "1 Tbsp soy sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients and mix well; marinate for at least 20 minutes. Meanwhile, make the sauce.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a mortar and pestle, pound garlic and chilies into a rough paste.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add sugar and grind until fine.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add sesame seeds and crush briefly just to break them up and release aroma.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add bean curd cubes and mash with pestle until there are no more lumps.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-5"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add all remaining liquid ingredients and stir to mix.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-6"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a wok heat just enough oil to coat the bottom over medium high heat. Once hot add chicken and sear without stirring until about halfway done. Flip the chicken then toss until completely done. Remove and set aside.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-7"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add a little more oil to wok if needed. On medium high heat add napa cabbage, water spinach, and celery and toss a couple of times just to coat in oil. Add noodles and sauce and keep tossing until noodles are cooked and all the sauce has been absorbed. If noodles dry out before it is cooked, add a splash of water.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-8"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add chicken back into the wok and toss to mix, then push noodles to one side to make room for eggs. Add a little more oil to the empty space, add eggs, then break the yolks. Put the noodles over the eggs and let sit for about 30 seconds so the eggs can cook. ",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-9"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss everything to mix the eggs, then turn off the heat.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-10"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in green onions and/or cilantro.",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-11"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve immediately with extra sauce if desired. Enjoy!",
+            "url": "https://hot-thai-kitchen.com/suki-hang/#instruction-step-12"
+        }
+    ],
+    "prepTime": "PT30M",
+    "cookTime": "PT5M",
+    "totalTime": "PT35M",
+    "recipeYield": [
+        "2",
+        "2 servings"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "1",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Thai Sukiyaki Stir-Fry Recipe (Suki Hang) สุกี้แห้ง   Thai Recipes",
+        "description": "A popular Thai street food of stir-fried glass noodles in an incredibly tasty sauce. Super healthy!",
+        "duration": "PT11M26S",
+        "embedUrl": "https://video.mediavine.com/videos/iNHyWlZmq.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681227056/iNHyWlZmq.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--x0RF9J9l--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681227064/mms2w2ysja0eqcjbsn8y.jpg"
+        ],
+        "uploadDate": "2020-11-27T03:32:09+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kim"
+            },
+            "datePublished": "2021-04-14",
+            "reviewBody": "If making with seafood mix, how do you recommend seasoning the seafood? Same as chicken? Thanks! :)"
+        }
+    ],
+    "datePublished": "2019-08-02",
+    "@id": "https://hot-thai-kitchen.com/suki-hang/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/suki-hang/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/suki-hang/",
+    "recipeCategory": []
+}

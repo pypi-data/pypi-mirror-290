@@ -1,0 +1,172 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Fried Apples",
+    "datePublished": "2022-10-14T17:02:40.000-04:00",
+    "dateModified": "2023-09-22T20:30:05.681-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Taylor Tobin",
+            "url": "https://www.southernliving.com/author/taylor-tobin"
+        }
+    ],
+    "description": "You don&#39;t have to visit Cracker Barrel to enjoy their beloved Fried Apples. We have a recipe that is every bit as sweet, tender, and perfectly spiced.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/YpUd9ts8JGah09nWtQ7hqs09Cgo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-11-26174ed893e74ff484dd57a20839017d.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Fried Apples",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "3"
+    },
+    "keywords": "fried apples",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "4 apples, cored, peeled, and sliced (such as Honeycrisp)",
+        "6 Tbsp. unsalted butter, divided",
+        "6 Tbsp. light brown sugar",
+        "2 Tbsp. white sugar",
+        "3 Tbsp. cornstarch",
+        "0.75 cup apple cider",
+        "2 tsp. ground cinnamon",
+        "0.5 tsp. nutmeg",
+        "1 Tbsp. lemon juice",
+        "1 oz. bourbon (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/rAQtEtuO7uxXOuINMQjNnjIRZT4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-2-981503ab54064d16a893c9024e8f7fb0.jpg"
+                }
+            ],
+            "text": "Make sugar mixture: Combine brown sugar, white sugar, cinnamon, and nutmeg in a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/Aupli-kAe9nf1qXvJJkXiMtHe2w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-4-a1197801ce1f4c5ea779f2ab87f254f9.jpg"
+                }
+            ],
+            "text": "Add apples to melted butter: In a cast-iron skillet over medium heat, melt 4 Tbsp. butter. Add the apples, sugar mixture, and lemon juice, and stir until the apples are fully coated."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/-ls0PYF-VpBz-HEbsPWLZDOhv9Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-5-86dc74749e6649ae9592977beb36e17a.jpg"
+                }
+            ],
+            "text": "Cook apples until tender: Reduce the heat to low. If using, add bourbon, and stir to deglaze the pan. Cover the pan, and simmer for 12-15 minutes, stirring occasionally, until the apples are fork-tender. Meanwhile, add apple cider and cornstarch to a small bowl, and whisk to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/uFVIjiTgpw3OtzaKRReXupmvklI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-6-10ba45a124b7401c98282774621938e0.jpg"
+                }
+            ],
+            "text": "Make syrup: When the apples are cooked to tender, use a slotted spoon to move them to a large bowl, leaving their juices in the skillet. Pour the apple cider mixture into the skillet, and stir to combine with the juices. Simmer for 1-2 minutes, or until the liquid begins to thicken, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/IsFvy3SE_1Zz73xJQ_S3XF4dVM8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-7-7d080144db9248508aab78012d256570.jpg"
+                }
+            ],
+            "text": "Return apples to skillet: Add the apples back to the skillet, and stir to fully coat."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/PlvasqriQHsR3aWu0_h_AvIRIjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/fried-apples-9-a69e13bd20994e6d9e7f42130ad1e955.jpg"
+                }
+            ],
+            "text": "Add butter and simmer: Add the cold butter. Simmer until the butter melts and the sauce takes on a syrupy, almost caramel-like consistency. Remove from heat, and serve."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/fried-apples",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/fruits",
+                        "name": "Fruits"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/fruits/apple",
+                        "name": "Apple"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/fried-apples",
+                        "name": "Fried Apples"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Filipino Chicken Barbeque",
+    "description": "This recipe for Filipino chicken barbecue comes from the orphanage that I worked at for a year. Chicken on skewers, marinated and cooked over an open grill.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "chicken barbecue, filipino chicken, filipino chicken recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/06/BBQ-chicken-13-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/BBQ-chicken-13-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/BBQ-chicken-13-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/06/BBQ-chicken-13.jpg"
+    ],
+    "url": "https://pinchofyum.com/filipino-chicken-barbecue",
+    "recipeIngredient": [
+        "6 cloves garlic, crushed",
+        "1 teaspoon black pepper",
+        "2 tablespoons lime juice",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon soy sauce",
+        "2 teaspoons salt",
+        "1 bouillon cube",
+        "2 tablespoons brown sugar",
+        "2 lbs. chicken thighs, cut into small pieces (at the shelter they keep the bone in)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all the ingredients except chicken to make a marinade. Marinate the chicken for 3-4 hours.",
+            "url": "https://pinchofyum.com/filipino-chicken-barbecue#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Start a charcoal grill and let the coals get very hot. You want smoking, flameless coals. Thread the chicken pieces onto wood skewers and place on a metal grate over the coals. Brush with oil and grill until the chicken is cooked through, about 5 minutes. Remove from heat and let rest for a few minutes.",
+            "url": "https://pinchofyum.com/filipino-chicken-barbecue#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Repeat the grilling process with the cooked chicken, brushing with oil as necessary, until the outside of the chicken is a deep golden brown with a crispy exterior. Dip in a soy sauce and vinegar mixture with bird&#8217;s eye chilis for a little spiciness.",
+            "url": "https://pinchofyum.com/filipino-chicken-barbecue#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT4H",
+    "cookTime": "PT5M",
+    "totalTime": "PT4H5M",
+    "recipeYield": "5",
+    "recipeCategory": [],
+    "recipeCuisine": "Filipino",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "9",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "251 calories",
+        "sugarContent": "3.9 g",
+        "sodiumContent": "1395.5 mg",
+        "fatContent": "7.6 g",
+        "saturatedFatContent": "2 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "7.3 g",
+        "fiberContent": "0.3 g",
+        "proteinContent": "36.4 g",
+        "cholesterolContent": "170.5 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Nicole"
+            },
+            "datePublished": "2013-08-29",
+            "reviewBody": "This make me want to fire up the grill. I am really into tailgating so maybe I can make these for our first tailgate party."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Eli's Mom"
+            },
+            "datePublished": "2013-08-29",
+            "reviewBody": "What! No banana ketchup again? :) Photos are so awesome. I love how you capture the \"cloudy haze of smoky-smoke\". :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Regina @ SpecialtyCakeCreations"
+            },
+            "datePublished": "2013-08-31",
+            "reviewBody": "We were put on dinner duty short-notice today and had chicken to work with. The delicious pictures from the email with this post came to mind and we tried it right away tonight. \r\nIt was awesome! The whole family loved it and not a single piece of chicken was left over. \r\nThank you for this wonderful recipe Lindsay. We love to eat 'globally' ;)"
+        }
+    ],
+    "datePublished": "2013-08-29",
+    "@id": "https://pinchofyum.com/filipino-chicken-barbecue#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/filipino-chicken-barbecue#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/filipino-chicken-barbecue"
+}

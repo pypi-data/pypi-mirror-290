@@ -1,0 +1,125 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019931-spiked-market-cider#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019931-spiked-market-cider",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/01/23/dining/23burner4/23burner4-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019931-spiked-market-cider",
+    "name": "Spiked Market Cider",
+    "description": "This cider-based cocktail from Union Square Cafe in New York has seasonal allure. It’s lip-smacking and attractive. They make vats of it in the restaurant and keep it chilled, but the recipe is easily to scaled down to reproduce at home. Come spring you might replace the Demerara syrup with maple syrup.",
+    "author": {
+        "@type": "Person",
+        "name": "Florence Fabricant"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/01/23/dining/23burner4/23burner4-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/23/dining/23burner4/23burner4-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/23/dining/23burner4/23burner4-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/23/dining/23burner4/23burner4-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H15M",
+    "recipeYield": "2 cocktails",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "applejack, cider, gin",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 47
+    },
+    "recipeIngredient": [
+        "1 cup nonalcoholic cider",
+        "3 ounces applejack",
+        "2 ounces gin",
+        "1 tablespoon lemon juice",
+        "1/2 tablespoon Demerara simple syrup (see note), or maple syrup",
+        "Dash Angostura bitters",
+        "Crushed ice",
+        "Pinch nutmeg",
+        "10 thin apple slices for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Combine cider, applejack, gin and lemon juice in a jar or pitcher. Stir in simple syrup and add bitters. Cover and refrigerate at least 4 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Fill 2 old-fashioned glasses with crushed ice. Pour in cider mixture. Dust with a little nutmeg and poke apple slices into the ice for garnish."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mariah"
+            },
+            "reviewBody": "Can you make this into a hot cider \n1. Heat non alcoholic cider on stove top\n2. When ready to serve add applejack, gin, bitters, maple syrup and nutmeg. \n3 Garnish with cinnamon sticks.",
+            "datePublished": "2020-11-02T11:50:16.000Z"
+        }
+    ]
+}

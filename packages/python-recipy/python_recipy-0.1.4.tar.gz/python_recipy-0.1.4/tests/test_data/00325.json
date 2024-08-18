@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Dairy-Free Whole Wheat Pumpkin Bread",
+    "datePublished": "2020-06-19T00:40:39.000-04:00",
+    "dateModified": "2022-01-04T08:10:06.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "sharilee7"
+        }
+    ],
+    "description": "Dairy-free and made with whole wheat flour, wheat bran, and coconut oil, this recipe provides a wholesome makeover to traditional pumpkin bread.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/XIa82hsdCB_qXRZEDwb7ji2cpoY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/804393-abac7622990e4c528e7819bd4bb43ca3.jpg",
+        "height": 250,
+        "width": 250
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Dairy-Free Whole Wheat Pumpkin Bread",
+    "cookTime": "PT75M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "356 kcal",
+        "carbohydrateContent": "59 g",
+        "cholesterolContent": "37 mg",
+        "fiberContent": "5 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "10 g",
+        "sodiumContent": "307 mg",
+        "sugarContent": "42 g",
+        "fatContent": "13 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "1 cup pumpkin pie filling (such as Libby's® Easy Pumpkin Pie Mix)",
+        "0.5 cup white sugar",
+        "0.5 cup agave nectar",
+        "0.5 cup honey",
+        "0.5 cup melted coconut oil",
+        "0.33333334326744 cup water",
+        "2 eggs",
+        "1.75 cups whole wheat flour",
+        "2 tablespoons flaxseed meal",
+        "1 tablespoon wheat bran",
+        "1 teaspoon baking soda",
+        "0.75 teaspoon ground cinnamon",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon pumpkin pie spice",
+        "0.25 teaspoon baking powder",
+        "0.25 teaspoon ground cloves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C). Grease the bottom and sides of a 9x5-inch loaf pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat pumpkin pie filling, sugar, agave nectar, honey, coconut oil, water, and eggs together in a mixing bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix flour, flaxseed meal, wheat bran, baking soda, cinnamon, salt, pumpkin pie spice, baking powder, and cloves together in a separate bowl. Add to pumpkin mixture a little at a time and stir until well blended. Pour into the prepared loaf pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until a knife inserted into the center of the loaf comes out clean, about 1 hour and 15 minutes."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT90M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/275625/dairy-free-whole-wheat-pumpkin-bread/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/360/bread/quick-bread/",
+                        "name": "Quick Bread Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/347/bread/quick-bread/pumpkin-bread/",
+                        "name": "Pumpkin Bread Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/275625/dairy-free-whole-wheat-pumpkin-bread/",
+                        "name": "Dairy-Free Whole Wheat Pumpkin Bread"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

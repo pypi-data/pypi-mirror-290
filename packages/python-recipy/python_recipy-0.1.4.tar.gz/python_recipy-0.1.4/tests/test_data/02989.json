@@ -1,0 +1,97 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/chicken-mushroom-risotto#Recipe",
+    "@type": "Recipe",
+    "description": "Learn to make this creamy, comforting risotto with our easy, step-by-step recipe – great for using up leftover chicken",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-mushroom-risotto-5ed8f22.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/chicken-mushroom-risotto"
+    },
+    "name": "One pot chicken and mushroom risotto",
+    "url": "https://www.bbcgoodfood.com/recipes/chicken-mushroom-risotto",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2024-01-25T12:12:34+00:00",
+    "datePublished": "2015-12-22T15:42:40+00:00",
+    "headline": "One pot chicken and mushroom risotto",
+    "keywords": "chicken and mushroom risotto, chicken risotto, easy risotto recipe, Good Food, how to make risotto, Leftover chicken, Mushroom risotto, take it to 10, Winter",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT55M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "629 calories",
+        "fatContent": "22 grams fat",
+        "saturatedFatContent": "12 grams saturated fat",
+        "carbohydrateContent": "62 grams carbohydrates",
+        "sugarContent": "4 grams sugar",
+        "fiberContent": "4 grams fiber",
+        "proteinContent": "37 grams protein",
+        "sodiumContent": "2 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "recipeIngredient": [
+        "50g butter",
+        "85g smoked bacon lardons",
+        "1 large onion, halved and finely chopped",
+        "250g chestnut mushrooms, thickly sliced",
+        "300g arborio risotto rice",
+        "150ml dry white wine",
+        "1.4l hot chicken stock",
+        "140g cooked chicken, chopped",
+        "50g grated parmesan, plus extra to serve (optional)",
+        "½ small pack of  flat-leaf parsley, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the butter in a large pan. Add the lardons and fry for 5 mins over a low-medium heat. Stir in the onion and fry for 10 mins more until the onion is soft but not coloured."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in the mushrooms and continue cooking, stirring, for 5 mins. Stir in the risotto rice and cook over a medium heat for 2 mins until the rice has started to turn translucent."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour in the wine and allow it to bubble away over the heat. Pour in a quarter of the chicken stock and set a timer for 20 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue cooking, stirring very frequently, topping up with a splash more stock as it gets absorbed – this is best done in three more stages, until the rice is cooked and most of the stock has been absorbed (you may not need all the stock). The texture now should be creamy, like rice pudding."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir through the chicken, warm briefly, then turn off the heat. Stir through the parmesan and parsley, cover and leave to rest for 5 mins to allow more liquid to be absorbed into the rice. Season to taste and serve with extra parmesan, if you like."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT1H5M"
+}

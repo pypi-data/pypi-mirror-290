@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Hemingway Daiquiri",
+    "datePublished": "2022-09-07T17:52:22.000-04:00",
+    "dateModified": "2024-04-09T16:39:36.303-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Taylor Tobin",
+            "url": "https://www.southernliving.com/author/taylor-tobin"
+        }
+    ],
+    "description": "Ernest Hemingway brought this spirit-forward Hemingway daiquiri from Cuba to Key West. It includes rum, fruit juice, and maraschino liqueur.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/nd5_gl5cTAlpzm4V6p5-4JoXqNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Hemingway_Daiquiris_001-1-2000-24f3f889e7994237982b88eb3873007a.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Hemingway Daiquiri",
+    "keywords": "hemingway daiquiri, hemingway cocktail",
+    "prepTime": "PT3M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "2 oz. white rum",
+        "0.75 oz. lime juice",
+        "0.5 oz. grapefruit juice",
+        "2 bar spoons (about 1/3 oz.) maraschino liqueur",
+        "0.25 oz. aged rum (optional)",
+        "Lime wheel or grapefruit wheel, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Chill glass: Chill a coupe glass in the freezer for 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Shake daiquiri: Add white rum, lime juice, grapefruit juice, and maraschino liqueur to a cocktail shaker. Place the lid on the shaker, and dry shake (shake without ice) or 10 seconds. Open the shaker, and fill halfway with ice cubes. Place the lid back on the shaker, and shake vigorously for 30 seconds, or until the shaker becomes almost too cold to handle."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour daiquiri into coupe: Remove the coupe glass from the freezer, and strain the cocktail into the glass. Garnish with a lime slice or a grapefruit slice."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT3M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/hemingway-daiquiri",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks",
+                        "name": "Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/drinks/cocktails",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/hemingway-daiquiri",
+                        "name": "Hemingway Daiquiri"
+                    }
+                }
+            ]
+        }
+    }
+}

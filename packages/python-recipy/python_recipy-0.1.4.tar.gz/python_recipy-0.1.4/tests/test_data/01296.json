@@ -1,0 +1,131 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Big Cluster Peanut Butter Granola",
+    "description": "This super simple Big Cluster Peanut Butter Granola is made with whole grains and no refined sugars - it's a perfect sweet and crunchy homemade snack!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "peanut butter granola, granola recipe, big cluster granola recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/PB-granola-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/PB-granola-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/PB-granola-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/PB-granola-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/big-cluster-peanut-butter-granola",
+    "recipeIngredient": [
+        "3 1/2 cups rolled oats",
+        "1 cup salted or honey roasted peanuts (chopped if you want but not necessary)",
+        "3/4 cup + 2 tablespoons whole wheat flour",
+        "1 1/2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "3/4 cup natural peanut butter (doesn&#8217;t have to be exact &#8211; messy mess)",
+        "1/4 cup canola oil",
+        "2/3 cup real maple syrup",
+        "2 teaspoons vanilla",
+        "1/4 cup milk (I used vanilla almond milk)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 275 degrees. Mix the oats, nuts, flour, baking powder, and salt together in a large bowl. Whisk the peanut butter, canola oil, real maple syrup, vanilla, and milk together until smooth. Pour the wet mixture over the oat mixture and stir to combine.",
+            "url": "https://pinchofyum.com/big-cluster-peanut-butter-granola#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Line a large (9&#215;13 or larger) jelly roll pan with parchment paper. Pour the granola mixture onto the pan and spread evenly. Bake for 15 minutes; stir once. Bake for another 15 minutes until golden brown and dry to the touch, but check back before the timer goes off to make sure it&#8217;s not getting too brown and dry. You want it to still be semi-soft. Leave the granola out for a while (2-3 hours) to cool, cluster, and crunchify. I left mine in the oven after it had cooled down to prevent the eat-a-cluster-every-time-you-walk-by problem. Serve on yogurt, with fruit, ice cream, milk, or just as a clusterific snack.",
+            "url": "https://pinchofyum.com/big-cluster-peanut-butter-granola#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT3H",
+    "totalTime": "PT3H15M",
+    "recipeYield": [
+        "16",
+        "16 (about 1/2 cup per serving - but it depends on how big your clusters are)"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "34",
+        "ratingValue": "4.6"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "277 calories",
+        "sugarContent": "9.1 g",
+        "sodiumContent": "141.2 mg",
+        "fatContent": "14 g",
+        "saturatedFatContent": "2 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "30.2 g",
+        "fiberContent": "4.1 g",
+        "proteinContent": "8.3 g",
+        "cholesterolContent": "0 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Judith"
+            },
+            "datePublished": "2014-08-11",
+            "reviewBody": "I did not like this at all. It has a cloying taste, made me thirsty. I see many of the comments while nice.......they did not make the recipe. Make the recipe, then comment.\r\nI threw it outside for the birds.\r\nSorry!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Danielle @ Chits and Chats and Chocolate"
+            },
+            "datePublished": "2014-08-11",
+            "reviewBody": "I love this because 1) peanut butter is the best and 2) BIG CLUSTERS. I hate when store bought granola is just a bag of crumbs.\r\nCongratulations on your kitchen renovation/ New sidewalk! That's so exciting!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Matt @ Plating Pixels"
+            },
+            "datePublished": "2014-08-11",
+            "reviewBody": "Kitchen remodel, that's so exciting! My dream is to have one with a large island in the center. Good luck and hope it's perfect for you guys. I've never had peanut butter in the granola so definitely will try. Love the photos as always!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Olivia - Primavera Kitchen"
+            },
+            "datePublished": "2014-08-11",
+            "reviewBody": "Wow AWESOME recipe! And your pictures are beautiful!"
+        }
+    ],
+    "datePublished": "2014-08-11",
+    "@id": "https://pinchofyum.com/big-cluster-peanut-butter-granola#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/big-cluster-peanut-butter-granola#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/big-cluster-peanut-butter-granola"
+}

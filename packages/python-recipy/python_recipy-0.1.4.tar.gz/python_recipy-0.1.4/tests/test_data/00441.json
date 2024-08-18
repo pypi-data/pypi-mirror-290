@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cherry Pop Cocktail",
+    "datePublished": "2021-08-27T15:44:24.736-04:00",
+    "dateModified": "2022-02-16T13:45:40.839-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Liz Tarpy",
+            "url": "https://www.simplyrecipes.com/liz-tarpy-5180990"
+        }
+    ],
+    "description": "A Cherry Pop Cocktail is a summer-y take on a gin fizz made with puréed cherries, orgeat, gin, and a splash of dry sparkling wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.simplyrecipes.com/thmb/-UD_Z-ehi2VKhTDKJPwp5eeZ7lE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Cherry-Pop-Cocktail-LEAD-5_RECIRC-ad3b7f23c4d84bebabafa63370626d4d.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Simply Recipes",
+        "url": "https://www.simplyrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+            "width": 1125,
+            "height": 320
+        },
+        "brand": "Simply Recipes",
+        "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/simplyrecipes",
+            "https://www.instagram.com/simplyrecipes",
+            "https://www.pinterest.com/simplyrecipes"
+        ]
+    },
+    "name": "Cherry Pop Cocktail",
+    "keywords": "gin fizz, cherry cocktail, cherry gin fizz, cherry pop cocktail, cherry drink, summer cocktail",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "205 kcal",
+        "carbohydrateContent": "22 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "17 mg",
+        "sugarContent": "15 g",
+        "fatContent": "0 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "3/4 cup (4 ounces) fresh cherries, pitted",
+        "3 ounces gin",
+        "1 ounce lemon juice",
+        "1 ounce orgeat",
+        "2 ounces prosecco",
+        "For garnish",
+        "Fresh cherries, pitted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Purée the cherries: Scrape down the sides with a rubber spatula and purée again for another 30 seconds. You want to get the purée as smooth as possible, though it’s ok if there are small bits. You should get about 3 ounces of purée."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add ingredients to a cocktail shaker: Add the cherry purée, gin, lemon juice, and orgeat to a cocktail shaker. Fill the shaker halfway with ice, and shake to chill, about 20 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve the cocktail: Fill 2 rocks glasses halfway with ice. Evenly strain the cocktail into the glasses. Pour 1 ounce of the prosecco on top of each. Thread 3 cherries on a cocktail pick for each drink and lay the pick on top of the glass or pop it in the drink."
+        }
+    ],
+    "recipeYield": "2",
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.simplyrecipes.com/cherry-pop-cocktail-recipe-5199066",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/recipes-5090746",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/drink-recipes-5091323",
+                        "name": "Drinks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/cherry-pop-cocktail-recipe-5199066",
+                        "name": "Cherry Pop Cocktail"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

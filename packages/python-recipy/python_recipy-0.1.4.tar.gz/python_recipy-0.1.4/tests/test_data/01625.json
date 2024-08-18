@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Caraway-Spiced Chickpea Stew with Mint Yogurt",
+    "datePublished": "2013-12-06T18:15:24.000-05:00",
+    "dateModified": "2017-02-06T17:36:21.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Yotam Ottolenghi",
+            "url": "https://www.foodandwine.com/author/yotam-ottolenghi"
+        }
+    ],
+    "description": "&#34;I like to add something unusual to a dish,&#34; says Yotam Ottolenghi about including caraway—a spice often used in northern and eastern Europe—in his ot...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/GgLDTnY7sb0lDhHgRVBqrhpnNWo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201105-xl-caraway-spiced-chickpea-stew-with-mint-yogurt-2000-68ea85dc601a48ae99a4af88a1efacd4.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Caraway-Spiced Chickpea Stew with Mint Yogurt",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "5288"
+    },
+    "recipeIngredient": [
+        "1/2 cup dried chickpeas, soaked in water overnight and drained",
+        "2 large carrots, cut into 1/2-inch dice",
+        "1/4 cup plus 1 teaspoon extra-virgin olive oil",
+        "Salt and freshly ground pepper",
+        "1 large onion, cut into 1/2-inch dice",
+        "1 teaspoon caraway seeds",
+        "1 1/2 teaspoons ground cumin",
+        "1 1/2 pounds Swiss chard, stems discarded and leaves sliced 1/2 inch thick",
+        "1 tablespoon fresh lemon juice",
+        "3/4 cup plain low-fat yogurt",
+        "1 teaspoon dried mint",
+        "3 tablespoons cilantro leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°. In a medium saucepan, cover the drained chickpeas by 2 inches of water and bring to a boil. Cover and simmer over moderately low heat until tender, adding water as necessary to keep the chickpeas covered, about 1 1/2 hours. Drain, reserving 1/2 cup of the cooking liquid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the carrots on a rimmed baking sheet, toss with 1 teaspoon of the olive oil and season with salt and pepper. Roast for about 15 minutes, until barely tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, heat 3 tablespoons of the olive oil. Add the onion and caraway and season with salt and pepper. Cover and cook over moderate heat, stirring occasionally, until the onion is golden, about 10 minutes. Add the cumin and cook, stirring, until fragrant, about 1 minute. Add the chard leaves and cook over moderately high heat, stirring, until wilted, about 2 minutes. Add the carrots, chickpeas and their reserved cooking liquid and simmer over low heat for 3 minutes. Add the lemon juice and season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, mix the yogurt with the mint and remaining 1 tablespoon of olive oil; season with salt and pepper. Transfer the stew to bowls and garnish with the cilantro. Pass the mint yogurt at the table."
+        }
+    ],
+    "totalTime": "PT120M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/caraway-spiced-chickpea-stew-mint-yogurt",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/comfort-food/stews",
+                        "name": "Stews"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/caraway-spiced-chickpea-stew-mint-yogurt",
+                        "name": "Caraway-Spiced Chickpea Stew with Mint Yogurt"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

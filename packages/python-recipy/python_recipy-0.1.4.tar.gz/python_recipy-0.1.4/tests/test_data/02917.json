@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/tomato-anchovy-risotto-crispy-crumbs#Recipe",
+    "@type": "Recipe",
+    "description": "Use up budget storecupboard groceries in this simple Italian rice pot with basil and breadcrumb topping",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1173684_11-91bbf28.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/tomato-anchovy-risotto-crispy-crumbs"
+    },
+    "name": "Tomato & anchovy risotto with crispy crumbs",
+    "url": "https://www.bbcgoodfood.com/recipes/tomato-anchovy-risotto-crispy-crumbs",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cassie Best",
+            "url": "https://www.bbcgoodfood.com/author/cassiebest"
+        }
+    ],
+    "dateModified": "2022-11-08T12:59:50+00:00",
+    "datePublished": "2012-12-27T03:43:02+00:00",
+    "headline": "Tomato & anchovy risotto with crispy crumbs",
+    "keywords": " Josh Eagleton, 2 of 5-a-day, Budget, Cassie Best, Cheap, Family, Fibre, Italian rice, Rice pot, Rissoto, Storecupboard",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "614 calories",
+        "fatContent": "12 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "100 grams carbohydrates",
+        "sugarContent": "9 grams sugar",
+        "fiberContent": "6 grams fiber",
+        "proteinContent": "26 grams protein",
+        "sodiumContent": "2.8 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "recipeIngredient": [
+        "6 anchovy fillets in olive oil, drained, oil reserved",
+        "1 small  red onion , chopped",
+        "2 garlic cloves , crushed",
+        "140g risotto rice",
+        "700ml hot chicken or  vegetable stock",
+        "400g can cherry tomato",
+        "100g fresh white breadcrumb",
+        "small handful  basil leaves (optional)",
+        "shaved parmesan , to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat half the oil from the anchovies in a saucepan. Add the anchovy fillets and onion and cook for 5 mins to soften. Add the garlic and cook for 1 min more. Tip in the rice, stir to coat in the oil, then cook for 2 mins until the grains turn translucent."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the stock, a ladle at a time, making sure the liquid is absorbed before you add the next and stirring continuously while cooking. Once you’ve added half the stock, tip in the tomatoes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue cooking and adding the stock until the rice is cooked but still has a little bite – the risotto should be oozy but not soupy. Season to taste, turn off the heat, put a lid on and leave for 5 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the remaining anchovy oil in a frying pan, add the breadcrumbs and toss until evenly golden. Serve the risotto in bowls with the crispy crumbs, basil leaves (if you like), and shaved Parmesan scattered on top."
+        }
+    ],
+    "recipeYield": 2,
+    "totalTime": "PT40M"
+}

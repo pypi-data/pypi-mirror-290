@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Steamed Cabbage &amp; Carrots",
+    "datePublished": "2019-01-18T19:37:37.000-05:00",
+    "dateModified": "2023-09-19T16:28:29.579-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "It&#39;s been said that serving cabbage for New Year&#39;s promises prosperity, so adding a few carrot coins can only sweeten the purse.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/TgRjKc11_5MuOkn8t69DQeGI8_k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steamed-cabbage-carrots-06.-Hero-94f649124d5c4d648c282d03361759d6.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Steamed Cabbage &amp; Carrots",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "36 kcal",
+        "carbohydrateContent": "6 g",
+        "fiberContent": "2 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "168 mg",
+        "sugarContent": "4 g",
+        "fatContent": "1 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "2 teaspoons olive oil",
+        "1 cup sliced carrots",
+        "1 medium head green cabbage (about 1 1/2 pounds), sliced into 1/2-inch-wide shreds",
+        "1 green bell pepper, cut into thin, bite-size strips",
+        "2 tablespoons water",
+        "0.5 teaspoon salt",
+        "0.25 teaspoon ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil over medium heat in a large pot. Add carrots; cook for 5 minutes, stirring frequently."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cabbage, bell pepper, the water, salt, and pepper. Cover and cook for 10 to 15 minutes or until the cabbage and bell pepper are tender, stirring occasionally."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/270185/steamed-cabbage-carrots/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/20125/low-calorie/side-dishes/vegetable/",
+                        "name": "Low-Calorie Vegetable Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21878/low-calorie/side-dishes/vegetable/cabbage/",
+                        "name": "Low-Calorie Cabbage Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/270185/steamed-cabbage-carrots/",
+                        "name": "Steamed Cabbage &amp; Carrots"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T16:28:29.579-04:00"
+    },
+    "recipeCategory": []
+}

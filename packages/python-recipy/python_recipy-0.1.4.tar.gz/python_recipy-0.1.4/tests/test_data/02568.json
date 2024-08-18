@@ -1,0 +1,97 @@
+{
+    "@type": "Recipe",
+    "name": "Cherry Sauce",
+    "author": {
+        "@id": "https://www.budgetbytes.com/#/schema/person/aaac0d2755621a1b3b3cb728b66c86c0"
+    },
+    "description": "Make this easy and delicious Cherry Sauce recipe for a sweet and tart topping for your favorite desserts or as a filling for Cherry Turnovers!",
+    "datePublished": "2023-08-12T09:00:00+00:00",
+    "image": [
+        "https://www.budgetbytes.com/wp-content/uploads/2023/08/Cherry-Sauce-Top.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2023/08/Cherry-Sauce-Top-500x500.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2023/08/Cherry-Sauce-Top-500x375.jpg",
+        "https://www.budgetbytes.com/wp-content/uploads/2023/08/Cherry-Sauce-Top-480x270.jpg"
+    ],
+    "recipeYield": [
+        "16",
+        "16 (2 Tbsp each)"
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+        "2 cups frozen or fresh sweet cherries ($3.33)",
+        "½ cup sugar ($0.22)",
+        "1 pinch salt ($0.01)",
+        "1  lemon ($0.30)",
+        "1 Tbsp cornstarch ($0.03)",
+        "3/4 cup water ($0.00)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place a medium-sized pot over medium heat. Add cherries, sugar, salt, and 1/2 cup of water. Stir to incorporate and bring the mixture to a soft boil.",
+            "name": "Place a medium-sized pot over medium heat. Add cherries, sugar, salt, and 1/2 cup of water. Stir to incorporate and bring the mixture to a soft boil.",
+            "url": "https://www.budgetbytes.com/cherry-sauce/#wprm-recipe-83239-step-0-0"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Use a vegetable peeler to zest the lemon in long strips. Then juice the lemon. Add the zest and just 1/2 tablespoon of the lemon juice to the pot. Stir to incorporate.",
+            "name": "Use a vegetable peeler to zest the lemon in long strips. Then juice the lemon. Add the zest and just 1/2 tablespoon of the lemon juice to the pot. Stir to incorporate.",
+            "url": "https://www.budgetbytes.com/cherry-sauce/#wprm-recipe-83239-step-0-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate bowl, mix the cornstarch into the remaining 1/4 cup of water until it is completely dissolved and creates a slurry. Add the cornstarch slurry and stir until incorporated. Boil the sauce for at least one more minute to activate the cornstarch.",
+            "name": "In a separate bowl, mix the cornstarch into the remaining 1/4 cup of water until it is completely dissolved and creates a slurry. Add the cornstarch slurry and stir until incorporated. Boil the sauce for at least one more minute to activate the cornstarch.",
+            "url": "https://www.budgetbytes.com/cherry-sauce/#wprm-recipe-83239-step-0-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue to stir until the syrup in the cherry sauce is bubbling softly and has thickened enough to coat the back of a spoon. Take the cherry sauce off the heat, allow it to cool, and remove the strips of lemon zest. It will thicken as it cools. Enjoy!",
+            "name": "Continue to stir until the syrup in the cherry sauce is bubbling softly and has thickened enough to coat the back of a spoon. Take the cherry sauce off the heat, allow it to cool, and remove the strips of lemon zest. It will thicken as it cools. Enjoy!",
+            "url": "https://www.budgetbytes.com/cherry-sauce/#wprm-recipe-83239-step-0-3"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "reviewBody": "I used frozen blueberries instead of cherries because that's what they had at the store, and it turned out great! I really enjoyed it with yogurt. Looking forward to trying it on pancakes for \"breakfast for dinner\" tomorrow. Also looking forward to the lemonade I'll be making with the leftover juice from my lemon :)",
+            "author": {
+                "@type": "Person",
+                "name": "Kalina"
+            },
+            "datePublished": "2024-05-12"
+        }
+    ],
+    "recipeCuisine": [
+        "American"
+    ],
+    "keywords": "Cherry Pie Filling, Cherry Sauce",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "2 Tbsp",
+        "calories": "37 kcal",
+        "carbohydrateContent": "10 g",
+        "proteinContent": "0.2 g",
+        "fatContent": "0.1 g",
+        "sodiumContent": "3 mg",
+        "fiberContent": "0.4 g"
+    },
+    "@id": "https://www.budgetbytes.com/cherry-sauce/#recipe",
+    "isPartOf": {
+        "@id": "https://www.budgetbytes.com/cherry-sauce/#article"
+    },
+    "mainEntityOfPage": "https://www.budgetbytes.com/cherry-sauce/",
+    "meal": "Dinner",
+    "cuisine": "American"
+}

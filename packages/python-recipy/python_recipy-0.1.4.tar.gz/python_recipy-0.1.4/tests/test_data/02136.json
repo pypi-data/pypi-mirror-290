@@ -1,0 +1,162 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Root Beer Sherbet Recipe",
+    "datePublished": "2013-06-14T07:15:00.000-04:00",
+    "dateModified": "2020-08-31T08:53:55.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Max Falkowitz",
+            "url": "https://www.seriouseats.com/max-falkowitz-5118901"
+        }
+    ],
+    "description": "Root beer plus vanilla ice cream all in one scoop.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/RVKT-ajKdQe1_oIj0KhmpzsWDeo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__06__20130613-root-beer-sherbet-eb5ddcfa0882409d8c304eee8c903862.jpg",
+        "height": 457,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Root Beer Sherbet Recipe",
+    "keywords": "ice cream, root beer, Scooped, sherbet",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "296 kcal",
+        "carbohydrateContent": "53 g",
+        "cholesterolContent": "34 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "7 g",
+        "sodiumContent": "161 mg",
+        "sugarContent": "53 g",
+        "fatContent": "11 g",
+        "servingSize": "makes 1 quart",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 cups root beer (see note), chilled",
+        "1 cup heavy cream, chilled",
+        "1 cup &#34;light&#34; (clear) corn syrup",
+        "1/2 cup sugar",
+        "1/4 teaspoon vanilla extract",
+        "3/4 to 1 teaspoon kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, whisk together root beer, cream, corn syrup, sugar, and vanilla until very well combined. Whisk in salt to taste. The root beer bubbles may form a fizzy raft in the bowl when combined with the cream; this is fine, and churning will fully incorporate it into the base."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "If root beer and cream were not chilled, refrigerate mixture for 2 to 3 hours until very cold. Churn mixture according to manufacturer&#39;s instructions. Transfer sherbet to container and chill in freezer for at least 3 to 4 hours before serving."
+        }
+    ],
+    "recipeYield": [
+        "8",
+        "1 quart"
+    ],
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betty Sorel"
+            },
+            "reviewBody": "I made this last night. It was sooooooo good! Will be using this recipe again 😊"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KevinMofM"
+            },
+            "reviewBody": "Since this was linked from the recent sherbet thread. Any tests using root beer soda syrups, like the kind from Torani?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tlkirk"
+            },
+            "reviewBody": "Has anybody tried this with another soda? My dad drinks Dr.Pepper and I thought I'd make it for him with that the next time he visited. Any suggestions?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ArkyTrojan"
+            },
+            "reviewBody": "For those looking for a stronger root beer, try using Sparky's (if you can get your hands on it, that is -- I know it's not available everywhere). It's a little heavy on the wintergreen, but it might hold up pretty well to the cream and vanilla. I haven't tried it in this recipe, so I can't really attest to its efficacy, but maybe someone can try it and report back..?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Max Falkowitz"
+            },
+            "reviewBody": "@IrieGirl the same tends to happen with beer. You'd think reducing it down would concentrate flavor, but it tends to kill the nuances and cook out too many volatile flavor compounds."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/root-beer-sherbet-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dessert-recipes-5117878",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/ice-cream-recipes-5117867",
+                        "name": "Ice Cream"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/root-beer-sherbet-recipe",
+                        "name": "Root Beer Sherbet Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

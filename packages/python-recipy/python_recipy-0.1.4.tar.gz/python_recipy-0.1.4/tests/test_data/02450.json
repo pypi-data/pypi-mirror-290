@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Iced Oatmeal-Applesauce Cookies",
+    "datePublished": "2010-12-21T06:22:36.000-05:00",
+    "dateModified": "2017-06-12T14:00:53.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "These soft, chewy cookies capture the flavor of a warm bowl of apple-cinnamon oatmeal.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/e2rDdMTWdmre15il1U2sxNWX7Ww=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/msd101473_hol05_apple_oat_xl-066f6d094ea3462cb5f35388fa86c4a8.jpgitokKh--7Xhh",
+        "height": 375,
+        "width": 300
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Iced Oatmeal-Applesauce Cookies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "326"
+    },
+    "keywords": "All-American, Applesauce, Christmas, Dessert, Maple syrup, Oatmeal cookies, Oats, Raisins, Snack",
+    "recipeIngredient": [
+        "4 tablespoons unsalted butter, melted",
+        "1 cup packed light-brown sugar",
+        "0.5 cup granulated sugar",
+        "1 large egg",
+        "0.5 cup chunky-style applesauce",
+        "1.5 cups old-fashioned rolled oats",
+        "1.25 cups all-purpose flour",
+        "0.5 teaspoon baking soda",
+        "0.25 teaspoon baking powder",
+        "0.25 teaspoon coarse salt",
+        "1 cup golden raisins",
+        "1.75 cups confectioners' sugar",
+        "3 tablespoons pure maple syrup"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make cookies: Preheat oven to 350. Put butter and sugars in the bowl of an electric mixer fitted with the paddle attachment. Mix on low speed until combined. Add egg and applesauce, mix until well blended, 2 to 3 minutes. Mix in oats, flour, baking soda, baking powder, and salt. Mix in raisins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a 1 1/2-inch ice cream scoop, drop dough onto baking sheets lined with parchment paper, spacing 2 inches apart. Bake cookies until golden and just set, 13 to 15 minutes. Let cool on sheets 5 minutes. Transfer cookies to a wire rack set over parchment paper; let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make icing: Whisk confectioners&#39; sugar, syrup, and 3tablespoons water until smooth. Drizzle over cookies, let set."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/314405/iced-oatmeal-applesauce-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502264/cookie-recipes",
+                        "name": "Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/314405/iced-oatmeal-applesauce-cookies",
+                        "name": "Iced Oatmeal-Applesauce Cookies"
+                    }
+                }
+            ]
+        }
+    }
+}

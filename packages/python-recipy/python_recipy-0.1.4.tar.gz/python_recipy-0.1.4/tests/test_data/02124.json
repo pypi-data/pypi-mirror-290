@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Maple Rosemary Ice Cream Recipe",
+    "datePublished": "2011-11-04T11:45:00.000-04:00",
+    "dateModified": "2020-04-15T14:38:56.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Max Falkowitz",
+            "url": "https://www.seriouseats.com/max-falkowitz-5118901"
+        }
+    ],
+    "description": "Use grade B maple syrup if you can; it has a more pronounced flavor that stands up to ice cream all the more. Serve this with warm pears (poached, caramelized, or in cobbler) and some toasted pecans.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/a9SZbDc86ryWqHq5lyiGg6WXMNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__11__20111104-1776467-maple-rosemary-ice-cream-7fa28dc0c012435dadc86a5ef7b457d0.jpg",
+        "height": 457,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Maple Rosemary Ice Cream Recipe",
+    "keywords": "frozen desserts, ice cream, maple, maple syrup, rosemary, Scooped",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "3 cups half and half",
+        "3 sprigs rosemary",
+        "6 egg yolks",
+        "1 cup maple syrup",
+        "1 teaspoon kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, heat half and half to a bare simmer and add rosemary. Cook on lowest possible heat for 20 minutes, covered, stirring bottom occasionally. Remove rosemary."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine egg yolks and maple syrup in a bowl and whisk until very well combined. Slowly add about 1/3 of dairy to bowl, one ladleful at a time, whisking constantly. Then transfer yolk mixture back to pot and whisk to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook custard on medium low heat, whisking frequently, until it thickens to coat the back of a spoon but a swiped finger leaves a clean line. Add salt to taste, then strain into a container to chill overnight in refrigerator."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "The next day, churn according to manufacturer&#39;s instructions. Transfer ice cream to freezer for several hours so it can harden."
+        }
+    ],
+    "recipeYield": [
+        "10",
+        "1 quart"
+    ],
+    "totalTime": "PT780M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/maple-syrup-rosemary-ice-cream-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/dessert-recipes-5117878",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/ice-cream-recipes-5117867",
+                        "name": "Ice Cream"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/maple-syrup-rosemary-ice-cream-recipe",
+                        "name": "Maple Rosemary Ice Cream Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

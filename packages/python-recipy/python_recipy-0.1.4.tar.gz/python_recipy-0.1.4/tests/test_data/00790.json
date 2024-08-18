@@ -1,0 +1,412 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022314-meatball-subs#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022314-meatball-subs",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/06/14/dining/as-meatball-subs/as-meatball-subs-videoSixteenByNineJumbo1600-v2.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022314-meatball-subs",
+    "name": "Meatball Subs",
+    "description": "In this classic Italian American sandwich, tender meatballs drenched in tomato sauce are tucked into crisp rolls then buried under a blanket of gooey cheese. It’s a messy sandwich no matter how you build it or bite into it, but wise construction can help: First, hollow out the rolls a bit so the meatballs have a place to sit. Then, use the leftover crumbs to make the meatballs, which will keep them light. Finally, toast the rolls to prevent them from getting too soggy with sauce. Of course, some crispy-gone-soggy bites are welcome, just as the cheese pulls, sauce drips and messy fingers are, too. They’re all part of the experience.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/as-meatball-subs/as-meatball-subs-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/as-meatball-subs/as-meatball-subs-superJumbo-v2.jpg",
+            "height": 1673,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/as-meatball-subs/as-meatball-subs-videoSmall-v2.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/as-meatball-subs/as-meatball-subs-verticalTwoByThree735-v2.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "ground beef, italian american, marinara sauce, mozzarella, parmesan",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1191
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 679,
+        "unsaturatedFatContent": "21 grams",
+        "carbohydrateContent": "31 grams",
+        "cholesterolContent": null,
+        "fatContent": "43 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "39 grams",
+        "saturatedFatContent": "17 grams",
+        "sodiumContent": "1243 milligrams",
+        "sugarContent": "7 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "4 (6-inch-long) sub, hero or hoagie rolls, split lengthwise but still attached on one side",
+        "1 egg",
+        "Kosher salt and black pepper",
+        "2 garlic cloves, peeled",
+        "Extra-virgin olive oil, for greasing",
+        "1 pound ground beef (at least 15 percent fat)",
+        "1/2 cup finely grated Parmesan, plus more for serving",
+        "2 tablespoons chopped basil leaves, plus more for serving",
+        "2 cups marinara sauce (homemade or from a 24-ounce jar)",
+        "4 slices mozzarella or provolone"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the broiler to high with a rack no more than 6 inches from the heat source. (See Tip if you don’t have a broiler.) Using a fork, scrape out some of the interior of the rolls until you get about 1 cup bread crumbs. Add them to a large bowl along with 1/2 cup water, the egg, 1 teaspoon salt and several grinds of pepper. Finely grate 1 garlic clove into the mixture, then stir to combine. Let sit for 5 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Lightly grease a large (12-inch), oven-proof skillet with olive oil. To the bread crumbs, add the beef, Parmesan and chopped basil. Stir with your hands until combined, avoiding overmixing. Roll into 12 balls (about 2 heaping tablespoons/2 ounces each) and place them in the prepared skillet as you go. Broil the meatballs until browned and nearly cooked through, 5 to 7 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Move the skillet to the stovetop. Add the marinara sauce, stir to coat the meatballs, and warm over medium-low heat while you toast the rolls: Place the rolls on a baking sheet, cut-side up, and broil until lightly golden, 1 to 2 minutes. Rub the cut sides of the roll with the second garlic clove."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide the meatballs and sauce among the rolls, then top with mozzarella. Broil until the mozzarella is melted and browned in spots, 1 to 2 minutes. Top with more grated Parmesan, basil leaves and black pepper."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "K Johnson"
+            },
+            "reviewBody": "Made these vegan with Beyond grounds and vegan provolone.  I seared the meatballs in a skillet then prepared Julia Moskin’s easy marinara and let the meatballs simmer in the sauce while it thickened. Toasted and melted the cheese in a 450 oven because using the broiler on vegan cheese will burn the bread before the cheese melts. Absolutely delicious!",
+            "datePublished": "2024-04-01T16:45:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christa"
+            },
+            "reviewBody": "Instead of beef, made it with 1lb turkey and 1/2lb pork (for more sandwiches). Accidently burnt the bread, next time I’ll turn off the broiler and just warm them up in the oven. Instead of rubbing the bread with a garlic clove, I made some garlic butter and spread a little on each roll. Yum! Might consider just baking the meatballs as they needed a longer cooking time on the stove with the sauce. But they were really delicious, everyone loved them.",
+            "datePublished": "2023-10-17T03:00:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff B"
+            },
+            "reviewBody": "This is how I make meatball subs, nice recipe. Using just ground beef, I'd season the meat more, some crushed fennel with red pepper flakes and parsley. Or, add half a pound of good quality Italian sausage to a pound of ground beef... additional bread to keep the meat/bread ratio the same. About a cup of bread per pound of meat makes a light springy meatball. We also like to serve the meatball subs with a side of chopped giardiniera mix, the crunch and acidity is a nice counterbalance.",
+            "datePublished": "2023-06-28T20:38:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark Carey"
+            },
+            "reviewBody": "Used ground venison. Added chili flakes (crushed them to bring out the heat) and oregano, substituted milk for the water, and then used the oven in a pan with olive oil to cook the meatballs for 25 minutes at 425 degrees. Took them out, then added them to the saucepan on the stove and simmered in the sauce for about 20 minutes. Put the rolls on the pan, added the meatballs, some sauce and the cheese (provolone) and put in the oven for a few minutes to crisp the rolls and melt the cheese.",
+            "datePublished": "2023-06-19T15:58:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie"
+            },
+            "reviewBody": "Delicious!  Used Wagu ground beef, 1/4 cup white wine plus 1/4 cup water for the bread crumbs.  Used both (two) cloves garlic and added 1/4 - 1/2 tsp dried oregano and a big pinch dried pepper flakes to the meat mixture.  My large cookie scooper made 14 meat balls.  Used a 12\" cast iron skillet, baked at 450 for 10 min, then broiled.  Moved to stove top, spooned away excess fat, added sauce etc.  Discovered a fabulous jarred marinara w/ whole cherry tomatoes - brand Sacla' Italia.",
+            "datePublished": "2023-06-19T00:04:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Taylor"
+            },
+            "reviewBody": "Quick and easy but I wish I added some more spices, not flavorful enough for me personally.",
+            "datePublished": "2023-01-30T01:29:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LC"
+            },
+            "reviewBody": "Excellent meatballs. Subbed ground turkey for beef and buttermilk for water to soak the bread. Added some additional spices (onion powder, burlap & Barrel’s pizza spice mix, dried basil for fresh, garlic powder for fresh), and microplaned garlic on the bread instead of just rubbing it over. All came out excellent! I recommend checking the meatballs with a meat thermometer because they look done before they are. \n\nWill make again",
+            "datePublished": "2023-01-10T08:52:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "baylie"
+            },
+            "reviewBody": "The meatballs seemed way too wet before I cooked them but they turned out delish! I would probably use less marinara sauce next time, but overall these subs were a hit.",
+            "datePublished": "2022-12-25T12:54:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "Since this recipe came out I have adapted it somewhat (use half Italian sausage meat) and sometimes serve the meatballs with spaghetti too! Great, easy basic recipe you can riff on.",
+            "datePublished": "2022-10-16T22:18:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rita K"
+            },
+            "reviewBody": "Love this recipe!  Thank you, Ali \nOnly change we made was using equal parts chopped veal, pork, and beef because our\nItalian Aunt Julie insisted on a mixture when she was still with us!",
+            "datePublished": "2022-10-03T01:02:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "reviewBody": "Bangin. In fairness I didn’t quite follow the recipe. I added in garlic powder, dried Italian mix, and the umami mushroom powder from trader joe’s as i didn’t have garlic and fresh basil. I cooked the meatballs in olive oil in a dutch oven, flipping to cook on both sides and covering the dutch oven in the meantime. To serve I split the meatballs in half and made these as half face open sandwiches on the NYT no knead bread. Used the ends of the loaf to make the bread crumbs needed. YUMMM.",
+            "datePublished": "2022-07-26T00:33:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sage55"
+            },
+            "reviewBody": "I needed a meatball recipe for spaghetti and this sure is a winner.  The meatballs were perfectly browned and there was a satisfying sizzle as the marinara was poured in.  I added some sage and crushed fennel seed to the mixture.  They were delicious and of course even better the following day.",
+            "datePublished": "2022-06-06T21:28:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jjocarbone"
+            },
+            "reviewBody": "Used leftover meatloaf and bottled pasta sauce… perfetto",
+            "datePublished": "2022-05-09T23:06:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Big Lar"
+            },
+            "reviewBody": "Made with Impossible and a teaspoon of Italian seasoning and it was great",
+            "datePublished": "2022-04-21T02:05:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bnolen"
+            },
+            "reviewBody": "I cannot remember a simpler recipe this tasty. \n\nWe sprinkled chopped jalapeños and bell pepper at the end for a nice bit of color and cold crunch. \n\nExcellent.",
+            "datePublished": "2022-02-28T00:36:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol Barber"
+            },
+            "reviewBody": "This is pretty darn close to my meatball recipe, so it's a good one.  The one critique I have is to NOT use water as it has no flavor.  Use broth of choice or milk.  If you only have water, hopefully you will have a stock base of choice (such as Better Than Bouillon) -- mix a 1/2 tsp or so with the water (or milk, if using!) to help boost flavor.",
+            "datePublished": "2021-06-16T12:27:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "babsymac"
+            },
+            "reviewBody": "I would not use straight beef in this recipe. Use a mix of beef, pork and veal instead. Much more flavorful.",
+            "datePublished": "2021-06-16T16:55:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eugene Ely"
+            },
+            "reviewBody": "We mix ricotta cheese in our meatballs and stew the meatballs in our marinara sauce. Juicy, tender, flavorful meatballs. And provolone in lieu of mozzarella.",
+            "datePublished": "2021-06-16T15:51:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brad"
+            },
+            "reviewBody": "Broiling the meatballs is a fairly risky and difficult way to cook them. You have to really watch them, avoid the smoke it may create and it'll heat up your kitchen. It's easy enough to cook them on the stovetop.\nI would also add a teaspoon of oregano to the meat mix.",
+            "datePublished": "2021-06-16T21:18:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steve"
+            },
+            "reviewBody": "Always cut the meatballs in half, it will keep them from rolling out of the sandwich when you try to eat it.",
+            "datePublished": "2021-06-19T16:13:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rizzo"
+            },
+            "reviewBody": "Far be it for me to question a meatball recipe.    I am in Calabria Italy and went to my butcher this morning.  He grabbed a side of beef from the fridge and took off a slab of beef and into the grinder it went.\n\n2 lbs. of coarsely ground beef\n3 cups of chopped stale-ish bread\n2 cups Romano cheese course grate\n2 eggs, should have used 3\n1 med coarsely chopped red onion\n1/4 lb. chopped prosciutto \nBlack pepper\nSalt\nFry in 1/4 of olive oil\nEnjoy",
+            "datePublished": "2021-06-17T20:15:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marto"
+            },
+            "reviewBody": "I made a vegan version of this recipe, using Impossible Burger ground beef and Violife provolone sliced cheez, and a standard vegan parm mix. Delicious.",
+            "datePublished": "2021-06-17T00:43:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allison"
+            },
+            "reviewBody": "Whatever liquid you use, Would make part of it either wine or vermouth.  I began to use this in my meatloaf recipe when I saw that many sausage makers do this to soften the meat.",
+            "datePublished": "2021-06-16T18:07:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann Hates Cooking"
+            },
+            "reviewBody": "If you can remember not to touch the pan handle after it's come out of the broiler and is sitting on the stovetop, you're a better person than I am. Same if you can put rolls under the broiler for an entire minute without nearly burning down your house. If I ever make this again (and I might, if I can get over the trauma, because it was a hit w/the family members who got some before it was gone) I will use a sheet pan for the meatballs and the toaster oven for the rolls.",
+            "datePublished": "2021-06-17T15:00:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessica"
+            },
+            "reviewBody": "I made this dish with Beyond Meat. It turned out great. I followed the advice of others and substituted ricotta for water. I added oregano and used about 1.5 x the written amount of spices to make up for the lack of flavor that you would get with ground beef. Fantastic dish. Even the non-vegetarian kids loved it.",
+            "datePublished": "2021-06-16T23:56:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "For a year now, I’ve substituted ground turkey for ground beef everywhere. This works especially well in meatballs, creating a lighter, less fatty yet hearty and delicious meal. The result: I’ve lost 10 lbs and done my little bit in helping the climate.",
+            "datePublished": "2021-06-19T12:27:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Monsieur Jimmy"
+            },
+            "reviewBody": "I now use 300g of ground beef, 300g ground fatty pork and 250g ricotta plus breadcrumbs and either fennel or oregano or just parsley (plus seasoning, obviously)",
+            "datePublished": "2021-06-18T11:04:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary W."
+            },
+            "reviewBody": "Vegan meatballs are great, as you don’t need to worry about cooking them all the way through, and the flavor is quite good. I brown them and then simmer them in red sauce. If you can do that a day in advance, all the better.",
+            "datePublished": "2021-06-18T11:15:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne H."
+            },
+            "reviewBody": "I slide a potholder over a hot pan handle so I don't grab it by accident. Congrats on your ultimate success.",
+            "datePublished": "2021-06-18T11:39:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "andres"
+            },
+            "reviewBody": "vegan meatballs are so much better than \"meat\" ones. !!!!",
+            "datePublished": "2021-06-18T13:08:50.000Z"
+        }
+    ]
+}

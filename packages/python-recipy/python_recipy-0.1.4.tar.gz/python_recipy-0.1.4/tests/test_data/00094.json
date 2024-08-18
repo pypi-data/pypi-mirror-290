@@ -1,0 +1,153 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Bourbon Sweet Potato Casserole",
+    "datePublished": "2020-12-09T12:28:47.000-05:00",
+    "dateModified": "2023-09-19T12:25:34.808-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Andrea Kirkland, M.S., RD",
+            "url": "https://www.eatingwell.com/author/andrea-kirkland/"
+        }
+    ],
+    "description": "This version of the holiday staple uses a little bourbon to boost the flavor of the sweet potatoes, but you can also use orange juice. Baking the potatoes in their skins allows their natural sugars to caramelize for enhanced sweetness.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/N8m51eSAH6H8z3keWin5_MnrD3E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bourbon-sweet-potato-cass-1244-eb3a0f4a36fe4f10aa65f5cf4ac4f657.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Bourbon Sweet Potato Casserole",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "156 kcal",
+        "carbohydrateContent": "22 g",
+        "cholesterolContent": "38 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "336 mg",
+        "sugarContent": "8 g",
+        "fatContent": "4 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "1.75 pounds sweet potatoes (3 medium)",
+        "1 large egg, lightly beaten",
+        "3 tablespoons bourbon or orange juice",
+        "2 tablespoons half-and-half",
+        "1 teaspoon ground cinnamon",
+        "1 teaspoon vanilla extract",
+        "0.75 teaspoon salt",
+        "0.5 teaspoon ground pepper",
+        "0.25 cup old-fashioned rolled oats",
+        "1.5 tablespoons brown sugar",
+        "1 tablespoon cold butter, cubed",
+        "1 tablespoon chopped pecans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°F. Line an 8-inch-square baking dish with foil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prick sweet potatoes with a fork in several places, then transfer to the pan. Bake until tender, about 60 minutes. Set aside to cool, about 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce oven temperature to 375°F. Peel and mash the sweet potatoes. Remove the foil from the baking dish and coat the pan with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the sweet potatoes, egg, bourbon (or orange juice), half-and-half, cinnamon, vanilla, salt, and pepper in a large bowl. Beat with an electric mixer on medium speed until smooth. Spoon into the prepared baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine oats, brown sugar, butter, and pecans; mix with your fingertips until crumbly. Sprinkle the topping over the sweet potato mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until the casserole is heated through and the topping is brown, about 35 minutes."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT120M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7878074/bourbon-sweet-potato-casserole/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17998/side-dishes/vegetable/sweet-potatoes/",
+                        "name": "Healthy Sweet Potato Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22833/side-dishes/vegetable/sweet-potatoes/sweet-potatoes/",
+                        "name": "Healthy Sweet Potato Casserole Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7878074/bourbon-sweet-potato-casserole/",
+                        "name": "Bourbon Sweet Potato Casserole"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T12:25:34.808-04:00"
+    },
+    "recipeCategory": []
+}

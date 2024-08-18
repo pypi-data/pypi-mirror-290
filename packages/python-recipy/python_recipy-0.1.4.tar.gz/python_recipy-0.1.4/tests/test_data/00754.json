@@ -1,0 +1,428 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1017391-fresh-egg-pasta#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1017391-fresh-egg-pasta",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-articleLarge.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1017391-fresh-egg-pasta",
+    "name": "Fresh Egg Pasta",
+    "description": "This adaptable pasta recipe will work with whatever flour you’ve got in the pantry. Using the “00” gives the silkiest, softest pasta while bread flour will give you more of a satisfying chew, and all-purpose lands you squarely in the middle. Because flour absorbs liquid differently depending on its age and the humidity in the air, consider these amounts as a guide and not as the law. Use your judgment. If the dough seems too wet and sticky to work with, add a bit more flour; if it seems too dry to come together into a smooth, satiny ball, add a bit more oil. The pasta is wonderful cooked right away, but you could dry it for future use instead. Let it hang in strands over the backs of your kitchen chairs or on a washing line if you have one. Or you can curl handfuls of pasta into loose nests and let them dry out on the sheet trays, uncovered.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-superJumbo.jpg",
+            "height": 1154,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-articleLarge.jpg",
+            "height": 338,
+            "width": 600,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H30M",
+    "recipeYield": "4 to 6 servings, about 1 pound",
+    "recipeCuisine": "italian",
+    "recipeCategory": [],
+    "keywords": "all-purpose flour, egg",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 1155
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 243,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "37 grams",
+        "cholesterolContent": null,
+        "fatContent": "6 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "8 grams",
+        "saturatedFatContent": "2 grams",
+        "sodiumContent": "175 milligrams",
+        "sugarContent": "0 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 1/4 cups/290 grams all-purpose flour, bread flour or “00” flour, more as needed",
+        "3/4 teaspoon/3 grams kosher salt",
+        "2 whole large eggs",
+        "3 egg yolks",
+        "1 tablespoon extra-virgin olive oil, more as needed"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a food processor, pulse together flour and salt. Add eggs, yolks and oil and run the machine until the dough holds together. If dough looks dry, add another teaspoon olive oil. If dough looks wet, add a little flour until dough is tacky and elastic."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Dump dough onto a work surface and knead briefly until very smooth. Wrap in plastic and rest at room temperature for 1 hour or in the fridge overnight. (If pressed for time, the dough can be used after a 30-minute rest; just note that it would be slightly harder to roll out.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cut the dough into 4 pieces, keeping them covered with plastic wrap or a dish towel when not in use. (If you’re rolling the dough out by hand, rather than using a pasta machine, cut it into 2 pieces instead.) Using a pasta roller set to the thickest (widest) setting, roll one piece of dough out into a sheet. Fold the sheet in thirds like a letter and pass it through the machine 2 more times on the same setting."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Reduce the setting, and repeat rolling and folding the dough, passing it through the machine 2 or 3 times before going to the next setting. For pappardelle and fettuccine, stop rolling when the dough is about 1 or 2 settings wider than the thinnest one on your roller. For lasagna noodles, and for ravioli and other stuffed or filled pasta, go to the thinnest setting. (To roll dough by hand, see note below.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Shape the pasta. For pappardelle, cut rolled pasta into 1-inch-wide strips. For fettuccine, run the rolled sheets through the fettuccine setting on your roller. Place cut pasta on a flour-dusted sheet tray and cover with a dish towel while rolling and cutting the remaining dough. Make sure to sprinkle flour over the cut pasta before you place another layer on top. If not using immediately, cover the sheet pan with a dish towel to keep the dough supple."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bring a large pot of well-salted water to a boil, add fresh pasta and boil for 1 to 3 minutes, depending on thickness of the pasta. Drain well."
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Homemade Pasta",
+        "description": "Melissa Clark makes fresh pasta with flour, salt, eggs and olive oil",
+        "thumbnailUrl": "https://static01.nyt.com/images/2015/05/07/multimedia/clark-pasta/clark-pasta-mediumThreeByTwo440.jpg",
+        "uploadDate": "2015-05-08T18:48:04.000Z",
+        "duration": "PT2M12S",
+        "transcript": "n/a",
+        "contentUrl": "http://vp.nyt.com/video/2015/05/08/33151_1_clark-pasta_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark"
+            },
+            "reviewBody": "The traditional northern Italian pasta recipe is 100g of flour to one \"large\" egg. I have made pasta for a couple of decades and my math and my climate tell me that a large egg approximates 55-57g of liquid. Mix up yolks and whites in whatever blend you like, but personally I use whole eggs for \"everyday\" fresh pasta and yolk-heavy for \"special occasion\" pasta.\n\nGet the mass of your eggs with shells on. Multiply by 100 (for 100g/egg). Divide by 57, and that's how many grams of flour to use.",
+            "datePublished": "2024-05-12T00:01:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nan Dem"
+            },
+            "reviewBody": "2 cups = 250 grams mixed flour",
+            "datePublished": "2024-05-04T19:06:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lorraine Fina Stevenski"
+            },
+            "reviewBody": "Thank you Melissa Clark for a great easy recipe and video. I dug out my Mom's Atlas pasta maker I have moved to 3 different homes in the last 30 years. My son and I made this egg pasta and enjoyed the time together. The food processor method is a quick perfect method for making this dough. I made a basil parsley pesto to toss with the hot pasta. A sprinkle of Grana Padano cheese and fresh basil just before serving. Next time I will double the recipe!",
+            "datePublished": "2024-04-15T11:19:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nichole"
+            },
+            "reviewBody": "The video states that oil isn’t traditional but helps with rolling later, adding is optional. That said, I made this as written but it needed one extra yolk due to eggs size, or flour age, or humidity, or whatever. I followed others advice and used kitchen aid dough hook to knead but it seemed tough and I thought it was over worked. I left it overnight in the fridge, it rolled and cut easily and was very tasty.",
+            "datePublished": "2024-04-15T03:47:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara Streer"
+            },
+            "reviewBody": "A different recipe: One large whole egg per person, broken into a large bowl.  Mix in enough whole wheat flour to make a paste.  (I mix with my hands, wearing food-handler gloves.) Mix in enough semolina to make a not-too-dry, not-to-sticky dough.  Since I usually am making only for 2, I turn my food handler glove inside out to cover over the dough ball, and let that rest 30-60 or more minutes.  Then roll out with my (30+ year old) pasta maker.  Fettuccini noodles cook in about 3 1/2 minutes.",
+            "datePublished": "2024-04-13T19:00:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Damian"
+            },
+            "reviewBody": "Agree with Max Alexander. I finally learned the proper way to make pasta in Rome two years ago, with 100 g tipo 00 to one egg (though I find that 90 g to one egg works better with US eggs). \n\nWhen I started my past-making journey, I did something similar to Melissa's recipe with salt, olive oil and additional yolks. None of it is necessary! What is necessary is the kneading. Don't do it \"briefly\". A long knead is key.",
+            "datePublished": "2024-04-13T19:45:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name Linda Criss"
+            },
+            "reviewBody": "In Italy most Italians consume dry pasta which needs to be cooked. On Sundays perhaps they will “roll the dough” however most likely only on very special occasions. Get over the eye rolling please-",
+            "datePublished": "2024-04-12T18:10:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nan in Belfast, Maine"
+            },
+            "reviewBody": "Thank you for repeating this recipe!  I've use it and loved it but now I want to learn to make pasta using chick pea flour and maybe lentil flour.  Anyone have recipes or ideas?  I tried using buckwheat flour ... that was a disaster.  All ideas welcome !",
+            "datePublished": "2024-04-12T15:25:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "marissa"
+            },
+            "reviewBody": "Was verrrrrrrt dry so I added 5 (or 6?) T’s of EVOO and one more egg (I used 3 whole large eggs as suggested in a comment - 4 total!)",
+            "datePublished": "2024-03-23T21:05:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "so disappointing!"
+            },
+            "reviewBody": "I love NYT recipes and especially love Melissa Clark recipes, but this one was a disaster for me! I followed the recipe to a T but it never came together in my food processor despite adding more and more olive oil. I ended up with a dough that was somehow both oily and dry, and was completely immobile through my pasta roller. Ended up throwing the whole thing in the trash. Thankfully I had some dry pasta in the pantry to use in a pinch, but what a waste of ingredients and time!",
+            "datePublished": "2024-01-14T02:16:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth"
+            },
+            "reviewBody": "Great recipe!! Doubled and made with 1.5c AP flour and 1c 00 flour and got a satisfying level of chewiness. Used the egg-flour volcano technique and then kneaded by hand, which took lots of elbow grease. Ultimately had to add a bit of water, incorporated a tsp at a time. Let rest for about an hour, then worked to the third thinnest setting on the machine (7).\n\nFettuccini took 3-4 minutes to al dente and was delicious!",
+            "datePublished": "2023-08-27T05:09:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Max Alexander, Rome"
+            },
+            "reviewBody": "100 grams flour to one egg. This is an immutable ratio in Italy. No salt. No oil, ever. Roll out by hand so each strand of pasta is slightly different in thickness and thus more rustic and interesting to eat. Cut pasta with a knife after folding into overlapping sleeves, don't waste time or money on a pasta cutter. Then toss the little piles of pasta with a bit of flour and set aside to cook. Don't dry it, don't hang it. Just use it.",
+            "datePublished": "2023-05-03T15:04:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dorothy Raviele"
+            },
+            "reviewBody": "I made this today but used semolina flour.  It makes a slightly toothier pasta but very good.  Also did the kneading by hand.  Very satisfying for working out your frustrations.",
+            "datePublished": "2023-04-24T23:26:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deta"
+            },
+            "reviewBody": "Why are you adding salt? Pasta dough isn’t bread dough. Salt makes pasta dough more brittle, harder to knead and slower to dry. Especially not needed when salting pasta boiling water. Also, why not semolina flour as an option? Is it because there’s no water in this dough like in store bought? I also heard that store bought “semolina/water” styles raise blood sugar more than homemade doughs made with “egg/oil” and “none or very little water”. Is that true?",
+            "datePublished": "2023-04-08T18:27:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kristin"
+            },
+            "reviewBody": "I used 00 flour and large eggs, measued by grams, and let it rest for an hour. I added many tsp extra of olive oil and it was still wayyyy too tough for my pasta roller to take. Ended up needing to add a little water.",
+            "datePublished": "2023-03-09T14:29:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chef Pace, milano"
+            },
+            "reviewBody": "classico  pasta fresca in Italia<br/><br/>100 gr. farina (flour) 00<br/>1 uovo grande (large egg)<br/>pizzico di sale (pinch of salt)<br/>olio di gomito  (elbow grease)",
+            "datePublished": "2017-10-30T13:19:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cc"
+            },
+            "reviewBody": "Here's the thing - step 2 states  \"Dump dough onto a work surface and knead briefly until very smooth.\"<br/>For me, 'very smooth' wasn't happening,\"briefly\".  I used my kitchenaid, with dough hook and 5 min. later, I had very smooth and elastic. Dough was a dream to work with, needing very little flour. Next up: work roasted garlic paste into oil used to make the dough. This is a good recipe, even with the oil.",
+            "datePublished": "2017-10-30T13:17:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "M."
+            },
+            "reviewBody": "Hi David. I know it's been a year since you posted online about this pasta recipe. Just a tip. If you freeze the egg whites and put them into the top of a homemade stock after skimming the scum, the whites will act as a raft and grab all the impurities of the stock leaving a clarified and clear liquid. Similar to a consumme.<br/>I freeze mine all the time so I have them without wasting the yolks from another recipe.",
+            "datePublished": "2017-10-24T22:06:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan Findlay"
+            },
+            "reviewBody": "If you have a scale, weighing the ingredients may help. I don't use salt or oil in my noodles; just whole eggs and flour in a 2 to 3 egg to flour ratio. For example, crack 3 eggs into a bowl and weigh them. Let's say they weigh 180 grams. Scramble them lightly with a fork and add them to 270 grams \"00\" flour. 2:3::180:270. Mix and knead (and knead, and knead, not briefly), rest, and sprinkle with a little more flour if the dough is too sticky to pass through the rollers. Don't give up!",
+            "datePublished": "2020-04-20T21:00:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sara Coles"
+            },
+            "reviewBody": "This recipe (and video) finally got me over my fear of making pasta, and got the pasta machine out of the pantry. As others have posted, I used 3 whole eggs (no yolks) and King Arthur AP flour with very good results. I found an almost identical pasta recipe in an old pasta cookbook, so it must be a classic.",
+            "datePublished": "2017-10-30T13:45:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bowman"
+            },
+            "reviewBody": "After mixing and kneading the dough, I was convinced that it was going to be a disaster. My dough ball was a lump, useful only as a door stopper … or so I thought. However, after leaving it for an hour, it turned out to be workable. And then, to my utter surprise, successive passes through the machine left me with wonderfully thin but resilient fettuccine. Light and delicious with long, thin zucchini slices cooked quickly in butter, parmigiano and cracked pepper.<br/><br/>A treat.",
+            "datePublished": "2017-10-30T13:36:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JoanC"
+            },
+            "reviewBody": "If too dry, add water, a little at a time (not oil - I'm Italian, and we never make pasta dough with oil).  If the dough has already come together you can put a teaspoon or so of water on the kneading surface and knead it into the dough.  The dry air in your home could be a factor, or the age of the flour; I doubt you'll ever wind up making pasta dough with the exact same measurements twice.",
+            "datePublished": "2017-10-30T13:10:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Evamarie"
+            },
+            "reviewBody": "I also used my Kitchenaid with dough hook to knead this. You're right, it worked great and I had fabulous results. Love this recipe. I made my mother's chicken noodle soup recipe using this for the noodles and it was as of mom herself made it.",
+            "datePublished": "2017-10-30T13:30:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claude"
+            },
+            "reviewBody": "Great recipe. :0) I took some fresh basil and sandwiched it between two sheets of the pasta dough and then rolled it through my Kitchenaid pasta roller again. Then cut it into strips and let it dry. Very nice results, fresh pasta with Basil. I have cut the strips by hand as well when I want them larger so you can see the shape of the Basil leaves inside, makes for an interesting presentation with people wondering what you did to get the pasta to look like that. I will make this again and again.",
+            "datePublished": "2017-10-30T13:23:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Loretta"
+            },
+            "reviewBody": "I used a blend of semolina, durum flour, and unbleached all-purpose flour. It made a wonderfully silky, supple pasta. King Arthur makes the perfect pasta flour blend. It was delicious!",
+            "datePublished": "2017-10-30T13:22:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charles"
+            },
+            "reviewBody": "I don't know whether it's the atmospheric conditions in Baltimore that give us drier flour or a deficiency in our eggs, but I'd recommend starting with a smaller quantity of flour (240 grams) and adding as necessary. The heartbreak of over-dry dough is indescribable, and extra olive oil doesn't really help at all.",
+            "datePublished": "2017-10-24T20:06:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "Just used 3 whole eggs and slightly more oil as I had no need of the egg whites. worked just fine",
+            "datePublished": "2017-10-30T13:13:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "wallaby"
+            },
+            "reviewBody": "Start with 250 grams flour first . . . I find it easier to add flour if too moist than liquid if too dry. Very tasty. I used AP flour for a little bite - great!",
+            "datePublished": "2017-10-30T13:34:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cc"
+            },
+            "reviewBody": "You know, I've now ruined myself and family; we just can't eat store-bought pasta any more. Using this recipe, I now make my pasta, regularly. And, I find the rolling machine to take too long. I roll the pasta out by hand using my heavy marble rolling pin. Works like a charm. What I've found out though is this: the dough doesn't freeze very well. Popping it directly into the water from freezer? meh. It's just gotta be fresh!",
+            "datePublished": "2017-10-30T15:01:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "I've tried some fresh pasta recipes before that always turned out way too chewy, but this pasta had a beautiful texture. I made it without a food processor, and I had to add a bunch more oil and a little water to make it pliable. I was worried about the consistency, but after resting, it was perfect and rolled out beautifully.",
+            "datePublished": "2017-12-26T17:10:10.000Z"
+        }
+    ]
+}

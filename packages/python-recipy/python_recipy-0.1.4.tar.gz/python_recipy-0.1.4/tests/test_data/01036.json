@@ -1,0 +1,130 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mini Cranberry-Cheesecake Pies",
+    "datePublished": "2020-10-09T19:18:34.000-04:00",
+    "dateModified": "2022-04-01T16:51:09.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "Your holiday table will look oh-so-festive when you add the pop of color from these mini cranberry cheesecake pies. These creamy, sweet-tarts are like little bites of winter.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/ktA3_gQCtTxTwdHr66QneR2xux0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2649402_MiniP_Minipie_Cover_873-2000-2bbdc4a053b04d3d98365a15713c6f95.jpg",
+        "height": 2000,
+        "width": 1333
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Mini Cranberry-Cheesecake Pies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "recipeIngredient": [
+        ".75 cup fresh or thawed frozen cranberries, divided",
+        "2 teaspoons pure maple syrup",
+        ".5 cup white sanding sugar",
+        "1 teaspoon grated orange zest plus ⅓ cup fresh juice (from 1 large [10 oz.] orange), plus more zest for garnish",
+        "1 cup plus 2 Tbsp. granulated sugar, divided",
+        "2.75 cups finely crushed crisp gingersnap cookies (from about 12 oz. cookies)",
+        ".5 cup unsalted butter, melted",
+        "1 teaspoon kosher salt, divided",
+        "2 (8-oz.) pkg. cream cheese, softened",
+        ".25 cup sour cream",
+        "1 teaspoon vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place ½ cup of the cranberries in a bowl; add maple syrup, and toss to coat. Place sanding sugar in a separate bowl. Working in batches of about 2 tablespoons each, add cranberries to sanding sugar; toss to coat. Arrange cranberries in 1 layer on a plate. Set aside to dry at room temperature, at least 1 hour or up to overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, stir together orange zest, orange juice, 2 tablespoons of the granulated sugar, and remaining ¼ cup cranberries in a small saucepan. Bring to a simmer over medium. Cook, stirring occasionally and mashing cranberries with the back of a spoon, until mixture is slightly thickened, 4 to 5 minutes. Remove from heat. Using a fork, mash cranberries until mixture is almost smooth. Cool completely, about 30 minutes. (If needed, stir in up to 1 tablespoon water, ½ teaspoon at a time, until mixture has consistency of loose jam.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Spray a 12-cup muffin pan with cooking spray; set aside. Stir together gingersnap crumbs, melted butter, ⅓ cup of the granulated sugar, and ¾ teaspoon of the salt in a bowl. Spoon into muffin cups (about 3 ½ tablespoons each); press into bottom and up sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake piecrusts in preheated oven until set, 12 to 16 minutes. Transfer pan to a wire rack. Use the handle of a wooden spoon to press hot crusts back into a cup shape. Cool completely, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine cream cheese, sour cream, vanilla, and remaining ⅔ cup granulated sugar and ¼ teaspoon salt in bowl of a stand mixer fitted with a paddle attachment. Beat on medium-high speed until light and smooth, 2 to 3 minutes. Transfer cheesecake mixture to a piping bag fitted with a large (¾-inch) open star tip."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Carefully remove cooled crusts from pan. Pipe filling into crusts (about 3 tablespoons each). Before serving, top each pie with about ½ teaspoon cranberry compote. Top with sugared cranberries and orange zest. Serve remaining compote on the side."
+        }
+    ],
+    "totalTime": "PT110M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/mini-cranberry-cheesecake-pies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/mini-cranberry-cheesecake-pies",
+                        "name": "Mini Cranberry-Cheesecake Pies"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

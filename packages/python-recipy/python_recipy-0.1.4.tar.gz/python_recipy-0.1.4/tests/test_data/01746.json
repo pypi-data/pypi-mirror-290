@@ -1,0 +1,109 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Smoked Turkey Sandwich",
+    "url": "https://www.foodnetwork.com/recipes/smoked-turkey-sandwich-8718549",
+    "headline": "Smoked Turkey Sandwich",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/05/21/DV3206_smoked-turkey-sandwich_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1590089135207.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/05/21/DV3206_smoked-turkey-sandwich_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1590089135207.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/05/21/DV3206_smoked-turkey-sandwich_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1590089135207.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2020-05-21T15:24:31.159-04:00",
+    "dateModified": "2020-05-21T15:24:30.322-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Sandwich,Turkey Breast,Main Dish,High Fiber",
+    "cookTime": "P0Y0M0DT1H0M0.000S",
+    "totalTime": "P0Y0M0DT12H15M0.000S",
+    "recipeIngredient": [
+        "1 1/2 cups barbecue spice rub",
+        "One 3- to 4-pound boneless turkey breast ",
+        "1/2 head green cabbage",
+        "1/4 head red cabbage ",
+        "1 medium carrot ",
+        "3/4 cup mayonnaise ",
+        "1/3 cup sugar ",
+        "1/4 cup white vinegar ",
+        "1/8 teaspoon salt ",
+        "1/8 teaspoon ground black pepper ",
+        "3 cup fresh cranberries",
+        "1 cup sugar ",
+        "1/2 cup orange juice ",
+        "1 tablespoon barbecue spice rub",
+        "1 1/2 habanero chiles, finely chopped ",
+        "Four 6-inch deli rolls",
+        "8 slices Swiss cheese",
+        "Barbecue sauce, for serving"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "1555",
+        "fatContent": "76g",
+        "saturatedFatContent": "22g",
+        "carbohydrateContent": "117g",
+        "fiberContent": "10g",
+        "sugarContent": "82g",
+        "proteinContent": "100g",
+        "cholesterolContent": "301mg",
+        "sodiumContent": "867mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the smoked turkey breast: Combine 1 cup spice rub and 2 gallons water in a large container, then add turkey breast to brine. Cover and place in refrigerator overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a smoker for cooking at 200 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove turkey breast from brine and pat dry. Rub with remaining 1/2 cup spice rub. Place in smoker and cook until it reaches an internal temperature of 150 degrees F, about 3 1/2 hours. Remove from smoker and let rest 15 minutes, then slice thin."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the cole slaw: Meanwhile, thinly cut both cabbages and put in a medium bowl. Grate the carrot and add to the bowl. Add the mayonnaise, sugar, vinegar, salt and pepper and mix well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the gorilla berry habanero sauce: Add cranberries, sugar, orange juice, spice rub and habanero to a saucepan. Cook, stirring occasionally, over medium-high heat, about 20 minutes. Break down with an immersion blender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the sandwich: Cut open the rolls. Open and toast, with two slices of cheese on the top halves. When cheese is melted, remove from heat and add about 3 tablespoons Gorilla Berry Habanero Sauce to each roll bottom. Add turkey breast, barbecue sauce and 1/2 cup cole slaw to each. Close sandwiches, then cut in half and enjoy!"
+        }
+    ],
+    "recipeYield": "4 servings",
+    "recipeCategory": []
+}

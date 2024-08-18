@@ -1,0 +1,319 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022875-uncle-glenns-onaga-steamed-red-snapper-with-somen#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022875-uncle-glenns-onaga-steamed-red-snapper-with-somen",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/01/23/magazine/23mag-eat-site/23mag-eat-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022875-uncle-glenns-onaga-steamed-red-snapper-with-somen",
+    "name": "Uncle Glenn’s Onaga (Steamed Red Snapper With Somen)",
+    "description": "In Hawaii, onaga is the most prized kind of snapper and the centerpiece of festive meals. Glenn Yamashita steams the whole fish, Chinese-style, with a sour-salty stuffing, a topping of preserved vegetables and a tumble of aromatics. Two of the ingredients are readily available in Hawaii but may require more of a search elsewhere: chung choi, salted turnip wrapped in its own leaves — pickled mustard greens are a fine substitute — and scallop powder, which can be approximated with fish sauce. Skeins of Japanese somen noodles are tucked beneath the fish and hot oil poured over at the end. Done right, it crackles.",
+    "author": {
+        "@type": "Person",
+        "name": "Ligaya Mishan"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/01/23/magazine/23mag-eat-site/23mag-eat-site-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/01/23/magazine/23mag-eat-site/23mag-eat-site-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/01/23/magazine/23mag-eat-site/23mag-eat-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/01/23/magazine/23mag-eat-site/23mag-eat-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H15M",
+    "recipeYield": "4 to 6 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "christmas, new year’s day, red snapper",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 123
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 424,
+        "unsaturatedFatContent": "9 grams",
+        "carbohydrateContent": "28 grams",
+        "cholesterolContent": null,
+        "fatContent": "12 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "47 grams",
+        "saturatedFatContent": "2 grams",
+        "sodiumContent": "1010 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 garlic cloves, crushed",
+        "1/4 cup peanut oil",
+        "1 whole red snapper or other whole mild white fish (2 1/2 to 3 pounds), gutted and scaled, head and tail left on (see Tip)",
+        "2 bundles somen (about 7 ounces) ",
+        "1 small celery stalk, cut into very thin matchsticks",
+        "1 small carrot, peeled and cut into very thin matchsticks",
+        "3 scallions, cut into very thin matchsticks",
+        "1/2 small white onion, cut into very thin matchsticks",
+        "1 small bunch cilantro, leaves coarsely chopped, stems minced",
+        "1 ball (about 1 1/4 ounces) chung choi (salted preserved turnip), rinsed, squeezed dry and finely chopped (3 tablespoons; see Tip)",
+        "1 (3-inch) piece fresh ginger, peeled and minced (1/3 cup)",
+        "1 teaspoon oyster sauce",
+        "1 teaspoon scallop powder mixed with water to make a thin paste, or 1 teaspoon fish sauce ",
+        "1 tablespoon soy sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "The day before cooking, submerge the garlic in the oil in a small container. Cover and refrigerate overnight."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When ready to cook, check the fish for any remaining scales and scrape off, paying special attention to the head and tail. Rinse the fish and pat dry. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Boil the somen according to the package instructions, rinsing and draining well. While the noodles are still damp, arrange them on a serving platter and cover with plastic wrap."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Loosely toss together the celery, carrot, scallions, onion and cilantro leaves in a small mixing bowl. Set aside at room temperature (if refrigerated, the hot oil added at the end won’t sizzle). In another small bowl, mix the chung choi, ginger and cilantro stems, and stuff 1/2 cup of the mixture inside the fish cavity, including the head. Pat the remaining few tablespoons over both sides of the fish’s body."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Set a steamer rack or other metal rack inside a wok or roasting pan large enough to accomodate the fish and set on the stove, straddling two burners if needed. Have ready the wok’s lid or sheets of foil large enough to cover the roasting pan tightly. Add enough water to come up to the rack (1 to 1 1/2 inches). Bring the water to a boil over high heat. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, stack 2 sheets of heavy-duty aluminum foil large enough to hold the fish. Turn up and crimp the foil at the edges to create a boat just large enough to fit the fish. The raised edges will catch the drippings, which will make the sauce. Put the foil boat on the rack over the boiling water, then lay the stuffed fish on the foil. Cover with a lid or tightly with foil and let steam for 15 to 18 minutes (6 minutes per pound). Don’t lift the lid to check on the fish, as this will cause the temperature to drop. Adjust the temperature as needed if the lid begins to clatter. Uncover and check to see if the fish is done: The eyes should be white and bulging, the mouth slightly agape and a chopstick inserted into the flesh should slide in easily. Turn off the heat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Using two long spatulas, gently transfer the fish to the somen platter, laying it on top of the noodles. Lift the foil boat out of the steamer, careful not to spill any sauce, and pour the sauce into a small bowl. Add the oyster sauce and scallop powder (or fish sauce) and stir. Pour the sauce over the fish, then cover the fish with the vegetable and herb garnish. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pour the reserved garlic oil into a small saucepan. Heat over high until the garlic turns golden brown, 2 to 3 minutes. Turn off the heat and discard the garlic. Slosh the soy sauce over the garnished fish, then carefully pour on the hot garlic oil, letting it sizzle. Serve immediately."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cia"
+            },
+            "reviewBody": "I really wanted to like this dish for Chinese New Year, but it's so much easier without the somen and the vegetable toppings. The noodles seem like a waste and just a bed for the fish; the veggies too raw to incorporate when eating the fish.",
+            "datePublished": "2022-02-05T14:50:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Will Schermerhorn"
+            },
+            "reviewBody": "We just made this to celebrate the eve of Chinese New Year. We had a small fish, 1.5 pounds, but kept everything else as written. The close work of matchsticking was so worth it. It was like a hot fish salad, so fragrant, crunchy and fish-meaty. It’s a joy.",
+            "datePublished": "2022-02-01T00:03:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Natasha"
+            },
+            "reviewBody": "A quick google search revealed that Chung Choi is also just dried salted radish which can be found at any Chinese grocery store. It is also the same ingredient used by Thais for making pad thai.",
+            "datePublished": "2022-01-25T03:34:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Merry"
+            },
+            "reviewBody": "You can also use a whole sea bass or 2 smaller fishes and steam them, using a deep pasta pot or fish poacher and a steamer racl. The magic in this dish is the shredded greens atop the fish, which is then sizzled with the hot garlic oil (I  keep the garlic bits in the oil)",
+            "datePublished": "2022-01-21T22:28:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Merry"
+            },
+            "reviewBody": "Cannot substiture kimchee for the chung toi...it's very different taste experience. Chung toi is closest to preserved turnips, another Chinese preserved vegetable that is salty and sometimes comes in Hunan flavor (spicy)",
+            "datePublished": "2022-01-21T22:20:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris Heise"
+            },
+            "reviewBody": "Stripped down, this dish can be made without the scallop powder, chungchoi or the oyster sauce as the soy sauce provides enough salt, and the fish juices will provide the rest of the flavor.  Garlic, ginger, green onions, cilantro are essential.  Fish must be fresh!  Eyes must be full and bulging, gills must be red and not slimy.  Overcooking is the ultimate crime against seafood.  10-12 minutes on high, check with chopstick.  Fish should be flaky, not hard. If cooked to bone, it’s done.",
+            "datePublished": "2022-01-21T20:11:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "M. Lukens"
+            },
+            "reviewBody": "@maggie As a substitute for scallops, the recipe suggests fish sauce.",
+            "datePublished": "2022-01-21T19:19:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "maggie"
+            },
+            "reviewBody": "What is a good substitute for scallop powder. I’m very allergic to scallops? Thanks",
+            "datePublished": "2022-01-21T18:09:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RoLo"
+            },
+            "reviewBody": "Indeed, it would be incredibly helpful if the recipe provided the specific name of the ingredient (to google images), a detailed description of the ingredient's appearance, regionality, where to buy it both in and outside of its locale, subs to look for in Asian markets, and how to make our own versions at home. \n\nThe great news is that the \"Tips\" section contains every bit of this information. The recipe's intro has a little more about chung choi etc. as well.",
+            "datePublished": "2022-01-22T15:37:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet"
+            },
+            "reviewBody": "We need substitutes for those of us who are unable to buy ingredients like Chung Choy. At least, tell us what it is.",
+            "datePublished": "2022-01-21T18:19:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "R"
+            },
+            "reviewBody": "Salting your own mustard greens as recommended is probably a better option.  Chung choi is not spicy in the sense of chili pepper spicy.  It's something put in jook and pork hash.  If anyone knows the Chinese characters, I would love if they would post that.  Baek kimchi (white kimchi made without gochugaru) would probably work. That being said, you know the community, substitutes may not recreate the recipe but they may make something delicious :)",
+            "datePublished": "2022-01-21T19:03:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "eileen"
+            },
+            "reviewBody": "Could kimchee be substituted for the chung choi?",
+            "datePublished": "2022-01-21T16:57:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "eileen"
+            },
+            "reviewBody": "Could kimchee be substituted for the chung choi?",
+            "datePublished": "2022-01-21T16:57:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "R"
+            },
+            "reviewBody": "Salting your own mustard greens as recommended is probably a better option.  Chung choi is not spicy in the sense of chili pepper spicy.  It's something put in jook and pork hash.  If anyone knows the Chinese characters, I would love if they would post that.  Baek kimchi (white kimchi made without gochugaru) would probably work. That being said, you know the community, substitutes may not recreate the recipe but they may make something delicious :)",
+            "datePublished": "2022-01-21T19:03:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris Heise"
+            },
+            "reviewBody": "Stripped down, this dish can be made without the scallop powder, chungchoi or the oyster sauce as the soy sauce provides enough salt, and the fish juices will provide the rest of the flavor.  Garlic, ginger, green onions, cilantro are essential.  Fish must be fresh!  Eyes must be full and bulging, gills must be red and not slimy.  Overcooking is the ultimate crime against seafood.  10-12 minutes on high, check with chopstick.  Fish should be flaky, not hard. If cooked to bone, it’s done.",
+            "datePublished": "2022-01-21T20:11:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RoLo"
+            },
+            "reviewBody": "Indeed, it would be incredibly helpful if the recipe provided the specific name of the ingredient (to google images), a detailed description of the ingredient's appearance, regionality, where to buy it both in and outside of its locale, subs to look for in Asian markets, and how to make our own versions at home. \n\nThe great news is that the \"Tips\" section contains every bit of this information. The recipe's intro has a little more about chung choi etc. as well.",
+            "datePublished": "2022-01-22T15:37:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Merry"
+            },
+            "reviewBody": "Cannot substiture kimchee for the chung toi...it's very different taste experience. Chung toi is closest to preserved turnips, another Chinese preserved vegetable that is salty and sometimes comes in Hunan flavor (spicy)",
+            "datePublished": "2022-01-21T22:20:29.000Z"
+        }
+    ]
+}

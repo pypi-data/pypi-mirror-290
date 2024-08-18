@@ -1,0 +1,174 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Broiled Oysters With Tasso Breadcrumbs",
+    "datePublished": "2020-10-14T12:35:08.000-04:00",
+    "dateModified": "2024-01-13T21:13:46.722-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Emily Nabors Hall",
+            "url": "https://www.southernliving.com/author/emily-nabors-hall"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "The seafood lovers in your crowd will simply adore these broiled oysters, a classic appetizer that goes big on flavor. These briny, buttery broiled oysters will be the hit of the appetizer table.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/-eFFw4gKbMIvLhNFJflK6RpxSB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2648701_Broiled_Oysters_084-bee50eabaaa44cd7a446ce7126e4e8dd.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Broiled Oysters With Tasso Breadcrumbs",
+    "keywords": "broiled oysters",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "4 to 5 thick slices day-old sourdough bread, crusts removed, bread torn into 1-inch pieces",
+        "3 tablespoons unsalted butter",
+        "4 ounces finely chopped pork tasso (about 1 cup)",
+        "1 bunch scallions, white parts finely chopped (about 1/4 cup) and green parts reserved",
+        "1 tablespoon chopped garlic (3 medium garlic cloves)",
+        ".75 teaspoon kosher salt",
+        ".5 teaspoon black pepper",
+        ".25 cup lager beer (such as Miller Lite)",
+        "1 (4-lb.) pkg. rock salt",
+        "36 oysters on the half shell",
+        "Lemon wedges and hot sauce, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare oven: Preheat oven to broil with rack 6 inches from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make breadcrumbs: Place bread pieces in a food processor, and pulse until biggest pieces are pea-size, 10 to 15 pulses. (You will need 3 cups of breadcrumbs.) Melt butter in a large skillet over medium-high. Add breadcrumbs, pork tasso, white parts of scallions, garlic, kosher salt, and pepper. Cook, stirring often, until breadcrumbs begin to toast and tasso begins to brown, about 7 minutes. Add beer. Cook, stirring constantly, until beer has been absorbed by bread and mixture is moist but not wet, about 15 more seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare rock salt: Spread rock salt evenly on 2 rimmed baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Assemble oysters: Arrange oysters evenly on salt. Spoon about 1 tablespoon of breadcrumb mixture onto each oyster. Broil 1 pan at a time in preheated oven until breadcrumb mixture is golden brown, about 4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Garnish, and serve: Thinly slice green parts of scallions; sprinkle over broiled oysters. Serve oysters hot with lemon wedges and hot sauce."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/broiled-oysters-tasso-breadcrumbs",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/appetizers",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/broiled-oysters-tasso-breadcrumbs",
+                        "name": "Broiled Oysters With Tasso Breadcrumbs"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-01-13T21:13:46.722-05:00"
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is a good substitute for pork tasso?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Pork tasso is a specialty of Cajun cuisine that may be hard to find, depending on where you live. If needed, substitute with standard ham or sausage.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What if I do not have rock salt?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If you can&#39;t find rock salt, bake the oysters on a bed of kosher or coarse salt, or crinkled tin foil to help keep them in place.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Are broiled oysters fully cooked?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>Yes—oysters cook quickly. By the time the topping is golden brown, the oysters will be fully cooked throughout.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Smoked Pork Chops",
+    "datePublished": "2020-09-08T04:18:11.000-04:00",
+    "dateModified": "2020-09-08T04:18:11.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Soup Loving Nicole"
+        }
+    ],
+    "description": "These smoked pork chops are seasoned with a homemade rub that has the perfect balance of sweet, salty, and smoky. Try a new way to enjoy pork chops.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/XUUVYGynLve2Pj-nd-MywcthiKg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8523285-205cf68d260343c5a7839543f270d25d.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Smoked Pork Chops",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "4"
+    },
+    "cookTime": "PT150M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "193 kcal",
+        "carbohydrateContent": "2 g",
+        "cholesterolContent": "65 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "26 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "537 mg",
+        "sugarContent": "1 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1.5 teaspoons kosher salt",
+        "1.5 teaspoons light brown sugar",
+        "1.5 teaspoons ground black pepper",
+        "1 teaspoon paprika",
+        "0.5 teaspoon ground mustard",
+        "0.5 teaspoon garlic powder",
+        "0.5 teaspoon onion powder",
+        "0.25 teaspoon oregano",
+        "6 bone-in center-cut pork chops (about 1-inch thick)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the smoker to 250 degrees F (120 degrees C). Add wood chips according to the manufacturer&#39;s directions."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine salt, brown sugar, pepper, paprika, ground mustard, garlic powder, onion powder, and oregano in a small bowl. Stir until evenly combined. Sprinkle over both sides of each pork chop."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place pork chops directly on the smoker grate. Smoke for 2 hours 30 minutes. Remove chops from the smoker and let rest for 10 minutes."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT170M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "SS5"
+            },
+            "reviewBody": "I made this for dinner with a few tweaks and it is AWESOME!!! First off, I doubled the recipe (except for the meat) and added extra garlic because we are huge garlic lovers. I used smoked paprika instead of regular because that's what I had on hand. \n Then I added just enough canola oil to turn the mixture into a thick marinade and stirred in about 2 Tbsp of prepared yellow mustard. We poured the marinade over the pork and cooked it in the crockpot for 7 hrs on low. The flavor is AMAZING!! Can't wait till our smoker gets fixed so we can try it that way too!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Anne Henderson"
+            },
+            "reviewBody": "great recipe. love it",
+            "datePublished": "2024-06-05T17:18:09.682Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Pilar Williams"
+            },
+            "reviewBody": "I am not sure if was the pork chops i used or the fact that I am not a big fan of pork but mine had a mild metal taste. They looked good but could not eat much of it.",
+            "datePublished": "2022-01-24T15:22:54.147Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/281495/smoked-pork-chops/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/673/main-dish/pork/",
+                        "name": "Pork"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/674/main-dish/pork/pork-chops/",
+                        "name": "Pork Chop Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/281495/smoked-pork-chops/",
+                        "name": "Smoked Pork Chops"
+                    }
+                }
+            ]
+        }
+    }
+}

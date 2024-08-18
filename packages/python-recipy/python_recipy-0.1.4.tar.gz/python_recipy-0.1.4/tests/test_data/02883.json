@@ -1,0 +1,127 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=0.780xw:0.624xh;0,0.267xh&resize=100:*",
+    "datePublished": "2012-10-11T10:19:00 EDT",
+    "headline": "Green Beans with Bacon",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=0.780xw:0.624xh;0,0.267xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=0.780xw:0.624xh;0,0.267xh&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=0.780xw:0.624xh;0,0.267xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=1xw:0.5999643196955281xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=0.780xw:0.624xh;0,0.267xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/green-beans-bacon-1663687205.jpg?crop=1xw:0.44997323977164605xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a4225/green-beans-bacon-recipe-clv1112/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "sweet and savory,Bacon,side dishes,pecans,thanksgiving side dishes,green beans,Thanksgiving,bacon recipes",
+        "NUTRITION: dairy-free",
+        "NUTRITION: gluten-free",
+        "NUTRITION: low-calorie",
+        "OCCASION: autumn",
+        "OCCASION: Christmas",
+        "OCCASION: dinner party",
+        "OCCASION: feed a crowd",
+        "OCCASION: Thanksgiving",
+        "CATEGORY: dinner",
+        "CATEGORY: side dish",
+        "TOTALTIME: 00:45:00",
+        "FILTERTIME: <1HR",
+        "RATING: 0",
+        "FILTERRATING: unrated"
+    ],
+    "url": "https://www.countryliving.com/food-drinks/recipes/a4225/green-beans-bacon-recipe-clv1112/",
+    "isBasedOn": "https://www.countryliving.com/food-drinks/recipes/a4225/green-beans-bacon-recipe-clv1112/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "This Thanksgiving, swap-in this savory-sweet side dish for green bean casserole of years past.  It's sure to stand out with bold ingredients like bacon and pecans.",
+    "author": {
+        "name": "Cheryl Slocum",
+        "url": "https://www.countryliving.com/author/2416/cheryl-slocum/",
+        "@type": "Person"
+    },
+    "name": "Green Beans with Bacon",
+    "prepTime": "PT25M",
+    "cookTime": "PT0S",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+        "Kosher salt and freshly ground pepper",
+        "2 1/4 lb. fresh green beans",
+        "4 slices bacon, chopped",
+        "2 medium shallots, chopped",
+        "1/4 c. chopped pecans (about 1 ounce)",
+        "6 tbsp. white-wine vinegar",
+        "1 1/2 tbsp. sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot over high heat, bring 2 1/2 quarts salted water to a boil. Working in batches, add green beans and cook 2 minutes per batch. Transfer to a bowl. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pan over medium heat, cook bacon until crisp, about 7 minutes. Transfer to a paper-towel-lined plate; set aside. Sauté shallots for 2 minutes; add pecans and cook for 1 minute. Remove pan from heat; add vinegar and sugar, stirring until sugar dissolves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add reserved green beans to pan; cook over low heat until heated through, about 4 minutes. Season with salt and pepper. Transfer to a dish; top with reserved bacon."
+        }
+    ],
+    "recipeYield": "8 serving(s)",
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeCategory": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "147 calories"
+    },
+    "@context": "http://schema.org"
+}

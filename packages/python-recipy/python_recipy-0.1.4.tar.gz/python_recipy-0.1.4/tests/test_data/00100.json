@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Creamy Mushroom &amp; Tomato Farro Risotto",
+    "datePublished": "2020-01-27T20:59:45.000-05:00",
+    "dateModified": "2023-09-19T14:57:51.403-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "EatingWell Test Kitchen",
+            "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+        }
+    ],
+    "description": "Instead of arborio rice, this creamy grain dish features the bold nuttiness of farro, which pairs nicely with the black pepper and Parmesan. The cherry tomatoes add a nice touch of juicy sweetness, and the cremini mushrooms give a &#34;meaty&#34; feel to this vegetarian main dish.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/3OsaHsCM_ADllhn-a-0MQbpuTrY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7671178-a881ac66fb4545aea4c7f2d622ee6dde.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Creamy Mushroom &amp; Tomato Farro Risotto",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "408 kcal",
+        "carbohydrateContent": "63 g",
+        "fiberContent": "8 g",
+        "proteinContent": "17 g",
+        "saturatedFatContent": "5 g",
+        "sodiumContent": "652 mg",
+        "sugarContent": "5 g",
+        "fatContent": "11 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT40M",
+    "recipeIngredient": [
+        "3 cups lower-sodium vegetable broth (such as Imagine)",
+        "1.5 cups water",
+        "2 cups cherry tomatoes (about 10 oz.)",
+        "6 ounces sliced fresh cremini mushrooms (about 2 cups)",
+        "1 tablespoon olive oil, divided",
+        "Cooking spray",
+        "1.75 cups uncooked quick-cooking farro (about 8 3/4 oz.)",
+        "0.5 cup (2 oz.) chopped yellow onion (from 1 [5-oz.] onion)",
+        "1 tablespoon unsalted butter",
+        "0.5 teaspoon kosher salt",
+        "0.5 teaspoon black pepper",
+        "2 ounces Parmesan cheese, grated (about 1/2 cup), divided",
+        "1 tablespoon chopped fresh flat-leaf parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 450F. Bring broth and water to a simmer in a medium saucepan over medium-high; reduce heat to low, and keep warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss together tomatoes, mushrooms, and 1/2 tablespoon of the oil in a medium bowl. Spread in a single layer on a rimmed baking sheet lightly coated with cooking spray. Roast in preheated oven until mushrooms are tender and tomatoes begin to burst, about 10 minutes. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat remaining 1/2 tablespoon oil in a deep skillet over medium-high. Add farro and onion, and cook, stirring often, until farro is toasted and onion is softened, 6 to 8 minutes. Add 1 cup of the warm broth to farro mixture, and cook, stirring often, until almost absorbed, 3 to 5 minutes. Continue adding broth, 1 cup at a time, stirring often, until almost absorbed after each addition and farro softens, about 15 minutes. Remove from heat, and stir in butter, salt, pepper, and 1/4 cup plus 2 tablespoons of the Parmesan. Divide farro mixture among 4 bowls, and top with roasted tomatoes and mushrooms. Sprinkle evenly with parsley and remaining 2 tablespoons Parmesan. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/278429/creamy-mushroom-tomato-farro-risotto/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19320/ingredients/vegetables/tomato/",
+                        "name": "Healthy Tomato Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22732/ingredients/vegetables/tomato/cherry/",
+                        "name": "Healthy Cherry Tomato Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/278429/creamy-mushroom-tomato-farro-risotto/",
+                        "name": "Creamy Mushroom &amp; Tomato Farro Risotto"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T14:57:51.403-04:00"
+    },
+    "recipeCategory": []
+}

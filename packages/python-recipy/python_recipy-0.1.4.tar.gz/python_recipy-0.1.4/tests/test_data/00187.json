@@ -1,0 +1,102 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Easy Instant Pot Mexican Rice",
+    "author": "Chef Emanuela",
+    "cookTime": "PT10M",
+    "prepTime": "PT5M",
+    "totalTime": "PT15M",
+    "datePublished": "2018-10-30T20:47Z",
+    "description": "Easy Instant Pot Mexican Rice all the great flavors of Mexican Rice made easy with the use of salsa and a few items from your pantry. Loaded with lots of flavor and convenience.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/gk-static/fdc-new/img/fdc-shareGraphic.png",
+    "recipeCategory": "One Dish Meal",
+    "keywords": "Low Cholesterol,Healthy,< 15 Mins",
+    "recipeIngredient": [
+        "1   tablespoon    olive oil",
+        "1/4  cup    onion, diced ",
+        "2   cups    long grain white rice",
+        "2 1/3  cups    chicken stock",
+        "1   cup    salsa",
+        "1   teaspoon    salt"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "292.9",
+        "fatContent": "3.9",
+        "saturatedFatContent": "0.7",
+        "cholesterolContent": "2.8",
+        "sodiumContent": "783.4",
+        "carbohydrateContent": "55.9",
+        "fiberContent": "1.6",
+        "sugarContent": "3.1",
+        "proteinContent": "7.5"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Set the Instant Pot {6 Quart} to Saute setting."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Saute olive oil and onion until translucent about 1 to 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add in rice and saute for 2 to 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in chicken stock, salsa, and salt into the rice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lock the lid in place, set to manual high pressure and turn time down to 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Make sure the steam valve is set to sealed."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once the time is up, push the steam valve open and let all the steam release."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fluff the rice with a fork and serve."
+        }
+    ],
+    "recipeYield": "6 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "This is an easy and delicious recipe. Cooked exactly as stated and rice came out fluffy and delicious.",
+            "datePublished": "April 12, 2023",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Easy Instant Pot Mexican Rice"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "aboothby65"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

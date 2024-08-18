@@ -1,0 +1,123 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Smoked Jumbo Chicken Wings",
+    "url": "https://www.foodnetwork.com/recipes/smoked-jumbo-chicken-wings-11505753",
+    "headline": "Smoked Jumbo Chicken Wings",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/07/29/DVSP133__smoked-jumbo-wings_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1627579580126.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/07/29/DVSP133__smoked-jumbo-wings_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1627579580126.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/07/29/DVSP133__smoked-jumbo-wings_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1627579580126.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2021-07-29T13:30:30.117-04:00",
+    "dateModified": "2021-07-29T13:30:29.343-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Wing,Appetizer,Deep-Frying",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT2H0M0.000S",
+    "recipeIngredient": [
+        "1/2 cup dark chili powder",
+        "1/4 cup paprika",
+        "2 tablespoons garlic powder",
+        "2 tablespoons dried parsley",
+        "2 tablespoons ground black pepper",
+        "2 tablespoons rosemary",
+        "2 tablespoons ground sage",
+        "1 tablespoon onion powder",
+        "1 tablespoon Celtic sea salt",
+        "24 jumbo chicken wings ",
+        "Corn oil, for frying",
+        "Soy Ginger Sauce, recipe follows",
+        "Ranch dressing or Alabama sauce, for serving",
+        "2 cups soy sauce",
+        "1/2 cup fresh lime juice ",
+        "1/4 cup sesame oil ",
+        "3 tablespoons garlic powder ",
+        "3 tablespoons onion powder ",
+        "2 tablespoons ground ginger ",
+        "10 cloves garlic ",
+        "4 pieces fresh ginger ",
+        "2 cups olive oil ",
+        "5 serrano peppers, chopped "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 24 servings",
+        "calories": "204",
+        "fatContent": "17g",
+        "saturatedFatContent": "3g",
+        "carbohydrateContent": "8g",
+        "fiberContent": "2g",
+        "sugarContent": "1g",
+        "proteinContent": "7g",
+        "cholesterolContent": "28mg",
+        "sodiumContent": "1281mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a smoker to 310 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together the chili powder, paprika, garlic powder, dried parsley, pepper, rosemary, sage, onion powder and salt in a bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Coat the wings in the rub (save the remainder for another use). Place in the smoker until wings reach an internal temperature of 165 degrees F, about 1 hour 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a deep-fryer to 350 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Deep-fry wings for 2 to 3 minutes. This makes them crispy on the outside and juicy inside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Generously toss wings in Soy Ginger Sauce. Serve Ranch dressing or Alabama sauce on the side to cool the heat from the chiles."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Blend soy sauce, lime juice, sesame oil, garlic powder, onion powder, ground ginger, garlic and fresh ginger in a food processor. Continue to process, slowly adding olive oil until smooth. Add peppers last, then mix."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1
+    },
+    "recipeYield": "24 wings",
+    "recipeCategory": []
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Pickled Fig, Robiola & Pistachio Oil Crostini Recipe",
+    "keywords": [
+        "toast",
+        "fig",
+        "cheese",
+        "pistachio",
+        "easy",
+        "quick",
+        "starter",
+        "vegetarian",
+        "pickle and preserve",
+        "new year's",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Bon Appétit Test Kitchen",
+            "sameAs": "https://www.bonappetit.com/contributor/bon-appétit test kitchen"
+        },
+        {
+            "@type": "Person",
+            "name": "Romulo Yanes",
+            "sameAs": "https://www.bonappetit.com/contributor/romulo-yanes"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 10
+    },
+    "description": "Pickled Fig, Robiola & Pistachio Oil Crostini Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57aff52a1b3340441497601d/master/w_646,h_492,c_limit/pickled-fig-robiola-and-pistachio-oil-crostini-6461.jpg"
+    ],
+    "headline": "Pickled Fig, Robiola & Pistachio Oil Crostini",
+    "name": "Pickled Fig, Robiola & Pistachio Oil Crostini",
+    "recipeIngredient": [
+        "12 slices ciabatta bread",
+        "1/2 cup red wine vinegar",
+        "2 tablespoons sugar",
+        "6 dried figs",
+        "2 tablespoons pistachios, toasted and shelled",
+        "1/4 cup extra-virgin olive oil",
+        "Robiola cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine red wine vinegar, sugar, and dried figs with 1/4 cup water in a saucepan; bring to a simmer. Remove from heat and let sit until figs soften, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Halve figs lengthwise. (Alternatively, use 6 fresh figs and halve lengthwise.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Finely crush pistachios and combine with extra-virgin olive oil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill bread slices."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Smear room-temperature Robiola cheese onto warm toasts. Top with halved figs. Drizzle with pistachio oil."
+        }
+    ],
+    "recipeYield": "Makes 12  Servings",
+    "url": "https://www.bonappetit.com/recipe/pickled-fig-robiola-pistachio-oil-crostini",
+    "dateModified": "2010-05-17T20:00:00.000-04:00",
+    "datePublished": "2010-05-17T20:00:00.000-04:00",
+    "recipeCategory": []
+}

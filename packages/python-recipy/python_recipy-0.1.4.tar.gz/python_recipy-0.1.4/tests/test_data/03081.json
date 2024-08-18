@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Barbecued Pork Quesadillas Recipe",
+    "datePublished": "2018-09-17T16:48:06.000-04:00",
+    "dateModified": "2022-07-20T18:22:39.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "This easy quesadilla recipe combines our love of barbecue and Mexican food.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/9xJvCGfOD_z3EkVxDNP6PEL-oPE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pork-quesadillas-sl-1940949-x-a9c213d4d477487fbfe256e4070a7523.jpg",
+        "height": 420,
+        "width": 420
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Barbecued Pork Quesadillas Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "prepTime": "PT26M",
+    "recipeIngredient": [
+        "1 pound chopped barbecued pork (without sauce)",
+        "1 cup barbecue sauce",
+        "1/2 cup chopped fresh cilantro",
+        "2 green onions, minced",
+        "8 (6-inch) fajita-size flour tortillas",
+        "1 (8-oz.) package shredded Mexican four-cheese blend",
+        "Toppings: sour cream, sliced green onions, barbecue sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together barbecued pork and next 3 ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 1 tortilla in a hot lightly greased skillet or griddle. Sprinkle tortilla with 1/4 cup cheese, and spoon 1/3 cup pork mixture on half of tortilla. Cook 2 to 3 minutes or until cheese melts. Fold tortilla in half over filling; transfer to a serving plate. Repeat procedure with remaining tortillas, cheese, and pork mixture. Serve with desired toppings."
+        }
+    ],
+    "totalTime": "PT26M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/barbecued-pork-quesadillas-0",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/barbecued-pork-quesadillas-0",
+                        "name": "Barbecued Pork Quesadillas Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

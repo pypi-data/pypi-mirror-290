@@ -1,0 +1,80 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/rosemary-jelly/",
+    "name": "Rosemary Jelly",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-03-18",
+    "prepTime": "PT35M",
+    "cookTime": "PT10M",
+    "totalTime": "PT45M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Rosemary-Jelly_exps11398_CP2464884A02_01_3bC_RMS.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This deliciously different green jelly gets its flavor from an unusual source: savory rosemary. The herb adds a refreshing zip to the otherwise sweet spread. &mdash;Margaret Dumire, Carroll, Ohio",
+    "recipeIngredient": [
+        "1-1/4 cups boiling water",
+        "2 tablespoons minced fresh rosemary",
+        "3 cups sugar",
+        "1/4 cup cider vinegar",
+        "1 pouch (3 ounces) liquid fruit pectin",
+        "2 to 3 drops green food coloring"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large saucepan, combine boiling water and rosemary; cover and let stand for 15 minutes. Strain, reserving liquid. If necessary, add water to measure 1-1/4 cups. Return liquid to pan; add sugar and vinegar. Bring to a full rolling boil over high heat, stirring constantly. Add pectin, stirring until mixture boils. Boil and stir for 1 minute."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from the heat; skim off foam. Add food coloring if desired. Carefully ladle hot mixture into hot half-pint jars, leaving 1/4-in. headspace. Remove air bubbles, wipe rims and adjust lids. Process for 10 minutes in a boiling-water canner."
+        }
+    ],
+    "recipeYield": "3-1/2 pints.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 42 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "0 sodium",
+        "carbohydrateContent": "11g carbohydrate (10g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-08-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Gwendolyn_M"
+            },
+            "reviewBody": "Although this jelly has a slight aroma of vinegar, it has a very nice flavor.  I think the rosemary flavor needs to be a bit stronger, so I will make it again using 3 T minced rosemary instead of 2 T.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

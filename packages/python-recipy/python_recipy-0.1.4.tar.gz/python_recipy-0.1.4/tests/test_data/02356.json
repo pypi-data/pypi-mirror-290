@@ -1,0 +1,56 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Cranberry-Topped Brie",
+    "keywords": "cranberry-topped brie",
+    "recipeCategory": "Appetizer",
+    "image": "https://mojo.generalmills.com/api/public/content/kZ5MmmpT70S7ZvD12g7r_w_webp_base.webp?v=9f023bcb&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Looking for a quick-and-easy, can’t-miss appetizer, for the holidays or any time? This warm, creamy brie round topped in cranberries and almonds requires just 5 ingredients and 5 minutes prep time.",
+    "recipeIngredient": [
+        "1  round (8 oz) Brie cheese",
+        "1/2  cup cranberry sauce ",
+        "2  tablespoons sliced almonds",
+        "1/2  package (9.5-oz size) baked whole-grain wheat cracker squares"
+    ],
+    "totalTime": "PT0H25M",
+    "prepTime": "PT0H5M",
+    "recipeYield": "12",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "41",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 325°F. Place cheese on cookie sheet. Bake 10 to 15 minutes or until softened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon cranberry sauce over cheese; sprinkle with almonds. Bake about 5 minutes longer or until sauce is heated. Serve with crackers."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "140 ",
+        "carbohydrateContent": "14 g",
+        "cholesterolContent": "20 mg",
+        "fatContent": "0 ",
+        "fiberContent": "0 g",
+        "proteinContent": "5 g",
+        "saturatedFatContent": "4 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "200 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "07/12/2004",
+    "dateModified": "11/23/2009"
+}

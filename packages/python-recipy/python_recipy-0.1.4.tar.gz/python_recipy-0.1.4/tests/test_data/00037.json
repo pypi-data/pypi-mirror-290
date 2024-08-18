@@ -1,0 +1,160 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "High-Protein Lemon-Blueberry Cake",
+    "datePublished": "2023-06-15T13:47:01.000-04:00",
+    "dateModified": "2023-09-18T17:57:54.721-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Liv Dansky",
+            "url": "https://www.eatingwell.com/author/liv-dansky/"
+        }
+    ],
+    "description": "Cottage cheese is the secret star ingredient in this stunning cake recipe. While the cheesy flavor is muted by the fruit, the inclusion of cottage cheese adds protein and keeps the cake moist.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/p1LbFswpDrKjQZcYdwE9fhuEpSk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EWL-High-Protein-Lemon-Blueberry-Cake-hero-5321-2000-7abd16c7d0a64d84a4e4631b826738ea.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "High-Protein Lemon-Blueberry Cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.8",
+        "ratingCount": "6"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "301 kcal",
+        "carbohydrateContent": "46 g",
+        "cholesterolContent": "72 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "305 mg",
+        "sugarContent": "26 g",
+        "fatContent": "11 g",
+        "unsaturatedFatContent": "4 g"
+    },
+    "recipeIngredient": [
+        "0.75 cup all-purpose flour",
+        "0.75 cup whole-wheat flour",
+        "2 teaspoons baking powder",
+        "0.25 teaspoon salt",
+        "2 large lemons",
+        "0.75 cup 4%-fat cottage cheese",
+        "2 large eggs",
+        "0.75 cup granulated sugar plus 1 tablespoon, divided",
+        "2 cups fresh blueberries",
+        "6 tablespoons unsalted butter, melted, plus more for pan"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Coat a 9-by-5-inch loaf pan with butter; line with parchment paper, leaving a 1-inch overhang on all sides."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk all-purpose flour, whole-wheat flour, baking powder and salt together in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grate both lemons to equal about 1/4 cup zest; place in a medium bowl. Juice 1 lemon to equal 2 tablespoons juice; add to the medium bowl. Slice the remaining lemon into thin rounds; remove seeds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cottage cheese, eggs and 3/4 cup sugar to the bowl with the lemon zest and juice; whisk until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the wet ingredients into the dry ingredients until just combined. Fold in blueberries and melted butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the batter to the prepared pan; top with the lemon slices and the remaining 1 tablespoon sugar."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until the top is golden-brown and a toothpick inserted in the center comes out clean, 1 hour to 1 hour, 10 minutes. Let cool before slicing."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT75M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/8051841/high-protein-lemon-blueberry-cake/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18044/desserts/",
+                        "name": "Healthy Cookie & Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18277/desserts/cake/",
+                        "name": "Healthy Cake Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/8051841/high-protein-lemon-blueberry-cake/",
+                        "name": "High-Protein Lemon-Blueberry Cake"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-18T17:57:54.721-04:00"
+    },
+    "recipeCategory": []
+}

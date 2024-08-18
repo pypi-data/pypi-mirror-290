@@ -1,0 +1,53 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/vampire-killer-martini/",
+    "name": "Vampire Killer Martini",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-11-22",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Vampire-Killer-Martini_EXPS_TOHON19_159085_E06_18_3b-3.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "If you're going to hang with vampires, you're going to need a strong drink. This spicy vodka martini, with a blood-red beet garnish, does the trick. A little garlic helps, too! &mdash;Taste of Home Test Kitchen",
+    "recipeIngredient": [
+        "1 serrano pepper, seeded and quartered",
+        "2 garlic cloves, crushed",
+        "1 lemon zest strip (2 inches)",
+        "1-1/2 cups vodka",
+        "Ice",
+        "GARNISH:",
+        "Pickled baby beets"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place the pepper, garlic, lemon zest and vodka in a large glass or plastic container. Cover and let stand at room temperature for 1 week."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For each serving, fill a shaker three-fourths full with ice. Add 1-1/2 ounces infused vodka to shaker; cover and shake until condensation forms on outside of shaker, 10-15 seconds. Strain into a chilled martini glass. Garnish with a beet."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 96 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "0 sodium",
+        "carbohydrateContent": "0 carbohydrate (0 sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "0 protein. "
+    }
+}

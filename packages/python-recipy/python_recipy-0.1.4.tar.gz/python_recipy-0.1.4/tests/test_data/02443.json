@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Brown-Butter Honey Cookies",
+    "datePublished": "2018-09-21T15:49:07.000-04:00",
+    "dateModified": "2019-07-30T17:33:02.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Use an embossed rolling pin to imprint the dough for these sweet, nutty cookies that can be made ahead and stored up to two weeks.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/U-wgCkeggNLhkf7f452BlKCA0bw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/honey-cookies-martha-bakes-se10-patterned-4565-d113213_horiz-d6c09f36fd7c412397959983a0296afe.jpgitokUC3UwOkt",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Brown-Butter Honey Cookies",
+    "recipeIngredient": [
+        "1 stick (½ cup) unsalted butter",
+        "2.75 cups unbleached all-purpose flour, plus more for dusting",
+        "1 teaspoon ground cardamom",
+        "0.5 teaspoon kosher salt",
+        "0.5 cup dark-brown sugar",
+        "0.25 cup granulated sugar",
+        "0.25 cup honey",
+        "2 tablespoons heavy cream",
+        "1 large egg yolk",
+        "1 teaspoon vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt butter in a small saucepan over medium heat; then cook, swirling pan occasionally, until golden brown, 3 to 5 minutes. Transfer brown butter to a heatproof bowl and let cool until solid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, whisk together flour, cardamom, and salt. In another large bowl, beat brown butter and both sugars on medium speed until pale and fluffy, about 3 minutes. Add honey, cream, egg yolk, and vanilla; continue beating until well combined, about 1 minute more. Gradually add flour mixture and mix on low until just combined. Divide dough into 4 equal pieces and cover with plastic wrap."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325 degrees. Working with one piece of dough at a time, roll out on lightly floured parchment to 1/4-inch thickness. Roll with a textured rolling pin to imprint. Using a 2 1/2-inch square cutter, cut out cookies and transfer to parchment-lined baking sheets. Repeat with remaining dough, rerolling the scraps once. Freeze until solid, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer chilled cookies to fresh parchment-lined baking sheets, spaced about 1 inch apart. Bake, rotating sheets halfway through, until lightly golden brown, 16 to 18 minutes. Transfer cookies to wire racks; let cool completely. (Cookies can be stored in an airtight container at room temperature up to 2 weeks.)"
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1532033/brown-butter-honey-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502264/cookie-recipes",
+                        "name": "Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1532033/brown-butter-honey-cookies",
+                        "name": "Brown-Butter Honey Cookies"
+                    }
+                }
+            ]
+        }
+    },
+    "meal": "Snack",
+    "cuisine": "American"
+}

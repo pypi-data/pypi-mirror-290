@@ -1,0 +1,119 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1.00xw:0.803xh;0,0.0231xh&resize=100:*",
+    "datePublished": "2009-03-24T18:09:00 EDT",
+    "headline": "Egg-Salad Sandwich",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1.00xw:0.803xh;0,0.0231xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1.00xw:0.803xh;0,0.0231xh&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1.00xw:0.803xh;0,0.0231xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1xw:0.6xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1.00xw:0.803xh;0,0.0231xh&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/egg-salad-sandwich-1643312019.jpg?crop=1xw:0.45xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a2793/egg-salad-sandwich-recipe/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "egg recipes,egg salad recipes,egg salad sandwich,eggsalad,hardboiled eggs",
+        "NUTRITION: vegetarian",
+        "CATEGORY: dinner",
+        "CATEGORY: lunch",
+        "CATEGORY: main dish",
+        "TOTALTIME: 00:25:00",
+        "FILTERTIME: <30MINS",
+        "RATING: 0",
+        "FILTERRATING: unrated"
+    ],
+    "url": "https://www.countryliving.com/food-drinks/recipes/a2793/egg-salad-sandwich-recipe/",
+    "isBasedOn": "https://www.countryliving.com/food-drinks/recipes/a2793/egg-salad-sandwich-recipe/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "Try this simple, colorful American favorite from CountryLiving.com.",
+    "author": {
+        "name": "Cheryl Slocum",
+        "url": "https://www.countryliving.com/author/2416/cheryl-slocum/",
+        "@type": "Person"
+    },
+    "name": "Egg-Salad Sandwich",
+    "prepTime": "PT10M",
+    "cookTime": "PT0S",
+    "totalTime": "PT25M",
+    "recipeIngredient": [
+        "2 large eggs",
+        "2 tbsp. mayonnaise",
+        "3/4 tsp. extra-virgin olive oil",
+        "1/2 tsp. garlic",
+        "Kosher salt and freshly ground pepper",
+        "1/4 c. watercress, washed and dried",
+        "2 slice thick bread, such as La Brea Whole Wheat & Honey Loaf",
+        "1 tsp. chives, finely chopped",
+        "1 small French breakfast radish, thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place eggs in a medium saucepan with water to cover. Bring to a rolling boil over high heat, cover, and simmer 5 minutes. Remove from heat, and let eggs sit in pot with water for 5 minutes. Cool eggs in a large bowl of ice water for a minute or so. Peel shells, and tear eggs into large pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a bowl, gently mix together eggs, mayonnaise, olive oil, garlic, salt, and pepper. Place watercress on 1 slice whole wheat bread, layer with egg salad, and top with chives and radishes. Cover with second slice bread and serve."
+        }
+    ],
+    "recipeYield": "1 serving(s)",
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeCategory": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "420 calories"
+    },
+    "@context": "http://schema.org"
+}

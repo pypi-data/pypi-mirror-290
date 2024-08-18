@@ -1,0 +1,159 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/lobster-rolls/",
+    "name": "Lobster Roll Recipe",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-12-06",
+    "prepTime": "PT20M",
+    "cookTime": "PT10M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Lobster-Rolls_EXPS_THJJ19_46873_C02_15_6b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "There is only one recipe that fully captures the flavors of the East Coast—and it is easy to make, too.",
+    "recipeIngredient": [
+        "1 cup chopped celery",
+        "1/3 cup mayonnaise",
+        "2 tablespoons lemon juice",
+        "1/2 teaspoon dill weed",
+        "5 cups cubed cooked lobster meat (about 4 small lobsters)",
+        "8 hoagie rolls, split and toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Make the lobster salad",
+            "text": "In a large bowl, combine the celery, mayonnaise, lemon juice and dill weed. Gently stir in cooked lobster. Editor's Tip: Lobster's in the spotlight with this dish, so purchase it fresh if possible."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Let the flavors meld",
+            "text": "Place the lobster salad in the fridge for up to 10 minutes. This will help draw out and accentuate the flavors."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Serve it up",
+            "text": "Scoop lobster salad onto rolls, lined with lettuce leaves if you like. Editor's Tip: If you can, buy New England-style hot dog buns, which hold their shape well when stuffed with the lobster salad."
+        }
+    ],
+    "recipeYield": "8 sandwiches.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 354 calories",
+        "fatContent": "12g fat (2g saturated fat)",
+        "cholesterolContent": "133mg cholesterol",
+        "sodiumContent": "887mg sodium",
+        "carbohydrateContent": "36g carbohydrate (5g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "25g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-08-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Barb"
+            },
+            "reviewBody": "The lobster rolls I had up in Bar Harbor and Portland Maine had celery.  Delicious!  ??",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-05-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jackraul683"
+            },
+            "reviewBody": "Simple is BEST.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-06-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dublinlab"
+            },
+            "reviewBody": "Delicious, l served it on a bed of chopped lettuce with toast on the side.  What a nice treat.   Janet VFE",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-11-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gina.kapfhamer"
+            },
+            "reviewBody": "Very easy recipe to follow! Great option for an out-of-the-ordinary dinner.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-07-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ReneeMurby"
+            },
+            "reviewBody": "Great light supper in the summertime.  Just right!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

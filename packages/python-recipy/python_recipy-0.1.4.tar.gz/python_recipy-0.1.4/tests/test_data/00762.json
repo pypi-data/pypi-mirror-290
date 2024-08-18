@@ -1,0 +1,447 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020880-pastelon#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020880-pastelon",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/02/18/dining/dg-pastelon/merlin_169064670_d5e76676-b9ec-4caa-a4da-2d8073e95757-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020880-pastelon",
+    "name": "Pastelón",
+    "description": "Pastelón is a layered Puerto Rican casserole of plantains, cheese and picadillo, a tomato-based ground beef mixture seasoned with onions, peppers, herbs and spices. The dish is often referred to as Puerto Rican lasagna, and to say there is only one real recipe for pastelón would be like saying there’s only one true lasagna. Variations abound! Some cooks boil the plantains and make a mash with taro; others fry them until they’re sweet and crisp. Nearly any mild, meltable cheese may be used, though there is debate over whether or not to add raisins. This recipe is adapted from from Natalia Vallejo, chef and owner of Cocina al Fondo in Santurce, Puerto Rico. She doesn’t serve pastelón at her restaurant, but she grew up eating it. Her version includes fried plantains, mozzarella, fresh tomatoes and raisins, because she says “Puerto Ricans like that sweet-and-salty mix.”",
+    "author": {
+        "@type": "Person",
+        "name": "Daniela Galarza"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/02/18/dining/dg-pastelon/dg-pastelon-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/18/dining/dg-pastelon/merlin_169064670_d5e76676-b9ec-4caa-a4da-2d8073e95757-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/18/dining/dg-pastelon/merlin_169064670_d5e76676-b9ec-4caa-a4da-2d8073e95757-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/02/18/dining/dg-pastelon/dg-pastelon-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H",
+    "recipeYield": "10 to 12 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cumin, ground beef, mozzarella, olive, plantain, puerto rican, tomato",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1198
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 589,
+        "unsaturatedFatContent": "27 grams",
+        "carbohydrateContent": "43 grams",
+        "cholesterolContent": null,
+        "fatContent": "40 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "18 grams",
+        "saturatedFatContent": "10 grams",
+        "sodiumContent": "837 milligrams",
+        "sugarContent": "23 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "6 medium-ripe (yellow with some black spots) large plantains (about 4 1/2 pounds)",
+        "1 cup canola oil",
+        "1 small yellow onion (about 4 ounces), peeled and roughly chopped",
+        "1 small green bell pepper (about 5 1/2 ounces), seeded and roughly chopped",
+        "2 ají dulce chiles, seeded and roughly chopped (optional)",
+        "3 garlic cloves, roughly chopped",
+        "2 fresh cilantro stems with leaves, roughly chopped",
+        "2 fresh culantro (recao) stems with leaves, roughly chopped (optional)",
+        "2 tablespoons canola oil",
+        "1 1/2 pounds lean ground beef",
+        "1 1/2 teaspoons kosher salt",
+        "1/2 teaspoon black pepper",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground sweet paprika",
+        "1 teaspoon dried oregano",
+        "3/4 pound fresh tomatoes, finely chopped (about 1 1/2 cups)",
+        "1/2 cup white wine (or water)",
+        "3 tablespoons tomato paste",
+        "1/2 cup pimento-stuffed manzanilla olives, quartered",
+        "2 tablespoons yellow or brown raisins (optional)",
+        "Salt and pepper, to taste",
+        "1 tablespoon unsalted butter",
+        "2 large eggs",
+        "Kosher salt",
+        "2 cups shredded mozzarella (8 to 10 ounces)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the plantains: Line a sheet pan with paper towels; set aside. Cut off the ends of each plantain. With the tip of a knife, score plantains lengthwise and peel off the skin. Using a serrated knife or chef’s knife, cut each plantain in half lengthwise, and then halve again lengthwise so you end up with 24 long slices. (If some of the slices break or are unevenly shaped, that’s OK! Carry on.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large cast-iron or heavy skillet, heat 1 cup oil over medium-high to between 350 and 375 degrees. Working with 4 to 6 slices at a time, depending on what fits, fry plantains until deep golden brown, turning halfway through, about 6 minutes total. Transfer fried plantains to the prepared sheet pan and cook remaining plantains; set aside. (Let oil cool, then strain and reserve for another use.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the sofrito: Put onion, bell pepper, ají dulce chiles (if using), garlic, cilantro and culantro (if using), in a food processor; blend until it becomes a rough, wet purée. (You should have about 1 cup sofrito)."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the picadillo: In a large, heavy skillet, heat 2 tablespoons oil over medium until it shimmers. Add the sofrito and cook, stirring often, until purée thickens and starts to brown, about 5 minutes. Add the beef and stir in the salt, pepper, cumin, paprika and oregano. Cook, stirring occasionally, until beef is evenly cooked and no longer pink, about 8 minutes. Turn off heat. Push meat mixture to one side, and carefully tilt skillet so that the fat from the meat collects at the bottom of the tilted pan; spoon off and discard as much of this excess fat as you can."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Return the skillet to medium heat. Add the chopped tomatoes, wine and tomato paste and cook, stirring occasionally, until tomatoes fall apart and the liquid starts to reduce, about 10 minutes. Turn off heat and stir in olives and raisins, if using. Season to taste with salt and pepper. (Picadillo can be made up to 2 days in advance. Rewarm it in a pan on the stove before proceeding with recipe.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the pastelón: Heat the oven to 350 degrees. Grease a 9-by-13-inch glass baking dish with butter. Whisk the eggs with a pinch of salt and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Lay half the fried plantain slices along the bottom of the baking dish crosswise, piecing any broken pieces together to form an even layer. (If there are small gaps in the plantain layer, this is OK.) Top with half the picadillo (about 2 cups), smoothing it into an even layer, then sprinkle half the cheese on top in an even layer. Repeat with another layer of plantains then the remaining picadillo. Pour the whisked eggs evenly over the picadillo layer and spread it so it settles down into the pastelón. Sprinkle the remaining cheese on top."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake the pastelón until the egg is cooked, the cheese is melted and the layers are set, 20 to 30 minutes. Cut into squares and serve hot."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jketay"
+            },
+            "reviewBody": "I grew up eating the dish, my aunt made the best version. As I started making it on my own, I wanted a little more depth, so I experimented using goat cheese instead of mozzarella. it was a hit and my family all approved too!",
+            "datePublished": "2023-12-27T22:51:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christina"
+            },
+            "reviewBody": "Excellent recipe. I used the boil method recommended in the intro and by another commenter, and it turned out great. A variety of cheeses can also be used. I prefer a mix of cheddar and asadero cheese. Broiled at the end to get a nice crispy brown top. Delicious!",
+            "datePublished": "2023-10-18T21:14:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer Teresa Napoli Romero"
+            },
+            "reviewBody": "I am from Puerto Rico where this is dish is made a lot. The mozzarella cheese is really unnecessary and so is the wine. It is a delicious dish, I make it all the time. My family loves it. I serve it with a nice white rice and avocado salad on the side. I have made with good quality ground dark turkey too and it is also tasty.",
+            "datePublished": "2023-10-06T19:22:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JP"
+            },
+            "reviewBody": "This was a first time recipe for me, and I was intimidated by the amount of work. That said, make this with a friend—it will go faster…much faster! The results were nothing short of superb. Every step made the dish more interesting, tastier, more complex (but only in a good way!). We had a crowd, and they ate it all! I will do this again, but only with a second pair of hands. Loved it!",
+            "datePublished": "2023-09-27T16:55:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barry"
+            },
+            "reviewBody": "I'm a vegetarian, so to accommodate me, I used Impossible Meat(2 packages) as the hamburger. I followed the directions though, otherwise. I did use the raisins in the recipe; they gave just a subtle hint of sweetness.",
+            "datePublished": "2023-06-01T01:39:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Heather"
+            },
+            "reviewBody": "Could I mix mozzarella and queso friar?  I know the QF won't melt down like the mozzarella, but I am in love with the squeak and the salt of QF.",
+            "datePublished": "2023-05-24T14:40:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Plantain firmness"
+            },
+            "reviewBody": "Lots of folks are commenting on the need for very ripe plantains. In my opinion the plantains should have a bit of firmness to them, yellow with a couple black spots as stated in the recipe. When they are cut long way and fried they hold their shape and add texture. Overly ripe plantains, while delicious on their own, would be too soft and not give enough structure for this application.",
+            "datePublished": "2023-05-21T23:39:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Paolo"
+            },
+            "reviewBody": "\"... and to say there is only one real recipe for pastelón would be like saying there’s only one true lasagna\". \nAlthough there are other lasagnas, such as: besciamella and asparagus, there is only one TRUE lasagna, at least here in Italy: pasta, ragu', besciamella, and Parmiggiano (no tomato sauce, mozzarella, ricotta..).",
+            "datePublished": "2023-05-19T08:42:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scott WI"
+            },
+            "reviewBody": "Left plantains split length wise and will try mashed next time; very fun and unique flavored dish.",
+            "datePublished": "2023-03-08T09:55:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lydia"
+            },
+            "reviewBody": "What a tasty dish! I baked the plantains, which kept the oil down (long thin slices on parchment paper, baked at 400 convect for about 15 min.) I also subbed 16 oz. of Impossible Burger for the ground beef, so no pool of grease to deal with. The savory   sweet flavors together were amazing. I agree with others that the plantains were sweet enough on their own without the addition of raisins.",
+            "datePublished": "2023-03-04T02:41:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachel Beard"
+            },
+            "reviewBody": "I cooked the plantains in an air fryer, which made things considerably faster and less messy than frying on the stovetop.",
+            "datePublished": "2023-02-26T19:22:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tips & Improvements"
+            },
+            "reviewBody": "For the vege/flexitarians out there: We made this with black beans. Filling and absolutely delicious.",
+            "datePublished": "2023-02-26T23:59:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Manuela Consuelo"
+            },
+            "reviewBody": "A pastelón is un pastel with dos gordas.",
+            "datePublished": "2023-02-25T22:46:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "No. Pastelon is the generic name of ANY layered dish made in both Puerto Rico and the Dominican Republic. This is just one variation of 200.",
+            "datePublished": "2023-02-25T03:11:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ana"
+            },
+            "reviewBody": "This is one of my family’s favorite meals. To save time and make it healthier I use frozen baked ripe plantains, defrost them, slice them lengthwise, and voilà—ready to assemble. I also add a layer of frozen French style green beans, which I steam in the microwave, to make it a complete meal.",
+            "datePublished": "2023-02-23T23:54:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sonia"
+            },
+            "reviewBody": "This Puertorrican girl prefers the lighter version of this dish, made with mashed boiled plantains.  Cut the unpeeled plantains in half and boil until soft but not mushy, a fork will find just a little resistance. Drain in a colander and remove the peels. Mash with a fork, you may want to add a bit of softened butter or a little oil.  \nSubstitute the mashed plantains for the fried ones and everything else is the same.\n\nYou can add olives, capers, and little cubes of ham to the beef as it cooks.",
+            "datePublished": "2020-03-09T18:02:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jen"
+            },
+            "reviewBody": "You can buy the frozen ones too. I find that when I want maduros (ripe plantains) I want them now, not in a week. So waiting for them to ripen is not usually an option. I use the frozen ones and I'm happy with them.",
+            "datePublished": "2020-03-09T15:15:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jinna"
+            },
+            "reviewBody": "As always with me and plantains, I can't seem to buy ripe enough ones.  The flavors in this dish are so perfect, except my plantains were not sweet and more like tough potatoes. :(( Buy super ripe plantains and then, wait a few more days before cooking with them.  One day I'll get them right!",
+            "datePublished": "2020-02-28T06:23:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Jane"
+            },
+            "reviewBody": "If I can’t get plantains, can I use regular bananas?",
+            "datePublished": "2020-03-09T15:21:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brad"
+            },
+            "reviewBody": "Getting the plantains to the proper level of ripeness is an exercise in patience.  Most super markets don't come close to selling them in the state you would like them to be.  I buy the most ripe ones I can find, put them in a brown paper bag in my pantry, and leave them alone for three to four weeks. To make maduros the plantains need to be black. Do not be afraid of a black plantain even if its starts to get a little fuzzy. The hot leaf lard you fry them in will take care of everything!",
+            "datePublished": "2020-03-09T15:48:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Garin D"
+            },
+            "reviewBody": "Here's a good guide to identifying plantain ripeness.\n<a href=\"http://muchogusto.com/index.php?page=plantain\" target=\"_blank\">http://muchogusto.com/index.php?page=plantain</a>",
+            "datePublished": "2020-03-10T02:31:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ChocLdy"
+            },
+            "reviewBody": "Only green, un-ripe bananas will work as substitute for plantains (and only works for some recipes and not for others) or sweet potatoes can be substituted.",
+            "datePublished": "2020-03-10T22:34:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ana Sofia Esteves"
+            },
+            "reviewBody": "The beauty of a pastelón is that it admits variation. My other used to do it with mashed potatoes and the meat in center, cheese on top. It can also be done with breadfruit, yuca, yautía or whatever other starchy veg you have at hand. .",
+            "datePublished": "2021-02-24T23:03:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RoRider"
+            },
+            "reviewBody": "Beyond Meat...Impossible Burger...crumbled meat substitutes are quite available these days.\n\nThey work very well and rarely can any difference be noticed in dishes like this one.",
+            "datePublished": "2020-03-11T16:32:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Todd"
+            },
+            "reviewBody": "I saw this recipe right when the stay-at-home order was issued in California, got green plantains and now, four weeks later, after being in a paper bag the entire time, the plantains were finally black and soft. \n\nAnd oh my god when we fried them--we could have skipped the rest of recipe and just eaten those fried plantains, haha",
+            "datePublished": "2020-04-16T22:18:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Afi"
+            },
+            "reviewBody": "@Jinna, put the plantains in a paper bag with a ripe banana. Seal the bag. They'll mature quickly.",
+            "datePublished": "2020-03-09T16:09:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sonia"
+            },
+            "reviewBody": "Yes, olives and capers are traditional in this dish as is a scant layer of green beans.",
+            "datePublished": "2020-03-09T17:49:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jorge Clar"
+            },
+            "reviewBody": "Love the tip about spooning out the fat from the picadillo. I make it without cheese and on a stovetop, also adding cooked green beans to the picadillo, which I think turns the dish into piñón.",
+            "datePublished": "2020-03-09T15:31:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Darwin"
+            },
+            "reviewBody": "I would advise against regular bananas, they have a higher sugar content and less starch than a plantain. Bananas will probably turn to mush after baking. I'd try maybe a sweet potato because it's starchy and sweet.",
+            "datePublished": "2020-03-09T18:04:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie"
+            },
+            "reviewBody": "We have always used maduros, firm enough to cut with a knife, yet soft enough to know instinctually how sweet it will be. Mom makes her sofrito in big enough batches to throw in plenty of heaping spoonfuls, with plain canned tomato sauce, sautéing the picadillo base before adding the meat. If you skip the cheese and double the eggs, you’ll get a nice chewiness. No raisins — ever.",
+            "datePublished": "2021-02-27T03:46:46.000Z"
+        }
+    ]
+}

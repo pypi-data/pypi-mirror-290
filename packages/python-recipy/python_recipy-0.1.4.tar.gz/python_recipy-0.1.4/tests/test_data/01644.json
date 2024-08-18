@@ -1,0 +1,142 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Honey-and-Lemon-Glazed Roast Chicken",
+    "datePublished": "2013-12-06T18:32:27.000-05:00",
+    "dateModified": "2022-06-02T13:33:52.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Mauricio Couly",
+            "url": "https://www.foodandwine.com/author/mauricio-couly"
+        },
+        {
+            "@type": "Person",
+            "name": "Piero Incisa della Rocchetta",
+            "url": "https://www.foodandwine.com/piero-incisa-della-rocchetta-8413159"
+        }
+    ],
+    "description": "&#34;I&#39;m crazy for chicken,&#34; Piero Incisa della Rocchetta says. &#34;I regularly eat a whole one by myself.&#34; Inspired by beautifully browned Peking duck, he b...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/7Scm_W4vfF00J8KAFgGQvo_wogI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201105-xl-honey-and-lemon-glazed-roast-chicken-2000-3ea11f8b104c4f2c832583eb2b8a3e09.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Honey-and-Lemon-Glazed Roast Chicken",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1872"
+    },
+    "recipeIngredient": [
+        "1/4 cup plus 1 teaspoon honey",
+        "2 tablespoons plus 1 teaspoon fresh lemon juice",
+        "2 tablespoons soy sauce",
+        "Three 3-pound chickens",
+        "Salt",
+        "9 large rosemary sprigs",
+        "9 garlic cloves, quartered",
+        "1 lemon, cut into 12 wedges"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450°. In a small bowl, combine the honey, lemon juice and soy sauce. Set the chickens on a large rimmed baking sheet and tuck the wing tips underneath. Season the cavities with salt and stuff each one with 3 rosemary sprigs, 3 quartered garlic cloves and 4 lemon wedges. Brush two-thirds of the honey glaze over the chickens and season lightly with salt. Roast in the middle of the oven for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce the oven temperature to 325°. Rotate the chickens in the pan and brush with the remaining glaze. Roast the chickens for about 45 minutes longer, until the juices run clear when the thighs are pierced; turn the pan halfway through roasting. Transfer the chickens to a carving board and let rest for 15 minutes. Carve the chickens and serve."
+        }
+    ],
+    "totalTime": "PT105M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "I made a single chicken instead of 3. Halved the sauce ingredients and kept the others at 1/3rd inside the bird... The sauce was a bit runny so I'd probably go with a bit more honey (though this will darken faster) or add some oil to get it to stay on the chicken better. And I put the chicken on a wire rack as well. Overall it was good but I dont know that I would make this again anytime soon...",
+            "datePublished": "2023-10-17T16:57:52.957Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "Smells good just waiting to try it out",
+            "datePublished": "2023-02-26T18:26:23.046Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/honey-and-lemon-glazed-roast-chicken",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/chicken-main-course-7497051",
+                        "name": "Chicken Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/roast-chicken-7497054",
+                        "name": "Roast Chicken"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/honey-and-lemon-glazed-roast-chicken",
+                        "name": "Honey-and-Lemon-Glazed Roast Chicken"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

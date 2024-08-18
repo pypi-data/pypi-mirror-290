@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate-Hazelnut Energy Balls",
+    "datePublished": "2020-06-26T22:34:10.000-04:00",
+    "dateModified": "2023-09-19T13:10:41.845-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "These energy balls marry the flavors of nutty hazelnuts with rich chocolate. They&#39;re chewy with a slight crunch and have just enough sweetness to curb a midday or post-dinner sweet tooth.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/xVtASiYDDDbg-Q_JCMRXXCdeI0o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8274959-979c14cad2e4420e92f5867a99720705.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Chocolate-Hazelnut Energy Balls",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "119 kcal",
+        "carbohydrateContent": "17 g",
+        "fiberContent": "2 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "12 mg",
+        "sugarContent": "14 g",
+        "fatContent": "6 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "10 pitted dates",
+        "0.33333334326744 cup hazelnuts, plus 2 tablespoons for garnish",
+        "0.25 cup chocolate hazelnut butter, such as Justin's",
+        "1 tablespoon cocoa powder",
+        "Pinch of salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place dates in a small bowl. Cover with hot water and soak for 5 to 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, pulse hazelnuts in a food processor until coarsely chopped. Add the dates and 1 tablespoon of the soaking water to the food processor. Add nut butter, cocoa and salt. Process until the nuts are finely chopped. Refrigerate the mixture for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll the mixture into 12 balls (about 1 scant tablespoon each). Chop the remaining 2 tablespoons hazelnuts and sprinkle over top, pressing slightly to adhere, if desired. Refrigerate the balls for at least 15 minutes and up to 1 week."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/280774/chocolate-hazelnut-energy-balls/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18377/dietary-restrictions/gluten-free/desserts/",
+                        "name": "Gluten-Free Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/20015/dietary-restrictions/gluten-free/desserts/chocolate/",
+                        "name": "Gluten-Free Chocolate Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/280774/chocolate-hazelnut-energy-balls/",
+                        "name": "Chocolate-Hazelnut Energy Balls"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T13:10:41.845-04:00"
+    },
+    "recipeCategory": []
+}

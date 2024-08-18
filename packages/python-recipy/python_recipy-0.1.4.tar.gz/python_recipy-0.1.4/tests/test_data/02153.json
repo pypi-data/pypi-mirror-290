@@ -1,0 +1,114 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Guns of Barbaresco Recipe",
+    "datePublished": "2016-03-14T08:10:00.000-04:00",
+    "dateModified": "2018-08-29T09:55:33.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Maggie Hoffman",
+            "url": "https://www.seriouseats.com/maggie-hoffman-5118865"
+        }
+    ],
+    "description": "This cocktail softens potent 100-proof apple brandy with bright lemon and Barolo Chinato, a bittersweet, herb- and spice-dosed digestivo made from one of Italy&#39;s best wines. The results are rich, fruity, and spirituous.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/DOoXxMxv0g9Ijbwk0dTOjsxmBL8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160310-chinato-cocktail-guns-of-barbaresco-vicky-wasik-1586e032c38c46a09294078d8b90529b.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Guns of Barbaresco Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "keywords": "apple brandy, barolo chinato, brandy, cocktail",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 whole star anise pod",
+        "1 1/2 ounces (45ml) straight apple brandy (100 proof)",
+        "3/4 ounce (20ml) Barolo Chinato",
+        "1/2 ounce (15ml) fresh lemon juice from 1 lemon",
+        "1/2 ounce (15ml) strong Demerara syrup (see note)",
+        "3 dashes Regans&#39; Orange Bitters"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place star anise pod in a small skillet over medium heat and toast, stirring and flipping frequently, until fragrant, about 1 minute. Transfer to a plate and set aside to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add apple brandy, Barolo Chinato, lemon juice, strong Demerara syrup, and orange bitters to a cocktail shaker and fill 2/3 full with ice. Shake until well chilled, about 15 seconds. Fine-strain into a cocktail coupe. Garnish with toasted star anise pod."
+        }
+    ],
+    "recipeYield": "1",
+    "totalTime": "PT6M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rogisem"
+            },
+            "reviewBody": "You're gonig to make me poor Maggie Hoffman"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/guns-of-barbaresco-ava-genes-cocktail-apple-brandy-chinato-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/brandy-cognac-recipes-5117857",
+                        "name": "Brandy & Cognac"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/guns-of-barbaresco-ava-genes-cocktail-apple-brandy-chinato-recipe",
+                        "name": "Guns of Barbaresco Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

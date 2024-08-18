@@ -1,0 +1,401 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1021492-sweet-potato-cinnamon-swirl-bread#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1021492-sweet-potato-cinnamon-swirl-bread",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/09/29/dining/lep-sweet-potato-loaf/merlin_176510394_51d02fb2-018a-499e-b237-93917b6cb034-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1021492-sweet-potato-cinnamon-swirl-bread",
+    "name": "Sweet Potato Cinnamon Swirl Bread",
+    "description": "Roasted, puréed sweet potatoes lend moisture, flavor and a rich golden color to this hybrid breakfast bread and pastry. Here, a batter-like layer added to the yeasted dough, referred to as a wine loaf, helps prevent those gaps that often form in swirled breads. This recipe bakes beautifully in a small Pullman loaf pan, but any 1 1/2-pound-capacity loaf pan will do. If you can spare a slice, it makes a beautiful overnight French toast.",
+    "author": {
+        "@type": "Person",
+        "name": "Laurie Ellen Pellicano"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/09/29/dining/lep-sweet-potato-loaf/merlin_176510394_51d02fb2-018a-499e-b237-93917b6cb034-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/09/29/dining/lep-sweet-potato-loaf/merlin_176510394_51d02fb2-018a-499e-b237-93917b6cb034-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/09/29/dining/lep-sweet-potato-loaf/merlin_176510394_51d02fb2-018a-499e-b237-93917b6cb034-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/09/29/dining/lep-sweet-potato-loaf/merlin_176510394_51d02fb2-018a-499e-b237-93917b6cb034-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H",
+    "recipeYield": "One 9- to 10-inch loaf",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "active dry yeast, bread flour, brown sugar, cinnamon, nutmeg, raisin, sweet potato, fall",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 178
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 285,
+        "unsaturatedFatContent": "3 grams",
+        "carbohydrateContent": "48 grams",
+        "cholesterolContent": null,
+        "fatContent": "8 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "6 grams",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "222 milligrams",
+        "sugarContent": "17 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 tablespoons warm water",
+        "2 1/4 teaspoons active dry yeast (from a 3/4-ounce packet)",
+        "2 3/4 cups/390 grams bread flour, plus more for kneading",
+        "2 1/2 teaspoons kosher salt",
+        "1/2 teaspoon freshly grated nutmeg",
+        "1/4 teaspoon ground mace",
+        "5 tablespoons/70 grams unsalted butter, at room temperature, plus more for greasing",
+        "1/3 cup/75 grams dark brown sugar",
+        "1 large egg",
+        "3/4 cup/210 grams sweet potato purée (from about 1 large sweet potato; see Tip)",
+        "1 tablespoon heavy cream, half-and-half or milk, for brushing",
+        "1 cup/150 grams golden or dark raisins (or a combination)",
+        "1/3 cup/40 grams bread flour",
+        "1/4 teaspoon baking powder",
+        "1/4 teaspoon kosher salt",
+        "1 teaspoon ground cinnamon, plus more for sprinkling",
+        "1 1/2 tablespoons/20 grams unsalted butter, room temperature",
+        "2 tablespoons dark brown sugar",
+        "1 large egg"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the dough: In a small bowl, mix together the warm water and yeast. Let sit, undisturbed, for 1 minute, then whisk to dissolve. Let sit until frothy, about 5 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk together 2 3/4 cups flour, salt, nutmeg and mace. Set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, using a wooden spoon, beat together the 5 tablespoons butter and the sugar to form a paste. You are not looking for a lot of air; you just want the mixture to look cohesive."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Break the egg into a small bowl or cup and stir with a fork to break up the yolk a bit, then add to the creamed sugar base. Beat with a sturdy wooden spoon to combine. Add the sweet potato purée and continue beating until mostly incorporated; the mixture will look curdled. Stir in the yeast mixture."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the flour mixture and stir to create a soft, shaggy dough. Turn it out onto a flour-dusted surface and knead and fold the edges of the dough into the center until it comes together."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Continue kneading for about 8 minutes, adding flour as necessary if the dough gets sticky until you form a smooth but tender ball. This is a wetter dough and may absorb up to 1/4 cup more flour, so keep adding as you knead. (Alternately, this whole process can be done in a mixer, using the beater attachment on low to combine the butter and sugar until creamy. Stream in the beaten egg, followed by the sweet potato purée and finish with the flour. Once all the flour is added, switch to the dough hook and mix on medium-low for 6 to 8 minutes. Three minutes into kneading, check for tackiness and add flour if the dough does not come cleanly off the hook.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Scrape any leftover bits from the large bowl and discard. Grease with a little butter or oil, nest the dough in the bowl turning it once to coat lightly. Cover with a plate, pot lid or wet towel and let sit in a warm place until doubled in volume 1 1/2 to 2 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Punch down the dough, fold the edges into the center, flip the dough over and cover with a pot lid or an inverted plate. Chill overnight in the refrigerator (or at least 8 hours)."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "The next morning, soak the raisins in boiling water to cover and let them sit for 10 minutes to plump. Drain well and set aside. Grease a 1 1/2-pound-capacity loaf pan (such as a 9-by-4-inch small Pullman or a 10-by-5-inch loaf pan) with softened butter or oil."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the wine loaf: In a small bowl, whisk together the flour, baking powder, salt and cinnamon. In a separate small bowl, beat together the butter and sugar to make a paste. Add the egg and beat to combine. Add the flour mixture and stir until smooth and uniform. Keep at room temperature."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove dough from the fridge; it should be puffy and nearly doubled in size. Turn the dough out onto a lightly floured surface. Roll the dough out into an oblong sheet that is about 18-by-6 inches, using a little flour if necessary to keep it from sticking."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Spread the wine loaf across the surface of the dough in a thin, even layer, using an offset spatula or sturdy rubber spatula."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Scatter the plumped raisins over the battered dough, pressing lightly to adhere, then sprinkle very lightly with additional cinnamon to lightly coat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Roll the dough up lengthwise, shaping it into a tight 6-inch-long log. When finished, rock the loaf back and forth a bit on the surface and press on both ends with your hands to even it out. You want the loaf to fit snugly in the bottom of the pan. To adjust the dimensions, roll it a little more to elongate it or press the ends a few more times to make it shorter. Lift it up and slip the loaf into the buttered loaf pan, seam-side down."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Let rise at room temperature, covered loosely with a sheet of lightly greased plastic wrap, until doubled and brimming in your pan, about 3 hours."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When your loaf looks close to ready, heat the oven to 375 degrees and position a rack in the center."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Brush the surface of the loaf with cream, and bake for 50 minutes to 1 hour 15 minutes, rotating after 30 minutes to ensure even coloring. The loaf should be a deep golden brown and register 200 degrees when tested with a thermometer. (If the loaf is browning too quickly, you can tent with aluminum foil halfway through baking.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove from the oven and, using oven mitts or towels, bang the pan on all sides on the counter to release the loaf, carefully unmolding it onto a cooling rack. Let loaf cool completely before slicing. (If you cut it when hot, you may dry out the interior.) Store bread in an extra large sealed bag for 2 to 3 days, slice it before bagging for easy toasting. You can also freeze it in resealable freezer-safe plastic bags, whole or sliced."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "OnlyInNY"
+            },
+            "reviewBody": "I am curious about the comment, \"Melissa Clark says that all canned pumpkin is butternut squash.\"  I pulled my Green Valley brand of canned pumpkin from the shelf.    The ingredient listed is: \"organic pumpkin.\"",
+            "datePublished": "2024-04-16T20:01:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GW"
+            },
+            "reviewBody": "I've made this bread twice (2 years apart) and I still haven't exactly figured out why, but my dough both times was as dry as crumbly pie crust and required me to add a good bit of water. The kneading time both times was also much longer than 8 minutes and I never got a good windowpane. The flavor still turns out great, though both times I substituted the wine loaf for a purple sweet potato or boniato puree filling I made on the fly, so I don't know what the actual wine loaf part tastes like.",
+            "datePublished": "2023-11-04T22:01:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen E."
+            },
+            "reviewBody": "I read that sweet potatoes are sweeter if roasted at lower heat, so I cut mine crosswise and put in airfryer@360 for 30 minutes. Perfect!",
+            "datePublished": "2022-10-27T14:54:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shannon"
+            },
+            "reviewBody": "Canned sweet potato will have more moisture than freshly baked and puréed so will require more flour.",
+            "datePublished": "2022-08-19T18:45:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GW"
+            },
+            "reviewBody": "This would’ve been a super easy recipe except something really went wrong with my dough - it needed way longer to knead to the “smooth ball” status, though I never reached a good windowpane. It still rose very well and baked nicely, although it ended up a bit dense and tight in the structure, possibly due to the kneading problem I had. I’m thinking it was a moisture/temperature problem because it started off feeling like pie crust dough but after I added a good bit of warm water it improved.",
+            "datePublished": "2021-12-15T17:07:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lois"
+            },
+            "reviewBody": "Great straightforward recipe! Delicious. Used what I had: entirely freshly ground whole wheat flour, no mace-cinnamon instead, no sweet potato-carrot/pumpkin instead (roasted). Did not have a pullman - used two regular sized loaf pans, rolled out to recommended size and cut in half lengthwise. Worked! Didn't rise super well in the bake, but we're over 6,000 feet where baking is an art, not a science... and the whole wheat changes it a lot.",
+            "datePublished": "2021-04-30T16:24:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christine"
+            },
+            "reviewBody": "This recipe is extremely forgiving!  I made a triple recipe to use up sweet potato, but the only yeast I had was ancient.  Because I got busy, I let the doughs sit longer than called for at every stage (including one which sat in the second-to-last rise for a couple of weeks) and every loaf turned out well.  My one tip is to cook for the full length of time if using a glass pan, with the tented foil halfway through to avoid burning.  I made one loaf in a foil pan that needed less oven time.",
+            "datePublished": "2021-02-08T03:44:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "After raising a question about the time the bread dough took to rise, I thought I'd report that, in the end, the bread came out beautifully!  It just took forever to rise - both times.  (For the second rising, I put it in the fridge for about 8 hours and then left it out on the counter overnight!)  Maybe it was the yeast . . . . In any case, it is very, very good and pretty to look at\n, too.  Just be patient about rising time - don't give up on it (as I almost did).",
+            "datePublished": "2021-01-25T15:50:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "It took all night (in the oven on bread proof setting) to double in size.   At the moment, it has been sitting in the refrigerator for 8 hours and it has not risen at all.  Any advice?",
+            "datePublished": "2021-01-24T21:09:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter"
+            },
+            "reviewBody": "Digs’ alterations:\n\nMy mods: it’s quite salty as written so I used half the salt in the main dough this time around (didn’t change amount in the cinnamon swirl batter). And I’m not a big raisin fan, so I use cranberries and/or cherries. Tart cherries would be great — Trader Joe’s has ‘em.",
+            "datePublished": "2020-12-28T17:30:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Debbie G"
+            },
+            "reviewBody": "I've made this twice and am now making a couple of loaves for gifting.  Delicious and easy if you follow the step-by-step instructions.  I slice it, place wax paper between the slices and freeze.  Then we just pull out a slice at a time for toast.  It's definitely a keeper.",
+            "datePublished": "2020-12-17T17:24:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The Tortoise"
+            },
+            "reviewBody": "Gosh, there are more steps in this recipe than commenters.  I just made this and think it is great.  And it is sort of a project  but none of the steps are hard so it's ideal for lockdown times (12/20).  The use of  a \"wine loaf\" is completely new to me, and it almost worked but I did have a gap in one place; I maybe should have given more care to the word \"tight\" in step 14.   Next time (because of the sweet potato) I'm tempted to substitute prunes for the raisins.",
+            "datePublished": "2020-12-15T16:16:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "melinda"
+            },
+            "reviewBody": "Did not taste anything but the salt in this. No sweet potato taste at all. The loaf itself is very pretty, slices nicely,good crumb but I would take out the salt and why is it called wine loaf again?",
+            "datePublished": "2020-10-30T10:29:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aly"
+            },
+            "reviewBody": "Just learned from Melissa Clark that all canned pumpkin is butternut squash",
+            "datePublished": "2020-11-19T13:01:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kgh"
+            },
+            "reviewBody": "Only my second time ever making bread and it turned out great! Used a stand mixer, baked for 50 mins in a 9x5 loaf pan, and it was perfect. Went heavy on the cinnamon and added a bit to the dough. Excellent toasted and buttered (or pan fried in butter). Next time I’ll try it with canned pumpkin!",
+            "datePublished": "2020-10-18T22:33:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy from Cali"
+            },
+            "reviewBody": "This was okay. Too salty for our taste but kind of fun to run through all the steps",
+            "datePublished": "2020-10-17T01:28:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bianca"
+            },
+            "reviewBody": "Don't let the amount of steps scare you off -- it's a super easy recipe to follow and not time consuming! I've made a bunch of different loaves, rolls and breads throughout quarantine and this was the easiest one (made in stand mixer). I used canned pumpkin instead of sweet potato. It's in the oven now. Can't wait to try!",
+            "datePublished": "2020-10-07T15:14:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter"
+            },
+            "reviewBody": "Digs’ alterations:\n\nMy mods: it’s quite salty as written so I used half the salt in the main dough this time around (didn’t change amount in the cinnamon swirl batter). And I’m not a big raisin fan, so I use cranberries and/or cherries. Tart cherries would be great — Trader Joe’s has ‘em.",
+            "datePublished": "2020-12-28T17:30:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christine"
+            },
+            "reviewBody": "This recipe is extremely forgiving!  I made a triple recipe to use up sweet potato, but the only yeast I had was ancient.  Because I got busy, I let the doughs sit longer than called for at every stage (including one which sat in the second-to-last rise for a couple of weeks) and every loaf turned out well.  My one tip is to cook for the full length of time if using a glass pan, with the tented foil halfway through to avoid burning.  I made one loaf in a foil pan that needed less oven time.",
+            "datePublished": "2021-02-08T03:44:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aly"
+            },
+            "reviewBody": "Just learned from Melissa Clark that all canned pumpkin is butternut squash",
+            "datePublished": "2020-11-19T13:01:29.000Z"
+        }
+    ]
+}

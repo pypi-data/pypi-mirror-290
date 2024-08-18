@@ -1,0 +1,414 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1019926-cheese-grits-with-saucy-black-beans-avocado-and-radish#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1019926-cheese-grits-with-saucy-black-beans-avocado-and-radish",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/01/15/dining/sc-cheese-grits-with-black-beans/merlin_149231763_c1eecae5-309a-47a3-9811-4362efbca087-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1019926-cheese-grits-with-saucy-black-beans-avocado-and-radish",
+    "name": "Cheese Grits With Saucy Black Beans, Avocado and Radish",
+    "description": "Cheesy grits are a filling, versatile vegetarian staple. They can be dressed up or down, and topped with heaps of your favorite things. If you have it, Manchego provides creaminess and rich, salt flavor, but a combination of Cheddar and Parmesan works equally well. If you’re using a vegan cheese, opt for one with the creamiest texture like a soy mozzarella, Cheddar or Cheddar Jack. To finish, let your favorite taco toppings guide you—avocados, radish and scallions are a surefire trifecta, but a spoonful of pico de gallo or salsa would be welcome here, too. You could also amp up the beans big time, adding chopped garlic, ground cumin or oodles more heat, but don’t go so crazy that you can’t pull this off on a weeknight with ease.",
+    "author": {
+        "@type": "Person",
+        "name": "Sarah Copeland"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/01/15/dining/sc-cheese-grits-with-black-beans/merlin_149231763_c1eecae5-309a-47a3-9811-4362efbca087-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/15/dining/sc-cheese-grits-with-black-beans/merlin_149231763_c1eecae5-309a-47a3-9811-4362efbca087-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/15/dining/sc-cheese-grits-with-black-beans/merlin_149231763_c1eecae5-309a-47a3-9811-4362efbca087-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/01/15/dining/sc-cheese-grits-with-black-beans/merlin_149231763_c1eecae5-309a-47a3-9811-4362efbca087-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "american",
+    "recipeCategory": "breakfast, brunch, dinner, easy, lunch, quick, weeknight, beans, main course",
+    "keywords": "avocado, black bean, grits, polenta, radish, fall, spring, summer, winter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 1950
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 702,
+        "unsaturatedFatContent": "16 grams",
+        "carbohydrateContent": "86 grams",
+        "cholesterolContent": null,
+        "fatContent": "33 grams",
+        "fiberContent": "25 grams",
+        "proteinContent": "23 grams",
+        "saturatedFatContent": "8 grams",
+        "sodiumContent": "1028 milligrams",
+        "sugarContent": "9 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 3/4 cups vegetable broth or water (or any combination of both), more as needed",
+        "2 cups whole milk or cashew milk",
+        "1 cup grits or polenta",
+        "1 teaspoon kosher salt, plus more to taste",
+        "1 (28-ounce) can black beans, rinsed and drained",
+        "1/2 to 1 teaspoon ground cayenne",
+        "1/2 cup grated Manchego, Cheddar, Parmesan or vegan cheese, plus more for garnish",
+        "2 tablespoons butter, optional",
+        "2 firm ripe avocados, peeled and chopped",
+        "3 small or 1 large radish, thinly sliced",
+        "3 scallions, thinly sliced",
+        "Hot sauce and lime wedges, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a pot, combine 2 cups of the broth or water along with the milk, grits and 1 teaspoon salt. Cook over low heat, stirring frequently, until completely tender, 20 to 25 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a small saucepan, combine the remaining 3/4 cup broth or water with the black beans and cayenne and cook over low heat, stirring occasionally, until warm and saucy. Season to taste with salt and add broth or water by the tablespoon, if desired, for saucier beans."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When the grits are tender, remove from the heat, and vigorously stir in the 1/2 cup cheese and the butter, if using, until the grits are creamy and almost fluffy."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Spoon into four bowls, and top with the bean mixture, avocado, radish and scallion. Finely grate more cheese over the top, if desired, and serve warm, with hot sauce and lime wedges if desired."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "This is delicious! I used chili powder because I didn’t have cayenne and it worked. I split it between two people and was happy.",
+            "datePublished": "2024-06-26T00:58:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Zabby"
+            },
+            "reviewBody": "Simply delish!",
+            "datePublished": "2024-06-19T13:39:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "George J"
+            },
+            "reviewBody": "This was quick, easy, and delicious! I am from New Orleans and while I've never heard of or eaten this dish, it felt like a taste of home. Added some spices to the beans - cumin, coriander, sweet paprika, and smoked paprika, as well as a few cloves of fresh garlic, all fried quickly in canola oil before adding the beans to the pot. Topped off with jalapeños, this really hit the spot!",
+            "datePublished": "2024-06-13T15:18:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KAL"
+            },
+            "reviewBody": "This was really good, especially considering the effort involved. Used black beans and polenta from Rancho Gordo, but followed the recipe exactly with those subbing for the canned beans and the grits. Found a young manchego that melted nicely, but one with more age might have added a tad more more flavor. For those who want more protein, whatever your favorite taco meat is would work nicely as a topping. We’ll definitely make this again.",
+            "datePublished": "2024-06-12T23:42:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Caitlin"
+            },
+            "reviewBody": "Very good and easier than I expected! I would skip the radishes next time for something else crunshy but otherwise made no changes!",
+            "datePublished": "2024-06-12T20:10:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MikeInOz"
+            },
+            "reviewBody": "Heated the beans in a saucepan of fried shallots, cumin, and chili flakes.  Terrific go-to for these cold winter nights down under.",
+            "datePublished": "2024-06-13T03:04:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leggy"
+            },
+            "reviewBody": "I made this and it was very comforting and delicious. I made the polenta as described with chicken broth. For the beans I used 1/2 tsp cayenne, 1 tsp cumin, and 2 cloves garlic I sautéed the aromatics in a tablespoon of oil before adding the beans and water. My avocados were underripe and my radishes had gone bad so I topped the dish off with diced green onion and a zingy cilantro chutney. Yum!",
+            "datePublished": "2024-06-09T03:02:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S.G."
+            },
+            "reviewBody": "Simple, pretty, and delicious.",
+            "datePublished": "2024-06-06T23:33:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Beth"
+            },
+            "reviewBody": "This has become a weeknight staple at our house. We mix it up for picky kids by changing the toppings around (steamed corn and chopped cherry tomatoes). We also use whatever cheese we have on hand for the grits and it always turns out delicious!",
+            "datePublished": "2024-06-06T18:12:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen"
+            },
+            "reviewBody": "Easy and delicious. I added kale to the beans.",
+            "datePublished": "2024-04-25T14:24:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Miranda"
+            },
+            "reviewBody": "Super flavorful and flexible recipe. I used quick cooking polenta and it took about 10 minutes total. Replaced avocados with guacamole, scallions with red onion, and added cucumber and cilantro. Will become a regular go-to in my household.",
+            "datePublished": "2024-03-22T23:12:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "L Liblhs"
+            },
+            "reviewBody": "Loved this recipe! I agree with upping the additions to the beans but other than that totally loved every bite!  One small thought...I let the beans cook a bit longer so that they got creamier and less liquid.",
+            "datePublished": "2024-02-22T23:48:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JJ"
+            },
+            "reviewBody": "This was a hit! Added cumin and a little extra Better than Bullion paste to the beans. Quick pickled red onions as an additional topping.",
+            "datePublished": "2023-12-06T05:18:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amanda L."
+            },
+            "reviewBody": "I love this recipe, and use the directions for making grits whenever I make grits or polenta. The grits come out fluffy and smooth, but with just the right amount of bite.",
+            "datePublished": "2023-11-28T17:18:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Additions"
+            },
+            "reviewBody": "Add sautéed kale",
+            "datePublished": "2023-10-22T18:58:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Holly"
+            },
+            "reviewBody": "If you are making this for two hungry people, using only 400g of beans (approx. half the amount) does the trick! \n\nThis dish is nothing short of spectacular, and fulfills my tex-mex cravings, all with ingredients I can get in rural Germany. I am extremely impressed. ",
+            "datePublished": "2019-01-25T18:49:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathryn"
+            },
+            "reviewBody": "Delicious!  Made a few edits - threw a diced jalapeño, cumin, and garlic powder in with the beans, and marinated the radishes in some lime juice.  I also make food for the leftovers, so instead of avocado I diced some tomatoes.",
+            "datePublished": "2019-04-08T23:53:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christa"
+            },
+            "reviewBody": "Swapped smoked paprika for the cayenne: much more subtle and flavorful. You don't need to smother this dish in hot sauce and cayenne to make it edible--allow the natural flavors to come through.",
+            "datePublished": "2019-01-24T00:19:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christa"
+            },
+            "reviewBody": "Very easy and very warming as the temperature plunged into the single-digits. Used my own beans and stock and skipped the cayenne, although in hindsight, cumin or smoked paprika might have been good; greens would also have been a good addition in hindsight (greens are always a good addition). Butter and cheese make this very luscious: I used a Scottish cheddar.",
+            "datePublished": "2019-01-21T00:38:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "Tweaks added 1 teaspoon cumin, 1 teaspoon oregano, half teaspoon smoked paprika, half teaspoon onion powder 1/2 c.corn to beans. Cut recipe in half. I added a fried egg and cilantro at end.",
+            "datePublished": "2020-01-18T03:27:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Frances Leftwich"
+            },
+            "reviewBody": "Reminds me of \"My Cousin Vinny\" who won his court case due to knowing that no self respecting southerner would eat grits cooked less than 20 minutes.",
+            "datePublished": "2021-01-15T16:29:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steven"
+            },
+            "reviewBody": "This was fantastic, although much of the goodness might be the quality of the extra aged extra sharp cheddar we used.  I am surprised no one has commented on the short cook time for the polenta.  Since no specific grits or polenta was in the ingredient list, I used Bob's Red Mill stone ground.  This normally takes 45 to 60 minutes with frequent stirring.  That's what it takes for this type of polenta to be creamy and good.",
+            "datePublished": "2020-02-09T04:30:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie"
+            },
+            "reviewBody": "This was very good. I used my homemade vegetable stock. Went with the full tsp of cayenne for the beans and ultimately served them on the polenta using a slotted spoon as the sauce stayed quite loose, what clung to them was plenty and had a nice flavor. Added some chopped pickled jalapenos with the cheese to the grits which gave a nice spicy tang to them. Also added a generous amount of fresh chopped cilantro to the toppings. It was a great hearty breakfast.",
+            "datePublished": "2019-01-20T08:36:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dana"
+            },
+            "reviewBody": "I really like this for a cozy dinner. I added a little cumin and smoked paprika to the beans for a more balanced flavor. \n\nWhen I want vegan cheesy grits but don't have vegan cheese on hand, I like making the grits with good broth (not water) and stirring in a couple spoonfuls of nutritional yeast off the heat.",
+            "datePublished": "2019-03-09T01:52:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "c"
+            },
+            "reviewBody": "The black beans are your protein in this recipe",
+            "datePublished": "2020-01-17T20:01:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kateirene"
+            },
+            "reviewBody": "I went to make this family fave and noticed the recipe has changed! The original recipe contained cumin, onion powder, oregano, smoked paprika, etc. with the beans Luckily I had the original in another spot, but first timers are missing out with only cayenne!",
+            "datePublished": "2023-01-03T23:14:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jaydub"
+            },
+            "reviewBody": "Enjoyed this, easy to make and have as vegan. We used almond milk cheese and will use a stronger cheese next time. ",
+            "datePublished": "2019-01-19T00:56:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leigh"
+            },
+            "reviewBody": "This was really good and easy to veganize. I liked this fresh version of the southern classic. ",
+            "datePublished": "2019-01-21T00:05:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tjitske"
+            },
+            "reviewBody": "I added pork from David Tanis' Sizzling Pork Tacos recipe (<a href=\"https://cooking.nytimes.com/recipes/1013755-sizzling-pork-tacos?action=click&module=Local\" target=\"_blank\">https://cooking.nytimes.com/recipes/1013755-sizzling-pork-tacos?action=click&module=Local</a>%20Search%20Recipe%20Card&pgType=search&rank=1) .\n\nThe seasoned pork paired well with this meal, but I learned it was not necessary. If you're a meat lover concerned about a lack of meat here, don't worry. This dish is delicious and filling on its own, which is how I'll make it next time.",
+            "datePublished": "2019-08-19T15:01:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Heather S."
+            },
+            "reviewBody": "You can - if it's finely ground, you risk it being pasty and gooey (not in a good way). If you have coarsely ground cornmeal, that would be better. Watch it while it cooks because it will likely be done much sooner (5 -8 minutes). I would also recommend adding half the liquid to start and adding more as you go. Because cornmeal would cook much more quickly, you won't need as much liquid.",
+            "datePublished": "2021-01-15T19:59:06.000Z"
+        }
+    ]
+}

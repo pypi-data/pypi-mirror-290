@@ -1,0 +1,90 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Smoked Gouda Mac and Cheese",
+    "url": "https://www.foodnetwork.com/recipes/smoked-gouda-mac-and-cheese-5381235",
+    "headline": "Smoked Gouda Mac and Cheese",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/7/26/DV2816_smoked-gouda-mac-and-cheese-with-smoked-pork-belly_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1532965628157.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Smoked Gouda Bacon Mac and Cheese as Served at Sisters and Brothers Bar in Seattle, Washington, as seen on Diners, Drive-Ins and Dives, Season 28."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/7/26/DV2816_smoked-gouda-mac-and-cheese-with-smoked-pork-belly_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1532965628157.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Smoked Gouda Bacon Mac and Cheese as Served at Sisters and Brothers Bar in Seattle, Washington, as seen on Diners, Drive-Ins and Dives, Season 28."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/7/26/DV2816_smoked-gouda-mac-and-cheese-with-smoked-pork-belly_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1532965628157.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Smoked Gouda Bacon Mac and Cheese as Served at Sisters and Brothers Bar in Seattle, Washington, as seen on Diners, Drive-Ins and Dives, Season 28."
+        }
+    ],
+    "datePublished": "2018-07-30T12:43:01.430-04:00",
+    "dateModified": "2018-07-30T12:43:01.141-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Macaroni and Cheese,Cheese,Gouda Recipes,Side Dish,High Fiber",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT0H20M0.000S",
+    "recipeIngredient": [
+        "1 gallon whole milk",
+        "1 pound unsalted butter ",
+        "2 cups all-purpose flour ",
+        "1 teaspoon onion powder ",
+        "21 ounces smoked gouda cheese, shredded",
+        "Kosher salt and freshly ground black pepper",
+        "3 1/2 pounds macaroni, cooked to al dente"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 10 servings",
+        "calories": "1461",
+        "fatContent": "69g",
+        "saturatedFatContent": "42g",
+        "carbohydrateContent": "159g",
+        "fiberContent": "6g",
+        "sugarContent": "25g",
+        "proteinContent": "51g",
+        "cholesterolContent": "204mg",
+        "sodiumContent": "1584mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the milk in a large saucepan over medium-low heat to 185 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate large pot over medium heat, make the roux by melting the butter and slowly whisking in the flour and onion powder. Once the milk has reached temperature, add the roux and the cheese. Using an immersion blender, carefully blend all ingredients until smooth. Season with salt and pepper. Stir in the macaroni. "
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 5
+    },
+    "recipeYield": "8 to 10 servings",
+    "recipeCategory": []
+}

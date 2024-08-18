@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Double Nut Eggnog Recipe",
+    "datePublished": "2011-12-08T06:54:00.000-05:00",
+    "dateModified": "2018-08-30T05:32:52.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "Sometimes you feel like a nut. Then this peanut butter variation on eggnog is just right.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/KwZ0V8h35j8DcIFxDYl0cttw3_4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__12__20111206-egg-nog-09-primary-c63df22389dd47ba9392e606ba30c16e.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Double Nut Eggnog Recipe",
+    "keywords": "alcohol, beverages, brandy, eggnog, holiday, holiday cocktails, holiday recipes, winter cocktails",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "8 eggs",
+        "2/3 cup sugar",
+        "1/2 cup smooth peanut butter",
+        "3 cups whole milk",
+        "2 cups heavy cream",
+        "1 1/2 cups brandy",
+        "1/2 cup hazelnut liqueur",
+        "Toasted peanuts, roughly crushed under a skillet"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place egg whites in the bowl of a stand mixer and whisk on low speed until frothy, about 30 seconds. Increase speed to medium-high and, watching carefully, beat until they are about the consistency of shaving cream, about 90 seconds. Reduce speed to medium. With mixer running, add half of sugar and beat until incorporated, about 30 seconds. Transfer whites to a large bowl. Do not wash bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add egg yolks and remaining sugar to now-empty stand mixer bowl and beat at medium-high speed until pale yellow and ribbony, shutting off machine and scraping down sides with a rubber spatula as necessary, about 2 minutes total. Add peanut butter and mix until homogenous, about 15 seconds. Add milk, cream, and alcohol and mix on low speed to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a rubber spatula or handheld whisk, fold the whipped whites into the egg yolk/milk mixture until completely incorporated. Serve by ladling into goblets and garnishing with crushed toasted peanuts."
+        }
+    ],
+    "recipeYield": "16",
+    "totalTime": "PT10M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jbart_austex"
+            },
+            "reviewBody": "Kenji, I'm bookmarking this. I made my first-ever from-scratch batch of eggnog in 2013, but it surely will not be my last. A truly remarkable potion. Three Christmases have passed since you put this up on SeriousEats, and not a single comment -- likely attributable to the hesitancy of those who, like me, quiver a bit at the thought of adding peanut butter to the shopping list. No intrepid soul has taken that leap; is it possible it will be up to me to shoulder the burden? Please reassure me that it will be worth it. After all, you've had three holidays to get this in proper shape!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/double-nut-peanut-butter-eggnog",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/brandy-cognac-recipes-5117857",
+                        "name": "Brandy & Cognac"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/double-nut-peanut-butter-eggnog",
+                        "name": "Double Nut Eggnog Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Everything-Bagel Zucchini Fries",
+    "datePublished": "2020-01-15T17:05:30.000-05:00",
+    "dateModified": "2023-09-19T14:57:15.850-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Robin Bashinsky",
+            "url": "https://www.eatingwell.com/author/robin-bashinsky/"
+        }
+    ],
+    "description": "The breading for these zucchini curly fries takes on the flavor of a classic everything bagel while the tangy, creamy sauce finishes off this fun appetizer that&#39;s perfect for a party or brunch. Store-bought everything seasoning can be loaded with salt, so it&#39;s best to make your own at home. Look for fresh and crisp-looking zucchini noodles in the produce section or make your own using a spiralizer. Soggy ones (or even the frozen variety) won&#39;t crisp up well.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/62LPcH4kW9mj0EA7kwLXKdBgeLE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7615418-56515954eff0490ab09a5c1e91297dd7.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Everything-Bagel Zucchini Fries",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "284 kcal",
+        "carbohydrateContent": "66 g",
+        "cholesterolContent": "17 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "9 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "356 mg",
+        "sugarContent": "3 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "0.5 cup cornstarch",
+        "6 large egg whites, lightly beaten",
+        "0.25 cup sesame seeds",
+        "0.25 cup dried minced garlic",
+        "0.25 cup dried onion flakes",
+        "2 tablespoons poppy seeds",
+        "0.75 teaspoon salt",
+        "3 cups panko breadcrumbs",
+        "Cooking spray",
+        "1 pound spiral-cut zucchini noodles (about 4 cups)",
+        "4 ounces whipped cream cheese (about 2/3 cup), softened",
+        "0.25 cup water",
+        "3 tablespoons sour cream",
+        "2 tablespoons thinly sliced fresh chives",
+        "1 tablespoon cider vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spread cornstarch in a shallow dish. Place egg whites in a second shallow dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine sesame seeds, dried garlic, onion flakes and poppy seeds in a third shallow dish. Spoon 3 tablespoons of the mixture into a small bowl; stir in salt and reserve. Stir panko into the remaining sesame seed mixture in the dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425 degrees F. Line 2 baking sheets with parchment paper; coat with cooking spray. Chop zucchini noodles into 5- or 6-inch-long pieces. Working in batches, dredge the zoodles in the cornstarch; shake off excess. Dredge in the egg whites; shake off excess. Dredge in the panko mixture; shake off excess. Arrange the zoodles in a single layer, spaced evenly, on the prepared baking sheets. Coat with cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake until golden and crispy, 10 to 12 minutes. Remove from oven; sprinkle with the reserved sesame seed mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, whisk cream cheese, water, sour cream, chives and vinegar in a small bowl; serve with the zucchini fries."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/278219/everything-bagel-zucchini-fries/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19318/ingredients/vegetables/squash/",
+                        "name": "Healthy Squash Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19324/ingredients/vegetables/squash/zucchini/",
+                        "name": "Healthy Zucchini Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/278219/everything-bagel-zucchini-fries/",
+                        "name": "Everything-Bagel Zucchini Fries"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T14:57:15.850-04:00"
+    },
+    "recipeCategory": []
+}

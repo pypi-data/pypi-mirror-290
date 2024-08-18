@@ -1,0 +1,124 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Poached Pears Recipe",
+    "datePublished": "2011-10-20T04:00:00.000-04:00",
+    "dateModified": "2019-04-19T11:02:03.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Lauren Weisenthal",
+            "url": "https://www.seriouseats.com/lauren-weisenthal-5118832"
+        }
+    ],
+    "description": "Poached pears make a great dessert on their own, but my favorite use for them is as an ingredient in baked goods. Poaching the pears before using them in quick breads, muffins, cakes, and pies gives them vibrant, spicy flavor and ensures that they won&#39;t be undercooked or dried out. Feel free to customize the spice combination that you use to your taste.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/1rKvFnHQQbIMCe72DIW0RwUeXeE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__10__20111003-173559-poaching-pears-610x458-1-ef662bce11034881ab36080022f2b6b6.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Poached Pears Recipe",
+    "keywords": "fall sweets, fruit, fruit desserts",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "111 kcal",
+        "carbohydrateContent": "28 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "0 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "3 mg",
+        "sugarContent": "22 g",
+        "fatContent": "0 g",
+        "servingSize": "6",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 quart water",
+        "1 cup sugar",
+        "1/4 cup honey",
+        "1 cup dry white wine",
+        "1 tablespoon fresh ginger, minced",
+        "1 pod from a vanilla bean (saved from another project, or the whole, scraped vanilla bean and seeds)",
+        "2 star anise",
+        "2 cinnamon sticks",
+        "6 whole peeled pears (Bartlett, Bosc, or Anjou, on the slightly under-ripe side)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine water, sugar, honey, wine, ginger, vanilla bean, star anise, and cinnamon sticks in a large pot and bring to a simmer. Add the pears, taking care that they are all covered by the poaching liquid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut a round of parchment large enough to cover the pot with an extra inch around the sides. Cut a 1 inch hole in the center of parchment and press the round, with the hole directly in the center, directly on top of poaching liquid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Simmer pears in the liquid until they are fork-tender and slightly translucent (depending on the pears, this can take anywhere from 45 minutes to 1 hour) Allow pears to cool in liquid before serving or using for baking. To serve, cut the pears in half the long way and scoop out the seeds with a melon ball scoop. Cut out the pith from the stems and the base."
+        }
+    ],
+    "recipeYield": "6",
+    "totalTime": "PT120M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/how-to-poach-pears-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/fruit-recipes-5117662",
+                        "name": "Fruit"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/pear-recipes-5117642",
+                        "name": "Pear"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/how-to-poach-pears-recipe",
+                        "name": "Poached Pears Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

@@ -1,0 +1,417 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024725-easy-burritos#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024725-easy-burritos",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "True",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "True",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024725-easy-burritos",
+    "name": "Easy Burritos",
+    "description": "Saucy and savory with just ground beef, beans and cheese, this easy recipe is inspired by Los Angeles-style burritos, which restaurant critic Jonathan Gold once summarized as “the rough equivalent of a hardhat’s lunch pail, a method of constructing a filling, portable meal from a tortilla, last night’s beans and a spoonful of stew if there was one.” This burrito’s filling eschews guacamole, sour cream, rice and raw vegetables which means it freezes well for up to 3 months. The seared ground beef is simply spiced, but feel free to swap in a stewed meat like birria or tinga de pollo or make it vegetarian with just beans and cheese.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT40M",
+    "totalTime": "PT50M",
+    "recipeYield": "6 burritos",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, lunch, quick, weeknight, main course",
+    "keywords": "black bean, burrito, flour tortilla, freezer friendly, ground beef, ground cumin, internal-open-access-search, make-ahead, monterey jack cheese, pinto bean, stovetop",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1354
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 575,
+        "unsaturatedFatContent": "14 grams",
+        "carbohydrateContent": "42 grams",
+        "cholesterolContent": null,
+        "fatContent": "31 grams",
+        "fiberContent": "6 grams",
+        "proteinContent": "32 grams",
+        "saturatedFatContent": "14 grams",
+        "sodiumContent": "813 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "1 pound ground beef",
+        "1 medium yellow or white onion, finely chopped",
+        "1 1/2 teaspoons ground cumin",
+        "1/2 teaspoon smoked paprika, or chipotle or ancho chile powder",
+        "1/2 teaspoon dried oregano",
+        "1 (15-ounce) can black or pinto beans",
+        "1 large tomato, coarsely chopped",
+        "2 teaspoons lime juice, or apple cider vinegar ",
+        "Hot sauce, for drizzling (optional)",
+        "6 burrito-size (about 10-inch) flour tortillas",
+        "2 cups (8 ounces) shredded Monterey Jack or Mexican blend cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large skillet, press the beef into an even layer to fill the skillet. Sprinkle with the onion. Cook over medium-high, undisturbed, until the meat is deeply browned underneath, 6 to 8 minutes. Sprinkle with the cumin, smoked paprika and oregano, and season with salt and pepper. Break up the beef into small pieces, then cook, stirring occasionally, until the onion is softened and the spices are fragrant, 2 to 4 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the beans, including the liquid, and the tomato and simmer, stirring and scraping up browned bits, until the liquid has evaporated and the mixture starts to sizzle, 8 to 10 minutes. Turn off the heat, stir in the lime juice and season with salt and pepper."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Arrange the tortillas on a clean work surface. Sprinkle half the cheese across the center of the tortillas, left to right, leaving a 1-inch border. Top each with 2/3 cup of the beef-bean mixture, followed by the remaining cheese. Drizzle on hot sauce, if using. Fold the tortilla’s short sides over the filling, then fold the bottom of the tortilla snugly over the filling. Tightly roll away from you until the burrito is sealed. Repeat with the other tortillas."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When ready to eat, in a nonstick skillet over medium, place the burritos seam side down. Cook, turning occasionally, until golden all over, 3 to 5 minutes. Serve with desired toppings."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-01-11T00:00:00.000Z",
+    "dateModified": "2024-01-11T20:28:19.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JW"
+            },
+            "reviewBody": "OK, these are pretty dang good! I admit as a CA resident where burritos are abundant that I was skeptical. I did not see the part about not draining the beans until I’d already drained them. I added about 1c water to compensate, and added some chili powder (1T or so) in addition to the smoked paprika. Chili powder mainly because I thought it needed something after tasting as it was. I cooked the mixture down to no liquid and once rolled and re-heated, they were so creamy and tasty!",
+            "datePublished": "2024-06-29T02:28:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Haz Zarpe"
+            },
+            "reviewBody": "all burritos are easy. If you're burrito is difficult, you're doing it wrong",
+            "datePublished": "2024-06-21T17:43:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael N."
+            },
+            "reviewBody": "Sprinkle half the cheese ....but what is the amount?  Just wondering...",
+            "datePublished": "2024-06-10T20:31:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janis"
+            },
+            "reviewBody": "I just made this today & my son & husband loved it as well as I do. It’s fantastic. It’s easy and pretty much fast to make.",
+            "datePublished": "2024-06-04T21:14:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GLopez"
+            },
+            "reviewBody": "These are fake burritos. Real burritos are made with hand made flour tortillas.  As a reference please watch Netflix’s Taco Chronicles Burrito episode.",
+            "datePublished": "2024-05-19T01:30:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CC"
+            },
+            "reviewBody": "Made this tonight with Mission gluten free tortillas. The wrap is a bit wonky as tends to happen but I got all 6 to the pan. The cheese on top and below the meat kept held these together. By far the most structurally sound GF burrito I’ve made.",
+            "datePublished": "2024-05-14T01:31:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "hanky"
+            },
+            "reviewBody": "Throwing some tomato paste and chicken bouillon for an extra flavor zhuzh",
+            "datePublished": "2024-05-01T23:41:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jd"
+            },
+            "reviewBody": "Don’t buy 14” tortillas. lol. Added 1 tsp of chili powder, reduced smoked paprika to 1/4 tsp\n\nTook waaaay longer to cook down but was delicious",
+            "datePublished": "2024-04-20T01:55:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kpinmv"
+            },
+            "reviewBody": "I learned from the various wonderful men who have helped us with projects to wrap burritos in foil and pop into a thermos. They fit perfectly and are still warm for lunch!",
+            "datePublished": "2024-04-17T00:44:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elaine"
+            },
+            "reviewBody": "Fantastic weeknight meal. Used salsa instead of a tomato and increased the spice a bit. Delicious!",
+            "datePublished": "2024-04-16T22:59:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "meltellott"
+            },
+            "reviewBody": "Our team is arguing about the idea of cooking the beans separately and mashing them smooth.  Like you would for the bean burrito recipe here.  I’m a big fan of this idea, but our kitchen is divided.  I think just putting beans in with the beef, etc, just won’t heat them enough, and mashed would be better texture too.",
+            "datePublished": "2024-04-13T19:52:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer"
+            },
+            "reviewBody": "Was easy to make but I felt it lacked in flavour.  I will definitely add in additional spices & jalapeño next time.",
+            "datePublished": "2024-04-05T03:27:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephany M"
+            },
+            "reviewBody": "We didn't have enough left over of my husband's seasoned taco filling for tacos, so I followed this recipe starting at step 2 (half recipe).  Added black beans and canned chopped tomatoes, lime juice, etc. and followed the other steps.  These were absolutely delicious and filling.  By the way, we do use ground turkey to make our tacos, but always add beef broth and cook it down with the other seasonings (if I had done step 1) as the beef broth adds the beefy taste we like!",
+            "datePublished": "2024-04-04T16:40:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nancy"
+            },
+            "reviewBody": "So delicious- a new family favorite. Definitely add some hot sauce.",
+            "datePublished": "2024-04-03T22:44:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Niko V"
+            },
+            "reviewBody": "This deserves to be 5 stars, and I am so sad to see it only at 4 after a thousand ratings. We mke this weekly now, after discovering the recipe last year. Absolutely delicious (be sure to use 80/20 ground beef, drain the fat if you are so inclined). The lime and cheese are key to getting the amazing consistency and punch in the final flavor.",
+            "datePublished": "2024-04-03T18:21:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard X"
+            },
+            "reviewBody": "You have a round tortilla. Sprinkle cheese and meat left to right across the center of the tortilla (middle vertical third), leaving a 1\" border at the left & right. This 1\" border on the left & right sides are the \"short\" sides: the left and right sides of the round tortilla as you face it. Fold those in. The \"bottom\" of the tortilla is now closest to you. Fold that up, over the filling, and continue rolling. Video: <a href=\"https://www.google.com/search?q=how+to+wrap+a+burrito&sca_esv=599926585&sx\" target=\"_blank\">https://www.google.com/search?q=how+to+wrap+a+burrito&sca_esv=599926585&sx</a>",
+            "datePublished": "2024-01-19T23:56:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "I'm originally from San Antonio, as well, and frying before filling was a common step with many tortilla recipes.  \n\nIt's humorous to read some comments saying how this wasn't done \"that way\" where they had their experience or where their friend/family member came from in Mexico.  You've got to realize and hopefully embrace, celebrate, and accept just how diverse and colorful and flavorful Mexican culture is - it is anything but homogeneous.",
+            "datePublished": "2024-01-20T19:16:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bob"
+            },
+            "reviewBody": "Wrap it well in tinfoil and find a nice warm spot near the radiator of the equipment you are running (the engine block will burn it) and at lunch you got a nice, gooey, hot burrito.",
+            "datePublished": "2024-01-16T03:21:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard X"
+            },
+            "reviewBody": "It is not silly. It sets things up for the rest of the Step by defining short and bottom sides of the tortilla. One reader has already been confused by that. Some new cooks are grateful for any additional tips/instructions, even if you think they are silly.",
+            "datePublished": "2024-01-20T21:34:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "Delicious and quick (and easy) Friday evening meal!  Was out of black and pintos, but a can of great nirthern worked well. I think almost any bean would work, as long as they’re unseasoned. And in the winter only canned diced tomatoes - no good tomatoes during the winter and the carbon miles from shipping mealy tomatoes long distances pretty much cancels them out.",
+            "datePublished": "2024-01-20T01:38:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marnie"
+            },
+            "reviewBody": "I used Fire Roasted canned tomatoes in the winter and they were wonderful.",
+            "datePublished": "2024-01-23T01:29:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RobinP"
+            },
+            "reviewBody": "I do not begin to understand the wrapping instructions. A tortilla is round, so aren’t all sides the same? what is meant by “short sides” vs “bottom”? Can someone be more specific about how to roll these wraps or point to a picture or video?",
+            "datePublished": "2024-01-17T12:47:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue"
+            },
+            "reviewBody": "Thank God for 21st century sensibilities. Meat is not required to make these yummy burritos. You can use ground meat from your animal of choice, Impossible meat, textured vegetable protein, beans or whatever. The point is we can eat a delicious meal without continuing the bad, rapacious, blind, climate oblivious habits of generations before us. Sorry. I'm having a hard time filtering for the kids",
+            "datePublished": "2024-01-20T05:46:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle Young"
+            },
+            "reviewBody": "Don’t skip the lime at the end!!!  What a boost.  Absolutely delicious.  I did drain the fat after browning the beef even though I used 93/7.  Will make these again and again.",
+            "datePublished": "2024-01-21T17:56:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen Oliver"
+            },
+            "reviewBody": "If I put the cheese on right to left does it change the flavor of the end product? Put your cheese on in any direction,L to R, R to L, north to south, east to west or even southeast to southwest. What a silly instruction in a recipe.",
+            "datePublished": "2024-01-16T18:11:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pamela"
+            },
+            "reviewBody": "Tortillas are more flexible and easier to fold if softened wrapped  in a damp paper towel and microwaved for a few seconds",
+            "datePublished": "2024-01-22T00:06:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Miz"
+            },
+            "reviewBody": "My mom was from San Antonio and on Christmas Eve would make a Tex Mex feast. We lived in a small fishing village in Alaska so she had to adapt her recipes. She made green enchiladas, cheese enchiladas and “burritos,” in much the same way as this recipe. Except she’d slice Monterey Jack cheese into long strips, pre-fry the flour tortillas then put the ground beef mixture on followed by a Monterey Jack stick and…cottage cheese in place of Cotija. Pre-frying made them bake up crispy.",
+            "datePublished": "2024-01-20T08:24:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John"
+            },
+            "reviewBody": "We make “carburritos” for our Friday drive to Snowshoe, WVa. Sub sauted veggies for beef, wrap and bake at 350 for 17 minutes. Cool, then wrap up. Most excellent car food.",
+            "datePublished": "2024-01-17T13:00:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robin Currie"
+            },
+            "reviewBody": "I made this recipe with ground dark turkey, skipped the cheese, added some brown rice, and doubled the spices. Really a great and adaptable recipe for the freezer. I popped my burrito in the air-fryer. Worked perfectly",
+            "datePublished": "2024-01-17T19:58:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ferny"
+            },
+            "reviewBody": "Yes, you could sub ground turkey. You may want to use dark meat ground turkey so it’s not too dry",
+            "datePublished": "2024-01-17T01:00:57.000Z"
+        }
+    ]
+}

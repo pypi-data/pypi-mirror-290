@@ -1,0 +1,115 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/hawaiian-dream-cookies/",
+    "name": "Hawaiian Dream Cookies",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-15",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps80131_THCA173831B03_03_5b-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "These cookies are lovely as they are, but I'll sometimes use a light-colored sanding sugar for the top: First, lightly brush the top cookie with cream, then sprinkle with sanding sugar. This can be done before or after placing the cookie on top of the filling. &mdash;Lorraine Caland, Shuniah, Ontario",
+    "recipeIngredient": [
+        "1/3 cup shortening",
+        "1/3 cup butter, softened",
+        "2/3 cup sugar",
+        "2 large eggs",
+        "1 teaspoon vanilla extract",
+        "1 teaspoon grated lemon zest",
+        "2 cups all-purpose flour",
+        "1-1/2 teaspoons baking powder",
+        "1/4 teaspoon salt",
+        "FILLING:",
+        "1/4 cup sugar",
+        "1 tablespoon cornstarch",
+        "1 cup undrained crushed pineapple",
+        "1/2 teaspoon butter",
+        "Confectioners' sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, cream shortening, butter and sugar until light and fluffy. Beat in eggs, vanilla and lemon zest. In another bowl, whisk flour, baking powder and salt; gradually beat into creamed mixture. Divide dough in half. Shape each into a disk; wrap in plastic. Refrigerate 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350&deg;. On a surface sprinkled with confectioners' sugar, roll dough to 1/4-in. thickness. Cut with a 2-in. round cookie cutter dusted with confectioners' sugar. Using a floured 1-in. star-shaped cookie cutter, cut out the centers of half of the cookies; re-roll scraps as needed. Place solid and window cookies 2 in. apart on greased baking sheets. Repeat with remaining dough."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 12-15 minutes or until edges are brown. Cool on pans 5 minutes. Remove to wire racks to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small saucepan, mix sugar and cornstarch. Stir in pineapple. Cook and stir over medium heat until thickened. Stir in butter. Cool completely. Spread filling on bottoms of solid cookies; top with window cookies. Dust with confectioners' sugar."
+        }
+    ],
+    "recipeYield": "about 2 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 131 calories",
+        "fatContent": "6g fat (2g saturated fat)",
+        "cholesterolContent": "22mg cholesterol",
+        "sodiumContent": "82mg sodium",
+        "carbohydrateContent": "18g carbohydrate (10g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "2g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-07-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Judy4095"
+            },
+            "reviewBody": "Sorry guys, this recipe had hopes of being yummy & look pretty.  Unfortunately, the taste is way too sweet & the stars in the middle rose with the dough while baking & we’re almost closed up. The filling was great on it’s own, however in the cookie sandwich, was much too runny.  I get angry with those folks that rate the recipe one star after changing the recipe.  I just want you to know I was faithful to the recipe & it was a dud.  Oh yes, after all the work of making them, was disappointed it didn’t make more.  But - should have read all the way to the end.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-12-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "LanaKomar"
+            },
+            "reviewBody": "So light and delicious! I'm making these again, only doubling up on the recipe! Yum!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

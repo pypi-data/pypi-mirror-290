@@ -1,0 +1,131 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Grilled Chicken Sausage, Spinach, and Mozzarella Pizza",
+    "description": "This is my favorite way to use chicken sausage! Sauteed and sliced, with Mozzarella cheese and fresh spinach, on a thin pizza crust, and grilled.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "chicken sausage pizza, grilled pizza, mozzarella pizza",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/chicken-sausage-pizza-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-sausage-pizza-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-sausage-pizza-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/chicken-sausage-pizza.jpg"
+    ],
+    "url": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza",
+    "recipeIngredient": [
+        "3 garlic naan flatbreads (or any other prepared crust)",
+        "3 chicken sausages, such as Gold n&#8217; Plump Parmesan Italian",
+        "1 cup pizza sauce",
+        "1 cup shredded Mozzarella",
+        "fresh spinach",
+        "fresh diced tomatoes",
+        "fresh basil",
+        "olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat your grill to medium high. Cook sausages until browned and cooked through. You can make them sliced, in the casing, or ground, out of the casing (I like it better out of the casing).",
+            "url": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread naan with pizza sauce (1/3 cup per pizza). Top with chicken sausage, cheese, fresh spinach, and tomatoes &#8211; in any order.",
+            "url": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grill for 15-25 minutes, until the bottom of the crust is brown and crispy and the cheese is melted. Sprinkle with fresh basil and drizzle with oil.",
+            "url": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "8",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "494 calories",
+        "sugarContent": "6.3 g",
+        "sodiumContent": "1400.1 mg",
+        "fatContent": "24.2 g",
+        "saturatedFatContent": "9.2 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "46.6 g",
+        "fiberContent": "3.2 g",
+        "proteinContent": "23.2 g",
+        "cholesterolContent": "100.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Julia {The Roasted Root}"
+            },
+            "datePublished": "2012-06-04",
+            "reviewBody": "My gosh, I can't tell you how much I relate to spontaneous crying and craziness due to stress.  I moved just two weeks ago and I'm still a bit of a basket case.  It's definitely wonderful to have an understanding man in your life who will grill your pizza for you while you cry over packing the wooden spoons.  If I had it my way, everything I consume for the rest of the summer would come off the grill. I've never made grilled pizza and am very excited to try it. I share your mozerella and basil sentiments. Awesome recipe! Good luck with the move!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lauren @ Part Time House Wife"
+            },
+            "datePublished": "2012-06-06",
+            "reviewBody": "LOVE Grilled Pizza! I actually just made one myself and I'm a total addict now. It's insane."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rebekah"
+            },
+            "datePublished": "2012-07-28",
+            "reviewBody": "These are so good and easy!!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Johnny"
+            },
+            "datePublished": "2012-08-09",
+            "reviewBody": "That looks really good!  Does the naan flatbread make it healthier than a normal pizza?  I love pizza, but am looking for ways to make it better for me, so if you have any suggestions, please feel free to share!"
+        }
+    ],
+    "datePublished": "2012-06-04",
+    "@id": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/grilled-chicken-sausage-spinach-mozzarella-pizza"
+}

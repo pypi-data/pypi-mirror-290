@@ -1,0 +1,143 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Knefe Recipe",
+    "datePublished": "2009-04-21T10:04:37.000-04:00",
+    "dateModified": "2019-07-23T14:17:49.215-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Saad Fayed",
+            "url": "https://www.thespruceeats.com/saad-fayed-2355288"
+        }
+    ],
+    "description": "Knefe is a traditional Lebanese breakfast dessert made with phyllo and cheese. It is quick to prepare and less than an hour to bake.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/HgovwOYnwjZ4NHXBZ62Ws7lAhr8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-468269762-58855e1b5f9b58bdb3a3c20e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Knefe Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "9"
+    },
+    "cookTime": "PT40M",
+    "keywords": "phyllo",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "672 kcal",
+        "carbohydrateContent": "85 g",
+        "cholesterolContent": "109 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "19 g",
+        "sodiumContent": "337 mg",
+        "fatContent": "33 g",
+        "servingSize": "1 baking dish (serves 6-8)",
+        "unsaturatedFatContent": "12 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Middle Eastern"
+    ],
+    "recipeIngredient": [
+        "1 (16 ounce) package of shredded phyllo (or 16 ounces of regular phyllo, if you cannot find shredded)",
+        "1 (15 ounce) container of ricotta cheese (whole milk)",
+        "1 egg",
+        "1 1/2 stick of sweet butter (melted)",
+        "2 tablespoons granulated sugar",
+        "1 teaspoon lemon juice",
+        "For the Syrup:",
+        "1 cups water",
+        "2 cups sugar",
+        "2 tablespoons orange blossom water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 F. Shred phyllo into large mixing bowl. Add butter to keep phyllo from sticking. Divide phyllo into two."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a separate mixing bowl, combine ricotta, egg, sugar and lemon juice. Mix well. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grease a 9x12 baking dish and place a layer of phyllo dough on the bottom. Add your ricotta mixture on top of the dough. Add remaining phyllo and sprinkle with butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 40 minutes until golden brown. Remove from oven and allow to cool for about 45 minutes. While the knefe is cooking you can make your simple syrup if you have not done so already."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To make simple syrup, combine water and sugar in a pot and allow to simmer over medium-high heat until it comes to a boil. Allow to boil for 1 minute, then reduce heat to low and add orange blossom water. Allow syrup to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once knefe has cooled, flip the dish over and release it from the pan. Be sure to go around the edges with a butter knife to make it easier. Also, make sure the knefe is completely cooled. Drizzle with simple syrup and serve immediately. You may want to garnish your knefe to add a little color and flavor. Try using ground pistachios, walnuts, or even pine nuts for an attractive presentation."
+        }
+    ],
+    "recipeYield": "8",
+    "totalTime": "PT55M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/lebanese-knefe-recipe-2355417",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/middle-east-4162485",
+                        "name": "Middle Eastern Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/exploring-middle-eastern-food-4162484",
+                        "name": "Middle Eastern Culture"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/lebanese-knefe-recipe-2355417",
+                        "name": "Knefe Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

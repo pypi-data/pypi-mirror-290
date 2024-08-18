@@ -1,0 +1,75 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "@id": "https://www.marionskitchen.com/chicken-pad-thai/#recipe",
+    "url": "https://www.marionskitchen.com/chicken-pad-thai/",
+    "name": "Chicken Pad Thai | Marion&#039;s Kitchen",
+    "description": "Too easy! Using Marion’s Kitchen Pad Thai kit, all you need to add is chicken, egg and spring onion. Cook the noodles and chicken, then the egg and add the pad Thai sauce. Top with chopped peanuts for a super-quick weeknight meal that’s on the table in just 20 minutes.",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "",
+    "keywords": "Chicken, Meal Kits, Noodles, Pad Thai, Thai cuisine",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Thai",
+    "recipeIngredient": [
+        "Marion’s Kitchen Pad Thai, which includes:",
+        "– RICE STICK NOODLES",
+        "– PAD THAI SAUCE",
+        "– PEANUTS",
+        "2 tbsp vegetable or canola oil",
+        "400g (about 1 lb) chicken thighs, sliced into very thin strips",
+        "1 egg, lightly beaten",
+        "2 spring onions (scallions), white and green parts sliced into 3cm (1 inch) strips",
+        "juice of 2 limes, plus extra lime wedges, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Step 1.Cook RICE STICK NOODLES in boiling water for 7-8 minutes or until softened. Drain noodles. Set aside for later."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 2.In a large wok or frying pan, heat oil over high heat. Add the chicken and cook for about 5 minutes or until just cooked through.  Push everything to one side of the pan and add egg to the empty side. Let egg set for a minute or until just starting to firm up. Break up egg with a spatula and mix it through the chicken. Add softened rice stick noodles to the pan, along with the PAD THAI SAUCE. Use tongs to separate and toss noodles through the sauce until mixed through."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Step 3.Remove the pan from heat. Roughly chop the PEANUTS and add to the noodles along with the spring onion. Toss together until well combined. Serve with extra lime wedges. Enjoy!"
+        }
+    ],
+    "datePublished": "2021-06-04T00:00:00Z",
+    "dateModified": "2022-06-12T00:00:00Z",
+    "mainEntity": {
+        "@type": "WebPage",
+        "@id": "https://www.marionskitchen.com/chicken-pad-thai/",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "",
+                "width": "",
+                "height": ""
+            },
+            "name": "Bring the Best Flavours of Asia to Home Kitchens"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marionskitchen.com/wp-content/uploads/2018/03/Chicken-Pad-Thai-01.jpg",
+        "height": "500",
+        "width": "625"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Bee",
+        "description": "",
+        "url": "",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.marionskitchen.com/wp-content/uploads/2018/03/Chicken-Pad-Thai-01.jpg",
+            "height": "625",
+            "width": "500"
+        }
+    },
+    "review": []
+}

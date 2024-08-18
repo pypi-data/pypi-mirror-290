@@ -1,0 +1,102 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Parmesan Pesto Tilapia",
+    "description": "This simple Parmesan pesto tilapia is broiled to a cheesy golden perfection and topped with pesto and fresh chopped tomatoes. Just 5 ingredients.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "parmesan pesto tilapia, pesto tilapia, parmesan tilapia",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/05/Parmesan-Fish-8-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/05/Parmesan-Fish-8-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/05/Parmesan-Fish-8-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/05/Parmesan-Fish-8.jpg"
+    ],
+    "url": "https://pinchofyum.com/parmesan-pesto-tilapia",
+    "recipeIngredient": [
+        "4 6-ounce tilapia filets",
+        "1/4 cup basil pesto",
+        "1/2 cup freshly grated Parmesan cheese",
+        "1 cup fresh chopped tomatoes",
+        "salt, pepper, lemon juice, melted butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the broiler. Pat the tilapia dry with a paper towel. Place on a baking sheet lined with foil. Coat the foil with cooking spray or olive oil to prevent sticking.",
+            "url": "https://pinchofyum.com/parmesan-pesto-tilapia#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle each fish filets with 2 tablespoons of Parmesan cheese. Broil for 10-11 minutes or until the fish is no longer translucent and the cheese is browned on the top.",
+            "url": "https://pinchofyum.com/parmesan-pesto-tilapia#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top each filet with fresh tomatoes and a tablespoon of pesto. If you have extra Parmesan, add just a tiny bit over the top of the fish, tomatoes, and pesto &#8211; it can look really pretty. 🙂 Top with salt, pepper, lemon juice, and/or melted butter.",
+            "url": "https://pinchofyum.com/parmesan-pesto-tilapia#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "14",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "230 calories",
+        "sugarContent": "1.6 g",
+        "sodiumContent": "447.4 mg",
+        "fatContent": "11.2 g",
+        "saturatedFatContent": "3.7 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "4.6 g",
+        "fiberContent": "0.9 g",
+        "proteinContent": "27.9 g",
+        "cholesterolContent": "68.8 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie"
+            },
+            "datePublished": "2013-05-25",
+            "reviewBody": "Waitrose is a great store, you would love it.  It is owned by the John Lewis Partnership, a trust that owns the stores on behalf of all the employees, who share in the profits.  Safe journey back to Minnesota.  Looking forward to the next post."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carole"
+            },
+            "datePublished": "2013-05-28",
+            "reviewBody": "The fewer ingredients, the better, in my humble opinion. \r\n\r\nThanks so much for sharing your time in the Philippines--I enjoyed every post so much.\r\nIt's kind of good you're going back to Minnesota at the beginning of summer. The heat and humidity may make you feel closer to the Philippines. :)"
+        }
+    ],
+    "datePublished": "2013-05-24",
+    "@id": "https://pinchofyum.com/parmesan-pesto-tilapia#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/parmesan-pesto-tilapia#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/parmesan-pesto-tilapia"
+}

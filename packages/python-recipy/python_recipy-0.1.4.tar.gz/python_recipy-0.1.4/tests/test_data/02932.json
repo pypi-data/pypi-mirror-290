@@ -1,0 +1,86 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/spiced-rice-lentils-cauliflower#Recipe",
+    "@type": "Recipe",
+    "description": "Curries don't have to be bad. With a high zinc content, iron and calcium, plus cholesterol-lowering fibre, this lentil curry makes for a healthy meal",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-9168_12-9078766.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/spiced-rice-lentils-cauliflower"
+    },
+    "name": "Spiced rice & lentils with cauliflower",
+    "url": "https://www.bbcgoodfood.com/recipes/spiced-rice-lentils-cauliflower",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2022-11-08T13:38:59+00:00",
+    "datePublished": "2008-03-06T03:52:54+00:00",
+    "headline": "Spiced rice & lentils with cauliflower",
+    "keywords": " Josh Eagleton, 30-60 minutes, 4 servings, 600 kcal or less, Basmati rice, Cashew, Cashews, Cauliflower, Curry, Good Food, Korma, Korma paste, Lentils, Mains, Mango chutney, Natural yogurt, Red lentil, Red lentils, Rice, Veggie",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "404 calories",
+        "fatContent": "12 grams fat",
+        "saturatedFatContent": "1 grams saturated fat",
+        "carbohydrateContent": "62 grams carbohydrates",
+        "sugarContent": "11 grams sugar",
+        "fiberContent": "7 grams fiber",
+        "proteinContent": "16 grams protein",
+        "sodiumContent": "0.81 milligram of sodium"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": "Indian",
+    "recipeIngredient": [
+        "2 tbsp sunflower oil",
+        "1 onion , chopped",
+        "2 carrots , chopped",
+        "200g basmati rice",
+        "50g red lentil",
+        "3 tbsp korma paste",
+        "1 head cauliflower , cut into florets",
+        "100g frozen pea",
+        "few toasted  cashew  nuts, to serve",
+        "natural yogurt , to serve",
+        "mango chutney , to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a pan, add the onion and carrots, then fry for 5 mins until lightly coloured. Stir in the rice and lentils, cook for 1 more min, add the curry paste and 900ml water, then bring to the boil. Cover, then simmer for 10 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in the cauliflower, then cook for 10 mins more until the rice and lentils are tender. Add the peas 2 mins before cooking time is up, stirring through. Top with the nuts, then serve with yogurt and mango chutney in bowls."
+        }
+    ],
+    "recipeYield": 4,
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT45M"
+}

@@ -1,0 +1,256 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Yakitori Don",
+    "datePublished": "2020-06-18T23:07:10.000-04:00",
+    "dateModified": "2022-07-14T18:05:04.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jana Marko"
+        }
+    ],
+    "description": "Chicken pieces rest overnight in a tasty ginger, soy sauce, and rice wine marinade before being pan-fried, baked, or grilled. Serve hot with rice or noodles.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/3dvpajT76o_Z9hXo3oJfxIHP6KE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8556393-17a3e6b6aac44137954a2a38e851c88e.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Yakitori Don",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "98"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "587 kcal",
+        "carbohydrateContent": "18 g",
+        "cholesterolContent": "146 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "49 g",
+        "saturatedFatContent": "8 g",
+        "sodiumContent": "2545 mg",
+        "sugarContent": "15 g",
+        "fatContent": "33 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Japanese"
+    ],
+    "recipeIngredient": [
+        "1 (3 pound) whole chicken, cut into pieces",
+        "1 tablespoon grated fresh ginger root",
+        "1 clove garlic, crushed",
+        "3 tablespoons white sugar",
+        "0.66666668653488 cup soy sauce",
+        "1 tablespoon sake",
+        "0.25 cup mirin (Japanese sweet wine)",
+        "2 tablespoons cooking oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Rinse chicken, and pat dry. In a glass baking dish or bowl, stir together the ginger, garlic, sugar, soy sauce, sake and mirin. Place the chicken into the mixture to marinate. Refrigerate, covered for several hours, or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large heavy skillet over medium-high heat. Place chicken pieces into the pan skin-side down, reserving marinade. Cook until light brown, then flip and brown the other side. Drain off grease, and pour the marinade into the pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover, and reduce heat to low, and simmer for 8 to 10 minutes. Remove the lid and continue cooking, shaking the skillet occasionally, until marinade is reduced to a nice thick sauce and chicken pieces are fully cooked."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT1480M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Loved it! So good we choose to make it while in Japan! The authentic Yakatori joint is down the street and we're not sure we can tell a difference! We added pea pods and mushrooms as well as crushed sesame seeds. Yum! Yum! Yum!\r\nThanks for posting the recipe! This is even a surprisingly easy to make!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Daniel Nilssen"
+            },
+            "reviewBody": "It was ok the sauce could have been thicker"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bajanshay"
+            },
+            "reviewBody": "I love this recipe \nI will be making this again.\nLoved the flavor."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Breeze69"
+            },
+            "reviewBody": "No changes will definitely be making it again it was delicious"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "mas"
+            },
+            "reviewBody": "Way too salty. Chicken tasted like it was boiled."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "blazinflame"
+            },
+            "reviewBody": "It was very tasty. Couldn't find Sake so I used a very dry White wine."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Paul Harris"
+            },
+            "reviewBody": "Made this last night using the pan saute method and it was a hit. The only complaint I got was that it was a little salty. I used genuine imported soy sauce from the Asian market so that could be it. Next time I'll either dial back the soy or add more mirin and/or use brown sugar in place of white. BTW I used boneless skinless chicken breast because that's what I had in the house and it still turned out super tender."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "sanzoe"
+            },
+            "reviewBody": "This was pretty good but wasn't a please make again recipe for our house. The flavor is good but a little too much soy sauce is the culprit. If I make again I will cut back even though I used low sodium soy sauce."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Degas"
+            },
+            "reviewBody": "This was delicious and incredibly easy! I did make a few changes: reduced amount of soy sauce to 1/2c per other reviews &amp; glad I did because it would have been too salty since I didn’t have low sodium soy sauce at hand. Increased sake to 1/4c to replace the ratio of liquid, and in place of white sugar, I used Ginger infused honey because I needed to use it up. Followed everything else exactly. It took just minutes to prep in the morning and marinated in fridge all day. Dinner was ready in short order! My husband tends to be a picky eater, but raved about this dish. We will definitely add this to our “go-to” list and I can’t wait to try it on other meats! Thanks for the recipe."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "KellyDB"
+            },
+            "reviewBody": "This was fantastic. I made it exactly as the recipe states. I sprinkled on a couple sesame seeds at the end and served with rice. I will definitely be making this again."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/27953/yakitori-don/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/227/world-cuisine/asian/",
+                        "name": "Asian"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/699/world-cuisine/asian/japanese/",
+                        "name": "Japanese"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/27953/yakitori-don/",
+                        "name": "Yakitori Don"
+                    }
+                }
+            ]
+        }
+    }
+}

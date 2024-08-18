@@ -1,0 +1,95 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Peanut Butter and Jelly Panini",
+    "author": "Missy1toe",
+    "cookTime": "PT3M",
+    "prepTime": "PT3M",
+    "totalTime": "PT6M",
+    "datePublished": "2004-04-30T20:00Z",
+    "description": "This recipe is simplicity itself and delicious because of the heat. The panini maker puts beautiful grill lines on the bread and melts the peanut butter and jelly inside. This is as different from a regular PB&J as a scooter is from a bicycle. Try it, you and your kids will love it.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/90/25/7/36pILnF7RdSfI8CRhII1_0S9A0272.jpg",
+    "recipeCategory": "One Dish Meal",
+    "keywords": "Lunch/Snacks,Low Protein,Low Cholesterol,Healthy,Kid Friendly,< 15 Mins,Stove Top,Small Appliance,Easy",
+    "recipeIngredient": [
+        "2   slices    bread (I prefer multi-grain for nutrition)",
+        " real peanut butter (from Wholefoods of Wild Oats)",
+        "  grape jelly"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "4"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "133",
+        "fatContent": "1.6",
+        "saturatedFatContent": "0.4",
+        "cholesterolContent": "0",
+        "sodiumContent": "255.5",
+        "carbohydrateContent": "25.3",
+        "fiberContent": "1.2",
+        "sugarContent": "2.1",
+        "proteinContent": "3.8"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spread peanut butter liberally on one slice of bread."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread jelly on the other slice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the two pieces together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the sandwich on a pre-heated panini maker."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Close the top and cook three minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove, slice in half and serve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "(If you have toddlers, you might wait a minute to let the bread cool slightly for them)."
+        }
+    ],
+    "recipeYield": "1 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "Forgot to take a photo cause it was just that good!! I personally felt like I was eating one of those Smucker's Uncrustables, I was surprised at how the composition of both the PB and J changed and I would have never thought to have heated them up this way.",
+            "datePublished": "July 07, 2023",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Peanut Butter and Jelly Panini"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "Anonymous"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

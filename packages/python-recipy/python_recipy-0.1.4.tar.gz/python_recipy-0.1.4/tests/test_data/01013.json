@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Stove-Top Bacon Popcorn",
+    "datePublished": "2021-12-27T20:48:55.000-05:00",
+    "dateModified": "2021-12-27T20:48:55.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jasmine Smith",
+            "url": "https://www.southernliving.com/author/jasmine-smith"
+        }
+    ],
+    "description": "When the cravings hit, get creative with your popcorn game. This Stove-Top Bacon Popcorn has certainly earned its moment in the limelight. You can make your own snack mix with four sweet and savory ingredient combos.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/pBoBlfPlqBrFtIJlVz8wmpLCKxo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/26961_ST_Popcorn_0174-2000-e280e28b0c82460b97966fe305c593cc.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Stove-Top Bacon Popcorn",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "2"
+    },
+    "recipeIngredient": [
+        "8 bacon slices",
+        ".33 cup popcorn kernels",
+        ".5 teaspoon fine sea salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large nonstick skillet over medium. Cook bacon slices in 2 batches, flipping occasionally, until browned and crisp, about 8 minutes. Transfer bacon to a plate lined with a paper towel to drain, and pour bacon drippings from skillet into a small heatproof bowl. Crumble bacon, and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add 3 tablespoons of the bacon drippings into a 6-quart pot fitted with a lid; heat over medium. Add 2 popcorn kernels. Cover and shake saucepan until kernels pop, 5 to 6 minutes. Add remaining kernels; cover and shake constantly until kernels stop popping, about 2 minutes. Remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Immediately add salt, crumbled bacon, and desired toppings to pot while popcorn is still hot; stir to coat. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT20M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/stove-top-bacon-popcorn",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/stove-top-bacon-popcorn",
+                        "name": "Stove-Top Bacon Popcorn"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

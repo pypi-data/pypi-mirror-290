@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "<span class=\"fn\">Banana Cake with Peanut Butter Frosting",
+    "description": "This banana cake with peanut butter frosting just happens to be vegan! Perfectly sweet and moist cake with a decadent peanut butter frosting. Yum!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "banana cake, peanut butter frosting, banana dessert",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/banana-cake-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/banana-cake-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/banana-cake-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/banana-cake.jpg"
+    ],
+    "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting",
+    "recipeIngredient": [
+        "1 1/2 cups whole wheat pastry flour",
+        "1 teaspoon baking powder",
+        "1 teaspoon baking soda",
+        "pinch of salt",
+        "1/4 cup sugar",
+        "1/2 cup maple syrup",
+        "1/2 cup banana puree",
+        "1/2 cup oil",
+        "1/4 cup water",
+        "1 beaten egg (sub 4 teaspoons flax for vegan)",
+        "1/4 cup natural peanut butter",
+        "1/4 cup water",
+        "2 tablespoons sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees.",
+            "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, sift the flour, powder, soda, salt (and flax, if using).",
+            "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a smaller bowl, combine sugar, maple syrup, banana puree, oil, water, and egg.",
+            "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add wet ingredients to dry ingredients. Pour into a greased 9&#215;9 baking dish. Bake for 20-24 minutes or until knife inserted comes out mostly clean.",
+            "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the frosting, whisk peanut butter with sugar and water until smooth and fluffy. Add more peanut butter or water to achieve the desired consistency. Frost the cooled cake and serve immediately.",
+            "url": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "recipeYield": "9",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "3",
+        "ratingValue": "5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "318 calories",
+        "sugarContent": "21.3 g",
+        "sodiumContent": "310.7 mg",
+        "fatContent": "17.2 g",
+        "saturatedFatContent": "1.8 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "39.2 g",
+        "fiberContent": "2.9 g",
+        "proteinContent": "5.3 g",
+        "cholesterolContent": "20.7 mg",
+        "@type": "nutritionInformation"
+    },
+    "datePublished": "2012-01-20",
+    "@id": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/banana-cake-with-peanut-butter-frosting"
+}

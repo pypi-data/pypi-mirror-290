@@ -1,0 +1,58 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "image": [
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/944_13_1439916365.jpg?tr=w-800,h-800",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/944_13_1439916365.jpg?tr=w-800,h-600",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/944_13_1439916365.jpg?tr=w-800,h-450,fo-face"
+    ],
+    "name": "South American-style brunch",
+    "recipeCategory": "Breakfast",
+    "description": "Now this is what I call a super-tasty brunch – quinoa, layered up with ripe tomatoes, crispy beans, hot chillies, creamy avocado, and fresh herbs, topped with a runny egg. Enjoy!",
+    "recipeYield": "6",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+        "200 g quinoa  ",
+        "1  long fresh red chilli ",
+        "1  fresh jalapeno chilli ",
+        "1  ripe tomato ",
+        "200 g ripe cherry tomatoes ",
+        "2  spring onions ",
+        "  olive oil  ",
+        "1 pinch of cumin seeds ",
+        "1 x 400 g tin of black beans or black-eyed beans ",
+        "2 tablespoons white wine vinegar ",
+        "1 pinch of golden caster sugar ",
+        "  extra virgin olive oil ",
+        "½ a  lemon ",
+        "6 large free-range eggs ",
+        "1  ripe avocado ",
+        "½ a  bunch of fresh mint ",
+        "½ a  bunch of fresh coriander  ",
+        "  hot chilli sauce "
+    ],
+    "recipeInstructions": "<ol class=\"recipeSteps\"><li>Cook the quinoa according to the packet instructions, with a good pinch of sea salt. </li><li>Meanwhile, trim and finely slice all the chillies, slice the tomato, quarter the cherry tomatoes and trim and finely slice the spring onions. </li><li>Heat a good lug of olive oil in a frying pan over a high heat, add the cumin seeds and fry for around 30 seconds.</li><li>Drain and add the beans, followed by a pinch of salt and continue cooking for 5 to 8 minutes, or until crisp all over. </li><li>While the beans are cooking, place the sliced chillies into a bowl with the vinegar, sugar and a pinch of salt, then put aside.</li><li>Drain the quinoa well, then drizzle over a little extra virgin olive oil and the lemon juice and season lightly. Spread it out on a tray and leave aside to cool slightly. </li><li>Transfer the cooked beans to a bowl, wipe the pan clean and return to a medium heat with a splash of olive oil. Once hot, crack in the eggs and fry to your liking – for lovely, runny eggs, you only need a couple of minutes. </li><li>Transfer the quinoa to a large serving platter, layer the eggs on top and spoon over the crispy beans. </li><li>Halve and destone the avocado, then scoop out and dot over the flesh. Scatter the tomatoes, spring onions and chillies on top, then drizzle over a little of the pickling juice. </li><li>Pick and roughly chop the mint and coriander leaves and sprinkle on top, then add a drizzle of extra virgin olive and serve with plenty of hot chilli sauce.</li></ol>",
+    "recipeCuisine": "peruvian",
+    "keywords": "egg, chilli, bean, tomato, quinoa, vegetarian, dairy-free, gluten-free, dairy, vegetable, grains pulses nuts, breakfast, beans, eggs, bean salad, Healthy meals, Mains, Salad, Eggs, Father's day, Mother's day, Healthy breakfast ideas, Quick &amp; healthy recipes, Healthy vegetarian recipes",
+    "suitableForDiet": [
+        "https://schema.org/VegetarianDiet",
+        "https://schema.org/LowLactoseDiet",
+        "https://schema.org/GlutenFreeDiet"
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Jamie Oliver"
+    },
+    "nutrition": {
+        "calories": "345 calories",
+        "fatContent": "17.2 g fat",
+        "saturatedFatContent": "3.6 g saturated fat",
+        "proteinContent": "17.1 g protein",
+        "carbohydrateContent": "27.4 g carbohydrate",
+        "sugarContent": "5.1 g sugar",
+        "sodiumContent": "0.9 g salt",
+        "fiberContent": "7 g fibre",
+        "@type": "NutritionInformation"
+    },
+    "datePublished": "2015-09-16"
+}

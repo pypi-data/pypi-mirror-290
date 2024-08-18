@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Loaded Spaghetti Squash",
+    "datePublished": "2020-03-11T18:05:41.000-04:00",
+    "dateModified": "2024-04-19T17:57:27.827-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "This loaded spaghetti squash recipe has all the fixings of a classic baked potato, but with a fraction of the carbs. The pasta-like spaghetti squash is combined with Cheddar cheese, bacon and scallions that melt together in the oven. Top with sour cream and garnish with more scallions and bacon and you have a delicious low-carb side dish ready to go.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/DyDN8Xgqkzs4pi1rCi_hMyVKrgU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7803744-af4859a2639047e8b40f7c59d4d9e708.jpg",
+        "height": 1244,
+        "width": 1244
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Loaded Spaghetti Squash",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "175 kcal",
+        "carbohydrateContent": "17 g",
+        "cholesterolContent": "27 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "5 g",
+        "sodiumContent": "418 mg",
+        "sugarContent": "6 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeIngredient": [
+        "1 (3 pound) spaghetti squash, halved lengthwise and seeded",
+        "0.25 cup water",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon ground pepper",
+        "1 cup shredded extra-sharp Cheddar cheese",
+        "3 scallions, sliced, divided",
+        "2 slices cooked bacon, chopped, divided",
+        "6 tablespoons reduced fat sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place spaghetti squash halves and water in a microwave-safe dish. Microwave on High, uncovered, until the flesh is tender, 10 to 12 minutes. Use a fork to scrape out the flesh into a large bowl. Stir in salt, pepper, cheese, all but 1 tablespoon scallions, and 1 chopped slice bacon."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut each shell halves into 3 pieces and place the pieces on a large baking sheet. Spoon the squash mixture into the shells. Bake until the cheese is melted and the filling is hot, about 15 minutes. Remove from the oven and top each piece with 1 tablespoon sour cream. Sprinkle with the remaining 1 tablespoon scallions and the remaining bacon."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/279217/loaded-spaghetti-squash/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21679/ingredients/vegetables/squash/winter/",
+                        "name": "Healthy Winter Squash Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21949/ingredients/vegetables/squash/winter/spaghetti/",
+                        "name": "Healthy Spaghetti Squash Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/279217/loaded-spaghetti-squash/",
+                        "name": "Loaded Spaghetti Squash"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jessica Ball, M.S., RD",
+                "url": "https://www.eatingwell.com/author/jessica-ball/"
+            }
+        ],
+        "lastReviewed": "2024-04-19T17:57:27.827-04:00"
+    },
+    "recipeCategory": []
+}

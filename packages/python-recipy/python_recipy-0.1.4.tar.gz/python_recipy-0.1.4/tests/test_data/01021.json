@@ -1,0 +1,127 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mascarpone Cheesecake",
+    "datePublished": "2021-03-20T08:33:40.000-04:00",
+    "dateModified": "2022-02-24T11:34:54.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Anna Theoktisto",
+            "url": "https://www.southernliving.com/author/anna-theoktisto"
+        }
+    ],
+    "description": "No-bake, berry-filled perfection. Our Mascarpone Cheesecake is a slice of heaven straight from the freezer.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/YNuO_L9Fjb70c5BtDh84l4kvNg4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Mascarpone-Cheesecake-2000-72e2fb22382f4acc88bd22156f0e01ca.jpg",
+        "height": 844,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Mascarpone Cheesecake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 cups finely crushed vanilla wafers (about 56 wafers, from 1 [11-oz.] pkg.)",
+        ".5 cup (4 oz.) salted butter, melted",
+        "1 (8-oz.) pkg. cream cheese, softened",
+        ".75 cup (about 3 oz.) powdered sugar, divided",
+        "1 (8-oz.) container mascarpone cheese, at room temperature",
+        "2 cups heavy whipping cream",
+        "1 teaspoon vanilla extract",
+        "1 cup seedless raspberry jam (from 1 [18-oz.] jar)",
+        ".5 cup fresh raspberries (from 1 [6-oz.] container)",
+        ".5 cup fresh blueberries (from 1 [6-oz.] container)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together crushed vanilla wafers and melted butter in a medium bowl until combined. Firmly press into bottom and about 1/2 inch up sides of a 9-inch springform pan. Freeze, uncovered, while you prepare filling."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat cream cheese and 1/2 cup of the powdered sugar with a stand mixer fitted with a paddle attachment on medium-low speed until smooth, about 2 minutes. Add mascarpone, and beat until just combined, about 30 seconds. Transfer mascarpone mixture to a large bowl. (Do not wipe mixing bowl clean.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add heavy cream, vanilla, and remaining 1/4 cup powdered sugar to bowl, and beat with stand mixer fitted with a whisk attachment on high speed until stiff peaks form, about 2 minutes. Add whipped cream to mascarpone mixture in 3 separate additions, gently folding until just combined after each addition. Remove springform pan from freezer, and spoon mascarpone mixture over crust, smoothing top with a spatula. Freeze, uncovered, until firm, about 3 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gently stir together raspberry jam, raspberries, and blueberries in a small bowl. Spoon evenly over cheesecake. Freeze, uncovered, until firm, about 1 hour. Remove sides of pan, and serve immediately. Store loosely covered in refrigerator for up to 3 days."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT255M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/mascarpone-cheesecake",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/mascarpone-cheesecake",
+                        "name": "Mascarpone Cheesecake"
+                    }
+                }
+            ]
+        }
+    }
+}

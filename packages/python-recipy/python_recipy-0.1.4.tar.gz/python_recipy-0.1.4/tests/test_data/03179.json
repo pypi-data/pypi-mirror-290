@@ -1,0 +1,82 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "A drizzle of this herb pesto will complement virtually any savory dish, and it takes only minutes to make.",
+    "alternativeHeadline": "A drizzle of this herb pesto will complement virtually any savory dish, and it takes only minutes to make.",
+    "keywords": [
+        "salad dressing",
+        "sauce",
+        "basil",
+        "parsley",
+        "spring",
+        "quick",
+        "easy",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "vegan",
+        "vegetarian",
+        "keto",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Adam Perry Lang",
+            "sameAs": "https://www.bonappetit.com/contributor/adam-perry lang"
+        },
+        {
+            "@type": "Person",
+            "name": "Matthew Hranek",
+            "sameAs": "https://www.bonappetit.com/contributor/matthew-hranek"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 2.8,
+        "ratingCount": 17
+    },
+    "description": "A drizzle of this herb pesto will complement virtually any savory dish, and it takes only minutes to make.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57ae12011b334044149759fe/master/w_646,h_459,c_limit/herb-dressing-646.jpg"
+    ],
+    "headline": "Herb Dressing",
+    "name": "Herb Dressing",
+    "recipeIngredient": [
+        "1/2 cup (packed) fresh basil leaves",
+        "1/2 cup packed) fresh flat-leaf parsley leaves",
+        "1 teaspoon finely grated lemon zest",
+        "1/2 teaspoon crushed red pepper flakes (optional)",
+        "1/2 cup extra-virgin olive oil",
+        "1 tablespoon fresh lemon juice",
+        "Kosher salt, freshly ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pulse basil, parsley, zest, and pepper flakes, if using, in a food processor until coarsely chopped. Add oil and lemon juice and pulse to combine; season with salt and pepper."
+        }
+    ],
+    "recipeYield": "6  Servings",
+    "url": "https://www.bonappetit.com/recipe/herb-dressing",
+    "dateModified": "2013-04-04T20:00:00.000-04:00",
+    "datePublished": "2013-04-04T20:00:00.000-04:00",
+    "recipeCategory": []
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/spiced-apple-cider-cake#Recipe",
+    "@type": "Recipe",
+    "description": "Add allspice, cloves and nutmeg to this apple cider cake for some autumnal warmth. Bramley apples are added to the sponge mix, and it's topped with crunchy pecans",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/09/Spiced-Apple-Cake-21fbc36.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/spiced-apple-cider-cake"
+    },
+    "name": "Spiced apple cider cake",
+    "url": "https://www.bbcgoodfood.com/recipes/spiced-apple-cider-cake",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ailsa Burt",
+            "url": "https://www.bbcgoodfood.com/author/ailsaburt"
+        }
+    ],
+    "dateModified": "2023-09-21T16:37:16+01:00",
+    "datePublished": "2023-09-21T16:37:16+01:00",
+    "headline": "Spiced apple cider cake",
+    "keywords": "Allspice, Apples, Baking, Bramley apples, CAKE, Cider, Cloves, Nutmeg, Pecans, Sponge",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT1H5M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "304 calories",
+        "fatContent": "12 grams fat",
+        "saturatedFatContent": "6 grams saturated fat",
+        "carbohydrateContent": "42 grams carbohydrates",
+        "sugarContent": "26 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "4 grams protein",
+        "sodiumContent": "0.3 milligram of sodium"
+    },
+    "prepTime": "PT25M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "125g unsalted butter, softened, plus extra for the tin",
+        "250ml apple cider",
+        "1 tsp ground allspice",
+        "1 tsp ground nutmeg",
+        "1 tsp ground cinnamon",
+        "½ tsp ground ginger",
+        "large pinch of ground cloves",
+        "250g self-raising flour",
+        "1 tsp baking powder",
+        "150g golden caster sugar",
+        "2 eggs",
+        "1 tsp vanilla extract",
+        "75ml Greek-style natural yogurt",
+        "250g Bramley apples, peeled, cored and chopped",
+        "125g icing sugar, sifted",
+        "30g pecans, chopped"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Butter a 20cm round cake tin and line with baking parchment. Pour the cider into a saucepan, bring to the boil and boil rapidly for 10 mins until reduced to about 100ml, or by about half. Cool. Combine the spices, reserving 1 tsp of the mix for the icing. Mix the rest with the flour, baking powder and a pinch of salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 180C/160C fan/gas 4. Beat the butter and sugar together in a stand mixer or using an electric whisk until light and fluffy. Add the eggs, one at a time, beating well between each addition. Mix in the vanilla, yogurt and 75ml of the reduced cider. Finally, fold in the flour mixture and apples until no streaks of flour remain. Spoon into the prepared tin and smooth the surface. Bake for 55 mins-1 hr, or until a skewer inserted into the centre comes out clean. Leave to cool in the tin for 20 mins, then transfer to a wire rack to cool completely. Once completely cool, the cake can be wrapped and frozen for up to three months. Defrost completely before icing and serving as below."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the cake has cooled, whisk the remaining 25ml reduced cider with the icing sugar and reserved spice mix until smooth, adding a splash of water if needed to make a thick, drizzly icing. Spoon this over the cake, letting it drip down the side. Sprinkle over the chopped pecans, in a ring if you like, and leave the icing to set before serving. Will keep in an airtight container in a cool place for up three days."
+        }
+    ],
+    "recipeYield": 12,
+    "totalTime": "PT1H30M"
+}

@@ -1,0 +1,79 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Clotted Cream",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/clotted-cream-recipe4-1956887",
+    "headline": "Clotted Cream",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-30T15:03:52.826-05:00",
+    "dateModified": "2013-11-07T15:05:23.403-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Gluten Free,Low-Carb,Low Sodium",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT0H13M0.000S",
+    "recipeIngredient": [
+        "2 cups pasteurized (not ultra-pasteurized) cream"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "205",
+        "fatContent": "22g",
+        "saturatedFatContent": "14g",
+        "carbohydrateContent": "2g",
+        "fiberContent": "0g",
+        "sugarContent": "2g",
+        "proteinContent": "1g",
+        "cholesterolContent": "82mg",
+        "sodiumContent": "23mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Set a coffee filter basket, lined with a filter, in a strainer, over a bowl. Pour the cream almost to the top of the filter. Refrigerate for 2 hours. The whey will sink to the bottom passing through the filter leaving a ring of clotted cream. Scrape this down with a rubber spatula and repeat every couple of hours until the mass reaches the consistency of soft cream cheese.;"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 4
+    },
+    "recipeYield": "1 cup"
+}

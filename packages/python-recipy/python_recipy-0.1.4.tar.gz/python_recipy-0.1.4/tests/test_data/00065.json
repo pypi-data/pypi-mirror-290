@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Radishes with Green Goddess Dressing",
+    "datePublished": "2021-03-01T16:08:44.000-05:00",
+    "dateModified": "2023-09-19T12:09:32.776-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Breana Lai Killeen, M.P.H., RD",
+            "url": "https://www.eatingwell.com/author/breana-killeen/"
+        }
+    ],
+    "description": "This quick and easy radish recipe will get you ready for spring. Traditional green goddess dressing is made with mayo and sour cream but here we use avocado, buttermilk and yogurt to achieve a lightened-up, creamy dressing.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/fDEdizxVild-Nhky4cEFm9MFFiA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/radishes-green-goddess-dressing-2000-01649af44ff4488e85efe511d3871049.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Radishes with Green Goddess Dressing",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "56 kcal",
+        "carbohydrateContent": "6 g",
+        "cholesterolContent": "1 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "2 g",
+        "sodiumContent": "219 mg",
+        "sugarContent": "3 g",
+        "fatContent": "3 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "0.5 ripe avocado",
+        "0.5 cup buttermilk",
+        "0.25 cup nonfat plain yogurt",
+        "2 tablespoons chopped fresh chives",
+        "2 tablespoons chopped fresh tarragon",
+        "1 small clove garlic, grated",
+        "2 teaspoons lemon juice",
+        "1 teaspoon anchovy paste",
+        "0.25 teaspoon salt",
+        "0.25 teaspoon ground pepper",
+        "2 bunches radishes (about 1 pound)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine avocado, buttermilk, yogurt, chives, tarragon, garlic, lemon juice, anchovy paste, salt and pepper in a blender. Puree until smooth. Serve with radishes."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7890862/radishes-with-green-goddess-dressing/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18256/ingredients/vegetables/",
+                        "name": "Healthy Vegetable Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19316/ingredients/vegetables/radish/",
+                        "name": "Healthy Radish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7890862/radishes-with-green-goddess-dressing/",
+                        "name": "Radishes with Green Goddess Dressing"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T12:09:32.776-04:00"
+    },
+    "recipeCategory": []
+}

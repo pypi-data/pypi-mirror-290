@@ -1,0 +1,310 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/new-orleans-style-chicken/",
+    "name": "New Orleans-Style Chicken",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-06-10",
+    "prepTime": "PT25M",
+    "cookTime": "PT50M",
+    "totalTime": "PT01H15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps32930_TH1115463D18-3.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "This hearty one-dish meal from Jason Bagley of Kennewick, Washington is loaded with tender chunks of chicken,  colorful veggies , beans and rice. \"This healthy dish is a favorite of mine,\" Jason notes.",
+    "recipeIngredient": [
+        "1-1/4 pounds boneless skinless chicken breasts, cubed",
+        "3 teaspoons canola oil, divided",
+        "2 medium carrots, chopped",
+        "2 large portobello mushrooms, stems removed, chopped",
+        "1 large onion, chopped",
+        "1 medium green pepper, chopped",
+        "1 medium sweet red pepper, chopped",
+        "3 garlic cloves, minced",
+        "2-3/4 cups water",
+        "1 can (15 ounces) black beans, rinsed and drained",
+        "1 package (8 ounces) red beans and rice mix",
+        "1 can (14-1/2 ounces) diced tomatoes, drained",
+        "1/3 cup shredded Asiago cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large nonstick skillet over medium-high heat, brown chicken in 1 teaspoon oil; remove and set aside. In the same skillet, saute the carrots, mushrooms, onion and peppers in remaining oil for 5 minutes. Add garlic; cook 1 minute longer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add water; bring to a boil. Stir in the beans, rice mix and chicken; return to a boil. Reduce heat; cover and simmer for 30-35 minutes or until liquid is absorbed and rice is tender."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir in tomatoes; heat through. Just before serving, sprinkle with cheese."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 381 calories",
+        "fatContent": "7g fat (2g saturated fat)",
+        "cholesterolContent": "58mg cholesterol",
+        "sodiumContent": "891mg sodium",
+        "carbohydrateContent": "50g carbohydrate (9g sugars",
+        "fiberContent": "9g fiber)",
+        "proteinContent": "30g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.5384617,
+        "reviewCount": 13,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-09-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "seavib"
+            },
+            "reviewBody": "I threw the ingredients for this one into the slow cooker (sans mushrooms) and it worked beautifully. I did microwave the carrots a few minutes before adding so they wouldn't hold up the cooking time.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-01-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lorettalib"
+            },
+            "reviewBody": "I made this recipe twice. The first time I follwed the directions as published and found the dish to be lacking punch. I would rate it average.  I made it again and added red pepper flakes, smoked sausage and cooked shrimp. Very tasty now this is a recipe I will make over and over again.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Dawn Humphreys",
+                "givenName": "Dawn",
+                "familyName": "Humphreys"
+            },
+            "reviewBody": "This is now a family favorite!  Just delicious!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "kabteach"
+            },
+            "reviewBody": "This is a favorite of mine. I don't use the mushrooms and I add creole seasoning or cayenne pepper to spice it up a bit. I also use grated parmesan cheese or shredded cheddar instead. Also good served as a filling for tacos with diced tomatoes and avocados.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-02-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sinkhorn64"
+            },
+            "reviewBody": "I made this for a teacher luncheon at my daughter's school. The theme was Mardi Gras. I followed the recipe exactly except I didn't put the cheese on top. It was delicious! Everyone couldn't stop talking about how much they liked it. I will definitely make it again!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-03-06",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "GailDH"
+            },
+            "reviewBody": "I fixed this for a MardiGras party we went to today. It was a hit.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "sadiew"
+            },
+            "reviewBody": "I made this last night to get a jump start on mardi gras.  Very tasty and a crowd pleaser.  I did add cajun andouille sausage and some hot spices and didn't see any reason to drain the tomatoes.  I thought the extra liquid was good for it.  Thanks for the recipe",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-02-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "LovelysNerd"
+            },
+            "reviewBody": "This was one of the first recipes I tried from the Taste of Home Cookbook and it was so delicious.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-03-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MarlaB"
+            },
+            "reviewBody": "We made this for Fat Tuesday! Just delicious~left out the mushrooms because of my son-in-law's dislike and we added shrimp! So good-everyone loved it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-03-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Owiecat"
+            },
+            "reviewBody": "My husband I like to vist LA during Mardi Gras season, but didn't make it there this year.  I wanted to make a NOLA style dish for celebrating Mardi Gras at home and came apon this recipe.  I add a pound of Andouille Sausage (slliced).  I bought the minute rice by accident, so I reduced the water (which by the way cut down on the cooking time).My family went crazy for this dish.  Unlike the traditional Jambalya, this is a healthy dish.  I have made it many times since Mardi Gras and my family enjoys it every time.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-03-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "nhmary"
+            },
+            "reviewBody": "This is absolutely delicious! A stand-by-itself meal with just the right amount of Cajun kick!I served it in a soup bowl, as it's like a stew, accompanied by a hurricane in celebration of Fat Tuesday. Excellent recipe that I will most definitely make repeatedly !I made 3 small changes:1) tossed the cubed chicken breast in Cajun seasoning before browning2) added 1 lb of precooked andouille sausage cut into cubes and browned with the chicken3) used chicken broth rather than waterDelectable!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-05-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "valleygirl89"
+            },
+            "reviewBody": "Very, very good.  I have a few people in my that don't like peppers, however, so I switched out the peppers for a can of whole kernel corn.  I didn't cook the corn quite as long as the carrots.  I just added them in on the last 5 minutes of sauting.  Turned out great.  This is deffinately a keeper.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-03-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "PrplMonky5"
+            },
+            "reviewBody": "This was a pretty good meal.  VERY filling, I feel like it's great as a winter meal. The preparation took me a long time, so next go 'round I'll cut the peppers, onion, and carrots well beforehand.  For the carrots, I used baby carrots, which I sliced, then cut each slice into tiny pieces.  Once I got everything in the pan, the ingredients were all the way up to the top.  Next time I think I'll transfer it all to a large pot and cook it there.  It definitely makes at least 6 servings.  There were lots of leftovers.  I rated it a 4-star because of the large amount of time it took to prepare and also I felt like there was something missing (not sure what).  Next time I'll do as another suggested and use chicken broth instead of water.  I also like the idea of adding corn.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "North America, Cajun"
+}

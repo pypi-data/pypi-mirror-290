@@ -1,0 +1,161 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Peanut Honey Toffee",
+    "datePublished": "2008-01-04T13:24:37.000-05:00",
+    "dateModified": "2022-06-02T15:53:07.152-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Elizabeth LaBau",
+            "url": "https://www.thespruceeats.com/elizabeth-labau-520272"
+        }
+    ],
+    "description": "This toffee recipe, featuring honey, peanut butter, and whole peanuts, is a delicious twist on an old favorite.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/1BFhaaVT0J_xmmoMcRFCkn003H8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peanut-brittle2-LisaHubbard-GettyImages-565d165d5f9b5835e482f175.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Peanut Honey Toffee",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "14"
+    },
+    "cookTime": "PT0M",
+    "keywords": "Toffee",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "288 kcal",
+        "carbohydrateContent": "42 g",
+        "cholesterolContent": "3 mg",
+        "fiberContent": "2 g",
+        "proteinContent": "6 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "189 mg",
+        "fatContent": "13 g",
+        "servingSize": "1 1/2 pounds toffee (18 servings)",
+        "unsaturatedFatContent": "9 g"
+    },
+    "prepTime": "PT60M",
+    "recipeCategory": [
+        "Cookies and Candy",
+        "Dessert"
+    ],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 cup water",
+        "2 cups granulated sugar",
+        "2 cups shelled and roasted peanuts",
+        "3/4 cup honey",
+        "1/4 cup light corn syrup",
+        "2 tablespoons butter",
+        "1 teaspoon salt",
+        "1/2 cup peanut butter",
+        "1/4 teaspoon baking soda"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare a large baking sheet by lining it with aluminum foil that extends over the edges, and spray the foil with nonstick cooking spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the sugar and water in a medium saucepan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir until the sugar is entirely moistened, then add the honey, corn syrup and salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook the candy over medium-high heat until it reaches 225 F on a candy thermometer."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "At this point, add the peanuts and stir to combine. Continue to cook, stirring constantly, until the mixture reaches 290 F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the pan from the heat and stir in the butter, baking soda, and peanut butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix until well-combined, and then pour onto the prepared pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the candy as thin as possible with a spatula or spoon and allow it to set at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once it is entirely cool, break it into small pieces to serve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Store the brittle in an airtight container or plastic bag at room temperature."
+        }
+    ],
+    "recipeYield": "18",
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/peanut-honey-toffee-521485",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/dessert-4162795",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/candy-4162765",
+                        "name": "Candy"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/peanut-honey-toffee-521485",
+                        "name": "Peanut Honey Toffee"
+                    }
+                }
+            ]
+        }
+    }
+}

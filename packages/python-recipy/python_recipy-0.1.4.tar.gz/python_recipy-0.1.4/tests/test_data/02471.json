@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Red Wine Pasta",
+    "datePublished": "2019-12-05T11:21:11.000-05:00",
+    "dateModified": "2020-03-12T17:17:11.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Riley Wofford",
+            "url": "https://www.marthastewart.com/author/riley-wofford"
+        }
+    ],
+    "description": "Cooked spaghetti is briefly simmered in a red-wine shallot sauce and tossed with crispy pancetta and grated Pecorino Romano cheese.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/D7epXZeFFGUMYEgF5_485vsxw90=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/red-wine-pasta-01-7004023-0819_horiz-03253a0d7ebc41649c7919c1875f1641.jpgitokHwM8I5AZ",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Red Wine Pasta",
+    "prepTime": "PT25M",
+    "recipeIngredient": [
+        "1 tablespoon extra-virgin olive oil",
+        "4 ounces pancetta, cut into ½-inch pieces",
+        "1 large shallot, thinly sliced",
+        "2 garlic cloves, thinly sliced",
+        "0.25 teaspoon red pepper flakes, plus more for serving",
+        "Kosher salt",
+        "1 (750-ml) bottle red wine, such as Beaujolais",
+        "1 pound spaghetti",
+        "0.25 cup finely grated Pecorino Romano cheese, plus more for serving",
+        "Chopped fresh parsley leaves, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in a large straight-sided skillet over medium. Add pancetta and cook, stirring occasionally, until crisp and lightly browned, about 6 minutes. Using a slotted spoon, transfer pancetta to paper towels to drain. Add shallot, garlic, and red pepper flakes to pan; season with salt. Cook over medium heat, stirring occasionally, until soft and translucent, 2 to 3 minutes. Carefully add red wine; increase heat to medium-high and bring to a boil. Boil 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, cook pasta in a large pot of generously salted boiling water for 4 minutes. Drain, reserving 1 cup pasta water. Add pasta to pot with red wine; cook, stirring occasionally, until pasta is bright red and al dente and most of wine has been absorbed, 4 to 6 minutes. Stir in cheese and pancetta. Stir in pasta water as needed to loosen sauce. Serve with more cheese, parsley, and red pepper flakes."
+        }
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1545031/red-wine-pasta",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1520452/recipes-ingredient",
+                        "name": "Ingredients"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504540/pasta-recipes",
+                        "name": "Pasta and Grains"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1545031/red-wine-pasta",
+                        "name": "Red Wine Pasta"
+                    }
+                }
+            ]
+        }
+    }
+}

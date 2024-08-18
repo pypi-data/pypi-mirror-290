@@ -1,0 +1,143 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Lightened Up Curry Egg Salad",
+    "description": "This lightened up curry egg salad uses just the egg whites for a super low calorie egg salad with tons of flavor! Perfect for lunch.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "curry egg salad, egg salad, egg salad sandwich",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/02/Curry-Egg-Salad-61-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/02/Curry-Egg-Salad-61-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/02/Curry-Egg-Salad-61-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/02/Curry-Egg-Salad-61.jpg"
+    ],
+    "url": "https://pinchofyum.com/lightened-up-curry-egg-salad",
+    "recipeIngredient": [
+        "8 large eggs",
+        "3 tablespoons chopped onion (more or less to taste)",
+        "1 red pepper, chopped",
+        "1 teaspoon salt",
+        "2 teaspoons curry powder",
+        "1/4 cup light mayo",
+        "1 mango, finely diced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Hard boil the eggs by dropping them carefully into a pot of boiling water. Boil for 8 minutes, covered, and allow to cool. Peel the shells off and cut the eggs in half to remove the hardened yolk from the center. Finely chop the whites and set aside.",
+            "url": "https://pinchofyum.com/lightened-up-curry-egg-salad#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chop the red pepper and the onion as finely as you like &#8211; I prefer to chop them pretty small. Combine egg whites, vegetables, salt, curry, and mayo in a bowl. Stir until well combined. Season with pepper to taste.",
+            "url": "https://pinchofyum.com/lightened-up-curry-egg-salad#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir the mango in with the egg salad just before serving.",
+            "url": "https://pinchofyum.com/lightened-up-curry-egg-salad#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT8M",
+    "totalTime": "PT23M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "6",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "245 calories",
+        "sugarContent": "14 g",
+        "sodiumContent": "850.3 mg",
+        "fatContent": "13.4 g",
+        "saturatedFatContent": "3.7 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "17.7 g",
+        "fiberContent": "2.6 g",
+        "proteinContent": "13.8 g",
+        "cholesterolContent": "374.4 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "dirtgirl"
+            },
+            "datePublished": "2013-02-13",
+            "reviewBody": "Brilliant recipe - I am always looking for different things to do with eggs as my flock of 11 seem to be in overtime at present, so always a stack of eggs.  I will definitely be making this today, but leaving in the yolks.....  My daughter would refuse to eat the eggs from our chickens for years, as she said she knew exactly where they came from and couldn't face eating them!!  I converted her...."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jenn @ The Noshing Bride"
+            },
+            "datePublished": "2013-02-13",
+            "reviewBody": "As a person who loves both eggs and mango,  there won't be much convincing needed here. It looks delicious and tangy, plus I probably won't feel all too guilty after gobbling it up!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Marie @ Not Enough Cinnamon"
+            },
+            "datePublished": "2013-02-13",
+            "reviewBody": "This looks like quite the perfect quick and easy lunch. I love eggs - including yolks! - but obviously egg whites are my favorite part. Not gross at all :) I found that mango goes very well with savory dishes. It's so yummy with chicken or shrimps for instance!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Juliana Loh (@bilbaobab)"
+            },
+            "datePublished": "2013-02-15",
+            "reviewBody": "This looks and sounds yum! what a great idea!!!! great combi and all my fav! mangoes, curry, mayo and eggs. thanks for the great idea - for my next canapés when we have guests over! :)\r\n\r\nAnd happy birthday Bjork!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Paz"
+            },
+            "datePublished": "2013-02-16",
+            "reviewBody": "Great recipe it is delicious!"
+        }
+    ],
+    "datePublished": "2013-02-13",
+    "@id": "https://pinchofyum.com/lightened-up-curry-egg-salad#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/lightened-up-curry-egg-salad#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/lightened-up-curry-egg-salad"
+}

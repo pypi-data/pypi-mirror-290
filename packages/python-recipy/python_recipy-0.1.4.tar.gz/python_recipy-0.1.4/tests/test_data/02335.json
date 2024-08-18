@@ -1,0 +1,62 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Rice and Bean Wraps",
+    "keywords": "rice and bean wraps",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Mexican",
+    "image": "https://mojo.generalmills.com/api/public/content/_VkwA1QmnUWC8HOobawcLw_webp_base.webp?v=1259de7c&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Move over, meat!  These roll-ups stuffed with brown rice, black beans and colorful veggies are hearty as can be.",
+    "recipeIngredient": [
+        "1 1/2  cups thick & chunky salsa",
+        "1  cup cooked brown rice",
+        "2  medium roma (plum) tomatoes, chopped",
+        "1  small bell pepper, cut into 1/2-inch pieces",
+        "1  can (15 oz) black beans with cumin, undrained",
+        "1  can (7 ounces) whole kernel corn, drained",
+        "6  garden vegetable-flavored flour tortillas, (8 inches in diameter)",
+        "1  cup shredded Mexican cheese blend (4 ounces)"
+    ],
+    "totalTime": "PT0H55M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "21",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Spread 1/2 cup of the salsa in ungreased rectangular baking dish, 13x9x2 inches."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix rice, tomatoes, bell pepper, black beans and corn. Spread about 1 cup rice mixture on each tortilla; roll up tortilla. Place seam sides down on salsa in baking dish. Spoon remaining 1 cup salsa over tortillas. Sprinkle with cheese. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and bake 30 to 35 minutes or until heated through and cheese is melted."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "330  ",
+        "carbohydrateContent": "63  g",
+        "cholesterolContent": "20  mg",
+        "fiberContent": "9  g",
+        "proteinContent": "17  g",
+        "saturatedFatContent": "5  g",
+        "servingSize": "1 Wrap",
+        "sodiumContent": "960  mg"
+    },
+    "dateCreated": "01/01/2004",
+    "dateModified": "03/09/2023"
+}

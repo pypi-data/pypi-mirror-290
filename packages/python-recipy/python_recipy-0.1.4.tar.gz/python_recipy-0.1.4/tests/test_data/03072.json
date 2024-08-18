@@ -1,0 +1,171 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "One-Pot Cheesy Pasta Bake",
+    "datePublished": "2023-04-21T11:39:12.000-04:00",
+    "dateModified": "2023-09-18T18:13:51.263-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ann Taylor Pittman",
+            "url": "https://www.eatingwell.com/author/ann-taylor-pittman/"
+        }
+    ],
+    "description": "This easy skillet pasta bake is a surefire family hit. Pasta and meat sauce topped with mozzarella cheese will make everyone at the table happy, and the all-in-one-pot technique will have the cook smiling pretty. Cooking the pasta in the meat sauce not only lessens the amount of dishes you have to do and the time it takes to get dinner done, but the starches in the pasta thicken the sauce—without you having to do a single extra thing. ",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/xnRX7HOJ32EsjfNy8681zDYDvQE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6048401_dtlet3309-2000-db7650cb3c2f46ea9cd67c715a47d877.jpg",
+        "height": 2000,
+        "width": 1333
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "One-Pot Cheesy Pasta Bake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "457 kcal",
+        "carbohydrateContent": "52 g",
+        "cholesterolContent": "52 mg",
+        "proteinContent": "31 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "598 mg",
+        "sugarContent": "8 g",
+        "fatContent": "17 g",
+        "unsaturatedFatContent": "7 g"
+    },
+    "recipeIngredient": [
+        "1 tablespoon olive oil",
+        "1 cup chopped onion",
+        "8 ounces 90% lean ground beef",
+        "0.75 teaspoon dried oregano",
+        "1.25 cups unsalted chicken stock",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon black pepper",
+        "1.5 cups unsalted crushed tomatoes or tomato sauce",
+        "8 ounces uncooked whole-grain penne pasta",
+        "5 ounces fresh baby spinach",
+        "4 ounces preshredded part-skim mozzarella cheese (about 1 cup)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat broiler to high. Heat oil in a large ovenproof skillet over medium-high. Add onion; sauté 2 minutes. Add beef and oregano; cook 3 minutes, stirring to crumble."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add stock, salt, pepper, tomatoes and pasta; bring to a boil. Cover, reduce heat, and simmer 12 to 13 minutes or until pasta is done. Stir in spinach."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sprinkle cheese over pasta mixture. Place pan in oven; broil 2 minutes or until cheese melts and begins to brown."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT30M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I used left roast beef that I ground up to small pieces, and used beef stock instead of chicken. I also didn't put it under the broiler. Both my husband and I loved it!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "EatingWell Member"
+            },
+            "reviewBody": "I used left roast beef that I ground up to small pieces, and used beef stock instead of chicken. I also didn't put it under the broiler. Both my husband and I loved it!",
+            "datePublished": "2023-11-03T02:21:20.406Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/397251/one-pot-cheesy-pasta-bake/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17965/main-dishes/",
+                        "name": "Main Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18023/main-dishes/pasta/",
+                        "name": "Healthy Pasta Main Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/397251/one-pot-cheesy-pasta-bake/",
+                        "name": "One-Pot Cheesy Pasta Bake"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-18T18:13:51.263-04:00"
+    },
+    "recipeCategory": []
+}

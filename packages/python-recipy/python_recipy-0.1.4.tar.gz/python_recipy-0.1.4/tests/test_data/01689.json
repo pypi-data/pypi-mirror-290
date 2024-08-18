@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mexican Street Corn Drop Biscuits",
+    "datePublished": "2015-10-14T12:20:19.000-04:00",
+    "dateModified": "2015-11-01T11:20:19.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kay Chun",
+            "url": "https://www.foodandwine.com/author/kay-chun"
+        }
+    ],
+    "description": "These totally delicious biscuits get flavor from corn, cheese, cilantro and lime zest. Get the recipe at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/Afb2AJWHnyRMqh3WKqLmCtGaDeo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/recipe1115-xl-mexican-corn-drops_0-5606c285c3ae4ae4aadf99fde85a568b.jpg",
+        "height": 827,
+        "width": 827
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Mexican Street Corn Drop Biscuits",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeIngredient": [
+        "2 1/2 cups all-purpose flour",
+        "4 teaspoons baking powder",
+        "1/2 teaspoon kosher salt",
+        "1 stick plus 2 tablespoons cold unsalted butter, cubed",
+        "2 cups grated Cotija cheese (7 ounces)",
+        "2 cups corn kernels",
+        "1/2 cup chopped cilantro",
+        "1 teaspoon finely grated lime zest",
+        "1 1/4 cups heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350°. Line 2 baking sheets with parchment paper. In a large bowl, whisk the flour with the baking powder and salt. Using your fingertips, blend in the cubed butter until pea-size pieces form. Stir in the cheese, corn, cilantro, lime zest and heavy cream just until a soft dough forms. Spoon heaping 2-tablespoon mounds of dough onto the prepared sheets about 1 inch apart. Refrigerate for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake the biscuits for 30 minutes, until golden. Transfer to a rack to cool slightly before serving."
+        }
+    ],
+    "totalTime": "PT85M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "These were fabulous as they are but I will make two changes when I next make them. The recipe will yield 12, as I like larger ones better, and salt will be increased to 1 teaspoon. I may also add some finely chopped jalapeno pepper. I don't know what took me so long to make these.",
+            "datePublished": "2021-04-27T23:51:18.274Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Spicknall Glumsic"
+            },
+            "reviewBody": "I made these and they are delicious! You can definitely sub the cheese with another.",
+            "datePublished": "2018-11-11T21:00:56.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/mexican-street-corn-drop-biscuits",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/bread-dough",
+                        "name": "Bread"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/mexican-street-corn-drop-biscuits",
+                        "name": "Mexican Street Corn Drop Biscuits"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

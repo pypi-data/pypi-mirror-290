@@ -1,0 +1,171 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/scalloped-potatoes-and-onions/",
+    "name": "Scalloped Potatoes and Onions",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-21",
+    "prepTime": "PT5M",
+    "cookTime": "PT02H00M",
+    "totalTime": "PT02H05M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps8295_QC2454C58-3.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "Writes Dorothy Bateman from Carver, Massachusetts. \"This creamy potato dish is so delicious. You can prepare it in the morning, than put it in the oven later&mdash;just be sure the sauce covers the potatoes so they won't turn brown.\"",
+    "recipeIngredient": [
+        "5 large potatoes, peeled and thinly sliced",
+        "3/4 cup chopped onion",
+        "3 tablespoons butter",
+        "1/4 cup all-purpose flour",
+        "1-3/4 cups chicken broth",
+        "2 tablespoons mayonnaise",
+        "3/4 teaspoon salt",
+        "1/8 teaspoon pepper",
+        "Paprika"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a greased 2-1/2-qt. baking dish, layer potatoes and onion. In a saucepan, melt the butter; stir in flour until smooth. Gradually add broth, mayonnaise, salt and pepper; cook and stir for 2 minutes or until thick and bubbly. Pour over potatoes. Sprinkle with paprika. Cover and bake at 325&deg; for 2 hours or until tender."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 358 calories",
+        "fatContent": "10g fat (4g saturated fat)",
+        "cholesterolContent": "17mg cholesterol",
+        "sodiumContent": "668mg sodium",
+        "carbohydrateContent": "61g carbohydrate (6g sugars",
+        "fiberContent": "5g fiber)",
+        "proteinContent": "8g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.8333335,
+        "reviewCount": 6,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-08-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mrs_h"
+            },
+            "reviewBody": "This can easily become a dairy-free recipe.  I use light olive oil instead of butter and have had excellent results.  This recipe has earned a spot in our regular monthly rotation!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "flute salad",
+                "givenName": "flute",
+                "familyName": "salad"
+            },
+            "reviewBody": "These are absolutely delicious!! I love this recipe--and surprisingly, it doesn't use milk.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "SadieDog2"
+            },
+            "reviewBody": "Fast becoming a family favorite.  Even without milk or cheese the taste is wonderful.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-12-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "ladsie"
+            },
+            "reviewBody": "An excellent recipe especially if you use a sweet potato",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-09-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "gunslinger"
+            },
+            "reviewBody": "Very delicious! Inexpensive to make. Great recipe if you are trying to cut back on dairy products.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-04-12",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "DottieRigo"
+            },
+            "reviewBody": "I made this recipe today.  It's definitely one I'll make again.  Only thing I'll do differently is mix the mayo into the roux before adding the broth so it's easier to make it smooth.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

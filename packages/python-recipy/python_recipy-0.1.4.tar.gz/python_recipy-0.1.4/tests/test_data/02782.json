@@ -1,0 +1,125 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Epic Thai Burger (Laab Burger)",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/05/Laab-Burger-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/05/Laab-Burger-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/05/Laab-Burger-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/05/Laab-Burger.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/",
+    "recipeIngredient": [
+        "500g ground beef",
+        "3 Tbsp chopped lemongrass",
+        "2 Tbsp chopped galangal",
+        "3 Kaffir lime leaves, julienned",
+        "1/4 cup chopped shallots",
+        "2 Tbsp toasted rice powder",
+        "1 Egg",
+        "2.5 Tbsp fish sauce",
+        "1 Tbsp lime juice",
+        "Chili flakes, to taste",
+        "2 cups shredded cabbage",
+        "1 cup roughly chopped mint",
+        "1/2 cup chopped cilantro",
+        "2 green onions, chopped",
+        "1 Tbsp toasted rice powder",
+        "Chili flakes, to taste",
+        "3 Tbsp lime juice",
+        "1 Tbsp fish sauce",
+        "Original Thai Sriracha",
+        "Mashed avocado",
+        "Red onion",
+        "Tomato",
+        "Or anything else you'd like!"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients together in a bowl and mix well. Form into 5 patties. Grill the burgers until done to your liking, or fry them on a skillet.",
+            "name": "For the patties",
+            "url": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients and mix it up!",
+            "name": "For the slaw: ",
+            "url": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put Sriracha and mashed avocado on the bun, top with the patty, red onion, tomato, and any other fixins you like. Top it off with a generous amount of the slaw - you can also serve extra slaw on the side. Enjoy!",
+            "name": "Assembly",
+            "url": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content &amp; rewards!",
+            "url": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#instruction-step-4"
+        }
+    ],
+    "recipeYield": [
+        "5",
+        "Serves 5"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "2",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Thai Burger Recipe (Laab burger) - Hot Thai Kitchen!.mp4",
+        "description": "BEST burger I've ever had. Add the flavours of Thai laab to your burger for this summer barbecue and prepare to be blown away! Toasted rice powder, lemongrass, and lots of other Thai herbs add complexity to the patty. Top it with a bright cabbage slaw for an epic Thai-inspired meal.",
+        "duration": "PT7M25S",
+        "embedUrl": "https://video.mediavine.com/videos/i86bNpVLZ.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681226112/i86bNpVLZ.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--ce5RohfN--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681226118/ylpgeyinbg45amzgkt5o.jpg"
+        ],
+        "uploadDate": "2020-12-10T05:56:01+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Maryse Leclerc"
+            },
+            "datePublished": "2021-04-12",
+            "reviewBody": "This is the best burger ever! Point Final!!! This is just completly awsome!!! I've been trying it with classic  beef and it's was absolutly delicious! Another time with pork, and it was even better! My god Pailin! Wow, and thank you so much!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stephen Chan"
+            },
+            "datePublished": "2021-06-07",
+            "reviewBody": "Interesting fusion of the west and the east, I’ve made it mini-sized in a party, which in Pai’s words, is always better, lol"
+        }
+    ],
+    "datePublished": "2014-05-02",
+    "@id": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/epic-thai-burger-laab-burger/",
+    "recipeCategory": []
+}

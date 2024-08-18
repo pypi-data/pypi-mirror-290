@@ -1,0 +1,177 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Rick and Morty Szechuan Sauce",
+    "datePublished": "2020-06-19T00:25:06.000-04:00",
+    "dateModified": "2022-09-22T11:27:02.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alex Fernandes"
+        }
+    ],
+    "description": "You&#39;ll want to drizzle this Szechuan sauce over everything for a balance of sweet and sour, tangy and rich - with sesame oil and Marmite®.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/FHZO7InXHNlHZh34zUE1Ki1595I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4576454-e082c755aec6432c932f73d09720eb80.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Rick and Morty Szechuan Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "3"
+    },
+    "cookTime": "PT6M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "59 kcal",
+        "carbohydrateContent": "14 g",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "sodiumContent": "629 mg",
+        "sugarContent": "10 g",
+        "fatContent": "0 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "0.5 cup soy sauce",
+        "0.5 cup white vinegar",
+        "0.5 cup water",
+        "0.5 cup white sugar",
+        "2 tablespoons light corn syrup",
+        "1 tablespoon cider vinegar",
+        "1.5 teaspoons ground black pepper",
+        "1 teaspoon yeast extract spread (such as Marmite®)",
+        "0.5 teaspoon sesame oil",
+        "0.25 teaspoon garlic powder",
+        "0.25 teaspoon onion powder",
+        "0.25 teaspoon ground ginger",
+        "2 tablespoons cornstarch",
+        "1 teaspoon xanthan gum"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine soy sauce, white vinegar, water, sugar, corn syrup, cider vinegar, pepper, yeast extract spread, sesame oil, garlic powder, onion powder, and ginger in a bowl. Mix well and pour sauce into a pot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour 1/4 cup sauce into a small bowl. Add cornstarch; mix and add back to the main sauce."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour another 1/4 cup sauce into the bowl; add xanthan gum. Mix and pour through a strainer back in the main sauce."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the pot of sauce over medium heat. Cook, whisking briskly, until gooey and thickened, 6 to 10 minutes. Strain sauce into a container; cover with plastic wrap and let cool."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT26M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Cupcake Smasher"
+            },
+            "reviewBody": "ABSOLUTELY DELISHOUS SO AMAZING. A PERFECT AMOUNT OF SPICE!!!!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "The Recipe Collector"
+            },
+            "reviewBody": "Like, quarter the marmite.... And a little sriracha would bring this home to the 90's"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Soup Loving Nicole"
+            },
+            "reviewBody": "This one is difficult for me to rate . I never tried the sauce from Mc Donald's so I don't have anything to compare it with. What I will say is that the flavor and texture was good and it worked well as a dipping sauce for the popcorn chicken I made. The one problem I did have is that something balled up as soon as it got to medium heat even though I was whisking continually. I think it was the cornstarch but I'm not sure? Again, I never tried the original sauce but with a name like Szechuan I would expect some heat. Maybe there wasn't, I don't know? On that note, it tasted just fine as written but in the end I added a healthy dose of rooster sauce to the mix and that made it even better."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/261000/rick-and-morty-szechuan-sauce/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/17031/side-dish/sauces-and-condiments/",
+                        "name": "Sauces and Condiments"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1976/side-dish/sauces-and-condiments/sauces/",
+                        "name": "Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/261000/rick-and-morty-szechuan-sauce/",
+                        "name": "Rick and Morty Szechuan Sauce"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

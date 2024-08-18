@@ -1,0 +1,78 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "There’s a simple structure behind all sours, a family of citrus-based cocktails. For a twist on the classic, try a Daiquiri, Up-Rocks.",
+    "alternativeHeadline": "The elegant Cuban combo of lime and rum has nothing to do with the syrupy slush youll find at swim-up bars.",
+    "keywords": [
+        "cocktail",
+        "rum",
+        "lime",
+        "drinks",
+        "do not show on encore",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.bonappetit.com/photos/620ffe1f60666deff870f5e2/3:2/w_4431,h_2954,c_limit/20220215%20Daiquiri%20LEDE.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Chris Morocco",
+            "sameAs": "https://www.bonappetit.com/contributor/chris-morocco"
+        },
+        {
+            "@type": "Person",
+            "name": "Ted Cavanaugh",
+            "sameAs": "https://www.bonappetit.com/contributor/ted-cavanaugh"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 5
+    },
+    "description": "The elegant Cuban combo of lime and rum has nothing to do with the syrupy slush youll find at swim-up bars.",
+    "image": [
+        "https://assets.bonappetit.com/photos/620ffe1f60666deff870f5e2/16:9/w_5248,h_2952,c_limit/20220215%20Daiquiri%20LEDE.jpg",
+        "https://assets.bonappetit.com/photos/620ffe1f60666deff870f5e2/4:3/w_3936,h_2952,c_limit/20220215%20Daiquiri%20LEDE.jpg",
+        "https://assets.bonappetit.com/photos/620ffe1f60666deff870f5e2/1:1/w_2954,h_2954,c_limit/20220215%20Daiquiri%20LEDE.jpg"
+    ],
+    "headline": "Daiquiri",
+    "name": "Daiquiri",
+    "recipeIngredient": [
+        "2 ounces white rum",
+        "¾ ounce fresh lime juice",
+        "¾ ounce simple syrup",
+        "Lime twist (for serving)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine rum, lime juice, and simple syrup in a cocktail shaker. Fill shaker with ice, cover, and shake vigorously until outside of shaker is very cold, about 20 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Strain cocktail through a Hawthorne strainer or a slotted spoon into a coupe glass. Garnish with lime twist."
+        }
+    ],
+    "recipeYield": "Serves 1",
+    "url": "https://www.bonappetit.com/recipe/daiquiri-2",
+    "dateModified": "2016-04-19T04:00:37.000-04:00",
+    "datePublished": "2016-04-19T04:00:37.000-04:00",
+    "recipeCategory": []
+}

@@ -1,0 +1,142 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Peach-Bourbon Upside-Down Bundt Cake",
+    "datePublished": "2018-05-16T09:49:43.000-04:00",
+    "dateModified": "2022-08-06T03:25:00.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Pam Lolley",
+            "url": "https://www.southernliving.com/author/pam-lolley"
+        }
+    ],
+    "description": "Fresh summer peaches turn sticky and sweet when baked in the bottom of a Bundt pan with butter and brown sugar. After you place the peach slices in the ridges of the pan, gently spoon the cake batter over the fruit, then smooth the top with an offset spatula.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/QbIiepkHvMrr0Sc86vVei1kwT2Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peach-bourbon-upside-down-bundt-cake-1x1-1-8b363f15296f4df78b137491110d1859.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/jPn9Cm6d-KtCa7qb3.mp4",
+        "description": "Fresh summer peaches turn sticky and sweet when baked in the bottom of a Bundt pan with butter and brown sugar.",
+        "duration": "PT12M9S",
+        "name": "Hey Y'all - Peach-Bourbon Upside-Down Bundt Cake",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/jPn9Cm6d/poster.jpg?width=720",
+        "uploadDate": "2021-04-15T04:11:03.379-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Peach-Bourbon Upside-Down Bundt Cake",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "20"
+    },
+    "recipeIngredient": [
+        "1.75 cups butter, softened, divided",
+        "2 cups firmly packed light brown sugar, divided",
+        "4 peaches, peeled and cut into 4 slices",
+        "1 (8-oz.) package cream cheese, softened",
+        "1.5 cups granulated sugar",
+        "6 large eggs",
+        "1.5 teaspoons vanilla extract, divided",
+        "3 cups all-purpose flour",
+        ".5 teaspoon salt",
+        ".25 cup (2 oz.) bourbon",
+        "1 cup powdered sugar",
+        "1 to 2 tablespoons milk"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325°F. Melt ¼ cup of the butter in a small saucepan over medium; stir in ½ cup of the brown sugar. Cook, whisking constantly, until sugar has dissolved and mixture is thoroughly combined, about 1 minute. Pour mixture evenly into a 15-cup (10 ½-inch) Bundt pan that has been heavily greased with cooking spray. Place peach slices in an even layer on top of brown sugar mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat cream cheese and remaining 1 ½ cups butter with a heavy-duty stand mixer on medium speed until creamy, about 1 minute. Gradually add granulated sugar and remaining 1 ½ cups brown sugar, beating on medium speed until light and fluffy, 3 to 5 minutes. Add eggs, 1 at a time, beating just until yolk disappears. Beat in 1 teaspoon of the vanilla."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sift together flour and salt; add to butter mixture alternately with bourbon, beginning and ending with flour mixture. Spoon batter carefully over peaches in prepared pan; level with a spatula."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in preheated oven until a long wooden pick inserted in center of cake comes out clean, 1 hour and 25 minutes to 1 hour and 30 minutes. Cool in pan on a wire rack until pan is cool enough to handle but still hot, about 25 minutes. Remove cake from pan to rack, and cool completely, about 2 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/QbIiepkHvMrr0Sc86vVei1kwT2Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peach-bourbon-upside-down-bundt-cake-1x1-1-8b363f15296f4df78b137491110d1859.jpg"
+                }
+            ],
+            "text": "Stir together powdered sugar, remaining ½ teaspoon vanilla, and 1 tablespoon of the milk in a small bowl, adding remaining 1 tablespoon milk, 1 teaspoon at a time, if needed to reach desired consistency. Drizzle over cooled cake."
+        }
+    ],
+    "totalTime": "PT260M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/peach-bourbon-upside-down-bundt-cake-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cakes",
+                        "name": "Cakes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/peach-bourbon-upside-down-bundt-cake-recipe",
+                        "name": "Peach-Bourbon Upside-Down Bundt Cake"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

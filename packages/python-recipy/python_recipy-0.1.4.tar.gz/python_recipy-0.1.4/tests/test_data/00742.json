@@ -1,0 +1,329 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023533-crunchy-cauliflower-salad#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023533-crunchy-cauliflower-salad",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/10/27/dining/kc-crunchy-winter-salad/merlin_215042805_8ba03ea9-e5b1-4f44-93c1-6c76cf862bba-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023533-crunchy-cauliflower-salad",
+    "name": "Crunchy Cauliflower Salad",
+    "description": "This chopped salad celebrates raw cauliflower, a hearty vegetable often reserved for roasting, which renders it golden and soft. Here, crunchy, thinly sliced cauliflower and radicchio bring a mix of slightly sweet and pleasantly bitter flavors; the honey and Meyer lemon vinaigrette is a nod to winter, when citrus fruits are at their brightest and sweetest. Customize the salad with whatever crunchy vegetables you have on hand; celery, fennel and cabbage all make great candidates. This dish makes the perfect side for roasted fish or chicken, or enjoy the salad as a main dish topped with beans, shredded chicken or canned tuna.",
+    "author": {
+        "@type": "Person",
+        "name": "Kay Chun"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/10/27/dining/kc-crunchy-winter-salad/merlin_215042805_8ba03ea9-e5b1-4f44-93c1-6c76cf862bba-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/27/dining/kc-crunchy-winter-salad/merlin_215042805_8ba03ea9-e5b1-4f44-93c1-6c76cf862bba-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/27/dining/kc-crunchy-winter-salad/merlin_215042805_8ba03ea9-e5b1-4f44-93c1-6c76cf862bba-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/10/27/dining/kc-crunchy-winter-salad/merlin_215042805_8ba03ea9-e5b1-4f44-93c1-6c76cf862bba-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dinner, easy, lunch, weeknight, appetizer, main course, side dish",
+    "keywords": "cauliflower, honey, meyer lemon, parmesan, quick, radicchio, salad, scallion, walnut, fall, spring, winter, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 471
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 292,
+        "unsaturatedFatContent": "16 grams",
+        "carbohydrateContent": "21 grams",
+        "cholesterolContent": null,
+        "fatContent": "20 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "12 grams",
+        "saturatedFatContent": "3 grams",
+        "sodiumContent": "540 milligrams",
+        "sugarContent": "5 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "6 tablespoons neutral oil, such as safflower or canola",
+        "2 teaspoons finely grated fresh Meyer lemon zest, plus 3 tablespoons juice (from 2 Meyer lemons)",
+        "1 teaspoon honey",
+        "Kosher salt and black pepper",
+        "1 pound large cauliflower florets, very thinly sliced (about 5 cups, see Tip)",
+        "1 small head radicchio (8 ounces), halved, cored and leaves coarsely torn",
+        "1/2 cup thinly sliced scallions, plus more for garnish",
+        "1/4 cup freshly grated Parmigiano-Reggiano",
+        "1/2 cup coarsely chopped roasted walnuts (about 2 ounces)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine oil, Meyer lemon zest and juice, and honey. Season with salt and pepper, and whisk until well blended. Add cauliflower, radicchio, scallions and half of the cheese, and toss to evenly coat. Let stand for 5 minutes to soften slightly."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Toss the salad one more time and divide among 4 plates. Top each with some of the walnuts and garnish with additional scallions and the remaining cheese."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cecilia"
+            },
+            "reviewBody": "Tasted delicious with chopped dates added!",
+            "datePublished": "2024-01-11T02:47:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Paola"
+            },
+            "reviewBody": "This made for a very good and different weeknight meal. Based on another reviewer’s comments, I roasted half the cauliflower and was glad I did, the combination of textures and the added sweetness of the roasted florets added a nice complexity IMO.",
+            "datePublished": "2023-09-21T23:14:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tamara"
+            },
+            "reviewBody": "Very good",
+            "datePublished": "2023-09-14T17:36:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S. Margaret"
+            },
+            "reviewBody": "3 T olive oil, zest from a large lemon and about 4 T juice, thinly sliced shallot, red pepper flakes, diced preserved lemon, pepper; no honey, no salt. In addition to the cauliflower: celery, julienned carrot, chick peas, cucumber, toasted walnuts; no scallion. Didn’t have radicchio but will use next time. Served on mixed salad greens; topped with shaved Parm. Perfect summer meal.",
+            "datePublished": "2023-07-28T03:02:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessie"
+            },
+            "reviewBody": "This was a great way to use up leftovers from a crudite platter! I added carrots (roasted them) and very thinly sliced celery. Also added garlic and two anchovies to the dressing, as suggested - delish.",
+            "datePublished": "2023-06-19T15:19:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "emily"
+            },
+            "reviewBody": "I used a mandolin for the cauliflower and that helped a lot with creating the thin slices and minimizing the crumbs",
+            "datePublished": "2023-05-21T23:21:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cook-This"
+            },
+            "reviewBody": "Not usually a fan of raw cauliflower but this was really tasty. Loved the roasted walnuts in it. Will try with white beans next time as suggested by others.",
+            "datePublished": "2023-04-26T21:12:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick"
+            },
+            "reviewBody": "Great recipe. The scallions give it some pep. I had a blood orange which I used instead of Meyer Lemon, along with a tablespoon of regular lemon juice.  Used an orange cauliflower. Delicious and a big hit.",
+            "datePublished": "2023-04-22T23:06:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Seattle cook"
+            },
+            "reviewBody": "Loved this.  Used week-old cauliflower from the organic box and it was not bitter at all.  The lemon is the star!  I used my mandolin for slicing and it worked pretty well - still got a lot of crumbles but. It a problem.  Added some yellow-eyed beans to make this a complete meal.",
+            "datePublished": "2023-04-20T00:57:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lacey B"
+            },
+            "reviewBody": "Great base to rift on! I did a mix of raw and roasted cauliflower. Added Cannellini beans, bonito conserva and cilantro. Finally, jazzed it up by making a shallot dijon dressing with a healthy drizzle of honey. Fantastic!",
+            "datePublished": "2023-04-19T01:15:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kap0w"
+            },
+            "reviewBody": "Easy fresh and great. Subbed baby kale for the endive and added garbanzos.",
+            "datePublished": "2023-04-16T19:05:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Debbie"
+            },
+            "reviewBody": "Just made this for lunch and my husband & I were surprised how good it was.  I always read recipe comments before I make something, so we incorporated many of the suggestions: increased dressing by 50% and used olive oil, roasted half the cauliflower, added capers and white beans.  We will make this again!",
+            "datePublished": "2023-04-15T19:46:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jason"
+            },
+            "reviewBody": "No radicchio this winter here in Madrid, so I made it with endives instead. Came out great! Even the kids loved it.",
+            "datePublished": "2023-02-24T13:36:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AG"
+            },
+            "reviewBody": "I love the idea of this salad! I never got around to adding the walnuts and I wanted a more tangy/briny taste so added capers which were an excellent addition. Besides the radicchio which wilted faster than the rest of the salad, this was great for eating throughout the week to get some crunch and fiber into my meals. I would probably leave the radicchio out next time unless serving within the same or next day. It’s pretty but the salad is good without it, too.",
+            "datePublished": "2023-02-23T04:39:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ella"
+            },
+            "reviewBody": "Add pine nuts. Maybe use massaged dinosaur kale cuz radicchio can be bitter",
+            "datePublished": "2023-02-23T00:36:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aimee"
+            },
+            "reviewBody": "Someone please give more guidance on how to “slice” a cauliflower?? “A few tiny bits will fall off”, I had way more bits than slices! Which direction? Half it first?",
+            "datePublished": "2022-11-03T23:40:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RoseJayada"
+            },
+            "reviewBody": "Best to use extremely fresh cauliflower, like out of your garden or straight from the farmers market. It has a whole different depth and crunch and doesn't have the bitterness of raw cauliflower that's even a couple of days old. This would also be good as a kind of veggie ceviche, if you let it sit for a while.",
+            "datePublished": "2022-10-31T18:24:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rick"
+            },
+            "reviewBody": "I made a similar salad on vacation in Italy 2 weeks ago after going to the local market.  I used carrots also and roasted half of the cauliflower and carrots. I had Italian lemons and clementines so I zested the citrus into the roasting. The play between cooked and raw was nice.  I used olive oil and wished I’d added green olives.",
+            "datePublished": "2022-11-01T14:26:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "I added a clove of garlic and a couple anchovies to the dressing (all mashed together) and it was absolutely outstanding. Will be a new regular dish.",
+            "datePublished": "2022-12-11T14:00:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "EatFood"
+            },
+            "reviewBody": "Re how to slice the cauliflower, the website Food52 recently had a great tip for cutting broccoli - I wonder if the same technique would work for cauliflower florets instead of slices? For broccoli, cut the long stalk off, then cut trough the remaining stalk towards the top, and stop cutting before you reach the (buds?). Then use your hands to peel apart the stalk where it’s been cut. Repeat as necessary. It will separate into distinct florets, as small as you like, with minimal “broccoli dust”!",
+            "datePublished": "2023-01-19T20:43:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Had to goose the honey and lemon juice.  All anout the crunch."
+            },
+            "reviewBody": "This was very good.  The crunchiness was a big plus.  I did not have the lemon zest and no neutral oil, so I had to goose up the lemon juice and honey to overcome the Olive Oil and bitterness of the radicchio.",
+            "datePublished": "2022-12-29T00:26:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick"
+            },
+            "reviewBody": "Great recipe. The scallions give it some pep. I had a blood orange which I used instead of Meyer Lemon, along with a tablespoon of regular lemon juice.  Used an orange cauliflower. Delicious and a big hit.",
+            "datePublished": "2023-04-22T23:06:59.000Z"
+        }
+    ]
+}

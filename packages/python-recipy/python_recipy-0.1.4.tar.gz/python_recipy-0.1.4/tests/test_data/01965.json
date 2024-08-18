@@ -1,0 +1,170 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "headline": "Beef Tacos",
+    "url": "https://www.thekitchn.com/taco-recipe-23655411",
+    "description": "It will be love at first crunch.",
+    "brand": {
+        "@type": "Thing",
+        "name": "The Kitchn"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "384 cal",
+        "carbohydrateContent": "24.7 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "5.0 g",
+        "proteinContent": "16.1 g",
+        "saturatedFatContent": "8.1 g",
+        "sodiumContent": "523.0 mg",
+        "sugarContent": "3.2 g",
+        "fatContent": "24.5 g",
+        "servingSize": "Serves 6",
+        "unsaturatedFatContent": "0.0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "United states",
+        "Tex-mex"
+    ],
+    "recipeIngredient": [
+        "1  small yellow onion",
+        "1 tablespoon neutral oil, such as canola, grapeseed, or vegetable",
+        "1 pound lean ground beef",
+        "2 tablespoons tomato paste",
+        "1 (1-ounce) packet or 3 tablespoons taco seasoning",
+        "1 cup water",
+        "1  beefsteak tomato",
+        "1  small ripe avocado (optional)",
+        "1/4  medium head iceberg lettuce",
+        "12  crunchy taco shells",
+        "  Shredded cheddar, Monterey, Colby, or Mexican blend cheese",
+        "  Sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Step 1",
+            "text": "Arrange a rack in the middle of the oven and heat the oven to 350°F. Peel and dice 1 small yellow onion (about 1/2 cup).",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 2",
+            "text": "Heat 1 tablespoon neutral oil in a large skillet over high heat until shimmering. Add the onion and cook, stirring occasionally, until translucent and slightly softened, about 4 minutes. Add 1 pound lean ground beef and cook, breaking it up into small pieces with a wooden spoon, until cooked through and browned, 6 to 8 minutes. Add 2 tablespoons tomato paste and 1 (1-ounce) packet taco seasoning. Cook until fragrant and the tomato paste is slightly darkened, about 2 minutes.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 3",
+            "text": "Add 1 cup water and scrape up the browned bits from the bottom of the skillet, and bring to boil. Reduce heat to maintain a simmer and cook until the liquid has almost completely evaporated, about 10 minutes. Meanwhile, prepare the toppings.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 4",
+            "text": "Core and dice 1 beefsteak tomato (about 1 cup). Halve, pit, and dice 1 small ripe avocado if using. Core and cut 1/4 medium iceberg lettuce head into fine shreds. Arrange 12 crunchy taco shells in a single layer on a rimmed baking sheet and bake for 5 minutes.",
+            "image": null
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Step 5",
+            "text": "Divide the taco meat between the shells (about 2 heaping tablespoons each). Serve with the tomatoes, avocado, lettuce, shredded cheese, and sour cream for topping.",
+            "image": null
+        }
+    ],
+    "HowtoTip": {
+        "text": "Make ahead: The beef filling can be made up to 2 days ahead and refrigerated in an airtight container. All of the toppings except for the avocado can be prepared up to 1 day in advance and refrigerated in separate in airtight containers. Reheat the beef in the microwave or over medium heat on the stovetop.Storage: If not eating all of the tacos in one sitting, don’t fill the shells before serving. Instead, assemble as you go. Refrigerate leftover taco meat and toppings in separate airtight containers. The taco shells can be stored in an airtight container at room temperature."
+    },
+    "recipeYield": 6,
+    "prepTime": "PT900S",
+    "cookTime": "PT1500S",
+    "totalTime": "PT2400S",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": 5,
+        "ratingValue": 5,
+        "worstRating": 1,
+        "ratingCount": 1
+    },
+    "review": [],
+    "name": "Beef Tacos",
+    "articleSection": "Recipes",
+    "thumbnailUrl": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2024-04-tacos%2Ftacos-490",
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_16:9/k%2FPhoto%2FRecipes%2F2024-04-tacos%2Ftacos-490"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2024-04-tacos%2Ftacos-490"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2024-04-tacos%2Ftacos-490"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Apartment Therapy, LLC.",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thekitchn.com/static/logos/publisher-logo.png",
+            "width": 180,
+            "height": 46
+        }
+    },
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Rachel Perlmutter",
+            "URL": "https://www.thekitchn.com/authors/rachel-perlmutter",
+            "description": "Rachel Perlmutter is a recipe developer, food stylist, and culinary producer at The Kitchn. Originally from Houston, Texas, she spends her free time trying to perfect kolaches and breakfast tacos that taste like home. Rachel currently lives in Brooklyn with her partner, dog, cat and rabbit, where they all share a love of seasonal local produce.",
+            "jobTitle": ""
+        }
+    ],
+    "creator": {
+        "@type": "Person",
+        "name": "Rachel Perlmutter"
+    },
+    "keywords": [
+        "dinner",
+        "mexican",
+        "recipe",
+        "Meat",
+        "Beef",
+        "Main Dish",
+        "Make Ahead",
+        "stovetop",
+        "children",
+        "Cooking with Kids",
+        "Keeps Well",
+        "Lunch",
+        "Ingredient",
+        "Dish Types",
+        "team:recipes",
+        "platform:search",
+        "course:main dish",
+        "cuisine:united states",
+        "cuisine:tex-mex",
+        "mainingredients:meat",
+        "mainingredients:beef",
+        "mainingredients:ground beef",
+        "occasion:timing",
+        "occasion:weekday",
+        "timing:make-ahead",
+        "timing:extended",
+        "dishtype:meat dish",
+        "method:stovetop",
+        "lifestyle:kid-friendly",
+        "lifestyle:leftover-friendly",
+        "meal:dinner",
+        "meal:lunch"
+    ],
+    "mainEntityOfPage": "https://www.thekitchn.com/taco-recipe-23655411",
+    "dateCreated": "2024-04-28T13:00:00-04:00",
+    "datePublished": "2024-04-28T13:00:00-04:00",
+    "dateModified": "2024-04-26T12:57:19-04:00",
+    "abstract": null
+}

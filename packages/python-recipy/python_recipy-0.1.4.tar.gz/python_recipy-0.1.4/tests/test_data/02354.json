@@ -1,0 +1,66 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Pizza-Baked Spaghetti",
+    "keywords": "pizza-baked spaghetti",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/d8Q_5NGbT0W3r2vCYdDe3w_webp_base.webp?v=d60d1305&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Enjoy the pizza flavor in this cheesy casserole packed with pork sausages, pepperoni and spaghetti – perfect for tasty dinner.",
+    "recipeIngredient": [
+        "12  oz uncooked spaghetti",
+        "1  lb bulk Italian pork sausage",
+        "2  jars (14 oz each) pizza sauce",
+        "1  package (6 oz) diced pepperoni",
+        "1  cup ricotta cheese",
+        "1/3  cup shredded Parmesan cheese",
+        "2  eggs, beaten",
+        "2  cups shredded mozzarella cheese (8 oz)",
+        "  Fresh basil, if desired"
+    ],
+    "totalTime": "PT0H50M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "10",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "14",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Spray 13x9-inch (3-quart) baking dish with cooking spray. In Dutch oven, cook and drain pasta as directed on package, using minimum cook time. Return spaghetti to Dutch oven."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 10-inch skillet, cook sausage over medium heat until no longer pink; drain. In Dutch oven, toss spaghetti, sausage, pizza sauce and pepperoni."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, mix ricotta cheese, Parmesan cheese and eggs. Spoon half of spaghetti mixture into baking dish. Dollop with ricotta mixture; spread evenly over top. Sprinkle with 1 cup of the mozzarella cheese. Top with remaining spaghetti mixture. Sprinkle with remaining 1 cup mozzarella cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake uncovered 30 to 35 minutes or until bubbly. Garnish with basil."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "538 ",
+        "carbohydrateContent": "35 g",
+        "fatContent": "2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "28 g",
+        "saturatedFatContent": "13 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1259 mg"
+    },
+    "dateCreated": "10/19/2011",
+    "dateModified": "11/24/2011"
+}

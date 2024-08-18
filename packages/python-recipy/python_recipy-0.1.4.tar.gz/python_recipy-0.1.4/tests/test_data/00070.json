@@ -1,0 +1,144 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Red Cabbage Coleslaw",
+    "datePublished": "2022-09-02T07:00:00.000-04:00",
+    "dateModified": "2024-01-03T12:24:38.335-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Julia Levy",
+            "url": "https://www.eatingwell.com/author/julia-levy/"
+        }
+    ],
+    "description": "This fresh and colorful red cabbage coleslaw is crisp and bright. Dijon and honey balance the flavors of the cabbage. Make this for your next potluck!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/cF-lPO8XgBBpwJnuwALVNHgBiEA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RedCabbageSlaw-0033-83c999754230424d9d6b3b76357c1a2d.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/Gjys8Jpw-ZrSBkzFI.mp4",
+        "description": "Create a side dish that’s rich in flavor and texture using this non-cooked recipe. In this video, learn how to make a fresh and delicious red cabbage coleslaw with tangy lemon juice and dijon mustard. Preparing this coleslaw starts by chopping and slicing both the red cabbage and shallots. Combine the shallots and red cabbage together into a bowl with cider vinegar, salt, and honey. Once tossed, serve this healthy side at lunch or dinner!",
+        "duration": "PT58S",
+        "name": "How to Make Red Cabbage Coleslaw",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/Gjys8Jpw/thumbnails/OpOuGMtJ.jpg",
+        "uploadDate": "2024-01-03T12:24:01.461-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Red Cabbage Coleslaw",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "56 kcal",
+        "carbohydrateContent": "13 g",
+        "fiberContent": "3 g",
+        "proteinContent": "2 g",
+        "sodiumContent": "216 mg",
+        "sugarContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "0.25 cup thinly sliced shallot",
+        "2 tablespoons cider vinegar",
+        "1.5 teaspoons lemon juice",
+        "0.25 teaspoon salt",
+        "2 teaspoons honey",
+        "1 teaspoon Dijon mustard",
+        "0.5 teaspoon ground pepper",
+        "4 cups thinly shredded red cabbage",
+        "1 cup matchstick carrots",
+        "2 tablespoons finely chopped fresh flat-leaf parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir shallot, vinegar, lemon juice and salt together in a large bowl. Let stand until the shallot is softened, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add honey, mustard and pepper to the shallot mixture; stir to combine. Add cabbage, carrots and parsley; toss to coat. Let stand, tossing occasionally, until the cabbage is tender, about 10 minutes."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7996942/red-cabbage-coleslaw/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18256/ingredients/vegetables/",
+                        "name": "Healthy Vegetable Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19294/ingredients/vegetables/cabbage/",
+                        "name": "Healthy Cabbage Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7996942/red-cabbage-coleslaw/",
+                        "name": "Red Cabbage Coleslaw"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            }
+        ],
+        "lastReviewed": "2024-01-03T12:24:38.335-05:00"
+    }
+}

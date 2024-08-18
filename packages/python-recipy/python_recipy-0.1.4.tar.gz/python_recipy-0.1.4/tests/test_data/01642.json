@@ -1,0 +1,100 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Luxury Peach 75",
+    "datePublished": "2013-12-06T18:36:04.000-05:00",
+    "dateModified": "2021-06-17T15:41:26.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kathy Casey",
+            "url": "https://www.foodandwine.com/author/kathy-casey"
+        }
+    ],
+    "description": "Peach puree and fresh tarragon flavor this summery riff on the French 75. The cocktail is also terrific when made with fresh thyme.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/O1eR2EhPNra-nkAwBf3MrCfa70k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2012-cocktails-xl-luxury-peach-75-2000-1b58a061bef746eb82f4760ae14b0d73.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Luxury Peach 75",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 tarragon sprigs",
+        "Ice",
+        "1 ounce gin",
+        "1/2 ounce Cognac",
+        "3/4 ounce fresh lemon juice",
+        "2 tablespoons peach puree (see Note)",
+        "1/2 ounce Simple Syrup",
+        "1/2 ounce chilled brut Champagne"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tear 1 tarragon sprig and drop it into a cocktail shaker. Add ice and the gin, Cognac, lemon juice, peach puree, and simple syrup and shake well. Fine-strain into a chilled coupe. Top with the Champagne and garnish with the remaining tarragon sprig."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/luxury-peach-75-cocktails-2012",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails-spirits/brunch-cocktails",
+                        "name": "Brunch Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sparkling-wine-cocktails-7496747",
+                        "name": "Sparkling Wine Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/luxury-peach-75-cocktails-2012",
+                        "name": "Luxury Peach 75"
+                    }
+                }
+            ]
+        }
+    }
+}

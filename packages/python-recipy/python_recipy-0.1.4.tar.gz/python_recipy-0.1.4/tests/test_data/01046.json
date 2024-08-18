@@ -1,0 +1,156 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Whipped Chocolate Ganache",
+    "datePublished": "2020-11-11T09:55:26.000-05:00",
+    "dateModified": "2024-03-20T18:08:53.841-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Pam Lolley",
+            "url": "https://www.southernliving.com/author/pam-lolley"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "Whipped chocolate ganache is rich in chocolate flavor, but light as a cloud. Use it as a filling in any layer cake.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/PXdzV4CJjWoym0N49WZPxiJxvvI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Big-White-Cake_SLAR_2020_MAIN_Slices-Hands-1ee437def680487197acbe7141b0f88d.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Whipped Chocolate Ganache",
+    "keywords": "whipped ganache, whipped chocolate ganache",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American",
+        "French"
+    ],
+    "recipeIngredient": [
+        "2 (4-oz.) chopped semisweet chocolate baking bars",
+        "1 cup heavy whipping cream",
+        "2 teaspoons vanilla extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Warm chocolate bars and whipping cream: Microwave chopped baking bars and whipping cream in a medium-size microwavable bowl on HIGH until melted and smooth, 90 seconds to 2 minutes, stopping to stir every 30 seconds. Whisk in vanilla extract until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chill ganache mixture: Cover and chill until ganache is thickened, at least 4 hours or up to 3 days. (If ganache chills 6 hours or longer, let it sit at room temperature for 30 minutes before whipping.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whip the ganache: When you are ready to use the ganache, beat the chocolate mixture with an electric mixer on medium speed until soft peaks form and ganache lightens in color, 20 to 30 seconds (do not overbeat). Use immediately."
+        }
+    ],
+    "totalTime": "PT250M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/whipped-chocolate-ganache-filling",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/chocolate",
+                        "name": "Chocolate"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/whipped-chocolate-ganache-filling",
+                        "name": "Whipped Chocolate Ganache"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Southern Living Test Kitchen",
+                "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+            }
+        ],
+        "lastReviewed": "2024-03-20T18:08:53.841-04:00"
+    },
+    "about": [
+        {
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Can I whip chocolate ganache that has hardened?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If you chilled your chocolate ganache and it become firm, bring to room temperature or reheat lightly in the microwave just to soften slightly before whipping for the best texture.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "How long does whipped ganache stay whipped?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If used as a filling and kept refrigerated, whipped ganache should set up firm and remain light and airy for at least two days. You can add stabilizers like gelatin or additional fat like butter to help keep it stable for a longer period of time. You can also rewhip the ganache when it comes time to use it.</p>"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can I fix overwhipped ganache?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "<p>If you overwhipped the ganache and it became stiff or grainy, gently reheat until smooth. Cool and rewhip.</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Grilled Bruschetta",
+    "keywords": "grilled bruschetta",
+    "recipeCategory": "Appetizer",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/WgA3tRUHi0W5f7XrhhGdvA_webp_base.webp?v=30bfca23&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Keep the heat out of the kitchen and on the grill with easy appetizers ready in minutes. ",
+    "recipeIngredient": [
+        "1/2  cup olive or vegetable oil",
+        "2  tablespoons chopped fresh or 2 teaspoons dried basil leaves",
+        "2  cloves garlic, finely chopped",
+        "1  baguette (1 lb), cut diagonally into 1-inch slices",
+        "  Sliced plum (Roma) tomatoes, if desired"
+    ],
+    "totalTime": "PT0H20M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "6",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat gas or charcoal grill. In small bowl, mix oil, basil and garlic. Brush or drizzle oil mixture on cut sides of bread."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Carefully brush grill rack with vegetable oil. Place bread on grill over medium heat. Cook uncovered 4 to 6 minutes, turning once, until golden brown. Top with tomatoes."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "380 ",
+        "carbohydrateContent": "43 g",
+        "cholesterolContent": "0 mg",
+        "fatContent": "3 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "9 g",
+        "saturatedFatContent": "3 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "490 mg",
+        "sugarContent": "6 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "06/12/2008",
+    "dateModified": "07/15/2008"
+}

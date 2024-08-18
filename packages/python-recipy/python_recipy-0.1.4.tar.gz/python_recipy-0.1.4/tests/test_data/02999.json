@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/winter-minestrone-pesto-croutes#Recipe",
+    "@type": "Recipe",
+    "description": "Keep the winter out and warmth in with nutritious minestrone and pesto croûtes",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1684_12-e49e4a8.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/winter-minestrone-pesto-croutes"
+    },
+    "name": "Winter minestrone with pesto croûtes",
+    "url": "https://www.bbcgoodfood.com/recipes/winter-minestrone-pesto-croutes",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Mary Cadogan",
+            "url": "https://www.bbcgoodfood.com/author/marycadogan"
+        }
+    ],
+    "dateModified": "2022-11-08T13:31:52+00:00",
+    "datePublished": "2008-01-30T08:37:58+00:00",
+    "headline": "Winter minestrone with pesto croûtes",
+    "keywords": "BBC Good Food, Broth, Cabbage, Cabbages, Carrot, Carrots, Celery, Garlic clove, Garlic cloves, Haricot bean, Haricot beans, Lardon, Lardons, Low GI, Mary Cadogan, Onion, Onions, Parsley, Pesto, Potato, Potatoes, Sage, Soup, Stew, Tomato, Tomatoes, Vegetable stock",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT40M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "274 calories",
+        "fatContent": "13 grams fat",
+        "saturatedFatContent": "3 grams saturated fat",
+        "carbohydrateContent": "28 grams carbohydrates",
+        "sugarContent": "12 grams sugar",
+        "fiberContent": "8 grams fiber",
+        "proteinContent": "13 grams protein",
+        "sodiumContent": "2.56 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "recipeIngredient": [
+        "2 tbsp olive oil",
+        "1 onion , chopped",
+        "100g unsmoked lardons  or chopped streaky bacon",
+        "2 large carrots , chopped",
+        "2 sticks celery , chopped",
+        "1 medium  potato , chopped",
+        "2 garlic cloves , finely chopped or crushed",
+        "400g can chopped tomatoes",
+        "1l vegetable stock  (from granules or a cube)",
+        "2 tsp chopped  sage  leaves, or 1 tsp dried",
+        "few  cabbage  leaves, shredded",
+        "400g can haricot bean",
+        "handful chopped parsley",
+        "slices of crusty bread",
+        "3 tbsp olive oil",
+        "1 tbsp pesto"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the olive oil in a large pan, add the onion and lardons or bacon and fry for about 5 mins until the onion is starting to brown. Tip in the carrots, celery, potato and garlic, stir well and cook for a few minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the tomatoes, stock and sage, and bring to the boil, stirring. Reduce heat to simmer and cook partly covered for 30 mins, stirring in the cabbage after 15 mins. Drain and rinse the beans and add to the pan with the parsley. Season and serve with pesto croûtes, see right, or crusty bread."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the pesto croûtes: Cut 3-4 slices of crusty bread into chunks, about 2cm thick. Tip into an ovenproof pan. Mix the olive oil and pesto, then add to the bread, tossing it with your hands until the croûtes are evenly coated. Bake in a moderate oven for about 10 mins until crisp."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT55M"
+}

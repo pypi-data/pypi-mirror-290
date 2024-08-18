@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Citrus-Herb Seasoning Salt",
+    "datePublished": "2011-11-15T12:45:19.000-05:00",
+    "dateModified": "2020-04-08T13:04:21.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This blend of bold flavors adds speedy savor. Make a double batch and give half to a lucky recipient.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/4pfi5c6vVFpjL5sRnB07-fb_-bg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/citrus-herb-seasoning-salt-med107742_vert-54e556bc2bad4b789d8e84608f5dab3c.jpgitok9VZXy-qf",
+        "height": 375,
+        "width": 300
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/N1Wn7OF9-DuXeUCvc.mp4",
+        "description": "Thomas Joseph shows you easy spice rub blends that go well on fish, chicken, and beef.",
+        "duration": "PT10M19S",
+        "name": "Foolproof Spice Rubs",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/N1Wn7OF9/poster.jpg?width=720",
+        "uploadDate": "2020-04-20T11:40:34.498-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Citrus-Herb Seasoning Salt",
+    "keywords": "Herbs",
+    "recipeIngredient": [
+        "0.75 cup coarse salt",
+        "2 tablespoons finely grated lemon zest",
+        "4 teaspoons dried rosemary",
+        "3 teaspoons dried thyme",
+        "3 teaspoons dried oregano",
+        "0.5 teaspoon granulated sugar",
+        "0.5 teaspoon paprika",
+        "0.5 teaspoon red-pepper flakes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/4pfi5c6vVFpjL5sRnB07-fb_-bg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/citrus-herb-seasoning-salt-med107742_vert-54e556bc2bad4b789d8e84608f5dab3c.jpgitok9VZXy-qf"
+                }
+            ],
+            "text": "Combine salt, lemon zest, rosemary, thyme, oregano, sugar, paprika, and red-pepper flakes."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/868409/citrus-herb-seasoning-salt",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513477/healthy-recipes",
+                        "name": "Healthy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513443/gluten-free-recipes",
+                        "name": "Gluten-Free Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/868409/citrus-herb-seasoning-salt",
+                        "name": "Citrus-Herb Seasoning Salt"
+                    }
+                }
+            ]
+        }
+    }
+}

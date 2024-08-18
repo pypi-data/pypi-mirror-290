@@ -1,0 +1,155 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/roasted-herb-lemon-cauliflower/",
+    "name": "Roasted Herb & Lemon Cauliflower",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-02",
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps178756_THCA163696A03_31_7b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "A standout cauliflower side is easy to prepare with just a few ingredients. Crushed red pepper flakes add a touch of heat. &mdash;Susan Hein, Burlington, Wisconsin",
+    "recipeIngredient": [
+        "1 medium head cauliflower, cut into florets (about 6 cups)",
+        "4 tablespoons olive oil, divided",
+        "1/4 cup minced fresh parsley",
+        "1 tablespoon minced fresh rosemary",
+        "1 tablespoon minced fresh thyme",
+        "1 teaspoon grated lemon zest",
+        "2 tablespoons lemon juice",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon crushed red pepper flakes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425°. Place cauliflower in an ungreased 15x10x1-in. baking pan. Drizzle with 2 tablespoons oil and toss to coat. Roast 20-25 minutes or until golden brown and tender, stirring occasionally."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine remaining ingredients; stir in remaining oil. Transfer cauliflower to a large bowl; drizzle with herb mixture and toss to combine."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 161 calories",
+        "fatContent": "14g fat (2g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "342mg sodium",
+        "carbohydrateContent": "8g carbohydrate (3g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "3g protein. <B><b>Diabetic Exchanges</b>: </B> 3 fat"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 5,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-06-01",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Amy316"
+            },
+            "reviewBody": "<p>This turned out easy, tasty, and family enjoyed.  Love the lemon and herb flavors together. </p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-01-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Connie987"
+            },
+            "reviewBody": "Delicious! Loved the brightness the lemon added. Will make this often.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-08-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "annrms"
+            },
+            "reviewBody": "I am honored to be the first to rate this fantastic recipe!!!  Once prepped this recipe goes together very quickly.  The herbs are delicious tossed with the lemon and red pepper flakes.  This is definitely a keeper.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-12-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Syringa10"
+            },
+            "reviewBody": "I made this for a family dinner tonight. Reviews were mostly good, but one person thought it contained too much lemon. Others enjoyed the mix of flavors.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2017-01-28",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "lejam919"
+            },
+            "reviewBody": "Loved it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Smoky bacon, crunchy shredded lettuce, and a zesty dressing—what’s not to like?",
+    "alternativeHeadline": "Smoky bacon, crunchy shredded lettuce, and a zesty dressing—what’s not to like?",
+    "keywords": [
+        "salad",
+        "bacon",
+        "chicken",
+        "tahini",
+        "miso",
+        "lettuce",
+        "scallion",
+        "ginger",
+        "main",
+        "dinner",
+        "dairy free",
+        "bon appétit",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/596939261f9dc20dd41bce80/1:1/w_1333,h_1333,c_limit/shredded-chicken-salad-with-creamy-miso-dressing-recipe-BA-071417.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Bryant Ng",
+            "sameAs": "https://www.epicurious.com/contributor/bryant-ng"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.9,
+        "ratingCount": 13
+    },
+    "description": "Smoky bacon, crunchy shredded lettuce, and a zesty dressing—what’s not to like?",
+    "image": [
+        "https://assets.epicurious.com/photos/596939261f9dc20dd41bce80/16:9/w_2000,h_1124,c_limit/shredded-chicken-salad-with-creamy-miso-dressing-recipe-BA-071417.jpg",
+        "https://assets.epicurious.com/photos/596939261f9dc20dd41bce80/4:3/w_1776,h_1332,c_limit/shredded-chicken-salad-with-creamy-miso-dressing-recipe-BA-071417.jpg",
+        "https://assets.epicurious.com/photos/596939261f9dc20dd41bce80/1:1/w_1333,h_1333,c_limit/shredded-chicken-salad-with-creamy-miso-dressing-recipe-BA-071417.jpg"
+    ],
+    "headline": "Shredded Chicken Salad With Creamy Miso Dressing",
+    "name": "Shredded Chicken Salad With Creamy Miso Dressing",
+    "recipeIngredient": [
+        "4 slices bacon",
+        "1 (1 1/2-inch) piece ginger, peeled, cut into very thin matchsticks",
+        "1 tablespoon soy sauce",
+        "1 tablespoon tahini",
+        "1 tablespoon white miso",
+        "2 teaspoons fish sauce",
+        "3/4 teaspoon toasted sesame oil",
+        "Pinch of sugar",
+        "4 tablespoons fresh lemon juice, divided",
+        "1 large egg yolk",
+        "3/4 cup vegetable oil, divided",
+        "Kosher salt, freshly ground pepper",
+        "1 small rotisserie chicken, skin removed, meat shredded (about 4 cups)",
+        "1 head of green leaf lettuce, cut crosswise into 1/2-inch-thick ribbons",
+        "2 scallions, thinly sliced",
+        "Toasted sesame seeds (for serving)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook bacon in a dry medium skillet over medium heat, turning slices occasionally, until brown and crisp, 5–8 minutes. Transfer to paper towels; let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook ginger in a small saucepan of boiling water 1 minute. Drain ginger and rinse under cold water; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk soy sauce, tahini, miso, fish sauce, sesame oil, sugar, and 2 Tbsp. lemon juice in a small bowl until smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk egg yolk and remaining 2 Tbsp. lemon juice in a medium bowl to combine. Very gradually stream in 1/2 cup vegetable oil (almost drop by drop), whisking constantly until mayonnaise is emulsified and thick. Still whisking constantly, gradually add soy sauce mixture, then remaining 1/4 cup oil. Thin dressing with a tablespoon or two of water if needed; you want it to be the consistency of heavy cream. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss chicken and 1/2 cup dressing in a large bowl to coat. Add lettuce and another 1/2 cup dressing and toss again; season with salt and pepper. Crumble bacon over."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer salad to a serving bowl or platter and drizzle another tablespoon or so of dressing over salad (you may have some left over). Top with scallions, sesame seeds, and reserved ginger."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dressing can be made 1 day ahead. Cover and chill."
+        }
+    ],
+    "recipeYield": "4 servings",
+    "url": "https://www.epicurious.com/recipes/food/views/shredded-chicken-salad-with-creamy-miso-dressing",
+    "dateModified": "2017-07-19T08:00:00.000-04:00",
+    "datePublished": "2017-07-19T08:00:00.000-04:00",
+    "recipeCategory": []
+}

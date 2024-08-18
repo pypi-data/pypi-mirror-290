@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Poussin a la Moutarde (Small Chicken with Mustard)",
+    "url": "https://www.foodnetwork.com/recipes/poussin-a-la-moutarde-small-chicken-with-mustard-recipe-1908115",
+    "headline": "Poussin a la Moutarde (Small Chicken with Mustard)",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-20T14:37:03.269-05:00",
+    "dateModified": "2013-11-14T17:38:46.543-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "cookTime": "P0Y0M0DT0H55M0.000S",
+    "prepTime": "P0Y0M0DT0H10M0.000S",
+    "totalTime": "P0Y0M0DT1H5M0.000S",
+    "recipeIngredient": [
+        "1 very small chicken",
+        "2 to 3 tablespoons Dijon mustard",
+        "1/2 cup creme fraiche",
+        "Salt and pepper",
+        "1 tablespoon butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425 degrees. Truss chicken and coat all over with a thick layer of mustard. Bake in a small gratin dish until mustard turns golden brown, about 40 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small pan heat creme fraiche. Take chicken out of oven, remove any surplus mustard, and pour the creme fraiche over. Bake 10 minutes longer. Remove chicken to a hot dinner plate. Whisk the sauce, season to taste with salt and pepper and whisk in butter. Pour over chicken and serve"
+        }
+    ],
+    "recipeYield": "1 serving",
+    "recipeCategory": []
+}

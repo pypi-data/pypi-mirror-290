@@ -1,0 +1,168 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Super Easy One Pot Lasagna",
+    "description": "This Super Easy One Pot Lasagna uses simple ingredients and can be made all in one pot! With ground beef, tomato sauce, and fresh Mozzarella cheese.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "one pot lasagna, lasagna recipe, easy lasagna recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/One-Pot-Lasagna-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/One-Pot-Lasagna-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/One-Pot-Lasagna-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/One-Pot-Lasagna-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/super-easy-one-pot-lasagna",
+    "recipeIngredient": [
+        "6-8 slices bacon, cut into small pieces",
+        "3 shallots, minced",
+        "3 carrots, minced",
+        "1 lb. ground beef",
+        "a good sprinkling of salt and pepper",
+        "1 25 ounce jar DeLallo Pomodoro Fresco Tomato Basil sauce",
+        "1/2 cup dry red wine (optional &#8211; can replace with broth or water)",
+        "4 ounces cream cheese",
+        "4 ounces DeLallo whole wheat no-boil lasagna noodles",
+        "6-8 ounces fresh mozzarella",
+        "fresh basil and Parmesan cheese for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees Fahrenheit. In a large ovenproof skillet, brown the bacon until crispy. Add the shallots and carrot; saute for 5 minutes or until soft and fragrant. Add the ground beef with salt and pepper and brown until no longer pink. Drain off all the excess grease.",
+            "url": "https://pinchofyum.com/super-easy-one-pot-lasagna#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the tomato sauce and wine to the meat in the skillet. Simmer for 10 minutes over medium low heat. Stir in the cream cheese until melted.",
+            "url": "https://pinchofyum.com/super-easy-one-pot-lasagna#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Break each of the lasagna noodles into 3 or 4 pieces. Stir them into the meat mixture so they are completely covered in sauce, and arrange them so that they are all laying flat in the pan.",
+            "url": "https://pinchofyum.com/super-easy-one-pot-lasagna#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Tuck a few slices of fresh mozzarella underneath and between the noodles, and place the remaining slices of fresh mozzarella on top. Bake for 25 minutes. If you want to brown the cheese, turn the heat up to 425 for an additional 10 minutes.",
+            "url": "https://pinchofyum.com/super-easy-one-pot-lasagna#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let stand for 5-10 minutes and top with fresh basil and Parmesan cheese.",
+            "url": "https://pinchofyum.com/super-easy-one-pot-lasagna#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H15M",
+    "recipeYield": "6",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "50",
+        "ratingValue": "4.6"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "346 calories",
+        "sugarContent": "7 g",
+        "sodiumContent": "878.6 mg",
+        "fatContent": "17.6 g",
+        "saturatedFatContent": "9.1 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "13 g",
+        "fiberContent": "1.9 g",
+        "proteinContent": "16.8 g",
+        "cholesterolContent": "58.5 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Super Easy One Pot Lasagna",
+        "description": "This Super Easy One Pot Lasagna uses simple ingredients and can be made all in one pot! With ground beef, tomato sauce, and fresh Mozzarella cheese.",
+        "contentUrl": "https://content.jwplatform.com/videos/K1a3H5YY.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/K1a3H5YY-720.jpg"
+        ],
+        "uploadDate": "2023-02-14T18:04:11+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "datePublished": "2019-10-13",
+            "reviewBody": "This was amazing! I made it for my family and friends and everyone raved and raved. Truly, they were sold at the inclusion of bacon, but the finished dish was so delicious.\r\nI could not find DeLallo in Chicago anywhere so I used Rao sauce and Barilla noodles. Thanks for a great recipe!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Helen"
+            },
+            "datePublished": "2019-07-01",
+            "reviewBody": "The first thing my kids said was “this does not look like lasagna”. The next time they spoke, it was to ask for another plate.  Super yummy, thank you!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kelley"
+            },
+            "datePublished": "2022-05-27",
+            "reviewBody": "After a few years of this being in my weekly dinner routine, I figured it was time for me to comment. I cannot tell you the amount of times I've shared this recipe... Let alone cooked it!! We have a family of 4 kids, 3 middle school/high school boys... So I double this EVERY TIME and we hardly have any left. It tends to be the meal they ask for on birthdays. Cannot thank you enough for such a great recipe!!\r\nLove from a Virginian who grew up for 18 years in Edina!! ❤️ ❤️"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sydney | Modern Granola"
+            },
+            "datePublished": "2015-04-29",
+            "reviewBody": "I love this so much. I never ever make lasagna because, frankly, I don't want to do the work. I made it once way back with my mom and it took us all day and ended up being just okay. For the amount of work it wasn't worth it to us. BUT THIS! This is amazing and will actually get me to try lasagna again. Thank you for your creativity. I love to come here and get inspired!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "RENEE"
+            },
+            "datePublished": "2015-04-29",
+            "reviewBody": "Lindsay! This is 19 types of awesomeness!\r\nBTW, just listened to your podcast with Jess Lively (for the second time) and I just love your outlook, love for adoption, and savvy biz smarts. Great interview.\r\nLastly, your Snaps are always a highlight\r\n:)\r\nxoxo from Minnetonka"
+        }
+    ],
+    "datePublished": "2015-04-29",
+    "@id": "https://pinchofyum.com/super-easy-one-pot-lasagna#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/super-easy-one-pot-lasagna#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/super-easy-one-pot-lasagna"
+}

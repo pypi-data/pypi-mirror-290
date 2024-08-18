@@ -1,0 +1,82 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Duck Confit",
+    "url": "https://www.foodnetwork.com/recipes/duck-confit-3672208",
+    "headline": "Duck Confit",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/3/14/0/DV2608H_Duck-Flat-Bread-Confit_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1489526907358.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "Duck Flat Bread Confit as served at Heist Brewery in Charlotte, North Carolina as seen on Food Network's Diners, Drive-Ins and Dives episode 2608."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/3/14/0/DV2608H_Duck-Flat-Bread-Confit_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1489526907358.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "Duck Flat Bread Confit as served at Heist Brewery in Charlotte, North Carolina as seen on Food Network's Diners, Drive-Ins and Dives episode 2608."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/3/14/0/DV2608H_Duck-Flat-Bread-Confit_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1489526907358.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "Duck Flat Bread Confit as served at Heist Brewery in Charlotte, North Carolina as seen on Food Network's Diners, Drive-Ins and Dives episode 2608."
+        }
+    ],
+    "datePublished": "2017-03-27T15:04:38.622-04:00",
+    "dateModified": "2017-03-27T15:04:38.207-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Duck Recipes,Poultry,Main Dish",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT5H15M0.000S",
+    "recipeIngredient": [
+        "One 6-pound duck, rinsed and cleaned",
+        "Salt and pepper",
+        "2 tablespoons minced garlic",
+        "Duck fat"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 300 degrees F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Rub salt, pepper and the minced garlic all over the duck and under the skin. Place the duck, breast down, in a deep braising pan and add duck fat to fully submerge; the amount of fat will vary depending on pan size."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the braising pan in the oven and cook for no less than 5 hours (see Cook's Note)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the duck from the fat and gently pull the meat off of the bones."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "3 pounds",
+    "recipeCategory": []
+}

@@ -1,0 +1,95 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/fajita-chicken-one-pot#Recipe",
+    "@type": "Recipe",
+    "description": "Make the most of a classic combination of chicken and chorizo in this easy one-pot. Serve in large bowls with soured cream and a scattering of parsley.",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/01/Fajita-chicken-one-pot-90f0938.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/fajita-chicken-one-pot"
+    },
+    "name": "Fajita chicken one-pot",
+    "url": "https://www.bbcgoodfood.com/recipes/fajita-chicken-one-pot",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Samuel Goldsmith",
+            "url": "https://www.bbcgoodfood.com/author/samuelgoldsmith"
+        }
+    ],
+    "dateModified": "2023-01-03T14:39:00+00:00",
+    "datePublished": "2023-01-03T14:39:00+00:00",
+    "headline": "Fajita chicken one-pot",
+    "keywords": "Chicken, Chicken one-pot, Chorizo, Fajita, Traybake",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT45M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "394 calories",
+        "fatContent": "18 grams fat",
+        "saturatedFatContent": "6 grams saturated fat",
+        "carbohydrateContent": "27 grams carbohydrates",
+        "sugarContent": "8 grams sugar",
+        "fiberContent": "9 grams fiber",
+        "proteinContent": "27 grams protein",
+        "sodiumContent": "2.4 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2 tsp olive oil",
+        "200g cooking chorizo, roughly chopped",
+        "6 boneless and skinless chicken thighs, roughly chopped",
+        "2 red onions, roughly chopped",
+        "2 Romano peppers, roughly chopped",
+        "1½ tbsp fajita seasoning",
+        "400g can pinto beans, drained and rinsed",
+        "350g new potatoes, halved, or quartered if large",
+        "300ml chicken stock, made with 1 stock cube",
+        "3 corn on the cobs, halved or quartered",
+        "100g soured cream,  to serve",
+        "handful of parsley, chopped, to serve (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a large, lidded, heavy-based saucepan over a medium heat and fry the chorizo for 4 mins to release the oils and brown it a little. Remove to a plate using a slotted spoon and set aside. Fry the chicken for 5-6 mins until browned but not cooked all the way through. You may need to do this in batches. Remove with the slotted spoon and set aside with the chorizo."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the onions and peppers to the pan and cook, stirring often for 6-8 mins until softened and starting to lightly brown. Use a wooden spoon to scrape up any caramelised bits on the bottom and mix them in. Stir in the fajita seasoning and cook for 30 seconds before returning the chorizo and chicken to the pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season with salt and freshly ground black pepper and give everything a good stir. Tip in the pinto beans and potatoes, stir to coat well, then pour in the stock, topping up with water if it doesn’t cover the chicken and veg. Bring to a simmer, reduce the heat a little and put the lid on. Simmer gently for 10 mins. Give everything a stir, then sit the corn on the cobs on top."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return the lid to the pan and cook for a further 15 mins. Serve in large bowls, each topped with a spoonful of soured cream and a scattering of chopped parsley, if you like."
+        }
+    ],
+    "recipeYield": 6,
+    "suitableForDiet": "https://schema.org/LowCalorieDiet",
+    "totalTime": "PT1H"
+}

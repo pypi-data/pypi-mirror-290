@@ -1,0 +1,147 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Ge Court Bouillon",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/ge-court-bouillon-recipe-1938582",
+    "headline": "Ge Court Bouillon",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-13T21:05:45.722-05:00",
+    "dateModified": "2013-11-08T11:47:48.379-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "French Recipes,Fruit,Lemon,Celery,Poaching Recipes,Gluten Free,Low-Fat,Low Sodium,Vegan",
+    "cookTime": "P0Y0M0DT0H8M0.000S",
+    "prepTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT0H28M0.000S",
+    "recipeIngredient": [
+        "1 1/2 cups water",
+        "1/2 cup white wine",
+        "1 lemon, juiced",
+        "1 onion, chopped",
+        "1/2 celery rib, chopped",
+        "1 garlic clove, chopped finely",
+        "1 teaspoon black peppercorns",
+        "4 to 5 sprigs fresh thyme",
+        "1 bay leaf"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 2 servings",
+        "calories": "97",
+        "fatContent": "0g",
+        "saturatedFatContent": "0g",
+        "carbohydrateContent": "14g",
+        "fiberContent": "3g",
+        "sugarContent": "4g",
+        "proteinContent": "2g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "22mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients in a saucepan and bring to a boil over high heat. Reduce the heat and simmer for 8 minutes. Strain or use chunky the first time, then strain through a fine mesh and either refrigerate for up to 3 days or freeze for up to 2 months. Either way, be sure to bring to a boil before reusing."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 4
+    },
+    "recipeYield": "Yield:  2 cups",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "pattykat2012"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Excellent...."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Poor.sam.gets.spam"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Smells fantastic! Great flavor! I was so impressed with this recipe - I followed it exactly. We used for fondue (pork and fillet). When I make again, I will at least double (if not triple)."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Judizinthekitchen39"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I used this for poached chicken...OMG!  What flavour."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "S.Z. R."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I used this recipe for beef fondue &amp; it worked great.  Only thing I found, you must increase the amount by six if serving four people, &amp; definitely strain before putting in the fondue pot.  The flavor of the court was just enough as the meat was in a marinade.  Thanks Alton!"
+        }
+    ],
+    "recipeCuisine": "french"
+}

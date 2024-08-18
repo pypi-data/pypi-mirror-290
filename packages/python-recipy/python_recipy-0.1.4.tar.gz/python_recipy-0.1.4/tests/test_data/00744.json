@@ -1,0 +1,417 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022255-sesame-salmon-bowls#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022255-sesame-salmon-bowls",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/06/14/dining/kc-steamed-salmon-bowls/kc-steamed-salmon-bowls-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022255-sesame-salmon-bowls",
+    "name": "Sesame Salmon Bowls",
+    "description": "This one-pot meal, which is inspired by chirashi, or Japanese rice and raw fish bowls, features a savory vinegared rice that’s typically served with sushi. Traditionally, the rice is cooked first, then mixed with vinegar, but here, the rice is cooked in vinegar-seasoned water to eliminate a step. The result is sticky rice that’s tangy and sweet, and a perfect bed for fatty salmon. The salmon is added toward the end to steam directly on top of the rice for an easy one-pan meal. Packaged coleslaw is a time saver, eliminating extra knife work. Make a double batch of the zesty dressing for drizzling over roasted vegetables or green leafy salads the next day.",
+    "author": {
+        "@type": "Person",
+        "name": "Kay Chun"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/kc-steamed-salmon-bowls/kc-steamed-salmon-bowls-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/kc-steamed-salmon-bowls/kc-steamed-salmon-bowls-superJumbo.jpg",
+            "height": 1581,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/kc-steamed-salmon-bowls/kc-steamed-salmon-bowls-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/06/14/dining/kc-steamed-salmon-bowls/kc-steamed-salmon-bowls-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT40M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cucumber, grain bowl, kid-friendly, rice vinegar, salmon fillet, sushi rice, spring, summer",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 6885
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 784,
+        "unsaturatedFatContent": "37 grams",
+        "carbohydrateContent": "39 grams",
+        "cholesterolContent": null,
+        "fatContent": "52 grams",
+        "fiberContent": "7 grams",
+        "proteinContent": "39 grams",
+        "saturatedFatContent": "9 grams",
+        "sodiumContent": "1361 milligrams",
+        "sugarContent": "29 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/4 cup unseasoned rice vinegar",
+        "3 tablespoons granulated sugar",
+        "1 teaspoon kosher salt, plus more for seasoning",
+        "1 1/2 cups sushi rice (short-grain white rice), rinsed until water runs clear",
+        "1 1/2 pounds skinless salmon fillet, cut into 1-inch cubes",
+        "1/2 teaspoon toasted sesame oil",
+        "1/4 cup low-sodium soy sauce",
+        "3 tablespoons distilled white vinegar",
+        "2 tablespoons safflower or canola oil",
+        "2 tablespoons coarsely chopped scallions",
+        "2 tablespoons minced fresh ginger (from one 2-inch piece)",
+        "3 Persian cucumbers, thinly sliced",
+        "8 ounces green coleslaw mix (about 3 packed cups)",
+        "1 avocado, halved, pitted and thinly sliced",
+        "Torn toasted nori sheets, for garnish (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large saucepan, combine rice vinegar, sugar and salt; stir to dissolve the sugar. Add the rice and 1 3/4 cups water, and mix well. Bring to a boil over high heat, then cover and reduce heat to low. Cook until rice is tender and most of the liquid is absorbed, about 20 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a small bowl, toss salmon with 1/4 teaspoon sesame oil and season with salt. Once rice is tender (after about 20 minutes), arrange salmon in an even layer on top of rice. Cover and steam over low heat until fish is cooked to medium, about 12 minutes longer."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a small bowl, combine soy sauce, white vinegar, safflower oil, scallions, ginger and the remaining 1/4 teaspoon sesame oil. Mix well, and season with salt."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Scoop salmon and rice into bowls. Top each with some cucumbers, coleslaw mix and avocado. Drizzle with the vinaigrette. Top with nori, if using."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A R C"
+            },
+            "reviewBody": "We love this dish! I use less sugar in the rice, and cook frozen salmon in the oven at 400 degrees and use a thermometer to test when it is done. It is easier for me to cook the salmon this way. This is one of our favorite dishes. We also use tamari instead of soy sauce since my partner is gluten free, but I don’t think this changes the flavor profile.",
+            "datePublished": "2024-06-10T14:18:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sunny"
+            },
+            "reviewBody": "We bbq‘d the salmon steaks & cooked rice using a rice cooker.\nAdded extra veggies including edamame ( frozen, cooked), sliced carrots, jalapeño peppers etc. as for the soy sauce, we love Tamari soy sauce that adds deeper flavor. This recipe is quick, easy, & delicious!",
+            "datePublished": "2024-06-10T00:12:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "gunta"
+            },
+            "reviewBody": "A bit too much vinegar for us. Think I’d add more ginger and sesame oil. Lovely meal.",
+            "datePublished": "2024-05-26T01:09:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "m"
+            },
+            "reviewBody": "This turned out fantastically. I used my enamel Dutch oven, which was a great size. I accidentally bought rainbow trout instead of salmon, but it worked great. I used the recipe as is otherwise. My one recommendation is to start measuring the temperature in the fish after 10 minutes steaming. I think it took me a total of around 13 minutes to get a nice medium 125F temp.",
+            "datePublished": "2024-05-23T23:34:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carol"
+            },
+            "reviewBody": "An easy way to de-skin salmon is pour boiling water from a teakettle onto the filet. It comes right off. Works great particularly with this recipe when the salmon is going to be steamed anyway.",
+            "datePublished": "2024-05-17T22:50:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helen"
+            },
+            "reviewBody": "I added miso paste and a squeeze of lemon to the vinaigrette.",
+            "datePublished": "2024-05-17T13:55:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alan C Brownmd"
+            },
+            "reviewBody": "Yes this is a lovely satisfying dinner along the lines of Sue Li’s slow roasted  salmon. As others have noted, buy the best salmon you can find. Be careful as you cook the sushi rice. I always turn my burner down as far as possible when cooking rice but I think 15  minutes would have been better than 20. The skillet was awfully hard to clean even after soaking. Of course everyone’s stove is different.",
+            "datePublished": "2024-05-08T20:55:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "Found this to be pretty one note with all the soy sauce. I think the salmon would be better pan fried for the texture. Won't make this one again.",
+            "datePublished": "2024-05-07T01:12:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "linda"
+            },
+            "reviewBody": "I would love to serve this for Mother’s Day for 10 people. Any suggestions for serving?",
+            "datePublished": "2024-05-05T15:46:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Running mama bear"
+            },
+            "reviewBody": "Excellent! Would 10/10 make again. Didn’t have slaw so I substituted finely sliced red bell pepper and upped the cucumber. Delicious. Following another commenter I fried up the salmon skin and it added a nice crunch. A lap threw on cilantro bc why not? So good!",
+            "datePublished": "2024-05-04T23:18:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CEdwards"
+            },
+            "reviewBody": "A very tasty salmon and rice bowl. BUT, cooking the rice for 20 minutes and then a further 12 to steam the fish resulted in a mostly ruined, glutinous mess. White rice, steamed over the lowest possible flame for a total of 15 minutes i(and then rested for 10 minutes) is perfectly cooked.",
+            "datePublished": "2024-05-01T12:23:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JAT"
+            },
+            "reviewBody": "Love this one!  I mostly followed the directions.  Used seasoned rice vinegar and basmati rice because that's all I had, but it still turned out great tasting!  I followed the other's notes and put in 3 Tbs of water before I put the salmon in.  Rice got a little caramelized on the bottom and it actually added a nice crunch and taste to the dish! Used a wide pan with high sides in order to be able to lay my salmon in one layer.  It worked great!",
+            "datePublished": "2024-04-29T01:39:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NDN"
+            },
+            "reviewBody": "This was great!",
+            "datePublished": "2024-04-28T23:51:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sue Veade"
+            },
+            "reviewBody": "Instant Pot variation. It's no longer \"one pot,\" but the IP automates the rice-making. The rinsed rice and vinegar go directly into the pot. Water-to-rice ratio should be one-to-one (in addition to the vinegar). Seal the lid and press \"Rice.\" The screen shows \"Auto\" while the pot heats, then counts down from 12 minutes. It takes 10-12 minutes to depressurize. Meanwhile, I sear the salmon in a skillet, poach in white wine a couple of minutes, and plate with the rice and veg. Easy clean-up. Tasty!",
+            "datePublished": "2024-04-28T15:31:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brian"
+            },
+            "reviewBody": "Good ideas here, but there are some mistakes in the recipe. No way you use 1/4 C of soy sauce in the dressing, unless you want the salad to just taste like salt. One tablespoon is good. And 3 tablespoons of sugar is way too sweet in the rice, just do 1 T. Just as a matter of taste I'd say 2 T of ginger is too much, 1 T is perfect.",
+            "datePublished": "2024-04-28T00:46:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lmu"
+            },
+            "reviewBody": "I made this as written but had to use jasmine rice, and I added cilantro and toasted sesame seeds to finish.  I made it in a rice cooker, putting in the salmon on top of the rice for the last 10 minutes of the rice cooking time.  It was delicious!",
+            "datePublished": "2021-06-19T02:13:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Caroline"
+            },
+            "reviewBody": "Many elements but great recipe. Get the salmon skinned by the fishmonger but keep the skin. Dry and season the skin with salt, fry until crispy, chop into squares and add as garnish to the bowl.",
+            "datePublished": "2021-06-24T06:38:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MH"
+            },
+            "reviewBody": "You HAVE to make this! So flavorful. Simple. Beautiful dish. Don't use cheap salmon. This dish really highlights the fish. So using a really fresh filet is important. The only thing I changed was when I added the fish to the rice to steam I went ahead and added another two tablespoons of water and turned the heat up a just a tad for  3 minutes, then returned it to low. It turned out so good! My partner said it's the best thing I've ever cooked!!",
+            "datePublished": "2021-06-19T03:48:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "Make a double batch of the dressing and toss the coleslaw mix with some dressing prior to serving. I garnished with black sesame seed. Delicious!",
+            "datePublished": "2021-06-23T15:35:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaret"
+            },
+            "reviewBody": "Why not use seasoned rice vinegar and skip the sugar?",
+            "datePublished": "2021-06-19T14:12:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katie"
+            },
+            "reviewBody": "Good recipe but would skip the sugar. It was too sweet for me. Also, topped it with thinly sliced radish and cucumber, cilantro, basil and lime juice",
+            "datePublished": "2021-06-29T03:01:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SFCook"
+            },
+            "reviewBody": "The reason everyone is adding water is that the rice to water proportion is way off.  \n\nShould be 2 cups water to 1 cup rice.   15 min into cooking rice, I added 3/4 c of water and then added another 1/4 c when I added salmon.   I used Japanese short grain rice.",
+            "datePublished": "2021-07-22T22:27:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "grant"
+            },
+            "reviewBody": "I grew up in Hawaii so I know a thing or two about race. You always always always wash rice! And I know it says that in the ingredients, but it would probably help a lot of people if you also put it in the preparation directions at the start right before it says to add the rice to the vinegar.",
+            "datePublished": "2021-06-21T02:17:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Will"
+            },
+            "reviewBody": "I used the rice cooker to cook the salmon. Once rice cooker was done cooking, I put in the salmon while it was on keep warm for 12 minutes",
+            "datePublished": "2021-06-27T13:11:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kim"
+            },
+            "reviewBody": "Wash rice first. \n\nCan use seasoned rice vinegar and less or no sugar. \n\n2.25 cups water. \n\nOnly 10 min with salmon. \n\nSkin salmon and fry skin separately. \n\nSoak cabbage in seasoned dressing - no need to add more after. \n\nSlice cabbage very thinly and small; cut cucumbers in half before slicing.",
+            "datePublished": "2022-01-24T02:03:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scott"
+            },
+            "reviewBody": "Make sure you really use a large saucepan! If it's too small, the fish will all sort of clump together, trapping the steam and negatively altering the cook significantly.",
+            "datePublished": "2021-06-23T14:55:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "scarpet"
+            },
+            "reviewBody": "I really don't understand how or why one would use an Instant Pot for this. You really shouldn't use an Instant Pot for anything with such a low cook time (use it for stuff that takes longer than 30-40 minutes to make - best for those 1-8 hour cook times). But a rice cooker (say my Zojirushi one) PERFECT! With a rice cooker, you CAN easily pop it open to put in the fish (no need to wait until it depressurizes).",
+            "datePublished": "2021-06-21T22:33:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "Personally, I like my salmon on the medium-rare side, so the 12 minutes steam was a bit long for my tastes. I would've kept it only to 10, perhaps as little as 8, for nice soft salmon. Everything else was delicious and so easy to make for a weekday evening!",
+            "datePublished": "2021-09-02T19:20:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff Winett"
+            },
+            "reviewBody": "The only thing I am angry about is why I waited until yesterday to create this absolutely amazing entree.  The rice itself was pure heaven with a flavor profile I've never had in my home, but all of the touches/add-ons really popped...particularly the Persian cucumber and Avocado.  Kay Chun, you totally rock!  And now I rock in my little family of two!!!",
+            "datePublished": "2021-08-23T14:49:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mel"
+            },
+            "reviewBody": "Light and delicious. Didn’t have a large saucepan, so used small stockpot. The rice (jasmine) cooked a bit more quickly and was starting to brown on the bottom at 20 minutes. The crispy bits were good! As suggested I put 3 tbls of water in the rice before adding salmon and cooked 15 minutes more. I added sautéed corn, grated carrot, cuke, avocado and broccoli slaw and some everything but spices. Fantastic. Anything from the farmers market will be at home in this dish. A keeper!",
+            "datePublished": "2021-06-20T23:39:47.000Z"
+        }
+    ]
+}

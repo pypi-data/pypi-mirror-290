@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Stir-Fried Carrots, Corn &amp; Peppers",
+    "datePublished": "2016-06-03T00:33:43.000-04:00",
+    "dateModified": "2023-09-20T11:24:40.161-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Young",
+            "url": "https://www.eatingwell.com/author/grace-young/"
+        }
+    ],
+    "description": "This eclectic stir-fry is a colorful combination of carrot, red bell pepper, corn and romaine lettuce. This recipe exemplifies how to stir-fry vegetables with different textures. The carrots, which are a “hard vegetable,” should be stir-fried for a minute before adding “medium-hard” vegetables like peppers or corn, which require slightly less cooking. Finally, add “soft or leafy vegetables” in the last 30 seconds to ensure all the vegetables achieve the same level of doneness. Make sure the lettuce is dry--if it&#39;s wet when added to the pan, it will turn the stir-fry into a braise.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/SHnXhenRzGUBjJfAWB9eiNB55MU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4225512-22d847ffd33b473d9c97d6ab5ce5b918.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Stir-Fried Carrots, Corn &amp; Peppers",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "93 kcal",
+        "carbohydrateContent": "11 g",
+        "fiberContent": "2 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "179 mg",
+        "sugarContent": "5 g",
+        "fatContent": "5 g",
+        "servingSize": "6 servings, about 1/2 cup each",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "1 tablespoon Shao Hsing rice wine (see Note) or dry sherry",
+        "2 teaspoons reduced sodium-soy sauce",
+        "1 teaspoon toasted sesame oil",
+        "0.25 teaspoon salt",
+        "0.25 teaspoon sugar",
+        "2 teaspoons plus 1 tablespoon peanut oil or canola oil, divided",
+        "1 tablespoon minced fresh ginger",
+        "1 teaspoon minced fresh jalapeño pepper with seeds, or more to taste",
+        "1 cup sliced carrot (1/4 inch thick)",
+        "1 medium red bell pepper, cut into 1/4-inch-wide strips",
+        "1 1/2 cups fresh corn kernels (from 2-3 medium ears; see Tip)",
+        "2 cups shredded romaine lettuce (about 4 medium leaves)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine rice wine (or sherry), soy sauce and sesame oil in a small bowl. Combine salt and sugar in another small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a 14-inch flat-bottomed wok over high heat until a bead of water vaporizes within 1 to 2 seconds of contact. Swirl in 2 teaspoons peanut (or canola) oil. Add ginger and jalapeno and stir-fry until fragrant, about 10 seconds. Add carrot and stir-fry 1 minute. Swirl in the remaining 1 tablespoon peanut (or canola) oil, bell pepper and corn, sprinkle on the salt mixture and stir-fry until the vegetables are almost crisp-tender, about 2 minutes. Add lettuce, swirl in the rice wine mixture and stir-fry until the lettuce is just limp, about 30 seconds."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT20M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/250332/stir-fried-carrots-corn-peppers/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17974/side-dishes/vegetable/peppers/",
+                        "name": "Healthy Pepper Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17911/side-dishes/vegetable/peppers/bell-green-red-yellow/",
+                        "name": "Healthy Bell Pepper Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/250332/stir-fried-carrots-corn-peppers/",
+                        "name": "Stir-Fried Carrots, Corn &amp; Peppers"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T11:24:40.161-04:00"
+    },
+    "recipeCategory": []
+}

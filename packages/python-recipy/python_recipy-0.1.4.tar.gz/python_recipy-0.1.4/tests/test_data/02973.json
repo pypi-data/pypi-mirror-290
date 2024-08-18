@@ -1,0 +1,85 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/summer-allotment-salad-english-mustard-dressing#Recipe",
+    "@type": "Recipe",
+    "description": "Make this potato salad with whatever crunchy vegetables you can get your hands on – fennel, celery and spring onions would also be very welcome additions",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/summer-allotment-salad-with-english-mustard-dressing-117e2cf.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/summer-allotment-salad-english-mustard-dressing"
+    },
+    "name": "Summer allotment salad with English mustard dressing",
+    "url": "https://www.bbcgoodfood.com/recipes/summer-allotment-salad-english-mustard-dressing",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Tom Kerridge",
+            "url": "https://www.bbcgoodfood.com/author/tomkerridge"
+        }
+    ],
+    "dateModified": "2022-11-10T17:19:59+00:00",
+    "datePublished": "2018-07-25T17:03:33+01:00",
+    "headline": "Summer allotment salad with English mustard dressing",
+    "keywords": "Cucumber, Dill, English mustard, Onion, Radish, Salad, Summer, Tom Kerridge",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "144 calories",
+        "fatContent": "11 grams fat",
+        "saturatedFatContent": "1 grams saturated fat",
+        "carbohydrateContent": "8 grams carbohydrates",
+        "sugarContent": "3 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "2 grams protein",
+        "sodiumContent": "0.2 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "400g new-season potatoes , scrubbed",
+        "2 bunches of French Breakfast radishes , leaves washed",
+        "1 red onion , peeled and sliced",
+        "1 small cucumber , peeled, deseeded and sliced into half moons",
+        "small handful dill fronds , chopped",
+        "100ml rapeseed oil",
+        "20g English mustard",
+        "1 tbsp white wine vinegar",
+        "pinch of white caster sugar",
+        "1 tbsp mustard seeds , toasted in a dry frying pan"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a pan of salted water to the boil, simmer the potatoes for about 10 mins until tender, then leave to steam-dry until warm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, whisk together all the dressing ingredients, then halve the warm potatoes and toss through the dressing. Take the potatoes and other ingredients to the picnic separately, then toss everything together to serve."
+        }
+    ],
+    "recipeYield": "Serves 8-10",
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT35M"
+}

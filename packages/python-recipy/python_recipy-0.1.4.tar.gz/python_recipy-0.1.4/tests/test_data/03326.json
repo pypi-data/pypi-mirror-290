@@ -1,0 +1,36 @@
+{
+    "@type": "Recipe",
+    "name": "French Onion Dip",
+    "author": {
+        "@id": "https://www.davidlebovitz.com/#/schema/person/6b90d7c373a6d04b9e5cc8077844ef1f"
+    },
+    "description": "",
+    "datePublished": "2010-01-19T16:01:16+00:00",
+    "image": [
+        "https://www.davidlebovitz.com/wp-content/uploads/2010/01/4251669372_e97a9d63b8_o.jpg"
+    ],
+    "recipeIngredient": [
+        "1  16-ounce (500g) fromage frais, (or sour cream)",
+        "1  package Lipton Onion Soup Mix"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1. Mix the two ingredients well. Let stand for 30 minutes.",
+            "name": "1. Mix the two ingredients well. Let stand for 30 minutes.",
+            "url": "https://www.davidlebovitz.com/onion-dip/#wprm-recipe-53324-step-0-0"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve with ruffled potato chips, baked or fried, preferably in the shape of the country you’re in.",
+            "name": "Serve with ruffled potato chips, baked or fried, preferably in the shape of the country you’re in.",
+            "url": "https://www.davidlebovitz.com/onion-dip/#wprm-recipe-53324-step-0-1"
+        }
+    ],
+    "@id": "https://www.davidlebovitz.com/onion-dip/#recipe",
+    "isPartOf": {
+        "@id": "https://www.davidlebovitz.com/onion-dip/#article"
+    },
+    "mainEntityOfPage": "https://www.davidlebovitz.com/onion-dip/",
+    "recipeCategory": []
+}

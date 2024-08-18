@@ -1,0 +1,163 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Grilled Mussels Recipe",
+    "datePublished": "2016-10-05T20:04:41.000-04:00",
+    "dateModified": "2022-08-16T12:37:26.574-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Molly Watson",
+            "url": "https://www.thespruceeats.com/molly-watson-2215463"
+        }
+    ],
+    "description": "See just how easy and delicious it is to make grilled mussels. Not only do they taste great, but the clean-up is a breeze!",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/YtHu4apctxF9OoOygMPGIZKP-Co=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-mussels-4099872-hero-02-141d0e0051924596891c3deb0d596e36.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Grilled Mussels Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "ratingCount": "40"
+    },
+    "cookTime": "PT3M",
+    "keywords": "bbq",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "390 kcal",
+        "carbohydrateContent": "17 g",
+        "cholesterolContent": "127 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "54 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "837 mg",
+        "fatContent": "10 g",
+        "servingSize": "varies",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1/2 pound mussels (per person)",
+        "Optional: freshly ground black pepper (to taste)",
+        "Optional: flat-leaf parsley (minced, to taste)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/QdUcGjTYtMt5AdCtdKgW9aGUOs0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-mussels-4099872-step-01-8a67c88c2b5a43e7ab5da14097772510.jpg"
+                }
+            ],
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/u2RE7xszU8P3PRZsP6EqmpsVBgI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-mussels-4099872-step-02-1-eb8c6c5eaa2d4338a98811515b978a51.jpg"
+                }
+            ],
+            "text": "Prepare a medium-high (400 F to 475 F) gas or charcoal grill fire. While the grill heats, pick over the mussels; throw away any mussels that don&#39;t close tightly when you tap on them and remove the beards, if any."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/mWmHabuvKZTseCNeb1Mx_-nR0mk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-mussels-4099872-step-03-44deb0642ef64a219b32192138cd8979.jpg"
+                }
+            ],
+            "text": "Put the cleaned mussels on the hot grill and cook, covered on a gas grill, until they open, about 2 to 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.thespruceeats.com/thmb/pYaq_pK62j6fBF-ohIYrzT0XAHs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-mussels-4099872-step-04-dabfc777cfe140a7b2bfbdf20755fb4b.jpg"
+                }
+            ],
+            "text": "Use tongs to transfer the hot mussels to a serving platter. If using, add fresh pepper and chopped parsley on top. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "1",
+        "1/2 pound"
+    ],
+    "totalTime": "PT13M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/grilled-mussels-4099872",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/food-equivalents-substitutions-4162173",
+                        "name": "Food Equivalents"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/seafood-basics-4162172",
+                        "name": "Seafood Basics"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/grilled-mussels-4099872",
+                        "name": "Grilled Mussels Recipe"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Joan Velush",
+                "url": "https://www.thespruceeats.com/joan-velush-5323136"
+            }
+        ],
+        "lastReviewed": "2022-08-16T12:37:26.574-04:00"
+    }
+}

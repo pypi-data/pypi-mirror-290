@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Kale, Eggplant and Crispy Tofu Stir-Fry with Black Bean Sauce",
+    "datePublished": "2014-02-10T20:09:00.000-05:00",
+    "dateModified": "2014-08-31T21:09:00.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kristen Stevens",
+            "url": "https://www.foodandwine.com/author/kristen-stevens"
+        }
+    ],
+    "description": "This crispy tofu stir-fry is loaded with eggplant and kale and smothered in a black bean sauce.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/0R8lL43Z1Y1qI06zC7wltp2SFJw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2014-r-xl-kale-eggplant-and-crispy-tofu-stir-fry-with-a-black-bean-sauce-2000-d89e0b1c8932487ab7ba99046ff278f6.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Kale, Eggplant and Crispy Tofu Stir-Fry with Black Bean Sauce",
+    "recipeIngredient": [
+        "14 ounces medium tofu",
+        "2 tablespoons vegetable oil, divided",
+        "1/4 cup water",
+        "2 tablespoons black bean sauce",
+        "1 teaspoon chili-garlic sauce",
+        "1 teaspoon honey",
+        "1 teaspoon corn starch",
+        "1/4 teaspoon white vinegar",
+        "1 clove of garlic, finely minced",
+        "2 eggplants, cut in half lengthwise then cut into 1-inch slices",
+        "6 kale leaves, ribs removed and torn into bite-sized pieces",
+        "Rice or noodles, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place the tofu on a large plate with a small lip to catch water. Put a small plate on top of the tofu and something heavy (like a can of beans) on top of the plate. After 15 minutes discard the water that has drained from the tofu and cut it into 2-inch cubes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat 1 tablespoon of the oil in a well-seasoned cast iron pan or non-stick pan over medium high heat. Add the tofu and give the pan a shake so it doesn&#39;t stick. Cook for 5-7 minutes, or until the tofu is crispy and brown. Turn each piece over and continue cooking until lightly browned, about 5 more minutes. Add more oil if sticking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl whisk together the water, black bean sauce, chili-garlic sauce, honey, white vinegar and garlic. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the remaining tablespoon of oil to a large frying pan or wok over medium high heat. Add the eggplant and cook, stirring frequently, until it is soft, about 8-10 minutes. Add the kale and cook until it just starts to wilt, about 1 minute. Add the crispy tofu and the sauce and cook until the sauce is thick and coats the vegetables, about 30 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from the heat and serve with rice or noodles."
+        }
+    ],
+    "totalTime": "PT45M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lauramc"
+            },
+            "reviewBody": "Loved it. I would like to have a little more sauce, but it was exactly as written!",
+            "datePublished": "2019-09-08T03:38:53.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/kale-eggplant-and-crispy-tofu-stir-fry-with-black-bean-sauce",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/dinner",
+                        "name": "Dinner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/stir-fry-7497012",
+                        "name": "Stir-Fry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/kale-eggplant-and-crispy-tofu-stir-fry-with-black-bean-sauce",
+                        "name": "Kale, Eggplant and Crispy Tofu Stir-Fry with Black Bean Sauce"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

@@ -1,0 +1,258 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024624-easy-crudites#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024624-easy-crudites",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/11/20/multimedia/LH-Crudite-vwlq/LH-Crudite-vwlq-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024624-easy-crudites",
+    "name": "Easy Crudités",
+    "description": "A crudités platter can be as simple as a bunch of vegetables piled on a plate, or as composed as a work of art. Use a mix of raw and blanched vegetables, or just raw, keeping in mind that a variety of colors, shapes and textures will help create a beautiful platter and provide guests with more options. Keep the platter simple, or dress it up with additional snacks, such as marinated olives, artichokes, crackers and nuts, and add homemade or store-bought dips, such as hummus,  tzatziki or ranch. This recipe easily scales up or down, just plan on about 1 cup vegetables total (blanched and raw) per person. Serve crudités alongside a charcuterie board for a more substantial spread.",
+    "author": {
+        "@type": "Person",
+        "name": "Lidey Heuck"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/11/20/multimedia/LH-Crudite-vwlq/LH-Crudite-vwlq-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/20/multimedia/LH-Crudite-vwlq/LH-Crudite-vwlq-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/20/multimedia/LH-Crudite-vwlq/LH-Crudite-vwlq-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/20/multimedia/LH-Crudite-vwlq/LH-Crudite-vwlq-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "recipeYield": "6 to 8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "asparagus, bell pepper, broccoli, broccolini, carrot, cauliflower, celery, cherry tomato, cucumber, green bean, party, radicchio, radish, sugar snap pea, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 111
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 86,
+        "unsaturatedFatContent": "1 gram",
+        "carbohydrateContent": "16 grams",
+        "cholesterolContent": null,
+        "fatContent": "1 gram",
+        "fiberContent": "5 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "0 grams",
+        "sodiumContent": "105 milligrams",
+        "sugarContent": "0 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "5 cups vegetables for blanching, such as snap peas, green beans, broccoli, broccolini, cauliflower and asparagus ",
+        "5 cups vegetables for serving raw, such as cucumbers, carrots, celery, radishes, bell peppers, cherry tomatoes, jicama, endive, radicchio and little gem lettuce",
+        "Kosher or flaky sea salt, for serving",
+        "Dips, for serving (optional)",
+        "Olives, marinated artichokes, nuts and/or crackers, for serving (optional) "
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the blanched vegetables: Set up an ice bath by filling a large bowl halfway with ice, then add water until 2/3 full. Bring a large pot of salted water to a boil. If using broccoli and cauliflower, cut into bite-sized florets;  if using long vegetables like asparagus and green beans, leave them whole. Working one vegetable variety at a time, and starting with the lightest-colored ones, cook until crisp-tender, 1 to 3 minutes for most vegetables. Remove the vegetables with a strainer or slotted spoon and immediately transfer to the prepared ice bath. (Feel free to use a steamer basket if you have one.) Drain well and pat the vegetables dry."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Wash and dry the vegetables you plan to serve raw and cut them into bite-sized pieces as necessary. If using lettuce leaves like endive or little gem, remove the individual leaves from the heads."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "If serving dips, place them in bowls on a large platter or board, then arrange the crudités around them in piles or stacks, grouping by kind. Sprinkle the vegetables lightly with salt. Add olives, artichokes, nuts and/or crackers, if using."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve immediately, or refrigerate, covered loosely with plastic wrap, for up to 8 hours. Use any leftover crudités in a salad or soup, or cook for a simple side."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-11-20T00:00:00.000Z",
+    "dateModified": "2023-11-20T21:05:15.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AGT"
+            },
+            "reviewBody": "What about the dips?! Is that hummus and a ranch dressing… I’m confused why you left out half of the recipe here…",
+            "datePublished": "2024-06-01T17:03:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia"
+            },
+            "reviewBody": "Question: what is the thinly sliced green veggie with seeds? Cucumber? pickles? They're pointy at the end...",
+            "datePublished": "2024-02-07T23:21:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gluten Free cook"
+            },
+            "reviewBody": "I have to say that when asked to bring an item for a potluck, I always always offer to bring the vegetable platter. \n\nNot only is it beautiful and colourful, many times it is the only thing that people with food allergies can eat at a party. It’s top allergen free if the dips and accompaniments are served on a separate plate. Thank you Lidey for posting this recipe, your platter does indeed look beautiful and my family would devour it!",
+            "datePublished": "2023-12-09T17:11:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Skc"
+            },
+            "reviewBody": "If there's mushrooms and cauliflower and ranch dip for dunking, don't stand between me and the table!",
+            "datePublished": "2023-12-08T17:24:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie"
+            },
+            "reviewBody": "Hunh! Not my experience. Served as a pre-meal appetizer, I find people do eat them especially if the dip is good. Maybe if they are part of a 5 PM office spread and people are hungry, they'll go for the pigs in blankets!",
+            "datePublished": "2023-12-08T15:04:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura S."
+            },
+            "reviewBody": "I find the key to a great crudité platter, aside from a beautiful arrangement, is fabulous dips. Make at least two: Romesco sauce, tonnato sauce, sour cream onion or vegetable dip, green goddess sauce. Always gets raves.",
+            "datePublished": "2023-12-08T15:15:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia"
+            },
+            "reviewBody": "I devour the crudites. So much healthier than dishes with cheese, beans, etc.",
+            "datePublished": "2024-02-07T23:22:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "suzi"
+            },
+            "reviewBody": "I am sure this is a wonderful idea.   But as someone who works in catering — no one really eats the crudite.  Don’t over do it. Consider it all a set up for a good soup or salsa.  Use the smaller plate.  Don’t hog up too much table space.  I wish I ate more crudite.",
+            "datePublished": "2023-12-02T01:15:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "suzi"
+            },
+            "reviewBody": "I am sure this is a wonderful idea.   But as someone who works in catering — no one really eats the crudite.  Don’t over do it. Consider it all a set up for a good soup or salsa.  Use the smaller plate.  Don’t hog up too much table space.  I wish I ate more crudite.",
+            "datePublished": "2023-12-02T01:15:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie"
+            },
+            "reviewBody": "Hunh! Not my experience. Served as a pre-meal appetizer, I find people do eat them especially if the dip is good. Maybe if they are part of a 5 PM office spread and people are hungry, they'll go for the pigs in blankets!",
+            "datePublished": "2023-12-08T15:04:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura S."
+            },
+            "reviewBody": "I find the key to a great crudité platter, aside from a beautiful arrangement, is fabulous dips. Make at least two: Romesco sauce, tonnato sauce, sour cream onion or vegetable dip, green goddess sauce. Always gets raves.",
+            "datePublished": "2023-12-08T15:15:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gluten Free cook"
+            },
+            "reviewBody": "I have to say that when asked to bring an item for a potluck, I always always offer to bring the vegetable platter. \n\nNot only is it beautiful and colourful, many times it is the only thing that people with food allergies can eat at a party. It’s top allergen free if the dips and accompaniments are served on a separate plate. Thank you Lidey for posting this recipe, your platter does indeed look beautiful and my family would devour it!",
+            "datePublished": "2023-12-09T17:11:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Skc"
+            },
+            "reviewBody": "If there's mushrooms and cauliflower and ranch dip for dunking, don't stand between me and the table!",
+            "datePublished": "2023-12-08T17:24:22.000Z"
+        }
+    ]
+}

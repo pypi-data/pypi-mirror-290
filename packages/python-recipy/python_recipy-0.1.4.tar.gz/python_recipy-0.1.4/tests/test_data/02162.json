@@ -1,0 +1,195 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Guasacaca (Avocado Salsa)",
+    "datePublished": "2013-02-01T06:45:00.000-05:00",
+    "dateModified": "2024-03-03T16:14:57.004-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Joshua Bousel",
+            "url": "https://www.seriouseats.com/joshua-bousel-5118775"
+        }
+    ],
+    "description": "A multi-purpose sauce, guasacaca offers a rich creaminess with smooth avocado flavor and punched up tang of vinegar and lime.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/qi4CB6ALtLSXND2cchBT7uArE5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/guasacaca-recipe-social_1copyHERO-988321cbb3b347f296d5fbed44dec5e5.JPG",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Guasacaca (Avocado Salsa)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "keywords": "dips, guacamole, quick, sauced, sauces, Venezuelan",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "281 kcal",
+        "carbohydrateContent": "12 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "7 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "115 mg",
+        "sugarContent": "2 g",
+        "fatContent": "27 g",
+        "servingSize": "makes about 2 cups",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Mexican"
+    ],
+    "recipeIngredient": [
+        "2 ripe Haas avocados, seeded and roughly diced",
+        "1 small onion, quartered",
+        "1 small green bell pepper, stemmed, seeded, and roughly chopped",
+        "1 medium jalapeño, stemmed, seeded, and roughly chopped(optional)",
+        "2 medium cloves garlic",
+        "1/2 cup packed roughly chopped fresh cilantro leaves",
+        "1/4 cup packed roughly chopped fresh parsley leaves",
+        "1/4 cup white vinegar",
+        "1 tablespoon lime juice from 1 lime",
+        "1/3 cup olive oil",
+        "Kosher salt and freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/anjuGAjSBRjLMR9-vO7FlHafzcQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/guasacaca-recipe-step-01-Collage-4baabf94af2d4e738b1d4acf26e12920.JPG"
+                }
+            ],
+            "text": "Place avocados, onion, bell pepper, jalapeño (if using), garlic, cilantro, parsley, vinegar, and lime juice in the workbowl of a food processor fitted with a steel blade. Pulse until everything is finely chopped, stopping to scrape down sides of bowl as needed."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/mFJmgyEBuNXZyuL1vtVH1Bdbnx8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/guasacaca-recipe-step-02_1-04a674d284084ec4ae388aa639c5a096.JPG"
+                }
+            ],
+            "text": "With the motor running, drizzle in olive oil through feed tube. Process until sauce is completely smooth."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/Ml8QNyGILp4s3nRH_-2PPTAz9JE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/guasacaca-recipe-step-03_1-e715db8325b84d6fbce8266ec6084f0f.JPG"
+                }
+            ],
+            "text": "Season sauce with salt and pepper to taste. Transfer to bowl and serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "6",
+        "2 cups"
+    ],
+    "totalTime": "PT10M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Toni McCormick"
+            },
+            "reviewBody": "Looks like y'all are getting away from specific measurements these days. Would appreciate a measurement for onion & green bell pepper please."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joseph Pitoniak"
+            },
+            "reviewBody": "I first tried guasacaca at a Venezuelan restaurant in Norwalk. It was served as a condiment at every table. I put it an egg sandwich and I was blown away by the taste. I subsequently tried many recipes to duplicate it. This recipe is the read deal. It's delicious. Thank you for sharing."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Auremil"
+            },
+            "reviewBody": "Fab. And yes it is guasacaca. A more delicate (and savory) version than guacamole (though I like guacamole as well!). Thank you for posting this!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathy in S.B."
+            },
+            "reviewBody": "Oh, Tequenos (and a tilda on the n in your mind, please). My childhood favorite food when I lived in Venezuela. Please, please, a recipe?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Caracas"
+            },
+            "reviewBody": "I think the Venezuelan name is GUASACA. I have never heard of Guasacaca."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/guasacaca-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/vegetable-recipes-5117510",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/avocado-recipes-5117505",
+                        "name": "Avocado"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/guasacaca-recipe",
+                        "name": "Guasacaca (Avocado Salsa)"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

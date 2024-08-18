@@ -1,0 +1,72 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Roasted Bell Pepper Tostadas",
+    "description": "These roasted bell pepper tostadas are colorful and simple - just tortillas, refried beans, and roasted peppers. Vegan, vegetarian, and healthy.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "roasted bell pepper tostadas, bell pepper tostadas, tostada recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Roasted-Bell-Pepper-Tostadas-with-Cream-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Roasted-Bell-Pepper-Tostadas-with-Cream-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Roasted-Bell-Pepper-Tostadas-with-Cream-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Roasted-Bell-Pepper-Tostadas-with-Cream.jpeg"
+    ],
+    "url": "https://pinchofyum.com/roasted-bell-pepper-tostadas",
+    "recipeIngredient": [
+        "2-3 bell peppers",
+        "1 onion",
+        "1 teaspoon each cumin, chili powder, smoked sweet paprika",
+        "1 can black beans",
+        "Garlic",
+        "Tostada shells (3-4)",
+        "Scallions",
+        "Sour cream and salsa"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coarse chop the peppers, coat with oil and spices. Roast at 400 for 20-30 minutes.",
+            "url": "https://pinchofyum.com/roasted-bell-pepper-tostadas#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a food processor, puree the black beans with the garlic. Add spices if you want.",
+            "url": "https://pinchofyum.com/roasted-bell-pepper-tostadas#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the puree on the tostada, top with peppers, scallions, and sour cream and salsa!",
+            "url": "https://pinchofyum.com/roasted-bell-pepper-tostadas#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Mexican",
+    "nutrition": {
+        "servingSize": null,
+        "calories": "224 calories",
+        "sugarContent": "6.1 g",
+        "sodiumContent": "584.9 mg",
+        "fatContent": "5.6 g",
+        "saturatedFatContent": "1.9 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "36.1 g",
+        "fiberContent": "11.1 g",
+        "proteinContent": "9.1 g",
+        "cholesterolContent": "5.3 mg",
+        "@type": "nutritionInformation"
+    },
+    "datePublished": "2011-03-09",
+    "@id": "https://pinchofyum.com/roasted-bell-pepper-tostadas#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/roasted-bell-pepper-tostadas#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/roasted-bell-pepper-tostadas"
+}

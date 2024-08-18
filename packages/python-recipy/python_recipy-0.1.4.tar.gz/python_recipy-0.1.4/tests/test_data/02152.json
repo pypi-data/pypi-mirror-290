@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Winter Fruit Salad with Pomegranates Recipe",
+    "datePublished": "2011-12-21T12:10:00.000-05:00",
+    "dateModified": "2019-04-17T11:36:59.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jennifer Segal",
+            "url": "https://www.seriouseats.com/jennifer-segal-5118751"
+        }
+    ],
+    "description": "...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/FgykFU93N4UE61sB8TL_-Q7KBA0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2011__12__2011-12-21-winter-fruit-salad-pomegranates-a25ce15a3e2642dfa401aeb8c8a5e677.jpg",
+        "height": 458,
+        "width": 641
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Winter Fruit Salad with Pomegranates Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "keywords": "citrus, fruit salads, holiday nibbles, quick, salad",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 pomegranate",
+        "2 oranges",
+        "2 grapefruits",
+        "2 crisp apples (such as fuji or honeycrisp)",
+        "1 ripe yet firm pear",
+        "1 tablespoon sugar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Slice the pomegranate almost in half, from the crown halfway to the bottom. Use your fingers to break the two halves apart, then squeeze the halves over a large bowl to release the seeds and juices. Don&#39;t worry about getting all the seeds out; just get as many as you can without pulling out the membrane. Squeeze out as much juice as possible. Remove any bits of membrane from the bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For each orange and grapefruit, slice a little off the top and bottom. Using a serrated knife, go around the fruit and cut off the skin and white pith. Holding the fruit in one hand and working over the fruit bowl, carefully cut the segments out from between the membranes. Be sure to cut only until you reach the middle of the fruit. Squeeze the remaining membrane over the bowl to release all the juice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the apples and pear into slices and toss with other fruits. Add sugar and toss well, then cover and refrigerate until ready to serve."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT20M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cosmicmojo"
+            },
+            "reviewBody": "Huge hit at Christmas, people kept getting more! So beautiful!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "unpocojmoney"
+            },
+            "reviewBody": "I made this as a contribution to a family holiday dinner - it was a huge hit. Thanks for the recipe!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The Starving Student"
+            },
+            "reviewBody": "So true about the pomegranates. They are like the beets of the fruit world. But they are just so good!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/winter-fruit-salad-with-pomegranates",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/winter-recipes-5117930",
+                        "name": "Winter"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/winter-salad-recipes-5117908",
+                        "name": "Winter Salads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/winter-fruit-salad-with-pomegranates",
+                        "name": "Winter Fruit Salad with Pomegranates Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

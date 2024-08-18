@@ -1,0 +1,99 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Scallion Potato Pancakes",
+    "url": "https://www.foodnetwork.com/recipes/scallion-potato-pancakes-recipe-1962999",
+    "headline": "Scallion Potato Pancakes",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Food Network Kitchen",
+            "url": "https://www.foodnetwork.com/profiles/talent/food-network-kitchen"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-20T14:50:13.147-05:00",
+    "dateModified": "2014-01-07T12:25:19.761-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Potato Pancake,Pancake,Potato,Skillet Recipes,Side Dish,Recipes for a Crowd,Gluten Free",
+    "recipeIngredient": [
+        "3 tablespoons vegetable oil",
+        "1 egg, lightly beaten",
+        "4 russet potatoes, peeled and shredded",
+        "2 scallions, sliced",
+        "Salt",
+        "Pepper"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "153",
+        "fatContent": "6g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "23g",
+        "fiberContent": "2g",
+        "sugarContent": "1g",
+        "proteinContent": "3g",
+        "cholesterolContent": "20mg",
+        "sodiumContent": "319mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oil in non-stick skillet. Have other ingredients prepped before shredding potatoes as they will discolor. Shred potatoes and immediately combine with scallions and egg. Season mixture with salt and pepper. Scoop a heaping tablespoon of potato mixture into skillet and flatten with back of spoon. Continue cooking four pancakes at a time. When pancakes are brown flip to other side and continue to brown. Remove to paper towels to drain and season with salt."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "8 pancakes",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Love these latkes! Using scallions gives a perfect onion taste without being overpowering like the white onion. I also like shredding the potatoes like a hash-brown. I recommend making these at the holidays or anytime! Serve with sour cream and apple sauce.   "
+        }
+    ],
+    "recipeCategory": []
+}

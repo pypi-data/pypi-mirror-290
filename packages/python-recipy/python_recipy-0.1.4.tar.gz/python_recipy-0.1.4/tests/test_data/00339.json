@@ -1,0 +1,246 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate Pudding Pie",
+    "datePublished": "2008-06-30T19:10:59.000-04:00",
+    "dateModified": "2023-07-17T12:28:26.005-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ketherine Erickson"
+        }
+    ],
+    "description": "This chocolate pudding pie is fun and easy to make with an Jell-O instant pudding mix, a baked pie crust, whipped topping, and gummy worms.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/fQieIBXLNnE2S7vfC3neyeiPb2E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2052954-a43b356201e64b30a0dd94b1e4710bd7.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Chocolate Pudding Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.4",
+        "ratingCount": "41"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "347 kcal",
+        "carbohydrateContent": "52 g",
+        "fiberContent": "1 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "8 g",
+        "sodiumContent": "474 mg",
+        "sugarContent": "37 g",
+        "fatContent": "15 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 (5.9 ounce) package instant chocolate pudding mix",
+        "1 (9 inch) prepared graham cracker crust",
+        "1 (8 ounce) container frozen whipped topping, thawed",
+        "10 gummi worms"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make instant pudding according to the directions on the box. Dump pudding into graham cracker crust."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread whipped topping over pudding. Refrigerate until not too gooey, about 40 minutes. Decorate with gummy worms."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT55M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Breckan Feltz"
+            },
+            "reviewBody": "Super easy. I used two boxes and 2 1/4 c. milk as another user suggested. After it was mixed, I saw on the pudding box that for the \"traditional pudding pie\" version you should use two boxes and 2-3/4 c. milk. I think I'll increase the milk next time. This time around I'm not sure if all my pudding dissolved. I tasted the spatula after I was done and it was gritty... :("
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "janewanke"
+            },
+            "reviewBody": "gummy worms not a hit"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Danielle Hanley"
+            },
+            "reviewBody": "I Mixed Some Whipped Topping Into The Pudding Mix Before I Set It Into The Crust, I Got A Nice Fluffy Full Pie.. Minus Gummy Anything.. It Went Quickly.. Enjoyed By Everyone.."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Isabel Barbosa Velozo"
+            },
+            "reviewBody": "I have made this for years but without the gummies. The simplest things make people the happiest. Everyone goes crazy for this. Good and practically no work involved to make."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Carla"
+            },
+            "reviewBody": "We make this at Thanksgiving in addition to a Pumpkin Pie. My 4 year old loves it, and it's lower calorie than most desserts."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "WannaBeChef"
+            },
+            "reviewBody": "I changed some things. I made my own crust. (How hard is it to make a graham cracker crust?! Graham crackers (make into crumbs), margarine (or butter), and a tablespoon of sugar.) I used 2 large boxes of \"Jello\" brand chocolate pudding. 6 cups of milk as suggested on the packages (3 for each). I also whipped my own whipped cream. A small container, 'til soft peaks formed, added 1/2 a cup of powder sugar, 1 teaspoon of vanilla, and mix 'til you have stiff peaks. I always go a little over, but don't make it into butter! I made the crust first, poured in the chocolate pudding, and topped with the whipped cream. I added small chocolate chips for presentation, and they taste yummy! I didn't use gummy worms.. That just sounds awful!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sarah Jo"
+            },
+            "reviewBody": "I did NOT prepare the pudding according to the box, I actually cut the milk back by almost a cup to get a thicker pie filling. After the pie had time to set, I then spread the whipped topping over the top. Very full pie but the whole family enjoyed it. NOTE: I did prepare this with sugar free pudding, 2% milk and \"light\" whipped topping and noone even noticed."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "This is my husband's favorite. Just made two for Thanksgiving tomorrow. I use pastry pie crusts and cook and serve chocolate pudding made with whole milk. Instant pudding does not set up for pies and fat free milk makes it worse. I put Cool Whip on pieces unless taking to a gathering."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rosemarie"
+            },
+            "reviewBody": "simple. #4 on these directions say to refrigerate until not too gooey. the pudding should be made by reducing milk to 2 1/2 cups, and not as directed on the package."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "BECCAP"
+            },
+            "reviewBody": "very simple kids favorite pie. i use less milk than the pudding box calls for so the pudding is thicker and holds shape better (to make it more of a pie and less soupy). i've made it in individual tart pans and crumbled some extra graham cracker crumbs on top, looks like worms crawling in dirt... dirt cups as my mom called them when we were growing up!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/12080/chocolate-pudding-pie/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/15142/desserts/pies/no-bake-pies/",
+                        "name": "No-Bake Pie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/17367/desserts/pies/no-bake-pies/pudding-pie/",
+                        "name": "Pudding Pie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/12080/chocolate-pudding-pie/",
+                        "name": "Chocolate Pudding Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Fortified Soy Sauce",
+    "datePublished": "2018-05-30T10:47:20.000-04:00",
+    "dateModified": "2018-07-01T10:47:20.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jonathan Yao",
+            "url": "https://www.foodandwine.com/author/jonathan-yao"
+        }
+    ],
+    "description": "Infused with bonito flakes, kombu, and nutritional yeast, this Fortified Soy Sauce condiment from Best New Chef Jonathan Yao is an umami quintuple-threat. Get the recipe at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/QoeGab4g6l5_hpBw2VTehdqVJwI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steamed-fish-with-fortified-soy-sauce-ft-RECIPE0718-3f84379c88004687aa8ca1df2ae5abc8.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Fortified Soy Sauce",
+    "recipeIngredient": [
+        "3 cups bonito flakes (about 5/8 ounce)",
+        "1 1/4 cups dark soy sauce (such as Kikkoman)",
+        "4 teaspoons nutritional yeast (about 1/8 ounce)",
+        "1 tablespoon sake",
+        "1 1/2 teaspoons mirin",
+        "1 (1 3/4- x 6-inch) Rishiri kombu sheet (such as Uneno)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients in a medium heatproof glass bowl; cover with plastic wrap. Place over a medium saucepan of simmering water over medium-low. Cook 1 hour. Remove from heat. Let cool completely, about 30 minutes. Chill at least 8 hours. Pour through a fine wire-mesh strainer into a bowl; discard solids."
+        }
+    ],
+    "totalTime": "PT580M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/fortified-soy-sauce",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sauces-condiments-preserves-7497095",
+                        "name": "Sauces, Condiments and Preserves"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/condiments/dipping-sauces",
+                        "name": "Dipping Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/fortified-soy-sauce",
+                        "name": "Fortified Soy Sauce"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

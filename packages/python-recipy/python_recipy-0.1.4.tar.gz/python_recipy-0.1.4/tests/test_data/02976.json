@@ -1,0 +1,100 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/charred-courgette-lemon-goats-cheese-galette#Recipe",
+    "@type": "Recipe",
+    "description": "Bake this galette for a veggie main course with the wow factor. The pastry has a lovely nutty flavour that pairs well with the creamy goat’s cheese topping",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/charred-courgette-lemon-goats-cheese-galette-d2554eb.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/charred-courgette-lemon-goats-cheese-galette"
+    },
+    "name": "Charred courgette, lemon & goat’s cheese galette",
+    "url": "https://www.bbcgoodfood.com/recipes/charred-courgette-lemon-goats-cheese-galette",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Esther Clark",
+            "url": "https://www.bbcgoodfood.com/author/estherclark"
+        }
+    ],
+    "dateModified": "2022-11-08T15:12:35+00:00",
+    "datePublished": "2020-02-26T11:44:53+00:00",
+    "headline": "Charred courgette, lemon & goat’s cheese galette",
+    "keywords": "Comfort Food, Courgette, Easter, Esther Clark, Galette, Goat's Cheese, Lemon, Vegetarian main, veggie dish",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT35M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "512 calories",
+        "fatContent": "36 grams fat",
+        "saturatedFatContent": "23 grams saturated fat",
+        "carbohydrateContent": "29 grams carbohydrates",
+        "sugarContent": "5 grams sugar",
+        "fiberContent": "5 grams fiber",
+        "proteinContent": "14 grams protein",
+        "sodiumContent": "1 milligram of sodium"
+    },
+    "prepTime": "PT40M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "110g unsalted butter",
+        "100g plain flour",
+        "100g wholemeal rye flour",
+        "1 tbsp lemon thyme or normal thyme, finely chopped",
+        "½ tsp fine sea salt",
+        "1 egg , lightly beaten",
+        "2 bunches of spring onions , kept whole, roots trimmed",
+        "2 courgettes , cut into strips about 5mm thick",
+        "5 tbsp mascarpone",
+        "150g soft goat’s cheese",
+        "1 small lemon , zested",
+        "50g parmesan or vegetarian alternative, finely grated",
+        "pine nuts , toasted, and a drizzle of olive oil, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "The night before you make the galette, wrap the butter and put it in the freezer. When you’re ready to make the pastry, put the plain flour, rye flour, thyme and sea salt in a large mixing bowl. Take the butter out of the freezer and wrap one end in foil, then use this to hold it as you coarsely grate the butter into the flour mixture. Unwrap the last piece of butter and carefully grate that in as well. Roughly mix everything, then add 5-6 tbsp cold water and mix swiftly with a cutlery knife to combine, then use your hands to bring it together into a dough and knead briefly. Wrap and chill in the fridge for at least 1 hr. Will keep in the fridge for up to two days."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the topping, heat a griddle pan or non-stick frying pan over a high heat until searing hot, then griddle the spring onions in two batches and on each side for 1-2 mins, or until you have achieved dark char marks. Set aside on a plate, then repeat with the courgette strips. You can do this the day before and keep the cooked vegetables in an airtight container overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix the mascarpone and goat’s cheese with the lemon zest and parmesan in a bowl until smooth. Season to taste and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll the pastry out between two pieces of baking parchment to a rectangle roughly 35 x 25cm. Peel off the top layer of parchment and spread the cheese mixture over the pastry, leaving a 3cm border. Top with the spring onions and brush the border with some of the beaten egg. Use the parchment underneath to slide the galette onto a baking sheet. Chill for 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 200C/180C fan/gas 6 and put another baking sheet inside to get hot. Brush the edges with more beaten egg, then slide the galette, still on its paper, onto the hot baking sheet. Bake for 30 mins, then top with the courgette and bake for a further 5 mins, or until the pastry is golden brown and crisp at the edges. Serve with a drizzle of olive oil and scatter over some pine nuts, if you like. Goes well with mint sauce."
+        }
+    ],
+    "recipeYield": "Serves 6",
+    "suitableForDiet": "https://schema.org/VegetarianDiet",
+    "totalTime": "PT1H15M"
+}

@@ -1,0 +1,456 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022093-fungi#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022093-fungi",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/05/19/dining/14fungirex1/merlin_186367200_11a0c022-1d8e-4b8b-b11e-3dc2ad676838-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022093-fungi",
+    "name": "Fungi",
+    "description": "A staple on dinner tables in the Virgin Islands, this filling, earthy side dish goes well with fish or any stewed protein. In St. Thomas, you can find it accompanying tender stewed snapper or butter-braised conch, acting as a sponge for luscious sauces. Here, chef Julius Jackson, author of “My Modern Caribbean Kitchen” (Page Street Publishing, 2018) and native Virgin Islander, offers a simple, traditional version. This dish isn’t an exact science; some people like it so thick it stands up on its own, while others prefer it thinner, with runny lines of butter. Find which way works best for you by tasting and tweaking as needed. Chilled leftover fungi can be cut into squares and pan-fried in a bit of oil until golden, making a great base for scrambled or poached eggs with bacon on the side.",
+    "author": {
+        "@type": "Person",
+        "name": "Korsha Wilson"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/05/19/dining/14fungirex1/merlin_186367200_11a0c022-1d8e-4b8b-b11e-3dc2ad676838-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/19/dining/14fungirex1/merlin_186367200_11a0c022-1d8e-4b8b-b11e-3dc2ad676838-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/19/dining/14fungirex1/merlin_186367200_11a0c022-1d8e-4b8b-b11e-3dc2ad676838-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/05/19/dining/14fungirex1/merlin_186367200_11a0c022-1d8e-4b8b-b11e-3dc2ad676838-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "caribbean",
+    "recipeCategory": [],
+    "keywords": "butter, cornmeal, okra, kwanzaa",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 120
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 250,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "32 grams",
+        "cholesterolContent": null,
+        "fatContent": "12 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "7 grams",
+        "sodiumContent": "144 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/3 cup sliced fresh or frozen okra",
+        "Kosher salt and freshly ground black pepper",
+        "1 cup fine yellow cornmeal",
+        "1/4 cup chilled unsalted butter (1/2 stick), cut into chunks"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium saucepan, bring 2 1/4 cups water to a boil over medium-high."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When water reaches a rolling boil, add okra and 2 teaspoons salt. Cook over medium-high until softened, about 4 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Slowly and carefully, pour half the cornmeal into the water while whisking to prevent lumps. It will get very thick very quickly."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Once the mixture is smooth, add the remaining cornmeal and the butter, whisking vigorously to combine."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When smooth, taste and adjust seasoning with salt and pepper. If you’d like it a little thinner, whisk additional water into the mixture. Serve hot."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lori"
+            },
+            "reviewBody": "Too much salt. Next time only putting in one tsp.",
+            "datePublished": "2022-09-18T16:05:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Helen_Wheels"
+            },
+            "reviewBody": "Cut butter to 1 1/2 tbsp.",
+            "datePublished": "2021-10-09T21:53:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David Jackson"
+            },
+            "reviewBody": "And how is it pronounced? \"Fun Guy\"? \"Fun Ghee\"? \"Fun Jee\"?",
+            "datePublished": "2021-10-08T17:20:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "Where is the fungus in the fungi?",
+            "datePublished": "2021-10-07T22:23:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martha"
+            },
+            "reviewBody": "Most useful tip to prevent lumpy polenta- like dishes:  Stir only clockwise ( or anti - clockwise ). Do not change direction!",
+            "datePublished": "2021-10-07T19:38:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dsmith1010"
+            },
+            "reviewBody": "This is easy to make and a delicious side for fish or chicken. Also followed the advice below and fried leftovers for breakfast with an egg on top. Super. Have been to Petite Pump Room many times waiting for the ferry to Tortola, but never had the time to have more than a sandwich. Happy to see the restaurant owners and Chef Jackson get some publicity!",
+            "datePublished": "2021-07-12T13:07:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Al"
+            },
+            "reviewBody": "Add 1/2 of the cornmeal to the same water as the okra very very slowly to reduce lumpiness.  Then on to step 3.",
+            "datePublished": "2021-10-01T23:02:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shari"
+            },
+            "reviewBody": "What are you supposed to do with the okra? Step 2 says to cook it, then it isn't mentioned again.",
+            "datePublished": "2021-06-16T16:35:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tim"
+            },
+            "reviewBody": "Would this work with millet instead of corn?",
+            "datePublished": "2021-05-28T21:39:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Audrey Carangelo"
+            },
+            "reviewBody": "I've had this with smashed avocado mixed in instead of okra a real treat",
+            "datePublished": "2021-05-27T14:06:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carol"
+            },
+            "reviewBody": "Is the cornmeal served barely cooked? I thought it took more than a few minutes for cornmeal to cook  and lose its grittiness.",
+            "datePublished": "2021-05-26T01:47:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Afi"
+            },
+            "reviewBody": "Thanks George. This isn't grits at all. It's not polenta either.",
+            "datePublished": "2021-10-08T03:31:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "geoff"
+            },
+            "reviewBody": "Not quite George...southern grits are made from dried hominy.  Which is corn dried with lye....very different than cornmeal.",
+            "datePublished": "2021-10-08T14:30:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "George"
+            },
+            "reviewBody": "People are calling this grits . It's not. Grits are typically made from more coarsely-ground cornmeal.  This uses fine cornmeal and requires okra as an ingredient.  Both of those things make this taste and feel very different from standard southern grits.",
+            "datePublished": "2021-05-20T16:28:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David Allman"
+            },
+            "reviewBody": "Okra \"slimyness\" is just liquid fiber and helps the coucou set up more firmly - also adding a bit of taste.  Coucou itself is quite bland but is a terrific vehicle for Creole sauce (as in steamed flying fish).",
+            "datePublished": "2021-10-08T13:06:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nina"
+            },
+            "reviewBody": "If okra get slimy you usually overcooked them. I don't know if this dish requires it here, though.",
+            "datePublished": "2023-02-02T07:46:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Carroll"
+            },
+            "reviewBody": "What's the difference between this and polenta other than the okra? What does okra add to the dish other than it's sliminess?",
+            "datePublished": "2021-05-19T17:52:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Keith"
+            },
+            "reviewBody": "Sliced, boiled Okra. Grits and polenta don’t have Okra. If you mean what’s the difference between grits, polenta and yellow cornmeal, it can be the grind and/or what color corn, white, yellow, blue, was used to make it.",
+            "datePublished": "2021-05-19T15:30:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Botany Boy"
+            },
+            "reviewBody": "Traditionally grits were ground from corn hominy, corn that had been soaked in wood-ash lye to dissolve the seed coat and soften the kernel. The kernel can be soaked loose and removed if you wanted a beautiful preparation, but that removes a lot of nutrition too. Polenta and cornmeal are not treated before grinding. Today some recipes, and even my bag of Bob's Red Mill grits, pretend there is no difference between them.",
+            "datePublished": "2021-05-20T02:30:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Botany Boy"
+            },
+            "reviewBody": "I meant that the germ, which is often dark colored, could be removed from the kernel.",
+            "datePublished": "2021-05-20T11:09:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betty"
+            },
+            "reviewBody": "What’s the difference between this and grits and polenta?",
+            "datePublished": "2021-05-16T16:12:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bill Holland"
+            },
+            "reviewBody": "Grits is coarsely ground corn, compared to finely ground cornmeal.  We get our grits ground fresh from the Logan Turnpike Mill in Georgia.  They take 30 minutes to cook and soften.  The recipe here specifies  cornmeal and says it will get thick very quickly, so it doesn’t sound as if you could substitute grits, unless they are the awful tasting quick grits from a supermarket box.",
+            "datePublished": "2021-05-20T01:26:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Afi"
+            },
+            "reviewBody": "Sorry, Mary. This isn't grits. Neither is it polenta. The corn is processed differently. #Tennessean who grew up on grits and loves polenta.",
+            "datePublished": "2021-10-08T03:32:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary from Terry, MS"
+            },
+            "reviewBody": "It's grits, first cooked by Native Americans, who taught the British to make it.   The British called it grits.  Italians called it polenta.  You can add virtually anything to it - grits and shrimp, grits and vegetables, grits with ham and cheese, etc.  It is a staple of southern US food and so simple to make that I'm surprised young people from the Islands don't know how to cook it.",
+            "datePublished": "2021-05-16T08:24:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary from Terry, MS"
+            },
+            "reviewBody": "This is just grits, first cooked by Native Americans who taught the British to make it.   It is a staple porridge in the American South and is called polenta by Italians.   Shrimp and grits, cheesy grits, grits and eggs, grits with ham, grits and blackeyed peas, etc.  Adding okra is a nice touch and probably the only African contribution to the dish.",
+            "datePublished": "2021-05-16T12:08:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nadina Cole-Potter"
+            },
+            "reviewBody": "It's cornmeal mush w/okra.  Mine: 2 C water, 2 C milk, 1 C cornmeal, 1.5 tsp kosher salt.  When cornmeal has thickened, add 2 beaten eggs, 1 c shredded sharp cheese tempered with some cooked cornmeal.  Stir and bake until eggs and cheese are \"absorbed\".  Add diced Mexican squash (looks like zucchini but is firmer and tastes better) at the last 5 minutes to retain some firmness.",
+            "datePublished": "2021-05-15T21:49:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "stefanie"
+            },
+            "reviewBody": "My mother, from Curacao, would put leftover plain fungi in greased bowl, refrigerate overnight.  Fungi becomes solid, unmold, slice, fry in butter, and serve with syrup for breakfast the next morning!",
+            "datePublished": "2021-05-15T15:23:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "barbara gill"
+            },
+            "reviewBody": "In Barbados this is called coo coo",
+            "datePublished": "2021-05-14T15:15:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Keith"
+            },
+            "reviewBody": "Sliced, boiled Okra. Grits and polenta don’t have Okra. If you mean what’s the difference between grits, polenta and yellow cornmeal, it can be the grind and/or what color corn, white, yellow, blue, was used to make it.",
+            "datePublished": "2021-05-19T15:30:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary from Terry, MS"
+            },
+            "reviewBody": "It's grits, first cooked by Native Americans, who taught the British to make it.   The British called it grits.  Italians called it polenta.  You can add virtually anything to it - grits and shrimp, grits and vegetables, grits with ham and cheese, etc.  It is a staple of southern US food and so simple to make that I'm surprised young people from the Islands don't know how to cook it.",
+            "datePublished": "2021-05-16T08:24:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "George"
+            },
+            "reviewBody": "People are calling this grits . It's not. Grits are typically made from more coarsely-ground cornmeal.  This uses fine cornmeal and requires okra as an ingredient.  Both of those things make this taste and feel very different from standard southern grits.",
+            "datePublished": "2021-05-20T16:28:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Botany Boy"
+            },
+            "reviewBody": "Traditionally grits were ground from corn hominy, corn that had been soaked in wood-ash lye to dissolve the seed coat and soften the kernel. The kernel can be soaked loose and removed if you wanted a beautiful preparation, but that removes a lot of nutrition too. Polenta and cornmeal are not treated before grinding. Today some recipes, and even my bag of Bob's Red Mill grits, pretend there is no difference between them.",
+            "datePublished": "2021-05-20T02:30:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Al"
+            },
+            "reviewBody": "Add 1/2 of the cornmeal to the same water as the okra very very slowly to reduce lumpiness.  Then on to step 3.",
+            "datePublished": "2021-10-01T23:02:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martha"
+            },
+            "reviewBody": "Most useful tip to prevent lumpy polenta- like dishes:  Stir only clockwise ( or anti - clockwise ). Do not change direction!",
+            "datePublished": "2021-10-07T19:38:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lori"
+            },
+            "reviewBody": "Too much salt. Next time only putting in one tsp.",
+            "datePublished": "2022-09-18T16:05:20.000Z"
+        }
+    ]
+}

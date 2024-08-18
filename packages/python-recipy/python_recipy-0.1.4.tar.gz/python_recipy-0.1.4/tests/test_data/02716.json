@@ -1,0 +1,96 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Spicy Steak Salad ยำเนื้อย่าง  (yum neua yang)",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/09/Spicy-Beef-Salad-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/09/Spicy-Beef-Salad-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/09/Spicy-Beef-Salad-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2013/09/Spicy-Beef-Salad.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/spicy-beef-salad/",
+    "recipeIngredient": [
+        "½ cup julienned onion, you can use white, yellow or red onion",
+        "3/4 cup tomatoes, you can use halved cherry tomatoes or cut up big ones",
+        "1 cup Chinese celery or the inside stalks &amp; leaves of a regular celery, cut into 2\" pieces",
+        "¼ cup roughly chopped, roasted peanuts",
+        "2 Tbsp roughly chopped cilantro",
+        "2 Tbsp chopped green onion",
+        "2 Tbsp lime juice",
+        "1.5 Tbsp fish sauce",
+        "2 tsp sugar or palm sugar*",
+        "Thai chilies, finely chopped, to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large mixing bowl, stir together the Yum dressing ingredients. Add onion, tomatoes, Chinese celery, green onions and cilantro to the bowl and mix with dressing.",
+            "url": "https://hot-thai-kitchen.com/spicy-beef-salad/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slice up the steak against the grain, about 1/8\" thick. Add to the bowl, and toss.",
+            "url": "https://hot-thai-kitchen.com/spicy-beef-salad/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with the roasted peanuts.",
+            "url": "https://hot-thai-kitchen.com/spicy-beef-salad/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content &amp; rewards!",
+            "url": "https://hot-thai-kitchen.com/spicy-beef-salad/#instruction-step-4"
+        }
+    ],
+    "recipeYield": [
+        "2",
+        "Serves 2-3"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "1",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Yum Neua Yang  Thai Steak Salad ยำเนื้อย่าง - Hot Thai Kitchen.mp4",
+        "description": "This is Part 2 of my series on grilled steaks.",
+        "duration": "PT6M1S",
+        "embedUrl": "https://video.mediavine.com/videos/iTK8qQ94S.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681224179/iTK8qQ94S.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--CKINCsyt--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681224183/nfv7qstmzvcx8zqfzdui.jpg"
+        ],
+        "uploadDate": "2020-12-11T06:35:55+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stephen Chan"
+            },
+            "datePublished": "2021-08-08",
+            "reviewBody": "I’m not a big fan of Chinese celery, so naturally amongst all types of Thai salads, yum is not my favourite, but the steak brightens it up with that meaty flavour, yummy."
+        }
+    ],
+    "datePublished": "2013-09-25",
+    "@id": "https://hot-thai-kitchen.com/spicy-beef-salad/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/spicy-beef-salad/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/spicy-beef-salad/",
+    "recipeCategory": []
+}

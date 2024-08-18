@@ -1,0 +1,71 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Captain Morgan Long Island Iced Tea",
+    "url": "https://www.foodnetwork.com/recipes/captain-morgan-long-island-iced-tea-2103687",
+    "headline": "Captain Morgan Long Island Iced Tea",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/2/0/DIAGEO_Long-Island-Tea_s3x4.jpg.rend.hgtvcom.1280.1280.suffix/1371590935946.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/2/0/DIAGEO_Long-Island-Tea_s3x4.jpg.rend.hgtvcom.1280.960.suffix/1371590935946.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2009/9/2/0/DIAGEO_Long-Island-Tea_s3x4.jpg.rend.hgtvcom.1280.720.suffix/1371590935946.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T16:07:24.911-05:00",
+    "dateModified": "2013-11-12T09:34:15.731-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "recipeIngredient": [
+        ".25 oz. Tanqueray London Dry (25 oz. per bottle)",
+        ".25 oz. Smirnoff No. 21 Vodka (25 oz. per bottle)",
+        ".25 oz. Captain Morgan Silver Spiced (25 oz. per bottle)",
+        ".25 oz. Cuervo Especial Gold (25 oz. per bottle)",
+        ".25 oz. triple sec",
+        "1 oz. sweet and sour mix",
+        "6 oz. cola",
+        "1 lemon wedge"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add Tanqueray London Dry, Smirnoff No.21 Vodka, Captain Morgan Silver Spiced, Cuervo Especial Gold, triple sec, and sweet and sour mix in ice-filled collins glass and stir."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Top with cola."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Garnish with lemon wedge (optional)."
+        }
+    ],
+    "recipeYield": "Yield:",
+    "recipeCategory": []
+}

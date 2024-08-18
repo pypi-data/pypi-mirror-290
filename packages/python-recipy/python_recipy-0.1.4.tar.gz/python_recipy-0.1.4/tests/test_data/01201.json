@@ -1,0 +1,93 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Avocado Veggie Panini",
+    "description": "This avocado veggie panini is stuffed with lots of sauteed mushrooms, tomatoes, and kale, and smeared with avocado. So yummy!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "panini recipe, veggie sandwich, vegetarian panini",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/08/veggie-panini-4-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/08/veggie-panini-4-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/08/veggie-panini-4-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/08/veggie-panini-4.jpg"
+    ],
+    "url": "https://pinchofyum.com/avocado-veggie-panini",
+    "recipeIngredient": [
+        "1 1/2 tablespoons butter or olive oil",
+        "1 minced shallot (onion or garlic works too)",
+        "8 ounces sliced baby portobello mushrooms",
+        "1 cup cherry or grape tomatoes",
+        "2 cups chopped kale, stems removed",
+        "salt to taste",
+        "2 avocados",
+        "8 pieces thick, sturdy wheat bread",
+        "melty white cheese like Provolone or Mozzarella, if you want"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the butter in a large skillet over medium high heat. Add the shallots; saute until translucent. Add the mushrooms and saute until browned lightly on the outside. Add the tomatoes and kale; saute until wilted and warmed through. Remove from heat and season with salt.",
+            "url": "https://pinchofyum.com/avocado-veggie-panini#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mash the avocado in a bowl with a fork. Spread some avocado on the surface of each piece of bread. Assemble the sandwiches by carefully arranging the vegetables on the bread. Get as many veggies on as you can because the sandwiches sink down when you use the panini press.",
+            "url": "https://pinchofyum.com/avocado-veggie-panini#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the cheese on top of the veggies if you want, cover with another slice of bread, and place on a preheated panini press. When the bread is browned on the outside, remove from heat. If you did not cut the tomatoes, be careful as they might burst when you bite into them and they will be hot! 🙂",
+            "url": "https://pinchofyum.com/avocado-veggie-panini#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "9",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "547 calories",
+        "sugarContent": "11.6 g",
+        "sodiumContent": "442.7 mg",
+        "fatContent": "23.1 g",
+        "saturatedFatContent": "4.6 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "69 g",
+        "fiberContent": "18.6 g",
+        "proteinContent": "6 g",
+        "cholesterolContent": "1.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Stacy"
+            },
+            "datePublished": "2013-09-06",
+            "reviewBody": "Looks Amazing!  Best of luck on the house deal!!  I am going to NC at the end of the month, can't wait to check it out.  I've never been before."
+        }
+    ],
+    "datePublished": "2013-09-06",
+    "@id": "https://pinchofyum.com/avocado-veggie-panini#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/avocado-veggie-panini#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/avocado-veggie-panini"
+}

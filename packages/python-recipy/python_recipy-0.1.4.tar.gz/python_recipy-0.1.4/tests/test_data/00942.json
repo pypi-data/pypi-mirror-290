@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/tomatoes-with-feta-cheese/",
+    "name": "Tomatoes with Feta Cheese",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps36481_SD1192217D18B.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "Ruth Lee of Troy, Ontario serves this great combination as an easy and colorful salad. “I make this no-fuss dish at least once a month,” she writes. “It's a great way to use up fresh summer tomatoes and adds zip to winter tomatoes, too.”",
+    "recipeIngredient": [
+        "8 slices tomato",
+        "2 tablespoons crumbled feta cheese",
+        "1 tablespoon balsamic vinegar",
+        "2 tablespoons minced fresh basil",
+        "Pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Arrange tomato slices on a serving plate. Sprinkle with feta cheese. Drizzle with vinegar; sprinkle with basil and pepper."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 20 calories",
+        "fatContent": "1g fat (0 saturated fat)",
+        "cholesterolContent": "2mg cholesterol",
+        "sodiumContent": "38mg sodium",
+        "carbohydrateContent": "3g carbohydrate (2g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "1g protein. "
+    },
+    "recipeCuisine": "Mediterranean"
+}

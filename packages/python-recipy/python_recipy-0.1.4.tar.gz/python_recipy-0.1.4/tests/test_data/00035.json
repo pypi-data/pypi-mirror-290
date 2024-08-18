@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cucumber Sandwich with Cotija &amp; Lime",
+    "datePublished": "2023-05-31T16:48:01.000-04:00",
+    "dateModified": "2023-09-18T17:57:07.873-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "This easy vegetarian cucumber sandwich is flavored with cotija cheese, lime and cilantro. Cotija cheese, a salty Mexican crumbling cheese, is similar in flavor and texture to feta cheese, which can be used as a substitute.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/5HirLgmLCoFwFjZt6IcTqMu7hhs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/CucumberSandwichwithCotijaandLime-RM-0318-2000-36d3974442c24f90b694d24fb3c1316b.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Cucumber Sandwich with Cotija &amp; Lime",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "181 kcal",
+        "carbohydrateContent": "21 g",
+        "cholesterolContent": "14 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "330 mg",
+        "sugarContent": "4 g",
+        "fatContent": "6 g",
+        "unsaturatedFatContent": "2 g"
+    },
+    "recipeIngredient": [
+        "2 tablespoons low-fat plain strained yogurt, such as Greek-style",
+        "1.5 tablespoons crumbled cotija cheese",
+        "1 tablespoon finely chopped fresh cilantro",
+        "0.5 teaspoon lime zest",
+        "0.125 teaspoon ground pepper",
+        "1 multigrain sandwich thin, split and lightly toasted",
+        "0.33 cup thinly sliced English cucumber",
+        "0.25 cup arugula or mixed salad greens"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir yogurt, cotija, cilantro, lime zest and pepper together in a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the mixture evenly on both halves of sandwich thin. Top one half with cucumber slices and arugula (or mixed salad greens). Place the other half on top. Cut the sandwich in half and serve."
+        }
+    ],
+    "recipeYield": [
+        "1"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/8049527/cucumber-sandwich-with-cotija-lime/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17965/main-dishes/",
+                        "name": "Healthy Main Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18229/main-dishes/sandwiches/",
+                        "name": "Healthy Sandwich Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/8049527/cucumber-sandwich-with-cotija-lime/",
+                        "name": "Cucumber Sandwich with Cotija &amp; Lime"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-18T17:57:07.873-04:00"
+    },
+    "recipeCategory": []
+}

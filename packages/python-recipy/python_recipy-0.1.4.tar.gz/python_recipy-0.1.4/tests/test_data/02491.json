@@ -1,0 +1,121 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Shrimp and Crudite Platter with Two Sauces",
+    "datePublished": "2018-11-28T12:32:42.000-05:00",
+    "dateModified": "2018-11-30T11:51:20.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Our take on the Provencal classic le grand aioli, a bountiful spread of vegetables and seafood served with homemade garlic mayonnaise, ups the ante with two delectable dips: a tonnato sauce made with store-bought mayo and a vegan green goddess dressing.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/CfdknXGCkZG56jejtZtwQ82MM_I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/winter-grand-aioli-1218-58ca2ac3_0_horiz-7ae95b6241fe4d2b8795cee960d283b7.jpgitok0HwXCsOy",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Shrimp and Crudite Platter with Two Sauces",
+    "prepTime": "PT35M",
+    "recipeIngredient": [
+        "3 pounds crudites, such as carrots, celery, radishes, endives, and Little Gem lettuces",
+        "Kosher salt and freshly ground pepper",
+        "1 small head cauliflower or 1 bunch Broccolini, or a combination, cut into florets",
+        "2 bunches assorted baby beets, preferably gold and Chioggia, trimmed and peeled",
+        "8 ounces small new potatoes, scrubbed",
+        "6 hard-cooked eggs, peeled and halved",
+        "Extra-virgin olive oil, for drizzling",
+        "2 recipes Poached Shrimp",
+        "Tonnato Mayonnaise",
+        "Vegan Green-Goddess Dip",
+        "Lemon wedges, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Prepare an ice-water bath. Peel carrots and trim tops; slice in half lengthwise. Clean celery and slice into sticks. Trim radishes. Slice endives and Little Gems into wedges. Place crudites in ice-water bath until crisp and beginning to curl, 10 minutes. Drain well; wrap in paper towels. Refrigerate in resealable plastic bags up to 1 day."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of water to a boil; season generously with salt. Add cauliflower and cook until crisp-tender, 2 to 4 minutes. Transfer to ice-water bath. Return pot of water to a boil, add beets, and cook until fork-tender, about 22 minutes. Drain, let cool slightly, and cut into wedges. Store in an airtight container up to 1 day."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, bring potatoes to a boil in another pot of water; season generously with salt. Cook until easily pierced with the tip of a knife, 8 to 9 minutes. Drain; let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Season eggs and cooked vegetables with salt and pepper; drizzle with oil. Serve with crudites, shrimp, tonnato mayonnaise, dip, and lemon wedges."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1534268/shrimp-and-crudite-platter-two-sauces",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502258/appetizers-snacks",
+                        "name": "Appetizers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1534268/shrimp-and-crudite-platter-two-sauces",
+                        "name": "Shrimp and Crudite Platter with Two Sauces"
+                    }
+                }
+            ]
+        }
+    }
+}

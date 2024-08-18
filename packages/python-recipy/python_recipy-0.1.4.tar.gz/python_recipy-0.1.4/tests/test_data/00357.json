@@ -1,0 +1,228 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Butternut Squash Gratin",
+    "datePublished": "2020-06-18T23:50:44.000-04:00",
+    "dateModified": "2020-06-18T23:50:44.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "lyss8"
+        }
+    ],
+    "description": "Butternut squash is baked with fresh sage, butter, and breadcrumbs creating a savory gratin perfect for any dinner party.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/Mk13QcfHVsDXll1md93M-Jwm_g0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1080383-a97507dced3d4a8783fad20e37963976.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Butternut Squash Gratin",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "ratingCount": "6"
+    },
+    "cookTime": "PT45M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "176 kcal",
+        "carbohydrateContent": "22 g",
+        "cholesterolContent": "28 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "6 g",
+        "sodiumContent": "238 mg",
+        "sugarContent": "5 g",
+        "fatContent": "10 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT30M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 tablespoon butter",
+        "1 tablespoon olive oil",
+        "2 large onions, cut into 1-inch squares",
+        "3 tablespoons chopped fresh sage",
+        "salt and freshly ground black pepper to taste",
+        "3 pounds butternut squash - peeled, seeded, and cut into 1/2-inch cubes",
+        "2 cloves garlic, minced",
+        "0.75 teaspoon salt",
+        "10 tablespoons heavy whipping cream",
+        "1 cup fresh bread crumbs",
+        "1.5 tablespoons butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a gratin baking dish with butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat 1 tablespoon butter and olive oil in a large skillet over low heat; add onions and sage. Cover and cook, stirring occasionally, until onions are browned, about 25 minutes. Season with salt and black pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add squash, cover, and steam until tender, 10 to 20 minutes. Transfer squash to prepared gratin dish; toss with garlic and 3/4 teaspoon salt. Add the caramelized onions to the pan and gently mix to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Warm cream in a saucepan over low heat; pour over squash mixture. Stir to coat. Combine bread crumbs and 1 1/2 tablespoons melted butter together in a bowl; sprinkle over squash mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until gratin is bubbling and breadcrumbs are browned, 20 to 25 minutes."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT75M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lutzflcat"
+            },
+            "reviewBody": "We loved this. It's a very mild side dish that isn't going to interfere with any other part of your meal, but it's almost creamy and just loaded with flavor. Thanks lyss8 for a special new side dish that presents itself very well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "ruthcarlon"
+            },
+            "reviewBody": "I made this for Christmas dinner, but wished I had made our weeknight staple of Simple Roasted Butternut Squash instead. Less is more with butternut squash. This got tossed out."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Steven Elsesser"
+            },
+            "reviewBody": "I'm vegan so I substituted cashew cream and I added dried cranberries. Very yum!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Sc B McKinney"
+            },
+            "reviewBody": "I was looking for a different recipe for squash and used this one. It was very good but I think it needs a little something for more flavor. I think the next time I make it I will try adding some nutmeg"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rae"
+            },
+            "reviewBody": "This is my new go-to! My husband requested that I make this at least once a week, and he isn't one for recipe redos! I actually forgot to add the sage the first time I made this, and it still turned out really well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "lutzflcat"
+            },
+            "reviewBody": "We loved this. It's a very mild side dish that isn't going to interfere with any other part of your meal, but it's almost creamy and just loaded with flavor. Thanks lyss8 for a special new side dish that presents itself very well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Dolan"
+            },
+            "reviewBody": "Good recipe. I added a little more butter for more flavor. however, the butternut squash makes this dish moist enough. Well received by my guests."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/228284/butternut-squash-gratin/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/225/side-dish/vegetables/",
+                        "name": "Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/16881/side-dish/vegetables/squash/",
+                        "name": "Squash"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/228284/butternut-squash-gratin/",
+                        "name": "Butternut Squash Gratin"
+                    }
+                }
+            ]
+        }
+    }
+}

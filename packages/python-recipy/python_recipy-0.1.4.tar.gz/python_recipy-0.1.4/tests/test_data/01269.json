@@ -1,0 +1,126 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Honey Walnut Power Salad",
+    "description": "This honey walnut power salad is completely loaded with good stuff: edamame, grapes, blue cheese, bulgur, walnuts, spinach, and honey.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "honey walnut salad, edamame salad, power salad",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Honey-Walnut-Power-Salad-with-Cheese-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Walnut-Power-Salad-with-Cheese-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Walnut-Power-Salad-with-Cheese-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Honey-Walnut-Power-Salad-with-Cheese.jpeg"
+    ],
+    "url": "https://pinchofyum.com/honey-walnut-power-salad",
+    "recipeIngredient": [
+        "2 tablespoons butter",
+        "1/2 large yellow onion, thinly sliced",
+        "2 cups seedless red grapes, washed and cut in half",
+        "2 cups edamame (I did a quick steam-in-the-bag variety)",
+        "1 cup uncooked bulgur or other grain",
+        "3/4 cup walnuts",
+        "1/4 cup honey",
+        "1/4 cup water",
+        "fresh baby spinach",
+        "crumbled blue cheese",
+        "salt to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt the butter in a medium saucepan over low heat. Add onions and saute on low for about 30 minutes, stirring occasionally, until onions are soft, golden brown, and almost sweet tasting.",
+            "url": "https://pinchofyum.com/honey-walnut-power-salad#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While onions are still cooking, pour bulgur and 2 cups water into a saucepan; bring to a boil and cook for 15 minutes, until most of the moisture has absorbed and the grains are soft enough to eat. Let cool for 15 minutes.",
+            "url": "https://pinchofyum.com/honey-walnut-power-salad#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When onions are done, stir into the bulgur so the butter is absorbed by the grains. Season with salt.",
+            "url": "https://pinchofyum.com/honey-walnut-power-salad#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine grapes and edamame in a large mixing bowl. Add cooled bulgur and walnuts. Whisk water and honey; pour over mixture and stir well. Add fresh baby spinach and crumbled blue cheese just before serving.",
+            "url": "https://pinchofyum.com/honey-walnut-power-salad#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeYield": "6",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "9",
+        "ratingValue": "5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "376 calories",
+        "sugarContent": "21.4 g",
+        "sodiumContent": "461.9 mg",
+        "fatContent": "18.7 g",
+        "saturatedFatContent": "5.2 g",
+        "transFatContent": "0.2 g",
+        "carbohydrateContent": "45.7 g",
+        "fiberContent": "7.1 g",
+        "proteinContent": "13 g",
+        "cholesterolContent": "17.3 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Julia {The Roasted Root}"
+            },
+            "datePublished": "2012-04-27",
+            "reviewBody": "Your salad has power written all over it....errr...and in it! This is a great lunch recipe - tons of flavor with salty, sweet and nutty elements. I could see how skipping a salad like this for almonds and diet coke would be disappointing, but look how well you redeemed yourself! Great recipe!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tess"
+            },
+            "datePublished": "2012-04-27",
+            "reviewBody": "This looks awesome... mouth-watering!!! Definitely on the list of recipes for MAY 2012!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Diana @ Mood Your Food"
+            },
+            "datePublished": "2012-04-28",
+            "reviewBody": "This looks incredibly yummy!!!"
+        }
+    ],
+    "datePublished": "2012-04-27",
+    "@id": "https://pinchofyum.com/honey-walnut-power-salad#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/honey-walnut-power-salad#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/honey-walnut-power-salad"
+}

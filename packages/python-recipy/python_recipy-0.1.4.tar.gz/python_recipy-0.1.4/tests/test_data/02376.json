@@ -1,0 +1,70 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Meatball Lasagna",
+    "keywords": "meatball lasagna",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/4EYSx3P5oEm0mgiBldiwKg_webp_base.webp?v=6f31eca3&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "This delicious, saucy lasagna is packed with tasty meatballs that you can make ahead!",
+    "recipeIngredient": [
+        "1  jar (26 oz) tomato pasta sauce (any variety)",
+        "1  can (14.5 oz) diced tomatoes with Italian herbs, undrained",
+        "1  box (12 oz) frozen Italian-style meatballs, thawed, each cut in half",
+        "1 1/2  cups frozen bell pepper and onion stir-fry (from 1-lb bag), thawed, drained",
+        "1  container (15 oz) ricotta cheese",
+        "1  egg, beaten",
+        "2  tablespoons chopped fresh basil leaves",
+        "8  uncooked lasagna noodles",
+        "3  cups shredded mozzarella cheese (12 oz)",
+        "1/4  cup shredded Parmesan cheese (1 oz)"
+    ],
+    "totalTime": "PT9H40M",
+    "prepTime": "PT0H25M",
+    "recipeYield": "8",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "61",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Spray 13x9-inch (3-quart) glass baking dish with cooking spray. In large bowl, mix pasta sauce and tomatoes. Reserve 1/2 cup tomato mixture. Stir meatballs and stir-fry vegetables into remaining tomato mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, mix ricotta cheese, egg and basil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spoon reserved 1/2 cup tomato mixture over bottom of baking dish. Top with 4 noodles. Top with about half of the ricotta mixture and half of the meatball mixture. Layer with remaining 4 noodles, remaining ricotta mixture, 1 cup mozzarella cheese and remaining meatball mixture. Sprinkle with remaining 2 cups mozzarella cheese and the Parmesan cheese. Spray sheet of foil with cooking spray; cover baking dish with foil. Refrigerate 8 hours or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. Bake covered lasagna 45 minutes. Uncover; bake 15 to 20 minutes longer or until bubbly, edges are golden brown and cheese is melted. Let stand 10 minutes before cutting."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "540 ",
+        "carbohydrateContent": "48 g",
+        "cholesterolContent": "115 mg",
+        "fatContent": "1 ",
+        "fiberContent": "3 g",
+        "proteinContent": "32 g",
+        "saturatedFatContent": "12 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1260 mg",
+        "sugarContent": "13 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "01/25/2005",
+    "dateModified": "01/24/2014"
+}

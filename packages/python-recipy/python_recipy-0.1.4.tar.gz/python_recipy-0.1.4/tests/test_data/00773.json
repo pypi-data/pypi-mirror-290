@@ -1,0 +1,125 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/5097-lemon-verbena-ice-cream#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/5097-lemon-verbena-ice-cream",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/5097-lemon-verbena-ice-cream",
+    "name": "Lemon Verbena Ice Cream",
+    "description": "Lemon verbena’s seductive floral-citrus scent and taste lend energy and grace to ice cream. In this recipe, you’ll boil and steep fresh verbena leaves in half-and-half and sugar and, with seven egg yolks and heavy cream, turn the mixture into a custard over heat. Then freeze it in your ice cream maker. The best source for the leaves may be a plant of your own, or try your local farmers’ market or nursery.",
+    "author": {
+        "@type": "Person",
+        "name": "Suzanne Hamlin"
+    },
+    "image": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/10.jpg?1",
+    "totalTime": "PT45M",
+    "recipeYield": "8 servings, 1/2 cup each",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "egg yolk, heavy cream, lemon verbena, fourth of july, gluten-free",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 19
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 297,
+        "unsaturatedFatContent": "9 grams",
+        "carbohydrateContent": "16 grams",
+        "cholesterolContent": null,
+        "fatContent": "25 grams",
+        "fiberContent": "0 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "15 grams",
+        "sodiumContent": "35 milligrams",
+        "sugarContent": "15 grams",
+        "transFatContent": null
+    },
+    "recipeIngredient": [
+        "1/4 cup fresh lemon verbena leaves, packed",
+        "3/4 cup half-and-half",
+        "1/2 cup sugar",
+        "7 egg yolks",
+        "1 3/4 cups heavy cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In heavy stainless-steel pot, combine lemon verbena leaves, half-and-half and 1/4 cup sugar. Bring to a boil, stirring, and remove immediately from heat. Cover, and let steep for 30 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In stainless-steel bowl, whisk together the egg yolks and remaining sugar. While continuously whisking, strain the half-and-half mixture through a fine-meshed sieve into the egg yolks."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Return the mixture to the saucepan. Over medium-low heat, stir continuously with wooden spoon until custard thickens, about 2 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Strain custard into a bowl that is sitting in a larger bowl filled with ice cubes and water. Add heavy cream. Cool and chill. Freeze in an ice-cream maker."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cookie"
+            },
+            "reviewBody": "Sublime! Made as directed and served directly from the ice cream maker, on a bed of fresh blueberry sauce.",
+            "datePublished": "2020-06-22T06:42:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Annaka"
+            },
+            "reviewBody": "I used 5 large yolks and decreased the fat with more half and half, reducing the heavy cream to 1 cup. Still unctuous and rich.",
+            "datePublished": "2019-08-08T01:08:28.000Z"
+        }
+    ]
+}

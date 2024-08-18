@@ -1,0 +1,143 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "French Onion Dip Pasta with Arugula",
+    "datePublished": "2022-03-23T11:32:46.000-04:00",
+    "dateModified": "2024-04-19T15:28:59.315-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "Few flavors are as compulsively eatable as the flavor of onions cooked until golden. Here, we&#39;ve introduced that to spiral pasta and arugula.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/rAsxPg7Z1wufKfVwUrek3BCa2SM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/french-onion-dip-pasta-30d1f1e0de4f4721be3d08bcbcfae487.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "French Onion Dip Pasta with Arugula",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "375 kcal",
+        "carbohydrateContent": "53 g",
+        "cholesterolContent": "17 mg",
+        "fiberContent": "7 g",
+        "proteinContent": "9 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "355 mg",
+        "sugarContent": "7 g",
+        "fatContent": "14 g",
+        "unsaturatedFatContent": "8 g"
+    },
+    "recipeIngredient": [
+        "8 ounces whole-wheat fusilli",
+        "2 tablespoons extra-virgin olive oil",
+        "2 cups chopped onions",
+        "2 cloves garlic, minced",
+        "1 teaspoon dried thyme",
+        "0.5 teaspoon salt",
+        "0.25 teaspoon ground pepper",
+        "1 cup low-sodium vegetable broth  or  chicken broth",
+        "0.5 cup sour cream",
+        "2 cups baby arugula, packed"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large saucepan of water to a boil. Add fusilli and cook according to package directions. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, heat oil in a large skillet over medium heat. Add onions and cook, stirring, for 5 minutes. Reduce heat to medium-low and cook, stirring, until golden, about 5 minutes more."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add garlic, thyme, salt and pepper; cook, stirring, for 1 minute. Increase heat to medium-high and add broth; cook, stirring, until the liquid is reduced by half, about 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat to medium and add sour cream, stirring until completely incorporated. Remove from heat and stir in the pasta and arugula."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7952138/french-onion-dip-pasta-with-arugula/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18553/lifestyle-diets/vegetarian/dinner/",
+                        "name": "Healthy Vegetarian Dinner Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18004/lifestyle-diets/vegetarian/dinner/pasta/",
+                        "name": "Healthy Vegetarian Pasta Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7952138/french-onion-dip-pasta-with-arugula/",
+                        "name": "French Onion Dip Pasta with Arugula"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            }
+        ],
+        "lastReviewed": "2024-04-19T15:28:59.315-04:00"
+    },
+    "recipeCategory": []
+}

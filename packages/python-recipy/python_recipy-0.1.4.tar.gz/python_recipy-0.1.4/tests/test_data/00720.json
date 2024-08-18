@@ -1,0 +1,399 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1787-new-orleans-bbq-shrimp#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1787-new-orleans-bbq-shrimp",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2018/06/05/dining/31COOKING-BBQ-SHRIMP2/31COOKING-BBQ-SHRIMP2-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1787-new-orleans-bbq-shrimp",
+    "name": "New Orleans BBQ Shrimp",
+    "description": "Barbecue shrimp is an old New Orleans recipe that has nothing to do with barbecue or with grilling. Its name comes from the spicy, smoky flavor the shrimp derive from being cooked with Worcestershire sauce and lots of black pepper. It is a fine and almost absurdly fast dish — once the shrimp are peeled, you can have it on the table in 10 minutes — with a rich, savory sauce that completely belies the little effort it takes. But as I discovered once I started playing around with it, the key ingredient is neither Worcestershire sauce nor pepper, but rather butter. If you start with about a tablespoon for each serving of shrimp, you can add almost any flavor you like and create a sauce with the same creaminess and rich flavor. But start with Worcestershire sauce and pepper!",
+    "author": {
+        "@type": "Person",
+        "name": "Mark Bittman"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2018/06/05/dining/31COOKING-BBQ-SHRIMP2/31COOKING-BBQ-SHRIMP2-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/06/05/dining/31COOKING-BBQ-SHRIMP2/31COOKING-BBQ-SHRIMP2-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/06/05/dining/31COOKING-BBQ-SHRIMP2/31COOKING-BBQ-SHRIMP2-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2018/06/05/dining/31COOKING-BBQ-SHRIMP2/31COOKING-BBQ-SHRIMP2-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "southern",
+    "recipeCategory": [],
+    "keywords": "black pepper, shrimp, worcestershire sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 768
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 283,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "3 grams",
+        "cholesterolContent": null,
+        "fatContent": "13 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "41 grams",
+        "saturatedFatContent": "7 grams",
+        "sodiumContent": "678 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "4 tablespoons unsalted butter",
+        "1 teaspoon minced garlic",
+        "1 1/2 to 2 pounds peeled shrimp",
+        "2 tablespoons Worcestershire or soy sauce",
+        "Salt to taste",
+        "1/2 teaspoon or more fresh black pepper",
+        "Juice of 1 lemon"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Put butter in skillet, and turn heat to high; when it melts, add garlic, shrimp and Worcestershire or soy sauce. Cook, stirring occasionally, until sauce is thick and shrimp uniformly pink, about 5 minutes. If sauce threatens to dry out, add a tablespoon or two of water."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When shrimp are done, add salt and pepper, then lemon juice. Serve over rice or with bread."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "brandie"
+            },
+            "reviewBody": "Rather than adding water when it was a little dry, I added more sauce ingredients. It was devine.",
+            "datePublished": "2024-05-01T20:35:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CLH"
+            },
+            "reviewBody": "this is close to Pasqual's Manale (pronounced in typical NOLA fashion, Pasqual Manale's)  because you have the right ingredients, but 1 tsp garlic for 1.5 to 2 pounds of shrimp? Mark, you need to take a trip to New Orleans, boy you're not even close!! 1tsp garlic Per Person! And it's a big NO on soy sauce! Who thought that would be an apropos substitute? And you left out that little shot of Anita Amber beer (or wine). And Shrimp: Peel ON, Heads ON. Part of the joy is peeling the shrimp.",
+            "datePublished": "2023-12-09T21:47:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Em’s Instructions"
+            },
+            "reviewBody": "Forgot the lemon. Didn’t matter. It was delicious. Feel like juice of a whole lemon would have been too much. Mom suggested putting wedges on the side and people can add however much they want. \n\nAdded a little extra garlic and a teaspoon of Heinz Chile sauce.",
+            "datePublished": "2023-08-03T00:44:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sharon S"
+            },
+            "reviewBody": "Easy, simple and delicious!!! A keeper...",
+            "datePublished": "2023-04-18T23:56:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "Whenever I have made this before, the sauce always turned out loose and didn't really stick to the shrimp.  This last time I made it though, I added a slurry to get it to thicken it up.  I mixed equal parts white wine shrimp stock (I simmered white wine in the shells for a bit) and flour, 2 and a half tablespoons of each did the trick.  I would highly recommend it.",
+            "datePublished": "2023-04-18T20:18:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane"
+            },
+            "reviewBody": "Add a glug or two of cream at the end, and this becomes a whole lot like Emeril’s New Orleans Barbecue Shrimp, with maybe a tenth of the time and effort. It is fantastic. Really good on mashed potatoes …",
+            "datePublished": "2023-03-24T03:10:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Allison Sturgill"
+            },
+            "reviewBody": "I'm sorry, but this was a terrible miss for me. I can't promise I did nothing wrong but I don't know what it would have been. This was really flavorless to our household.",
+            "datePublished": "2023-02-28T21:22:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tami"
+            },
+            "reviewBody": "Though I don’t disagree about keeping the shells on and making some additions if thats what you feel like doing, we made this exactly as directed. The flavors and sauce texture were perfect the whole family devoured it. Love Mark Bittman for his ability to create delightful dishes with almost laughably simple ingredients.",
+            "datePublished": "2023-01-15T17:52:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joan M"
+            },
+            "reviewBody": "Best shrimp dish I have ever eaten. I peeled the shrimp because I was the one who had to peel them before or after. Clean hands make wine drinking more pleasurable!",
+            "datePublished": "2022-12-10T00:49:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "I used local NC shrimp that I had steamed in Old Bay. Made some rice and the sauce and warmed the shrimp in it. This is a keeper!",
+            "datePublished": "2022-09-12T22:01:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lana P"
+            },
+            "reviewBody": "Made this exactly as written and was amazed that so little effort could result in such a delectable dish. I used Worcestershire, frozen \"ez-peel\" shrimp and did remove the shells, but don't peel them if you prefer and it will be even faster to prepare. It took just 10 minutes to get this on the table from the time I took the shrimp out of the freezer (shrimp were quickly defrosted in a bowl of cold tap water, rinsed, peeled and dried off). Try this, you'll like it.",
+            "datePublished": "2022-06-20T20:22:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kathycookstoo"
+            },
+            "reviewBody": "This recipe is surprisingly good, especially for the amount of effort required. We served it over rice, and both of us went back for more rice when the shrimp was all gone!",
+            "datePublished": "2022-05-21T22:37:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan"
+            },
+            "reviewBody": "Delicious. Upon first taste I decided to reseason with salt, pepper, a little more Worcestershire and another shot of hot sauce. If it tastes bland, add seasoning.  A recipe like this need not be followed to the letter. If this doesn’t taste good it’s not the fault of the recipe.",
+            "datePublished": "2022-03-25T23:57:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "annelises"
+            },
+            "reviewBody": "I rarely leave negative reviews but this recipe did nothing for me. I found the sauce was bland and runny, even after the addition of a little cornstarch and actual barbeque sauce. Its only saving grace was that it served as a blank enough slate to make a decent shrimp fried rice the next day.",
+            "datePublished": "2022-03-06T21:06:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick"
+            },
+            "reviewBody": "A great way to serve this is coring out the middle of a baguette and stuffing the shrimp in. You can use smaller shrimp also.  Makes a great sandwich.",
+            "datePublished": "2022-02-12T20:08:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Usha"
+            },
+            "reviewBody": "Just FYI. In NOLA the shrimp aren’t peeled. Part of the head is snipped off. The fatty part on the top of head stays on. Can’t do this starting with frozen shrimp. Use fresh caught wild. Then lots of butter pepper and Worcestershire sauce. Need good fresh French bread for mopping up sauce",
+            "datePublished": "2018-11-19T16:41:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hopbell"
+            },
+            "reviewBody": "This is great served over rice. I love the richness of the texture. I make this all through the summer months....",
+            "datePublished": "2018-06-10T17:19:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bruce J"
+            },
+            "reviewBody": "Do not remove the shells, they add flavor to the sauce and to the shrimp. A bit messy but that's part of the NOLA experience. Also, don't forget a baguette, break off chunks to sop up the sauce.",
+            "datePublished": "2018-11-19T17:24:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bonna"
+            },
+            "reviewBody": "I was disappointed that the recipe doesn’t create as much sauce as shown in the photo, and it also didn’t want to thicken up. But no matter, the flavor was still divine. This one is a keeper.",
+            "datePublished": "2018-06-18T23:10:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephen F"
+            },
+            "reviewBody": "This recipe is really good, either as written or with additional butter and Worcestershire sauce.  But unless your shrimp are the size of a standard SUV, cooking them for 5 minutes over high heat is a risky proposition.  I get the butter, garlic and Worcestershire going, and then add the shrimp for 3 minutes.  If they need more time, they get it (unlikely they will), but you don't run the danger of ending up with leather after 5 minutes.",
+            "datePublished": "2020-02-21T18:01:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kirsten"
+            },
+            "reviewBody": "The recipe my family uses picks up on a couple of points that others mentioned: \n1. Shell-on shrimp, which makes the sauce that much richer\n2. Sauce isn't just butter, but butter and beer and clam juice\n3. Herbs! Rosemary and crumbled bay leaf. \n\nI like the idea of a \"quick & easy\" version of barbecue shrimp, but I have a feeling I'd be longing for the other flavors.",
+            "datePublished": "2018-11-19T22:51:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "gp"
+            },
+            "reviewBody": "So easy and delicious - great way to elevate Trader Joe’s frozen raw tail-on shrimp for those of us who can’t get fresh gulf shrimp. With rice and roasted broccoli - dinner on the table in 20 mins.",
+            "datePublished": "2019-03-11T01:21:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Luther"
+            },
+            "reviewBody": "Really simple, really good and really quick.  Used 1 1/2 lbs shrimp, 6 tbls. butter, 4 tbls. of Worcestershire sauce plus other ingredients as listed.  Will use this one a lot.  Thanks Mr. Bittman.",
+            "datePublished": "2019-03-21T16:24:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sara"
+            },
+            "reviewBody": "Was not bland at all but I added 4.5 tbsp of worchestershire, 5 cloves of minced garlic, and 2 tbsp of red pepper flakes to 2lb of frozen shrimp. ",
+            "datePublished": "2019-01-03T00:28:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shirleyten"
+            },
+            "reviewBody": "I make a dish like this fairly often. Needs lots of fresh lemon slices, garlic, BUTTER  and a little red pepper along with parsley. Unpeeled shririmp and lots of French bread make this the most wonderful dish. Be sure and cook it under the broiler. You will want to have plenty of napkins handy and licking your fingers is perfectly acceptable.",
+            "datePublished": "2018-11-19T20:58:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nanbrand"
+            },
+            "reviewBody": "My shrimp were frozen, so when I added them to the pan, there was lots of extra water, which helped add to the sauce. I had to lengthen the cooking time so the sauce would cook down. I used three tbsps. of Worcestershire and doubled the garlic. I also added red pepper flakes. This is an easy and tasty dish and is very good accompanied with rice.",
+            "datePublished": "2018-12-15T12:09:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dee Ratterree"
+            },
+            "reviewBody": "From a New Orleanian: leave the shells on, half the flavor is in the peeling and eating.  Never soy sauce, add some Tabasco.",
+            "datePublished": "2020-05-22T15:19:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cindy Macolini"
+            },
+            "reviewBody": "Peels should be left on for cooking and removed as you eat. Also add some fresh rosemary and thyme for a more complex flavor profile. \n\n1 – 1  1/2 lbs. large shrimp\n1 stick butter, melted\n3 tablespoons Worcestershire\n1/4 teaspoon cayenne\n1/2 teaspoon coarse salt\n1/4 teaspoon fresh-ground pepper\n2 teaspoons fresh thyme (or 1/2 teaspoon dried)\n1 tablespoon chopped fresh rosemary\n1 tablespoon olive oil",
+            "datePublished": "2020-05-22T16:56:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewBody": "I much prefer Chef Paul Prudhomme's version that includes shrimp broth and a bit of beer. It makes for a much tastier sauce. He also uses a seasoning mix of  salt, and black pepper, cayenne, crushed red pepper, thyme oregano & rosemary - so much more flavorful!",
+            "datePublished": "2021-03-12T03:29:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "reviewBody": "Agree on all points. Will try increasing amounts for the sauce next time",
+            "datePublished": "2018-06-23T02:56:38.000Z"
+        }
+    ]
+}

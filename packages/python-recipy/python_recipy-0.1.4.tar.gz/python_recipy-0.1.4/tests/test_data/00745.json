@@ -1,0 +1,436 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1023347-vegan-dan-dan-noodles-with-eggplant#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1023347-vegan-dan-dan-noodles-with-eggplant",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/07/20/dining/hm-vegetarian-dandan-noodles/merlin_209335521_89c2d137-7088-4f6d-a2e1-bdbebdcceb77-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1023347-vegan-dan-dan-noodles-with-eggplant",
+    "name": "Vegan Dan Dan Noodles With Eggplant",
+    "description": "Sichuan dan dan noodles are traditionally made with ground pork, a spicy sauce and sui mi ya cai, or pickled vegetables, but this vegan version features pan-fried eggplant in place of the meat. Cutting the eggplant into relatively chunky pieces and covering the pot with a lid while cooking is the key to achieving the right texture: It locks in moisture, ensures that the pieces don’t fall apart, and allows the flesh to become tender and smoky. Once tossed with the noodles and sauce, the eggplant breaks up and becomes creamy. If you don’t have tahini, you can substitute it with smooth peanut butter or almond butter.",
+    "author": {
+        "@type": "Person",
+        "name": "Hetty Lui McKinnon"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/07/20/dining/hm-vegetarian-dandan-noodles/hm-vegetarian-dandan-noodles-square640-v2.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/20/dining/hm-vegetarian-dandan-noodles/merlin_209335521_89c2d137-7088-4f6d-a2e1-bdbebdcceb77-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/20/dining/hm-vegetarian-dandan-noodles/merlin_209335521_89c2d137-7088-4f6d-a2e1-bdbebdcceb77-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/07/20/dining/hm-vegetarian-dandan-noodles/hm-vegetarian-dandan-noodles-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "chinese",
+    "recipeCategory": [],
+    "keywords": "egg, tahini, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1271
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 727,
+        "unsaturatedFatContent": "28 grams",
+        "carbohydrateContent": "83 grams",
+        "cholesterolContent": null,
+        "fatContent": "35 grams",
+        "fiberContent": "12 grams",
+        "proteinContent": "27 grams",
+        "saturatedFatContent": "5 grams",
+        "sodiumContent": "934 milligrams",
+        "sugarContent": "10 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 tablespoons soy sauce",
+        "3 tablespoons black or rice vinegar",
+        "1/4 cup tahini (or Chinese/Japanese sesame paste)",
+        "2 garlic cloves, peeled and finely grated or chopped",
+        "1 (1-inch) piece of ginger, peeled and finely grated or chopped (about 1 tablespoon)",
+        "2 to 3 tablespoons chile oil, chile crisp or doubanjiang",
+        "2 teaspoons granulated sugar",
+        "1 large eggplant (about 1¼ pounds), trimmed",
+        "Kosher salt (such as Diamond Crystal)",
+        "12 ounces dried thin wheat noodles (see Tip)",
+        "Neutral oil, such as canola or vegetable",
+        "1 tablespoon soy sauce",
+        "Black pepper",
+        "1/2 teaspoon ground Sichuan peppercorns (optional)",
+        "2 scallions, white and green parts separated and finely sliced",
+        "A generous pinch of granulated sugar",
+        "Handful of cilantro leaves",
+        "1 cup dry, unsalted roasted peanuts, roughly chopped",
+        "Chile oil or chile crisp, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the sauce: Combine the soy sauce, black or rice vinegar, tahini, garlic, ginger, chile oil and granulated sugar in a bowl, and whisk to combine. Set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Slice the eggplant crosswise into ¾-inch-thick circles, then cut each circle into 1½- to 2-inch pieces. (They should be quite chunky.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to boil. Add the noodles and cook according to package instructions until al dente. Reserve 1/2 cup of the cooking water, then drain the noodles, rinse just for a few seconds to remove some of the starchy water (they should still be hot), and allow them to drain."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, cook the eggplant: Heat a wok or large, deep-sided skillet over medium-high. When hot, add 2 tablespoons of neutral oil along with the eggplant, soy sauce, 1 teaspoon of salt and a pinch of black pepper, and toss well to combine. Cover with a lid and cook for 6 to 7 minutes, tossing every 60 seconds. If it starts to burn, reduce the heat to medium. The eggplant is ready when it is caramelized and cooked all the way through but still intact. (Don’t let it get mushy.) Remove the lid, sprinkle with the ground Sichuan peppercorns (if using), the white parts of the scallions and the sugar, and season with ½ teaspoon of salt and a pinch of black pepper. Toss for 30 seconds and then turn off the heat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the reserved noodle cooking water to the bowl of sauce and whisk to combine. Divide the sauce among four serving bowls."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide the noodles among the four bowls, on top of the sauce. Finish each bowl with eggplant, scallion greens, a few cilantro leaves and some peanuts."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To eat, toss everything together so that the noodles and eggplant are well coated in the sauce. Serve topped with chile oil or crisp."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jimmy"
+            },
+            "reviewBody": "Add about a block of crumbled tofu at the last stage, while adding the sauce. Use green onion instead of scallion. Go heavy on the soy sauce while frying the eggplant — it mostly cooks off, but caramelizes the outside.",
+            "datePublished": "2024-05-31T00:41:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "half half tahini and natural peanut butter"
+            },
+            "reviewBody": "Do half half tahini and natural peanut butter for an extra razzle dazzle",
+            "datePublished": "2024-05-18T02:35:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "FJ"
+            },
+            "reviewBody": "This was soooo good!\nInstead of a frying pan, I roasted the eggplant in the oven with some broccoli . \nMade the sauce according to the directions .\nCooked the noodles and then threw it all together , adding the cilantro and peanuts . The only thing I would do next time is add a squeeze of lime juice, as someone else mentioned in the comments . That would add a little zing. \nAnd I will say to use a little less salt than suggested, but otherwise it was perfect !",
+            "datePublished": "2024-05-08T23:04:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jenacass"
+            },
+            "reviewBody": "Easy but just OK.  The flavors weren’t deep.  Questioning why sauce isn’t mixed with the warm noodles before plating.  Service heat only.   Added chopped peanuts onto finished dish.  Probably won’t make again.",
+            "datePublished": "2024-04-14T00:05:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emmy"
+            },
+            "reviewBody": "This was superb especially with a bunch of accoutrements - shaved carrots, pickled red onions, sesame seeds, peanuts, cilantro, scallions, chile crisp. SO GOOD!\n\n\nDidn’t add any salt and did 1.5x the sauce per recommendations. Microwaved the eggplant and then followed instructions and texture was perfect. Added tofu (10ish minutes on a baking sheet at 350, seasoned with salt pepper and Szechuan pepper) and that made it more hearty. Could see adding another veggie, ie brocolli",
+            "datePublished": "2024-04-03T14:21:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Garret"
+            },
+            "reviewBody": "2-3 Table spoons of chili oil or crisp is quite a lot, at least in my case I might have a stronger chili oil than the writer, but I recommend starting with just one and going by taste.",
+            "datePublished": "2024-03-21T08:31:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DennisD"
+            },
+            "reviewBody": "Very good. I liked others' suggestions about adding mushrooms and/or tofu.  We think we would have preferred to cut the eggplant into smaller pieces - about 1/2\" to 3/4\" size.  We did lower the salt level and it was fine that way - there was plenty of salt in the noodle water and soy sauce.",
+            "datePublished": "2024-02-24T04:06:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Renee"
+            },
+            "reviewBody": "Sichuan peppercorns give a great and different flavor. No more oil is needed at the finish, the dish is rich enough. Non vegans could add a lb. of cooked ground turkey at the last step.",
+            "datePublished": "2024-02-22T21:19:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sara"
+            },
+            "reviewBody": "Crumble and sear tofu w soy before adding eggplant. Amazing. Touch of hoisin is excellent.",
+            "datePublished": "2024-01-31T23:59:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "C"
+            },
+            "reviewBody": "I used the relatively new soy noodles from trader joes (they're like the momofuku soy noodles, but cheaper) and replaced the sauce packet. Delicious!",
+            "datePublished": "2024-01-22T16:07:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelly B"
+            },
+            "reviewBody": "I think 1 cup of peanuts is A LOT, and I love peanuts. I say use 1/2 or 2/3 cup. Also, adding soy sauce to a hot pan with oil can cause a lot of sputter - be careful at that step!",
+            "datePublished": "2024-01-10T18:13:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Erin"
+            },
+            "reviewBody": "Made this and really enjoyed it. \n\nI followed a tip from another comment & made sure to buy black vinegar and sichuan peppercorns before cooking. I, personally, did not find it too salty. I found myself wondering if the dish would be better with some of the increasingly-delicious fake meat products on the market, in addition to the eggplant.",
+            "datePublished": "2023-12-10T20:54:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "caitlin"
+            },
+            "reviewBody": "excellent! I added crispy baked tofu for protein. Maybe the only thing I would do differently is add more vegetables, and maybe mushrooms next time.",
+            "datePublished": "2023-11-22T18:46:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "Do NOT add 1t salt to 1 lb mushrooms. WAY too much. Maybe 1/4",
+            "datePublished": "2023-11-19T00:09:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fawn doo"
+            },
+            "reviewBody": "Used “Taiwan Noodles” similar to ramen, and chopped Chinese Broccoli. Delicious. Sauce has same ingredients as the peanut sauce I make for grain bowls. You really can’t go wrong. I don’t add salt to anything-",
+            "datePublished": "2023-11-06T23:18:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eva"
+            },
+            "reviewBody": "Quite delicious. The technique with the eggplant seemed unlikely to me but I trust Hetty and it worked beautifully, producing tender, flavorful eggplant. (I might go a liiiiitle bit lighter on the salt.)\n\nI added some finely chopped tofu to the eggplant, which was nice. I think shiitake mushrooms would also be great, maybe both.\n\nServed with some blanched broccoli mixed in as well.\n\nWill make again.",
+            "datePublished": "2022-07-23T04:26:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandra"
+            },
+            "reviewBody": "Very delicious recipe. I didn’t have enough eggplant from our garden so I supplemented with mushrooms and tofu I had on hand which worked well. The only addition I would make is a little fresh lime juice to the sauce to brighten it up a bit. This recipe is a winner!",
+            "datePublished": "2022-07-24T23:52:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Somia"
+            },
+            "reviewBody": "The eggplant was delicious and I will use this method in other recipes. This recipe did not quite work for me. The ratio of noodles to eggplant/sauce was too much. The sauce, while delicious, turned an unappetizing shade of brown when the sesame paste was added - not the rich brown that you see in the photo. I had to add a decent amount of chili crisp at the end as the flavors were muted when mixed up.",
+            "datePublished": "2022-07-22T09:48:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "G. Smith"
+            },
+            "reviewBody": "Don't salt the noodle water, and consider cutting back on the salt that's called for, or even cutting it out entirely, since there's also a good amount of soy sauce...otherwise it will come out much too salty, even for a serious salt-aholic like myself! Do feel free to mix the whole thing together in the wok (off the heat) along with a bunch of whole basil leaves before serving - and only having to pass the chili crisp, scallion greens and peanuts at the table.",
+            "datePublished": "2022-08-22T05:00:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Made a couple of substitutions based on what I had and this was still delicious! I subbed two tbsp of gochujang for the chili oil and sugar in the sauce and used peanut butter instead of tahini. I also used homemade fresh noodles. The black vinegar and Sichuan peppercorn (even though the recipes says optional) seemed especially key in mimicking the dan dan noodle flavor I'm used to getting at restaurants so I definitely wouldn't use substitutions for those.",
+            "datePublished": "2022-07-28T02:57:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jennifer Mitchell"
+            },
+            "reviewBody": "Good but not great.  Followed the recipe as written and used 2 tbs doubanjiang plus 1 tbs of chili oil.  Ended up blending sauce in mini food processor to smooth out tahini.  Due to doubanjiang and black vinegar, color of sauce matched photo.  Eggplant preparation was easy and tasty.  Would say that the saltiness was a little too much for me so if I make again, I will reduce.   Loved the addition of the ground Szechuan peppercorns, peanuts, cilantro and scallions on top.",
+            "datePublished": "2022-07-23T01:02:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bernish"
+            },
+            "reviewBody": "I added mushrooms (5 ox shittake) and a cube of tofu chopped per recommendations. Doubled the sauce for 3 adults and 2 kids. Used sherry vinegar instead. Ridiculously delicious. This is why I keep the subscription. Meals like this.",
+            "datePublished": "2022-11-17T01:25:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jessy"
+            },
+            "reviewBody": "I literally made JUST the sauce for drizzling on top of some tofu and veggies and it was fire. Like i’m probably gonna memorize it and put it on everything..",
+            "datePublished": "2023-03-15T00:47:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kitchen Monkey"
+            },
+            "reviewBody": "I used peanut butter because the Chinese sesame paste is actually very, very different than tahini. I used the food processor attachment on my immersion blender for the sauce and I highly recommend that. I doubled the ginger and added an additional clove of garlic as well as a dash of rice vinegar. I used less water than it called for - just added a few TBSP until I liked it. I also added the tofu with the method suggested by another reader. And I sliced cucumbers to add to the toppings.",
+            "datePublished": "2022-11-11T02:02:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Murat"
+            },
+            "reviewBody": "Fantastic recipe, with the following modifications:\n-I substituted the tahini paste with chunky peanut butter\n-added gochujang instead of chile oil\n-added some thai basil to the eggplant at the end of the cooking process. The sweetness of the basil was a nice balance to the saltiness of the eggplant.\n\nWill definitely make it again",
+            "datePublished": "2022-09-08T22:08:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "abr"
+            },
+            "reviewBody": "I thought the sauce was delicious, but the dish overall was too salty for me. I would omit adding the 1 tsp of salt at the beginning of cooking the eggplant and 1/2 tsp at the end. The soy sauce is salty as it is and then I'd add salt by taste if needed from there.",
+            "datePublished": "2022-09-06T12:28:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Midge"
+            },
+            "reviewBody": "My package of noodles was 8 ounces and that seemed to be perfect ratio for sauce and eggplant. Overall, a great recipe and super delicious dish.",
+            "datePublished": "2022-07-23T00:34:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kayla M."
+            },
+            "reviewBody": "I made this but doubled the sauce. I found that was not necessary because it is such a concentrated sauce. It is delicious. I also had exactly the amount of tahini left in the jar for the recipe. I put all the ingredients in the jar and used an immersion blender to keep the kitchen clean. It worked beautifully. I did add some honey and only had brown sugar on hand. The flavor profile was still perfect. I recommend this recipe.",
+            "datePublished": "2022-08-14T22:49:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SW"
+            },
+            "reviewBody": "I used dried hand-pulled noodles from the Asian grocery store and Japanese eggplants. Great recipe. Next time, I'll halve the vinegar, since this was too sour for me—and also fry some tofu for protein. Drizzled the noodles with Momofuku's truffle chili crisp that I bought from the gourmet grocer—yum! Paired these noodles with the recipe for Chinese Smashed Cucumbers with Sesame and Garlic from the NYT Cooking site. Perfect dinner.",
+            "datePublished": "2023-08-14T00:15:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachel"
+            },
+            "reviewBody": "I used 2Tbsp chili oil, black vinegar, and peanut butter instead of tahini, and it was DELICIOUS. However, I think next time I’ll just use 1Tbsp chili oil. With 2Tbsp, it was right at my threshold for spicy, so I couldn’t add any chili crisp for garnish, which I’d like to try next time.",
+            "datePublished": "2022-08-20T20:54:47.000Z"
+        }
+    ]
+}

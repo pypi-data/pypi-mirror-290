@@ -1,0 +1,196 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Sausage Balls I",
+    "datePublished": "2000-01-19T12:47:04.000-05:00",
+    "dateModified": "2022-07-14T16:21:18.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Tom"
+        }
+    ],
+    "description": "Sage-seasoned sausage balls get dressed up with a nice tangy sauce. Reheat before serving.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/NZhSTpjQGdnrgMKyVciuiguxFWQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1004217-18d64d08f97a47ebb2c7e3586399d9bd.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Sausage Balls I",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "ratingCount": "7"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "94 kcal",
+        "carbohydrateContent": "3 g",
+        "cholesterolContent": "21 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "3 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "223 mg",
+        "sugarContent": "2 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT525M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 pound fresh, ground pork sausage",
+        "1 egg, beaten",
+        "0.33300000429153 cup cracker meal",
+        "0.5 teaspoon dried sage",
+        "0.5 cup ketchup",
+        "1 tablespoon white vinegar",
+        "1.5 teaspoons brown sugar",
+        "1 tablespoon soy sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium-sized mixing bowl, combine sausage, egg, crushed crackers and sage. Separate the mixture into two balls."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a skillet to a high heat and brown the sausage balls. Drain on paper towels. Transfer the balls to a container with a lid."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine ketchup, vinegar, brown sugar and soy sauce in a small pot. Stir while heating the sauce. Let the sauce come to a boil, then reduce the heat to simmer. Let the sauce simmer for 20 minutes before pouring the sauce over the balls."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Allow to cool, then cover the balls and sauce, and refrigerate overnight. Reheat before serving."
+        }
+    ],
+    "recipeYield": [
+        "24"
+    ],
+    "totalTime": "PT525M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "A good recipe, however we made small 1\" balls instead of the two balls the recipe called for. Works great for a party appetizer when the recipe is doubled or tripled."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Tierney Raychel Rosenstock"
+            },
+            "reviewBody": "These are practically flavorless. Needs salt, pepper, and other herbs and spices for sure."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "irisheyes"
+            },
+            "reviewBody": "No I made it as the recipe called for. We enjoyed them very much."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Paula T"
+            },
+            "reviewBody": "I made smaller balls also, and instead of pouring the sauce over the meatballs, once they were thoroughly cooked through, I poured the sauce, mixed with about 1/2 cup water, over them and simmered them for about 15 or 20 minutes. The sauce cooked into them, and they turned out great. I'll be making them for a party soon and probably just put them in a little warmer and serve with toothpicks-I like the cracker meal (I crushed up saltines). A good change from the usual cocktail meatball."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "A good recipe, however we made small 1\" balls instead of the two balls the recipe called for. Works great for a party appetizer when the recipe is doubled or tripled."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/17259/sausage-balls-i/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/107/appetizers-and-snacks/meat-and-poultry/",
+                        "name": "Meat and Poultry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1236/appetizers-and-snacks/meat-and-poultry/pork/",
+                        "name": "Pork"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/17259/sausage-balls-i/",
+                        "name": "Sausage Balls I"
+                    }
+                }
+            ]
+        }
+    }
+}

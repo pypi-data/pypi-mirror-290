@@ -1,0 +1,117 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sichuan-Style Hot-and-Sour Cabbage",
+    "datePublished": "2013-12-06T18:48:40.000-05:00",
+    "dateModified": "2017-05-16T13:09:28.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Sang Yoon",
+            "url": "https://www.foodandwine.com/author/sang-yoon"
+        }
+    ],
+    "description": "This delicious, spicy Chinese dish is made with stir-fried cabbage, mushroom soy sauce, Sichuan peppercorns and dried chiles, which add fantastic heat.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/PyHmw8RZhSsctGtb9f_EXuHD0Zk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201311-xl-sichuan-style-hot-and-sour-cabbage-6573ce5ca7604b7fb6c9be5e26ef9c32.jpg",
+        "height": 1499,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Sichuan-Style Hot-and-Sour Cabbage",
+    "recipeIngredient": [
+        "1/4 cup plus 2 tablespoons chicken stock or low-sodium broth",
+        "2 tablespoons Chinese light soy sauce (see Note)",
+        "2 tablespoons Chinese mushroom soy sauce (see Note)",
+        "1/4 cup Chinese black vinegar (see Note)",
+        "1 tablespoon dark palm sugar",
+        "3/4 teaspoon finely grated fresh ginger",
+        "1/2 teaspoon minced garlic",
+        "1 1/2 teaspoons cornstarch",
+        "2 medium heads green cabbage (4 pounds)—quartered, cored and cut into 1 1/2-inch pieces",
+        "1/4 cup canola or peanut oil",
+        "4 whole dried Chinese red chiles, broken in half, plus more crumbled, for garnish",
+        "2 teaspoons whole Sichuan peppercorns",
+        "Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine the chicken stock, soy sauces, vinegar, sugar, ginger, garlic and cornstarch; whisk to blend."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a pot of salted boiling water, cook the thickest pieces of cabbage for 1 minute; add the remaining cabbage and cook for 30 seconds longer. Drain and transfer to a bowl of ice water to cool; drain and pat dry."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a wok, heat 2 tablespoons of the oil until shimmering. Add half of the broken dried red chiles and 1 teaspoon of the Sichuan peppercorns and stir until fragrant, 10 seconds. Add half of the cabbage and stir-fry over high heat until charred in spots, 5 minutes. Add 3 tablespoons of the soy sauce mixture and cook, tossing, until the liquid has been absorbed, 1 minute. Add 2 more tablespoons of the soy sauce mixture and stir-fry until absorbed; repeat one last time, then transfer the cabbage to a bowl. Repeat with the remaining oil, dried chiles, Sichuan peppercorns, cabbage and soy sauce mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return the first batch of cabbage to the wok and cook until all of the cabbage is nicely glazed. Season with salt, transfer to a platter and garnish with the crumbled dried chile peppers. Serve."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/sichuan-style-hot-and-sour-cabbage",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/side-dishes",
+                        "name": "Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/side-dishes/vegetable-side-dishes",
+                        "name": "Vegetable Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/sichuan-style-hot-and-sour-cabbage",
+                        "name": "Sichuan-Style Hot-and-Sour Cabbage"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

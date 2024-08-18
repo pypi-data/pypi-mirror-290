@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Finnish Star Cookies (Joulutorttu)",
+    "datePublished": "2018-01-30T11:48:44.000-05:00",
+    "dateModified": "2020-05-19T14:35:47.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This recipe for Finnish Star Cookies called Joulutorttu is a cross between cookies and a tart.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/-D2_Ur1OgmJCUIFdTdLoUuAhPD8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/finnish-cream-cheese-stars-cookies-mbak901-scandinavia-0368-v2-d113210-0118_horiz-953eb47b1d8f469da3fbc561ddf0890b.jpgitokVmSrUi9k",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Finnish Star Cookies (Joulutorttu)",
+    "recipeIngredient": [
+        "2.25 cups unbleached all-purpose flour, plus more for dusting",
+        "0.5 teaspoon baking powder",
+        "0.5 teaspoon plus a pinch of kosher salt",
+        "0.5 cup (1 stick) unsalted butter, room temperature",
+        "6 ounces cream cheese, room temperature",
+        "1 cup sugar",
+        "1 tablespoon grated lemon zest",
+        "2 large eggs",
+        "0.75 cup raspberry preserves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together flour, baking powder, and 1/2 teaspoon salt in a medium bowl. In the bowl of an electric mixer fitted with the paddle attachment, cream together butter and cream cheese on medium speed until well combined, about 1 minute. Add sugar and lemon zest and continue to beat until fluffy, about 2 minutes. Add 1 egg and beat until combined. Beat in flour mixture on low speed until combined. Divide dough in half. Shape each half into a square, wrap in plastic, and refrigerate until firm, 1 to 2 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 325 degrees. Line two baking sheets with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove one-half of dough from the refrigerator. On a lightly floured sheet of parchment, roll out dough into a square about 1/8 inch thick. Cut out squares using a 3 1/2-inch square cutter, then carefully transfer to prepared baking sheets, spaced about 1 1/2 inches apart. If dough becomes too soft, transfer parchment with dough to a baking sheet and refrigerate until firm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 1 teaspoon preserves in the center of each square. Using a small paring knife, cut 1 1/4-inch slits diagonally from each corner toward the filling. Fold every other tip over to cover filling, forming a pinwheel. Press lightly to seal. If dough becomes soft, refrigerate until firm."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Lightly beat remaining egg with remaining pinch of salt. Using a pastry brush, lightly brush tops of cookies with egg wash. Bake until edges are golden and cookies are slightly puffed, 15 to 20 minutes. Let cool on sheets 5 minutes, then transfer cookies to a wire rack to cool completely. Repeat with remaining dough."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1525330/finnish-star-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502264/cookie-recipes",
+                        "name": "Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1525330/finnish-star-cookies",
+                        "name": "Finnish Star Cookies (Joulutorttu)"
+                    }
+                }
+            ]
+        }
+    }
+}

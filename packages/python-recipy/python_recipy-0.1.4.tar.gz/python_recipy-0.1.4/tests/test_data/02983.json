@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/collection/freezable-recipes#Recipe",
+    "@type": "Recipe",
+    "description": "Get ahead in a busy week by making a batch of your favourite meal then freezing for another day. Try it with our recipes for pies, curries, stews and soups.",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/03/For-the-freezer-ratatouille-6833c10.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/collection/freezable-recipes"
+    },
+    "name": "Freezable recipes",
+    "url": "https://www.bbcgoodfood.com/recipes/collection/freezable-recipes",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2024-05-07T12:20:47+01:00",
+    "datePublished": "2022-04-05T16:59:39+01:00",
+    "headline": "Freezable recipes",
+    "keywords": "Batch, Cook, Dinner, Family, Freezable, Freeze, Freezer, Meal, Quick, Recipes",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "recipeIngredient": "chicken, sausage, mushroom, pasta, pepper, courgette, aubergine, broccoli, potato, fish, beans, chocolate, nuts, leek, carrot, bacon, banana, berries, beef, lamb, lentils, corn, prawn, spinach",
+    "recipeCategory": []
+}

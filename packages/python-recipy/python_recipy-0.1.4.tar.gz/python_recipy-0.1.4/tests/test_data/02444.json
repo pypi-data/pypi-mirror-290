@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Rhubarb Compote",
+    "datePublished": "2011-02-11T09:00:10.000-05:00",
+    "dateModified": "2018-07-11T12:52:48.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Because it&#39;s very tart, rhubarb is always cooked with sugar (or other sweetener). It is often combined with red fruits, such as strawberries or raspberries, to enhance the color and complement the flavor.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/S3ijyVY8OTM_P30_aB122UncqgA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EA101307HYT004_horiz-78e2fadb2dd8401eb452c8fa14223439.jpgitokdzWIzqvA",
+        "height": 421,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/4WfMCVGH-zqASzng0.mp4",
+        "description": " ",
+        "duration": "PT1M33S",
+        "name": "Rhubarb Compote Video",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/4WfMCVGH/poster.jpg?width=720",
+        "uploadDate": "2021-03-09T09:56:31.267-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Rhubarb Compote",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.2",
+        "ratingCount": "135"
+    },
+    "keywords": "Compote, Dessert, Rhubarb, Simmer",
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "1.75 pounds rhubarb, ends trimmed, cut crosswise into ¾-inch pieces (about 6 cups)",
+        "1 cup sugar",
+        "1 piece (1 inch) fresh peeled ginger, finely grated"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Stir together rhubarb and sugar in a large saucepan (off heat); let stand until rhubarb releases some liquid, about 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring rhubarb mixture to a boil over medium-high heat, stirring occasionally. Reduce heat; simmer, stirring occasionally, until rhubarb has broken down but some whole pieces remain, about 5 minutes. Remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place ginger in a fine-mesh sieve set over a small bowl. Press down firmly with a spoon until juices are released (to yield about 1 teaspoon). Discard solids. Stir ginger juice into rhubarb mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/S3ijyVY8OTM_P30_aB122UncqgA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EA101307HYT004_horiz-78e2fadb2dd8401eb452c8fa14223439.jpgitokdzWIzqvA"
+                }
+            ],
+            "text": "Let sauce cool completely before serving over ice cream, yogurt, or pound cake, or using to make parfaits."
+        }
+    ],
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/336492/rhubarb-compote",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513477/healthy-recipes",
+                        "name": "Healthy Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1513443/gluten-free-recipes",
+                        "name": "Gluten-Free Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/336492/rhubarb-compote",
+                        "name": "Rhubarb Compote"
+                    }
+                }
+            ]
+        }
+    }
+}

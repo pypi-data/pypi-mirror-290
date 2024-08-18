@@ -1,0 +1,411 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020912-egg-curry#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020912-egg-curry",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020912-egg-curry",
+    "name": "Egg Curry",
+    "description": "Eggs have long been an important source of nutrition across the country, and form the base of many classic regional dishes. In Andhra Pradesh, this spicy, tomato-rich egg curry would have firmer, more crumbly yolks (boiled for about 11 or 12 minutes), but I like to cook them a little softer (8 minutes, max).",
+    "author": {
+        "@type": "Person",
+        "name": "Tejal Rao"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/03/04/dining/tr-egg-curry/merlin_169211805_227972c0-43d1-4f25-9643-9568331d8adb-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "indian",
+    "recipeCategory": [],
+    "keywords": "coriander, egg, garam masala, ginger, onion, tomato, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1084
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 285,
+        "unsaturatedFatContent": "17 grams",
+        "carbohydrateContent": "14 grams",
+        "cholesterolContent": null,
+        "fatContent": "21 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "11 grams",
+        "saturatedFatContent": "3 grams",
+        "sodiumContent": "564 milligrams",
+        "sugarContent": "6 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/4 cup neutral oil, such as grapeseed or canola",
+        "2 medium yellow onions, chopped",
+        "6 garlic cloves, finely chopped",
+        "1 (2-inch) piece fresh ginger, peeled and finely chopped (about 2 tablespoons)",
+        "2 small cinnamon sticks",
+        "6 green cardamom pods",
+        "1 teaspoon ground coriander",
+        "1/2 teaspoon ground turmeric",
+        "1/2 teaspoon whole black peppercorns",
+        "6 Roma tomatoes, finely chopped",
+        "1 teaspoon kosher salt",
+        "1/2 teaspoon garam masala",
+        "6 to 8 hard-boiled eggs, peeled",
+        "Handful of small, tender fresh cilantro stems"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large, heavy skillet, heat the oil over medium. Add the onions and cook, stirring occasionally, until evenly caramelized and light brown, 25 to 30 minutes. Stir in the garlic and ginger, and fry, stirring occasionally, another 4 minutes. Add the cinnamon and cardamom. When the spices start to toast, after about 2 minutes, stir in the coriander, turmeric and peppercorns."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the tomatoes, salt and 1 cup water. Cook, stirring occasionally, until the mixture thickens and the fat rises to the top, about 15 minutes. Stir in the garam masala and lower the heat. If the sauce isn’t runny, stir in 1/2 cup water."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add all but 2 of the eggs and stir gently. Halve the remaining eggs lengthwise and arrange on top, yolk-side up. Heat until the eggs are warmed through, then top with cilantro."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laurie"
+            },
+            "reviewBody": "Added 10 oz. baby spinach cooked in sauce, which I puréed before adding spinach and eggs.",
+            "datePublished": "2024-05-27T16:44:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MB"
+            },
+            "reviewBody": "Stir Fry the onions in the Air Fryer to avoid the onion aroma in the kitchen @ 260 for 15 minutes and checkin in between",
+            "datePublished": "2024-05-12T17:32:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia"
+            },
+            "reviewBody": "This is also great with a 14oz package of firm tofu, cut in 1.5\" cubes, instead of the eggs. The sauce is wonderful. Taking the time to carmelize the onions makes a difference. Next time I'll make extra carmelized onions and save them for a second batch.",
+            "datePublished": "2024-04-24T13:25:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "reviewBody": "I highly recommend blanching and peeling the tomatoes before chopping them. That step can be done in advance if you meal prep for the week. The recipe could also benefit from directions on what to do with the whole spices- either processing with a stick blender, wrapping in cheesecloth for easy removal, or similar. Biting into whole spices is not pleasant. Otherwise, this was an easy dish to make and well-balanced in flavor. Would try again with modifications.",
+            "datePublished": "2024-02-09T01:28:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cattails"
+            },
+            "reviewBody": "Surprised nobody else is complaining about this, but next time I will grind the spices before frying bc I kept chomping on peppercorns and cardamom pods. I fried the egg halves face down in garlic butter, then spread the garlic butter on naan to make this healthy dish distinctly less healthy. Cheap, easy, and delicious.",
+            "datePublished": "2024-01-25T21:20:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meera"
+            },
+            "reviewBody": "Works nicely especially with more garlic. I added 2 diced medium Gold potatoes and 1 diced carrot to tone down the tomato acidic taste, Also added cumin powder, cayenne and a touch more coriander powder since I prefer these to Garam masala. Also a touch of coconut milk at the end takes it into amazing territory. Quite the filling meal with rice.",
+            "datePublished": "2023-02-18T03:39:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emily"
+            },
+            "reviewBody": "I cook for my brothers-in-law every Wednesday and these were a big hit this week. We had a lot of eggs to use and I correctly guessed that this recipe would make a dinner of hard-boiled eggs satisfying to a group of guys who work hard and eat hearty. I made it as written except I tossed the tomatoes in the blender rather than chopping them, and I’d do that again just to save time. We did not find it noticeably sweet as some commenters did. Served with a spinach dal and frozen naan. Delicious!",
+            "datePublished": "2023-01-29T06:10:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen L Davis"
+            },
+            "reviewBody": "For 2, cut the sauce in half and used 5 hard-boiled eggs. It smelled fabulous cooking but the taste was missing something -- I'm just not sure what: More ginger, garlic, ground coriander? Or something additional that's not on the list, like cumin or mustard seeds? The recipe didn't call for covering it to cook, so for the sauce to be \"runny\" took a lot more than the half recipe's 1/2c water -- more like 1 1/4 to 1 1/2 c. The dish cooks long enough that tomato skins were not a problem.",
+            "datePublished": "2022-07-19T22:30:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan Berent"
+            },
+            "reviewBody": "Made this today. Was excellent. I tried it with and without a teeny bit of salt cracked over it as someone suggested. I much preferred the salt!",
+            "datePublished": "2022-06-27T00:59:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sanhita ray"
+            },
+            "reviewBody": "in bengal, or possibly elsewhere there's a version of this with omlettes, instead of boiling make as many omlettes as you want and incorporate into sauces.. but both cases I believe need to simmer/fry in the sauce a bit longer and have a sliiiight char from touching the pan bottom.",
+            "datePublished": "2022-06-13T16:57:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Curry egg bites appetizer"
+            },
+            "reviewBody": "I did tweak the base curry by adding mustard seeds and curry leaf to the oil before adding chopped onions for more depth. Highly recommend peeling the tomatoes for a creamer sauce.",
+            "datePublished": "2022-05-16T22:56:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "This egg curry was a delightful way to use up my leftover hardboiled Easter eggs! I loved all of the warm spices that made it feel like a special holiday dish, even though it was simple and humble. I took the advice of another subscriber and peeled the tomatoes, which I think made a big difference in the final texture.",
+            "datePublished": "2022-04-21T03:42:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara"
+            },
+            "reviewBody": "Use 2 cans diced tomatoes instead of Roma.  Thin slice onions rather than chop.",
+            "datePublished": "2021-09-30T13:02:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Soma"
+            },
+            "reviewBody": "Sauté spices whole before adding onions\nUse tomato purée or peel tomatoes before chopping for smoother gravy",
+            "datePublished": "2021-08-02T17:06:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Christina"
+            },
+            "reviewBody": "Where are the tomatoes in the recipe??",
+            "datePublished": "2021-04-28T21:34:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nolini"
+            },
+            "reviewBody": "As an Indian cook, here r my notes.  PEEL the tomatoes before you chop them. The resulting sauce will have the right texture - without bits of tomato skin floating around. \nWhen the oil is hot, first put in the whole spices - cinnamon, cardamon and black pepper. Let them sizzle a minute, then add the onion.\nI added 1/2 tsp cumin powder and 1/4 tsp cayenne w the coriander and tumeric\nAfter bringing tomatoes and water to a boil, COVER the dish for 15 mins, stirring occasionally.\nDelish.",
+            "datePublished": "2020-03-23T15:09:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fred"
+            },
+            "reviewBody": "Perhaps more radical still, one could poach the eggs in the sauce, a la shakshuka, or have some mix of those with more traditional hard-boiled eggs. Everything is better with runny yolks! (Except to my kids, who are disgusted by them.)",
+            "datePublished": "2020-03-11T11:05:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeffrey Bell"
+            },
+            "reviewBody": "This was very good along with some home made iron skillet Naan bread.  I used 2 cans diced tomatoes instead of the Romas.  I like my stuff pretty spicy so I was generous with garlic and ginger.  Next time I think I will add a bit more of all spices.  It is not too spicy at all and fantastic dipping the bread into the sauce.",
+            "datePublished": "2020-03-11T19:52:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "This is a great basic curry to use instead of salty pre-made packets for putting “anything” into. Leftover roast veg and a cup of frozen peas, chopped cauliflower, the rest of that rotisserie chicken, etc. Probably a bag of frozen stew veg. It’s memorizable enough to be a no-recipe “something different” standard for times of impatience and fretfulness. Freezes.",
+            "datePublished": "2020-03-13T16:44:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PJ"
+            },
+            "reviewBody": "This is the way to do it - ONLY first take a toothpick and prick several small holes in each egg. That ensures that flavor penetrates the eggs when they are lowered into the curry.",
+            "datePublished": "2020-03-18T16:19:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ground cardamom conversion"
+            },
+            "reviewBody": "1 tsp ground cardamom for every 6 pods",
+            "datePublished": "2020-03-30T21:34:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia"
+            },
+            "reviewBody": "I was a little dubious about this one, but it is absolutely divine. I used cinnamon powder instead of sticks, cardamom powder instead of pods (seriously, who has pods?), and extra spices all around. I added some chopped spinach for extra nutrition, and used canned diced tomatoes. Super easy and super delicious.",
+            "datePublished": "2020-05-15T17:11:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mr Christopher Edwards"
+            },
+            "reviewBody": "I love an egg curry - I am also fond of the Anglo-Indian version which adds apples (really) and a spot of cream to the curry gravy!!! See Madhur Jaffrey’s recipe in her world curry book.",
+            "datePublished": "2020-05-15T17:26:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chhauri"
+            },
+            "reviewBody": "We usually lightly fry half cut boiled eggs before putting them int he sauce. Makes the eggs slightly crunchy. Great with rice, but then anything is great with rice.",
+            "datePublished": "2020-09-21T15:26:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "TC"
+            },
+            "reviewBody": "Toss the eggs with a little turmeric and salt and shallow fry them for 4-6 mins till evenly golden, set aside. Add to curry in the end. Throw in a bay leaf and a pinch of sugar to cut the acidity from the tomatoes.",
+            "datePublished": "2020-03-17T18:16:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Pam"
+            },
+            "reviewBody": "The picture shows four whole eggs that have been stirred in gently (still whole), and two halved eggs that are arranged yolk-up... exactly how Step 3 instructs.",
+            "datePublished": "2020-03-13T17:32:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eza"
+            },
+            "reviewBody": "Definitely fry the whole spices in the oil before adding the onions. \nOut of season I’d recommend using a tin of tomatoes and cooking them a little longer but if using fresh I’d recommend peeling first for a smoother texture in the sauce. \nAdded a little more ginger/garlic and spices for my personal taste but recipe is flavourful as is",
+            "datePublished": "2020-06-04T14:44:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Irene Foster"
+            },
+            "reviewBody": "I am an everyday sort of cook, so I feel a bit intimidated posting here with you experts. Being from India, I needed a bit more heat and flavor, so I added 3 teaspoons of Aachi Egg Curry masala (available in all Indian grocery stores). I also used a hand blender after everything was cooked to mash the tomatoes, onions and whole spices a bit. It looked lovely and tasted wonderful with chapattis.",
+            "datePublished": "2020-03-31T22:46:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "elise"
+            },
+            "reviewBody": "Great as is! I didn’t mind the tomato skins. In dishes with a lot of onions, I prefer the thinly slice to the chop. Did so to satisfying effect. Plenty of flavor even without chiles. Spouse said eating it made him feel like he was ‘in another country.’ I think we’re a little stir crazy from quarantining though.",
+            "datePublished": "2020-05-08T20:51:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A. Cleary"
+            },
+            "reviewBody": "The first part of my note got cut off somehow! Anyway, this is wonderful any time of day! I didn't have enough fresh tomatoes so used a can of Ro-Tel tomatoes with jalapeno. Just enough heat!",
+            "datePublished": "2020-05-15T18:49:27.000Z"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/root-beer-brats/",
+    "name": "Root Beer Brats",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-01-03",
+    "prepTime": "PT15M",
+    "cookTime": "PT06H00M",
+    "totalTime": "PT06H15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2017/09/Root-Beer-Brats_EXPS_SDDJ17_198301_B08_10_6b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Here's an easy recipe that's versatile, too. Serve the saucy brats over rice for one meal and have them on buns the next. For extra punch, add a splash of root beer concentrate to the sauce. &mdash;Pam Thompson, Girard, Illinois",
+    "recipeIngredient": [
+        "1 can (12 ounces) root beer",
+        "3 tablespoons cornstarch",
+        "3 teaspoons ground mustard",
+        "3 teaspoons caraway seeds",
+        "10 uncooked bratwurst links",
+        "1 large onion, coarsely chopped",
+        "1 bottle (12 ounces) chili sauce",
+        "10 hoagie buns, toasted",
+        "Optional: Thinly sliced red onion and prepared mustard"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk first 4 ingredients until blended. In a large nonstick skillet, brown bratwursts over medium-high heat. Transfer to a 4- or 5-qt. slow cooker. Add onion, chili sauce and root beer mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook, covered, on low 6-8 hours or until a thermometer inserted in sausage reads at least 160°. Serve in buns. If desired, top with onion and mustard."
+        }
+    ],
+    "recipeYield": "10 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 563 calories",
+        "fatContent": "30g fat (10g saturated fat)",
+        "cholesterolContent": "63mg cholesterol",
+        "sodiumContent": "1575mg sodium",
+        "carbohydrateContent": "54g carbohydrate (16g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "20g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-12-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Bill Garrison Jr."
+            },
+            "reviewBody": "Wow !!  GREAT flavor!! My 93-year-old dad who usually likes semi-spicy foods thought it was a little too spicy. I used just plain brats.  However, I, who do not like Thai \"spicy\" foods really enjoyed this recipe!   Could not really taste the root beer.  However, it probably gave the brats a dark-color look (almost like moose meat).  I found the resulting taste very flavorful.  I used a popular Thai sweet chili sauce.  Yes, you notice the heat a little, it kept you awake while eating it -- you do not doze off when eating this; but NOT over-powering heat at all.  Really, really flavorful taste. I will do this again without reservation. I used just a touch of mustard on the final brat, and spooned just a little of the sauce inside the bun before serving.  I used just half of a red onion.  Yes, low-heat cook for 7 hours.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

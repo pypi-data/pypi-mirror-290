@@ -1,0 +1,409 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020243-tofu-scramble#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020243-tofu-scramble",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/05/20/dining/as-tofu-scramble/merlin_154348539_7e56f903-a468-4584-851d-a97308aded59-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020243-tofu-scramble",
+    "name": "Tofu Scramble",
+    "description": "This quick scramble is a combination of flavors and textures that will surprise and delight tofu-lovers and doubters alike. Soy sauce, turmeric and cumin provide bold seasoning, while searing the block of tofu on both sides before breaking it up yields plenty of crispy bits as well as tender ones. You can add cooked vegetables, leafy greens, beans, cheese or nutritional yeast with the scallions in Step 4, though you may want to increase the seasoning depending on the amount of extras you add. You can also swap in hot sauce, mustard or tahini for the soy sauce and play around with spice combinations, but don’t skip the splash of water — it helps the tofu soak up all the flavors. Serve with toast, tortillas, salad or breakfast potatoes.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/05/20/dining/as-tofu-scramble/merlin_154348539_7e56f903-a468-4584-851d-a97308aded59-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/05/20/dining/as-tofu-scramble/merlin_154348539_7e56f903-a468-4584-851d-a97308aded59-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/05/20/dining/as-tofu-scramble/merlin_154348539_7e56f903-a468-4584-851d-a97308aded59-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/05/20/dining/as-tofu-scramble/merlin_154348539_7e56f903-a468-4584-851d-a97308aded59-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT45M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "beans, main course",
+    "keywords": "budget, cumin, scallion, soy sauce, tofu, turmeric, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1567
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 147,
+        "unsaturatedFatContent": "9 grams",
+        "carbohydrateContent": "4 grams",
+        "cholesterolContent": null,
+        "fatContent": "11 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "10 grams",
+        "saturatedFatContent": "1 gram",
+        "sodiumContent": "274 milligrams",
+        "sugarContent": "1 gram",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 (14-ounce) block firm or extra-firm tofu",
+        "1 tablespoon low-sodium soy sauce or tamari",
+        "1/2 teaspoon ground turmeric",
+        "1/2 teaspoon ground cumin",
+        "Kosher salt and black pepper",
+        "2 tablespoons canola oil",
+        "2 scallions, trimmed and thinly sliced"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cut the block of tofu in half horizontally as you would a hamburger bun. Pat both pieces dry and wrap in paper towels. If time allows, press the tofu by placing a cast-iron skillet or other heavy object on top of the wrapped tofu for about 30 minutes. (This helps remove moisture so the tofu retains its shape better during cooking.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a measuring cup or bowl, combine the soy sauce, turmeric and cumin with 2 tablespoons water."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Unwrap the tofu and season on all sides with salt and pepper. Heat the oil in a medium skillet over medium-high. Add the tofu blocks and cook until golden brown and crisp on the bottom, 3 to 4 minutes. Flip the tofu and cook until golden brown and crisp on the other side, another 3 to 4 minutes. If the tofu is emitting water, hold the tofu with a spatula and pour the water out of the pan."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Lower the heat to medium. Using a spatula or wooden spoon, break up the tofu into chunks. Add the scallions and the seasoning mixture and cook, stirring and continuing to break up the tofu, until absorbed, about 2 minutes. Serve immediately."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Klo"
+            },
+            "reviewBody": "Has anyone tried to reheat this as a leftover?",
+            "datePublished": "2024-05-13T13:29:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sean P"
+            },
+            "reviewBody": "My first ever home made tofu dish! I liked how easy this came together. I upped the spices after reading the other reviews and added onions, mushrooms, and chiles. I’ll make this again.",
+            "datePublished": "2024-05-12T00:37:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Teague"
+            },
+            "reviewBody": "I make this recipe a lot. I change it up a lot too .... tonight I added a couple of Beyond \"snausage\" patties (as we call them ) chopped up after frying, then browned/crisped the tofu in the released snausage fat.  Crumbled/chopped up the tofu with a spatula and added some minced onion and half of a large green pepper, and added the seasonings/water.  We ate this stuffed in pita with cumin/coriander spiced roasted mushrooms and a garlicky yogurt-tahini sauce.  YUM.",
+            "datePublished": "2024-04-07T02:29:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tarah"
+            },
+            "reviewBody": "Added kale in the 4th step and served with Trader Joe’s taco sauce on the side. So good!",
+            "datePublished": "2024-02-11T17:50:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chrishpl"
+            },
+            "reviewBody": "Simple and easy to prepare. I started sauteing broccoli florets and mushrooms (both stragglers in fridge) first, then kept them going once I added the tofu. Loved how easy it was to crisp the tofu. Also added seeded roma tomatoes when I added the tofu. Served with tortillas with avocado, salsa, and grated (vegan) cheddar. Perfect amount of spice for my 17yo son who doesn't like spicy stuff. A great \"breakfast for dinner\" for a lazy Saturday night-will make again!",
+            "datePublished": "2024-02-10T23:52:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "joel"
+            },
+            "reviewBody": "I added 2-3x the amount of soy sauce and turmeric - without that, the tofu didn’t taste like much.",
+            "datePublished": "2024-01-30T16:36:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathleen T."
+            },
+            "reviewBody": "Wow! Never ate tofu like this before. I’m looking for breakfast options that don’t involve eggs, because I have high cholesterol. I doubled the spices but not the soy sauce for fear it would be too salty. The potato masher worked great! Thanks for the others suggesting that technique. I ate it for breakfast with toast and sliced avocado and added sriracha. Will definitely make this again.",
+            "datePublished": "2023-12-26T15:40:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mghyde"
+            },
+            "reviewBody": "This was a great hit for dinner at our house. The pressing. salting of tofu and then searing it gave it a really great texture. I added a bunch of spices at the end, a homemade spice mix that had cumin, coriander, ajwain seeds and some other stuff and it was really good. I think a garam masala mix would go well too.",
+            "datePublished": "2023-10-03T00:48:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kim"
+            },
+            "reviewBody": "Really good! I added zucchini, black beans, nutritional yeast. Wish I had either scallions or onions.",
+            "datePublished": "2023-09-11T13:38:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nancy"
+            },
+            "reviewBody": "Wonderfully simple and simply delicious. I appreciated all the suggestions in the notes, but I was really going for quick and easy, so I just followed the recipe, except for doubling the sauce, adding a few frozen green peas for color, and sprinkling with nutritional yeast. Next time, I am going to make it the air fryer with just a little cooking spray.",
+            "datePublished": "2023-07-24T18:35:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Adrienne"
+            },
+            "reviewBody": "This tasted like nothing, even after I doubled the sauce and used onions and red and yellow peppers. So I added: red curry, Berbère spice, veg bouillon, and ginger. It had a nice amount of heat, and the flavor was great! I’m most happy that this is very healthy and quick. I will make again as I did this time and add some more veggies.",
+            "datePublished": "2023-07-23T21:04:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "I added a lot of the spices, too much probably, but my egg-hating toddler loved it for breakfast, so we'll call it a win!",
+            "datePublished": "2023-07-06T17:07:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cheryl"
+            },
+            "reviewBody": "I love this so much!!",
+            "datePublished": "2023-06-06T16:00:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jana"
+            },
+            "reviewBody": "This is wonderful made with Pumfu. If this not familiar with it, it's a tofu made out of pumpkin seeds",
+            "datePublished": "2023-05-21T19:16:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "deb"
+            },
+            "reviewBody": "This has become my go-to scramble. Cast iron skillet, sometimes with greens wilted in at the end, sometimes not. Sometimes with a little nooch in the sauce, sometimes not. It's easy, it's good. 10/10 for any time of day.",
+            "datePublished": "2023-05-15T23:19:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ESylvester"
+            },
+            "reviewBody": "This was so delicious!! What a great technique for cooking tofu that turns out crispy and satisfying. It really beats flipping cubes of tofu to get all sides crispy and the scrambled egg-like quality was great. We had in it corn tortillas with lime, cilantro, avocado, and sriracha. So good!!",
+            "datePublished": "2019-05-29T16:19:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chrishpl"
+            },
+            "reviewBody": "A really nice way to cook tofu, nice and fast. Added black beans and a handful of kale in step 4; like others, I put the mixture in some corn tortillas with avocado - and voila', an easy dinner! Will no doubt make again!",
+            "datePublished": "2020-01-21T00:55:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachel J."
+            },
+            "reviewBody": "First time I made this per the directions, and agree with the comment about blandness.\n\nMade a second time—adding onions, doubled measurements for spices and soy sauce (I used coconut aminos) and found it more to my liking.\n\nThink it’s a good recipe to tweak and ultimately make your own. Great starter for someone wondering what to do with tofu. Comes together quickly for breakfast or dinner.",
+            "datePublished": "2019-07-08T21:19:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KSel"
+            },
+            "reviewBody": "Shelley- I encourage you to consider a tofuxpress. I have long eschewed silly, one-use kitchen gadgets but this device has paid for itself many times over. (Pressing elevates inexpensive store-brand tofu) Save your books, save the paper towels, embrace the xpress! :) *not affiliated in any way, just a dork for tofu",
+            "datePublished": "2020-10-09T17:42:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charlie"
+            },
+            "reviewBody": "That is not the whole point if tofu.",
+            "datePublished": "2019-06-02T19:04:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie Mignault"
+            },
+            "reviewBody": "Use a potato masher; it works really well.",
+            "datePublished": "2020-01-27T16:22:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nili"
+            },
+            "reviewBody": "The simple first few steps of cutting, seasoning with simple salt and pepper, and searing are the clever gems of this recipe.  Good to remember that turmeric, cumin, and soy sauce are all you need.  Don't be afraid to use plenty of those spices.  Had this with garlic scapes, fried purslane, tempeh bacon, homemade salsa from the garden and mi tierra tortillas for a perfect COVID summer vegan lunch.",
+            "datePublished": "2020-07-27T23:07:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sharon"
+            },
+            "reviewBody": "It would be helpful to have the 2 tablespoons water under ingredients. Despite the intro paragraph, I overlooked it.",
+            "datePublished": "2021-02-28T19:13:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MJ"
+            },
+            "reviewBody": "Pretty good with doubled spices, diced onion subbed for scallions and a can of black beans.   \n\nMicrowave the tofu for 5\" prior to slicing in half and proceeding with the recipe... this is the quickest way to remove water from a block of tofu and helps to crisp it when frying.",
+            "datePublished": "2022-01-29T00:49:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathy R."
+            },
+            "reviewBody": "This is delicious! I sauteed broccoli florets along with the tofu. They provided a nice crunch. I added feta cheese before taking it off the heat.",
+            "datePublished": "2020-04-07T23:17:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Stephanie"
+            },
+            "reviewBody": "I happen to prefer softer tofu for my scrambles, but almost everyone recommends firm--it's a matter of preference. The searing technique is a great addition before mashing it with a potato masher. I added tons of vegetables and I skip the oil completely (just make sure the pan is really hot before you put the tofu on). If you want the eggy taste, get some Kala Namak/black salt (it's pink, though).",
+            "datePublished": "2020-07-06T17:07:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sheri"
+            },
+            "reviewBody": "So that you don't have to individually flip every piece of tofu. See the last step; you break up the seared tofu before adding seasonings.",
+            "datePublished": "2019-05-23T20:39:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie Mignault"
+            },
+            "reviewBody": "I use a potato masher to give the tofu a chopmeat texture - onions and nutritional yeast make it really delicious.",
+            "datePublished": "2020-05-09T23:03:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "reviewBody": "The comments make it clear how versatile this is. I added a can of white beans, and threw in some chopped mint and peanuts at the end. So fast and delicious.",
+            "datePublished": "2020-09-23T02:27:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Corin"
+            },
+            "reviewBody": "This was *really* good. I made double the sauce and used most of it. It’s really the kind of dish that people who don’t like tofu would like.",
+            "datePublished": "2020-02-13T03:48:20.000Z"
+        }
+    ]
+}

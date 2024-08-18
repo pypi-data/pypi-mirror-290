@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Chef Rick's Classic French Bread",
+    "url": "https://www.foodnetwork.com/recipes/chef-ricks-classic-french-bread-3381597",
+    "headline": "Chef Rick's Classic French Bread",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T16:09:46.268-05:00",
+    "dateModified": "2015-01-05T13:45:17.104-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "French Recipes,Bread,Low-Fat",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT1H20M0.000S",
+    "recipeIngredient": [
+        "3 cups bread flour",
+        "1 1/2 teaspoons kosher salt",
+        "1 tablespoon honey",
+        "1 1/4 cups warm water",
+        "1 1/2 tablespoons yeast"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "268",
+        "fatContent": "1g",
+        "saturatedFatContent": "0g",
+        "carbohydrateContent": "54g",
+        "fiberContent": "2g",
+        "sugarContent": "3g",
+        "proteinContent": "9g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "289mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add the flour, salt and honey to the bowl of a stand mixer fitted with a dough hook. Mix until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the water and yeast to a small bowl and allow it to sit for 15 minutes. Add the yeast water to the flour mixture and beat until well mixed. Put the mixing bowl in a warm place, cover and let rise until the dough is doubled in size. Punch the dough down and divide it into 6 equal parts. Form into six 6-inch loaves, cover and allow them to double in size."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 375 degrees F. Arrange the loaves on a baking sheet and bake until light brown."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Enjoy!"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 3
+    },
+    "recipeYield": "6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren H."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Kids love it i love it as well. Used agave instead of honey and still tasted and worked perfect"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valarie K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Easy and and very tasty! Will be using this from now on "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jf K."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "My 1st time trying to make French bread at home it was a success came out so much better than I thought. My daughter was so happy I made it she had eaten 2 small loafs that alone tell me how well I did and how good this recipe is.."
+        }
+    ],
+    "recipeCuisine": "french",
+    "recipeCategory": []
+}

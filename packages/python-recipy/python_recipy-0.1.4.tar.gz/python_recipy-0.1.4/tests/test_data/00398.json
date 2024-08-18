@@ -1,0 +1,251 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Delicious Vegan Hot Chocolate",
+    "datePublished": "2020-06-18T23:35:42.000-04:00",
+    "dateModified": "2022-10-03T15:12:11.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "CYMBALINE"
+        }
+    ],
+    "description": "Finally, a vegan hot cocoa recipe that actually tastes good! For best results, use plain soy milk.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/DlG4lPpPr19155Ydh1nuTOEEIgY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9431439-9ef8b00abf9f45a5b19e90c248bad8cc.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Delicious Vegan Hot Chocolate",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.1",
+        "ratingCount": "93"
+    },
+    "cookTime": "PT5M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "259 kcal",
+        "carbohydrateContent": "43 g",
+        "fiberContent": "5 g",
+        "proteinContent": "11 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "738 mg",
+        "sugarContent": "31 g",
+        "fatContent": "6 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "2.5 cups soy milk",
+        "3 tablespoons white sugar",
+        "3 tablespoons cocoa powder",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon vanilla extract",
+        "1 pinch ground cinnamon",
+        "1 pinch cayenne pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine soy milk, sugar, cocoa, salt, vanilla, cinnamon, and cayenne pepper in a saucepan; bring to a simmer over medium-high heat. Remove from heat and whisk until frothy. Serve hot."
+        }
+    ],
+    "recipeYield": [
+        "2"
+    ],
+    "totalTime": "PT10M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jenny"
+            },
+            "reviewBody": "I think i am the first person reviewing this who has actually done it with soy milk. i used vanilla soy milk and then added the vanilla extract, which gave it a very rich taste that i wasn't sure i liked. next time i used vanilla soy milk i omitted the vanilla extract from the recipe and it tasted really good!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Way too salty"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rita"
+            },
+            "reviewBody": "Delicious indeed! I served it with chocolate shavings and vegan marshmallows."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "sharontdoherty3"
+            },
+            "reviewBody": "This was great! I omitted the cayenne and I used 5 teaspoons instead of 3 Tablespoons of sugar (just to reduce the calories)."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Michelle Parke Selnick"
+            },
+            "reviewBody": "Loved it! Made with soy milk and followed the directions. This is awesome. I've always said I would make hot chocolate one day while we watch Hallmark movies and I finally did it."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "poopoo"
+            },
+            "reviewBody": "yes."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Victoria Marie"
+            },
+            "reviewBody": "Only had vanilla soymilk but it still came out delicious."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Veronika Ann Roberts"
+            },
+            "reviewBody": "I was confused about the white sugar, since this is a vegan recipe and white sugar is not vegan. I used stevia. I also used coconut milk to avoid possible GMOs in soy milk."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "rutabaga"
+            },
+            "reviewBody": "I made this exactly like the recipe stated. It was nicely flavored, but a little sweet for my tastebuds. However, my family really liked it. We've made it since with coconut milk and enjoyed that as well."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mama Jo"
+            },
+            "reviewBody": "I used 1% cow milk (so not vegan), two pinches of salt and a small handful of semisweet chocolate chips (daughter wanted to). We all loved it !!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/165500/delicious-vegan-hot-chocolate/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/77/drinks/",
+                        "name": "Drinks Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1199/drinks/hot-chocolate/",
+                        "name": "Hot Chocolate Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/165500/delicious-vegan-hot-chocolate/",
+                        "name": "Delicious Vegan Hot Chocolate"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Test Kitchen",
+                "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+        ],
+        "lastReviewed": "2022-10-03T15:12:11.000-04:00"
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Ginger-Sesame Chicken with Bok Choy and Mushrooms",
+    "datePublished": "2013-12-06T18:28:22.000-05:00",
+    "dateModified": "2015-12-28T17:04:58.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Parisi",
+            "url": "https://www.foodandwine.com/author/grace-parisi"
+        }
+    ],
+    "description": "Plus: More Chicken Recipes and Tips...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/Qz29gs9sofHXFT23xbN3WrwOSBg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ginger-sesame-chicken-with-bok-choy-and-mushrooms-xl-200308-a24cc413aaa24583ba46c224e9300d9e.jpg",
+        "height": 1027,
+        "width": 1027
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Ginger-Sesame Chicken with Bok Choy and Mushrooms",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "recipeIngredient": [
+        "1/2 cup chicken stock or canned low-sodium broth",
+        "3 tablespoons low-sodium soy sauce",
+        "1 tablespoon sherry",
+        "1 tablespoon sugar",
+        "1 teaspoon cornstarch dissolved in 1 tablespoon water",
+        "1/2 teaspoon unseasoned rice vinegar",
+        "1/2 teaspoon Asian sesame oil",
+        "1/2 teaspoon crushed red pepper",
+        "3 tablespoons canola oil",
+        "3/4 pound oyster mushrooms, thickly sliced",
+        "3/4 pound skinless, boneless chicken breast halves, cut into 1-inch pieces",
+        "Salt and freshly ground pepper",
+        "3/4 pound bok choy, thickly sliced crosswise",
+        "1 small red bell pepper, cut into 3/4-inch pieces",
+        "2 tablespoons finely chopped fresh ginger",
+        "1 garlic clove, minced"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium jar, combine the chicken stock with the soy sauce, sherry, sugar, dissolved cornstarch, rice vinegar, sesame oil and crushed red pepper and shake well."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large nonstick skillet, heat 2 teaspoons of the canola oil until shimmering. Add the oyster mushrooms and cook over high heat, stirring occasionally, until browned and tender, about 6 minutes. Transfer the mushrooms to a large plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add another 2 teaspoons of canola oil to the skillet. Season the chicken breast pieces generously with salt and pepper, add them to the skillet and cook over high heat, stirring occasionally, until they are golden and just barely cooked through, about 4 minutes. Transfer the chicken pieces to the plate with the oyster mushrooms."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add 1 tablespoon of canola oil to the skillet along with the bok choy and red pepper and cook over high heat, stirring occasionally, until crisp-tender, about 3 minutes. Transfer the vegetables to the plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the remaining 2 teaspoons of canola oil to the skillet along with the ginger and garlic and cook, stirring, just until fragrant, about 1 minute. Return the chicken and vegetables to the skillet. Shake the sauce and add it to the skillet. Bring to a boil and simmer, stirring, until slightly thickened, about 1 minute. Transfer the chicken and vegetables to a bowl and serve."
+        }
+    ],
+    "totalTime": "PT30M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "This recipe is very good. The sauce is delicious. It does need more cornstarch though to properly thicken the sauce. I adjusted it to 1 Tablespoon cornstarch. The sesame oil and crushed red pepper flakes can also be increased to enhance the flavors. I used red wine rather than sherry.",
+            "datePublished": "2020-10-31T17:24:41.342Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/ginger-sesame-chicken-with-bok-choy-and-mushrooms",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/poultry-dishes-7497047",
+                        "name": "Poultry Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/chicken-main-course-7497051",
+                        "name": "Chicken Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/ginger-sesame-chicken-with-bok-choy-and-mushrooms",
+                        "name": "Ginger-Sesame Chicken with Bok Choy and Mushrooms"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

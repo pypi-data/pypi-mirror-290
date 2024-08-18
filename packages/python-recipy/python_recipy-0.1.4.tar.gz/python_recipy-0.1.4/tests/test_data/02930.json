@@ -1,0 +1,91 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/golden-roast-chicken-sweetcorn-sage-garlic#Recipe",
+    "@type": "Recipe",
+    "description": "Shake up Sunday lunch with a whole chicken oozing with sage & garlic butter, which bastes the corn cobs and onions as they roast",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/golden-roast-chicken-with-sweetcorn-sage-garlic-ca236d3.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/golden-roast-chicken-sweetcorn-sage-garlic"
+    },
+    "name": "Golden roast chicken with sweetcorn, sage & garlic",
+    "url": "https://www.bbcgoodfood.com/recipes/golden-roast-chicken-sweetcorn-sage-garlic",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jane Hornby",
+            "url": "https://www.bbcgoodfood.com/author/janehornby"
+        }
+    ],
+    "dateModified": "2022-11-08T14:38:26+00:00",
+    "datePublished": "2014-08-12T10:35:47+01:00",
+    "headline": "Golden roast chicken with sweetcorn, sage & garlic",
+    "keywords": "2 of 5-a-day, Jane Hornby, Roast chicken, roast corn on the cob, Summer, Sunday lunch recipes",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT2H",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "443 calories",
+        "fatContent": "25 grams fat",
+        "saturatedFatContent": "8 grams saturated fat",
+        "carbohydrateContent": "11 grams carbohydrates",
+        "sugarContent": "3 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "43 grams protein",
+        "sodiumContent": "0.4 milligram of sodium"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "1 large free-range corn-fed chicken , about 2kg/4lb 8oz, taken out of the fridge 1hr before cooking",
+        "2 tbsp butter , softened",
+        "2 garlic cloves , crushed",
+        "handful small sage leaves",
+        "1 large onion , halved then thickly sliced",
+        "4 sweetcorn cobs, halved",
+        "salad and crusty bread, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 200C/180C fan/gas 6. Untie the chicken, then loosen the skin from the breast meat using your fingers. Take care not to make any rips. Season half the butter, then mash the garlic into it. Push the butter and then the sage leaves under the skin (get the sage leaves as flat and spread out as you can, so that they look nice as you bring the bird to the table). Push half the onion into the cavity, then retie the legs loosely with string. Smooth the rest of the butter all over the chicken and season generously."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the rest of the onion in a large roasting tin and set the chicken on top. Cover loosely with a large piece of foil and roast for 1 hr 40 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the foil; the chicken will be almost cooked, and the onions turning dark gold and soft. Turn the corn cobs in the cooking juices, then return to the oven for 20 mins more, turning them over halfway, until tender and catching a little colour here and there."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Insert a skewer into the thickest part of the chicken thigh. When it’s cooked, the juices that run out will be clear. Cover the whole pan loosely with foil again and let the meat rest while you dress a salad and gather everyone to the table."
+        }
+    ],
+    "recipeYield": 6,
+    "suitableForDiet": "https://schema.org/GlutenFreeDiet",
+    "totalTime": "PT2H10M"
+}

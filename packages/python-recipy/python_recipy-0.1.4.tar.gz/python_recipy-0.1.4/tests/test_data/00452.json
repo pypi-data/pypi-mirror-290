@@ -1,0 +1,126 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Mezcal Mule",
+    "datePublished": "2022-06-09T18:38:21.738-04:00",
+    "dateModified": "2023-09-25T09:11:44.452-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Elana Lepkowski",
+            "url": "https://www.simplyrecipes.com/elana-lepkowski-5091806"
+        }
+    ],
+    "description": "Looking for a new favorite cocktail? Swap vodka for mezcal and you have an earthy and smoky spin on a classic—a Mezcal Mule.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.simplyrecipes.com/thmb/JNPb5-Bk8PZuKjWwaiENNDthVvA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mezcal-Mule-LEAD-01-82b56bf47b494c2ebcf00f9d75b8c0cc.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Simply Recipes",
+        "url": "https://www.simplyrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+            "width": 1125,
+            "height": 320
+        },
+        "brand": "Simply Recipes",
+        "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/simplyrecipes",
+            "https://www.instagram.com/simplyrecipes",
+            "https://www.pinterest.com/simplyrecipes"
+        ]
+    },
+    "name": "Mezcal Mule",
+    "keywords": "mezcal mule, mezcal, lime juice, ginger beer, lime wedge, candied ginger",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "265 kcal",
+        "carbohydrateContent": "39 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "15 mg",
+        "sugarContent": "26 g",
+        "fatContent": "0 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT3M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "For cocktail 2 ounces mezcal",
+        "3/4 ounce freshly squeezed lime juice (from about 1 medium lime)",
+        "5 ounces ginger beer",
+        "For garnish",
+        "Lime wedge",
+        "Candied ginger"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make the cocktail: Fill a copper mug, or double rocks glass with ice cubes. Pour in the mezcal, lime juice, and top with ginger beer. Stir gently to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.simplyrecipes.com/thmb/njF_ZYz7NrrJaizNLSRhmehhDjY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mezcal-Mule-LEAD-06-c520f20a8e99439aaf398f2ed2a15988.jpg"
+                }
+            ],
+            "text": "Garnish and serve: Garnish with lime wedge and candied ginger on a cocktail pick. Serve. Did you love this recipe? Give us some stars below!"
+        }
+    ],
+    "recipeYield": [
+        "1",
+        "1 cocktail"
+    ],
+    "totalTime": "PT3M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.simplyrecipes.com/mezcal-mule-recipe-5270613",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/cocktail-recipes-5091324",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/classic-cocktail-recipes-5091322",
+                        "name": "Classic Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.simplyrecipes.com/mezcal-mule-recipe-5270613",
+                        "name": "Mezcal Mule"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Squid Ink Spaghetti with Bell Pepper, Calamari, Shrimp, Ricotta and Colonnata Lard",
+    "url": "https://www.foodnetwork.com/recipes/squid-ink-spaghetti-with-bell-pepper-calamari-shrimp-ricotta-and-colonnata-lard-2702436",
+    "headline": "Squid Ink Spaghetti with Bell Pepper, Calamari, Shrimp, Ricotta and Colonnata Lard",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-20T15:00:48.652-05:00",
+    "dateModified": "2015-01-16T19:14:01.664-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Italian,Shellfish Recipes,Squid Recipes,Shrimp,Bell Peppers,Spaghetti,Main Dish,Low-Fat",
+    "cookTime": "P0Y0M0DT0H45M0.000S",
+    "totalTime": "P0Y0M0DT0H55M0.000S",
+    "recipeIngredient": [
+        "1 red bell peppers",
+        "1 yellow bell pepper",
+        "3 ounces lardo ",
+        "2 cloves garlic, thinly sliced  ",
+        "1 fresh chili pepper, chopped ",
+        "Salt and freshly ground black pepper",
+        "16 ounces fresh squid ink spaghetti (or dried if fresh is not available) ",
+        "9 ounces fresh shrimp, peeled ",
+        "6 ounces fresh calamari, sliced ",
+        "2 ounces salted ricotta, grated "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "380",
+        "fatContent": "3g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "62g",
+        "fiberContent": "3g",
+        "sugarContent": "3g",
+        "proteinContent": "25g",
+        "cholesterolContent": "139mg",
+        "sodiumContent": "502mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Roast the yellow and red bell peppers directly on the flame of a stovetop until the skins char. Remove from the heat and seal in a container to cool. When cool, peel the peppers under cold running water and slice into thin strips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the lardo into small sticks and saute in a large skillet over medium heat. Slowly increase the heat in order to get the lard crispy. Once the lard is crispy, remove from the skillet and reserve. Discard half the melted fat in the skillet. Using the remaining fat, saute the garlic and chili pepper until lightly browned. Add the bell peppers and saute for 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, bring a large pot of salted water (about 5 quarts) to a boil. Add the fresh squid ink spaghetti and cook according to the package directions."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the bell pepper, garlic and chili mixture has cooked, add the shrimp and calamari and saute everything together until cooked, a few minutes. Season with salt and pepper to taste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the cooked squid ink spaghetti to the skillet and toss together until creamy. Serve topped with the crispy lard and grated salted ricotta."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "reviewCount": 1
+    },
+    "recipeYield": "6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cyntavia S."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Where can I find Squid Ink Pasta in Colorado Springs, I would love to try this recipe it looks great.<br />"
+        }
+    ],
+    "recipeCuisine": "italian",
+    "recipeCategory": []
+}

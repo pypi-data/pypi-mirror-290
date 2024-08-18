@@ -1,0 +1,139 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Shepherd&#39;s Pie",
+    "datePublished": "2011-03-11T09:54:06.000-05:00",
+    "dateModified": "2021-10-20T11:54:05.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Warm up to the convenience of this easy, comforting shepherd&#39;s pie recipe from Martha Stewart, a make-ahead dish that can be made with frozen vegetables.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/xkHYztcWFATvcJobUTKAwfCOEQQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shepherds-pie-ED102471FAM001A_horiz-fb1e1cfb20e94f17af5e4316db06eb5b.jpgitokH9XTte1g",
+        "height": 422,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/vrB8DbDM-zqASzng0.mp4",
+        "description": " ",
+        "duration": "PT4M52S",
+        "name": "Must Try Shepherd’s Pie",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/vrB8DbDM/poster.jpg?width=720",
+        "uploadDate": "2021-03-02T18:00:25.506-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Shepherd&#39;s Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.3",
+        "ratingCount": "779"
+    },
+    "keywords": "Bake, Dinner, English/Scottish, Ground beef, Main course, Mashed potatoes, Shepherd's pie",
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "1 pound ground beef chuck",
+        "1 medium onion, chopped",
+        "1 garlic clove, minced",
+        "0.25 teaspoon dried thyme",
+        "2 tablespoons ketchup",
+        "1 tablespoon all-purpose flour",
+        "1 box (10 ounces) frozen mixed vegetables (no need to thaw)",
+        "Coarse salt and ground pepper",
+        "3 cups mashed potatoes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 425 degrees. Heat a large (5-quart) heavy pot or Dutch oven over high. Cook beef, breaking up meat with a spoon, until no longer pink, 4 to 5 minutes. Add onion and garlic; cook until softened, about 4 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add thyme, ketchup, and flour; stir until combined. Add 1/2 cup water and vegetables. Cook until vegetables are warmed through and liquid has thickened, about 3 minutes. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/xkHYztcWFATvcJobUTKAwfCOEQQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shepherds-pie-ED102471FAM001A_horiz-fb1e1cfb20e94f17af5e4316db06eb5b.jpgitokH9XTte1g"
+                }
+            ],
+            "text": "Spoon beef mixture into a 2-quart baking dish. Spread potatoes evenly over beef; using a fork, decorate potatoes with lines and peaks. Place dish on a rimmed baking sheet, and bake until potatoes are lightly browned, 10 to 15 minutes. Serve."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT35M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/337369/shepherds-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/337369/shepherds-pie",
+                        "name": "Shepherd&#39;s Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

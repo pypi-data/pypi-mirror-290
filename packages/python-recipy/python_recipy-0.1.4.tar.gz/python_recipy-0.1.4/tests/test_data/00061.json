@@ -1,0 +1,153 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Melting Onions",
+    "datePublished": "2021-02-16T15:01:00.000-05:00",
+    "dateModified": "2024-04-19T17:45:11.301-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Carolyn Casner",
+            "url": "https://www.eatingwell.com/author/carolyn-casner/"
+        }
+    ],
+    "description": "Onions lose their bite and melt in your mouth when they&#39;re sliced and roasted with butter and fresh herbs and then tenderized further by braising in broth.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/pzUTSTCgOMhGJJlSTV-U0A7nG4Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/melting-onions-2000-7dda9b781b7146a6a2aebd6825876733.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/4WRqP1JG-ZrSBkzFI.mp4",
+        "description": "Onions lose their bite and melt in your mouth when they're sliced and roasted with butter and fresh herbs and then tenderized further by braising in broth. Serve alongside roasted chicken or cook them in vegetable broth for an easy, elegant vegetarian side dish.",
+        "duration": "PT1M18S",
+        "name": "Melting Onions Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/4WRqP1JG/poster.jpg?width=720",
+        "uploadDate": "2023-01-13T16:58:15.052-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Melting Onions",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "74 kcal",
+        "carbohydrateContent": "7 g",
+        "cholesterolContent": "4 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "302 mg",
+        "sugarContent": "3 g",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "4 large sweet onions (2 1/4 pounds), peeled and cut into 1-inch slices",
+        "2 tablespoons extra-virgin olive oil",
+        "1 tablespoon melted butter",
+        "1 tablespoon chopped fresh sage or thyme",
+        "1 teaspoon salt",
+        "0.5 teaspoon ground pepper",
+        "0.5 cup low-sodium vegetable or chicken broth"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Position rack in upper third of oven. Preheat to 450°F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss onions, oil, butter, sage (or thyme), salt and pepper in a large bowl. Spread in a 9-by-13-inch metal baking pan (don&#39;t use glass or ceramic, which might shatter). Roast, turning once, until browned on both sides, 30 to 35 minutes total."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.eatingwell.com/thmb/pzUTSTCgOMhGJJlSTV-U0A7nG4Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/melting-onions-2000-7dda9b781b7146a6a2aebd6825876733.jpg"
+                }
+            ],
+            "text": "Turn the onions again and carefully add broth to the pan. Continue roasting until the broth is reduced and the onions are very soft, 15 to 20 minutes more."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT10M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7888543/melting-onions/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18256/ingredients/vegetables/",
+                        "name": "Healthy Vegetable Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19309/ingredients/vegetables/onions/",
+                        "name": "Onion"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7888543/melting-onions/",
+                        "name": "Melting Onions"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jessica Ball, M.S., RD",
+                "url": "https://www.eatingwell.com/author/jessica-ball/"
+            }
+        ],
+        "lastReviewed": "2024-04-19T17:45:11.301-04:00"
+    },
+    "recipeCategory": []
+}

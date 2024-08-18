@@ -1,0 +1,110 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/brie-appetizers-with-bacon-plum-jam/",
+    "name": "Brie Appetizers with Bacon-Plum Jam",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-07-25",
+    "prepTime": "PT25M",
+    "cookTime": "PT01H15M",
+    "totalTime": "PT01H40M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Brie-Appetizers-with-Bacon-Plum-Jam_EXPS_TOHON22_142228_P2_MD_05_18_3b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Among my friends I'm known as the pork master, because I love to cook just about every cut there is. These appetizers combine soft, mild Brie cheese with a sweet-sour bacon jam that has a touch of Sriracha sauce. —Rick Pascocello, New York, New York",
+    "recipeIngredient": [
+        "1 pound bacon strips, chopped",
+        "1 cup thinly sliced sweet onion",
+        "1 shallot, finely chopped",
+        "5 garlic cloves, minced",
+        "1 cup brewed coffee",
+        "1/2 cup water",
+        "1/4 cup cider vinegar",
+        "1/4 cup pitted dried plums (prunes), coarsely chopped",
+        "3 tablespoons brown sugar",
+        "1 tablespoon maple syrup",
+        "1 tablespoon Sriracha chili sauce",
+        "1/2 teaspoon pepper",
+        "30 slices Brie cheese (1/4 inch thick)",
+        "30 slices French bread baguette (1/4 inch thick), toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, cook bacon over medium heat until partially cooked but not crisp. Remove to paper towels with a slotted spoon; drain skillet, reserving 1 tablespoon drippings."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add onion and shallot to drippings; cook and stir 5 minutes. Add garlic; cook 2 minutes longer. Stir in coffee, water, vinegar, dried plums, brown sugar, maple syrup, chili sauce and pepper. Bring to a boil. Stir in bacon. Reduce heat; simmer, uncovered, 1-1/4 to 1-1/2 hours or until liquid is syrupy, stirring occasionally. Remove from heat. Cool to room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer mixture to a food processor; pulse until jam reaches desired consistency. Place cheese slices on toasted baguette slices. Top each with 2 teaspoons jam."
+        }
+    ],
+    "recipeYield": "2-1/2 dozen.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 91 calories",
+        "fatContent": "5g fat (3g saturated fat)",
+        "cholesterolContent": "17mg cholesterol",
+        "sodiumContent": "205mg sodium",
+        "carbohydrateContent": "6g carbohydrate (3g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "4g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-10-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "KristineChayes576"
+            },
+            "reviewBody": "From one New Yorker to another, this is a 5-Star winner, delicious sweet-salty appetizer, easy to make, and everyone loved it!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-09-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Appy_Girl"
+            },
+            "reviewBody": "Sweet and Salty and slightly Dense * Perfect combo for a lovely little condiment *  This one does have a Holiday ring to it.  And Brie is the perfect cheese on which to top this snappy little relish onto.  I didn't have any dried plums so I used Dark Raisins.We found this one to be most enjoyable and easy to make. I also found the taste to be more refined the next day . Recipe can easily be halved.JanieTaste Of Home Volunteer FE.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

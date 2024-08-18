@@ -1,0 +1,146 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Potato and Salmon Salad",
+    "datePublished": "2012-07-28T18:18:57.000-04:00",
+    "dateModified": "2022-02-11T14:34:36.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Miss B"
+        }
+    ],
+    "description": "This potato and salmon salad for a crowd is tossed with a creamy dressing that everyone at your next party or potluck will love.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/UcBNEga4SsWmQpuS4Hysv1eLx-M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/868136-74e1d89a98ed4c3482a3589ff06583d5.jpg",
+        "height": 250,
+        "width": 250
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Potato and Salmon Salad",
+    "cookTime": "PT20M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "309 kcal",
+        "carbohydrateContent": "27 g",
+        "cholesterolContent": "176 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "17 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "331 mg",
+        "sugarContent": "7 g",
+        "fatContent": "14 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "nonstick cooking spray",
+        "1.5 pounds salmon fillets",
+        "salt and ground black pepper to taste",
+        "3 pounds fingerling potatoes",
+        "8 large hard-cooked eggs, divided",
+        "0.25 cup finely chopped celery",
+        "0.25 cup finely chopped onion",
+        "1 cup creamy salad dressing (such as Miracle Whip®)",
+        "0.5 cup light mayonnaise",
+        "2 tablespoons white sugar",
+        "2 tablespoons cider vinegar",
+        "2 tablespoons honey mustard"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 375 degrees F (190 degrees C). Line a baking sheet with foil and spray with nonstick spray."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange salmon fillets on the prepared baking sheet and season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake in the preheated oven until fish flakes easily with a fork, 15 to 20 minutes. Remove from the oven and let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the fish is baking, scrub potatoes and cut into 1-inch cubes. Place in a pot and cover with salted water. Boil the potatoes until fork-tender, 15 to 20 minutes. Drain and set aside to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Flake salmon and chop potatoes; transfer to a large mixing bowl. Chop 6 hard-cooked eggs and add to the salmon mixture with celery and onion."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix salad dressing, mayonnaise, sugar, vinegar, and honey mustard together in a separate bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gently mix the dressing into the salad until everything is covered. Transfer salad to a serving bowl. Cut the remaining 2 eggs into wedges and use to decorate the top of the salad."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/285899/potato-and-salmon-salad/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/217/salad/potato-salad/",
+                        "name": "Potato Salad Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/16148/salad/potato-salad/creamy-potato-salad/",
+                        "name": "Creamy Potato Salad Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/285899/potato-and-salmon-salad/",
+                        "name": "Potato and Salmon Salad"
+                    }
+                }
+            ]
+        }
+    }
+}

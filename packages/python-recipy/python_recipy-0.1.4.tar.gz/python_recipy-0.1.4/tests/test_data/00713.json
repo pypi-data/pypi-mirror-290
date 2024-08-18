@@ -1,0 +1,414 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/7210-sour-cream-cheesecake-with-vanilla-bean#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/7210-sour-cream-cheesecake-with-vanilla-bean",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2016/05/27/dining/sour-cream-cheesecake/sour-cream-cheesecake-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/7210-sour-cream-cheesecake-with-vanilla-bean",
+    "name": "Sour Cream Cheesecake With Vanilla Bean",
+    "description": "This elegant cheesecake is based on Amanda Hesser's mother's simple recipe. The crust is made of Nabisco chocolate wafers and butter. The bottom layer is a fluffy pool of cream cheese, eggs and sugar. The top is a thin layer of sour cream and sugar. Her recipe called for vanilla extract, but this one uses the seeds of one whole vanilla bean, which has a way of elevating all the other subtle flavors – cinnamon, chocolate and the tang of the sour cream and cream cheese – in a magical way.",
+    "author": {
+        "@type": "Person",
+        "name": "Amanda Hesser"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2016/05/27/dining/sour-cream-cheesecake/sour-cream-cheesecake-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/27/dining/sour-cream-cheesecake/sour-cream-cheesecake-superJumbo.jpg",
+            "height": 1356,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/27/dining/sour-cream-cheesecake/sour-cream-cheesecake-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2016/05/27/dining/sour-cream-cheesecake/sour-cream-cheesecake-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H10M",
+    "recipeYield": "12 servings",
+    "recipeCuisine": "",
+    "recipeCategory": "dessert",
+    "keywords": "cheesecake, chocolate wafers, cream cheese, egg, sour cream, sugar, vanilla bean, nut-free",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 528
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 324,
+        "unsaturatedFatContent": "8 grams",
+        "carbohydrateContent": "23 grams",
+        "cholesterolContent": null,
+        "fatContent": "24 grams",
+        "fiberContent": "0 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "14 grams",
+        "sodiumContent": "215 milligrams",
+        "sugarContent": "20 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "18 Nabisco chocolate wafers, finely crushed",
+        "1/4 teaspoon cinnamon",
+        "1/4 cup butter, melted",
+        "1 pound cream cheese, room temperature",
+        "2 eggs at room temperature, lightly beaten",
+        "2/3 cup plus 3 tablespoons sugar",
+        "1 vanilla bean, split in half lengthwise and seeds scraped",
+        "1 1/2 cups sour cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a bowl stir together crushed wafers and cinnamon with a fork. Pour in butter, and stir until mixture is moist. Press mixture into a 9-inch springform pan, forming a crust just over 1 inch high around the sides. You might think you need more wafers, but you don't. Press patiently until a tight, thin layer forms. Chill until needed."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 350 degrees with baking sheet on center rack. In an electric mixer, beat cream cheese until creamy and fluffy. Add eggs, 2/3 cup sugar and seeds from vanilla bean, and beat until very smooth. Scrape bowl with a spatula to break up lumps. Pour into crust, and place on baking sheet. Bake 25 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, blend sour cream with 3 tablespoons sugar. After 25 minutes, remove cake from oven, and let sit 5 minutes. Increase oven heat to 450 degrees. Gently spoon sour cream mixture on top, and spread evenly. Return cake to oven, and bake 7 minutes. Cool on a wire rack."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/8c51e34/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Paul Chiland"
+            },
+            "reviewBody": "Nabisco has discontinued the Chocolate Wafer Cookies, bummer. Maybe NYT could link a replacement cookie recipe so that the chocolate crust can be used. Did not know I could not get the wafers, so last minute fix was 6 ounces of Lorna Dunes with the same amount of melted butter from the recipe.",
+            "datePublished": "2024-03-17T01:35:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann Harrison"
+            },
+            "reviewBody": "Related to Amanda Hesser's mother's chocolate cheesecake crust:  for those whose arithmetic is slow, 1/3 of a cup of butter is 5tbs + 1 tsp",
+            "datePublished": "2024-02-17T21:53:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann Harrison"
+            },
+            "reviewBody": "Nabisco discontinued their chocolate wafers, but Amanda Hesser's mother Judy has a substitute.  <a href=\"https://food52.com/blog/28380-chocolate-crust-substitute-nabisco-famous-chocolate-wafers\" target=\"_blank\">https://food52.com/blog/28380-chocolate-crust-substitute-nabisco-famous-chocolate-wafers</a>",
+            "datePublished": "2024-02-17T21:37:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen Tabor"
+            },
+            "reviewBody": "This is similar to my mother's perfect cheesecake (do all Jewish mothers have one?) but hers was double the height, and that's how I'd like to make it. I would like to avoid opening the oven during baking, so how much time would one add to ensure that a double-thick cheesecake was cooked through? I can make arguments in my head for both more and less than twice the 25 minutes for the single-thickness cake.",
+            "datePublished": "2024-02-10T13:04:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Has anyone tried using vanilla bean paste in place of actual vanilla bean?",
+            "datePublished": "2023-11-20T18:20:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "diane"
+            },
+            "reviewBody": "Made in the 2 smaller spring form pans which made them higher/thicker.  Cooking longer to get to 150 internal temp.  Used the Goya chocolate cookies.",
+            "datePublished": "2023-11-16T00:02:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lynn Lozer"
+            },
+            "reviewBody": "Does anyone know why Nabisco is no longer making these wafers? I got Biscoffs today because I want to make it for Thanksgiving.\nIt just seemed odd that they would no longer make them.",
+            "datePublished": "2023-11-15T03:52:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "verucasanchez"
+            },
+            "reviewBody": "Perfect cheesecake. Used 108g of Biscoff and then added 20g more because it looked sparse. May take 5-7m more…I’ve noticed. Easy.",
+            "datePublished": "2023-10-31T14:29:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Tiereza"
+            },
+            "reviewBody": "I made this with Nabisco Chocolate Teddy Grahams, but otherwise to the letter. Great substitution, but will make 1-1/2 times the crust next time. The flavor of the crust wasn’t present enough for my taste. Wonderful cheesecake served cold after about 3 hours refrigeration once it had cooled. Next day, just as decadent.",
+            "datePublished": "2023-10-02T11:31:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny Jenny"
+            },
+            "reviewBody": "would girl scout thin mint crust be too overpowering for this? Without Famous Chocolate Wafers I figured I could might need to go through my stash, which is getting old...",
+            "datePublished": "2023-09-05T00:01:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenny Gardiner"
+            },
+            "reviewBody": "did you scrape out the Oreo filling or just leave it in there?",
+            "datePublished": "2023-09-04T22:32:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jo"
+            },
+            "reviewBody": "Excellent! My first time cooking a cheesecake and it was delicious. Used Oreo crumbs for crust and baked the crust at 350 for 10 min then chilling bef. Continuing with the rest of the recipe. Did not have vanilla seeds, nor paste so used 1 t.sp of vanilla essence. And served it with a simple strawberry coulis. My friend who’s a cheesecake fan raved about it and asked for the recipe!",
+            "datePublished": "2023-08-27T14:00:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tREXgirl"
+            },
+            "reviewBody": "I love this cheesecake and it is my new go to; given the Nabisco Cookie fiasco, I usually make with graham crackers.  However, I just ordered Dewey's Chocolate wafer cookies and will see if I like it better.  I'll let you know!",
+            "datePublished": "2023-08-24T22:02:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hazel_F"
+            },
+            "reviewBody": "Well! This is my favorite cheesecake in the world, but I've just learned that Nabisco Chocolate Wafer cookies, which have become hard enough to find, are now completely discontinued. So let's please share some ideas for good substitutes! \n<a href=\"https://www.thespruceeats.com/nabisco-famous-wafer-cookie-discontinued-7483114\" target=\"_blank\">https://www.thespruceeats.com/nabisco-famous-wafer-cookie-discontinued-7483114</a>",
+            "datePublished": "2023-04-23T18:53:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark T"
+            },
+            "reviewBody": "It didn’t set! Specifically the cream cheese layer. I followed the recipe to a T, and it was room temperature when I cut it, but the cream cheese layer did not hold. Is one supposed to refrigerate this before serving? If so, I wish it would specify that; every other recipe I’ve encountered on this app that needed refrigeration explicitly directs that in the method, and mentions it in the time estimate.\n\nOtherwise delicious cake, and it seems to be stiffer after sitting in the refrigerator.",
+            "datePublished": "2023-01-29T04:27:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chickenfog"
+            },
+            "reviewBody": "Made this w/ a graham cracker crust and lemon zest instead of vanilla. What a great texture! Super smooth, so creamy. The sour cream is delicious. It's very versatile, I'm sure. I put a little lemon curd and glazed blueberries on top. It's a Go-To recipe for sure.",
+            "datePublished": "2022-11-11T23:40:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dot Hurley"
+            },
+            "reviewBody": "Does anyone know how much vanilla extract to use if vanilla bean is not available?  Thank you.",
+            "datePublished": "2017-10-24T20:31:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gigi"
+            },
+            "reviewBody": "A two-inch piece of vanilla bean is equal to one teaspoon of vanilla extract.",
+            "datePublished": "2017-10-24T21:22:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Damon Rondeau"
+            },
+            "reviewBody": "Just so you don't have to do a research project every time you make this recipe: one chocolate Nabisco wafer weighs 6 grams. This recipe therefore calls for 108 grams (3.8 ounces) of chocolate wafers crumbs.",
+            "datePublished": "2018-01-01T15:04:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lee Norris"
+            },
+            "reviewBody": "What if you're using something other than Nabisco wafers for the crust? How many cups of some other kind of cookie does 18 crushed wafers equal?",
+            "datePublished": "2017-10-24T21:35:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kristan"
+            },
+            "reviewBody": "This recipe beats the pants off of all other chessecake recipes. I brought two of these cheesecakes to a girl's night gathering and we were all swooning! I modified one with baking cocoa powder and it ended up being the favorite. I used 2 tsp cocoa for the pie mixture and 3 tsp for the sour cream mixture to give a layered color. \nPairs well with: boxed wine, Sturgill Simpson youtube videos",
+            "datePublished": "2020-10-31T15:18:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lois Manning"
+            },
+            "reviewBody": "Years ago, I made this recipe using light cream cheese and fat-free sour cream.  After finishing his piece, one man said it was the best cheesecake he'd ever eaten.  All the tangy flavor without the cement-heavy texture of regular cheesecake.",
+            "datePublished": "2017-10-24T21:19:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ilene Africk"
+            },
+            "reviewBody": "Can I use this recipe with an 8\" spring-form pan?  I also have a 10\" springform pan.",
+            "datePublished": "2017-10-24T20:30:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane Eyrehead"
+            },
+            "reviewBody": "This is very similar the Joy of Cooking sour cream cheesecake, which is wonderful. It uses 3/4 lb. cream cheese and 1/2 teaspoon vanilla extract.  I make it with a graham cracker crust.   People have loved it for 40 years, but I'll give this one a try.",
+            "datePublished": "2017-10-01T13:05:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cherry"
+            },
+            "reviewBody": "Check out this LA Times article for conversion ratios<br/><a href=\"http://latimesblogs.latimes.com/dailydish/2011/08/test-kitchen-tips-vanilla-conversions.html\" title=\"http://latimesblogs.latimes.com/dailydish/2011/08/test-kitchen-tips-vanilla-conversions.html\" target=\"_blank\">http://latimesblogs.latimes.com/dailydish/2011/08/test-kitchen-tips-vani...</a>",
+            "datePublished": "2017-10-24T21:07:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Masha Sheinina"
+            },
+            "reviewBody": "I think the crust overpowered the vanilla flavor enough to properly showcase it. I really loved the texture and the sour cream texture though!",
+            "datePublished": "2017-10-24T20:20:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Josie"
+            },
+            "reviewBody": "Fabulous! Light and flavorful with just the right tang from the sour cream topping. Unlike many cheesecakes, it is not huge and it cuts nicely. My only caveat is that the recipe says it serves 12, but I got just 8 reasonably-sized slices.",
+            "datePublished": "2018-02-24T21:00:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patty"
+            },
+            "reviewBody": "Adjust oven rack to lower middle position and heat oven to 325°. Process graham cracker pieces in food processor to find crumbs about 30 seconds. Combine gram cracker crumbs and sugar in medium bowl, add melted butter, and toss with fork until evenly moistened. Empty Crohn's into 9 inch spring form pan and using bottom of dry measuring cup, press crumbs firmly and evenly into bottom. Big crust until fragrant and beginning to brown around edges, about 13 minutes. Let crust cool in pan on a wire ",
+            "datePublished": "2017-10-01T14:12:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "A Reader"
+            },
+            "reviewBody": "I was thinking about that as I read this recipe. I wonder whether a graham crust would be more subtle and better allow the vanilla flavor to shine.",
+            "datePublished": "2017-10-24T21:09:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michelle"
+            },
+            "reviewBody": "I added another 9 cookies to make the crust (and cinnamon and butter to match) and it worked well. I followed the timing instructions as written. This is easy and very tasty - it was a hit.",
+            "datePublished": "2017-10-24T21:13:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brandog"
+            },
+            "reviewBody": "I want to make this for a potluck.  Would I keep in in the fridge the night before?  Plastic wrap on the surface I would guess overnight, but would the crust get soggy?",
+            "datePublished": "2019-11-24T00:01:42.000Z"
+        }
+    ]
+}

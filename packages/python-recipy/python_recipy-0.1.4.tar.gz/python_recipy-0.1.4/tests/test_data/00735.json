@@ -1,0 +1,432 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1015423-apple-cranberry-slab-pie#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1015423-apple-cranberry-slab-pie",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2014/11/04/dining/apple-cranberry-slab-pie/apple-cranberry-slab-pie-articleLarge.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1015423-apple-cranberry-slab-pie",
+    "name": "Apple Cranberry Slab Pie",
+    "description": "A slab pie is nothing more than a regular pie writ large. Baked in a 9-x-13-inch pan, this pie feeds 24 but is easier to make (and to carry) than 3 separate pies. The filling was inspired by an e-mail from Pete Wells, our restaurant critic, who mused about his ideal Thanksgiving dessert; the brown sugar, ginger and rum give it a complex and more autumnal flavor than most apple pies. Serve with whipped crème fraîche and small glasses of good, aged rum. (Don't let making your own pie crust intimidate you: our pie guide has everything you need to know.)",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2014/11/04/dining/apple-cranberry-slab-pie/apple-cranberry-slab-pie-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/11/04/dining/apple-cranberry-slab-pie/apple-cranberry-slab-pie-superJumbo.jpg",
+            "height": 1359,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/11/04/dining/apple-cranberry-slab-pie/apple-cranberry-slab-pie-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2014/11/04/dining/apple-cranberry-slab-pie/apple-cranberry-slab-pie-verticalTwoByThree735-v2.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H30M",
+    "recipeYield": "18 to 24 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "apple, apple pie, dried cranberry, fresh ginger, light brown sugar, maple syrup, rum, fall, thanksgiving",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 668
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 430,
+        "unsaturatedFatContent": "6 grams",
+        "carbohydrateContent": "65 grams",
+        "cholesterolContent": null,
+        "fatContent": "18 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "11 grams",
+        "sodiumContent": "280 milligrams",
+        "sugarContent": "40 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "3 3/4 cups all-purpose flour (450 grams)",
+        "1 teaspoon fine sea salt (6 grams)",
+        "3 sticks plus 6 tablespoons butter, preferably a high-fat, European-style butter, chilled and cut into 1/2-inch pieces (15 ounces/425 grams)",
+        "6 to 8 tablespoons ice water, more as needed",
+        "6 3/4 pounds apples, preferably a mixture of Gala, Golden Delicious and Granny Smith, peeled, cored and sliced 1/4-inch thick (21 cups/about 3 kilograms)",
+        "1 1/2 packed cups light brown sugar (300 grams)",
+        "3/4 cup maple syrup",
+        "1 cup dried cranberries (150 grams)",
+        "6 tablespoons instant tapioca (75 grams)",
+        "3 tablespoons dark rum",
+        "1 1/2 teaspoons finely grated lemon zest (3 grams)",
+        "2 tablespoons lemon juice",
+        "1 tablespoon grated fresh ginger (18 grams)",
+        "1 1/4 teaspoons fine sea salt (9 grams)",
+        "2 1/4 teaspoons ground cinnamon (6 grams)",
+        "3/4 teaspoon grated nutmeg",
+        "2 tablespoons unsalted butter, diced small (1 ounce/28 grams)",
+        "1 large egg, lightly beaten",
+        "1 tablespoon heavy cream",
+        "1 1/2 tablespoons Demerara sugar (20 grams)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the crust: In a food processor, briefly pulse together flour and salt. Add butter and pulse until mixture forms chickpea-size pieces. Add ice water, 1 tablespoon at a time, and pulse until mixture is just moist enough to hold together. Form dough into two balls, one about 2/3 of dough and the other the remaining 1/3 of dough. Wrap each with plastic and flatten into disks. Refrigerate at least 1 hour and up to 2 days before rolling out and baking."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Lightly flour a work surface and remove the plastic wrap from the larger dough ball. Using a lightly floured rolling pin, roll out the dough ball to a 12-by-16-inch rectangle, dusting with flour if dough sticks. (Leave smaller dough ball in the fridge.) Transfer rolled-out dough to a 9-by-13-inch baking dish. Carefully line the pan with dough, pressing it into bottom of pan and completely up the sides. Crimp the top edges. Chill dough in fridge until ready to fill."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Roll out remaining dough ball to a 10-by-13-inch rectangle, dusting with flour if dough is sticking. Using a decorative cookie cutter (like apples, leaves or hearts), cut out dough shapes. Reroll scraps if necessary to use up as much dough as possible. Transfer cutouts to a small baking sheet. Return baking pan and sheet to refrigerator to chill while you prepare filling."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 425 degrees. Arrange a wire rack in the lowest position in the oven. Place a large rimmed baking sheet on the floor of the oven to preheat."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the filling: In a large bowl, combine apples, sugar, maple syrup, cranberries, tapioca, rum, lemon zest and juice, ginger, salt, cinnamon and nutmeg. Let mixture stand 10 minutes. Pour filling into bottom pie crust and dot with 2 tablespoons diced butter. Arrange dough cutouts on top of apple mixture, overlapping it slightly and making sure several cutout edges touch sides of pan. Whisk together egg and cream. Brush over crust; sprinkle with Demerara sugar."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Move rimmed baking sheet from oven floor to lowest rack. Place pie pan on baking sheet and bake for 20 minutes. Reduce oven temperature to 375 degrees. Continue baking until crust is golden brown and juices are bubbling thickly, 40 to 60 minutes longer. Loosely tent top of pie with foil if crust browns before filling is ready. Transfer pie to a wire rack to cool completely before serving."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marina"
+            },
+            "reviewBody": "6.75 lbs of apples after they have been cored and peeled is way too much filling for this size pan. 5.5 lbs weighed before you peel and core is what I would suggest using.",
+            "datePublished": "2023-12-25T15:46:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leila"
+            },
+            "reviewBody": "Love the flavors of this pie - really good combo. My only problem was that the crust was soggy.  Should I pre-bake?  Melissa - help!  :)",
+            "datePublished": "2023-11-25T19:16:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "miacomet"
+            },
+            "reviewBody": "This was crazy good!!! So many flavors layered in there, all blending deliciously! This will be on our Thanksgiving table from now on. Made for a 9”, deep dish pie plate, I agree with others to do half (not ⅓) of ingredients. I used small honeycrisp apples from my tree. They took awhile to peel, core, and slice so I put them in lemon water while processing. I used my own (gluten-free) pie crust recipe but otherwise didn’t change a thing.",
+            "datePublished": "2023-11-25T16:46:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kris G"
+            },
+            "reviewBody": "This pie is really good but soooooo liquidy. Had to tent the pie bc it was burning at the recommended temp and time. It is super impractical to even attempt to serve a slice because it is so thick. Decent presentation though!",
+            "datePublished": "2023-10-14T15:13:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "olivia"
+            },
+            "reviewBody": "I reduced the brown sugar and used only 1 cup, and substituted Bourbon for the rum. I also did 9 TBS of tapioca because everyone said it was too liquid. Was PERFECTION.",
+            "datePublished": "2022-11-25T16:19:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DeeDee"
+            },
+            "reviewBody": "I have been making a deep dish cranberry apple pie most of my adult life.  (I'm 69).  I also use a 9x13 cake pan.  I use a package of fresh cranberries, bad ones picked out and pulsed once or twice in the food processor,  large pieces. 12 Granny Smith apples,   3 c sugar, 2 t cinnamon and 2 T butter dotted on the filling before the top crust. Filling is a beautiful shade of red.    One of our Christmas favorites.",
+            "datePublished": "2022-04-11T13:07:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ella"
+            },
+            "reviewBody": "I used half the sugar and maple syrup because the apples I had were very sweet, and used dried cherries instead of cranberries. Also found 3 sticks of butter is plenty, same amount of flour and still had enough left over pastry for a 9 inch pie pan.",
+            "datePublished": "2021-11-25T03:35:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessica"
+            },
+            "reviewBody": "This was delicious, great flavors, but too much liquid in my opinion, and much more than I’ve ever seen in any other pie recipe. I’ve never had a pie spill-over so much juice, and I’ve made a LOT of pies. My oven was a total mess, and my house was filled with smoke from the burning sugar. I recommend putting a very large tray covered with foil on the bottom of your oven!",
+            "datePublished": "2021-11-23T15:41:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Juliet"
+            },
+            "reviewBody": "Could I make this with store bought puff pastry? (TJ's, with real butter)",
+            "datePublished": "2021-11-15T15:57:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "doemora"
+            },
+            "reviewBody": "Tapioca is something we can't have. What is a good substitute?\n\nThank you!",
+            "datePublished": "2021-11-12T03:01:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelin"
+            },
+            "reviewBody": "Crust was delicious - and it was my first time making pie crust! I found the rum flavor a bit stronger than I would have preferred. I used fresh cranberries and upped the sugar a bit. I didn't have tapioca so I used corn starch (found a conversion somewhere) and it was fine, texturally. \n\nI would make the crust again but do a different filling.",
+            "datePublished": "2021-02-19T18:43:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shavaun"
+            },
+            "reviewBody": "Great recipe and easily adaptable. Didn’t have enough apples on hand for even the 1/3 version, so made a galette with everything proportioned to the weight of the apples. It was terrific and, with a little vanilla ice cream, we didn’t need more anyway.",
+            "datePublished": "2021-01-30T01:05:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rachna"
+            },
+            "reviewBody": "Made a smaller round pie and used 1/2 the ingredients for the filling (rather than 1/3 as suggested by the tip), and it was perfect in quantity and really delicious.",
+            "datePublished": "2020-12-27T04:08:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LTCdetroit"
+            },
+            "reviewBody": "Outstanding recipe - the most popular dish on our Thanksgiving table this year! The only comment I followed the recipe to a \"T\" ;) with one important exception: there is no way 21 cups of sliced apples will fit into a 9 x 13\" baking dish. I used 14 total apples (mix of Michigan Gala and Northern Spy). Will definitely make again and again!",
+            "datePublished": "2020-11-28T16:43:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rocco"
+            },
+            "reviewBody": "This is my go-to apple pie, and it gets raves. BUT NOTE: you need HALF and not 1/3 of the filling for a 9 inch pie.",
+            "datePublished": "2020-10-26T16:33:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bonnie"
+            },
+            "reviewBody": "Can this slab pie be frozen?",
+            "datePublished": "2017-10-30T15:27:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane"
+            },
+            "reviewBody": "How far in advance can you make this pie",
+            "datePublished": "2017-10-24T23:19:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LEL"
+            },
+            "reviewBody": "Commercially dried cranberries contain added sugar.<br/>Fresh cranberries add a lot of additional liquid.<br/>If using fresh berries, simmer the filling, uncovered, for about 15 or 20 minutes to reduce moisture before filling the pie.  Baking time may be reduced--stop when the crust is golden brown.",
+            "datePublished": "2017-10-24T23:20:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Becky K"
+            },
+            "reviewBody": "I omitted the maple syrup and subbed fresh cranberries for dried, which--to me--was the perfect blend of sweet and tart. I also threw in approx. a cup of chopped pecans to up the Thanksgiving factor (and add an interesting crunch). The leaves on top came out looking gorgeous & rustic. Crust was perfect. Two thumbs up for this pie!!",
+            "datePublished": "2017-10-24T23:13:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa Clark"
+            },
+            "reviewBody": "This is the amount you need to buy when you're shopping. The apples will weigh less after peeling and coring.",
+            "datePublished": "2017-10-30T15:21:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa Clark"
+            },
+            "reviewBody": "They will get too juicy and browned in the fridge, and lose flavor. You could peel them, but don't slice.",
+            "datePublished": "2017-10-30T15:20:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "citymom92"
+            },
+            "reviewBody": "There's never enough apple pie until you make this one because it's so big. I'll never make a regular sized pie. And it turns out so pretty and delicious!",
+            "datePublished": "2017-10-30T13:12:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AH"
+            },
+            "reviewBody": "I made this with 6.75 pounds apples before peeling and coring.",
+            "datePublished": "2017-10-30T15:18:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Parker"
+            },
+            "reviewBody": "Delicious and pretty simple to create, but HUGE, even in the 9.5x13.5 dish I made it in.  By huge, I mean it was one seriously tall pie and all but bulged out of the dish. I'd post the picture I took if I could. This doesn't strike me as a slab pie, but wandering more into deep-dish territory instead.",
+            "datePublished": "2017-10-24T18:05:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia"
+            },
+            "reviewBody": "Can you cook this without the alcohol or will the flavors change to much? Anything non alcoholic I could substitute for the rum?",
+            "datePublished": "2017-11-10T21:29:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barb H."
+            },
+            "reviewBody": "This was the most phenomenal apple pie I've ever made. The family swooned over it! It will be an heirloom recipe in our household. We did have vanilla ice cream with it, but it was almost unnecessary.",
+            "datePublished": "2017-10-30T15:25:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lorene"
+            },
+            "reviewBody": "Try arrowroot or corn starch",
+            "datePublished": "2017-10-24T21:54:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carole"
+            },
+            "reviewBody": "Flour  instead of tapioca like in most apple pies.",
+            "datePublished": "2017-10-24T23:15:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "NYT Cooking"
+            },
+            "reviewBody": "Hi, Bette. Yes, cover it with plastic wrap and store it at room temperature or the fridge.",
+            "datePublished": "2017-11-21T19:57:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Melissa Clark"
+            },
+            "reviewBody": "Yes, but use a heaping 1/4 teaspoon. OR use any other double pie crust recipe, and then use this filling.",
+            "datePublished": "2017-10-30T15:20:01.000Z"
+        }
+    ]
+}

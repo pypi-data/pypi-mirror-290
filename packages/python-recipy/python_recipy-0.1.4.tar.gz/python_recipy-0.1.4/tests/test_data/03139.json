@@ -1,0 +1,86 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "Try this alongside a chicken cutlet, on a turkey sandwich, or thrown into a stir-fry.",
+    "alternativeHeadline": "Try this alongside a chicken cutlet, on a turkey sandwich, or thrown into a stir-fry.",
+    "keywords": [
+        "condiment",
+        "red cabbage",
+        "side",
+        "dairy-free",
+        "gluten-free",
+        "nut-free",
+        "vegan",
+        "vegetarian",
+        "keto",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claire Saffitz",
+            "sameAs": "https://www.bonappetit.com/contributor/claire-saffitz"
+        },
+        {
+            "@type": "Person",
+            "name": "Peden + Munk",
+            "sameAs": "https://www.bonappetit.com/contributor/peden-+ munk"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "ratingCount": 2
+    },
+    "description": "Try this alongside a chicken cutlet, on a turkey sandwich, or thrown into a stir-fry.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57accf141b334044149751e5/master/w_1828,h_1537,c_limit/salted-red-cabbage.jpg"
+    ],
+    "headline": "Salted Red Cabbage",
+    "name": "Salted Red Cabbage",
+    "recipeIngredient": [
+        "1 teaspoon fennel seeds",
+        "½ small red cabbage, core removed, leaves cut into 1-inch pieces",
+        "2 tablespoons kosher salt, plus more",
+        "3 tablespoons apple cider vinegar",
+        "3 tablespoons olive oil",
+        "Pinch of sugar",
+        "Freshly ground black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Toast fennel seeds in a dry small skillet over medium-low, tossing, until fragrant, about 2 minutes; transfer to a small bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss cabbage and 2 Tbsp. salt in a large bowl. Massage vigorously until cabbage begins to release water and soften, about 2 minutes. Rinse in cold water until no longer too salty; squeeze out excess liquid and pat dry. Toss in a large bowl with vinegar, oil, sugar, and fennel seeds. Season with pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Do Ahead: Cabbage can be made 5 days ahead. Cover and chill."
+        }
+    ],
+    "recipeYield": "Makes about 4 cups",
+    "url": "https://www.bonappetit.com/recipe/salted-red-cabbage",
+    "dateModified": "2015-12-15T11:35:33.000-05:00",
+    "datePublished": "2015-12-15T11:35:33.000-05:00",
+    "recipeCategory": []
+}

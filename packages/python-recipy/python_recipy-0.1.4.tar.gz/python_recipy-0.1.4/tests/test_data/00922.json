@@ -1,0 +1,78 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/pesto-pizza/",
+    "name": "Pesto Pizza",
+    "datePublished": "2024-03-20",
+    "dateModified": "2024-04-22",
+    "prepTime": "PT25M",
+    "cookTime": "PT10M",
+    "totalTime": "PT35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/03/Pesto-Pizza_EXPS_TOHVP23_275264_MF_11_29_PestoPizza_1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Pesto pizza is a colorful (and delicious!) twist on a typical red-sauce pizza. Accentuate pesto\\'s bright, bold flavors with a few slices of juicy tomatoes, or customize the pie with any of your favorite pizza toppings.",
+    "recipeIngredient": [
+        "1 recipe Basic Pizza Crust or 1 pound prepared pizza dough",
+        "1/2 cup prepared pesto",
+        "1-1/2 cups shredded mozzarella cheese",
+        "1 plum tomato, sliced",
+        "1/4 teaspoon coarsely ground pepper",
+        "Fresh basil leaves, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Prebake the pizza dough",
+            "text": "Preheat the oven to 400°F. Press the dough to fit a greased 14-inch pizza pan. Pinch the edges to form a rim. Bake the dough until the edges are lightly browned, 10 to 12 minutes.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Pesto-Pizza_TOHVS23_275264_MF_11_29_PestoPizza_2.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Add the pizza toppings",
+            "text": "Spread the pesto over the crust.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Pesto-Pizza_TOHVS23_275264_MF_11_29_PestoPizza_3.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Then, sprinkle it with mozzarella, and top the cheese with tomato slices and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Bake the pesto pizza",
+            "text": "On a lower oven rack, bake the pizza until it is heated through and the crust is golden brown, 10 to 12 minutes. Let the pizza stand 10 minutes before serving. If desired, garnish with fresh basil.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/04/Pesto-Pizza_TOHVP23_105578_MF_11_29_PestoPizza_1.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 265 calories",
+        "fatContent": "13g fat (4g saturated fat)",
+        "cholesterolContent": "18mg cholesterol",
+        "sodiumContent": "420mg sodium",
+        "carbohydrateContent": "27g carbohydrate (1g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "10g protein."
+    },
+    "recipeCuisine": "Europe, Italian",
+    "video": {
+        "@type": "VideoObject",
+        "name": "Pesto Pizza",
+        "description": "Check out this video for how to make Pesto Pizza",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/PestoPizzaDIYD275264112923H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2024-02-2 19:43:22",
+        "duration": "P0DT0H0M49S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2024/02/PestoPizza_DIYD_275264_112923_H.mp4"
+    }
+}

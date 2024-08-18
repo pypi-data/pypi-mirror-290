@@ -1,0 +1,110 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Steak Salad With Cucumber, Peppers, and Spicy Fish Sauce Vinaigrette Recipe",
+    "datePublished": "2013-03-29T11:11:31.000-04:00",
+    "dateModified": "2019-05-08T08:11:10.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "A fresh and crunchy steak salad with a sweet-hot fish sauce-based dressing. It can be made ahead and stored overnight to pack for a next-day lunch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/cwUU-UyISirWduJNxY5GkYG8cYw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__03__20130312-steak-salad-recipe-1-acd26a5b7b864d9ab6897f4f404475e8.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Steak Salad With Cucumber, Peppers, and Spicy Fish Sauce Vinaigrette Recipe",
+    "keywords": "make ahead, salad",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 pound flank, skirt, or boneless ribeye steak (about 1-inch thick)",
+        "Kosher salt and freshly ground black pepper",
+        "1 tablespoon vegetable oil",
+        "3 tablespoons juice from about 3 limes",
+        "1 tablespoon fish sauce (plus more to taste)",
+        "2 teaspoons dried Thai chilies (or red pepper flakes)",
+        "2 tablespoons sugar",
+        "1 medium clove garlic, finely minced (about 1 teaspoon)",
+        "1 large cucumber, peeled, split in half lengthwise, de-seeded, and cut into 1/4-inch pieces on the bias",
+        "1 large red pepper, seeds and stem removed, cut into 1/4-inch strips",
+        "2 medium shallots, thinly sliced",
+        "1/2 cup toasted peanuts",
+        "handful fresh cilantro leaves and tender stems"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Season beef on all sides with salt and pepper. Heat oil in a medium skillet over high heat until smoking. Add meat and cook, turning regularly, until well-browned on both sides and the center registers 125°F on an instand read thermometer, about 6 minutes total. (Reduce heat while cooking if necessary). Transfer steak to a cutting board and let rest for 5 minutes. slice into thin strips against the grain and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine lime juice, fish sauce, dried chili, sugar, and garlic in a large bowl and whisk until sugar is dissolved. Taste and add more fish sauce if desired."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cucumber, red pepper, shallots, peanuts, cilantro, and steak, and toss to combine. Serve immediately, or store in a sealed container in the refrigerator overnight and serve the next day. This Recipe Appears In \n Pantry Essentials: All About Fish Sauce"
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT25M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/steak-salad-with-cucumber-peppers-and-spicy-f",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/recipes-by-course-5117906",
+                        "name": "Recipes By Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/salad-recipes-5117809",
+                        "name": "Salads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/steak-salad-with-cucumber-peppers-and-spicy-f",
+                        "name": "Steak Salad With Cucumber, Peppers, and Spicy Fish Sauce Vinaigrette Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

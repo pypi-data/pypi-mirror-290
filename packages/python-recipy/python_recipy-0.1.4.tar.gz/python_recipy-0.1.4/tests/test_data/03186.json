@@ -1,0 +1,72 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "This Russian dressing, along with Swiss cheese, caramelized onions, sauerkraut, and sweet relish, helps make up the Reuben Dog.",
+    "alternativeHeadline": "This Russian dressing, along with Swiss cheese, caramelized onions, sauerkraut, and sweet relish, helps make up the Reuben Dog.",
+    "keywords": [
+        "salad dressing",
+        "sauce",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claire Saffitz",
+            "sameAs": "https://www.bonappetit.com/contributor/claire-saffitz"
+        },
+        {
+            "@type": "Person",
+            "name": "Gentl Hyers",
+            "sameAs": "https://www.bonappetit.com/contributor/gentl-hyers"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "ratingCount": 13
+    },
+    "description": "This Russian dressing, along with Swiss cheese, caramelized onions, sauerkraut, and sweet relish, helps make up the [Reuben Dog](http://www.bonappetit.com/test-kitchen/article/hot-dog-topping-ideas/).",
+    "image": [
+        "https://assets.bonappetit.com/photos/57acad6c53e63daf11a4d952/master/w_1862,h_1086,c_limit/russian-dressing.jpg"
+    ],
+    "headline": "Russian Dressing",
+    "name": "Russian Dressing",
+    "recipeIngredient": [
+        "½ cup mayonnaise",
+        "¼ cup sweet pickle relish",
+        "3 tablespoons ketchup",
+        "1 tablespoon fresh lemon juice",
+        "1 tablespoon prepared horseradish",
+        "1 teaspoon onion powder",
+        "1 teaspoon Worcestershire sauce",
+        "Kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix mayonnaise, relish, ketchup, lemon juice, horseradish, onion powder, and Worcestershire sauce in a small bowl; season with salt."
+        }
+    ],
+    "recipeYield": "Makes about 1 cup",
+    "url": "https://www.bonappetit.com/recipe/russian-dressing",
+    "dateModified": "2016-06-21T04:00:10.000-04:00",
+    "datePublished": "2016-06-21T04:00:10.000-04:00",
+    "recipeCategory": []
+}

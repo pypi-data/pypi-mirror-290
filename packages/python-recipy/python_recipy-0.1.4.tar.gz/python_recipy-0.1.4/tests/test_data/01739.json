@@ -1,0 +1,111 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Lomi Lomi",
+    "url": "https://www.foodnetwork.com/recipes/lomi-lomi-recipe-1918840",
+    "headline": "Lomi Lomi",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:57:29.399-05:00",
+    "dateModified": "2014-01-09T01:51:52.441-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "American,Hawaiian Recipes,Tomato,Vegetable,Fish,Salmon,Onion Recipes,Gluten Free",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT12H5M0.000S",
+    "recipeIngredient": [
+        "Kosher salt",
+        "1/2 pound cured salmon, diced",
+        "1/4 pound green onion, diced",
+        "4 ripe tomatoes, diced"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 8 servings",
+        "calories": "75",
+        "fatContent": "4g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "3g",
+        "fiberContent": "1g",
+        "sugarContent": "2g",
+        "proteinContent": "7g",
+        "cholesterolContent": "16mg",
+        "sodiumContent": "242mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Salt the salmon to the point where it has a light crust and let it sit in refrigerator overnight. Rinse the salt off the salmon and slice it into small pieces. Add the salmon to a large mixing bowl and add the onion and tomatoes. Mix with your hands, or as they call it in Hawaii, Lomi Lomi, a saying used locally that means 'to massage'. Serve chilled."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "6 to 8 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jolenephd"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Great recipe (the only change I make is using about  equal amount of salmon and tomatoes and onions (canned salmon work well--Great dish--have been making it this way for the past 40+ years since I live in Hawaii for several years--Very tasty, good nutrition--Great as a side dish to a meal or a snack by itself."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Loved Germaine's Luau - would recommend to anyone; however, did not love the lomi lomi. Salmon is one of my favorites and the lomi lomi was recommended by our host but this salmon salsa was too fishy for my taste. No ono. "
+        }
+    ],
+    "recipeCuisine": "american",
+    "recipeCategory": []
+}

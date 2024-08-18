@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Philly Cheesesteak Eggrolls",
+    "url": "https://www.foodnetwork.com/recipes/philly-cheesesteak-eggrolls-5567378",
+    "headline": "Philly Cheesesteak Eggrolls",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/1/23/0/DVSP84_Cheesesteak-Egg-Rolls_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1548282444193.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "The Cheesesteak Egg Rolls as Served at Moochie's Meatballs in Salt Lake City, Utah, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/1/23/0/DVSP84_Cheesesteak-Egg-Rolls_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1548282444193.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "The Cheesesteak Egg Rolls as Served at Moochie's Meatballs in Salt Lake City, Utah, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/1/23/0/DVSP84_Cheesesteak-Egg-Rolls_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1548282444193.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "The Cheesesteak Egg Rolls as Served at Moochie's Meatballs in Salt Lake City, Utah, as seen on DDD Nation, Special."
+        }
+    ],
+    "datePublished": "2019-01-25T16:18:55.167-05:00",
+    "dateModified": "2019-01-25T16:18:54.856-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "cookTime": "P0Y0M0DT0H40M0.000S",
+    "totalTime": "P0Y0M0DT1H0M0.000S",
+    "recipeIngredient": [
+        "3 tablespoons olive oil",
+        "6 fresh mushrooms, sliced 1/8-inch-thick",
+        "1 medium yellow onion, sliced",
+        "1 bell pepper, sliced into 1/8-inch-thick strips",
+        "Salt and pepper",
+        "24 ounces thinly sliced rib eye steak",
+        "12 ounces shredded mozzarella, Cheddar, Monterey Jack cheese or a mixture of all three ",
+        "12 eggroll wrappers ",
+        "Soybean or vegetable oil, for frying",
+        "Shredded cabbage, for serving (optional) ",
+        "Dipping Sauce of your choice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Coat a hot flat-top grill or frying pan on high heat with olive oil. Add mushrooms, onions and bell pepper and cook until vegetables are softened, about 5 minutes. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add rib eye and continue to cook until meat is cooked through, about 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from heat and transfer to a large non-plastic bowl. Allow to cool for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add shredded cheese to bowl and mix together until you have a homogenous mixture."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fill a small bowl with water. Take one eggroll wrapper and place it in front of you with a corner facing you. Spread 1/4 cup of the meat and cheese mixture across the center of the wrapper, going from the left to the right corner. Fold the left and right corners over the filling, then pick up the corner closest to you and fold over the filling. Roll up the eggroll, sealing shut with some water. Assemble eggrolls using the remaining wrappers and filling in the same manner."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oil in a deep-fryer to 350 degrees F. Fry eggrolls, turning once to achieve consistent browning, about 2 minutes total. Drain on paper towels."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut eggrolls in half and place on a bed of shredded cabbage. Serve with your favorite Dipping Sauce."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.5,
+        "reviewCount": 2
+    },
+    "recipeYield": "12 eggrolls",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "T.E C."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Great <br />"
+        }
+    ],
+    "recipeCategory": []
+}

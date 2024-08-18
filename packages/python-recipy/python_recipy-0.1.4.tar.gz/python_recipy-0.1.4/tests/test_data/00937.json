@@ -1,0 +1,156 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/cranberry-filled-orange-pound-cake/",
+    "name": "Cranberry-Filled Orange Pound Cake",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-11-28",
+    "prepTime": "PT25M",
+    "cookTime": "PT50M",
+    "totalTime": "PT01H15M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps173058_HC163708C11_03_8b-3.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I made this for a holiday dinner with my family. Everyone loved the cran-orange flavor and the sweet glaze drizzled on top. For a fun variation, include 2/3 cup flaked sweetened coconut when adding the orange juice to the batter, and sprinkle the finished cake with toasted coconut. —Patricia Harmon, Baden, Pennsylvania",
+    "recipeIngredient": [
+        "1 cup butter, softened",
+        "1 package (8 ounces) reduced-fat cream cheese",
+        "2 cups sugar",
+        "6 large eggs, room temperature",
+        "3 tablespoons orange juice, divided",
+        "4 teaspoons grated orange zest",
+        "3 cups all-purpose flour",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "1 can (14 ounces) whole-berry cranberry sauce",
+        "1/2 cup dried cherries",
+        "GLAZE:",
+        "1 cup confectioners' sugar",
+        "1/4 teaspoon grated orange zest",
+        "4 to 5 teaspoons orange juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°. Grease and flour a 10-in. fluted tube pan."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, cream butter, cream cheese and sugar until light and fluffy, 5-7 minutes. Add eggs, 1 at a time, beating well after each addition. Beat in 2 tablespoons orange juice and the zest. In another bowl, whisk flour, baking powder, baking soda and salt; gradually add to creamed mixture, beating just until combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, mix cranberry sauce, cherries and remaining orange juice. Spoon two-thirds of the batter into prepared pan. Spread with cranberry mixture. Top with remaining batter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake 50-60 minutes or until a toothpick inserted in center comes out clean. Loosen sides from pan with a knife. Cool in pan 10 minutes before removing to a wire rack to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, mix confectioners' sugar, orange zest and enough orange juice to reach desired consistency. Pour glaze over top of cake, allowing some to flow over sides."
+        }
+    ],
+    "recipeYield": "12 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 573 calories",
+        "fatContent": "22g fat (13g saturated fat)",
+        "cholesterolContent": "147mg cholesterol",
+        "sodiumContent": "447mg sodium",
+        "carbohydrateContent": "87g carbohydrate (57g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "9g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.75,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-04-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amm001"
+            },
+            "reviewBody": "<p>This was very good!  Made exactly as directions said - only used Dried Cranberries instead of Dried Cherries (that was all I could find).  Not overly sweet.........tart with cranberries and loved the cran-orange flavor.  Liked using the can of cranberries.....during the spring/summer - very good option instead of needing fresh like you may get in the fall.  Everyone liked it except the one who doesn't like cranberries - but even they liked the actual \"cake\" part.  Will definitely make again!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-03-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "CarlKinnison"
+            },
+            "reviewBody": "This cake was DELICIOUS...It came out perfect!!!  Nice flavor.  I used Marischino Cherries instead of dried and the filling was delicious.  I'll make this every Christmas Holiday....maybe more.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-11-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "patcook1"
+            },
+            "reviewBody": "This is my recipe and I love orange and cranberries together.  I also loved it when I added coconut to the mix.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-02-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "AmyManley"
+            },
+            "reviewBody": "The center does not cook! After baking for 1 hour it was still gooey! Gross",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

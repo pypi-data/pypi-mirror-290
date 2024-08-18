@@ -1,0 +1,405 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020085-chocolate-mug-cake#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020085-chocolate-mug-cake",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/03/30/dining/30mug-cake/merlin_151072980_3fd8a112-5e7b-4616-a9dc-506e3782f4f9-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020085-chocolate-mug-cake",
+    "name": "Chocolate Mug Cake",
+    "description": "If you Google “mug cake,” you’ll get more than 100 million results for the one-serving cake that’s baked in a mug in the microwave. Yet finding the right recipe — not too dense, not too sweet — is harder than one might hope. This version, adapted from “Baking Class: 50 Fun Recipes Kids Will Love to Bake!” by Deanna F. Cook, is great, and requires just a few pantry staples. For a molten chocolate mug cake, sprinkle the top with some mini chocolate chips before popping it into the microwave, then remove it a few seconds early. This cute little cake may have been developed for children, but everyone loves it.",
+    "author": {
+        "@type": "Person",
+        "name": "Margaux Laskey"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/03/30/dining/30mug-cake/merlin_151072980_3fd8a112-5e7b-4616-a9dc-506e3782f4f9-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/03/30/dining/30mug-cake/merlin_151072980_3fd8a112-5e7b-4616-a9dc-506e3782f4f9-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/03/30/dining/30mug-cake/merlin_151072980_3fd8a112-5e7b-4616-a9dc-506e3782f4f9-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/03/30/dining/30mug-cake/merlin_151072980_3fd8a112-5e7b-4616-a9dc-506e3782f4f9-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT5M",
+    "recipeYield": "1 serving",
+    "recipeCuisine": "american",
+    "recipeCategory": [],
+    "keywords": "chocolate cake, chocolate chip, cocoa powder, egg, kid-friendly, sugar, vanilla",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 3684
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 398,
+        "unsaturatedFatContent": "7 grams",
+        "carbohydrateContent": "58 grams",
+        "cholesterolContent": null,
+        "fatContent": "19 grams",
+        "fiberContent": "6 grams",
+        "proteinContent": "9 grams",
+        "saturatedFatContent": "11 grams",
+        "sodiumContent": "187 milligrams",
+        "sugarContent": "48 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 tablespoon unsalted butter",
+        "1 egg",
+        "A few drops vanilla extract",
+        "3 to 4 tablespoons granulated sugar, to taste",
+        "3 tablespoons unsweetened cocoa powder",
+        "A pinch of kosher salt",
+        "1 teaspoon mini chocolate chips (optional)",
+        "Confectioners’ sugar or vanilla ice cream (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Microwave the butter in a microwave-safe mug in 10-second increments until melted, 20 to 30 seconds. Crack the egg into a small bowl; add the vanilla and whisk to combine using a small whisk or fork. Pour the egg mixture into the mug over the butter and whisk to combine."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the sugar, cocoa powder and salt and whisk until mostly smooth (a few lumps are O.K.). Scrape down the sides the best you can with a spoon or a small silicone spatula. Sprinkle with mini chocolate chips, if desired."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cook in the microwave on high for 1 to 1 1/2 minutes, or until a toothpick inserted in the center comes out mostly clean. Sift a little confectioners’ sugar on top or serve with a scoop of vanilla ice cream, if desired. Dig in with a spoon."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jess Bee"
+            },
+            "reviewBody": "It’s ready fast and it is not worth it. One of those mid things you keep eating because you’re chasing the hint of how you wished it would taste. Maybe this is all mug cakes. A glob of peanut butter raised it to okay levels.",
+            "datePublished": "2024-05-28T13:39:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janyll"
+            },
+            "reviewBody": "This was nowhere near as good as my tried and true mug cake that uses flour, oil, milk, baking powder, no egg. I found it to be grainy and the serving to be awfully small with no flour to add bulk. This is an old recipe and I think a lot of progress in the mug cake universe has happened in recent years. Lots of better options from seasoned bakers can be found online.",
+            "datePublished": "2024-05-26T09:51:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alison"
+            },
+            "reviewBody": "Needs more than minimum 1T sugar. Definitely less than a minute microwave. And do not use a black mug.",
+            "datePublished": "2024-05-26T02:13:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "shannon"
+            },
+            "reviewBody": "Alright. I’m honestly surprised how cake like it is, and that the flavor is pretty good. But, I was hoping for an ooey-gooey texture and this isn’t it. Even undercooked a bit. Surprised at how well it worked, but not the recipe for me. I prefer the “microwaved chocolate pudding cake” … just wish it was simpler to make or had a “for one” version.",
+            "datePublished": "2024-05-16T19:43:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne"
+            },
+            "reviewBody": "Followed recipe exactly, quickest dessert I ever made and came out great!  Only disappointment is that the resulting cake only filled less than half of my mug",
+            "datePublished": "2024-04-24T01:49:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alej"
+            },
+            "reviewBody": "I did not trust on flourless, so I added 3 Tbs of flour, 1/4 tsp baking powder and 1Tbs milk and was sooo good, I kept 3 Tbs sugar, after reading comments I will try original recipe next time",
+            "datePublished": "2024-03-28T23:55:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sally LaRhette"
+            },
+            "reviewBody": "I loved this recipe!  it is amazing!  Thank you!",
+            "datePublished": "2024-03-23T15:54:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mojo"
+            },
+            "reviewBody": "This struck me as kinda chocolate-y rubbery scrambled eggs. Didn't meet my chocolate dessert desires.",
+            "datePublished": "2024-03-20T20:33:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "W"
+            },
+            "reviewBody": "Made this in a cereal bowl with 3T sugar, microwaved for 1 min, which resulted in a cooked cake (not gooey). Topped with some whipped cream. Yum!",
+            "datePublished": "2024-03-17T14:31:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Beth"
+            },
+            "reviewBody": "Lovely, easy, brownie-like cake! Have made it a few times and it only needs 2 tbs sugar. Trials with 3 or 4 were too sweet for us, and less didn’t change texture. Recommend spraying mug with a bit of cooking spray or can be hard to scrub off. 70 seconds in the microwave is just right.",
+            "datePublished": "2024-03-15T23:54:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meck"
+            },
+            "reviewBody": "Delicious as written! Where to get that beautiful mug?!",
+            "datePublished": "2024-03-11T15:24:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bdw"
+            },
+            "reviewBody": "microwave's power is surely critical.  700 vs 1200 requires different timing.",
+            "datePublished": "2024-03-12T00:49:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "What if you don't have a microwave?",
+            "datePublished": "2024-03-11T23:09:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Zoey"
+            },
+            "reviewBody": "I don’t know what I did wrong, but I found it much too eggy…",
+            "datePublished": "2024-03-11T17:48:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "adriano covarrubias"
+            },
+            "reviewBody": "super yummy in my tummy",
+            "datePublished": "2024-02-26T22:36:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Naomi"
+            },
+            "reviewBody": "No flour?",
+            "datePublished": "2019-03-28T23:28:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna Hawkins"
+            },
+            "reviewBody": "Poured Bailey's over mine.",
+            "datePublished": "2019-03-30T16:37:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deidre Gifford"
+            },
+            "reviewBody": "after making this 15 times; my husband and I feel we may have to test it one more time to make sure we have the steps down. Still working on the right proportion of ice cream to accompany it though so may need more than 1 more try.",
+            "datePublished": "2021-01-23T02:17:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nb"
+            },
+            "reviewBody": "If you’re expecting a French-bakery level chocolate cake, you will be sad. If you are a person who has made Pinterest mug cakes on occasion when the late night chocolate cravings hit, you will be happy. This is a good mug cake, probably because there is no raw flour taste. I cut out a tablespoon of sugar because it seemed like a lot, but then the cake didn’t taste sweet, so vanilla ice cream was a necessary addition. Your call. I’m satisfied.",
+            "datePublished": "2019-03-22T04:14:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Carrie Anderson"
+            },
+            "reviewBody": "Ok I just got off the couch and made this. Prepared as instructed but added a dash of instant espresso powder and skipped the chocolate chips. First couple bites were good so I sprayed on some Redi Whip. I’m still fascinated by how this genuinely makes a “cake” consistency. If you need a chocolate fix this is a winner. Two thumbs up.",
+            "datePublished": "2019-03-29T22:24:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bernice Yampell"
+            },
+            "reviewBody": "Does anyone know the timing for “baking” more than 1 mug cake at a time in the microwave?",
+            "datePublished": "2019-03-22T13:53:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "Made this 2 times following the recipe but for using salted butter & so eliminating pinch of kosher salt.  Chose 3T for the sugar & was plenty sweet.  Fun & delicous & looked just like photo.  The 3rd time I thought about the question someone asked about using oil instead of butter.  I didn't want to try oil (I love butter) but it made me wonder if tahini - a great chocolate partner - would work instead.  Used 1TBSP tahini plus a few drops of water in place of butter.  Worked very well.",
+            "datePublished": "2019-04-01T15:21:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Senior Staff Editor"
+            },
+            "reviewBody": "That's correct! It does not contain flour, which in my opinion, is one of the reasons it's so good! I did not have the deflated issue though. Hm...",
+            "datePublished": "2019-03-25T23:01:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Debbie"
+            },
+            "reviewBody": "Only used 1T of sugar and came out sweet enough with pronounced dark chocolate flavor.  Definitely under cook this.  1min 30 seconds is way too long and results in a very dry cake. Cook for about 50 seconds for a perfectly gooey molten cake.",
+            "datePublished": "2019-04-05T17:37:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ailia"
+            },
+            "reviewBody": "This is a great recipe! Now I want one for a lemon mug cake! WOW. Delish!",
+            "datePublished": "2019-03-21T22:36:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeannie"
+            },
+            "reviewBody": "My children have left the nest, but my inner child thinks this is yummy.",
+            "datePublished": "2019-03-19T17:08:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Holly Rubin"
+            },
+            "reviewBody": "Tried this recipe and another one that uses flour. Preferred this one.  Once you get over the idea that it isn't a cake, it's not bad, & would be fun with kids, but think for a quick fix I prefer my chocolate straight (with the alcohol on the side)!  If you're going to make this, 3T sugar was enough and 50 sec was just about right in my microwave (and still maybe a tad too long).",
+            "datePublished": "2019-04-05T20:49:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chiquita woodard"
+            },
+            "reviewBody": "I followed the recipe, except used only 2 T. sugar.  I baked in a conventional oven at 375 for 12 minutes.  Perfect.  I can't wait to make these with my granddaughters!",
+            "datePublished": "2019-04-09T14:00:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "How fun this was to make!  We used salted butter (Kerrygold) so skipped the pinch of kosher salt.  Otherwise made as written and opted for 3 TBSP sugar which was plenty sweet.  I bet this would be yummy with a tiny scoop of vanilla ice cream but alas none in the house.  This is a perfect little recipe to introduce kids to cooking or to bring out he kid in we...old...umm...well seasoned cooks who love to play in the kitchen.",
+            "datePublished": "2019-03-19T00:42:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Debra"
+            },
+            "reviewBody": "I dont own a microwave.  What can i do to cook chocolate mixture?",
+            "datePublished": "2019-03-20T08:25:38.000Z"
+        }
+    ]
+}

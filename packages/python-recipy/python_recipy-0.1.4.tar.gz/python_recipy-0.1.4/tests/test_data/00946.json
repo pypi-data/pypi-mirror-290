@@ -1,0 +1,61 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/blackened-salmon/",
+    "name": "Blackened Salmon",
+    "datePublished": "2024-05-16",
+    "dateModified": "2024-06-13",
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2024/05/Blackened-Salmon_EXPS_TOHVP24_276790_MR_05_16_1.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Blackened salmon is flaky, crisp and buttery, and its bold, spicy seasoning pairs well with tacos, salads, pasta and even sandwiches.",
+    "recipeIngredient": [
+        "2 tablespoons garlic powder",
+        "1 tablespoon salt",
+        "1 tablespoon onion powder",
+        "1 tablespoon dried oregano",
+        "1 tablespoon dried thyme",
+        "1 tablespoon cayenne pepper",
+        "1 tablespoon pepper",
+        "2-1/2 teaspoons paprika",
+        "4 salmon fillets (6 ounces each)",
+        "2 tablespoons butter"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Coat the fish with the spice mixture",
+            "text": "In a large, shallow dish, combine the garlic powder, salt, onion powder, dried oregano, dried thyme, cayenne pepper, black pepper and paprika. Add the salmon fillets to the bowl, two at a time, and turn them to coat them in the spice mixture.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/06/Blackened-Salmon-TOHVS24_276790_MR_05_16_2.jpg?fit=700,1024"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Cook the salmon",
+            "text": "In a large skillet, cook the salmon fillets in butter over medium heat until the fish just begins to flake easily with a fork, four to six minutes on each side. Editor's Tip: To ensure a perfect blackened crust every time, keep your seasoned fish cold until it's ready to hit the pan. A hot, preheated skillet and cold fish are key to getting a good sear. Do your best to let the salmon cook undisturbed. Constant contact with the hot pan will encourage that dark, blackened crust to form.",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2024/06/Blackened-Salmon-TOHVS24_276790_MR_05_16_4.jpg?fit=700,1024"
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 330 calories",
+        "fatContent": "22g fat (7g saturated fat)",
+        "cholesterolContent": "101mg cholesterol",
+        "sodiumContent": "788mg sodium",
+        "carbohydrateContent": "3g carbohydrate (0 sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "29g protein."
+    },
+    "recipeCuisine": "North America, Cajun"
+}

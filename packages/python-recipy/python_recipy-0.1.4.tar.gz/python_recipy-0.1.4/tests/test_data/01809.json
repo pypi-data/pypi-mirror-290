@@ -1,0 +1,44 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "image": [
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/359_30_1436867651.jpg?tr=w-800,h-800",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/359_30_1436867651.jpg?tr=w-800,h-600",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/359_30_1436867651.jpg?tr=w-800,h-450,fo-face"
+    ],
+    "name": "Navajo flatbreads",
+    "recipeCategory": "Sides",
+    "description": "A cross between Indian naan breads and Mexican tortillas, these flatbreads are brilliantly simple",
+    "recipeYield": "10",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+        "600 g strong white bread flour plus extra for dusting",
+        "2 heaped tablespoons baking powder ",
+        "1 teaspoon dried herbs or spices, such as thyme, parsley, sumac or crushed fennel seeds optional",
+        "6 tablespoons olive oil "
+    ],
+    "recipeInstructions": "<ol class=\"recipeSteps\"><li><i>These flatbreads are a sort of cross between Indian naan breads and Mexican tortillas. They’re used for breakfast, lunch or dinner and carry, complement or mop up whatever is being served with them. Apparently, in the old days, if a Navajo woman couldn’t whip up a batch of fluffy flatbreads, her chances of marrying a decent bloke were pretty low. No pressure! These are brilliantly simple to make.</i></li><li>Mix your flour, baking powder and herbs or spices (if using) in a large bowl with 1 heaped teaspoon of sea salt, using a fork. Make a well in the centre, then pour in the olive oil and about 150ml of warm water. Use the fork to gradually bring in the flour from the edge of the bowl, and add another splash of water if you think it’s too dry. Once it starts to combine, wet your hands and use them to really bring it all together until you have a nice ball of dough.</li><li>Dust your hands and a clean work surface with flour and knead the dough with your hands until it is smooth and elastic. This will take about 5 to 10 minutes. Pop the dough back into the bowl, dust it with a bit more flour, then cover and leave to relax.</li><li>Divide your dough into 10 equal-sized balls, then lightly oil your hands and squeeze each ball between your palms to flatten them slightly. Dust with a little flour as you go, and pat and slap the dough from the palm of one hand to the top of the other. Turn and twist the dough about in a circular movement as you go and keep slapping from hand to hand – each flatbread should be about 1cm thick. You’ll probably mess up a few, but practice makes perfect.</li><li>Normally the flatbreads are cooked as you’re making them. You can do this on a barbecue or in a non-stick frying pan on a medium heat. Cook them for a few minutes on each side and check the underside – you want them to puff up with a nice bit of golden colour. Keep them warm in a basket covered with a tea towel until you’re ready to serve them.</li><li>Serve them while they’re lovely and warm, or you can reheat them with anything from burgers, to stews and soups, to salads.</li></ol>",
+    "recipeCuisine": "american",
+    "keywords": "bread, flatbread, dairy-free, vegan, vegetarian, baked, jamies america, Bread &amp; doughs, Bread, Frying, Party food",
+    "suitableForDiet": [
+        "https://schema.org/LowLactoseDiet",
+        "https://schema.org/VeganDiet",
+        "https://schema.org/VegetarianDiet"
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Jamie Oliver"
+    },
+    "nutrition": {
+        "calories": "277 calories",
+        "fatContent": "8.6 g fat",
+        "saturatedFatContent": "1.3 g saturated fat",
+        "proteinContent": "6.9 g protein",
+        "carbohydrateContent": "45.8 g carbohydrate",
+        "sugarContent": "0.8 g sugar",
+        "sodiumContent": "0.93 g salt",
+        "fiberContent": "1.8 g fibre",
+        "@type": "NutritionInformation"
+    },
+    "datePublished": "2015-09-16"
+}

@@ -1,0 +1,144 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chocolate Polvorones (Mexican Wedding Cookies)",
+    "datePublished": "2018-10-17T00:16:13.000-04:00",
+    "dateModified": "2023-09-19T16:21:28.612-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alice Medrich",
+            "url": "https://www.eatingwell.com/author/alice-medrich/"
+        }
+    ],
+    "description": "These melt-in-your-mouth polvorones (Mexican wedding cookies) get a chocolate makeover by replacing all the nuts in the traditional version with ground chocolate. Addictive just as they are, you can also grate a little cinnamon stick over them before serving.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/_-F4keO8PgitDdOwZ5Hnk3Jea7g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5872980-d1e14f09b9244e79925a2670367e85b7.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Chocolate Polvorones (Mexican Wedding Cookies)",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "4"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "105 kcal",
+        "carbohydrateContent": "9 g",
+        "cholesterolContent": "6 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "31 mg",
+        "sugarContent": "3 g",
+        "fatContent": "7 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeIngredient": [
+        "9 ounces dark chocolate (70% cacao), coarsely chopped",
+        "1 cup all-purpose flour",
+        "1 cup whole-wheat pastry flour",
+        "0.25 cup granulated sugar",
+        "0.5 teaspoon salt",
+        "8 tablespoons unsalted butter, softened and cut into 1/2-inch pieces",
+        "6 tablespoons neutral-flavored oil, such as grapeseed or canola",
+        "2 teaspoons vanilla extract",
+        "1 tablespoon confectioners' sugar",
+        "1 (2 inch) Cinnamon stick"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Position racks in upper and lower thirds of oven; preheat to 325 degrees F. Line 2 rimmed baking sheets with parchment paper or baking mats."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine chocolate, all-purpose flour, pastry flour, granulated sugar and salt in a food processor. Pulse until the chocolate is broken into pieces ranging in size from very coarse sand to a generous 1/4 inch. Add butter, oil and vanilla. Pulse until the mixture begins to clump together. Transfer to a large bowl and mix and squeeze the dough to incorporate any remaining flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using a scant 1 tablespoon each, shape the dough into 40 balls. Place 1 1/2 inches apart on the prepared baking sheets. Bake, rotating the pans from top to bottom and front to back halfway through, until the cookie tops look dry, show a few hairline cracks and do not feel squishy when lightly pressed with a finger, 20 to 22 minutes. Cool on the pans for 5 minutes, then transfer to a wire rack to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sift confectioners&#39; sugar over the cookies. Grate cinnamon stick over the tops, if desired."
+        }
+    ],
+    "recipeYield": [
+        "40"
+    ],
+    "totalTime": "PT45M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/268765/chocolate-polvorones-mexican-wedding-cookies/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/17969/cuisines-regions/latin-american/mexican/",
+                        "name": "Healthy Mexican Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19780/cuisines-regions/latin-american/mexican/desserts/",
+                        "name": "Healthy Mexican Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/268765/chocolate-polvorones-mexican-wedding-cookies/",
+                        "name": "Chocolate Polvorones (Mexican Wedding Cookies)"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T16:21:28.612-04:00"
+    },
+    "recipeCategory": []
+}

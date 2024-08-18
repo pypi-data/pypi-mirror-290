@@ -1,0 +1,101 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Quick and Easy Pizza Bread",
+    "description": "Quick and Easy Pizza Bread - perfect for freezing so you can make individual servings later. Lotsa veggies, kid-friendly, total comfort food.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "pizza recipe, pizza bread, easy pizza bread recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/11/pizza-bread-71-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/11/pizza-bread-71-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/11/pizza-bread-71-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/11/pizza-bread-71.jpg"
+    ],
+    "url": "https://pinchofyum.com/quick-easy-pizza-bread",
+    "recipeIngredient": [
+        "1 teaspoon olive oil",
+        "3 cups chopped bell peppers (I used green, yellow, and red)",
+        "2 cups chopped mushrooms",
+        "salt to taste",
+        "1 lb. ground beef",
+        "1 1/2 cups pizza sauce",
+        "1/2 cup shredded cheddar cheese",
+        "8 small ciabatta loaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the olive oil over medium high heat. Add the peppers and saute for 5 minutes; add the mushrooms and season with salt. Saute until soft. Drain excess moisture and set aside.",
+            "name": "Veggies",
+            "url": "https://pinchofyum.com/quick-easy-pizza-bread#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Brown the hamburger with a little bit of water. Season with salt and pepper or a little seasoning salt. Break apart thoroughly with a wooden spoon. Drain off the excess moisture and combine with the veggies. Add the pizza sauce and stir to combine. Place in the fridge to cool.",
+            "name": "Hamburger",
+            "url": "https://pinchofyum.com/quick-easy-pizza-bread#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the tops off of the ciabatta loaves in a V-shape, leaving plenty of space inside the loaf for filling. Remove the filling from the fridge and mix in the cheese &#8211; if you add it while it&#8217;s hot, the cheese melts and sort of just disappears. Stuff each loaf with filling, and top with extra cheese if you want.",
+            "name": "Assembling",
+            "url": "https://pinchofyum.com/quick-easy-pizza-bread#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 400 degrees until the filling is warm and the bread is crispy on the outside. If they&#8217;re frozen, the baking will take longer (more like 20-30 minutes), but if they&#8217;re not frozen, it should only take 10-15 minutes.",
+            "name": "Baking",
+            "url": "https://pinchofyum.com/quick-easy-pizza-bread#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeYield": "8",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "2",
+        "ratingValue": "4.5"
+    },
+    "nutrition": {
+        "servingSize": "",
+        "calories": "352 calories",
+        "sugarContent": "5.6 g",
+        "sodiumContent": "690.1 mg",
+        "fatContent": "8.3 g",
+        "saturatedFatContent": "3.5 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "45 g",
+        "fiberContent": "3.8 g",
+        "proteinContent": "24.9 g",
+        "cholesterolContent": "40.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "amallia@desiretoeat"
+            },
+            "datePublished": "2013-11-05",
+            "reviewBody": "This recipe looks easy and delicious. Feel hungry now...."
+        }
+    ],
+    "datePublished": "2013-11-04",
+    "@id": "https://pinchofyum.com/quick-easy-pizza-bread#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/quick-easy-pizza-bread#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/quick-easy-pizza-bread"
+}

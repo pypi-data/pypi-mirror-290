@@ -1,0 +1,95 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Caesar Salad",
+    "keywords": "caesar salad",
+    "recipeCategory": "Side Dish",
+    "image": "https://mojo.generalmills.com/api/public/content/ceihjjlgtEyU0r4FyF3VNA_webp_base.webp?v=6c40f9f8&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Homemade Caesar Salad in 15 minutes? Yes, please! Our recipe rivals the classic Caesar salad found on many restaurant menus with the addition of the secret ingredient…anchovy paste.  ",
+    "recipeIngredient": [
+        "1/3  cup olive or vegetable oil",
+        "3  tablespoons lemon juice",
+        "2  teaspoons anchovy paste",
+        "1  teaspoon Worcestershire sauce",
+        "1/4  teaspoon salt",
+        "1/4  teaspoon ground mustard",
+        "1  garlic clove, finely chopped",
+        "1  large bunch romaine, torn into bite-size pieces (10 cups)",
+        "1  cup garlic-flavored croutons",
+        "1/3  cup grated Parmesan cheese",
+        "  Freshly ground pepper"
+    ],
+    "totalTime": "PT0H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "21",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "video": {
+        "@type": "VideoObject",
+        "name": "Learn To Make Caesar Salad",
+        "thumbnailUrl": "https://www.bettycrocker.com/-/media/GMI/Core-Sites/BC/legacy/Images/Betty-Crocker/Videos/BigRedCookbook/learn-to-make-caesar-salad.jpg?W=500",
+        "description": "You can have Caesar Salad in just minutes—Why not give it a try with this classic recipe from the Betty Crocker Cookbook.",
+        "contentUrl": "https://www.bettycrocker.com/videos/videolibrary/bigredcookbook/learn-to-make-caesar-salad",
+        "embedUrl": "https://www.youtube.com/embed/6nWXYOnt1BA",
+        "uploadDate": "08/25/2023"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix oil, lemon juice, anchovy paste, Worcestershire sauce, salt, mustard and garlic in salad bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add romaine; toss until coated. Sprinkle with croutons, cheese and pepper; toss."
+        }
+    ],
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Why does this Caesar salad dressing taste different than bottled Caesar dressing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Scratch Caesar Salad has a fresher, more pronounced briny lemony/garlic flavor than bottled dressings. Fresh Caesar salad resembles the classic restaurant Caesar salad, which is more like a vinaigrette than a creamy dressed salad."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What else can I use anchovy paste for?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Anchovy paste is a great way to boost the flavor of savory dishes! It adds depth of flavor and a little extra saltiness. Try stirring a little into your pasta sauce or beef stew. Spread it on meat like steaks or pork chops before grilling or broiling. Or keep it just for making our Caesar salad recipe! You’ll see by the reviews; this is a LOVED salad."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I make my own croutons for this salad?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Homemade croutons would make this salad even more delicious! Simply substitute homemade croutons for the purchased ones. We love the garlic variation of our <a href=\"https://www.bettycrocker.com/recipes/homemade-croutons/405c4c5b-08a5-48cd-acf2-ae1aa82c62a5 \">homemade croutons</a> on this salad--so yum!"
+            }
+        }
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "175  ",
+        "carbohydrateContent": "7  g",
+        "cholesterolContent": "5  mg",
+        "fatContent": "3  ",
+        "fiberContent": "2  g",
+        "proteinContent": "5  g",
+        "saturatedFatContent": "3  g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "430  mg"
+    },
+    "dateCreated": "01/01/2004",
+    "dateModified": "12/07/2023"
+}

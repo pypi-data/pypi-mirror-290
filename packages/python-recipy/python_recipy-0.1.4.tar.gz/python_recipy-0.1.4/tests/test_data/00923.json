@@ -1,0 +1,78 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/vegetable-kabobs-with-rice/",
+    "name": "Vegetable Kabobs with Rice",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-12",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps1831_TH0401C31B.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "My husband and I like gardening, and these kabobs are a fun way to enjoy our fresh vegetables. They're so easy to make and they can grill right along the main course.\r\n-Nancy Johnson, Connersville, Indiana",
+    "recipeIngredient": [
+        "1/2 cup Italian salad dressing",
+        "1 tablespoon minced fresh parsley",
+        "1 teaspoon dried basil",
+        "2 medium yellow squash, cut into 1-inch pieces",
+        "8 small boiling onions, peeled",
+        "8 cherry tomatoes",
+        "8 medium fresh mushrooms",
+        "2 cups hot cooked rice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, combine dressing, parsley and basil. Alternate the vegetables on eight skewers. Place on a gill rack over medium-hot heat. Baste with dressing mixture and turn frequently for 15 minutes or until vegetables are tender. To serve, place 1/2 cup rice on each place and top with two kabobs."
+        }
+    ],
+    "recipeYield": "4 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 171 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "70mg sodium",
+        "carbohydrateContent": "38g carbohydrate (0 sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "5g protein.  <B><b>Diabetic Exchanges</b>: </B>2 vegetable"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-07-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amysmess"
+            },
+            "reviewBody": "This was super simple and tasty, I added zucchini.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

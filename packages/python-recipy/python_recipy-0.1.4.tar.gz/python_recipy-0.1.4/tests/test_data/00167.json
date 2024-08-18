@@ -1,0 +1,83 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "The Perfect Lemon Drop Cocktail",
+    "author": "-Blythe-",
+    "cookTime": "PT5M",
+    "prepTime": "PT0S",
+    "totalTime": "PT5M",
+    "datePublished": "2009-02-13T17:29Z",
+    "description": "After a lot of trial and error, I finally found the perfect combination...not too sweet, not too sour, not too strong. Fresh lemon juice makes this cocktail amazing and refreshing. Also, perfect to make in a pitcher for parties (just adjust the servings).",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/35/57/47/tzpzE1Z2TqalQMoULu9R_lemondrop-cocktail-0826.jpg",
+    "recipeCategory": "Beverages",
+    "keywords": "< 15 Mins,Easy",
+    "recipeIngredient": [
+        "1   cup    simple syrup",
+        "1   cup    fresh lemon juice",
+        "3/4  cup    citrus-infused vodka"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "8"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "146.3",
+        "fatContent": "0.2",
+        "saturatedFatContent": "0",
+        "cholesterolContent": "0",
+        "sodiumContent": "1.4",
+        "carbohydrateContent": "5.6",
+        "fiberContent": "0.2",
+        "sugarContent": "2",
+        "proteinContent": "0.3"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine simple syrup, fresh lemon juice and vodka either in a shaker with ice or make in a pitcher.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Rim the glass with ultrafine baker's sugar and a slice of lemon. Voila!\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "**To make simple syrup, combine equal parts sugar to equal parts water in sauce pan. Heat until sugar is dissolved. Cool. You can also make this ahead of time and keep in the fridge.\r"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "**I buy bulk lemons from Costco. Less costly and you definitely get more for your money. I juice the lemons with an electric juicer and have even frozen some juice for later use."
+        }
+    ],
+    "recipeYield": "3 serving(s)",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "SO good! I made it with regular vodka.",
+            "datePublished": "June 03, 2016",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "The Perfect Lemon Drop Cocktail"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "DianaEatingRichly"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

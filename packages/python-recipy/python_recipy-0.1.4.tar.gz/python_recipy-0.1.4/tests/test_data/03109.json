@@ -1,0 +1,362 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Greek Baklava",
+    "datePublished": "1999-11-17T09:12:24.000-05:00",
+    "dateModified": "2023-07-20T13:07:53.181-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Donna"
+        }
+    ],
+    "description": "Baklava uses phyllo dough stacked with honey and nuts to make a sweet Greek dessert that everyone will love.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/Ey6wTWvSrhdy-5OYOd62bRxLBic=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-DDMFS-4x3-c075b25eb1bd446499b0ae04ea6d2375.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/ewWF4Q9a-K3AjnAEN.mp4",
+        "description": "Greek baklava is one of the tastiest desserts out there, but it can also seem like an intimidating recipe to make at home. Don’t worry–Nicole breaks it down and makes it easy, showing you the secrets to working with phyllo dough and more.",
+        "duration": "PT8M6S",
+        "name": "How to Make Greek Baklava with Phyllo Pastry",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/ewWF4Q9a/poster.jpg?width=720",
+        "uploadDate": "2023-07-26T15:32:13.826-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Greek Baklava",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2440"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "393 kcal",
+        "carbohydrateContent": "38 g",
+        "cholesterolContent": "27 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "6 g",
+        "saturatedFatContent": "9 g",
+        "sodiumContent": "196 mg",
+        "sugarContent": "20 g",
+        "fatContent": "26 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Greek"
+    ],
+    "recipeIngredient": [
+        "1 (16 ounce) package phyllo dough",
+        "1 pound chopped nuts",
+        "1 cup butter",
+        "1 teaspoon ground cinnamon",
+        "1 cup water",
+        "1 cup white sugar",
+        "1 teaspoon vanilla extract",
+        "0.5 cup honey"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/87Mgb-xwet_yDVA5OPzHAs9kwZM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-001-07ae1dcb30ab4f63b154a02f6ced7050.jpg"
+                }
+            ],
+            "text": "Gather all ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F(175 degrees C). Butter the bottoms and sides of a 9x13-inch pan."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/NKHKnoJ0a4td4E39_-Tz0eVD1oQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-003-07b605749e2e4b658f5d9021ace6479d.jpg"
+                }
+            ],
+            "text": "Chop nuts and toss with cinnamon. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/gPvcyLk0IFqvsS8c1kmP58rI4L0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-009-ffa990977d334a21b353af63965b04ec.jpg"
+                }
+            ],
+            "text": "Unroll phyllo dough. Cut whole stack in half to fit pan. Cover phyllo with a dampened cloth to keep from drying out as you work. Place two sheets of dough in pan, butter thoroughly. Repeat until you have 8 sheets layered."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/QukIJkclLTSaPk4e57iZ7RpMjf4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-021-6971a6c7bd514a52afe974ec1f7f664a.jpg"
+                }
+            ],
+            "text": "Sprinkle 2 to 3 tablespoons of nut mixture on top. Top with two sheets of dough, butter, nuts, layering as you go. The top layer should be about 6 to 8 sheets deep."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/s2cxpjWUn-s0ifFSK1WU96m8sAs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-038-881ddece12c14d2aa34ce71016569531.jpg"
+                }
+            ],
+            "text": "Using a sharp knife cut into diamond or square shapes all the way to the bottom of the pan. You may cut into 4 long rows then make diagonal cuts. Bake for about 50 minutes until baklava is golden and crisp."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/zcBrVnQm097K_1uWMkxHmbkdfhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-046-00102249163d423aac9f446985b87c7a.jpg"
+                }
+            ],
+            "text": "Make sauce while baklava is baking. Boil sugar and water until sugar is melted. Add vanilla and honey. Simmer for about 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/ktH5Zri4wm5dKzQfYFvvtZ9bMqI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-047-a410c92595d44a359859686ce5b6d449.jpg"
+                }
+            ],
+            "text": "Remove baklava from the oven and immediately spoon sauce over it. Let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/pyuf8isAIhLaiRz6Nixp2Kc7FRw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-mfs-STEP-049-89d5424dc6cb4ae78801af223c31eabe.jpg"
+                }
+            ],
+            "text": "Serve in cupcake papers. This freezes well. Leave it uncovered as it gets soggy if it is wrapped up."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/Ey6wTWvSrhdy-5OYOd62bRxLBic=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9454-Greek-Baklava-DDMFS-4x3-c075b25eb1bd446499b0ae04ea6d2375.jpg"
+                }
+            ],
+            "text": "Enjoy!"
+        }
+    ],
+    "recipeYield": [
+        "18"
+    ],
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "sandra lee"
+            },
+            "reviewBody": "I have made Baklava for about 30 years now, ever since my greek stepmother made it during my teenage years. At first it took me about an hour to assemble, but now only about 15 minutes. Here are the shortcuts to save time. I do let the phyllo dough thaw, but do not cut the dough and do not cover it while layering. I just drape the bottom half over the pan and then fold the top half over it, \"painting\" a thin layer of butter quickly. I use a new and clean basting paint brush, to spread a very thin layer of butter between each phyllo sheet. It is only necessary to lightly brush on the butter, not saturate. The more wrinkles the sheet has in it, the better. You just keep putting and folding the edges and that ends up making the baklava more layered and crispy. If it turns out soggy, it's from too much butter, not the sauce. Also, when you cut the Baklava before you bake it, use a sharp knife and cut to within a half inch FROM the bottom of the pan, so then when you pour the sauce into the cooled Baklava, the sauce seeps into every layer of the Baklava, but doesn't sit at the bottom. Then, cut all the way thru after the whole thing has completely cooled."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Most delicious and wonderful recipe very authentic. Thank you very much.",
+            "datePublished": "2024-05-29T22:20:36.912Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Joan MacDonald"
+            },
+            "reviewBody": "I used pecans. Followed recipe exactly. Much easier than expected. After I placed the pieces in paper cupcake liners, I made a chocolate drizzle for the top and sprinkled chopped pistachios. Pretty and delicious!",
+            "datePublished": "2024-05-18T16:39:59.016Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Simple recipe but great taste",
+            "datePublished": "2024-04-30T03:13:41.160Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Baklava is turk",
+            "datePublished": "2024-04-28T10:36:17.736Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "marni van liew"
+            },
+            "reviewBody": "I didn’t use all the butter I guess I should have poured it on lower levels. 3 layers of nuts. Used 1 package of phyllo.",
+            "datePublished": "2024-04-19T19:49:05.503Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jay W"
+            },
+            "reviewBody": "Perfect. I use almonds and pecans or pistachios and walnuts. Whatever is on sale. The rest of the recipe is dead on perfect. I've been to Turkey and Greece and this matches what I've had there.",
+            "datePublished": "2024-04-13T11:53:50.805Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-03-26T14:06:06.092Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "It was my first time and did not have the suggested pan so I improvised with a smaller one and halved the ingredients. Additionally I used walnuts and pistachios. Oh……my…… goodness!!!! It came out great!! Not too sweet, but oh so yummy!!! DEFINITELY a keeper. Thank you.",
+            "datePublished": "2024-03-23T12:04:35.818Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Erin Kirkpatrick"
+            },
+            "reviewBody": "I made this years ago and it took me a couple hours. This go round was super easy and quick. Don’t get discouraged if your first try doesn’t come out perfect. I’m still working on my presentation and cutting but it tastes amazing.",
+            "datePublished": "2024-03-18T04:58:57.352Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/9454/greek-baklava/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/731/world-cuisine/european/greek/",
+                        "name": "Greek"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1888/world-cuisine/european/greek/desserts/",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/9454/greek-baklava/",
+                        "name": "Greek Baklava"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Test Kitchen",
+                "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+        ]
+    }
+}

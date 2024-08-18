@@ -1,0 +1,159 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Kansas City Barbecue Sauce",
+    "datePublished": "2008-09-22T23:08:54.000-04:00",
+    "dateModified": "2021-05-18T13:39:24.589-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Derrick Riches",
+            "url": "https://www.thespruceeats.com/derrick-riches-331479"
+        }
+    ],
+    "description": "This version of the traditional Kansas City BBQ Sauce is a thick, sweet tomato-based sauce with a touch of heat to give it a little kick.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thespruceeats.com/thmb/7_XSRwvsxfEgyycf39MnYoIOjyk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/121710318-58ad003d5f9b58a3c9e14ce9.jpg",
+        "height": 943,
+        "width": 1415
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Spruce Eats",
+        "url": "https://www.thespruceeats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.thespruceeats.com/thmb/f3m_vtGjmtpclj77cP5o_vmsxBM=/361x109/filters:no_upscale():max_bytes(150000):strip_icc()/thespruceeats2x-a1e29f658c6a4903ad453641f794cb18.png",
+            "width": 361,
+            "height": 109
+        },
+        "brand": "The Spruce Eats",
+        "publishingPrinciples": "https://www.thespruceeats.com/about-us-4776236#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/thespruceeats/",
+            "https://www.instagram.com/thespruceeats/",
+            "https://www.pinterest.com/thespruceeats/",
+            "https://flipboard.com/@thespruceeats"
+        ]
+    },
+    "name": "Kansas City Barbecue Sauce",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "ratingCount": "81"
+    },
+    "cookTime": "PT30M",
+    "keywords": "Tomato",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "116 kcal",
+        "carbohydrateContent": "30 g",
+        "cholesterolContent": "0 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "0 g",
+        "sodiumContent": "667 mg",
+        "sugarContent": "23 g",
+        "fatContent": "0 g",
+        "servingSize": "3 cups sauce (3 portions)",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "U.S. Regional"
+    ],
+    "recipeIngredient": [
+        "1 1/4 cup/300 milliliters ketchup",
+        "1 cup/240 milliliters water",
+        "1/3 cup/80 milliliters cider vinegar",
+        "1/4 cup/60 milliliters ​ dark brown sugar",
+        "2 tablespoons/30 milliliters molasses",
+        "1 tablespoon/15 milliliters onion powder",
+        "1 tablespoon/15 milliliters garlic powder",
+        "1 tablespoon/15 milliliters black pepper",
+        "1 teaspoon/5 milliliters celery salt",
+        "1 teaspoon/5 milliliters allspice",
+        "1 teaspoon/5 milliliters cayenne (use less if desired)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Gather the ingredients."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine all ingredients in a saucepan over medium heat. Stir constantly for 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce heat to low and simmer for 20 minutes, stirring occasionally. The sauce should be good and thick. "
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove pot from heat and allow the sauce to cool for 10 to 15 minutes before using it. If making ahead of time, cool sauce for 30 minutes and then store in an airtight container."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Enjoy!"
+        }
+    ],
+    "recipeYield": "6",
+    "totalTime": "PT40M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jason Mauzey"
+            },
+            "reviewBody": "I'm from KC I skip the celery salt, allspice and water and use about 3/4 cup of honey instead."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Greg"
+            },
+            "reviewBody": "Instead of water, I use bourbon."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.thespruceeats.com/kansas-city-barbecue-sauce-recipe-333626",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/bbq-4162660",
+                        "name": "BBQ Food"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/bbq-sauces-4162647",
+                        "name": "BBQ Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.thespruceeats.com/kansas-city-barbecue-sauce-recipe-333626",
+                        "name": "Kansas City Barbecue Sauce"
+                    }
+                }
+            ]
+        }
+    }
+}

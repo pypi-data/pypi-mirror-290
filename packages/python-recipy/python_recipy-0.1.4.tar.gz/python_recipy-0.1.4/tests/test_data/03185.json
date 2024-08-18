@@ -1,0 +1,68 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Milk Crumbs Recipe",
+    "keywords": [
+        "dessert",
+        "nut-free",
+        "baking",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Christina Tosi",
+            "sameAs": "https://www.bonappetit.com/contributor/christina-tosi"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.1,
+        "ratingCount": 26
+    },
+    "description": "Milk Crumbs Recipe",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Milk Crumbs",
+    "name": "Milk Crumbs",
+    "recipeIngredient": [
+        "3/4 cup nonfat dry milk powder",
+        "1/2 cup all purpose flour",
+        "3 tablespoons sugar",
+        "2 tablespoons cornstarch",
+        "3/4 teaspoon coarse kosher salt",
+        "6 tablespoons (3/4 stick) unsalted butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 275°F. Line large rimmed baking sheet with parchment. Combine milk powder, flour, sugar, cornstarch, and coarse salt in medium bowl; toss to mix evenly. Add butter; stir with fork until clusters form. Spread mixture evenly on prepared sheet. Bake until crumbs are dry and crumbly but still pale, about 10 minutes. Cool Milk Crumbs completely on sheet. DO AHEAD Can be made 1 week ahead. Store in airtight container at room temperature."
+        }
+    ],
+    "prepTime": "15 minutes",
+    "totalTime": "1 hours",
+    "recipeYield": "Makes about 2 cups",
+    "url": "https://www.bonappetit.com/recipe/milk-crumbs",
+    "dateModified": "2010-08-04T20:00:00.000-04:00",
+    "datePublished": "2010-08-04T20:00:00.000-04:00",
+    "recipeCategory": []
+}

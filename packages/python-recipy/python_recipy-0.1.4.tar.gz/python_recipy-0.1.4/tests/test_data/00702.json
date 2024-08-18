@@ -1,0 +1,465 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020851-bittersweet-brownie-shortbread",
+    "name": "Bittersweet Brownie Shortbread",
+    "description": "These chewy bar cookies combine two all-time favorites: crumbly, buttery shortbread and bittersweet brownies. Nut lovers can mix almonds, pecans or walnuts into the brownie batter, which gives the bars a delightful crunch. But those who prefer savoring the smooth, gooey centers of their brownies can easily leave them out. In any case, be sure not to overbake the brownies. As soon as the top sets, they’re done.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H30M",
+    "recipeYield": "32 bars",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "almond, brownie, cocoa powder, shortbread, unsweetened chocolate",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 2574
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 320,
+        "unsaturatedFatContent": "7 grams",
+        "carbohydrateContent": "36 grams",
+        "cholesterolContent": null,
+        "fatContent": "19 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "4 grams",
+        "saturatedFatContent": "11 grams",
+        "sodiumContent": "161 milligrams",
+        "sugarContent": "19 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 1/2 cups/340 grams cold unsalted butter (3 sticks), cut into 1/2-inch pieces, plus more for greasing the pan",
+        "3 cups/385 grams all-purpose flour",
+        "3/4 cup/150 grams granulated sugar",
+        "1 1/4 teaspoons fine sea salt",
+        "1 cup plus 2 tablespoons unsalted butter (2 1/4 sticks)",
+        "3 ounces unsweetened chocolate, chopped",
+        "1 1/4 cups/265 grams light brown sugar",
+        "1 cup/200 grams granulated sugar",
+        "1/2 cup plus 1 tablespoon/45 grams cocoa powder",
+        "3 large eggs",
+        "1 tablespoon vanilla extract",
+        "1 1/2 cups/190 grams all-purpose flour",
+        "1/4 teaspoon fine sea salt",
+        "3/4 cup/90 grams slivered almonds, chopped walnuts or pecans (optional)",
+        "Flaky sea salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 350 degrees. Grease a 9-by-13-inch baking dish, and line with parchment paper so that there is a 2-inch overhang on the two long sides."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the shortbread: In the bowl of an electric mixer fitted with a paddle attachment or beaters, mix together flour, sugar and salt. Beat in butter on low speed until dough just comes together but is still a little crumbly. (Or pulse together ingredients in a food processor.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Press dough into prepared pan. Prick dough all over with a fork. Bake until golden, 30 to 35 minutes. Remove from oven. Raise oven temperature to 375 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "As shortbread bakes, prepare the brownie: Place butter and chocolate in a large bowl. Melt in the microwave in 30-second bursts, stirring after each burst, until smooth. (Alternatively, place bowl over a pot of simmering water, and heat chocolate and butter, stirring until smooth and melted.) Whisk in sugars and cocoa powder until smooth, then whisk in eggs and vanilla."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a medium bowl, whisk together flour and sea salt. Whisk into chocolate mixture until no streaks of flour remain. Fold in nuts, if using. Spread mixture onto the warm shortbread base. Sprinkle lightly but evenly with flaky sea salt."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bake until the top is set, the center is soft, and the edges start pulling away from the pan, 23 to 28 minutes. (A toothpick inserted into the center will come out gooey.) Transfer to a wire rack to cool completely. Cut into bars before serving."
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Bittersweet Brownie Shortbread",
+        "description": "“Sometimes you can’t decide if you want a brownie or if you want shortbread, and this way you can have them both.” Melissa Clark is here to show us how to make her Bittersweet Brownie Shortbread. The chewy bar cookies combine two all-time favorites: crumbly, buttery shortbread and fudgy brownies.",
+        "thumbnailUrl": "https://static01.nyt.com/images/2022/04/07/autossell/brownie-shortbread-thumb/brownie-shortbread-thumb-mediumThreeByTwo440.jpg",
+        "uploadDate": "2022-04-06T20:13:19.000Z",
+        "duration": "PT6M",
+        "transcript": "",
+        "contentUrl": "https://vp.nyt.com/video/2022/04/06/99853_1_MC-Brownie-Shortbread-Video_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Zoa"
+            },
+            "reviewBody": "If anyone is from Baltimore, you will enjoy this as a homemade version of Berger Cookies!",
+            "datePublished": "2024-05-28T12:28:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "janisani"
+            },
+            "reviewBody": "just pretty good. I prefer shortbread separate from brownies.",
+            "datePublished": "2024-02-17T18:22:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amy C"
+            },
+            "reviewBody": "Heaven. Made these exactly as written. The double batch is perfect for gifting and/or freezing. I cut mine in approximately 1 by 3 inch bars and got more than 3 dozen. To the sugar phobics: this recipe uses UNsweetened chocolate and cocoa powder. You need more sugar to compensate for that or risk disappointment (and $$). Melissa Clark’s recipes are rigorously tested.",
+            "datePublished": "2024-02-03T20:08:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Shan"
+            },
+            "reviewBody": "These are so good, and were a hit with friends - will definitely make again.\n\nThis seemed like too much batter for my 9x13 pan, so I divided it between a 9x13 pan and an 8x8 pan, and it worked out great! (Plus I got more cookies out of it that way!) Next time, I'll make ~2/3 of the recipe to keep everything in one pan.",
+            "datePublished": "2024-01-03T21:38:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan Miron"
+            },
+            "reviewBody": "You can just put the butter and chocolate bowl on your stovetop.  If it's front-venting, they'll melt in the first 10 minutes of the shortbread baking.",
+            "datePublished": "2023-12-21T03:53:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan Miron"
+            },
+            "reviewBody": "My first try was in Pyrex.  Yes, take them out as soon as they're warm.  But I have a batch in the oven right now.  They're more appealing if you use a properly square-cornered metal pan.  Or you can just eat the outer 1.5\" all yourself to get clean edges. :)",
+            "datePublished": "2023-12-21T03:55:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jess"
+            },
+            "reviewBody": "Amazing recipe. It has a disgusting quantity of butter, but the yield is high enough that it evens out. These took a while to make but the active time was easy enough.\n\nI let these cool in my fridge overnight before cutting them. It definitely helped with cutting evenly and not smushing the final product. However I STRONGLY recommend taking them out of the pan as soon as it is possible. I did not do that and it took about 30 minutes of creative cutting to get the Pyrex to release my cookies!",
+            "datePublished": "2023-12-06T15:21:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J.L."
+            },
+            "reviewBody": "Regarding the question about so much butter:  authentic Scottish shortbread is\nmade with butter, sugar and flour. The butter must be worked by hand to soften it.\nI was thrilled to see that the shortbread part of this recipe could be done\nwith a mixer.",
+            "datePublished": "2023-12-03T12:25:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "I just made it for the first time. Everyone loved it. I thought the shortbread needed either bore butter or less flour. I also thought the brownie would be better with less sugar so it would be closer to bittersweet.\n\nI will make it again with these small changes.",
+            "datePublished": "2023-12-03T02:10:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rose K."
+            },
+            "reviewBody": "Once again, I tediously comment that it is unnecessary to mix the dry ingredients in separate bowl.  Mix the wet ingredients,cand then dump the flour, salt, etc on top.  Then mix all the stuff together.  Don't follow this suggestion if you really are fond of washing extra bowls.",
+            "datePublished": "2023-12-02T20:58:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan Miron"
+            },
+            "reviewBody": "Yes.  If it's sweetened, it's cocoa mix, not powder.  That will never be called for unless it's VERY specifically mentioned.",
+            "datePublished": "2023-12-21T03:57:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joanne"
+            },
+            "reviewBody": "I've made this the last 2 years and people LOVE it. I always forget - is it UNSWEETENED cocoa powder?",
+            "datePublished": "2023-11-18T16:30:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "hf"
+            },
+            "reviewBody": "I second the suggestions for reducing the sugar in the brownies (reduced both by ~1/4 c) and adding espresso powder (2t gave the brownies a solid hint of coffee; might try 1T next time).  These definitely are better the next day, and keep for days thereafter in a sealed container.  Also, don't worry if you think you overbaked them a bit.  They'll still be wonderful--moist brownie--a day or so later.",
+            "datePublished": "2023-11-12T19:45:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jake"
+            },
+            "reviewBody": "I have made these as written and think they are fantastic! I tried to veganize them for a friend using a plant butter and flax meal+water for the eggs. During baking, the butter separated a bit from the brownies and was bubbling on the top, and the final texture was very dense and closer to ganache. Maybe the eggs provide a bit of leavening that I was missing with the flax meal? Might try a bit of baking powder next time, but curious if anyone else has had more success.",
+            "datePublished": "2023-08-11T19:40:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan Miron"
+            },
+            "reviewBody": "Garnishing is nice, but doubling the amount in the recipe will help immensely.  That applies to nearly every NYT recipe of any sort.",
+            "datePublished": "2023-12-21T03:58:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "TeenyWahine"
+            },
+            "reviewBody": "Very good. I halved recipe and baked shortbread for 24 minutes. Then 24 minutes for brownie. I think it could have  have used a couple minutes less on the shortbread. Don’t be shy with salt at the end. I think maybe it would be better to sprinkle after the bake. Some of my flakes sunk in and I would have like to see them more. Overall tasty of course.",
+            "datePublished": "2023-07-20T00:19:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Name Jessica"
+            },
+            "reviewBody": "For half recipe shortbread (8x8 pan)\n170g butter \n190g flour\n75g sugar\n1/2 tsp salt\n\n1/3 recipe butter is about 115g—this works well in 1/2 recipe",
+            "datePublished": "2023-07-14T13:30:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sandra"
+            },
+            "reviewBody": "I made it exactly according to the recipe. They are good, but I was not blown away.",
+            "datePublished": "2023-07-04T13:57:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ginger"
+            },
+            "reviewBody": "I’ve made a similar recipe for years but always put a tangy apricot filling in the middle. I cut up dried apricots (not sweetened), and rehydrate by cooking them on in water on low heat until they break down. I add lemon juice as they’re cooking to add more zing. The final consistency is a thick jam. It’s an astounding addition and compliment to the chocolate brownie portion.",
+            "datePublished": "2020-02-16T03:03:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robert Bitzan"
+            },
+            "reviewBody": "Could you substitute almond flour (brownie) and rice flour (shortbread) for the all-purpose flour?",
+            "datePublished": "2020-02-12T19:55:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ruth Goldstein"
+            },
+            "reviewBody": "Quick hack: Make the cookie base, cover with Trader Joe's Gluten Free Brownie Mix (or brand of your choice), bake, and eat. Done!",
+            "datePublished": "2020-02-12T16:24:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "krause"
+            },
+            "reviewBody": "For the topping, I used Katherine Hepburn's brownie recipe (also on this site). There is less sugar in that recipe and is my favorite brownie recipe. Really wonderful dessert.",
+            "datePublished": "2020-02-14T10:14:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lucy"
+            },
+            "reviewBody": "This recipe is exceptional. I highly recommend trying it, but I think there should be less sugar.",
+            "datePublished": "2020-02-12T17:07:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "beth selter"
+            },
+            "reviewBody": "Delicious.  But is 5 1/4 sticks of butter really necessary??",
+            "datePublished": "2020-02-12T22:45:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karon"
+            },
+            "reviewBody": "Delicious! I baked it as directed. I was concerned about over baking so I baked the shortbread for just than 30 min and then with the brownie for 23 min. It's perfect. And I found out why it needs to cool completely. So you don't burn your mouth. It's irresistible.",
+            "datePublished": "2020-02-14T23:48:53.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meg"
+            },
+            "reviewBody": "Exceptional recipe.  I substituted bittersweet chocolate chunks (Sharffen Berger) for unsweetened chocolate, added 2 teaspoons of espresso powder, and increased vanilla to 1 tablespoon.  It is absolutely superb.  (Cut into small pieces -- super rich)",
+            "datePublished": "2020-02-29T22:22:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "pdxcubfan"
+            },
+            "reviewBody": "This is the recipe that Ted Lasso uses when he makes shortbread for the team’s owner. Delicious - perfect accompaniment for watching the show.",
+            "datePublished": "2021-04-22T23:34:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CCKlyman"
+            },
+            "reviewBody": "The flavor of this cookie is yummy - 2 of my favorite things in one cookie.  Here’s my beef with the comments.  Every oven is different but I followed the advice of several bakers and baked the shortbread for 25 minutes til it was a light golden brown.  That was a mistake.  The shortbread was not cooked through in the middle.  Next time I will follow the recipe as written.  If it comes out dark brown, that will only add to the wonderful flavor.",
+            "datePublished": "2020-02-19T01:50:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David"
+            },
+            "reviewBody": "Julie: It may have made a difference if the oven rack was raised or lowered, as far as the shortbread getting too dark, but of course this recipe does not state where to position the oven rack.  I would think this instruction would be included, right after preheating the oven.  Maida Heatter's recipes always included position of oven rack(s).",
+            "datePublished": "2020-02-13T03:52:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lara"
+            },
+            "reviewBody": "What about a layer of crunchy peanut butter in between? I might die and go to heaven.",
+            "datePublished": "2020-02-15T07:25:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Annie"
+            },
+            "reviewBody": "Have been making my own version of this for years .. the shortbread recipe is the same but lazily, especially during holiday baking days,I resort to a brownie mix - works well enough and I just keep mum about it and no one knows or would even care if I told them.",
+            "datePublished": "2020-02-12T16:06:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "carlisle"
+            },
+            "reviewBody": "This recipe turned out the most delicious brownies I’ve ever eaten. Truly a moist brownie with the perfect taste of chocolate. Not make-your-teeth-hurt sweet and the shortbread on the bottom is...amazing. Fear not, fellow cooks, it’s easy and stupid good.",
+            "datePublished": "2020-02-19T21:00:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marylouise"
+            },
+            "reviewBody": "Interesting that today these bars taste better than yesterday! Perhaps the overnight cooling made everything come together. No more brownie separating from the shortbread, and even the shortbread is not quite as crunchy as it was last night. I agree about substituting the Katherine Hepburn brownie recipe too.",
+            "datePublished": "2020-02-14T18:37:54.000Z"
+        }
+    ]
+}

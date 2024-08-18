@@ -1,0 +1,179 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Kaya Jam Recipe",
+    "datePublished": "2013-03-14T09:40:00.000-04:00",
+    "dateModified": "2018-08-30T04:45:43.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Yvonne Ruperti",
+            "url": "https://www.seriouseats.com/yvonne-ruperti-5119058"
+        }
+    ],
+    "description": "This quick version of the popular caramelized coconut-pandan curd is spread over toast with lots of butter. Serve with soft boiled eggs and a coffee for a real Singaporean kopitiam breakfast.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/wmIn8A50zuYBL-ZlU-k6AJ2hl3E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__03__20130313-2441126-kaya-jam1-edit-0fd064ffe56e48409660a9b7aa41ce5b.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Kaya Jam Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "1",
+        "ratingCount": "1"
+    },
+    "keywords": "brunch, condiments, pandan, singapore, singapore stories, spreads",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "313 kcal",
+        "carbohydrateContent": "48 g",
+        "cholesterolContent": "116 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "10 g",
+        "sodiumContent": "57 mg",
+        "sugarContent": "46 g",
+        "fatContent": "12 g",
+        "servingSize": "makes 1 cup",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Creole",
+        "Asian"
+    ],
+    "recipeIngredient": [
+        "4 large egg yolks",
+        "1 1/2 cups coconut cream, divided",
+        "5 ounces palm sugar, grated or finely chopped",
+        "1 teaspoon clear pandan flavoring or green pandan paste, or 4 pandan leaves (see note)",
+        "Toast, soft boiled eggs, and soy sauce to serve with (see note)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In medium bowl, whisk yolks with 1/4 cup coconut cream; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In medium saucepan, heat palm sugar over medium-low heat until melted. Cook, stirring occasionally, until sugar has caramelized to a deep golden brown, 3 to 6 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Carefully whisk in remaining 1 1/4 cups coconut cream. Heat mixture, stirring until smooth. Continue to cook, stirring occasionally, until mixture has thickened slightly (foaming will have subsided and large, slow bubbles will form at the surface), about 8 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove from heat and whisk half of mixture into yolk mixture. Return everything to saucepan and gently heat over medium low heat until mixture thickens to consistency of pudding. Strain into container and chill until cold and set, at least 4 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve with toasted bread, soft boiled eggs, and soy sauce. This Recipe Appears In \n Singapore Stories: Kaya Jam"
+        }
+    ],
+    "recipeYield": [
+        "8",
+        "1 cup"
+    ],
+    "totalTime": "PT240M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marie Huynh"
+            },
+            "reviewBody": "This recipe needs editing. The instructions are incomplete and essential components are in the notes for some reason. It tries to account for both fresh pandan and extract, but in doing so, fails to be a well written recipe for either."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "midiprincess"
+            },
+            "reviewBody": "When do we add the pandan leaves/flavoring? Step 4? It isn't mentioned explicitly in the instructions"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Yvonne Ruperti"
+            },
+            "reviewBody": "@Ann_L: I think light brown sugar could be a close substitute as well.\n@bust.factor: Yes, frozen pandan should work. Make sure it has a nice aroma before using--it should smell sort of sweet-hazelnut-y. If it doesn't smell like anything then I'd use the extract."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PommeDG"
+            },
+            "reviewBody": "@Ann L: Brown sugar might be a little too heavy on the molasses. Raw cane sugar might work better."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ann_L"
+            },
+            "reviewBody": "Is the palm sugar distinctive enough that it should not be substituted with brown sugar? Looking forward to trying this recipe, thanks!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/kaya-jam-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/recipes-by-course-5117906",
+                        "name": "Recipes By Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/condiment-sauce-recipes-5117888",
+                        "name": "Condiments & Sauces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/kaya-jam-recipe",
+                        "name": "Kaya Jam Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

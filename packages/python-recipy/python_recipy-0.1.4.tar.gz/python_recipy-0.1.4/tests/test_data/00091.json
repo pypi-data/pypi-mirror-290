@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Cabbage Slaw",
+    "datePublished": "2016-06-03T00:22:01.000-04:00",
+    "dateModified": "2023-09-20T10:24:51.085-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "John Ash",
+            "url": "https://www.eatingwell.com/author/john-ash/"
+        }
+    ],
+    "description": "Although it&#39;s not a traditional topping for American tacos, cabbage slaw is an essential ingredient when making fish tacos. This colorful, vinegar-dressed coleslaw can be made in just a few minutes. Use preshredded cabbage to make it even quicker.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/PwdEYXEOUnckoJwnOcJRubN_bgs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5397134-09673c77ac8443d9b3b69d16060c6b49.jpg",
+        "height": 961,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Cabbage Slaw",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "cookTime": "PT15M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "82 kcal",
+        "carbohydrateContent": "4 g",
+        "fiberContent": "1 g",
+        "proteinContent": "1 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "153 mg",
+        "sugarContent": "2 g",
+        "fatContent": "7 g",
+        "servingSize": "4 servings, about 1/2 cup each",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "2 cups finely shredded green cabbage",
+        "0.5 cup thinly sliced red bell pepper",
+        "0.33300000429153 cup thinly sliced red onion",
+        "2 tablespoons seasoned rice vinegar",
+        "2 tablespoons extra-virgin olive oil",
+        "0.25 teaspoon salt",
+        "0.125 teaspoon freshly ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Toss cabbage, bell pepper, onion, vinegar and oil in a large bowl. Season with salt and pepper; toss again to combine."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT15M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/249629/cabbage-slaw/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18531/lifestyle-diets/vegan/side-dishes/",
+                        "name": "Healthy Vegan Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/20325/lifestyle-diets/vegan/side-dishes/vegetable/",
+                        "name": "Healthy Vegan Vegetable Side Dish Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/249629/cabbage-slaw/",
+                        "name": "Cabbage Slaw"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T10:24:51.085-04:00"
+    },
+    "recipeCategory": []
+}

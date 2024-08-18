@@ -1,0 +1,100 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Lemon-Caper Aïoli",
+    "datePublished": "2013-12-06T18:35:03.000-05:00",
+    "dateModified": "2017-05-17T12:10:41.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Grace Parisi",
+            "url": "https://www.foodandwine.com/author/grace-parisi"
+        }
+    ],
+    "description": "This quick take on a classic French aioli gets fantastic flavor from capers, tarragon and lemon juice.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/CEddduiJAkuqaWkDcetJmVfUopI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201306-xl-lemon-caper-aioli-1ffec4b0a423477fa6bf8a0ca4da0920.jpg",
+        "height": 1001,
+        "width": 1001
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Lemon-Caper Aïoli",
+    "recipeIngredient": [
+        "1/2 cup mayonnaise",
+        "1 tablespoon fresh lemon juice",
+        "1 tablespoon chopped capers",
+        "2 teaspoons chopped fresh tarragon",
+        "1 garlic clove, minced",
+        "2 tablespoons extra-virgin olive oil",
+        "Salt",
+        "Freshly ground pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, whisk the mayonnaise with the lemon juice, capers, tarragon and garlic. Whisk in the olive oil in a steady stream and season with salt and pepper. Use on grilled chicken, pork, fish and shellfish."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/lemon-caper-aioli",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sauces-condiments-preserves-7497095",
+                        "name": "Sauces, Condiments and Preserves"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/condiments/cream-sauce/mayonnaise",
+                        "name": "Mayonnaise & Aioli"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/lemon-caper-aioli",
+                        "name": "Lemon-Caper Aïoli"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

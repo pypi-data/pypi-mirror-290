@@ -1,0 +1,109 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Caprese Penne",
+    "description": "This easy vegetarian caprese penne pasta features sweet cherry tomatoes, mozzarella, and fresh basil. Simple and delicious! Adapted from How Sweet It Is.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "caprese penne pasta, caprese pasta",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Caprese-Penne-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Caprese-Penne-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Caprese-Penne-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/2013/04/Caprese-Penne.jpg"
+    ],
+    "url": "https://pinchofyum.com/caprese-penne",
+    "recipeIngredient": [
+        "1/2 box whole wheat penne",
+        "1 cup of your favorite tomato sauce",
+        "1/4 cup sour cream",
+        "1/2 cup parmesan cheese",
+        "fresh mozzarella, sliced (sliced provolone works in a pinch)",
+        "1 pint of cherry tomatoes (some halved, some left whole)",
+        "1 bunch of fresh basil leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400 degrees F. Boil water and cook pasta according to directions.",
+            "url": "https://pinchofyum.com/caprese-penne#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While pasta is cooking, heat tomato sauce over low heat in a large saucepan. Once warm, stir in sour cream and grated parmesan.",
+            "url": "https://pinchofyum.com/caprese-penne#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Once pasta is done cooking, drain and dump into the sauce, mixing to coat and turning off heat. Add the tomatoes and a few chopped basil leaves. Once combined, spray a baking dish with non-stick spray and pour the entire pasta mixture into the dish. Top with the sliced cheese (as much as you want).",
+            "url": "https://pinchofyum.com/caprese-penne#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake for 10-15 minutes, or until cheese is golden and bubbly. Top with additional fresh basil!",
+            "url": "https://pinchofyum.com/caprese-penne#instruction-step-4"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT35M",
+    "totalTime": "PT45M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "2",
+        "ratingValue": "5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "335 calories",
+        "sugarContent": "6.5 g",
+        "sodiumContent": "276.1 mg",
+        "fatContent": "9.8 g",
+        "saturatedFatContent": "4.9 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "49.3 g",
+        "fiberContent": "7.1 g",
+        "proteinContent": "17 g",
+        "cholesterolContent": "24.8 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "free freecell solitaire"
+            },
+            "datePublished": "2019-04-05",
+            "reviewBody": "Look very delicious and have amazing look also. This type of recipe I always love to follow. Thanks a lot"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Monet"
+            },
+            "datePublished": "2021-07-15",
+            "reviewBody": "This was yummy! Instead of the wheat penne, I used leftover  regular penne that I had from another meal. Delish! Happy to have stumbled across this!"
+        }
+    ],
+    "datePublished": "2011-05-18",
+    "@id": "https://pinchofyum.com/caprese-penne#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/caprese-penne#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/caprese-penne"
+}

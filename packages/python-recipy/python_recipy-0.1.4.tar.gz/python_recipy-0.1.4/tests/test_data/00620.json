@@ -1,0 +1,125 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Trail Mix",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/trail-mix-recipe-1947964",
+    "headline": "Trail Mix",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0137117_Talk-to-hikers_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1390961810716.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0137117_Talk-to-hikers_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1390961810716.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/15/1/0137117_Talk-to-hikers_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1390961810716.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-05-23T13:56:02.467-04:00",
+    "dateModified": "2013-11-21T17:54:08.917-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "American,Granola Recipes,Cream Cheese Recipes,Fruit,Nut Recipes,Grain Recipes,Gluten Free,High Fiber,Low Sodium,Vegan",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT0H5M0.000S",
+    "recipeIngredient": [
+        "7 ounces dried fruit, approximately 3 cups",
+        "5 ounces mixed nuts, approximately 1 cup",
+        "3 1/2 ounces granola, approximately 1 cup"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "300",
+        "fatContent": "16g",
+        "saturatedFatContent": "2g",
+        "carbohydrateContent": "35g",
+        "fiberContent": "6g",
+        "sugarContent": "17g",
+        "proteinContent": "8g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "9mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Combine the fruit, nuts and granola in a large bowl. To store trail mix, place in an airtight glass container. Keep container in a cool dry place for up to 1 month."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook's Note: Fruit dried at home should be pliable, but not sticky and you should not be able to squeeze moisture from it. If the mixture becomes soft overnight, your fruit is not dry enough."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "reviewCount": 4
+    },
+    "recipeYield": "5 cups",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BJ w."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is a wonderful recipe.  I used large, unsweetened flakes of coconut found at Whole Foods which worked better than regular flaked or shredded coconut.  I sent a large package to a soldier in Afghanistan, but wonder how well it survived the trip - haven't heard yet.  I would like some suggestions on storage of this, because in spite of cooling thoroughly first, when packaged in a zip-loc, the oatmeal does not retain it's nice crispness, and becomes sort of soggy in a few days."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "shaun m."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "eazy and taste great!!"
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Alton Brown's Trail Mix",
+        "description": "Alton uses fruit he dried to make a definitely-not-cardboardy trail mix.",
+        "duration": "PT0H2M07S",
+        "thumbnailUrl": "https://food.fnr.sndimg.com/content/dam/images/food/video/0/01/013/0137/0137117.jpg.rend.hgtvcom.406.305.suffix/1660155342730.jpeg",
+        "contentUrl": "https://www.foodnetwork.com/apps/api/playback?path=/etc/sni-asset/food/videos/0/01/013/0137/0137117",
+        "uploadDate": "2022-08-13T00:21:39.101-04:00"
+    },
+    "recipeCuisine": "american"
+}

@@ -1,0 +1,197 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/beef-tenderloin-stroganoff/",
+    "name": "Beef Tenderloin Stroganoff",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-14",
+    "prepTime": "PT30M",
+    "cookTime": "PT0M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Beef-Tenderloin-Stroganoff_exps11733_SD2401789B08_09_4bC_RMS-3.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [
+        "Dinner"
+    ],
+    "description": "This delicious main dish is easy to prepare and a good dish to serve company. Using tenderloin makes it special.&mdash;Elizabeth Deguit, Richmond Hill, Georgia",
+    "recipeIngredient": [
+        "2 tablespoons all-purpose flour",
+        "1-1/2 pounds beef tenderloin, cut into thin strips",
+        "2 tablespoons olive oil",
+        "2 tablespoons butter",
+        "1-1/2 cups beef broth",
+        "1/4 cup sour cream",
+        "2 tablespoons tomato paste",
+        "1/2 teaspoon paprika",
+        "Salt to taste",
+        "Hot cooked noodles"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place flour in a large bowl or dish; add beef, a few pieces at a time, and toss to coat. In a large skillet, brown beef in oil and butter over medium heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gradually stir in broth; bring to a boil. Reduce heat to low. In a small bowl, combine the sour cream, tomato paste, paprika and salt; slowly stir in sour cream mixture (do not boil). Cook, uncovered, over low heat for 15-20 minutes, stirring frequently. Serve with noodles."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 275 calories",
+        "fatContent": "17g fat (7g saturated fat)",
+        "cholesterolContent": "62mg cholesterol",
+        "sodiumContent": "260mg sodium",
+        "carbohydrateContent": "3g carbohydrate (1g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "26g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 3.142857,
+        "reviewCount": 7,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-02-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "debbiegross"
+            },
+            "reviewBody": "Followed recipe exactly.  I was concerned about browning my $26 beef tenderloin, and then cooking it an additional 15-20 minutes making the sauce.  Should have trusted my instincts.  It turned out like a cheap piece of meat...chewy & tough.  I should have removed the meat after browning it, and returned it to the mixture just to heat before serving.  Expensive lesson learned.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-30",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "pajamaangel"
+            },
+            "reviewBody": "A sheer lack of flavor in this recipe.  Thankfully my meat was not chewy, but very tender.  I did have to use a strip steak though instead of the tenderloin since that is what I had on hand.  We needed to add salt and pepper to the end product. Just overall bland.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-10-07",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "doreensanzone"
+            },
+            "reviewBody": "Expensive to prepare, but very tasty. Good to make when time is short and you want to impress!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-03-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "katlaydee3"
+            },
+            "reviewBody": "I agree, very expensive but really good.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2010-07-22",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Sally Miner",
+                "givenName": "Sally",
+                "familyName": "Miner"
+            },
+            "reviewBody": "Lacks taste and flavor, only paprika and salt. Tasted like something was missing. Won't be making it again. Only did this time as I had beef tenderloin in the freezer.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-02-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Annamazing1"
+            },
+            "reviewBody": "I have been making this recipe every Valentine's Day for several years now.  I use spaghetti instead of noodles.  That's the only change I make.  It is so good and so easy.  Always impressive.  Thanks!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-12-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "dawnrosanne"
+            },
+            "reviewBody": "Maybe I made the sauce wrong, but it was awful. I ended up throwing out the sauce, and just put gravy on the meat and that was delicious.  But I didn't a recipe to do that. :)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, German"
+}

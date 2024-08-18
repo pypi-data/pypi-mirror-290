@@ -1,0 +1,108 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Watermelon Frosé",
+    "datePublished": "2023-05-23T17:52:40.714-04:00",
+    "dateModified": "2023-05-23T17:52:40.714-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ivy Odom",
+            "url": "https://www.southernliving.com/author/ivy-odom"
+        }
+    ],
+    "description": "If you&#39;ve never tried this grown-up slushy featuring wine, summer is the perfect time. Learn how to make this delicious Watermelon Frosé recipe using watermelon simple syrup.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/4QnGLIKnmOsZRdu-f_HCK51pRKs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/watermelon-frose-27495_IK_drinks_212_edit_preview-400949c72d8c4de8be5e40f2caee077b.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Watermelon Frosé",
+    "keywords": "watermelon frose",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "5 cups (1 lb., 5 oz.) frozen watermelon chunks (from 1 [4 1/2 lb.] watermelon)",
+        "1 (750-milliliter) bottle chilled rosé (preferably from Pinot Noir grapes)",
+        "3/4 cup Watermelon Simple Syrup (see recipe), chilled",
+        "Fresh watermelon slices or spears"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Process watermelon, rosé, and Watermelon Simple Syrup in a blender on medium-high speed until smooth, about 30 seconds."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour watermelon mixture into a metal 13-x 9-inch baking pan. Freeze, covered, until mixture becomes icy and slushy, 3 to 4 hours. Spoon evenly into 8 glasses, and garnish with watermelon slices or spears. Serve immediately."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT185M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/watermelon-frose-7495994",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/fruits/melon",
+                        "name": "Melon"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/fruits/melon/watermelon",
+                        "name": "Watermelon"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/watermelon-frose-7495994",
+                        "name": "Watermelon Frosé"
+                    }
+                }
+            ]
+        }
+    }
+}

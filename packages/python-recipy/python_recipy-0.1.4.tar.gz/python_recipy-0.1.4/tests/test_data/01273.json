@@ -1,0 +1,102 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Five Minute Avocado Cilantro Dressing",
+    "description": "5 Minute Cilantro Avocado Dressing - made with easy ingredients like cilantro, avocado, Greek yogurt, garlic, and lime juice.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "cilantro avocado dressing, greek yogurt avocado dressing, healthy salad dressing",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Cilantro-Dressing-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Cilantro-Dressing-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Cilantro-Dressing-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Cilantro-Dressing-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing",
+    "recipeIngredient": [
+        "half an avocado",
+        "1/4 cup Greek yogurt",
+        "1/2 cup water (more as needed to adjust consistency)",
+        "1 cup cilantro leaves and stems",
+        "1 small clove of garlic",
+        "1/2 teaspoon salt",
+        "a squeeze of lime juice"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Pulse all ingredients in a food processor or blender until smooth.",
+            "url": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Voila! Avocado Cilantro Dressing!",
+            "url": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT3M",
+    "cookTime": "PT2M",
+    "totalTime": "PT5M",
+    "recipeYield": [
+        "3",
+        "about 3/4 cup dressing"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "39",
+        "ratingValue": "4.9"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "66 calories",
+        "sugarContent": "1.2 g",
+        "sodiumContent": "402.1 mg",
+        "fatContent": "4.7 g",
+        "saturatedFatContent": "1.1 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "4.3 g",
+        "fiberContent": "1.8 g",
+        "proteinContent": "2.8 g",
+        "cholesterolContent": "3.1 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Leanne"
+            },
+            "datePublished": "2015-08-19",
+            "reviewBody": "This dressing looks yummy!  I would rather make my own dressing than buy storebought anyday!  The ingredients are fresh and there are no preservatives.\r\n\r\nLeanne,\r\nUrban Girl Bakes"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Emma | Loves this Meal Plan Template"
+            },
+            "datePublished": "2015-08-19",
+            "reviewBody": "Oh that looks sooo good! I am totally going to make this. Have you worked out how long it will last in the fridge for? I'm thinking just a few days given its go the avocado in it? Thanks for sharing it :)"
+        }
+    ],
+    "datePublished": "2015-08-19",
+    "@id": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/5-minute-avocado-cilantro-dressing"
+}

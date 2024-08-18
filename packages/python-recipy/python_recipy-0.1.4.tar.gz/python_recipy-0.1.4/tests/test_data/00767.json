@@ -1,0 +1,452 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024684-spiced-squash-and-phyllo-pie#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024684-spiced-squash-and-phyllo-pie",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/09/28/multimedia/28tanisrex2-pie-wfjl/28tanisrex2-pie-wfjl-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024684-spiced-squash-and-phyllo-pie",
+    "name": "Spiced Squash and Phyllo Pie",
+    "description": "This savory vegetable pie is modeled after the classic Moroccan b’stilla, usually made with squab, pigeon or chicken. It isn’t traditional, of course, but this vegetarian version is quite delicious, flaky, buttery and fragrant with spices. A diced preserved lemon adds perfume and sharpness, but you can also use a regular lemon. B’stilla normally has a layer of scrambled egg, but here, it’s replaced with a mixture of thick yogurt and feta. As with the original, everything is encased in golden, crisp buttered phyllo, sprinkled with confectioners’ sugar and cinnamon and served piping hot.",
+    "author": {
+        "@type": "Person",
+        "name": "David Tanis"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/28tanisrex2-pie-wfjl/28tanisrex2-pie-wfjl-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/28tanisrex2-pie-wfjl/28tanisrex2-pie-wfjl-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/28tanisrex2-pie-wfjl/28tanisrex2-pie-wfjl-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/28tanisrex2-pie-wfjl/28tanisrex2-pie-wfjl-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT20M",
+    "cookTime": "PT1H55M",
+    "totalTime": "PT2H15M",
+    "recipeYield": "6 to 8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "almond, butternut squash, currant, feta, golden raisin, lemon, make-ahead, party, phyllo, preserved lemon, savory pie, yogurt, fall, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 142
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 624,
+        "unsaturatedFatContent": "36 grams",
+        "carbohydrateContent": "46 grams",
+        "cholesterolContent": null,
+        "fatContent": "46 grams",
+        "fiberContent": "6 grams",
+        "proteinContent": "12 grams",
+        "saturatedFatContent": "9 grams",
+        "sodiumContent": "706 milligrams",
+        "sugarContent": "16 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/4 cup plus 3 tablespoons extra-virgin olive oil",
+        "3/4 cup whole, unsalted almonds",
+        "Salt and black pepper",
+        "1 large onion, diced small (about 3 cups)",
+        "1 1/2 pounds butternut squash, cut in ½-inch chunks (about 4 cups)",
+        "1/2 cup currants or golden raisins",
+        "1/2 lemon, flesh and rind finely diced, or 1 small preserved lemon, seeded and finely chopped",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground turmeric",
+        "1/2 teaspoon ras el hanout or garam masala",
+        "1/8 teaspoon ground cayenne",
+        "3/4 cup unsalted butter, melted (1½ sticks), or a mixture of butter and olive oil",
+        "10 sheets frozen phyllo dough, thawed",
+        "2 large eggs",
+        "1 1/2 cups full-fat plain yogurt",
+        "4 ounces crumbled feta",
+        "Confectioners’ sugar, for dusting",
+        "Ground cinnamon, for sprinkling"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat 3 tablespoons olive oil in a skillet over medium-high. Add almonds and fry gently for about 2 minutes, until fragrant and beginning to brown. Set aside to cool, then rough chop in a food processor (or hand chop) and season with salt. Set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a Dutch oven or heavy skillet, warm remaining ¼ cup olive oil over medium-high heat. Add onion and cook, stirring, until lightly browned and softened, about 10 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add squash, season well with salt and pepper, and stir to coat. Add ½ cup water, cover pot and cook until squash is tender, about 10 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add currants, chopped lemon, cumin, turmeric, ras el hanout and cayenne, and mix gently to incorporate. Transfer mixture to a baking sheet and spread out to allow to cool to room temperature. Taste and adjust seasoning. It should be highly seasoned. (The filling can be made up to 2 days in advance, covered and refrigerated. Allow to come to room temperature before continuing.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oven to 375 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Build the pie: Using a pastry brush, butter a 9-inch springform pan. Lay a sheet of phyllo across the pan and press down so it covers the bottom and the edges overhang. Paint or drizzle more butter over the sheet, including the overhang. Layer another sheet over, slightly rotated, and press down. Continue until you have a total of 6 sheets, rotating slightly and buttering each layer, leaving the edges overhanging."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Spread bottom of pan with the reserved chopped almonds, then spoon in squash mixture and spread to an even thickness. Beat the eggs into the yogurt, then pour over squash mixture and top with feta."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Cover with 4 more sheets of phyllo dough, buttering between layers. Gather overhanging sheets, a few layers at a time, folding them to the center and pressing down to smooth (it’s OK if the top sheets crack a little). Lightly butter the top. Pie may now be refrigerated for up to 2 days, or proceed with baking."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place the pan on a foil-lined baking sheet. Bake for 45 minutes to 1 hour, until crisp and golden. Let rest at least 15 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, unmold and dust top generously with confectioners’ sugar. Sprinkle with pinches of cinnamon."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kimberly"
+            },
+            "reviewBody": "This is an amazing recipe. I did double the spices. A real hit!",
+            "datePublished": "2024-02-03T19:16:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie"
+            },
+            "reviewBody": "I made this recipe as written, with a fresh lemon, and it was delicious.",
+            "datePublished": "2024-01-16T04:32:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "We had a couple of slices remaining when we made this excellent dish for vegetarian Thanksgiving main and we wanted to see how it would hold up if frozen to use later.  Wrapped in foil, tucked into freezer bag and frozen.  The week after Christmas reheated it in 325 oven from frozen, loosening foil and placing on baking sheet for about 30 min then opening foil to heat for another 20'ish.  Delicious outcome with phyllo crispy.  Great weeknight meal as leftovers.",
+            "datePublished": "2023-12-30T13:40:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dimmerswitch"
+            },
+            "reviewBody": "Made this genius recipe as it is written for yumm-arvelous outcome as Thanksgiving vegetarian main dish.  In oven 1 hr for golden brown finish (@150F internal temp).  Looked more \"aahh...\"some at service than the photo here.  Chose preserved lemon and golden raisins at respective option points.  Did thru step 4 day ahead.  Assembly day of pretty simple.  TIP:  Cover phyllo with damp kitchen towel as you work with it.  8 servings.",
+            "datePublished": "2023-11-24T15:36:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Camilleri"
+            },
+            "reviewBody": "This is an absolutely spectacular recipe.  The flavors are wonderful, and it's certainly a Thanksgiving-worthy side or main dish for vegetarians.  I have made it a couple of times, and recommend using a non-Greek plain/whole milk yoghurt so that it runs down into the squash mixture a bit.  I haven't dusted it with the sugar and cinnamon - but I do think that would be a nice touch.  Also, you don't need 1 & 1/2 sticks of butter.  Melt a stick to begin with - you'll probably have plenty with that.",
+            "datePublished": "2023-11-23T18:06:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "aimlesswoman"
+            },
+            "reviewBody": "We made this and it looked wonderful, was tasty, but I think the squash should be cooked longer than ten minutes–test for softness and all. I also wonder if I made this again with half squash, half sweet potato, what would that be like. I think nutmeg and a little more of each spice would be interesting also.",
+            "datePublished": "2023-11-19T02:03:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane"
+            },
+            "reviewBody": "This is so delicious and a stunning presentation.  Seems like it would be a perfect vegetarian Thanksgiving entree.",
+            "datePublished": "2023-11-16T21:46:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sally"
+            },
+            "reviewBody": "I forgot to add the feta before I sealed it up so I melted it and drizzled it over the top when it came out of the oven. I'll repeat and do it properly but this worked. Delicious!",
+            "datePublished": "2023-11-11T00:45:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RC"
+            },
+            "reviewBody": "I roasted the squash and doubled the spices to make for a more complex flavor.",
+            "datePublished": "2023-11-10T22:21:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Used Puff Pastry"
+            },
+            "reviewBody": "I made this as per the recipe but used puff pastry as our store was out of phyllo pastry. It worked well; just rolled out the puff pastry larger than the pie plate, put the filling in and folded the pastry over the filling leaving some gaps. I suspect phyllo pastry would taste better/richer but puff pastry worked.",
+            "datePublished": "2023-10-28T16:06:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "vikingdandy"
+            },
+            "reviewBody": "I make a vegetarian dinner for twelve men once week and this one was a real standout. Everyone had seconds! I made two the day before and popped them in the oven exactly as per the recipe. I also followed the directive to make the dish strongly spiced so the squash spices were about 4 times the recipe. I love thé way it made neat slices and plated beautifully.\nI’m going to try it with pumpkin next.",
+            "datePublished": "2023-10-28T15:34:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kristin"
+            },
+            "reviewBody": "This is an excellent vegetarian main. Made as directed with a preserved lemon, and used olive oil instead of butter to assemble. The ability to prepare in stages turns what could be a fussy recipe into a much more manageable one.",
+            "datePublished": "2023-10-25T01:44:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lisa Cannon"
+            },
+            "reviewBody": "My husband dislikes sweet and savory.   So after careful contemplation and reading all notes… i made it exactly as directed.   He loved it!",
+            "datePublished": "2023-10-21T02:21:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "skips"
+            },
+            "reviewBody": "This was great. The preserved lemon flavor gave it interest and depth. I forgot to put in the feta, so we sprinkled it on top. The saltiness and bit of umami were critical. Got rave reviews.",
+            "datePublished": "2023-10-20T16:47:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "skips"
+            },
+            "reviewBody": "Forgot to add this in to my previous note. I only used about two tablespoons of olive oil with the filo dough and it was still wonderful.",
+            "datePublished": "2023-10-20T16:49:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rob Morse"
+            },
+            "reviewBody": "I just made this, and the flavors were mostly great. I was just confused by the instruction on the lemon: “one half lemon, flesh and rind, finely diced.” \nI took this to mean the entire half lemon, which I don’t think was correct, as the pith—the white part between the meat and the peel—was extremely bitter and pretty much ruined the other great flavors. \nNext time (my wife liked it enough to ask me to try it again) I am going to zest half a lemon and add the juice and leave out the pith.",
+            "datePublished": "2023-10-02T01:26:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alice"
+            },
+            "reviewBody": "Against all odds, and all notes, I tried the recipe as written. Guess what? It was splendid.",
+            "datePublished": "2023-10-02T02:01:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joan"
+            },
+            "reviewBody": "This was very good, festive enough for a holiday dinner.  I made some adjustments to make it more healthy and to our preferences:\n - Roasted the squash cubes in the oven\n - Used a fresh lemon, but removed the pith\n - Used all the sheets in a half package of Athens Phyllo Dough Pastry Sheets (small sheets so way more than 10)\n - Drizzled and brushed the phyllo sheets with olive oil rather than butter (1 1/2 sticks - you must be kidding!), and not on every sheet\n - Used nonfat yogurt",
+            "datePublished": "2023-10-07T01:01:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susan"
+            },
+            "reviewBody": "I also am not a fan of butternut squash.  Wondering about roasted peppers, mushrooms, and chickpeas as a filling?  Obviously not traditional but might be tasty.  If I get up the energy to try it I will report back.",
+            "datePublished": "2023-09-30T11:05:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Katy"
+            },
+            "reviewBody": "Made exactly as directed, including lemon pith (Meyer lemon). Prepped squash day before using ras al hanout, allowed to come to room temp, and next day assembled pie prior to baking. Guests were impressed and leftover pie, well-reheated even better! Crunchy almonds, sweet spicy squash and cheesy custard all wrapped in buttery filo. Just sublime and perfect for fall. Made with the recommended eggplant salad and ginger saffron pears, also fantastic.",
+            "datePublished": "2023-10-03T17:55:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Juliet"
+            },
+            "reviewBody": "How would this be if made with puff pastry or even shortcrust pastry? I can't see myself fiddling with phyllo pastry. Could it be made into a rustic torte, with shortcrust pastry at the bottom and somewhat folded over at the edges?",
+            "datePublished": "2023-10-01T02:29:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J"
+            },
+            "reviewBody": "A tip for vegans: I made this but swapped out ingredients to make it vegan (eg vegan butter, almond yogurt, and JUST egg). It looked lovely and tasted great, but the vegan egg and yogurt layer never set up fully. I baked it for an hour. I’d make this again, but maybe precook the egg and/or bake it a few minutes longer.",
+            "datePublished": "2023-10-03T20:00:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tom"
+            },
+            "reviewBody": "This might be the best NYTIMES recipe I’ve made this year (and I’ve made many).  The only change was to reduce the amount of oil used in cooking the onions and squash.   Great that half of the prep could be done a day in advance of baking… a definite repeat!",
+            "datePublished": "2023-10-11T04:15:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard"
+            },
+            "reviewBody": "The recipe calls for the rind and flesh... no pith.",
+            "datePublished": "2023-10-11T14:42:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie"
+            },
+            "reviewBody": "I left out the phylo. Still delicious.",
+            "datePublished": "2023-10-01T13:57:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie McCarthy"
+            },
+            "reviewBody": "Made this exactly like the recipe including the preserved lemon. Very good. Next time I will increase the cumin and ras al hanout. It looked great!",
+            "datePublished": "2023-10-06T11:34:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JF"
+            },
+            "reviewBody": "This will definitely be a repeat. It is a very satisfying vegetarian main- tastes delicious, smells wonderful, and looks lovely.",
+            "datePublished": "2023-10-10T15:57:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gary Walters"
+            },
+            "reviewBody": "My first time with phylllo dough. Handled it okay, once I got used to the delicate nature of it. I melted one stick of butter and didn’t need it all as I spread it fairly thin with each layer. The top looked good, but could have been shinier if I’d buttered more. Still tasted great. Oh, and half way through the first piece I realized I forgot the feta!! Doh! It still tasted good! And with just 2 of us at home, we have 3 more meals. Yum!",
+            "datePublished": "2023-10-13T10:49:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Writing As I’m Chewing"
+            },
+            "reviewBody": "Followed to the letter, this recipe is absolute perfection. I’m a novice in the kitchen and this recipe is easy to follow but presents like a fine dish. Holy heck. \n\nThe feta and yogurt balance the spices and the buttery Phillo crunch makes this feel elevated for a weeknight dinner. \n\nI skipped dusting with sugar and cinnamon and yet I don’t feel I’m missing out. An incredibly well rounded, autumnal delight. 11/10",
+            "datePublished": "2023-10-17T23:39:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Joanne"
+            },
+            "reviewBody": "The lemon pith made the dish bitter, a big disappointment after so much work putting it all together. Next time I would only use rind and some lemon juice.",
+            "datePublished": "2023-10-06T05:41:49.000Z"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Salmon Sandwiches with Bacon and Apple-Horseradish Mayo",
+    "datePublished": "2015-09-09T16:17:49.000-04:00",
+    "dateModified": "2015-10-01T16:17:49.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Justin Chapple",
+            "url": "https://www.foodandwine.com/author/justin-chapple"
+        }
+    ],
+    "description": "Learn to make the perfect salmon sandwiches with bacon at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/WLU7FR9cQ6U1Xbq23yAETElm7wE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/recipe1015-xl-salmon-sandwiches-aad08886ec054559a88b253e5dab41d0.jpg",
+        "height": 840,
+        "width": 840
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Salmon Sandwiches with Bacon and Apple-Horseradish Mayo",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeIngredient": [
+        "1/2 cup mayonnaise",
+        "1/2 cup finely chopped Granny Smith apple",
+        "3 tablespoons drained prepared horseradish",
+        "Salt and pepper",
+        "8 slices of bacon",
+        "1 tablespoon canola oil",
+        "Four 5-to 6-ounce skinless center-cut salmon fillets",
+        "4 brioche burger buns, split and toasted",
+        "4 lettuce leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1. In a small bowl, whisk the mayonnaise with the apple and horseradish. Season with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "2. In a large nonstick skillet, cook the bacon over moderate heat, turning occasionally, until browned and crisp, 5 to 7 minutes. Transfer to paper towels to drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "3. Wipe out the skillet and heat the oil in it. Season the salmon with salt and pepper and add to the skillet. Cook over moderately high heat, turning once, until just cooked through, 6 to 8 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "4. Spread the apple-horseradish mayonnaise on the buns and top with the salmon, bacon and lettuce. Close the sandwiches and serve."
+        }
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/salmon-sandwiches-bacon-and-apple-horseradish-mayo",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood",
+                        "name": "Seafood"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood/shellfish",
+                        "name": "Shellfish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/salmon-sandwiches-bacon-and-apple-horseradish-mayo",
+                        "name": "Salmon Sandwiches with Bacon and Apple-Horseradish Mayo"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

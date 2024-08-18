@@ -1,0 +1,423 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020290-one-pot-pasta-with-ricotta-and-lemon#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020290-one-pot-pasta-with-ricotta-and-lemon",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020290-one-pot-pasta-with-ricotta-and-lemon",
+    "name": "One-Pot Pasta With Ricotta and Lemon",
+    "description": "This elegant, bright pasta dish comes together in about the same amount of time it takes to boil noodles and heat up a jar of store-bought marinara. The no-cook sauce is a 50-50 mix of ricotta and Parmesan, with the zest and juice of one lemon thrown in. That’s it. To make it more filling, add peas, asparagus or spinach in the last few minutes of the pasta boiling, or stir in fresh arugula or watercress with the sauce in Step 3. It’s a weeknight and for-company keeper any way you stir it.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-superJumbo.jpg",
+            "height": 1080,
+            "width": 1920,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-articleLarge.jpg",
+            "height": 338,
+            "width": 600,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "italian",
+    "recipeCategory": [],
+    "keywords": "kid-friendly, lemon, parmesan, penne, ricotta, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 16060
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 565,
+        "unsaturatedFatContent": "4 grams",
+        "carbohydrateContent": "90 grams",
+        "cholesterolContent": null,
+        "fatContent": "11 grams",
+        "fiberContent": "4 grams",
+        "proteinContent": "24 grams",
+        "saturatedFatContent": "6 grams",
+        "sodiumContent": "443 milligrams",
+        "sugarContent": "3 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Kosher salt",
+        "1 pound short, ribbed pasta, like gemelli or penne",
+        "1 cup whole-milk ricotta (8 ounces)",
+        "1 cup freshly grated Parmesan or pecorino (2 ounces), plus more for serving",
+        "1 tablespoon freshly grated lemon zest plus 1/4 cup lemon juice (from 1 to 2 lemons)",
+        "Black pepper",
+        "Red-pepper flakes, for serving",
+        "1/4 cup thinly sliced or torn basil leaves, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Add the pasta and cook according to package instructions until al dente. Reserve 1 cup pasta cooking water, then drain the pasta."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In the same pot, make the sauce: Add the ricotta, Parmesan, lemon zest and juice, 1/2 teaspoon salt and 1/2 teaspoon pepper and stir until well combined."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add 1/2 cup pasta water to the sauce and stir until smooth. Add the pasta and continue to stir vigorously until the noodles are well coated. Add more pasta water as needed for a smooth sauce."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide the pasta among bowls and top with some of the sauce that’s pooled at the bottom of the pot. Garnish with grated Parmesan, black pepper, red-pepper flakes and basil, if using."
+        }
+    ],
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "One-Pot Pasta with Ricotta and Lemon",
+        "description": "This One-Pot Pasta with Ricotta and Lemon comes together in about the same amount of time it takes to boil noodles and heat up a jar of store-bought marinara. Except it’s way, way better. This no-cook sauce is a 50/50 mix of ricotta and Parmesan, with zest and lemon juice thrown in. So, yes, it’s good.",
+        "thumbnailUrl": "https://static01.nyt.com/images/2020/12/20/autossell/OnePot-Pasta-textless/OnePot-Pasta-textless-mediumThreeByTwo440.jpg",
+        "uploadDate": "2020-12-02T20:21:57.000Z",
+        "duration": "PT1M52S",
+        "transcript": "",
+        "contentUrl": "https://vp.nyt.com/video/2020/12/02/90339_1_One-Pot-Pasta-YT_wg_240p.mp4"
+    },
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2019-12-11T00:00:00.000Z",
+    "dateModified": "2024-03-13T17:01:01.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David S"
+            },
+            "reviewBody": "Very good. Added some roasted cherry tomatoes to give it a little color. A bit beige otherwise.",
+            "datePublished": "2024-06-11T14:05:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ENE"
+            },
+            "reviewBody": "This dish was delicious! I added peas per the recipe and the entire family loved it.  It's a great summer weekday recipe. It was easy and quick to make. Can't wait to make ot again.",
+            "datePublished": "2024-06-11T01:11:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anne"
+            },
+            "reviewBody": "This was so dry. Flavor is good tho. I feel like it needs the addition of olive oil or something. Won’t be making again.",
+            "datePublished": "2024-06-10T15:14:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brad"
+            },
+            "reviewBody": "I'm in the camp that was disappointed by this recipe. I used high quality ingredients, including whole milk ricotta and an excellent Parmesan, and ended up with a very bland, unappealing dish . Not awful, but not something I wanted more of. Maybe I was expecting something more flavorful from the generous sprinkling of pepper flakes in the illustration. At any rate, I still like the idea of this dish, so I may work on some variations.",
+            "datePublished": "2024-06-05T15:04:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gail"
+            },
+            "reviewBody": "I followed recipe except used 1/2 pound of ribbed penne pasta rather than a pound.  The result was a lovely creamy dish that had just the right amount of sauce.  I guess we're sauce people.  Next time, I'll add spinach and/or peas.",
+            "datePublished": "2024-06-04T17:40:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "McCain"
+            },
+            "reviewBody": "Added corn (2 ears, kernels cut off cob, sauteed with 1tbsp olive oil and salt/pepper/smoked paprika). Divine!",
+            "datePublished": "2024-05-29T18:28:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andie"
+            },
+            "reviewBody": "Read others’ notes re granular sauce, thinking surely if I used my beautiful, silky, Bellwether whole milk ricotta, would avoid unfortunate result others reported. Sadly, no. After a first course of perfectly presented steamed artichokes, this was a disaster; could only be thankful I was not serving it to guests. Must be something in cooking chemistry that tells us if you hit creamy cheese with so much acid it is BOUND to curdle! Love the flavor tho; will try again w/no lemon juice.",
+            "datePublished": "2024-05-27T03:02:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Radha"
+            },
+            "reviewBody": "Summer day lunch keeper! \nDid not have Ricotta so swapped that with Alfredo. I was heavy handed with lemon since I like it lemony. Added baby corn and Bok Choy! My eight year old lapped it up.",
+            "datePublished": "2024-05-24T19:27:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "pauline"
+            },
+            "reviewBody": "Very good\nAdded a little sautéed garlic and red chili peppers before the ricotta",
+            "datePublished": "2024-05-20T03:18:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mama In Montpelier"
+            },
+            "reviewBody": "Bitter greens were a delish counterbalance to the rich pasta --I sauteed coarsely chopped dandelion greens in olive oil, crushed garlic & kosher salt & served on top. Fresh arugula stirred into the pasta also adds a good balance.",
+            "datePublished": "2024-05-15T20:00:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sauce"
+            },
+            "reviewBody": "Mix the sauce in the blender for smoother consistency",
+            "datePublished": "2024-05-13T23:52:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dee Ann"
+            },
+            "reviewBody": "Made this tonight adhering to the recipe with minor changes. My ricotta was a local artisan goat cheese ricotta, which I think added a lot to it. I whisked the goat cheese ricotta and the Parmesan together thoroughly before adding the pasta water. It came out beautifully creamy. I was heavy-handed with the lemon zest, because I really like lemon. I also added a handful of toasted pinenuts at the end for flavor and texture. Really good, and I will be making it again.",
+            "datePublished": "2024-05-04T02:49:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bluthe"
+            },
+            "reviewBody": "Added 1/2 tsp cayenne pepper and my husband an I devoured the whole thing. Delicious. Definitely a keeper.",
+            "datePublished": "2024-04-25T21:09:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rose"
+            },
+            "reviewBody": "Immersion blender a great help; smooth sauce, easy to make, only took as long as it takes for the pasta to boil really!",
+            "datePublished": "2024-04-19T00:16:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Crystal"
+            },
+            "reviewBody": "I'm too old to FINALLY gain some cooking chops and creative skills. NYT Cooking has been INSPRING. That said, I don't always have the instincts and wonder if maybe I miss steps or don't intuit--\n\nSO SUPER EASY and tasty, but the cheese was...grainy. Should I have added more pasta water? Turned the heat back on? It just wasn't smooth.\n\nStill, vibrant and unique.",
+            "datePublished": "2024-04-18T18:12:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elena"
+            },
+            "reviewBody": "Made this tonight for the second time, and made several important upgrades. Most important, I used my mini Cuisinart blender to whip the artisanal whole milk ricotta and Parmesan into a delicious, creamy spread, before tossing it in the pan with spinach, lemon zest, a bit of lemon juice and hot pepper flakes, along with about 1 cup of pasta water. The result was a wonderful, rich sauce -- unlike the first time I did it, when I didn't use the blender and the \"sauce\" was mostly lumps of ricotta.",
+            "datePublished": "2020-01-15T23:39:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vanessa"
+            },
+            "reviewBody": "I made this with the addition of arugula. So good! Just tossed in the arugula at the end for some green, peppery flavour.",
+            "datePublished": "2019-06-16T22:42:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kristin"
+            },
+            "reviewBody": "Made this last night as I used up cream and made ricotta. So silky smooth and so easy.  Did not use Parmesan.  Did use fresh basil.  Also tossed in some roasted coins of summer squash and zucchini.  Rave reviews all around.",
+            "datePublished": "2019-06-15T21:58:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet H."
+            },
+            "reviewBody": "I made this recipie as written, and had none of the texture / \"curdled\" problems reported by some.  It was smooth and rich.  I forwarded it to a friend, who made it \"exactly\", and did not like it after saying much of what others said:  \"bland\", \"curdled\", \"no taste\"....I discovered that she inadvertently used low-fat riccotta instead of the full fat version called for.  Do use the correct kind.  I made again using goat milk riccotta - even more savory!",
+            "datePublished": "2019-09-15T06:18:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jim"
+            },
+            "reviewBody": "Yes, the peas are delicious here, and to make the sauce silky smooth, add a tablespoon (or more) of unsalted butter . . . luscious.",
+            "datePublished": "2019-06-19T15:31:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dusty"
+            },
+            "reviewBody": "Once again, hardly a 15-minute prep time--unless you have a sous chef, which most of us don't, I'd venture to guess. Would be nice to have more accurate prep times with NYT recipes, which are often quite good, just totally unrealistic in that regard.",
+            "datePublished": "2019-08-24T21:15:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John in Alaska"
+            },
+            "reviewBody": "Be sure to use a very good quality \"whole milk\" ricotta. It makes a huge difference. There are many supermarket brands out there with very grainy textures that will disappoint. Not having access to a quality, fresh ricotta, I make my own with Melissa Clark's excellent, quick and easy recipe that always comes out perfect.",
+            "datePublished": "2019-12-11T17:58:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JGunsburg"
+            },
+            "reviewBody": "Great starting point recipe, and made it a few times now. Favorite additions: \n1. 2 tbsp of leftover homemade pesto stirred into the ricotta;\n2. Sprinkle toasted panko or lightly toasted pine nuts on at the end; and/or\n3. Preheat oven to 425/400 convection. Take 2 broccoli crowns, chop into florets; toss them in a light drizzle of olive oil, sprinkle S&P, garlic powder or garlic. Roast on sheet pan for 10-12 min or until done (while pasta boils) with some tasty brown bits. Toss into pasta.",
+            "datePublished": "2020-03-30T19:50:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Aaron Mark"
+            },
+            "reviewBody": "Great! I added Asparagus and found I didn’t need a full cup of pasta water. Generally needed more lemon zest in there to cut through the heaviness of the ricotta and Parmesan but that could be a personal preference.",
+            "datePublished": "2019-06-18T16:33:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cmrnh"
+            },
+            "reviewBody": "I whipped Trader Joe’s ricotta with a little olive oil, salt and lemon zest before making the sauce. The sauce ended up very smooth and luscious.",
+            "datePublished": "2019-09-14T01:22:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "liz h"
+            },
+            "reviewBody": "Delicious. We make a variation of this often with peas and sausage but the addition of the lemon is really nice as well as the way to get a smooth sauce. Will be making again.",
+            "datePublished": "2019-06-14T19:37:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "I made this last night to use up some homemade ricotta and it was a hit - plus easy!\n\nWhen I added the reserved cooking liquid to the sauce I was worried I'd thinned it out too much, but it thickened as it cooled and turned into the perfect consistency.\n\nI used the zest from two lemons and the juice of one, the pasta has a lovely bright lemon flavor. Didn't have basil so I took someone else's suggestion and tossed in arugula from the garden: delicious!",
+            "datePublished": "2019-06-18T16:15:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Margaux Laskey, Senior Staff Editor, NYT Cooking"
+            },
+            "reviewBody": "This was so great and so easy! I stirred in some arugula and topped it with sliced, grilled Italian sausage.",
+            "datePublished": "2019-06-20T18:36:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Luther"
+            },
+            "reviewBody": "Very good for a quick, tasty dinner. I would suggest if you know in advance that you are going to fix this, do yourself a favor and fix Melissa Clark's recipe for homemade ricotta. Maybe 30 minutes max for the ricotta and would add immeasurably to the flavor here.",
+            "datePublished": "2019-06-21T23:50:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Westerner"
+            },
+            "reviewBody": "Subbing in a half-cup of the Costco fresh pesto for half of the cheese and the basil is a great shortcut. You also don't need to add extra salt.",
+            "datePublished": "2019-06-22T16:24:44.000Z"
+        }
+    ]
+}

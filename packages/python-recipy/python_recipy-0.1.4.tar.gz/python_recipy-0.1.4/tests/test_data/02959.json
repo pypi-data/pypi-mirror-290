@@ -1,0 +1,89 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/marmalade-whisky-bread-butter-pudding#Recipe",
+    "@type": "Recipe",
+    "description": "The ultimate grown-up comfort food, use leftover fruit bread or even croissants instead of the bread if you prefer",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1273486_8-3d0aa66.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/marmalade-whisky-bread-butter-pudding"
+    },
+    "name": "Marmalade & whisky bread & butter pudding",
+    "url": "https://www.bbcgoodfood.com/recipes/marmalade-whisky-bread-butter-pudding",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jane Hornby",
+            "url": "https://www.bbcgoodfood.com/author/janehornby"
+        }
+    ],
+    "dateModified": "2022-11-08T12:53:38+00:00",
+    "datePublished": "2013-04-12T10:58:18+01:00",
+    "headline": "Marmalade & whisky bread & butter pudding",
+    "keywords": "Bread and butter pudding, British pudding, Comfort food recipe, Custard, Dessert recipe, Dinner party recipe, Jane Hornby, Marmalade, Old-fashioned pudding, Pudding recipe, Vanilla pod, Vanilla pods, Whisky, White bread, Winter dessert",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT1H",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "523 calories",
+        "fatContent": "38 grams fat",
+        "saturatedFatContent": "21 grams saturated fat",
+        "carbohydrateContent": "36 grams carbohydrates",
+        "sugarContent": "17 grams sugar",
+        "fiberContent": "1 grams fiber",
+        "proteinContent": "10 grams protein",
+        "sodiumContent": "0.84 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "8 slices day-old crusty white bread , crusts removed",
+        "50g very soft butter",
+        "4 tbsp Seville orange marmalade , plus 4 tsp",
+        "300ml full-fat milk",
+        "248ml pot double cream",
+        "3 large eggs",
+        "seeds 1 vanilla pod",
+        "4 tbsp golden caster sugar",
+        "1 tbsp whisky",
+        "icing sugar , for dusting"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Butter each piece of bread on both sides, then spread 4 with the 1 tbsp marmalade each. Pop the remaining bread on top to make 4 marmalade sandwiches. Cut into triangles and nestle in rows in a large baking dish. Heat oven to 160C/140C fan/gas 3."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Beat the milk, cream, eggs, vanilla, sugar and whisky together, then pour over the bread. Leave to soak for 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dot the remaining marmalade all over the top of the pud and dust with the icing sugar. Bake for 45 mins-1 hr or until puffy and starting to caramelise where the bread breaks out of the custard. Serve hot or warm."
+        }
+    ],
+    "recipeYield": 8,
+    "totalTime": "PT1H45M"
+}

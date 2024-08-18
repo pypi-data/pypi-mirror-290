@@ -1,0 +1,158 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Brazilian Fish, Shrimp and Mussel Stew",
+    "datePublished": "2013-12-06T18:13:24.000-05:00",
+    "dateModified": "2021-12-23T17:17:04.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Andrew Zimmern",
+            "url": "https://www.foodandwine.com/author/andrew-zimmern"
+        }
+    ],
+    "description": "Andrew Zimmern&#39;s seafood stew is brothy and delicious: the secret ingredient is cashew butter.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/m9Ya3QEkrbWs_6NOziFIBUT_QEo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201201-xl-zimmern-fish-shrimp-stew-2de5270623e7412498f3e4a31cef1991.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Brazilian Fish, Shrimp and Mussel Stew",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3414"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Brazilian"
+    ],
+    "recipeIngredient": [
+        "1 pound skinless halibut fillet, cut into 1-inch chunks",
+        "3 tablespoons fresh lime juice",
+        "2 tablespoons vegetable oil",
+        "1 onion, quartered and thinly sliced (about 1 1/4 cups)",
+        "2 serrano chiles, seeded and minced (2 1/2 tablespoons)",
+        "6 garlic cloves, minced (about 3 tablespoons)",
+        "1/4 cup finely chopped cilantro, plus more for garnish",
+        "2 tablespoons tomato paste",
+        "3 cups bottled clam juice",
+        "1 cup unsweetened coconut milk",
+        "1 pound medium shrimp, shelled and deveined",
+        "1 pound mussels, scrubbed",
+        "2 tablespoons natural cashew butter",
+        "Salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, toss the fish with 1 tablespoon of the lime juice. Cover and refrigerate for 1 hour. Drain and pat dry."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot, heat the oil until shimmering. Add the fish in a single layer and brown on one side only over moderately high heat, about 1 1/2 minutes. Transfer to a plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the onion, chiles, garlic and the 1/4 cup chopped cilantro to the pot and cook, stirring, until the onion is translucent, about 1 minute. Stir in the tomato paste, coating the vegetables. Add the clam juice and scrape up any browned bits on the bottom of the pot. Bring to a boil, then reduce the heat to moderate and simmer for 4 minutes. Pour in the coconut milk and simmer until thickened slightly, about 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Return the fish to the pot. Add the shrimp, cover and cook over moderate heat, stirring occasionally, until shrimp are almost cooked through, about 2 minutes. Nestle the mussels into the stew, cover, and cook until the mussels have opened, about 2 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk the cashew butter with 2 tablespoons of hot water, then stir it into the stew. Add the remaining 2 tablespoons of lime juice and season with salt. Transfer the stew to bowls, garnish with cilantro and serve."
+        }
+    ],
+    "totalTime": "PT95M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Food & Wine Member"
+            },
+            "reviewBody": "Excellent recipe. I was a little skeptical about the flavor combination of the cilantro, coconut milk, and cashew butter but it was vibrant and rich. I substituted haddock for the halibut but it fell apart into very small pieces. Still it was excellent. This sauce would be excellent with just mussels and toasted baguette on the side. 5 stars!",
+            "datePublished": "2024-03-22T23:48:12.145Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Debi"
+            },
+            "reviewBody": "I have not made this dish because I can’t fin1 real comment for it ….where are they ???? If there were 3412 , 5* rating where are the comments ??",
+            "datePublished": "2023-08-28T11:03:52.715Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/brazilian-fish-shrimp-and-mussel-stew",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood-main-course-7497015",
+                        "name": "Seafood Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/shellfish-main-course-7497017",
+                        "name": "Shellfish Main Course"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/brazilian-fish-shrimp-and-mussel-stew",
+                        "name": "Brazilian Fish, Shrimp and Mussel Stew"
+                    }
+                }
+            ]
+        }
+    }
+}

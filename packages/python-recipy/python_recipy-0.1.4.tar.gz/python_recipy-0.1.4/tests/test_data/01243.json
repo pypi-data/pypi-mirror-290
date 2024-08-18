@@ -1,0 +1,67 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Shrimp and Quinoa Salad",
+    "description": "This shrimp and quinoa salad is super healthy, bright, and colorful. Fresh spinach, sauteed shrimp, quinoa, orange zest, and Asian dressing.",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "shrimp salad, quinoa salad, shrimp and quinoa",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Shrimp-and-Quinoa-Salad-2-225x225.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Shrimp-and-Quinoa-Salad-2-260x195.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Shrimp-and-Quinoa-Salad-2-320x180.jpeg",
+        "https://pinchofyum.com/wp-content/uploads/Shrimp-and-Quinoa-Salad-2.jpeg"
+    ],
+    "url": "https://pinchofyum.com/shrimp-and-quinoa-salad",
+    "recipeIngredient": [
+        "1 cup cooked quinoa",
+        "8-10 cooked shrimp",
+        "a few handfuls of baby spinach",
+        "scallions, chopped",
+        "1 orange, cut into sections",
+        "orange zest",
+        "julienne vegetables (I used a prepackaged broccoli slaw)",
+        "Asian dressing"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix everything up.",
+            "url": "https://pinchofyum.com/shrimp-and-quinoa-salad#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Enjoy!",
+            "url": "https://pinchofyum.com/shrimp-and-quinoa-salad#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT30M",
+    "cookTime": "PT1M",
+    "totalTime": "PT31M",
+    "recipeYield": "1",
+    "recipeCategory": [],
+    "recipeCuisine": "Asian-Inspired",
+    "nutrition": {
+        "servingSize": null,
+        "calories": "419 calories",
+        "sugarContent": "6.6 g",
+        "sodiumContent": "599.9 mg",
+        "fatContent": "5.2 g",
+        "saturatedFatContent": "0.8 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "74.2 g",
+        "fiberContent": "15.2 g",
+        "proteinContent": "23.1 g",
+        "cholesterolContent": "92.8 mg",
+        "@type": "nutritionInformation"
+    },
+    "datePublished": "2011-02-24",
+    "@id": "https://pinchofyum.com/shrimp-and-quinoa-salad#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/shrimp-and-quinoa-salad#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/shrimp-and-quinoa-salad"
+}

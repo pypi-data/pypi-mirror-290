@@ -1,0 +1,85 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/tuna-sweetcorn-slice#Recipe",
+    "@type": "Recipe",
+    "description": "This easy budget supper uses ready-rolled pastry to make an open pie - experiment with your own toppings",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-874514_11-f1f038c.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/tuna-sweetcorn-slice"
+    },
+    "name": "Tuna & sweetcorn slice",
+    "url": "https://www.bbcgoodfood.com/recipes/tuna-sweetcorn-slice",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2022-11-08T12:43:16+00:00",
+    "datePublished": "2012-01-18T11:51:26+00:00",
+    "headline": "Tuna & sweetcorn slice",
+    "keywords": "Budget supper, Cheap, Easy, Family, Filo pastry, Good Food, Kids, Pasties, PASTRY, Pasty, Pie, Tart, Thrifty, Value",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "463 calories",
+        "fatContent": "30 grams fat",
+        "saturatedFatContent": "16 grams saturated fat",
+        "carbohydrateContent": "29 grams carbohydrates",
+        "sugarContent": "2 grams sugar",
+        "fiberContent": "1 grams fiber",
+        "proteinContent": "18 grams protein",
+        "sodiumContent": "2.6 milligram of sodium"
+    },
+    "prepTime": "PT5M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "320g pack ready-rolled puff pastry",
+        "185g can tuna in spring water, drained and flaked",
+        "325g can  sweetcorn , drained",
+        "3 tbsp crème fraîche",
+        "50g cheddar , grated",
+        "a few  chives , snipped to 1cm lengths"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 220C/200C fan/ gas 7. Lay the pastry out on a baking sheet. Pinch up the edges to form a border, pressing firmly into the corners. Prick the centre all over with a fork and pop in the oven for 10-15 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, mix the tuna and sweetcorn in a bowl and season."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the pastry from the oven, pressing the centre down with the back of a fork, as it will have puffed up a bit. Spread the crème fraîche across centre, spoon the tuna mix on top, then sprinkle over the cheese. Bake for 10-15 mins more, until golden, puffed up and cooked though. Sprinkle with chives and cut into quarters."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT35M"
+}

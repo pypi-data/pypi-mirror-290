@@ -1,0 +1,410 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1025388-tandoori-chicken#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1025388-tandoori-chicken",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-googleFourByThree.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1025388-tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "description": "Believed to have originated in Iran but known by different names depending on the country, the tandoor is a clay oven used throughout South, Central and Western Asia to bake, roast and grill. Meats cooked in a tandoor are incredibly moist and tender; cooking on a grill or in the oven under the broiler can achieve similar results. Make incisions into the chicken to help the marinade really penetrate the meat. Lemon juice and yogurt help achieve the tenderness tandoori chicken is known for, while a combination of sweet paprika and Kashmiri chile powder give it its signature red hue. (The bright red hue you might see in some Western restaurants is achieved by adding red food coloring.) Serve with steamed basmati rice and cucumber cilantro raita.",
+    "author": {
+        "@type": "Person",
+        "name": "Farideh Sadeghin"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-googleFourByThree.jpg",
+            "height": 600,
+            "width": 800,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/05/16/multimedia/fs-tandoori-chicken-hmjq/fs-tandoori-chicken-hmjq-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT8H45M",
+    "totalTime": "PT9H",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "asian",
+    "recipeCategory": [],
+    "keywords": "chicken leg, chile powder, food processor, lemon juice, make-ahead, plan-ahead, sweet paprika, yogurt",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 72
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 471,
+        "unsaturatedFatContent": "20 grams",
+        "carbohydrateContent": "8 grams",
+        "cholesterolContent": null,
+        "fatContent": "35 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "30 grams",
+        "saturatedFatContent": "13 grams",
+        "sodiumContent": "760 milligrams",
+        "sugarContent": "4 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "4 bone-in, skin-on chicken leg quarters (about 2 pounds), skin removed",
+        "Salt",
+        "1/3 cup fresh lemon juice (from 1 to 2 lemons)",
+        "4 garlic cloves",
+        "1 (2-inch) piece fresh ginger, peeled",
+        "1 cup plain yogurt",
+        "1 tablespoon sweet paprika",
+        "1 teaspoon Kashmiri chile powder",
+        "1 teaspoon garam masala",
+        "1 teaspoon ground cumin",
+        "1/2 teaspoon ground cardamom",
+        "2 tablespoons melted ghee or butter",
+        "Lemon wedges, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Using a knife, make 3 to 4 small (1/2 inch) incisions into each piece of chicken, about 1/2-inch deep. Place the chicken legs into a medium bowl and rub all over with 1 to 2 teaspoons of salt. Add the lemon juice, coating the chicken in it. Let sit at room temperature for 20 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, place the garlic and ginger in a food processor with 3 tablespoons of water. Purée until a paste forms, then add to a small bowl with the yogurt, paprika, chile powder, garam masala, cumin and cardamom. Mix to combine, then pour over the chicken and mix, tossing the chicken to coat. Cover and refrigerate at least 8 hours, or overnight, and up to 48 hours. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Set the oven to broil. Line a sheet tray with aluminum foil and fit it with a rack. Remove the chicken from the marinade, brushing off and discarding any excess marinade. Place the chicken on the rack and brush with the ghee. Put the tray under the broiler and cook the chicken for 25 to 35 minutes, flipping the legs halfway through, until they’re lightly charred and a thermometer inserted into the thickest part reads 165 degrees. Alternatively, light a grill. Brush the chicken with the ghee and cook, flipping once halfway through, until charred and a thermometer inserted into the thickest part reads 165 degrees, about 17 minutes. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the chicken to a cutting board to rest for 10 minutes before serving with lemon wedges, if desired."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-05-16T00:00:00.000Z",
+    "dateModified": "2024-05-22T19:20:27.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brushjl"
+            },
+            "reviewBody": "Fabulous,  great marinade leading to a moist tasty chicken.",
+            "datePublished": "2024-06-09T13:51:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jess"
+            },
+            "reviewBody": "The Tandoor (tannur) came from Iran - Harrapan civilization. Chicken in tandoor with spices was more recent. It originated in the Punjab region of India & Pakistan.",
+            "datePublished": "2024-06-02T15:36:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura"
+            },
+            "reviewBody": "Made quickly with 2 tablespoons garlic ginger paste from a jar, forgot to rub the chicken with salt or let it sit in the lemon juice for 20 minutes. Didn't have the Kashmiri chili powder - used 1/2 teaspoon cayenne and 1 teaspoon plain chili powder (like you use to make Chili). Just threw the marinade together, skinned and slashed the chicken. Sat for 8hrs, grilled, turned out great, really flavorful. Will make again and probably up the cayenne if I still don't have the Kashmiri chili powder.",
+            "datePublished": "2024-05-26T19:09:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Citizen"
+            },
+            "reviewBody": "Most of the jars have sodium benzoage as preservatives.",
+            "datePublished": "2024-06-02T23:23:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Priya"
+            },
+            "reviewBody": "If I may suggest a tip for people making Indian food, any Indian food. Get a jar of ginger-garlic paste from the Indian store. Yes, it’s not the ‘purest, freshest’ way but if you make Indian food often, it’s the most convenient. Even my mom scoffs at it but by the end of her visit, she’s dipping into it. Fewer bits and bobs to clean up each time.",
+            "datePublished": "2024-05-26T10:57:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elk"
+            },
+            "reviewBody": "The intent is to use fresh ingredients--fresh ginger, whole cloves of garlic--not powdered ingredients.  They cannot be substituted in a dish like this.",
+            "datePublished": "2024-05-27T00:22:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chef Boy TC"
+            },
+            "reviewBody": "We harried amateur cooks would appreciate conversions of cloves and pieces to powders.  \n\nAlso, why make a paste and then mix it into the marinade, instead of mixing it all directly?",
+            "datePublished": "2024-05-24T15:00:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nick"
+            },
+            "reviewBody": "When grilling, do you place directly on the grill, or on a higher shelf grate, on in/on a cast iron Pan?",
+            "datePublished": "2024-05-21T23:51:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bob"
+            },
+            "reviewBody": "I know one way to find out - let us know how it turns out!",
+            "datePublished": "2024-05-30T05:12:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KB"
+            },
+            "reviewBody": "Are there any ideas about doing this with tofu?",
+            "datePublished": "2024-05-22T21:17:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tessa"
+            },
+            "reviewBody": "the first line    \"...with skin removed...\"",
+            "datePublished": "2024-05-25T19:44:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "tessa"
+            },
+            "reviewBody": "I mean - in the ingredients list.",
+            "datePublished": "2024-05-25T19:46:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Barbara Bearman"
+            },
+            "reviewBody": "I have been making tandoori chicken (also lamb and fish) for decades.  I use a recipe from a pamphlet I picked up at The Ganges restaurant in London.  I also have ordered the dish many times in Indian restaurants.  I have never seen tandoori chicken prepared with the skin on.  It is always removed.",
+            "datePublished": "2024-05-22T12:47:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "nm"
+            },
+            "reviewBody": "Some of the respondents seem to have difficulty with reading comprehension. The recipe very clearly calls for bone-in, skin-on chicken leg quarters, with *skin removed* as part of the prep. (If you can find skinless, bone-in leg portions, go for it.)\n\nMaybe read the whole recipe more than once prior to commenting.",
+            "datePublished": "2024-05-21T17:53:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JBoyce"
+            },
+            "reviewBody": "Recipe says very clearly \"bone-in, skin-on chicken leg quarters.",
+            "datePublished": "2024-05-21T12:37:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J"
+            },
+            "reviewBody": "Recipe states skin-on legs.",
+            "datePublished": "2024-05-21T15:59:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bob"
+            },
+            "reviewBody": "the recipe says: \"4bone-in, skin-on chicken leg quarters (about 2 pounds), skin removed\"",
+            "datePublished": "2024-05-23T10:32:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dave"
+            },
+            "reviewBody": "Recipe is for a skinless chicken but illustration shows skin-on chicken.",
+            "datePublished": "2024-05-20T22:03:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Passion for Peaches"
+            },
+            "reviewBody": "A@yespat, you can tandoori all parts of bone-in chicken.",
+            "datePublished": "2024-05-21T15:45:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Yespat"
+            },
+            "reviewBody": "Any chance of making this with bone in skin on breasts?",
+            "datePublished": "2024-05-20T12:28:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "roostahktchn25471"
+            },
+            "reviewBody": "I don't trust everything that Cook's illustrated cooking techniques or tips. I use ginger alot in my cooking and never cross my mind or experience that it makes the meat mushy. In this recipe use alot of lemon juice for 2 lbs of chicken legs besides a cup of yogurt, these ingredients definitely will break down the protein and can result mushy if marinated too long. So the focus should be these acidic ingredients. I would suggest to cut back lemon juice or add it about 1 hr before cooking ...",
+            "datePublished": "2024-05-20T16:14:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Passion for Peaches"
+            },
+            "reviewBody": "Acid cancels enzyme in ginger. From Wired:\n\n“Ginger…is full of a powerful enzyme called zingibain, which acts as a meat tenderizer---leaving you with mushy, soggy junk that falls off the skewer or in between the grill rack. You can deactivate the enzyme…by heating up the ginger first…the enzyme quits at 158 degrees Fahrenheit, which takes about 60 seconds in a microwave.”\n\nIMO, 48 hours is too long. Overnight to 24 hours, optimum.",
+            "datePublished": "2024-05-21T15:42:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Steve"
+            },
+            "reviewBody": "Cook's Illustrated advises against a long marinate for chicken when ginger is part of the marinade.  The editors explain that ginger will make the meat \"mushy\" (and provide an explanation for why this occurs).  This recipe for tandoori chicken suggests that the chicken can be marinated (with ginger in the mix) for up to 48 hours!!  Kindly explain the conflict between these two perspectives.  Thank you!",
+            "datePublished": "2024-05-19T22:59:17.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "elaine walker"
+            },
+            "reviewBody": "This recipe is for skinless chicken",
+            "datePublished": "2024-05-20T07:19:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JBoyce"
+            },
+            "reviewBody": "Actually, the recipe says very clearly: \"4 bone-in, skin-on chicken leg quarters\"",
+            "datePublished": "2024-05-21T12:36:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jeff Fields"
+            },
+            "reviewBody": "An alternative to a broiler or grill is the upper deck of a backyard gas grill. Crank the to 600 or so and roast the chicken up top - not on grill surface. The heat approximates that off a tandoori. Skin will be crispy and the meat tender & tender.",
+            "datePublished": "2024-05-19T23:15:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Usually most spices can be ordered from Kalustyans in New York City. The shop is a cornucopia of flavors and they ship!",
+            "datePublished": "2024-05-19T20:33:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CharlieWilson"
+            },
+            "reviewBody": "I am originally from India and due to my lactose intolerance found a lot of recipes useless until I discovered vinegar. I have used it with lamb and beef alike for several years by now and the food turns out equally flavorful (and actually tenderer). I haven't made Tandoori Chicken in a while due to dairy issues. I will try with vinegar and report the results.",
+            "datePublished": "2024-05-21T15:42:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alec"
+            },
+            "reviewBody": "vegan substitute for yogurt that would have (almost) same outcome?",
+            "datePublished": "2024-05-19T18:55:01.000Z"
+        }
+    ]
+}

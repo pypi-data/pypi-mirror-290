@@ -1,0 +1,120 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Slow-Cooker Ribollita",
+    "datePublished": "2017-08-23T12:51:28.000-04:00",
+    "dateModified": "2017-10-06T01:55:38.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Meaning reboiled in Italian, this hearty vegetarian soup lives up to its name. It&#39;s just as delicious on the day it&#39;s made as it is reheated. This recipe appears in our cookbook &#34;Martha Stewart&#39;s Slow Cooker&#34; (Clarkson Potter).",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/hHcMMFnzOfi6hCERpyXubwSd9S8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/slow-cooker-ribollita-103026758_horiz-aa7eef54bb4b41e6a09f43b810fb9f3f.jpgitokoWPrer9p",
+        "height": 420,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Slow-Cooker Ribollita",
+    "recipeIngredient": [
+        "0.25 cup plus 2 tablespoons extra-virgin olive oil, plus more for serving",
+        "1 onion, finely chopped",
+        "3 cloves garlic, minced",
+        "0.5 teaspoon red-pepper flakes",
+        "1 bunch lacinato kale, stems removed, leaves cut into ½-inch ribbons (4 cups)",
+        "2 medium zucchini, quartered lengthwise and cut into ½-inch slices",
+        "1 large tomato, finely chopped",
+        "1 cup fresh or frozen shelled cranberry beans",
+        "1.5 cups boiling water",
+        "Kosher salt and freshly ground black pepper",
+        "2 slices country bread",
+        "Finely grated Parmigiano-Reggiano, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a 4-quart slow cooker. Heat 2 tablespoons oil in a large skillet over high. Add onion, garlic, and red-pepper flakes and cook until softened, about5 minutes. Add kale and cookuntil just wilted, 5 minutes. Transferto slow cooker."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add 1 tablespoon oil to skillet, then add zucchini and cook over high until lightly browned, 3 to 4 minutes. Transfer zucchini to slow cooker along with tomato, beans, and boiling water; season with salt and pepper. Cover and cook on high until beans are tender, 3 hours (or on low 6 hours)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat remaining 3 tablespoons oil in a large skillet. Add bread and cook over medium, turning once or twice, until golden and crisp, 5 to 6 minutes. Let cool slightly, then tear into pieces; stir into stew in slow cooker. Coverand cook on high until thick, 1 hour more (or on low 2 hours more). Season with salt and pepper; serve, topped with grated cheese and drizzled with oil."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1519706/slow-cooker-ribollita",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1520454/soups-stews-stocks",
+                        "name": "Soups, Stews & Stocks"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505182/soup-recipes",
+                        "name": "Soup Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1519706/slow-cooker-ribollita",
+                        "name": "Slow-Cooker Ribollita"
+                    }
+                }
+            ]
+        }
+    }
+}

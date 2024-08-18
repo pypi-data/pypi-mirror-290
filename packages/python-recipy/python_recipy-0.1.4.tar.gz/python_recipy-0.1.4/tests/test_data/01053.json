@@ -1,0 +1,127 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Spinach-Artichoke Dip",
+    "datePublished": "2019-05-06T18:13:23.000-04:00",
+    "dateModified": "2019-05-06T18:13:23.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Patricia S York",
+            "url": "https://www.southernliving.com/author/patricia-s-york"
+        }
+    ],
+    "description": "In this Spinach-Artichoke Dip, you&#39;ll find the perfect balance of artichokes, spinach, cream cheese, mozzarella cheese, Parmesan cheese, &amp; panko.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/JSoO3a1AIzfpKaBBq5s6-vzusGk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spinach-artichoke-dip-0419seo_007_1_0-09a811d283e1411dbf1449f71e517e64.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/kSEGSIqR-KtCa7qb3.mp4",
+        "description": "Every Southerner knows the power of a good dip. A really, really good dip? That’s our one-way ticket to hostess heaven.",
+        "duration": "PT44S",
+        "name": "Spinach-Artichoke Dip",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/kSEGSIqR/poster.jpg?width=720",
+        "uploadDate": "2021-06-24T04:56:34.818-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Spinach-Artichoke Dip",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American",
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1 (10-oz.) pkg. frozen chopped spinach, thawed",
+        "2 (9-oz.) pkg. frozen artichoke hearts, thawed and chopped",
+        "1 cup mayonnaise",
+        "2 (8-oz.) pkg. cream cheese, softened",
+        "1 cup pre-shredded part-skim mozzarella cheese",
+        "2 ounces Parmesan cheese, grated (about 1/2 cup)",
+        "1 teaspoon garlic powder",
+        "1/2 teaspoon black pepper",
+        "1/2 teaspoon crushed red pepper",
+        "1/2 cup panko (Japanese-style breadcrumbs)",
+        "2 tablespoons unsalted butter, melted",
+        "Pita chips, broccoli florets, and radishes, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400°F. Place spinach on a paper towel; squeeze over a sink to remove as much liquid as possible. Stir together spinach, artichokes, cream cheese, mayonnaise, mozzarella, Parmesan, garlic powder, black pepper, and crushed red pepper in a large bowl using a wooden spoon until thoroughly combined. Spoon mixture evenly into 6 (8-oz.) ramekins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir together panko and melted butter in a small bowl until combined. Sprinkle mixture evenly over ramekins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Arrange ramekins on a baking sheet. Bake in preheated oven until tops are bubbly and golden brown, 20 to 25 minutes. Let cool 5 minutes. Serve with pita chips, broccoli, and radishes."
+        }
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/spinach-artichoke-dip",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/spinach-artichoke-dip",
+                        "name": "Spinach-Artichoke Dip"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/normandy-pork-apples-cider#Recipe",
+    "@type": "Recipe",
+    "description": "True comfort food for chilly winter evenings, this slow-cooker Normandy-style recipe combines meltingly tender pork, smoked bacon and cider",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/normandy-pork-with-apples-and-cider-a932ddf.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/normandy-pork-apples-cider"
+    },
+    "name": "Pork, apple and cider casserole",
+    "url": "https://www.bbcgoodfood.com/recipes/normandy-pork-apples-cider",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cassie Best",
+            "url": "https://www.bbcgoodfood.com/author/cassiebest"
+        }
+    ],
+    "dateModified": "2023-04-12T15:45:03+01:00",
+    "datePublished": "2016-01-14T10:48:52+00:00",
+    "headline": "Pork, apple and cider casserole",
+    "keywords": "2 of 5-a-day, Apples, Cassie Best, Cider, Comfort Food, Pork, Slow cooker, Winter",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT8H30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "594 calories",
+        "fatContent": "37 grams fat",
+        "saturatedFatContent": "16 grams saturated fat",
+        "carbohydrateContent": "19 grams carbohydrates",
+        "sugarContent": "15 grams sugar",
+        "fiberContent": "4 grams fiber",
+        "proteinContent": "41 grams protein",
+        "sodiumContent": "2.8 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "2 tbsp rapeseed oil or olive oil",
+        "600g pork shoulder or pork cheeks, fat and sinew trimmed, cut into chunky pieces",
+        "1 large onion, chopped",
+        "2 carrots, cut into chunky pieces",
+        "2 celery sticks, cut into chunky pieces",
+        "200g pack smoked bacon lardons",
+        "250ml dry cider (or use 100ml apple juice mixed with 3 tbsp cider vinegar and 100ml water)",
+        "2 eating apples (we used Braeburn), cored and cut into chunky pieces",
+        "1 chicken stock cube",
+        "1 bay leaf",
+        "3-4 thyme sprigs, plus extra to serve (optional)",
+        "140g crème fraîche",
+        "1-2 tbsp Dijon mustard, plus extra to serve (optional)",
+        "1-2 tsp cornflour, optional",
+        "mashed potato and greens, to serve"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat half the oil in a large pan and brown the meat in batches. Don’t overcrowd the pan, and only turn the meat when it has a deep brown crust on the underside, as this will add lots of flavour to the stew. When one batch is cooked, tip it into the slow cooker and continue with the next batch, adding more oil as you need it."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When all the meat has been transferred to the slow cooker, add the onion, carrots and celery to the pan and cook for 5-10 mins to just soften, scraping any meaty bits up from the bottom of the pan. Tip the veg into the slow cooker. Add the lardons to the pan and fry until crispy. Pour in the cider, bubble for 1 min, again scraping the bottom of the pan, then tip the cider and lardons into the slow cooker too. Add the apples, stock cube and herbs to the slow cooker, pour in 400ml water, season well and turn the heat to Low. Cover with the lid and cook for 6-8 hrs until the meat is very tender. (If you don’t have a slow cooker, tip all the ingredients back into the pan, cover with a lid and cook for 3 hrs over a low heat, stirring every now and then to prevent it from catching on the bottom. You may have to add a splash of water during cooking if the sauce looks dry.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Turn your slow cooker up to High. Add the crème fraîche and mustard to the stew and check the seasoning. If the sauce is thin, you can thicken it with the cornflour – ladle 2 spoonfuls of the sauce into a pan and bring to a simmer, mix the cornflour with 1-2 tsp cold water to make a paste, then stir it into the sauce. Once thickened, return the sauce to the slow cooker and cook for 10 mins more on High, stirring occasionally (or for 5 mins on the hob). Serve with mashed potato, greens and extra mustard and thyme, if you like."
+        }
+    ],
+    "recipeYield": 4,
+    "totalTime": "PT8H50M"
+}

@@ -1,0 +1,104 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Blue Cheese Ravioli with Onion Sauce  Recipe",
+    "keywords": [
+        "pasta",
+        "ricotta",
+        "blue cheese",
+        "onion",
+        "ravioli",
+        "main",
+        "starter",
+        "nut-free",
+        "vegetarian",
+        "dinner",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "St Hubertus",
+            "sameAs": "https://www.bonappetit.com/contributor/st-hubertus"
+        }
+    ],
+    "description": "Blue Cheese Ravioli with Onion Sauce  Recipe",
+    "image": [
+        "/verso/static/bon-appetit/assets/logo-seo.png"
+    ],
+    "headline": "Blue Cheese Ravioli with Onion Sauce ",
+    "name": "Blue Cheese Ravioli with Onion Sauce ",
+    "recipeIngredient": [
+        "4 tablespoons butter, divided",
+        "4 cups chopped onions",
+        "3/4 cup (or more) vegetable broth",
+        "1 1/2 cups all purpose flour",
+        "1/2 teaspoon salt",
+        "2 large eggs",
+        "2 large egg yolks",
+        "1 tablespoon warm water",
+        "1 tablespoon butter",
+        "1 cup whole-milk ricotta cheese, well drained, squeezed dry in towel",
+        "1/2 cup crumbled blue cheese (about 2 ounces)",
+        "2 tablespoons freshly grated Parmesan cheese",
+        "1/4 teaspoon salt",
+        "1/4 teaspoon pepper",
+        "1 large egg yolk",
+        "1 large egg white, whisked until foamy",
+        "1 tablespoon olive oil",
+        "Watercress (for garnish)",
+        "Croutons (for garnish)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt 3 tablespoons butter in heavy medium skillet over medium heat. Mix in onions. Cover; cook until softened but not brown, stirring occasionally, about 10 minutes. Add 3/4 cup broth; simmer until onions are tender, about 6 minutes. Puree onions in processor until smooth. Pour into small saucepan. Add 1 tablespoon butter. Thin with more broth, if desired. DO AHEAD Can be made 1 day ahead. Cover; chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Mix flour and salt in large bowl; make well in center. Add eggs, yolks, and 1 tablespoon water to well; stir to blend. Gradually stir flour into egg mixture. Knead dough in bowl until shaggy, sticky dough forms, about 5 minutes. Turn dough out onto lightly floured work surface and knead until smooth, about 10 minutes. Gather dough into ball. Cover with plastic and let rest 1 hour at room temperature."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook butter in heavy small saucepan over medium heat until brown, about 3 minutes. Pour into small bowl; cool. Mix in ricotta, blue cheese, Parmesan, salt, pepper, and egg yolk."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide dough into 4 equal pieces. Cover 3 pieces with plastic wrap. Set pasta machine to widest setting. Flatten 1 dough piece into rectangle; run through machine. Fold in half crosswise (end to end) and run through again. Continue, adjusting machine to narrower settings after every 2 passes and dusting with flour as needed to keep from sticking, until pasta sheet is 24 inches long (scant 1 1/6 inch thick). Using 2-1/2-inch round cutter, cut out 12 to 14 rounds. Brush half of each round lightly with egg white."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drop 1 teaspoon filling into center of each round; lift sides of round up over filling to meet at center; pinch to seal along seam, forming dumpling. Repeat with remaining rounds. Place in single layer on lightly floured parchment-lined baking sheets. Repeat with remaining dough. DO AHEAD Can be made 6 hours ahead; chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working in 2 batches, cook pasta in large deep skillet of boiling salted water until just tender, about 5 minutes. Using slotted spoon, transfer to large bowl. Drizzle with 1 tablespoon olive oil; toss gently."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Rewarm sauce; drizzle onto each plate. Top with ravioli and garnish."
+        }
+    ],
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/blue-cheese-ravioli-with-onion-sauce",
+    "dateModified": "2009-01-14T19:00:00.000-05:00",
+    "datePublished": "2009-01-14T19:00:00.000-05:00",
+    "recipeCategory": []
+}

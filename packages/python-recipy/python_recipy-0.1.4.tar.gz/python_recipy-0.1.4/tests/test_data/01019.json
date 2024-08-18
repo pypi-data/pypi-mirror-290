@@ -1,0 +1,145 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Seven-Layer Cookies",
+    "datePublished": "2018-12-19T20:58:38.000-05:00",
+    "dateModified": "2023-09-13T17:26:00.369-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Katie Rosenhouse",
+            "url": "https://www.southernliving.com/katie-rosenhouse-7547739"
+        }
+    ],
+    "description": "The trick to getting this 7-Layer Cookies recipe just right is making sure to even out each layer as you add to the pan.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/TU27xvqPPKOnCvgteXmP0beeGCU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Seven-Layer-Cookies_Beauty-01_-94ab0175f0d04ea0bb98444ecf6efa14.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Seven-Layer Cookies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "6"
+    },
+    "keywords": "7 layer cookies, seven layer cookies",
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American",
+        "Southern"
+    ],
+    "recipeIngredient": [
+        "1/2 stick butter",
+        "1 cup graham cracker crumbs",
+        "1 can flaked coconut",
+        "1 (6-ounce) package chocolate chips",
+        "1 (6 ounce) package butterscotch chips",
+        "1 can sweetened condensed milk",
+        "1 cup chopped pecans"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/sYxupDE1P4QNJdqqEyY-9DvpMHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Seven-Layer-Cookies_Step-02_-63263b08a5f94955a57bd65fc1f392fd.jpg"
+                }
+            ],
+            "text": "Prepare baking dish: Melt butter in a 9- x 12- inch baking pan."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/QLsY70oi-NoJjKnLSfqZe5ONBSU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Seven-Layer-Cookies_Step-08_-aa5f5e3752bf4f6ba2e520f3036c526f.jpg"
+                }
+            ],
+            "text": "Layer ingredients in baking dish: Add ingredients evenly by layers in order listed. Start with graham cracker crumbs. Then add coconut. Next, sprinkle the chocolate chips and butterscotch chips. Pour milk. Finally, add the pecans."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/iWHrtYzsYozgbFtAGWsi2gDRSpk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Seven-Layer-Cookies_Step-09_-844822a52d0b45b6994ff8faf7c5e4f1.jpg"
+                }
+            ],
+            "text": "Bake cookies: Bake at 325°F about 30 minutes until the top is golden brown and the filling is set. Let cool in pan, then cut into small squares."
+        }
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/7-layer-cookies",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts",
+                        "name": "Desserts"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/desserts/cookies",
+                        "name": "Cookies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/7-layer-cookies",
+                        "name": "Seven-Layer Cookies"
+                    }
+                }
+            ]
+        }
+    }
+}

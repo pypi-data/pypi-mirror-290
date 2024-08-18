@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Curry Chicken",
+    "url": "https://www.foodnetwork.com/recipes/curry-chicken-2399288",
+    "headline": "Curry Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:34:53.377-05:00",
+    "dateModified": "2014-05-05T10:26:39.032-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Curry,Chicken Recipes,Curry Recipes,Poultry,Main Dish,Gluten Free",
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT0H50M0.000S",
+    "recipeIngredient": [
+        "2 pounds chicken breast, sliced",
+        "3 ounces fish sauce ",
+        "1 ounce sugar ",
+        "1 teaspoon salt ",
+        "3 tablespoons vegetable oil ",
+        "1 teaspoon minced garlic ",
+        "1 pound purple onions, sliced ",
+        "2 tablespoons chopped fresh lemongrass ",
+        "1 teaspoon yellow curry powder ",
+        "1 teaspoon turmeric ",
+        "Steamed jasmine rice, for serving",
+        "Pinch black pepper "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 5 servings",
+        "calories": "405",
+        "fatContent": "14g",
+        "saturatedFatContent": "2g",
+        "carbohydrateContent": "25g",
+        "fiberContent": "3g",
+        "sugarContent": "10g",
+        "proteinContent": "44g",
+        "cholesterolContent": "132mg",
+        "sodiumContent": "1423mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put the sliced chicken breast in a bowl, then add the fish sauce, sugar and salt to marinate for 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a deep pan set over the highest heat, add the vegetable oil, minced garlic and onions, and saute for 1 minute. Then quickly add the marinated chicken breast, turn the heat down to medium-high, and continue to saute for another 5 minutes. Finally add in the lemongrass, curry powder, turmeric and 4 ounces water. Turn down the heat to low and let it simmer for 5 minutes. Then serve on steamed jasmine rice with a pinch of black pepper."
+        }
+    ],
+    "recipeYield": "5 servings",
+    "recipeCategory": []
+}

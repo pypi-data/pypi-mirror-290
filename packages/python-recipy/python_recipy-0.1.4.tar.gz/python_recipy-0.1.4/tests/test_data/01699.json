@@ -1,0 +1,134 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Grilled Artichokes with Herby Lemon Aioli",
+    "datePublished": "2020-03-25T09:42:19.000-04:00",
+    "dateModified": "2023-08-02T10:23:41.219-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Paula Disbrowe",
+            "url": "https://www.foodandwine.com/author/paula-disbrowe"
+        }
+    ],
+    "description": "Steamed until tender then charred on the grill, artichokes make for a satisfying snack supper when served with this quick lemon aioli. Get the recipe at Food &amp; Wine.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/h0Gl_Vf93PZUtyQfXjuGQ66V6uI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grilled-artichokes-fwcooks-FT-RECIPE0420-1-ce107b29e54f42659a1e83f8ef98680c.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Grilled Artichokes with Herby Lemon Aioli",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "4 large artichokes",
+        "3 large lemons",
+        "3 tablespoons extra-virgin olive oil, plus more for oiling grates",
+        "1 large Fresno chile, split lengthwise and seeded",
+        "1 cup mayonnaise (such as Duke’s)",
+        "3 tablespoons chopped soft fresh herbs (such as tarragon, chives, mint, and parsley)",
+        "1 teaspoon fresh thyme leaves",
+        "1 teaspoon grated garlic",
+        "1/4 teaspoon kosher salt, plus more",
+        "Grilled bread, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Trim stem of each artichoke to 1 inch, and snap off dark outer leaves. Use a sharp knife to trim off the top 1 inch from the artichoke leaves. Use a paring knife to peel the dark green skin from the stem and base of artichoke. Slice each artichoke in half lengthwise. Use a paring knife to remove the choke and the purple, prickly-tipped leaves from center of each half. Place prepped artichokes in a large bowl of cold water with juice of 2 lemons."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain artichokes, and cook in boiling salted water until just tender when pierced with a sharp knife, about 12 minutes. Drain artichokes, and pat dry."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Prepare a charcoal grill for two-zone cooking and build a medium fire, or heat a gas grill to medium-high. Carefully wipe the preheated grates with a lightly oiled paper towel. Using a grill brush, scrape the grill grates clean, then carefully wipe with a lightly oiled towel again."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss artichokes in oil. Grill artichokes, cut sides down, uncovered, over direct heat, turning occasionally, until tender and lightly charred in spots, about 10 minutes. Halve remaining lemon. Grill lemon, cut sides down, and chile until charred and softened, about 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Squeeze juice from warm grilled lemons into a bowl, discarding seeds. Scoop out lemon flesh, coarsely chop, and add to juice. Finely chop chile, and add to bowl. Whisk in mayonnaise, herbs, thyme, garlic, and salt. Serve warm artichokes with aioli and grilled bread."
+        }
+    ],
+    "totalTime": "PT40M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/grilled-artichokes-herby-lemon-aioli",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/side-dishes/vegetable-side-dishes",
+                        "name": "Vegetable Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/roasted-vegetables-7497064",
+                        "name": "Roasted Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/grilled-artichokes-herby-lemon-aioli",
+                        "name": "Grilled Artichokes with Herby Lemon Aioli"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-02T10:23:41.219-04:00"
+    }
+}

@@ -1,0 +1,294 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020489-pancit-palabok-rice-noodles-with-chicken-ragout-and-shrimp#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020489-pancit-palabok-rice-noodles-with-chicken-ragout-and-shrimp",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex8-pansit/merlin_160617849_c6545d58-d251-4ebc-8ebe-592849e14481-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020489-pancit-palabok-rice-noodles-with-chicken-ragout-and-shrimp",
+    "name": "Pancit Palabok (Rice Noodles With Chicken Ragout and Shrimp)",
+    "description": "We eat pancit, or noodles, always — but especially at birthday celebrations, where the length of the noodles is seen as a promise for an equally long life. Among our many pancit dishes, palabok is the richest. The sauce almost takes on the texture of an Italian ragù, with the meat slowly disintegrating into a thick gravy that’s stained reddish-gold by achuete (annatto). The toppings aren’t decorative, but a crucial part of the dish: a whole regiment of hard-boiled eggs and poached shrimp, plus a tumble of fried garlic and crumbled chicharron (puffed-up crispy pork skins).",
+    "author": {
+        "@type": "Person",
+        "name": "Angela Dimayuga"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex8-pansit/08Filipinorex8-pansit-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex8-pansit/merlin_160617849_c6545d58-d251-4ebc-8ebe-592849e14481-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex8-pansit/merlin_160617849_c6545d58-d251-4ebc-8ebe-592849e14481-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/10/09/dining/08Filipinorex8-pansit/08Filipinorex8-pansit-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H20M",
+    "recipeYield": "10 to 12 servings",
+    "recipeCuisine": "filipino",
+    "recipeCategory": [],
+    "keywords": "chicken, shrimp",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 176
+    },
+    "recipeIngredient": [
+        "2 pounds bone-in, skin-on split chicken breasts (about 2 breasts)",
+        "2 pounds bone-in, skin-on chicken thighs",
+        "Kosher salt",
+        "1 pound small shrimp (26/30 count), peeled and deveined",
+        "6 eggs",
+        "3 tablespoons neutral oil, such as canola",
+        "3 tablespoons achuete annatto powder (3/4 ounce)",
+        "2 large yellow onions, finely minced (about 3 1/2 cups)",
+        "8 celery stalks, finely minced (about 3 cups)",
+        "15 garlic cloves, finely minced",
+        "Fish sauce, as needed",
+        "1/2 teaspoon coarsely ground black pepper, plus more for garnish",
+        "Banana leaves, for lining the serving dish (optional)",
+        "16 to 18 ounces rice vermicelli noodles (ideally about the thickness of spaghetti, or whatever you can find!), cooked",
+        "1 bunch scallions, thinly sliced",
+        "3 calamansi, halved, or lemons, cut into wedges, seeds removed",
+        "1 cup chicharron, crushed into small pieces",
+        "A few tablespoons of crushed fried garlic"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the chicken breasts and thighs to a large pot. Cover with about 8 cups water (the chicken should be fully submerged), add 3 tablespoons salt, and bring to a boil over high. Once the mixture comes to a boil, reduce heat to medium-low and simmer until meat is cooked through and can be ripped off the bone easily, about 40 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the chicken to a bowl to cool, and reserve the cooking liquid. Once the chicken is cool enough to handle, discard the skin. Tear the chicken into bite-size pieces and shred into thin strands. Discard the bones."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, prepare the shrimp: Bring 4 cups water and 1 tablespoon salt to a boil in a medium saucepan. Once it comes to a boil, add the shrimp and cook just until pink and tender, about 2 minutes. Pour into a colander, straining and discarding the liquid, then quickly transfer the shrimp to a large bowl of ice water just until chilled, about 2 minutes. Strain shrimp, transfer to a bowl and refrigerate until use."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the eggs: Bring a large saucepan of water to a boil over high with 1 teaspoon salt, and prepare an ice bath in a large bowl. Carefully drop in the eggs, one at a time, reduce the heat to a gentle simmer over low and cook, 9 minutes. Transfer eggs to the ice bath and let cool. Drain, then carefully peel."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oil over high until shimmering. Add the annatto powder and stir until toasted, slightly darkened and fragrant, about 1 minute. (The natural yellow food coloring dyes the oil a robust hue.) Add the onions, celery, garlic and 1 tablespoon salt, and cook, stirring occasionally, until softened, about 8 minutes. Deglaze with 4 cups reserved chicken stock."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the shredded chicken and simmer, constantly mashing the chicken with a whisk to promote shredding until the chicken has braised and disintegrates into fine threads, and the sauce has thickened, about 30 minutes. Add fish sauce and black pepper to season."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Line a large baking dish with banana leaves, if using. Add the cooked noodles to the dish, top with an even layer of warm chicken mixture, followed by most of the sliced scallions. Top with alternating rows of hard-boiled eggs (thinly sliced crosswise into rounds) and shrimp, squeezing about a half a lemon over the surface or calamansi juice if you have it. Then top with a crunchy mix of chicharron, fried garlic, a few more sliced scallions, a coarse crack of black pepper and remaining lemons or calamansi on the side, for serving."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claudia S."
+            },
+            "reviewBody": "RH mentioned \"salty eggs.\" Can I use chicken eggs or do the have to be duck? I've never made these before. Any suggestions?",
+            "datePublished": "2024-02-13T05:30:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patty G."
+            },
+            "reviewBody": "This recipe is missing the best part of palabok which is tinapa (smoked fish) which adds saltiness/brininess to the dish.",
+            "datePublished": "2023-11-03T11:54:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DDR"
+            },
+            "reviewBody": "Made this twice and its a huge hit with the family. I halved the recipe since there are only 3 of us! I couldn't find chicarron so used crispy bacon once and fried diced ham the second time. I like the ham here. I also couldn't find pure annatto so I used Goya Sazon (two packets for a half recipe), which includes annatto, and that came out great.\n\nI boil the chicken and shrimp mid day and then refrigerate. Eggs and noodles are done in the time the chicken/veg sauce is simmering.",
+            "datePublished": "2021-09-21T04:28:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Keith"
+            },
+            "reviewBody": "I just made this for the first time. I had never made this style of food and it was still delicious. I had a ton of leftovers and made sure to refrigerate the eggs and shrimp separate from the noodles and chicken to make reheating easy.",
+            "datePublished": "2020-09-09T23:54:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Filipina without an Asian grocery nearby"
+            },
+            "reviewBody": "I'm sure it depends where!  Unfortunately, doesn't seem common, especially outside California.  You may have better luck finding frozen calamansi juice but that has more limited application of course.",
+            "datePublished": "2019-10-15T14:18:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Queen V"
+            },
+            "reviewBody": "Are calamansi readily available in Asian grocery stores?",
+            "datePublished": "2019-10-11T15:41:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter Kaboli"
+            },
+            "reviewBody": "The prep time of 1 hr 20 min is deceiving. Really takes much longer as there are a number of steps. Unless you are cooking for a big group or want lots of leftovers, this makes a HUGE plate of food.  Cut recipe in half.",
+            "datePublished": "2019-10-10T19:08:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ria"
+            },
+            "reviewBody": "love palabok! \n\nyou can also just boil the shrimp in the hot liquid leftover from cooking the chicken",
+            "datePublished": "2019-10-08T13:31:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RH"
+            },
+            "reviewBody": "In the Philippines it is a no-no to discard chicken skin, or any other still edible ingredient, for that matter.  Deep fry the skin until it's as crispy as pork rinds, crush them by hand (or mortar and pestle) and include them in the crunchy mix described in Step 7.\n\nMy palabok twist:  Before adding any salt, crumble the yolks of 6 salty eggs (YMMV) and dissolve into the sauce at around Step 6.  This is the secret ingredient that will make your guests ask what you added to your palabok sauce",
+            "datePublished": "2019-10-08T01:11:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Filipina without an Asian grocery nearby"
+            },
+            "reviewBody": "Suggestion for readers who would enjoy more of the seafood slant typical of Pinoy cooking: obtain shrimp with heads and cook into the gravy the smushed deliciousness in the heads (like lobster's tomalley, but for shrimp).  Maybe just how to do this counts as that assumed knowledge the chef mentioned, but  you can improvise (don't put shells!)  Also little calamaris alongside the shrimp bodies is nice to have in the topping.",
+            "datePublished": "2019-10-08T12:41:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "RH"
+            },
+            "reviewBody": "In the Philippines it is a no-no to discard chicken skin, or any other still edible ingredient, for that matter.  Deep fry the skin until it's as crispy as pork rinds, crush them by hand (or mortar and pestle) and include them in the crunchy mix described in Step 7.\n\nMy palabok twist:  Before adding any salt, crumble the yolks of 6 salty eggs (YMMV) and dissolve into the sauce at around Step 6.  This is the secret ingredient that will make your guests ask what you added to your palabok sauce",
+            "datePublished": "2019-10-08T01:11:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Filipina without an Asian grocery nearby"
+            },
+            "reviewBody": "Suggestion for readers who would enjoy more of the seafood slant typical of Pinoy cooking: obtain shrimp with heads and cook into the gravy the smushed deliciousness in the heads (like lobster's tomalley, but for shrimp).  Maybe just how to do this counts as that assumed knowledge the chef mentioned, but  you can improvise (don't put shells!)  Also little calamaris alongside the shrimp bodies is nice to have in the topping.",
+            "datePublished": "2019-10-08T12:41:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ria"
+            },
+            "reviewBody": "love palabok! \n\nyou can also just boil the shrimp in the hot liquid leftover from cooking the chicken",
+            "datePublished": "2019-10-08T13:31:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter Kaboli"
+            },
+            "reviewBody": "The prep time of 1 hr 20 min is deceiving. Really takes much longer as there are a number of steps. Unless you are cooking for a big group or want lots of leftovers, this makes a HUGE plate of food.  Cut recipe in half.",
+            "datePublished": "2019-10-10T19:08:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Filipina without an Asian grocery nearby"
+            },
+            "reviewBody": "I'm sure it depends where!  Unfortunately, doesn't seem common, especially outside California.  You may have better luck finding frozen calamansi juice but that has more limited application of course.",
+            "datePublished": "2019-10-15T14:18:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Keith"
+            },
+            "reviewBody": "I just made this for the first time. I had never made this style of food and it was still delicious. I had a ton of leftovers and made sure to refrigerate the eggs and shrimp separate from the noodles and chicken to make reheating easy.",
+            "datePublished": "2020-09-09T23:54:34.000Z"
+        }
+    ]
+}

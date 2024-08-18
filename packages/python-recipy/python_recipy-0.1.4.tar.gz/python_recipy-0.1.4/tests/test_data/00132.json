@@ -1,0 +1,87 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "true",
+    "name": "Smoked Salmon Spread",
+    "author": "MarieRynr",
+    "cookTime": "",
+    "prepTime": "PT10M",
+    "totalTime": "PT10M",
+    "datePublished": "2004-02-05T20:00Z",
+    "description": "Typically we serve this spread with breadsticks or crackers. But for a delicious change, put a spoonful onto some thick grilled slices of sourdough bread, then top it with a squirt of lemon and a few grinds of pepper. The creamy, pale pink spread, melting into the crevices of the crunchy toast is irresistible.",
+    "image": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/83/12/3/pice3CylX.jpg",
+    "recipeCategory": "Spreads",
+    "keywords": "Very Low Carbs,< 15 Mins,Easy",
+    "recipeIngredient": [
+        "12   ounces    cream cheese, at room temperature ",
+        "1/3  cup    sour cream",
+        "1   tablespoon    fresh lemon juice",
+        "6   dashes    Tabasco sauce",
+        "3       scallions, white and green parts, thinly sliced ",
+        "3   tablespoons    capers, rinsed and drained ",
+        "8   ounces    smoked salmon, coarsely chopped ",
+        "3   tablespoons   chopped fresh dill or 1   tablespoon    dried dill",
+        "  fresh ground black pepper",
+        "  fresh dill, for garnish ",
+        "  crackers or   breadstick, for serving "
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "65"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "809.8",
+        "fatContent": "71.3",
+        "saturatedFatContent": "38.4",
+        "cholesterolContent": "235.1",
+        "sodiumContent": "1913.8",
+        "carbohydrateContent": "10.9",
+        "fiberContent": "1",
+        "sugarContent": "7.6",
+        "proteinContent": "33.7"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Puree the cream cheese, sour cream, lemon juice and tabasco in a food processor."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the scallions, capers, salmon, chopped dill and pepper, and pulse to blend."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Garnish with the dill and serve chilled or at room temperature with crackers."
+        }
+    ],
+    "recipeYield": "2 cups",
+    "review": [
+        {
+            "@type": "Review",
+            "description": "We made this for this first time for a tailgate party at University of Hawaii (Go Warriors!!).  We rolled the spread up in tortillas and made bite-sized pinwheels for easy eating/transport.  They were  a HUGE hit.  They tasted great with a cold beer and good friends.  Aloha!",
+            "datePublished": "December 04, 2010",
+            "itemReviewed": {
+                "@type": "Thing",
+                "name": "Smoked Salmon Spread"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": "1",
+                "ratingValue": 5,
+                "bestRating": "5"
+            },
+            "author": "palm715"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://geniuskitchen.sndimg.com/fdc-new/img/FDC-Logo.png"
+        },
+        "url": "https://www.food.com"
+    }
+}

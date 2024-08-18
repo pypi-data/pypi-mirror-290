@@ -1,0 +1,141 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Asian Chicken Salad",
+    "description": "This Asian Chicken Salad is crunchy, fresh, and packed with BIG flavors! Shredded slaw, carrots, edamame, crunchy chow mein noodles, and soy-marinated chicken on top. YUM!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "asian chicken salad, asian salad, chicken salad, salad recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/asian-chicken-salad-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/asian-chicken-salad-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/asian-chicken-salad-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/asian-chicken-salad.jpg"
+    ],
+    "url": "https://pinchofyum.com/asian-chicken-salad",
+    "recipeIngredient": [
+        "1/4 cup chopped green onions",
+        "2-3 cups shredded lettuce or slaw (I used raw grated Brussels sprouts)",
+        "1/2 cup whole almonds, chopped",
+        "2 cups shredded carrots",
+        "1/4 cup chopped cilantro",
+        "2 cups cooked, shelled edamame",
+        "toasted sesame seeds (optional)",
+        "2 chicken breasts",
+        "1/2 cup soy sauce",
+        "2 cloves garlic, minced",
+        "1 tablespoon minced ginger",
+        "2 tablespoons sugar",
+        "2 tablespoons Chinese 5 spice seasoning",
+        "2 cups chow mein noodles (dry crunchy kind)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Toss all salad ingredients &#8211; green onions, lettuce, almonds, carrots, cilantro, edamame, and sesame seeds.",
+            "url": "https://pinchofyum.com/asian-chicken-salad#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk together the soy sauce, garlic, ginger, sugar, and seasoning. Marinate the chicken in the sauce for at least 1 hour. Bake chicken in the sauce at 400 degrees, for about 20-30 minutes, turning occasionally, until cooked through. When chicken is cooled, shred and add to the salad.",
+            "url": "https://pinchofyum.com/asian-chicken-salad#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss with dressing of your choice and chow mein noodles just before serving.",
+            "url": "https://pinchofyum.com/asian-chicken-salad#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT1H15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT1H45M",
+    "recipeYield": [
+        "8",
+        "8-10 servings"
+    ],
+    "recipeCategory": [],
+    "cookingMethod": "Toss",
+    "recipeCuisine": "Asian-Inspired",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "9",
+        "ratingValue": "5"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "210 calories",
+        "sugarContent": "6 g",
+        "sodiumContent": "873.5 mg",
+        "fatContent": "8.1 g",
+        "saturatedFatContent": "0.9 g",
+        "transFatContent": "0.1 g",
+        "carbohydrateContent": "20.7 g",
+        "fiberContent": "4.5 g",
+        "proteinContent": "15.1 g",
+        "cholesterolContent": "21 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Ashish negi"
+            },
+            "datePublished": "2012-05-23",
+            "reviewBody": "Love the pics and the salad surely sounds delicious and healthy. I also have a special reason to thank you. Just today I had my first acceptance by tastespotting and I submitted to that site after reading the resources section from your blog. I had no luck at foodgawker but I'll keep trying. Thanks guys for this amazing site :-)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "datePublished": "2012-05-23",
+            "reviewBody": "This recipe looks amazing, I just love your blog! Do you think you could make this recipe using tofu or seitan in place of the chicken? Im a vegetarian :)"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kelly"
+            },
+            "datePublished": "2012-05-31",
+            "reviewBody": "I am eating a brownie right now and wishing it was this salad."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kelsey"
+            },
+            "datePublished": "2012-06-13",
+            "reviewBody": "I write this comment as I am eating this salad. Its so fresh and flavorful, not to mention relatively guilt free! I promise it is as good as it looks. Thank you Lindsay for posting, its a new favorite."
+        }
+    ],
+    "datePublished": "2021-06-01",
+    "@id": "https://pinchofyum.com/asian-chicken-salad#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/asian-chicken-salad#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/asian-chicken-salad"
+}

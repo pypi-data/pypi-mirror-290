@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/6539-julienne-of-carrots-with-snow-peas#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/6539-julienne-of-carrots-with-snow-peas",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/6539-julienne-of-carrots-with-snow-peas",
+    "name": "Julienne of Carrots With Snow Peas",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pierre Franey"
+    },
+    "image": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/12.jpg?1",
+    "totalTime": "PT15M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "carrot, garlic, olive oil, scallion, snow pea, soy sauce, dairy-free",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 11
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 81,
+        "unsaturatedFatContent": "3 grams",
+        "carbohydrateContent": "10 grams",
+        "cholesterolContent": null,
+        "fatContent": "4 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "1 gram",
+        "sodiumContent": "170 milligrams",
+        "sugarContent": "5 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/2 pound carrots, peeled and trimmed",
+        "1/2 pound snow peas, trimmed",
+        "1 tablespoon olive oil",
+        "1/2 teaspoon finely chopped garlic",
+        "1 tablespoon light soy sauce",
+        "2 tablespoons chopped scallions",
+        "Freshly ground pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Slice the carrots into julienne strips about 1 1/2 inches long."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place the carrots in a saucepan, cover with water and bring to a boil. Simmer 4 minutes. Add the snow peas, bring to a boil, stir and cook for 2 minutes. Drain."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat the oil in a skillet and add the carrots, snow peas, garlic, soy sauce, scallions and pepper. Stir and cook 1 minute. Serve."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alycia"
+            },
+            "reviewBody": "Simple. I added some heat and a splash of sesame oil to finish. Nice quick vegetable for a week night.",
+            "datePublished": "2017-10-24T17:36:29.000Z"
+        }
+    ]
+}

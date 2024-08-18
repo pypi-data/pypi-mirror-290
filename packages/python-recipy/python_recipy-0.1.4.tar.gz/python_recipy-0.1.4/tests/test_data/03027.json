@@ -1,0 +1,288 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Potato Casserole",
+    "datePublished": "2000-05-30T14:05:36.000-04:00",
+    "dateModified": "2023-12-05T11:55:11.766-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "JEREMYBEELER"
+        }
+    ],
+    "description": "This potato casserole has layers of creamy, cheesy hash brown potatoes with sautéed onions and a golden crisp cornflake top for the perfect side dish.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/fqOUZGX9vSmPe3zz_HqcWCU0_Ok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5954469-2d8e3e2d14ae46b493aa88ccceaa9233.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/E9A6Vnvh-ma1DlVvV.mp4",
+        "description": "This video shows you how to make a creamy potato casserole with a crunchy top. Starting with frozen hash browns makes it super easy to prepare. Simply mix Cheddar cheese with cream of mushroom soup, sour cream, and sautéed onions. Then spread the cheese mixture over the potatoes. Crushed corn flakes top it all off, providing the perfect crunchy counterpoint to the creamy potatoes.",
+        "duration": "PT2M12S",
+        "name": "Potato Casserole",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/E9A6Vnvh/poster.jpg?width=720",
+        "uploadDate": "2021-07-14T10:38:59.786-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Potato Casserole",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "ratingCount": "381"
+    },
+    "cookTime": "PT70M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "400 kcal",
+        "carbohydrateContent": "23 g",
+        "cholesterolContent": "77 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "9 g",
+        "saturatedFatContent": "21 g",
+        "sodiumContent": "483 mg",
+        "sugarContent": "2 g",
+        "fatContent": "36 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "1 (30 ounce) package frozen hash brown potatoes",
+        "2 cups shredded Cheddar cheese",
+        "1 (16 ounce) container sour cream",
+        "1 (10.5 ounce) can condensed cream of mushroom soup",
+        "1 cup butter, divided",
+        "1 onion, chopped",
+        "3 cups crushed corn flakes"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 425 degrees F (220 degrees C). Lightly grease a 9x13-inch baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour hash browns into the prepared dish; set aside. Combine cheese, sour cream, and condensed soup in a large bowl; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt 1/2 cup butter in a large skillet over medium heat; sauté onion in hot butter for 5 minutes. Add to cheese mixture and mix until combined. Spread over hash browns in the dish. Sprinkle with cornflakes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Melt remaining 1/2 cup butter in the skillet over medium heat and pour over cornflakes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/fqOUZGX9vSmPe3zz_HqcWCU0_Ok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5954469-2d8e3e2d14ae46b493aa88ccceaa9233.jpg"
+                }
+            ],
+            "text": "Bake in the preheated oven for 1 hour."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT85M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Kim S."
+            },
+            "reviewBody": "To save time, steps, and cleanup, while enhancing the flavor, I've always substituted the potatoes and onion with frozen Ore-Ida brand Potatoes O'Brien, which are the tiny cubed potatoes already mixed with onions as well as peppers. This way, you can eliminate the onion as well as the saute pan. The green and red bell peppers give it a little extra punch -- you can even eliminate the soup entirely. I also like using sharp cheddar instead of the mild and, in addition, mix about 1/4 c. shredded sharp cheddar with the corn flakes; crushing together in a ziploc. I use only one dish to mix and bake, and grease it with margarine or butter. Also, I've always baked it at 375 degrees to ensure there are no \"cold spots\". No one ever tires of this recipe!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-05-15T20:22:04.343Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "SmallTownTexasGirl"
+            },
+            "reviewBody": "My husband has said for the third time that these are the best potatoes I have ever made. I did not have hash browns so I use mashed potatoes instead of hashbrowns. Everything else remained the same. I melted the butter in a skillet and poured the cornflakes into the butter and mixed it up gently until all cornflakes were covered in butter, then put them on top of potato mixture. I always remember the advice my grandmother gave me. There are no recipe police. You can adjust any recipe to suit your needs and tastes and no one will fault you for it.",
+            "datePublished": "2024-01-30T19:49:33.813Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Linda"
+            },
+            "reviewBody": "I made this according to the directions provided and took it to a church potluck dinner. I got a lot of compliments and people going back for seconds on specifically this casserole! My oven at 425 degrees was a little too hot and the topping started to burn just a little towards the end of baking so I had to lower the temperature. Other than that, no problems! I will make this again as it was appreciated so much this time.",
+            "datePublished": "2024-01-11T13:31:55.750Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Darlene Carpenter Webster"
+            },
+            "reviewBody": "Love this! Goes with any entree.",
+            "datePublished": "2022-12-12T21:05:19.078Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "denny"
+            },
+            "reviewBody": "This is by far, the best potato casserole I’ve ever tasted. It made so much for just 2 people so I shared with neighbors and even their very picky 9 year old loved it! I’m making it again today for just two!!! My only question is can you prepare it earlier in the day and cook later.",
+            "datePublished": "2022-08-29T13:47:55.115Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Barb Grogan"
+            },
+            "reviewBody": "Made this last night - really tasty. I subbed crushed ritz crackers for the cornflakes. I didn't have corn flakes, the crackers were great, used half the butter.",
+            "datePublished": "2022-08-23T14:29:34.918Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bellerophon"
+            },
+            "reviewBody": "Did not spread cornflakes and then drizzle melted butter, but rather tossed cornflakes with melted butter in a large bowl. That way, flakes were evenly coated with butter, with no dry spots. Also, used potatoes O'Brien instead of hash browns.",
+            "datePublished": "2022-08-05T17:34:25.882Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "kiki"
+            },
+            "reviewBody": "I have been making this recipe for years. but I use 2 cans of cream of potato soup.",
+            "datePublished": "2022-05-03T00:18:39.527Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Nadia Macheska"
+            },
+            "reviewBody": "I did not make this recipe yet but would love to try it. The video shows two different kinds of potatoes (White cubed then the Hashbrown). No where in the written recipe does it mention the frozen white cubed potatoes. HELP!!!!!",
+            "datePublished": "2021-06-25T20:05:00.670Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/18809/potato-casserole/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/222/side-dish/casseroles/",
+                        "name": "Casseroles"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/1459/side-dish/casseroles/potato-casserole/",
+                        "name": "Potato Casserole"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/18809/potato-casserole/",
+                        "name": "Potato Casserole"
+                    }
+                }
+            ]
+        }
+    }
+}

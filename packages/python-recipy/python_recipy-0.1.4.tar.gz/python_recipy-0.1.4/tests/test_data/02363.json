@@ -1,0 +1,67 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Slow-Cooker Vegetable Beef Soup",
+    "keywords": "slow-cooker vegetable beef soup",
+    "recipeCategory": "Lunch",
+    "image": "https://mojo.generalmills.com/api/public/content/X8cJxPPBFEKl6gqes3tX_A_webp_base.webp?v=7ebaf3e6&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "No way they'll skip lunch when you serve up bowls of this all-in-one soup, chock-full of vegetables, beef, and seasonings.",
+    "recipeIngredient": [
+        "1  lb beef stew meat, cut into bite-size pieces if needed",
+        "1/2  lb small red potatoes, each cut into 8 pieces (about 1 1/2 cups)",
+        "1  medium onion, chopped (1/2 cup)",
+        "4  cloves garlic, finely chopped",
+        "1  teaspoon seasoned salt",
+        "1/2  teaspoon pepper",
+        "2  bay leaves",
+        "2  cans (14 oz each) beef broth",
+        "1  can (14 oz) diced tomatoes, undrained",
+        "1  can (15 to 16 oz) great northern beans, drained, rinsed",
+        "2  cups frozen mixed vegetables, thawed"
+    ],
+    "totalTime": "PT7H40M",
+    "prepTime": "PT0H10M",
+    "recipeYield": "6",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "10",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In 3- to 4-quart slow cooker, mix all ingredients except frozen vegetables."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover; cook on Low heat setting 7 to 8 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add mixed vegetables. Increase heat setting to High. Cover; cook 20 to 30 minutes longer or until vegetables are crisp-tender. Remove bay leaves before serving."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "330 ",
+        "carbohydrateContent": "35 g",
+        "cholesterolContent": "45 mg",
+        "fatContent": "1/2 ",
+        "fiberContent": "8 g",
+        "proteinContent": "25 g",
+        "saturatedFatContent": "3 1/2 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "950 mg",
+        "sugarContent": "5 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "03/30/2007",
+    "dateModified": "06/28/2021"
+}

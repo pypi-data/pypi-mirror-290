@@ -1,0 +1,173 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Pumpkin Quinoa Pancakes",
+    "datePublished": "2020-03-05T00:16:19.000-05:00",
+    "dateModified": "2020-03-05T00:16:19.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "capricious"
+        }
+    ],
+    "description": "Pumpkin puree and autumnal spices like allspice and ginger make these gluten-free quinoa pancakes an enjoyable breakfast any day of the year.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/tYD150xtgWSj8XTF4ZL6NrIhi-8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4550115-8d40febae93f4142838b6118ed9ae4c0.jpg",
+        "height": 1499,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Pumpkin Quinoa Pancakes",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "3"
+    },
+    "cookTime": "PT5M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "95 kcal",
+        "carbohydrateContent": "13 g",
+        "cholesterolContent": "23 mg",
+        "fiberContent": "3 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "1 g",
+        "sodiumContent": "215 mg",
+        "sugarContent": "5 g",
+        "fatContent": "3 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT10M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1.5 cups quinoa flour",
+        "0.25 cup brown sugar",
+        "1 teaspoon baking soda",
+        "1 teaspoon ground cinnamon",
+        "1 teaspoon ground allspice",
+        "0.5 teaspoon salt",
+        "0.5 teaspoon ground ginger",
+        "1.75 cups buttermilk",
+        "1 cup pumpkin puree",
+        "2 eggs",
+        "2 tablespoons vegetable oil",
+        "cooking spray"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix quinoa flour, brown sugar, baking soda, cinnamon, allspice, salt, and ginger together in a large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk buttermilk, pumpkin puree, eggs, and oil together in a separate bowl. Pour over quinoa flour mixture; stir just until batter is blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat a large nonstick skillet over medium heat; spray with cooking spray. Pour 1/4 cup batter into the skillet. Cook until bubbles form and edges are dry, 3 to 4 minutes. Flip and continue cooking until the center springs back when pressed, 2 to 3 minutes. Repeat with remaining batter."
+        }
+    ],
+    "recipeYield": [
+        "17"
+    ],
+    "totalTime": "PT15M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Buckwheat Queen"
+            },
+            "reviewBody": "Very delicious pancakes. The recipe is right on as far as quantity and execution. Quinoa and pumpkin are a nice combination of flavors. I topped them with whipped cream and maple syrup, yum!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rosalyn Gilliam"
+            },
+            "reviewBody": "These were better than I expected and my family loved them!\nI made a few changes. I used 3/4 cup plain flour and 1 cup almond flour. I added an extra tablespoon of brown sugar (since almond flour is so bland) and added about 3/4 tsp. pumpkin pie spice. The eggs were extra large and I used a few more tablespoons of buttermilk since the batter is so thick. I think any oil would work and I used melted coconut oil. These will appear almost burned when done because of how dark the batter is when fried. They take more than twice as long to cook on a medium hot griddle as regular pancakes, as I cooked them side by side. These were lucious with real maple syrup and whipped cream. It’s a keeper"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Buckwheat Queen"
+            },
+            "reviewBody": "Very delicious pancakes. The recipe is right on as far as quantity and execution. Quinoa and pumpkin are a nice combination of flavors. I topped them with whipped cream and maple syrup, yum!!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/257944/pumpkin-quinoa-pancakes/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/151/breakfast-and-brunch/pancakes/",
+                        "name": "Pancake Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/16068/breakfast-and-brunch/pancakes/whole-grain-pancakes/",
+                        "name": "Whole Grain Pancake Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/257944/pumpkin-quinoa-pancakes/",
+                        "name": "Pumpkin Quinoa Pancakes"
+                    }
+                }
+            ]
+        }
+    }
+}

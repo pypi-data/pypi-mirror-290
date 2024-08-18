@@ -1,0 +1,104 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chestnut Charoset",
+    "datePublished": "2022-03-23T15:22:25.000-04:00",
+    "dateModified": "2022-03-23T16:31:42.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Riley Wofford",
+            "url": "https://www.marthastewart.com/author/riley-wofford"
+        }
+    ],
+    "description": "This make-ahead recipe for charoset uses chestnuts instead of the traditional walnuts for a richer and more buttery flavor.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/6WJXv_BWfPzAbhTlMxN4stTuyiE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chestnut-charoset-silo-au-fpsucamwb5ef19qzvbb-0422_horiz-93e3952ed4694586994a848a54f7bcf1.jpgitokNHjIdxr8",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Chestnut Charoset",
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "2 apples, such as honeycrisp, cored and chopped",
+        "1 cup chopped pre-roasted chestnuts, canned or bagged",
+        "0.333 cup sweet red wine, such as Lambrusco",
+        "1 teaspoon ground cinnamon",
+        "1 teaspoon sugar",
+        "Kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a medium bowl, combine apples, chestnuts, wine, cinnamon, sugar, and a pinch of salt and toss until combined. Serve or cover and refrigerate overnight."
+        }
+    ],
+    "totalTime": "PT480M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1555235/chestnut-charoset",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1509043/food-cooking",
+                        "name": "Food & Cooking"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1555235/chestnut-charoset",
+                        "name": "Chestnut Charoset"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/herbed-pecan-stuffing/",
+    "name": "Herbed Pecan Stuffing",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-09-13",
+    "prepTime": "PT35M",
+    "cookTime": "PT45M",
+    "totalTime": "PT01H20M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Herbed-Pecan-Stuffing_EXPS_HCA21_9219_B06_02_2b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "I updated a basic stuffing recipe by using wholesome multigrain bread in place of customary white bread. It adds a hearty, crunchy taste. —Edie DeSpain, Logan, Utah",
+    "recipeIngredient": [
+        "8 cups cubed day-old multigrain bread",
+        "3/4 cup golden raisins",
+        "1/2 cup apple juice",
+        "1/4 cup olive oil",
+        "4 celery ribs, diced",
+        "1 large onion, chopped",
+        "3 garlic cloves, minced",
+        "1 cup minced fresh parsley",
+        "1-1/2 teaspoons salt",
+        "1-1/2 teaspoons rubbed sage",
+        "3/4 teaspoon dried thyme",
+        "1/2 teaspoon fennel seeds, crushed",
+        "1/4 teaspoon pepper",
+        "1 large egg",
+        "1-1/2 to 2 cups chicken broth",
+        "1-1/2 cups coarsely chopped pecans, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 225°. Place bread cubes in a single layer on an ungreased baking sheet. Bake until partially dried, tossing occasionally, 30-40 minutes. Set aside. Increase oven temperature to 325°."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, combine raisins and apple juice in a saucepan; bring to a boil. Remove from the heat; let stand for 15 minutes. In a large skillet or Dutch oven, heat oil over medium-high heat. Add celery, onion and garlic; cook and stir until tender, 5-7 minutes. Stir in parsley, salt, sage, thyme, fennel seeds and pepper; remove from heat. Beat egg and broth; add to vegetable mixture with bread cubes and raisin mixture. Toss well. Stir in pecans. Transfer to a greased 13x9-in. baking dish."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and bake for 30 minutes. Uncover; bake until lightly browned, 15-20 minutes longer."
+        }
+    ],
+    "recipeYield": "12 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 255 calories",
+        "fatContent": "17g fat (2g saturated fat)",
+        "cholesterolContent": "18mg cholesterol",
+        "sodiumContent": "564mg sodium",
+        "carbohydrateContent": "24g carbohydrate (10g sugars",
+        "fiberContent": "4g fiber)",
+        "proteinContent": "5g protein. "
+    }
+}

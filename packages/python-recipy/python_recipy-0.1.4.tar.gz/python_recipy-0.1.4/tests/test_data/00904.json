@@ -1,0 +1,138 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/guacamole-chicken-salad-sandwiches/",
+    "name": "Guacamole Chicken Salad Sandwiches",
+    "datePublished": "2022-08-06",
+    "dateModified": "2023-10-03",
+    "prepTime": "PT20M",
+    "cookTime": "PT0M",
+    "totalTime": "PT20M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2022/08/Guacamole-Chicken-Salad-Sandwiches_EXPS_RC22_269545_DR_08_02_5b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Inspired by a local restaurant's truly inventive guacamole studded with pomegranate seeds, this chicken salad recipe is extremely simple to make since it uses rotisserie chicken. I serve this salad on homemade tomato bread, which lends a delightful contrast in flavor and color, or on lettuce leaves. —Debra Keil, Owasso, Oklahoma",
+    "recipeIngredient": [
+        "1 rotisserie chicken, skin removed, cubed",
+        "2 medium ripe avocados, peeled and mashed",
+        "3/4 cup pomegranate seeds",
+        "6 green onions, chopped",
+        "8 cherry tomatoes, halved",
+        "1 jalapeno pepper, seeded and minced",
+        "1/4 cup fresh cilantro leaves, chopped",
+        "3 tablespoons mayonnaise",
+        "2 tablespoons lime juice",
+        "1 garlic clove, minced",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon ground cumin",
+        "1/4 teaspoon pepper",
+        "20 slices multigrain bread, toasted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine all ingredients but the bread. Spread chicken salad over 10 bread slices; top each prepared slice with remaining bread."
+        }
+    ],
+    "recipeYield": "10 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 295 calories",
+        "fatContent": "12g fat (2g saturated fat)",
+        "cholesterolContent": "35mg cholesterol",
+        "sodiumContent": "370mg sodium",
+        "carbohydrateContent": "28g carbohydrate (6g sugars",
+        "fiberContent": "6g fiber)",
+        "proteinContent": "19g protein. <b>Diabetic Exchanges</b>: 2 starch"
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-08-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Elizabeth3684"
+            },
+            "reviewBody": "I made this recipe tonight with a left over rotisserie chicken. It was absolutely AMAZING! I highly recommend everyone give it a try! My picky daughter even loved it! This will go in our regular rotation!  \n*I was unable to find pomegranate seeds at the grocery today, and it still came out lovely!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-09-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Pookie72710"
+            },
+            "reviewBody": "<p>Absolutely love this recipe!! I also could not get any pomegranate and it was still delish!  Side note, I did top mine off with crispy bacon. Thanks for the amazing recipe!!</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2024-01-19",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Brenda736"
+            },
+            "reviewBody": "<p>Made as directed except I used garlic powder instead of minced. Makes a delicious sandwich. The pomegranate seeds are a delightful change of pace.  A very creative recipe.  Highly recommend.</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2023-04-03",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "obxgoer"
+            },
+            "reviewBody": "<p>Delicious take on chicken salad. Will be putting this in the rotation for sure!</p><p></p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

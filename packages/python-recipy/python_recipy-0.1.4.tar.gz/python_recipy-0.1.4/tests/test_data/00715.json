@@ -1,0 +1,380 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022597-slow-cooker-corn-pudding#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022597-slow-cooker-corn-pudding",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/09/29/dining/sd-corn-pudding/sd-corn-pudding-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022597-slow-cooker-corn-pudding",
+    "name": "Slow-Cooker Corn Pudding",
+    "description": "Corn has always been an important crop for Native Americans, who cook it into porridges, breads and puddings. Over generations, various incarnations of corn pudding became especially popular in the South. In this version, fresh corn, scallions and jalapeño are held together by rich cornbread for a savory, sweet and spicy side that’s like a spoonbread crossed with a quick bread. While corn pudding is usually made in the oven, this slow-cooker version frees up your oven for other tasks. As the bread steam-bakes, the edges get caramelized and firm, and the center becomes soft and delicate. It’s spoonable, not sliceable, and its rich texture is best served warm or at room temperature. Jalapeños vary in heat level, so taste a tiny piece before deciding how much to add. To decrease the spice level, use one chile and remove the seeds and ribs before chopping it. To maximize the spice, leave the seeds in and use two.",
+    "author": {
+        "@type": "Person",
+        "name": "Sarah DiGregorio"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/09/29/dining/sd-corn-pudding/sd-corn-pudding-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/09/29/dining/sd-corn-pudding/sd-corn-pudding-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/09/29/dining/sd-corn-pudding/sd-corn-pudding-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/09/29/dining/sd-corn-pudding/sd-corn-pudding-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT2H50M",
+    "recipeYield": "8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cheese, corn, cornmeal, jalapeño, scallion, slow cooker, thanksgiving",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 226
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 390,
+        "unsaturatedFatContent": "11 grams",
+        "carbohydrateContent": "41 grams",
+        "cholesterolContent": null,
+        "fatContent": "21 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "11 grams",
+        "saturatedFatContent": "9 grams",
+        "sodiumContent": "447 milligrams",
+        "sugarContent": "10 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "Nonstick cooking spray or vegetable oil ",
+        "1 cup whole milk",
+        "1/2 cup sour cream (4 ounces)",
+        "3 large eggs",
+        "3 tablespoons unsalted butter, melted and cooled",
+        "2 tablespoons vegetable oil ",
+        "2/3 cup all-purpose flour (3 ounces)",
+        "1/2 cup medium-grind cornmeal, preferably stone-ground (2.2 ounces)",
+        "3 tablespoons granulated sugar",
+        "1 tablespoon baking powder",
+        "2 teaspoons kosher salt",
+        "4 cups corn kernels, cut from 5 small ears or 2 (10-ounce) bags frozen corn, thawed ",
+        "3 scallions, thinly sliced ",
+        "1 to 2 jalapeños, stemmed and finely chopped",
+        "1 cup grated sharp Cheddar (4 ounces)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Generously coat the interior of a 6- to 8-quart slow cooker with nonstick cooking spray or vegetable oil. In a large liquid measuring cup or bowl, whisk together the milk, sour cream, eggs, butter and oil until uniformly combined. In a large bowl, stir together the flour, cornmeal, sugar, baking powder and salt. Add the corn, scallions and jalapeño, and stir to combine. Add the wet ingredients and the cheese, and fold until just combined."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Pour the mixture into the slow cooker. Cover and cook on high until the pudding is browned and firm around the edges, and the center is puffed and just barely firm, about 2 hours and 30 minutes. Turn off the slow cooker and serve warm or room temperature directly from the crock. "
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah"
+            },
+            "reviewBody": "Delicious and easy and impressive. The edges burned a little beyond what I would have liked in the crockpot.",
+            "datePublished": "2023-12-26T16:31:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mary Alice"
+            },
+            "reviewBody": "I’m hoping to make this for a crowd. Do you think I could double the recipe in my 7 quart crockpot?",
+            "datePublished": "2023-12-21T14:22:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "vrajaprana"
+            },
+            "reviewBody": "Can this be done in the Instapot?",
+            "datePublished": "2023-11-26T20:25:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kelly"
+            },
+            "reviewBody": "I made this exactly as written but used my instapot on slow cooker setting. 2 hrs later I took a peek and *gasp* it was still a batter! Thankfully I still had 45 mins until showtime so threw it in oven at 350 for 45 mins. Came out great but gave me a heart attack. Instapot was functioning and hot but not sure what happened here! Meanwhile flavor and texture was on point. Will make again but in the oven, thanks!",
+            "datePublished": "2023-11-24T21:34:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lucy"
+            },
+            "reviewBody": "Very good!  I paired it with the slow-cooker tomato compote and this combination was ace.  I used two-thirds of the sugar called for and might reduce a little more next time out.  I used grits because corn meal is hard to get where I live.  That seemed fine. Used two jalapeños in vinegar but next time I will amp this up with a bit more, as well as perhaps adding another spring onion.",
+            "datePublished": "2023-02-22T20:21:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deborah"
+            },
+            "reviewBody": "This is good with both Jiffy Mix and without. I use a can of green chilies myself and if using Jiffy Mix I find adding creamed corn plus canned corn excellent!",
+            "datePublished": "2022-12-18T23:26:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deborah"
+            },
+            "reviewBody": "Make this in oven; 375; 1/2 size recipe in smaller dish for 45 mins; you can use green chilies in place of jalapeño; just check for doneness. Excellent!",
+            "datePublished": "2022-12-15T22:33:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CJ"
+            },
+            "reviewBody": "Made as written, with regular corn meal that I had in the house. It was delicious, but I wasn't sure if the scallions and jalapenos really added much. I think it's definitely ok to leave them out, or exchange with canned green chiles.",
+            "datePublished": "2022-11-25T20:21:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LAZ"
+            },
+            "reviewBody": "Needs green peppers or Anaheims or poblanos, or serve ham or even pico de gallo or sautéed peppers and onions",
+            "datePublished": "2022-09-23T00:14:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard"
+            },
+            "reviewBody": "This recipe came out great--cooked in 12\" cast iron skillet, 350 degrees, around 40 minutes (might have been ok a few minutes before).  (Used 1% milk; substituted oil for butter; substituted 1/2 tsp cayenne instead of jalapeno--no noticeable heat, might use more next time.",
+            "datePublished": "2022-08-29T12:42:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jiffy"
+            },
+            "reviewBody": "Used Jiffy along with olive oil in place of the butter (in an attempt to convince myself I was being healthy), and it was delicious. Also, this is pudding, not stuffing -- it's meant to be sweet! I guess it wouldn't be the NYT without judgy commenters. My only regret is that I cooked this later at night... I should've put the batter in the fridge and cooked it first thing in the morning. Yummy.",
+            "datePublished": "2022-08-26T05:12:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "thank you for your review, I would like to know if I could make this a day before serving, so curious how leftovers tasted, and how you reheated.  thank you in advance for your help",
+            "datePublished": "2022-08-24T16:03:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Teresa"
+            },
+            "reviewBody": "My family loved this recipe! It was easy and delicious.  I made it as written.  It fed 4 adults with enough leftovers for another dinner.  It was a great part of a summer meal of ribs, baked beans, cucumber salad, and the pudding.  We'll definitely make it again.",
+            "datePublished": "2022-08-22T17:20:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike Gutierrez"
+            },
+            "reviewBody": "Forgot the sugar, but the fresh sweet corn did just fine without it.",
+            "datePublished": "2022-08-17T02:44:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy"
+            },
+            "reviewBody": "Sharp cheddar has very little lactose in it (under a gram).  But you could omit the cheese if you want.  It just won't taste as good.",
+            "datePublished": "2022-08-15T13:24:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JR in TN"
+            },
+            "reviewBody": "Can the cheese be omitted? I’m lactose intolerant.",
+            "datePublished": "2022-08-14T01:55:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deborah C"
+            },
+            "reviewBody": "The recipe looks great. What could I substitute for the eggs to make this vegan? Thanks.",
+            "datePublished": "2022-05-24T18:20:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Russ"
+            },
+            "reviewBody": "There are many variations on cornbread. While some of the instructions for changing this particular recipe offered by commenters here are fine, the goal ought not be changing this one to make it anyone's old family favorite, nor making this recipe taste like stuffing. This is THIS recipe. If you don't choose to make it, fine. If you do, fine. There is no need to tell fellow readers that they should make cornbread your way and to ignore a recipe from a chef who successfully makes it differently.",
+            "datePublished": "2021-11-02T01:23:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KarenK"
+            },
+            "reviewBody": "For goodness' sake, don't use Jiffy. Stone ground has the loveliest texture & it's worth it to buy some. Halve or third the amount of sugar. And by all means, add some sage if you'd like it to be savory, akin to southern Cornbread Stuffing. For good measure, use 2/3 C cornmeal & 1/2 C All Purpose. It's delish!",
+            "datePublished": "2021-09-30T18:37:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Diane Cohen"
+            },
+            "reviewBody": "I don’t have a slow cooker. Is there another type of pot or pan I can use? Can it be cooked in the stove?\nThanks",
+            "datePublished": "2021-10-01T02:29:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lorraine Combs"
+            },
+            "reviewBody": "Use a Dutch oven, and set your oven to 250 degrees F.",
+            "datePublished": "2021-10-10T05:54:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Francis Hodgins"
+            },
+            "reviewBody": "This recipe sounds wonderful. A nice treat for the fans of \"Schmigadoon\"!",
+            "datePublished": "2021-10-01T02:09:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Donnushka"
+            },
+            "reviewBody": "I followed this recipe to the letter and it was perfect.  Left in slow cooker on high for 2 1/2 hours. Then I switched the cooker to warm while I waited to serve.  Big hit!  Would be also perfect for Thanksgiving when you need extra stovetop space!",
+            "datePublished": "2022-01-08T17:47:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Eatsy"
+            },
+            "reviewBody": "Omit the sugar entirely. Not necessary at all and in fact I think would be gross.\nAdd some chopped fresh sage and more scallions if you have/want.\nCooked mine for 3 hours on high and got a nice little brown crust on the edge.\nReally delicious, easy, perfect for Thanksgiving.",
+            "datePublished": "2021-10-01T23:57:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kathy Phelan Mangen"
+            },
+            "reviewBody": "Sounds great! Here in Tucson, we might add some cooked, well-drained Chorizo along with those lovely, spicy chilies.",
+            "datePublished": "2021-10-01T03:28:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "KPS"
+            },
+            "reviewBody": "Cornmeal has a very different texture than flour - I don't think you'd get the same result at all.",
+            "datePublished": "2021-10-01T15:01:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jen"
+            },
+            "reviewBody": "I used an 8 qt oval cooker and the pudding was done closer to 1.5 hours - otherwise delicious and easy! I made the recipe as written except omiting the jalapenos.",
+            "datePublished": "2021-12-26T16:49:34.000Z"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Sheet Pan Garlic Ginger Chicken and Broccoli",
+    "description": "Sheet Pan Garlic Ginger Chicken and Broccoli - a simple and low-maintenance meal prep option, with huge flavor and no refined sugar. ♡",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "chicken and broccoli recipe, sheet pan chicken recipe, meal prep chicken",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/Sheet-Pan-Garlic-Ginger-Chicken-Recipe-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sheet-Pan-Garlic-Ginger-Chicken-Recipe-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sheet-Pan-Garlic-Ginger-Chicken-Recipe-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/Sheet-Pan-Garlic-Ginger-Chicken-Recipe.jpg"
+    ],
+    "url": "https://pinchofyum.com/garlic-ginger-chicken",
+    "recipeIngredient": [
+        "3/4 cup low sodium soy sauce",
+        "1/2 cup water",
+        "1/4 cup white vinegar",
+        "1/4 cup oil (olive oil is fine)",
+        "a 2-inch knob of fresh ginger (peeled)",
+        "4 cloves garlic",
+        "4 medjool dates (you can also use 1/4 cup honey or sugar)",
+        "1 pound boneless skinless chicken breasts or thighs, cut into strips",
+        "1 head broccoli, cut into florets (about 5 cups)",
+        "1 red pepper, cut into strips",
+        "sesame oil, sesame seeds, and/or green onions for topping"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 425 degrees. Blend all sauce ingredients together until smooth.",
+            "name": "Prep Sauce",
+            "url": "https://pinchofyum.com/garlic-ginger-chicken#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place chicken, broccoli, and red pepper on a sheet pan. Pour about 1/2 cup sauce over top of the chicken and just a few tablespoons over the veggies. Bake for 10-15 minutes.",
+            "name": "Sheet Pan Action",
+            "url": "https://pinchofyum.com/garlic-ginger-chicken#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "While the broccoli and chicken are roasting, simmer another 1/2 cup or so of sauce in a small saucepan over medium low heat until it&#8217;s thickened. Drizzle it over the finished chicken and broccoli. Finish with sesame oil, sesame seeds, or scallions. Voila! Happy bowls and meal prep lunches.",
+            "name": "Finish It Fancy",
+            "url": "https://pinchofyum.com/garlic-ginger-chicken#instruction-step-3"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeYield": "4",
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "39",
+        "ratingValue": "4.7"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "409 calories",
+        "sugarContent": "19.9 g",
+        "sodiumContent": "1812.8 mg",
+        "fatContent": "17.7 g",
+        "saturatedFatContent": "2.7 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "31.9 g",
+        "fiberContent": "5.8 g",
+        "proteinContent": "34.1 g",
+        "cholesterolContent": "82.7 mg",
+        "@type": "nutritionInformation"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Michael"
+            },
+            "datePublished": "2018-01-12",
+            "reviewBody": "Lindsey and Company: This. Blog. Is. On. Fire! We will shop for the ingredients for this recipe tomorrow. On deck for 2-nite: reheating the final two portions of your out-of-control-good Red Pepper Pasta with Roasted Cauliflower!  \r\n\r\nCheers,\r\n\r\nMichael &amp; Dora\r\nRome, Italy"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Alex"
+            },
+            "datePublished": "2018-01-13",
+            "reviewBody": "I tried it right now and it was so delicious. Thank you for your inspiration."
+        }
+    ],
+    "datePublished": "2018-01-12",
+    "@id": "https://pinchofyum.com/garlic-ginger-chicken#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/garlic-ginger-chicken#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/garlic-ginger-chicken"
+}

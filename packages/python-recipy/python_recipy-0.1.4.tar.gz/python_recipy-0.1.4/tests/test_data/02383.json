@@ -1,0 +1,58 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Chicken Pesto Linguine",
+    "keywords": "chicken pesto linguine",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/x1yny60Wz0iuGpetVz8PXQ_webp_base.webp?v=92f53d53&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Refrigerated pasta, pesto and chicken—plus frozen peas—help get dinner on the table fast!",
+    "recipeIngredient": [
+        "1  package (9 oz) refrigerated linguine",
+        "1  cup red bell pepper slices",
+        "1  cup Green frozen sweet peas (from 12-oz bag)",
+        "1  container (7 oz) refrigerated basil pesto",
+        "2  packages (6 oz each) refrigerated grilled chicken breast strips",
+        "1  cup crumbled Gorgonzola cheese (4 oz)"
+    ],
+    "totalTime": "PT0H15M",
+    "prepTime": "PT0H15M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Fill 5-quart Dutch oven two-thirds full of water; heat to boiling. Add linguine, bell pepper and peas; boil 2 to 3 minutes or until tender. Drain and return to Dutch oven."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Stir pesto, chicken and cheese into linguine mixture; cook over medium heat until thoroughly heated."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "760 ",
+        "carbohydrateContent": "70 g",
+        "cholesterolContent": "95 mg",
+        "fatContent": "5 1/2 ",
+        "fiberContent": "6 g",
+        "proteinContent": "43 g",
+        "saturatedFatContent": "11 g",
+        "servingSize": "1 Serving (1 1/2 Cups)",
+        "sodiumContent": "1290 mg",
+        "sugarContent": "7 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "10/06/2010",
+    "dateModified": "10/18/2016"
+}

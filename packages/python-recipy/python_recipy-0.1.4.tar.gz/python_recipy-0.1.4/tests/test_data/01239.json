@@ -1,0 +1,127 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Asiago White Beans with Farro, Kale, and Tomatoes",
+    "description": "This recipe for Asiago White Beans with Farro, Kale, and Tomatoes is a healthy one-pot recipe that can be made in the rice cooker!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "white beans, asiago cheese, farro recipe",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/farro-and-white-beans-rice-cooker-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/farro-and-white-beans-rice-cooker-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/farro-and-white-beans-rice-cooker-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/farro-and-white-beans-rice-cooker-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes",
+    "recipeIngredient": [
+        "1/2 cup uncooked farro (usually found in the health foods or dry rice and beans section of the grocery store)",
+        "1 1/2 cups vegetable or chicken broth",
+        "1 cup canned white beans, rinsed and drained",
+        "1 cup halved grape tomatoes",
+        "2 cups baby kale or spinach",
+        "1/2 cup Asiago or Parmesan cheese",
+        "1 cup tomato sauce (I am loving DeLallo Tomato Basil &#8211; no added sugar!)",
+        "salt and pepper to taste"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Place the farro in a rice cooker with the broth. Start the rice cooker, or if you don&#8217;t have a rice cooker, just cook it in a small pan on the stove according to package directions. (Farro takes a minimum of 30 minutes to cook so I always use the brown rice setting on the rice cooker. Soaking it overnight does speed up the cook time, but I never think ahead to do that and it always turns out just fine as long as you cook it long enough to be soft and chewy.)",
+            "url": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the white beans, grape tomatoes, kale, Asiago, and tomato sauce directly into the rice cooker or the pot on the stove. Stir it all up, season with additional salt and pepper and maybe a snip of fresh herbs, and you&#8217;re done.",
+            "url": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeYield": [
+        "3",
+        "3 one-cup servings"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "25",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "290 calories",
+        "sugarContent": "4.6 g",
+        "sodiumContent": "753.2 mg",
+        "fatContent": "8.2 g",
+        "saturatedFatContent": "3.3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "43.2 g",
+        "fiberContent": "10.5 g",
+        "proteinContent": "18.7 g",
+        "cholesterolContent": "12.9 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Asiago White Beans with Farro, Kale, and Tomatoes",
+        "description": "This recipe for Asiago White Beans with Farro, Kale, and Tomatoes is a healthy one-pot recipe that can be made in the rice cooker!",
+        "contentUrl": "https://content.jwplatform.com/videos/ayCBSzYN.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/ayCBSzYN-720.jpg"
+        ],
+        "uploadDate": "2023-02-07T02:30:05+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Minna"
+            },
+            "datePublished": "2014-10-06",
+            "reviewBody": "Ooooh I love a good hearty recipe that uses Asiago! That sounds so yummy. I'll have to try the DeLallo tomato sauce- it's disappointingly hard to find no sugar added ones!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Katie @ Beyond the Clothing"
+            },
+            "datePublished": "2014-10-06",
+            "reviewBody": "I love rice cooker recipes! 1 pot anything is a dream for me and my kitchen is fully in-tact... well currently. A remodel would be lovely, and all I would need is a few more recipes like this to keep business as usual right? Just don't tell hubby! \r\n\r\nHave a wonderful road trip and the contractor on speed-dial is absolutely a necessity!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Lily"
+            },
+            "datePublished": "2014-10-06",
+            "reviewBody": "Made this for dinner tonight.  When I saw it this morning I knew it had to happen!  I used stewed tomatoes instead of fresh because I like them better and it's what I had.  It came out AMAZING!  This is definitely going to be a new staple!"
+        }
+    ],
+    "datePublished": "2014-10-06",
+    "@id": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/asiago-white-beans-with-farro-kale-tomatoes"
+}

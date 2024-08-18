@@ -1,0 +1,136 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Peach &amp; Strawberry Cobbler",
+    "datePublished": "2021-02-18T16:46:48.000-05:00",
+    "dateModified": "2023-09-19T12:08:30.793-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Anna Theoktisto",
+            "url": "https://www.eatingwell.com/author/anna-theoktisto/"
+        }
+    ],
+    "description": "Fresh summer fruit stars in this easy peach and strawberry cobbler. Just a hint of spice complements the sweet flavors, while biscuits soak up the sauce.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/C1HzlM1JOChqDytPS5M1kZRnmq0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peach-strawberry-cobbler-2000-58670118971a440889b2e90b56d0f5af.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Peach &amp; Strawberry Cobbler",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "228 kcal",
+        "carbohydrateContent": "43 g",
+        "cholesterolContent": "12 mg",
+        "fiberContent": "4 g",
+        "proteinContent": "4 g",
+        "saturatedFatContent": "3 g",
+        "sodiumContent": "306 mg",
+        "sugarContent": "22 g",
+        "fatContent": "5 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "0.25 cup cornstarch",
+        "0.25 teaspoon ground cinnamon",
+        "0.25 teaspoon ground nutmeg",
+        "0.5 cup granulated sugar, plus 3 tablespoons, divided",
+        "0.75 teaspoon salt, divided",
+        "2 pounds fresh strawberries, hulled and halved",
+        "2 pounds fresh peaches, peeled and sliced",
+        "1 cup all-purpose flour",
+        "1 cup whole-wheat flour",
+        "1 tablespoon baking powder",
+        "1 cup buttermilk",
+        "0.25 cup unsalted butter, melted"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "1. Preheat oven to 350°F. Lightly coat a 9-by-13-inch baking dish with cooking spray. Whisk cornstarch, cinnamon, nutmeg, 1/2 cup sugar and 1/4 teaspoon salt in a large bowl. Add strawberries and peaches; stir until thoroughly coated. Spread the mixture in the prepared dish. Bake for 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, whisk all-purpose flour, whole-wheat flour, baking powder and the remaining 3 tablespoons sugar and 1/2 teaspoon salt in a medium bowl. Add buttermilk and melted butter; stir until well combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove the fruit mixture from the oven. Drop 12 rounded spoonfuls (about 2 tablespoons each) of batter evenly over the top. Bake until the biscuits are golden brown and the fruit mixture is bubbly, about 40 minutes. Let cool for 20 minutes before serving."
+        }
+    ],
+    "recipeYield": [
+        "12"
+    ],
+    "totalTime": "PT90M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/7889434/peach-strawberry-cobbler/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18044/desserts/",
+                        "name": "Healthy Cookie & Dessert Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18281/desserts/cobblers/",
+                        "name": "Healthy Cobbler Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/7889434/peach-strawberry-cobbler/",
+                        "name": "Peach &amp; Strawberry Cobbler"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-19T12:08:30.793-04:00"
+    },
+    "recipeCategory": []
+}

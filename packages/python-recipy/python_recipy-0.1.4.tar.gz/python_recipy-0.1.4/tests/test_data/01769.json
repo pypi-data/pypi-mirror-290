@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Dragon Chicken",
+    "url": "https://www.foodnetwork.com/recipes/dragon-chicken-9845999",
+    "headline": "Dragon Chicken",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/01/5628457_Dragon-Chicken_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1612202405486.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/01/5628457_Dragon-Chicken_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1612202405486.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/01/5628457_Dragon-Chicken_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1612202405486.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2021-02-01T13:30:24.660-05:00",
+    "dateModified": "2021-02-01T13:30:23.839-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chicken Breast,Main Dish",
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT0H35M0.000S",
+    "recipeIngredient": [
+        "1 pound sliced chicken breast",
+        "2 tablespoons cornstarch ",
+        "1 quart vegetable oil ",
+        "1 cup broccoli ",
+        "1/2 cup sliced mushrooms ",
+        "1/2 cup sugar snap peas ",
+        "1/2 cup green bell pepper, sliced ",
+        "1 medium carrot, sliced",
+        "1 teaspoon chopped garlic ",
+        "4 teaspoons whiskey ",
+        "8 ounces heavy cream ",
+        "2 tablespoons soy sauce ",
+        "1 tablespoon oyster sauce ",
+        "3 teaspoons Cajun seasoning ",
+        "2 teaspoons lobster base ",
+        "2 teaspoons sugar ",
+        "1/3 teaspoon ground black pepper "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "2439",
+        "fatContent": "249g",
+        "saturatedFatContent": "28g",
+        "carbohydrateContent": "14g",
+        "fiberContent": "2g",
+        "sugarContent": "6g",
+        "proteinContent": "41g",
+        "cholesterolContent": "256mg",
+        "sodiumContent": "972mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Put the chicken breast in a bowl and add the cornstarch and 2 tablespoons vegetable oil. Blend together. Preheat remaining vegetable oil in the wok to 325 degrees F, then add marinated chicken and cook for approximately 4 minutes. Add the broccoli, mushrooms, snap peas, peppers and carrots, and continue to cook for 2 more minutes. Drain the oil, then set chicken and vegetables aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue to heat the wok to 325 degrees F, then add garlic, whiskey and heavy cream. Heat for 30 seconds, then add the soy sauce, oyster sauce, Cajun seasoning, lobster base, sugar and black pepper. Cook, stirring constantly, until sauce begins to boil, about 3 minutes. Add back in chicken and vegetables. Toss in the heated wok for 1 minute."
+        }
+    ],
+    "recipeYield": "4 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Linda P."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is AMAZING!!  I did a couple ingredient subs, broccolini, half &amp; half, whatever.  So good, SO GOOD!!! "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Yum!"
+        }
+    ],
+    "recipeCategory": []
+}

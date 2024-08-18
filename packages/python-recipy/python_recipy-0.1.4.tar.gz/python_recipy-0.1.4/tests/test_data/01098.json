@@ -1,0 +1,133 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Savannah Red Rice Recipe",
+    "datePublished": "2017-12-15T12:32:11.000-05:00",
+    "dateModified": "2021-07-14T22:43:06.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "The South is known for its way with rice-based dishes, but only one has been labeled as the defining dish of the Georgia coast.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/45ER6uBdIOvEA00AaVsblln43Xk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2548201_lostc_0009_1_0_1_2-2000-d46fca4888814acba7ca79406ead09af-e61693eb3bae4ba99b9df91512f0a949.jpeg",
+        "height": 500,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/KXwVKTYZ-KtCa7qb3.mp4",
+        "description": "The South is known for its way with rice-based dishes, but only one has been labeled as the defining dish of the Georgia coast.",
+        "duration": "PT1M28S",
+        "name": "Savannah Red Rice Recipe",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/KXwVKTYZ/poster.jpg?width=720",
+        "uploadDate": "2023-01-16T23:38:31.730-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Savannah Red Rice Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4",
+        "ratingCount": "4"
+    },
+    "recipeIngredient": [
+        "5 bacon slices",
+        "2 cups chopped yellow onion (about 1 large onion)",
+        ".5 cup chopped celery (about 3 stalks)",
+        ".5 cup chopped green bell pepper (from 1 small bell pepper)",
+        "1 cup uncooked long-grain rice",
+        "1 (16-oz.) can chopped whole tomatoes, undrained",
+        ".75 cup chicken broth",
+        ".5 teaspoon kosher salt",
+        ".5 teaspoon black pepper",
+        ".5 teaspoon cayenne pepper",
+        ".25 teaspoon hot pepper sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Cook bacon in a medium skillet over medium until crisp, about 8 minutes; transfer bacon to a plate lined with paper towels, reserving drippings in skillet. Crumble bacon."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add yellow onion, celery, and bell pepper to reserved drippings in skillet; increase heat to medium-high. Cook, stirring often, until vegetables are tender, 5 to 6 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.southernliving.com/thmb/Z5PS2L88eGUwHlAI8uY1Lmk6po8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2548201_lostc_0009_1_0_1_2-2000-d46fca4888814acba7ca79406ead09af.jpg"
+                }
+            ],
+            "text": "Stir in rice, tomatoes, chicken broth, salt, black pepper, cayenne pepper, and hot pepper sauce. Spoon into a lightly greased 2-quart baking dish. Cover with aluminum foil, and bake in preheated oven until rice is tender, 40 to 45 minutes. Top with crumbled bacon."
+        }
+    ],
+    "totalTime": "PT70M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/savannah-red-rice-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish",
+                        "name": "Dish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food/dish/casserole",
+                        "name": "Casserole"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/savannah-red-rice-recipe",
+                        "name": "Savannah Red Rice Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

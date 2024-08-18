@@ -1,0 +1,45 @@
+{
+    "@type": "Recipe",
+    "name": "Strawberry Frozen Yogurt",
+    "author": {
+        "@id": "https://www.davidlebovitz.com/#/schema/person/6b90d7c373a6d04b9e5cc8077844ef1f"
+    },
+    "description": "Use a  Greek-style yogurt for best results. Regular whole-milk plain yogurt can also be used.",
+    "datePublished": "2006-04-30T17:16:35+00:00",
+    "image": [
+        "https://www.davidlebovitz.com/wp-content/uploads/2006/04/Strawberry-meringue-frozen-yogurt-recipe-4.jpg"
+    ],
+    "recipeIngredient": [
+        "1 pound (450g) strawberries (rinsed and hulled)",
+        "2/3 cup (130g) sugar",
+        "2 teaspoons vodka ((optional) or kirsch)",
+        "1 cup (240g) Greek-style yogurt",
+        "1 teaspoon freshly squeezed lemon juice ((optional))"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Hull and slice the strawberries. Toss them a bowl with the sugar and vodka or kirsch (if using) until the sugar begins to dissolve. Let stand at room temperature for 2 hours, stirring every so often.",
+            "name": "Hull and slice the strawberries. Toss them a bowl with the sugar and vodka or kirsch (if using) until the sugar begins to dissolve. Let stand at room temperature for 2 hours, stirring every so often.",
+            "url": "https://www.davidlebovitz.com/may-day-market/#wprm-recipe-53736-step-0-0"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the strawberries and their juice to a blender or food processor. Add the yogurt. Pulse the machine until the mixture is smooth. If you wish, press mixture through a mesh strainer to remove any seeds. Taste, and add lemon juice if desired.",
+            "name": "Transfer the strawberries and their juice to a blender or food processor. Add the yogurt. Pulse the machine until the mixture is smooth. If you wish, press mixture through a mesh strainer to remove any seeds. Taste, and add lemon juice if desired.",
+            "url": "https://www.davidlebovitz.com/may-day-market/#wprm-recipe-53736-step-0-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Chill for at least 1 hour, or overnight, then freeze in your ice cream maker according to the manufacturer’s instructions.",
+            "name": "Chill for at least 1 hour, or overnight, then freeze in your ice cream maker according to the manufacturer’s instructions.",
+            "url": "https://www.davidlebovitz.com/may-day-market/#wprm-recipe-53736-step-0-2"
+        }
+    ],
+    "@id": "https://www.davidlebovitz.com/may-day-market/#recipe",
+    "isPartOf": {
+        "@id": "https://www.davidlebovitz.com/may-day-market/#article"
+    },
+    "mainEntityOfPage": "https://www.davidlebovitz.com/may-day-market/",
+    "recipeCategory": []
+}

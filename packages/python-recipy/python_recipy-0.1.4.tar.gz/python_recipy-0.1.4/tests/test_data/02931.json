@@ -1,0 +1,92 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/ham-cheese-mushroom-turnovers#Recipe",
+    "@type": "Recipe",
+    "description": "A puff pastry turnover is always a good way of using leftovers - adapt the recipe to whatever cheese you've got",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-444500_12-7641522.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/ham-cheese-mushroom-turnovers"
+    },
+    "name": "Ham, cheese & mushroom turnovers",
+    "url": "https://www.bbcgoodfood.com/recipes/ham-cheese-mushroom-turnovers",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2022-11-08T13:03:03+00:00",
+    "datePublished": "2010-10-25T01:58:58+01:00",
+    "headline": "Ham, cheese & mushroom turnovers",
+    "keywords": " Josh Eagleton, 800 kcal or less, Boxing day recipes, Button mushroom, Button mushrooms, Cheese, Cheese pasties, Cheese recipes, Christmas leftovers, Easy recipes, Good Food, Ham, Homemade recipes, Leftover recipes, Over an hour, Pastry recipes, Puff pastry",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT50M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "752 calories",
+        "fatContent": "55 grams fat",
+        "saturatedFatContent": "26 grams saturated fat",
+        "carbohydrateContent": "43 grams carbohydrates",
+        "sugarContent": "5 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "25 grams protein",
+        "sodiumContent": "2.78 milligram of sodium"
+    },
+    "prepTime": "PT20M",
+    "recipeCuisine": "British",
+    "recipeIngredient": [
+        "250ml milk",
+        "1 tbsp each butter and flour, mixed to a paste, plus extra for dusting",
+        "140g button mushroom , cut into quarters",
+        "1 tbsp olive oil",
+        "140g ham , chopped into small pieces",
+        "85g leftover cheese (amount will vary according to type - go with your taste buds), cut into small pieces",
+        "1 tbsp chopped herbs - tarragon, parsley and chives all work well",
+        "500g block puff pastry",
+        "1 egg , beaten"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "The first thing to do is to make a thick white sauce that will be the base of the turnover filling. Bring the milk to a simmer, then add the butter and flour paste. Whisk the paste into the simmering milk and allow it to boil for 3-4 mins, whisking gently all the time to prevent it from catching. You should now have a very thick white sauce. Cool the sauce in a bowl. Fry the mushrooms in the oil for 3-5 mins until golden, then leave to cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the ham, cheese and mushrooms into a bowl, then gradually add the white sauce until everything is well coated. Finally, add the herbs."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roll out the pastry on a floured surface to about the thickness of a £1 coin and cut out 4 saucer-size rounds (about 18cm wide), re-rolling the trimmings if you need to. Brush the edges of each round with beaten egg. Spoon the mixture onto 1 side of each round, then fold over and seal the edges well. The turnovers can now be frozen for up to 1 month. Brush the turnover with the remaining egg, then chill for 30 mins."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 200C/180C fan/gas 6. Place the turnovers on a baking sheet and bake for about 35 mins until puffed up and golden. Leave to cool slightly and enjoy warm."
+        }
+    ],
+    "recipeYield": "Makes 4",
+    "totalTime": "PT1H40M",
+    "recipeCategory": []
+}

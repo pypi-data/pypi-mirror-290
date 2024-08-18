@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "Celery Root and Potato Mash Recipe",
+    "keywords": [
+        "celery root",
+        "potato",
+        "russet potato",
+        "easy",
+        "quick",
+        "side",
+        "gluten-free",
+        "nut-free",
+        "vegetarian",
+        "simmer",
+        "dinner",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Jill Silverman Hough",
+            "sameAs": "https://www.bonappetit.com/contributor/jill-silverman hough"
+        },
+        {
+            "@type": "Person",
+            "name": "Marcus Nilsson",
+            "sameAs": "https://www.bonappetit.com/contributor/marcus-nilsson"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "ratingCount": 21
+    },
+    "description": "Celery Root and Potato Mash Recipe",
+    "image": [
+        "https://assets.bonappetit.com/photos/57afd2fa1b33404414975f2f/master/w_484,h_344,c_limit/mare_celery_root_and_potato_mash_h.jpg"
+    ],
+    "headline": "Celery Root and Potato Mash",
+    "name": "Celery Root and Potato Mash",
+    "recipeIngredient": [
+        "1 pound celery root (celeriac), peeled, cut into 1/2-inch pieces (about 4 cups)",
+        "2 1/2 pounds russet potatoes, peeled, cut into 1-inch pieces (about 61/2 cups)",
+        "1/4 cup (1/2 stick) unsalted butter, cut into pieces",
+        "1/2 cup (or more) whole milk",
+        "1/4 cup chopped celery leaves"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook celery root in large pot of boiling salted water 5 minutes. Add potatoes to pot; cook until all vegetables are tender, about 20 minutes. Drain. Return vegetables to pot; stir over medium-high heat until dry, 1 to 2 minutes. Remove from heat; add butter. Using potato masher, mash vegetables until butter is incorporated. Add 1/2 cup milk; mash until almost smooth, adding more milk as needed. Stir in celery leaves. Season with salt and pepper."
+        }
+    ],
+    "prepTime": "30 minutes",
+    "totalTime": "55 minutes",
+    "recipeYield": "8 to 10 Servings",
+    "url": "https://www.bonappetit.com/recipe/celery-root-and-potato-mash",
+    "dateModified": "2010-11-06T20:00:00.000-04:00",
+    "datePublished": "2010-11-06T20:00:00.000-04:00",
+    "recipeCategory": []
+}

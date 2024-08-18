@@ -1,0 +1,96 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/chorizo-halloumi-breakfast-baguette#Recipe",
+    "@type": "Recipe",
+    "description": "Treat yourself to this hearty chorizo and halloumi breakfast baguette – perfect for the weekend. Make the rich tomato jam in advance and then enjoy it on sausage sarnies, a cheeseboard, chicken thighs…",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-and-halloumi-baguette-addaf63.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/chorizo-halloumi-breakfast-baguette"
+    },
+    "name": "Chorizo & halloumi breakfast baguette",
+    "url": "https://www.bbcgoodfood.com/recipes/chorizo-halloumi-breakfast-baguette",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cassie Best",
+            "url": "https://www.bbcgoodfood.com/author/cassiebest"
+        }
+    ],
+    "dateModified": "2023-10-30T10:50:12+00:00",
+    "datePublished": "2023-10-30T10:50:12+00:00",
+    "headline": "Chorizo & halloumi breakfast baguette",
+    "keywords": "1 of 5-a-day, Baguette, Breakfast, breakfast baguette, Calcium, Cassie Best, Chorizo, Fibre, Folate, Halloumi, Indulgent, Tomato jam",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT40M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "872 calories",
+        "fatContent": "39 grams fat",
+        "saturatedFatContent": "17 grams saturated fat",
+        "carbohydrateContent": "91 grams carbohydrates",
+        "sugarContent": "38 grams sugar",
+        "fiberContent": "7 grams fiber",
+        "proteinContent": "36 grams protein",
+        "sodiumContent": "4.2 milligram of sodium"
+    },
+    "prepTime": "PT15M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 large avocado",
+        "1 lime , juiced",
+        "1 red onion , halved and thinly sliced",
+        "drizzle of oil",
+        "150g chorizo , sliced on an angle",
+        "250g block halloumi , sliced into 8 pieces",
+        "1 large baguette or 2 smaller ones",
+        "small bunch coriander , leaves picked",
+        "400g can chopped tomatoes",
+        "red chilli , finely chopped (deseeded if you don't want much spice)",
+        "thumb-sized piece ginger , grated",
+        "1 star anise",
+        "250g caster sugar",
+        "150ml red wine vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make the tomato jam, put all the ingredients in a pan, season and simmer for 30 mins until you have a rich, thick glossy jam. Cool, then transfer to a sterilised jar (if you want to keep for over two weeks). Will keep, unopened, for six months."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Halve the avocado and scoop into a bowl. Add half the lime juice and some salt and mash with a fork. Put the onion in a small bowl, pour over the rest of the lime juice and season with a pinch of salt. Mix well and set aside to lightly pickle."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a drizzle of oil in a large frying pan or heat an air-fryer to 200C for 4 mins. If you're using the hob, place the chorizo slices on one side of the pan and the halloumi on the other side, turning once the halloumi is golden and the chorizo is sizzling. Cook for about 4-5 mins in total. If you're using the air-fryer, arrange the chorizo slices and halloumi in one layer on opposite sides of the basket. If there isn't enough space, cook them separately in batches. Air-fry for 8-10 mins until the halloumi is golden and the chorizo is browned at the edges."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Split the baguette and warm it in the air-fryer or oven for 1-2 mins. Spread the avocado over one side of the baguette and the tomato jam over the other. Fill the baguette with the halloumi, chorizo, coriander, and pickled red onions. Cut and serve."
+        }
+    ],
+    "recipeYield": "(plus extra tomato jam)",
+    "totalTime": "PT55M"
+}

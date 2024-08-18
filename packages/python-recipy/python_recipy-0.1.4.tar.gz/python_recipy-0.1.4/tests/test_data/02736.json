@@ -1,0 +1,127 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Long Bean Stir-Fry ผัดถั่วฝักยาว (pad tuafakyao)",
+    "description": "",
+    "author": {
+        "@type": "Person",
+        "name": "Pailin Chongchitnant",
+        "url": "https://hot-thai-kitchen.com/about/"
+    },
+    "image": [
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/12/long-beans-sm-225x225.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/12/long-beans-sm-260x195.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/12/long-beans-sm-320x180.jpg",
+        "https://hot-thai-kitchen.com/wp-content/uploads/2014/12/long-beans-sm.jpg"
+    ],
+    "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/",
+    "recipeIngredient": [
+        "350 g long beans or French green beans, cut into 2 inch pieces",
+        "4 cloves garlic, chopped",
+        "1 Tbsp oyster sauce",
+        "1 Tbsp soy sauce",
+        "1 tsp Golden Mountain sauce or Maggi Seasoning (or sub extra soy sauce)",
+        "1 tsp shrimp tomalley (“shrimp paste”), optional",
+        "1 ½ tsp sugar",
+        "¼ tsp white pepper",
+        "1/4 - 1/2 cup water",
+        "1 salted duck egg"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl mix together oyster sauce, soy sauce, Golden Mountain Sauce, and shrimp paste, if using.",
+            "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cut the salted duck egg in half through the shell. Using a spoon cut one half of the egg yolk into chunks and then scoop out the chunks. Scoop out the other half in one piece and slice into wedges.",
+            "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a wok, sauté garlic in a little vegetable oil until it starts to turn golden brown. Add the beans and toss quickly. Add about 1/4 cup of water, the sauce mixture, sugar, and white pepper; stir until the beans are done to your liking, adding more water if needed.",
+            "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When done, toss in the chunks of salted duck eggs. Serve on a plate, top with wedges of salted duck eggs. Serve with jasmine rice or as a side dish to any meal!",
+            "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Join us on Patreon for bonus content and rewards!",
+            "url": "https://hot-thai-kitchen.com/long-bean-stir-fry/#instruction-step-5"
+        }
+    ],
+    "recipeYield": [
+        "3",
+        "Serves 3"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "3",
+        "ratingValue": "5"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Long Bean Stir-Fry Recipe ผัดถั่วฝักยาว - Hot Thai Kitchen!.mp4",
+        "description": "A quick and easy vegetable side dish using long beans (aka string beans or snake beans). Goes great with any Thai or Asian meal with some jasmine rice!",
+        "duration": "PT8M27S",
+        "embedUrl": "https://video.mediavine.com/videos/ias60vS88.js",
+        "contentUrl": "https://mediavine-res.cloudinary.com/video/upload/t_original/v1681227160/ias60vS88.mp4",
+        "thumbnailUrl": [
+            "https://mediavine-res.cloudinary.com/image/upload/s--KJHIV_XL--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1681227165/l8ukqcycg22kmvebvxze.jpg"
+        ],
+        "uploadDate": "2020-12-09T07:24:16+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Futile Resistance"
+            },
+            "datePublished": "2020-12-30",
+            "reviewBody": "Love this, even though I can almost never source long beans or duck eggs.  Works just as well with green beans and a fried egg.  Frankly, I prefer it with the runny yolk of a fried egg than the sliced yolk of a boiled egg.  But to each their own.  Regardless, this is a magnificent dish that doesn't take 40 mins peeling and chopping!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Deb"
+            },
+            "datePublished": "2021-08-20",
+            "reviewBody": "Love this simple sauce!\r\nInstead of egg I used sliced andouille sausage, browned and set aside before adding garlic to pan, then tossed back in at the end.  Excellent dish!!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Pat"
+            },
+            "datePublished": "2022-07-20",
+            "reviewBody": "This was delicious! I added shallots with the garlic. I didn’t have the salted duck egg but it was still tasty."
+        }
+    ],
+    "datePublished": "2014-12-12",
+    "@id": "https://hot-thai-kitchen.com/long-bean-stir-fry/#recipe",
+    "isPartOf": {
+        "@id": "https://hot-thai-kitchen.com/long-bean-stir-fry/#article"
+    },
+    "mainEntityOfPage": "https://hot-thai-kitchen.com/long-bean-stir-fry/",
+    "recipeCategory": []
+}

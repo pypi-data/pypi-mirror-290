@@ -1,0 +1,114 @@
+{
+    "@type": "Recipe",
+    "name": "Arugula Salad",
+    "author": {
+        "@id": "https://www.justonecookbook.com/#/schema/person/033420c6cd0fe01255dcd76d04d95472"
+    },
+    "description": "Delicious and easy arugula salad drizzled with lemon juice, olive oil, and topped with shaved Parmesan cheese. Ready in 5 minutes!",
+    "datePublished": "2013-07-11T17:45:51+00:00",
+    "image": [
+        "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-500x400.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-500x375.jpg",
+        "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-480x270.jpg"
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "prepTime": "PT5M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+        "6 oz arugla ((roughly 7 cups))",
+        "¼ cup Parmigiano-Reggiano or Parmesan cheese ((and more if you like))",
+        "2 Tbsp extra virgin olive oil",
+        "1 Tbsp lemon juice ((roughly 1 lemon))",
+        "½ tsp freshly ground black pepper",
+        "¼ tsp Diamond Crystal kosher salt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Gather all the ingredients.&nbsp;Rinse the arugula in cold running water and drain well. Place it in the serving bowl.",
+            "name": "Gather all the ingredients.&nbsp;Rinse the arugula in cold running water and drain well. Place it in the serving bowl.",
+            "url": "https://www.justonecookbook.com/arugula-salad/#wprm-recipe-58841-step-0-0",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-Ingredients.jpg"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For dressing, drizzle the olive oil, lemon juice, and sprinkle freshly ground black pepper and salt.",
+            "name": "For dressing, drizzle the olive oil, lemon juice, and sprinkle freshly ground black pepper and salt.",
+            "url": "https://www.justonecookbook.com/arugula-salad/#wprm-recipe-58841-step-0-1",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-1.jpg"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slice the cheese into 1 mm thickness and sprinkle over the salad.",
+            "name": "Slice the cheese into 1 mm thickness and sprinkle over the salad.",
+            "url": "https://www.justonecookbook.com/arugula-salad/#wprm-recipe-58841-step-0-2",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad-2.jpg"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Toss everything before serving to an individual plate.",
+            "name": "Toss everything before serving to an individual plate.",
+            "url": "https://www.justonecookbook.com/arugula-salad/#wprm-recipe-58841-step-0-3",
+            "image": "https://www.justonecookbook.com/wp-content/uploads/2013/07/Arugula-Salad.jpg"
+        },
+        {
+            "@type": "HowToSection",
+            "name": "To Store",
+            "itemListElement": [
+                {
+                    "@type": "HowToStep",
+                    "text": "You can keep the leftovers in an airtight container and store in the refrigerator for up to a day. Enjoy it soon.",
+                    "name": "You can keep the leftovers in an airtight container and store in the refrigerator for up to a day. Enjoy it soon.",
+                    "url": "https://www.justonecookbook.com/arugula-salad/#wprm-recipe-58841-step-1-0"
+                }
+            ]
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "4"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "reviewBody": "Simple and absolutely delicious!",
+            "author": {
+                "@type": "Person",
+                "name": "Rosalie"
+            },
+            "datePublished": "2019-07-18"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "keywords": "arugula, cheese",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "82 kcal",
+        "carbohydrateContent": "2 g",
+        "proteinContent": "4 g",
+        "fatContent": "7 g",
+        "saturatedFatContent": "2 g",
+        "cholesterolContent": "6 mg",
+        "sodiumContent": "156 mg",
+        "fiberContent": "1 g",
+        "sugarContent": "1 g",
+        "unsaturatedFatContent": "5 g",
+        "servingSize": "1 serving"
+    },
+    "@id": "https://www.justonecookbook.com/arugula-salad/#recipe",
+    "isPartOf": {
+        "@id": "https://www.justonecookbook.com/arugula-salad/#article"
+    },
+    "mainEntityOfPage": "https://www.justonecookbook.com/arugula-salad/"
+}

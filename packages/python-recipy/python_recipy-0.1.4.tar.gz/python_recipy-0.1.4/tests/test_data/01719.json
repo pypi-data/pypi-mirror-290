@@ -1,0 +1,115 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Chicken Lollipops",
+    "url": "https://www.foodnetwork.com/recipes/chicken-lollipops-recipe2-2015035",
+    "headline": "Chicken Lollipops",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/4/10/0/DV1112H_chicken-lollipops_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1371595466223.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/4/10/0/DV1112H_chicken-lollipops_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1371595466223.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/4/10/0/DV1112H_chicken-lollipops_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1371595466223.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T16:10:54.504-05:00",
+    "dateModified": "2013-11-19T17:00:57.060-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Easy Chicken,Chicken Recipes,Easy,Poultry,Fried Chicken,Gluten Free",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "prepTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT0H40M0.000S",
+    "recipeIngredient": [
+        "Desired type of oil, for frying",
+        "24 fresh whole chicken wings",
+        "1 cup honey",
+        "4 chipotle chilies in adobo sauce, finely chopped",
+        "Sea salt",
+        "3 limes, quartered"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "701",
+        "fatContent": "49g",
+        "saturatedFatContent": "7g",
+        "carbohydrateContent": "53g",
+        "fiberContent": "2g",
+        "sugarContent": "49g",
+        "proteinContent": "18g",
+        "cholesterolContent": "111mg",
+        "sodiumContent": "658mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a Dutch oven or other large heavy pot, heat 4 inches oil to 375 degrees F over medium-high heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using kitchen shears or a knife, separate the wings at the joint. Reserve the drumette, saving the wing for homemade chicken stock, if desired. Stand a drumette on its wide end and, holding the narrow bone at the top, use a paring knife to push and scrape the skin and meat downward to expose the bone and make a plump \"lollipop\" of chicken at the bottom. Repeat with the remaining drumettes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the honey and chopped chipotles in a bowl and whisk together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fry the \"lollipops\" in batches until crispy and golden brown, about 6 minutes, allowing the oil to come back up to temperature in between batches. Drain on a paper towel."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place the fried \"lollipops\" on a platter, bone up, and drizzle the honey-chipotle sauce over the top. Sprinkle with sea salt and serve with lime wedges."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 3
+    },
+    "recipeYield": "4 to 6 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jd cooks"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Baked/roasted instead of fried wings. Added 1/2 cup of jalapeno jelly and 1-2 tbsp ranch mix to honey/chipotle mixture.\r<br />\r<br />Go hunt down some potato skins,see nfl potato skins, and broccoli cole slaw, see Paula Deen"
+        }
+    ],
+    "recipeCategory": []
+}

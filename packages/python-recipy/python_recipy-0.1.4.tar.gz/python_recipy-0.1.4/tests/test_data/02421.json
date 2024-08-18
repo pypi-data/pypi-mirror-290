@@ -1,0 +1,132 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Buttermilk Waffles",
+    "datePublished": "2011-03-12T11:20:44.000-05:00",
+    "dateModified": "2024-02-01T15:00:05.686-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Our Martha Stewart waffle recipe produces waffles that are crispy on the outside, but tender within. These waffles are perfect for breakfast or brunch.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/4YtBT12ZKII8IIzJ4D_MTwXVsek=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/buttermilk-waffles-d103954_horiz-05ba94891778494d8ee9ea5ba37f77f8.jpgitokGBPDRhtj",
+        "height": 423,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/Vq7W3T4R-zqASzng0.mp4",
+        "description": "If you have a waffle press in your kitchen, making homemade waffles is easy and fun. Crispy on the outside and tender on the inside—no matter how you top it, nothing from your freezer aisle can compete with a warm, just made waffle.\n",
+        "duration": "PT2M58S",
+        "name": "Homemade Belgian Buttermilk Waffle",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/Vq7W3T4R/poster.jpg?width=720",
+        "uploadDate": "2021-02-28T12:41:45.199-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Buttermilk Waffles",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.8",
+        "ratingCount": "235"
+    },
+    "keywords": "American, Brunch, Buttermilk, Mother's Day, Waffles",
+    "prepTime": "PT10M",
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 cups all-purpose flour (spooned and leveled)",
+        "2 tablespoons sugar",
+        "2 teaspoons baking powder",
+        "1 teaspoon baking soda",
+        "0.5 teaspoon salt",
+        "2 cups low-fat buttermilk",
+        "0.5 cup (1 stick) unsalted butter, melted",
+        "2 large eggs",
+        "Vegetable oil, for waffle iron"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 275 degrees; set a rack on a baking sheet, and place in oven. In a medium bowl, whisk together flour, sugar, baking powder, baking soda, and salt; set aside. In a large bowl, whisk together buttermilk, butter, and eggs; add flour mixture, and mix just until batter is combined."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat waffle iron according to manufacturer&#39;s instructions; brush with oil. Pour batter onto iron (amount depends on iron size), leaving a 1/2-inch border on all sides (spread batter if necessary). Close iron; cook until waffles are golden brown and crisp, 3 to 5 minutes. Transfer to rack in oven to keep warm; repeat with remaining batter."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/341273/buttermilk-waffles",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1505788/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502328/breakfast-recipes",
+                        "name": "Breakfast & Brunch Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/341273/buttermilk-waffles",
+                        "name": "Buttermilk Waffles"
+                    }
+                }
+            ]
+        }
+    }
+}

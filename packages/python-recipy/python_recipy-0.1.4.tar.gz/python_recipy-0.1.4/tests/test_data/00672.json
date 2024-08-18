@@ -1,0 +1,122 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Big Cheese Squeeze",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/big-cheese-squeeze-recipe-2131883",
+    "headline": "Big Cheese Squeeze",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-30T15:03:50.821-05:00",
+    "dateModified": "2013-11-07T15:28:11.259-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Skillet Recipes,Cast Iron Skillet,Sandwich,Cheddar,Gouda Recipes,Gruyere Recipes",
+    "description": "There are times (your team just lost by a lousy field goal) when our appetites should be free to comfort us without having to bow to the culinary censorship of our consciousness. What could possibly get us through the winters of our discontent like the warm embrace of melted cheese nestled between perfectly crisped bookends of toast? That's right: nothing.",
+    "recipeIngredient": [
+        "2 slices of bread, cut thin (as far as bread selection goes, all I'll say is the bigger the loaf the bigger the sandwich)",
+        "1 teaspoon (or more) smooth Dijon mustard",
+        "1 cup grated cheese",
+        "semi-soft combo like smoked gouda and Gruyere or Fontina with a young Asiago.",
+        "Good quality olive oil for spritzing"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Find 2 heavy skillets that will nest together. Two (10-inch) cast iron skillets are ideal. Heat them over high heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, spread mustard on one slice of bread. Distribute the cheese evenly over the mustard, season with fresh black pepper and top with second piece of bread."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spritz the bread surface that's staring up at you with olive oil using either a Misto or a pump sprayer. A light coat will do; don't soak."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When the pans are hot enough to vigorously sizzle a drop of water, remove them from the heat and place the sandwich, top-side down, in the middle of one pan. (If your pans are a different size, this would be the smaller one.) Spritz the slice now facing you, as well as the bottom of the other skillet. Lay the skillet right on top of the sandwich. If the top pan isn't cast iron, weigh it down with a brick, can or something of similar heft."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Wait patiently; crack a beer. When you hear the first bit of cheese run out and sizzle on the pan, it's done. This will take anywhere from 3 to 5 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Carefully remove the top skillet (you may need to coax it off with a spatula, but I doubt it). Just look at it. It's perfect. Better than Mom's (no reason to tell her)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Remove to a plate, count to 10 and slice it in half. Take a bite. Take another. So they lost... there's always next year."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 2
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren E."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is satisfying- there is no more to say."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DEB S."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I loved it, but the kids 8-12 found keeping the grated cheese on the bread difficult and didn't appreciate the added flavor of the mustard."
+        }
+    ]
+}

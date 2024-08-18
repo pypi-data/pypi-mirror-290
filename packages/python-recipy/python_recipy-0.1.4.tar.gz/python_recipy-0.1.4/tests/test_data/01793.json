@@ -1,0 +1,91 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Boss Hawg",
+    "url": "https://www.foodnetwork.com/recipes/boss-hawg-13313831",
+    "headline": "Boss Hawg",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/10/17/DV3605-boss-hawg-shepard-barbecue-emerald-isle-north-carolina_4x3.jpg.rend.hgtvcom.1280.1280.suffix/1666024387248.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "The Boss Hawg Sandwich as served at Shepard Barbecue in Emerald Isle, North Carolina, as seen on Diners, Drive-Ins and Dives, season 36."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/10/17/DV3605-boss-hawg-shepard-barbecue-emerald-isle-north-carolina_4x3.jpg.rend.hgtvcom.1280.960.suffix/1666024387248.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "The Boss Hawg Sandwich as served at Shepard Barbecue in Emerald Isle, North Carolina, as seen on Diners, Drive-Ins and Dives, season 36."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/10/17/DV3605-boss-hawg-shepard-barbecue-emerald-isle-north-carolina_4x3.jpg.rend.hgtvcom.1280.720.suffix/1666024387248.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "The Boss Hawg Sandwich as served at Shepard Barbecue in Emerald Isle, North Carolina, as seen on Diners, Drive-Ins and Dives, season 36."
+        }
+    ],
+    "datePublished": "2022-10-14T15:10:40.132-04:00",
+    "dateModified": "2022-10-14T15:10:39.886-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Sandwich,Pulled Pork,Meat,Pork,Pork Butt,Main Dish",
+    "cookTime": "P0Y0M0DT0H30M0.000S",
+    "totalTime": "P0Y0M0DT10H0M0.000S",
+    "recipeIngredient": [
+        "2 medium red onions, sliced about 1/4-inch thick",
+        "1 cup lime juice",
+        "1 tablespoon kosher salt",
+        "One 5-pound pork butt",
+        "Kosher salt and course ground pepper",
+        "Carolina gold mustard sauce, such as Duke’s",
+        "6 brioche buns",
+        "1 1/2 cups coleslaw (mayonnaise based)",
+        "3 links cooked jalapeño Cheddar sausage"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 16 servings",
+        "calories": "296",
+        "fatContent": "17g",
+        "saturatedFatContent": "5g",
+        "carbohydrateContent": "13g",
+        "fiberContent": "1g",
+        "sugarContent": "4g",
+        "proteinContent": "22g",
+        "cholesterolContent": "71mg",
+        "sodiumContent": "493mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the pickled red onions: Place the onions into a glass jar or stainless-steel bowl and add steaming hot water to cover the onions. Let sit for 20 minutes, then drain. Add the lime juice and salt, cover and place in the refrigerator overnight. Then drain the juice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the pork butt: Season the pork butt with salt and pepper. Place the pork butt in a smoker or oven for 9 hours at 250 degrees F. Set the pork aside to rest for 30 minutes. Once the pork reaches 150 degrees F, pull the pork and season with salt, pepper and Carolina mustard sauce to taste."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To assemble, toast the buns. Add slaw to the toasted buns. Slice the sausage to a thickness of your liking. Add 1/3 pound pulled pork. Add 2 tablespoons of Carolina gold sauce. Top with 3 to 4 pickled red onions. Add the bun top and enjoy."
+        }
+    ],
+    "recipeYield": "6 sandwiches",
+    "recipeCategory": []
+}

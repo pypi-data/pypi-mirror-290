@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Chocolate-Dipped Strawberries",
+    "url": "https://www.foodnetwork.com/recipes/ree-drummond/chocolate-dipped-strawberries-2644132",
+    "headline": "Chocolate-Dipped Strawberries",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Ree Drummond Bio & Top Recipes",
+            "url": "https://www.foodnetwork.com/profiles/talent/ree-drummond"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/9/22/0/WU0901Chocolate-Dipped-Strawberries_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1413917567132.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/9/22/0/WU0901Chocolate-Dipped-Strawberries_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1413917567132.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/9/22/0/WU0901Chocolate-Dipped-Strawberries_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1413917567132.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2015-02-02T15:06:45.510-05:00",
+    "dateModified": "2015-02-02T15:06:35.478-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chocolate,Fruit,Strawberry,White Chocolate,Dessert,Gluten Free,Low Sodium",
+    "cookTime": "P0Y0M0DT0H25M0.000S",
+    "totalTime": "P0Y0M0DT1H15M0.000S",
+    "recipeIngredient": [
+        "24 ounces good-quality semisweet chocolate chips",
+        "6 ounces white chocolate chips or white bar chocolate, chopped",
+        "12 to 16 large strawberries with good, strong stems"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 14 servings",
+        "calories": "239",
+        "fatContent": "15g",
+        "saturatedFatContent": "9g",
+        "carbohydrateContent": "32g",
+        "fiberContent": "3g",
+        "sugarContent": "27g",
+        "proteinContent": "2g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "6mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Melt both the semisweet and white chocolate in separate glass bowls set over saucepans of simmering water or in the microwave. Line a baking sheet with parchment paper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Grab a strawberry and gently lay it on its side in the bowl of melted semisweet chocolate. Hold it by the stem and twist it so that it's mostly covered with chocolate. Gently lay it on its side on the sheet of parchment. Repeat with the rest of the strawberries."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Let the strawberries sit at room temperature to set slightly, about 30 minutes. (If you're in a hurry, you may place them in the fridge.)"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer the melted white chocolate to a small piping bag and drizzle stripes all over the chocolate on the strawberries--you can do any designs you like! Then store the strawberries in the fridge to set completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve them on a pretty cake stand or pack them in a box or small bags for delivery."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.3,
+        "reviewCount": 4
+    },
+    "recipeYield": "12 to 16 strawberries",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julia M."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I can do colors for Halloween or a baby shower."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Love this recipe!even though I'm 11 I tried this and my family loved them.they devoured them almost before I could get one.glad I did they were delicious!"
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Ree's Chocolate Strawberries",
+        "description": "Ree dips fresh strawberries in chocolate in this delectable treat.",
+        "duration": "PT0H1M32S",
+        "thumbnailUrl": "https://food.fnr.sndimg.com/content/dam/images/food/video/0/02/023/0232/0232446.jpg.rend.hgtvcom.406.305.suffix/1660767131136.jpeg",
+        "contentUrl": "https://www.foodnetwork.com/apps/api/playback?path=/etc/sni-asset/food/videos/0/02/023/0232/0232446",
+        "uploadDate": "2022-08-17T16:12:12.778-04:00"
+    },
+    "recipeCategory": []
+}

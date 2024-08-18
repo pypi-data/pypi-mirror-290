@@ -1,0 +1,428 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022975-slow-cooker-sunday-sauce#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022975-slow-cooker-sunday-sauce",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2022/02/08/dining/as-slow-cooker-sunday-sauce/merlin_201239007_e63c53be-159f-43d0-89fb-aa01e1331790-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022975-slow-cooker-sunday-sauce",
+    "name": "Slow-Cooker Sunday Sauce",
+    "description": "Whether it’s called red sauce, sugo or gravy, you’ll find a big pot of the rich tomato sauce simmering all Sunday long in many Italian-American households. Every family has their own version, but this recipe includes shreddy pork shoulder, sausage and meatballs. This slow-cooker version lets you simmer it overnight or while you’re not home, and without splatters and stirring (though you can also make it on a stovetop). Once the sauce is done, coat pasta in the sauce, spoon the meats on top and serve it with a green salad, crusty bread and red wine. Sauce can be kept refrigerated for up to one week and frozen for up to three months.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2022/02/08/dining/as-slow-cooker-sunday-sauce/merlin_201239007_e63c53be-159f-43d0-89fb-aa01e1331790-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/02/08/dining/as-slow-cooker-sunday-sauce/merlin_201239007_e63c53be-159f-43d0-89fb-aa01e1331790-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/02/08/dining/as-slow-cooker-sunday-sauce/merlin_201239007_e63c53be-159f-43d0-89fb-aa01e1331790-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2022/02/08/dining/as-slow-cooker-sunday-sauce/merlin_201239007_e63c53be-159f-43d0-89fb-aa01e1331790-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT8H30M",
+    "recipeYield": "6 to 8 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "crushed canned tomatoes, italian american, pork shoulder, sausage, slow cooker",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1650
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 959,
+        "unsaturatedFatContent": "26 grams",
+        "carbohydrateContent": "83 grams",
+        "cholesterolContent": null,
+        "fatContent": "45 grams",
+        "fiberContent": "7 grams",
+        "proteinContent": "53 grams",
+        "saturatedFatContent": "15 grams",
+        "sodiumContent": "1274 milligrams",
+        "sugarContent": "12 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "2 (28-ounce) cans crushed tomatoes",
+        "3 basil sprigs",
+        "2 pounds boneless pork shoulder, cut into 3-inch chunks",
+        "Kosher salt and black pepper",
+        "1/4 cup extra-virgin olive oil, plus more as needed",
+        "1 pound hot or sweet Italian sausage, or a combination",
+        "1 yellow onion, coarsely chopped",
+        "6 garlic cloves, smashed and peeled",
+        "1/3 cup red wine",
+        "1 pound uncooked homemade or store-bought meatballs",
+        "1 1/2 pounds tubular or long noodles, like rigatoni or spaghetti",
+        "Grated Parmesan or pecorino, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a 6- to 8-quart slow cooker, add the crushed tomatoes and basil sprigs. Season the pork shoulder all over with salt and pepper."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large Dutch oven, heat 2 tablespoons oil over medium-high. Working in batches if necessary, cook the pork until browned on two sides, 8 to 10 minutes total, adding more oil if the pan looks dry. Transfer pieces to the slow cooker as they finish. Add the sausages to the pot and cook until browned, 4 to 6 minutes total. Transfer to the slow cooker. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Reduce the heat to medium-low. Add the remaining 2 tablespoons oil, if needed, and the onion and garlic. Season with salt and pepper, and cook until softened, 2 to 4 minutes. Add the red wine, stirring to scrape up the browned bits on the bottom of the pot, and cook until the wine is nearly evaporated, 2 to 4 minutes. Scrape the onion-wine mixture into the slow cooker, and stir to combine. Add the meatballs on top. (It’s OK if they’re sticking out of the sauce.) Cook on low for 6 to 8 hours, until the pork shoulder falls apart when shredded with a fork. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "When you’re ready to eat, bring a large pot of salted water to a boil. Add the pasta to the boiling water and cook according to package instructions until al dente. While the pasta boils, slice the sausage and shred the pork shoulder on a cutting board, and leave it there. When the pasta is al dente, reserve ½ cup pasta water, then drain and return the pasta to the pot. Over medium heat, toss the pasta with enough sauce to coat (about 4 cups), adding pasta water as needed until the sauce clings to the pasta. (Some meatballs might end up in the pasta pot; that’s OK.) Return the sausage and pork shoulder to the remaining sauce in the slow cooker."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Divide pasta between bowls, then top with a bit of each meat. Pass the Parmesan and extra meat and sauce at the table."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kz"
+            },
+            "reviewBody": "I’ve cooked this several times following the recipe (well, excluding meatballs) and it’s really fantastic.  Makes a ton and only improves with reheating.  Meat-a-palooza",
+            "datePublished": "2024-05-30T04:52:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "I Cook"
+            },
+            "reviewBody": "This is the recipe of my childhood, handed down from grandma to mom to me & now to my kids. Sometimes we would start it on Saturday, put it on the stove to reheat while we went to Mass, then come home and \"put the water on\" for the pasta. Regarding the amount of meat, when you are feeding a large group, it's enough for everyone without being excessive. Leftovers during the week made a quick dinner before sports and meetings. I love making this whenever I can. Thanks for the nostalgia.",
+            "datePublished": "2024-05-19T15:42:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Vicki K"
+            },
+            "reviewBody": "Great recipe with minor modifications. I have a cooker which allows browning/sauteeing/slow cooker so super easy. I used meatballs from NYT Italian Wedding Soup(beef/pork recipe) as wells as country bone-in ribs (3.3 pounds), Whole hot italian sausage and dried basil. 1st night we ate the meats without the sauce with Broccoli/green salad. Chilled the sauce overnight to degrease. Night 2 meats, sauce, pasta & green salad. Added basil, oregano, cayenne, s&p, to sauce. Froze some of pork for later.",
+            "datePublished": "2024-03-08T14:23:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kentucky home cook"
+            },
+            "reviewBody": "Great flavor but didn’t reduce down to a real sauce consistency. We even moved it the Dutch oven to finish it and further reduce it.",
+            "datePublished": "2024-02-28T16:12:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "joris"
+            },
+            "reviewBody": "Is there a way to half this recipe?",
+            "datePublished": "2024-01-22T23:29:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hazel"
+            },
+            "reviewBody": "I just tried the recipe out for the first time, but can't afford all the different meats asked for, so I substituted with a 4 pound pork butt that was on sale. It still turned out really tasty. Don't be afraid to change up a recipe according to your options : )",
+            "datePublished": "2023-12-29T06:08:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kate"
+            },
+            "reviewBody": "OMG!! I had a 4 pound roast so had to double this recipe: SO glad I did! Used the associated meatball recipe and that was spectacular as well. I had to cook half in the slow cooker and half in my oven at 200 degrees and both were wonderful. Hubby will divorce me if I don't make this recipe once a month! (And I made no substitutions...)",
+            "datePublished": "2023-11-10T05:40:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Michela"
+            },
+            "reviewBody": "To the people commenting on \"why so much meat, can it be made meatless\" it would essentially cease to be a Sunday sauce or gravy. In the 1700s in southern Italy (Naples) the gravy or ragu rather was stewed near over pasta with no tomatoes until Italy was introduced to tomatoes in the late 1700s. So the tradition is deeply rooted in meat. No meat would make it a marinara or regular sugo (tomato sauce) but it's not a traditional Sunday sauce.",
+            "datePublished": "2023-09-08T14:56:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ana"
+            },
+            "reviewBody": "Mine turned out very bland and watery. The only flavor this dish had was plain crushed tomatoes.. id leave it a few more hours to cook and thicken and add some herbs and spices and maybe some sugar,  to make it palatable. But im not sure why mine didn't look so rich and fatty as in the picture.",
+            "datePublished": "2023-08-06T23:55:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mark"
+            },
+            "reviewBody": "If somebody is looking for way less meat and way more veggies, perhaps a Sunday gravy is not the recipe to be checking out.        Can it be made meatless, absolutely.    It's called a marinara.     Vegetables in a meal like this are typically side dishes.    Perhaps sauteed broccoli rabe, a salad, grilled zucchini, stuffed artichokes, sauteed radicchio...etc...etc",
+            "datePublished": "2023-07-17T17:37:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard"
+            },
+            "reviewBody": "Answer to both 1 and 2: It's your preference.  The whole v. minced garlic won't matter after 6 to 8 hours of cooking. I would leave the sausages whole, but if you want to slice first, go ahead and do that. If the recipe intended for the sausages to be sliced, it would have said so.",
+            "datePublished": "2023-04-07T21:34:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anna"
+            },
+            "reviewBody": "As a first-timer, it would be helpful to specify: \n1.) Whether the 6 garlic cloves (smashed and peeled) are meant to be thrown in whole or minced? \n2.) Whether the Italian sausage is supposed to be added whole or sliced?",
+            "datePublished": "2023-03-20T00:05:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PamFromSpokane"
+            },
+            "reviewBody": "Wonderful, warm & hearty on these bitterly cold days.  I used a larger than required pork shoulder and switched out the other meats for a pound of chirizo that gave some spice and smokiness to the dish.  This could be a new family favorite.",
+            "datePublished": "2023-03-03T02:44:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deb"
+            },
+            "reviewBody": "My Italian mother died many years ago, but to this day, I cannot put onion in sauce and the meatballs have to be cooked. She would never go for uncooked ones.  Sugar and tomato paste are not mentioned, but I can't use them either. Mom is watching.",
+            "datePublished": "2023-02-24T14:05:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "will make again!"
+            },
+            "reviewBody": "I’ve made this recipe many times, sometimes with or without meatballs; sometimes with a whole pepperoni tossed in there. Sauce-wise using whole San Marzano tomatoes crushed by hand tastes better than canned crushed tomatoes.",
+            "datePublished": "2023-02-18T00:11:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kz"
+            },
+            "reviewBody": "I more or less followed the recipe… got a big bone-in pork shoulder, hot Italian sausage links, (didn’t do the meat balls), and garden tomatoes from the freezer (nuked before throwing those in).  After 8 hrs in the slow cooker everything melded fantastically and the pork shredded like a dream.  Served on Strozzapreti.  Exceeded expectations on the high end.",
+            "datePublished": "2023-02-14T04:52:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jasmedmal"
+            },
+            "reviewBody": "Use English cut short ribs and forego the slow cooker for traditional Dutch oven for 2-3 hours.  When serving, order is pasta with sauce then the meats are served after being beautifully piled onto a serving platter.  And do not forget lots of crusty bread!",
+            "datePublished": "2022-02-13T17:11:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Darren Stephens"
+            },
+            "reviewBody": "We don’t eat a lot of meat, but I had to laugh when I read that even THIS  recipe, which features four pounds of meat, had a comment asking if it could be made meatless! I mean, just make something else!",
+            "datePublished": "2022-05-12T14:21:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susie"
+            },
+            "reviewBody": "Adding basil at beginning can make sauce bitter. I always put it in later on.",
+            "datePublished": "2022-02-26T16:23:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Geteb"
+            },
+            "reviewBody": "I'm not Italian, but Mama Mia this is alotta' meat!  Used bone-in country style spare ribs - thanks to a reader - cut in 1/3rds.  Added pork bones per another suggestion but don't think they're needed if using bone-in spare ribs.  Had to paper towel off the fat after it was ready - am wondering if the \"creaminess\" that other cooks spoke of was due to the fat content.  Will halve the meat contents if I make this again. Tasty but too meaty for my taste.",
+            "datePublished": "2022-02-18T05:10:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susanloves"
+            },
+            "reviewBody": "Anything is possible, but I'd say no. Its tradition and point is to be super meaty and rich. But my Italian MIL always made meatless sauce, and added her famous baked meatballs later. Her base formula was: 1 onion chopped, 2 garlic cloves, oil. Saute. Add big can of puree, 1 little can of paste, and 2 paste cans of water. A slug of red wine, salt and pepper. Simmer. In season, fresh basil / oregano at the end of the simmer work well. Good luck. :)",
+            "datePublished": "2022-03-02T13:57:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "chris"
+            },
+            "reviewBody": "have to de-fat before serving.  if you start in the morning (after coming home from church :) then you can stop cooking around 2pm, throw pot into fridge for a 2 hour cool down, which makes de-fating much easier as it congeals fat, then reheat",
+            "datePublished": "2022-02-26T19:20:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "MamaDoc"
+            },
+            "reviewBody": "Not MY brilliant idea, but brilliant nevertheless. As I hesitate to open a bottle of red wine for cooking, a guy working the wine area at Whole Foods handed me the perfect hack: a four-pack of Sutter Home cabernet!  I bought the white wine as well. Now I have 'cooking wine' around all the time.",
+            "datePublished": "2022-12-23T16:20:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "ArtEdna"
+            },
+            "reviewBody": "Has anyone made a veggie version of this? Perhaps using mushrooms and beyond/impossible meat?",
+            "datePublished": "2022-02-20T16:22:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "reviewBody": "Made this almost exactly to the recipe and everyone loved it! Mixed hot and mild sausage without casing because that is what I had and also used Dutch oven for 3 hours per notes. Not too much meat for anyone! Served with large salad on the side for the veg component and there will be plenty of leftover for this week. And bonus - the house smelled amazing.",
+            "datePublished": "2022-02-28T16:45:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J Paulson"
+            },
+            "reviewBody": "4 lbs of meat!! I would be interested in way less meat and more vegetables.",
+            "datePublished": "2022-02-26T16:08:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Polish Cook with an Italian Problem"
+            },
+            "reviewBody": "Really have enjoyed making this sauce a few times now. Only issue I have is the recommendation to use fresh basil at the beginning of the slow cook. Fresh basil in a slow cooker for 6-8 hours?! It is far too delicate. My sauce had a bitter taste to it the first time I made it. Second and third time I subbed in dry basil for the duration of the slow cook and I much prefer it that way. I also added dried oregano and crushed red pepper. I like the slow cooker but may try the Dutch oven version.",
+            "datePublished": "2022-03-23T16:28:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "danvillerose"
+            },
+            "reviewBody": "Really enjoyed this! Just for the two of us I used three bone-in pork chops, three sausages, about 8 turkey meatballs. Browned all meats first. Added a can of diced tomatoes too, for more sauciness. \nOregano and basil. A parmesan rind.  More wine than called for. Served with rotini. Leftovers for tomorrow!",
+            "datePublished": "2022-03-28T02:56:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kz"
+            },
+            "reviewBody": "I more or less followed the recipe… got a big bone-in pork shoulder, hot Italian sausage links, (didn’t do the meat balls), and garden tomatoes from the freezer (nuked before throwing those in).  After 8 hrs in the slow cooker everything melded fantastically and the pork shredded like a dream.  Served on Strozzapreti.  Exceeded expectations on the high end.",
+            "datePublished": "2023-02-14T04:52:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Deb"
+            },
+            "reviewBody": "My Italian mother died many years ago, but to this day, I cannot put onion in sauce and the meatballs have to be cooked. She would never go for uncooked ones.  Sugar and tomato paste are not mentioned, but I can't use them either. Mom is watching.",
+            "datePublished": "2023-02-24T14:05:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Susanloves"
+            },
+            "reviewBody": "AMAZING. Every day should be Sunday!! I did 2 things differently. I made it in a dutch oven and put that in the oven at about 250-275 for 3-4 hours. Also no canned puree! I used some frozen tomatoes I'd pureed after last summer's bounty, but it felt dry so I also added a big can of whole tomatoes which I put through a food mill. + extra wine. Nonna's make do, so I should, too. It'll encore for dinner tonight!! Don't skip the step of putting the sauce and pasta water on the pasta! Thank you Ali!!",
+            "datePublished": "2022-03-02T13:46:04.000Z"
+        }
+    ]
+}

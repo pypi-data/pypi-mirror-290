@@ -1,0 +1,144 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/chocolate-cherry-pie/",
+    "name": "Chocolate Cherry Pie",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-10-22",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps4586_TH1106C18-4.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "Assures Maxine Smith of Owanka, South Dakota. \"This rich and creamy pie is sure to please any dyed-in-the-wool chocoholic!\"",
+    "recipeIngredient": [
+        "1 cup all-purpose flour",
+        "2 tablespoons sugar",
+        "1/2 teaspoon salt",
+        "1/2 cup cold butter, cubed",
+        "FILLING:",
+        "1 can (14 ounces) sweetened condensed milk",
+        "1 cup semisweet chocolate chips",
+        "1/2 teaspoon salt",
+        "1 can (21 ounces) cherry pie filling",
+        "1/4 to 1/2 teaspoon almond extract",
+        "Whipped cream and maraschino cherries, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a bowl, mix flour, sugar and salt. Cut in butter until mixture resembles coarse crumbs. Press firmly onto the bottom and sides of a 9-in. pie plate."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake at 350&deg; for 15-20 minutes or until golden brown. Cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepan, combine milk, chocolate chips and salt; cook and stir over low heat until chocolate melts. Stir in pie filling and extract. Pour into crust. Chill 2-3 hours or until firm. Garnish with whipped cream and cherries if desired."
+        }
+    ],
+    "recipeYield": "8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 517 calories",
+        "fatContent": "22g fat (14g saturated fat)",
+        "cholesterolContent": "48mg cholesterol",
+        "sodiumContent": "490mg sodium",
+        "carbohydrateContent": "76g carbohydrate (60g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "7g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.25,
+        "reviewCount": 4,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2018-06-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jupowers"
+            },
+            "reviewBody": "I made this for Fathers Day. Everyone loved it and said it is a keeper.  So easy too make",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2011-01-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cate22"
+            },
+            "reviewBody": "Absoluely deicious!  This is a favorite that always receives compliments.  And the crust is really good!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-11-11",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "nanjana"
+            },
+            "reviewBody": "I've made this many times since I first found this recipe years ago!  Everyone always LOVES it and can't believe how easy it is!  VERY rich and creamy!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2009-11-20",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mcdade12"
+            },
+            "reviewBody": "not sur only wanted to read reviews",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 2,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, German"
+}

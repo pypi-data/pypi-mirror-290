@@ -1,0 +1,149 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Buttermilk-Brined Chicken",
+    "datePublished": "2016-06-03T01:17:19.000-04:00",
+    "dateModified": "2023-09-20T11:05:52.764-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "David Bonom",
+            "url": "https://www.eatingwell.com/author/david-bonom/"
+        }
+    ],
+    "description": "This healthy buttermilk chicken recipe has all the flavor of buttermilk fried chicken without the frying. Using salt in the brine to draw moisture into the chicken, buttermilk to tenderize and a heap of herbs for fresh flavor, this easy chicken marinade creates unbelievably delicious fried chicken.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/4WMMl83VTYN63Ppe7tu5-N53OTU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3758697-dd033fef5f584eeaaa753d35c8b43258.jpg",
+        "height": 960,
+        "width": 960
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Buttermilk-Brined Chicken",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "cookTime": "PT50M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "207 kcal",
+        "carbohydrateContent": "2 g",
+        "cholesterolContent": "116 mg",
+        "proteinContent": "30 g",
+        "saturatedFatContent": "2 g",
+        "sodiumContent": "296 mg",
+        "sugarContent": "1 g",
+        "fatContent": "8 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeIngredient": [
+        "4 cups buttermilk (see Tips)",
+        "0.25 cup sugar",
+        "2 shallots, finely chopped",
+        "8 cloves garlic, minced",
+        "2 tablespoons salt",
+        "2 tablespoons chopped fresh oregano",
+        "1 tablespoon fresh thyme leaves",
+        "1 tablespoon chopped fresh rosemary",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon freshly ground pepper",
+        "4 to 4 1/2 pounds bone-in chicken parts (thighs, drumsticks and/or breasts), skin removed",
+        "1 tablespoon extra-virgin olive oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To prepare buttermilk brine: Combine buttermilk, sugar, shallots, garlic, salt, oregano, thyme, rosemary, Worcestershire sauce and pepper in a bowl. Stir until the sugar and salt dissolve."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To marinate chicken: Place chicken in a sealable gallon-size plastic bag. Pour in the brine mixture, seal and refrigerate for at least 4 hours and up to 12 hours."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To prepare chicken: Remove the chicken from the brine (discard the brine) and pat dry with paper towels. Rub 1 tablespoon oil over the chicken and let stand at room temperature for at least 10 minutes and up to 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, preheat a grill to 400 degrees F or build a fire in a charcoal grill and let it burn down to medium heat (about 400 degrees F)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Oil the grill rack (see Tips). Grill the chicken with the lid closed, turning once, until an instant-read thermometer inserted into the thickest portion of the chicken registers 165 degrees F, 28 to 30 minutes total for breast halves; 32 to 36 minutes for thighs and drumsticks."
+        }
+    ],
+    "recipeYield": [
+        "8"
+    ],
+    "totalTime": "PT300M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/253008/buttermilk-brined-chicken/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/22777/ingredients/meat-poultry/",
+                        "name": "Meat & Poultry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/18241/ingredients/meat-poultry/chicken/",
+                        "name": "Chicken"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/253008/buttermilk-brined-chicken/",
+                        "name": "Buttermilk-Brined Chicken"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T11:05:52.764-04:00"
+    },
+    "recipeCategory": []
+}

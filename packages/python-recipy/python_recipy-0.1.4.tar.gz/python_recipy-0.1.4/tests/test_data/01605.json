@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Sprezzatura Royale",
+    "datePublished": "2013-12-06T18:51:24.000-05:00",
+    "dateModified": "2021-06-24T13:57:14.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Joaquín Simó",
+            "url": "https://www.foodandwine.com/author/joaquin-simo"
+        }
+    ],
+    "description": "Referring to the stylishly disheveled look perfected by Italian men, this amaro-based sour drink is topped with sparkling rosé to embody casual elegance.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/DNEX_JzBO07xtiiIdwzmZTa9flM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2013-xl-sprezzatura-royale-7114d1b8d9654fac9e6d46dfe3190630.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Sprezzatura Royale",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1 ounce Amaro Nonino",
+        "1/2 ounce Cognac, preferably Pierre Ferrand 1840",
+        "1/2 ounce honey syrup (2 teaspoons honey mixed with 1 teaspoon warm water)",
+        "1/2 ounce fresh lemon juice",
+        "Ice",
+        "1 1/2 ounces chilled sparkling rosé wine"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a cocktail shaker, combine the Amaro, Cognac, honey syrup and lemon juice. Fill the shaker with ice and shake well. Strain into a chilled flute and top with the sparkling wine."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/sprezzatura-royale-cocktails-2013",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/cocktails-spirits/brunch-cocktails",
+                        "name": "Brunch Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/sparkling-wine-cocktails-7496747",
+                        "name": "Sparkling Wine Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/sprezzatura-royale-cocktails-2013",
+                        "name": "Sprezzatura Royale"
+                    }
+                }
+            ]
+        }
+    }
+}

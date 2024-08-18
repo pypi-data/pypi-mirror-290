@@ -1,0 +1,199 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Life-Changing Crispy Fried Pizzas",
+    "description": "Crispy fried pizzas that are light, airy, and the perfect combination of crispy/chewy. It is the ABSOLUTE BEST way to make amazing, restaurant-level pizza at home!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "pizza recipe, homemade pizza, fried pizza, crispy pizza",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/DeLallo-Pizza-1-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/DeLallo-Pizza-1-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/DeLallo-Pizza-1-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/DeLallo-Pizza-1.jpg"
+    ],
+    "url": "https://pinchofyum.com/life-changing-fried-pizzas",
+    "recipeIngredient": [
+        "1 package of pizza dough (we use DeLallo! it is THE best.)",
+        "oil for frying (vegetable or canola is best)",
+        "tomato sauce of choice",
+        "fresh mozzarella cheese",
+        "fresh basil and/or pesto",
+        "red pepper flakes",
+        "Parmesan cheese",
+        "any other toppings you like"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Make the pizza dough according to package directions. Let the dough rise (for DeLallo pizza dough, the rise time is 45 minutes).",
+            "name": "Make the dough: ",
+            "url": "https://pinchofyum.com/life-changing-fried-pizzas#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide the pizza dough into 6 sections. Roll each into a ball and flatten into a pizza shape (mine were about 6-8 inches in diameter and about 1/2 inch thick around the outside).",
+            "name": "Shape the dough",
+            "url": "https://pinchofyum.com/life-changing-fried-pizzas#instruction-step-2"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large cast iron skillet with oil (about 1 inch deep). Turn the heat to medium/low. Test the oil by dropping a speck of water in it &#8211; when it sizzles or bubbles, then the oil is ready.",
+            "name": "Prep the oil: ",
+            "url": "https://pinchofyum.com/life-changing-fried-pizzas#instruction-step-3"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Working one at a time, gently place the pizzas into the oil and fry for 30 seconds to 1 minute until light golden brown. Flip with tongs and repeat on the other side. Transfer to a paper towel lined pan to cool.",
+            "name": "Fry the pizza dough",
+            "url": "https://pinchofyum.com/life-changing-fried-pizzas#instruction-step-4"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450 degrees. Spread each pizza with sauce, cheese, and any other toppings you want. Bake for 5-10 minutes or until the cheese is melted. Top with fresh basil, pesto, or anything else you want and serve warm. And then enjoy those puffy, crispy, personal-pan-sized bites of pizza crust! YUMMMMM.",
+            "name": "Finish in the oven: ",
+            "url": "https://pinchofyum.com/life-changing-fried-pizzas#instruction-step-5"
+        }
+    ],
+    "prepTime": "PT1H",
+    "cookTime": "PT20M",
+    "totalTime": "PT1H20M",
+    "recipeYield": [
+        "6",
+        "6 pizzas"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "Italian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "24",
+        "ratingValue": "4.8"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "305 calories",
+        "sugarContent": "3.6 g",
+        "sodiumContent": "738.5 mg",
+        "fatContent": "13 g",
+        "saturatedFatContent": "3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "26.1 g",
+        "fiberContent": "1.9 g",
+        "proteinContent": "21 g",
+        "cholesterolContent": "16.4 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Life-Changing Crispy Fried Pizzas",
+        "description": "Absolutely THE BEST way to make pizza at home! With a quick fry, you get a light, crispy, and perfectly chewy crust texture than is SO MUCH BETTER than baked. Crispy fried pizza for the win!",
+        "contentUrl": "https://content.jwplatform.com/videos/EBUfADOU.mp4",
+        "thumbnailUrl": [
+            "https://content.jwplatform.com/thumbs/EBUfADOU-720.jpg"
+        ],
+        "uploadDate": "2023-02-01T18:49:43+00:00"
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Rosanna"
+            },
+            "datePublished": "2018-04-30",
+            "reviewBody": "Can't wait to try this! Would you mind sharing your homemade version of your DIY pizza dough with no yeast? Thank you so much!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "CS"
+            },
+            "datePublished": "2018-04-17",
+            "reviewBody": "You had me at \"crispy fried.\"  We love making pizza at my house, and have never tried this. I can't wait to make this!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mary Bomberry"
+            },
+            "datePublished": "2018-04-18",
+            "reviewBody": "BIG longtime fan of your blog and recipes, Lindsay, and love reading comments of your fans and fellow bloggers! As a \"Native American\" we know this recipe as Indian Fry Bread (without the Italian toppings) so do your research, peeps, and you're welcome."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Liz"
+            },
+            "datePublished": "2020-06-05",
+            "reviewBody": "Question, did you bake these on a pan or directly on the oven rack or...  thanks!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "judy"
+            },
+            "datePublished": "2018-04-23",
+            "reviewBody": "what a delightful read. thanks for this. must definitely give it a try"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Elizabeth @ Confessions of a Baking Queen"
+            },
+            "datePublished": "2018-04-24",
+            "reviewBody": "Fried Pizza!! Ah I first tried it in Naples, Italy- our taxi driver suggested we have some and I thought he was having a laugh but he insisted. It was sooo good! I love that you have a recipe here for it, gotta get the girls from that trip together and make this!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Neha"
+            },
+            "datePublished": "2018-04-26",
+            "reviewBody": "Delicious recipie.."
+        }
+    ],
+    "datePublished": "2018-04-17",
+    "@id": "https://pinchofyum.com/life-changing-fried-pizzas#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/life-changing-fried-pizzas#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/life-changing-fried-pizzas"
+}

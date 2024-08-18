@@ -1,0 +1,138 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Kale, Quinoa &amp; Apple Salad",
+    "datePublished": "2022-10-03T16:29:10.000-04:00",
+    "dateModified": "2023-09-20T12:49:49.973-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Adam Dolge",
+            "url": "https://www.eatingwell.com/author/adam-dolge/"
+        }
+    ],
+    "description": "This kale, quinoa and apple salad is perfect for fall with fresh apples and kale which breaks down when it&#39;s massaged with the dressing.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.eatingwell.com/thmb/QEAoz4wk9DF_0P3pxL45XQbWsC0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kale-quinoa-and-apple-salad-1x1-231_1-f8b01295416e4f3eb73925ca5f67d7ac.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "EatingWell",
+        "url": "https://www.eatingwell.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eatingwell.com/thmb/cr0OO5bIhN4hn9zmchZ_ZSKGUuQ=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/eatingwell_brand_logo_schema-b4e06815bfc2449ebe240453e3b47d48.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "EatingWell",
+        "publishingPrinciples": "https://www.eatingwell.com/about-us-6743412#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/EatingWell/",
+            "https://twitter.com/EatingWell/",
+            "https://www.instagram.com/eatingwell/",
+            "https://www.pinterest.com/eatingwell/",
+            "https://flipboard.com/@EatingWell",
+            "https://www.youtube.com/@eatingwell",
+            "https://www.linkedin.com/company/eatingwell-media-group/",
+            "https://www.tiktok.com/@eatingwell"
+        ]
+    },
+    "name": "Kale, Quinoa &amp; Apple Salad",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "499 kcal",
+        "carbohydrateContent": "54 g",
+        "cholesterolContent": "11 mg",
+        "fiberContent": "10 g",
+        "proteinContent": "13 g",
+        "saturatedFatContent": "5 g",
+        "sodiumContent": "504 mg",
+        "sugarContent": "23 g",
+        "fatContent": "27 g",
+        "unsaturatedFatContent": "21 g"
+    },
+    "recipeIngredient": [
+        "2 tablespoons cider vinegar",
+        "1 tablespoon pure maple syrup",
+        "0.5 teaspoon salt",
+        "0.25 teaspoon ground pepper",
+        "0.25 cup extra-virgin olive oil",
+        "1 large bunch curly kale, stemmed and thinly sliced (about 8 cups)",
+        "2 medium Honeycrisp or Gala apples, unpeeled, roughly chopped",
+        "1 medium fennel bulb, cored and thinly sliced (3 cups)",
+        "2 cups cooked quinoa, at room temperature or chilled",
+        "0.5 cup slivered almonds, toasted (see Tip)",
+        "0.33 cup dried cherries",
+        "0.25 cup crumbled blue cheese"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Whisk vinegar, maple syrup, salt and pepper together in a large bowl. Slowly drizzle in oil, whisking until combined. Add kale and massage into the dressing with clean hands until well coated and slightly tender, 3 to 5 minutes. Add apples, fennel and quinoa; toss until combined. Divide among 4 plates and top with almonds, cherries and blue cheese."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT15M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.eatingwell.com/recipe/8004437/kale-quinoa-apple-salad/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/19305/ingredients/vegetables/greens/",
+                        "name": "Healthy Greens Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipes/21672/ingredients/vegetables/greens/kale/",
+                        "name": "Healthy Kale Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.eatingwell.com/recipe/8004437/kale-quinoa-apple-salad/",
+                        "name": "Kale, Quinoa &amp; Apple Salad"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Emily Lachtrupp, M.S., RD",
+                "url": "https://www.eatingwell.com/author/emily-lachtrupp/"
+            },
+            {
+                "@type": "Person",
+                "name": "EatingWell Test Kitchen",
+                "url": "https://www.eatingwell.com/author/eatingwell-test-kitchen/"
+            }
+        ],
+        "lastReviewed": "2023-09-20T12:49:49.973-04:00"
+    },
+    "recipeCategory": []
+}

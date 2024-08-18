@@ -1,0 +1,143 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Baked Chicken Nuggets",
+    "datePublished": "2012-03-14T07:24:57.000-04:00",
+    "dateModified": "2020-05-28T13:55:48.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "Cut down on fried foods by making your kids these even better Baked Chicken Nuggets.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/X43xNqiaMSU3Rz-woDU3smR69vg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-chicken-nuggets-med108164_vert-37c4f00b17ec4163a0790db556009cea.jpgitokP82sJIF0",
+        "height": 375,
+        "width": 300
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/4IDHeY0W-zqASzng0.mp4",
+        "description": "Why buy frozen or fast-food chicken nuggets when the homemade version is so much tastier -- and healthier? Everyday Food editor Sarah Carey shows you just how easy it is to make them at home, and shows you her secret for making sure they come out crispy.",
+        "duration": "PT4M18S",
+        "name": "Baked Chicken Nuggets",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/4IDHeY0W/poster.jpg?width=720",
+        "uploadDate": "2021-03-05T22:21:01.361-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Baked Chicken Nuggets",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.7",
+        "ratingCount": "306"
+    },
+    "keywords": "All-American, Bake, Boneless chicken breasts, Breadcrumbs, Dinner, Kids' birthday party, Lunch, Main course, Super Bowl party",
+    "prepTime": "PT10M",
+    "recipeIngredient": [
+        "2 boneless, skinless chicken breasts (about 1 pound total)",
+        "1 cup panko (Japanese breadcrumbs)",
+        "0.333 cup grated Parmesan",
+        "Coarse salt",
+        "1 tablespoon vegetable oil",
+        "0.5 cup all-purpose flour",
+        "3 large eggs, lightly beaten",
+        "Cooking spray",
+        "Honey Mustard or Spicy Ketchup, for serving (see Cook's Notes below)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 400 degrees. Cut chicken into 2-inch pieces. Spread panko on a rimmed baking sheet and bake until golden brown, 6 to 8 minutes. Transfer to a shallow dish, then add Parmesan and 1/2 teaspoon salt; drizzle with oil and stir to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place flour and eggs in separate shallow dishes. Increase temperature to 450 degrees."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Set a wire rack in a rimmed baking sheet; lightly coat rack with cooking spray. In batches, coat chicken in flour, shaking off excess, dip in egg, then coat with panko, pressing to adhere. Place on rack."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/X43xNqiaMSU3Rz-woDU3smR69vg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/baked-chicken-nuggets-med108164_vert-37c4f00b17ec4163a0790db556009cea.jpgitokP82sJIF0"
+                }
+            ],
+            "text": "Bake until chicken is cooked through, 12 minutes, flipping halfway through. Serve nuggets with sauce."
+        }
+    ],
+    "recipeYield": [
+        "4"
+    ],
+    "totalTime": "PT30M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/897986/baked-chicken-nuggets",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504489/chicken-recipes",
+                        "name": "Chicken"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504436/chicken-breast-recipes",
+                        "name": "Chicken Breast Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/897986/baked-chicken-nuggets",
+                        "name": "Baked Chicken Nuggets"
+                    }
+                }
+            ]
+        }
+    }
+}

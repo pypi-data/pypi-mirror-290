@@ -1,0 +1,118 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Indian-Style Stewed Beef With Chili Recipe",
+    "datePublished": "2012-08-07T10:07:59.000-04:00",
+    "dateModified": "2019-04-17T11:00:20.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Denise D'silva Sankhé",
+            "url": "https://www.seriouseats.com/denise-d-silva-sankh-5118644"
+        }
+    ],
+    "description": "Beef chilli is a delicious mix of spicy and meaty comfort food. Serve it with french fries and crusty bread to soak up the peppery gravy.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/nN6ctWsy-BZyJh7rMkDF9Lwt8f8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__08__20120807-beef-chili-9da55b200d7e4d41846f8a7ea555f362.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Indian-Style Stewed Beef With Chili Recipe",
+    "keywords": "beef, Beyond Curry, mains",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Indian"
+    ],
+    "recipeIngredient": [
+        "2 pounds beef flap meat or sirloin, trimmed of excess gristle and cut into 1 1/2- to 2-inch cubes",
+        "Kosher salt and freshly ground black pepper",
+        "3 tablespoons vegetable oil",
+        "2 large onions, fine sliced",
+        "12 medium garlic cloves, roughly chopped (about 4 tablespoons)",
+        "1 teaspoon grated ginger",
+        "8 small hot green chilis slit lengthwise",
+        "2 roma tomatoes cut lengthwise into 8 wedges",
+        "1/2 tablespoon turmeric powder",
+        "1 1/2 tablespoon toasted and ground cumin seeds",
+        "1 tablespoon malt vinegar"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Toss beef in a large bowl with 1 tablespoon salt and 1/2 tablespoon pepper. Set aside. Heat oil in a large lidded saucepan over medium heat until shimmering. Add onions and cook, stirring frequently, until softened, about 5 minutes. Add garlic, ginger, chillies, tomatoes and stir vigorously until fragrant , about 3 minutes. Add turmeric, 1/2 tablespoon pepper, and ground cumin. Cook, stirring constantly, until fragrant and oil is tinged yellow with the spices, about 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Move the onion mix to one side of the pan and add the beef to the cleared side. Brown beef on both sides. About 5 minutes. Stir and mix the onion and beef together. Add malt vinegar. Stir through. Cover the pan with the lid. Reduce heat to low and allow beef to cook in its juices until just cooked through, about 25 minutes. Serve hot with bread and french fries to soak up the gravy."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT60M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BostonKate"
+            },
+            "reviewBody": "This stew made me sad. It smelled fantastic and it tastes amazing, but the beef was so tough. 25 minutes seemed to be the wrong amount of time. The flap meat I used had cooked through entirely so it got tough, but cooking it more didn't seem to make it any more tender.... I ate the shoe leather meat, but next time I won't cook it past medium."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/beef-chili-indian-style-stewed-beef-with-chili-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/recipes-by-ingredient-recipes-5117749",
+                        "name": "Recipes By Ingredients"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/beef-recipes-5117732",
+                        "name": "Beef"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/beef-chili-indian-style-stewed-beef-with-chili-recipe",
+                        "name": "Indian-Style Stewed Beef With Chili Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

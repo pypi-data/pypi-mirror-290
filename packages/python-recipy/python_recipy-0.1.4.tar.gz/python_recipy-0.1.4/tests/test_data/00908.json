@@ -1,0 +1,482 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/strawberry-poke-cake/",
+    "name": "Strawberry Poke Cake",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-02-16",
+    "prepTime": "PT25M",
+    "cookTime": "PT25M",
+    "totalTime": "PT50M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Strawberry-Poke-Cake_EXPS_GFA22_17672_E06_10_3b.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This strawberry poke cake is a light, refreshing dessert that’s perfect for a spring afternoon or summer night.",
+    "recipeIngredient": [
+        "1 package  white cake mix (regular size)",
+        "1-1/4 cups water",
+        "2 large eggs, room temperature",
+        "1/4 cup canola oil",
+        "2 packages (10 ounces each) frozen sweetened sliced strawberries, thawed",
+        "2 packages (3 ounces each) strawberry gelatin",
+        "1 carton (12 ounces) frozen whipped topping, thawed, divided",
+        "Fresh strawberries, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Create the cake batter",
+            "text": "Preheat the oven to 350°F. In a large bowl, use a hand mixer or stand mixer to beat the cake mix, water, eggs and oil on low speed for 30 seconds. Turn the speed to medium, and beat for two minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Bake",
+            "text": "Grease and flour two 9-inch round baking pans. Pour the cake batter evenly into the pans, and use a mini offset spatula to gently spread if needed. Bake the cakes until a toothpick inserted in the centers comes out clean, 25 to 35 minutes. Cool the cakes at room temperature for 10 minutes. Remove the cakes from the pans and onto wire racks, and let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Poke the cake",
+            "text": "If needed, level the tops of the cakes using a serrated knife. Return the layers, top side up, to two clean 9-inch round baking pans. Pierce the cakes all over with a meat fork or wooden skewer at 1/2-inch intervals. Editor’s Tip: Here are all the secrets on leveling a cake without a cake leveler, just in case you're new to the technique!"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Make the strawberry sauce",
+            "text": "Drain the juice from the strawberries into a 2-cup measuring cup. Stick the strawberries in the refrigerator. Add enough water to the juice to measure to the 2-cup line. Pour the liquid into a small saucepan, and bring it to a boil. Whisk in the gelatin until it’s all dissolved. Chill the strawberry sauce in the fridge for 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Spoon sauce over the cakes",
+            "text": "Gently spoon the strawberry sauce over each cake layer, making sure you get into all the holes and corners, too. Chill the cakes for two to three hours."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Assemble the cake",
+            "text": "Fill a large pan with warm water. Dip the bottom of one of the cake pans into the warm water for 10 seconds. Invert the cake onto a serving platter. Top the cake layer with the chilled strawberries and 1 cup whipped topping. Dip the second cake pan in the warm water for 10 seconds. Invert that cake layer on top of the cake."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Frost",
+            "text": "Frost the cake with the remaining whipped topping. Chill the cake for at least one hour. Serve your beautiful cake slices with fresh strawberries if desired. Refrigerate any leftovers. Editor’s Tip: When slicing and serving, we recommend wiping the knife off after every cut so the strawberry sauce doesn’t mess up the frosting. It might feel tedious, but it will make your cake slices look so much better!"
+        }
+    ],
+    "recipeYield": "12 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 376 calories",
+        "fatContent": "14g fat (7g saturated fat)",
+        "cholesterolContent": "35mg cholesterol",
+        "sodiumContent": "301mg sodium",
+        "carbohydrateContent": "56g carbohydrate (37g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "4g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.7555556,
+        "reviewCount": 45,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-02-14",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mjlouk"
+            },
+            "reviewBody": "Perfect!  I made this for the Super Bowl and Valentine's Day.  This is feels light and refreshing.  I made mine in a 9x13 pan and just spread the strawberries on top and spread the cool whip on top of that.  It's easier to store in the 9x13 pan.  If you like this one check out the Wearin' O' the Green cake recipe on here - very similar and fun for St. Patrick's Day.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2022-02-18",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Joyce115"
+            },
+            "reviewBody": "This cake is almost a Christmas Eve tradition at our house, my family has dubbed it \"Christmas Cake\".  I make it with one lime layer and one strawberry layer, frost the layers with Cool Whip then make holly leaves and berries from cut gumdrops to decorate the top!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-05-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amsm"
+            },
+            "reviewBody": "Perfect cake for a light dessert! My daughter made this and we all loved it.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-03-08",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "mandystricklandcarpenter"
+            },
+            "reviewBody": "This was the first cake I ever made as a kid, and it's still a favorite. We make it in a 9x13 pan, and mix the thawed strawberries with the whipped topping for the frosting. A few years ago, my family renamed it Colin-Ate-It-All cake, after my son, for obvious reasons.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-10-27",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "papa2evan"
+            },
+            "reviewBody": "I take a cup of milk, & a pkg. of cheese cake flavored pudding mix, beat for a couple of minutes & fold into cool whip. Gives it a strawberry cheesecake flavor.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-04-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "DavidG615"
+            },
+            "reviewBody": "Made so many times.  I used it  in the restaurant so many times and it's the first thing to go so good!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-05-16",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Jasminesmom"
+            },
+            "reviewBody": "At first I was skeptical because of the cost of all the ingredients, the amount of time needed between the different steps & all the sugar but OMG this was ABSOLUTELY AWESOME!! This cake was very impressive (& I do not impress easily.) Not sweet at all, very light tasting & a beautiful, professional looking cake. I made this cake for Mother's Day & everyone loved it. This cake would be perfect for any special occasion. I did add fresh, sliced strawberries along the top of the cake with a whole, unhulled strawberry in the middle. Will be making this cake often.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-05-29",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Lori Ellen",
+                "givenName": "Lori",
+                "familyName": "Ellen"
+            },
+            "reviewBody": "I made this for a Memorial Day get-together and everyone loved it!  I made it in a 9 x 13 pan and actually used it as a birthday cake.  I had quite a bit of the strawberry liquid left over; I gently ladled the juice over the cake with a big spoon and stopped when the holes seemed filled.  Great summer flavor.  Easy to do because of the cake mix.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-03-31",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "maebaby"
+            },
+            "reviewBody": "This was so surprising, it was light and not too sweet. I used fresh strawberries, after blending and crushing the strawberries, I added stevia to sweeten and refrigerated them over night, I also used sugar free jello and  cool whip. It worked beautiful! Great recipe!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2013-08-09",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Debiana"
+            },
+            "reviewBody": "I made this several times (once using 2 9 inch cake pans, and several times in a 9 x 13 pan) I did not use canola oil though, I used vegetable oil. Ive also made this exact version, using berry flavored jello and blueberries. Thank you for sharing this recipe! A definite keeper!!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-12-26",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "amberjcarothers"
+            },
+            "reviewBody": "I made this cake for a potluck at work , it looked beautiful ! My coworkers couldn't wait to try a piece , I left the room for a minute to get a cake server and when I returned the cake was already gone ... they had scooped it out with their forks.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-05-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Linda32"
+            },
+            "reviewBody": "I've been making poke cakes in various flavors for years.  My favorite combo is lime Jello with lemon cake.  However, I make mine in a 9x13-inch sheet cake pan.  Also, for the frosting I stir a small box of dry vanilla instant pudding mix into the Cool Whip.  Delish!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2016-04-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Bristoltn63"
+            },
+            "reviewBody": "<p>Absolutely the most interesting recipe I've found in a long time! This recipe it not only going to be one I keep,  adding it too my favorites list</p>",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-04-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "CyanCoathanger"
+            },
+            "reviewBody": "Partial review- I haven't cut into the  cake yet, but I'm not optimistic. I made this recipe to a T, but the jello liquid pooled around the edges of the pan and we had to cut it away before plating for frosting. I should have made this in a 9x12 for frosting simplicity, but right now, I'm afraid it's going to be a very wet cake :(",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-07-02",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "millsmagaw"
+            },
+            "reviewBody": "I have made this recipe for years. It's one of my most requested cakes. I add  1 package of vanilla pudding with 1 cup of milk to the cool whip.  Gently fold together.  I'm always coming home with an empty plate.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-04-05",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Queenlalisa"
+            },
+            "reviewBody": "This is a wonderful cake for Spring and Summer. I love to make it with orange jello and mandarin oranges too. So light and good. It is great with sugar free cake mix, sugar free jello and sugar free whipped topping also.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-05-21",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Montgrandma"
+            },
+            "reviewBody": "My family loves poke cakes.  The gelatin makes the cake stay moist and adds a lot of flavor.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-07-10",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "heynay75"
+            },
+            "reviewBody": "OMG!!  This was heaven!  My husband devoured the cake!  I made a few substitutions to make a bit healthier.  Instead of oil, use the same amount of unsweetened apple sauce, use egg whites, use one box of sugar free gelatin and puree strawberries and add less water (just enough so the strawberry mixture can be poured over cake), I also used unsweetened strawberries and sprinkled a little bit of splenda over the strawberries and ff whip topping.  This is a keeper in my house!!",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2015-03-13",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "grannysue4"
+            },
+            "reviewBody": "I have made this cake several times for our family Easter dinner and for serving at church and everyone loved it. It is so light and flavorful that it just melts in your mouth. I have always used a 9x13 pan and cut the cake in half and slid a foil lined piece of cardboard under the top half to continue with the poke process. Before sliding the top half back into place I take a flat spatula and run it under the cake to make sure it is loose from the foil. It has always worked out great doing it that way.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-05-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cadamsorama"
+            },
+            "reviewBody": "Absolutely a divine dessert.  I did swap the oil in the cake for apple sauce and I used 3 egg whites in lieu of two whole eggs since it is a white cake.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2012-06-04",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "MommaRie4"
+            },
+            "reviewBody": "Made in the 9\"x13\" pan. Easiest way to serve my favorite dessert, strawberry short cake.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "video": {
+        "@type": "VideoObject",
+        "name": "Strawberry Poke Cake",
+        "description": "Check out this video for how to make Strawberry Poke Cake",
+        "thumbnailUrl": [
+            "https://tmbidigitalassetsazure.blob.core.windows.net/wpconnatixthumbnailsprod/StrawberryPokeCakeDIYD17672060122H_thumbnail.jpeg"
+        ],
+        "uploadDate": "2023-07-20 12:36:38",
+        "duration": "P0DT0H1M35S",
+        "contentUrl": "https://videodam.tmbi.com/wp-content/uploads/2023/01/StrawberryPokeCake_DIYD_17672_060122_H.mp4"
+    }
+}

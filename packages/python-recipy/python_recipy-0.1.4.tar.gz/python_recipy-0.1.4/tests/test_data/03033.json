@@ -1,0 +1,67 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://www.myrecipes.com/recipe/oven-roasted-fillet-of-beef",
+    "name": "Oven-Roasted Fillet of Beef",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2005%2F02%2F07%2Froast-beef-rs-1025472-x.jpg",
+        "width": 420,
+        "height": 420
+    },
+    "datePublished": "2005-02-07T16:22:07.000Z",
+    "description": "",
+    "prepTime": "P0DT0H10M",
+    "cookTime": null,
+    "totalTime": "P0DT0H50M",
+    "recipeYield": "Makes 36 hors d'oeuvres; 8 to 10 buffet servings; 6 servings for a sit-down dinner",
+    "recipeIngredient": [
+        "1 4-pound fillet of beef",
+        "¼ cup Dijon mustard",
+        "1 teaspoon kosher salt",
+        "1 tablespoon freshly ground black pepper",
+        "1 tablespoon fresh thyme leaves",
+        "1 tablespoon vegetable oil"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Remove the fillet from the refrigerator 30 minutes before roasting to bring it to room temperature. Preheat oven to 500&deg; F and position a rack in the center.\n"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread the mustard evenly on all sides of the fillet. Sprinkle with the salt, pepper, and thyme. Heat the oil in a 12-inch ovenproof skillet over high heat; the oil should shimmer but not smoke. Brown the fillet on all sides, 2 to 3 minutes per side. Place the fillet in oven and reduce temperature to 425&deg; F. Roast about 25 minutes for rare or until a meat thermometer reads 130&deg; F when inserted into the center. (Check the temperature once after about 20 minutes to gauge how far along the fillet is.) Remove the fillet from oven and allow it to rest 10 minutes before slicing.\n"
+        }
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": [],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Cyd Raftus McDowell"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": 0,
+        "itemReviewed": "Oven-Roasted Fillet of Beef",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "129 calories",
+        "carbohydrateContent": null,
+        "cholesterolContent": "47 mg",
+        "fatContent": "7 g",
+        "fiberContent": null,
+        "proteinContent": "16 mg",
+        "saturatedFatContent": "2 g",
+        "servingSize": null,
+        "sodiumContent": "138 mg",
+        "sugarContent": null,
+        "transFatContent": null,
+        "unsaturatedFatContent": null
+    },
+    "review": []
+}

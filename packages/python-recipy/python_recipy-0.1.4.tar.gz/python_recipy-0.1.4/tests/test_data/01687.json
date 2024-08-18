@@ -1,0 +1,119 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Poached-Chicken Soup",
+    "datePublished": "2013-12-06T18:42:21.000-05:00",
+    "dateModified": "2015-12-02T17:49:35.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Food & Wine Editors",
+            "url": "https://www.foodandwine.com/author/food-wine-editors"
+        }
+    ],
+    "description": "Whether you feel a cold coming on or simply need a little soothing, there&#39;s nothing like a hot bowl of chicken soup. Poaching in broth also happens t...",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/PNQcpy-wsMg2I2-OYqbF23pcsB0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201103-xl-poached-chicken-soup-2000-24ce64c59c6f47a4a38f41649c91b6ad.jpg",
+        "height": 1500,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Poached-Chicken Soup",
+    "recipeIngredient": [
+        "2 tablespoons cooking oil",
+        "1 onion, chopped",
+        "1 carrot, chopped",
+        "1 rib celery, chopped",
+        "2 teaspoons salt",
+        "1 chicken (3 to 3 1/2 pounds), cut into 8 pieces, skin removed",
+        "4 small red potatoes (about 1 pound), peeled and quartered",
+        "2 medium turnips, peeled and cut into eighths",
+        "1 cup canned low-sodium chicken broth or homemade stock",
+        "1 teaspoon red- or white-wine vinegar",
+        "2 quarts water",
+        "1 sprig fresh thyme, or 1/4 teaspoon dried thyme",
+        "1 bay leaf",
+        "1/2 teaspoon fresh-ground black pepper",
+        "1 cup chopped fresh parsley"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a large pot, heat the oil over moderate heat. Add the onion, carrot, celery, and 1 teaspoon of the salt and cook, stirring occasionally, until the vegetables start to soften, about 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the chicken, potatoes, turnips, broth, vinegar, water, thyme, bay leaf, and the remaining 1 teaspoon salt. Cover and bring to a boil."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Reduce the heat and simmer, partially covered, until the chicken is just done, about 10 minutes for the breasts and 15 minutes for the legs and thighs; remove each piece as it is done."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Continue simmering the soup until the potatoes and turnips are tender, about 5 minutes longer. Stir in the pepper and parsley. Remove the thyme sprig and bay leaf. To serve, divide the chicken pieces among four shallow bowls and ladle the broth and vegetables over them."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/poached-chicken-soup",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup",
+                        "name": "Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/soup/chicken-soup",
+                        "name": "Chicken Soups"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/poached-chicken-soup",
+                        "name": "Poached-Chicken Soup"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

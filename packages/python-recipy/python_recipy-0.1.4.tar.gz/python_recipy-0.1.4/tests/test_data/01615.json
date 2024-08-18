@@ -1,0 +1,131 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Savory Glazed Sweet Potatoes with Sesame Seeds",
+    "datePublished": "2020-10-15T14:40:29.000-04:00",
+    "dateModified": "2023-08-02T11:44:32.069-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Justin Chapple",
+            "url": "https://www.foodandwine.com/author/justin-chapple"
+        }
+    ],
+    "description": "Liquid aminos are the key ingredient in this vegetarian-friendly Savory Glazed Sweet Potatoes with Sesame Seeds by Justin Chapple. It packs rich, deep umami flavor in this savory-sweet side dish.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/pSHCDiwHxko8cdge5yx3CMN9n5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Glazed-Sweet-Potatoes-with-Sesame-seeds-FT-RECIPE1120-21827cb0c45541c289061c8afaf25808.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Savory Glazed Sweet Potatoes with Sesame Seeds",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "2"
+    },
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "1/2 cup packed dark brown sugar",
+        "2 tablespoons rice vinegar",
+        "2 tablespoons liquid aminos (such as Bragg)",
+        "1/2 teaspoon kosher salt",
+        "3 pounds large sweet potatoes, peeled, halved crosswise, and cut into 3- x 1-inch wedges",
+        "1/4 cup cold unsalted butter, cubed",
+        "Toasted black and white sesame seeds, for garnish"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375°F. Whisk together brown sugar, vinegar, liquid aminos, and salt in a large bowl. Add sweet potatoes; toss well to coat. Spread mixture evenly in a 13- x 9-inch baking dish; dot with butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Roast in preheated oven 25 minutes. Stir sweet potatoes; roast until fork-tender and glazed, 20 to 25 minutes, stirring gently every 8 minutes. Remove from oven. Garnish with sesame seeds."
+        }
+    ],
+    "totalTime": "PT65M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Diane"
+            },
+            "reviewBody": "Wonderful savory and slightly sweet recipe. Both my husband and I served it with Sous Vide Pork chops, but it is so versatile. I will definitely make it again!",
+            "datePublished": "2021-04-29T17:21:33.147Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/savory-glazed-sweet-potatoes-sesame-seeds",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/side-dishes/vegetable-side-dishes",
+                        "name": "Vegetable Side Dishes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/roasted-vegetables-7497064",
+                        "name": "Roasted Vegetables"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/savory-glazed-sweet-potatoes-sesame-seeds",
+                        "name": "Savory Glazed Sweet Potatoes with Sesame Seeds"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Food & Wine Test Kitchen",
+                "url": "https://www.foodandwine.com/food-wine-test-kitchen-6453574"
+            }
+        ],
+        "lastReviewed": "2023-08-02T11:44:32.069-04:00"
+    }
+}

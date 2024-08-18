@@ -1,0 +1,85 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/4-ingredient-watermelon-sorbet/",
+    "name": "Watermelon Sorbet",
+    "datePublished": "2018-01-01",
+    "dateModified": "2024-05-29",
+    "prepTime": "PT35M",
+    "cookTime": "PT0M",
+    "totalTime": "PT35M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/4-Ingredient-Watermelon-Sorbet_EXPS_FTTMZ21_32576_E03_05_7b-4.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "This three-ingredient watermelon sorbet is so tasty, you won\\'t be able to keep enough watermelon on hand to match the demand. No ice cream maker needed!",
+    "recipeIngredient": [
+        "1 cup sugar",
+        "1 cup water",
+        "8 cups cubed seedless watermelon",
+        "2 tablespoons lemon juice",
+        "Fresh mint leaves, optional"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "name": "Prepare the simple syrup",
+            "text": "In a small saucepan, bring sugar and water to a boil. Cook and stir until sugar is dissolved; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "name": "Prepare the sorbet base",
+            "text": "In a blender or food processor, process the watermelon in batches until pureed. Transfer to a large bowl; stir in the sugar syrup and lemon juice."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the simple syrup and sorbet base Pour the mixture into a 13x9-inch dish; cover and freeze for eight hours, or until firm. Just before serving, puree the watermelon sorbet in batches until smooth. Editor’s Tip: If desired, garnish with fresh mint leaves."
+        }
+    ],
+    "recipeYield": "6 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 184 calories",
+        "fatContent": "0 fat (0 saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "7mg sodium",
+        "carbohydrateContent": "52g carbohydrate (49g sugars",
+        "fiberContent": "1g fiber)",
+        "proteinContent": "1g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2020-06-24",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "cynandtom"
+            },
+            "reviewBody": "Refreshingly delicious!  However, next time I would use less sugar, it was a little too sweet for us.  Kids would love adding  chocolate chips for the seeds.   This was my first sorbet at home, it was actually really easy, I will definitely be trying different flavors.  I’m thinking lemon, strawberry would be a nice combo.",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}

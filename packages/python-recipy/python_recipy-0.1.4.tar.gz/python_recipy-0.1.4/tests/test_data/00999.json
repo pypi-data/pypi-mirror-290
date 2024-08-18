@@ -1,0 +1,61 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/orange-avocado-salad/",
+    "name": "Orange Avocado Salad",
+    "datePublished": "2018-01-01",
+    "dateModified": "2023-06-27",
+    "prepTime": "PT30M",
+    "cookTime": "PT0M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps503_TH2026C25C.jpg",
+        "height": 300,
+        "width": 300
+    },
+    "recipeCategory": [],
+    "description": "For a beautiful salad with an unbeatable combination of flavors, you can't miss with this recipe. We love the mellow avocado together with sweet mandarin oranges and crisp cucumber. The tangy dressing makes this dish special. It's a great summertime salad to serve with grilled meat.\r\n-Latressa Allen, Fort Worth, Texas",
+    "recipeIngredient": [
+        "DRESSING:",
+        "1/2 cup orange juice",
+        "1/4 cup canola oil",
+        "2 tablespoons red wine vinegar",
+        "1 tablespoon sugar",
+        "1 teaspoon grated orange zest",
+        "1/4 teaspoon salt",
+        "SALAD:",
+        "1 medium head iceberg lettuce, torn",
+        "2 cups torn red leaf lettuce",
+        "1 medium ripe avocado, peeled and sliced",
+        "1/4 cup orange juice",
+        "1 medium cucumber, sliced",
+        "1/2 medium red onion, sliced",
+        "1 can (11 ounces) mandarin oranges, drained"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a jar with a tight-fitting lid, combine dressing ingredients; shake well. Chill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Just before serving, toss the greens in a large salad bowl. Dip the avocado slices into orange juice. Arrange the cucumber, red onion and oranges over greens. Add the avocado (discard remaining juice). Serve with dressing."
+        }
+    ],
+    "recipeYield": "6-8 servings.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 132 calories",
+        "fatContent": "11g fat (1g saturated fat)",
+        "cholesterolContent": "0 cholesterol",
+        "sodiumContent": "84mg sodium",
+        "carbohydrateContent": "9g carbohydrate (5g sugars",
+        "fiberContent": "3g fiber)",
+        "proteinContent": "2g protein. "
+    }
+}

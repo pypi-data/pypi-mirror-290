@@ -1,0 +1,112 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Provençal Tuna Burgers",
+    "datePublished": "2013-12-06T18:43:25.000-05:00",
+    "dateModified": "2015-03-27T21:26:00.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Patrick O'Connell",
+            "url": "https://www.foodandwine.com/author/patrick-oconnell"
+        }
+    ],
+    "description": "The Inn at Little Washington&#39;s staff uses leftover sushi-quality tuna for these burgers, but they are just as good if you use fresh regular tuna. ...",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Provençal Tuna Burgers",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "4 pounds tuna steaks, cut 1-inch thick",
+        "Pure olive oil for brushing, plus more for frying",
+        "Salt and freshly ground pepper",
+        "1 cup finely chopped cornichons",
+        "1/2 cup finely chopped red onion",
+        "1/4 cup finely chopped dill",
+        "2 tablespoons capers, drained",
+        "2 tablespoons finely chopped black olives",
+        "2 cups mayonnaise",
+        "3 tablespoons fresh lemon juice",
+        "1/4 cup Dijon mustard",
+        "2 tablespoons dry mustard",
+        "All-purpose flour, for dusting",
+        "Marinated Cabbage Slaw"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the broiler. Brush the tuna steaks on both sides with olive oil and season with salt and pepper. Broil half the tuna steaks for 2 minutes per side, until just rare. Repeat with the remaining tuna steaks. Let the tuna cool to room temperature, then finely chop it with a knife."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the tuna with the cornichons, red onion, dill, capers and olives. Fold in 1 cup of the mayonnaise and the lemon juice and season with salt and pepper. Form the tuna into 10 burgers and transfer to a baking sheet. Refrigerate until firm, about 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, whisk the remaining 1 cup of mayonnaise with the Dijon and dry mustards. Season with salt and pepper. Refrigerate the mustard mayonnaise until it is ready to use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Dust the tuna burgers with flour. Heat 1/4 inch of olive oil in each of 2 large skillets until shimmering. Add 3 or 4 burgers to each skillet and cook over moderately high heat until browned and crisp, about 3 minutes per side for medium. Drain the tuna burgers on paper towels and cook the remaining burgers in 1 skillet. Serve the tuna burgers with the mustard mayonnaise. Pass the Marinated Cabbage Slaw separately."
+        }
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/provencal-tuna-burgers",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/comfort-food/burgers",
+                        "name": "Burgers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood-burgers-7497030",
+                        "name": "Seafood Burgers"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/provencal-tuna-burgers",
+                        "name": "Provençal Tuna Burgers"
+                    }
+                }
+            ]
+        }
+    }
+}

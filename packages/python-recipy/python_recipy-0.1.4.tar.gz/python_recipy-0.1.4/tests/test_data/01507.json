@@ -1,0 +1,89 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "These herbaceous pickles combine spicy ginger with bright dill. Although cucumbers are classic, cherry tomatoes or green beans would also work well in this brine.",
+    "alternativeHeadline": "These herbaceous pickles combine spicy ginger with bright dill. Although cucumbers are classic, cherry tomatoes or green beans would also work well in this brine.",
+    "keywords": [
+        "condiment",
+        "pickle",
+        "european",
+        "eastern european",
+        "american",
+        "cucumber",
+        "dill",
+        "garlic",
+        "ginger",
+        "side",
+        "nut free",
+        "vegan",
+        "vegetarian",
+        "gluten free",
+        "meal prep",
+        "5 ingredients or fewer",
+        "pickle & preserve",
+        "epicurious",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Katherine Sacks",
+            "sameAs": "https://www.epicurious.com/contributor/katherine-sacks"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 2
+    },
+    "description": "These herbaceous pickles combine spicy ginger with bright dill. Although cucumbers are classic, cherry tomatoes or green beans would also work well in this brine.",
+    "image": [
+        "https://assets.epicurious.com/photos/558c2b6174cbe9ed7c2112c1/master/w_2188,h_1458,c_limit/EP_06242015_masterpicklerecipe_pickles-6x4.jpg"
+    ],
+    "headline": "Ginger-Dill Pickles",
+    "name": "Ginger-Dill Pickles",
+    "cookTime": "15 minutes",
+    "recipeIngredient": [
+        "1 (1-inch) piece ginger, peeled, thinly sliced legthwise",
+        "4 garlic cloves, halved",
+        "2 cups white wine vinegar",
+        "1/2 cup sugar",
+        "2 tablespoons kosher salt",
+        "2 teaspoons coriander seeds",
+        "10 Persian cucumbers, quartered",
+        "12 sprigs dill"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Bring ginger, garlic, vinegar, sugar, salt, coriander seeds, and 2 cups water to a boil in a medium pot over high heat, stirring occasionally. Reduce heat to medium-low and simmer 10 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place cucumbers and dill in a heatproof resealable container or jar (divide among several containers if necessary). Pour hot brining liquid over cucumbers and dill. Let cool to room temperature, then cover and chill at least 2 hours before serving."
+        }
+    ],
+    "totalTime": "25 minutes, plus cooling time",
+    "recipeYield": "8 cups",
+    "url": "https://www.epicurious.com/recipes/food/views/ginger-dill-pickles-56389773",
+    "dateModified": "2015-06-25T00:00:00.000-04:00",
+    "datePublished": "2015-06-25T00:00:00.000-04:00",
+    "recipeCategory": []
+}

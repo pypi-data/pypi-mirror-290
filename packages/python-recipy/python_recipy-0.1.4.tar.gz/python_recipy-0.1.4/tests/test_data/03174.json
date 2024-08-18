@@ -1,0 +1,103 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "These cupcakes, slathered with rich peanut butter frosting, are like a banana bread recipe gone, well, bananas.",
+    "alternativeHeadline": "These cupcakes, slathered with rich peanut butter frosting, are like a banana bread recipe gone, well, bananas.",
+    "keywords": [
+        "cupcake",
+        "dessert",
+        "banana",
+        "peanut butter",
+        "cream cheese",
+        "easy",
+        "baking",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Matt Lewis",
+            "sameAs": "https://www.bonappetit.com/contributor/matt-lewis"
+        },
+        {
+            "@type": "Person",
+            "name": "Renato Poliafito",
+            "sameAs": "https://www.bonappetit.com/contributor/renato-poliafito"
+        },
+        {
+            "@type": "Person",
+            "name": "Stephen Lewis",
+            "sameAs": "https://www.bonappetit.com/contributor/stephen-lewis"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 32
+    },
+    "description": "These cupcakes, slathered with rich peanut butter frosting, are like a banana bread recipe gone, well, bananas.",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b008c0f1c801a1038bd629/master/w_484,h_344,c_limit/mare_banana_cupcakes_with_peanut_butter_frosting_h.jpg"
+    ],
+    "headline": "Banana Cupcakes With Peanut Butter Frosting",
+    "name": "Banana Cupcakes With Peanut Butter Frosting",
+    "recipeIngredient": [
+        "1 1/4 cups all purpose flour",
+        "1 1/2 teaspoons baking powder",
+        "1/2 teaspoon baking soda",
+        "1/4 teaspoon salt",
+        "2 very ripe large bananas, peeled",
+        "1/2 cup sour cream",
+        "1 1/2 teaspoons vanilla extract",
+        "3/4 cup sugar",
+        "1/2 cup (1 stick) unsalted butter, room temperature",
+        "1 large egg",
+        "1 large egg yolk",
+        "1 1/2 cups powdered sugar",
+        "1 8-ounce package cream cheese, room temperature",
+        "1/2 cup (1 stick) unsalted butter, room temperature",
+        "1/2 cup smooth peanut butter (do not use old-fashioned or freshly ground)",
+        "Chopped lightly salted roasted peanuts (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Position rack in center of oven and preheat to 350°F. Line 12 standard (1/3-cup) muffin cups with paper liners. Whisk flour, baking powder, baking soda, and salt in medium bowl to blend. Mash bananas with fork in another medium bowl until smooth. Mix sour cream and vanilla into bananas."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using electric mixer, beat sugar and butter in large bowl until light and fluffy, about 3 minutes. Add egg and egg yolk and beat until well blended. Add flour mixture in 3 additions alternately with banana-sour cream mixture in 2 additions, beginning and ending with flour mixture and beating just until blended after each addition. Divide batter among prepared muffin cups (generous 1/4 cup for each)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake cupcakes until tester inserted into center of each comes out clean, about 20 minutes. Transfer cupcakes to rack and let cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Sift powdered sugar into large bowl. Add cream cheese, butter, and peanut butter. Using electric mixer, beat mixture until smooth. Spread frosting over top of cupcakes, dividing equally. Sprinkle lightly with chopped peanuts, if desired. DO AHEAD Can be made 1 day ahead. Store airtight at room temperature."
+        }
+    ],
+    "recipeYield": "Makes 12  Servings",
+    "url": "https://www.bonappetit.com/recipe/banana-cupcakes-with-peanut-butter-frosting",
+    "dateModified": "2010-02-21T19:00:00.000-05:00",
+    "datePublished": "2010-02-21T19:00:00.000-05:00",
+    "recipeCategory": []
+}

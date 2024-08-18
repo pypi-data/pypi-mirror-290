@@ -1,0 +1,416 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024499-rice-pudding#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024499-rice-pudding",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/10/20/multimedia/ND-Rice-Pudding-kbft/ND-Rice-Pudding-kbft-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024499-rice-pudding",
+    "name": "Rice Pudding",
+    "description": "The size and quality of the rice matters in this classic pudding: A medium-grain rice is starchy enough to thicken it, but it won’t soften so much that it completely disintegrates. Using a 2-quart saucepan is also important. If the pan is larger or wider, the liquid will evaporate faster than the rice cooks. If you prefer a looser pudding, or plan on serving it cold (it thickens as it sits), remove it from the heat as soon as the rice softens; or cook it a bit longer if you like a thicker pudding. For an extra-rich dessert, stir in egg yolks and butter, or further elevate it by adding some rum-soaked raisins.",
+    "author": {
+        "@type": "Person",
+        "name": "Naz Deravian"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/10/20/multimedia/ND-Rice-Pudding-kbft/ND-Rice-Pudding-kbft-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/20/multimedia/ND-Rice-Pudding-kbft/ND-Rice-Pudding-kbft-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/20/multimedia/ND-Rice-Pudding-kbft/ND-Rice-Pudding-kbft-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/10/20/multimedia/ND-Rice-Pudding-kbft/ND-Rice-Pudding-kbft-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT50M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "cinnamon stick, egg yolk, make-ahead, milk, rice, stovetop, gluten-free",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 424
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 353,
+        "unsaturatedFatContent": "5 grams",
+        "carbohydrateContent": "54 grams",
+        "cholesterolContent": null,
+        "fatContent": "12 grams",
+        "fiberContent": "2 grams",
+        "proteinContent": "7 grams",
+        "saturatedFatContent": "7 grams",
+        "sodiumContent": "297 milligrams",
+        "sugarContent": "32 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1/2 cup Calrose, or other medium-grain rice, rinsed and drained",
+        "1/2 teaspoon kosher salt (such as Diamond Crystal)",
+        "2 cups whole milk (see Tip)",
+        "1/3 cup/70 grams granulated sugar ",
+        "1 (2-inch) cinnamon stick",
+        "1 vanilla bean, scraped, or 1/2 teaspoon vanilla extract ",
+        "2 large egg yolks (optional)",
+        "2 tablespoons unsalted butter, quartered, softened (optional)",
+        "1/3 cup raisins, regular or golden (optional)",
+        "Ground cinnamon, for serving (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a 2-quart saucepan, combine the rice, 2 cups water and salt over high heat. Bring to a boil, then reduce heat to medium and cook uncovered, stirring frequently, until the rice softens, releases its starches and most of the water is absorbed, about 15 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the milk, sugar, cinnamon stick and vanilla bean seeds (if using vanilla extract, add that in Step 3 instead). Cook uncovered, stirring frequently, until the mixture comes to a lively simmer, about 7 minutes. (Keep an eye on the milk so it doesn’t boil over.) Reduce heat to medium-low and continue to cook, stirring continuously to make sure nothing scorches on the bottom or sides of the pot, until the pudding starts to thicken, and the rice is soft but not mushy, about 15 minutes. (For a looser pudding or if it will be served cold, remove from the heat. For a thicker pudding, continue cooking, stirring constantly, until it reaches the desired consistency, up to 5 minutes more.)"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Off the heat, remove the cinnamon stick. Rapidly stir in the egg yolks, butter and vanilla extract, if using. (The egg yolks will cook with the heat from the pudding.) Stir in the raisins, if using. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the pudding to a large serving bowl or 4 small individual bowls. Sprinkle with cinnamon and let cool for 5 minutes. Serve, or cover with plastic wrap and refrigerate until chilled, about 4 hours. The rice pudding will keep covered in the fridge for up to 5 days. "
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-10-20T00:00:00.000Z",
+    "dateModified": "2023-10-20T19:27:03.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Wendy"
+            },
+            "reviewBody": "My Nana made rice pudding for us when we weren’t feeling well as children, hence it is such comfort food. So simple and delicious, as written. For me, no eggs needed. This is the best rice pudding! I will be making this recipe from now on. Thank you, Naz Deravian!",
+            "datePublished": "2024-04-02T02:03:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lauren"
+            },
+            "reviewBody": "I like a thick pudding and had cooked it to be so, but when I added the butter and eggs it made it runny. Any idea why? Otherwise, it’s delicious!",
+            "datePublished": "2024-03-31T03:05:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jenn"
+            },
+            "reviewBody": "I don't have cinnamon sticks,how much powdered cinnamon should I use?",
+            "datePublished": "2024-02-27T16:26:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DG"
+            },
+            "reviewBody": "Turned out well but since I don't have a 2 qt pot (only have a 1.5 or 2.5) went with the 1.5 based on another OP review. Pudding took a really really long time to thicken, the 7 minute phase never really got to a good simmer until the very end - the 15 minutes on med/low was more like 20 . I will try the 2.5 next time. Trying not to buy another pot! Used Italian Arborio rice & no egg or butter. Yummy!",
+            "datePublished": "2024-01-24T23:01:50.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brian B."
+            },
+            "reviewBody": "This is a delicious quick easy recipe for one of my favorite treats! I doubled the recipe to make extra servings.",
+            "datePublished": "2024-01-19T20:45:39.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dan"
+            },
+            "reviewBody": "Made with coconut milk, about 1 tsp cardamom instead of cinnamon and no raisins.  Turned out great.  Got 6 nice size servings, not 4.  Served with toasted pistachios on top.  You have to be committed to the process as you really need to stir almost constantly,  particularly once milk is added.  No one's going to be blown away by humble rice pudding, but this is very nice.",
+            "datePublished": "2024-01-14T04:23:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bahia"
+            },
+            "reviewBody": "Used 1/4 cup of sugar. Found 1/3 cup to be too sweet for our taste. Added a splash of heavy cream when I added the milk. It makes it slightly richer.",
+            "datePublished": "2024-01-08T22:07:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jesse"
+            },
+            "reviewBody": "Surprised this isn’t five stars. I made it as directed and skipped all the optional ingredients. Best rice pudding I’ve had. Great texture and not overly sweet. I have a Mexican mother in law that makes her arroz con leche and it’s good but this is definitely better (I won’t tell her that)",
+            "datePublished": "2023-12-26T00:19:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Suzanne"
+            },
+            "reviewBody": "This is a classic rice pudding.  Reminds me of the pudding my mom made for us 50 years ago. Total childhood comfort food.  I have made twice and followed the recipe to the letter (skipped egg yolks however).  It turned out perfectly both times. I like a firmer pudding so cooked for the extra 5 minutes Stirring continuously is key. Turn your back for a minute and it will boil over or scorch. But worth 20 minutes of stirring.",
+            "datePublished": "2023-12-25T18:03:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "K.Bunny"
+            },
+            "reviewBody": "It’s nice that it’s not overly sweet, but I would actually prefer it just a little sweeter. Might use a half cup sugar next time. I used nondairy milk so maybe something to do with lacking the lactose.",
+            "datePublished": "2023-12-21T00:26:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laurig"
+            },
+            "reviewBody": "A common dessert in our Armenian home. Yummm!",
+            "datePublished": "2023-12-10T01:08:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Valerie Meluskey"
+            },
+            "reviewBody": "Simply follow the directions and the pudding comes out beautifully. I used Lakanto (monk fruit granulated--looks like and tastes like sugar but has no calories or anything unhealthy in it) instead of sugar. Other than that change, I used organic whole milk, purified water, part of a real vanilla bean sliced open, and stirred away. I love how the cinnamon stick excretes some brown liquid when removed at the end. To make the raisins more interesting, I soaked them in a little rum.",
+            "datePublished": "2023-12-08T17:49:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "michele"
+            },
+            "reviewBody": "I used Chobani extra creamy oak milk and it is delish!!",
+            "datePublished": "2023-12-05T13:04:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sara"
+            },
+            "reviewBody": "The directions should caution against adding the egg yolks directly into the hot rice mixture, as they cook too quickly. (I ended up with boiled eggs!) The milk/rice should be incorporated into the eggs a little at a time first to warm them.",
+            "datePublished": "2023-12-05T01:54:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Buff"
+            },
+            "reviewBody": "I prefer the Instant Pot version. Delicious and a lot easier.",
+            "datePublished": "2023-12-04T19:20:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rice Gurl"
+            },
+            "reviewBody": "Am I reading this right?…\n1/2 c rice\n2 cups water\n2 cups milk\n\nIt’s seems like waaaay too much liquid. \nAm I missing a step?",
+            "datePublished": "2023-10-25T12:32:30.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bets"
+            },
+            "reviewBody": "Cardamom",
+            "datePublished": "2023-10-25T10:41:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Greg"
+            },
+            "reviewBody": "The absolute best rice pudding I've eaten and now subsequently make uses goat milk. It takes rice pudding to a whole new level. Similar to the recipe in this article minus the raisins.",
+            "datePublished": "2023-10-23T23:10:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Blah"
+            },
+            "reviewBody": "Is it possible to use a medium grain brown rice in this recipe.",
+            "datePublished": "2023-10-24T02:44:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maggie B"
+            },
+            "reviewBody": "I make this with Arborio rice which is has small grains and seems quite starchy.  I also use all milk to cook the rice as I make it for my grand kids when they feel out of sorts.  Feels like it has a bit more nutrition that way.  And I always serve it warmed.  It has an old world sort of simplicity and wholesomeness that my whole family enjoys.",
+            "datePublished": "2023-10-27T23:28:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Rose"
+            },
+            "reviewBody": "Thank you cardamom commenter! Try some other baking spice flavorant! There’s mace, or allspice!  Also nutmeg and ginger and way more beyond cinnamon!",
+            "datePublished": "2023-10-25T12:24:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John M."
+            },
+            "reviewBody": "The 2 cups of water are used in cooking the rice and will be mostly absorbed by the rice.",
+            "datePublished": "2023-10-27T17:10:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "alacarte"
+            },
+            "reviewBody": "I made this using honey instead of sugar, 1 cup heavy cream and 1 cup almond milk...skipped the eggs and added butter. Didn't have raisins or vanilla on hand. Still came out very well!",
+            "datePublished": "2023-10-25T02:21:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Peter"
+            },
+            "reviewBody": "I use a Dutch oven to prepare (oven safe), then after bringing it to the initial boil, I put it in a low temperature oven (250 or so) covered, and stir occasionally until done.   Avoids the need for constant stirring required on the stovetop required to prevent scalding the milk.  (I use this same approach to make polenta).",
+            "datePublished": "2023-11-16T14:53:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Gardenmaven"
+            },
+            "reviewBody": "Growing up in England, right after WWII, my mother always liberally sprinkled hand-grated nutmeg on the top of the pudding. It created a delicious \"skin\" which I always thought was the best part of the pud!",
+            "datePublished": "2023-11-05T12:19:32.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Óscar ZA"
+            },
+            "reviewBody": "The milk should be cooking with the cinnamon stick, sugar and lemon peel removing it before it boils",
+            "datePublished": "2023-10-25T05:53:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Laura Giles"
+            },
+            "reviewBody": "How does the goat milk change it?  thanks!",
+            "datePublished": "2023-10-24T23:39:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Chris Litka"
+            },
+            "reviewBody": "I used to make this for my kids who are now in their 40’s. Used 1 cup rice, one quart of mils in a double boiler. No need to stand and stir. Takes longer but easier. Of course add sugar and vanilla extract.  Do they even make double boilers anymore? Mine is a Far reward.",
+            "datePublished": "2023-11-08T15:46:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "HASntder"
+            },
+            "reviewBody": "Adding a cup of finely chopped dates might do it, though they of course have their own sugars.",
+            "datePublished": "2023-10-25T16:30:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ellen Tabor"
+            },
+            "reviewBody": "Trader Joe's sells it...\n\nIt's not like basmati, which is way less starchy and has a more perfumy flavor.. Calrose cooks up creamy, much like arborio (risotto rice).",
+            "datePublished": "2023-11-16T00:55:17.000Z"
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Vanessa&#39;s Make-Ahead Beefy Lasagna",
+    "datePublished": "2019-01-09T15:03:26.000-05:00",
+    "dateModified": "2019-01-09T15:03:26.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Southern Living Test Kitchen",
+            "url": "https://www.southernliving.com/author/the-sl-test-kitchen"
+        }
+    ],
+    "description": "A container of refrigerated pesto adds distinctive flavor to this basic beef-and-cheese lasagna, and the unbaked lasagna can be frozen for up to three months.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.southernliving.com/thmb/qN3nVdaZZVVsQgPPAmaoP4Rt1VA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/make-ahead-lasagna-sl-x-ad7ea8f9c03b4287b24750a31d3f92a0.jpg",
+        "height": 420,
+        "width": 420
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Southern Living",
+        "url": "https://www.southernliving.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.southernliving.com/thmb/ESKPvTBAXaIuvqPKIXBHM-S4bSM=/640x111/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema3-99a42e67d7c7496cacfce4cde9c2e6b9.jpg",
+            "width": 640,
+            "height": 111
+        },
+        "brand": "Southern Living",
+        "publishingPrinciples": "https://www.southernliving.com/about-us-6502349#toc-editorial-guidelines",
+        "sameAs": [
+            "https://flipboard.com/@SouthernLiving",
+            "https://en.wikipedia.org/wiki/Southern_Living",
+            "https://twitter.com/Southern_Living",
+            "https://www.facebook.com/SouthernLiving/",
+            "https://www.pinterest.com/southernliving/",
+            "https://www.instagram.com/southernlivingmag/",
+            "https://www.tiktok.com/@southern_living",
+            "https://www.youtube.com/c/southernliving/videos",
+            "https://story.snapchat.com/p/85847aa5-d631-4e75-aa2e-1fb944d94d8a/17778013032448"
+        ]
+    },
+    "name": "Vanessa&#39;s Make-Ahead Beefy Lasagna",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American",
+        "Italian"
+    ],
+    "recipeIngredient": [
+        "12 uncooked lasagna noodles",
+        "1 (24-oz.) container 4% small-curd smooth-and-creamy cottage cheese",
+        "1 (16-oz.) container ricotta cheese",
+        "2 large eggs, lightly beaten",
+        "1/2 cup refrigerated pesto",
+        "1 teaspoon salt",
+        "2 1/2 cups (10 oz.) shredded mozzarella cheese, divided",
+        "1 pound lean ground beef",
+        "1/2 cup finely chopped onion",
+        "2 (24-oz.) jars tomato-and-basil pasta sauce"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375°. Prepare noodles according to package directions."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, stir together cottage cheese and next 4 ingredients. Stir in 1 cup mozzarella cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cook ground beef and onion in a large skillet over medium-high heat, stirring often, 6 to 7 minutes or until meat crumbles and is no longer pink; drain. Stir in pasta sauce."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Layer 1 cup beef mixture, 3 noodles, and 2 1/2 cups cottage cheese mixture in a lightly greased 13- x 9-inch baking dish. Top with 3 noodles, 2 cups beef mixture, and 3 more noodles. Top with remaining cottage cheese mixture, 3 noodles, and beef mixture. Sprinkle with remaining 1 1/2 cups mozzarella cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bake, covered, at 375° for 40 to 45 minutes. Uncover and bake 20 minutes or until cheese is browned. Let stand 10 to 15 minutes before serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Note: Freeze unbaked lasagna up to 3 months. To bake, thaw in refrigerator 24 hours. Let stand 30 minutes; bake as directed. We tested with Classico Di Napoli Tomato &amp; Basil Pasta Sauce and both LeGrand Garden Pesto and Buitoni Reduced Fat Pesto with Basil."
+        }
+    ],
+    "totalTime": "PT95M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Southern Living Member"
+            },
+            "reviewBody": "Delicious and easy",
+            "datePublished": "2024-01-06T23:09:59.205Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.southernliving.com/recipes/vanessas-make-ahead-beefy-lasagna",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.southernliving.com/food",
+                        "name": "Food and Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes",
+                        "name": "Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.southernliving.com/recipes/vanessas-make-ahead-beefy-lasagna",
+                        "name": "Vanessa&#39;s Make-Ahead Beefy Lasagna"
+                    }
+                }
+            ]
+        }
+    }
+}

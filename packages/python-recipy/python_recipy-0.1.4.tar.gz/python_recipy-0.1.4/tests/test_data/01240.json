@@ -1,0 +1,90 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Garlic Spaghetti Squash with Herbs",
+    "description": "This Garlic Spaghetti Squash with Herbs includes a handful of toasted pine nuts and grated Gruyere cheese. Perfect light dish! Yummo!",
+    "author": {
+        "@type": "Person",
+        "name": "Lindsay Ostrom",
+        "url": "https://pinchofyum.com/about"
+    },
+    "keywords": "garlic spaghetti squash, spaghetti squash recipe, garlic herb spaghetti squash",
+    "image": [
+        "https://pinchofyum.com/wp-content/uploads/spaghetti-squash-on-plate-square-225x225.jpg",
+        "https://pinchofyum.com/wp-content/uploads/spaghetti-squash-on-plate-square-260x195.jpg",
+        "https://pinchofyum.com/wp-content/uploads/spaghetti-squash-on-plate-square-320x180.jpg",
+        "https://pinchofyum.com/wp-content/uploads/spaghetti-squash-on-plate-square.jpg"
+    ],
+    "url": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs",
+    "recipeIngredient": [
+        "1 medium spaghetti squash, halved and seeded",
+        "olive oil",
+        "kosher salt",
+        "2 cloves garlic, minced",
+        "2 teaspoons white wine vinegar",
+        "1/4 cup minced fresh parsley",
+        "2 tablespoons minced fresh basil (sage is also yummy)",
+        "3/4 cup shredded Gruyère cheese",
+        "1/2 cup pine nuts, toasted",
+        "black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 375 degrees. Rub squash with a little bit of olive oil and sprinkle with salt. Place the cut side down on a rimmed baking sheet and roast for 25 minutes, until fork tender. Let cool about 10 minutes, then scrape the insides with a fork to pull the strands away from the skin. (At this point I put the strands in a colander, pressed them with a paper towel, and let them rest while I prepped the other ingredients &#8211; mine were really really heavy and watery, so this helped get some of the excess moisture out.)",
+            "url": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs#instruction-step-1"
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large skillet, heat 2 1/2 tablespoons olive oil over medium heat. Add garlic and cook for 1 1/2 minutes, until fragrant. Stir in spaghetti squash, vinegar, herbs, and 1/4 teaspoon salt. Cook for about 2 minutes to heat through. Remove from heat and stir in Gruyère cheese, then top with pine nuts. Taste and add salt or pepper if desired.",
+            "url": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs#instruction-step-2"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT45M",
+    "totalTime": "PT1H",
+    "recipeYield": [
+        "2",
+        "2 as a main, 4 as a side"
+    ],
+    "recipeCategory": [],
+    "recipeCuisine": "American",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "reviewCount": "21",
+        "ratingValue": "4.6"
+    },
+    "nutrition": {
+        "servingSize": null,
+        "calories": "271 calories",
+        "sugarContent": "4.2 g",
+        "sodiumContent": "750.2 mg",
+        "fatContent": "22.4 g",
+        "saturatedFatContent": "5.3 g",
+        "transFatContent": "0 g",
+        "carbohydrateContent": "11.8 g",
+        "fiberContent": "2.7 g",
+        "proteinContent": "9.4 g",
+        "cholesterolContent": "22.3 mg",
+        "@type": "nutritionInformation"
+    },
+    "video": {
+        "@context": "http://schema.org",
+        "@type": "VideoObject",
+        "name": "Floors, Walls, and an Awkward Pause • Kitchen Remodel Update #4",
+        "description": "We finally have floors and walls in the kitchen! We're almost there (er, wait...I guess we still have a lot to do). | http://pinchofyum.com/ | https://www.facebook.com/pinchofyum | https://twitter.com/pinchofyum",
+        "duration": "PT1M",
+        "embedUrl": "https://www.youtube.com/embed/uI7Utk4krQE?feature=oembed",
+        "contentUrl": "https://www.youtube.com/watch?v=uI7Utk4krQE",
+        "thumbnailUrl": [
+            "https://i.ytimg.com/vi/uI7Utk4krQE/hqdefault.jpg"
+        ],
+        "uploadDate": "2014-10-16T22:47:01+00:00"
+    },
+    "datePublished": "2014-10-17",
+    "@id": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs#recipe",
+    "isPartOf": {
+        "@id": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs#article"
+    },
+    "mainEntityOfPage": "https://pinchofyum.com/garlic-spaghetti-squash-with-herbs"
+}

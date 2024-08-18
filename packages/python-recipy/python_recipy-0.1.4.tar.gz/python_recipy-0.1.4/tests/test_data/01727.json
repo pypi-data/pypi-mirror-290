@@ -1,0 +1,117 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Sausage, Clam and Calamari Saute",
+    "url": "https://www.foodnetwork.com/recipes/sausage-clam-and-calamari-saute-5538381",
+    "headline": "Sausage, Clam and Calamari Saute",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/12/20/0/DVSP82_Sausage-Clam-and-Calamari-Saute_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1545325049836.jpeg",
+            "height": "1280",
+            "width": "1280",
+            "description": "The Clam, Sausage and Calamari Saute as Served at Catelli's Restaurant in Geyserville, California, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/12/20/0/DVSP82_Sausage-Clam-and-Calamari-Saute_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1545325049836.jpeg",
+            "height": "960",
+            "width": "1280",
+            "description": "The Clam, Sausage and Calamari Saute as Served at Catelli's Restaurant in Geyserville, California, as seen on DDD Nation, Special."
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/12/20/0/DVSP82_Sausage-Clam-and-Calamari-Saute_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1545325049836.jpeg",
+            "height": "720",
+            "width": "1280",
+            "description": "The Clam, Sausage and Calamari Saute as Served at Catelli's Restaurant in Geyserville, California, as seen on DDD Nation, Special."
+        }
+    ],
+    "datePublished": "2019-01-02T10:09:20.675-05:00",
+    "dateModified": "2019-01-02T10:09:20.331-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Clam Recipes,Shellfish Recipes,Sausage Recipes,Squid Recipes,Sauteing Recipes,Gluten Free",
+    "cookTime": "P0Y0M0DT0H20M0.000S",
+    "totalTime": "P0Y0M0DT0H20M0.000S",
+    "recipeIngredient": [
+        "Extra-virgin olive oil, for cooking",
+        "1 cup ground spicy sausage ",
+        "1 pound small fresh clams in their shells ",
+        "1/4 cup white wine ",
+        "1 tablespoon liquid aminos, preferably Bragg ",
+        "2 cups favorite jarred tomato sauce",
+        "1 cup fresh calamari, full tentacles and bodies cut into 1/2-inch rings ",
+        "1 tablespoon chopped fresh parsley "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "547",
+        "fatContent": "45g",
+        "saturatedFatContent": "7g",
+        "carbohydrateContent": "12g",
+        "fiberContent": "2g",
+        "sugarContent": "5g",
+        "proteinContent": "22g",
+        "cholesterolContent": "88mg",
+        "sodiumContent": "1320mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat a large skillet, preferably cast-iron, and coat the bottom with olive oil. Add sausage and cook, breaking up with a wooden spoon, until fully cooked. Add the clams, white wine and aminos and let simmer for a few minutes. Add tomato sauce and cook until clams open, then add the calamari. Cook for another few minutes and finish with parsley."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "2 to 4 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "EstherD"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I really liked the flavors.  And come to know that calamari is full of nutrients, I will make this an essential dish on my go to list of favorites."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BOB T."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Quick easy and delicious. Great balance of flavors."
+        }
+    ],
+    "recipeCategory": []
+}

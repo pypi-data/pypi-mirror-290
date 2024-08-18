@@ -1,0 +1,137 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Chicken Parmesan",
+    "datePublished": "2014-07-30T09:39:48.000-04:00",
+    "dateModified": "2021-03-19T14:28:52.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This easy recipe for chicken parmesan will be an instant classic.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/EJ9YuA6XqU_IH7xFwU8Hr1VG9Yw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-cutlets-182-d111230_horiz-f4917cb9d1a64b00be4f60bb8299b0e4.jpgitokCD8z4rmD",
+        "height": 422,
+        "width": 750
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/pthREMxZ-zqASzng0.mp4",
+        "description": "Sarah Carey makes crunchy and delicious make ahead Breaded Chicken Cutlets that you can freeze and have at the ready for any weeknight meal. Using the cutlets Sarah builds a fully loaded Chicken Sandwich with melted cheese, crisp lettuce and savory bacon that is quick to make and incredibly delicious.",
+        "duration": "PT4M6S",
+        "name": "Make Ahead Freezer Cutlets For Your Chicken Sandwich",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/pthREMxZ/poster.jpg?width=720",
+        "uploadDate": "2021-03-06T17:08:33.245-05:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Chicken Parmesan",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.5",
+        "ratingCount": "65"
+    },
+    "keywords": "chicken parmesan, Broil, Chicken cutlets, Dinner, Italian-American, Main course, Mozzarella",
+    "recipeIngredient": [
+        "6 baked Breaded Chicken Cutlets",
+        "12 fresh basil leaves, plus more for serving (optional)",
+        "1.5 cups homemade or store-bought tomato sauce",
+        "1.25 cups grated mozzarella",
+        "Finely grated Parmesan, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.marthastewart.com/thmb/EJ9YuA6XqU_IH7xFwU8Hr1VG9Yw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-cutlets-182-d111230_horiz-f4917cb9d1a64b00be4f60bb8299b0e4.jpgitokCD8z4rmD"
+                }
+            ],
+            "text": "Preheat broiler with rack 4 inches from heat source. Top each cutlet with basil leaves, sauce, and mozzarella, dividing evenly. Broil until cheese is melted, 2 minutes. Top with Parmesan and more basil; serve."
+        }
+    ],
+    "recipeYield": [
+        "6"
+    ],
+    "totalTime": "PT0M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Martha Stewart Member"
+            },
+            "reviewBody": "Why is not in the book I shouldn't have to look it up online if it was in the book if u are going to have a show and a book they should match up if its on the show it should be in the book too",
+            "datePublished": "2015-05-27T03:19:09.000Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/1079675/chicken-parmesan",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504489/chicken-recipes",
+                        "name": "Chicken"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1504436/chicken-breast-recipes",
+                        "name": "Chicken Breast Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1079675/chicken-parmesan",
+                        "name": "Chicken Parmesan"
+                    }
+                }
+            ]
+        }
+    }
+}

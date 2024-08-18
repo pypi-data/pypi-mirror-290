@@ -1,0 +1,100 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Meatball Parmesan Sub",
+    "url": "https://www.foodnetwork.com/recipes/meatball-parmesan-sub-recipe-2108396",
+    "headline": "Meatball Parmesan Sub",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:59:56.116-05:00",
+    "dateModified": "2014-01-09T17:14:35.796-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Sandwich,Meatballs,Meat,Cheese,Mozzarella Recipes,Main Dish",
+    "cookTime": "P0Y0M0DT0H10M0.000S",
+    "prepTime": "P0Y0M0DT0H5M0.000S",
+    "totalTime": "P0Y0M0DT0H15M0.000S",
+    "recipeIngredient": [
+        "Three 3-ounce meatballs, homemade or store bought",
+        "One 12-inch sub roll",
+        "3 ounces red sauce",
+        "2 ounces whole milk mozzarella, shredded",
+        "1 ounce grated Parmesan",
+        "1/4 ounce dried oregano"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 450 degrees F. Cut the meatballs in half and place in the oven. Bake until the meatballs are warmed, 3 to 4 minutes. Cut the roll horizontally (careful not to cut all the way through.) Place the warmed meatballs on one side of the roll. Spread the sauce evenly over the meatballs and the other side of the roll. Spread the mozzarella over the meatballs. Spread the Parmesan over the other side of the roll. Sprinkle the oregano over the entire roll. Place the sub in the oven and bake until the cheeses are melted and the edges of the roll are browned, 2 to 3 minutes."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "One 12-inch sub",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "James N."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "At first I wasn't sure if I could handle this recipe.  I'm just a newbie and this is quite a stretch.  But I struggled thru it and everyone at the shelter loved it.  Thanks Guy!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Absolutely awesome.  Chris is a fantastic chef.  Love this show.  Thanks for sharing. Love the Buffalo &amp; Italian flair.  Congrats and I hope I get here SOON!"
+        }
+    ],
+    "recipeCategory": []
+}

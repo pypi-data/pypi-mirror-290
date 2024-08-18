@@ -1,0 +1,98 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "The tomato jam makes this sandwich: Its honey and vinegar give it sweetness and bite! —Elliot",
+    "alternativeHeadline": "The tomato jam makes this sandwich: Its honey and vinegar give it sweetness and bite! —Elliot",
+    "keywords": [
+        "sandwich",
+        "condiment",
+        "jam",
+        "tomato",
+        "prosciutto",
+        "cheddar",
+        "main",
+        "lunch",
+        "nut free",
+        "make ahead",
+        "weeknight meals",
+        "easy",
+        "saute",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/54af34394074bdfd06836062/6:4/w_980,h_653,c_limit/51183600_tomato-prosciutto-grilled-cheese_1x1.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Graham Elliot",
+            "sameAs": "https://www.epicurious.com/contributor/graham-elliot"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3.8,
+        "ratingCount": 4
+    },
+    "description": "The tomato jam makes this sandwich: Its honey and vinegar give it sweetness and bite! —Elliot",
+    "image": [
+        "https://assets.epicurious.com/photos/54af34394074bdfd06836062/16:9/w_975,h_548,c_limit/51183600_tomato-prosciutto-grilled-cheese_1x1.jpg",
+        "https://assets.epicurious.com/photos/54af34394074bdfd06836062/1:1/w_983,h_983,c_limit/51183600_tomato-prosciutto-grilled-cheese_1x1.jpg",
+        "https://assets.epicurious.com/photos/54af34394074bdfd06836062/4:3/w_979,h_734,c_limit/51183600_tomato-prosciutto-grilled-cheese_1x1.jpg"
+    ],
+    "headline": "Tomato-Prosciutto Grilled Cheese",
+    "name": "Tomato-Prosciutto Grilled Cheese",
+    "recipeIngredient": [
+        "1/2 canned San Marzano tomato, diced",
+        "1/8 cup chopped red onion",
+        "1/2 garlic clove, minced",
+        "1 tablespoon red wine vinegar",
+        "1/2 teaspoon honey",
+        "8 pieces whole-grain bread",
+        "2 cups shredded lowfat cheddar, divided",
+        "8 slices prosciutto",
+        "4 tablespoons olive oil, divided"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 350°F. In a small pot over medium heat, cook tomato, onion and garlic until tomato breaks down and resembles jam, 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add vinegar and honey; cook until jam thickens, 15 minutes. Season with salt and black pepper; remove from heat."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "On a cookie sheet, arrange bread in a single layer. Top each slice with 1/4 cup cheese and 1 slice prosciutto; bake until cheese melts, 3 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Divide tomato jam among 4 sandwich halves; top with remaining sandwich halves."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a medium skillet over medium heat, heat 1 tablespoon oil. Cook one sandwich, flipping once, 3 minutes per side. Repeat with remaining oil and sandwiches."
+        }
+    ],
+    "recipeYield": "Makes 4 servings",
+    "url": "https://www.epicurious.com/recipes/food/views/tomato-prosciutto-grilled-cheese-51183600",
+    "dateModified": "2013-07-24T00:00:00.000-04:00",
+    "datePublished": "2013-07-24T00:00:00.000-04:00",
+    "recipeCategory": []
+}

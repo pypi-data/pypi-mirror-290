@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Mussel Toasts with Pickled-Carrot-and-Coriander Butter",
+    "datePublished": "2014-02-10T15:07:51.000-05:00",
+    "dateModified": "2014-03-01T15:07:51.000-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Viet Pham",
+            "url": "https://www.foodandwine.com/viet-pham-8413218"
+        }
+    ],
+    "description": "These luscious toasts feature steamed mussels on country bread crisps that are spread with aromatic pickled-carrot butter.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/jB-02TAmXFhutUeH7eHLR0NCp2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201403-xl-mussel-toasts-with-pickled-carrot-and-coriander-butter-518433df3a1149998ec4c41c14584b1d.jpg",
+        "height": 1269,
+        "width": 1269
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Mussel Toasts with Pickled-Carrot-and-Coriander Butter",
+    "recipeIngredient": [
+        "1/4 teaspoon coriander seeds",
+        "1/4 cup apple cider vinegar",
+        "1/4 cup sugar",
+        "1/2 teaspoon kosher salt",
+        "1 medium carrot, very thinly sliced",
+        "1 stick unsalted butter, at room temperature",
+        "1/4 cup cilantro leaves",
+        "24 large mussels, scrubbed and debearded",
+        "1 tablespoon extra-virgin olive oil",
+        "1 tablespoon minced chives",
+        "Six 2-by-3-inch rectangles of country bread, toasted",
+        "6 paper-thin slices of lardo (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepan, toast the coriander seeds over low heat until fragrant. Add the vinegar, sugar, salt and 1/4 cup of water and cook, stirring, until the sugar dissolves and the brine is warm. Stir in the carrot slices and let stand for 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Drain the carrot, reserving the pickling liquid. Transfer the carrot and 1 tablespoon of the pickling liquid to a blender. Add the butter and cilantro and puree. Pass the butter through a fine sieve into a bowl and season with salt."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a saucepan, bring 1 inch of water to a boil. Add the mussels, cover and cook just until they open. Drain and remove the mussels from their shells. In a bowl, toss the mussels with the olive oil and chives."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread some of the carrot butter on the toasts. Top with the mussels, drape the lardo on top and serve."
+        }
+    ],
+    "totalTime": "PT80M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/mussel-toasts-pickled-carrot-and-coriander-butter",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood",
+                        "name": "Seafood"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/seafood/shellfish",
+                        "name": "Shellfish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/mussel-toasts-pickled-carrot-and-coriander-butter",
+                        "name": "Mussel Toasts with Pickled-Carrot-and-Coriander Butter"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

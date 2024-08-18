@@ -1,0 +1,69 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Chicken Broccoli Alfredo",
+    "keywords": "chicken broccoli alfredo",
+    "recipeCategory": "Entree",
+    "image": "https://mojo.generalmills.com/api/public/content/wPtcoCzUnEmYCB3n101E7w_webp_base.webp?v=c26378e3&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "A creamy, comforting dinner that goes from stovetop to table in under an hour? Don’t mind if we do! Four of our favorite dinnertime ingredients come together in this chicken broccoli Alfredo pasta dish—versatile chicken breast, family-friendly broccoli, always-on-hand pasta and a homemade Alfredo sauce that comes together in a snap.",
+    "recipeIngredient": [
+        "  Fettuccine or other favorite pasta, cooked according to package directions",
+        "1  to 2 cups fresh chopped broccoli, cooked and hot",
+        "1/2  cup (1 stick) butter",
+        "1/2  teaspoon (1 clove) minced garlic",
+        "2  cups heavy cream",
+        "1/8  teaspoon garlic powder",
+        "1/8  teaspoon ground black pepper",
+        "1/4  cup freshly grated Parmesan cheese",
+        "2  to 3 cooked chicken breasts, diced"
+    ],
+    "totalTime": "PT0H35M",
+    "prepTime": "PT0H35M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "42",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Christy Denney"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook fettuccine according to package directions adding broccoli last 3 minutes, drain. Set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, melt butter in medium saucepan over medium heat. Add minced garlic with the butter. Add cream, garlic powder, and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Simmer, uncovered, for 10 to 12 minutes or until thick, stirring frequently. Trust me, it will thicken. When sauce has reached desired consistency, stir in Parmesan cheese."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add cooked chicken to Alfredo sauce and heat through. Serve over hot, cooked fettuccine and broccoli."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "670 ",
+        "carbohydrateContent": "5 g",
+        "cholesterolContent": "245 mg",
+        "fatContent": "11 ",
+        "fiberContent": "0 g",
+        "proteinContent": "22 g",
+        "saturatedFatContent": "38 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "280 mg",
+        "sugarContent": "4 g",
+        "transFatContent": "2 1/2 g"
+    },
+    "dateCreated": "01/07/2011",
+    "dateModified": "07/02/2019"
+}

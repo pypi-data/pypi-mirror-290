@@ -1,0 +1,88 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "articleBody": "You don't need an ice-cream maker to serve cool, creamy scoops. All you need is a bowl to make semifreddo happen.",
+    "alternativeHeadline": "You don't need an ice-cream maker to serve cool, creamy scoops. All you need is a bowl to make semifreddo happen.",
+    "keywords": [
+        "frozen dessert",
+        "strawberry",
+        "yogurt",
+        "gluten free",
+        "make ahead",
+        "bon appétit",
+        "web"
+    ],
+    "thumbnailUrl": "https://assets.epicurious.com/photos/555b5d46100d9bda6d81fe4b/3:2/w_1998,h_1332,c_limit/56389534_sweet-sour-strawberry-semifreddo_1x1.jpg",
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Epicurious",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.epicurious.com/verso/static/epicurious/assets/logo-seo.png",
+            "width": "488px",
+            "height": "100px"
+        },
+        "url": "https://www.epicurious.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Epicurious"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Claire Saffitz",
+            "sameAs": "https://www.epicurious.com/contributor/claire-saffitz"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.8,
+        "ratingCount": 5
+    },
+    "description": "You don't need an ice-cream maker to serve cool, creamy scoops. All you need is a bowl to make semifreddo happen.",
+    "image": [
+        "https://assets.epicurious.com/photos/555b5d46100d9bda6d81fe4b/16:9/w_2000,h_1125,c_limit/56389534_sweet-sour-strawberry-semifreddo_1x1.jpg",
+        "https://assets.epicurious.com/photos/555b5d46100d9bda6d81fe4b/4:3/w_1806,h_1354,c_limit/56389534_sweet-sour-strawberry-semifreddo_1x1.jpg",
+        "https://assets.epicurious.com/photos/555b5d46100d9bda6d81fe4b/1:1/w_1317,h_1317,c_limit/56389534_sweet-sour-strawberry-semifreddo_1x1.jpg"
+    ],
+    "headline": "Sweet and Sour Strawberry Semifreddo With Black Sesame",
+    "name": "Sweet and Sour Strawberry Semifreddo With Black Sesame",
+    "cookTime": "30 minutes",
+    "recipeIngredient": [
+        "1 pound strawberries, hulled, quartered",
+        "1/3 cup sugar",
+        "1 tablespoon white wine vinegar",
+        "3 tablespoons black sesame seeds",
+        "2 cups heavy cream",
+        "Pinch of kosher salt",
+        "2/3 cup sweetened condensed milk",
+        "1/2 cup plain whole-milk Greek yogurt"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Cook strawberries and sugar in a medium pot over medium heat, stirring occasionally, until strawberries have broken down into a thick, chunky jam (they should not be syrupy), 10–15 minutes. Stir in vinegar; let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, toast black sesame seeds in a dry small skillet over medium heat until fragrant, about 2 minutes. Let cool. Whip cream and salt until cream holds a medium-stiff peak. Gently whisk in sweetened condensed milk and yogurt until completely blended. Gently fold in half of strawberry jam, just enough to create streaks, then gently fold in remaining jam (mixture should look marbled with pockets of jam)."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Transfer to a medium bowl or loaf pan and freeze until firm, at least 4 hours and up to 3 days."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Serve semifreddo topped with toasted sesame seeds."
+        }
+    ],
+    "totalTime": "5 hours (includes chilling time)",
+    "recipeYield": "8 Servings",
+    "url": "https://www.bonappetit.com/recipe/sweet-and-sour-strawberry-semifreddo-with-black-sesame",
+    "dateModified": "2015-05-04T00:00:00.000-04:00",
+    "datePublished": "2015-05-04T00:00:00.000-04:00",
+    "recipeCategory": []
+}

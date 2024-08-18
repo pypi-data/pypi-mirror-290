@@ -1,0 +1,176 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Sous Vide Tacos de Lengua Recipe",
+    "datePublished": "2010-12-15T09:00:00.000-05:00",
+    "dateModified": "2019-03-26T13:42:39.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "Not only does cooking a tongue sous-vide make for complete set-it-and-forget-it ease (as it does with any braised or confit dish), it also creates a more flavorful finished product as the tongue slowly stews in its own juices.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/VEzjaLYrOve_XRaebsfhm5ptLl4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__20101207-tongue-tacos-de-lengua-primary-eba7780a90144d4c859850f3c2278b94.jpeg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Sous Vide Tacos de Lengua Recipe",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "5"
+    },
+    "keywords": "adobo, chipotle, cilantro, lengua, tongue, veal",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "524 kcal",
+        "carbohydrateContent": "34 g",
+        "cholesterolContent": "150 mg",
+        "fiberContent": "6 g",
+        "proteinContent": "26 g",
+        "saturatedFatContent": "10 g",
+        "sodiumContent": "283 mg",
+        "sugarContent": "2 g",
+        "fatContent": "32 g",
+        "servingSize": "4",
+        "unsaturatedFatContent": "0 g"
+    },
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "Mexican"
+    ],
+    "recipeIngredient": [
+        "1 cow or veal tongue, about 1 1/2 pounds",
+        "Kosher salt and freshly ground black pepper",
+        "6 stems cilantro",
+        "1 medium onion, split in half",
+        "1 roma tomato, split in half",
+        "2 tablespoons duck fat, pork fat, or canola oil",
+        "4 chipotle chilis in adobo sauce, plus 1 tablespoon sauce",
+        "1 lime",
+        "16 to 24 corn tortillas",
+        "chopped onions, scallions, cilantro, and limes for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Season tongue with salt and pepper and place in vacuum bag with cilantro, onion, tomato, and fat. Cook at 170°F until completely tender, at least 24 hours, and up to 48. Place bag in ice bath and cool completely, about 15 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Open bag carefully and pour contents into large wire-mesh strainer set over bowl. Transfer tongue to cutting board and discard remaining solids. Carefully peel outer membrane off of tongue and discard. Chop tongue into 1/2-inch pieces."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine chipoles, adobo sauce, and half of liquid from tongue in blender and blend until smooth. Season to taste with lime juice and salt. Set aside. Combine tongue and remaining liquid in heavy-bottomed 10 or 12-inch skillet. Bring to a simmer over high heat, reduce to medium and cook, stirring frequently, until liquid is reduced and tongue has started to crisp, about 8 minutes. Season to taste with salt and pepper."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To serve, wrap a scoop of tongue in a double layer of corn tortillas. Top with chipotle sauce and diced onions, scallions, or cilantro as desired. Pass additional lime wedges."
+        }
+    ],
+    "recipeYield": "6",
+    "totalTime": "PT4320M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J.W. Hamner"
+            },
+            "reviewBody": "I've never seen a beef tongue smaller than 3 lbs (cows are big!), so unless you can get veal tongue I'd plan on doubling it. The direction to \"Bring to a simmer over high heat, reduce to medium and cook, stirring frequently, until liquid is reduced and tongue has started to crisp\" was confusing and fairly nonsensical since you can't crisp something in liquid. Otherwise a good and easy recipe that's perfect for a sous vide setup."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BigManLovesFood"
+            },
+            "reviewBody": "When you make the sauce with the chipotle, do you only mix in the liquid from the bags or do you also add the tomato/onion/cilantro?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JLHuge"
+            },
+            "reviewBody": "Well that'd explain it. I was trying to be too gentle with the corned tongue I was making. After 3 days at 133F I wasn't getting much tenderness in the tongue. \nI take it that highly active muscles require a higher temperature to break down?"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CandiRisk"
+            },
+            "reviewBody": "I made this with my pressure cooker (I am still saving my pennies for an immersion circulator or SV machine). My market sold the tongue in 2 large pieces, I had no \"explosion\" issues--and as a bonus I have some outstanding, well flavored broth. The texture didn't seem to suffer from being cooked in the large chunks and the membrane came off very easily. \n\nThe tacos were so good I just dished out of the pan into the tortilla and ate them standing over the stove. \n\nJust amazing, easily as good as the place where I can only order these off the Spanish menu."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "BerkelMan"
+            },
+            "reviewBody": "Made this tonight (or rather ate it tonight), it was delicious. I cooked it for 48 hours, but I am thinking that 36 might have been better as the meat was verging on too tender."
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/sous-vide-tacos-de-lengua-tongue-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/north-american-recipes-5117205",
+                        "name": "North American"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/mexican-recipes-5117189",
+                        "name": "Mexican"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/sous-vide-tacos-de-lengua-tongue-recipe",
+                        "name": "Sous Vide Tacos de Lengua Recipe"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

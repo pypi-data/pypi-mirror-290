@@ -1,0 +1,282 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1025043-crispy-sour-cream-and-onion-wings#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1025043-crispy-sour-cream-and-onion-wings",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2024/02/02/multimedia/KD-crispy-ranch-wings-qjcb/KD-crispy-ranch-wings-qjcb-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1025043-crispy-sour-cream-and-onion-wings",
+    "name": "Crispy Sour Cream and Onion Wings",
+    "description": "These crisp, flavorful wings have all the goodness of classic sour cream and onion potato chips — including leaving your fingers caked with tasty seasoning. The creamy, tangy dipping sauce is a perfect foil for the crackly skin and can be doubled to use as a dip for crudités or chips. It’s a common misconception that crunchy chicken wings can be obtained only by deep-frying, but this recipe subverts that notion with the use of a pantry ingredient: baking powder. Using baking powder helps with browning and results in all the crackle with none of the hassle. For best results, avoid using expired baking powder.    ",
+    "author": {
+        "@type": "Person",
+        "name": "Kia Damon"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2024/02/02/multimedia/KD-crispy-ranch-wings-qjcb/KD-crispy-ranch-wings-qjcb-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/02/multimedia/KD-crispy-ranch-wings-qjcb/KD-crispy-ranch-wings-qjcb-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/02/multimedia/KD-crispy-ranch-wings-qjcb/KD-crispy-ranch-wings-qjcb-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2024/02/02/multimedia/KD-crispy-ranch-wings-qjcb/KD-crispy-ranch-wings-qjcb-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "baking powder, chicken wing, chive, dill, mayonnaise, party, sour cream, super bowl",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 61
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 1056,
+        "unsaturatedFatContent": "47 grams",
+        "carbohydrateContent": "8 grams",
+        "cholesterolContent": null,
+        "fatContent": "75 grams",
+        "fiberContent": "1 gram",
+        "proteinContent": "82 grams",
+        "saturatedFatContent": "21 grams",
+        "sodiumContent": "1215 milligrams",
+        "sugarContent": "2 grams",
+        "transFatContent": "1 gram"
+    },
+    "recipeIngredient": [
+        "1 tablespoon baking powder",
+        "1 tablespoon dried dill",
+        "1 tablespoon onion powder",
+        "2 teaspoons garlic powder",
+        "1 1/2 teaspoons kosher salt (such as Diamond Crystal) or 3/4 teaspoon coarse kosher salt (such as Morton)",
+        "1 teaspoon ground black pepper",
+        "1/2 teaspoon smoked paprika",
+        "2 pounds chicken wings, separated into wingettes and drumettes",
+        "1/2 cup sour cream",
+        "1/4 cup mayonnaise",
+        "2 tablespoons whole milk",
+        "1 tablespoon fresh lemon juice",
+        "1/4 cup minced fresh chives",
+        "2 teaspoons garlic powder",
+        "Salt and black pepper"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the wings: Arrange a rack in the center of the oven and heat the oven to 425 degrees. Line a sheet pan with parchment paper and place a metal cooling rack on top. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a large bowl, mix together the baking powder, dried dill, onion powder, garlic powder, salt, black pepper and smoked paprika. Pat the wings dry with a paper towel to remove any excess moisture. This step is crucial for achieving the right texture. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Add the wings to the seasoning and toss to coat evenly. Arrange the wings on the rack in the pan, spacing about ½ an inch apart. "
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Roast on the center rack for 20 minutes, then rotate the pan and cook for another 15 minutes, or until the wings are golden brown with some darker spots. Let the wings rest for 5 minutes before serving."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, make the sauce: Whisk together the sour cream, mayonnaise, milk and lemon juice, then mix in the chives and garlic powder. Season to taste with salt and pepper. Serve with the wings."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2024-02-02T00:00:00.000Z",
+    "dateModified": "2024-02-02T21:17:51.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "adams"
+            },
+            "reviewBody": "These were pretty good. I let the rub sit on the chicken for 20ish minutes before baking. Maybe that was why we didn’t have grittiness like a few people experienced. We used scallions instead of chives for the dip and enjoyed it.",
+            "datePublished": "2024-03-16T14:57:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ben"
+            },
+            "reviewBody": "If, like me, you are spoiled by the brilliant recipes by Melissa Clark and others on this service, then you may respond like I did: this recipe just isn’t very good.",
+            "datePublished": "2024-02-29T22:50:51.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JJ"
+            },
+            "reviewBody": "How do you make them this brown ?? Broiler?",
+            "datePublished": "2024-02-27T02:41:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "L"
+            },
+            "reviewBody": "Amazing. So easy and really really good.",
+            "datePublished": "2024-02-13T02:39:52.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Crispy!"
+            },
+            "reviewBody": "These were delicious and perfectly crispy. I didn’t have that splash of milk for the sauce so I used water and had no issues. Would make again.",
+            "datePublished": "2024-02-12T11:38:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Robin"
+            },
+            "reviewBody": "Made as written, the wings had a gritty mouthfeel from all of the dried spices and herbs, something I couldn’t get around. \nThe dip worked okay as a chip dip but didn’t help the wings. N.B. The garlic powder explodes exponentially in the dip the longer you keep it.",
+            "datePublished": "2024-02-12T01:12:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "rabbitsnake"
+            },
+            "reviewBody": "I'll be honest, the crispiness was there. But the taste was just bland to me. The predominant flavor was dill, but otherwise nothing.",
+            "datePublished": "2024-02-12T00:43:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Candace"
+            },
+            "reviewBody": "We cooked longer - about 5 minutes. Delicious",
+            "datePublished": "2024-02-12T00:07:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessica"
+            },
+            "reviewBody": "Amazing!!! My favorite go to wing recipe now",
+            "datePublished": "2024-02-12T00:15:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The Eatinist Bitch"
+            },
+            "reviewBody": "For the person who said that these wouldn’t be done in 20 mins - the directions say 20 mins, then they instruct to rotate the pan and cook for another 10 or 15 minutes. In my slow oven, it’ll take more haha. But I’ve cooked wings to doneness in 35 minutes in a good oven before.",
+            "datePublished": "2024-02-06T17:07:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ren H"
+            },
+            "reviewBody": "I think you missed step 4:\n\nStep 4\nRoast on the center rack for 20 minutes, then rotate the pan and cook for another 15 minutes, or until the wings are golden brown with some darker spots. Let the wings rest for 5 minutes before serving.",
+            "datePublished": "2024-02-07T15:59:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "lee"
+            },
+            "reviewBody": "These wings will not be done and crispy in a mere 20 minutes. They need to be baked closer to 40 or 45 minutes.",
+            "datePublished": "2024-02-06T16:48:23.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The Eatinist Bitch"
+            },
+            "reviewBody": "For the person who said that these wouldn’t be done in 20 mins - the directions say 20 mins, then they instruct to rotate the pan and cook for another 10 or 15 minutes. In my slow oven, it’ll take more haha. But I’ve cooked wings to doneness in 35 minutes in a good oven before.",
+            "datePublished": "2024-02-06T17:07:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ren H"
+            },
+            "reviewBody": "I think you missed step 4:\n\nStep 4\nRoast on the center rack for 20 minutes, then rotate the pan and cook for another 15 minutes, or until the wings are golden brown with some darker spots. Let the wings rest for 5 minutes before serving.",
+            "datePublished": "2024-02-07T15:59:37.000Z"
+        }
+    ]
+}

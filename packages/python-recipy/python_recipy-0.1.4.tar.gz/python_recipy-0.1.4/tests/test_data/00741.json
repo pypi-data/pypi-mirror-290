@@ -1,0 +1,357 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024289-sago-pudding#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024289-sago-pudding",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/06/16/multimedia/hm-sago-pudding-bgfl/hm-sago-pudding-bgfl-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024289-sago-pudding",
+    "name": "Sago Pudding",
+    "description": "In Southeast Asia, sago or tapioca pearls are combined with coconut milk or cream to make a jiggly lightly-sweet pudding eaten for dessert or a snack. While it’s widely known as sago pudding, it is often made with tapioca since sago is harder to find. (You will often see tapioca packaged and sold as sago). Tapioca is extracted from the cassava root, while sago comes from the spongy insides of tropical palm plants, but they can be used interchangeably in this recipe. After cooking, the pearls will be very sticky, but rinsing them well will remove some of the excess starch. Eat the pudding warm as a soup, at room temperature, or chilled; it thickens as it cools. The beauty of sago pudding is that it is endlessly adaptable: Top with seasonal fresh fruit, compote, canned lychees or swirl through with mango purée. As is common with Chinese desserts, this pudding is not-too-sweet, so top with your favorite sweetener until it’s just the way you like it.",
+    "author": {
+        "@type": "Person",
+        "name": "Hetty Lui McKinnon"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/06/16/multimedia/hm-sago-pudding-bgfl/hm-sago-pudding-bgfl-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/06/16/multimedia/hm-sago-pudding-bgfl/hm-sago-pudding-bgfl-superJumbo.jpg",
+            "height": 1366,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/06/16/multimedia/hm-sago-pudding-bgfl/hm-sago-pudding-bgfl-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/06/16/multimedia/hm-sago-pudding-bgfl/hm-sago-pudding-bgfl-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT5M",
+    "cookTime": "PT35M",
+    "totalTime": "PT2H40M",
+    "recipeYield": "6 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "coconut cream, make-ahead, plan-ahead, southeast asian, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 3,
+        "ratingCount": 199
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 379,
+        "unsaturatedFatContent": "1 gram",
+        "carbohydrateContent": "44 grams",
+        "cholesterolContent": null,
+        "fatContent": "23 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "3 grams",
+        "saturatedFatContent": "20 grams",
+        "sodiumContent": "5 milligrams",
+        "sugarContent": "17 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "1 cup sago or small pearl tapioca (not quick-cooking)",
+        "1 (14-ounce) can unsweetened coconut cream",
+        "1/4 cup maple syrup or brown sugar (plus more to serve)",
+        "1 teaspoon vanilla extract",
+        "Fresh fruit, such as mango, melon or berries, to serve (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Bring a large pot of water to a boil, then reduce the heat to medium, and add the tapioca or sago. Cook for 10 minutes, stirring every few minutes. Turn off the heat. Cover and let it sit for another 10 to 15 minutes until the pearls are translucent. Drain in a very fine sieve, and rinse them under cold water."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Meanwhile, pour the coconut cream into a medium saucepan, along with the maple syrup or brown sugar, vanilla extract and ½ cup of water. Stir over medium–low heat for 2 minutes until well combined and smooth, then remove from the heat. Add the pearls to the coconut mixture and stir well."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Transfer the sago pudding to a bowl or separate into smaller bowls or glasses. Allow to cool completely, then chill in the fridge for at least 2 hours. It will thicken into a pudding as it cools."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Serve alone or with fresh fruit with a drizzle of maple syrup or a scattering of brown sugar (or another sweetener)."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-06-16T00:00:00.000Z",
+    "dateModified": "2023-10-11T21:28:34.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sonal"
+            },
+            "reviewBody": "I used brown sugar. Would be nice to have a deeper flavor - maybe muscovado or jaggery or palm sugar. Serve with a splash of cream and cut up mango and raspberries. It could have also used a last tiny drizzle of maple syrup or honey. But tasty and easy.",
+            "datePublished": "2024-03-04T21:14:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "J"
+            },
+            "reviewBody": "I made this for a vegan guest and we all enjoyed it,  I used maple syrup and served it with raspberries and toasted almonds as that was what I had on hand.  We all tasted if and did use some brown sugar as a sweet topping.  Pretty simple to make and a nice dessert to eat as is or a little dressed up.",
+            "datePublished": "2024-01-19T06:38:54.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dominic"
+            },
+            "reviewBody": "Recipe incredibly clear and simple to follow, thank you.\nWho knew tapioca, as a product was so incredibly difficult to find in every supermarket I went into.  I ended up finding it at my local version of wholefoods.\n\nIt pairs very nicely with grapefruit marmalade, .... #justsaying",
+            "datePublished": "2023-11-23T23:13:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mama s"
+            },
+            "reviewBody": "Please don’t chew me out for sacrilege but I I only have chia seeds. Would those work as a game-time substitute for tapioca?",
+            "datePublished": "2023-08-05T23:05:43.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The master of cooking"
+            },
+            "reviewBody": "If you perfer,  you can use other kinds of sago or tapico pearls. Large, mid-size and small with any flavor for the sago/tapico pearls as you like!",
+            "datePublished": "2023-08-02T12:15:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jen"
+            },
+            "reviewBody": "Had anyone tried cooking the sago in the cream to make it a one pot dish?",
+            "datePublished": "2023-08-01T20:26:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patricia"
+            },
+            "reviewBody": "Truly awful. Threw it all away. Bland, boring, not sweet enough. I love tapioca but this was tasteless",
+            "datePublished": "2023-07-24T16:15:22.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SN"
+            },
+            "reviewBody": "I used coconut milk sweetened to taste, and infused with pandan leaves (they have a permanent place in my freezer!). It'll just be more soup than pudding in texture, which is common for desserts in Thailand.\n\nIf you have canned coconut milk, don't shake/mix it. Use the solid part on top -- that's the coconut cream!",
+            "datePublished": "2023-07-16T23:35:59.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fran Vardamis"
+            },
+            "reviewBody": "Back in the day, and substituting milk and an egg for the coconut, this was called tapioca pudding, and it was the ultimate comfort food of my childhood.",
+            "datePublished": "2023-07-10T18:46:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elaine"
+            },
+            "reviewBody": "Can this be made a day or 2 before serving?",
+            "datePublished": "2023-07-10T15:36:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jj"
+            },
+            "reviewBody": "Coconut cream is non dairy. Find it in the canned food section.  You’re not looking for coconut flavored creamer.  Coconut cream is made from coconut still it just has more fat.",
+            "datePublished": "2023-07-10T17:43:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mayrav"
+            },
+            "reviewBody": "What is a good non-dairy substitute for coconut cream?",
+            "datePublished": "2023-07-10T13:46:41.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lawrence H"
+            },
+            "reviewBody": "Replace the 1/4 cup maple syrup or brown sugar with grated jaggery (unrefined sugar product that comes in a block). It adds a whole new dimension to the pudding - a melt-in-the-mouth experience.",
+            "datePublished": "2023-06-29T07:37:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Thara"
+            },
+            "reviewBody": "The Indian version of sago pudding is sabudana kheer or javarshi paayasam. Yummy either way. The Indian version includes cardamom and saffron and a generous garnish of cashews and raisins lightly toasted in ghee. Divine!",
+            "datePublished": "2023-06-29T02:32:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GES"
+            },
+            "reviewBody": "Coconut cream is more like cream (higher fat content) and coconut milk is more like water.",
+            "datePublished": "2023-06-26T00:04:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Scott"
+            },
+            "reviewBody": "If I had to guess, the intro mentions coconut milk in the context of different recipes with other ingredients, but for this particular one you need cream.",
+            "datePublished": "2023-06-26T19:47:24.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane Norton"
+            },
+            "reviewBody": "Is the coconut milk mentioned in the intro truly interchangeable with the coconut cream in the recipe, or would it make a much less firm pudding?",
+            "datePublished": "2023-06-24T07:42:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Thara"
+            },
+            "reviewBody": "The Indian version of sago pudding is sabudana kheer or javarshi paayasam. Yummy either way. The Indian version includes cardamom and saffron and a generous garnish of cashews and raisins lightly toasted in ghee. Divine!",
+            "datePublished": "2023-06-29T02:32:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jane Norton"
+            },
+            "reviewBody": "Is the coconut milk mentioned in the intro truly interchangeable with the coconut cream in the recipe, or would it make a much less firm pudding?",
+            "datePublished": "2023-06-24T07:42:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GES"
+            },
+            "reviewBody": "Coconut cream is more like cream (higher fat content) and coconut milk is more like water.",
+            "datePublished": "2023-06-26T00:04:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lawrence H"
+            },
+            "reviewBody": "Replace the 1/4 cup maple syrup or brown sugar with grated jaggery (unrefined sugar product that comes in a block). It adds a whole new dimension to the pudding - a melt-in-the-mouth experience.",
+            "datePublished": "2023-06-29T07:37:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Fran Vardamis"
+            },
+            "reviewBody": "Back in the day, and substituting milk and an egg for the coconut, this was called tapioca pudding, and it was the ultimate comfort food of my childhood.",
+            "datePublished": "2023-07-10T18:46:33.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jj"
+            },
+            "reviewBody": "Coconut cream is non dairy. Find it in the canned food section.  You’re not looking for coconut flavored creamer.  Coconut cream is made from coconut still it just has more fat.",
+            "datePublished": "2023-07-10T17:43:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "The master of cooking"
+            },
+            "reviewBody": "If you perfer,  you can use other kinds of sago or tapico pearls. Large, mid-size and small with any flavor for the sago/tapico pearls as you like!",
+            "datePublished": "2023-08-02T12:15:02.000Z"
+        }
+    ]
+}

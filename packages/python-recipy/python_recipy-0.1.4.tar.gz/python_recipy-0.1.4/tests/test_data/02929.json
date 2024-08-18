@@ -1,0 +1,87 @@
+{
+    "@context": "https://schema.org",
+    "@id": "https://www.bbcgoodfood.com/recipes/fig-serrano-ham-picnic-bread#Recipe",
+    "@type": "Recipe",
+    "description": "Enjoy as it is with extra virgin olive oil and balsamic vinegar for dunking, or smear with soft goat's cheese and top with a handful of rocket",
+    "image": {
+        "@type": "ImageObject",
+        "height": 574,
+        "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fig-0ca57cc.jpg?resize=768,574",
+        "width": 768
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.bbcgoodfood.com/recipes/fig-serrano-ham-picnic-bread"
+    },
+    "name": "Fig & Serrano ham picnic bread",
+    "url": "https://www.bbcgoodfood.com/recipes/fig-serrano-ham-picnic-bread",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+        }
+    ],
+    "dateModified": "2023-05-16T11:55:49+01:00",
+    "datePublished": "2016-07-04T17:01:06+01:00",
+    "headline": "Fig & Serrano ham picnic bread",
+    "keywords": "BBC Good Food team, Bread, Family friendly, Fig, Freezable, Picnic, picnic bread, Serrano ham, Sharing, Summer",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Good Food",
+        "url": "https://www.bbcgoodfood.com",
+        "logo": {
+            "@type": "ImageObject",
+            "height": 65,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/cropped-GF-new-teal-1-7004649-a80b70d.png?resize=265,65",
+            "width": 265
+        }
+    },
+    "isAccessibleForFree": "False",
+    "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "False",
+        "cssSelector": ".js-piano-locked-content"
+    },
+    "cookTime": "PT30M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "248 calories",
+        "fatContent": "8 grams fat",
+        "saturatedFatContent": "2 grams saturated fat",
+        "carbohydrateContent": "33 grams carbohydrates",
+        "sugarContent": "5 grams sugar",
+        "fiberContent": "2 grams fiber",
+        "proteinContent": "10 grams protein",
+        "sodiumContent": "1.4 milligram of sodium"
+    },
+    "prepTime": "PT30M",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "500g pack bread mix (we used ciabatta)",
+        "15 sage leaves , 5 finely shredded, the rest left whole",
+        "4 tbsp good-quality olive oil",
+        "2 garlic cloves , crushed",
+        "plain flour , for dusting",
+        "4-5 fresh figs , thickly sliced",
+        "½ onion , sliced as thinly as possible",
+        "100g serrano ham slices",
+        "flaky sea salt , for sprinkling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Tip the bread mix into a large mixing bowl with the shredded sage and 1 tsp freshly ground black pepper. Put 2 tbsp of the oil and the garlic in a jug with the amount of water stated on the bread mix pack. Stir the liquid into the dry ingredients with a wooden spoon, then bring the dough together with your hands and knead for 5 mins on a floured surface until smooth. Return to the mixing bowl, cover with oiled cling film and leave to rise until doubled in size."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Punch the dough a few times to knock out the air, then divide into 8 portions. Roll each to a flattish bap shape on a lightly floured surface and arrange in a roughly 20 x 30cm roasting tin. Toss the whole sage leaves, figs, onion and ham with 1 tbsp of the oil, then scatter these over the top. Use your fingers to press the toppings into the bread a little, and spread the bread to fill any gaps. Cover loosely with oiled cling film and leave to rise for 20 mins until it has puffed up."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Heat oven to 180C/160C fan/gas 4. Drizzle over the remaining oil, sprinkle with sea salt and black pepper, and bake for 30 mins until risen, golden and crisp on top. Leave to cool in the tin for 15 mins, then transfer to a wire rack to cool completely. Pack back into the tin to transport to a picnic, and tear the bread into 8 portions."
+        }
+    ],
+    "recipeYield": 8,
+    "totalTime": "PT1H"
+}

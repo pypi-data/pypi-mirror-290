@@ -1,0 +1,107 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "alternativeHeadline": "If you want the pie embodiment of a peanut butter and jelly sandwich, this is the banana cream pie for you. Did we mention it has a vanilla wafer crust?",
+    "keywords": [
+        "pie",
+        "dessert",
+        "american",
+        "peanut butter",
+        "banana",
+        "do not show on encore",
+        "web"
+    ],
+    "publisher": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Bon Appétit",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.bonappetit.com/verso/static/bon-appetit/assets/logo-seo.png",
+            "width": "479px",
+            "height": "100px"
+        },
+        "url": "https://www.bonappetit.com"
+    },
+    "isPartOf": {
+        "@type": "CreativeWork",
+        "name": "Bon Appétit"
+    },
+    "isAccessibleForFree": true,
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Matt Lewis",
+            "sameAs": "https://www.bonappetit.com/contributor/matt-lewis"
+        },
+        {
+            "@type": "Person",
+            "name": "Renato Poliafito",
+            "sameAs": "https://www.bonappetit.com/contributor/renato-poliafito"
+        },
+        {
+            "@type": "Person",
+            "name": "Brian Finke",
+            "sameAs": "https://www.bonappetit.com/contributor/brian-finke"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "ratingCount": 8
+    },
+    "description": "If you want the pie embodiment of a peanut butter and jelly sandwich, this is the banana cream pie for you. Did we mention it has a vanilla wafer crust?",
+    "image": [
+        "https://assets.bonappetit.com/photos/57b073a5f1c801a1038bd84a/master/w_484,h_344,c_limit/mare_peanut_butter_banana_cream_pie_h.jpg"
+    ],
+    "headline": "Peanut Butter Banana Cream Pie",
+    "name": "Peanut Butter Banana Cream Pie",
+    "recipeIngredient": [
+        "6 ounces vanilla wafer cookies",
+        "6 tablespoons (3/4 stick) chilled unsalted butter, cut into 1/2-inch cubes",
+        "2 tablespoons sugar",
+        "1/3 cup sugar",
+        "1 1/2 tablespoons cornstarch",
+        "1/8 teaspoon salt",
+        "1 cup heavy whipping cream",
+        "1/2 cup whole milk",
+        "2 large egg yolks",
+        "1 vanilla bean, split lengthwise",
+        "1 tablespoon unsalted butter",
+        "4 firm but ripe bananas, peeled, divided",
+        "3 tablespoons orange juice, divided",
+        "3 ounces cream cheese, room temperature",
+        "1/2 cup powdered sugar",
+        "1 teaspoon vanilla extract",
+        "1/3 cup creamy peanut butter (do not use old-fashioned or freshly ground)",
+        "2/3 cup chilled heavy whipping cream",
+        "Purchased peanut brittle, coarsely chopped (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Combine all ingredients in processor; blend until mixture resembles moist crumbs, about 1 minute. Transfer to 9-inch-diameter glass pie dish and press mixture onto bottom and up sides (not rim) of dish. Bake crust until golden brown, about 12 minutes. Remove from oven; press crust with back of spoon if puffed. Cool crust completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk sugar, cornstarch, and salt in heavy medium saucepan until no lumps remain. Gradually whisk in cream, then milk. Add yolks and scrape in seeds from vanilla bean; whisk to blend. Cook over medium heat, whisking constantly, until pudding thickens and boils, about 5 minutes. Add butter and stir until melted. Spread warm pudding in cooled crust. Chill until filling is cool, about 1 hour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Thinly slice 3 bananas on diagonal. Combine banana slices and 2 tablespoons orange juice in medium bowl; toss to coat. Transfer banana slices to paper towels and pat dry. Arrange enough banana slices in single layer over vanilla custard filling to cover completely."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Using electric mixer, beat cream cheese and powdered sugar in medium bowl until smooth. Beat in vanilla, then peanut butter. Beat cream in another medium bowl until firm peaks form. Fold large spoonful of whipped cream into peanut mixture to loosen, then fold in remaining cream in 2 additions. Spread peanut butter layer evenly over bananas. Chill at least 3 hours. DO AHEAD Can be made 8 hours ahead. Keep chilled."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Thinly slice remaining banana on diagonal. Toss with remaining 1 tablespoon orange juice, then pat dry with paper towels. Arrange banana slices around top edge of pie. Sprinkle peanut brittle over bananas, if desired, and serve."
+        }
+    ],
+    "recipeYield": "8  Servings",
+    "url": "https://www.bonappetit.com/recipe/peanut-butter-banana-cream-pie",
+    "dateModified": "2009-03-15T20:00:00.000-04:00",
+    "datePublished": "2009-03-15T20:00:00.000-04:00",
+    "recipeCategory": []
+}

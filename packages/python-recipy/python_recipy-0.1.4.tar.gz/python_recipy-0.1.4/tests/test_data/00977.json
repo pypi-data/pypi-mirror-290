@@ -1,0 +1,78 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/flaky-italian-biscuits/",
+    "name": "Flaky Italian Biscuits",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-04-28",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Flaky-Italian-Biscuits_exps22168_TH2379800B05_07_4b_RMS.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "Keeping the biscuit mix on hand makes it easy to stir up a batch of these tender Italian biscuits. Spread them with butter&hellip;or omit the Italian seasoning and serve them with honey. &mdash;Tami Christman, Soda Springs, Idaho",
+    "recipeIngredient": [
+        "2 cups Biscuit Baking Mix",
+        "1 teaspoon Italian seasoning",
+        "1/2 cup half-and-half cream"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, mix biscuit baking mix and Italian seasoning; stir in cream just until moistened. Turn onto a lightly floured surface; knead gently 10 times. Pat or roll out to 1/2-in. thickness; cut with a 2-1/2-in. biscuit cutter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Place 2 in. apart on an ungreased baking sheet. Bake at 425° for 13-16 minutes or until golden brown. Serve warm."
+        }
+    ],
+    "recipeYield": "8 biscuits.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "",
+        "fatContent": "",
+        "cholesterolContent": "",
+        "sodiumContent": "",
+        "carbohydrateContent": "",
+        "fiberContent": "",
+        "proteinContent": ""
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2019-11-25",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "debpenns"
+            },
+            "reviewBody": "these where really good gave a twist with the seasoning deb P VFE",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "Europe, Italian"
+}

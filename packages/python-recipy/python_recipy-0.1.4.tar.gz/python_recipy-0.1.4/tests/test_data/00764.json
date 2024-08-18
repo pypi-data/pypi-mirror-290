@@ -1,0 +1,436 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1020741-quinoa-bowl-with-crispy-brussels-sprouts-eggplant-and-tahini#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1020741-quinoa-bowl-with-crispy-brussels-sprouts-eggplant-and-tahini",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2019/12/31/dining/lessmeatrex-bowl/merlin_166281711_a1e3cfc8-9587-49b6-b382-6e5579e00a0d-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1020741-quinoa-bowl-with-crispy-brussels-sprouts-eggplant-and-tahini",
+    "name": "Quinoa Bowl With Crispy Brussels Sprouts, Eggplant and Tahini",
+    "description": "There’s a lot going on in this satisfying grain bowl, topped with crunchy vegetables, a creamy lemon-tahini dressing and plenty of fresh mint. Feel free to substitute any cooked grain for the quinoa: Brown rice or millet would work just as well as a base for the roasted brussels sprouts with their blackened edges, and the soft, velvety eggplant. If you love tahini dressing, consider doubling it. Any left over will keep for a week in the fridge and can be used as a salad dressing or dip.",
+    "author": {
+        "@type": "Person",
+        "name": "Melissa Clark"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2019/12/31/dining/lessmeatrex-bowl/lessmeatrex-bowl-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/31/dining/lessmeatrex-bowl/merlin_166281711_a1e3cfc8-9587-49b6-b382-6e5579e00a0d-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/31/dining/lessmeatrex-bowl/merlin_166281711_a1e3cfc8-9587-49b6-b382-6e5579e00a0d-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2019/12/31/dining/lessmeatrex-bowl/lessmeatrex-bowl-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT1H",
+    "recipeYield": "4 servings",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "brussels sprout, eggplant, grain bowl, quinoa, tahini, vegan, vegetarian",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 1447
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 507,
+        "unsaturatedFatContent": "23 grams",
+        "carbohydrateContent": "56 grams",
+        "cholesterolContent": null,
+        "fatContent": "29 grams",
+        "fiberContent": "14 grams",
+        "proteinContent": "14 grams",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "403 milligrams",
+        "sugarContent": "12 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "2 tablespoons fresh lemon juice, plus more as needed",
+        "1 garlic clove, finely grated or minced",
+        "1/4 teaspoon kosher salt, plus more as needed",
+        "1/4 cup extra-virgin olive oil",
+        "3 tablespoons tahini",
+        "1 pound brussels sprouts, cleaned and trimmed (halved if they’re larger than 1 inch)",
+        "1 1/2 pounds eggplant, cut into 1 1/2-inch pieces",
+        "Extra-virgin olive oil",
+        "1/2 teaspoon kosher salt, plus more as needed",
+        "1 cup quinoa",
+        "2 tablespoons fresh lemon juice",
+        "1 tablespoon honey or agave syrup",
+        "Large pinch of red-pepper flakes, plus more for serving",
+        "1 cup cherry tomatoes, quartered",
+        "Fresh mint leaves, for serving"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 425 degrees."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Make the tahini dressing: Whisk together lemon juice, garlic and salt in a medium bowl. Let sit for 1 minute, then slowly whisk in oil, a few drops at a time, until emulsified. Whisk in tahini and enough water (by the teaspoon) to make a thin pourable sauce; taste and add more salt and lemon juice if needed. Set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Prepare the grain bowl: Place the brussels sprouts on a rimmed baking sheet, and the eggplant on another. Toss all vegetables with just enough olive oil and salt to coat. Roast brussels sprouts for 17 to 22 minutes and eggplant for 20 to 30 minutes, until vegetables are browned and tender. Toss vegetables once or twice while roasting."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "While vegetables are in the oven, make the quinoa: In a medium saucepan, place quinoa, 2 cups water and 1/4 teaspoon salt. Bring to a boil, and then lower to a simmer for 15 minutes, until the grains soften and water is absorbed. Transfer to a medium bowl and set aside."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "In a small bowl, whisk together lemon juice, honey or agave, remaining 1/4 teaspoon salt and the red-pepper flakes. As soon as the eggplant is done, toss immediately with the lemon red-pepper mixture to coat. Taste and adjust seasoning, if necessary."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "To serve, place quinoa in four bowls. Divide brussels sprouts, eggplant and tomatoes among the bowls, mounding the vegetables next to one another on top of the quinoa. Generously drizzle tahini dressing over the bowls and garnish with mint and more red-pepper flakes."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Germán"
+            },
+            "reviewBody": "It was perfect.  I admit that I freaked out for a bit due to the many steps/preps going on all at once.  At the end it was delicious.  My wife liked it and enjoyed it.",
+            "datePublished": "2024-03-05T02:48:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "AG"
+            },
+            "reviewBody": "This dish was absolutely delicious. I added grilled Salmon for more protein and a little red onion at the end. My husband loved it and he usually doesn’t like quinoa, but loved the bowl concept.\nDefinitely a winner.",
+            "datePublished": "2024-02-20T23:57:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Paul in Atlanta"
+            },
+            "reviewBody": "I've made this several times, and it's fantastic. As others suggested, double the tahini dressing. Recommend lining sheetpan with parchment, not aluminum foil. I add coarsely chopped garlic to the brussels sprouts, and 1 medium sliced onion to the eggplant. Also, I sprinkle crumbled feta over the mixture at the end. Delicious!",
+            "datePublished": "2023-10-30T11:21:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mike McLaughlin"
+            },
+            "reviewBody": "I substituted the eggplant for ground turkey and mushrooms, sautéed in oil salt and pepper. The flavors in this recipe were so good. The mint and tahini dressing combo is killer.",
+            "datePublished": "2023-07-11T02:10:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia"
+            },
+            "reviewBody": "Yum! I followed the Kitchn recipe for fluffy quinoa as others recommended and also added watercress and avocado (avocado makes all salads better, imo). This recipe will definitely become a vegan staple along with other delicious NYT salad recipes like David Tanis’s Spinach and Tofu Salad, Martha Rose Shulman’s Kale, Plum, and Quinoa Salad, and Hetty McKinnon’s/Julia Moskin’s Spiced Chickpea Salad with Tahini and Pita Chips.",
+            "datePublished": "2023-05-11T22:53:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maine chef"
+            },
+            "reviewBody": "Plan on making this next week and incorporating one meatless main per week. With only14 grams of protein in this  dish I will add a soft boiled egg to up the protein. May also add some quick pickle radishes for extra crunch and acid.",
+            "datePublished": "2023-03-14T10:07:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kat"
+            },
+            "reviewBody": "This was so good! The textures are just fantastic. The sauce for the eggplant alone is super tasty and compliments it perfectly. I forgot the mint (whoops) and added cardamom. Also found the tahini sauce to be too tart so I added a little honey. Fresh tomatoes are the way to go, I threw in some arugula too also tossed in a simple lemon vinaigrette. Solid meal!",
+            "datePublished": "2023-03-14T01:04:18.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrew M"
+            },
+            "reviewBody": "Haloumi is a great add for non-vegans",
+            "datePublished": "2023-02-19T18:58:09.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Elena W."
+            },
+            "reviewBody": "As others noted, this is a very riffable recipe. I added a whole cauliflower head, sliced and roasted on a separate sheet pan, with bit of olive oil and salt, along with Brussels sprouts. I actually liked grilling eggplant and peppers and then chopping them- much more interesting flavor. All in all, i probably tripled the amount of veggies and it was barely enough. Good result though. I recommend letting people put the sauce in their own plate- some people don’t like tahini.",
+            "datePublished": "2023-01-20T19:57:29.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Germán"
+            },
+            "reviewBody": "I followed the recipe to a T and enjoyed it.  I'm a meat eater, my wife a vegan.  It took me quite a while to appreciate and find the different tastes in the creacks of the vegan dishes.  I _am slowly eating less meat.",
+            "datePublished": "2024-03-05T02:52:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "peter"
+            },
+            "reviewBody": "This has no real flavor but somehow the different ingredients are cooked to become the same mush, I followed this recipe to a T it has no flavor or kick. There are simpler, tastier ways to eat healthy than this",
+            "datePublished": "2023-01-04T04:06:38.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cynthia"
+            },
+            "reviewBody": "Added some spinach leaves along with toasted sliced almonds for some crunch—yum!",
+            "datePublished": "2022-10-17T21:40:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "kate"
+            },
+            "reviewBody": "Added white beans to add a bit of protein and in season squash in place of Brussels. Delish!",
+            "datePublished": "2022-08-15T01:47:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Betsy"
+            },
+            "reviewBody": "This is really good as made! It's also a great template for whatever veggies and grains you may have. Tahini sauce was delicious as well. we did roast the tomatoes and enjoyed them that way. Definitely adding this to the rotation!",
+            "datePublished": "2022-05-05T13:19:28.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leslie"
+            },
+            "reviewBody": "We enjoyed this even more when we added roasted and salted sunflower seeds.  The crunchy texture was just what was needed. Also mixed quinoa with farro. Tasty!",
+            "datePublished": "2022-02-23T13:24:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Janet Miller"
+            },
+            "reviewBody": "I doubled sauce and used arugula instead of mint. Also topped with pickled onions. Fantastic!",
+            "datePublished": "2022-02-13T02:06:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Marjorie Almansi"
+            },
+            "reviewBody": "I appreciate the article about eating less meat.  I will try this quinoa bowl today.  Would be great to have more recipes for plant based eating including a listing of interesting dressings to make plant based eating interesting.  Thank you Melissa!",
+            "datePublished": "2020-01-01T14:25:27.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DJ!"
+            },
+            "reviewBody": "I would also roast the tomatoes - I actually roast all the vegetables on one sheet pan - just add them in separately - the tomatoes would just be for 10 minutes",
+            "datePublished": "2020-01-04T14:22:19.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "LMK"
+            },
+            "reviewBody": "Must depend upon the quinoa. I've been cooking quinoa for about a decade using roughly 2:1 ratio of water:quinoa and it comes out perfect \n99% of the time. I occasionally have to add another few tablespoons of water if I didn't lower the flame soon enough, or didn't lower it far enough; or conversely, let a little of the liquid cook off. I always let it sit in the pot, covered, off the heat, for about 10 minutes after cooking and then fluff with a fork.",
+            "datePublished": "2020-01-02T04:30:40.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Caroline"
+            },
+            "reviewBody": "Will definitely make this again! Even my husband, who has proclaimed a hatred for all things eggplant in the past, gobbled it up and went back  for 2nds! Added just a few things: a squeeze of honey into the tahini dressing (and doubled the recipe because it was so good), added lemon zest and garlic to the Brussels sprouts before roasting, and some chickpeas to the Brussel sprout pan for some added texture.",
+            "datePublished": "2020-01-13T15:29:44.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Apples'nOranges"
+            },
+            "reviewBody": "Go to the Kitchn for better directions on how to cook quinoa so it turns out fluffy instead of the gluey mush the recipe here will produce.",
+            "datePublished": "2020-01-01T20:52:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jmee"
+            },
+            "reviewBody": "Based on the comments I tripled the sauce and was glad I did. My group of 4 ate every vegetable there was a little sauce left over I'll use for something else tomorrow. I threw the cherry tomatoes on with the sprouts during their last 10 minutes of cooking because they were pale and sad this time of winter. Absolutely delicious meal.",
+            "datePublished": "2020-01-20T05:15:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Casey Jahn"
+            },
+            "reviewBody": "THIS WAS AMAZING\nMade as directed- which I usually never do. \nTripled the Tahini dressing. We still almost did not have enough! Cause I like to drench my bowl. Halved all the Brussels sprouts. \nAdded sliced Crimini mushrooms to one side of the eggplant tray cause I was short on eggplant and we love mushrooms. Took them out a few minutes before the eggplant. Next time I’ll add whole mushrooms and they’ll prob cook the same. \n\nWill make again. Best NYT recipe I’ve tried yet. We are vegan. Thx!",
+            "datePublished": "2020-04-10T17:15:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "sarah"
+            },
+            "reviewBody": "Add crunchy chickpeas, goat cheese/feta, roasted red pepper",
+            "datePublished": "2021-04-05T03:58:48.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "EBell"
+            },
+            "reviewBody": "Double the eggplant you roast. Don’t bother with the honey-lemon dip for the eggplant: it ends up mushy and is a needlessly fussy step. Double the sauce as suggested already. Add feta for a bit more substance. Loved the mint!",
+            "datePublished": "2020-03-10T22:50:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Claire L."
+            },
+            "reviewBody": "Fabulous, definitely going to become a staple. As everyone stated, you'll want to triple or at least double the tahini sauce quantity. Trust me you're going to want more of it. I juiced an entire lemon, and then just added tahini, oil, garlic, to the ensuing appropriate proportions. Don't omit the mint, or the red pepper. Both those elements balance the dish to the fullest extent.",
+            "datePublished": "2020-01-13T19:32:14.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Sarah M"
+            },
+            "reviewBody": "I made this as is and thought it was a fantastic recipe. Savory, sweet, acidic, spicy, yum!! The only thing I would do differently is change the order in which it is prepared. Grains on first since they take longest. Then veggies. Then tahini. Definitely refrigerate the tahini dressing and tomatoes after preparing because the extra combo of hot and cold elements heightens the dish even further.",
+            "datePublished": "2020-01-13T22:54:04.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lady Michael"
+            },
+            "reviewBody": "Love, love, love. Made exactly as is. Had plenty of sauce but needed more veggies for a family of four.",
+            "datePublished": "2020-04-05T01:23:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amanda S"
+            },
+            "reviewBody": "Using broth or stock for the quinoa makes a world of difference flavor wise. This recipe is also easy to adapt with all different types of vegetables - I especially like using sweet potato in lieu of the eggplant!",
+            "datePublished": "2020-10-18T18:12:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kaitlin Mahar"
+            },
+            "reviewBody": "Very good. We doubled the dressing and I’ll likely make more of it in the future for salads etc. Maybe we were just really hungry but I didn’t think this was really enough food for 4 servings if this is all you’re having - seemed more like 3.",
+            "datePublished": "2020-05-03T20:12:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "myra"
+            },
+            "reviewBody": "Try skipping the oil in the tahini. I find it can get quite creamy enough with careful whisking and adding a little water in stages. Drizzle some oil on top at the end of needed. Delicious on everything.",
+            "datePublished": "2022-01-07T12:35:47.000Z"
+        }
+    ]
+}

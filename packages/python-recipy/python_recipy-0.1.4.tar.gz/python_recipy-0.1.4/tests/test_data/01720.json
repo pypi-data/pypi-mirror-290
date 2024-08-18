@@ -1,0 +1,108 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Corn Chip-Serrano Relish",
+    "url": "https://www.foodnetwork.com/recipes/corn-chip-serrano-relish-6614294",
+    "headline": "Corn Chip-Serrano Relish",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2019-05-15T11:00:42.537-04:00",
+    "dateModified": "2019-05-15T11:00:41.590-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Chile Peppers,Vegetable,Gluten Free",
+    "cookTime": "P0Y0M0DT0H15M0.000S",
+    "totalTime": "P0Y0M0DT8H15M0.000S",
+    "recipeIngredient": [
+        "6 serranos, minced without seeds",
+        "2 shallots, minced ",
+        "1/2 cup Pickled Red Onions, recipe follows, minced",
+        "1 bunch fresh cilantro, finely chopped ",
+        "1/4 cup extra-virgin olive oil ",
+        "1/2 tablespoon ground black pepper ",
+        "2 teaspoons kosher salt ",
+        "2 ounces corn chips ",
+        "2 red onions",
+        "3 cups red wine vinegar ",
+        "1 tablespoon honey ",
+        "1/2 bunch fresh cilantro, chopped "
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "206",
+        "fatContent": "12g",
+        "saturatedFatContent": "2g",
+        "carbohydrateContent": "18g",
+        "fiberContent": "3g",
+        "sugarContent": "7g",
+        "proteinContent": "2g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "541mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Add serranos, shallots, Pickled Red Onions and cilantro to a bowl. Stir until combined. Add olive oil and season with pepper and salt. When ready to serve, add corn chips."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slice red onions thinly, then cover in a bowl with red wine vinegar. Stir in honey and chopped cilantro. Cover and refrigerate 8 hours or up to overnight."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2
+    },
+    "recipeYield": "1 cup",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This stuff is great! The pickled red onion gives it a nice zing. Awesome with a variety of things like tacos, beans, eggs and of course corn chips. <br />"
+        }
+    ],
+    "recipeCategory": []
+}

@@ -1,0 +1,107 @@
+{
+    "@type": "Recipe",
+    "thumbnailUrl": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1.00xw:0.667xh;0,0&resize=100:*",
+    "datePublished": "2012-01-20T10:00:00 EST",
+    "headline": "Marilyn's Mac and Cheese",
+    "articleBody": null,
+    "wordCount": null,
+    "image": [
+        {
+            "@type": "ImageObject",
+            "height": 1200,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1.00xw:0.667xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1.00xw:0.667xh;0,0&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 900,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1.00xw:0.667xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1xw:0.5000690226394258xh;center,top&resize=1200:*",
+            "width": 1200
+        },
+        {
+            "@type": "ImageObject",
+            "height": 675,
+            "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1.00xw:0.667xh;0,0&resize=100:*",
+            "url": "https://hips.hearstapps.com/hmg-prod/images/marilyn-mac-and-cheese-1518798184.jpg?crop=1xw:0.3750517669795693xh;center,top&resize=1200:*",
+            "width": 1200
+        }
+    ],
+    "mainEntityOfPage": {
+        "@id": "https://www.countryliving.com/food-drinks/recipes/a2998/marilyns-mac-and-cheese-recipe/",
+        "@type": "WebPage"
+    },
+    "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Country Living",
+        "sameAs": [
+            "https://twitter.com/countryliving",
+            "https://www.youtube.com/c/CountryLiving",
+            "https://www.facebook.com/CountryLiving",
+            "https://instagram.com/countrylivingmag/",
+            "http://www.pinterest.com/countryliving/"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.countryliving.com/_assets/design-tokens/countryliving/static/images/logos/logo-jsonld.01b7535.png",
+            "width": 312,
+            "height": 60
+        },
+        "parentOrganization": {
+            "@type": "NewsMediaOrganization",
+            "name": "Hearst Corporation"
+        }
+    },
+    "keywords": [
+        "content-type: Recipe",
+        "cheese,macaroni,mac and cheese",
+        "NUTRITION: vegetarian",
+        "OCCASION: feed a crowd",
+        "CATEGORY: dinner",
+        "CATEGORY: side dish",
+        "TOTALTIME: 00:40:00",
+        "FILTERTIME: <1HR",
+        "RATING: 0",
+        "FILTERRATING: unrated"
+    ],
+    "url": "https://www.countryliving.com/food-drinks/recipes/a2998/marilyns-mac-and-cheese-recipe/",
+    "isBasedOn": "https://www.countryliving.com/food-drinks/recipes/a2998/marilyns-mac-and-cheese-recipe/",
+    "isAccessibleForFree": "False",
+    "hasPart": [
+        {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".content-container"
+        }
+    ],
+    "description": "This three-cheese macaroni and cheese casserole is ready in snap and oh so delicious.",
+    "name": "Marilyn's Mac and Cheese",
+    "prepTime": "PT10M",
+    "cookTime": "PT0S",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+        "2 c. shell macaroni",
+        "1/4 c. grated sharp cheddar cheese",
+        "1/4 c. grated Monterey Jack cheese",
+        "1/4 c. grated provolone cheese",
+        "1/2 c. sour cream",
+        "1 (15-ounce) can diced stewed tomatoes, drained",
+        "1 tbsp. unsalted butter",
+        "2 tsp. fresh oregano"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 350°F. Cook macaroni according to package instructions, drain, and transfer to a 4-cup casserole dish. Stir in remaining ingredients and bake until bubbling, about 30 minutes."
+        }
+    ],
+    "recipeYield": "6 serving(s)",
+    "recipeCuisine": [],
+    "recipeCategory": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "255 calories"
+    },
+    "@context": "http://schema.org"
+}

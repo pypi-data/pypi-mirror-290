@@ -1,0 +1,332 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Best Gingerbread Men Cookies",
+    "datePublished": "2020-03-05T00:09:56.000-05:00",
+    "dateModified": "2023-11-14T14:31:08.337-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "McCormick Spice"
+        }
+    ],
+    "description": "This gingerbread cookie recipe makes plenty of cute Christmas cookies, full of festive flavor and ready to be decorated and enjoyed during the holidays.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.allrecipes.com/thmb/hRwRpwDL_BHXRaiGPtQMpaP8tO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-gingerbread-men-cookies-ddmfs-4x3-1-d291bf57fa9244d98238eac7df53f13d.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/8zNLmvTS-K3AjnAEN.mp4",
+        "description": "In this video, learn how to make adorable and delicious gingerbread men cookies. This recipe yields perfectly spiced cookies that are sure to delight both kids and adults alike around the holidays. Let your imagination run wild as you decorate them with sugar cookie icing, royal icing, and all sorts of toppings like candies, nuts, and sprinkles. Store them in an airtight container for up to five days or freeze the unbaked dough for up to three months for fresh-baked cookies whenever you want them.",
+        "duration": "PT1M8S",
+        "name": "How to Make Gingerbread Men Cookies",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/8zNLmvTS/poster.jpg?width=720",
+        "uploadDate": "2023-04-07T10:25:56.612-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Allrecipes",
+        "url": "https://www.allrecipes.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.allrecipes.com/thmb/Z9lwz1y0B5aX-cemPiTgpn5YB0k=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/allrecipes_logo_schema-867c69d2999b439a9eba923a445ccfe3.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Allrecipes",
+        "publishingPrinciples": "https://www.allrecipes.com/about-us-6648102#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/allrecipes",
+            "https://www.instagram.com/allrecipes/",
+            "https://www.pinterest.com/allrecipes/",
+            "https://www.tiktok.com/@allrecipes",
+            "https://www.youtube.com/user/allrecipes/videos",
+            "https://twitter.com/Allrecipes",
+            "https://flipboard.com/@Allrecipes",
+            "https://en.wikipedia.org/wiki/Allrecipes.com",
+            "http://linkedin.com/company/allrecipes.com"
+        ]
+    },
+    "name": "Best Gingerbread Men Cookies",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "392"
+    },
+    "cookTime": "PT10M",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "158 kcal",
+        "carbohydrateContent": "24 g",
+        "cholesterolContent": "23 mg",
+        "fiberContent": "1 g",
+        "proteinContent": "2 g",
+        "saturatedFatContent": "4 g",
+        "sodiumContent": "125 mg",
+        "sugarContent": "11 g",
+        "fatContent": "6 g",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "3 cups flour",
+        "2 teaspoons McCormick® Ginger, Ground",
+        "1 teaspoon McCormick® Cinnamon, Ground",
+        "1 teaspoon baking soda",
+        "0.25 teaspoon McCormick® Nutmeg, Ground",
+        "0.25 teaspoon salt",
+        "0.75 cup butter, softened",
+        "0.75 cup firmly packed brown sugar",
+        "0.5 cup molasses",
+        "1 egg",
+        "1 teaspoon McCormick® Pure Vanilla Extract"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Mix flour, ginger, cinnamon, baking soda, nutmeg, and salt in large bowl."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/RDxqM8v_t_0MGi-SamMg7T6F09g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-GingerbreadMenCookies-mfs-Step1-1180-f646ad3557924555bb62a4761d17757e.jpg"
+                }
+            ],
+            "text": "Beat butter and brown sugar in large bowl with electric mixer on medium speed until light and fluffy. Add molasses, egg, and vanilla; mix well. Gradually beat in flour mixture on low speed until well mixed."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/zYqMWZXsJFr3dbhkd4b1vgoRFUI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-GingerbreadMenCookies-mfs-Step2-1183-74abc7a6e3a3444693e5cad403b47116.jpg"
+                }
+            ],
+            "text": "Press dough into a thick, flat disk. Wrap in plastic wrap. Refrigerate 4 hours or overnight."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 350 degrees F (175 degrees C)."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/SeqSwaTUqjULI9p0As6DyMenZdo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-GingerbreadMenCookies-mfs-step3-0006-2fd96aea1542422dbbf75efcdfe859ac.jpg"
+                }
+            ],
+            "text": "Roll dough on a lightly floured surface to a thickness of 1/4 inch. Cut into gingerbread men shapes with a 5-inch cookie cutter. Place gingerbread men 1 inch apart on ungreased baking sheets."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/fYWmHjDW7Nih5EAjrHNhRxCRReY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-GingerbreadMenCookies-mfs-step4-0012-9474a31f3f104829a637facf1a0dc641.jpg"
+                }
+            ],
+            "text": "Bake in the preheated oven until edges of cookies are set and just begin to brown, 8 to 10 minutes. Cool on baking sheets for 1 to 2 minutes, then remove to wire racks to cool completely."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.allrecipes.com/thmb/hRwRpwDL_BHXRaiGPtQMpaP8tO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230238-gingerbread-men-cookies-ddmfs-4x3-1-d291bf57fa9244d98238eac7df53f13d.jpg"
+                }
+            ],
+            "text": "Decorate cooled cookies as desired. Store cookies in airtight container up to 5 days."
+        }
+    ],
+    "recipeYield": [
+        "24"
+    ],
+    "totalTime": "PT270M",
+    "review": [
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "mamamel"
+            },
+            "reviewBody": "This was my first attempt ever at gingerbread. I refrigerated it for 1.5 days because I got busy, and the dough kept well wrapped in plastic wrap. YUMMY flavor--my 2.5-year-old and I both love them! I didn't have enough molasses on hand, so I used probably about 2 Tbsp of corn syrup to make up for what I was missing. It didn't seem to cause a problem. For the other gingerbread virgins out there, here is my advice: first of all, when you take the dough out of the fridge, it will seem rock hard. Don't panic, it softens as you roll it. Only roll out 1/2 at a time as it gets very soft, very fast. Second of all, don't forget to MOVE the cookies to a wire rack after 1-2 minutes as listed. I got busy with my toddler and forgot, and my first batch stuck pretty good to my cookie sheets. I had to be careful to not crack them to pieces when removing them. With the next batches, I removed them after 1 minute with no problems at all. Happy baking!"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Najib Cambris"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-06-12T06:15:02.581Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Amazing!",
+            "datePublished": "2024-03-08T15:12:57.150Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "carol"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-02-25T23:24:43.371Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "OICU812"
+            },
+            "reviewBody": "",
+            "datePublished": "2024-02-20T20:27:46.607Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "It was great. I stored dough for 3 days and came out perfect.",
+            "datePublished": "2024-02-08T02:35:31.768Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "successb440"
+            },
+            "reviewBody": "I added 1 tsp of ground cloves. This recipe is very easy to follow and good!",
+            "datePublished": "2023-12-26T01:29:20.570Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "2"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Cheri Singleton Hinshelwood"
+            },
+            "reviewBody": "Crumbly and not a lot of flavor",
+            "datePublished": "2023-12-23T13:19:43.200Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Allrecipes Member"
+            },
+            "reviewBody": "Oh my goodness...Best simply Best ever !!!",
+            "datePublished": "2023-12-18T00:56:26.758Z"
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Andrew Crawford"
+            },
+            "reviewBody": "A wonderful base gingerbread cookie recipe. Ended up doubling the spice for my family.",
+            "datePublished": "2023-12-16T20:58:54.543Z"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.allrecipes.com/recipe/230238/gingerbread-men-cookies/",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/362/desserts/cookies/",
+                        "name": "Cookies"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipes/14712/desserts/cookies/gingerbread-cookies/",
+                        "name": "Gingerbread Cookie Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.allrecipes.com/recipe/230238/gingerbread-men-cookies/",
+                        "name": "Best Gingerbread Men Cookies"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "Allrecipes Test Kitchen",
+                "url": "https://www.allrecipes.com/allrecipes-test-kitchen-7553892"
+            }
+        ],
+        "lastReviewed": "2023-11-14T14:31:08.337-05:00"
+    }
+}

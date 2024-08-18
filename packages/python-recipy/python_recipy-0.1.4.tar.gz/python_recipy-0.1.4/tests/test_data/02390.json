@@ -1,0 +1,62 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Grilled Chicken Club Sandwiches",
+    "keywords": "grilled chicken club sandwiches",
+    "recipeCategory": "Lunch",
+    "image": "https://mojo.generalmills.com/api/public/content/AHIyUbxdd0-aSDoct6Mwzg_webp_base.webp?v=05b983ea&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "A hearty dinner ready in 20 minutes! Enjoy this delicious club sandwich made with grilled chicken and bacon.",
+    "recipeIngredient": [
+        "2  boneless skinless chicken breasts (1/2 lb)",
+        "4  thin slices Canadian bacon",
+        "2  kaiser rolls, cut horizontally into thirds",
+        "3  tablespoons reduced-fat mayonnaise",
+        "4  leaves lettuce",
+        "2  slices tomato"
+    ],
+    "totalTime": "PT0H20M",
+    "prepTime": "PT0H20M",
+    "recipeYield": "2",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat gas or charcoal grill. To flatten each chicken breast, place between 2 sheets of plastic wrap or waxed paper. Working from center, gently pound chicken with flat side of meat mallet or rolling pin until about 1/4 inch thick; remove wrap."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "When grill is heated, carefully oil grill rack. Place chicken on gas grill over medium heat or on charcoal grill over medium coals; cover grill. Cook 6 to 8 minutes, turning once, until chicken is no longer pink in center. During last 5 minutes of cooking time, heat bacon on grill, turning once, until hot. If desired, during last 3 minutes of cooking time, toast kaiser roll pieces, cut side down, on grill."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Spread cut sides of roll pieces with mayonnaise. Cut each chicken breast into 2 pieces. For each sandwich, on bottom section of roll, place 2 chicken pieces, overlapping if necessary. Top with lettuce leaf, tomato slice and middle section of roll. Place 2 Canadian bacon slices on top of middle roll section. Top with lettuce leaf and top section of roll. Press each sandwich slightly; spear each with 2 long toothpicks. Cut sandwiches in half between toothpicks."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "430 ",
+        "carbohydrateContent": "30 g",
+        "cholesterolContent": "100 mg",
+        "fatContent": "2 1/2 ",
+        "fiberContent": "2 g",
+        "proteinContent": "41 g",
+        "saturatedFatContent": "3 1/2 g",
+        "servingSize": "1 Sandwich",
+        "sodiumContent": "1140 mg",
+        "sugarContent": "3 g",
+        "transFatContent": "1/2 g"
+    },
+    "dateCreated": "10/15/2001",
+    "dateModified": "11/16/2010"
+}

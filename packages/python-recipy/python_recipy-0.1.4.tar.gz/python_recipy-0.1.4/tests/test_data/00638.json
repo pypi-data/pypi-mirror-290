@@ -1,0 +1,383 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Limoncello",
+    "url": "https://www.foodnetwork.com/recipes/alton-brown/limoncello-recipe-1918536",
+    "headline": "Limoncello",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Alton Brown",
+            "url": "https://www.foodnetwork.com/profiles/talent/alton-brown"
+        }
+    ],
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-13T21:05:54.032-05:00",
+    "dateModified": "2013-11-05T19:28:05.948-05:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Italian,Sugar,Fruit,Lemon,Vodka Recipes,Gluten Free,Low-Fat,Low Sodium",
+    "cookTime": "P0Y0M0DT0H3M0.000S",
+    "prepTime": "P0Y0M0DT0H45M0.000S",
+    "totalTime": "P0Y0M8DT0H48M0.000S",
+    "recipeIngredient": [
+        "2 pounds lemons, about 8 to 10",
+        "750 ml vodka, 100 proof",
+        "2/3 cup water",
+        "2/3 cup sugar"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 6 servings",
+        "calories": "401",
+        "fatContent": "0g",
+        "saturatedFatContent": "0g",
+        "carbohydrateContent": "36g",
+        "fiberContent": "4g",
+        "sugarContent": "26g",
+        "proteinContent": "2g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "5mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Carefully remove the zest from the lemons using a microplane or rasp grater, being careful not to remove any of the white pith. Reserve the lemons to make lemonade or squeeze and freeze the juice for later use."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Put the lemon zest into a lidded glass container that is at least 2-quarts in size. Pour the vodka over the zest, and let sit in a cool dark place for 7 days."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "After 7 days, strain the liquid through a fine mesh strainer lined with muslin or several layers of cheesecloth and return the vodka to the container."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Combine the water and sugar in a small saucepan set over high heat and cook, stirring continually, until the sugar is completely dissolved, approximately 3 minutes. Once completely cool, add the sugar syrup to the vodka, and stir to combine."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Cover and put the container in the freezer for at least 4 hours. Limoncello can be stored in the freezer for up to a year."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.4,
+        "reviewCount": 21
+    },
+    "recipeYield": "approximately 36 ounces",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "William D."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Made this and its awesome.   Haven't tried limes, but tried bitter oranges and wonderfulness.  (IMO normal oranges will not work well, but the bitter oranges that get used to make things like triple sec and organsa will work well)."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "There's nothing like a sip of this ice cold Limoncello and a porch swing on a hot summer day!  This will be my third batch.  I try to make this annually but couldn't squeeze one in last year and missed having it.  With any infusion, using at least 100 proof vodka is required or it just won't pull out the flavors correctly.  I love Alton's recipe as it is, but I might try a touch more simple syrup as it's a tad strong for She Who Must be Obeyed."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "cwein46"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "The recipes sounds good, but I was wondering why most other recipes use a lot more sugar."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "deme a"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "EverClear is key, but you must add more simple syrup because of the 190 proof alcohol content.  After visiting Italy, I got hooked on homemade lemoncello.  I made one batch about 2 months ago -- and just started a second - double batch.  Great holiday gift with some homemade fig jam!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "bunnigirl"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Very good, just be careful with the Alcohol you use.. cause it can become a small nuclear reactor. PHEW!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "frannyt12148"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Ever Clear is definitely best, but if illegal in your state:  buy the cheapest vodka and put it through a water filtration pitcher (i.e. Brita once or twice.  Use only non-waxed and dyed lemons.  I you don't live in a citrus growing state, your best bet is probably  the organic food store."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "HomicideMD"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I first tried this with cheap vodka; I didn't want to waste my money if the results weren't good. However, it was fantastic. Even with the crappy vodka. The next time I used Smirnoff, and it was fabulous. I read one review where Grey Goose wasn't too good. I would advoid imported vodka. By law, any vodka produced in the U.S. must be tasteless (harsh alchohol taste of cheap vodkas doesn't count). However, many European distillers subtly flavor their premium vodkas. I would use Everclear, but it's illegal in my state, so I cannot procure any without a long car drive, and at $3.86 per gallon for gasoline, that would make this recipe not very cost-effective."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Anonymous"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Nice but I make mine with 1.5L generic 100 proof vodka with the zest of 6 lemons and 6 limes plus the juice of 1 lemon for 6 weeks in a cool dark room. The syrup is 6 cups sugar with 3 cups water. Unbelievable!   Have also made this with fresh raspberries but would suggest to cut the sugar down as it can be too sweet."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "jeannin"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I make mine with Absolute vodka it works well too. I tried using Grey goose and it didn't come out good. I also steep mine for 2 weeks instead of 7 days...it makes it taste like lemon drops. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Citruholic"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "True limoncello NEEDS to be made from Ever Clear alcohol. To be authentic, you need it. Vodkas such as Grey Goose, Belvedere, Skyy or even Smirnoff will leave you with a limoncello with an undesirable \"bite\" because of the taste of the vodka. I made mine with several pounds of Meyer lemons for something special steeped for 45 days. The result was fantastic!<br />And for the record myra from San Jose....Pallini makes a FINE limoncello. I don't know what cheapo brand you've been buying. But homemade, from Ever Clear, is the best!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "dane l."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "This is awesome and i have used it so many times i decided to add a few twists to it. The twists are simple all you do is add the ingredients with the lemon zest. Are they traditional? My guess is no. Nice ones?\r<br />\r<br />Mint 3-5 sprigs\r<br />Orange zest .5 - 1  of one fruit\r<br />Chamomile tea 1-2 T teaspoons\r<br />Lavender 1-2  whatever you call the bundles of flowers\r<br />Rose's 5-10 flowers\r<br />\r<br />Highly recommend with fish and lightly dressed pasta. "
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "John N."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I have made this twice now and I have to say that 100 Proof is way to strong. Both times I have had great taste after waiting 7 days. It does smell a little bit pine sol like right out of the jar, but it taste like lemon sherbet."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Myrah U."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 3,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I usually follow Alton Brown's instructions on all things food, but not in this case.  If you let it steep for a full month (which is what most recipes give as the minimum), the flavor is much better.  I tasted after a week and it still just tasted like lemony vodka.  After a month, it was much more lemony, but it had also mellowed nicely.  My boyfriend, who has had actual limonchello in Italy (not that floor-cleaner stuff they sell in the stores) and he said it was excellent.  Believe me, \"your patience will be rewarded.\"\r<br />\r<br />I've used both Kettle One and Absolute and both worked very well.  I also used less of the simple syrup because I found it to be too sweet with all of it."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PAM L."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I was really excited to finally get the recipe to make Limoncello, however, besides making a wonderful, refreashing drink, how else can I use it?  Ideas are welcome!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Amber R."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I've followed this recipe exactly several times - always with great results.  \r<br />I use the Black Label 100 proof Smirnoff.  I do think this next time I'm going to use a little more simple syrup than called for - to ease the Bite a little!  LOL!  But still a simple delicious recipe!"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "newdigitalboy"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I just completed my second batch using this recipe and I think it has turned out well both times.  I only found two 100-proof vodkas to choose from so I went with 100-proof Smirnoff.\r<br />\r<br />The only change from the recipe is that I let the mixture steep for 8 days.  After straining out the zest, I then ran the alcohol through a paper coffee filter that I placed in a small sieve.  The difference in clarity is amazing - it really helps to remove all the small particles from the alcohol.  The coffee filter gets clogged up, though, so you need to rinse it with water once in a while.\r<br />\r<br />After adding in the simple syrup, the total volume is increased by about 10 oz. (295 mL).  This results in a final alcohol content of about 36% (72 proof).\r<br />\r<br />Though I really like it as is, I'm curious to try it with a better quality 80-proof vodka.  Probably will result in a little less bite and an easier morning."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "James P."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I used stoli (cause I always drink stoli) and it turned out excellent. I probably should have filtered it a little bit better because it has some floaters but still tastes great and much better than store-bought."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Julie T."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "I tried this recipe with Vox vodka and fresh organic lemons from my local farmer's market. Oh so good! I can't wait to share it with friends (well......maybe not!)."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Andrew C."
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Used Skyy vodka and lemons from the supermarket.  Make sure you wash your lemons with a clean (non soapy) brush before zesting to remove undesirable wax and chemicals that may be on your lemons and can contribute to foul tastes (possibly Sandra's problem?).\r<br />\r<br />I can't get enough of this stuff and my next batch should be done tomorrow.  I can't wait."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "luvuconn1"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "When we saw this episode on our DVR full of Good Eats, we were very excited to try the limoncello ourselves.  It looked super easy to make and so refreshing. We followed the recipe from the show exactly using a triple distilled vodka (Smirnoff) that Alton featured. After patiently waiting 7 days for the lemon zest to work its magic on the vodka, we added the simple syrup, placed it in the freezer, and waited a little while longer. When we opened our jar to take a sample we were blown away by the very strong vodka (read rubbing alcohol) and pine sol smell that billowed out, but that didn't stop us! We tried a little sip and it was strong and unpleasant. We tried adding more simple syrup to sweeten it up but, alas,  it still tasted like rubbing alcohol. Maybe if we used a better vodka the results would be different?"
+        }
+    ],
+    "recipeCuisine": "italian",
+    "recipeCategory": "beverage"
+}

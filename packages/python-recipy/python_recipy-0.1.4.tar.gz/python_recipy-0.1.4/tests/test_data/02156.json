@@ -1,0 +1,113 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "The John Dory&#39;s Brooklynite Cocktail Recipe",
+    "datePublished": "2012-01-19T09:51:00.000-05:00",
+    "dateModified": "2018-08-30T05:27:45.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Maggie Hoffman",
+            "url": "https://www.seriouseats.com/maggie-hoffman-5118865"
+        }
+    ],
+    "description": "Fresh lime juice and honey balance this smooth, toasty cocktail from the John Dory Oyster Bar in NYC. Be sure to use a good rum here, since it plays a starring role.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/gMvepHGSlR7a8mb-BVRVHT0MUvc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__01__20120116-cocktail-brooklynite-ef18c745968a480cb74cd4bded8336ae.jpg",
+        "height": 458,
+        "width": 610
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "The John Dory&#39;s Brooklynite Cocktail Recipe",
+    "keywords": "citrus cocktails, john dory, rum",
+    "recipeCategory": [],
+    "recipeIngredient": [
+        "To make quick honey syrup:",
+        "1 ounce honey",
+        "1 ounce boiling water",
+        "To make cocktail:",
+        "3/4 ounce freshly squeezed lime juice",
+        "3/4 ounce quick honey syrup",
+        "2 ounces anejo rum",
+        "Dash Angostura bitters",
+        "Ice",
+        "Garnish: lime wedge"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "To make quick honey syrup, stir boiling water into honey in a heatsafe container. Make sure honey is completely dissolved and let cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add lime juice, 3/4 ounce honey syrup, rum, and bitters to a cocktail shaker and fill with ice. Shake well until very cold. Strain into cocktail glass and serve up with lime wedge."
+        }
+    ],
+    "recipeYield": "1",
+    "totalTime": "PT5M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "PDXbiker"
+            },
+            "reviewBody": "Top with champagne and you've got my favorite cocktail, the Airmail. Yum!"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/the-john-dorys-brooklynite-cocktail-rum-lime-honey-cocktail-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/cocktail-recipes-5117858",
+                        "name": "Cocktails"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/rum-recipes-5117852",
+                        "name": "Rum"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/the-john-dorys-brooklynite-cocktail-rum-lime-honey-cocktail-recipe",
+                        "name": "The John Dory&#39;s Brooklynite Cocktail Recipe"
+                    }
+                }
+            ]
+        }
+    }
+}

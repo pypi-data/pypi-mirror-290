@@ -1,0 +1,129 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Apple-Raspberry Pie",
+    "datePublished": "2010-12-19T15:24:03.000-05:00",
+    "dateModified": "2017-06-06T01:56:01.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Martha Stewart",
+            "url": "https://www.marthastewart.com/author/martha-stewart"
+        }
+    ],
+    "description": "This familiar fruit-filled dessert is a close cousin to classic apple pie. We started with a standard all-butter piecrust and our favorite cooking apples, then added raspberries to the mix. You should be able to find fresh berries in your local market; if not, frozen ones will do.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.marthastewart.com/thmb/o9t6cHQUOrTgu4zVP4dYfdp9VpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/apple-raspberry-pie-A102166_horiz-cc5212ab033b4dd491e8c194acaab7f9.jpgitoke-Ow9HoV",
+        "height": 422,
+        "width": 750
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Martha Stewart",
+        "url": "https://www.marthastewart.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.marthastewart.com/thmb/OrGf7M7NNCLRjtC4UMQrre8Dbzk=/640x640/filters:no_upscale():max_bytes(150000):strip_icc()/martha_stewart_logo_schema-d4d4988b043746a298d19488f9a6803d.png",
+            "width": 640,
+            "height": 640
+        },
+        "brand": "Martha Stewart",
+        "publishingPrinciples": "https://www.marthastewart.com/about-marthastewart-com-7104054#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/marthastewart/",
+            "https://www.instagram.com/marthastewart/",
+            "https://twitter.com/marthaliving/",
+            "https://www.pinterest.com/marthastewart/",
+            "https://www.youtube.com/user/marthastewart/",
+            "https://www.tiktok.com/@marthastewartliving",
+            "https://flipboard.com/@marthastewartliving",
+            "https://en.wikipedia.org/wiki/Martha_Stewart_Living",
+            "https://www.facebook.com/MarthaStewartWeddings/",
+            "https://www.instagram.com/martha_weddings",
+            "https://twitter.com/MarthaWeddings",
+            "https://www.pinterest.com/MarthaWeddings/",
+            "https://www.youtube.com/MarthaWeddings",
+            "https://www.youtube.com/everydayfood"
+        ]
+    },
+    "name": "Apple-Raspberry Pie",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3.6",
+        "ratingCount": "112"
+    },
+    "keywords": "Cortland apples, Dessert, Fall, Fruit pies, Raspberries, Rome Beauty apples, Thanksgiving",
+    "recipeIngredient": [
+        "2.75 pounds assorted baking apples, (such as Rome or Cortland), peeled, cored, and cut into ½-inch-thick slices",
+        "6 ounces fresh or partially thawed frozen raspberries",
+        "0.75 cup granulated sugar",
+        "0.25 cup all-purpose flour, plus more for work surface",
+        "1 tablespoon fresh lemon juice",
+        "Pinch of salt",
+        "Lucinda Scala Quinn&#039;s Pate Brisee",
+        "2 tablespoons unsalted butter, cut into pieces",
+        "1 large egg yolk",
+        "1 tablespoon heavy cream",
+        "Fine sanding sugar, for sprinkling"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat oven to 375 degrees. Stir apples, raspberries, granulated sugar, flour, lemon juice, and salt in a large bowl; set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "On a lightly floured surface, roll out 1 disk of dough to 1/8 inch thick. Cut into a 12-inch round. Fit into a 9-inch pie plate. Fill with apple mixture. Dot with butter."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "On a lightly floured surface, roll out remaining disk of dough to 1/8 inch thick. Cut into a 12-inch round. Drape over filling. Trim overhang to 1 inch. Press edges to seal. Fold overhang under, and crimp as desired. Make five 3-inch slits in top crust. Refrigerate 20 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Whisk egg yolk and cream in a bowl; brush over top crust. Sprinkle with sanding sugar. Bake until crust is golden and juices are bubbling, 1 hour 10 minutes to 1 hour 20 minutes. Place foil on rack below to catch juices. Tent pie with foil if browning too quickly. Transfer to a wire rack; let cool 4 hours (up to overnight)."
+        }
+    ],
+    "recipeYield": [
+        "10"
+    ],
+    "totalTime": "PT0M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.marthastewart.com/314250/apple-raspberry-pie",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502284/dessert-recipes",
+                        "name": "Dessert & Treats Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/1502266/pie-recipes",
+                        "name": "Pie & Tarts Recipes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.marthastewart.com/314250/apple-raspberry-pie",
+                        "name": "Apple-Raspberry Pie"
+                    }
+                }
+            ]
+        }
+    }
+}

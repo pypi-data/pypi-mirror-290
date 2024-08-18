@@ -1,0 +1,125 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Pelmeni (Russian-Style Beef Dumplings)",
+    "url": "https://www.foodnetwork.com/recipes/pelmeni-russian-style-beef-dumplings-8633095",
+    "headline": "Pelmeni (Russian-Style Beef Dumplings)",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/22/DV3202_pelmeni_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1587583051707.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/22/DV3202_pelmeni_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1587583051707.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/04/22/DV3202_pelmeni_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1587583051707.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2020-04-22T15:03:40.619-04:00",
+    "dateModified": "2020-04-22T15:03:39.801-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Russian,Beef,Meat",
+    "cookTime": "P0Y0M0DT0H45M0.000S",
+    "totalTime": "P0Y0M0DT0H55M0.000S",
+    "recipeIngredient": [
+        "1 pound ground beef",
+        "1/2 tablespoon kosher salt",
+        "1/2 tablespoon ground black pepper",
+        "1/2 onion, grated",
+        "1 cup all-purpose flour",
+        "Pinch kosher salt",
+        "1/2 cup hot water",
+        "1 tablespoon canola oil",
+        "1 chopped green onion",
+        "1 stalk fresh dill, chopped",
+        "Kosher salt and ground black pepper",
+        "Sour cream, for serving"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "451",
+        "fatContent": "27g",
+        "saturatedFatContent": "9g",
+        "carbohydrateContent": "27g",
+        "fiberContent": "2g",
+        "sugarContent": "1g",
+        "proteinContent": "23g",
+        "cholesterolContent": "82mg",
+        "sodiumContent": "471mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "For the filling: Combine the beef, salt, pepper and onion in a stand mixer fitted with the paddle attachment and slowly mix together."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For the dough: Line a baking sheet with parchment paper and set aside."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add flour and salt to the cleaned bowl of a stand mixer and slowly mix. Add water and oil. Mix completely. Knead the dough into a ball, then roll into a log shape."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Slice a thin piece of dough and roll into a thin 4-inch round. Place 1 tablespoon beef mixture in the center of the dough circle. Fold circle into a half-moon and seal the edges. Bend the dumplings while pinching center and bringing the edges together. (Shape will be similar to a tortellini.) Place on the lined baking sheet. Repeat with remaining dough and filling. Refrigerate for about 10 minutes to help them hold their shape."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Bring a large pot of salted water to a boil. Add dumplings; they will rise to the top once they are finished cooking."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Plate and garnish with fresh green onion, dill, salt, pepper and sour cream."
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+    },
+    "recipeYield": "2 to 4 servings",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matrissa"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": "1",
+                "bestRating": "5"
+            },
+            "reviewBody": "Exactly as I was taught in Russia. Excellent homey food, a labor of Love!  Don’t be tempted to use the pelmentsia contraption to hurry the work. Make these each rolled and filled by hand. The dough will be the correct thickness only then. Don’t skip the garnishes, even if dried dill and green onion.  Melted butter or sour cream.  Difficult to decide which is better!"
+        }
+    ],
+    "recipeCuisine": "russian",
+    "recipeCategory": []
+}

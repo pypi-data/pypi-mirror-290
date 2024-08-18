@@ -1,0 +1,74 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Buffalo Wings",
+    "keywords": "buffalo wings",
+    "recipeCategory": "Dinner",
+    "image": "https://mojo.generalmills.com/api/public/content/Pb_LDkotwkueT-g-G44sPA_webp_base.webp?v=c1ba1f2f&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "description": "Enjoy the spicy flavors of these chicken drummettes - appetizer ready in 50 minutes.",
+    "recipeIngredient": [
+        "2  quarts oil for frying",
+        "1/2  cup Gold Medal™ all-purpose flour",
+        "1/4  teaspoon paprika",
+        "1/4  teaspoon ground red pepper (cayenne)",
+        "1/4  teaspoon salt",
+        "2  packages (1 lb each) chicken drummettes",
+        "1/4  cup butter",
+        "1/4  cup red pepper sauce",
+        "1/8  teaspoon black pepper",
+        "1/8  teaspoon garlic powder"
+    ],
+    "totalTime": "PT0H50M",
+    "prepTime": "PT0H50M",
+    "recipeYield": "16",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "11",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In deep fryer or 3-quart heavy saucepan, heat oil to 375°F."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 1-gallon resealable food-storage plastic bag, mix flour, paprika, red pepper, and salt. Add chicken, seal bag and shake until chicken is coated with flour."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fry chicken in batches (to avoid over crowding) about 10 minutes each or until brown and no longer pink in center. Drain on paper towels."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in 1-quart saucepan combine butter, pepper sauce, black pepper and garlic powder; cook over medium-high heat, 3 to 5 minutes, stirring occasionally, until butter is melted and mixture is blended."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In large bowl, toss chicken with butter mixture until completely coated."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "120 ",
+        "carbohydrateContent": "3 g",
+        "cholesterolContent": "30 mg",
+        "fatContent": "1 ",
+        "fiberContent": "0 g",
+        "proteinContent": "7 g",
+        "saturatedFatContent": "3 g",
+        "servingSize": "1 Appetizer",
+        "sodiumContent": "170 mg",
+        "sugarContent": "0 g",
+        "transFatContent": "0 g"
+    },
+    "dateCreated": "11/12/2009",
+    "dateModified": "05/24/2011"
+}

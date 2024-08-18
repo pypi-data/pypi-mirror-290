@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": true,
+    "name": "Ginger Bbq Sauce",
+    "url": "https://www.foodnetwork.com/recipes/ginger-bbq-sauce-recipe-1969504",
+    "headline": "Ginger Bbq Sauce",
+    "author": {
+        "@type": "Person",
+        "name": "Food Network"
+    },
+    "image": [
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.1280.suffix/1474463768097.jpeg",
+            "height": "1280",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.960.suffix/1474463768097.jpeg",
+            "height": "960",
+            "width": "1280"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/editorial/homepage/fn-feature.jpg.rend.hgtvcom.1280.720.suffix/1474463768097.jpeg",
+            "height": "720",
+            "width": "1280"
+        }
+    ],
+    "datePublished": "2016-11-18T23:43:39.036-05:00",
+    "dateModified": "2014-06-04T11:52:15.125-04:00",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food Network",
+        "url": "https://www.foodnetwork.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://food.fnr.sndimg.com/etc/clientlibs/assets/images/food/fn-logo-flat-60x60.png",
+            "height": "60",
+            "width": "60"
+        }
+    },
+    "keywords": "Sauce Recipes,Barbecuing,Gluten Free,Vegan",
+    "recipeIngredient": [
+        "1 tablespoon olive oil",
+        "1/2 medium onion, diced",
+        "2 tablespoons grated fresh ginger",
+        "1/4 cup white vinegar",
+        "1 cup adobo or barbecue sauce",
+        "2 tablespoons brown sugar",
+        "1/2 teaspoon freshly ground black pepper"
+    ],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 of 4 servings",
+        "calories": "181",
+        "fatContent": "4g",
+        "saturatedFatContent": "1g",
+        "carbohydrateContent": "36g",
+        "fiberContent": "1g",
+        "sugarContent": "29g",
+        "proteinContent": "1g",
+        "cholesterolContent": "0mg",
+        "sodiumContent": "737mg"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Heat the oil in a skillet over medium low heat. Saute the onions until soft, about 5 to 7 minutes. Add the ginger and cook for 1 minute to release the aromas."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Add the vinegar and simmer to reduce by half. Add barbecue sauce, brown sugar and pepper and simmer, stirring occasionally, until sauce thickens, about 15 minutes. Place the sauce in a blender and puree."
+        }
+    ],
+    "recipeYield": "4 to 6 servings",
+    "recipeCategory": []
+}

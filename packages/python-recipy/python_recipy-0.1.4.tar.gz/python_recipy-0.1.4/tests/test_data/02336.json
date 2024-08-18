@@ -1,0 +1,71 @@
+{
+    "@type": "Recipe",
+    "@context": "http://schema.org/",
+    "name": "Beer-Cheese Kielbasa with Tortellini",
+    "keywords": "beer-cheese kielbasa with tortellini",
+    "recipeCategory": "Entree",
+    "recipeCuisine": "Italian",
+    "image": "https://mojo.generalmills.com/api/public/content/_p3WJcvUWUqfUA5l3hQbYA_webp_base.webp?v=8b0680b0&t=85e6ab0127c04f66a40c0b82332e03a6",
+    "recipeIngredient": [
+        "1  package (9 oz) refrigerated three-cheese tortellini",
+        "3/4  cup water",
+        "1/3  cup all-purpose flour",
+        "1  cup light beer",
+        "1/3  cup sliced green onions with tops",
+        "3  tablespoons chili sauce",
+        "2  teaspoons ground mustard",
+        "1/2  teaspoon salt",
+        "1  package (14 oz) cooked kielbasa or other smoked sausage, cut diagonally into 1-inch-thick slices",
+        "1 1/2  cups shredded Cheddar cheese (6 oz)",
+        "2  tablespoons diced roasted red bell peppers (from a jar)"
+    ],
+    "totalTime": "PT0H30M",
+    "prepTime": "PT0H30M",
+    "recipeYield": "4",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "3",
+        "ratingCount": "2",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Betty Crocker Kitchens"
+    },
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Fill 12-inch nonstick skillet half full with water (about 6 cups). Heat to boiling. Add tortellini; cook uncovered minimum time as directed on bag, stirring occasionally. Drain."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In 1-cup measuring cup, stir 3/4 cup water and the flour with whisk until smooth; pour into same skillet. Stir in beer, green onions, chili sauce, mustard and salt. Heat to boiling. Reduce heat; simmer uncovered 1 minute, stirring constantly, until thickened."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Gently fold in tortellini and kielbasa. Cover; cook over medium-low heat about 5 minutes or until kielbasa is hot."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Fold in cheese, 1/2 cup at a time, until melted. Remove from heat; top with roasted peppers."
+        }
+    ],
+    "mainEntity": [],
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "740 ",
+        "carbohydrateContent": "46 g",
+        "cholesterolContent": "125 mg",
+        "fatContent": "2 1/2 ",
+        "fiberContent": "3 g",
+        "proteinContent": "32 g",
+        "saturatedFatContent": "21 g",
+        "servingSize": "1 Serving",
+        "sodiumContent": "1950 mg",
+        "sugarContent": "5 g",
+        "transFatContent": "1 g"
+    },
+    "dateCreated": "12/19/2013",
+    "dateModified": "03/10/2015"
+}

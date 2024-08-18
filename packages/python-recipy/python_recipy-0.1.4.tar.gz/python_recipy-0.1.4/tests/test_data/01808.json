@@ -1,0 +1,51 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "image": [
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/113_1_1438935846.jpg?tr=w-800,h-800",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/113_1_1438935846.jpg?tr=w-800,h-600",
+        "https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/113_1_1438935846.jpg?tr=w-800,h-450,fo-face"
+    ],
+    "name": "Chargrilled marinated vegetables",
+    "recipeCategory": "Sides",
+    "description": "I love the smoky flavour and slight crunch of chargrilled vegetables – no par-boiling needed!",
+    "recipeYield": "4",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+        "2  red peppers ",
+        "2  yellow peppers ",
+        "2 medium courgettes ",
+        "1 bulb fennel ",
+        "1  aubergine ",
+        "8  baby leeks ",
+        "  sea salt ",
+        "  freshly ground black pepper ",
+        "  extra virgin olive oil ",
+        "1 large bunch fresh basil leaves picked",
+        "2 tablespoons herb or white wine vinegar ",
+        "1 clove garlic "
+    ],
+    "recipeInstructions": "<ol class=\"recipeSteps\"><li><i>The first time I ever made this was at the Neal Street Restaurant, and about two years later, when I was at the River Café, Rose Gray showed me her way of doing it. She inspired me to think of grilling as a really exciting way to prepare vegetables.</i></li><li>Wash all your vegetables. Heat the barbecue or a griddle pan, put your whole peppers on it, and get them really black on all sides. While still hot, put them in a bowl, cover with cling film and leave to cool.</li><li>Slice your courgettes lengthways about 0.5cm thick and do the same with your fennel, reserving the herby tops. Grill the courgette and fennel together on the griddle pan for about a minute on each side or until nicely charred. You don’t want them too black or too raw. Transfer to a clean tea towel in one layer, making sure they don’t sit on top of each other, otherwise they will steam and go soggy.</li><li>Cut the aubergine across into slices 1cm inch thick. Every now and again you get an aubergine that is really seedy — if this happens, it will be bitter and no good, so throw it away and get yourself another one. Chargrill the aubergine slices, turning them 4 times until nicely marked, then transfer to the tea towel.</li><li>Boil the baby leeks in salted water until they’re just cooked. Then drain, rub with a little olive oil, and chargrill them quickly until lightly marked. </li><li>Peel the peppers but don’t hold them under the tap as all the sweet fantastic flavour will go down the drain. Carefully rub off the black skin, then remove the stalk and pips and tear the peppers up into large strips. Now put all the vegetables into a large bowl.</li><li>Take about a quarter of your basil leaves and bash them in a pestle and mortar with a good pinch of seasoning until you have a smooth pulp. Add about 8 tablespoons of extra virgin olive oil and the vinegar, to taste. Pour this over the vegetables and toss quickly so that everything gets coated in the lovely basil oil, then throw in the remaining whole basil leaves. Slice the garlic really thinly to give you a delicate flavour and add to the bowl with the fennel tops. Mix everything together, and serve on a large plate at room temperature. Great with any grilled fish or meat, or as part of an antipasti plate with some toasted bruschetta and some fresh buffalo mozzarella.</li></ol>",
+    "keywords": "aubergine, fennel, courgette, dairy-free, vegetarian, gluten-free, vegetable, leek, leeks, vegetables, Vegetable sides, Vegetables, BBQ &amp; grilling",
+    "suitableForDiet": [
+        "https://schema.org/LowLactoseDiet",
+        "https://schema.org/VegetarianDiet",
+        "https://schema.org/GlutenFreeDiet"
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Jamie Oliver"
+    },
+    "nutrition": {
+        "calories": "304 calories",
+        "fatContent": "25.3 g fat",
+        "saturatedFatContent": "3.7 g saturated fat",
+        "proteinContent": "5.6 g protein",
+        "carbohydrateContent": "14.2 g carbohydrate",
+        "sugarContent": "12.6 g sugar",
+        "sodiumContent": "0.5 g salt",
+        "fiberContent": "7.2 g fibre",
+        "@type": "NutritionInformation"
+    },
+    "datePublished": "2015-09-16"
+}

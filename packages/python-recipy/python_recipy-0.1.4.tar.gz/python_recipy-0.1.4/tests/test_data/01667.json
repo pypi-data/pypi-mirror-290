@@ -1,0 +1,116 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe",
+        "NewsArticle"
+    ],
+    "headline": "Creamy Caesar Salad with Torn Croutons",
+    "datePublished": "2013-12-06T18:21:39.000-05:00",
+    "dateModified": "2017-05-17T12:29:02.000-04:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "April Bloomfield",
+            "url": "https://www.foodandwine.com/april-bloomfield-8412421"
+        }
+    ],
+    "description": "The key to chef April Bloomfield&#39;s outstanding Caesar salad—which features a tangy, garlicky Parmesan dressing—is to serve it ice-cold.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.foodandwine.com/thmb/UHAHzyy-Ijv8p8yDXw9sk-sTWkA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/201306-xl-creamy-caesar-salad-with-torn-croutons-89f953d0a9d94b0f9a97ad1f17b83248.jpg",
+        "height": 1024,
+        "width": 1024
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Food & Wine",
+        "url": "https://www.foodandwine.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+            "width": 112,
+            "height": 112
+        },
+        "brand": "Food & Wine",
+        "publishingPrinciples": "https://www.foodandwine.com/about-us-6373913#toc-editorial-policies",
+        "sameAs": [
+            "https://www.facebook.com/foodandwine",
+            "https://www.instagram.com/foodandwine/?hl=en",
+            "https://twitter.com/foodandwine",
+            "https://www.pinterest.com/foodandwine/",
+            "https://flipboard.com/@foodandwine",
+            "https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+            "https://en.wikipedia.org/wiki/Food_%26_Wine"
+        ]
+    },
+    "name": "Creamy Caesar Salad with Torn Croutons",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "5907"
+    },
+    "recipeIngredient": [
+        "1/2 pound day-old rustic Italian bread, crusts discarded and bread torn into bite-size pieces",
+        "10 anchovy fillets, plus more for garnish",
+        "1/4 cup red wine vinegar",
+        "3 tablespoons Dijon mustard",
+        "2 garlic cloves",
+        "1 large egg",
+        "1 cup vegetable oil",
+        "1/3 cup freshly grated Parmigiano-Reggiano cheese, plus finely shredded cheese, for serving",
+        "Kosher salt",
+        "Freshly ground pepper",
+        "18 ounces Little Gem lettuce, leaves separated and chilled"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "Preheat the oven to 400°. Spread the bread pieces on a rimmed baking sheet and bake for about 12 minutes, until golden and crisp; let the croutons cool."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Meanwhile, in a food processor, combine the 10 anchovy fillets with the vinegar, mustard and garlic and puree until smooth. Add the egg and pulse until just incorporated. With the machine on, gradually drizzle in the vegetable oil until emulsified. Scrape the dressing into a bowl and stir in the 1/3 cup of grated cheese. Season with salt and pepper. Cover the dressing with plastic wrap and refrigerate until well chilled and thickened, at least 30 minutes."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a very large bowl, toss the chilled lettuce leaves with half of the dressing, gently rubbing the dressing onto the leaves with your hands. (Save the remaining dressing for another salad or to serve with grilled chicken.) Arrange the dressed lettuce on a platter and scatter the croutons on top. Garnish with anchovy fillets and serve right away, passing shredded Parmigiano cheese at the table."
+        }
+    ],
+    "totalTime": "PT60M",
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.foodandwine.com/recipes/creamy-caesar-salad-torn-croutons",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/salads/green-salads",
+                        "name": "Green Salads"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/salads/caesar-salad",
+                        "name": "Caesar Salad"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.foodandwine.com/recipes/creamy-caesar-salad-torn-croutons",
+                        "name": "Creamy Caesar Salad with Torn Croutons"
+                    }
+                }
+            ]
+        }
+    },
+    "recipeCategory": []
+}

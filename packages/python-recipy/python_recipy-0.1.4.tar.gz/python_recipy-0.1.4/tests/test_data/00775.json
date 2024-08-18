@@ -1,0 +1,328 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1024799-roasted-chicken-broth#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1024799-roasted-chicken-broth",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2023/11/10/multimedia/10cs-thanskgiving7-stock-bkhc/10cs-thanskgiving7-stock-bkhc-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1024799-roasted-chicken-broth",
+    "name": "Roasted Chicken Broth",
+    "description": "This broth is designed to be made in the days before Thanksgiving, which is why it calls for turkey giblets and trim pieces in addition to wings. Roasting the vegetables and turkey bits imbues the broth with the flavors of roast turkey drippings, making it perfect for make-ahead white wine gravy. Don’t be alarmed if your chilled broth gelatinizes – that’s a sign you extracted lots of collagen, a mark of good broth. (Watch Claire make Thanksgiving dinner from start to finish on YouTube.)",
+    "author": {
+        "@type": "Person",
+        "name": "Claire Saffitz"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/10cs-thanskgiving7-stock-bkhc/10cs-thanskgiving7-stock-bkhc-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/10cs-thanskgiving7-stock-bkhc/10cs-thanskgiving7-stock-bkhc-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/10cs-thanskgiving7-stock-bkhc/10cs-thanskgiving7-stock-bkhc-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2023/11/10/multimedia/10cs-thanskgiving7-stock-bkhc/10cs-thanskgiving7-stock-bkhc-verticalTwoByThree735.jpg",
+            "height": 1103,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "prepTime": "PT15M",
+    "cookTime": "PT4H",
+    "totalTime": "PT4H15M",
+    "recipeYield": "2 quarts",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "carrot, celery, chicken wing, dry white wine, dutch oven, freezer friendly, garlic, make-ahead, yellow onion, thanksgiving",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "ratingCount": 91
+    },
+    "recipeIngredient": [
+        "2 large carrots, scrubbed but unpeeled, halved crosswise",
+        "2 celery ribs, rinsed and halved crosswise",
+        "1 large yellow onion, unpeeled, rinsed and quartered through the stem",
+        "1 whole head garlic, halved through the equator",
+        "Turkey neck, wing tips and/or giblets (optional), patted dry",
+        "Handful of parsley stems",
+        "A few sprigs of fresh thyme",
+        "2 bay leaves",
+        "1 teaspoon whole peppercorns",
+        "3 tablespoons neutral oil, such as avocado",
+        "2 pounds chicken or turkey wings, patted dry",
+        "1/2 cup dry white wine",
+        "Salt",
+        "2 cups ice cubes, plus more as needed"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Heat oven to 425 degrees. In a large Dutch oven or 8-quart stainless-steel stock pot, toss the carrot, celery, onion, garlic, turkey neck, wing tips and giblets (if using), parsley stems, thyme, bay leaves and peppercorns with oil until the pieces are coated. Transfer the pot to the oven and roast until the bottom of the pot has lots of browned bits, tossing once or twice, 30 to 40 minutes."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Carefully transfer the Dutch oven to the stovetop and add the white wine, scraping the bottom with a wooden spoon or spatula to dissolve the browned bits, then add the wings, a couple of pinches of salt and 3 quarts of water. Bring the liquid to a boil over high heat, then reduce the heat to maintain a gentle simmer. Cook the broth, occasionally skimming off any foam and fat that collects on the surface, until it’s reduced by about half, is a rich golden brown color, and tastes very chickeny, 3 to 3 1/2 hours. Taste the broth (be careful, it’s hot!) and season with more salt, stirring gently to dissolve, until it tastes like chicken soup."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Remove the pot from the heat, add 2 cups ice (to help cool it down), and let the broth sit until it’s warm but not burning hot, about 30 minutes. Strain the broth into quart containers, discarding the solids. You should have 7 to 8 cups. If you have less than 7, add more ice until you get there. Refrigerate the broth until you’re ready to use it. (The broth can be refrigerated 2 days ahead, or frozen for up to 3 months.)"
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "datePublished": "2023-11-09T00:00:00.000Z",
+    "dateModified": "2023-11-16T15:34:25.000Z",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Leela"
+            },
+            "reviewBody": "Best broth ever. Made it in March from frozen organic chicken backs—the fragrance and flavor are beyond any broth I’ve ever made. Thank you!",
+            "datePublished": "2024-03-27T08:14:03.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Karen"
+            },
+            "reviewBody": "This is excellent.  I've used it (and changed it as necessary) and it is always very very good.  Passing it down to my children as my own.  :)",
+            "datePublished": "2024-01-24T01:10:35.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Lois"
+            },
+            "reviewBody": "Second “zcooks”. A revelation to a regular broth maker. Used mostly rabbit - poor thing was too old for anything else lol and a turkey neck. Less gelatinous bc well… rabbit, but delicious and versatile",
+            "datePublished": "2024-01-12T03:39:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "L'il Greener"
+            },
+            "reviewBody": "Incredible flavor and gelatinous broth .  Used 10 chicken wings, no giblets.  And when preparing the gravy, the roasted turkey drippings.  Now my go-to whenever we need great gravy.  And when is that not the case?",
+            "datePublished": "2023-11-27T16:02:02.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "SandraFinTX"
+            },
+            "reviewBody": "This broth recipe was simple to prepare (the day prior to Thanksgiving w/ very light seasoning), delicious and from now on, will be a staple on my Thanksgiving preparation menu. My family raved about the tasty flavors of the gravy and bread stuffing; both of which were made using generous amounts of this broth.",
+            "datePublished": "2023-11-24T21:42:45.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bob"
+            },
+            "reviewBody": "Great, classic stock recipe. The only thing I added to this was the turkey back bone from spatchcocking it. When set up in the fridge the stock was like jello, just how it should be.",
+            "datePublished": "2023-11-24T17:45:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maria"
+            },
+            "reviewBody": "I did, and definitely not as gelatinous or AMAZING as everyone else's broth seems to be but still tasty.",
+            "datePublished": "2023-12-06T23:40:56.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "GGG"
+            },
+            "reviewBody": "Can I use a chicken carcass instead of wings? I have one ready for a stock that would be great to use.",
+            "datePublished": "2023-11-22T01:59:34.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Uwbikelady"
+            },
+            "reviewBody": "Making it now.  Be aware that turkey wings are much larger than chicken wings.  I ended up cutting the drummette off my 2 wings to get down to 2 lbs.",
+            "datePublished": "2023-11-19T17:57:37.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CR"
+            },
+            "reviewBody": "can anything be done with all the chicken parts once it's been strained?--feed to the cat?  make chicken salad? or should it be tossed",
+            "datePublished": "2023-11-20T14:13:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Nolan"
+            },
+            "reviewBody": "If I make this today, am I good for T-giving?\nI’m trying to get as much done ahead of time as I can.\nI’m surprised that it only holds for a couple days in the fridge.\nND",
+            "datePublished": "2023-11-19T15:52:42.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "You can use chicken or turkey parts to make the stock- then you end up with either chicken or turkey gravy.  Most markets sell turkey wings.",
+            "datePublished": "2023-11-17T22:45:46.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maryellen"
+            },
+            "reviewBody": "Recipe includes 2 pounds of chicken wings. The recipe is for broth to be used when making the gravy.",
+            "datePublished": "2023-11-18T01:24:49.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Jessica"
+            },
+            "reviewBody": "The recipe calls for chicken OR turkey wings. Chicken wings are usually easier to find and probably cheaper. You usually buy a turkey before Thanksgiving. When you get the turkey and start to brine it (usually a few days before thanksgiving) you'll take out the neck and the giblets. So - this is meant to be done a few days before Thanksgiving. This is a recipe for stock, not gravy. You'll use this stock to make your gravy. She's got a good recipe on here for the stock too :) Hope that helps!",
+            "datePublished": "2023-11-18T01:51:06.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Hermione"
+            },
+            "reviewBody": "okay sorry to be stupid but how is this chicken gravy if there is no chicken in it, and why would anyone have turkey giblets and wings on hand *before* Thanksgiving? I have never made gravy...",
+            "datePublished": "2023-11-16T03:35:15.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Matt"
+            },
+            "reviewBody": "If you want to keep it for a week, you should cool it and then freeze it",
+            "datePublished": "2023-11-17T22:47:00.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Emilie"
+            },
+            "reviewBody": "I made this last night - full week before Thanksgiving. Do I need to freeze it or can I just keep in fridge? Smelled and tasted amazing.",
+            "datePublished": "2023-11-17T13:53:58.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CarlyN"
+            },
+            "reviewBody": "This recipe should be included on its own in the Claire Saffitz Thanksgiving Recipe collection. Also, it’s amazing and my kitchen smells so good.",
+            "datePublished": "2023-11-16T19:41:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "zcooks"
+            },
+            "reviewBody": "As someone who makes homemade broth on the regular, this recipe really takes it to the next level.  The depth of flavor was noticeable. Only making broth this way from now on.",
+            "datePublished": "2023-11-16T15:19:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "zcooks"
+            },
+            "reviewBody": "As someone who makes homemade broth on the regular, this recipe really takes it to the next level.  The depth of flavor was noticeable. Only making broth this way from now on.",
+            "datePublished": "2023-11-16T15:19:47.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CarlyN"
+            },
+            "reviewBody": "This recipe should be included on its own in the Claire Saffitz Thanksgiving Recipe collection. Also, it’s amazing and my kitchen smells so good.",
+            "datePublished": "2023-11-16T19:41:12.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "CR"
+            },
+            "reviewBody": "can anything be done with all the chicken parts once it's been strained?--feed to the cat?  make chicken salad? or should it be tossed",
+            "datePublished": "2023-11-20T14:13:31.000Z"
+        }
+    ]
+}

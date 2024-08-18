@@ -1,0 +1,355 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cooking.nytimes.com/recipes/1022790-bacon-wrapped-dates#WebPage",
+        "url": "https://cooking.nytimes.com/recipes/1022790-bacon-wrapped-dates",
+        "primaryImageOfPage": "https://static01.nyt.com/images/2021/11/30/dining/as-bacon-wrapped-dates/as-bacon-wrapped-dates-videoSixteenByNineJumbo1600.jpg",
+        "isAccessibleForFree": "False",
+        "hasPart": {
+            "@type": "WebPageElement",
+            "isAccessibleForFree": "False",
+            "cssSelector": ".recipe"
+        }
+    },
+    "url": "https://cooking.nytimes.com/recipes/1022790-bacon-wrapped-dates",
+    "name": "Bacon-Wrapped Dates",
+    "description": "A bacon-wrapped date is sweet, smoky, squidgy and crisp, all in one bite-size package. The trick is getting the bacon to cook before the date burns, and you can do that by starting in a cold oven so that the bacon slowly renders its fat and evenly crisps. While this appetizer was en vogue in the 1970s and 1980s, it has never gone out of style. In fact, it dates back to Victorian England, when bacon-wrapped oysters or prunes (also known as angels or devils on horseback) were eaten before or after a meal. (“Horseback” referred to their being served on toast.) Sometimes the prunes were soaked in tea or liqueur, and stuffed with chutney, cheese, or nuts. You can do the same if you like.",
+    "author": {
+        "@type": "Person",
+        "name": "Ali Slagle"
+    },
+    "image": [
+        {
+            "url": "https://static01.nyt.com/images/2021/11/30/dining/as-bacon-wrapped-dates/as-bacon-wrapped-dates-square640.jpg",
+            "height": 640,
+            "width": 640,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/11/30/dining/as-bacon-wrapped-dates/merlin_195006537_a4509806-6b97-4373-8018-2cc0acff846a-superJumbo.jpg",
+            "height": 1365,
+            "width": 2048,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/11/30/dining/as-bacon-wrapped-dates/as-bacon-wrapped-dates-videoSmall.jpg",
+            "height": 281,
+            "width": 500,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        },
+        {
+            "url": "https://static01.nyt.com/images/2021/11/30/dining/as-bacon-wrapped-dates/as-bacon-wrapped-dates-verticalTwoByThree735.jpg",
+            "height": 1102,
+            "width": 735,
+            "@context": "http://schema.org",
+            "@type": "ImageObject"
+        }
+    ],
+    "totalTime": "PT30M",
+    "recipeYield": "16 dates",
+    "recipeCuisine": "",
+    "recipeCategory": [],
+    "keywords": "bacon, dates, christmas, thanksgiving, fall, winter",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4,
+        "ratingCount": 560
+    },
+    "nutrition": {
+        "@context": "http://schema.org",
+        "@type": "NutritionInformation",
+        "calories": 248,
+        "unsaturatedFatContent": "6 grams",
+        "carbohydrateContent": "36 grams",
+        "cholesterolContent": null,
+        "fatContent": "11 grams",
+        "fiberContent": "3 grams",
+        "proteinContent": "5 grams",
+        "saturatedFatContent": "4 grams",
+        "sodiumContent": "218 milligrams",
+        "sugarContent": "32 grams",
+        "transFatContent": "0 grams"
+    },
+    "recipeIngredient": [
+        "8 slices bacon",
+        "16 medium Medjool dates, pitted",
+        "Black pepper (optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Using scissors, cut each slice of bacon in half crosswise at a diagonal, like cutting ribbon. (This will help secure the bacon to the date.) Starting at the straight end of the bacon, roll the bacon around the dates. Tuck the point under the wrapped bacon to secure. Place seam side down on a baking sheet."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Place in the oven, and heat the oven to 400 degrees. Cook for 10 minutes, then flip and cook until golden brown all over, another 5 to 15 minutes, depending on the thickness of your bacon."
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "HowToStep",
+            "text": "Season with black pepper (if desired), then transfer to a paper towel-lined plate to crisp and cool slightly."
+        }
+    ],
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "NYT Cooking",
+        "url": "https://cooking.nytimes.com",
+        "alternateName": [
+            "nytimes cooking",
+            "New York Times Cooking"
+        ],
+        "logo": {
+            "@context": "https://schema.org",
+            "@type": "ImageObject",
+            "url": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "height": 112,
+            "width": 112,
+            "contentUrl": "https://static01.nyt.com/applications/cooking/7ca0da2/assets/SiteLogoBlack-112x112.svg",
+            "creditText": "NYT Cooking"
+        },
+        "sameAs": [
+            "https://www.facebook.com/nytcooking/",
+            "https://www.instagram.com/nytcooking/",
+            "https://twitter.com/nytimes",
+            "https://www.youtube.com/c/NYTCooking",
+            "https://www.tiktok.com/@nytcooking",
+            "https://apps.apple.com/us/app/nyt-cooking/id911422904",
+            "https://play.google.com/store/apps/details?id=com.nytimes.cooking&hl=en_US&gl=US"
+        ]
+    },
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Caroline"
+            },
+            "reviewBody": "These are fabulous!  I used whole dates and pitted them myself, topped with pepper and smoked paprika.  I stuffed half of them with fresh raw pecans and half of them with good feta.  Delicious, thanks!",
+            "datePublished": "2024-04-14T21:52:08.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "David G"
+            },
+            "reviewBody": "Alan 2 years ago asked about a cold versus preheated oven. In the recipe description:  The trick is getting the bacon to cook before the date burns, and you can do that by starting in a cold oven so that the bacon slowly renders its fat and evenly crisps.",
+            "datePublished": "2024-03-15T19:03:07.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "JLJ"
+            },
+            "reviewBody": "Love love love these! Prep tip, put on a pair of food prep gloves- easier clean up with the sticky date and slimy delicious bacon fat all over your hands while rolling.",
+            "datePublished": "2024-02-11T22:43:21.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "beachfoodie"
+            },
+            "reviewBody": "Best hint is doing them on a rack with parchment underneath. Yes to toothpicks and thin bacon.",
+            "datePublished": "2024-01-06T21:26:26.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patti W"
+            },
+            "reviewBody": "A tasty twist on this is to use dried apricots instead of dates. Wrap in bacon and drizzle maple syrup on them when they come out of the oven. \n\nI use thick cut bacon slices cut in half. No toothpick needed if you put them seam side down on a broiler pan. Cook at 350 for ~ 20 minutes.",
+            "datePublished": "2023-12-30T16:18:16.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Cathy B"
+            },
+            "reviewBody": "My son's and their friends request this for every holiday party...we stuff the dates with chorizo and drizzle with red pepper cream.",
+            "datePublished": "2023-12-28T22:22:13.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Brenda"
+            },
+            "reviewBody": "1/3 of a piece of bacon per date is plenty. Use a toothpick to hold it, rather than fussing with trying to tuck bacon into itself.",
+            "datePublished": "2023-12-24T14:59:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Blaze"
+            },
+            "reviewBody": "I made a big batch of these for a party and they were a hit! We only keep turkey bacon in the house and so that’s what I used. It did take quite a bit longer to get that type of bacon crispy and included some time under the broiler but well worth it.",
+            "datePublished": "2023-12-10T18:33:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ally H"
+            },
+            "reviewBody": "Pitting the dates is very easy with a chop stick—gently insert on one end of the date and push it though until it pokes a hole and pops out. I also used my finger to make the hole through the center of the date larger and stuffed it with goat cheese   pistachios   a tiny bit of honey. Wrapped them and baked them. Delicious!",
+            "datePublished": "2023-12-08T06:00:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "anicia"
+            },
+            "reviewBody": "stuffed w blue cheese. use thinner slice bacon (had 4 pieces, made 16) and cooked longer for crisp bacon and caramelized dates",
+            "datePublished": "2023-12-02T20:44:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Monica in Illinois"
+            },
+            "reviewBody": "I make these with almonds stuffed into the dates and prefer to use the vegan bacon strips. Started doing that to share with my vegetarian friends and found the vegan bacon much easier to manipulate and less messy. Tastes as good as the real thing and the end product is less greasy.",
+            "datePublished": "2023-06-10T12:03:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Mimi H."
+            },
+            "reviewBody": "My mom would place a water chestnut inside each date. Its crisp crunch paired with the soft date and the unctuous bacon was heavenly!",
+            "datePublished": "2023-03-11T22:06:01.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Meghan"
+            },
+            "reviewBody": "Stuffed with blue cheese. Didn’t flip. Delicious.",
+            "datePublished": "2023-02-09T03:24:25.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kristin"
+            },
+            "reviewBody": "Guests loved it. Have made variations of this before.  Personally I find medjool dates so overly sweet I don't enjoy it much but I love the idea. Trying to think of alternatives.",
+            "datePublished": "2022-12-26T21:35:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dee"
+            },
+            "reviewBody": "Cook on large iron skillet at 435",
+            "datePublished": "2022-12-24T14:56:10.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Maureen"
+            },
+            "reviewBody": "We've been making these for years stuffed with a whole almond.  My sister-in-law dubbed them \"Fatal Attractions\" because inside is a date with a nut!",
+            "datePublished": "2021-12-05T19:29:31.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Ryan"
+            },
+            "reviewBody": "Love these appetizers, even if they're a bit laborious (pitting the dates, if you can't find them pre-pitted; laying out the bacon and cutting it). I stuff them with bleu cheese, and then skewer them with a toothpick before laying them on parchment paper (because now they're sticky AND greasy).\n\nTop tip: mix a little brown sugar and chipotle, sprinkle on top before putting into the oven.",
+            "datePublished": "2021-12-05T16:15:20.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Juliet"
+            },
+            "reviewBody": "I’ve been making these for years (I’m from England) and I always secure the bacon with a toothpick. It helps to soak the toothpicks in warm water for a couple of hours beforehand so they don’t burn in the oven. Also, cook them on a rack placed over a foil lined sheet pan to catch the dripped bacon grease. (If you don’t use foil, the pan will be very hard to clean.)",
+            "datePublished": "2021-12-05T20:39:57.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Patrick and Ann"
+            },
+            "reviewBody": "Stuff the dates with thin sticks of cheese cut from a wedge of Parmesan or Parmigiano Reggiano - and you have a sweet and savory appetizer that is certain to be a crowd pleaser.",
+            "datePublished": "2021-12-05T16:58:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Alan"
+            },
+            "reviewBody": "Do you put these into a preheated 400 degree oven, or put them in a cold oven and then start to heat it, as the instructions seem to suggest?",
+            "datePublished": "2021-12-06T14:50:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bryan"
+            },
+            "reviewBody": "You can also stuff the dates with blue cheese prior to wrapping in bacon.  The contrast of all three flavors is very enjoyable.",
+            "datePublished": "2021-12-05T16:07:36.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Catherine"
+            },
+            "reviewBody": "These are delish, especially when the dates are stuffed with with chevre; the mild, slightly tart, creamy qualities of the chevre helps to balance the intensity of flavor in 5he bacon and dates.",
+            "datePublished": "2021-12-06T06:11:55.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Kevin C."
+            },
+            "reviewBody": "Stuffed with blue cheese, spritzed when cool with balsamic glaze. Sweet, smoky, salty, meaty, tangy. A bite of heaven.\n\nYes on the toothpicks.",
+            "datePublished": "2021-12-06T05:04:05.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Signorina Importanta"
+            },
+            "reviewBody": "These are a staple in our home for the Christmas season - a few tips on how we handle these:\n- Pitting the dates is really not such a big deal, watch something amusing while you do it.\n- A thinner cut of bacon is easier and won't break open as easily as a thick cut.\n- These are perfect as is, but as a variation, fill with a pinch of minced/chopped pistachios before wrapping - far less likely to break your mother's tooth on Christmas day than a whole almond. I speak from experience.",
+            "datePublished": "2021-12-11T01:42:11.000Z"
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Dudley"
+            },
+            "reviewBody": "My sister made these for Thanksgiving, with a dab of Stilton in the date. Delicious!",
+            "datePublished": "2021-12-05T16:21:09.000Z"
+        }
+    ]
+}

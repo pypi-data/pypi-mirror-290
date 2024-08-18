@@ -1,0 +1,230 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+        "Recipe"
+    ],
+    "headline": "Sous Vide Steaks",
+    "datePublished": "2010-03-03T07:55:00.000-05:00",
+    "dateModified": "2024-03-03T21:59:46.305-05:00",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "J. Kenji López-Alt",
+            "url": "https://www.seriouseats.com/j-kenji-lopez-alt-5118720"
+        }
+    ],
+    "description": "Thanks to the precise temperature control of an immersion circulator, sous vide steak turns out more consistently cooked than traditional steak, every time.",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.seriouseats.com/thmb/-KA2hwMofR2okTRndfsKtapFG4Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__05__Anova-Steak-Guide-Sous-Vide-Photos15-beauty-159b7038c56a4e7685b57f478ca3e4c8.jpg",
+        "height": 1125,
+        "width": 1500
+    },
+    "video": {
+        "@type": "VideoObject",
+        "contentUrl": "https://content.jwplatform.com/videos/6Zj7e9p9-YWmivM3Y.mp4",
+        "description": "Cooking sous vide means your steak will always turn out at the exact level of doneness you prefer, edge to edge, with no gradient at all. It's also almost 100% hands-off. [Video: Serious Eats Team. Technique: J. Kenji López-Alt]",
+        "duration": "PT8M22S",
+        "name": "How to Cook a Steak Sous Vide",
+        "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/6Zj7e9p9/poster.jpg?width=720",
+        "uploadDate": "2021-04-26T13:19:27.614-04:00"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Serious Eats",
+        "url": "https://www.seriouseats.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.seriouseats.com/thmb/YfQU2tc6Ask4mMy6oMJDaulMqqE=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-30a63d9c07734d35836c8ff2d368419c.png",
+            "width": 320,
+            "height": 320
+        },
+        "brand": "Serious Eats",
+        "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#toc-editorial-guidelines",
+        "sameAs": [
+            "https://www.facebook.com/seriouseats",
+            "https://www.instagram.com/seriouseats",
+            "https://www.pinterest.com/seriouseats"
+        ]
+    },
+    "name": "Sous Vide Steaks",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "15"
+    },
+    "cookTime": "PT65M",
+    "keywords": "beef, easy, low carb",
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "369 kcal",
+        "carbohydrateContent": "0 g",
+        "cholesterolContent": "106 mg",
+        "fiberContent": "0 g",
+        "proteinContent": "34 g",
+        "saturatedFatContent": "11 g",
+        "sodiumContent": "708 mg",
+        "sugarContent": "0 g",
+        "fatContent": "26 g",
+        "servingSize": "Serves 4",
+        "unsaturatedFatContent": "0 g"
+    },
+    "prepTime": "PT20M",
+    "recipeCategory": [],
+    "recipeCuisine": [
+        "American"
+    ],
+    "recipeIngredient": [
+        "2 (1 1/2– to 2-inch-thick) ribeye, strip, porterhouse, or T-bone steaks (about 1 pound/450g each), or 4 tenderloin steaks (6 to 8 ounces/170 to 225g each)",
+        "Kosher salt and freshly ground black pepper",
+        "4 sprigs thyme or rosemary (optional)",
+        "2 garlic cloves (optional)",
+        "2 shallots, thinly sliced (optional)",
+        "2 tablespoons (30ml) vegetable, canola, or rice bran oil (if pan-searing)",
+        "2 tablespoons (30g) butter (if pan-searing; optional)"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/DPpC3LYNfCQ4t9KcdQBZuJAHYiw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__04__Anova-Steak-Guide-Sous-Vide-Photos08-dropping-bag-76d4889a29664d239cc4c2fb1d9af2ad.jpg"
+                }
+            ],
+            "text": "Preheat a sous vide cooker to desired final temperature. (See note below for temperature and timing charts, or find the same charts here .) Season steaks generously with salt and pepper. Place in sous vide bags along with herbs, garlic, and shallots (if using) and distribute evenly. Seal bags and place in water bath for desired time according to charts."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To Finish in a Pan: Turn on your exhaust vents and open your windows. Remove steak from water bath and bag and carefully pat dry with paper towels. Add vegetable, canola, or rice bran oil to a heavy cast iron or stainless steel skillet, then place over the hottest burner you have and preheat skillet until it starts to smoke."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/paGoJJNXn5Xka5krpK4Pd5HkR90=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__04__Anova-Steak-Guide-Sous-Vide-Photos09-sear-0889e450ea4e4ce5baf8c8e86a25d598.jpg"
+                }
+            ],
+            "text": "Gently lay steak in skillet, using your fingers or a set of tongs. If desired, add a tablespoon of butter; for a cleaner-tasting sear, omit the butter at this stage."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/bCWoD5oQEcxIS3rdIYM3BK6u6_4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__04__Anova-Steak-Guide-Sous-Vide-Photos10-copy-flip-sear-9c10405ca8064484a65930d73df9c234.jpg"
+                }
+            ],
+            "text": "After 15 to 30 seconds, flip steak so that the second side comes into contact with the pan. Repeat, flipping steak every 15 to 30 seconds, until it has developed a nice brown sear, about 1 1/2 minutes total. If you did not add butter earlier, add butter to skillet about 30 seconds before steak is done for added richness. Serve steak immediately."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "To Finish on the Grill: Light one chimney full of charcoal. When all the charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/rAh1oppKtGrJy8EMJFZPyZZEnn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__08__20130523-smoked-ribeye-19-large-6f103a66a19643a5b0106c24e99b52bf.jpg"
+                }
+            ],
+            "text": "Remove steak from water bath and bag and carefully pat dry with paper towels. Place steak directly over hot side of grill and cook, turning every 15 to 30 seconds, until a deep, rich crust has formed, about 1 1/2 minutes total. If the fire threatens to flare up as the steak drips fat into it, suffocate the fire by closing the grill lid until the flames die out. Alternatively, transfer steak to cooler side of grill, using a set of long tongs, until flames subside. Do not allow steak to become engulfed in flames."
+        },
+        {
+            "@type": "HowToStep",
+            "image": [
+                {
+                    "@type": "ImageObject",
+                    "url": "https://www.seriouseats.com/thmb/KhroGi4iJoxmZA0vEr9SlxeKE0A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__04__Anova-Steak-Guide-Sous-Vide-Photos14-cooked-3ef408a6a02f438c8fb4f0302059fb18.jpg"
+                }
+            ],
+            "text": "Transfer cooked steak to a cutting board or serving platter and serve immediately."
+        }
+    ],
+    "recipeYield": "4",
+    "totalTime": "PT85M",
+    "review": [
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "mmckaibab"
+            },
+            "reviewBody": "I don't know if I'm missing the nuances of the sous vide technique, but I've been completely underwhelmed by the whole thing. My experiences cooking steak with the thing are all over the place and none of them as good at Kenji's reverse searing technique. And given how incredibly long it takes these things to cook, I've pretty much given up on the whole thing and my sous vide machine now sits at the bottom of my utility drawer."
+        },
+        {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mir Delisle Oldham"
+            },
+            "reviewBody": "I set my SV at 129F, hoping for a nice med-rare, it came out medium... It was still good, tender and such, but barely pink..."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Richard in Jax"
+            },
+            "reviewBody": "@ethanzbaker saturated fat is not all that specific a term. Most of them ( coconut, tallow, palm ) smoke at about 350 to 370 F. Canola smokes at 400 or so. But when you get right down to it, if searing in a \"ripping hot pan\" is what your up to everything other than motor oil is going to smoke. You can get close to 500 F with refined avocado oil so you could go that route. Ghee, a refined fat as well, will get to about 450 before it smokes but it tastes awful if you let it do so. \n\nWhen my group ( an amateur club of research scientists and med professionals ) did a searing project we found that refined olive oil was fine. But don't use too much of it. Traditionally when you sear you put a heavy pan on the fire, let it heat to medium heat , add oil and take it the rest of the way. We used a butane Coleman camping stove for heat. The pan easily got to 600 F in 5 minues ( we used both IR and thermocouple devices to measure that ) and then did a bunch of stuff. One of the things that jumped out was as soon as you put that meat on the pan the surface temp of the pan dropped about 200 degrees. Sometimes more. That slowed searing and forced longer contact times which allowed heat to penetrate to deeper depths. Ungood. So we made a pan out of 3/4 inch a30 steel ( it welds nicely ) and that helped stopped the temp drop. It got to 600 in about 7 minutes. The method was: Sous Vide at 120 F for 1.5 hours. Pat dry and put in a precise oven at 120 degrees ( a lab thing called a hybridization oven ) with ultra convection. That dried the meat's surface nicely in about 10 minutes. Plunge the meat into refined olive oil ( smoked ) and then put it in that thick pan. Flip Q 15 seconds with a 5 second reheat break between flips. Worked well and smoked and spattered like hell. So we made a sheet metal channel to block the spatter and channel the smoke to the hood. Other things that help: Real vacuum. The FoodSaver things are OK but an industrial vac creates some hydro-static resistance against juice loss. 1/8 inch SS plates on the top and bottom of the steak prior to vacuum yielded a glass flat surface for searing. It worked well. I haven't done it since. I sous vide with a Foodsaver evacuated bag and sear with olive oil in a stainless steel pan or on a yakatori grill. I quit worrying about a \"grey line\". I eat the steak and don't photograph it for the living room wall. You need a pretty thick line to taste it and no matter what method you use properly that should not be the case. If it's a problem get a bolder wine to drink with the meat."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Charles Nordlander"
+            },
+            "reviewBody": "I love sous vide but not for steak, at least not well-marbled prime strip, porterhouse or ribeye steaks. The problem is pretty simple: fat doesn't render at the sous vide temp for medium rare. And a sear before, after or both doesn't solve the problem either. So sure, it's the perfect level of doneness, but the fat marbling hasn't rendered into the meat, so there's loss of flavor and--especially with a fattier ribeye--the unpleasant eating of pure fat that's still in fairly solid form. If there's a successful way to sous vide well-marbled steaks to medium rare doneness, it has escaped me so far, so it's reverse sear for me."
+        },
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "DCStrangler"
+            },
+            "reviewBody": "In another article you mention you should salt your steaks for 3 minutes, then grill, or more than 40 minutes than grill. If you opt to season after sous vide, do these rules still apply?"
+        }
+    ],
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://www.seriouseats.com/sous-vide-steaks-recipe",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/sous-vide-recipes-5117306",
+                        "name": "Sous Vide"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/sous-vide-beef-recipes-5117305",
+                        "name": "Sous Vide Beef"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://www.seriouseats.com/sous-vide-steaks-recipe",
+                        "name": "Sous Vide Steaks"
+                    }
+                }
+            ]
+        }
+    },
+    "about": []
+}

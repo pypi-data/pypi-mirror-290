@@ -1,0 +1,117 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "@id": "https://www.tasteofhome.com/recipes/strawberry-cheesecake-pancakes/",
+    "name": "Strawberry Cheesecake Pancakes",
+    "datePublished": "2018-01-01",
+    "dateModified": "2022-02-10",
+    "prepTime": "PT40M",
+    "cookTime": "PT5M",
+    "totalTime": "PT45M",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Strawberry-Cheesecake-Pancakes_EXPS_BMZ19_138301_C12_04_2b-14.jpg",
+        "height": 1200,
+        "width": 1200
+    },
+    "recipeCategory": [],
+    "description": "More of a dessert than breakfast food, these luscious pancakes really know how to showcase the darlings of summertime—strawberries! The pancakes, sauce and cream cheese filling all feature fresh ripe berries. —Shirley Warren, Thiensville, Wisconsin",
+    "recipeIngredient": [
+        "6 ounces cream cheese, softened",
+        "1 tablespoon sugar",
+        "1/2 cup crushed strawberries",
+        "PANCAKES:",
+        "2 cups all-purpose flour",
+        "1/4 cup sugar",
+        "4 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "2 large eggs, room temperature",
+        "1-1/2 cups 2% milk",
+        "1 cup sour cream",
+        "1/3 cup butter, melted",
+        "1 cup chopped fresh strawberries",
+        "SAUCE:",
+        "3 cups crushed strawberries",
+        "1/4 cup seedless strawberry jam",
+        "1/4 cup water"
+    ],
+    "recipeInstructions": [
+        {
+            "@type": "HowToStep",
+            "text": "In a small bowl, beat cream cheese and sugar until smooth; stir in strawberries. Chill until serving."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "In a large bowl, combine the flour, sugar, baking powder and salt. Combine the eggs, milk, sour cream and butter. Stir into dry ingredients just until moistened. Fold in strawberries."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "Pour batter by 1/4 cupfuls onto a greased hot griddle; turn when bubbles form on top. Cook until the second side is golden brown."
+        },
+        {
+            "@type": "HowToStep",
+            "text": "For sauce, in a small saucepan, combine the strawberries, jam and water; heat through. Spread cream cheese mixture over pancakes; top with sauce. (Refrigerate remaining sauce for another use.)"
+        }
+    ],
+    "recipeYield": "20 pancakes (3/4 cup spread and 3 cups sauce).",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 335 calories",
+        "fatContent": "18g fat (11g saturated fat)",
+        "cholesterolContent": "96mg cholesterol",
+        "sodiumContent": "413mg sodium",
+        "carbohydrateContent": "35g carbohydrate (14g sugars",
+        "fiberContent": "2g fiber)",
+        "proteinContent": "8g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 2,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2021-05-17",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "Jessica046"
+            },
+            "reviewBody": "Very yummy",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "datePublished": "2014-04-15",
+            "author": {
+                "@context": "http://schema.org/",
+                "@type": "Person",
+                "name": "jleague22"
+            },
+            "reviewBody": "This is a yummy recipe made it just like it says except the sauce was a little thin but I just added some cornstarch to thicken it up. My kids and husband LOVED this recipe!! Will be making this again :)",
+            "reviewRating": {
+                "@context": "http://schema.org/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ]
+}
