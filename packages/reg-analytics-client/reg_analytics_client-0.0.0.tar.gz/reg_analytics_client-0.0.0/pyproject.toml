@@ -1,0 +1,101 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reg-analytics-client"
+description = "reg-analytics-client"
+authors = [
+    {name = "belegnar", email="belegnar@belegnar.ru"}
+]
+dynamic = ["version"]
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27.0",
+    "marshmallow-recipe>=0.0.39",
+]
+classifiers = [
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Operating System :: OS Independent",
+        "Development Status :: 5 - Production/Stable",
+]
+license = { file = "reg_analytics_client/LICENSE" }
+readme = "reg_analytics_client/README.md"
+
+[project.urls]
+Homepage = "https://reg.konvent.ru"
+
+[tool.setuptools]
+packages = ["reg_analytics_client"]
+
+[tool.setuptools.package-data]
+reg_analytics_client = ["py.typed", "VERSION"]
+
+[tool.setuptools.dynamic]
+version = { file = ["reg_analytics_client/VERSION"] }
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+ignore = "F901,E704"
+
+[tool.pytest.ini_options]
+norecursedirs = [".git", ".venv"]
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+log_cli = true
+log_cli_level = "DEBUG"
+addopts = "--disable-warnings --maxfail 5"
+asyncio_mode = "auto"
+
+[tool.pyright]
+include = ["reg_analytics/", "tests/"]
+pythonVersion = "3.12"
+pythonPlatform = "All"
+stubPath = ""
+typeCheckingMode = "strict"
+useLibraryCodeForTypes = true
+reportPrivateImportUsage = false
+reportUnknownVariableType = false
+reportUnknownMemberType = false
+reportUnknownArgumentType = false
+reportUnknownParameterType = false
+reportUnusedImport = false
+reportMissingTypeArgument = false
+
+[tool.isort]
+combine_as_imports = true
+default_section = "THIRDPARTY"
+include_trailing_comma = true
+use_parentheses = true
+known_first_party = "reg_analytics"
+known_third_party = ["reg_shared_lib"]
+line_length = 120
+multi_line_output = 3
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if t.TYPE_CHECKING",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "@abc.abstractmethod",
+    "pass",
+    "if __name__ == .__main__.:",
+]
+
+[tool.coverage.run]
+source = ["reg_analytics"]
+omit = [
+    "tests/*",
+    "migrations/*",
+]
