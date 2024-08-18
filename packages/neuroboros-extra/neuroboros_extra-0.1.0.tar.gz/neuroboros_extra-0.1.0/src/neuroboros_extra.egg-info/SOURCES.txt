@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/nb_extra/__init__.py
+src/nb_extra/_version.py
+src/nb_extra/surface/__init__.py
+src/nb_extra/surface/_barycentric.c
+src/nb_extra/surface/_barycentric.pyx
+src/nb_extra/surface/barycentric.py
+src/neuroboros_extra.egg-info/PKG-INFO
+src/neuroboros_extra.egg-info/SOURCES.txt
+src/neuroboros_extra.egg-info/dependency_links.txt
+src/neuroboros_extra.egg-info/requires.txt
+src/neuroboros_extra.egg-info/top_level.txt

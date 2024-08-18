@@ -1,0 +1,47 @@
+[build-system]
+requires = [
+  "setuptools>=61.0",
+  "setuptools_scm[toml]>=6.2",
+  "Cython",
+  "numpy",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuroboros-extra"
+dynamic = ["version"]
+authors = [
+  { name="Ma Feilong", email="mafeilong@gmail.com" },
+]
+description = "Cython extensions for neuroboros"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.urls]
+"Homepage" = "https://neuroboros.github.io/"
+"Bug Tracker" = "https://github.com/neuroboros/neuroboros-extra/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/nb_extra/_version.py"
+
+[tool.codespell]
+skip = '.git,*.pdf,*.svg'
+
+[tool.isort]
+profile = "black"
