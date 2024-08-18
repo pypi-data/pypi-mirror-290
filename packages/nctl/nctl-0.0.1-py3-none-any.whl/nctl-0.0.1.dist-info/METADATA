@@ -1,0 +1,205 @@
+Metadata-Version: 2.1
+Name: nctl
+Version: 0.0.1
+Summary: Fuses ngrok and CloudFront offering a fully automated solution.
+Author-email: Vignesh Rao <svignesh1793@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 TheVickypedia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/thevickypedia/nctl
+Project-URL: Docs, https://thevickypedia.github.io/nctl
+Project-URL: Source, https://github.com/thevickypedia/nctl
+Project-URL: Bug Tracker, https://github.com/thevickypedia/nctl/issues
+Project-URL: Release Notes, https://github.com/thevickypedia/nctl/blob/main/release_notes.rst
+Keywords: nctl,ngrok,cloudfront
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3==1.34.158
+Requires-Dist: botocore==1.34.158
+Requires-Dist: click==8.1.7
+Requires-Dist: pydantic==2.8.2
+Requires-Dist: pydantic-settings==2.4.0
+Requires-Dist: PyYaml==6.0.2
+Provides-Extra: dev
+Requires-Dist: sphinx==5.1.1; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: recommonmark; extra == "dev"
+Requires-Dist: gitverse; extra == "dev"
+
+# NCTL
+Fuses ngrok and CloudFront offering a fully automated solution
+
+![Python][label-pyversion]
+
+**Platform Supported**
+
+![Platform][label-platform]
+
+**Deployments**
+
+[![pages][label-actions-pages]][gha_pages]
+[![pypi][label-actions-pypi]][gha_pypi]
+[![markdown][label-actions-markdown]][gha_md_valid]
+
+[![Pypi][label-pypi]][pypi]
+[![Pypi-format][label-pypi-format]][pypi-files]
+[![Pypi-status][label-pypi-status]][pypi]
+
+## Kick off
+
+**Recommendations**
+
+- Install `python` [3.10] or [3.11]
+- Use a dedicated [virtual environment]
+
+**Install nctl**
+```shell
+python -m pip install nctl
+```
+
+**Initiate - IDE**
+```python
+import nctl
+
+
+if __name__ == '__main__':
+    nctl.tunnel()
+```
+
+**Initiate - CLI**
+```shell
+nctl start
+```
+
+> Use `nctl --help` for usage instructions.
+
+## Environment Variables
+
+<details>
+<summary><strong>Sourcing environment variables from an env file</strong></summary>
+
+> _By default, `nctl` will look for a `.env` file in the current working directory._<br>
+
+</details>
+
+- **PORT** - Port number to expose using ngrok.
+- **HOST** - Hostname of the server that has to be exposed.
+<br><br>
+
+- **NGROK_AUTH** - Auth token for ngrok.
+- **NGROK_CONFIG** - Ngrok configuration filepath. Auto-created when auth token is specified.
+<br><br>
+
+- **AWS_PROFILE_NAME** - AWS profile name.
+- **AWS_ACCESS_KEY_ID** - AWS access key ID.
+- **AWS_SECRET_ACCESS_KEY** - AWS secret key.
+- **AWS_REGION_NAME** - AWS region name.
+- **DISTRIBUTION_ID** - Cloudfront distribution ID. Required to update an existing distribution.
+- **DISTRIBUTION_CONFIG** - Cloudfront distribution config filepath. Required to create a new distribution.
+<br><br>
+
+- **DEBUG** - Boolean flag to enable debug level logging.
+- **LOG** - Simple option to switch between `stdout` and `file` logging.
+- **LOG_CONFIG** - Custom logging configuration. Accepts `.yaml`, `.json` and `.ini` filetypes.
+
+## Coding Standards
+Docstring format: [`Google`][google-docs] <br>
+Styling conventions: [`PEP 8`][pep8] and [`isort`][isort]
+
+## [Release Notes][release-notes]
+**Requirement**
+```shell
+python -m pip install gitverse
+```
+
+**Usage**
+```shell
+gitverse-release reverse -f release_notes.rst -t 'Release Notes'
+```
+
+## Linting
+`pre-commit` will ensure linting, run pytest, generate runbook & release notes, and validate hyperlinks in ALL
+markdown files (including Wiki pages)
+
+**Requirement**
+```shell
+python -m pip install sphinx==5.1.1 pre-commit recommonmark
+```
+
+**Usage**
+```shell
+pre-commit run --all-files
+```
+
+## Pypi Package
+[![pypi-module][label-pypi-package]][pypi-repo]
+
+[https://pypi.org/project/nctl/][pypi]
+
+## Runbook
+[![made-with-sphinx-doc][label-sphinx-doc]][sphinx]
+
+[https://thevickypedia.github.io/nctl/][runbook]
+
+## License & copyright
+
+&copy; Vignesh Rao
+
+Licensed under the [MIT License][license]
+
+[//]: # (Labels)
+
+[label-actions-markdown]: https://github.com/thevickypedia/nctl/actions/workflows/markdown.yaml/badge.svg
+[label-pypi-package]: https://img.shields.io/badge/Pypi%20Package-nctl-blue?style=for-the-badge&logo=Python
+[label-sphinx-doc]: https://img.shields.io/badge/Made%20with-Sphinx-blue?style=for-the-badge&logo=Sphinx
+[label-pyversion]: https://img.shields.io/badge/python-3.10%20%7C%203.11-blue
+[label-platform]: https://img.shields.io/badge/Platform-Linux|macOS|Windows-1f425f.svg
+[label-actions-pages]: https://github.com/thevickypedia/nctl/actions/workflows/pages/pages-build-deployment/badge.svg
+[label-actions-pypi]: https://github.com/thevickypedia/nctl/actions/workflows/python-publish.yaml/badge.svg
+[label-pypi]: https://img.shields.io/pypi/v/nctl
+[label-pypi-format]: https://img.shields.io/pypi/format/nctl
+[label-pypi-status]: https://img.shields.io/pypi/status/nctl
+
+[3.10]: https://docs.python.org/3/whatsnew/3.10.html
+[3.11]: https://docs.python.org/3/whatsnew/3.11.html
+[virtual environment]: https://docs.python.org/3/tutorial/venv.html
+[release-notes]: https://github.com/thevickypedia/nctl/blob/main/release_notes.rst
+[gha_pages]: https://github.com/thevickypedia/nctl/actions/workflows/pages/pages-build-deployment
+[gha_pypi]: https://github.com/thevickypedia/nctl/actions/workflows/python-publish.yaml
+[gha_md_valid]: https://github.com/thevickypedia/nctl/actions/workflows/markdown.yaml
+[google-docs]: https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings
+[pep8]: https://www.python.org/dev/peps/pep-0008/
+[isort]: https://pycqa.github.io/isort/
+[sphinx]: https://www.sphinx-doc.org/en/master/man/sphinx-autogen.html
+[pypi]: https://pypi.org/project/nctl
+[pypi-files]: https://pypi.org/project/nctl/#files
+[pypi-repo]: https://packaging.python.org/tutorials/packaging-projects/
+[license]: https://github.com/thevickypedia/nctl/blob/main/LICENSE
+[runbook]: https://thevickypedia.github.io/nctl/
