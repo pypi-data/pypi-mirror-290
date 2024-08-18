@@ -1,0 +1,36 @@
+from moviepy.editor import vfx, VideoFileClip, CompositeVideoClip, ImageClip
+from typing import Union
+
+class FadeInMoviepyEffect:
+    """
+    This effect will make the video appear progressively
+    lasting the provided 'duration' time or the whole 
+    clip time duration if None 'duration' provided.
+    """
+    __MOVIEPY_EFFECT_NAME = 'fadein'
+    __parameters = {}
+
+    def __init__(self, clip: Union[VideoFileClip, CompositeVideoClip, ImageClip], duration = None):
+        self.__clip = clip
+        self.__parameters['duration'] = duration
+
+    def __get_moviepy_vfx_effect(self):
+        return getattr(vfx, self.__MOVIEPY_EFFECT_NAME, None)
+    
+    def __process_parameters(self):
+        if not self.__parameters['duration']:
+            self.__parameters['duration'] = self.__clip.duration
+        else:
+            if self.__parameters['duration'] > self.__clip.duration:
+                self.__parameters['duration'] = self.__clip.duration
+            elif self.__parameters['duration'] <= 0:
+                self.__parameters['duration'] = 0
+
+        return self.__parameters
+    
+    def apply(self):
+        """
+        Applies the effect to the provided 'clip' and with the also
+        provided parameters needed by this effect.
+        """
+        return self.__clip.fx(self.__get_moviepy_vfx_effect(), **self.__process_parameters())
