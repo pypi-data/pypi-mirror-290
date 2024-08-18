@@ -1,0 +1,8 @@
+Dockerfile.builder
+build/
+*.so
+dist/
+*.egg-info
+__pycache__/
+build_and_upload_wheels.sh
+.eggs
