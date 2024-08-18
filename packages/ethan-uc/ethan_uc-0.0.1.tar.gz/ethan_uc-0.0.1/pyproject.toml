@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ethan-uc"
+version = "0.0.1"
+authors = [
+  { name="Eatham", email="ethan@grobin.com.au" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://codeberg.org/eatham/euc"
+Issues = "https://codeberg.org/eatham/euc/issues"
