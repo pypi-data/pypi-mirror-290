@@ -1,0 +1,1 @@
+SAD_MOMENT_GOOGLE_DRIVE_DOWNLOAD_URL = 'https://drive.google.com/file/d/17rw299LIMTEciS7WDgFbIEZ7DckpHsC7/view?usp=sharing'
