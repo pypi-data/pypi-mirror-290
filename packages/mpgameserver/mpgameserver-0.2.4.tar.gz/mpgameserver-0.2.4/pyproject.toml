@@ -1,0 +1,41 @@
+[project]
+name = "mpgameserver"
+version = "0.2.4"
+description="Python Multiplayer Game Server"
+requires-python = ">=3.8"
+authors = [
+    {name = "Nick Setzer", email = "nsetzer@users.noreply.github.com"},
+]
+keywords=["PYGAME", "MULTIPLAYER", "UDP", "SERVER"]
+readme = "README.md"
+dependencies = [
+    "twisted>=24.3.0",
+    "pyOpenSSL>=24.1.0",
+    "service_identity>=24.1.0",
+    "cryptography>=42.0.7",
+]
+
+[project.optional-dependencies]
+pygame = [
+    "pygame>=2.5.2",
+    "pillow>=10.3.0",
+]
+dev = [
+    "grip>=4.5.2",
+    "coverage>=5.3"
+]
+
+[build-system]
+requires = [
+  "setuptools >= 66.1.1",
+]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+mpcli= "mpgameserver.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mpgameserver", "mpgameserver.pylon"]
+exclude = []
+namespaces = false

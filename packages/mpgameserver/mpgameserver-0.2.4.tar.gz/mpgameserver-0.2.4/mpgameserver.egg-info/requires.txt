@@ -1,0 +1,12 @@
+twisted>=24.3.0
+pyOpenSSL>=24.1.0
+service_identity>=24.1.0
+cryptography>=42.0.7
+
+[dev]
+grip>=4.5.2
+coverage>=5.3
+
+[pygame]
+pygame>=2.5.2
+pillow>=10.3.0
