@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rapidai
+Version: 0.0.2
+Summary: wrapper library on top of PyTorch
+Home-page: https://github.com/m-gopichand/rapidai
+Author: Gopichand Madala
+Author-email: m.gcs143@outlook.com
+License: Apache Software License 2.0
+Keywords: nbdev jupyter notebook python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+
+# rapidai
+RAPID AI wrapper library on top of PyTorch,  enabling seamless training workflows.
